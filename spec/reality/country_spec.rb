@@ -1,7 +1,7 @@
 module Reality
   describe :country, :vcr do
     describe 'existing country' do
-      subject{Reality.country('Argentina')}
+      subject(:country){Reality.country('Argentina')}
 
       it{should be_a(Reality::Country)}
 
@@ -11,6 +11,7 @@ module Reality
       end
 
       describe 'links' do
+        its(:'capital.to_s'){should == 'Buenos Aires'}
       end
 
       describe 'measures' do

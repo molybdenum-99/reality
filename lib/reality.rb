@@ -7,11 +7,15 @@ module Reality
     end
 
     def name
-      @page.title
+      page.title
     end
 
     def long_name
-      @page.infobox.fetch('conventional_long_name').text
+      infobox.fetch('conventional_long_name').text
+    end
+
+    def capital
+      infobox.fetch('capital').lookup(:Wikilink).first
     end
 
     def to_s
@@ -21,10 +25,20 @@ module Reality
     def inspect
       "#<#{self.class}(#{name})>"
     end
+
+    private
+
+    attr_reader :page
+
+    def infobox
+      page.infobox
+    end
   end
 
   def Reality.country(name)
     page = wp.get(name)
+    # FIXME: not very reliable, as some fictional countries, aliances
+    #   and country groups also have this infobox. Or maybe it is acceptable?..
     page.templates(name: 'Infobox country').empty? ? nil : Country.new(page)
   end
 
