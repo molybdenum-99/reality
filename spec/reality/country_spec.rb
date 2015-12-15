@@ -8,10 +8,22 @@ module Reality
       describe 'basics' do
         its(:name){should == 'Argentina'}
         its(:long_name){should == 'Argentine Republic'}
+        
+        its(:tld){should == '.ar'}
+        its(:calling_code){should == '+54'}
+        its(:utc_offset){should == -3}
       end
 
       describe 'links' do
         its(:'capital.to_s'){should == 'Buenos Aires'}
+
+        # TODO: "Spanish language" and "Argentine peso", in fact
+        #   or even Language(Spanish), but Currency(Argentine peso | $)
+        it 'should have languages' do
+          expect(country.languages.map(&:to_s)).to eq ['Spanish']
+        end
+        its(:'currency.to_s'){should == 'Peso'}
+
       end
 
       describe 'measures' do

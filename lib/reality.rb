@@ -18,6 +18,26 @@ module Reality
       infobox.fetch('capital').lookup(:Wikilink).first
     end
 
+    def languages
+      infobox.fetch('official_languages').lookup(:Wikilink)
+    end
+
+    def tld
+      infobox.fetch('cctld').text # FIXME: for Ukrane will be {{unbulleted list |[[.ua]] |[[.укр]]}}
+    end
+
+    def calling_code
+      infobox.fetch('calling_code').text
+    end
+
+    def utc_offset
+      infobox.fetch('utc_offset').text.sub('−', '-').to_i
+    end
+
+    def currency
+      infobox.fetch('currency').lookup(:Wikilink).first
+    end
+
     def to_s
       name
     end
