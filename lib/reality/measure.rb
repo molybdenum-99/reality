@@ -30,4 +30,8 @@ module Reality
       end
     end
   end
+
+  def Reality.Measure(*arg)
+    Measure.new(*arg)
+  end
 end

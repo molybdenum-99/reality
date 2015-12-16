@@ -1,7 +1,13 @@
 module Reality
-  describe :country, :vcr do
+  describe :country do
     describe 'existing country' do
-      subject(:country){Reality.country('Argentina')}
+      before(:all){
+        VCR.use_cassette('country-Argentina'){
+          @country = Reality.country('Argentina') # parsed only once - faster tests
+        }
+      }
+      
+      subject(:country){@country}
 
       it{should be_a(Reality::Country)}
 
@@ -22,11 +28,21 @@ module Reality
         it 'should have languages' do
           expect(country.languages.map(&:to_s)).to eq ['Spanish']
         end
+        
         its(:'currency.to_s'){should == 'Peso'}
 
+        it 'should parse leaders' do
+          leaders = country.leaders
+          expect(leaders).to be_a(Hash)
+          expect(leaders.keys).to contain_exactly('President', 'Vice-president')
+          expect(leaders['President'].to_s).to eq 'Mauricio Macri'
+          expect(leaders['Vice-president'].to_s).to eq 'Gabriela Michetti'
+        end
       end
 
       describe 'measures' do
+        its(:area){should == Reality::Measure(2780400, 'km²')}
+        its(:population){should == Reality::Measure(43417000, 'person')}
       end
 
       describe 'geo' do
@@ -41,7 +57,7 @@ module Reality
       end
     end
 
-    describe 'non-existing country' do
+    describe 'non-existing country', :vcr do
       subject{Reality.country('Narnia')}
 
       it{should be_nil}
