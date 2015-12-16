@@ -1,6 +1,10 @@
 require 'infoboxer'
 
 module Reality
+  %w[measure].each do |mod|
+    require_relative "reality/#{mod}"
+  end
+  
   class Country
     def initialize(page)
       @page = page
