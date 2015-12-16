@@ -57,10 +57,18 @@ module Reality
       end
     end
 
-    describe 'non-existing country', :vcr do
-      subject{Reality.country('Narnia')}
+    describe 'not a country', :vcr do
+      context 'existing non-country article' do
+        subject{Reality.country('Narnia')}
 
-      it{should be_nil}
+        it{should be_nil}
+      end
+
+      context 'non-existing article' do
+        subject{Reality.country('It is definitely not existing')}
+
+        it{should be_nil}
+      end
     end
   end
 end

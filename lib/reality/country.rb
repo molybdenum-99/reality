@@ -68,7 +68,7 @@ module Reality
   end
 
   def Reality.country(name)
-    page = wp.get(name)
+    page = wp.get(name) or return nil
     # FIXME: not very reliable, as some fictional countries, aliances
     #   and country groups also have this infobox. Or maybe it is acceptable?..
     page.templates(name: 'Infobox country').empty? ? nil : Country.new(page)
