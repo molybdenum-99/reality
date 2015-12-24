@@ -58,6 +58,23 @@ module Reality
       describe 'service' do
         its(:to_s){should == 'Argentina'}
         its(:inspect){should == '#<Reality::Country(Argentina)>'}
+        its(:to_h){should == {
+          continent: 'South America',
+          name: 'Argentina',
+          long_name: 'Argentine Republic',
+          tld: '.ar',
+          calling_code: '+54',
+          utc_offset: -3,
+          capital: 'Buenos Aires',
+          languages: ['Spanish language'],
+          currency: 'Argentine peso',
+          leaders: {
+              'President' => 'Mauricio Macri',
+              'Vice-president' => 'Gabriela Michetti'
+            },
+          area: 2780400,
+          population: 43417000
+        }}
       end
     end
 

@@ -62,9 +62,23 @@ module Reality
       "#<#{self.class}(#{name})>"
     end
 
+    PROPERTIES = %i[
+                    continent name long_name
+                    tld calling_code utc_offset
+                    capital languages currency
+                    leaders area population
+                  ]
+
+    def to_h
+      PROPERTIES.
+        map{|prop| [prop, to_simple_type(send(prop))]  }.
+        reject{|prop, val| !val || val.respond_to?(:empty?) && val.empty?}.
+        to_h
+    end
+
     class << self
       def countries_by_continents
-        @countries_by_continents ||= Infoboxer.wp.
+        @countries_by_continents ||= Reality.wp.
           get('List of countries by continent').
           sections.first.
           sections.map{|s|
@@ -83,6 +97,25 @@ module Reality
 
     def infobox
       page.infobox
+    end
+
+    def to_simple_type(val)
+      case val
+      when nil, Numeric, String, Symbol
+        val
+      when Array
+        val.map{|v| to_simple_type(v)}
+      when Hash
+        val.map{|k, v| [to_simple_type(k), to_simple_type(v)]}.to_h
+      when Infoboxer::Tree::Wikilink
+        val.link
+      when Infoboxer::Tree::Node
+        val.text_
+      when Reality::Measure
+        val.amount
+      else
+        fail ArgumentError, "Non-coercible value #{val.class}"
+      end
     end
   end
 
