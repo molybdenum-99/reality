@@ -1,5 +1,7 @@
 module Reality
   class Measure
+    %w[unit].each{|mod| require_relative "measure/#{mod}"}
+    
     attr_reader :amount, :unit
     
     def initialize(amount, unit)
