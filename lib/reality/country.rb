@@ -50,12 +50,31 @@ module Reality
       titles.zip(names).to_h
     end
 
+    def continent
+      self.class.countries_by_continents[page.title]
+    end
+
     def to_s
       name
     end
 
     def inspect
       "#<#{self.class}(#{name})>"
+    end
+
+    class << self
+      def countries_by_continents
+        @countries_by_continents ||= Infoboxer.wp.
+          get('List of countries by continent').
+          sections.first.
+          sections.map{|s|
+            continent = s.heading.text_
+            s.tables.first.
+              lookup(:Wikilink, :bold?).map(&:link).
+              map{|country| [country, continent]}
+          }.flatten(1).
+          to_h
+      end
     end
 
     private

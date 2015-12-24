@@ -45,6 +45,10 @@ module Reality
         its(:population){should == Reality::Measure(43417000, 'person')}
       end
 
+      describe 'external data', :vcr do
+        its(:continent){should == 'South America'}
+      end
+
       describe 'geo' do
       end
 
