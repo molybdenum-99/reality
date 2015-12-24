@@ -5,13 +5,56 @@ module Reality
     attr_reader :amount, :unit
     
     def initialize(amount, unit)
-      @amount, @unit = amount, unit
+      @amount, @unit = amount, Unit.parse(unit)
     end
 
     def <=>(other)
       check_compatibility!(other)
       
       amount <=> other.amount
+    end
+
+    def -@
+      self.class.new(-amount, unit)
+    end
+
+    def +(other)
+      check_compatibility!(other)
+
+      self.class.new(amount + other.amount, unit)
+    end
+
+    def -(other)
+      self + (-other)
+    end
+
+    def *(other)
+      case other
+      when Numeric
+        self.class.new(amount * other, unit)
+      when self.class
+        self.class.new(amount * other.amount, unit * other.unit)
+      else
+        fail ArgumentError, "Can't multiply by #{other.class}"
+      end
+    end
+
+    def /(other)
+      case other
+      when Numeric
+        self.class.new(amount / other, unit)
+      when self.class
+        un = unit / other.unit
+        un.scalar? ?
+          amount / other.amount :
+          self.class.new(amount / other.amount, un)
+      else
+        fail ArgumentError, "Can't divide by #{other.class}"
+      end
+    end
+
+    def **(num)
+      (num-1).times.inject(self){|res| res*self}
     end
 
     include Comparable

@@ -4,7 +4,7 @@ module Reality
       subject{Measure.new(1, 'm')}
 
       its(:amount){should == 1}
-      its(:unit){should == 'm'}
+      its(:unit){should == Measure::Unit.new(['m', 1])}
     end
 
     describe 'compare' do
@@ -39,9 +39,37 @@ module Reality
     end
 
     describe 'sums' do
+      subject{Measure.new(5, 'm')}
+
+      it 'sums compatible' do
+        expect(subject + Measure.new(3, 'm')).to eq Measure.new(8, 'm')
+        expect(subject - Measure.new(3, 'm')).to eq Measure.new(2, 'm')
+      end
+
+      it 'raises on incompatible' do
+        expect{subject + Measure.new(3, 's')}.to raise_error(ArgumentError)
+      end
     end
 
     describe 'multiplication' do
+      let(:m){Measure.new(8, 'm')}
+      let(:s){Measure.new(2, 's')}
+
+      it 'muls' do
+        expect(m * 10).to eq Measure.new(80, 'm')
+        expect(m * m).to eq Measure.new(64, 'm²')
+        expect(m * s).to eq Measure.new(16, 'm·s')
+      end
+
+      it 'divs' do
+        expect(m / 4).to eq Measure.new(2, 'm')
+        expect(m / m).to eq 1
+        expect(m / s).to eq Measure.new(4, 'm/s')
+      end
+
+      it 'pows' do
+        expect(m ** 2).to eq Measure.new(64, 'm²')
+      end
     end
 
     describe 'output' do

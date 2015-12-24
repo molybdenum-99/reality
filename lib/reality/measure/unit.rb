@@ -13,6 +13,8 @@ module Reality
         OP_REGEX = /[\/*·]/
 
         def parse(str)
+          return str if str.kind_of?(Unit)
+          
           scanner = StringScanner.new(str)
           denom = false
           units = []
@@ -57,6 +59,10 @@ module Reality
 
       def ==(other)
         other.class == self.class && other.components == self.components
+      end
+
+      def scalar?
+        components.empty?
       end
 
       def -@

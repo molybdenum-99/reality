@@ -95,6 +95,7 @@ module Reality
         m = Measure::Unit.new(['m', 1])
         s = Measure::Unit.new(['s', 1])
         expect(m / s).to eq Measure::Unit.new(['m', 1], ['s', -1])
+        expect(m / m).to be_scalar
       end
     end
 
