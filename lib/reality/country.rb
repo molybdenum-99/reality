@@ -51,7 +51,7 @@ module Reality
     end
 
     def continent
-      self.class.countries_by_continents[page.title]
+      self.class.by_continents[page.title]
     end
 
     def to_s
@@ -72,13 +72,13 @@ module Reality
     def to_h
       PROPERTIES.
         map{|prop| [prop, to_simple_type(send(prop))]  }.
-        reject{|prop, val| !val || val.respond_to?(:empty?) && val.empty?}.
+        #reject{|prop, val| !val || val.respond_to?(:empty?) && val.empty?}.
         to_h
     end
 
     class << self
-      def countries_by_continents
-        @countries_by_continents ||= Reality.wp.
+      def by_continents
+        @by_continents ||= Reality.wp.
           get('List of countries by continent').
           sections.first.
           sections.map{|s|
@@ -124,6 +124,11 @@ module Reality
     # FIXME: not very reliable, as some fictional countries, aliances
     #   and country groups also have this infobox. Or maybe it is acceptable?..
     page.templates(name: 'Infobox country').empty? ? nil : Country.new(page)
+  end
+
+  def Reality.countries(*names)
+    names = Country.by_continents.keys if names.empty?
+    wp.get(*names).map{|page| Country.new(page)}
   end
 
   def Reality.wp

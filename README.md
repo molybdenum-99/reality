@@ -23,8 +23,8 @@ countries = Reality.countries
 countries.
   select{|c| c.continent == 'Africa'}.
   reject{|c| (c.gdp / c.population).amount > 10_000}.
-  map(:population).inject(:+)
-# => Reality::Measure( people)
+  map(:area).inject(:+)
+# => Reality::Measure( km²)
 ```
 
 Rough examples of what the library is supposed to do eventually, can be
