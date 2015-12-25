@@ -43,6 +43,37 @@ module Reality
         expect(country_with(
           '|cctld = {{unbulleted list | [[.by]] | [[.бел]]<ref>{{cite web |url=http://hoster.by/about/news/1985/#.VAHIlUPjHfI |archiveurl= |publisher=hoster.by |title=ICANN сообщает о выделении кириллического домена .БЕЛ для Республики Беларусь |accessdate=30 August 2014 |archivedate= }}</ref>}}'
           ).tlds).to eq ['.by', '.бел']
+        expect(country_with(
+          '|cctld = [[.in]] {{collapsible list|title = other TLDs|[[.ভাৰত]] |[[.ভারত]] |[[.ભારત]] |[[.भारत]] |[[.ਭਾਰਤ]] |[[.இந்தியா]] |[[.భారత్]] |[[بھارت.]] }}'
+          ).tlds).to include '.in'
+      end
+    end
+
+    context 'population' do
+      it 'parses' do
+        expect(country_with(
+          '|population_estimate = 43,417,000<ref>[http://esa.un.org/unpd/wpp/Publications/Files/Key_Findings_WPP_2015.pdf "United Nations population prospects"](PDF) 2015 revision</ref>'
+          ).population).to eq Reality::Measure(43_417_000, 'person')
+        expect(country_with(
+          "|population_estimate = \n|population_census = 24,383,301"
+          ).population).to eq Reality::Measure(24_383_301, 'person')
+      end
+    end
+
+    context 'currency' do
+      it 'parses' do
+        expect(country_with('|currency = [[Angolan kwanza|Kwanza]]').currency).
+          to eq Infoboxer::Tree::Wikilink.new('Angolan kwanza', Infoboxer::Tree::Text.new('Kwanza'))
+
+        expect(country_with(
+          '| currency = {{unbulleted list|[[Bhutanese ngultrum]] {{nowrap|([[ISO 4217|BTN]])}}|[[Indian Rupee]] {{nowrap|([[ISO 4217|INR]])}}}}'
+          ).currency).
+          to eq Infoboxer::Tree::Wikilink.new('Bhutanese ngultrum')
+
+        expect(country_with(
+          '| currency = {{unbulleted list|[[Bhutanese ngultrum]] {{nowrap|([[ISO 4217|BTN]])}}|[[Indian Rupee]] {{nowrap|([[ISO 4217|INR]])}}}}'
+          ).currencies).
+          to eq [Infoboxer::Tree::Wikilink.new('Bhutanese ngultrum'), Infoboxer::Tree::Wikilink.new('Indian Rupee')]
       end
     end
   end

@@ -25,11 +25,7 @@ module Reality
     end
 
     def tlds
-      src = infobox.fetch('cctld')
-      if tmpl = src.lookup(:Template, name: /list$/).first
-        src = tmpl.variables
-      end
-      src.lookup(:Wikilink).map(&:link)
+      infobox_links('cctld').map(&:link)
     end
 
     def calling_code
@@ -41,7 +37,11 @@ module Reality
     end
 
     def currency
-      infobox.fetch('currency').lookup(:Wikilink).first
+      currencies.first
+    end
+
+    def currencies
+      infobox_links('currency').reject{|l| l.link == 'ISO 4217'}
     end
 
     def area
@@ -49,7 +49,10 @@ module Reality
     end
 
     def population
-      Reality::Measure(infobox.fetch('population_estimate').text.gsub(',', '').to_i, 'person')
+      val = %w[population_estimate population_census].map{|var|
+        infobox.fetch(var).text.strip
+      }.reject(&:empty?).first
+      Reality::Measure(val.gsub(',', '').to_i, 'person')
     end
 
     def leaders
@@ -72,7 +75,7 @@ module Reality
 
     PROPERTIES = %i[
                     continent name long_name
-                    tld calling_code utc_offset
+                    tld tlds calling_code utc_offset
                     capital languages currency
                     leaders area population
                   ]
@@ -105,6 +108,15 @@ module Reality
 
     def infobox
       page.infobox
+    end
+
+    def infobox_links(varname)
+      src = infobox.fetch(varname)
+      if tmpl = src.lookup(:Template, name: /list$/).first
+        # values could be both inside and outside list, see India's cctld value
+        src = Infoboxer::Tree::Nodes[src, tmpl.variables] 
+      end
+      src.lookup(:Wikilink)
     end
 
     def to_simple_type(val)
