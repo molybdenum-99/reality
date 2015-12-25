@@ -21,7 +21,15 @@ module Reality
     end
 
     def tld
-      infobox.fetch('cctld').text # FIXME: for Ukrane will be {{unbulleted list |[[.ua]] |[[.укр]]}}
+      tlds.first
+    end
+
+    def tlds
+      src = infobox.fetch('cctld')
+      if tmpl = src.lookup(:Template, name: /list$/).first
+        src = tmpl.variables
+      end
+      src.lookup(:Wikilink).map(&:link)
     end
 
     def calling_code

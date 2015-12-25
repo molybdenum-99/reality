@@ -1,6 +1,8 @@
 require 'infoboxer'
 
 module Reality
+  require_relative 'reality/infoboxer_templates'
+  
   # basic functionality
   %w[measure].each do |mod|
     require_relative "reality/#{mod}"
