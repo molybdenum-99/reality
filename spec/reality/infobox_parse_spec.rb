@@ -24,57 +24,71 @@ module Reality
       Country.new(page)
     end
 
-    context 'cctld' do
-      it 'parses' do
-        expect(country_with('|cctld= [[.ar]]').tld).
-          to eq '.ar'
-        expect(country_with('|cctld= [[.be]]<sup>c</sup>').tld).
-          to eq '.be'
-        expect(country_with('| cctld = [[.am]] [[.հայ]]').tld).
-          to eq '.am'
-        expect(country_with('| cctld = [[.am]] [[.հայ]]').tlds).
-          to eq ['.am', '.հայ']
-        expect(country_with('|cctld = {{unbulleted list |[[.ua]] |[[.укр]]}}').tlds).
-          to eq ['.ua', '.укр']
-        expect(country_with('| cctld = [[.bd]]<br />{{lang|bn|[[.bangla|.বাংলা]]}}').tlds).
-          to eq ['.bd', '.bangla']
-        expect(country_with("|cctld = [[.dz]]<br>''الجزائر.''").tld).
-          to eq '.dz' # FIXME: ignoring second one for now
-        expect(country_with(
-          '|cctld = {{unbulleted list | [[.by]] | [[.бел]]<ref>{{cite web |url=http://hoster.by/about/news/1985/#.VAHIlUPjHfI |archiveurl= |publisher=hoster.by |title=ICANN сообщает о выделении кириллического домена .БЕЛ для Республики Беларусь |accessdate=30 August 2014 |archivedate= }}</ref>}}'
-          ).tlds).to eq ['.by', '.бел']
-        expect(country_with(
-          '|cctld = [[.in]] {{collapsible list|title = other TLDs|[[.ভাৰত]] |[[.ভারত]] |[[.ભારત]] |[[.भारत]] |[[.ਭਾਰਤ]] |[[.இந்தியா]] |[[.భారత్]] |[[بھارت.]] }}'
-          ).tlds).to include '.in'
-      end
+    def wikilink(link, text = link)
+      Infoboxer::Tree::Wikilink.new(link, Infoboxer::Tree::Text.new(text))
     end
 
-    context 'population' do
-      it 'parses' do
-        expect(country_with(
-          '|population_estimate = 43,417,000<ref>[http://esa.un.org/unpd/wpp/Publications/Files/Key_Findings_WPP_2015.pdf "United Nations population prospects"](PDF) 2015 revision</ref>'
-          ).population).to eq Reality::Measure(43_417_000, 'person')
-        expect(country_with(
-          "|population_estimate = \n|population_census = 24,383,301"
-          ).population).to eq Reality::Measure(24_383_301, 'person')
-      end
+    it 'parses cctld' do
+      expect(country_with('|cctld= [[.ar]]').tld).
+        to eq '.ar'
+      expect(country_with('|cctld= [[.be]]<sup>c</sup>').tld).
+        to eq '.be'
+      expect(country_with('| cctld = [[.am]] [[.հայ]]').tld).
+        to eq '.am'
+      expect(country_with('| cctld = [[.am]] [[.հայ]]').tlds).
+        to eq ['.am', '.հայ']
+      expect(country_with('|cctld = {{unbulleted list |[[.ua]] |[[.укр]]}}').tlds).
+        to eq ['.ua', '.укр']
+      expect(country_with('| cctld = [[.bd]]<br />{{lang|bn|[[.bangla|.বাংলা]]}}').tlds).
+        to eq ['.bd', '.bangla']
+      expect(country_with("|cctld = [[.dz]]<br>''الجزائر.''").tld).
+        to eq '.dz' # FIXME: ignoring second one for now
+      expect(country_with(
+        '|cctld = {{unbulleted list | [[.by]] | [[.бел]]<ref>{{cite web |url=http://hoster.by/about/news/1985/#.VAHIlUPjHfI |archiveurl= |publisher=hoster.by |title=ICANN сообщает о выделении кириллического домена .БЕЛ для Республики Беларусь |accessdate=30 August 2014 |archivedate= }}</ref>}}'
+        ).tlds).to eq ['.by', '.бел']
+      expect(country_with(
+        '|cctld = [[.in]] {{collapsible list|title = other TLDs|[[.ভাৰত]] |[[.ভারত]] |[[.ભારત]] |[[.भारत]] |[[.ਭਾਰਤ]] |[[.இந்தியா]] |[[.భారత్]] |[[بھارت.]] }}'
+        ).tlds).to include '.in'
     end
 
-    context 'currency' do
-      it 'parses' do
-        expect(country_with('|currency = [[Angolan kwanza|Kwanza]]').currency).
-          to eq Infoboxer::Tree::Wikilink.new('Angolan kwanza', Infoboxer::Tree::Text.new('Kwanza'))
+    it 'parses population' do
+      expect(country_with(
+        '|population_estimate = 43,417,000<ref>[http://esa.un.org/unpd/wpp/Publications/Files/Key_Findings_WPP_2015.pdf "United Nations population prospects"](PDF) 2015 revision</ref>'
+        ).population).to eq Reality::Measure(43_417_000, 'person')
+      expect(country_with(
+        "|population_estimate = \n|population_census = 24,383,301"
+        ).population).to eq Reality::Measure(24_383_301, 'person')
+    end
 
-        expect(country_with(
-          '| currency = {{unbulleted list|[[Bhutanese ngultrum]] {{nowrap|([[ISO 4217|BTN]])}}|[[Indian Rupee]] {{nowrap|([[ISO 4217|INR]])}}}}'
-          ).currency).
-          to eq Infoboxer::Tree::Wikilink.new('Bhutanese ngultrum')
+    it 'parses currency' do
+      expect(country_with('|currency = [[Angolan kwanza|Kwanza]]').currency).
+        to eq Infoboxer::Tree::Wikilink.new('Angolan kwanza', Infoboxer::Tree::Text.new('Kwanza'))
 
-        expect(country_with(
-          '| currency = {{unbulleted list|[[Bhutanese ngultrum]] {{nowrap|([[ISO 4217|BTN]])}}|[[Indian Rupee]] {{nowrap|([[ISO 4217|INR]])}}}}'
-          ).currencies).
-          to eq [Infoboxer::Tree::Wikilink.new('Bhutanese ngultrum'), Infoboxer::Tree::Wikilink.new('Indian Rupee')]
-      end
+      expect(country_with(
+        '| currency = {{unbulleted list|[[Bhutanese ngultrum]] {{nowrap|([[ISO 4217|BTN]])}}|[[Indian Rupee]] {{nowrap|([[ISO 4217|INR]])}}}}'
+        ).currency).
+        to eq Infoboxer::Tree::Wikilink.new('Bhutanese ngultrum')
+
+      expect(country_with(
+        '| currency = {{unbulleted list|[[Bhutanese ngultrum]] {{nowrap|([[ISO 4217|BTN]])}}|[[Indian Rupee]] {{nowrap|([[ISO 4217|INR]])}}}}'
+        ).currencies).
+        to eq [Infoboxer::Tree::Wikilink.new('Bhutanese ngultrum'), Infoboxer::Tree::Wikilink.new('Indian Rupee')]
+    end
+
+    it 'parses long name' do
+      expect(country_with("| conventional_long_name   = Republic of Costa Rica\n").long_name).
+        to eq 'Republic of Costa Rica'
+    end
+
+    it 'parses languages' do
+      expect(country_with('|official_languages = [[Spanish language|Spanish]]{{ref label|note-lang|a|}}').languages).
+        to eq('Official' => [wikilink('Spanish language', 'Spanish')])
+
+      expect(country_with('|languages_type = [[Official language]]s|languages = {{hlist|style=white-space:nowrap; |[[Pashto]]|[[Dari language|Dari]]}}<ref name=AO />').languages).
+        to eq('Official' => [wikilink('Pashto'), wikilink('Dari language', 'Dari')])
+
+      expect(country_with('||official_languages = None{{refn|English does not have ''[[de jure]]'' status.<ref name=language/>|name="official language"|group="N"}}|languages_type = [[National language]]|languages          = [[Australian English|English]]<ref name="official language" group="N" />').languages).
+        to eq('National' => [wikilink('Australian English', 'English')])
     end
   end
 end

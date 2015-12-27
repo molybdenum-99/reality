@@ -1,3 +1,6 @@
+# NB: all of this is early drafts, so may look naive and sub-optimal.
+# Just stay tuned!
+
 module Reality
   class Country
     def initialize(page)
@@ -9,7 +12,7 @@ module Reality
     end
 
     def long_name
-      infobox.fetch('conventional_long_name').text
+      infobox.fetch('conventional_long_name').text.strip
     end
 
     def capital
@@ -17,7 +20,10 @@ module Reality
     end
 
     def languages
-      infobox.fetch('official_languages').lookup(:Wikilink)
+      [
+        ['Official', infobox_links('official_languages')],
+        [infobox.fetch('languages_type').text.sub(/ languages?$/, ''), infobox_links('languages')]
+      ].reject{|k, v| k.empty? || v.empty?}.to_h
     end
 
     def tld
@@ -29,7 +35,7 @@ module Reality
     end
 
     def calling_code
-      infobox.fetch('calling_code').text
+      infobox.fetch('calling_code').text.strip
     end
 
     def utc_offset
@@ -52,7 +58,7 @@ module Reality
       val = %w[population_estimate population_census].map{|var|
         infobox.fetch(var).text.strip
       }.reject(&:empty?).first
-      Reality::Measure(val.gsub(',', '').to_i, 'person')
+      val && Reality::Measure(val.gsub(',', '').to_i, 'person')
     end
 
     def leaders
@@ -116,7 +122,7 @@ module Reality
         # values could be both inside and outside list, see India's cctld value
         src = Infoboxer::Tree::Nodes[src, tmpl.variables] 
       end
-      src.lookup(:Wikilink)
+      src.lookup(:Wikilink).uniq
     end
 
     def to_simple_type(val)
