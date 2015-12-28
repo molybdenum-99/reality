@@ -3,6 +3,41 @@
 
 module Reality
   class Country
+    class List
+      def initialize(*names)
+        @names = names
+      end
+
+      def count
+        @names.count
+      end
+
+      def first(n = nil)
+        res = get(*@names.first(n || 1))
+        n ? res : res.first
+      end
+
+      def last(n = nil)
+        res = get(*@names.last(n || 1))
+        n ? res : res.first
+      end
+
+      def sample(n = nil)
+        res = get(*@names.sample(n || 1))
+        n ? res : res.first
+      end
+
+      def to_a
+        get(*@names)
+      end
+
+      private
+
+      def get(*names)
+        Reality.wp.get(*names).map{|page| Country.new(page)}
+      end
+    end
+    
     def initialize(page)
       @page = page
     end
@@ -170,11 +205,11 @@ module Reality
   end
 
   def Reality.countries(*names)
-    names = Country.by_continents.keys if names.empty?
-    wp.get(*names).map{|page| Country.new(page)}
+    names = Country.by_continents.keys.sort if names.empty?
+    Country::List.new(*names)
   end
 
   def Reality.wp
-    Infoboxer.wp
+    @wp ||= Infoboxer.wp # while Infoboxer recreates wp for each request
   end
 end
