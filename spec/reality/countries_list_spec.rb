@@ -1,10 +1,10 @@
 module Reality
   describe Country, 'list' do
+    before(:all){ # caching!
+      VCR.use_cassette(:by_continents){Country.by_continents}
+    } 
+
     describe 'array-ish methods', :vcr do
-      before(:all){ # caching!
-        VCR.use_cassette(:by_continents){Country.by_continents}
-      } 
-      
       subject(:list){Reality.countries}
 
       let(:country_names){Country.by_continents.keys.sort}
