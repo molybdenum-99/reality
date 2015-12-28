@@ -31,6 +31,15 @@ module Reality
         get(*@names)
       end
 
+      def where(**filters)
+        names = @names & Reality::Country.
+          by_continents.
+          select{|k, v| v == filters[:continent]}.
+          map(&:first)
+          
+        self.class.new(*names)
+      end
+
       private
 
       def get(*names)

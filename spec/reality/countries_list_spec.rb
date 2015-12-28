@@ -4,8 +4,9 @@ module Reality
       VCR.use_cassette(:by_continents){Country.by_continents}
     } 
 
+    subject(:list){Reality.countries}
+
     describe 'array-ish methods', :vcr do
-      subject(:list){Reality.countries}
 
       let(:country_names){Country.by_continents.keys.sort}
 
@@ -60,6 +61,10 @@ module Reality
     end
 
     describe 'filtering' do
+      context 'continent' do
+        subject{list.where(continent: 'Asia')}
+        its(:count){is_expected.to eq Country.by_continents.select{|k, v| v == 'Asia'}.count}
+      end
     end
   end
 end
