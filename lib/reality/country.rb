@@ -71,6 +71,14 @@ module Reality
       self.class.by_continents[page.title]
     end
 
+    def organizations
+      organizations_list.map{|o| o[:name]}
+    end
+
+    def member_of?(org)
+      organizations_list.any?{|o| o[:name] == org || o[:abbr] == org}
+    end
+
     def to_s
       name
     end
@@ -106,6 +114,10 @@ module Reality
           }.flatten(1).
           to_h
       end
+
+      def organizations
+        @organizations ||= YAML.load(File.read(File.expand_path('../../../data/country_orgs.yaml', __FILE__)))
+      end
     end
 
     private
@@ -114,6 +126,11 @@ module Reality
 
     def infobox
       page.infobox
+    end
+
+    def organizations_list
+      catnames = page.categories.map(&:name)
+      self.class.organizations.select{|o| catnames.include?(o[:category])}
     end
 
     def infobox_links(varname)

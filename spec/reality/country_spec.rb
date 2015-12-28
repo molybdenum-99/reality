@@ -26,7 +26,7 @@ module Reality
         # TODO: "Spanish language" and "Argentine peso", in fact
         #   or even Language(Spanish), but Currency(Argentine peso | $)
         it 'should have languages' do
-          expect(country.languages.map(&:to_s)).to eq ['Spanish']
+          expect(country.languages['Official'].first.to_s).to eq 'Spanish'
         end
         
         its(:'currency.to_s'){should == 'Peso'}
@@ -47,6 +47,11 @@ module Reality
 
       describe 'external data', :vcr do
         its(:continent){should == 'South America'}
+        its(:organizations){should contain_exactly \
+          'G15', 'G20', 'Mercosur', 'Union of South American Nations', 'United Nations'
+        }
+        it{should be_member_of 'UN'}
+        it{should_not be_member_of 'CIS'}
       end
 
       describe 'geo' do
@@ -63,10 +68,11 @@ module Reality
           name: 'Argentina',
           long_name: 'Argentine Republic',
           tld: '.ar',
+          tlds: ['.ar'],
           calling_code: '+54',
           utc_offset: -3,
           capital: 'Buenos Aires',
-          languages: ['Spanish language'],
+          languages: {'Official' => ['Spanish language']},
           currency: 'Argentine peso',
           leaders: {
               'President' => 'Mauricio Macri',
