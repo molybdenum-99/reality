@@ -106,12 +106,12 @@ module Reality
     end
 
     def gdp_ppp
-      val = infobox.fetch('GDP_PPP').text.strip.sub(/^\$/, '')
+      val = infobox.fetch('GDP_PPP').text.strip.sub(/^((Int|US)?\$|USD)/, '')
       val.empty? ? nil : Reality::Measure(parse_scaled(val), '$')
     end
 
     def gdp_nominal
-      val = infobox.fetch('GDP_nominal').text.strip.sub(/^\$/, '')
+      val = infobox.fetch('GDP_nominal').text.strip.sub(/^((Int|US)?\$|USD)/, '')
       val.empty? ? nil : Reality::Measure(parse_scaled(val), '$')
     end
 
@@ -213,7 +213,7 @@ module Reality
     SCALES_REGEXP = Regexp.union(*SCALES.keys)
 
     def parse_scaled(str)
-      match, amount, scale = */^([0-9.,]+)[[:space:]]+(#{SCALES_REGEXP})/.match(str)
+      match, amount, scale = */^([0-9.,]+)[[:space:]]*(#{SCALES_REGEXP})/.match(str)
       match or
         fail(ArgumentError, "Unparseable scaled value #{str} for #{self}")
 

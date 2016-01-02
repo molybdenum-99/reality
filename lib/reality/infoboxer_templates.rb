@@ -5,5 +5,7 @@ Infoboxer::MediaWiki::Traits.for('en.wikipedia.org') do
         fetch('2')
       end
     end
+
+    show 'US$' # TODO: in fact, has second option (year)
   end
 end

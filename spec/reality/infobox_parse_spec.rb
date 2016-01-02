@@ -95,11 +95,25 @@ module Reality
     end
 
     it 'parses GDP' do
-      expect(country_with('|GDP_PPP={{nowrap|$11.95 billion<sup>a</sup>}}').gdp_ppp).
-        to eq Reality::Measure(11_950_000_000, '$')
+      expect(country_with(
+        '|GDP_PPP={{nowrap|$11.95 billion<sup>a</sup>}}'
+        ).gdp_ppp).to eq Reality::Measure(11_950_000_000, '$')
 
-      expect(country_with('||GDP_PPP = $139.059&nbsp;billion<ref name=imf2>{{cite web |url=http://www.imf.org/external/pubs/ft/weo/2014/01/weodata/weorept.aspx?pr.x=74&pr.y=0&sy=2012&ey=2014&scsm=1&ssd=1&sort=country&ds=.&br=1&c=614&s=NGDPD%2CNGDPDPC%2CPPPGDP%2CPPPPC%2CLP&grp=0&a= |title=Angola |publisher=International Monetary Fund |accessdate=26 April 2014}}</ref>').gdp_ppp).
-        to eq Reality::Measure(139_059_000_000, '$')
+      expect(country_with(
+        '|GDP_PPP = $139.059&nbsp;billion<ref name=imf2>{{cite web |url=http://www.imf.org/external/pubs/ft/weo/2014/01/weodata/weorept.aspx?pr.x=74&pr.y=0&sy=2012&ey=2014&scsm=1&ssd=1&sort=country&ds=.&br=1&c=614&s=NGDPD%2CNGDPDPC%2CPPPGDP%2CPPPPC%2CLP&grp=0&a= |title=Angola |publisher=International Monetary Fund |accessdate=26 April 2014}}</ref>'
+        ).gdp_ppp).to eq Reality::Measure(139_059_000_000, '$')
+
+      expect(country_with(
+        '|GDP_PPP = US$18.535 billion'
+        ).gdp_ppp).to eq Reality::Measure(18_535_000_000, '$')
+
+      expect(country_with(
+        '|GDP_nominal = {{nowrap|{{US$|1.44}} billion}}'
+        ).gdp_nominal).to eq Reality::Measure(1_440_000_000, '$')
+
+      expect(country_with(
+        '|GDP_PPP = USD36&nbsp;million'
+        ).gdp_ppp).to eq Reality::Measure(36_000_000, '$')
     end
   end
 end
