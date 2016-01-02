@@ -27,6 +27,13 @@ module Reality
         n ? res : res.first
       end
 
+      def each(&block)
+        @pages = get(*@names)
+        @pages.each(&block)
+      end
+
+      include Enumerable
+
       def to_a
         get(*@names)
       end
