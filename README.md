@@ -36,11 +36,12 @@ Roadmap
 * [x] World countries: first example of Wikipedia -> easy data
   translation;
 * [x] Generic named measure concept and arithmetics;
-* [ ] Usage of DBPedia as a query engine (like "countries with
-  population larger than" and so on);
+* [ ] Usage of Wikipedia as a query engine like "countries with
+  population larger than", proxied via "List of countries by population");
 * [ ] More of related entities, starting from `city`, and interaction
   with countries (like "cities of this country" and more);
 * [ ] Generic entity concept;
+* [ ] Evaluation of usage of DBPedia as a query engine;
 * [ ] Wrappers for most common and most interesting data types (like
   people, famous places, music bands, movies, and so on) from Wikipedia;
 * [ ] Extending Reality sources to other open data sources, like
