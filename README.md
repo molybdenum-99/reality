@@ -13,18 +13,24 @@ world countries data:
 ```ruby
 # One country
 ar = Reality.country('Argentina')
-ar.area # => Reality::Measure(km²)
+ar.area # => #<Reality::Measure(2,780,400 km²)>
 ar.capital # => Buenos Aires
-ar.leaders[:president] # => Mauricio Macri
+ar.leaders['President'] # => Mauricio Macri
 
 # List of countries:
-countries = Reality.countries
+countries = Reality.countries.to_a
+# CAUTION tooks like ~2 min to load on modern Internet & CPU.
 
 countries.
   select{|c| c.continent == 'Africa'}.
-  reject{|c| (c.gdp / c.population).amount > 10_000}.
+  reject{|c| !c.gdp || (c.gdp / c.population).amount > 5_000}.
   map(:area).inject(:+)
-# => Reality::Measure( km²)
+# => #<Reality::Measure(22,412,893 km²)>
+
+# or, with loading from wikipedia only relevant countries:
+Reality.countries.where(continent: 'Africa').
+  reject{|c| !c.gdp || (c.gdp / c.population).amount > 5_000}.
+  map(:area).inject(:+)
 ```
 
 Rough examples of what the library is supposed to do eventually, can be
