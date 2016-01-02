@@ -102,7 +102,7 @@ module Reality
       val = %w[population_estimate population_census].map{|var|
         infobox.fetch(var).text.strip
       }.reject(&:empty?).first
-      val && Reality::Measure(val.gsub(',', '').to_i, 'person')
+      val && Reality::Measure(parse_maybe_scaled(val), 'person')
     end
 
     def gdp_ppp
@@ -148,10 +148,11 @@ module Reality
                     tld tlds calling_code utc_offset
                     capital languages currency
                     leaders area population
-                    gdp_pp gdp_nominal
+                    gdp_ppp gdp_nominal
                   ]
 
     def to_h
+      #p self
       PROPERTIES.
         map{|prop| [prop, to_simple_type(send(prop))]  }.
         #reject{|prop, val| !val || val.respond_to?(:empty?) && val.empty?}.
@@ -209,10 +210,32 @@ module Reality
       'sextillion'  => 1_000_000_000_000_000_000_000,
       'septillion'  => 1_000_000_000_000_000_000_000_000,
     }
+    SCALES_REGEXP = Regexp.union(*SCALES.keys)
 
     def parse_scaled(str)
-      match, amount, scale = */^([0-9.,]+)\s+(\w+)$/.match(str)
-      match && amount.gsub(/[.,]/, '').to_i * SCALES.fetch(scale)
+      match, amount, scale = */^([0-9.,]+)[[:space:]]+(#{SCALES_REGEXP})/.match(str)
+      match or
+        fail(ArgumentError, "Unparseable scaled value #{str} for #{self}")
+
+      (amount.gsub(/[,]/, '').to_f * fetch_scale(scale)).to_i
+    end
+
+    def parse_maybe_scaled(str)
+      match, amount, scale = */^([0-9.,]+)[[:space:]]*(#{SCALES_REGEXP})?/.match(str)
+      match or
+        fail(ArgumentError, "Unparseable scaled value #{str} for #{self}")
+
+      if scale
+        (amount.gsub(/[,]/, '').to_f * fetch_scale(scale)).to_i
+      else
+        amount.gsub(/[,]/, '').to_i
+      end
+    end
+
+    def fetch_scale(str)
+      _, res = SCALES.detect{|key, val| str.start_with?(key)}
+
+      res or fail("Scale not found: #{str} for #{self}")
     end
 
     def to_simple_type(val)

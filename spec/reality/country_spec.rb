@@ -43,8 +43,8 @@ module Reality
       describe 'measures' do
         its(:area){should == Reality::Measure(2_780_400, 'km²')}
         its(:population){should == Reality::Measure(43_417_000, 'person')}
-        its(:gdp_ppp){should == Reality::Measure(964_279_000_000_000, '$')}
-        its(:gdp_nominal){should == Reality::Measure(578_705_000_000_000, '$')}
+        its(:gdp_ppp){should == Reality::Measure(964_279_000_000, '$')}
+        its(:gdp_nominal){should == Reality::Measure(578_705_000_000, '$')}
       end
 
       describe 'external data', :vcr do
@@ -81,7 +81,9 @@ module Reality
               'Vice-president' => 'Gabriela Michetti'
             },
           area: 2780400,
-          population: 43417000
+          population: 43417000,
+          gdp_ppp: 964_279_000_000,
+          gdp_nominal: 578_705_000_000
         }}
       end
     end
