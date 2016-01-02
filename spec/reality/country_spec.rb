@@ -41,8 +41,10 @@ module Reality
       end
 
       describe 'measures' do
-        its(:area){should == Reality::Measure(2780400, 'km²')}
-        its(:population){should == Reality::Measure(43417000, 'person')}
+        its(:area){should == Reality::Measure(2_780_400, 'km²')}
+        its(:population){should == Reality::Measure(43_417_000, 'person')}
+        its(:gdp_ppp){should == Reality::Measure(964_279_000_000_000, '$')}
+        its(:gdp_nominal){should == Reality::Measure(578_705_000_000_000, '$')}
       end
 
       describe 'external data', :vcr do

@@ -105,6 +105,18 @@ module Reality
       val && Reality::Measure(val.gsub(',', '').to_i, 'person')
     end
 
+    def gdp_ppp
+      val = infobox.fetch('GDP_PPP').text.strip.sub(/^\$/, '')
+      val.empty? ? nil : Reality::Measure(parse_scaled(val), '$')
+    end
+
+    def gdp_nominal
+      val = infobox.fetch('GDP_nominal').text.strip.sub(/^\$/, '')
+      val.empty? ? nil : Reality::Measure(parse_scaled(val), '$')
+    end
+
+    alias_method :gdp, :gdp_nominal
+
     def leaders
       titles = infobox.fetch(/^leader_title\d/).map(&:text_)
       names = infobox.fetch(/^leader_name\d/).map{|v| v.lookup(:Wikilink).first}
@@ -136,6 +148,7 @@ module Reality
                     tld tlds calling_code utc_offset
                     capital languages currency
                     leaders area population
+                    gdp_pp gdp_nominal
                   ]
 
     def to_h
@@ -184,6 +197,22 @@ module Reality
         src = Infoboxer::Tree::Nodes[src, tmpl.variables] 
       end
       src.lookup(:Wikilink).uniq
+    end
+
+    # See "Short scale": https://en.wikipedia.org/wiki/Long_and_short_scales#Comparison
+    SCALES = {
+      'million'     => 1_000_000,
+      'billion'     => 1_000_000_000,
+      'trillion'    => 1_000_000_000_000,
+      'quadrillion' => 1_000_000_000_000_000,
+      'quintillion' => 1_000_000_000_000_000_000,
+      'sextillion'  => 1_000_000_000_000_000_000_000,
+      'septillion'  => 1_000_000_000_000_000_000_000_000,
+    }
+
+    def parse_scaled(str)
+      match, amount, scale = */^([0-9.,]+)\s+(\w+)$/.match(str)
+      match && amount.gsub(/[.,]/, '').to_i * SCALES.fetch(scale)
     end
 
     def to_simple_type(val)
