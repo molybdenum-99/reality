@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+require 'rubygems'
+require 'reality'
+
+require 'irb'
+ARGV.shift until ARGV.empty?
+IRB.start
