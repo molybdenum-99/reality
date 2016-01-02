@@ -9,4 +9,6 @@ group :development do
   gem 'faraday'
   gem 'faraday_middleware'
   gem 'progress_bar'
+  gem 'rake'
+  gem 'rubygems-tasks'
 end
