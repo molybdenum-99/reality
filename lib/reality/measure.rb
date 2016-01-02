@@ -5,7 +5,7 @@ module Reality
     attr_reader :amount, :unit
     
     def initialize(amount, unit)
-      @amount, @unit = amount, Unit.parse(unit)
+      @amount, @unit = Rational(amount), Unit.parse(unit)
     end
 
     def <=>(other)
@@ -60,14 +60,24 @@ module Reality
     include Comparable
 
     def to_s
-      [amount, unit].join
+      '%s%s' % [formatted_amount, unit]
     end
 
     def inspect
-      "#<#{self.class}(#{amount} #{unit})>"
+      "#<%s(%s %s)>" % [self.class, formatted_amount, unit]
     end
 
     private
+
+    def formatted_amount
+      # FIXME: really naive
+      if amount.abs < 1
+        amount.to_f.to_s
+      else
+        # see http://stackoverflow.com/a/6460145/3683228
+        amount.to_i.to_s.gsub(/(\d)(?=(\d\d\d)+(?!\d))/, "\\1,")
+      end
+    end
 
     def check_compatibility!(other)
       unless other.kind_of?(self.class) && other.unit == unit

@@ -63,6 +63,7 @@ module Reality
 
       it 'divs' do
         expect(m / 4).to eq Measure.new(2, 'm')
+        expect(m / 16).to eq Measure.new(0.5, 'm')
         expect(m / m).to eq 1
         expect(m / s).to eq Measure.new(4, 'm/s')
       end
@@ -77,6 +78,14 @@ module Reality
 
       its(:to_s){should == '5m'}
       its(:inspect){should == "#<Reality::Measure(5 m)>"}
+
+      it 'formats very large numbers' do
+        expect(Measure.new(5_000_000, 'm').to_s).to eq '5,000,000m'
+      end
+
+      it 'formats fractions' do
+        expect(Measure.new(0.3, 'm').to_s).to eq '0.3m'
+      end
     end
   end
 end
