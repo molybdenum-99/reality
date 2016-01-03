@@ -1,9 +1,9 @@
 Gem::Specification.new do |s|
   s.name     = 'reality'
-  s.version  = '0.0.1'
+  s.version  = '0.0.2'
   s.authors  = ['Victor Shepelev']
   s.email    = 'zverok.offline@gmail.com'
-  s.homepage = 'https://github.com/molibdenum-99/reality'
+  s.homepage = 'https://github.com/molybdenum-99/reality'
 
   s.summary = 'Simple and easy proxy to real-life knowledge.'
   s.description = <<-EOF
