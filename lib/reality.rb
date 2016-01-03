@@ -1,4 +1,5 @@
 require 'infoboxer'
+require 'yaml'
 
 module Reality
   require_relative 'reality/infoboxer_templates'

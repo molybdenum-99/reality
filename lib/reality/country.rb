@@ -156,6 +156,7 @@ module Reality
                     capital languages currency
                     leaders area population
                     gdp_ppp gdp_nominal
+                    organizations
                   ]
 
     def to_h
