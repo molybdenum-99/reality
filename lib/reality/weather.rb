@@ -7,9 +7,9 @@ module Reality
     module EntityWeather
       def weather
         return @weather if @weather
-        hash = { humidity: fetch_value([:main, :humidity], 'Percent'),
+        hash = { humidity: fetch_value([:main, :humidity], '%'),
                  description: fetch_value([:weather, 0, :main]),
-                 temperature: fetch_value([:main, :temp], 'Celsius'),
+                 temperature: fetch_value([:main, :temp], '°C'),
                  pressure: fetch_value([:main, :pressure], 'Pa'),
                }
 

@@ -8,7 +8,7 @@ module Reality
       class << self
         attr_accessor :unicode
 
-        UNIT_REGEX = /[a-zA-Z\$]+/ # FIXME: there are many non-ASCII units, especially in money
+        UNIT_REGEX = /[\S+]+/
         POWER_REGEX = /[²³]|\^(\d+)/
         OP_REGEX = /[\/*·]/
 
