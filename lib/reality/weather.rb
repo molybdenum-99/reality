@@ -1,6 +1,8 @@
 require 'open_weather'
 
 module Reality
+  class Weather < Hashie::Mash; end
+
   module OpenWeatherMap
     module EntityWeather
       def weather
@@ -9,10 +11,9 @@ module Reality
                  description: fetch_value([:weather, 0, :main]),
                  temperature: fetch_value([:main, :temp], 'Celsius'),
                  pressure: fetch_value([:main, :pressure], 'Pa'),
-                 raw: current_weather
                }
-        hash[:attributes] = hash.keys
-        @weather = Hashie::Mash.new hash
+
+        @weather = Weather.new hash
       end
 
       private
