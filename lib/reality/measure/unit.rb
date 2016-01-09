@@ -8,7 +8,7 @@ module Reality
       class << self
         attr_accessor :unicode
 
-        UNIT_REGEX = /[\S+]+/
+        UNIT_REGEX = /[^\s\+\*\/\/\^²³·]+/
         POWER_REGEX = /[²³]|\^(\d+)/
         OP_REGEX = /[\/*·]/
 
