@@ -9,7 +9,7 @@ module Reality
   end
 
   # entities
-  %w[country].each do |mod|
+  %w[country weather].each do |mod|
     require_relative "reality/#{mod}"
   end
 end
