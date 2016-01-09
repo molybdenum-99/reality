@@ -259,7 +259,7 @@ module Reality
       when Infoboxer::Tree::Node
         val.text_
       when Reality::Measure
-        val.amount
+        val.amount.to_i
       else
         fail ArgumentError, "Non-coercible value #{val.class}"
       end

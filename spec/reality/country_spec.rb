@@ -81,6 +81,7 @@ module Reality
               'Vice-president' => 'Gabriela Michetti'
             },
           area: 2780400,
+          organizations: ["G15", "G20", "Mercosur", "Union of South American Nations", "United Nations"],
           population: 43417000,
           gdp_ppp: 964_279_000_000,
           gdp_nominal: 578_705_000_000
