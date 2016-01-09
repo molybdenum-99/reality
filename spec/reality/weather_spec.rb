@@ -19,32 +19,20 @@ module Reality
       describe '#weather' do
         subject { entity.weather }
 
-        it 'returns general description' do
-          expect(subject).to eq('Clouds')
+        it 'contains general description' do
+          expect(subject.description).to eq('Clouds')
         end
-      end
 
-      describe '#temperature' do
-        subject { entity.temperature }
-
-        it 'returns number' do
-          expect(subject).to eq(295.95)
+        it 'contains temperature' do
+          expect(subject.temperature.amount.to_f).to eq(295.95)
         end
-      end
 
-      describe '#humidity' do
-        subject { entity.humidity }
-
-        it 'returns number' do
-          expect(subject).to eq(77)
+        it 'contains humidity' do
+          expect(subject.humidity.amount.to_f).to eq(77)
         end
-      end
 
-      describe '#pressure' do
-        subject { entity.pressure }
-
-        it 'returns number' do
-          expect(subject).to eq(1016)
+        it 'contains pressure' do
+          expect(subject.pressure.amount.to_f).to eq(1016)
         end
       end
     end
