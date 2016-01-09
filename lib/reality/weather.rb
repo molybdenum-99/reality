@@ -1,45 +1,54 @@
 require 'open_weather'
 
 module Reality
-  module Weather
-    def pressure
-      current_weather['main']['pressure']
-    end
+  module OpenWeatherMap
+    module EntityWeather
+      def weather
+        return @weather if @weather
+        hash = { humidity: fetch_value([:main, :humidity], 'Percent'),
+                 description: fetch_value([:weather, 0, :main]),
+                 temperature: fetch_value([:main, :temp], 'Celsius'),
+                 pressure: fetch_value([:main, :pressure], 'Pa'),
+                 raw: current_weather
+               }
+        hash[:attributes] = hash.keys
+        @weather = Hashie::Mash.new hash
+      end
 
-    def humidity
-      current_weather['main']['humidity']
-    end
+      private
 
-    def temperature
-      current_weather['main']['temp']
-    end
+      def fetch_value(path, unit=nil)
+        value = current_weather.deep_fetch(*path.map(&:to_s))
+        return value unless unit
+        Reality::Measure(value, unit)
+      rescue Hashie::Extensions::DeepFetch::UndefinedPathError, KeyError
+        'unknown'
+      end
 
-    def weather
-      current_weather['weather'][0]['main']
-    end
-
-    private
-
-    def current_weather
-      return @weather if @weather
-      res = OpenWeather::Current.new(weather_options).retrive
-      if res.is_a?(Hash)
-        @weather = res
-      else
-        fail(res.inspect)
+      def current_weather
+        return @api_response if @api_response
+        res = OpenWeather::Current.new(weather_params).retrive
+        if res.is_a?(Hash)
+          res.extend Hashie::Extensions::DeepFetch
+          @api_response = res
+        else
+          fail(res.inspect)
+        end
       end
     end
 
-    def weather_options
-      raise NotImplementedError
+    module CountryWeather
+      include EntityWeather
+
+      def weather_params
+        {country: name, :APPID => OPEN_WEATHER_MAP_KEY, units: "metric"}
+      end
     end
-  end
 
-  class Country
-    include Weather
-
-    def weather_options
-      {country: name, :APPID => '90d73c1188829195d023b5a5fc6399e1'}
+    def self.included(_mod)
+      Reality::Country.include CountryWeather
     end
   end
 end
+
+Reality.include Reality::OpenWeatherMap
