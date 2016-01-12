@@ -11,7 +11,12 @@ module Reality
   end
 
   # entities
-  %w[country weather].each do |mod|
+  %w[entity country city].each do |mod|
+    require_relative "reality/#{mod}"
+  end
+
+  # mixins
+  %w[weather].each do |mod|
     require_relative "reality/#{mod}"
   end
 end
