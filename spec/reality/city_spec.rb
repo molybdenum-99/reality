@@ -34,6 +34,10 @@ module Reality
         its(:population){should == Reality::Measure(2_890_151, 'person')}
         its(:population_metro){should == Reality::Measure(12_741_364, 'person')}
       end
+
+      describe 'geo' do
+        its(:coord){should == Reality::Geo::Coord.from_dms([34,36,12,'S'], [58,22,54,'W'])}
+      end
     end
   end
 end

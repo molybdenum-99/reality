@@ -29,6 +29,10 @@ module Reality
       # TODO2: can be {{UKR}}
       infobox.fetch(/^subdivision_name/).sort_by(&:name).first.children.first
     end
+
+    def coord
+      fetch_coord_dms
+    end
   end
 
   def Reality.city(name)

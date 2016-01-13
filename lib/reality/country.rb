@@ -126,6 +126,10 @@ module Reality
       titles.zip(names).to_h
     end
 
+    def coord
+      fetch_coord_dms
+    end
+
     def continent
       self.class.by_continents[page.title]
     end

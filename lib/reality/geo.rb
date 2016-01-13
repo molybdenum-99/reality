@@ -5,7 +5,7 @@ module Reality
     # and show them prettily.
     #
     # GeoKit will be used at its time.
-    class Point
+    class Coord
       attr_reader :lat, :lng
 
       alias_method :latitude, :lat
@@ -37,12 +37,12 @@ module Reality
           end
           
           d, m, s = *dms
-          sign * (d.abs.to_i + m.to_f / 60 + s.to_f / 3600)
+          sign * (d.abs.to_i + Rational(m.to_i) / 60 + Rational(s.to_f) / 3600)
         end
       end
       
       def initialize(lat, lng)
-        @lat, @lng = Rational(lat.to_f), Rational(lng.to_f)
+        @lat, @lng = Rational(lat), Rational(lng)
       end
 
       def lat_dms(direction = true)
@@ -70,7 +70,7 @@ module Reality
       end
 
       def inspect
-        "#<#{self.class}(#{lat.to_f},#{lng.to_f})>"
+        "#<%s(%.4f,%.4f)>" % [self.class, lat, lng]
       end
     end
   end

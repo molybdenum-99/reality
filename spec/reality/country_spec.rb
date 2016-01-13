@@ -57,6 +57,7 @@ module Reality
       end
 
       describe 'geo' do
+        its(:coord){should == Geo::Coord.from_dms([34,36,'S'], [58,23,'W'])}
       end
 
       describe 'media' do
