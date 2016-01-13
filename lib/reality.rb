@@ -6,7 +6,7 @@ module Reality
   require_relative 'reality/infoboxer_templates'
 
   # basic functionality
-  %w[measure].each do |mod|
+  %w[measure geo].each do |mod|
     require_relative "reality/#{mod}"
   end
 
