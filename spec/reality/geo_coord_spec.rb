@@ -80,8 +80,8 @@ module Reality
       end
 
       describe :inspect do
-        subject(:coord){Coord.new(38.889713495, -77.008900234)}
-        its(:inspect){should == '#<Reality::Geo::Coord(38.8897,-77.0089)>'}
+        subject(:coord){Coord.from_dms([38, 53, 23], [-77, 00, 32])}
+        its(:inspect){should == '#<Reality::Geo::Coord(38°53′23″N,77°0′32″W)>'}
       end
 
       describe :ll do

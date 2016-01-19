@@ -70,7 +70,7 @@ module Reality
       end
 
       def inspect
-        "#<%s(%.4f,%.4f)>" % [self.class, lat, lng]
+        "#<%s(%i°%i′%i″%s,%i°%i′%i″%s)>" % [self.class, *lat_dms, *lng_dms]
       end
     end
   end
