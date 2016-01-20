@@ -156,6 +156,8 @@ module Reality
         val.link
       when Infoboxer::Tree::Node
         val.text_
+      when Reality::Entity
+        val.name
       when Reality::Measure
         val.amount.to_i
       else
