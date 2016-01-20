@@ -3,61 +3,8 @@
 
 module Reality
   class Country < Entity
-    class List
-      def initialize(*names)
-        @names = names
-      end
-
-      def count
-        @names.count
-      end
-
-      def first(n = nil)
-        res = get(*@names.first(n || 1))
-        n ? res : res.first
-      end
-
-      def last(n = nil)
-        res = get(*@names.last(n || 1))
-        n ? res : res.first
-      end
-
-      def sample(n = nil)
-        res = get(*@names.sample(n || 1))
-        n ? res : res.first
-      end
-
-      def each(&block)
-        @pages = get(*@names)
-        @pages.each(&block)
-      end
-
-      include Enumerable
-
-      def to_a
-        get(*@names)
-      end
-
-      def where(**filters)
-        names = @names & Reality::Country.
-          by_continents.
-          select{|k, v| v == filters[:continent]}.
-          map(&:first)
-          
-        self.class.new(*names)
-      end
-
-      private
-
-      def get(*names)
-        Reality.wp.get(*names).map{|page| Country.new(page)}
-      end
-    end
+    infobox_name 'Infobox country'
     
-    def name
-      page.title
-    end
-
     def long_name
       infobox.fetch('conventional_long_name').text.strip
     end
@@ -131,7 +78,7 @@ module Reality
     end
 
     def continent
-      self.class.by_continents[page.title]
+      self.class.by_continents[wikipedia_page.title]
     end
 
     def organizations
@@ -173,16 +120,64 @@ module Reality
     private
 
     def organizations_list
-      catnames = page.categories.map(&:name)
+      catnames = wikipedia_page.categories.map(&:name)
       self.class.organizations.select{|o| catnames.include?(o[:category])}
+    end
+
+    class List
+      def initialize(*names)
+        @names = names
+      end
+
+      def count
+        @names.count
+      end
+
+      def first(n = nil)
+        res = get(*@names.first(n || 1))
+        n ? res : res.first
+      end
+
+      def last(n = nil)
+        res = get(*@names.last(n || 1))
+        n ? res : res.first
+      end
+
+      def sample(n = nil)
+        res = get(*@names.sample(n || 1))
+        n ? res : res.first
+      end
+
+      def each(&block)
+        @pages = get(*@names)
+        @pages.each(&block)
+      end
+
+      include Enumerable
+
+      def to_a
+        get(*@names)
+      end
+
+      def where(**filters)
+        names = @names & Reality::Country.
+          by_continents.
+          select{|k, v| v == filters[:continent]}.
+          map(&:first)
+          
+        self.class.new(*names)
+      end
+
+      private
+
+      def get(*names)
+        Reality.wp.get(*names).map{|page| Country.new(page)}
+      end
     end
   end
 
   def Reality.country(name)
-    page = wp.get(name) or return nil
-    # FIXME: not very reliable, as some fictional countries, aliances
-    #   and country groups also have this infobox. Or maybe it is acceptable?..
-    page.templates(name: 'Infobox country').empty? ? nil : Country.new(page)
+    Country.load(name)
   end
 
   def Reality.countries(*names)

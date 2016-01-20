@@ -1,7 +1,14 @@
 module Reality
+  EntityTypeError = Class.new(NameError)
+  
   class Entity
-    def initialize(page)
-      @page = page
+    def initialize(name, page = nil)
+      @name = name
+      @wikipedia_page = page
+    end
+
+    def name
+      loaded? ? @wikipedia_page.title : @name
     end
 
     def to_s
@@ -9,7 +16,7 @@ module Reality
     end
 
     def inspect
-      "#<#{self.class}(#{name})>"
+      "#<#{self.class}#{loaded? ? '' : '?'}(#{name})>"
     end
 
     def to_h
@@ -19,12 +26,48 @@ module Reality
         to_h
     end
 
+    def loaded?
+      !!@wikipedia_page
+    end
+
+    def load!
+      @wikipedia_page ||= Infoboxer.wikipedia.get(name).
+        tap{|page|
+          expected = self.class.infobox_name
+          actual = page.infobox.name
+          if expected && actual != expected
+            raise EntityTypeError, "Expected infobox #{expected}, page with #{actual} fetched"
+          end
+        }
+    end
+
+    def wikipedia_page
+      load!
+      @wikipedia_page
+    end
+
+    class << self
+      def infobox_name(name = nil)
+        return @infobox_name unless name
+        @infobox_name = name
+      end
+
+      def load(name)
+        page = Infoboxer.wikipedia.get(name) or return nil
+        expected = self.infobox_name
+        actual = page.infobox.name
+        if !expected || actual == expected
+          new(name, page)
+        else
+          nil
+        end
+      end
+    end
+
     protected
 
-    attr_reader :page
-
     def infobox
-      page.infobox
+      wikipedia_page.infobox
     end
 
     def infobox_links(varname)

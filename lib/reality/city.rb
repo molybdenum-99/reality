@@ -1,9 +1,8 @@
 module Reality
   class City < Entity
-    def name
-      page.title
-    end
-
+    # FIXME: have several descendant infobox classes
+    infobox_name 'Infobox settlement'
+    
     def long_name
       infobox.fetch('name').text.strip
     end
@@ -36,9 +35,6 @@ module Reality
   end
 
   def Reality.city(name)
-    page = wp.get(name) or return nil
-    
-    # FIXME?
-    page.templates(name: 'Infobox settlement').empty? ? nil : City.new(page)
+    City.load(name)
   end
 end
