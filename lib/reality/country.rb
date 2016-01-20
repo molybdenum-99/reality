@@ -3,6 +3,7 @@
 
 module Reality
   class Country < Entity
+    using Reality::Refinements
     infobox_name 'Infobox country'
     
     def long_name
@@ -10,7 +11,9 @@ module Reality
     end
 
     def capital
-      infobox.fetch('capital').lookup(:Wikilink).first
+      @capital ||= infobox.fetch('capital').
+        lookup(:Wikilink).first.
+        derp{|wl| City.from_wikilink(wl)}
     end
 
     def languages

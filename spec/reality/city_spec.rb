@@ -19,6 +19,8 @@ module Reality
 
       describe 'links' do
         its(:'country.to_s'){should == 'Argentina'}
+        its(:country){should be_a Country}
+        its(:country){should_not be_loaded}
 
         xit 'should parse leaders' do
           leaders = city.leaders

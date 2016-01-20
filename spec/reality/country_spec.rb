@@ -22,6 +22,8 @@ module Reality
 
       describe 'links' do
         its(:'capital.to_s'){should == 'Buenos Aires'}
+        its(:capital){should be_a(City)}
+        its(:capital){should_not be_loaded}
 
         # TODO: "Spanish language" and "Argentine peso", in fact
         #   or even Language(Spanish), but Currency(Argentine peso | $)

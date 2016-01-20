@@ -62,6 +62,10 @@ module Reality
           nil
         end
       end
+
+      def from_wikilink(link)
+        new(link.link)
+      end
     end
 
     protected

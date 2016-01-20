@@ -1,5 +1,7 @@
 module Reality
   class City < Entity
+    using Reality::Refinements
+    
     # FIXME: have several descendant infobox classes
     infobox_name 'Infobox settlement'
     
@@ -26,7 +28,10 @@ module Reality
     def country
       # TODO1: convert to "incomplete entry" of type Country
       # TODO2: can be {{UKR}}
-      infobox.fetch(/^subdivision_name/).sort_by(&:name).first.children.first
+      @country ||= infobox.
+        fetch(/^subdivision_name/).sort_by(&:name).
+        first.children.first.text.
+        derp{|name| Reality::Country.new(name)}
     end
 
     def coord

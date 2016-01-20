@@ -7,5 +7,7 @@ Infoboxer::MediaWiki::Traits.for('en.wikipedia.org') do
     end
 
     show 'US$' # TODO: in fact, has second option (year)
+
+    show 'nts'
   end
 end
