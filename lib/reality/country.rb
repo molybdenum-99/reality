@@ -174,7 +174,7 @@ module Reality
       private
 
       def get(*names)
-        Reality.wp.get(*names).map{|page| Country.new(page)}
+        [*Reality.wp.get(*names)].map{|page| Country.new(page.title, page)}
       end
     end
   end

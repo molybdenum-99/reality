@@ -1,7 +1,7 @@
 module Reality
   describe Weather do
     before do
-      OpenWeather::Current.any_instance.stub(:retrive) do
+      allow_any_instance_of(OpenWeather::Current).to receive(:retrive) do
         {"coord"=>{"lon"=>-58.38, "lat"=>-34.61},
          "weather"=>[{"id"=>804, "main"=>"Clouds", "description"=>"overcast clouds", "icon"=>"04d"}],
          "base"=>"cmc stations", "main"=>{"temp"=>295.95, "pressure"=>1016, "humidity"=>77, "temp_min"=>294.15, "temp_max"=>297.04},
@@ -14,7 +14,7 @@ module Reality
     context 'when included to a Country' do
       let(:entity) { Country.new(1) }
 
-      before { entity.stub(:name) { 'Argentina' } }
+      before { allow(entity).to receive(:name).and_return('Argentina') }
 
       describe '#weather' do
         subject { entity.weather }

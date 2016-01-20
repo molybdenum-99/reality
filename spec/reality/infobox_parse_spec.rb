@@ -21,7 +21,7 @@ module Reality
         double(title: 'Neverland', fullurl: 'https://en.wikipedia.org/wiki/Neverland')
         )
 
-      Country.new(page)
+      Country.new('Narnia', page)
     end
 
     def wikilink(link, text = link)
