@@ -20,4 +20,9 @@ module Reality
   %w[weather].each do |mod|
     require_relative "reality/#{mod}"
   end
+
+  #extras
+  %w[time].each do |mod|
+    require_relative "reality/extras/#{mod}"
+  end
 end
