@@ -3,21 +3,24 @@ require 'yaml'
 
 module Reality
   require_relative 'config'
-  require_relative 'reality/infoboxer_templates'
+  require_relative 'reality/'
   require_relative 'reality/refinements'
 
-  # basic functionality
-  %w[measure geo].each do |mod|
-    require_relative "reality/#{mod}"
+  def self.require_(*modules)
+    modules.each do |mod|
+      require_relative "reality/#{mod}"
+    end
   end
+
+  # basic functionality
+  require_ *%w[measure geo]
+
+  # engines
+  require_ *%w[infoboxer_templates wikidata]
 
   # entities
-  %w[entity country city].each do |mod|
-    require_relative "reality/#{mod}"
-  end
+  require_ *%w[entity country city]
 
   # mixins
-  %w[weather].each do |mod|
-    require_relative "reality/#{mod}"
-  end
+  require_ *%w[weather]
 end
