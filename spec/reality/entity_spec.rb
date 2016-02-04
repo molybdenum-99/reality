@@ -57,6 +57,7 @@ module Reality
     describe 'property definition' do
       let(:klass){
         Class.new(Entity) do
+          # from Wikidata
           property :continent,
             type: :entity,
             wikidata: 'P30'
@@ -76,9 +77,20 @@ module Reality
           property :utc_offset,
             type: :utc_offset,
             wikidata: 'P421'
+
+          # from Wikipedia
+          property :area,
+            type: :measure,
+            unit: 'km²',
+            wikipedia: 'area_km2'
         end
       }
-      let(:country){klass.new('Argentina', wikidata: wikidata)}
+      let(:country){klass.new('Argentina', wikidata: wikidata, wikipage: wikipage)}
+      let(:neighbours){
+        {'Q750' => 'Bolivia', 'Q155' => 'Brazil',
+          'Q298' => 'Chile', 'Q733' => 'Paraguay',
+          'Q77' => 'Uruguay'}
+      }
 
       context 'Wikidata' do
         it 'loads entities' do
@@ -109,12 +121,6 @@ module Reality
           expect(country.tld).to eq '.ar'
         end
 
-        let(:neighbours){
-          {'Q750' => 'Bolivia', 'Q155' => 'Brazil',
-            'Q298' => 'Chile', 'Q733' => 'Paraguay',
-            'Q77' => 'Uruguay'}
-        }
-
         it 'loads arrays of entities' do
           expect(wikidata).to receive(:[]).with('P47').
             and_return(neighbours.map{|i, l| Wikidata::Link.new(i, l)})
@@ -131,6 +137,42 @@ module Reality
 
           expect(country.utc_offset).to eq -3
         end
+      end
+
+      context 'Wikipedia' do
+        let(:infobox){double}
+        let(:wikipage){double(title: 'Paris, France', infobox: infobox)}
+
+        it 'loads measures' do
+          expect(infobox).to receive(:fetch).with('area_km2').
+            and_return([double(to_s: '2,780,400')])
+
+          expect(country.area).to eq Measure.new(2_780_400, 'km²')
+        end
+      end
+
+      context :to_h do
+        let(:infobox){double}
+        let(:wikipage){double(infobox: infobox)}
+        let(:wikidata){Wikidata::Entity.new(
+          'Q414',
+          'P30'   => [Wikidata::Link.new('Q18', 'South America')],
+          'P1082' => [43_417_000],
+          'P298'  => ['ARG'],
+          'P47'   => neighbours.map{|i, l| Wikidata::Link.new(i, l)},
+          'P421'  => [Wikidata::Link.new('Q651', 'UTC−03:00')]
+        )}
+
+        before{
+          expect(infobox).to receive(:fetch).with('area_km2').
+            and_return([double(to_s: '2,780,400')])
+        }
+        subject{country.to_h}
+        it{should be_a Hash}
+        its(:keys){should include(:continent, :area, :utc_offset)}
+        its([:continent]){should == 'South America'}
+        its([:area]){should == 2_780_400}
+        its([:neighbours]){should include('Bolivia', 'Chile')}
       end
     end
 

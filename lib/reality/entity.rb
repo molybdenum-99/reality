@@ -39,13 +39,21 @@ module Reality
       end
     end
 
+    def to_h
+      self.class.properties.map{|sym|
+        [sym, to_simple_type(self.send(sym))]
+      }.to_h
+    end
+
     protected
 
     def fetch(**opts)
       if opts[:wikidata]
         coerce(opts[:type], wikidata[opts[:wikidata]], **opts.except(:type, :wikidata))
+      elsif opts[:wikipedia]
+        coerce(opts[:type], wikipage.infobox.fetch(opts[:wikipedia]), **opts.except(:type, :wikipedia))
       else
-        fail "Can't fetch anything except wikidata, sorry!"
+        fail "Can't fetch anything except wikidata and wikipedia, sorry!"
       end
     end
 
@@ -64,7 +72,7 @@ module Reality
         coerce_entity(data)
       when :measure
         u = opts[:unit] || opts[:units] or fail("Units are not defined for measure type")
-        Measure.new(data, u)
+        Measure.new(parse_number(data.to_s), u)
       when :string
         data.to_s
       when :utc_offset
@@ -82,6 +90,36 @@ module Reality
         fail ArgumentError, "Can't coerce #{obj.inspect} to Entity"
       end
     end
+
+    def parse_number(str)
+      str = str.gsub(',', '').tr('−', '-')
+      case str
+      when /^-?\d+$/
+        str.to_i
+      when /^-?\d+\.\d+$/
+        str.to_f
+      else
+        fail(ArgumentError, "#{str} is not containing number, apparently")
+      end
+    end
+
+    def to_simple_type(val)
+      case val
+      when nil, Numeric, String, Symbol
+        val
+      when Array
+        val.map{|v| to_simple_type(v)}
+      when Hash
+        val.map{|k, v| [to_simple_type(k), to_simple_type(v)]}.to_h
+      when Entity
+        val.to_s
+      when Reality::Measure
+        val.amount.to_i
+      else
+        fail ArgumentError, "Non-coercible value #{val.class}"
+      end
+    end
+
   end
 end
 
