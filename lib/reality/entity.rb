@@ -1,4 +1,91 @@
 module Reality
+  class Entity
+    using Refinements
+    
+    attr_reader :name
+    
+    def initialize(name, wikipage: nil, wikidata: nil)
+      @name = name
+      @wikipage, @wikidata = wikipage, wikidata
+    end
+
+    def inspect
+      "#<#{self.class}(#{name})>"
+    end
+
+    def to_s
+      name
+    end
+
+    def wikipage
+      @wikipage ||= Infoboxer.wikipedia.get(name)
+    end
+
+    def wikidata
+      @wikidata ||= Wikidata::Entity.fetch(name).first # FIXME: select by type?
+    end
+
+    class << self
+      def properties
+        @properties ||= []
+      end
+      
+      def property(name, **opts)
+        opts[:type] ||= :string
+        properties << name
+        define_method(name){
+          fetch(**opts)
+        }
+      end
+    end
+
+    protected
+
+    def fetch(**opts)
+      if opts[:wikidata]
+        coerce(opts[:type], wikidata[opts[:wikidata]], **opts.except(:type, :wikidata))
+      else
+        fail "Can't fetch anything except wikidata, sorry!"
+      end
+    end
+
+    def coerce(type, data, **opts)
+      if data.kind_of?(Array) && !type.kind_of?(Array)
+        data = data.first
+      end
+
+      # FIXME: better errors: including field name & class name
+      case type
+      when Array
+        type.count == 1 or fail("Only homogenous array types supported, #{type.inspect} received")
+        data.kind_of?(Array) or fail("Array type expected, #{data.inspect} received")
+        data.map{|row| coerce(type.first, row, **opts)}
+      when :entity
+        coerce_entity(data)
+      when :measure
+        u = opts[:unit] || opts[:units] or fail("Units are not defined for measure type")
+        Measure.new(data, u)
+      when :string
+        data.to_s
+      when :utc_offset
+        data.to_s.sub(/^UTC/, '').tr('−', '-').to_i # FIXME: definitely too naive
+      else
+        fail ArgumentError, "Can't coerce #{data.inspect} to #{type.inspect}"
+      end
+    end
+
+    def coerce_entity(obj)
+      case obj
+      when Wikidata::Link
+        Entity.new(obj.label || obj.id)
+      else
+        fail ArgumentError, "Can't coerce #{obj.inspect} to Entity"
+      end
+    end
+  end
+end
+
+__END__
   EntityTypeError = Class.new(NameError)
   
   class Entity

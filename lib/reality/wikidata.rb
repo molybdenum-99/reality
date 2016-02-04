@@ -12,6 +12,10 @@ module Reality
       def inspect
         "#<#{self.class}(#{[id, label].compact.join(': ')})>"
       end
+
+      def to_s
+        label || id
+      end
     end
     
     class Entity
@@ -126,6 +130,10 @@ module Reality
 
       def inspect
         "#<#{self.class}(#{[id, label].compact.join(': ')})>"
+      end
+
+      def to_s
+        label || id
       end
 
       def to_h

@@ -19,8 +19,8 @@ module Reality
   require_ *%w[infoboxer_templates wikidata]
 
   # entities
-  require_ *%w[entity country city]
+  require_ *%w[entity] # country city]
 
   # mixins
-  require_ *%w[weather]
+  #require_ *%w[weather]
 end
