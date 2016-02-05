@@ -4,9 +4,10 @@ module Reality
     
     attr_reader :name
     
-    def initialize(name, wikipage: nil, wikidata: nil)
+    def initialize(name, wikipage: nil, wikidata: nil, load: false)
       @name = name
       @wikipage, @wikidata = wikipage, wikidata
+      load! if load # TODO: only partial load
     end
 
     def inspect
@@ -23,6 +24,10 @@ module Reality
 
     def wikidata
       @wikidata ||= Wikidata::Entity.fetch(name).first # FIXME: select by type?
+    end
+
+    def load!(what = [:wikidata, :wikipage])
+      what.each{|w| send w}
     end
 
     class << self

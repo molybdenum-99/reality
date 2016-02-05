@@ -20,6 +20,7 @@ module Reality
 
   # entities
   require_ *%w[entity] # country city]
+  require_ *%w[entities/country]
 
   # mixins
   #require_ *%w[weather]

@@ -3,13 +3,12 @@ module Reality
     subject(:entity){Entity.new('Paris')}
     let(:wikipage){double(title: 'Paris, France', infobox: double(name: 'Infobox country'))}
     let(:wikidata){double}
+    let(:wikipedia){double}
+    before{
+      allow(Infoboxer).to receive(:wikipedia).and_return(wikipedia)
+    }
 
     describe :wikipage do
-      let(:wikipedia){double}
-      before{
-        allow(Infoboxer).to receive(:wikipedia).and_return(wikipedia)
-      }
-
       it 'is not loaded by default' do
         expect(entity.instance_variable_get('@wikipage')).to be_nil
       end
@@ -54,34 +53,51 @@ module Reality
       end
     end
 
+    describe 'forced loading' do
+      it 'force-loads on demand' do
+        expect(Infoboxer.wikipedia).to receive(:get).
+          with('Paris').and_return(wikipage)
+        expect(Wikidata::Entity).to receive(:fetch).
+          with('Paris').and_return([wikidata])
+
+        entity.load!
+
+        expect(entity.instance_variable_get('@wikidata')).to eq wikidata
+        expect(entity.instance_variable_get('@wikipage')).to eq wikipage
+      end
+      
+      it 'force-loads on initialize' do
+        expect(Infoboxer.wikipedia).to receive(:get).
+          with('Paris').and_return(wikipage)
+        expect(Wikidata::Entity).to receive(:fetch).
+          with('Paris').and_return([wikidata])
+
+        entity = Entity.new('Paris', load: true)
+
+        expect(entity.instance_variable_get('@wikidata')).to eq wikidata
+        expect(entity.instance_variable_get('@wikipage')).to eq wikipage
+
+      end
+    end
+
     describe 'property definition' do
       let(:klass){
         Class.new(Entity) do
           # from Wikidata
-          property :continent,
-            type: :entity,
-            wikidata: 'P30'
+          property :continent, type: :entity, wikidata: 'P30'
 
-          property :population,
-            type: :measure,
-            unit: 'person',
+          property :population, type: :measure, unit: 'person',
             wikidata: 'P1082'
 
           property :iso3_code, wikidata: 'P298'
           property :tld, wikidata: 'P78'
 
-          property :neighbours,
-            type: [:entity],
-            wikidata: 'P47'
+          property :neighbours, type: [:entity], wikidata: 'P47'
 
-          property :utc_offset,
-            type: :utc_offset,
-            wikidata: 'P421'
+          property :utc_offset, type: :utc_offset, wikidata: 'P421'
 
           # from Wikipedia
-          property :area,
-            type: :measure,
-            unit: 'km²',
+          property :area, type: :measure, unit: 'km²',
             wikipedia: 'area_km2'
         end
       }
