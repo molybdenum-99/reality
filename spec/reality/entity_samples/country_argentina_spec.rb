@@ -32,6 +32,29 @@ module Reality
         its(:coord){should == Geo::Coord.from_dms([34,'S'], [64,'W'])}
       end
 
+      describe 'links' do
+        its(:capital){should be_an Entity}
+        its(:'capital.name'){should == 'Buenos Aires'}
+        its(:currency){should be_an Entity}
+        its(:'currency.name'){should == 'peso'}
+
+        its(:'continent.name'){should == 'South America'}
+
+        xit 'parses organizations' do
+          orgs = country.organizations
+          expect(orgs).to all be_an Entity
+          expect(orgs.map(&:name)).to contain_exactly \
+            'G15', 'G20', 'Mercosur', 'Union of South American Nations', 'United Nations'
+        end
+
+        it 'parses neighbours' do
+          neighs = country.neighbours
+          expect(neighs).to all be_an Entity
+          expect(neighs.map(&:name)).to contain_exactly \
+            'Bolivia', 'Brazil', 'Chile', 'Paraguay', 'Uruguay'
+        end
+      end
+
     end
   end
 end

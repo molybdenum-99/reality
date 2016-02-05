@@ -29,5 +29,11 @@ module Reality
     property :utc_offset, wikidata: 'P421', type: :utc_offset
 
     property :coord, wikidata: 'P625', type: :coord
+
+    property :continent, wikidata: 'P30', type: :entity
+    property :capital, wikidata: 'P36', type: :entity
+    property :currency, wikidata: 'P38', type: :entity
+    property :organizations, wikidata: 'P463', type: [:entity]
+    property :neighbours, wikidata: 'P47', type: [:entity]
   end
 end
