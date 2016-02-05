@@ -4,7 +4,7 @@ Timezone::Configure.begin do |c|
 end
 
 module Reality
-  class Time
+  class TimeZone
     attr_accessor :timezone
 
     def initialize(zone: nil, coords: nil)
@@ -41,32 +41,17 @@ module Reality
       timezone.time_with_offset(time)
     end
   end
-  module Extras
-    module TimeExtras
-      module EntityTime
-        def time
-          @time ||= Time.new(coords: [coord.lat.to_f, coord.lng.to_f])
-        end
-      end
+  module TimeZoneExtension
+    def self.included(_mod)
+      Reality::Geo::Coord.include CoordTimeZone
+    end
 
-      module CityTime
-        include EntityTime
-      end
-
-      module CountryTime
-        include EntityTime
-
-        def time
-          @time ||= capital.time
-        end
-      end
-
-      def self.included(_mod)
-        Reality::City.include CityTime
-        Reality::Country.include CountryTime
+    module CoordTimeZone
+      def timezone
+        @time ||= TimeZone.new(coords: [lat.to_f, lng.to_f])
       end
     end
   end
 end
 
-Reality.include Reality::Extras::TimeExtras
+Reality.include Reality::TimeZoneExtension
