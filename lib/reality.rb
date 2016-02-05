@@ -12,7 +12,7 @@ module Reality
   end
 
   # entities
-  %w[entity country city].each do |mod|
+  %w[entity country city time_zone].each do |mod|
     require_relative "reality/#{mod}"
   end
 

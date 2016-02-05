@@ -31,6 +31,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'infoboxer', '>= 0.2.2'
   s.add_dependency 'hashie'
   s.add_dependency 'open-weather'
+  s.add_dependency 'timezone'
 
   s.add_development_dependency 'rspec', '~> 3'
   s.add_development_dependency 'rspec-its', '~> 1'
