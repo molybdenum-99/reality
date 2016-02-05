@@ -67,6 +67,10 @@ module Reality
         data = data.first
       end
 
+      if opts[:parse]
+        data = opts[:parse].call(data)
+      end
+
       # FIXME: better errors: including field name & class name
       case type
       when Array
@@ -77,11 +81,13 @@ module Reality
         coerce_entity(data)
       when :measure
         u = opts[:unit] || opts[:units] or fail("Units are not defined for measure type")
-        Measure.new(parse_number(data.to_s), u)
+        Measure.coerce(Util::Parse.number(data.to_s), u)
       when :string
         data.to_s
       when :utc_offset
         data.to_s.sub(/^UTC/, '').tr('−', '-').to_i # FIXME: definitely too naive
+      when :coord
+        data.is_a?(Geo::Coord) ? data : nil
       else
         fail ArgumentError, "Can't coerce #{data.inspect} to #{type.inspect}"
       end
@@ -93,18 +99,6 @@ module Reality
         Entity.new(obj.label || obj.id)
       else
         fail ArgumentError, "Can't coerce #{obj.inspect} to Entity"
-      end
-    end
-
-    def parse_number(str)
-      str = str.gsub(',', '').tr('−', '-')
-      case str
-      when /^-?\d+$/
-        str.to_i
-      when /^-?\d+\.\d+$/
-        str.to_f
-      else
-        fail(ArgumentError, "#{str} is not containing number, apparently")
       end
     end
 
@@ -234,44 +228,6 @@ __END__
           infobox.fetch('longEW').text.strip
         ]
       )
-    end
-
-    # See "Short scale": https://en.wikipedia.org/wiki/Long_and_short_scales#Comparison
-    SCALES = {
-      'million'     => 1_000_000,
-      'billion'     => 1_000_000_000,
-      'trillion'    => 1_000_000_000_000,
-      'quadrillion' => 1_000_000_000_000_000,
-      'quintillion' => 1_000_000_000_000_000_000,
-      'sextillion'  => 1_000_000_000_000_000_000_000,
-      'septillion'  => 1_000_000_000_000_000_000_000_000,
-    }
-    SCALES_REGEXP = Regexp.union(*SCALES.keys)
-
-    def parse_scaled(str)
-      match, amount, scale = */^([0-9.,]+)[[:space:]]*(#{SCALES_REGEXP})/.match(str)
-      match or
-        fail(ArgumentError, "Unparseable scaled value #{str} for #{self}")
-
-      (amount.gsub(/[,]/, '').to_f * fetch_scale(scale)).to_i
-    end
-
-    def parse_maybe_scaled(str)
-      match, amount, scale = */^([0-9.,]+)[[:space:]]*(#{SCALES_REGEXP})?/.match(str)
-      match or
-        fail(ArgumentError, "Unparseable scaled value #{str} for #{self}")
-
-      if scale
-        (amount.gsub(/[,]/, '').to_f * fetch_scale(scale)).to_i
-      else
-        amount.gsub(/[,]/, '').to_i
-      end
-    end
-
-    def fetch_scale(str)
-      _, res = SCALES.detect{|key, val| str.start_with?(key)}
-
-      res or fail("Scale not found: #{str} for #{self}")
     end
 
     def to_simple_type(val)

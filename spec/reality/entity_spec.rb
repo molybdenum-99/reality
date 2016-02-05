@@ -99,6 +99,12 @@ module Reality
           # from Wikipedia
           property :area, type: :measure, unit: 'km²',
             wikipedia: 'area_km2'
+
+          property :gdp_ppp, type: :measure, unit: '$',
+            wikipedia: 'GDP_PPP',
+            parse: ->(var){
+              Util::Parse.scaled_number(var.text.strip.sub(/^((Int|US)?\$|USD)/, ''))
+            }
         end
       }
       let(:country){klass.new('Argentina', wikidata: wikidata, wikipage: wikipage)}
@@ -165,6 +171,13 @@ module Reality
 
           expect(country.area).to eq Measure.new(2_780_400, 'km²')
         end
+
+        it 'allows to use custom parser' do
+          expect(infobox).to receive(:fetch).with('GDP_PPP').
+            and_return([double(text: '$964.279 billion')])
+
+          expect(country.gdp_ppp).to eq Measure.new(964_279_000_000, '$')
+        end
       end
 
       context :to_h do
@@ -181,7 +194,9 @@ module Reality
 
         before{
           expect(infobox).to receive(:fetch).with('area_km2').
-            and_return([double(to_s: '2,780,400')])
+            and_return([double(to_s: '2,780,400')]).ordered
+          expect(infobox).to receive(:fetch).with('GDP_PPP').
+            and_return([double(text: '$964.279 billion')]).ordered  
         }
         subject{country.to_h}
         it{should be_a Hash}

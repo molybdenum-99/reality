@@ -13,7 +13,7 @@ module Reality
   end
 
   # basic functionality
-  require_ *%w[measure geo]
+  require_ *%w[measure geo util/parsers]
 
   # engines
   require_ *%w[infoboxer_templates wikidata]
