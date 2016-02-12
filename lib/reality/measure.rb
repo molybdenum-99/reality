@@ -63,6 +63,14 @@ module Reality
       '%s%s' % [formatted_amount, unit]
     end
 
+    def to_f
+      amount.to_f
+    end
+
+    def to_i
+      amount.to_i
+    end
+
     def inspect
       "#<%s(%s %s)>" % [self.class, formatted_amount, unit]
     end

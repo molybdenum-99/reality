@@ -1,3 +1,6 @@
+require 'geokit'
+Geokit::default_units = :kms # TODO: use global settings
+
 module Reality
   module Geo
     # GeoKit, RGeo, GeoRuby -- I know, ok?
@@ -45,6 +48,28 @@ module Reality
         @lat, @lng = Rational(lat), Rational(lng)
       end
 
+      def distance_to(point)
+        destination_coords = point.is_a?(Coord )? point.to_s : point
+        res = Geokit::LatLng.distance_between(to_s, destination_coords, formula: :sphere)
+        Reality::Measure(res, 'km')
+      end
+
+      def direction_to(point)
+        destination_coords = point.is_a?(Coord )? point.to_s : point
+        res = Geokit::LatLng.heading_between(to_s, destination_coords)
+        Reality::Measure(res, '°')
+      end
+
+      def endpoint(heading, distance)
+        res = Geokit::LatLng.endpoint(to_s, heading, distance)
+        Coord.new res.lat, res.lng
+      end
+
+      def around?(point, radius)
+        area = Geokit::Bounds.from_point_and_radius(to_s, radius)
+        area.contains?(point.to_s)
+      end
+
       def lat_dms(direction = true)
         seconds = (lat.abs % 1.0) * 3600.0
         d, m, s = lat.to_i, (seconds / 60).to_i, (seconds % 60)
@@ -63,6 +88,10 @@ module Reality
         else
           [d, m, s]
         end
+      end
+
+      def to_s
+        "#{lat.to_f}, #{lng.to_f}"
       end
 
       def ==(other)
