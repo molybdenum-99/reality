@@ -16,6 +16,8 @@ module Reality
       it 'is loaded from infoboxer on first call' do
         expect(Infoboxer.wikipedia).to receive(:get).
           with('Paris').and_return(wikipage)
+        expect(Wikidata::Entity).to receive(:fetch).
+          with('Paris').and_return([wikidata])
 
         expect(entity.wikipage).to eq wikipage
         expect(entity.instance_variable_get('@wikipage')).to eq wikipage
@@ -28,6 +30,8 @@ module Reality
       end
 
       it 'is loaded as Wikidata::Entity on first call' do
+        expect(Infoboxer.wikipedia).to receive(:get).
+          with('Paris').and_return(wikipage)
         expect(Wikidata::Entity).to receive(:fetch).
           with('Paris').and_return([wikidata])
 
@@ -80,7 +84,9 @@ module Reality
       end
     end
 
-    describe 'property definition' do
+    xdescribe 'property definition' do
+      # Not sure where it should go, really
+      
       context :to_h do
         let(:infobox){double}
         let(:wikipage){double(infobox: infobox)}
@@ -109,16 +115,51 @@ module Reality
     end
 
     describe 'entity class' do
+      let!(:klass){
+        Module.new{
+          extend EntityClass
+          by_infobox 'Infobox country'
+
+          property :continent, type: :entity, wikidata: 'P30'
+        }
+      }
       context 'class selection on load' do
+        before{
+          expect(Infoboxer.wikipedia).to receive(:get).
+            with('Paris').and_return(wikipage)
+          expect(Wikidata::Entity).to receive(:fetch).
+            with('Paris').and_return([wikidata])
+
+          entity.load!
+        }
+        its(:entity_class){should == klass}
       end
 
       context 'class selection for preloaded' do
+        subject(:entity){Entity.new('Paris', wikipage: wikipage, wikidata: wikidata)}
+        its(:entity_class){should == klass}
       end
 
       context 'class properties availability' do
+        subject(:entity){Entity.new('Paris', wikipage: wikipage, wikidata: wikidata)}
+        it{should respond_to(:continent)}
+        its(:properties){should include(:continent)}
       end
 
       context 'inspect' do
+        before{
+          if Reality.const_defined?(:Country)
+            Reality.send(:remove_const, :Country)
+          end
+          Reality.const_set(:Country, klass)
+        }
+        after{
+          if Reality.const_defined?(:Country)
+            Reality.send(:remove_const, :Country)
+          end
+        }
+        subject(:entity){Entity.new('France', wikipage: wikipage, wikidata: wikidata)}
+        its(:inspect){should == "#<Reality::Country(France)>"}
       end
     end
   end

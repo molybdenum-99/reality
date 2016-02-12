@@ -16,10 +16,11 @@ module Reality
     end
 
     def extended(entity)
-      props = properties
       properties.each do |n, **opts|
         entity.define_singleton_method(n){fetch(**opts)}
       end
+      props = properties
+      entity.define_singleton_method(:properties){props}
     end
 
     class << self

@@ -16,9 +16,10 @@ module Reality
       end
 
       it 'should define property accessor methods on owner object' do
-        obj = Object.new
-        obj.extend(klass)
-        expect(obj).to respond_to(:continent)
+        e = Entity.new('Foo')
+        e.extend(klass)
+        expect(e).to respond_to(:continent)
+        expect(e.properties).to include(:continent)
       end
     end
 
