@@ -37,16 +37,15 @@ module Reality
       after_load
     end
 
+    def loaded?
+      !!@wikipage
+    end
+
     class << self
-      def properties
-        @properties ||= []
-      end
-      
-      def property(name, **opts)
-        opts[:type] ||= :string
-        properties << name
-        define_method(name){
-          fetch(**opts)
+      def load(name, entry_class = nil)
+        Entity.new(name, load: true).tap{|entity|
+          return nil if entity.instance_variable_get('@wikipage').nil?
+          return nil if entry_class && entity.entity_class != entry_class
         }
       end
     end

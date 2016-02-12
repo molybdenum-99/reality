@@ -54,8 +54,13 @@ module Reality
           expect(neighs.map(&:name)).to contain_exactly \
             'Bolivia', 'Brazil', 'Chile', 'Paraguay', 'Uruguay'
         end
-      end
 
+        it 'parses languages' do
+        end
+
+        it 'parses country leaders' do
+        end
+      end
     end
   end
 end

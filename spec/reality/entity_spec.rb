@@ -148,18 +148,18 @@ module Reality
 
       context 'inspect' do
         before{
-          if Reality.const_defined?(:Country)
-            Reality.send(:remove_const, :Country)
+          if Reality.const_defined?(:CountryX) # to not mangle with our real Country
+            Reality.send(:remove_const, :CountryX)
           end
-          Reality.const_set(:Country, klass)
+          Reality.const_set(:CountryX, klass)
         }
         after{
-          if Reality.const_defined?(:Country)
-            Reality.send(:remove_const, :Country)
+          if Reality.const_defined?(:CountryX)
+            Reality.send(:remove_const, :CountryX)
           end
         }
         subject(:entity){Entity.new('France', wikipage: wikipage, wikidata: wikidata)}
-        its(:inspect){should == "#<Reality::Country(France)>"}
+        its(:inspect){should == "#<Reality::CountryX(France)>"}
       end
     end
   end
