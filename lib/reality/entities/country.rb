@@ -1,6 +1,10 @@
 module Reality
-  class Country < Entity
+  module Country
     using Reality::Refinements
+
+    extend EntityClass
+
+    by_infobox 'Infobox country'
 
     property :long_name, wikipedia: 'conventional_long_name'
 

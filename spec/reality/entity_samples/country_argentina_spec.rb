@@ -4,11 +4,12 @@ module Reality
       before(:all){
         # parsed only once - faster tests
         VCR.use_cassette('Country-Argentina'){
-          @country = Reality::Country.new('Argentina', load: true) 
+          @country = Reality::Entity.new('Argentina', load: true) 
         }
       }
       
       subject(:country){@country}
+      its(:entity_class){should == Reality::Country}
       
       describe 'basics' do
         its(:name){should == 'Argentina'}
