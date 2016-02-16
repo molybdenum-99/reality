@@ -5,10 +5,14 @@ source 'https://rubygems.org'
 gemspec
 
 group :development do
+  gem 'progress_bar', git: 'git://github.com/zverok/progress_bar'
+
   gem 'nokogiri'
+  gem 'addressable'
+  gem 'naught'
   gem 'faraday'
   gem 'faraday_middleware'
-  gem 'progress_bar'
+  #gem 'progress_bar'
   gem 'rake'
   gem 'rubygems-tasks'
 end

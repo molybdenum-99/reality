@@ -8,7 +8,7 @@ Neverlend exists!
 }
 
 module Reality
-  describe Country, 'infobox variants parsing' do
+  xdescribe Country, 'infobox variants parsing' do
     before(:all){
       VCR.use_cassette('wikipedia-traits'){
         @traits = Infoboxer.wp.traits

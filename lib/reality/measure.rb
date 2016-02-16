@@ -3,6 +3,10 @@ module Reality
     %w[unit].each{|mod| require_relative "measure/#{mod}"}
     
     attr_reader :amount, :unit
+
+    def Measure.coerce(amount, unit)
+      amount && unit && new(amount, unit)
+    end
     
     def initialize(amount, unit)
       @amount, @unit = Rational(amount), Unit.parse(unit)
