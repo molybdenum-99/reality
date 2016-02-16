@@ -17,7 +17,7 @@ module Reality
 
     def extended(entity)
       properties.each do |n, **opts|
-        entity.define_singleton_method(n){fetch(**opts)}
+        entity.define_singleton_method(n){values[n] ||= fetch(**opts)}
       end
       props = properties
       entity.define_singleton_method(:properties){props}

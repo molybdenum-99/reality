@@ -69,6 +69,10 @@ module Reality
       end
     end
 
+    def values
+      @values ||= {}
+    end
+
     include EntityProperties
 
     def to_simple_type(val)
