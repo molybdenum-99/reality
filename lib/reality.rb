@@ -41,6 +41,7 @@ module Reality
   extend Lists
 
   # extras
-  require_ %w[extras/open_weather_map]
+  require_ %w[extras/open_weather_map extras/geonames]
   include Extras::OpenWeatherMap
+  include Extras::Geonames
 end

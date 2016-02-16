@@ -41,7 +41,7 @@ module Reality
       module CoordWeather
         def weather
           res = OpenWeather::Current.geocode(lat.to_f, lng.to_f,
-                        units: 'metric', APPID: OPEN_WEATHER_MAP_KEY)
+                        units: 'metric', APPID: OPEN_WEATHER_MAP_KEY) # FIXME
 
           Weather.from_hash(res)
         end
