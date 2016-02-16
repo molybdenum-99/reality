@@ -50,12 +50,8 @@ module Reality
           }
         end
 
-        # FIXME: more symbols!!!
-        # NB: default URI::UNSAFE doesn't list ",", which Wikipedia encodes
-        WIKIPEDIA_UNSAFE = ', \'"'
-        
         def fetch(title)
-          title = URI.escape(title, WIKIPEDIA_UNSAFE)
+          title = URI.escape(title).gsub(',', '%2C')
           faraday.get('', query: QUERY % title, format: :json).
             derp{|res| from_sparql(res.body, subject: 'id', predicate: 'p', object: 'o', object_label: 'oLabel')}
         end
@@ -85,8 +81,10 @@ module Reality
             parse_literal(hash)
           when 'uri'
             parse_uri(hash)
+          when 'bnode'
+            nil
           else
-            fail ArgumentError, "Unidentifieble datatype: #{hash['type']}"
+            fail ArgumentError, "Unidentifieble datatype: #{hash['type']} in #{hash}"
           end
         end
 

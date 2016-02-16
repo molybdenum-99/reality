@@ -34,6 +34,10 @@ module Reality
     entity(name, City)
   end
 
+  require_ %w[lists]
+
+  extend Lists
+
   def self.wp
     @wp ||= Infoboxer.wp # while Infoboxer recreates wp for each request
   end
