@@ -40,6 +40,7 @@ module Reality
 
   extend Lists
 
-  # mixins
-  require_ *%w[weather]
+  # extras
+  require_ %w[extras/open_weather_map]
+  include Extras::OpenWeatherMap
 end
