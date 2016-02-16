@@ -33,7 +33,9 @@ module Reality
 
     def load!
       @wikipage = Infoboxer.wikipedia.get(name)
-      @wikidata = Wikidata::Entity.fetch(@wikipage.title).first
+      if @wikipage
+        @wikidata = Wikidata::Entity.fetch(@wikipage.title).first
+      end
       after_load
     end
 

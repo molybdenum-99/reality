@@ -30,14 +30,15 @@ module Reality
         }
       }
       before{
-        klass.by_infobox 'Infobox settlement', 'Infobox city'
-        klass2.by_infobox 'Infobox country'
+        # XX for not mangle our real existing definitions
+        klass.by_infobox 'Infobox settlementXX', 'Infobox cityXX'
+        klass2.by_infobox 'Infobox countryXX'
       }
       let(:obj1){
-        double(wikipage: double(infobox: double(name: 'Infobox settlement')))
+        double(wikipage: double(infobox: double(name: 'Infobox settlementXX')))
       }
       let(:obj2){
-        double(wikipage: double(infobox: double(name: 'Infobox country')))
+        double(wikipage: double(infobox: double(name: 'Infobox countryXX')))
       }
       it 'should guess correctly' do
         expect(EntityClass.for(obj1)).to eq klass

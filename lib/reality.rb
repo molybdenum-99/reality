@@ -3,7 +3,6 @@ require 'yaml'
 
 module Reality
   require_relative 'config'
-  require_relative 'reality/'
   require_relative 'reality/refinements'
 
   def self.require_(*modules)
@@ -43,5 +42,5 @@ module Reality
   end
 
   # mixins
-  #require_ *%w[weather]
+  require_ *%w[weather]
 end

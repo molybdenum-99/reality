@@ -1,7 +1,7 @@
 module Reality
   describe Entity, :vcr do
     subject(:entity){Entity.new('Paris')}
-    let(:wikipage){double(title: 'Paris, France', infobox: double(name: 'Infobox country'))}
+    let(:wikipage){double(title: 'Paris, France', infobox: double(name: 'Infobox countryXX'))}
     let(:wikidata){double}
     let(:wikipedia){double}
     before{
@@ -17,7 +17,7 @@ module Reality
         expect(Infoboxer.wikipedia).to receive(:get).
           with('Paris').and_return(wikipage)
         expect(Wikidata::Entity).to receive(:fetch).
-          with('Paris').and_return([wikidata])
+          with('Paris, France').and_return([wikidata])
 
         expect(entity.wikipage).to eq wikipage
         expect(entity.instance_variable_get('@wikipage')).to eq wikipage
@@ -33,7 +33,7 @@ module Reality
         expect(Infoboxer.wikipedia).to receive(:get).
           with('Paris').and_return(wikipage)
         expect(Wikidata::Entity).to receive(:fetch).
-          with('Paris').and_return([wikidata])
+          with('Paris, France').and_return([wikidata])
 
         expect(entity.wikidata).to eq wikidata
         expect(entity.instance_variable_get('@wikidata')).to eq wikidata
@@ -62,7 +62,7 @@ module Reality
         expect(Infoboxer.wikipedia).to receive(:get).
           with('Paris').and_return(wikipage)
         expect(Wikidata::Entity).to receive(:fetch).
-          with('Paris').and_return([wikidata])
+          with('Paris, France').and_return([wikidata])
 
         entity.load!
 
@@ -74,7 +74,7 @@ module Reality
         expect(Infoboxer.wikipedia).to receive(:get).
           with('Paris').and_return(wikipage)
         expect(Wikidata::Entity).to receive(:fetch).
-          with('Paris').and_return([wikidata])
+          with('Paris, France').and_return([wikidata])
 
         entity = Entity.new('Paris', load: true)
 
@@ -118,7 +118,7 @@ module Reality
       let!(:klass){
         Module.new{
           extend EntityClass
-          by_infobox 'Infobox country'
+          by_infobox 'Infobox countryXX' # don't mangle real defs
 
           property :continent, type: :entity, wikidata: 'P30'
         }
@@ -128,7 +128,7 @@ module Reality
           expect(Infoboxer.wikipedia).to receive(:get).
             with('Paris').and_return(wikipage)
           expect(Wikidata::Entity).to receive(:fetch).
-            with('Paris').and_return([wikidata])
+            with('Paris, France').and_return([wikidata])
 
           entity.load!
         }
