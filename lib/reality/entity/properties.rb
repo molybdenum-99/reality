@@ -4,12 +4,13 @@ module Reality
     
     def fetch(**opts)
       if opts[:wikidata]
-        coerce(opts[:type], wikidata[opts[:wikidata]], **opts.except(:type, :wikidata))
-      elsif opts[:wikipedia]
-        coerce(opts[:type], wikipage.infobox.fetch(opts[:wikipedia]), **opts.except(:type, :wikipedia))
-      else
-        fail "Can't fetch anything except wikidata and wikipedia, sorry!"
+        res = coerce(opts[:type], wikidata[opts[:wikidata]], **opts.except(:type, :wikidata))
       end
+      if !res && opts[:wikipedia]
+        res = coerce(opts[:type], wikipage.infobox.fetch(opts[:wikipedia]), **opts.except(:type, :wikipedia))
+      end
+
+      res
     end
 
     protected

@@ -1,6 +1,6 @@
 module Reality
   describe EntityProperties do
-    let(:infobox){double}
+    let(:infobox){double(name: '')}
     let(:wikipage){double(title: 'Paris, France', infobox: infobox)}
     let(:wikidata){double}
     let(:country){Entity.new('Argentina', wikidata: wikidata, wikipage: wikipage)}
@@ -88,6 +88,29 @@ module Reality
             parse: ->(var){
               Util::Parse.scaled_number(var.text.strip.sub(/^((Int|US)?\$|USD)/, ''))
             })).to eq Measure.new(964_279_000_000, '$')
+      end
+    end
+
+    context 'Wikidata OR Wikipedia' do
+      it 'loads first alternative from Wikidata' do
+        expect(wikidata).to receive(:[]).with('P2046').
+          and_return([2_780_400])
+        expect(infobox).not_to receive(:fetch)
+        
+        expect(country.fetch(type: :measure, unit: 'km²',
+            wikidata: 'P2046',
+            wikipedia: 'area_km2')).to eq Measure.new(2_780_400, 'km²')
+      end
+
+      it 'loads second alternative from Wikipedia' do
+        expect(wikidata).to receive(:[]).with('P2046').
+          and_return(nil)
+        expect(infobox).to receive(:fetch).with('area_km2').
+          and_return([double(to_s: '2,780,400')])
+
+        expect(country.fetch(type: :measure, unit: 'km²',
+            wikidata: 'P2046',
+            wikipedia: 'area_km2')).to eq Measure.new(2_780_400, 'km²')
       end
     end
   end

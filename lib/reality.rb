@@ -22,6 +22,14 @@ module Reality
   require_ %w[entity]
   require_ %w[entities/country]
 
+  def self.entity(name, entity_class = nil)
+    Entity.load(name, entity_class)
+  end
+
+  def self.country(name)
+    entity(name, Country)
+  end
+
   # mixins
   #require_ *%w[weather]
 end

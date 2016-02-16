@@ -16,7 +16,7 @@ module Reality
     property :population, wikidata: 'P1082',
               type: :measure, unit: 'person'
 
-    property :area, wikidata: 'P2046',
+    property :area, wikidata: 'P2046', wikipedia: 'area_km2',
               type: :measure, unit: 'km²'
 
     property :gdp_nominal, wikidata: 'P2131',
