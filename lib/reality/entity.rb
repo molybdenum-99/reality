@@ -1,5 +1,5 @@
 module Reality
-  require_ %w[entity/class entity/properties]
+  require_ %w[entity/class entity/properties entity/list]
   
   class Entity
     using Refinements

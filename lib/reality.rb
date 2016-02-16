@@ -34,6 +34,10 @@ module Reality
     entity(name, City)
   end
 
+  def self.wp
+    @wp ||= Infoboxer.wp # while Infoboxer recreates wp for each request
+  end
+
   # mixins
   #require_ *%w[weather]
 end
