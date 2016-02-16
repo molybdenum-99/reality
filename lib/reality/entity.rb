@@ -33,7 +33,7 @@ module Reality
 
     def load!
       @wikipage = Infoboxer.wikipedia.get(name)
-      @wikidata = Wikidata::Entity.fetch(name).first # FIXME: select by type?
+      @wikidata = Wikidata::Entity.fetch(@wikipage.title).first
       after_load
     end
 

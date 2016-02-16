@@ -26,9 +26,10 @@ module Reality
         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         PREFIX p: <http://www.wikidata.org/prop/>
         PREFIX v: <http://www.wikidata.org/prop/statement/>
+        PREFIX schema: <http://schema.org/>
 
         SELECT ?id ?p ?o ?oLabel  WHERE {
-          ?id rdfs:label "%s"@en .
+          <https://en.wikipedia.org/wiki/%s> schema:about ?id .
           {
             ?id ?p ?o .
             FILTER(STRSTARTS(STR(?p), "http://www.wikidata.org/prop/direct/"))
@@ -48,8 +49,13 @@ module Reality
             f.adapter Faraday.default_adapter
           }
         end
+
+        # FIXME: more symbols!!!
+        # NB: default URI::UNSAFE doesn't list ",", which Wikipedia encodes
+        WIKIPEDIA_UNSAFE = ', \'"'
         
         def fetch(title)
+          title = URI.escape(title, WIKIPEDIA_UNSAFE)
           faraday.get('', query: QUERY % title, format: :json).
             derp{|res| from_sparql(res.body, subject: 'id', predicate: 'p', object: 'o', object_label: 'oLabel')}
         end

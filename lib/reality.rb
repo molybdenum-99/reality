@@ -20,7 +20,7 @@ module Reality
 
   # entities
   require_ %w[entity]
-  require_ %w[entities/country]
+  require_ %w[entities/country entities/city]
 
   def self.entity(name, entity_class = nil)
     Entity.load(name, entity_class)
@@ -28,6 +28,10 @@ module Reality
 
   def self.country(name)
     entity(name, Country)
+  end
+
+  def self.city(name)
+    entity(name, City)
   end
 
   # mixins
