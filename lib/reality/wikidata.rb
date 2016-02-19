@@ -100,6 +100,8 @@ module Reality
           case hash['datatype']
           when 'http://www.w3.org/2001/XMLSchema#decimal'
             hash['value'].to_i
+          when 'http://www.w3.org/2001/XMLSchema#dateTime'
+            DateTime.parse(hash['value'])
           when 'http://www.opengis.net/ont/geosparql#wktLiteral'
             # TODO: WTF
             if hash['value'] =~ /^\s*point\s*\(\s*([-\d.]+)\s+([-\d.]+)\s*\)\s*$/i

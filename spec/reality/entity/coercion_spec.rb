@@ -10,11 +10,13 @@ module Reality
         'Q77' => 'Uruguay'}
     }
     
-    it 'works!' do
+    it 'coerces to entity' do
       continent = coerce([Wikidata::Link.new('Q18', 'South America')], :entity)
       expect(continent).to be_an Entity
       expect(continent.name).to eq 'South America'
+    end
 
+    it 'coerces to measure' do
       expect(
         coerce([43_417_000], :measure, unit: 'person')
       ).to eq Measure.new(43_417_000, 'person')
@@ -22,16 +24,23 @@ module Reality
       expect(
         coerce('2,780,400', :measure, unit: 'km²')
       ).to eq Measure.new(2_780_400, 'km²')
+    end
+
+    it 'coerces to string' do
 
       expect(coerce(['ARG'], :string)).to eq 'ARG'
       expect(
         coerce([Wikidata::Link.new('Q38300', '.ar')], :string)
       ).to eq '.ar'
+    end
 
+    it 'coerces to utc offset' do
       expect(
         coerce([Wikidata::Link.new('Q651', 'UTC−03:00')], :utc_offset)
       ).to eq -3
+    end
 
+    it 'coerces to geo coords' do
       expect(
         coerce([Geo::Coord.new(49, 32)], :coord)
       ).to eq Geo::Coord.new(49, 32)
@@ -39,13 +48,21 @@ module Reality
       expect(
         coerce(['49 32'], :coord)
       ).to be_nil
+    end
 
+    it 'coerces time' do
+    end
+
+    it 'coerces arrays' do
       arr = neighbours.map{|i, l| Wikidata::Link.new(i, l)}
 
       neigh = coerce(arr, [:entity])
       expect(neigh.count).to eq neighbours.count
       expect(neigh).to all be_an Entity
       expect(neigh.map(&:name)).to contain_exactly *neighbours.values
+    end
+
+    it 'supporst custom parsers' do
 
       parser = ->(var){
         Util::Parse.scaled_number(var.text.strip.sub(/^((Int|US)?\$|USD)/, ''))
