@@ -20,7 +20,7 @@ module Reality
 
     # References -------------------------------------------------------
     property 'P297', :iso2_code, :string
-    property 'P298', :iso3_code, :sring
+    property 'P298', :iso3_code, :string
     property 'P78', :tld, :string
     property 'P474', :calling_code, :string
     property 'P421', :utc_offset, :utc_offset

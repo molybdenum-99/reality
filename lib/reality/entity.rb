@@ -42,6 +42,7 @@ module Reality
 
     def method_missing(sym, *arg, **opts, &block)
       if arg.empty? && opts.empty? && !block && sym !~ /[=?!]/
+        load! unless loaded?
         values[sym]
       else
         super

@@ -92,6 +92,17 @@ module Reality
       it 'provides access through method_missing' do
         expect(entity.area).to eq Reality::Measure.new(43_417_000, 'km²')
       end
+
+      it 'force-loads on method_missing' do
+        expect(Infoboxer.wikipedia).to receive(:get).
+          with('Paris').and_return(wikipage)
+        expect(Wikidata::Entity).to receive(:fetch).
+          with('Paris, France').and_return([wikidata])
+
+        entity = Entity.new('Paris')
+        entity.area
+        expect(entity).to be_loaded
+      end
     end
 
     describe 'type and properites from Wikipedia' do
