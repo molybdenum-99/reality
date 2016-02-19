@@ -1,0 +1,55 @@
+module Reality
+  class Entity
+    module Coercion
+      COERCERS = {
+        entity: ->(val, **opts){
+          case val
+          when Wikidata::Link
+            Entity.new(val.label || val.id)
+          else
+            fail ArgumentError, "Can't coerce #{val.inspect} to Entity"
+          end
+        },
+        measure: ->(val, **opts){
+          u = opts[:unit] || opts[:units] or fail("Units are not defined for measure type")
+          Measure.coerce(Util::Parse.number(val.to_s), u)
+        },
+        string: ->(val, **opts){
+          val.to_s
+        },
+        utc_offset: ->(val, **opts){
+          val.to_s.sub(/^UTC/, '').tr('−', '-').to_i # FIXME: definitely too naive
+        },
+        coord: -> (val, **opts){
+          val.is_a?(Geo::Coord) ? val : nil
+        }
+      }
+
+      module_function
+
+      def coerce(val, type, **opts)
+        if val.kind_of?(Array) && !type.kind_of?(Array)
+          val = val.first
+        end
+
+        if opts[:parse]
+          val = opts[:parse].call(val)
+        end
+
+        # FIXME: better errors: including field name & class name
+        case type
+        when Array
+          type.count == 1 or fail("Only homogenous array types supported, #{type.inspect} received")
+          val.kind_of?(Array) or fail("Array type expected, #{val.inspect} received")
+          val.map{|row| coerce(row, type.first, **opts)}
+        when Symbol
+          parser = COERCERS[type] or fail("No parser for type #{type.inspect}")
+          parser.call(val, **opts)
+        else
+          fail("No parser for type #{type.inspect}")
+        end
+      end
+
+    end
+  end
+end

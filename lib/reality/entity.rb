@@ -1,5 +1,5 @@
 module Reality
-  require_ %w[entity/class entity/properties entity/list entity/wikidata]
+  require_ %w[entity/class entity/properties entity/list entity/coercion entity/wikidata]
   
   class Entity
     using Refinements
