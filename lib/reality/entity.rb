@@ -1,5 +1,5 @@
 module Reality
-  require_ %w[entity/class entity/properties entity/list entity/coercion entity/wikidata]
+  require_ %w[entity/list entity/coercion entity/wikidata]
   
   class Entity
     using Refinements
@@ -79,8 +79,6 @@ module Reality
         @values.update(WikidataProperties.parse(@wikidata))
       end
     end
-
-    include EntityProperties
 
     def to_simple_type(val)
       case val
