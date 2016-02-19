@@ -5,9 +5,9 @@ module Reality
   require_relative 'config'
 
   def self.require_(*modules)
-    modules.flatten.each do |mod|
-      require File.expand_path("../reality/#{mod}", __FILE__)
-    end
+    modules.flatten.flat_map{|pattern|
+      Dir[File.expand_path("../reality/#{pattern}.rb", __FILE__)]
+    }.each(&Kernel.method(:require))
   end
 
   # basic functionality
@@ -22,7 +22,8 @@ module Reality
 
   # entities
   require_ %w[entity]
-  require_ %w[entities/country entities/city]
+  #require_ %w[entities/country entities/city]
+  require_ %w[definitions/*]
 
   def self.entity(name, entity_class = nil)
     Entity.load(name, entity_class)

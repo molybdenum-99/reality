@@ -1,34 +1,31 @@
 module Reality
-  require_ %w[entity/class entity/properties entity/list]
+  require_ %w[entity/class entity/properties entity/list entity/wikidata]
   
   class Entity
     using Refinements
     
-    attr_reader :name, :entity_class
+    attr_reader :values, :entity_class
+    attr_reader :wikipage, :wikidata
     
     def initialize(name, wikipage: nil, wikidata: nil, load: false)
       @name = name
       @wikipage, @wikidata = wikipage, wikidata
-      load! if load # TODO: only partial load, like {load: :wikipage}
+      @values = {}
+      
+      load! if load
       after_load if @wikipage
     end
 
+    def name
+      @wikipage ? @wikipage.title : @name
+    end
+
     def inspect
-      "#<#{entity_class || self.class}(#{name})>"
+      "#<#{self.class}#{loaded? ? '' : '?'}(#{name})>"
     end
 
     def to_s
       name
-    end
-
-    def wikipage
-      load! unless @wikipage
-      @wikipage ||= Infoboxer.wikipedia.get(name)
-    end
-
-    def wikidata
-      load! unless @wikidata
-      @wikidata
     end
 
     def load!
@@ -43,6 +40,14 @@ module Reality
       !!@wikipage
     end
 
+    def method_missing(sym, *arg, **opts, &block)
+      if arg.empty? && opts.empty? && !block && sym !~ /[=?!]/
+        values[sym]
+      else
+        super
+      end
+    end
+
     class << self
       def load(name, entry_class = nil)
         Entity.new(name, load: true).tap{|entity|
@@ -52,15 +57,15 @@ module Reality
       end
     end
 
-    def to_h
-      if respond_to?(:properties)
-        properties.map{|sym|
-          [sym, to_simple_type(self.send(sym))]
-        }.to_h
-      else
-        {}
-      end
-    end
+    #def to_h
+      #if respond_to?(:properties)
+        #properties.map{|sym|
+          #[sym, to_simple_type(self.send(sym))]
+        #}.to_h
+      #else
+        #{}
+      #end
+    #end
 
     protected
 
@@ -69,10 +74,9 @@ module Reality
         @entity_class = EntityClass.for(self)
         extend(@entity_class) if @entity_class
       end
-    end
-
-    def values
-      @values ||= {}
+      if @wikidata
+        @values.update(WikidataProperties.parse(@wikidata))
+      end
     end
 
     include EntityProperties

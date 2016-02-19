@@ -118,7 +118,7 @@ module Reality
         end
       end
 
-      attr_reader :id
+      attr_reader :id, :predicates
 
       def initialize(id, predicates)
         @id, @predicates = id, predicates
