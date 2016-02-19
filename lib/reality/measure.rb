@@ -18,6 +18,10 @@ module Reality
       amount <=> other.amount
     end
 
+    def ==(other)
+      amount == other.amount && unit == other.unit
+    end
+
     def -@
       self.class.new(-amount, unit)
     end
@@ -65,6 +69,14 @@ module Reality
 
     def to_s
       '%s%s' % [formatted_amount, unit]
+    end
+
+    def to_f
+      amount.to_f
+    end
+
+    def to_i
+      amount.to_i
     end
 
     def inspect

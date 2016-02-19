@@ -1,6 +1,9 @@
 module Reality
   module Geo
     describe Coord do
+      let(:coord1) {Coord.new(50.004, 36.231)}
+      let(:coord2) {Coord.new(50.45, 30.523)}
+
       describe :initialize do
         subject(:coord){Coord.new(100, 200)}
         it{should have_attributes(
@@ -76,6 +79,26 @@ module Reality
           expect(m).to eq 00
           expect(s).to within(0.1).of(32)
           expect(dir).to be_nil
+        end
+      end
+
+      describe :distance_to do
+        subject { coord1.distance_to(coord2) }
+
+        it{should == Reality::Measure(409, 'km')}
+      end
+
+      describe :direction_to do
+        subject { coord1.direction_to(coord2) }
+
+        it{should == Reality::Measure(279, '°')}
+      end
+
+      describe :endpoint do
+        subject { coord1.endpoint(279, 409) }
+
+        it 'returns correct point' do
+          expect(subject).to be_close_to(coord2, 10)
         end
       end
 
