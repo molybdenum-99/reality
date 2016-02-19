@@ -1,6 +1,6 @@
 module Reality
   class Entity
-    module WikidataProperties
+    module WikidataPredicates
       module_function
       
       def define(&block)
@@ -19,8 +19,8 @@ module Reality
       private
       module_function
 
-      def property(predicate, symbol, type, **opts)
-        definitions[predicate] = [symbol, type, opts]
+      def predicate(pred, symbol, type, **opts)
+        definitions[pred] = [symbol, type, opts]
       end
 
       def definitions

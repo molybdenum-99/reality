@@ -2,7 +2,7 @@ module Reality
   describe Entity, :vcr do
     subject(:entity){Entity.new('Paris')}
     let(:wikipage){double(title: 'Paris, France', infobox: double(name: 'Infobox countryXX'))}
-    let(:wikidata){double}
+    let(:wikidata){double(predicates: {})}
     let(:wikipedia){double}
     before{
       allow(Infoboxer).to receive(:wikipedia).and_return(wikipedia)
@@ -68,10 +68,10 @@ module Reality
 
     describe 'properties from Wikidata' do
       before do
-        Entity::WikidataProperties.define{
-          property 'dummy1', :continent, :entity
-          property 'dummy2', :area, :measure, unit: 'km²'
-          property 'dummy3', :neighbours, [:entity]
+        Entity::WikidataPredicates.define{
+          predicate 'dummy1', :continent, :entity
+          predicate 'dummy2', :area, :measure, unit: 'km²'
+          predicate 'dummy3', :neighbours, [:entity]
         }
       end
 
@@ -106,71 +106,39 @@ module Reality
     end
 
     describe 'type and properites from Wikipedia' do
-    end
-  end
-end
-
-__END__
-    xdescribe 'property definition' do
-      # Not sure where it should go, really
-      
-      context :to_h do
-        let(:infobox){double}
-        let(:wikipage){double(infobox: infobox)}
-        let(:wikidata){Wikidata::Entity.new(
-          'Q414',
-          'P30'   => [Wikidata::Link.new('Q18', 'South America')],
-          'P1082' => [43_417_000],
-          'P298'  => ['ARG'],
-          'P47'   => neighbours.map{|i, l| Wikidata::Link.new(i, l)},
-          'P421'  => [Wikidata::Link.new('Q651', 'UTC−03:00')]
-        )}
-
-        before{
-          expect(infobox).to receive(:fetch).with('area_km2').
-            and_return([double(to_s: '2,780,400')]).ordered
-          expect(infobox).to receive(:fetch).with('GDP_PPP').
-            and_return([double(text: '$964.279 billion')]).ordered  
-        }
-        subject{country.to_h}
-        it{should be_a Hash}
-        its(:keys){should include(:continent, :area, :utc_offset)}
-        its([:continent]){should == 'South America'}
-        its([:area]){should == 2_780_400}
-        its([:neighbours]){should include('Bolivia', 'Chile')}
-      end
-    end
-
-    describe 'entity class' do
-      let!(:klass){
+      let!(:type){
         Module.new{
-          extend EntityClass
-          by_infobox 'Infobox countryXX' # don't mangle real defs
+          extend Entity::WikipediaType
+          infobox_name 'Infobox countryXX' # don't mangle real defs
 
-          property :continent, type: :entity, wikidata: 'P30'
+          infobox 'area_km2', :area, :measure, unit: 'km²'
         }
       }
-      context 'class selection on load' do
+      before{
+        allow(wikipage.infobox).to receive(:fetch).with('area_km2').
+          and_return([double(to_s: '2,780,400')]).ordered
+      }
+      context 'type selection on load' do
         before{
           expect(Infoboxer.wikipedia).to receive(:get).
             with('Paris').and_return(wikipage)
           expect(Wikidata::Entity).to receive(:fetch).
             with('Paris, France').and_return([wikidata])
 
+
           entity.load!
         }
-        its(:entity_class){should == klass}
+        it{should be_a type}
       end
 
-      context 'class selection for preloaded' do
+      context 'type selection for preloaded' do
         subject(:entity){Entity.new('Paris', wikipage: wikipage, wikidata: wikidata)}
-        its(:entity_class){should == klass}
+        it{should be_a type}
       end
 
-      context 'class properties availability' do
+      context 'values parsed' do
         subject(:entity){Entity.new('Paris', wikipage: wikipage, wikidata: wikidata)}
-        it{should respond_to(:continent)}
-        its(:properties){should include(:continent)}
+        its(:values){should include(area: Measure.new(2_780_400, 'km²'))}
       end
 
       context 'inspect' do
@@ -178,15 +146,15 @@ __END__
           if Reality.const_defined?(:CountryX) # to not mangle with our real Country
             Reality.send(:remove_const, :CountryX)
           end
-          Reality.const_set(:CountryX, klass)
+          Reality.const_set(:CountryX, type)
         }
         after{
           if Reality.const_defined?(:CountryX)
             Reality.send(:remove_const, :CountryX)
           end
         }
-        subject(:entity){Entity.new('France', wikipage: wikipage, wikidata: wikidata)}
-        its(:inspect){should == "#<Reality::CountryX(France)>"}
+        subject(:entity){Entity.new('Paris', wikipage: wikipage, wikidata: wikidata)}
+        its(:inspect){should == "#<Reality::Entity(Paris, France):country_x>"}
       end
     end
   end

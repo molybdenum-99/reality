@@ -1,5 +1,5 @@
 module Reality
-  require_ %w[entity/list entity/coercion entity/wikidata]
+  require_ %w[entity/list entity/coercion entity/wikidata_predicates entity/wikipedia_type]
   
   class Entity
     using Refinements
@@ -21,7 +21,11 @@ module Reality
     end
 
     def inspect
-      "#<#{self.class}#{loaded? ? '' : '?'}(#{name})>"
+      if @wikipedia_type
+        "#<#{self.class}#{loaded? ? '' : '?'}(#{name}):#{@wikipedia_type.symbol}>"
+      else
+        "#<#{self.class}#{loaded? ? '' : '?'}(#{name})>"
+      end
     end
 
     def to_s
@@ -71,12 +75,13 @@ module Reality
     protected
 
     def after_load
-      if @wikipage && !@entity_class
-        @entity_class = EntityClass.for(self)
-        extend(@entity_class) if @entity_class
+      if @wikipage && !@wikipedia_type
+        if (@wikipedia_type = WikipediaType.for(self))
+          extend(@wikipedia_type)
+        end
       end
       if @wikidata
-        @values.update(WikidataProperties.parse(@wikidata))
+        @values.update(WikidataPredicates.parse(@wikidata))
       end
     end
 

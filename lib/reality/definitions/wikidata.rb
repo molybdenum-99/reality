@@ -1,28 +1,28 @@
 module Reality
-  Entity::WikidataProperties.define do
+  Entity::WikidataPredicates.define do
     # Geography --------------------------------------------------------
-    property 'P625', :coord, :coord
+    predicate 'P625', :coord, :coord
 
-    property 'P30', :continent, :entity
-    property 'P17', :country, :entity
+    predicate 'P30', :continent, :entity
+    predicate 'P17', :country, :entity
 
-    property 'P36', :capital, :entity
+    predicate 'P36', :capital, :entity
 
-    property 'P47', :neighbours, [:entity]
+    predicate 'P47', :neighbours, [:entity]
 
-    property 'P2046', :area, :measure, unit: 'km²'
+    predicate 'P2046', :area, :measure, unit: 'km²'
 
     # Economy and socilogy ---------------------------------------------
-    property 'P38', :currency, :entity
-    property 'P463', :organizations, [:entity]
-    property 'P2131', :gdp_nominal, :measure, unit: '$'
-    property 'P1082',:population, :measure, unit: 'person'
+    predicate 'P38', :currency, :entity
+    predicate 'P463', :organizations, [:entity]
+    predicate 'P2131', :gdp_nominal, :measure, unit: '$'
+    predicate 'P1082',:population, :measure, unit: 'person'
 
     # References -------------------------------------------------------
-    property 'P297', :iso2_code, :string
-    property 'P298', :iso3_code, :string
-    property 'P78', :tld, :string
-    property 'P474', :calling_code, :string
-    property 'P421', :utc_offset, :utc_offset
+    predicate 'P297', :iso2_code, :string
+    predicate 'P298', :iso3_code, :string
+    predicate 'P78', :tld, :string
+    predicate 'P474', :calling_code, :string
+    predicate 'P421', :utc_offset, :utc_offset
   end
 end

@@ -22,6 +22,16 @@ module Reality
         entity.values.update(values){|k, o, n| o || n} # Don't rewrite already fetched from WP
       end
 
+      def symbol
+        # FIXME: to core ext
+        self.name.
+          gsub(/^.+::/, '').
+          gsub(/([A-Z]+)([A-Z][a-z])/,'\1_\2').
+          gsub(/([a-z\d])([A-Z])/,'\1_\2').
+          downcase.
+          to_sym
+      end
+
       private
 
       def infobox_fields

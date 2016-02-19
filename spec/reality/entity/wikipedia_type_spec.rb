@@ -1,5 +1,3 @@
-require 'reality/entity/wikipedia_type'
-
 module Reality
   describe Entity::WikipediaType do
     subject(:type){
@@ -7,7 +5,7 @@ module Reality
         extend Entity::WikipediaType
       }
     }
-    subject(:object){double}
+    let(:object){double}
 
     describe 'property definition' do
     end
@@ -33,6 +31,22 @@ module Reality
         expect(Entity::WikipediaType.for(obj1)).to eq type
         expect(Entity::WikipediaType.for(obj2)).to eq type2
       end
+    end
+
+    describe 'symbol' do
+      before{
+        if Reality.const_defined?(:CountryX) # to not mangle with our real Country
+          Reality.send(:remove_const, :CountryX)
+        end
+        Reality.const_set(:CountryX, type)
+      }
+      after{
+        if Reality.const_defined?(:CountryX)
+          Reality.send(:remove_const, :CountryX)
+        end
+      }
+
+      its(:symbol){should == :country_x}
     end
 
     describe 'inclusion' do
@@ -71,8 +85,6 @@ module Reality
       it 'does not rewrite existing properties' do
         expect(entity.area).to eq Measure.new(43_417_000, 'km²')
       end
-
-      it 'sets type'
     end
   end
 end
