@@ -3,21 +3,45 @@ require 'yaml'
 
 module Reality
   require_relative 'config'
-  require_relative 'reality/infoboxer_templates'
-  require_relative 'reality/refinements'
+
+  def self.require_(*modules)
+    modules.flatten.each do |mod|
+      require File.expand_path("../reality/#{mod}", __FILE__)
+    end
+  end
 
   # basic functionality
-  %w[measure geo].each do |mod|
-    require_relative "reality/#{mod}"
+  require_ %w[refinements measure geo util/parsers]
+
+  # engines
+  require_ %w[infoboxer_templates wikidata]
+
+  def self.wp
+    @wp ||= Infoboxer.wp # while Infoboxer recreates wp for each request
   end
 
   # entities
-  %w[entity country city time_zone].each do |mod|
-    require_relative "reality/#{mod}"
+  require_ %w[entity]
+  require_ %w[entities/country entities/city]
+
+  def self.entity(name, entity_class = nil)
+    Entity.load(name, entity_class)
   end
 
-  # mixins
-  %w[weather].each do |mod|
-    require_relative "reality/#{mod}"
+  def self.country(name)
+    entity(name, Country)
   end
+
+  def self.city(name)
+    entity(name, City)
+  end
+
+  require_ %w[lists]
+
+  extend Lists
+
+  # extras
+  require_ %w[extras/open_weather_map extras/geonames]
+  include Extras::OpenWeatherMap
+  include Extras::Geonames
 end

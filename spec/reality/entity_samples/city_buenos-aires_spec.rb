@@ -1,15 +1,15 @@
 module Reality
-  describe :city do
+  describe Entity, 'samples' do
     describe 'existing city' do
       before(:all){
-        VCR.use_cassette('city-Buenos-Aires'){
-          @city = Reality.city('Buenos-Aires') # parsed only once - faster tests
+        VCR.use_cassette('City-Buenos-Aires'){
+          @city = Reality.entity('Buenos Aires') # parsed only once - faster tests
         }
       }
 
       subject(:city){@city}
 
-      it{should be_a(Reality::City)}
+      its(:entity_class){should == Reality::City}
 
       describe 'basics' do
         its(:name){should == 'Buenos Aires'}
@@ -18,8 +18,8 @@ module Reality
       end
 
       describe 'links' do
-        its(:'country.to_s'){should == 'Argentina'}
-        its(:country){should be_a Country}
+        its(:country){should be_an Entity}
+        its(:'country.name'){should == 'Argentina'}
         its(:country){should_not be_loaded}
 
         xit 'should parse leaders' do
@@ -33,12 +33,12 @@ module Reality
 
       describe 'measures' do
         its(:area){should == Reality::Measure(203, 'km²')}
-        its(:population){should == Reality::Measure(2_890_151, 'person')}
+        its(:population){should == Reality::Measure(3_090_922, 'person')}
         its(:population_metro){should == Reality::Measure(12_741_364, 'person')}
       end
 
-      describe 'geo' do
-        its(:coord){should == Reality::Geo::Coord.from_dms([34,36,12,'S'], [58,22,54,'W'])}
+      xdescribe 'geo' do
+        its(:coord){should == Reality::Geo::Coord.from_dms([34,35,58,'S'], [58,22,54,'W'])}
       end
     end
   end
