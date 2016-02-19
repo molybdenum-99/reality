@@ -98,7 +98,7 @@ module Reality
         subject { coord1.endpoint(279, 409) }
 
         it 'returns correct point' do
-          expect(subject.around?(coord2, 10)).to be_truthy
+          expect(subject.close_to?(coord2, 10)).to be_truthy
         end
       end
 

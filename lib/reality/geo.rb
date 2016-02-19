@@ -49,25 +49,25 @@ module Reality
       end
 
       def distance_to(point)
-        destination_coords = point.is_a?(Coord )? point.to_s : point
+        destination_coords = normalize_point(point).to_s
         res = Geokit::LatLng.distance_between(to_s, destination_coords, formula: :sphere)
         Reality::Measure(res, 'km')
       end
 
       def direction_to(point)
-        destination_coords = point.is_a?(Coord )? point.to_s : point
+        destination_coords = normalize_point(point).to_s
         res = Geokit::LatLng.heading_between(to_s, destination_coords)
         Reality::Measure(res, '°')
       end
 
-      def endpoint(heading, distance)
-        res = Geokit::LatLng.endpoint(to_s, heading, distance)
+      def endpoint(direction, distance)
+        res = Geokit::LatLng.endpoint(to_s, direction.to_f, distance.to_f)
         Coord.new res.lat, res.lng
       end
 
-      def around?(point, radius)
-        area = Geokit::Bounds.from_point_and_radius(to_s, radius)
-        area.contains?(point.to_s)
+      def close_to?(point, radius)
+        area = Geokit::Bounds.from_point_and_radius(to_s, radius.to_f)
+        area.contains?(normalize_point(point).to_s)
       end
 
       def lat_dms(direction = true)
@@ -100,6 +100,13 @@ module Reality
 
       def inspect
         "#<%s(%i°%i′%i″%s,%i°%i′%i″%s)>" % [self.class, *lat_dms, *lng_dms]
+      end
+
+      private
+
+      def normalize_point(point)
+        return point if point.is_a?(Coord)
+        point.coord if point.respond_to?(:coord)
       end
     end
   end
