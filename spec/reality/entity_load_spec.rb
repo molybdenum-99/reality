@@ -18,7 +18,7 @@ module Reality
         subject{Entity.load('France', Country)}
         it{should be_kind_of(Entity)}
         it{should be_loaded}
-        its(:entity_class){should == Country}
+        it{should be_a Country}
       end
 
       context 'when it exists but has another class' do

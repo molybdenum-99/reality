@@ -9,7 +9,7 @@ module Reality
 
       subject(:city){@city}
 
-      its(:entity_class){should == Reality::City}
+      its(:wikipedia_type){should == Reality::City}
 
       describe 'basics' do
         its(:name){should == 'Buenos Aires'}

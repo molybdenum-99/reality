@@ -4,8 +4,8 @@ module Reality
   class Entity
     using Refinements
     
-    attr_reader :values, :entity_class
     attr_reader :wikipage, :wikidata
+    attr_reader :values, :wikipedia_type
     
     def initialize(name, wikipage: nil, wikidata: nil, load: false)
       @name = name
@@ -21,7 +21,7 @@ module Reality
     end
 
     def inspect
-      if @wikipedia_type
+      if @wikipedia_type && @wikipedia_type.symbol
         "#<#{self.class}#{loaded? ? '' : '?'}(#{name}):#{@wikipedia_type.symbol}>"
       else
         "#<#{self.class}#{loaded? ? '' : '?'}(#{name})>"
@@ -54,10 +54,10 @@ module Reality
     end
 
     class << self
-      def load(name, entry_class = nil)
+      def load(name, type = nil)
         Entity.new(name, load: true).tap{|entity|
           return nil if entity.instance_variable_get('@wikipage').nil?
-          return nil if entry_class && entity.entity_class != entry_class
+          return nil if type && entity.wikipedia_type != type
         }
       end
     end
