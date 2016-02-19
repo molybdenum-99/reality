@@ -18,6 +18,10 @@ module Reality
       amount <=> other.amount
     end
 
+    def ==(other)
+      amount == other.amount && unit == other.unit
+    end
+
     def -@
       self.class.new(-amount, unit)
     end

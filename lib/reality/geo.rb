@@ -91,7 +91,7 @@ module Reality
       end
 
       def to_s
-        "#{lat.to_f}, #{lng.to_f}"
+        "#{lat.to_f},#{lng.to_f}"
       end
 
       def ==(other)

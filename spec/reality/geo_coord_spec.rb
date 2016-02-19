@@ -83,22 +83,22 @@ module Reality
       end
 
       describe :distance_to do
-        subject { coord1.distance_to(coord2).to_i }
+        subject { coord1.distance_to(coord2) }
 
-        it{should == 409}
+        it{should == Reality::Measure(409, 'km')}
       end
 
       describe :direction_to do
-        subject { coord1.direction_to(coord2).to_i }
+        subject { coord1.direction_to(coord2) }
 
-        it{should == 279}
+        it{should == Reality::Measure(279, '°')}
       end
 
       describe :endpoint do
         subject { coord1.endpoint(279, 409) }
 
         it 'returns correct point' do
-          expect(subject.close_to?(coord2, 10)).to be_truthy
+          expect(subject).to be_close_to(coord2, 10)
         end
       end
 
