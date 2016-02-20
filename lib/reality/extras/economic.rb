@@ -1,25 +1,33 @@
 require 'quandl'
-Quandl::ApiConfig.api_key = 'JU6KEPEkqqqfVkcpa9MU'
+Quandl::ApiConfig.api_key = QUANDL_KEY
 Quandl::ApiConfig.api_version = '2015-04-09'
 
 module Reality
   module Extras
     class Economic
       class Indicator
-        attr_reader :name
+        attr_reader :name, :code
 
-        def initialize(name, code, country_code='UKR')
+        def initialize(name, code, country_code)
           @name = name
           @code = code
           @country_code = country_code
+          @no_data = false
         end
 
         def current
-          history.detect {|v| v['date'].year == Date.today.year }.value
+          return dataset if @no_data
+          history.last.value
         end
 
         def history
-          dataset.data.values
+          return dataset if @no_data
+          dataset.data.values.select{|v| v['date'] <= Date.today}.sort_by{|d| d['date']}
+        end
+
+        def prediction
+          return dataset if @no_data
+          dataset.data.values.select{|v| v['date'] > Date.today}.sort_by{|d| d['date']}
         end
 
         def dataset
@@ -30,24 +38,25 @@ module Reality
           "#<%s (%s)>" % ['Economic::Indicator', name]
         end
 
-
         private
 
         def fetch
           Quandl::Dataset.get("ODA/#{@country_code}_#{@code}")
+        rescue Quandl::NotFoundError
+          @no_data = true
+          'no data'
         end
       end
 
-      def initialize(country)
-        @country_code = country
+      def initialize(country_code)
+        @country_code = country_code
       end
 
       def indicators
-        indicators_codes.map do |desc, code|
+        @indicators ||= indicators_codes.map do |desc, code|
           Indicator.new(desc, code, @country_code)
         end
       end
-
 
       private
 
