@@ -22,7 +22,10 @@ module Reality
         },
         coord: -> (val, **opts){
           val.is_a?(Geo::Coord) ? val : nil
-        }
+        },
+        datetime: -> (val, **opts){
+          val.is_a?(DateTime) ? val : nil # FIXME: in future, parse strings?..
+        },
       }
 
       module_function
@@ -43,7 +46,7 @@ module Reality
           val.kind_of?(Array) or fail("Array type expected, #{val.inspect} received")
           val.map{|row| coerce(row, type.first, **opts)}
         when Symbol
-          parser = COERCERS[type] or fail("No parser for type #{type.inspect}")
+          parser = COERCERS[type] or fail("No coercion to #{type.inspect}")
           parser.call(val, **opts)
         else
           fail("No parser for type #{type.inspect}")

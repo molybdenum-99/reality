@@ -50,7 +50,15 @@ module Reality
       ).to be_nil
     end
 
-    it 'coerces time' do
+    it 'coerces to datime' do
+      t = DateTime.now
+      expect(
+        coerce([t], :datetime)
+      ).to eq t
+
+      expect(
+        coerce(['2010-01-20'], :datetime)
+      ).to be_nil
     end
 
     it 'coerces arrays' do

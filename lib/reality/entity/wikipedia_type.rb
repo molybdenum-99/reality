@@ -46,7 +46,8 @@ module Reality
         end
 
         def for(entity)
-          types_by_infobox[entity.wikipage.infobox.name]
+          entity.wikipage.infobox &&
+            types_by_infobox[entity.wikipage.infobox.name]
         end
       end
     end

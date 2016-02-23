@@ -53,6 +53,10 @@ module Reality
       end
     end
 
+    def respond_to?(sym)
+      sym !~ /[=?!]/
+    end
+
     class << self
       def load(name, type = nil)
         Entity.new(name, load: true).tap{|entity|
