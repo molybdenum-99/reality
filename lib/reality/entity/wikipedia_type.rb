@@ -11,6 +11,10 @@ module Reality
         infobox_fields[name] = [symbol, type, opts]
       end
 
+      def parse(symbol, type, **opts, &parser)
+        page_parsers << [symbol, type, opts, parser]
+      end
+
       def extended(entity)
         return unless entity.is_a? Entity
         return if !entity.wikipage || !entity.wikipage.infobox
@@ -18,8 +22,13 @@ module Reality
         values = infobox_fields.map{|name, (symbol, type, opts)|
           [symbol, Entity::Coercion.coerce(entity.wikipage.infobox.fetch(name), type, **opts)]
         }.reject{|k, v| !v}.to_h
+
+        parsed = page_parsers.map{|symbol, type, opts, parser|
+          [symbol, Entity::Coercion.coerce(parser.call(entity.wikipage), type, **opts)]
+        }.reject{|k, v| !v}.to_h
         
         entity.values.update(values){|k, o, n| o || n} # Don't rewrite already fetched from WP
+        entity.values.update(parsed){|k, o, n| o || n} # Don't rewrite already fetched from WP or infobox
       end
 
       def symbol
@@ -37,6 +46,10 @@ module Reality
 
       def infobox_fields
         @infobox_fields ||= {}
+      end
+
+      def page_parsers
+        @page_parsers ||= []
       end
 
       class << self

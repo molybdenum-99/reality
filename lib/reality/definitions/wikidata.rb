@@ -2,6 +2,13 @@ module Reality
   Entity::WikidataPredicates.define do
     # Generic relations ------------------------------------------------
     predicate 'P361', :part_of, [:entity]
+    predicate 'P527', :parts, [:entity] # aliases: :members
+    
+    predicate 'P155', :follows, :entity
+    predicate 'P156', :precedes, :entity
+    predicate 'P571', :created_at, :datetime # TODO: aliases: :founded_at, :incepted_at
+
+    predicate 'P740', :location, :entity
 
     # Object features --------------------------------------------------
     predicate 'P2048', :height, :measure, unit: 'm'
@@ -55,5 +62,16 @@ module Reality
     predicate 'P27', :citizenship, :entity
     predicate 'P39', :position, :string
     predicate 'P106', :occupations, [:string]
+
+    # General creative works & workers ---------------------------------
+    predicate 'P577', :published_at, :datetime
+    predicate 'P136', :genres, [:string]
+    predicate 'P166', :awards, [:entity]
+    predicate 'P1411', :nominations, [:entity]
+
+    # Music album ------------------------------------------------------
+    predicate 'P658', :tracks, [:string]
+    predicate 'P175', :performer, :entity
+    #predicate 'P175', :performers, [:entity] - TODO
   end
 end

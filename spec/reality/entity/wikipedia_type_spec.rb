@@ -66,6 +66,10 @@ module Reality
                       str = var.text.strip.sub(/^((Int|US)?\$|USD)/, '')
                       Util::Parse.scaled_number(str)
                     }
+
+          parse :regions, [:entity] do |page|
+            [Infoboxer::Tree::Wikilink.new('Cuyo'), Infoboxer::Tree::Wikilink.new('Pampas')]
+          end
         }
       }
       before{
@@ -84,6 +88,12 @@ module Reality
 
       it 'does not rewrite existing properties' do
         expect(entity.area).to eq Measure.new(43_417_000, 'km²')
+      end
+
+      it 'parsers free parsers' do
+        expect(entity.regions.count).to eq 2
+        expect(entity.regions).to all be_an Entity
+        expect(entity.regions.map(&:name)).to eq ['Cuyo', 'Pampas']
       end
     end
   end

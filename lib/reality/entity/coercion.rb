@@ -6,6 +6,8 @@ module Reality
           case val
           when Wikidata::Link
             Entity.new(val.label || val.id)
+          when Infoboxer::Tree::Wikilink
+            Entity.new(val.link)
           else
             fail ArgumentError, "Can't coerce #{val.inspect} to Entity"
           end
