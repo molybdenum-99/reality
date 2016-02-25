@@ -51,8 +51,12 @@ module Reality
         end
 
         def fetch(title)
-          # FIXME: something better should be done :(
-          title = URI.escape(title).gsub(',', '%2C').gsub('(', '%28').gsub(')', '%29')
+          # FIXME: it becames ridiculous :(
+          title = URI.escape(title).
+            gsub(',', '%2C').
+            gsub('(', '%28').
+            gsub(')', '%29').
+            gsub("'", '%27')
           faraday.get('', query: QUERY % title, format: :json).
             derp{|res| from_sparql(res.body, subject: 'id', predicate: 'p', object: 'o', object_label: 'oLabel')}
         end
