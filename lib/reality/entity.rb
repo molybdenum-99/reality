@@ -54,7 +54,7 @@ module Reality
     end
 
     def respond_to?(sym)
-      sym !~ /[=?!]/
+      sym !~ /[=?!]/ || super
     end
 
     class << self

@@ -17,9 +17,10 @@ module Reality
         label || id
       end
     end
-    
+
+    # FIXME: I should be burn in hell for this mess. But it works. Somehow.
     class Entity
-      QUERY = %Q{
+      PREFIX = %Q{
         PREFIX wikibase: <http://wikiba.se/ontology#>
         PREFIX wd: <http://www.wikidata.org/entity/> 
         PREFIX wdt: <http://www.wikidata.org/prop/direct/>
@@ -27,9 +28,13 @@ module Reality
         PREFIX p: <http://www.wikidata.org/prop/>
         PREFIX v: <http://www.wikidata.org/prop/statement/>
         PREFIX schema: <http://schema.org/>
-
+      }
+      
+      SINGLE_QUERY = %Q{
+        #{PREFIX}
+        
         SELECT ?id ?p ?o ?oLabel  WHERE {
-          <https://en.wikipedia.org/wiki/%s> schema:about ?id .
+          <https://en.wikipedia.org/wiki/%{title}> schema:about ?id .
           {
             ?id ?p ?o .
             FILTER(STRSTARTS(STR(?p), "http://www.wikidata.org/prop/direct/"))
@@ -43,6 +48,35 @@ module Reality
           }
          }
       }
+      MULTIPLE_QUERY = %Q{
+        #{PREFIX}
+
+        SELECT ?id ?p ?o ?oLabel  WHERE {
+          %{selectors} .
+          {
+            ?id ?p ?o .
+            FILTER(
+              STRSTARTS(STR(?p), "http://www.wikidata.org/prop/direct/") ||
+              (?p = rdfs:label && langMatches(lang(?o), "EN"))
+            )
+          } union {
+            bind(schema:about as ?p) .
+            ?o schema:about ?id .
+            filter(strstarts(str(?o), "https://en.wikipedia.org/wiki/"))
+          }
+          SERVICE wikibase:label {
+            bd:serviceParam wikibase:language "en" .
+          }
+         }
+      }
+      SELECTOR = %Q{
+        {
+          <https://en.wikipedia.org/wiki/%{title}> schema:about ?id
+        }
+      }
+
+      UNSAFE = Regexp.union(URI::UNSAFE, /[,()']/)
+      
       class << self
         def faraday
           @faraday ||= Faraday.new(url: 'https://query.wikidata.org/sparql'){|f|
@@ -51,14 +85,33 @@ module Reality
         end
 
         def fetch(title)
-          # FIXME: it becames ridiculous :(
-          title = URI.escape(title).
-            gsub(',', '%2C').
-            gsub('(', '%28').
-            gsub(')', '%29').
-            gsub("'", '%27')
-          faraday.get('', query: QUERY % title, format: :json).
+          title = URI.escape(title, UNSAFE)
+          faraday.get('', query: SINGLE_QUERY % {title: title}, format: :json).
             derp{|res| from_sparql(res.body, subject: 'id', predicate: 'p', object: 'o', object_label: 'oLabel')}
+        end
+
+        WIKIURL = 'https://en.wikipedia.org/wiki/%{title}'
+
+        def fetch_list(*titles)
+          uris = titles.map{|t| WIKIURL % {title: URI.escape(t, UNSAFE)}}
+          titles.
+            map{|t| SELECTOR % {title: URI.escape(t, UNSAFE)}}.
+            join(' UNION ').
+            derp{|selectors| MULTIPLE_QUERY % {selectors: selectors}}.
+            derp{|query|
+              faraday.get('', query: query, format: :json)
+            }.
+            derp{|res|
+              from_sparql(
+                res.body,
+                subject: 'id',
+                predicate: 'p',
+                object: 'o',
+                object_label: 'oLabel').
+              map{|e|
+                [e, uris.index(e.about.first)]
+              }.reject{|e,i| !i}.sort_by(&:last).map(&:first)
+            }
         end
         
         def from_sparql(sparql_json, subject: 'subject', predicate: 'predicate', object: 'object', object_label: 'object_label')
@@ -137,6 +190,10 @@ module Reality
 
       def label
         self['http://www.w3.org/2000/01/rdf-schema#label'].first
+      end
+
+      def about
+        self['http://schema.org/about']
       end
 
       def inspect

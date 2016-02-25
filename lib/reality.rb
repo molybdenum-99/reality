@@ -22,7 +22,6 @@ module Reality
 
   # entities
   require_ %w[entity]
-  #require_ %w[entities/country entities/city]
   require_ %w[definitions/*]
 
   def self.entity(name, entity_class = nil)

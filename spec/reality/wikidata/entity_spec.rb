@@ -67,5 +67,20 @@ module Reality
         end
       end
     end
+
+    describe '.fetch_list' do
+      subject(:list){
+        VCR.use_cassette('Wikidata-3-countries'){
+          Wikidata::Entity.fetch_list('Argentina', 'Bolivia', 'Chile')
+        }
+      }
+      its(:count){should == 3}
+      it 'should be loaded correctly' do
+        expect(list.map(&:id)).to eq ['Q414', 'Q750', 'Q298']
+      end
+
+      context 'when some entity can not be found' do
+      end
+    end
   end
 end
