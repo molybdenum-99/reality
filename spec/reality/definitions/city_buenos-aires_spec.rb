@@ -33,7 +33,7 @@ module Reality
 
       describe 'measures' do
         its(:area){should == Reality::Measure(203, 'km²')}
-        its(:population){should == Reality::Measure(3_090_922, 'person')}
+        its(:population){should == Reality::Measure(2_890_151, 'person')}
         its(:population_metro){should == Reality::Measure(12_741_364, 'person')}
       end
 
