@@ -16,18 +16,8 @@ module Reality
         self
       end
 
-      #def count
-        #@names.count
-      #end
-
-      #def all
-        #[*Infoboxer.wikipedia.get(*names)].
-          #zip(names).map{|page, name|
-            #Entity.new(name, wikipage: page, wikidata: Wikidata::Entity.fetch(page.title))
-          #}
-      #end
-
-      [:select, :reject, :sort_by, :flatten, :compact, :-, :map, :first, :last].each do |sym|
+      [:select, :reject, :sort, :sort_by,
+      :compact, :-, :map, :first, :last, :sample, :shuffle].each do |sym|
         define_method(sym){|*args, &block|
           ensure_type super(*args, &block)
         }
