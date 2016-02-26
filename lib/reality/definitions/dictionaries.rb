@@ -5,19 +5,29 @@ module Reality
     using Reality::Refinements
 
     def countries
-      Entity::List.new(*countries_by_continents.keys)
+      Entity::List.new(*countries_by_continents_cache.keys)
+    end
+
+    def continents
+      @continents ||=
+        Reality.wp.get('Continent').
+          sections('Area and population').tables.first.
+          lookup(:TableHeading, index: 0).lookup(:Wikilink).
+          derp{|links| Entity::Coercion.coerce(links, [:entity])}
     end
 
     CITY_SYNONYMS = [
       'City',
       'Municipality',
-      'Commune', # France
+      'Commune',      # France
+      'GCCSA/SUA'     # Australia
     ]
 
     CITIES_PAGE_BY_COUNTRY =
       Hash.new{|_, name| 'List of cities in %s' % name}.
       merge(
-        'United States' => 'List of United States cities by population'
+        'United States' => 'List of United States cities by population',
+        'Australia' => 'List of cities in Australia by population'
       )
 
     def cities_by_country(name)
@@ -35,7 +45,12 @@ module Reality
       derp{|links| Entity::Coercion.coerce(links, [:entity])}
     end
 
-    def countries_by_continents
+    def countries_by_continent(name)
+      countries_by_continents_cache.select{|k, v| v == name}.map(&:first).
+        derp{|names| Entity::List.new(*names)}
+    end
+
+    def countries_by_continents_cache
       @by_continents ||= Reality.wp.
         get('List of countries by continent').
         sections.first.
