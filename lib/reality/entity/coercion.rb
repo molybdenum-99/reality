@@ -43,6 +43,8 @@ module Reality
           val = opts[:parse].call(val)
         end
 
+        return nil if val.nil?
+
         # FIXME: better errors: including field name & class name
         case type
         when Array

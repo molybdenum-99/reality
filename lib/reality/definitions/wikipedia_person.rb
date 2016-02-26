@@ -13,5 +13,13 @@ module Reality
         nil
       end
     end
+
+    def alive?
+      !dead?
+    end
+
+    def dead?
+      !date_of_death.nil?
+    end
   end
 end
