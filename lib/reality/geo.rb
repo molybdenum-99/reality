@@ -1,4 +1,5 @@
 require 'geokit'
+require 'sun_times'
 Geokit::default_units = :kms # TODO: use global settings
 
 module Reality
@@ -100,6 +101,14 @@ module Reality
 
       def inspect
         "#<%s(%i°%i′%i″%s,%i°%i′%i″%s)>" % [self.class, *lat_dms, *lng_dms]
+      end
+
+      def sunrise(date = Date.today)
+        SunTimes.new.rise(date, lat.to_f, lng.to_f)
+      end
+
+      def sunset(date = Date.today)
+        SunTimes.new.set(date, lat.to_f, lng.to_f)
       end
 
       private
