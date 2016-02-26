@@ -12,5 +12,9 @@ module Reality
                 str = var.text.strip.sub(/^((Int|US)?\$|USD)/, '')
                 Util::Parse.scaled_number(str)
               }
+
+    def cities
+      @cities ||= Dictionaries.cities_by_country(name)
+    end
   end
 end

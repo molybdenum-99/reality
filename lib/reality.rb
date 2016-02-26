@@ -28,17 +28,18 @@ module Reality
     Entity.load(name, entity_class)
   end
 
-  def self.country(name)
-    entity(name, Country)
+  #def self.country(name)
+    #entity(name, Country)
+  #end
+
+  #def self.city(name)
+    #entity(name, City)
+  #end
+
+  def self.reload!
+    require_ %w[definitions/*]
   end
 
-  def self.city(name)
-    entity(name, City)
-  end
-
-  require_ %w[lists]
-
-  extend Lists
 
   # extras
   require_ %w[extras/open_weather_map extras/geonames]
