@@ -33,7 +33,8 @@ module Reality
     end
 
     def to_s?
-      "#{name}#{loaded? ? '' : '?'}"
+      # FIXME: fuuuuuuuu
+      "#{name.include?(',') ? '"' + name + '"' : name}#{loaded? ? '' : '?'}"
     end
 
     def load!

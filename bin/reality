@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 require 'rubygems'
 require 'reality'
+require 'reality/pretty_inspect'
 
 require 'irb'
 ARGV.shift until ARGV.empty?

@@ -27,6 +27,17 @@ module Reality
         coord: -> (val, **opts){
           val.is_a?(Geo::Coord) ? val : nil
         },
+        date: ->(val, **opts){
+          case val
+          when DateTime
+            # FIXME: in future, parse strings?..
+            val.to_date
+          when Date
+            val
+          else
+            nil
+          end
+        },
         datetime: -> (val, **opts){
           val.is_a?(DateTime) ? val : nil # FIXME: in future, parse strings?..
         },

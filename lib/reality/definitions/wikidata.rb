@@ -6,7 +6,7 @@ module Reality
     
     predicate 'P155', :follows, :entity
     predicate 'P156', :precedes, :entity
-    predicate 'P571', :created_at, :datetime # TODO: aliases: :founded_at, :incepted_at
+    predicate 'P571', :created_at, :date # TODO: aliases: :founded_at, :incepted_at
 
     predicate 'P740', :location, :entity
 
@@ -46,8 +46,8 @@ module Reality
     # People -----------------------------------------------------------
     # personal
     predicate 'P19', :birth_place, :entity
-    predicate 'P569', :birthday, :datetime
-    predicate 'P570', :date_of_death, :datetime
+    predicate 'P569', :birthday, :date
+    predicate 'P570', :date_of_death, :date
     predicate 'P20', :place_of_death, :entity
     predicate 'P21', :sex, :string
     predicate 'P735', :given_name, :string
@@ -64,7 +64,7 @@ module Reality
     predicate 'P106', :occupations, [:string]
 
     # General creative works & workers ---------------------------------
-    predicate 'P577', :published_at, :datetime
+    predicate 'P577', :published_at, :date
     predicate 'P136', :genres, [:string]
     predicate 'P166', :awards, [:entity]
     predicate 'P1411', :nominations, [:entity]

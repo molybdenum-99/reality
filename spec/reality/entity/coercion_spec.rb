@@ -55,7 +55,24 @@ module Reality
       ).to be_nil
     end
 
-    it 'coerces to datime' do
+    it 'coerces to date' do
+      t = Date.today
+      expect(
+        coerce([t], :date)
+      ).to eq t
+
+      t = DateTime.now
+      expect(
+        coerce([t], :date)
+      ).to eq Date.today
+
+      expect(
+        coerce(['2010-01-20'], :date)
+      ).to be_nil
+    end
+
+
+    it 'coerces to datetime' do
       t = DateTime.now
       expect(
         coerce([t], :datetime)
