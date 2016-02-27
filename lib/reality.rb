@@ -11,7 +11,7 @@ module Reality
   end
 
   # basic functionality
-  require_ %w[refinements measure geo tz_offset util/parsers]
+  require_ %w[refinements measure geo tz_offset util/parsers util/formatters]
 
   # engines
   require_ %w[infoboxer_templates wikidata]
