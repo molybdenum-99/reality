@@ -8,9 +8,11 @@ module Reality
       def load!
         pages = Infoboxer.wp.get(*map(&:name))
         data = Wikidata::Entity.fetch_list(*pages.map(&:title))
-        self.zip(pages, data).each{|e, p, d|
+        self.zip(pages).each{|e, p|
           e.instance_variable_set('@wikipage', p)
-          e.instance_variable_set('@wikidata', d)
+          if d = data[p.title]
+            e.instance_variable_set('@wikidata', d)
+          end
           e.send(:after_load)
         }
         self

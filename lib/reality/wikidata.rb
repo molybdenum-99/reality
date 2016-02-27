@@ -121,8 +121,15 @@ module Reality
 
         WIKIURL = 'https://en.wikipedia.org/wiki/%{title}'
 
+        MAX_SLICE = 20
+
         def fetch_list(*titles)
-          uris = titles.map{|t| WIKIURL % {title: URI.escape(t, UNSAFE)}}
+          titles.each_slice(MAX_SLICE).map{|titles_chunk|
+            fetch_small_list(*titles_chunk)
+          }.inject(:merge)
+        end
+
+        def fetch_small_list(*titles)
           titles.
             map{|t| SELECTOR % {title: URI.escape(t, UNSAFE)}}.
             join(' UNION ').
@@ -136,11 +143,11 @@ module Reality
                 subject: 'id',
                 predicate: 'p',
                 object: 'o',
-                object_label: 'oLabel').
-              map{|e|
-                [e, uris.index(e.about.first)]
-              }.reject{|e,i| !i}.sort_by(&:last).map(&:first)
-            }
+                object_label: 'oLabel')
+            }.
+            map{|e|
+              [e.en_wikipage, e]
+            }.to_h
         end
         
         def from_sparql(sparql_json, subject: 'subject', predicate: 'predicate', object: 'object', object_label: 'object_label')

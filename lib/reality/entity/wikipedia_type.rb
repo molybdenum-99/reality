@@ -20,7 +20,12 @@ module Reality
         return if !entity.wikipage || !entity.wikipage.infobox
         
         values = infobox_fields.map{|name, (symbol, type, opts)|
-          [symbol, Entity::Coercion.coerce(entity.wikipage.infobox.fetch(name), type, **opts)]
+          var = entity.wikipage.infobox.fetch(name)
+          if var.empty?
+            [symbol, nil]
+          else
+            [symbol, Entity::Coercion.coerce(var, type, **opts)]
+          end
         }.reject{|k, v| !v}.to_h
 
         parsed = page_parsers.map{|symbol, type, opts, parser|
