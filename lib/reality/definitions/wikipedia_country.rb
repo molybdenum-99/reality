@@ -13,6 +13,9 @@ module Reality
                 Util::Parse.scaled_number(str)
               }
 
+    infobox 'population_census', :population, :measure, unit: 'person'
+    infobox 'population_estimate', :population, :measure, unit: 'person'
+
     def cities
       @cities ||= Dictionaries.cities_by_country(name)
     end

@@ -16,7 +16,7 @@ module Reality
         },
         measure: ->(val, **opts){
           u = opts[:unit] || opts[:units] or fail("Units are not defined for measure type")
-          Measure.coerce(Util::Parse.number(val.to_s), u)
+          Measure.coerce(Util::Parse.scaled_number(val.to_s), u)
         },
         string: ->(val, **opts){
           val.to_s

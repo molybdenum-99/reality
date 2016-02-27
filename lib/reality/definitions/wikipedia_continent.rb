@@ -15,7 +15,7 @@ module Reality
       }
 
     def countries
-      Dictionaries.countries_by_continent(name)
+      @countries ||= Dictionaries.countries_by_continent(name)
     end
   end
 end
