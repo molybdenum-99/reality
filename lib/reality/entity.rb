@@ -32,6 +32,10 @@ module Reality
       name
     end
 
+    def to_s?
+      "#{name}#{loaded? ? '' : '?'}"
+    end
+
     def load!
       @wikipage = Infoboxer.wikipedia.get(name)
       if @wikipage

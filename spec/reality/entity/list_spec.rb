@@ -1,5 +1,15 @@
 module Reality
   describe Entity::List do
+    def make_page(name)
+      double(title: name, infobox: double(name: 'Infobox country')).tap{|d|
+        allow(d).to receive(:fetch).and_return(nil)
+      }
+    end
+
+    def make_data(name)
+      double(predicates: {})
+    end
+
     describe :initialize do
       context 'from names' do
         subject{Entity::List.new('Argentina', 'Bolivia', 'Chile')}
@@ -22,14 +32,6 @@ module Reality
       context 'when everything is loaded successfully' do
         let(:wikipedia){double}
 
-        def make_page(name)
-          double(title: name, infobox: double(name: 'Infobox country'))
-        end
-
-        def make_data(name)
-          double(predicates: {})
-        end
-        
         before{
           allow(Infoboxer).to receive(:wp).and_return(wikipedia)
           expect(wikipedia).to receive(:get).
@@ -50,10 +52,17 @@ module Reality
     end
 
     describe :inspect do
-      context 'small lists' do
+      context 'not loaded entities' do
+        subject{Entity::List.new('Argentina', 'Bolivia', 'Chile')}
+
+        its(:inspect){should == '#<Reality::Entity::List[Argentina?, Bolivia?, Chile?]>'}
       end
 
-      context 'large lists' do
+      context 'loaded entities' do
+        let(:entity){Entity.new('Argentina', wikipage: make_page('Argentina'), wikidata: make_data('Argentina'))}
+        subject{Entity::List.new(entity)}
+
+        its(:inspect){should == '#<Reality::Entity::List[Argentina]>'}
       end
     end
 

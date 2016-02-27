@@ -23,6 +23,10 @@ module Reality
         }
       end
 
+      def inspect
+        "#<#{self.class.name}[#{map(&:to_s?).join(', ')}]>"
+      end
+
       private
 
       def ensure_type(arr)
