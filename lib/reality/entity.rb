@@ -4,12 +4,12 @@ module Reality
   class Entity
     using Refinements
     
-    attr_reader :wikipage, :wikidata
+    attr_reader :wikipage, :wikidata, :wikidata_id
     attr_reader :values, :wikipedia_type
     
-    def initialize(name, wikipage: nil, wikidata: nil, load: false)
+    def initialize(name, wikipage: nil, wikidata: nil, wikidata_id: nil, load: false)
       @name = name
-      @wikipage, @wikidata = wikipage, wikidata
+      @wikipage, @wikidata, @wikidata_id = wikipage, wikidata, wikidata_id
       @values = {}
       
       load! if load
@@ -38,9 +38,14 @@ module Reality
     end
 
     def load!
-      @wikipage = Infoboxer.wikipedia.get(name)
-      if @wikipage
-        @wikidata = Wikidata::Entity.fetch(@wikipage.title).first
+      if @wikidata_id
+        @wikidata = Wikidata::Entity.fetch_by_id(@wikidata_id)
+        @wikipage = Infoboxer.wikipedia.get(@wikidata.en_wikipage)
+      else
+        @wikipage = Infoboxer.wikipedia.get(name)
+        if @wikipage
+          @wikidata = Wikidata::Entity.fetch(@wikipage.title).first
+        end
       end
       after_load
     end

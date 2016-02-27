@@ -68,6 +68,17 @@ module Reality
       end
     end
 
+    describe '.fetch_by_id' do
+      subject(:entity){
+        VCR.use_cassette('Wikidata-Q2599'){
+          Wikidata::Entity.fetch_by_id('Q2599')
+        }
+      }
+
+      its(:id){p entity.about; should == 'Q2599'}
+      its(:en_wikipage){should == 'Paul McCartney'}
+    end
+
     describe '.fetch_list' do
       subject(:list){
         VCR.use_cassette('Wikidata-3-countries'){

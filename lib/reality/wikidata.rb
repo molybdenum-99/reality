@@ -48,6 +48,29 @@ module Reality
           }
          }
       }
+
+      ID_QUERY = %Q{
+        #{PREFIX}
+        
+        SELECT ?id ?p ?o ?oLabel  WHERE {
+          bind(wd:%{id} as ?id)
+          {
+            ?id ?p ?o .
+            FILTER(
+              STRSTARTS(STR(?p), "http://www.wikidata.org/prop/direct/") ||
+              (?p = rdfs:label && langMatches(lang(?o), "EN"))
+            )
+          } union {
+            bind(schema:about as ?p) .
+            ?o schema:about ?id .
+            filter(strstarts(str(?o), "https://en.wikipedia.org/wiki/"))
+          }
+          SERVICE wikibase:label {
+            bd:serviceParam wikibase:language "en" .
+          }
+         }
+      }
+
       MULTIPLE_QUERY = %Q{
         #{PREFIX}
 
@@ -88,6 +111,12 @@ module Reality
           title = URI.escape(title, UNSAFE)
           faraday.get('', query: SINGLE_QUERY % {title: title}, format: :json).
             derp{|res| from_sparql(res.body, subject: 'id', predicate: 'p', object: 'o', object_label: 'oLabel')}
+        end
+
+        def fetch_by_id(id)
+          faraday.get('', query: ID_QUERY % {id: id}, format: :json).
+            derp{|res| from_sparql(res.body, subject: 'id', predicate: 'p', object: 'o', object_label: 'oLabel')}.
+            first
         end
 
         WIKIURL = 'https://en.wikipedia.org/wiki/%{title}'
@@ -194,6 +223,12 @@ module Reality
 
       def about
         self['http://schema.org/about']
+      end
+
+      def en_wikipage
+        name = about.first.
+          scan(%r{https://en\.wikipedia\.org/wiki/(.+)$}).
+          flatten.first.derp{|s| URI.unescape(s)}
       end
 
       def inspect

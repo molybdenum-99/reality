@@ -14,6 +14,7 @@ module Reality
       continent = coerce([Wikidata::Link.new('Q18', 'South America')], :entity)
       expect(continent).to be_an Entity
       expect(continent.name).to eq 'South America'
+      expect(continent.wikidata_id).to eq 'Q18'
 
       link = Infoboxer::Tree::Wikilink.new('Paris', Infoboxer::Tree::Text.new('capital of France'))
       continent = coerce([link], :entity)

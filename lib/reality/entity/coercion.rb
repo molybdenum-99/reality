@@ -7,7 +7,7 @@ module Reality
         entity: ->(val, **opts){
           case val
           when Wikidata::Link
-            Entity.new(val.label || val.id)
+            Entity.new(val.label || val.id, wikidata_id: val.id)
           when Infoboxer::Tree::Wikilink
             Entity.new(val.link)
           else

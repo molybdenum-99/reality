@@ -39,6 +39,22 @@ module Reality
         its(:inspect){should == '#<Reality::Entity(Paris, France)>'}
       end
 
+      context 'loading on wikidata id' do
+        let(:wikidata){double(predicates: {},
+          en_wikipage: 'Paris, France'
+        )}
+        subject(:entity){Entity.new('Paris', wikidata_id: 'Q111')}
+        before{
+          expect(Wikidata::Entity).to receive(:fetch_by_id).
+            with('Q111').and_return([wikidata])
+          expect(Infoboxer.wikipedia).to receive(:get).
+            with('Paris, France').and_return(wikipage)
+
+          entity.load!
+        }
+        it{should be_loaded}
+      end
+
       context 'loading on initialize' do
         before{
           expect(Infoboxer.wikipedia).to receive(:get).
