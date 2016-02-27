@@ -41,7 +41,7 @@ module Reality
     predicate 'P298', :iso3_code, :string
     predicate 'P78', :tld, :string
     predicate 'P474', :calling_code, :string
-    predicate 'P421', :utc_offset, :utc_offset
+    predicate 'P421', :tz_offset, :tz_offset
 
     # People -----------------------------------------------------------
     # personal

@@ -40,10 +40,10 @@ module Reality
       ).to eq '.ar'
     end
 
-    it 'coerces to utc offset' do
+    it 'coerces to tz offset' do
       expect(
         coerce([Wikidata::Link.new('Q651', 'UTC−03:00')], :utc_offset)
-      ).to eq -3
+      ).to eq TZOffset.parse('GMT-3')
     end
 
     it 'coerces to geo coords' do

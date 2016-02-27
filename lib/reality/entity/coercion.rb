@@ -21,8 +21,8 @@ module Reality
         string: ->(val, **opts){
           val.to_s
         },
-        utc_offset: ->(val, **opts){
-          val.to_s.sub(/^UTC/, '').tr('−', '-').to_i # FIXME: definitely too naive
+        tz_offset: ->(val, **opts){
+          TZOffset.parse(val.to_s)
         },
         coord: -> (val, **opts){
           val.is_a?(Geo::Coord) ? val : nil
