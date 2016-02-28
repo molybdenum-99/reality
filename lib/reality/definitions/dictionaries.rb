@@ -10,7 +10,7 @@ module Reality
 
     def continents
       @continents ||=
-        Reality.wp.get('Continent').
+        Infoboxer.wp.get('Continent').
           sections('Area and population').tables.first.
           lookup(:TableHeading, index: 0).lookup(:Wikilink).
           derp{|links| Entity::Coercion.coerce(links, [:entity])}
@@ -31,7 +31,7 @@ module Reality
       )
 
     def cities_by_country(name)
-      page = Reality.wp.get(CITIES_PAGE_BY_COUNTRY[name]) or
+      page = Infoboxer.wp.get(CITIES_PAGE_BY_COUNTRY[name]) or
               return Entity::List.new()
 
       page.tables.map{|t|
@@ -51,7 +51,7 @@ module Reality
     end
 
     def countries_by_continents_cache
-      @by_continents ||= Reality.wp.
+      @by_continents ||= Infoboxer.wp.
         get('List of countries by continent').
         sections.first.
         sections.map{|s|

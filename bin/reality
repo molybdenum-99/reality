@@ -5,6 +5,8 @@ require 'reality/pretty_inspect'
 
 Reality.configure :demo
 
+include Reality::Methods
+
 require 'irb'
 ARGV.shift until ARGV.empty?
 IRB.start
