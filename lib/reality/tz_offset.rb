@@ -31,7 +31,7 @@ module Reality
       '%+03i:%02i' % minutes.divmod(60)
     end
 
-    def ==(other)
+    def <=>(other)
       other.is_a?(TZOffset) or fail ArgumentError, "Can't compare TZOffset with #{other.class}"
       minutes <=> other.minutes
     end
