@@ -73,5 +73,12 @@ module Reality
     predicate 'P658', :tracks, [:string]
     predicate 'P175', :performer, :entity
     #predicate 'P175', :performers, [:entity] - TODO
+
+    # Companies --------------------------------------------------------
+    predicate 'P112', :founders, [:entity]
+    predicate 'P127', :owners, [:entity]
+    predicate 'P169', :ceo, :entity
+    predicate 'P1128', :employees_count, :measure, unit: 'person'
+    predicate 'P452', :industry, :string
   end
 end
