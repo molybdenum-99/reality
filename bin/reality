@@ -7,6 +7,9 @@ Reality.configure :demo
 
 include Reality::Methods
 
+def E(*a); entity(*a) end
+def L(*a); list(*a) end
+
 require 'irb'
 ARGV.shift until ARGV.empty?
 IRB.start

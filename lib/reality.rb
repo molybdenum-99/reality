@@ -9,10 +9,8 @@ module Reality
   end
 
   # basic functionality
-  require_ %w[refinements config measure geo tz_offset methods]
+  require_ %w[refinements config measure geo tz_offset]
   require_ %w[util/parsers util/formatters]
-
-  extend Methods
 
   # engines
   require_ %w[infoboxer_templates wikidata]
@@ -20,6 +18,9 @@ module Reality
   # entities
   require_ %w[entity]
   require_ %w[definitions/*]
+  require_ %w[methods]
+
+  extend Methods
 
   def self.reload!
     require_ %w[definitions/*]
