@@ -10,6 +10,8 @@ module Reality
 
     predicate 'P740', :location, :entity
 
+    predicate 'P737', :influenced_by, [:entity]
+
     # Object features --------------------------------------------------
     predicate 'P2048', :height, :measure, unit: 'm'
     
@@ -68,6 +70,8 @@ module Reality
     predicate 'P136', :genres, [:string]
     predicate 'P166', :awards, [:entity]
     predicate 'P1411', :nominations, [:entity]
+    predicate 'P921', :work_subjects, [:string]
+    predicate 'P364', :original_languages, [:string]
 
     # Music album ------------------------------------------------------
     predicate 'P658', :tracks, [:string]
@@ -80,5 +84,15 @@ module Reality
     predicate 'P169', :ceo, :entity
     predicate 'P1128', :employees_count, :measure, unit: 'person'
     predicate 'P452', :industry, :string
+
+    # Software ---------------------------------------------------------
+    predicate 'P178', :developers, [:entity]
+    predicate 'P275', :licenses, [:string]
+    predicate 'P348', :version, :string
+
+    # Movies -----------------------------------------------------------
+    predicate 'P57', :directors, [:entity]
+    predicate 'P162', :producers, [:entity]
+    predicate 'P161', :actors, [:entity]
   end
 end
