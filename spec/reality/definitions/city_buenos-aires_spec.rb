@@ -14,7 +14,7 @@ module Reality
       describe 'basics' do
         its(:name){should == 'Buenos Aires'}
         its(:long_name){should == 'Autonomous City of Buenos Aires'}
-        its(:utc_offset){should == -3}
+        its(:tz_offset){should == TZOffset.parse('GMT-3')}
       end
 
       describe 'links' do

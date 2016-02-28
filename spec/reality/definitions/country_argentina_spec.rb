@@ -19,7 +19,7 @@ module Reality
         its(:iso3_code){should == 'ARG'}
         its(:tld){should == '.ar'}
         its(:calling_code){should == '+54'}
-        its(:utc_offset){should == -3}
+        its(:tz_offset){should == TZOffset.parse('GMT-3')}
       end
 
       describe 'measures' do

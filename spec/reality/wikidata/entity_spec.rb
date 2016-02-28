@@ -87,7 +87,7 @@ module Reality
       }
       its(:count){should == 3}
       it 'should be loaded correctly' do
-        expect(list.map(&:id)).to eq ['Q414', 'Q750', 'Q298']
+        expect(list.values.map(&:id)).to contain_exactly('Q414', 'Q750', 'Q298')
       end
 
       context 'when some entity can not be found' do

@@ -42,7 +42,7 @@ module Reality
 
     it 'coerces to tz offset' do
       expect(
-        coerce([Wikidata::Link.new('Q651', 'UTC−03:00')], :utc_offset)
+        coerce([Wikidata::Link.new('Q651', 'UTC−03:00')], :tz_offset)
       ).to eq TZOffset.parse('GMT-3')
     end
 
