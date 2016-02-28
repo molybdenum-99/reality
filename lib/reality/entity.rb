@@ -28,6 +28,19 @@ module Reality
       end
     end
 
+    def describe
+      load! unless loaded?
+      
+      key_width = values.keys.map(&:length).max
+      puts '-' * inspect.length,
+            inspect,
+            '-' * inspect.length
+      values.sort_by(&:first).each{|key, value|
+        puts "#{key.to_s.rjust(key_width)}: #{value.inspect}"
+      }
+      nil
+    end
+
     def to_s
       name
     end
@@ -48,6 +61,7 @@ module Reality
         end
       end
       after_load
+      self
     end
 
     def loaded?
