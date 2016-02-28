@@ -38,9 +38,18 @@ module Reality
 
     include Comparable
 
-    # FIXME: usec are lost
     def now
-      pattern = Time.now.utc + minutes * 60
+      convert(Time.now)
+    end
+
+    def local(*values)
+      values << 0 until values.count == 6
+      Time.new(*values, to_s)
+    end
+
+    # FIXME: usec are lost
+    def convert(tm)
+      pattern = tm.utc + minutes * 60
       Time.new(
         pattern.year,
         pattern.month,

@@ -49,10 +49,17 @@ module Reality
     end
 
 
-    describe :utc_to_local
-    describe :local_to_utc
-
-    describe :local
-    describe :convert
+    describe :local do
+      let(:offset){TZOffset.new(5 * 60 + 45)} # +5:45
+      subject{offset.local(2016, 1, 29, 18, 15, 0)}
+      it{should == Time.new(2016, 1, 29, 18, 15, 0, '+05:45')}
+    end
+    
+    describe :convert do
+      let(:tm){Time.local(2016, 1, 29, 14, 30, 0, '+02:00')}
+      let(:offset){TZOffset.new(5 * 60 + 45)} # +5:45
+      subject{offset.convert(tm)}
+      it{should == Time.new(2016, 1, 29, 18, 15, 0, '+05:45')}
+    end
   end
 end
