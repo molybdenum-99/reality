@@ -3,6 +3,8 @@ require 'rubygems'
 require 'reality'
 require 'reality/pretty_inspect'
 
+Reality.configure :demo
+
 require 'irb'
 ARGV.shift until ARGV.empty?
 IRB.start

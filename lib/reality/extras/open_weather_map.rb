@@ -41,13 +41,21 @@ module Reality
       module CoordWeather
         def weather
           res = OpenWeather::Current.geocode(lat.to_f, lng.to_f,
-                        units: 'metric', APPID: OPEN_WEATHER_MAP_KEY) # FIXME
+                        units: 'metric', APPID: appid) 
 
           Weather.from_hash(res)
+        end
+
+        private
+
+        def appid
+          Reality.config.fetch('keys', 'open_weather_map')
         end
       end
 
       def self.included(reality)
+        reality.config.register('keys', 'open_weather_map',
+          desc: 'OpenWeatherMap APPID. Can be obtained here: http://openweathermap.org/appid')
         reality::Geo::Coord.include CoordWeather
       end
     end

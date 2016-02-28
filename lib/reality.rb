@@ -2,8 +2,6 @@ require 'infoboxer'
 require 'yaml'
 
 module Reality
-  require_relative 'config'
-
   def self.require_(*modules)
     modules.flatten.flat_map{|pattern|
       Dir[File.expand_path("../reality/#{pattern}.rb", __FILE__)]
@@ -11,7 +9,7 @@ module Reality
   end
 
   # basic functionality
-  require_ %w[refinements measure geo tz_offset util/parsers util/formatters]
+  require_ %w[refinements config measure geo tz_offset util/parsers util/formatters]
 
   # engines
   require_ %w[infoboxer_templates wikidata]
@@ -28,18 +26,9 @@ module Reality
     Entity.load(name, entity_class)
   end
 
-  #def self.country(name)
-    #entity(name, Country)
-  #end
-
-  #def self.city(name)
-    #entity(name, City)
-  #end
-
   def self.reload!
     require_ %w[definitions/*]
   end
-
 
   # extras
   require_ %w[extras/open_weather_map extras/geonames]
