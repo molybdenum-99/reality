@@ -73,9 +73,16 @@ module Reality
       !!@wikipage
     end
 
+    # Don't try to convert me!
+    UNSUPPORTED_METHODS = [:to_hash, :to_ary, :to_a, :to_str, :to_int]
+
     def method_missing(sym, *arg, **opts, &block)
-      if arg.empty? && opts.empty? && !block && sym !~ /[=?!]/
+      p ["HERE", sym]
+      if arg.empty? && opts.empty? && !block && sym !~ /[=?!]/ &&
+        !UNSUPPORTED_METHODS.include?(sym)
+        
         load! unless loaded?
+
         # now some new method COULD emerge while loading
         if methods.include?(sym)
           send(sym)
@@ -88,7 +95,7 @@ module Reality
     end
 
     def respond_to?(sym)
-      sym !~ /[=?!]/ || super
+      sym !~ /[=?!]/ && !UNSUPPORTED_METHODS.include?(sym) || super
     end
 
     class << self
