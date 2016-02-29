@@ -6,18 +6,10 @@ module Reality
       end
 
       def load!
-        pages = Infoboxer.wp.get_h(*map(&:name))
-        datum = Wikidata::Entity.
-          fetch_list(*pages.values.compact.map(&:title))
-
-        each{|entity|
-          page = pages[entity.name]
-          entity.instance_variable_set('@wikipage', page)
-          if page && data = datum[page.title]
-            entity.instance_variable_set('@wikidata', data)
-          end
-          entity.send(:after_load)
-        }
+        partition(&:wikidata_id).tap{|wd, wp|
+            load_by_wikipedia(wp)
+            load_by_wikidata(wd)
+          }
         self
       end
 
@@ -33,6 +25,34 @@ module Reality
       end
 
       private
+
+      def load_by_wikipedia(entities)
+        return if entities.empty?
+        
+        pages = Infoboxer.wp.get_h(*entities.map(&:name))
+        datum = Wikidata::Entity.
+          fetch_list(*pages.values.compact.map(&:title))
+
+        entities.each do |entity|
+          page = pages[entity.name]
+          data = page && datum[page.title]
+          entity.setup!(wikipage: page, wikidata: data)
+        end
+      end
+
+      def load_by_wikidata(entities)
+        return if entities.empty?
+        
+        datum = Wikidata::Entity.
+          fetch_list_by_id(*entities.map(&:wikidata_id))
+        pages = Infoboxer.wp.
+          get_h(*datum.values.compact.map(&:en_wikipage).compact)
+        entities.each do |entity|
+          data = datum[entity.wikidata_id]
+          page = data && pages[data.en_wikipage]
+          entity.setup!(wikipage: page, wikidata: data)
+        end
+      end
 
       def ensure_type(arr)
         if arr.kind_of?(Array) && arr.all?{|e| e.is_a?(Entity)}

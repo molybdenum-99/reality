@@ -1,7 +1,7 @@
 module Reality
   describe Entity::List do
     def make_page(name)
-      double(title: name, infobox: double(name: 'Infobox country')).tap{|d|
+      double(title: name, infobox: double(name: 'Infobox something')).tap{|d|
         allow(d).to receive(:fetch).and_return(nil)
       }
     end
@@ -28,19 +28,28 @@ module Reality
 
     describe :load! do
       subject(:list){Entity::List.new('Argentina', 'Bolivia', 'Chile')}
+      let(:wikipedia){double}
+      before{
+        allow(Infoboxer).to receive(:wp).and_return(wikipedia)
+      }
       
       context 'when everything is loaded successfully' do
-        let(:wikipedia){double}
-
         before{
-          allow(Infoboxer).to receive(:wp).and_return(wikipedia)
-          expect(wikipedia).to receive(:get).
+          expect(wikipedia).to receive(:get_h).
             with('Argentina', 'Bolivia', 'Chile').
-            and_return([make_page('Argentina'), make_page('Bolivia'), make_page('Chile')])
+            and_return(
+              'Argentina' => make_page('Argentina'),
+              'Bolivia' => make_page('Bolivia'),
+              'Chile' => make_page('Chile')
+            )
 
           expect(Wikidata::Entity).to receive(:fetch_list).
             with('Argentina', 'Bolivia', 'Chile').
-            and_return([make_data('Argentina'), make_data('Bolivia'), make_data('Chile')])
+            and_return(
+              'Argentina' => make_data('Argentina'),
+              'Bolivia' => make_data('Bolivia'),
+              'Chile' => make_data('Chile')
+            )
 
           list.load!
         }
@@ -48,6 +57,29 @@ module Reality
       end
 
       context 'when some entities are not found' do
+      end
+
+      context 'when some entity has wikidata_id' do
+        subject(:list){Entity::List.new(Entity.new('Argentina'), Entity.new('Plurinational State of Bolivia', wikidata_id: 'Q750'))}
+        it 'should receive data from wikidata by id' do
+          expect(wikipedia).to receive(:get_h).
+            with('Argentina').
+            and_return('Argentina' => make_page('Argentina')).ordered
+
+          expect(Wikidata::Entity).to receive(:fetch_list).
+            with('Argentina').
+            and_return('Argentina' => make_data('Argentina')).ordered
+
+          expect(Wikidata::Entity).to receive(:fetch_list_by_id).
+            with('Q750').
+            and_return('Q750' => double(predicates: {}, en_wikipage: 'Bolivia')).ordered
+
+          expect(wikipedia).to receive(:get_h).
+            with('Bolivia').
+            and_return('Bolivia' => make_page('Bolivia')).ordered
+
+          list.load!
+        end
       end
     end
 

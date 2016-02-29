@@ -92,9 +92,35 @@ module Reality
           }
          }
       }
+      MULTIPLE_IDS_QUERY = %Q{
+        #{PREFIX}
+
+        SELECT ?id ?p ?o ?oLabel  WHERE {
+          %{selectors} .
+          {
+            ?id ?p ?o .
+            FILTER(
+              STRSTARTS(STR(?p), "http://www.wikidata.org/prop/direct/") ||
+              (?p = rdfs:label && langMatches(lang(?o), "EN"))
+            )
+          } union {
+            bind(schema:about as ?p) .
+            ?o schema:about ?id .
+            filter(strstarts(str(?o), "https://en.wikipedia.org/wiki/"))
+          }
+          SERVICE wikibase:label {
+            bd:serviceParam wikibase:language "en" .
+          }
+         }
+      }
       SELECTOR = %Q{
         {
           <https://en.wikipedia.org/wiki/%{title}> schema:about ?id
+        }
+      }
+      IDSELECTOR = %Q{
+        {
+          BIND(wd:%{id} as ?id)
         }
       }
 
@@ -129,6 +155,12 @@ module Reality
           }.inject(:merge)
         end
 
+        def fetch_list_by_id(*ids)
+          ids.each_slice(MAX_SLICE).map{|ids_chunk|
+            fetch_small_idlist(*ids_chunk)
+          }.inject(:merge)
+        end
+
         def fetch_small_list(*titles)
           titles.
             map{|t| SELECTOR % {title: URI.escape(t, UNSAFE)}}.
@@ -147,6 +179,28 @@ module Reality
             }.
             map{|e|
               [e.en_wikipage, e]
+            }.to_h
+        end
+
+
+        def fetch_small_idlist(*ids)
+          ids.
+            map{|i| IDSELECTOR % {id: i}}.
+            join(' UNION ').
+            derp{|selectors| MULTIPLE_IDS_QUERY % {selectors: selectors}}.
+            derp{|query|
+              faraday.get('', query: query, format: :json)
+            }.
+            derp{|res|
+              from_sparql(
+                res.body,
+                subject: 'id',
+                predicate: 'p',
+                object: 'o',
+                object_label: 'oLabel')
+            }.
+            map{|e|
+              [e.id, e]
             }.to_h
         end
         

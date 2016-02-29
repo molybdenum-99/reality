@@ -75,7 +75,7 @@ module Reality
         }
       }
 
-      its(:id){p entity.about; should == 'Q2599'}
+      its(:id){should == 'Q2599'}
       its(:en_wikipage){should == 'Paul McCartney'}
     end
 
@@ -87,7 +87,24 @@ module Reality
       }
       its(:count){should == 3}
       it 'should be loaded correctly' do
+        expect(list.keys).to contain_exactly('Argentina', 'Bolivia', 'Chile')
         expect(list.values.map(&:id)).to contain_exactly('Q414', 'Q750', 'Q298')
+      end
+
+      context 'when some entity can not be found' do
+      end
+    end
+
+    describe '.fetch_list_by_id' do
+      subject(:list){
+        VCR.use_cassette('Wikidata-3-countries-by-id'){
+          Wikidata::Entity.fetch_list_by_id('Q414', 'Q750', 'Q298')
+        }
+      }
+      its(:count){should == 3}
+      it 'should be loaded correctly' do
+        expect(list.keys).to contain_exactly('Q414', 'Q750', 'Q298')
+        expect(list.values.map(&:en_wikipage)).to contain_exactly('Argentina', 'Bolivia', 'Chile')
       end
 
       context 'when some entity can not be found' do

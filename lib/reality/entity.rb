@@ -64,6 +64,11 @@ module Reality
       self
     end
 
+    def setup!(wikipage: nil, wikidata: nil)
+      @wikipage, @wikidata = wikipage, wikidata
+      after_load if @wikipage
+    end
+
     def loaded?
       !!@wikipage
     end
