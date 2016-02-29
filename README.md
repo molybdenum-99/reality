@@ -2,7 +2,7 @@ Reality
 =======
 
 **Reality** is a gem (in its early development stage) for easy and
-convenient recieving data on various real-life knowledge entities. It
+convenient receiving data on various real-life knowledge entities. It
 uses open data sources (only Wikipedia and DBPedia currently, but more
 of them planned) and makes data accessible to novices, experimentators
 and hobbyists.
@@ -19,7 +19,7 @@ ar.leaders['President'] # => Mauricio Macri
 
 # List of countries:
 countries = Reality.countries.to_a
-# CAUTION tooks like ~2 min to load on modern Internet & CPU.
+# CAUTION takes like ~2 min to load on modern Internet & CPU.
 
 countries.
   select{|c| c.continent == 'Africa'}.
