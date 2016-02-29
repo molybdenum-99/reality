@@ -94,5 +94,12 @@ module Reality
     predicate 'P57', :directors, [:entity]
     predicate 'P162', :producers, [:entity]
     predicate 'P161', :actors, [:entity]
+
+    # Wehicles ---------------------------------------------------------
+    predicate 'P1029', :crew_members, [:entity]
+
+    # Fictional entities -----------------------------------------------
+    predicate 'P1080', :fictional_universe, :string
+    predicate 'P1441', :present_in_works, [:entity]
   end
 end
