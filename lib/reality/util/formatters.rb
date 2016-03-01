@@ -16,6 +16,20 @@ module Reality
           n.to_i.to_s
         end
       end
+
+      def describe(title, hash)
+        # hash may be an array, in fact :)
+        key_width = hash.map(&:first).map(&:length).max + 1
+
+        [
+          '-' * title.length,
+          title,
+          '-' * title.length,
+          *hash.sort_by(&:first).map{|key, value|
+            "#{key.to_s.rjust(key_width)}: #{value}"
+          }
+        ].join("\n")
+      end
     end
   end
 end

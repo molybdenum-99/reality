@@ -2,11 +2,11 @@ require 'forwardable'
 
 module Reality
   module Methods
-    def entity(name, entity_class = nil)
+    def Entity(name, entity_class = nil)
       Entity.load(name, entity_class)
     end
 
-    def list(*names)
+    def List(*names)
       Entity::List.new(*names)
     end
 

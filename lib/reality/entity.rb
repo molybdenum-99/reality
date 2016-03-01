@@ -28,16 +28,13 @@ module Reality
       end
     end
 
-    def describe
+    def _describe
       load! unless loaded?
-      
-      key_width = values.keys.map(&:length).max
-      puts '-' * inspect.length,
-            inspect,
-            '-' * inspect.length
-      values.sort_by(&:first).each{|key, value|
-        puts "#{key.to_s.rjust(key_width)}: #{value.inspect}"
-      }
+      Util::Format.describe(inspect, values.map{|k,v| [k, v.inspect]})
+    end
+
+    def describe
+      puts _describe
       nil
     end
 

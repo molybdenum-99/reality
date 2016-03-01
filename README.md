@@ -7,14 +7,17 @@ inspectable and computable.
 
 ```ruby
 # Like this
-ar = entity('Argentina')
+require 'reality'
+include Reality
+
+ar = Entity('Argentina')
 ar.cities.load! # Can be omitted, just optimisiation for batch load
 #  => #<Reality::List[Buenos Aires, "Córdoba, Argentina", "Rosario, Santa Fe", "Mendoza, Argentina", La Plata, San Miguel de Tucumán, Mar del Plata, Salta, "Santa Fe, Argentina", "San Juan, Argentina", "Resistencia, Chaco", Neuquén, Santiago del Estero, Corrientes, Avellaneda, Bahía Blanca, San Salvador de Jujuy, Quilmes, Lanús, Comodoro Rivadavia, "Concordia, Entre Ríos"]>
 ar.cities.map{|city| city.coord.distance_to(ar.capital)}
 # => [#<Reality::Measure(0.0 km)>, #<Reality::Measure(646 km)>, #<Reality::Measure(278 km)>, #<Reality::Measure(985 km)>, #<Reality::Measure(54 km)>, #<Reality::Measure(1,084 km)>, #<Reality::Measure(385 km)>, #<Reality::Measure(1,285 km)>, #<Reality::Measure(394 km)>, #<Reality::Measure(1,005 km)>, #<Reality::Measure(797 km)>, #<Reality::Measure(987 km)>, #<Reality::Measure(942 km)>, #<Reality::Measure(793 km)>, #<Reality::Measure(7 km)>, #<Reality::Measure(574 km)>, #<Reality::Measure(1,338 km)>, #<Reality::Measure(16 km)>, #<Reality::Measure(11 km)>, #<Reality::Measure(1,471 km)>, #<Reality::Measure(358 km)>] 
 
 # or this
-matz = entity('Yukihiro Matsumoto')
+matz = Entity('Yukihiro Matsumoto')
 # => #<Reality::Entity(Yukihiro Matsumoto):person>
 matz.describe
 # ---------------------------------------------
@@ -35,7 +38,7 @@ matz.birth_place.coord.weather
 # => #<Reality::Weather(-0.91°C, Clear)>
 
 # or maybe this?
-beatles = entity('Beatles').parts
+beatles = Entity('Beatles').parts
 # => #<Reality::List[John Lennon?, Sir. Paul McCartney?, Ringo Starr?, George Harrison?, Stuart Sutcliffe?, Pete Best?]>
 beatles.load!
 beatles.select(&:alive?)
@@ -58,8 +61,8 @@ For any entity (or list of entities) you request, it will do:
 * present you with `Entity` object with ton of useful methods.
 
 Above this core functionality, **Reality** also does:
-* allow you to navigate through entity and try to optimise this
-  process;
+* allow you to navigate through entity and linked entities and lists of
+  them;
 * provide some (simple, but pretty looking) value classes like "amount
   with units" (see distances and populations above), "geo coordinates",
   "timezone offset" and so on;
@@ -93,7 +96,7 @@ in near future. So, feel free and happy to use Reality for:
 
 ## Uhm, ok. How to use it?
 
-First, install the gem as usual (it is on rubygems, and named reality),
+First, install the gem as usual (it is on rubygems, and named "reality"),
 using Gemfile/`bundle install` or `gem install reality`.
 
 Second, `require "reality"` or use interactive console with the same name.
@@ -216,7 +219,7 @@ ruby = Reality::Entity('Ruby (programming language)')
 puts ruby.wikipage.intro
 # Ruby is a dynamic, reflective, object-oriented, general-purpose programming language....
 ruby.wikipage.sections
-# => 
+# => [#<Section(level: 2, heading: "History"): ...>, #<Section(level: 2, heading: "Table of versions"): ...>, #<Section(level: 2, heading: "Philosophy"): ...>, ...and so on
 ```
 
 ### Lists
@@ -225,7 +228,37 @@ Let's look closer at this part:
 
 ```ruby
 ar.neighbours
+# => #<Reality::List[Uruguay?, Brazil?, Chile?, Paraguay?, Bolivia?]>
 ```
+
+`Reality::List` is just array of entities, with some useful differences.
+For example, it provides more concise output (compare with
+`ar.neighbours.to_a` on your own). It also provides ability to batch-load
+all entities in list:
+
+```ruby
+# instead of:
+# ar.neighbours.each(&:load!)
+# ...which will be 5 separate requests to Wikipedia and 5 to Wikidata
+# ...you can write:
+ar.neighbours.load!
+# ...which is 1 request to Wikipedia API and 1 to Wikidata
+```
+
+And last, for list of loaded entities, it provides pretty `#describe`
+method to quickly look inside:
+
+```ruby
+ar.neighbours.describe
+# -------------------------
+# #<Reality::List(5 items)>
+# -------------------------
+#   keys: adm_divisions (5), area (5), calling_code (5), capital (5), continent (5), coord (5), country (5), created_at (5), currency (5), follows (1), gdp_nominal (5), gdp_ppp (5), head_of_state (5), highest_point (5), iso2_code (5), iso3_code (5), long_name (5), neighbours (5), organizations (5), part_of (5), population (5), tld (5), tz_offset (5)
+#  types: country (5)
+```
+
+(OK, not increadibly useful for now, but provides you with some insights
+on "what's inside".)
 
 ### Helper classess
 

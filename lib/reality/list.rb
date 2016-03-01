@@ -1,5 +1,7 @@
 module Reality
   class List < Array
+    using Refinements
+    
     def initialize(*names)
       super names.map(&method(:coerce))
     end
@@ -21,6 +23,24 @@ module Reality
 
     def inspect
       "#<#{self.class.name}[#{map(&:to_s?).join(', ')}]>"
+    end
+
+    def describe
+      load! unless all?(&:loaded?)
+      
+      meta = {
+        types: map(&:wikipedia_type).map(&:symbol).compact.
+          group_count.sort_by(&:first).map{|t,c| "#{t} (#{c})"}.join(', '),
+         keys: map(&:values).map(&:keys).flatten.
+          group_count.sort_by(&:first).map{|k,c| "#{k} (#{c})"}.join(', '),
+      }
+      # hard to read, yet informative version:
+      #keys = map(&:values).map(&:to_a).flatten(1).
+            #group_by(&:first).map{|key, vals|
+              #values = vals.map(&:last)
+              #[key, "(#{values.compact.count}) example: #{values.compact.first.inspect}"]
+            #}.to_h
+      puts Util::Format.describe("#<#{self.class.name}(#{count} items)>", meta)
     end
 
     private
