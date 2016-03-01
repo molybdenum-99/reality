@@ -9,7 +9,7 @@ inspectable and computable.
 # Like this
 ar = entity('Argentina')
 ar.cities.load! # Can be omitted, just optimisiation for batch load
-#  => #<Reality::Entity::List[Buenos Aires, "Córdoba, Argentina", "Rosario, Santa Fe", "Mendoza, Argentina", La Plata, San Miguel de Tucumán, Mar del Plata, Salta, "Santa Fe, Argentina", "San Juan, Argentina", "Resistencia, Chaco", Neuquén, Santiago del Estero, Corrientes, Avellaneda, Bahía Blanca, San Salvador de Jujuy, Quilmes, Lanús, Comodoro Rivadavia, "Concordia, Entre Ríos"]>
+#  => #<Reality::List[Buenos Aires, "Córdoba, Argentina", "Rosario, Santa Fe", "Mendoza, Argentina", La Plata, San Miguel de Tucumán, Mar del Plata, Salta, "Santa Fe, Argentina", "San Juan, Argentina", "Resistencia, Chaco", Neuquén, Santiago del Estero, Corrientes, Avellaneda, Bahía Blanca, San Salvador de Jujuy, Quilmes, Lanús, Comodoro Rivadavia, "Concordia, Entre Ríos"]>
 ar.cities.map{|city| city.coord.distance_to(ar.capital)}
 # => [#<Reality::Measure(0.0 km)>, #<Reality::Measure(646 km)>, #<Reality::Measure(278 km)>, #<Reality::Measure(985 km)>, #<Reality::Measure(54 km)>, #<Reality::Measure(1,084 km)>, #<Reality::Measure(385 km)>, #<Reality::Measure(1,285 km)>, #<Reality::Measure(394 km)>, #<Reality::Measure(1,005 km)>, #<Reality::Measure(797 km)>, #<Reality::Measure(987 km)>, #<Reality::Measure(942 km)>, #<Reality::Measure(793 km)>, #<Reality::Measure(7 km)>, #<Reality::Measure(574 km)>, #<Reality::Measure(1,338 km)>, #<Reality::Measure(16 km)>, #<Reality::Measure(11 km)>, #<Reality::Measure(1,471 km)>, #<Reality::Measure(358 km)>] 
 
@@ -20,7 +20,7 @@ matz.describe
 # ---------------------------------------------
 # #<Reality::Entity(Yukihiro Matsumoto):person>
 # ---------------------------------------------
-#      awards: #<Reality::Entity::List[FSF Free Software Awards?]>
+#      awards: #<Reality::List[FSF Free Software Awards?]>
 # birth_place: #<Reality::Entity?(Ōsaka Prefecture)>
 #    birthday: #<Date: 1965-04-14>
 # citizenship: #<Reality::Entity?(Japan)>
@@ -36,10 +36,10 @@ matz.birth_place.coord.weather
 
 # or maybe this?
 beatles = entity('Beatles').parts
-# => #<Reality::Entity::List[John Lennon?, Sir. Paul McCartney?, Ringo Starr?, George Harrison?, Stuart Sutcliffe?, Pete Best?]>
+# => #<Reality::List[John Lennon?, Sir. Paul McCartney?, Ringo Starr?, George Harrison?, Stuart Sutcliffe?, Pete Best?]>
 beatles.load!
 beatles.select(&:alive?)
-# => #<Reality::Entity::List[Paul McCartney, Ringo Starr, Pete Best]> 
+# => #<Reality::List[Paul McCartney, Ringo Starr, Pete Best]> 
 beatles.select(&:alive?).map{|beatle| beatle.albums && beatle.albums.last}
 # => [#<Reality::Entity?(New (album))>, #<Reality::Entity?(Old Wave)>, nil] 
 ```
@@ -111,7 +111,7 @@ ar.describe # shows all fields entity have
 # -------------------------------------
 # #<Reality::Entity(Argentina):country>
 # -------------------------------------
-# adm_divisions: #<Reality::Entity::List[Buenos Aires?, Buenos Aires Province?, Catamarca Province?, Chaco Province?, Corrientes?, Córdoba Province?, Formosa Province?, Entre Ríos Provinces?, Jujuy Province?, La Pampa Province?, La Rioja Province?, Mendoza Province?, Misiones Province?, Neuquén Province?, Río Negro Province?, Salta Province?, San Juan Province?, San Luis Province?, Santa Cruz Province?, Santa Fe Province?, Santiago del Estero Province?, Tucumán Province?, Tierra del Fuego Province?]>
+# adm_divisions: #<Reality::List[Buenos Aires?, Buenos Aires Province?, Catamarca Province?, Chaco Province?, Corrientes?, Córdoba Province?, Formosa Province?, Entre Ríos Provinces?, Jujuy Province?, La Pampa Province?, La Rioja Province?, Mendoza Province?, Misiones Province?, Neuquén Province?, Río Negro Province?, Salta Province?, San Juan Province?, San Luis Province?, Santa Cruz Province?, Santa Fe Province?, Santiago del Estero Province?, Tucumán Province?, Tierra del Fuego Province?]>
 #          area: #<Reality::Measure(2,780,400 km²)>
 #  calling_code: "+54"
 #       capital: #<Reality::Entity?(Buenos Aires)>
@@ -127,9 +127,9 @@ ar.describe # shows all fields entity have
 #     iso2_code: "AR"
 #     iso3_code: "ARG"
 #     long_name: "Argentine Republic"
-#    neighbours: #<Reality::Entity::List[Uruguay?, Brazil?, Chile?, Paraguay?, Bolivia?]>
-# organizations: #<Reality::Entity::List[United Nations?, Union of South American Nations?, Mercosur?, World Trade Organization?, G-20 major economies?, Central American Bank for Economic Integration?, International Bank for Reconstruction and Development?, African Development Bank?, Andean Community of Nations?, International Finance Corporation?, Australia Group?, International Development Association?, International Centre for Settlement of Investment Disputes?, Multilateral Investment Guarantee Agency?, Agency for the Prohibition of Nuclear Weapons in Latin America and the Caribbean?]>
-#       part_of: #<Reality::Entity::List[Latin America?]>
+#    neighbours: #<Reality::List[Uruguay?, Brazil?, Chile?, Paraguay?, Bolivia?]>
+# organizations: #<Reality::List[United Nations?, Union of South American Nations?, Mercosur?, World Trade Organization?, G-20 major economies?, Central American Bank for Economic Integration?, International Bank for Reconstruction and Development?, African Development Bank?, Andean Community of Nations?, International Finance Corporation?, Australia Group?, International Development Association?, International Centre for Settlement of Investment Disputes?, Multilateral Investment Guarantee Agency?, Agency for the Prohibition of Nuclear Weapons in Latin America and the Caribbean?]>
+#       part_of: #<Reality::List[Latin America?]>
 #    population: #<Reality::Measure(43,417,000 person)>
 #           tld: ".ar"
 #     tz_offset: #<Reality::TZOffset(UTC-03:00)>
@@ -143,14 +143,14 @@ ar.capital.describe
 # -------------------------------------
 # #<Reality::Entity(Buenos Aires):city>
 # -------------------------------------
-#    adm_divisions: #<Reality::Entity::List[Villa Devoto?, Agronomía?, "Retiro, Buenos Aires"?, "Caballito, Buenos Aires"?, "Chacarita, Buenos Aires"?, Parque Avellaneda?, "Villa Real, Buenos Aires"?, Flores?, Vélez Sársfield?, "Versalles, Buenos Aires"?, "Saavedra, Buenos Aires"?, "Barracas manda , Buenos Aires"?, La Boca?, Villa Lugano?, Villa del Parque?, Villa Luro?, Puerto Madero?, Balvanera?, Belgrano?, Boedo?, "Recoleta, Buenos Aires"?, Palermo?, Villa General Mitre?, Villa Riachuelo?, Villa Pueyrredón?, "San Telmo, Buenos Aires"?, Villa Urquiza?, Villa Santa Rita?, Villa Ortúzar?, "Monserrat, Buenos Aires"?, "Coghlan, Buenos Aires"?, Colegiales?, Parque Chacabuco?, Mataderos?, Constitución?, "Floresta, Buenos Aires"?, Villa Crespo?, Villa Soldati?, "La Paternal, Buenos Aires"?, Liniers?, Monte Castro?, Nueva Pompeya?, San Nicolás?, "Núñez, Buenos Aires"?, Parque Chas?, Parque Patricios?, San Cristóbal?, "Almagro, Buenos Aires"?]>
+#    adm_divisions: #<Reality::List[Villa Devoto?, Agronomía?, "Retiro, Buenos Aires"?, "Caballito, Buenos Aires"?, "Chacarita, Buenos Aires"?, Parque Avellaneda?, "Villa Real, Buenos Aires"?, Flores?, Vélez Sársfield?, "Versalles, Buenos Aires"?, "Saavedra, Buenos Aires"?, "Barracas manda , Buenos Aires"?, La Boca?, Villa Lugano?, Villa del Parque?, Villa Luro?, Puerto Madero?, Balvanera?, Belgrano?, Boedo?, "Recoleta, Buenos Aires"?, Palermo?, Villa General Mitre?, Villa Riachuelo?, Villa Pueyrredón?, "San Telmo, Buenos Aires"?, Villa Urquiza?, Villa Santa Rita?, Villa Ortúzar?, "Monserrat, Buenos Aires"?, "Coghlan, Buenos Aires"?, Colegiales?, Parque Chacabuco?, Mataderos?, Constitución?, "Floresta, Buenos Aires"?, Villa Crespo?, Villa Soldati?, "La Paternal, Buenos Aires"?, Liniers?, Monte Castro?, Nueva Pompeya?, San Nicolás?, "Núñez, Buenos Aires"?, Parque Chas?, Parque Patricios?, San Cristóbal?, "Almagro, Buenos Aires"?]>
 #             area: #<Reality::Measure(203 km²)>
 #            coord: #<Reality::Geo::Coord(34°35′58″S,58°22′54″W)>
 #          country: #<Reality::Entity?(Argentina)>
 #       created_at: #<Date: 1580-06-21>
 #        elevation: #<Reality::Measure(25 m)>
 #        long_name: "Autonomous City of Buenos Aires"
-#       neighbours: #<Reality::Entity::List[Buenos Aires Province?]>
+#       neighbours: #<Reality::List[Buenos Aires Province?]>
 #       population: #<Reality::Measure(2,890,151 person)>
 # population_metro: #<Reality::Measure(12,741,364 person)>
 #        tz_offset: #<Reality::TZOffset(UTC-03:00)>

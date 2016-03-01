@@ -46,7 +46,7 @@ module Reality
         subject(:entity){Entity.new('Paris', wikidata_id: 'Q111')}
         before{
           expect(Wikidata::Entity).to receive(:fetch_by_id).
-            with('Q111').and_return([wikidata])
+            with('Q111').and_return(wikidata)
           expect(Infoboxer.wikipedia).to receive(:get).
             with('Paris, France').and_return(wikipage)
 

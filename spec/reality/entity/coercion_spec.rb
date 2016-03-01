@@ -91,10 +91,10 @@ module Reality
       expect(neigh.count).to eq neighbours.count
       expect(neigh).to all be_an Entity
       expect(neigh.map(&:name)).to contain_exactly *neighbours.values
-      expect(neigh).to be_an Entity::List
+      expect(neigh).to be_a List
 
       neigh = coerce(arr, [:string])
-      expect(neigh).not_to be_an Entity::List
+      expect(neigh).not_to be_a List
     end
 
     it 'supporst custom parsers' do

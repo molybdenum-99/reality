@@ -1,5 +1,5 @@
 module Reality
-  require_ %w[entity/list entity/coercion entity/wikidata_predicates entity/wikipedia_type]
+  require_ %w[entity/coercion entity/wikidata_predicates entity/wikipedia_type]
   
   class Entity
     using Refinements

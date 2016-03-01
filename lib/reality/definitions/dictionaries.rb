@@ -5,7 +5,7 @@ module Reality
     using Reality::Refinements
 
     def countries
-      Entity::List.new(*countries_by_continents_cache.keys)
+      List.new(*countries_by_continents_cache.keys)
     end
 
     def continents
@@ -47,7 +47,7 @@ module Reality
 
     def countries_by_continent(name)
       countries_by_continents_cache.select{|k, v| v == name}.map(&:first).
-        derp{|names| Entity::List.new(*names)}
+        derp{|names| List.new(*names)}
     end
 
     def countries_by_continents_cache

@@ -62,7 +62,7 @@ module Reality
           type.count == 1 or fail("Only homogenous array types supported, #{type.inspect} received")
           val.kind_of?(Array) or fail("Array type expected, #{val.inspect} received")
           val.map{|row| coerce(row, type.first, **opts.except(:parse))}.
-              derp{|arr| arr.all?{|e| e.is_a?(Entity)} ? Entity::List.new(*arr) : arr}
+              derp{|arr| arr.all?{|e| e.is_a?(Entity)} ? List.new(*arr) : arr}
         when Symbol
           parser = COERCERS[type] or fail("No coercion to #{type.inspect}")
           parser.call(val, **opts)

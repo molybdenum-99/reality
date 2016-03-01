@@ -16,7 +16,7 @@ module Reality
   require_ %w[infoboxer_templates wikidata]
 
   # entities
-  require_ %w[entity]
+  require_ %w[entity list]
   require_ %w[definitions/*]
   require_ %w[methods]
 
