@@ -82,17 +82,20 @@ Reality is not incredibly precise and realiable: for example, as you can
 see in first example above, it lists only top cities of country, not all
 of them (in fact, it is contents of Wikipedia page "List of cities in
 %countryname%"). The data is only as good as data in Wikipedia/Wikidata
-is, **and** our parsers/processors for this data. So, don't try to use
+**and** our parsers/processors for this data. So, don't try to use
 it for really precise scientific computations or really important business
 tasks.
 
 But! Data there is, and already a lot of it, and it will be a lot _moar_
 in near future. So, feel free and happy to use Reality for:
 * teaching Ruby and data processing on _real and actual_ data;
-* use interesting data for experiments, quick scripts and 
-
-
-
+* use interesting data for experiments, quick scripts and insights about
+  errrm reality;
+* demonstrating some tools for data processing and/or visualisation on
+  variative and intersting examples;
+* initial seeding of development databases with countries, cities, genres,
+  dates, coordinates and so on;
+* ...your option?..
 
 ## Uhm, ok. How to use it?
 
@@ -105,10 +108,11 @@ Now, to Reality concepts.
 
 ### Entity
 
-Now, you can use `Reality::Entity`, which is core concept:
+Now you can use `Reality::Entity`, which is core concept:
 
 ```ruby
-ar = Reality::Entity('Argentine')
+ar = Reality::Entity('Argentina')
+# => #<Reality::Entity(Argentina):country>
 
 ar.describe # shows all fields entity have
 # -------------------------------------
@@ -199,12 +203,54 @@ Reality::Entity('Einstein')
 # => #<Reality::Entity(Albert Einstein)>
 
 # but...
-Reality::Entity('Ruby') # => page about mineral
-Reality::Entity('Ruby (programming language)') # => page about programming language
+Reality::Entity('Ruby') # => about mineral
+Reality::Entity('Ruby (programming language)') # => about programming language
 ```
 
 Further Reality versions would at least work smarter with disambiguation
 pages and "other uses" link. But currently, that's just what you have.
+
+#### Entity additional types
+
+Let's look at this again:
+
+```ruby
+ar = Reality::Entity('Argentina')
+# => #<Reality::Entity(Argentina):country>
+```
+
+Final `:country` part means Reality "guessed" desired object type (by
+Wikipedia infobox name) and used this to parse additional properties from
+Wikipedia, and also add some useful methods. For example (as seen above):
+
+```ruby
+ar.cities
+# => #<Reality::List[Buenos Aires?, "Córdoba, Argentina"?, "Rosario, Santa Fe"?, "Mendoza, Argentina"?, La Plata?, San Miguel de Tucumán?, Mar del Plata?, Salta?, "Santa Fe, Argentina"?, "San Juan, Argentina"?, "Resistencia, Chaco"?, Neuquén?, Santiago del Estero?, Corrientes?, Avellaneda?, Bahía Blanca?, San Salvador de Jujuy?, Quilmes?, Lanús?, Comodoro Rivadavia?, "Concordia, Entre Ríos"?]> 
+```
+
+It is not a property parsed on entry loading (so, it will not be seen
+in `#describe`), but helpful method, which fetched additional data from
+Wikipedia. (Unfortunately, there are no way to know which "helpful methods"
+were added with current entity type, except for scanning `entity.methdods`
+by eyes.)
+
+Also, you should note there are some quirks about this "guess by infobox"
+thing. For ex:
+
+```ruby
+# ok
+Reality::Entity('Buenos Aires')
+# => #<Reality::Entity(Buenos Aires):city>
+
+# not ok: note no "additional type" :city
+l = Reality::Entity('Lyon')
+# => #<Reality::Entity(Lyon)>
+# thats because of:
+l.wikipage.infobox.name
+# => "Infobox French commune"
+```
+
+This will become better in future.
 
 #### Entity internals
 
@@ -260,11 +306,104 @@ ar.neighbours.describe
 (OK, not increadibly useful for now, but provides you with some insights
 on "what's inside".)
 
-### Helper classess
+### Helper classes
 
+Currently, there are several of them. All are just "handy wrappers"
+around some values, that may (or may be not) be replaced with additional
+gems in future versions:
+
+#### Reality::Measure
+
+```ruby
+ar.population
+# => #<Reality::Measure(43,417,000 person)>
+ar.population.amount
+# => 43,417,000
+ar.population.unit
+# => #<Reality::Measure::Unit(person)>
+ar.population ** 2
+# => #<Reality::Measure(1,885,035,889,000,000 person²)>
+ar.population / ar.area
+# => #<Reality::Measure(15 person/km²)>
+
+# using on its own:
+m = Reality::Measure.new(10, 'm')
+# => #<Reality::Measure(10 m)> 
+m ** 2
+# => #<Reality::Measure(100 m²)>
+```
+
+**NB**: No measure conversion provided for now. Attempt to sum metres with
+kilometres will fail miserably. [unitwise](https://github.com/joshwlewis/unitwise)
+may be utilised instead or inside `Measure` in future.
+
+#### Reality::Geo::Coord
+
+```ruby
+ar.capital.coord
+# => #<Reality::Geo::Coord(34°35′58″S,58°22′54″W)>
+ar.capital.coord.to_s
+# => "-34.599722222222,-58.381944444444"
+ar.capital.coord.distance_to(ar.highest_point.coord)
+# => #<Reality::Measure(1,097 km)>
+# ar.capital.coord.distance_to(ar.highest_point) also can be used, if highest_point has coord method
+ar.capital.coord.direction_to(ar.highest_point.coord)
+# => #<Reality::Measure(278 °)>
+```
+
+**NB**: [geokit](https://github.com/geokit/geokit) already somehow
+utilized inside.
+
+#### Reality::TZOffset
+
+```ruby
+ar.tz_offset
+# => #<Reality::TZOffset(UTC-03:00)>
+ar.tz_offset.now
+# => 2016-03-01 16:03:52 -0300
+ar.tz_offset.local(2016, 3, 2, 14, 30)
+# => 2016-03-02 14:30:00 -0300
+ar.tz_offset.convert(Time.now)
+# => 2016-03-01 16:04:36 -0300
+
+# using on its own:
+Reality::TZOffset.parse('GMT+1').now
+# => 2016-03-01 20:05:10 +0100
+```
 
 ### Using external services
 
+Currently, there are two external services (except of Wikipedia and
+Wikidata) mashed into Reality:
+* [OpenWeatherMap](http://openweathermap.org/) for "current weather"
+  feature;
+* [GeoNames](http://www.geonames.org/) for "timezone at this coordinates"
+  feature.
+
+Both of them, unlike Wikipedia/Wikidata API, require free access key
+for usage. So, in your own code, you'll see something like this:
+
+```ruby
+ar.capital.coord.weather
+# KeyError: Expected keys.open_weather_map to exist in config. It is OpenWeatherMap APPID. Can be obtained here: http://openweathermap.org/appid
+ar.capital.coord.timezone
+# KeyError: Expected keys.geonames to exist in config. It is GeoNames username. Can be received from http://www.geonames.org/login
+```
+
+For experiments you can use (but not abuse) Reality demo config, like this:
+
+```ruby
+Reality.configure(:demo)
+ar.capital.coord.weather
+# => #<Reality::Weather(21°C, Clear)>
+ar.capital.coord.timezone
+# => #<TZInfo::DataTimezone: America/Argentina/Buenos_Aires>
+```
+
+For more extensive data usage, you should use `Reality#configure` with
+your own config (see `config/demo.yml` for sample of this).
+
+Note, that reality binary is configured with `:demo` by default.
 
 ### More
 
@@ -299,12 +438,17 @@ Reality::Entity('Buenos Aires').population / Reality::Entity('London').populatio
 concise syntax:
 
 ```ruby
+include Reality
+
 E('Yukihiro Matsumoto')
 
 L('Argentine', 'Bolivia', 'Chile')
-
-continents
 ```
+
+Also, you could do `include Reality::Methods` (instead of `include Reality`)
+in your code to not pollute your namespace with anything execpt `Entity`
+and `List` methods (`E` and `L` is also in this namespace after you
+have required "reality/shortcuts").
 
 ## Good. What next?..
 
@@ -312,4 +456,15 @@ continents
 
 ## Credits
 
+* [Victor Shepelev](https://zverok.github.io) [@zverok](https://github.com/zverok);
+* Sergey Mostovoy [@smostovoy](https://github.com/smostovoy).
+
+Development sponsored by
+[2015 Ruby Association Grant](http://www.ruby.or.jp/en/news/20151116.html).
+
+Initial idea is inspired by "integrated data" of
+[Wolfram Language](http://reference.wolfram.com/language/).
+
 ## License
+
+[MIT](https://github.com/molybdenum-99/reality/blob/master/LICENSE.txt)

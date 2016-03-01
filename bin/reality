@@ -2,15 +2,13 @@
 require 'rubygems'
 require 'reality'
 require 'reality/pretty_inspect'
+require 'reality/shortcuts'
 
 Reality.configure :demo
 
 class << self
   # including it ONLY into the main object, not Kernel
   include Reality::Methods
-
-  def E(*a); Entity(*a) end
-  def L(*a); List(*a) end
 end
 
 require 'irb'

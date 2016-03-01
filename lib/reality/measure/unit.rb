@@ -97,6 +97,10 @@ module Reality
         end
       end
 
+      def inspect
+        "#<#{self.class}(#{to_s})>"
+      end
+
       private
 
       UNICODE_SUPER = {2 => '²', 3 => '³'}
