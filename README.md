@@ -306,11 +306,42 @@ ar.neighbours.describe
 (OK, not increadibly useful for now, but provides you with some insights
 on "what's inside".)
 
+Finally, there are some (will be more in future) "default lists" in Reality:
+
+```ruby
+Reality.countries
+# => #<Reality::List[Algeria?, Angola?, Benin?, Botswana?, Burkina Faso?, Burundi?, Cameroon?, Cape Verde?, Central African Republic?, Chad?, Comoros?, Republic of the Congo?, Democratic Republic of the Congo?, Djibouti?, Egypt?, Equatorial Guinea?, Eritrea?, Ethiopia?, Gabon?, Gambia?, Ghana?, Guinea?, Guinea-Bissau?, Ivory Coast?, Kenya?, Lesotho?, Liberia?, Libya?, Madagascar?, Malawi?, Mali?, Mauritania?, Mauritius?, Morocco?, Mozambique?, Namibia?, Niger?, Nigeria?, Rwanda?, São Tomé and Príncipe?, Senegal?, Seychelles?, Sierra Leone?, Somalia?, South Africa?, South Sudan?, Sudan?, Swaziland?, Tanzania?, Togo?, Tunisia?, Uganda?, Zambia?, Zimbabwe?, Afghanistan?, Armenia?, Azerbaijan?, Bahrain?, Bangladesh?, Bhutan?, Brunei?, Cambodia?, China?, Cyprus?, East Timor?, Georgia (country)?, India?, Indonesia?, Iran?, Iraq?, Israel?, Japan?, Jordan?, Kazakhstan?, Kuwait?, Kyrgyzstan?, Laos?, Lebanon?, Malaysia?, Maldives?, Mongolia?, Myanmar?, Nepal?, North Korea?, Oman?, Pakistan?, State of Palestine?, Philippines?, Qatar?, Saudi Arabia?, Singapore?, South Korea?, Sri Lanka?, Syria?, Tajikistan?, Thailand?, Turkey?, Turkmenistan?, United Arab Emirates?, Uzbekistan?, Vietnam?, Yemen?, Albania?, Andorra?, Austria?, Belarus?, Belgium?, Bosnia and Herzegovina?, Bulgaria?, Croatia?, Czech Republic?, Denmark?, Estonia?, Finland?, France?, Germany?, Greece?, Hungary?, Iceland?, Republic of Ireland?, Italy?, Latvia?, Liechtenstein?, Lithuania?, Luxembourg?, Republic of Macedonia?, Malta?, Moldova?, Monaco?, Montenegro?, Kingdom of the Netherlands?, Norway?, Poland?, Portugal?, Romania?, Russia?, San Marino?, Serbia?, Slovakia?, Slovenia?, Spain?, Sweden?, Switzerland?, Ukraine?, United Kingdom?, Vatican City?, Antigua and Barbuda?, Bahamas?, Barbados?, Belize?, Canada?, Costa Rica?, Cuba?, Dominica?, Dominican Republic?, El Salvador?, Grenada?, Guatemala?, Haiti?, Honduras?, Jamaica?, Mexico?, Nicaragua?, Panama?, Saint Kitts and Nevis?, Saint Lucia?, Saint Vincent and the Grenadines?, Trinidad and Tobago?, United States?, Argentina?, Bolivia?, Brazil?, Chile?, Colombia?, Ecuador?, Guyana?, Paraguay?, Peru?, Suriname?, Uruguay?, Venezuela?, Australia?, Fiji?, Kiribati?, Marshall Islands?, Federated States of Micronesia?, Nauru?, New Zealand?, Palau?, Papua New Guinea?, Samoa?, Solomon Islands?, Tonga?, Tuvalu?, Vanuatu?]>
+Reality.continents
+# => #<Reality::List[Asia?, Africa?, North America?, South America?, Antarctica?, Europe?, Australia (continent)?]>
+```
+
+Though, there is one funny quirk with latter (still thinking of it):
+
+```ruby
+Reality.continents.last
+# => #<Reality::Entity(Australia (continent)):continent>
+Reality.continents.last.countries
+# => #<Reality::List[]>
+# ????
+# Let's see...
+a = Reality::Entity('Australia')
+# => #<Reality::Entity(Australia):country>
+a.continent
+# => #<Reality::Entity?(Oceania)>
+# Hmmmm....
+a.continent.countries
+# => #<Reality::List[Australia?, Fiji?, Kiribati?, Marshall Islands?, Federated States of Micronesia?, Nauru?, New Zealand?, Palau?, Papua New Guinea?, Samoa?, Solomon Islands?, Tonga?, Tuvalu?, Vanuatu?]>
+```
+
+That's kinda weird thing of Wikipedia data ("Countries by continents" and
+"List of continents" pages seems to be vague of "continent" and "part of
+world" concepts).
+
 ### Helper classes
 
 Currently, there are several of them. All are just "handy wrappers"
-around some values, that may (or may be not) be replaced with additional
-gems in future versions:
+around some values, that may be (or may be not) replaced with additional
+gems in future versions.
 
 #### Reality::Measure
 
