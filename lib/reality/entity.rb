@@ -77,7 +77,6 @@ module Reality
     UNSUPPORTED_METHODS = [:to_hash, :to_ary, :to_a, :to_str, :to_int]
 
     def method_missing(sym, *arg, **opts, &block)
-      p ["HERE", sym]
       if arg.empty? && opts.empty? && !block && sym !~ /[=?!]/ &&
         !UNSUPPORTED_METHODS.include?(sym)
         

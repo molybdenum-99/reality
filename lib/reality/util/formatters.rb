@@ -6,7 +6,7 @@ module Reality
       def number(n)
         case n.abs
         when 0..1
-          n.to_f.to_s.sub(/(\.0+[1-9]).*$/, '\1')
+          n.to_f.to_s.sub(/(\.0*[1-9]).*$/, '\1')
         when 1..4
           ('%.2f' % n).sub(/\.?0+$/, '')
         when 1_000..Float::INFINITY
