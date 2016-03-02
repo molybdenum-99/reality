@@ -49,7 +49,7 @@ beatles.select(&:alive?).map{|beatle| beatle.albums && beatle.albums.last}
 # and stuff
 titanic = Entity('Titanic (1997 film)')
 titanic.actors.each do |actor|
-  puts "#{actor.name}: #{actor.age_at(titanic.published_at) || '?'}"
+  puts "#{ actor.name }: #{ actor.age_at(titanic.published_at) }"
 end
 # Frances Fisher: 45
 # Leonardo DiCaprio: 22

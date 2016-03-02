@@ -19,7 +19,7 @@ module Reality
 
       def describe(title, hash)
         # hash may be an array, in fact :)
-        key_width = hash.map(&:first).map(&:length).max + 1
+        key_width = hash.map(&:first).map(&:length).max.to_i + 1
 
         [
           '-' * title.length,

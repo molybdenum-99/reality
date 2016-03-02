@@ -16,12 +16,12 @@ module Reality
       # TimeBoots fail with Time vs Date :(
       #birthday && TimeBoots.year.measure(birthday, tm)
 
-      return nil unless birthday
+      from = birthday || created_at || published_at
 
-      if birthday.month < tm.month || birthday.month == tm.month && birthday.day <= tm.day
-        tm.year - birthday.year
+      if from.month < tm.month || from.month == tm.month && from.day <= tm.day
+        tm.year - from.year
       else
-        tm.year - birthday.year - 1
+        tm.year - from.year - 1
       end
     end
 
