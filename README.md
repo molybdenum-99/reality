@@ -1,6 +1,8 @@
 Reality
 =======
 
+[![Join the chat at https://gitter.im/molybdenum-99/reality](https://badges.gitter.im/molybdenum-99/reality.svg)](https://gitter.im/molybdenum-99/reality?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 **Reality** is your quick access point to almost any entity existing in
 real world (and described in Wikipedia). Its goal is to make the world
 inspectable and computable.
