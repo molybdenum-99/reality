@@ -3,7 +3,7 @@ module Reality
     describe 'existing city' do
       before(:all){
         VCR.use_cassette('City-Buenos-Aires'){
-          @city = Reality.entity('Buenos Aires') # parsed only once - faster tests
+          @city = Reality.Entity('Buenos Aires') # parsed only once - faster tests
         }
       }
 

@@ -2,7 +2,7 @@ module Reality
   describe Entity, 'Pink Floyd' do
     before(:all){
       VCR.use_cassette('Band-Pink-Floyd'){
-        @band = Reality.entity('Pink Floyd') # parsed only once - faster tests
+        @band = Reality.Entity('Pink Floyd') # parsed only once - faster tests
       }
     }
 
