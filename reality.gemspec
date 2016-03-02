@@ -1,7 +1,9 @@
+require_relative 'lib/reality/version'
+
 Gem::Specification.new do |s|
   s.name     = 'reality'
-  s.version  = '0.0.2'
-  s.authors  = ['Victor Shepelev']
+  s.version  = Reality::VERSION
+  s.authors  = ['Victor Shepelev and contributors']
   s.email    = 'zverok.offline@gmail.com'
   s.homepage = 'https://github.com/molybdenum-99/reality'
 
@@ -28,7 +30,7 @@ Gem::Specification.new do |s|
   s.bindir = 'bin'
   s.executables << 'reality'
 
-  # s.add_dependency 'infoboxer', '>= 0.2.2'
+  s.add_dependency 'infoboxer', '>= 0.2.3'
   s.add_dependency 'hashie'
   s.add_dependency 'open-weather'
   s.add_dependency 'timezone'
