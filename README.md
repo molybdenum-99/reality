@@ -500,6 +500,22 @@ not-so-near plans looks like this (order is vague):
 
 ## Want to help?
 
+Great!
+
+**Reality** will be glad to accept your issues and pull requests.
+Currently, it would be great if somebody lay their hands on:
+
+* thoroughly define more and more Wikidata predicates (and enchance system
+  for predicates definition: consider aliases, plural/singular properties
+  and so on);
+* investigate and define more Wikipedia types (kinds of infoboxes) and
+  enchance existing ones;
+* connect more external services and integrate them into Reality (for
+  example, geocoding: via OpenStreetMap guess city from coordinates
+  **and** make this city a `Reality::Entity`);
+* play with Reality and share your experiences and examples and problems
+  and cool demos!
+  
 ## Credits
 
 * [Victor Shepelev](https://zverok.github.io) [@zverok](https://github.com/zverok);
