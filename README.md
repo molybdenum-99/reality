@@ -2,7 +2,7 @@ Reality
 =======
 
 **Reality** is your quick access point to almost any entity existing in
-real world (and described in Wikipedia). It's goal is to make the world
+real world (and described in Wikipedia). Its goal is to make the world
 inspectable and computable.
 
 ```ruby
@@ -11,7 +11,7 @@ require 'reality'
 include Reality
 
 ar = Entity('Argentina')
-ar.cities.load! # Can be omitted, just optimisiation for batch load
+ar.cities.load!
 #  => #<Reality::List[Buenos Aires, "Córdoba, Argentina", "Rosario, Santa Fe", "Mendoza, Argentina", La Plata, San Miguel de Tucumán, Mar del Plata, Salta, "Santa Fe, Argentina", "San Juan, Argentina", "Resistencia, Chaco", Neuquén, Santiago del Estero, Corrientes, Avellaneda, Bahía Blanca, San Salvador de Jujuy, Quilmes, Lanús, Comodoro Rivadavia, "Concordia, Entre Ríos"]>
 ar.cities.map{|city| city.coord.distance_to(ar.capital)}
 # => [#<Reality::Measure(0.0 km)>, #<Reality::Measure(646 km)>, #<Reality::Measure(278 km)>, #<Reality::Measure(985 km)>, #<Reality::Measure(54 km)>, #<Reality::Measure(1,084 km)>, #<Reality::Measure(385 km)>, #<Reality::Measure(1,285 km)>, #<Reality::Measure(394 km)>, #<Reality::Measure(1,005 km)>, #<Reality::Measure(797 km)>, #<Reality::Measure(987 km)>, #<Reality::Measure(942 km)>, #<Reality::Measure(793 km)>, #<Reality::Measure(7 km)>, #<Reality::Measure(574 km)>, #<Reality::Measure(1,338 km)>, #<Reality::Measure(16 km)>, #<Reality::Measure(11 km)>, #<Reality::Measure(1,471 km)>, #<Reality::Measure(358 km)>] 
@@ -49,7 +49,7 @@ beatles.select(&:alive?).map{|beatle| beatle.albums && beatle.albums.last}
 
 ## Is it real? Is it really working?.. But how?
 
-Yes. Every example you can see above are working. And many other things
+Yes. Every example you can see above is working. And many other things
 are working. And almost _any_ thing which Wikipedia knows about, can be
 loaded through **Reality**, and somehow inspected and used and navigated
 to next entities and measured and ...
@@ -70,9 +70,9 @@ Above this core functionality, **Reality** also does:
   value types, like `Geo::Coord#weather` through OpenWeatherMap and
   so on.
 
-Eventually, **Reality**, following its pathetic name, plans to interconnect
+Eventually, **Reality**, following its pretentious name, plans to interconnect
 multiple open data sources (all of them!) into easily navigable and usable
-graph of Ruby objects. Or somethink like that.
+graph of Ruby objects. Or something like that.
 
 ## Why/when do I need this?..
 
@@ -303,7 +303,7 @@ ar.neighbours.describe
 #  types: country (5)
 ```
 
-(OK, not increadibly useful for now, but provides you with some insights
+(OK, not incredibly useful for now, but provides you with some insights
 on "what's inside".)
 
 Finally, there are some (will be more in future) "default lists" in Reality:
@@ -477,7 +477,7 @@ L('Argentine', 'Bolivia', 'Chile')
 ```
 
 Also, you could do `include Reality::Methods` (instead of `include Reality`)
-in your code to not pollute your namespace with anything execpt `Entity`
+in your code to not pollute your namespace with anything except `Entity`
 and `List` methods (`E` and `L` is also in this namespace after you
 have required "reality/shortcuts").
 

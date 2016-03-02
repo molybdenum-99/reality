@@ -29,7 +29,7 @@ module Reality
       load! unless all?(&:loaded?)
       
       meta = {
-        types: map(&:wikipedia_type).map(&:symbol).compact.
+        types: map(&:wikipedia_type).compact.map(&:symbol).
           group_count.sort_by(&:first).map{|t,c| "#{t} (#{c})"}.join(', '),
          keys: map(&:values).map(&:keys).flatten.
           group_count.sort_by(&:first).map{|k,c| "#{k} (#{c})"}.join(', '),
