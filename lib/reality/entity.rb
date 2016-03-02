@@ -124,6 +124,9 @@ module Reality
       if @wikidata
         @values.update(WikidataPredicates.parse(@wikidata))
       end
+      (@values.keys - methods).each do |sym|
+        define_singleton_method(sym){@values[sym]}
+      end
     end
 
     def to_simple_type(val)

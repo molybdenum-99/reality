@@ -465,7 +465,7 @@ Reality::Entity('Buenos Aires').population / Reality::Entity('London').populatio
 # ↑ it's still the same Rational, but with less precise/more readable output
 ```
 
-**Shorcuts**: `require "reality/shortcuts"` provides you with pretty
+**Shortcuts**: `require "reality/shortcuts"` provides you with pretty
 concise syntax:
 
 ```ruby
@@ -482,6 +482,21 @@ and `List` methods (`E` and `L` is also in this namespace after you
 have required "reality/shortcuts").
 
 ## Good. What next?..
+
+Reality currently in, let's say "working prototype" state. Many things
+work and useful, many others are subject to change/improve. Near and
+not-so-near plans looks like this (order is vague):
+
+* more definitions of useful Wikidata/Wikipedia properties and types,
+  cleanup and re-checking of existing ones;
+* more external datasources ([OpenStreetMap](http://www.openstreetmap.org/)
+  one of first candidates) and more info from already included ones;
+* more maturity: cleaner code, more tests, docs, config policy....
+* powerful and flexible data caching (if you run "study all world capitals"
+  script 10 times, or want to do a quick presentation of topic to students,
+  you'll be happy that previously quiried data are already on disk);
+* large demo-scripts set, maybe in independent repository;
+* separation of largely independent parts to another gems and libraries.
 
 ## Want to help?
 
