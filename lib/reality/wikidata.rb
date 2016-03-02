@@ -287,6 +287,8 @@ module Reality
       end
 
       def en_wikipage
+        return nil unless about
+        
         name = about.first.
           scan(%r{https://en\.wikipedia\.org/wiki/(.+)$}).
           flatten.first.derp{|s| URI.unescape(s)}

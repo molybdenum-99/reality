@@ -44,7 +44,21 @@ beatles.load!
 beatles.select(&:alive?)
 # => #<Reality::List[Paul McCartney, Ringo Starr, Pete Best]> 
 beatles.select(&:alive?).map{|beatle| beatle.albums && beatle.albums.last}
-# => [#<Reality::Entity?(New (album))>, #<Reality::Entity?(Old Wave)>, nil] 
+# => [#<Reality::Entity?(New (album))>, #<Reality::Entity?(Old Wave)>, nil]
+
+# and stuff
+titanic = Entity('Titanic (1997 film)')
+titanic.actors.each do |actor|
+  puts "#{actor.name}: #{actor.age_at(titanic.published_at) || '?'}"
+end
+# Frances Fisher: 45
+# Leonardo DiCaprio: 22
+# Danny Nucci: 29
+# Bill Paxton: 42
+# Gloria Stuart: 87
+# Kate Winslet: 22
+# Billy Zane: 31
+# ......
 ```
 
 ## Is it real? Is it really working?.. But how?

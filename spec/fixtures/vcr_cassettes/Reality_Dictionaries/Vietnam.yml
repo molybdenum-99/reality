@@ -1,0 +1,210 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://en.wikipedia.org/w/api.php?action=query&format=json&inprop=url&prop=revisions%7Cinfo&redirects=true&rvprop=content&titles=List%20of%20cities%20in%20Vietnam
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Infoboxer/0.2.2 (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.9.4
+      Date:
+      - Fri, 26 Feb 2016 13:45:33 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '4191'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - HHVM/3.6.5
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=43035 t=1456494333880364
+      X-Varnish:
+      - 1133386990, 1305359863, 3049654858
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1065 pass+chfp(0), cp3004 miss+chfp(0), cp3008 frontend pass+chfp(0)
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=UA:07:Kharkov:49.98:36.25:v4; Path=/; Domain=.wikipedia.org
+      - WMF-Last-Access=26-Feb-2016;Path=/;HttpOnly;Expires=Tue, 29 Mar 2016 12:00:00
+        GMT
+      X-Analytics:
+      - https=1;nocookies=1
+      X-Client-Ip:
+      - 94.179.103.153
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"379347":{"pageid":379347,"ns":0,"title":"List
+        of cities in Vietnam","revisions":[{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"[[File:Vietnam-CIA
+        WFB Map.png|thumb|right|250px|Map of Vietnam]]\n[[File:Vista de Ciudad Ho
+        Chi Minh desde Bitexco Financial Tower, Vietnam, 2013-08-14, DD 13.JPG|thumb|right|250px|[[H\u1ed3
+        Ch\u00ed Minh City]]]]\n[[File:Hanoitito03.jpg|thumb|254x254px|[[H\u00e0 N\u1ed9i]]]]\n[[File:07-HAIPHONG
+        PORT.jpg|thumb|right|250px|[[H\u1ea3i Ph\u00f2ng]]]]\n[[File:Can Tho City
+        - Stadt aus Sicht vom Boot.jpg|thumb|right|250px|[[C\u1ea7n Th\u01a1]]]]\n[[File:Da
+        Nang.jpg|thumb|right|250px|[[\u0110\u00e0 N\u1eb5ng]]]]\n\nThis article is
+        an incomplete ''''''list of cities in [[Vietnam]]''''''.\n\n==Centrally controlled
+        cities==\nThere are five centrally controlled cities, also known as municipalities
+        (''''th\u00e0nh ph\u1ed1 tr\u1ef1c thu\u1ed9c trung \u01b0\u01a1ng'''') in
+        [[Vietnam]].<ref name=list>{{cite web|title=List of cities in Vietnam|url=http://www.vietnamtourism.org.vn/guide/list-of-cities-in-vietnam/|work=Vietnam
+        Tourism|publisher=Vietnam Tourism Information|accessdate=11 October 2012|year=2010}}</ref>\n\n{|
+        class=\"wikitable sortable\"\n|-align=center bgcolor=#EFEFEF\n! City name
+        !! Area (km<sup>2</sup>) !!Population !!City status!! Year of establishment\n|-
+        align=center\n| [[Can Tho]] ||1,389.60||1,238,300|| 1st-class|| 1928\n|- align=center\n|
+        [[Da Nang]] ||1,255.53||1,007,700|| 1st-class|| 1889\n|- align=center\n| [[Hai
+        Phong]] ||1,507.57||1,946,000|| 1st-class|| 1888 \n|- align=center\n| [[Ha
+        Noi]] ||3,324.92||7,379,300|| special class|| 1888 \n|- align=center\n| [[Ho
+        Chi Minh City]] ||2,095.00||8,244,400|| special class|| 1877\n|}\n\n==Provincial
+        cities==\nHere is a list of provincial cities (''''th\u00e0nh ph\u1ed1 tr\u1ef1c
+        thu\u1ed9c t\u1ec9nh'''') in [[Vietnam]].<ref name=list/>\n\n{| class=\"wikitable
+        sortable\"\n|-align=center bgcolor=#EFEFEF\n! City name !! Province !! Area
+        (km<sup>2</sup>) !! Population !!Year of establishment !! City status \n|-align=center\n|
+        [[B\u00e0 R\u1ecba]] || [[B\u00e0 R\u1ecba\u2013V\u0169ng T\u00e0u Province|B\u00e0
+        R\u1ecba\u2013V\u0169ng T\u00e0u]] || 91.46 ||122,424|| 2012 || 3<ref>{{cite
+        news|title=Ba Ria city established|url=http://news.gov.vn/Home/Ba-Ria-city-established/20128/15440.vgp|accessdate=11
+        October 2012|newspaper=VGP|date=22 August 2012|author=Huong Giang|agency=Vietnam
+        Government Web Portal}}</ref> \n|-align=center\n| [[B\u1ea1c Li\u00eau]] ||
+        [[B\u1ea1c Li\u00eau Province|B\u1ea1c Li\u00eau]] || 175.4 ||188,863|| 2010
+        || 2\n|- align=center\n| [[B\u1eafc Giang]] || [[B\u1eafc Giang Province|B\u1eafc
+        Giang]] ||32.21||126,810|| 2005 || 3\n|- align=center\n| [[B\u1eafc Ninh]]
+        || [[B\u1eafc Ninh Province|B\u1eafc Ninh]] ||80.28||272,634<ref>{{cite web|url=http://thuvienphapluat.vn/archive/Nghi-quyet-137-NQ-CP-nam-2013-thanh-lap-phuong-Khac-Niem-Khuc-Xuyen-Bac-Ninh-vb217914.aspx|accessdate=20
+        October 2015}}</ref>|| 2006 || 2\n|- align=center\n| [[B\u1ea3o L\u1ed9c]]
+        || [[L\u00e2m \u0110\u1ed3ng Province|L\u00e2m \u0110\u1ed3ng]] ||232.56||153,362||
+        2010|| 3\n|- align=center\n| [[Bi\u00ean H\u00f2a]] || [[\u0110\u1ed3ng Nai
+        Province|\u0110\u1ed3ng Nai]] ||264.07||1,104,495|| 1976 || 1\n|- align=center\n|
+        [[B\u1ebfn Tre]] || [[B\u1ebfn Tre Province|B\u1ebfn Tre]] ||67.48||143,312||
+        2009 || 3<ref>{{cite web|title=Th\u00e0nh ph\u1ed1 B\u1ebfn Tre s\u1ebd ph\u00e1t
+        tri\u1ec3n m\u1ea1nh theo h\u01b0\u1edbng \u0111\u00f4 th\u1ecb b\u1ec1n v\u1eefng,
+        \u0111\u00f4 th\u1ecb \"xanh-s\u1ea1ch-\u0111\u1eb9p-th\u00e2n thi\u1ec7n\"|url=http://www.bentre.gov.vn/index.php?option=com_content&task=view&id=4389&Itemid=40|work=www.bentre.gov.vn|publisher=X\u00e3
+        h\u1ed9i t\u1ec9nh B\u1ebfn Tre|accessdate=11 October 2012|author=Anh H\u00f9ng|date=26
+        December 2008}}</ref> \n|- align=center\n|- align=center\n| [[Bu\u00f4n Ma
+        Thu\u1ed9t]] || [[\u0110\u1eafk L\u1eafk Province|\u0110\u1eafk L\u1eafk]]
+        ||370.00||340,000|| 1995 || 1\n|- align=center\n| [[C\u00e0 Mau]] || [[C\u00e0
+        Mau Province|C\u00e0 Mau]] ||250.3||204,895|| 1999 ||2\n|- align=center\n|
+        [[C\u1ea9m Ph\u1ea3]] || [[Qu\u1ea3ng Ninh Province|Qu\u1ea3ng Ninh]] ||486.4||195,800||
+        2012 ||3<ref>{{cite web|title=Th\u00f4ng tin chi ti\u1ebft V\u0103n b\u1ea3n
+        ch\u1ec9 \u0111\u1ea1o \u0111i\u1ec1u h\u00e0nh|url=http://www.chinhphu.vn/portal/page/portal/chinhphu/hethongvanban?class_id=509&_page=1&mode=detail&document_id=155316|work=C\u1ed4NG
+        TH\u00d4NG TIN \u0110I\u1ec6N T\u1eec CH\u00cdNH PH\u1ee6|publisher=C\u1ed4NG
+        TH\u00d4NG TIN \u0110I\u1ec6N T\u1eec CH\u00cdNH PH\u1ee6|accessdate=11 October
+        2012|author=Nguy\u1ec5n T\u1ea5n D\u0169ng|language=Vietnamese|date=21 February
+        2012}}</ref> \n|- align=center\n| [[Cao L\u00e3nh]] || [[\u0110\u1ed3ng Th\u00e1p
+        Province|\u0110\u1ed3ng Th\u00e1p]] ||107.195||149,837|| 2007 || 3\n|- align=center\n|
+        [[Ch\u00e2u \u0110\u1ed1c]] || [[An Giang Province|An Giang]] ||105.290||157,298||
+        2013 || 3\n|- align=center\n| [[\u0110\u00e0 L\u1ea1t]] || [[L\u00e2m \u0110\u1ed3ng
+        Province|L\u00e2m \u0110\u1ed3ng]] ||393.29||256,393|| 1920 || 1\n|- align=center\n|
+        [[\u0110i\u1ec7n Bi\u00ean Ph\u1ee7]] || [[\u0110i\u1ec7n Bi\u00ean Province|\u0110i\u1ec7n
+        Bi\u00ean]] ||60.09||70,639|| 2003 || 3\n|- align=center\n|- align=center\n|
+        [[\u0110\u00f4ng H\u00e0]] || [[Qu\u1ea3ng Tr\u1ecb Province|Qu\u1ea3ng Tr\u1ecb]]
+        ||73.06||93,756|| 2009 || 3<ref>{{cite web|title=Qu\u1ea3ng Tr\u1ecb: Th\u00e0nh
+        l\u1eadp th\u00e0nh ph\u1ed1 \u0110\u00f4ng H\u00e0|url=http://dantri.com.vn/c20/s20-343507/thanh-lap-thanh-pho-dong-ha.htm|work=Dantri|publisher=C\u01a1
+        quan c\u1ee7a TW H\u1ed9i Khuy\u1ebfn h\u1ecdc Vi\u1ec7t Nam|accessdate=11
+        October 2012|author=Nguy\u1ec5n H\u01b0\u01a1ng|date=12 August 2009}}</ref>
+        \n|- align=center\n| [[\u0110\u1ed3ng H\u1edbi]] || [[Qu\u1ea3ng B\u00ecnh
+        Province|Qu\u1ea3ng B\u00ecnh]] ||155.54||160,325|| 2004 || 2<ref>http://www.baoxaydung.com.vn/news/vn/thoi-su/de-nghi-cong-nhan-thanh-pho-dong-hoi-la-do-thi-loai-ii.html</ref>
+        \n|- align=center\n| [[H\u00e0 T\u0129nh]] || [[H\u00e0 T\u0129nh Province|H\u00e0
+        T\u0129nh]] ||56.19||117,546||2007 || 3\n|- align=center\n| [[H\u1ea1 Long]]
+        || [[Qu\u1ea3ng Ninh Province|Qu\u1ea3ng Ninh]] ||208.7||203,731|| 1994 ||
+        1\n|- align=center\n| [[H\u1ea3i D\u01b0\u01a1ng]] || [[H\u1ea3i D\u01b0\u01a1ng
+        Province|H\u1ea3i D\u01b0\u01a1ng]] ||71.39||187,405|| 1997 || 2\n|- align=center\n|
+        [[H\u00f2a B\u00ecnh]] || [[H\u00f2a B\u00ecnh Province|H\u00f2a B\u00ecnh]]
+        ||148.2||93,409||  2006 || 3\n|- align=center\n| [[H\u1ed9i An]] || [[Qu\u1ea3ng
+        Nam Province|Qu\u1ea3ng Nam]]||61.47||121,716||  2008 || 3\n|- align=center\n|
+        [[Hu\u1ebf]] || [[Th\u1eeba Thi\u00ean\u2013Hu\u1ebf Province|Th\u1eeba Thi\u00ean\u2013Hu\u1ebf]]
+        ||83.3||333,715<ref>http://www.huecity.gov.vn/Index.aspx</ref>|| 1945 || 1\n|-
+        align=center\n| [[H\u01b0ng Y\u00ean]] || [[H\u01b0ng Y\u00ean Province|H\u01b0ng
+        Y\u00ean]] ||46.8||121,486|| 2009 || 3\n|- align=center\n| [[Kon Tum]] ||
+        [[Kon Tum Province|Kon Tum]] ||432.98||137,662|| 2009 || 3\n|- align=center\n|
+        [[L\u1ea1ng S\u01a1n]] || [[L\u1ea1ng S\u01a1n Province|L\u1ea1ng S\u01a1n]]
+        ||79.0||148,000||  2002 || 3\n|- align=center\n| [[L\u00e0o Cai]] || [[L\u00e0o
+        Cai Province|L\u00e0o Cai]] ||221.5||94,192|| 2004 || 2\n|- align=center\n|
+        [[Long Xuy\u00ean]] || [[An Giang Province|An Giang]] ||106.87||280,300||
+        1999 || 2\n|- align=center\n| [[M\u00f3ng C\u00e1i]] || [[Qu\u1ea3ng Ninh
+        Province|Qu\u1ea3ng Ninh]] ||518.28||108,016|| 2008 || 3\n|- align=center\n|
+        [[M\u1ef9 Tho]] || [[Ti\u1ec1n Giang Province|Ti\u1ec1n Giang]] ||79.8||215,000||
+        1928 || 1\n|- align=center\n| [[Nam \u0110\u1ecbnh]] || [[Nam \u0110\u1ecbnh
+        Province|Nam \u0110\u1ecbnh]] ||46.4||191,900|| 1921 || 1\n|- align=center\n|
+        [[Ninh B\u00ecnh]] || [[Ninh B\u00ecnh Province|Ninh B\u00ecnh]] ||48.3||130,517||
+        2007 || 2\n|- align=center\n| [[Nha Trang]] || [[Kh\u00e1nh H\u00f2a Province|Kh\u00e1nh
+        H\u00f2a]] ||251.0||392,279||  1977 || 1\n|- align=center\n| [[Cam Ranh]]
+        || [[Kh\u00e1nh H\u00f2a Province|Kh\u00e1nh H\u00f2a]] ||325.0||128,358 <ref>[http://www.chinhphu.vn/vanbanpq/lawdocs/NQ65CP.PDF?id=103466
+        Establish the city of Cam Ranh]</ref>||  2010 || 3\n|- align=center\n| [[Phan
+        Rang\u2013Th\u00e1p Ch\u00e0m]] || [[Ninh Thu\u1eadn Province|Ninh Thu\u1eadn]]
+        ||79.37||102,941|| 2007 || 3\n|- align=center\n| [[Phan Thi\u1ebft]] || [[B\u00ecnh
+        Thu\u1eadn Province|B\u00ecnh Thu\u1eadn]] ||206.0||255,000||  2010 || 2\n|-
+        align=center\n| [[Ph\u1ee7 L\u00fd]] || [[H\u00e0 Nam Province|H\u00e0 Nam]]
+        ||34.27||121,350||  2008 || 3\n|- align=center\n| [[Pleiku]] || [[Gia Lai
+        Province|Gia Lai]] ||260.61||186,763|| 1999 || 2\n|- align=center\n| [[Qu\u1ea3ng
+        Ng\u00e3i]] || [[Qu\u1ea3ng Ng\u00e3i Province|Qu\u1ea3ng Ng\u00e3i]] ||37.12||134,400
+        || 2005 || 3\n|- align=center\n| [[Quy Nh\u01a1n]] || [[B\u00ecnh \u0110\u1ecbnh
+        Province|B\u00ecnh \u0110\u1ecbnh]] ||284.28||311,000|| 1986 || 1\n|- align=center\n|
+        [[R\u1ea1ch Gi\u00e1]] || [[Ki\u00ean Giang Province|Ki\u00ean Giang]] ||97.75||228,360||
+        2005 || 2\n|- align=center\n| [[Sa \u0110\u00e9c]] || [[\u0110\u1ed3ng Th\u00e1p
+        Province|\u0110\u1ed3ng Th\u00e1p]] ||59.81||152,237|| 2013 || 3\n|- align=center\n|
+        [[S\u00f3c Tr\u0103ng]] || [[S\u00f3c Tr\u0103ng Province|S\u00f3c Tr\u0103ng]]
+        ||76.15||173,922|| 2007 || 3\n|- align=center\n| [[S\u01a1n La]] || [[S\u01a1n
+        La Province|S\u01a1n La]] ||324.93||107,282|| 2008 || 3\n|- align=center\n|
+        [[Tam K\u1ef3]] || [[Qu\u1ea3ng Nam Province|Qu\u1ea3ng Nam]] ||92.63||120,256||
+        2006 || 3\n|- align=center\n| [[T\u00e2n An]] || [[Long An Province|Long An]]
+        ||81.79||166,419|| 2009 || 3\n|- align=center\n| [[Th\u00e1i B\u00ecnh]] ||
+        [[Th\u00e1i B\u00ecnh Province|Th\u00e1i B\u00ecnh]] ||67.7||270,000|| 2004
+        || 2\n|- align=center\n| [[Th\u00e1i Nguy\u00ean]] || [[Th\u00e1i Nguy\u00ean
+        Province|Th\u00e1i Nguy\u00ean]] ||189.70||330,000|| 1962 || 1<ref>[http://tuoitre.vn/Chinh-tri-Xa-hoi/398633/Thai-Nguyen-la-do-thi-loai-1.html
+        Th\u00e1i Nguy\u00ean tr\u1edf th\u00e0nh \u0111\u00f4 th\u1ecb lo\u1ea1i
+        I]</ref>\n|- align=center\n| [[Thanh H\u00f3a]] || [[Thanh H\u00f3a Province|Thanh
+        H\u00f3a]] ||57.8||197,551|| 1994 || 1\n|- align=center\n| [[Tr\u00e0 Vinh]]
+        || [[Tr\u00e0 Vinh Province|Tr\u00e0 Vinh]] ||68.03||131,360|| 2010 || 3\n|-
+        align=center\n| [[Tuy H\u00f2a]] || [[Ph\u00fa Y\u00ean Province|Ph\u00fa
+        Y\u00ean]] ||212.62||167,174|| 2005 || 2\n|- align=center\n| [[Tuy\u00ean
+        Quang]] || [[Tuy\u00ean Quang Province|Tuy\u00ean Quang]] ||119.17||110,119||2010||
+        3\n|- align=center\n| [[U\u00f4ng B\u00ed]] || [[Qu\u1ea3ng Ninh Province|Qu\u1ea3ng
+        Ninh]] ||256.3||170,000|| 2011 || 2<ref name=\"TP\">[http://baodientu.chinhphu.vn/Home/Thanh-lap-thanh-pho-Uong-Bi-tinh-Quang-Ninh/20112/66357.vgp
+        Th\u00e0nh l\u1eadp th\u00e0nh ph\u1ed1 U\u00f4ng B\u00ed, t\u1ec9nh Qu\u1ea3ng
+        Ninh]</ref>\n|- align=center\n| [[Vi\u1ec7t Tr\u00ec]] || [[Ph\u00fa Th\u1ecd
+        Province|Ph\u00fa Th\u1ecd]] ||110.99||277,539<ref>http://www.viettri.gov.vn/vt/GIoI-THIeU-CHUNG-Ve-THaNH-PHo-VIeT-TRi-t15918-7777.html</ref>||
+        1962 || 1<ref>http://baodientu.chinhphu.vn/Home/Thanh-pho-Viet-Tri-duoc-cong-nhan-la-do-thi-loai-I/20125/136926.vgp</ref>\n|-
+        align=center\n| [[Vinh]] || [[Ngh\u1ec7 An Province|Ngh\u1ec7 An]] ||104.98||282,981<ref>[http://tintuc.xalo.vn/00-1462402341/tp_vinh_duoc_cong_nhan_do_thi_loai_1.html
+        Vinh tr\u1edf th\u00e0nh \u0111\u00f4 th\u1ecb lo\u1ea1i I]</ref>||  1927
+        || 1\n|- align=center\n| [[V\u0129nh Y\u00ean]] || [[V\u0129nh Ph\u00fac Province|V\u0129nh
+        Ph\u00fac]] ||50.80||122,568||  2006 || 2\n|- align=center\n| [[V\u0129nh
+        Long]] || [[V\u0129nh Long Province|V\u0129nh Long]] ||48.01||147,039|| 2009
+        || 3\n|- align=center\n| [[V\u0169ng T\u00e0u]] || [[B\u00e0 R\u1ecba\u2013V\u0169ng
+        T\u00e0u Province|B\u00e0 R\u1ecba\u2013V\u0169ng T\u00e0u]] ||141.1||450,000||
+        1991 || 1\n|- align=center\n| [[Y\u00ean B\u00e1i]] || [[Y\u00ean B\u00e1i
+        Province|Y\u00ean B\u00e1i]] ||108.155||95,892|| 2002 || 3\n|- align=center\n|
+        [[Cao B\u1eb1ng]] || [[Cao B\u1eb1ng Province|Cao B\u1eb1ng]] ||107.6||84,421||
+        2012 || 3\n|}\n\n==See also==\n*[[Provinces of Vietnam]]\n*[[Provincial city
+        (Vietnam)]]\n*[[District-level town (Vietnam)|District-level town in Viet
+        Nam]] (th\u1ecb x\u00e3)\n\n==References==\n{{Reflist|2}}\n\n==External links==\n{{commonscat-inline|Cities
+        in Vietnam|''''''Cities in Vietnam''''''}}\n\n{{Asia topic|List of cities
+        in}}\n\n[[Category:Cities in Vietnam| ]]\n[[Category:Lists of cities by country|Vietnam,
+        List of cities in]]\n[[Category:Vietnam geography-related lists|Cities]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2016-02-25T03:06:12Z","lastrevid":706755700,"length":10716,"fullurl":"https://en.wikipedia.org/wiki/List_of_cities_in_Vietnam","editurl":"https://en.wikipedia.org/w/index.php?title=List_of_cities_in_Vietnam&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/List_of_cities_in_Vietnam"}}}}'
+    http_version: 
+  recorded_at: Fri, 26 Feb 2016 13:45:33 GMT
+recorded_with: VCR 3.0.0

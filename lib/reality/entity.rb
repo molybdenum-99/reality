@@ -50,7 +50,9 @@ module Reality
     def load!
       if @wikidata_id
         @wikidata = Wikidata::Entity.fetch_by_id(@wikidata_id)
-        @wikipage = Infoboxer.wikipedia.get(@wikidata.en_wikipage)
+        if @wikidata && @wikidata.en_wikipage
+          @wikipage = Infoboxer.wikipedia.get(@wikidata.en_wikipage)
+        end
       else
         @wikipage = Infoboxer.wikipedia.get(name)
         if @wikipage

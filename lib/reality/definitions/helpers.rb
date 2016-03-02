@@ -13,7 +13,16 @@ module Reality
     end
 
     def age_at(tm)
-      birthday && TimeBoots.year.measure(birthday, tm)
+      # TimeBoots fail with Time vs Date :(
+      #birthday && TimeBoots.year.measure(birthday, tm)
+
+      return nil unless birthday
+
+      if birthday.month < tm.month || birthday.month == tm.month && birthday.day <= tm.day
+        tm.year - birthday.year
+      else
+        tm.year - birthday.year - 1
+      end
     end
 
     def age

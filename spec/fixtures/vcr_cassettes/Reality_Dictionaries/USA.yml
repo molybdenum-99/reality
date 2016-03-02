@@ -1,0 +1,1337 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://en.wikipedia.org/w/api.php?action=query&format=json&inprop=url&prop=revisions%7Cinfo&redirects=true&rvprop=content&titles=List%20of%20United%20States%20cities%20by%20population
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Infoboxer/0.2.2 (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.9.4
+      Date:
+      - Fri, 26 Feb 2016 14:25:59 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '29089'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - HHVM/3.6.5
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=38313 t=1456496759354527
+      X-Varnish:
+      - 1141406964, 4143379216, 2448236739
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1065 miss+chfp(0), cp3013 miss+chfp(0), cp3012 frontend miss+chfp(0)
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=UA:::50.45:30.52:v4; Path=/; Domain=.wikipedia.org
+      - WMF-Last-Access=26-Feb-2016;Path=/;HttpOnly;Expires=Tue, 29 Mar 2016 12:00:00
+        GMT
+      X-Analytics:
+      - https=1;nocookies=1
+      X-Client-Ip:
+      - 94.179.21.37
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"1649321":{"pageid":1649321,"ns":0,"title":"List
+        of United States cities by population","revisions":[{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{Use
+        mdy dates|date=August 2014}}\n{{Redirect|List of largest cities in the United
+        States|a list of largest cities by area|List of United States cities by area}}\n{{GeoGroup}}\n{{U.S.
+        city population tables}}\nThe following is a list of the most populous [[municipal
+        corporation|incorporated places]] of the [[United States]]. As defined by
+        the [[United States Census Bureau]], an \"[[incorporated place]]\" includes
+        a variety of designations, including [[city]], [[town]], [[village]], [[borough]],
+        and [[municipality]].<ref name=NewEngland>Towns in [[New England]], while
+        incorporated on a level similar to cities in other states, are considered
+        [[minor civil division]]s by the Census Bureau and are not included in its
+        list of incorporated places. A detailed discussion on this subject can be
+        found at [[New England town#Census treatment of the New England town system]].</ref>
+        A few exceptional [[census-designated place|Census Designated Places]] (CDPs)
+        are also included in the Census Bureau''s listing of incorporated places.<ref
+        name=HonoluluHI>The [[Hawaii|State of Hawai{{okina}}i]] has no incorporated
+        municipalities other than the [[Honolulu County, Hawaii|City and County of
+        Honolulu]], which comprises the entire [[Oahu|Island of O{{okina}}ahu]]. In
+        accordance with Hawaiian law, the [[United States Census Bureau]] defines
+        the state''s \"cities\" and \"towns\" as [[census-designated place|Census
+        Designated Places]] (CDPs).  The Census Bureau defines the [[Honolulu, Hawaii|Urban
+        Honolulu CDP]] as the portion of the City and County of Honolulu that is coextensive
+        with the Judicial District of Honolulu. The Urban Honolulu CDP is what is
+        generally thought of as the \"city\" of [[Honolulu]], and its population is
+        used here and in other population comparisons. The Urban Honolulu CDP is currently
+        the most populous Census Designated Place in the United States. The [[Honolulu,
+        HI Metropolitan Statistical Area]] comprises the entire City and County of
+        Honolulu.</ref>  [[consolidated city\u2013county|Consolidated city-counties]]
+        represent a distinct type of government that includes the entire population
+        of a county, or county equivalent. Some consolidated city-counties, however,
+        include multiple incorporated places. This list presents only that portion
+        (or \"balance\") of such consolidated city-counties that are not a part of
+        another incorporated place.\n\nThis list refers only to the population of
+        individual municipalities within their [[City limits|defined limits]], which
+        does not include other municipalities or unincorporated [[suburb]]an areas
+        within [[urban agglomeration]]s. A different ranking is evident when considering
+        [[List of metropolitan areas of the United States|U.S. metropolitan area populations]].\n__TOC__\n{{clear}}\n\n==United
+        States==\n{{GeoGroup|section=United States}}\n<onlyinclude><div style=\"float:right;border:
+        1px solid silver; margin:0 0 0.5em 1em;\">{{United States Cities Labeled Map}}<br
+        /></div>\nThe following table lists the 297 [[municipal corporation|incorporated
+        places]] in the United States with a population of at least 100,000 on July
+        1, 2014, as estimated by the [[United States Census Bureau]]. A city is displayed
+        in ''''''bold'''''' if it is a state or federal capital, and in ''''italics''''
+        if it is the most populous city in the state.  Five states\u2014[[Delaware]],
+        [[Maine]], [[Vermont]], [[West Virginia]] and [[Wyoming]]\u2014do not have
+        cities with populations of 100,000 or more.\nThe table below contains the
+        following information:\n# The city rank by population as of July 1, 2014,
+        as estimated by the United States Census Bureau<ref name=PopEstCities>{{cite
+        web|url=http://factfinder.census.gov/bkmk/table/1.0/en/PEP/2014/PEPANNRSIP.US12A|title=American
+        FactFinder \u2013 Results|publisher=[[United States Census Bureau]], Population
+        Division|accessdate=May 21, 2015}}</ref>\n# The city name<ref name=PopEstCities/>\n#
+        The name of the state in which the city lies<ref name=PopEstCities/>\n# The
+        city population as of July 1, 2014, as estimated by the United States Census
+        Bureau<ref name=PopEstCities/>\n# The city population as of April 1, 2010,
+        as enumerated by the [[2010 United States Census]]<ref name=PopEstCities/>\n#
+        The city percent population change from April 1, 2010, to July 1, 2014\n#
+        The city land area as of January 1, 2014<ref name=USCBGazetteer>{{cite web|url=https://www.census.gov/geo/maps-data/data/gazetteer2014.html|title=2014
+        U.S. Gazetteer Files|work=U.S. Gazetteer Files|publisher=[[United States Census
+        Bureau]]|accessdate=May 22, 2015}}</ref>\n# The city population density as
+        of July 1, 2014 (residents per unit of land area)<ref name=USCBGazetteer/>\n#
+        The city latitude and longitude coordinates\n{{clear}}\n<!--  THE FOLLOWING
+        TABLE CONTAINS DATA FROM THE UNITED STATES CENSUS BUREAU.  DO NOT ALTER CENSUS
+        BUREAU DATA.  -->\n{{anchor|Table}} <!-- This anchor is a link destination.
+        Do not remove. -->\n{| class=\"wikitable sortable\" style=\"text-align:center\"\n|-\n!2014
+        rank\n!City\n!State<ref>Or Federal District in the case of [[Washington, D.C.]]</ref>\n!2014
+        estimate\n!2010 Census\n!Change\n!2014 land area\n!2010 population density\n!Location\n|-\n|1\n|align=left|''''[[New
+        York City|New York]]''''<ref name=NewYorkNY>Since 1898, the [[New York City|City
+        of New York]], [[New York]], has comprised [[The Five Boroughs|five boroughs]]
+        with [[consolidated city\u2013county|consolidated borough\u2013county governments]]:<br
+        />&nbsp;&nbsp;&nbsp;[[Manhattan|The Borough of Manhattan]] and [[Manhattan|New
+        York County]]<br />&nbsp;&nbsp;&nbsp;[[Brooklyn|The Borough of Brooklyn]]
+        and [[Brooklyn|Kings County]]<br />&nbsp;&nbsp;&nbsp;[[Queens|The Borough
+        of Queens]] and [[Queens|Queens County]]<br />&nbsp;&nbsp;&nbsp;[[The Bronx|The
+        Borough of the Bronx]] and [[The Bronx|Bronx County]]<br />&nbsp;&nbsp;&nbsp;[[Staten
+        Island|The Borough of Staten Island]] and [[Staten Island|Richmond County]]</ref>\n|align=left|[[New
+        York]]\n| {{change|invert=on|8491079|8175133}}\n|{{nts|302.6}}&nbsp;sq&nbsp;mi<br
+        />783.8&nbsp;km<sup>2</sup>\n|{{nts|27012}}&nbsp;per&nbsp;sq&nbsp;mi<br />10,430&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|40.6643|N|73.9385|W|name=1
+        New York City}}</small>\n|-\n|2\n|align=left|''''[[Los Angeles]]''''\n|align=left|[[California]]\n|
+        {{change|invert=on|3928864|3792621}}\n|{{nts|468.7}}&nbsp;sq&nbsp;mi<br />1,213.9&nbsp;km<sup>2</sup>\n|{{nts|8092}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />3,124&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|34.0194|N|118.4108|W|name=2
+        Los Angeles}}</small>\n|-\n|3\n|align=left|''''[[Chicago]]''''\n|align=left|[[Illinois]]\n|
+        {{change|invert=on|2722389|2695598}}\n|{{nts|227.6}}&nbsp;sq&nbsp;mi<br />589.6&nbsp;km<sup>2</sup>\n|{{nts|11842}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />4,572&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|41.8376|N|87.6818|W|name=3
+        Chicago}}</small>\n|-\n|4\n|align=left|''''[[Houston]]''''<ref>[http://www.chron.com/news/houston-texas/houston/article/City-wins-census-appeal-count-adjusted-4087372.php
+        City wins census appeal; count adjusted \u2013 Houston Chronicle]. Chron.com
+        (December 3, 2012). Retrieved on July 12, 2013.</ref>\n|align=left|[[Texas]]\n|
+        {{change|invert=on|2239558|2100263}}\n|{{nts|599.6}}&nbsp;sq&nbsp;mi<br />1,552.9&nbsp;km<sup>2</sup>\n|{{nts|3501}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />1,352&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|29.7805|N|95.3863|W|name=4
+        Houston}}</small>\n|-\n|5\n|align=left|''''[[Philadelphia]]''''<ref name=PhiladelphiaPA>The
+        [[Philadelphia|City of Philadelphia]] and [[Philadelphia County]], are separate
+        but coterminous entities with a single [[Consolidated city-county|consolidated
+        city\u2013county government]].</ref>\n|align=left|[[Pennsylvania]]\n| {{change|invert=on|1560297|1526006}}\n|{{nts|134.1}}&nbsp;sq&nbsp;mi<br
+        />347.3&nbsp;km<sup>2</sup>\n|{{nts|11379}}&nbsp;per&nbsp;sq&nbsp;mi<br />4,394&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|40.0094|N|75.1333|W|name=5
+        Philadelphia}}</small>\n|-\n|6\n|align=left|''''''''''[[Phoenix, Arizona|Phoenix]]''''''''''\n|align=left|[[Arizona]]\n|
+        {{change|invert=on|1537058|1445632}}\n|{{nts|516.7}}&nbsp;sq&nbsp;mi<br />1,338.3&nbsp;km<sup>2</sup>\n|{{nts|2798}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />1,080&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|33.5722|N|112.0880|W|name=6
+        Phoenix}}</small>\n|-\n|7\n|align=left|[[San Antonio]]\n|align=left|[[Texas]]\n|
+        {{change|invert=on|1436697|1327407}}\n|{{nts|460.9}}&nbsp;sq&nbsp;mi<br />1,193.8&nbsp;km<sup>2</sup>\n|{{nts|2880}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />1,112&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|29.4724|N|98.5251|W|name=7
+        San Antonio}}</small>\n|-\n|8\n|align=left|[[San Diego]]\n|align=left|[[California]]\n|
+        {{change|invert=on|1381069|1307402}}\n|{{nts|325.2}}&nbsp;sq&nbsp;mi<br />842.2&nbsp;km<sup>2</sup>\n|{{nts|4020}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />1,552&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|32.8153|N|117.1350|W|name=8
+        San Diego}}</small>\n|-\n|9\n|align=left|[[Dallas]]\n|align=left|[[Texas]]\n|
+        {{change|invert=on|1281047|1197816}}\n|{{nts|340.5}}&nbsp;sq&nbsp;mi<br />881.9&nbsp;km<sup>2</sup>\n|{{nts|3518}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />1,358&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|32.7757|N|96.7967|W|name=9
+        Dallas}}</small>\n|-\n|10\n|align=left|[[San Jose, California|San Jose]]\n|align=left|[[California]]\n|
+        {{change|invert=on|1015785|945942}}\n|{{nts|176.6}}&nbsp;sq&nbsp;mi<br />457.3&nbsp;km<sup>2</sup>\n|{{nts|5359}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />2,069&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|37.2969|N|121.8193|W|name=10
+        San Jose}}</small>\n|-\n|11\n|align=left|''''''[[Austin, Texas|Austin]]''''''\n|align=left|[[Texas]]\n|
+        {{change|invert=on|912791|790390}}\n|{{nts|322.48}}&nbsp;sq&nbsp;mi<br />835.2&nbsp;km<sup>2</sup>\n|{{nts|2653}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />1,024&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|30.3072|N|97.7560|W|name=11
+        Austin}}</small>\n|-\n|12\n|align=left|''''[[Jacksonville, Florida|Jacksonville]]''''<ref
+        name=JacksonvilleFL>The [[Jacksonville, Florida|City of Jacksonville]], [[Florida]],
+        and [[Duval County, Florida]], are separate entities with a single [[consolidated
+        city\u2013county|consolidated city\u2013county government]].  The City of
+        Jacksonville comprises all of Duval County except the other incorporated municipalities
+        within the county.</ref>\n|align=left|[[Florida]]\n| {{change|invert=on|853382|821784}}\n|{{nts|747.0}}&nbsp;sq&nbsp;mi<br
+        />1,934.7&nbsp;km<sup>2</sup>\n|{{nts|1120}}&nbsp;per&nbsp;sq&nbsp;mi<br />433&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|30.3370|N|81.6613|W|name=12
+        Jacksonville}}</small>\n|-\n|13\n|align=left|[[San Francisco]]<ref name=SanFranciscoCA>The
+        [[San Francisco|City and County of San Francisco]], [[California]] has a [[consolidated
+        city\u2013county|consolidated city and county government]].</ref>\n|align=left|[[California]]\n|
+        {{change|invert=on|852469|805235}}\n|{{nts|46.9}}&nbsp;sq&nbsp;mi<br />121.4&nbsp;km<sup>2</sup>\n|{{nts|17179}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />6,633&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|37.7751|N|122.4193|W|name=13
+        San Francisco}}</small>\n|-\n|14\n|align=left|''''''''''[[Indianapolis]]''''''''''<ref
+        name=IndianapolisIN>The [[Indianapolis|City of Indianapolis]], [[Indiana]],
+        and [[Marion County, Indiana]], are separate entities with a single [[consolidated
+        city\u2013county|consolidated city\u2013county government]].  The City of
+        Indianapolis comprises all of Marion County except the other incorporated
+        municipalities within the county.  See [[Indianapolis (balance)]].</ref>\n|align=left|[[Indiana]]\n|
+        {{change|invert=on|848788|820445}}\n|{{nts|361.4}}&nbsp;sq&nbsp;mi<br />936.1&nbsp;km<sup>2</sup>\n|{{nts|2270}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />876&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|39.7767|N|86.1459|W|name=14
+        Indianapolis}}</small>\n|-\n|15\n|align=left|''''''''''[[Columbus, Ohio|Columbus]]''''''''''\n|align=left|[[Ohio]]\n|
+        {{change|invert=on|835957|787033}}\n|{{nts|217.2}}&nbsp;sq&nbsp;mi<br />562.5&nbsp;km<sup>2</sup>\n|{{nts|3624}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />1,399&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|39.9848|N|82.9850|W|name=15
+        Columbus}}</small>\n|-\n|16\n|align=left|[[Fort Worth, Texas|Fort Worth]]\n|align=left|[[Texas]]\n|
+        {{change|invert=on|812238|741206}}\n|{{nts|339.8}}&nbsp;sq&nbsp;mi<br />880.1&nbsp;km<sup>2</sup>\n|{{nts|2181}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />842&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|32.7795|N|97.3463|W|name=16
+        Fort Worth}}</small>\n|-\n|17\n|align=left|''''[[Charlotte, North Carolina|Charlotte]]''''\n|align=left|[[North
+        Carolina]]\n| {{change|invert=on|809958|731424}}\n|{{nts|297.7}}&nbsp;sq&nbsp;mi<br
+        />771.0&nbsp;km<sup>2</sup>\n|{{nts|2457}}&nbsp;per&nbsp;sq&nbsp;mi<br />949&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|35.2087|N|80.8307|W|name=17
+        Charlotte}}</small>\n|-\n|18\n|align=left|''''[[Detroit]]''''\n|align=left|[[Michigan]]\n|
+        {{change|invert=on|680250|713777}}\n|{{nts|138.8}}&nbsp;sq&nbsp;mi<br />359.4&nbsp;km<sup>2</sup>\n|{{nts|5144}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />1,986&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|42.3830|N|83.1022|W|name=18
+        Detroit}}</small>\n|-\n|19\n|align=left|[[El Paso, Texas|El Paso]]\n|align=left|[[Texas]]\n|
+        {{change|invert=on|679036|649121}}\n|{{nts|255.2}}&nbsp;sq&nbsp;mi<br />661.1&nbsp;km<sup>2</sup>\n|{{nts|2543}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />982&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|31.8484|N|106.4270|W|name=19
+        El Paso}}</small>\n|-\n|20\n|align=left|''''[[Seattle]]''''\n|align=left|[[Washington
+        (state)|Washington]]\n| {{change|invert=on|668342|608660}}\n|{{nts|83.9}}&nbsp;sq&nbsp;mi<br
+        />217.4&nbsp;km<sup>2</sup>\n|{{nts|7251}}&nbsp;per&nbsp;sq&nbsp;mi<br />2,800&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|47.6205|N|122.3509|W|name=20
+        Seattle}}</small>\n|-\n|21\n|align=left|''''''''''[[Denver]]''''''''''<ref
+        name=DenverCO>The [[Denver|City and County of Denver]], [[Colorado]], has
+        a [[consolidated city\u2013county|consolidated city and county government]].</ref>\n|align=left|[[Colorado]]\n|
+        {{change|invert=on|663862|600158}}\n|{{nts|153.0}}&nbsp;sq&nbsp;mi<br />396.3&nbsp;km<sup>2</sup>\n|{{nts|3923}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />1,515&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|39.7618|N|104.8806|W|name=Denver}}</small>\n|-\n|22\n|align=left|''''''''''[[Washington,
+        D.C.|Washington]]''''''''''<ref name=WashingtonDC>The [[Washington, D.C.|City
+        of Washington]] was [[District of Columbia Organic Act of 1871|consolidated]]
+        with the [[Washington, D.C.|District of Columbia]] in 1871.</ref>\n|align=left|[[District
+        of Columbia]]\n| {{change|invert=on|658893|601723}}\n|{{nts|61.0}}&nbsp;sq&nbsp;mi<br
+        />158.1&nbsp;km<sup>2</sup>\n|{{nts|9856}}&nbsp;per&nbsp;sq&nbsp;mi<br />3,806&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|38.9041|N|77.0171|W|name=Washington,
+        D.C.}}</small>\n|-\n|23\n|align=left|''''[[Memphis, Tennessee|Memphis]]''''\n|align=left|[[Tennessee]]\n|
+        {{change|invert=on|656861|646889}}\n|{{nts|315.1}}&nbsp;sq&nbsp;mi<br />816.0&nbsp;km<sup>2</sup>\n|{{nts|2053}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />793&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|35.1035|N|89.9785|W|name=Memphis}}</small>\n|-\n|24\n|align=left|''''''''''[[Boston]]''''''''''\n|align=left|[[Massachusetts]]\n|
+        {{change|invert=on|655884|617594}}\n|{{nts|48.3}}&nbsp;sq&nbsp;mi<br />125.0&nbsp;km<sup>2</sup>\n|{{nts|12793}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />4,939&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|42.3320|N|71.0202|W|name=Boston}}</small>\n|-\n|25\n|align=left|''''''[[Nashville,
+        Tennessee|Nashville]]''''''<ref name=NashvilleIN>Nashville is a [[consolidated
+        city-county]]. The population given is for the entire city-county, excluding
+        other incorporated places lying within the city-county limits. (See [[Nashville-Davidson
+        (balance), Tennessee]]). As of 2010, the population of the city-county including
+        other incorporated places was 626,681.</ref>\n|align=left|[[Tennessee]]\n|
+        {{change|invert=on|644014|601222}}\n|{{nts|475.1}}&nbsp;sq&nbsp;mi<br />1,230.8&nbsp;km<sup>2</sup>\n|{{nts|1265}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />489&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|36.1718|N|86.7850|W|name=Nashville}}</small>\n|-\n|26\n|align=left|''''[[Baltimore]]''''<ref
+        name=IndependentCity>This is an independent city that is not part of any county.</ref>\n|align=left|[[Maryland]]\n|
+        {{change|invert=on|622793|620961}}\n|{{nts|80.9}}&nbsp;sq&nbsp;mi<br />209.6&nbsp;km<sup>2</sup>\n|{{nts|7672}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />2,962&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|39.3002|N|76.6105|W|name=Baltimore}}</small>\n|-\n|27\n|align=left|''''''''''[[Oklahoma
+        City]]''''''''''\n|align=left|[[Oklahoma]]\n| {{change|invert=on|620602|579999}}\n|{{nts|606.4}}&nbsp;sq&nbsp;mi<br
+        />1,570.6&nbsp;km<sup>2</sup>\n|{{nts|956}}&nbsp;per&nbsp;sq&nbsp;mi<br />369&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|35.4671|N|97.5137|W|name=Oklahoma
+        City}}</small>\n|-\n|28\n|align=left|''''[[Portland, Oregon|Portland]]''''\n|align=left|[[Oregon]]\n|
+        {{change|invert=on|619360|583776}}\n|{{nts|133.4}}&nbsp;sq&nbsp;mi<br />345.6&nbsp;km<sup>2</sup>\n|{{nts|4375}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />1,689&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|45.5370|N|122.6500|W|name=Portland}}</small>\n|-\n|29\n|align=left|''''[[Las
+        Vegas]]''''\n|align=left|[[Nevada]]\n| {{change|invert=on|613599|583756}}\n|{{nts|135.8}}&nbsp;sq&nbsp;mi<br
+        />351.8&nbsp;km<sup>2</sup>\n|{{nts|4298}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,660&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|36.2277|N|115.2640|W|name=Las
+        Vegas}}</small>\n|-\n|30\n|align=left|''''[[Louisville, Kentucky|Louisville]]''''<ref
+        name=LouisvilleKY>The [[Louisville, Kentucky|City of Louisville]], [[Kentucky]],
+        and [[Jefferson County, Kentucky]], are separate entities with a single [[consolidated
+        city\u2013county|consolidated city\u2013county government]].  The City of
+        Louisville comprises all of Jefferson County except the other incorporated
+        municipalities within the county.  See [[Louisville/Jefferson County metro
+        government (balance), Kentucky]].</ref>\n|align=left|[[Kentucky]]\n| {{change|invert=on|612780|597337}}\n|{{nts|325.2}}&nbsp;sq&nbsp;mi<br
+        />842.4&nbsp;km<sup>2</sup>\n|{{nts|1837}}&nbsp;per&nbsp;sq&nbsp;mi<br />709&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|38.1781|N|85.6667|W|name=Louisville}}</small>\n|-\n|31\n|align=left|''''[[Milwaukee]]''''\n|align=left|[[Wisconsin]]\n|
+        {{change|invert=on|599642|594833}}\n|{{nts|96.1}}&nbsp;sq&nbsp;mi<br />249.0&nbsp;km<sup>2</sup>\n|{{nts|6188}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />2,389&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|43.0633|N|87.9667|W|name=Milwaukee}}</small>\n|-\n|32\n|align=left|''''[[Albuquerque,
+        New Mexico|Albuquerque]]''''\n|align=left|[[New Mexico]]\n| {{change|invert=on|557169|545852}}\n|{{nts|187.7}}&nbsp;sq&nbsp;mi<br
+        />486.2&nbsp;km<sup>2</sup>\n|{{nts|2908}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,123&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|35.1056|N|106.6474|W|name=Albuquerque}}</small>\n|-\n|33\n|align=left|[[Tucson,
+        Arizona|Tucson]]\n|align=left|[[Arizona]]\n| {{change|invert=on|527972|520116}}\n|{{nts|226.7}}&nbsp;sq&nbsp;mi<br
+        />587.2&nbsp;km<sup>2</sup>\n|{{nts|2294}}&nbsp;per&nbsp;sq&nbsp;mi<br />886&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|32.1543|N|110.8711|W|name=Tucson}}</small>\n|-\n|34\n|align=left|[[Fresno,
+        California|Fresno]]\n|align=left|[[California]]\n| {{change|invert=on|515986|494665}}\n|{{nts|113.2}}&nbsp;sq&nbsp;mi<br
+        />293.2&nbsp;km<sup>2</sup>\n|{{nts|4418}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,706&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|36.7827|N|119.7945|W|name=Fresno}}</small>\n|-\n|35\n|align=left|''''''[[Sacramento,
+        California|Sacramento]]''''''\n|align=left|[[California]]\n| {{change|invert=on|485199|466488}}\n|{{nts|97.9}}&nbsp;sq&nbsp;mi<br
+        />253.6&nbsp;km<sup>2</sup>\n|{{nts|4764}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,839&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|38.5666|N|121.4686|W|name=Sacramento}}</small>\n|-\n|36\n|align=left|[[Long
+        Beach, California|Long Beach]]\n|align=left|[[California]]\n| {{change|invert=on|473577|462257}}\n|{{nts|50.3}}&nbsp;sq&nbsp;mi<br
+        />130.3&nbsp;km<sup>2</sup>\n|{{nts|9191}}&nbsp;per&nbsp;sq&nbsp;mi<br />3,549&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|33.8091|N|118.1553|W|name=Long
+        Beach}}</small>\n|-\n|37\n|align=left|''''[[Kansas City, Missouri|Kansas City]]''''\n|align=left|[[Missouri]]\n|
+        {{change|invert=on|470800|459787}}\n|{{nts|315.0}}&nbsp;sq&nbsp;mi<br />815.7&nbsp;km<sup>2</sup>\n|{{nts|1460}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />564&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|39.1252|N|94.5511|W|name=Kansas
+        City, MO}}</small>\n|-\n|38\n|align=left|[[Mesa, Arizona|Mesa]]\n|align=left|[[Arizona]]\n|
+        {{change|invert=on|464704|439041}}\n|{{nts|136.5}}&nbsp;sq&nbsp;mi<br />353.4&nbsp;km<sup>2</sup>\n|{{nts|3218}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />1,242&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|33.4019|N|111.7174|W|name=Mesa}}</small>\n|-\n|39\n|align=left|''''''''''[[Atlanta]]''''''''''\n|align=left|[[Georgia
+        (U.S. state)|Georgia]]\n| {{change|invert=on|456002|420003}}\n|{{nts|133.2}}&nbsp;sq&nbsp;mi<br
+        />344.9&nbsp;km<sup>2</sup>\n|{{nts|3154}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,218&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|33.7629|N|84.4227|W|name=Atlanta}}</small>\n|-\n|40\n|align=left|''''[[Virginia
+        Beach]]''''<ref name=IndependentCity/>\n|align=left|[[Virginia]]\n| {{change|invert=on|450980|437994}}\n|{{nts|249.0}}&nbsp;sq&nbsp;mi<br
+        />644.9&nbsp;km<sup>2</sup>\n|{{nts|1759}}&nbsp;per&nbsp;sq&nbsp;mi<br />679&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|36.7793|N|76.0240|W|name=Virginia
+        Beach}}</small>\n|-\n|41\n|align=left|''''[[Omaha, Nebraska|Omaha]]''''\n|align=left|[[Nebraska]]\n|
+        {{change|invert=on|446599|408958}}\n|{{nts|127.1}}&nbsp;sq&nbsp;mi<br />329.2&nbsp;km<sup>2</sup>\n|{{nts|3218}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />1,242&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|41.2647|N|96.0419|W|name=Omaha}}</small>\n|-\n|42\n|align=left|[[Colorado
+        Springs, Colorado|Colorado Springs]]\n|align=left|[[Colorado]]\n| {{change|invert=on|445830|416427}}\n|{{nts|194.5}}&nbsp;sq&nbsp;mi<br
+        />503.9&nbsp;km<sup>2</sup>\n|{{nts|2141}}&nbsp;per&nbsp;sq&nbsp;mi<br />826&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|38.8673|N|104.7607|W|name=Colorado
+        Springs}}</small>\n|-\n|43\n|align=left|''''''[[Raleigh, North Carolina|Raleigh]]''''''\n|align=left|[[North
+        Carolina]]\n| {{change|invert=on|439896|403892}}\n|{{nts|142.9}}&nbsp;sq&nbsp;mi<br
+        />370.1&nbsp;km<sup>2</sup>\n|{{nts|2826}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,091&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|35.8302|N|78.6414|W|name=Raleigh}}</small>\n|-\n|44\n|align=left|[[Miami]]\n|align=left|[[Florida]]\n|
+        {{change|invert=on|430332|399457}}\n|{{nts|35.9}}&nbsp;sq&nbsp;mi<br />92.9&nbsp;km<sup>2</sup>\n|{{nts|11539}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />4,455&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|25.7752|N|80.2086|W|name=Miami}}</small>\n|-\n|45\n|align=left|[[Oakland,
+        California|Oakland]]\n|align=left|[[California]]\n| {{change|invert=on|413775|390724}}\n|{{nts|55.9}}&nbsp;sq&nbsp;mi<br
+        />144.8&nbsp;km<sup>2</sup>\n|{{nts|7004}}&nbsp;per&nbsp;sq&nbsp;mi<br />2,704&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|37.7699|N|122.2256|W|name=Oakland}}</small>\n|-\n|46\n|align=left|''''[[Minneapolis]]''''\n|align=left|[[Minnesota]]\n|
+        {{change|invert=on|407207|382578}}\n|{{nts|54.0}}&nbsp;sq&nbsp;mi<br />139.8&nbsp;km<sup>2</sup>\n|{{nts|7088}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />2,737&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|44.9633|N|93.2683|W|name=Minneapolis}}</small>\n|-\n|47\n|align=left|[[Tulsa,
+        Oklahoma|Tulsa]]\n|align=left|[[Oklahoma]]\n| {{change|invert=on|399682|391906}}\n|{{nts|196.8}}&nbsp;sq&nbsp;mi<br
+        />509.6&nbsp;km<sup>2</sup>\n|{{nts|1992}}&nbsp;per&nbsp;sq&nbsp;mi<br />769&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|36.1279|N|95.9023|W|name=Tulsa}}</small>\n|-\n|48\n|align=left|[[Cleveland]]\n|align=left|[[Ohio]]\n|
+        {{change|invert=on|389521|396815}}\n|{{nts|77.7}}&nbsp;sq&nbsp;mi<br />201.2&nbsp;km<sup>2</sup>\n|{{nts|5107}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />1,972&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|41.4781|N|81.6795|W|name=Cleveland}}</small>\n|-\n|49\n|align=left|''''[[Wichita,
+        Kansas|Wichita]]''''\n|align=left|[[Kansas]]\n| {{change|invert=on|388413|382368}}\n|{{nts|159.3}}&nbsp;sq&nbsp;mi<br
+        />412.6&nbsp;km<sup>2</sup>\n|{{nts|2400}}&nbsp;per&nbsp;sq&nbsp;mi<br />927&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|37.6907|N|97.3427|W|name=Wichita}}</small>\n|-\n|50\n|align=left|''''[[New
+        Orleans]]''''<ref name=NewOrleansLA>The [[New Orleans|City of New Orleans]],
+        [[Louisiana]], and [[Orleans Parish, Louisiana]], are separate but coterminous
+        entities with a single [[consolidated city\u2013county|consolidated city\u2013parish
+        government]].</ref>\n|align=left|[[Louisiana]]\n| {{change|invert=on|384320|343829}}\n|{{nts|169.4}}&nbsp;sq&nbsp;mi<br
+        />438.8&nbsp;km<sup>2</sup>\n|{{nts|2029}}&nbsp;per&nbsp;sq&nbsp;mi<br />784&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|30.0686|N|89.9390|W|name=New
+        Orleans}}</small>\n|-\n|51\n|align=left|[[Arlington, Texas|Arlington]]\n|align=left|[[Texas]]\n|
+        {{change|invert=on|383204|365438}}\n|{{nts|95.9}}&nbsp;sq&nbsp;mi<br />248.3&nbsp;km<sup>2</sup>\n|{{nts|3811}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />1,472&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|32.7007|N|97.1247|W|name=Arlington}}</small>\n|-\n|52\n|align=left|[[Bakersfield,
+        California|Bakersfield]]\n|align=left|[[California]]\n| {{change|invert=on|368759|347483}}\n|{{nts|142.2}}&nbsp;sq&nbsp;mi<br
+        />368.2&nbsp;km<sup>2</sup>\n|{{nts|2444}}&nbsp;per&nbsp;sq&nbsp;mi<br />944&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|35.3212|N|119.0183|W|name=Bakersfield}}</small>\n|-\n|53\n|align=left|[[Tampa,
+        Florida|Tampa]]\n|align=left|[[Florida]]\n| {{change|invert=on|358699|335709}}\n|{{nts|113.4}}&nbsp;sq&nbsp;mi<br
+        />293.7&nbsp;km<sup>2</sup>\n|{{nts|3077}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,182&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|27.9701|N|82.4797|W|name=Tampa}}</small>\n|-\n|54\n|align=left|[[Aurora,
+        Colorado|Aurora]]\n|align=left|[[Colorado]]\n| {{change|invert=on|353108|325078}}\n|{{nts|154.1}}&nbsp;sq&nbsp;mi<br
+        />369.1&nbsp;km<sup>2</sup>\n|{{nts|2110}}&nbsp;per&nbsp;sq&nbsp;mi<br />881&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|39.7082|N|104.8235|W|name=Aurora}}</small>\n|-\n|55\n|align=left|''''''''''[[Honolulu]]''''''''''<ref
+        name=HonoluluHI/>\n|align=left|[[Hawaii|Hawai''i]]\n| {{change|invert=on|350399|337256}}\n|{{nts|60.5}}&nbsp;sq&nbsp;mi<br
+        />156.7&nbsp;km<sup>2</sup>\n|{{nts|5573}}&nbsp;per&nbsp;sq&nbsp;mi<br />2,152&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|21.3259|N|157.8453|W|name=Honolulu}}</small>\n|-\n|56\n|align=left|[[Anaheim,
+        California|Anaheim]]\n|align=left|[[California]]\n| {{change|invert=on|346997|336265}}\n|{{nts|49.8}}&nbsp;sq&nbsp;mi<br
+        />129.1&nbsp;km<sup>2</sup>\n|{{nts|6748}}&nbsp;per&nbsp;sq&nbsp;mi<br />2,605&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|33.8555|N|117.7601|W|name=Anaheim}}</small>\n|-\n|57\n|align=left|[[Santa
+        Ana, California|Santa Ana]]\n|align=left|[[California]]\n| {{change|invert=on|334909|324528}}\n|{{nts|27.3}}&nbsp;sq&nbsp;mi<br
+        />70.6&nbsp;km<sup>2</sup>\n|{{nts|11901}}&nbsp;per&nbsp;sq&nbsp;mi<br />4,595&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|33.7365|N|117.8826|W|name=Santa Ana}}</small>\n|-\n|58\n|align=left|[[Corpus
+        Christi, Texas|Corpus Christi]]\n|align=left|[[Texas]]\n| {{change|invert=on|320,434|305215}}\n|{{nts|160.6}}&nbsp;sq&nbsp;mi<br
+        />416.0&nbsp;km<sup>2</sup>\n|{{nts|1900}}&nbsp;per&nbsp;sq&nbsp;mi<br />734&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|27.7543|N|97.1734|W|name=Corpus Christi}}</small>\n|-\n|59\n|align=left|[[Riverside,
+        California|Riverside]]\n|align=left|[[California]]\n| {{change|invert=on|319504|303871}}\n|{{nts|81.1}}&nbsp;sq&nbsp;mi<br
+        />210.2&nbsp;km<sup>2</sup>\n|{{nts|3745}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,446&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|33.9381|N|117.3932|W|name=Riverside}}</small>\n|-\n|60\n|align=left|[[St.
+        Louis]]<ref name=IndependentCity/>\n|align=left|[[Missouri]]\n| {{change|invert=on|317419|319294}}\n|{{nts|61.9}}&nbsp;sq&nbsp;mi<br
+        />160.3&nbsp;km<sup>2</sup>\n|{{nts|5157}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,991&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|38.6357|N|90.2446|W|name=St. Louis}}</small>\n|-\n|61\n|align=left|[[Lexington,
+        Kentucky|Lexington]]<ref name=LexingtonKY>The [[Lexington, Kentucky|City of
+        Lexington]], [[Kentucky]], and [[Fayette County, Kentucky]], are separate
+        but coterminous entities with a single [[consolidated city\u2013county|consolidated
+        city\u2013county government]].</ref>\n|align=left|[[Kentucky]]\n| {{change|invert=on|310797|295803}}\n|{{nts|283.6}}&nbsp;sq&nbsp;mi<br
+        />734.6&nbsp;km<sup>2</sup>\n|{{nts|1043}}&nbsp;per&nbsp;sq&nbsp;mi<br />403&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|38.0402|N|84.4584|W|name=Lexington}}</small>\n|-\n|62\n|align=left|[[Pittsburgh]]\n|align=left|[[Pennsylvania]]\n|
+        {{change|invert=on|305412|305704}}\n|{{nts|55.4}}&nbsp;sq&nbsp;mi<br />143.4&nbsp;km<sup>2</sup>\n|{{nts|5521}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />2,132&nbsp;km<sup>\u22122</sup>\n| <small>{{coord|40.4398|N|79.9766|W|name=Pittsburgh}}</small>\n|-\n|63\n|align=left|[[Stockton,
+        California|Stockton]]\n|align=left|[[California]]\n| {{change|invert=on|302389|291707}}\n|{{nts|61.7}}&nbsp;sq&nbsp;mi<br
+        />159.7&nbsp;km<sup>2</sup>\n|{{nts|4730}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,826&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|37.9763|N|121.3133|W|name=Stockton}}</small>\n|-\n|64\n|align=left|''''[[Anchorage,
+        Alaska|Anchorage]]''''<ref name=AnchorageAK>The [[Anchorage, Alaska|Municipality
+        of Anchorage]], [[Alaska]], is a [[consolidated city-county|unified home rule
+        municipality]] that functions as both a [[municipal corporation|city]] and
+        a [[county (United States)|borough]].</ref>\n|align=left|[[Alaska]]\n| {{change|invert=on|301,010|291826}}\n|{{nts|1704.7}}&nbsp;sq&nbsp;mi<br
+        />4,415.1&nbsp;km<sup>2</sup>\n|{{nts|171}}&nbsp;per&nbsp;sq&nbsp;mi<br />66&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|61.2176|N|149.8953|W|name=Anchorage}}</small>\n|-\n|65\n|align=left|[[Cincinnati]]\n|align=left|[[Ohio]]\n|
+        {{change|invert=on|298165|296943}}\n|{{nts|77.9}}&nbsp;sq&nbsp;mi<br />201.9&nbsp;km<sup>2</sup>\n|{{nts|3810}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />1,471&nbsp;km<sup>\u22122</sup>\n| <small>{{coord|39.1399|N|84.5064|W|name=Cincinnati}}</small>\n|-\n|66\n|align=left|''''''[[St.
+        Paul, Minnesota|Saint Paul]]''''''\n|align=left|[[Minnesota]]\n| {{change|invert=on|297640|285068}}\n|{{nts|52.0}}&nbsp;sq&nbsp;mi<br
+        />134.6&nbsp;km<sup>2</sup>\n|{{nts|5484}}&nbsp;per&nbsp;sq&nbsp;mi<br />2,118&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|44.9489|N|93.1039|W|name=Saint Paul}}</small>\n|-\n|67\n|align=left|[[Greensboro,
+        North Carolina|Greensboro]]\n|align=left|[[North Carolina]]\n| {{change|invert=on|282586|269666}}\n|{{nts|126.5}}&nbsp;sq&nbsp;mi<br
+        />327.7&nbsp;km<sup>2</sup>\n|{{nts|2131}}&nbsp;per&nbsp;sq&nbsp;mi<br />823&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|36.0965|N|79.8271|W|name=Greensboro}}</small>\n|-\n|68\n|align=left|[[Toledo,
+        Ohio|Toledo]]\n|align=left|[[Ohio]]\n| {{change|invert=on|281031|287208}}\n|{{nts|80.7}}&nbsp;sq&nbsp;mi<br
+        />209.0&nbsp;km<sup>2</sup>\n|{{nts|3559}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,374&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|41.6641|N|83.5819|W|name=Toledo}}</small>\n|-\n|69\n|align=left|''''[[Newark,
+        New Jersey|Newark]]''''\n|align=left|[[New Jersey]]\n| {{change|invert=on|280579|277140}}\n|{{nts|24.2}}&nbsp;sq&nbsp;mi<br
+        />62.6&nbsp;km<sup>2</sup>\n|{{nts|11458}}&nbsp;per&nbsp;sq&nbsp;mi<br />4,424&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|40.7242|N|74.1726|W|name=Newark}}</small>\n|-\n|70\n|align=left|[[Plano,
+        Texas|Plano]]\n|align=left|[[Texas]]\n| {{change|invert=on|278480|259841}}\n|{{nts|71.6}}&nbsp;sq&nbsp;mi<br
+        />185.4&nbsp;km<sup>2</sup>\n|{{nts|3630}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,402&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|33.0508|N|96.7479|W|name=Plano}}</small>\n|-\n|71\n|align=left|[[Henderson,
+        Nevada|Henderson]]\n|align=left|[[Nevada]]\n| {{change|invert=on|277440|257729}}\n|{{nts|107.7}}&nbsp;sq&nbsp;mi<br
+        />279.0&nbsp;km<sup>2</sup>\n|{{nts|2392}}&nbsp;per&nbsp;sq&nbsp;mi<br />924&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|36.0122|N|115.0375|W|name=Henderson}}</small>\n|-\n|72\n|align=left|''''''[[Lincoln,
+        Nebraska|Lincoln]]''''''\n|align=left|[[Nebraska]]\n| {{change|invert=on|272996|258379}}\n|{{nts|89.1}}&nbsp;sq&nbsp;mi<br
+        />230.8&nbsp;km<sup>2</sup>\n|{{nts|2899}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,119&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|40.8090|N|96.6804|W|name=Lincoln}}</small>\n|-\n|73\n|align=left|[[Orlando,
+        Florida|Orlando]]\n|align=left|[[Florida]]\n| {{change|invert=on|262372|238300}}\n|{{nts|102.4}}&nbsp;sq&nbsp;mi<br
+        />265.2&nbsp;km<sup>2</sup>\n|{{nts|2327}}&nbsp;per&nbsp;sq&nbsp;mi<br />899&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|28.4159|N|81.2988|W|name=Orlando}}</small>\n|-\n|74\n|align=left|[[Jersey
+        City, New Jersey|Jersey City]]\n|align=left|[[New Jersey]]\n| {{change|invert=on|262146|247597}}\n|{{nts|14.8}}&nbsp;sq&nbsp;mi<br
+        />38.3&nbsp;km<sup>2</sup>\n|{{nts|16737}}&nbsp;per&nbsp;sq&nbsp;mi<br />6,462&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|40.7114|N|74.0648|W|name=Jersey City}}</small>\n|-\n|75\n|align=left|[[Chula
+        Vista, California|Chula Vista]]\n|align=left|[[California]]\n| {{change|invert=on|260988|243916}}\n|{{nts|49.6}}&nbsp;sq&nbsp;mi<br
+        />128.5&nbsp;km<sup>2</sup>\n|{{nts|4915}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,898&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|32.6277|N|117.0152|W|name=Chula Vista}}</small>\n|-\n|76\n|align=left|[[Buffalo,
+        New York|Buffalo]]\n|align=left|[[New York]]\n| {{change|invert=on|258703|261310}}\n|{{nts|40.4}}&nbsp;sq&nbsp;mi<br
+        />104.6&nbsp;km<sup>2</sup>\n|{{nts|6471}}&nbsp;per&nbsp;sq&nbsp;mi<br />2,498&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|42.8925|N|78.8597|W|name=Buffalo}}</small>\n|-\n|77\n|align=left|[[Fort
+        Wayne, Indiana|Fort Wayne]]\n|align=left|[[Indiana]]\n| {{change|invert=on|258522|253691}}\n|{{nts|110.6}}&nbsp;sq&nbsp;mi<br
+        />286.5&nbsp;km<sup>2</sup>\n|{{nts|2293}}&nbsp;per&nbsp;sq&nbsp;mi<br />885&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|41.0882|N|85.1439|W|name=Fort Wayne}}</small>\n|-\n|78\n|align=left|[[Chandler,
+        Arizona|Chandler]]\n|align=left|[[Arizona]]\n| {{change|invert=on|254276|236123}}\n|{{nts|64.4}}&nbsp;sq&nbsp;mi<br
+        />166.8&nbsp;km<sup>2</sup>\n|{{nts|3666}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,415&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|33.2829|N|111.8549|W|name=Chandler}}</small>\n|-\n|79\n|align=left|[[St.
+        Petersburg, Florida|St. Petersburg]]\n|align=left|[[Florida]]\n| {{change|invert=on|253693|244769}}\n|{{nts|61.7}}&nbsp;sq&nbsp;mi<br
+        />159.9&nbsp;km<sup>2</sup>\n|{{nts|3964}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,531&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|27.7620|N|82.6441|W|name=St. Petersburg}}</small>\n|-\n|80\n|align=left|[[Laredo,
+        Texas|Laredo]]\n|align=left|[[Texas]]\n| {{change|invert=on|252309|236091}}\n|{{nts|88.9}}&nbsp;sq&nbsp;mi<br
+        />230.3&nbsp;km<sup>2</sup>\n|{{nts|2655}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,025&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|27.5477|N|99.4869|W|name=Laredo}}</small>\n|-\n|81\n|align=left|[[Durham,
+        North Carolina|Durham]]\n|align=left|[[North Carolina]]\n| {{change|invert=on|251893|228330}}\n|{{nts|107.4}}&nbsp;sq&nbsp;mi<br
+        />278.1&nbsp;km<sup>2</sup>\n|{{nts|2127}}&nbsp;per&nbsp;sq&nbsp;mi<br />821&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|35.9810|N|78.9056|W|name=Durham}}</small>\n|-\n|82\n|align=left|[[Irvine,
+        California|Irvine]]\n|align=left|[[California]]\n| {{change|invert=on|248531|212375}}\n|{{nts|66.1}}&nbsp;sq&nbsp;mi<br
+        />171.2&nbsp;km<sup>2</sup>\n|{{nts|3213}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,240&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|33.6784|N|117.7713|W|name=Irvine}}</small>\n|-\n|83\n|align=left|''''''[[Madison,
+        Wisconsin|Madison]]''''''\n|align=left|[[Wisconsin]]\n| {{change|invert=on|245691|233209}}\n|{{nts|76.8}}&nbsp;sq&nbsp;mi<br
+        />198.9&nbsp;km<sup>2</sup>\n|{{nts|3037}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,173&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|43.0878|N|89.4301|W|name=Madison}}</small>\n|-\n|84\n|align=left|[[Norfolk,
+        Virginia|Norfolk]]<ref name=IndependentCity/>\n|align=left|[[Virginia]]\n|
+        {{change|invert=on|245428|242803}}\n|{{nts|54.1}}&nbsp;sq&nbsp;mi<br />140.2&nbsp;km<sup>2</sup>\n|{{nts|4486}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />1,732&nbsp;km<sup>\u22122</sup>\n| <small>{{coord|36.9230|N|76.2446|W|name=Norfolk}}</small>\n|-\n|85\n|align=left|[[Lubbock,
+        Texas|Lubbock]]\n|align=left|[[Texas]]\n| {{change|invert=on|243839|229573}}\n|{{nts|122.4}}&nbsp;sq&nbsp;mi<br
+        />317.0&nbsp;km<sup>2</sup>\n|{{nts|1875}}&nbsp;per&nbsp;sq&nbsp;mi<br />724&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|33.5665|N|101.8867|W|name=Lubbock}}</small>\n|-\n|86\n|align=left|[[Gilbert,
+        Arizona|Gilbert]]<ref name=GilbertAZ>The [[Gilbert, Arizona|Town of Gilbert]],
+        [[Arizona]], is currently the most populous [[municipal corporation|incorporated
+        town]] in the United States.</ref>\n|align=left|[[Arizona]]\n| {{change|invert=on|239277|208453}}\n|{{nts|68.0}}&nbsp;sq&nbsp;mi<br
+        />176.0&nbsp;km<sup>2</sup>\n|{{nts|3067}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,184&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|33.3102|N|111.7422|W|name=Gilbert}}</small>\n|-\n|87\n|align=left|[[Winston\u2013Salem,
+        North Carolina|Winston\u2013Salem]]\n|align=left|[[North Carolina]]\n| {{change|invert=on|239269|229617}}\n|{{nts|132.4}}&nbsp;sq&nbsp;mi<br
+        />343.0&nbsp;km<sup>2</sup>\n|{{nts|1734}}&nbsp;per&nbsp;sq&nbsp;mi<br />669&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|36.1033|N|80.2606|W|name=Winston-Salem}}</small>\n|-\n|88\n|align=left|[[Glendale,
+        Arizona|Glendale]]\n|align=left|[[Arizona]]\n| {{change|invert=on|237517|226721}}\n|{{nts|60.0}}&nbsp;sq&nbsp;mi<br
+        />155.3&nbsp;km<sup>2</sup>\n|{{nts|3780}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,460&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|33.5331|N|112.1899|W|name=Glendale}}</small>\n|-\n|89\n|align=left|[[Reno,
+        Nevada|Reno]]\n|align=left|[[Nevada]]\n| {{change|invert=on|236995|225221}}\n|{{nts|103.0}}&nbsp;sq&nbsp;mi<br
+        />266.8&nbsp;km<sup>2</sup>\n|{{nts|2186}}&nbsp;per&nbsp;sq&nbsp;mi<br />844&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|39.4745|N|119.7765|W|name=Reno}}</small>\n|-\n|90\n|align=left|[[Hialeah,
+        Florida|Hialeah]]\n|align=left|[[Florida]]\n| {{change|invert=on|235563|224669}}\n|{{nts|21.5}}&nbsp;sq&nbsp;mi<br
+        />55.6&nbsp;km<sup>2</sup>\n|{{nts|10474}}&nbsp;per&nbsp;sq&nbsp;mi<br />4,044&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|25.8699|N|80.3029|W|name=Hialeah}}</small>\n|-\n|91\n|align=left|[[Garland,
+        Texas|Garland]]\n|align=left|[[Texas]]\n| {{change|invert=on|235501|226876}}\n|{{nts|57.1}}&nbsp;sq&nbsp;mi<br
+        />147.8&nbsp;km<sup>2</sup>\n|{{nts|3974}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,535&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|32.9098|N|96.6304|W|name=Garland}}</small>\n|-\n|92\n|align=left|[[Chesapeake,
+        Virginia|Chesapeake]]<ref name=IndependentCity/>\n|align=left|[[Virginia]]\n|
+        {{change|invert=on|233371|222209}}\n|{{nts|340.8}}&nbsp;sq&nbsp;mi<br />882.7&nbsp;km<sup>2</sup>\n|{{nts|652}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />252&nbsp;km<sup>\u22122</sup>\n| <small>{{coord|36.6794|N|76.3018|W|name=Chesapeake}}</small>\n|-\n|93\n|align=left|[[Irving,
+        Texas|Irving]]\n|align=left|[[Texas]]\n| {{change|invert=on|232406|216290}}\n|{{nts|67.0}}&nbsp;sq&nbsp;mi<br
+        />173.6&nbsp;km<sup>2</sup>\n|{{nts|3227}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,246&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|32.8577|N|96.9700|W|name=Irving}}</small>\n|-\n|94\n|align=left|[[North
+        Las Vegas, Nevada|North Las Vegas]]\n|align=left|[[Nevada]]\n| {{change|invert=on|230788|216961}}\n|{{nts|101.3}}&nbsp;sq&nbsp;mi<br
+        />262.5&nbsp;km<sup>2</sup>\n|{{nts|2141}}&nbsp;per&nbsp;sq&nbsp;mi<br />827&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|36.2830|N|115.0893|W|name=North Las Vegas}}</small>\n|-\n|95\n|align=left|[[Scottsdale,
+        Arizona|Scottsdale]]\n|align=left|[[Arizona]]\n| {{change|invert=on|230512|217385}}\n|{{nts|183.9}}&nbsp;sq&nbsp;mi<br
+        />476.4&nbsp;km<sup>2</sup>\n|{{nts|1182}}&nbsp;per&nbsp;sq&nbsp;mi<br />456&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|33.6687|N|111.8237|W|name=Scottsdale}}</small>\n|-\n|96\n|align=left|''''''[[Baton
+        Rouge, Louisiana|Baton Rouge]]''''''<ref name=BatonRougeLA>The [[Baton Rouge,
+        Louisiana|City of Baton Rouge]], [[Louisiana]], and [[East Baton Rouge Parish,
+        Louisiana]], are separate entities with a single [[consolidated city\u2013county|consolidated
+        city\u2013parish government]].  The City of Baton Rouge has retained its own
+        city limits within East Baton Rouge Parish.</ref>\n|align=left|[[Louisiana]]\n|
+        {{change|invert=on|228895|229493}}\n|{{nts|76.9}}&nbsp;sq&nbsp;mi<br />199.3&nbsp;km<sup>2</sup>\n|{{nts|2982}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />1,152&nbsp;km<sup>\u22122</sup>\n| <small>{{coord|30.4485|N|91.1259|W|name=Baton
+        Rouge}}</small>\n|-\n|97\n|align=left|[[Fremont, California|Fremont]]\n|align=left|[[California]]\n|
+        {{change|invert=on|228758|214089}}\n|{{nts|77.5}}&nbsp;sq&nbsp;mi<br />200.6&nbsp;km<sup>2</sup>\n|{{nts|2764}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />1,067&nbsp;km<sup>\u22122</sup>\n| <small>{{coord|37.4944|N|121.9411|W|name=Fremont}}</small>\n|-\n|98\n|align=left|''''''[[Richmond,
+        Virginia|Richmond]]''''''<ref name=IndependentCity/>\n|align=left|[[Virginia]]\n|
+        {{change|invert=on|217853|204214}}\n|{{nts|59.8}}&nbsp;sq&nbsp;mi<br />154.9&nbsp;km<sup>2</sup>\n|{{nts|3415}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />1,318&nbsp;km<sup>\u22122</sup>\n| <small>{{coord|37.5314|N|77.4760|W|name=Richmond}}</small>\n|-\n|99\n|align=left|''''''''''[[Boise,
+        Idaho|Boise]]''''''''''<ref>Officially listed in US Census Bureau records
+        as Boise City</ref>\n|align=left|[[Idaho]]\n| {{change|invert=on|216282|205671}}\n|{{nts|79.4}}&nbsp;sq&nbsp;mi<br
+        />205.56&nbsp;km<sup>2</sup>\n|{{nts|2592}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,001&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|43.5985|N|116.2311|W|name=Boise}}</small>\n|-\n|100\n|align=left|[[San
+        Bernardino, California|San Bernardino]]\n|align=left|[[California]]\n| {{change|invert=on|215213|209924}}\n|{{nts|59.2}}&nbsp;sq&nbsp;mi<br
+        />153.3&nbsp;km<sup>2</sup>\n|{{nts|3546}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,369&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|34.1393|N|117.2953|W|name=San Bernardino}}</small>\n|-\n|101\n|align=left|''''[[Birmingham,
+        Alabama|Birmingham]]''''\n|align=left|[[Alabama]]\n| {{change|invert=on|212247|212237}}\n|{{nts|146.1}}&nbsp;sq&nbsp;mi<br
+        />378.3&nbsp;km<sup>2</sup>\n|{{nts|1453}}&nbsp;per&nbsp;sq&nbsp;mi<br />561&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|33.5274|N|86.7990|W|name=Birmingham}}</small>\n|-\n|102\n|align=left|[[Spokane,
+        Washington|Spokane]]\n|align=left|[[Washington (state)|Washington]]\n| {{change|invert=on|212052|208916}}\n|{{nts|59.2}}&nbsp;sq&nbsp;mi<br
+        />153.4&nbsp;km<sup>2</sup>\n|{{nts|3526}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,361&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|47.6736|N|117.4166|W|name=Spokane}}</small>\n|-\n|103\n|align=left|[[Rochester,
+        New York|Rochester]]\n|align=left|[[New York]]\n| {{change|invert=on|209983|210565}}\n|{{nts|35.8}}&nbsp;sq&nbsp;mi<br
+        />92.7&nbsp;km<sup>2</sup>\n|{{nts|5885}}&nbsp;per&nbsp;sq&nbsp;mi<br />2,272&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|43.1699|N|77.6169|W|name=Rochester}}</small>\n|-\n|104\n|align=left|[[Modesto,
+        California|Modesto]]\n|align=left|[[California]]\n| {{change|invert=on|209286|201165}}\n|{{nts|36.9}}&nbsp;sq&nbsp;mi<br
+        />95.5&nbsp;km<sup>2</sup>\n|{{nts|5456}}&nbsp;per&nbsp;sq&nbsp;mi<br />2,107&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|37.6609|N|120.9891|W|name=Modesto}}</small>\n|-\n|105\n|align=left|''''''''''[[Des
+        Moines, Iowa|Des Moines]]''''''''''\n|align=left|[[Iowa]]\n| {{change|invert=on|209220|203433}}\n|{{nts|80.9}}&nbsp;sq&nbsp;mi<br
+        />209.5&nbsp;km<sup>2</sup>\n|{{nts|2516}}&nbsp;per&nbsp;sq&nbsp;mi<br />971&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|41.5739|N|93.6167|W|name=Des Moines}}</small>\n|-\n|106\n|align=left|[[Oxnard,
+        California|Oxnard]]\n|align=left|[[California]]\n| {{change|invert=on|205437|197899}}\n|{{nts|26.9}}&nbsp;sq&nbsp;mi<br
+        />69.7&nbsp;km<sup>2</sup>\n|{{nts|7358}}&nbsp;per&nbsp;sq&nbsp;mi<br />2,841&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|34.2023|N|119.2046|W|name=Oxnard}}</small>\n|-\n|107\n|align=left|[[Tacoma,
+        Washington|Tacoma]]\n|align=left|[[Washington (state)|Washington]]\n| {{change|invert=on|205159|198397}}\n|{{nts|49.7}}&nbsp;sq&nbsp;mi<br
+        />128.8&nbsp;km<sup>2</sup>\n|{{nts|3990}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,541&nbsp;km<sup>\u22122</sup>\n|<small>{{coord|47.2522|N|122.4598|W|name=Tacoma}}</small>\n|-\n|108\n|align=left|[[Fontana,
+        California|Fontana]]\n|align=left|[[California]]\n| {{change|invert=on|204950|196069}}\n|{{nts|42.4}}&nbsp;sq&nbsp;mi<br
+        />109.9&nbsp;km<sup>2</sup>\n|{{nts|4621}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,784&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|34.1088|N|117.4627|W|name=Fontana}}</small>\n|-\n|109\n|align=left|[[Fayetteville,
+        North Carolina|Fayetteville]]\n|align=left|[[North Carolina]]\n| {{change|invert=on|203948|200564}}\n|{{nts|145.8}}&nbsp;sq&nbsp;mi<br
+        />377.7&nbsp;km<sup>2</sup>\n|{{nts|1375}}&nbsp;per&nbsp;sq&nbsp;mi<br />531&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|35.0851|N|78.9803|W|name=Fayetteville}}</small>\n|-\n|110\n|align=left|[[Moreno
+        Valley, California|Moreno Valley]]\n|align=left|[[California]]\n| {{change|invert=on|202976|193365}}\n|{{nts|51.3}}&nbsp;sq&nbsp;mi<br
+        />132.8&nbsp;km<sup>2</sup>\n|{{nts|3771}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,456&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|33.9233|N|117.2057|W|name=Moreno Valley}}</small>\n|-\n|111\n|align=left|[[Columbus,
+        Georgia|Columbus]]<ref name=ColumbusGA>The [[Columbus, Georgia|City of Columbus]],
+        [[Georgia (U.S. state)|Georgia]], and [[Muscogee County, Georgia]], are separate
+        but coterminous entities with a single [[consolidated city\u2013county|consolidated
+        city\u2013county government]].</ref>\n|align=left|[[Georgia (U.S. state)|Georgia]]\n|
+        {{change|invert=on|200887|189885}}\n|{{nts|216.4}}&nbsp;sq&nbsp;mi<br />560.4&nbsp;km<sup>2</sup>\n|{{nts|878}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />339&nbsp;km<sup>\u22122</sup>\n| <small>{{coord|32.5102|N|84.8749|W|name=Columbus}}</small>\n|-\n|112\n|align=left|[[Huntington
+        Beach, California|Huntington Beach]]\n|align=left|[[California]]\n| {{change|invert=on|200809|189992}}\n|{{nts|26.7}}&nbsp;sq&nbsp;mi<br
+        />69.3&nbsp;km<sup>2</sup>\n|{{nts|7103}}&nbsp;per&nbsp;sq&nbsp;mi<br />2,742&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|33.6906|N|118.0093|W|name=Huntington Beach}}</small>\n|-\n|113\n|align=left|[[Yonkers,
+        New York|Yonkers]]\n|align=left|[[New York]]\n| {{change|invert=on|200667|195976}}\n|{{nts|18.0}}&nbsp;sq&nbsp;mi<br
+        />46.7&nbsp;km<sup>2</sup>\n|{{nts|10880}}&nbsp;per&nbsp;sq&nbsp;mi<br />4,201&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|40.9459|N|73.8674|W|name=Yonkers}}</small>\n|-\n|114\n|align=left|''''''[[Montgomery,
+        Alabama|Montgomery]]''''''\n|align=left|[[Alabama]]\n| {{change|invert=on|200481|205764}}\n|{{nts|159.6}}&nbsp;sq&nbsp;mi<br
+        />413.3&nbsp;km<sup>2</sup>\n|{{nts|1290}}&nbsp;per&nbsp;sq&nbsp;mi<br />498&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|32.3463|N|86.2686|W|name=Montgomery}}</small>\n|-\n|115\n|align=left|[[Aurora,
+        Illinois|Aurora]]\n|align=left|[[Illinois]]\n| {{change|invert=on|200456|197899}}\n|{{nts|44.9}}&nbsp;sq&nbsp;mi<br
+        />116.4&nbsp;km<sup>2</sup>\n|{{nts|4404}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,700&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|41.7635|N|88.2901|W|name=Aurora}}</small>\n|-\n|116\n|align=left|[[Glendale,
+        California|Glendale]]\n|align=left|[[California]]\n| {{change|invert=on|200167|191719}}\n|{{nts|30.5}}&nbsp;sq&nbsp;mi<br
+        />78.9&nbsp;km<sup>2</sup>\n|{{nts|6295}}&nbsp;per&nbsp;sq&nbsp;mi<br />2,431&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|34.1814|N|118.2458|W|name=Glendale}}</small>\n|-\n|117\n|align=left|[[Shreveport,
+        Louisiana|Shreveport]]\n|align=left|[[Louisiana]]\n| {{change|invert=on|198242|199311}}\n|{{nts|105.4}}&nbsp;sq&nbsp;mi<br
+        />272.9&nbsp;km<sup>2</sup>\n|{{nts|1891}}&nbsp;per&nbsp;sq&nbsp;mi<br />730&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|32.4670|N|93.7927|W|name=Shreveport}}</small>\n|-\n|118\n|align=left|[[Akron,
+        Ohio|Akron]]\n|align=left|[[Ohio]]\n| {{change|invert=on|197859|199110}}\n|{{nts|62.0}}&nbsp;sq&nbsp;mi<br
+        />160.7&nbsp;km<sup>2</sup>\n|{{nts|3210}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,239&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|41.0805|N|81.5214|W|name=Akron}}</small>\n|-\n|119\n|align=left|''''''''''[[Little
+        Rock, Arkansas|Little Rock]]''''''''''\n|align=left|[[Arkansas]]\n| {{change|invert=on|197706|193524}}\n|{{nts|119.2}}&nbsp;sq&nbsp;mi<br
+        />308.7&nbsp;km<sup>2</sup>\n|{{nts|1624}}&nbsp;per&nbsp;sq&nbsp;mi<br />627&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|34.7254|N|92.3586|W|name=Little Rock}}</small>\n|-\n|120\n|align=left|[[Amarillo,
+        Texas|Amarillo]]\n|align=left|[[Texas]]\n| {{change|invert=on|197254|190695}}\n|{{nts|99.5}}&nbsp;sq&nbsp;mi<br
+        />257.6&nbsp;km<sup>2</sup>\n|{{nts|1917}}&nbsp;per&nbsp;sq&nbsp;mi<br />740&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|35.1978|N|101.8287|W|name=Amarillo}}</small>\n|-\n|121\n|align=left|[[Augusta,
+        Georgia|Augusta]]<ref name=AugustaGA>The [[Augusta, Georgia|City of Augusta]],
+        [[Georgia (U.S. state)|Georgia]], and [[Richmond County, Georgia]], are separate
+        entities with a single [[consolidated city\u2013county|consolidated city\u2013county
+        government]].  The City of Augusta comprises all of Richmond County except
+        the two other incorporated municipalities within the county.</ref>\n|align=left|[[Georgia
+        (U.S. state)|Georgia]]\n| {{change|invert=on|196741|195844}}\n|{{nts|302.5}}&nbsp;sq&nbsp;mi<br
+        />783.4&nbsp;km<sup>2</sup>\n|{{nts|647}}&nbsp;per&nbsp;sq&nbsp;mi<br />250&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|33.3655|N|82.0734|W|name=Augusta}}</small>\n|-\n|122\n|align=left|[[Mobile,
+        Alabama|Mobile]]\n|align=left|[[Alabama]]\n| {{change|invert=on|194675|195111}}\n|{{nts|139.1}}&nbsp;sq&nbsp;mi<br
+        />360.3&nbsp;km<sup>2</sup>\n|{{nts|1403}}&nbsp;per&nbsp;sq&nbsp;mi<br />542&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|30.6684|N|88.1002|W|name=Mobile}}</small>\n|-\n|123\n|align=left|[[Grand
+        Rapids, Michigan|Grand Rapids]]\n|align=left|[[Michigan]]\n| {{change|invert=on|193792|188040}}\n|{{nts|44.4}}&nbsp;sq&nbsp;mi<br
+        />115.0&nbsp;km<sup>2</sup>\n|{{nts|4236}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,635&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|42.9612|N|85.6556|W|name=Grand Rapids}}</small>\n|-\n|124\n|align=left|''''''''''[[Salt
+        Lake City]]''''''''''\n|align=left|[[Utah]]\n| {{change|invert=on|190884|186440}}\n|{{nts|111.1}}&nbsp;sq&nbsp;mi<br
+        />287.8&nbsp;km<sup>2</sup>\n|{{nts|1678}}&nbsp;per&nbsp;sq&nbsp;mi<br />648&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|40.7785|N|111.9314|W|name=Salt Lake City}}</small>\n|-\n|125\n|align=left|[[Huntsville,
+        Alabama|Huntsville]]\n|align=left|[[Alabama]]\n| {{change|invert=on|188226|180105}}\n|{{nts|209.1}}&nbsp;sq&nbsp;mi<br
+        />541.4&nbsp;km<sup>2</sup>\n|{{nts|862}}&nbsp;per&nbsp;sq&nbsp;mi<br />333&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|34.7843|N|86.5390|W|name=Huntsville}}</small>\n|-\n|126\n|align=left|''''''[[Tallahassee,
+        Florida|Tallahassee]]''''''\n|align=left|[[Florida]]\n| {{change|invert=on|188107|181376}}\n|{{nts|100.2}}&nbsp;sq&nbsp;mi<br
+        />259.6&nbsp;km<sup>2</sup>\n|{{nts|1809}}&nbsp;per&nbsp;sq&nbsp;mi<br />699&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|30.4551|N|84.2534|W|name=Tallahassee}}</small>\n|-\n|127\n|align=left|[[Grand
+        Prairie, Texas|Grand Prairie]]\n|align=left|[[Texas]]\n| {{change|invert=on|185453|175396}}\n|{{nts|72.1}}&nbsp;sq&nbsp;mi<br
+        />186.8&nbsp;km<sup>2</sup>\n|{{nts|2433}}&nbsp;per&nbsp;sq&nbsp;mi<br />939&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|32.6842|N|97.0210|W|name=Grand Prairie}}</small>\n|-\n|128\n|align=left|[[Overland
+        Park, Kansas|Overland Park]]\n|align=left|[[Kansas]]\n| {{change|invert=on|184525|173372}}\n|{{nts|74.8}}&nbsp;sq&nbsp;mi<br
+        />193.8&nbsp;km<sup>2</sup>\n|{{nts|2317}}&nbsp;per&nbsp;sq&nbsp;mi<br />894&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|38.8890|N|94.6906|W|name=Overland Park}}</small>\n|-\n|129\n|align=left|[[Knoxville,
+        Tennessee|Knoxville]]\n|align=left|[[Tennessee]]\n| {{change|invert=on|184281|178874}}\n|{{nts|98.5}}&nbsp;sq&nbsp;mi<br
+        />255.2&nbsp;km<sup>2</sup>\n|{{nts|1816}}&nbsp;per&nbsp;sq&nbsp;mi<br />701&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|35.9709|N|83.9465|W|name=Knoxville}}</small>\n|-\n|130\n|align=left|[[Brownsville,
+        Texas|Brownsville]]\n|align=left|[[Texas]]\n| {{change|invert=on|183046|175023}}\n|{{nts|132.3}}&nbsp;sq&nbsp;mi<br
+        />342.7&nbsp;km<sup>2</sup>\n|{{nts|1323}}&nbsp;per&nbsp;sq&nbsp;mi<br />511&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|26.0183|N|97.4538|W|name=Brownsville}}</small>\n|-\n|131\n|align=left|[[Worcester,
+        Massachusetts|Worcester]]\n|align=left|[[Massachusetts]]\n| {{change|invert=on|183016|181045}}\n|{{nts|37.4}}&nbsp;sq&nbsp;mi<br
+        />96.8&nbsp;km<sup>2</sup>\n|{{nts|4845}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,870&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|42.2695|N|71.8078|W|name=Worcester}}</small>\n|-\n|132\n|align=left|[[Newport
+        News, Virginia|Newport News]]<ref name=IndependentCity/>\n|align=left|[[Virginia]]\n|
+        {{change|invert=on|182965|180719}}\n|{{nts|68.7}}&nbsp;sq&nbsp;mi<br />178.0&nbsp;km<sup>2</sup>\n|{{nts|2630}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />1,015&nbsp;km<sup>\u22122</sup>\n| <small>{{coord|37.0760|N|76.5217|W|name=Newport
+        News}}</small>\n|-\n|133\n|align=left|[[Santa Clarita, California|Santa Clarita]]\n|align=left|[[California]]\n|
+        {{change|invert=on|181557|176320}}\n|{{nts|52.7}}&nbsp;sq&nbsp;mi<br />136.5&nbsp;km<sup>2</sup>\n|{{nts|3345}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />1,291&nbsp;km<sup>\u22122</sup>\n| <small>{{coord|34.4049|N|118.5047|W|name=Santa
+        Clarita}}</small>\n|-\n|134\n|align=left|''''''''''[[Providence, Rhode Island|Providence]]''''''''''\n|align=left|[[Rhode
+        Island]]\n| {{change|invert=on|179154|178042}}\n|{{nts|18.4}}&nbsp;sq&nbsp;mi<br
+        />47.7&nbsp;km<sup>2</sup>\n|{{nts|9676}}&nbsp;per&nbsp;sq&nbsp;mi<br />3,736&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|41.8231|N|71.4188|W|name=Providence}}</small>\n|-\n|135\n|align=left|[[Fort
+        Lauderdale, Florida|Fort Lauderdale]]\n|align=left|[[Florida]]\n| {{change|invert=on|176013|165521}}\n|{{nts|34.8}}&nbsp;sq&nbsp;mi<br
+        />90.0&nbsp;km<sup>2</sup>\n|{{nts|4761}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,838&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|26.1413|N|80.1439|W|name=Fort Lauderdale}}</small>\n|-\n|136\n|align=left|[[Garden
+        Grove, California|Garden Grove]]\n|align=left|[[California]]\n| {{change|invert=on|175078|170883}}\n|{{nts|17.9}}&nbsp;sq&nbsp;mi<br
+        />46.5&nbsp;km<sup>2</sup>\n|{{nts|9525}}&nbsp;per&nbsp;sq&nbsp;mi<br />3,677&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|33.7788|N|117.9605|W|name=Garden Grove}}</small>\n|-\n|137\n|align=left|[[Oceanside,
+        California|Oceanside]]\n|align=left|[[California]]\n| {{change|invert=on|174558|167086}}\n|{{nts|41.2}}&nbsp;sq&nbsp;mi<br
+        />106.8&nbsp;km<sup>2</sup>\n|{{nts|4052}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,565&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|33.2246|N|117.3062|W|name=Oceanside}}</small>\n|-\n|138\n|align=left|[[Rancho
+        Cucamonga, California|Rancho Cucamonga]]\n|align=left|[[California]]\n| {{change|invert=on|174305|165269}}\n|{{nts|39.9}}&nbsp;sq&nbsp;mi<br
+        />103.2&nbsp;km<sup>2</sup>\n|{{nts|4147}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,601&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|34.1233|N|117.5642|W|name=Rancho Cucamonga}}</small>\n|-\n|139\n|align=left|[[Santa
+        Rosa, California|Santa Rosa]]\n|align=left|[[California]]\n| {{change|invert=on|174170|167815}}\n|{{nts|41.3}}&nbsp;sq&nbsp;mi<br
+        />107.0&nbsp;km<sup>2</sup>\n|{{nts|4064}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,569&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|38.4468|N|122.7061|W|name=Santa Rosa}}</small>\n|-\n|140\n|align=left|[[Port
+        St. Lucie, Florida|Port St. Lucie]]\n|align=left|[[Florida]]\n| {{change|invert=on|174110|164603}}\n|{{nts|114.0}}&nbsp;sq&nbsp;mi<br
+        />295.1&nbsp;km<sup>2</sup>\n|{{nts|1444}}&nbsp;per&nbsp;sq&nbsp;mi<br />558&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|27.2810|N|80.3838|W|name=Port St. Lucie}}</small>\n|-\n|141\n|align=left|[[Chattanooga,
+        Tennessee|Chattanooga]]\n|align=left|[[Tennessee]]\n| {{change|invert=on|173778|167674}}\n|{{nts|137.2}}&nbsp;sq&nbsp;mi<br
+        />355.2&nbsp;km<sup>2</sup>\n|{{nts|1223}}&nbsp;per&nbsp;sq&nbsp;mi<br />472&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|35.0665|N|85.2471|W|name=Chattanooga}}</small>\n|-\n|142\n|align=left|[[Tempe,
+        Arizona|Tempe]]\n|align=left|[[Arizona]]\n| {{change|invert=on|172816|161719}}\n|{{nts|39.9}}&nbsp;sq&nbsp;mi<br
+        />103.4&nbsp;km<sup>2</sup>\n|{{nts|4050}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,564&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|33.3884|N|111.9318|W|name=Tempe}}</small>\n|-\n|143\n|align=left|''''''''''[[Jackson,
+        Mississippi|Jackson]]''''''''''\n|align=left|[[Mississippi]]\n| {{change|invert=on|171155|173514}}\n|{{nts|111.0}}&nbsp;sq&nbsp;mi<br
+        />287.6&nbsp;km<sup>2</sup>\n|{{nts|1563}}&nbsp;per&nbsp;sq&nbsp;mi<br />603&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|32.3158|N|90.2128|W|name=Jackson}}</small>\n|-\n|144\n|align=left|[[Cape
+        Coral, Florida|Cape Coral]]\n|align=left|[[Florida]]\n| {{change|invert=on|169854|154305}}\n|{{nts|105.7}}&nbsp;sq&nbsp;mi<br
+        />273.7&nbsp;km<sup>2</sup>\n|{{nts|1460}}&nbsp;per&nbsp;sq&nbsp;mi<br />564&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|26.6431|N|81.9973|W|name=Cape Coral}}</small>\n|-\n|145\n|align=left|[[Vancouver,
+        Washington|Vancouver]]\n|align=left|[[Washington (state)|Washington]]\n| {{change|invert=on|169294|161791}}\n|{{nts|46.5}}&nbsp;sq&nbsp;mi<br
+        />120.3&nbsp;km<sup>2</sup>\n|{{nts|3483}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,345&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|45.6372|N|122.5965|W|name=Vancouver}}</small>\n|-\n|146\n|align=left|[[Ontario,
+        California|Ontario]]\n|align=left|[[California]]\n| {{change|invert=on|169,089|163924}}\n|{{nts|49.9}}&nbsp;sq&nbsp;mi<br
+        />129.3&nbsp;km<sup>2</sup>\n|{{nts|3282}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,267&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|34.0395|N|117.6088|W|name=Ontario}}</small>\n|-\n|147\n|align=left|''''[[Sioux
+        Falls, South Dakota|Sioux Falls]]''''\n|align=left|[[South Dakota]]\n| {{change|invert=on|168586|153888}}\n|{{nts|73.0}}&nbsp;sq&nbsp;mi<br
+        />189.0&nbsp;km<sup>2</sup>\n|{{nts|2109}}&nbsp;per&nbsp;sq&nbsp;mi<br />814&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|43.5383|N|96.7320|W|name=Sioux Falls}}</small>\n|-\n|148\n|align=left|[[Peoria,
+        Arizona|Peoria]]\n|align=left|[[Arizona]]\n| {{change|invert=on|166934|154065}}\n|{{nts|174.4}}&nbsp;sq&nbsp;mi<br
+        />451.7&nbsp;km<sup>2</sup>\n|{{nts|883}}&nbsp;per&nbsp;sq&nbsp;mi<br />341&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|33.7877|N|112.3111|W|name=Peoria}}</small>\n|-\n|149\n|align=left|[[Springfield,
+        Missouri|Springfield]]\n|align=left|[[Missouri]]\n| {{change|invert=on|165378|159498}}\n|{{nts|81.7}}&nbsp;sq&nbsp;mi<br
+        />211.7&nbsp;km<sup>2</sup>\n|{{nts|1952}}&nbsp;per&nbsp;sq&nbsp;mi<br />754&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|37.1942|N|93.2913|W|name=Springfield}}</small>\n|-\n|150\n|align=left|[[Pembroke
+        Pines, Florida|Pembroke Pines]]\n|align=left|[[Florida]]\n| {{change|invert=on|164626|154019}}\n|{{nts|33.1}}&nbsp;sq&nbsp;mi<br
+        />85.8&nbsp;km<sup>2</sup>\n|{{nts|4672}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,804&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|26.0212|N|80.3404|W|name=Pembroke Pines}}</small>\n|-\n|151\n|align=left|[[Elk
+        Grove, California|Elk Grove]]\n|align=left|[[California]]\n| {{change|invert=on|163553|153015}}\n|{{nts|42.2}}&nbsp;sq&nbsp;mi<br
+        />109.3&nbsp;km<sup>2</sup>\n|{{nts|3627}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,400&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|38.4144|N|121.3849|W|name=Elk Grove}}</small>\n|-\n|152\n|align=left|''''''[[Salem,
+        Oregon|Salem]]''''''\n|align=left|[[Oregon]]\n| {{change|invert=on|161637|154637}}\n|{{nts|47.9}}&nbsp;sq&nbsp;mi<br
+        />124.0&nbsp;km<sup>2</sup>\n|{{nts|3229}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,247&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|44.9237|N|123.0231|W|name=Salem}}</small>\n|-\n|153\n|align=left|[[Corona,
+        California|Corona]]\n|align=left|[[California]]\n| {{change|invert=on|161486|152374}}\n|{{nts|38.8}}&nbsp;sq&nbsp;mi<br
+        />100.6&nbsp;km<sup>2</sup>\n|{{nts|3925}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,515&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|33.8624|N|117.5639|W|name=Corona}}</small>\n|-\n|154\n|align=left|[[Lancaster,
+        California|Lancaster]]\n|align=left|[[California]]\n| {{change|invert=on|161043|156633}}\n|{{nts|94.3}}&nbsp;sq&nbsp;mi<br
+        />244.2&nbsp;km<sup>2</sup>\n|{{nts|1661}}&nbsp;per&nbsp;sq&nbsp;mi<br />641&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|34.6936|N|118.1753|W|name=Lancaster}}</small>\n|-\n|155\n|align=left|[[Eugene,
+        Oregon|Eugene]]\n|align=left|[[Oregon]]\n| {{change|invert=on|160561|156185}}\n|{{nts|43.7}}&nbsp;sq&nbsp;mi<br
+        />113.2&nbsp;km<sup>2</sup>\n|{{nts|3572}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,379&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|44.0567|N|123.1162|W|name=Eugene}}</small>\n|-\n|156\n|align=left|[[Palmdale,
+        California|Palmdale]]\n|align=left|[[California]]\n| {{change|invert=on|158279|152750}}\n|{{nts|106.0}}&nbsp;sq&nbsp;mi<br
+        />274.4&nbsp;km<sup>2</sup>\n|{{nts|1442}}&nbsp;per&nbsp;sq&nbsp;mi<br />557&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|34.5913|N|118.1090|W|name=Palmdale}}</small>\n|-\n|157\n|align=left|[[McKinney,
+        Texas|McKinney]]\n|align=left|[[Texas]]\n| {{change|invert=on|156767|131117}}\n|{{nts|62.2}}&nbsp;sq&nbsp;mi<br
+        />161.1&nbsp;km<sup>2</sup>\n|{{nts|2108}}&nbsp;per&nbsp;sq&nbsp;mi<br />814&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|33.2012|N|96.6680|W|name=McKinney}}</small>\n|-\n|158\n|align=left|[[Salinas,
+        California|Salinas]]\n|align=left|[[California]]\n| {{change|invert=on|156677|150441}}\n|{{nts|23.2}}&nbsp;sq&nbsp;mi<br
+        />60.0&nbsp;km<sup>2</sup>\n|{{nts|6490}}&nbsp;per&nbsp;sq&nbsp;mi<br />2,506&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|36.6902|N|121.6337|W|name=Salinas}}</small>\n|-\n|159\n|align=left|[[Fort
+        Collins, Colorado|Fort Collins]]\n|align=left|[[Colorado]]\n| {{change|invert=on|156480|143986}}\n|{{nts|54.3}}&nbsp;sq&nbsp;mi<br
+        />140.6&nbsp;km<sup>2</sup>\n|{{nts|2653}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,024&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|40.5482|N|105.0648|W|name=Fort Collins}}</small>\n|-\n|160\n|align=left|[[Cary,
+        North Carolina|Cary]]<ref name=CaryNC>The [[Cary, North Carolina|Town of Cary]],
+        [[North Carolina]], is currently the second most populous [[municipal corporation|incorporated
+        town]] in the United States.</ref>\n|align=left|[[North Carolina]]\n| {{change|invert=on|155227|135234}}\n|{{nts|54.3}}&nbsp;sq&nbsp;mi<br
+        />140.8&nbsp;km<sup>2</sup>\n|{{nts|2488}}&nbsp;per&nbsp;sq&nbsp;mi<br />961&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|35.7821|N|78.8141|W|name=Cary}}</small>\n|-\n|161\n|align=left|[[Hayward,
+        California|Hayward]]\n|align=left|[[California]]\n| {{change|invert=on|154612|144186}}\n|{{nts|45.3}}&nbsp;sq&nbsp;mi<br
+        />117.4&nbsp;km<sup>2</sup>\n|{{nts|3181}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,228&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|37.6281|N|122.1063|W|name=Hayward}}</small>\n|-\n|162\n|align=left|[[Springfield,
+        Massachusetts|Springfield]]\n|align=left|[[Massachusetts]]\n| {{change|invert=on|153991|153060}}\n|{{nts|31.9}}&nbsp;sq&nbsp;mi<br
+        />82.5&nbsp;km<sup>2</sup>\n|{{nts|4803}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,855&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|42.1155|N|72.5400|W|name=Springfield}}</small>\n|-\n|163\n|align=left|[[Pasadena,
+        Texas|Pasadena]]\n|align=left|[[Texas]]\n| {{change|invert=on|153887|149043}}\n|{{nts|42.8}}&nbsp;sq&nbsp;mi<br
+        />110.8&nbsp;km<sup>2</sup>\n|{{nts|3485}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,346&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|29.6583|N|95.1505|W|name=Pasadena}}</small>\n|-\n|164\n|align=left|[[Macon,
+        Georgia|Macon]]<ref name=\"MaconGA\">The city of [[Macon, Georgia|Macon]]
+        merged with most of unincorporated [[Bibb County, Georgia|Bibb County]] on
+        January 1, 2014. The new consolidated government is officially \"Macon-Bibb
+        County.\"</ref>\n|align=left|[[Georgia (U.S. state)|Georgia]]\n| {{change|invert=on|153691|91351}}\n|{{nts|255.1}}&nbsp;sq&nbsp;mi<br
+        />661&nbsp;km<sup>2</sup>\n|{{nts|614}}&nbsp;per&nbsp;sq&nbsp;mi<br />237&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|32.505|N|83.396|W|name=Macon}}</small>\n|-\n|165\n|align=left|[[Pomona,
+        California|Pomona]]\n|align=left|[[California]]\n| {{change|invert=on|153350|149058}}\n|{{nts|23.0}}&nbsp;sq&nbsp;mi<br
+        />59.4&nbsp;km<sup>2</sup>\n|{{nts|6494}}&nbsp;per&nbsp;sq&nbsp;mi<br />2,508&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|34.0586|N|117.7613|W|name=Pomona}}</small>\n|-\n|166\n|align=left|[[Alexandria,
+        Virginia|Alexandria]]<ref name=IndependentCity/>\n|align=left|[[Virginia]]\n|
+        {{change|invert=on|150575|139966}}\n|{{nts|15.0}}&nbsp;sq&nbsp;mi<br />38.9&nbsp;km<sup>2</sup>\n|{{nts|9314}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />3,596&nbsp;km<sup>\u22122</sup>\n| <small>{{coord|38.8183|N|77.0820|W|name=Alexandria}}</small>\n|-\n|167\n|align=left|[[Escondido,
+        California|Escondido]]\n|align=left|[[California]]\n| {{change|invert=on|150243|143911}}\n|{{nts|36.8}}&nbsp;sq&nbsp;mi<br
+        />95.3&nbsp;km<sup>2</sup>\n|{{nts|3909}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,509&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|33.1336|N|117.0732|W|name=Escondido}}</small>\n|-\n|168\n|align=left|[[Sunnyvale,
+        California|Sunnyvale]]\n|align=left|[[California]]\n| {{change|invert=on|149980|140081}}\n|{{nts|22.0}}&nbsp;sq&nbsp;mi<br
+        />56.9&nbsp;km<sup>2</sup>\n|{{nts|6371}}&nbsp;per&nbsp;sq&nbsp;mi<br />2,460&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|37.3858|N|122.0263|W|name=Sunnyvale}}</small>\n|-\n|169\n|align=left|[[Lakewood,
+        Colorado|Lakewood]]\n|align=left|[[Colorado]]\n| {{change|invert=on|149643|142980}}\n|{{nts|42.9}}&nbsp;sq&nbsp;mi<br
+        />111.1&nbsp;km<sup>2</sup>\n|{{nts|3334}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,287&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|39.6989|N|105.1176|W|name=Lakewood}}</small>\n|-\n|170\n|align=left|[[Kansas
+        City, Kansas|Kansas City]]<ref name=\"KansasCityKS\">[[Kansas City, Kansas]],
+        and [[Wyandotte County, Kansas]], are separate entities with a single [[consolidated
+        city\u2013county|consolidated city\u2013county government]].  Kansas City
+        comprises all of Wyandotte County except the other incorporated municipalities
+        within the county.</ref>\n|align=left|[[Kansas]]\n| {{change|invert=on|149636|145786}}\n|{{nts|124.8}}&nbsp;sq&nbsp;mi<br
+        />323.3&nbsp;km<sup>2</sup>\n|{{nts|1168}}&nbsp;per&nbsp;sq&nbsp;mi<br />451&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|39.1225|N|94.7418|W|name=Kansas City}}</small>\n|-\n|171\n|align=left|[[Rockford,
+        Illinois|Rockford]]\n|align=left|[[Illinois]]\n| {{change|invert=on|149123|152871}}\n|{{nts|61.1}}&nbsp;sq&nbsp;mi<br
+        />158.2&nbsp;km<sup>2</sup>\n|{{nts|2503}}&nbsp;per&nbsp;sq&nbsp;mi<br />966&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|42.2634|N|89.0628|W|name=Rockford}}</small>\n|-\n|172\n|align=left|[[Torrance,
+        California|Torrance]]\n|align=left|[[California]]\n| {{change|invert=on|148495|145438}}\n|{{nts|20.5}}&nbsp;sq&nbsp;mi<br
+        />53.0&nbsp;km<sup>2</sup>\n|{{nts|7102}}&nbsp;per&nbsp;sq&nbsp;mi<br />2,742&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|33.8350|N|118.3414|W|name=Torrance}}</small>\n|-\n|173\n|align=left|[[Hollywood,
+        Florida|Hollywood]]\n|align=left|[[Florida]]\n| {{change|invert=on|148047|140768}}\n|{{nts|27.4}}&nbsp;sq&nbsp;mi<br
+        />70.9&nbsp;km<sup>2</sup>\n|{{nts|5144}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,986&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|26.0311|N|80.1646|W|name=Hollywood}}</small>\n|-\n|174\n|align=left|[[Joliet,
+        Illinois|Joliet]]\n|align=left|[[Illinois]]\n| {{change|invert=on|147928|147433}}\n|{{nts|62.1}}&nbsp;sq&nbsp;mi<br
+        />160.9&nbsp;km<sup>2</sup>\n|{{nts|2374}}&nbsp;per&nbsp;sq&nbsp;mi<br />916&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|41.5181|N|88.1584|W|name=Joliet}}</small>\n|-\n|175\n|align=left|''''[[Bridgeport,
+        Connecticut|Bridgeport]]''''\n|align=left|[[Connecticut]]\n| {{change|invert=on|147612|144229}}\n|{{nts|16.0}}&nbsp;sq&nbsp;mi<br
+        />41.4&nbsp;km<sup>2</sup>\n|{{nts|9029}}&nbsp;per&nbsp;sq&nbsp;mi<br />3,486&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|41.1874|N|73.1957|W|name=Bridgeport}}</small>\n|-\n|176\n|align=left|[[Clarksville,
+        Tennessee|Clarksville]]\n|align=left|[[Tennessee]]\n| {{change|invert=on|146806|132929}}\n|{{nts|97.6}}&nbsp;sq&nbsp;mi<br
+        />252.8&nbsp;km<sup>2</sup>\n|{{nts|1362}}&nbsp;per&nbsp;sq&nbsp;mi<br />526&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|36.5664|N|87.3452|W|name=Clarksville}}</small>\n|-\n|177\n|align=left|[[Paterson,
+        New Jersey|Paterson]]\n|align=left|[[New Jersey]]\n| {{change|invert=on|146753|146199}}\n|{{nts|8.4}}&nbsp;sq&nbsp;mi<br
+        />21.8&nbsp;km<sup>2</sup>\n|{{nts|17346}}&nbsp;per&nbsp;sq&nbsp;mi<br />6,697&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|40.9147|N|74.1628|W|name=Paterson}}</small>\n|-\n|178\n|align=left|[[Naperville,
+        Illinois|Naperville]]\n|align=left|[[Illinois]]\n| {{change|invert=on|146128|141853}}\n|{{nts|38.8}}&nbsp;sq&nbsp;mi<br
+        />100.4&nbsp;km<sup>2</sup>\n|{{nts|3659}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,413&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|41.7492|N|88.1620|W|name=Naperville}}</small>\n|-\n|179\n|align=left|[[Frisco,
+        Texas|Frisco]]\n|align=left|[[Texas]]\n| {{change|invert=on|145035|116989}}\n|{{nts|61.8}}&nbsp;sq&nbsp;mi<br
+        />160.1&nbsp;km<sup>2</sup>\n|{{nts|1893}}&nbsp;per&nbsp;sq&nbsp;mi<br />731&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|33.1510|N|96.8193|W|name=Frisco}}</small>\n|-\n|180\n|align=left|[[Mesquite,
+        Texas|Mesquite]]\n|align=left|[[Texas]]\n| {{change|invert=on|144416|139824}}\n|{{nts|46.0}}&nbsp;sq&nbsp;mi<br
+        />119.2&nbsp;km<sup>2</sup>\n|{{nts|3038}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,173&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|32.7639|N|96.5924|W|name=Mesquite}}</small>\n|-\n|181\n|align=left|[[Savannah,
+        Georgia|Savannah]]\n|align=left|[[Georgia (U.S. state)|Georgia]]\n| {{change|invert=on|144352|136286}}\n|{{nts|103.2}}&nbsp;sq&nbsp;mi<br
+        />267.2&nbsp;km<sup>2</sup>\n|{{nts|1321}}&nbsp;per&nbsp;sq&nbsp;mi<br />510&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|32.0025|N|81.1536|W|name=Savannah}}</small>\n|-\n|182\n|align=left|[[Syracuse,
+        New York|Syracuse]]\n|align=left|[[New York]]\n| {{change|invert=on|144263|145170}}\n|{{nts|25.0}}&nbsp;sq&nbsp;mi<br
+        />64.9&nbsp;km<sup>2</sup>\n|{{nts|5797}}&nbsp;per&nbsp;sq&nbsp;mi<br />2,238&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|43.0410|N|76.1436|W|name=Syracuse}}</small>\n|-\n|183\n|align=left|[[Dayton,
+        Ohio|Dayton]]\n|align=left|[[Ohio]]\n| {{change|invert=on|141003|141527}}\n|{{nts|55.7}}&nbsp;sq&nbsp;mi<br
+        />144.1&nbsp;km<sup>2</sup>\n|{{nts|2543}}&nbsp;per&nbsp;sq&nbsp;mi<br />982&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|39.7774|N|84.1996|W|name=Dayton}}</small>\n|-\n|184\n|align=left|[[Pasadena,
+        California|Pasadena]]\n|align=left|[[California]]\n| {{change|invert=on|140881|137122}}\n|{{nts|23.0}}&nbsp;sq&nbsp;mi<br
+        />59.5&nbsp;km<sup>2</sup>\n|{{nts|5970}}&nbsp;per&nbsp;sq&nbsp;mi<br />2,305&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|34.1606|N|118.1396|W|name=Pasadena}}</small>\n|-\n|185\n|align=left|[[Orange,
+        California|Orange]]\n|align=left|[[California]]\n| {{change|invert=on|139812|136416}}\n|{{nts|24.8}}&nbsp;sq&nbsp;mi<br
+        />64.2&nbsp;km<sup>2</sup>\n|{{nts|5501}}&nbsp;per&nbsp;sq&nbsp;mi<br />2,124&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|33.8048|N|117.8249|W|name=Orange}}</small>\n|-\n|186\n|align=left|[[Fullerton,
+        California|Fullerton]]\n|align=left|[[California]]\n| {{change|invert=on|139677|135161}}\n|{{nts|22.4}}&nbsp;sq&nbsp;mi<br
+        />57.9&nbsp;km<sup>2</sup>\n|{{nts|6047}}&nbsp;per&nbsp;sq&nbsp;mi<br />2,335&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|33.8857|N|117.9280|W|name=Fullerton}}</small>\n|-\n|187\n|align=left|[[McAllen,
+        Texas|McAllen]]\n|align=left|[[Texas]]\n| {{change|invert=on|138596|129877}}\n|{{nts|48.3}}&nbsp;sq&nbsp;mi<br
+        />125.2&nbsp;km<sup>2</sup>\n|{{nts|2687}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,037&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|26.2185|N|98.2461|W|name=McAllen}}</small>\n|-\n|188\n|align=left|[[Killeen,
+        Texas|Killeen]]\n|align=left|[[Texas]]\n| {{change|invert=on|138154|127921}}\n|{{nts|53.6}}&nbsp;sq&nbsp;mi<br
+        />138.8&nbsp;km<sup>2</sup>\n|{{nts|2387}}&nbsp;per&nbsp;sq&nbsp;mi<br />922&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|31.0777|N|97.7320|W|name=Killeen}}</small>\n|-\n|189\n|align=left|[[Hampton,
+        Virginia|Hampton]]<ref name=IndependentCity/>\n|align=left|[[Virginia]]\n|
+        {{change|invert=on|136879|137436}}\n|{{nts|51.4}}&nbsp;sq&nbsp;mi<br />133.2&nbsp;km<sup>2</sup>\n|{{nts|2673}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />1,032&nbsp;km<sup>\u22122</sup>\n| <small>{{coord|37.0480|N|76.2971|W|name=Hampton}}</small>\n|-\n|190\n|align=left|[[Bellevue,
+        Washington|Bellevue]]\n|align=left|[[Washington (state)|Washington]]\n| {{change|invert=on|136426|122363}}\n|{{nts|32.0}}&nbsp;sq&nbsp;mi<br
+        />82.8&nbsp;km<sup>2</sup>\n|{{nts|3828}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,478&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|47.5978|N|122.1565|W|name=Bellevue}}</small>\n|-\n|191\n|align=left|[[Warren,
+        Michigan|Warren]]\n|align=left|[[Michigan]]\n| {{change|invert=on|135099|134056}}\n|{{nts|34.4}}&nbsp;sq&nbsp;mi<br
+        />89.0&nbsp;km<sup>2</sup>\n|{{nts|3899}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,505&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|42.4929|N|83.0250|W|name=Warren}}</small>\n|-\n|192\n|align=left|[[Miramar,
+        Florida|Miramar]]\n|align=left|[[Florida]]\n| {{change|invert=on|134989|122041}}\n|{{nts|29.5}}&nbsp;sq&nbsp;mi<br
+        />76.5&nbsp;km<sup>2</sup>\n|{{nts|4134}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,596&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|25.9770|N|80.3358|W|name=Miramar}}</small>\n|-\n|193\n|align=left|[[West
+        Valley City, Utah|West Valley City]]\n|align=left|[[Utah]]\n| {{change|invert=on|134495|129480}}\n|{{nts|35.6}}&nbsp;sq&nbsp;mi<br
+        />92.1&nbsp;km<sup>2</sup>\n|{{nts|3642}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,406&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|40.6885|N|112.0118|W|name=West Valley City}}</small>\n|-\n|194\n|align=left|[[Olathe,
+        Kansas|Olathe]]\n|align=left|[[Kansas]]\n| {{change|invert=on|133062|125872}}\n|{{nts|59.7}}&nbsp;sq&nbsp;mi<br
+        />154.5&nbsp;km<sup>2</sup>\n|{{nts|2110}}&nbsp;per&nbsp;sq&nbsp;mi<br />815&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|38.8843|N|94.8188|W|name=Olathe}}</small>\n|-\n|195\n|align=left|''''''''''[[Columbia,
+        South Carolina|Columbia]]''''''''''\n|align=left|[[South Carolina]]\n| {{change|invert=on|132067|129272}}\n|{{nts|132.2}}&nbsp;sq&nbsp;mi<br
+        />342.4&nbsp;km<sup>2</sup>\n|{{nts|978}}&nbsp;per&nbsp;sq&nbsp;mi<br />378&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|34.0298|N|80.8966|W|name=Columbia}}</small>\n|-\n|196\n|align=left|[[Sterling
+        Heights, Michigan|Sterling Heights]]\n|align=left|[[Michigan]]\n| {{change|invert=on|131741|129699}}\n|{{nts|36.5}}&nbsp;sq&nbsp;mi<br
+        />94.5&nbsp;km<sup>2</sup>\n|{{nts|3553}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,372&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|42.5812|N|83.0303|W|name=Sterling Heights}}</small>\n|-\n|197\n|align=left|[[Thornton,
+        Colorado|Thornton]]\n|align=left|[[Colorado]]\n| {{change|invert=on|130307|118772}}\n|{{nts|34.8}}&nbsp;sq&nbsp;mi<br
+        />90.2&nbsp;km<sup>2</sup>\n|{{nts|3409}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,316&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|39.9180|N|104.9454|W|name=Thornton}}</small>\n|-\n|198\n|align=left|[[New
+        Haven, Connecticut|New Haven]]\n|align=left|[[Connecticut]]\n| {{change|invert=on|130282|129779}}\n|{{nts|18.7}}&nbsp;sq&nbsp;mi<br
+        />48.4&nbsp;km<sup>2</sup>\n|{{nts|6948}}&nbsp;per&nbsp;sq&nbsp;mi<br />2,683&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|41.3108|N|72.9250|W|name=New Haven}}</small>\n|-\n|199\n|align=left|[[Waco,
+        Texas|Waco]]\n|align=left|[[Texas]]\n| {{change|invert=on|130194|124805}}\n|{{nts|89.0}}&nbsp;sq&nbsp;mi<br
+        />230.4&nbsp;km<sup>2</sup>\n|{{nts|1403}}&nbsp;per&nbsp;sq&nbsp;mi<br />542&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|31.5601|N|97.1860|W|name=Waco}}</small>\n|-\n|200\n|align=left|[[Charleston,
+        South Carolina|Charleston]]\n|align=left|[[South Carolina]]\n| {{change|invert=on|130113|120083}}\n|{{nts|109.0}}&nbsp;sq&nbsp;mi<br
+        />282.3&nbsp;km<sup>2</sup>\n|{{nts|1102}}&nbsp;per&nbsp;sq&nbsp;mi<br />425&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|32.8179|N|79.9589|W|name=Charleston}}</small>\n|-\n|201\n|align=left|[[Thousand
+        Oaks, California|Thousand Oaks]]\n|align=left|[[California]]\n| {{change|invert=on|129342|126683}}\n|{{nts|55.0}}&nbsp;sq&nbsp;mi<br
+        />142.5&nbsp;km<sup>2</sup>\n|{{nts|2302}}&nbsp;per&nbsp;sq&nbsp;mi<br />889&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|34.1933|N|118.8742|W|name=Thousand Oaks}}</small>\n|-\n|202\n|align=left|[[Visalia,
+        California|Visalia]]\n|align=left|[[California]]\n| {{change|invert=on|129281|124442}}\n|{{nts|36.2}}&nbsp;sq&nbsp;mi<br
+        />93.9&nbsp;km<sup>2</sup>\n|{{nts|3433}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,326&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|36.3272|N|119.3234|W|name=Visalia}}</small>\n|-\n|203\n|align=left|[[Cedar
+        Rapids, Iowa|Cedar Rapids]]\n|align=left|[[Iowa]]\n| {{change|invert=on|129195|126326}}\n|{{nts|70.8}}&nbsp;sq&nbsp;mi<br
+        />183.4&nbsp;km<sup>2</sup>\n|{{nts|1784}}&nbsp;per&nbsp;sq&nbsp;mi<br />689&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|41.9670|N|91.6778|W|name=Cedar Rapids}}</small>\n|-\n|204\n|align=left|[[Elizabeth,
+        New Jersey|Elizabeth]]\n|align=left|[[New Jersey]]\n| {{change|invert=on|128705|124969}}\n|{{nts|12.3}}&nbsp;sq&nbsp;mi<br
+        />31.9&nbsp;km<sup>2</sup>\n|{{nts|10144}}&nbsp;per&nbsp;sq&nbsp;mi<br />3,917&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|40.6663|N|74.1935|W|name=Elizabeth}}</small>\n|-\n|205\n|align=left|[[Roseville,
+        California|Roseville]]\n|align=left|[[California]]\n| {{change|invert=on|128615|118788}}\n|{{nts|36.2}}&nbsp;sq&nbsp;mi<br
+        />93.8&nbsp;km<sup>2</sup>\n|{{nts|3279}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,266&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|38.7657|N|121.3032|W|name=Roseville}}</small>\n|-\n|206\n|align=left|[[Gainesville,
+        Florida|Gainesville]]\n|align=left|[[Florida]]\n| {{change|invert=on|128460|124354}}\n|{{nts|61.3}}&nbsp;sq&nbsp;mi<br
+        />158.8&nbsp;km<sup>2</sup>\n|{{nts|2028}}&nbsp;per&nbsp;sq&nbsp;mi<br />783&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|29.6788|N|82.3459|W|name=Gainesville}}</small>\n|-\n|207\n|align=left|[[Carrollton,
+        Texas|Carrollton]]\n|align=left|[[Texas]]\n| {{change|invert=on|128353|119097}}\n|{{nts|36.3}}&nbsp;sq&nbsp;mi<br
+        />94.0&nbsp;km<sup>2</sup>\n|{{nts|3281}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,267&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|32.9884|N|96.8998|W|name=Carrollton}}</small>\n|-\n|208\n|align=left|[[Stamford,
+        Connecticut|Stamford]]\n|align=left|[[Connecticut]]\n| {{change|invert=on|128278|122643}}\n|{{nts|37.6}}&nbsp;sq&nbsp;mi<br
+        />97.5&nbsp;km<sup>2</sup>\n|{{nts|3258}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,258&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|41.0799|N|73.5460|W|name=Stamford}}</small>\n|-\n|209\n|align=left|[[Denton,
+        Texas|Denton]]\n|align=left|[[Texas]]\n| {{change|invert=on|128205|113383}}\n|{{nts|88.0}}&nbsp;sq&nbsp;mi<br
+        />227.8&nbsp;km<sup>2</sup>\n|{{nts|1289}}&nbsp;per&nbsp;sq&nbsp;mi<br />498&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|33.2151|N|97.1417|W|name=Denton}}</small>\n|-\n|210\n|align=left|[[Midland,
+        Texas|Midland]]\n|align=left|[[Texas]]\n| {{change|invert=on|128037|111147}}\n|{{nts|72.1}}&nbsp;sq&nbsp;mi<br
+        />186.7&nbsp;km<sup>2</sup>\n|{{nts|1542}}&nbsp;per&nbsp;sq&nbsp;mi<br />595&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|32.0299|N|102.1097|W|name=Midland}}</small>\n|-\n|211\n|align=left|[[Coral
+        Springs, Florida|Coral Springs]]\n|align=left|[[Florida]]\n| {{change|invert=on|127952|121096}}\n|{{nts|23.8}}&nbsp;sq&nbsp;mi<br
+        />61.6&nbsp;km<sup>2</sup>\n|{{nts|5090}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,965&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|26.2708|N|80.2593|W|name=Coral Springs}}</small>\n|-\n|212\n|align=left|[[Concord,
+        California|Concord]]\n|align=left|[[California]]\n| {{change|invert=on|127522|122067}}\n|{{nts|30.5}}&nbsp;sq&nbsp;mi<br
+        />79.1&nbsp;km<sup>2</sup>\n|{{nts|3996}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,543&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|37.9722|N|122.0016|W|name=Concord}}</small>\n|-\n|213\n|align=left|''''''[[Topeka,
+        Kansas|Topeka]]''''''\n|align=left|[[Kansas]]\n| {{change|invert=on|127215|127473}}\n|{{nts|60.2}}&nbsp;sq&nbsp;mi<br
+        />155.8&nbsp;km<sup>2</sup>\n|{{nts|2119}}&nbsp;per&nbsp;sq&nbsp;mi<br />818&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|39.0362|N|95.6948|W|name=Topeka}}</small>\n|-\n|214\n|align=left|[[Simi
+        Valley, California|Simi Valley]]\n|align=left|[[California]]\n| {{change|invert=on|126871|124237}}\n|{{nts|41.5}}&nbsp;sq&nbsp;mi<br
+        />107.4&nbsp;km<sup>2</sup>\n|{{nts|2995}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,156&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|34.2669|N|118.7485|W|name=Simi Valley}}</small>\n|-\n|215\n|align=left|[[Surprise,
+        Arizona|Surprise]]\n|align=left|[[Arizona]]\n| {{change|invert=on|126275|117517}}\n|{{nts|105.7}}&nbsp;sq&nbsp;mi<br
+        />273.9&nbsp;km<sup>2</sup>\n|{{nts|1111}}&nbsp;per&nbsp;sq&nbsp;mi<br />429&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|33.6706|N|112.4527|W|name=Surprise}}</small>\n|-\n|216\n|align=left|[[Lafayette,
+        Louisiana|Lafayette]]<ref name=\"LafayetteLA\">The [[Lafayette, Louisiana|City
+        of Lafayette]], [[Louisiana]], and [[Lafayette Parish, Louisiana]], are separate
+        entities with a single [[consolidated city\u2013county|consolidated city\u2013parish
+        government]].  The City of Lafayette comprises all of Lafayette Parish except
+        the other incorporated municipalities within the parish.</ref>\n|align=left|[[Louisiana]]\n|
+        {{change|invert=on|126066|120623}}\n|{{nts|49.2}}&nbsp;sq&nbsp;mi<br />127.5&nbsp;km<sup>2</sup>\n|{{nts|2450}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />946&nbsp;km<sup>\u22122</sup>\n| <small>{{coord|30.2116|N|92.0314|W|name=Lafayette}}</small>\n|-\n|217\n|align=left|[[Kent,
+        Washington|Kent]]\n|align=left|[[Washington (state)|Washington]]\n| {{change|invert=on|125560|92411}}\n|{{nts|28.6}}&nbsp;sq&nbsp;mi<br
+        />74.1&nbsp;km<sup>2</sup>\n|{{nts|3228}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,246&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|47.3853|N|122.2169|W|name=Kent}}</small>\n|-\n|218\n|align=left|''''''[[Hartford,
+        Connecticut|Hartford]]''''''\n|align=left|[[Connecticut]]\n| {{change|invert=on|124705|124775}}\n|{{nts|17.4}}&nbsp;sq&nbsp;mi<br
+        />45.0&nbsp;km<sup>2</sup>\n|{{nts|7179}}&nbsp;per&nbsp;sq&nbsp;mi<br />2,772&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|41.7660|N|72.6833|W|name=Hartford}}</small>\n|-\n|219\n|align=left|[[Santa
+        Clara, California|Santa Clara]]\n|align=left|[[California]]\n| {{change|invert=on|122192|116468}}\n|{{nts|18.4}}&nbsp;sq&nbsp;mi<br
+        />47.7&nbsp;km<sup>2</sup>\n|{{nts|6327}}&nbsp;per&nbsp;sq&nbsp;mi<br />2,443&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|37.3646|N|121.9679|W|name=Santa Clara}}</small>\n|-\n|220\n|align=left|[[Victorville,
+        California|Victorville]]\n|align=left|[[California]]\n| {{change|invert=on|121901|115903}}\n|{{nts|73.2}}&nbsp;sq&nbsp;mi<br
+        />189.5&nbsp;km<sup>2</sup>\n|{{nts|1584}}&nbsp;per&nbsp;sq&nbsp;mi<br />612&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|34.5277|N|117.3536|W|name=Victorville}}</small>\n|-\n|221\n|align=left|[[Abilene,
+        Texas|Abilene]]\n|align=left|[[Texas]]\n| {{change|invert=on|120958|117063}}\n|{{nts|106.8}}&nbsp;sq&nbsp;mi<br
+        />276.6&nbsp;km<sup>2</sup>\n|{{nts|1096}}&nbsp;per&nbsp;sq&nbsp;mi<br />423&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|32.4545|N|99.7381|W|name=Abilene}}</small>\n|-\n|222\n|align=left|[[Murfreesboro,
+        Tennessee|Murfreesboro]]\n|align=left|[[Tennessee]]\n| {{change|invert=on|120954|108755}}\n|{{nts|55.3}}&nbsp;sq&nbsp;mi<br
+        />143.3&nbsp;km<sup>2</sup>\n|{{nts|1965}}&nbsp;per&nbsp;sq&nbsp;mi<br />759&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|35.8522|N|86.4161|W|name=Murfreesboro}}</small>\n|-\n|223\n|align=left|[[Evansville,
+        Indiana|Evansville]]\n|align=left|[[Indiana]]\n| {{change|invert=on|120346|117429}}\n|{{nts|44.2}}&nbsp;sq&nbsp;mi<br
+        />114.4&nbsp;km<sup>2</sup>\n|{{nts|2660}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,027&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|37.9877|N|87.5347|W|name=Evansville}}</small>\n|-\n|224\n|align=left|[[Vallejo,
+        California|Vallejo]]\n|align=left|[[California]]\n| {{change|invert=on|120228|115942}}\n|{{nts|30.7}}&nbsp;sq&nbsp;mi<br
+        />79.4&nbsp;km<sup>2</sup>\n|{{nts|3780}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,460&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|38.1079|N|122.2639|W|name=Vallejo}}</small>\n|-\n|225\n|align=left|[[Athens,
+        Georgia|Athens]]<ref name=\"AthensGA\">The [[Athens, Georgia|City of Athens]],
+        [[Georgia (U.S. state)|Georgia]], and [[Clarke County, Georgia]], are separate
+        entities with a single [[consolidated city\u2013county|consolidated city\u2013county
+        government]].  The City of Athens comprises all of Clarke County except the
+        other incorporated municipalities within the county.</ref>\n|align=left|[[Georgia
+        (U.S. state)|Georgia]]\n| {{change|invert=on|119648|115452}}\n|{{nts|116.4}}&nbsp;sq&nbsp;mi<br
+        />301.4&nbsp;km<sup>2</sup>\n|{{nts|992}}&nbsp;per&nbsp;sq&nbsp;mi<br />383&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|33.9496|N|83.3701|W|name=Athens}}</small>\n|-\n|226\n|align=left|[[Allentown,
+        Pennsylvania|Allentown]]\n|align=left|[[Pennsylvania]]\n| {{change|invert=on|119104|118032}}\n|{{nts|17.5}}&nbsp;sq&nbsp;mi<br
+        />45.4&nbsp;km<sup>2</sup>\n|{{nts|6727}}&nbsp;per&nbsp;sq&nbsp;mi<br />2,597&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|40.5940|N|75.4782|W|name=Allentown}}</small>\n|-\n|227\n|align=left|[[Berkeley,
+        California|Berkeley]]\n|align=left|[[California]]\n| {{change|invert=on|118853|112580}}\n|{{nts|10.5}}&nbsp;sq&nbsp;mi<br
+        />27.1&nbsp;km<sup>2</sup>\n|{{nts|10752}}&nbsp;per&nbsp;sq&nbsp;mi<br />4,152&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|37.8667|N|122.2991|W|name=Berkeley }}</small>\n|-\n|228\n|align=left|[[Norman,
+        Oklahoma|Norman]]\n|align=left|[[Oklahoma]]\n| {{change|invert=on|118040|110925}}\n|{{nts|178.8}}&nbsp;sq&nbsp;mi<br
+        />463.0&nbsp;km<sup>2</sup>\n|{{nts|621}}&nbsp;per&nbsp;sq&nbsp;mi<br />240&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|35.22|N|97.44|W|name=Norman}}</small>\n|-\n|229\n|align=left|[[Ann
+        Arbor, Michigan|Ann Arbor]]\n|align=left|[[Michigan]]\n| {{change|invert=on|117770|113934}}\n|{{nts|27.8}}&nbsp;sq&nbsp;mi<br
+        />72.1&nbsp;km<sup>2</sup>\n|{{nts|4094}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,581&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|42.2756|N|83.7313|W|name=Ann Arbor}}</small>\n|-\n|230\n|align=left|[[Beaumont,
+        Texas|Beaumont]]\n|align=left|[[Texas]]\n| {{change|invert=on|117585|118296}}\n|{{nts|82.8}}&nbsp;sq&nbsp;mi<br
+        />214.5&nbsp;km<sup>2</sup>\n|{{nts|1429}}&nbsp;per&nbsp;sq&nbsp;mi<br />552&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|30.0843|N|94.1458|W|name=Beaumont}}</small>\n|-\n|231\n|align=left|[[Independence,
+        Missouri|Independence]]\n|align=left|[[Missouri]]\n| {{change|invert=on|117494|116830}}\n|{{nts|77.6}}&nbsp;sq&nbsp;mi<br
+        />200.9&nbsp;km<sup>2</sup>\n|{{nts|1506}}&nbsp;per&nbsp;sq&nbsp;mi<br />582&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|39.0853|N|94.3513|W|name=Independence}}</small>\n|-\n|232\n|align=left|[[Columbia,
+        Missouri|Columbia]]\n|align=left|[[Missouri]]\n| {{change|invert=on|116906|108500}}\n|{{nts|63.1}}&nbsp;sq&nbsp;mi<br
+        />163.4&nbsp;km<sup>2</sup>\n|{{nts|1720}}&nbsp;per&nbsp;sq&nbsp;mi<br />664&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|38.9479|N|92.3261|W|name=Columbia}}</small>\n|-\n|233\n|align=left|''''''[[Springfield,
+        Illinois|Springfield]]''''''\n|align=left|[[Illinois]]\n| {{change|invert=on|116809|116250}}\n|{{nts|59.5}}&nbsp;sq&nbsp;mi<br
+        />154.1&nbsp;km<sup>2</sup>\n|{{nts|1954}}&nbsp;per&nbsp;sq&nbsp;mi<br />755&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|39.7639|N|89.6708|W|name=Springfield}}</small>\n|-\n|234\n|align=left|[[El
+        Monte, California|El Monte]]\n|align=left|[[California]]\n| {{change|invert=on|116631|113475}}\n|{{nts|9.6}}&nbsp;sq&nbsp;mi<br
+        />24.8&nbsp;km<sup>2</sup>\n|{{nts|11867}}&nbsp;per&nbsp;sq&nbsp;mi<br />4,582&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|34.0746|N|118.0291|W|name=El Monte}}</small>\n|-\n|235\n|align=left|''''[[Fargo,
+        North Dakota|Fargo]]''''\n|align=left|[[North Dakota]]\n| {{change|invert=on|115863|105549}}\n|{{nts|48.8}}&nbsp;sq&nbsp;mi<br
+        />126.4&nbsp;km<sup>2</sup>\n|{{nts|2162}}&nbsp;per&nbsp;sq&nbsp;mi<br />835&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|46.8652|N|96.8290|W|name=Fargo}}</small>\n|-\n|236\n|align=left|[[Peoria,
+        Illinois|Peoria]]\n|align=left|[[Illinois]]\n| {{change|invert=on|115828|115007}}\n|{{nts|48.0}}&nbsp;sq&nbsp;mi<br
+        />124.3&nbsp;km<sup>2</sup>\n|{{nts|2396}}&nbsp;per&nbsp;sq&nbsp;mi<br />925&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|40.7523|N|89.6171|W|name=Peoria}}</small>\n|-\n|237\n|align=left|[[Provo,
+        Utah|Provo]]\n|align=left|[[Utah]]\n| {{change|invert=on|114801|112488}}\n|{{nts|41.7}}&nbsp;sq&nbsp;mi<br
+        />107.9&nbsp;km<sup>2</sup>\n|{{nts|2699}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,042&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|40.2453|N|111.6448|W|name=Provo}}</small>\n|-\n|238\n|align=left|''''''[[Lansing,
+        Michigan|Lansing]]''''''\n|align=left|[[Michigan]]\n| {{change|invert=on|114620|114297}}\n|{{nts|36.0}}&nbsp;sq&nbsp;mi<br
+        />93.4&nbsp;km<sup>2</sup>\n|{{nts|3171}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,224&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|42.7098|N|84.5562|W|name=Lansing}}</small>\n|-\n|239\n|align=left|[[Odessa,
+        Texas|Odessa]]\n|align=left|[[Texas]]\n| {{change|invert=on|114597|99940}}\n|{{nts|42.0}}&nbsp;sq&nbsp;mi<br
+        />108.7&nbsp;km<sup>2</sup>\n|{{nts|2382}}&nbsp;per&nbsp;sq&nbsp;mi<br />920&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|31.8804|N|102.3434|W|name=Odessa}}</small>\n|-\n|240\n|align=left|[[Downey,
+        California|Downey]]\n|align=left|[[California]]\n| {{change|invert=on|114172|111772}}\n|{{nts|12.4}}&nbsp;sq&nbsp;mi<br
+        />32.1&nbsp;km<sup>2</sup>\n|{{nts|9008}}&nbsp;per&nbsp;sq&nbsp;mi<br />3,478&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|33.9382|N|118.1309|W|name=Downey}}</small>\n|-\n|241\n|align=left|[[Wilmington,
+        North Carolina|Wilmington]]\n|align=left|[[North Carolina]]\n| {{change|invert=on|113657|106476}}\n|{{nts|51.5}}&nbsp;sq&nbsp;mi<br
+        />133.4&nbsp;km<sup>2</sup>\n|{{nts|2068}}&nbsp;per&nbsp;sq&nbsp;mi<br />798&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|34.2092|N|77.8858|W|name=Wilmington}}</small>\n|-\n|242\n|align=left|[[Arvada,
+        Colorado|Arvada]]\n|align=left|[[Colorado]]\n| {{change|invert=on|113574|106433}}\n|{{nts|35.1}}&nbsp;sq&nbsp;mi<br
+        />91.0&nbsp;km<sup>2</sup>\n|{{nts|3029}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,169&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|39.8097|N|105.1066|W|name=Arvada}}</small>\n|-\n|243\n|align=left|[[Costa
+        Mesa, California|Costa Mesa]]\n|align=left|[[California]]\n| {{change|invert=on|112784|109960}}\n|{{nts|15.7}}&nbsp;sq&nbsp;mi<br
+        />40.5&nbsp;km<sup>2</sup>\n|{{nts|7025}}&nbsp;per&nbsp;sq&nbsp;mi<br />2,712&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|33.6659|N|117.9123|W|name=Costa Mesa}}</small>\n|-\n|244\n|align=left|[[Round
+        Rock, Texas|Round Rock]]\n|align=left|[[Texas]]\n| {{change|invert=on|112744|99887}}\n|{{nts|34.1}}&nbsp;sq&nbsp;mi<br
+        />88.4&nbsp;km<sup>2</sup>\n|{{nts|2928}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,131&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|30.5237|N|97.6674|W|name=Round Rock}}</small>\n|-\n|245\n|align=left|[[Carlsbad,
+        California|Carlsbad]]\n|align=left|[[California]]\n| {{change|invert=on|112299|105328}}\n|{{nts|37.7}}&nbsp;sq&nbsp;mi<br
+        />97.7&nbsp;km<sup>2</sup>\n|{{nts|2792}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,078&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|33.1239|N|117.2828|W|name=Carlsbad}}</small>\n|-\n|246\n|align=left|[[Miami
+        Gardens, Florida|Miami Gardens]]\n|align=left|[[Florida]]\n| {{change|invert=on|112265|107167}}\n|{{nts|18.2}}&nbsp;sq&nbsp;mi<br
+        />47.2&nbsp;km<sup>2</sup>\n|{{nts|5878}}&nbsp;per&nbsp;sq&nbsp;mi<br />2,270&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|25.9489|N|80.2436|W|name=Miami Gardens}}</small>\n|-\n|247\n|align=left|[[Westminster,
+        Colorado|Westminster]]\n|align=left|[[Colorado]]\n| {{change|invert=on|112090|106114}}\n|{{nts|31.6}}&nbsp;sq&nbsp;mi<br
+        />81.7&nbsp;km<sup>2</sup>\n|{{nts|3363}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,299&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|39.8822|N|105.0644|W|name=Westminster}}</small>\n|-\n|248\n|align=left|[[Inglewood,
+        California|Inglewood]]\n|align=left|[[California]]\n| {{change|invert=on|111905|109673}}\n|{{nts|9.1}}&nbsp;sq&nbsp;mi<br
+        />23.5&nbsp;km<sup>2</sup>\n|{{nts|12095}}&nbsp;per&nbsp;sq&nbsp;mi<br />4,670&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|33.9561|N|118.3443|W|name=Inglewood}}</small>\n|-\n|249\n|align=left|[[Rochester,
+        Minnesota|Rochester]]\n|align=left|[[Minnesota]]\n| {{change|invert=on|111402|106769}}\n|{{nts|54.6}}&nbsp;sq&nbsp;mi<br
+        />141.4&nbsp;km<sup>2</sup>\n|{{nts|1956}}&nbsp;per&nbsp;sq&nbsp;mi<br />755&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|44.0154|N|92.4772|W|name=Rochester}}</small>\n|-\n|250\n|align=left|[[Fairfield,
+        California|Fairfield]]\n|align=left|[[California]]\n| {{change|invert=on|111125|105321}}\n|{{nts|37.4}}&nbsp;sq&nbsp;mi<br
+        />96.8&nbsp;km<sup>2</sup>\n|{{nts|2817}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,088&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|38.2568|N|122.0397|W|name=Fairfield}}</small>\n|-\n|251\n|align=left|[[Elgin,
+        Illinois|Elgin]]\n|align=left|[[Illinois]]\n| {{change|invert=on|111117|108188}}\n|{{nts|37.2}}&nbsp;sq&nbsp;mi<br
+        />96.3&nbsp;km<sup>2</sup>\n|{{nts|2911}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,124&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|42.0396|N|88.3217|W|name=Elgin}}</small>\n|-\n|252\n|align=left|[[West
+        Jordan, Utah|West Jordan]]\n|align=left|[[Utah]]\n| {{change|invert=on|110920|103712}}\n|{{nts|32.5}}&nbsp;sq&nbsp;mi<br
+        />84.1&nbsp;km<sup>2</sup>\n|{{nts|3195}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,234&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|40.6023|N|112.0010|W|name=West Jordan}}</small>\n|-\n|253\n|align=left|[[Clearwater,
+        Florida|Clearwater]]\n|align=left|[[Florida]]\n| {{change|invert=on|110703|107685}}\n|{{nts|25.6}}&nbsp;sq&nbsp;mi<br
+        />66.2&nbsp;km<sup>2</sup>\n|{{nts|4213}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,627&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|27.9795|N|82.7663|W|name=Clearwater}}</small>\n|-\n|254\n|align=left|''''[[Manchester,
+        New Hampshire|Manchester]]''''\n|align=left|[[New Hampshire]]\n| {{change|invert=on|110448|109565}}\n|{{nts|33.1}}&nbsp;sq&nbsp;mi<br
+        />85.7&nbsp;km<sup>2</sup>\n|{{nts|3310}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,278&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|42.9847|N|71.4439|W|name=Manchester}}</small>\n|-\n|255\n|align=left|[[Lowell,
+        Massachusetts|Lowell]]\n|align=left|[[Massachusetts]]\n| {{change|invert=on|109945|106519}}\n|{{nts|13.6}}&nbsp;sq&nbsp;mi<br
+        />35.2&nbsp;km<sup>2</sup>\n|{{nts|7842}}&nbsp;per&nbsp;sq&nbsp;mi<br />3,028&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|42.6389|N|71.3221|W|name=Lowell}}</small>\n|-\n|256\n|align=left|[[Gresham,
+        Oregon|Gresham]]\n|align=left|[[Oregon]]\n| {{change|invert=on|109892|105594}}\n|{{nts|23.2}}&nbsp;sq&nbsp;mi<br
+        />60.1&nbsp;km<sup>2</sup>\n|{{nts|4551}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,757&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|45.5023|N|122.4416|W|name=Gresham}}</small>\n|-\n|257\n|align=left|[[Cambridge,
+        Massachusetts|Cambridge]]\n|align=left|[[Massachusetts]]\n| {{change|invert=on|109694|105162}}\n|{{nts|6.4}}&nbsp;sq&nbsp;mi<br
+        />16.5&nbsp;km<sup>2</sup>\n|{{nts|16469}}&nbsp;per&nbsp;sq&nbsp;mi<br />6,359&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|42.3760|N|71.1183|W|name=Cambridge}}</small>\n|-\n|258\n|align=left|[[Ventura,
+        California|Ventura]]<ref>Official name is San Buenaventura</ref>\n|align=left|[[California]]\n|
+        {{change|invert=on|109484|106433}}\n|{{nts|21.7}}&nbsp;sq&nbsp;mi<br />56.1&nbsp;km<sup>2</sup>\n|{{nts|4915}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />1,898&nbsp;km<sup>\u22122</sup>\n| <small>{{coord|34.2681|N|119.2550|W|name=Ventura}}</small>\n|-\n|259\n|align=left|[[Temecula,
+        California|Temecula]]\n|align=left|[[California]]\n| {{change|invert=on|109428|100097}}\n|{{nts|30.2}}&nbsp;sq&nbsp;mi<br
+        />78.1&nbsp;km<sup>2</sup>\n|{{nts|3320}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,282&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|33.5019|N|117.1246|W|name=Temecula}}</small>\n|-\n|260\n|align=left|[[Waterbury,
+        Connecticut|Waterbury]]\n|align=left|[[Connecticut]]\n| {{change|invert=on|109307|110366}}\n|{{nts|28.5}}&nbsp;sq&nbsp;mi<br
+        />73.9&nbsp;km<sup>2</sup>\n|{{nts|3870}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,494&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|41.5585|N|73.0367|W|name=Waterbury}}</small>\n|-\n|261\n|align=left|[[Antioch,
+        California|Antioch]]\n|align=left|[[California]]\n| {{change|invert=on|108930|102372}}\n|{{nts|28.3}}&nbsp;sq&nbsp;mi<br
+        />73.4&nbsp;km<sup>2</sup>\n|{{nts|3611}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,394&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|37.9775|N|121.7976|W|name=Antioch}}</small>\n|-\n|262\n|align=left|''''[[Billings,
+        Montana|Billings]]''''\n|align=left|[[Montana]]\n| {{change|invert=on|108869|104170}}\n|{{nts|43.4}}&nbsp;sq&nbsp;mi<br
+        />112.4&nbsp;km<sup>2</sup>\n|{{nts|2399}}&nbsp;per&nbsp;sq&nbsp;mi<br />926&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|45.7895|N|108.5499|W|name=Billings}}</small>\n|-\n|263\n|align=left|[[High
+        Point, North Carolina|High Point]]\n|align=left|[[North Carolina]]\n| {{change|invert=on|108629|104371}}\n|{{nts|53.8}}&nbsp;sq&nbsp;mi<br
+        />139.3&nbsp;km<sup>2</sup>\n|{{nts|1940}}&nbsp;per&nbsp;sq&nbsp;mi<br />749&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|35.9855|N|79.9902|W|name=High Point}}</small>\n|-\n|264\n|align=left|[[Richardson,
+        Texas|Richardson]]\n|align=left|[[Texas]]\n| {{change|invert=on|108617|99223}}\n|{{nts|28.6}}&nbsp;sq&nbsp;mi<br
+        />74.0&nbsp;km<sup>2</sup>\n|{{nts|3474}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,341&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|32.9723|N|96.7081|W|name=Richardson}}</small>\n|-\n|265\n|align=left|[[Richmond,
+        California|Richmond]]\n|align=left|[[California]]\n| {{change|invert=on|108565|103701}}\n|{{nts|30.1}}&nbsp;sq&nbsp;mi<br
+        />77.9&nbsp;km<sup>2</sup>\n|{{nts|3449}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,332&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|37.9530|N|122.3594|W|name=Richmond}}</small>\n|-\n|266\n|align=left|[[West
+        Covina, California|West Covina]]\n|align=left|[[California]]\n| {{change|invert=on|108455|106098}}\n|{{nts|16.0}}&nbsp;sq&nbsp;mi<br
+        />41.5&nbsp;km<sup>2</sup>\n|{{nts|6614}}&nbsp;per&nbsp;sq&nbsp;mi<br />2,554&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|34.0559|N|117.9099|W|name=West Covina}}</small>\n|-\n|267\n|align=left|[[Pueblo,
+        Colorado|Pueblo]]\n|align=left|[[Colorado]]\n| {{change|invert=on|108423|106595}}\n|{{nts|53.6}}&nbsp;sq&nbsp;mi<br
+        />138.9&nbsp;km<sup>2</sup>\n|{{nts|1987}}&nbsp;per&nbsp;sq&nbsp;mi<br />767&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|38.2731|N|104.6124|W|name=Pueblo}}</small>\n|-\n|268\n|align=left|[[Murrieta,
+        California|Murrieta]]\n|align=left|[[California]]\n| {{change|invert=on|108368|103466}}\n|{{nts|33.6}}&nbsp;sq&nbsp;mi<br
+        />87.0&nbsp;km<sup>2</sup>\n|{{nts|3081}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,190&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|33.5719|N|117.1907|W|name=Murrieta}}</small>\n|-\n|269\n|align=left|[[Centennial,
+        Colorado|Centennial]]\n|align=left|[[Colorado]]\n| {{change|invert=on|107201|100377}}\n|{{nts|28.7}}&nbsp;sq&nbsp;mi<br
+        />74.4&nbsp;km<sup>2</sup>\n|{{nts|3495}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,349&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|39.5906|N|104.8691|W|name=Centennial}}</small>\n|-\n|270\n|align=left|[[Norwalk,
+        California|Norwalk]]\n|align=left|[[California]]\n| {{change|invert=on|107096|105549}}\n|{{nts|9.7}}&nbsp;sq&nbsp;mi<br
+        />25.1&nbsp;km<sup>2</sup>\n|{{nts|10873}}&nbsp;per&nbsp;sq&nbsp;mi<br />4,198&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|33.9069|N|118.0834|W|name=Norwalk}}</small>\n|-\n|271\n|align=left|[[North
+        Charleston, South Carolina|North Charleston]]\n|align=left|[[South Carolina]]\n|
+        {{change|invert=on|106749|97471}}\n|{{nts|76.6}}&nbsp;sq&nbsp;mi<br />119.5&nbsp;km<sup>2</sup>\n|{{nts|1393}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />538&nbsp;km<sup>\u22122</sup>\n| <small>{{coord|32.8853|N|80.0169|W|name=North
+        Charleston}}</small>\n|-\n|272\n|align=left|[[Everett, Washington|Everett]]\n|align=left|[[Washington
+        (state)|Washington]]\n| {{change|invert=on|106736|103019}}\n|{{nts|33.4}}&nbsp;sq&nbsp;mi<br
+        />86.6&nbsp;km<sup>2</sup>\n|{{nts|3080}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,189&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|48.0033|N|122.1742|W|name=Everett}}</small>\n|-\n|273\n|align=left|[[Pompano
+        Beach, Florida|Pompano Beach]]\n|align=left|[[Florida]]\n| {{change|invert=on|106105|99845}}\n|{{nts|24.0}}&nbsp;sq&nbsp;mi<br
+        />62.2&nbsp;km<sup>2</sup>\n|{{nts|4160}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,606&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|26.2426|N|80.1290|W|name=Pompano Beach}}</small>\n|-\n|274\n|align=left|[[Daly
+        City, California|Daly City]]\n|align=left|[[California]]\n| {{change|invert=on|106094|101123}}\n|{{nts|7.7}}&nbsp;sq&nbsp;mi<br
+        />19.8&nbsp;km<sup>2</sup>\n|{{nts|13195}}&nbsp;per&nbsp;sq&nbsp;mi<br />5,095&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|37.7009|N|122.4650|W|name=Daly City}}</small>\n|-\n|275\n|align=left|[[Palm
+        Bay, Florida|Palm Bay]]\n|align=left|[[Florida]]\n| {{change|invert=on|105838|103190}}\n|{{nts|65.7}}&nbsp;sq&nbsp;mi<br
+        />170.2&nbsp;km<sup>2</sup>\n|{{nts|1571}}&nbsp;per&nbsp;sq&nbsp;mi<br />606&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|27.9856|N|80.6626|W|name=Palm Bay}}</small>\n|-\n|276\n|align=left|[[Burbank,
+        California|Burbank]]\n|align=left|[[California]]\n| {{change|invert=on|105368|103340}}\n|{{nts|17.3}}&nbsp;sq&nbsp;mi<br
+        />44.9&nbsp;km<sup>2</sup>\n|{{nts|5959}}&nbsp;per&nbsp;sq&nbsp;mi<br />2,301&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|34.1890|N|118.3249|W|name=Burbank}}</small>\n|-\n|277\n|align=left|[[Wichita
+        Falls, Texas|Wichita Falls]]\n|align=left|[[Texas]]\n| {{change|invert=on|105114|104553}}\n|{{nts|72.1}}&nbsp;sq&nbsp;mi<br
+        />186.8&nbsp;km<sup>2</sup>\n|{{nts|1449}}&nbsp;per&nbsp;sq&nbsp;mi<br />560&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|33.9067|N|98.5259|W|name=Wichita Falls}}</small>\n|-\n|278\n|align=left|[[Boulder,
+        Colorado|Boulder]]\n|align=left|[[Colorado]]\n| {{change|invert=on|105112|97385}}\n|{{nts|25.7}}&nbsp;sq&nbsp;mi<br
+        />66.5&nbsp;km<sup>2</sup>\n|{{nts|3947}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,524&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|40.0175|N|105.2797|W|name=Boulder}}</small>\n|-\n|279\n|align=left|[[Green
+        Bay, Wisconsin|Green Bay]]\n|align=left|[[Wisconsin]]\n| {{change|invert=on|104891|104057}}\n|{{nts|45.5}}&nbsp;sq&nbsp;mi<br
+        />117.8&nbsp;km<sup>2</sup>\n|{{nts|2289}}&nbsp;per&nbsp;sq&nbsp;mi<br />884&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|44.5207|N|87.9842|W|name=Green Bay}}</small>\n|-\n|280\n|align=left|[[Broken
+        Arrow, Oklahoma|Broken Arrow]]\n|align=left|[[Oklahoma]]\n| {{change|invert=on|104726|98850}}\n|{{nts|61.6}}&nbsp;sq&nbsp;mi<br
+        />159.5&nbsp;km<sup>2</sup>\n|{{nts|1605}}&nbsp;per&nbsp;sq&nbsp;mi<br />620&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|36.0365|N|95.7810|W|name=Broken Arrow}}</small>\n|-\n|281\n|align=left|[[West
+        Palm Beach, Florida|West Palm Beach]]\n|align=left|[[Florida]]\n| {{change|invert=on|104031|99919}}\n|{{nts|55.3}}&nbsp;sq&nbsp;mi<br
+        />143.2&nbsp;km<sup>2</sup>\n|{{nts|1807}}&nbsp;per&nbsp;sq&nbsp;mi<br />698&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|26.7483|N|80.1266|W|name=West Palm Beach}}</small>\n|-\n|282\n|align=left|[[College
+        Station, Texas|College Station]]\n|align=left|[[Texas]]\n| {{change|invert=on|103483|93857}}\n|{{nts|49.6}}&nbsp;sq&nbsp;mi<br
+        />128.5&nbsp;km<sup>2</sup>\n|{{nts|1978}}&nbsp;per&nbsp;sq&nbsp;mi<br />764&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|30.6013|N|96.3144|W|name=College Station}}</small>\n|-\n|283\n|align=left|[[Pearland,
+        Texas|Pearland]]\n|align=left|[[Texas]]\n| {{change|invert=on|103441|91252}}\n|{{nts|47.5}}&nbsp;sq&nbsp;mi<br
+        />122.9&nbsp;km<sup>2</sup>\n|{{nts|1900}}&nbsp;per&nbsp;sq&nbsp;mi<br />740&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|29.5544|N|95.2958|W|name=Pearland}}</small>\n|-\n|284\n|align=left|[[Santa
+        Maria, California|Santa Maria]]\n|align=left|[[California]]\n| {{change|invert=on|103410|99553}}\n|{{nts|22.8}}&nbsp;sq&nbsp;mi<br
+        />58.9&nbsp;km<sup>2</sup>\n|{{nts|4375}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,689&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|34.9332|N|120.4438|W|name=Santa Maria}}</small>\n|-\n|285\n|align=left|[[El
+        Cajon, California|El Cajon]]\n|align=left|[[California]]\n| {{change|invert=on|103091|99478}}\n|{{nts|14.4}}&nbsp;sq&nbsp;mi<br
+        />37.4&nbsp;km<sup>2</sup>\n|{{nts|6892}}&nbsp;per&nbsp;sq&nbsp;mi<br />2,661&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|32.8017|N|116.9605|W|name=El Cajon}}</small>\n|-\n|286\n|align=left|[[San
+        Mateo, California|San Mateo]]\n|align=left|[[California]]\n| {{change|invert=on|102893|97207}}\n|{{nts|15.9}}&nbsp;sq&nbsp;mi<br
+        />41.1&nbsp;km<sup>2</sup>\n|{{nts|8014}}&nbsp;per&nbsp;sq&nbsp;mi<br />3,094&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|37.5542|N|122.3131|W|name=San Mateo}}</small>\n|-\n|287\n|align=left|[[Lewisville,
+        Texas|Lewisville]]\n|align=left|[[Texas]]\n| {{change|invert=on|102889|95290}}\n|{{nts|42.5}}&nbsp;sq&nbsp;mi<br
+        />110.0&nbsp;km<sup>2</sup>\n|{{nts|2618}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,011&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|33.0383|N|97.0061|W|name=Lewisville}}</small>\n|-\n|288\n|align=left|[[Rialto,
+        California|Rialto]]\n|align=left|[[California]]\n| {{change|invert=on|102741|99171}}\n|{{nts|22.4}}&nbsp;sq&nbsp;mi<br
+        />57.9&nbsp;km<sup>2</sup>\n|{{nts|4437}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,713&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|34.1118|N|117.3883|W|name=Rialto}}</small>\n|-\n|289\n|align=left|[[Davenport,
+        Iowa|Davenport]]\n|align=left|[[Iowa]]\n| {{change|invert=on|102448|99685}}\n|{{nts|62.9}}&nbsp;sq&nbsp;mi<br
+        />163.0&nbsp;km<sup>2</sup>\n|{{nts|1584}}&nbsp;per&nbsp;sq&nbsp;mi<br />611&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|41.5541|N|90.6040|W|name=Davenport}}</small>\n|-\n|290\n|align=left|[[Lakeland,
+        Florida|Lakeland]]\n|align=left|[[Florida]]\n| {{change|invert=on|102346|97422}}\n|{{nts|74.4}}&nbsp;sq&nbsp;mi<br
+        />193.0&nbsp;km<sup>2</sup>\n|{{nts|1711}}&nbsp;per&nbsp;sq&nbsp;mi<br />661&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|28.0411|N|81.9589|W|name=Lakeland}}</small>\n|-\n|291\n|align=left|[[Clovis,
+        California|Clovis]]\n|align=left|[[California]]\n| {{change|invert=on|102189|95631}}\n|{{nts|23.3}}&nbsp;sq&nbsp;mi<br
+        />60.3&nbsp;km<sup>2</sup>\n|{{nts|4386}}&nbsp;per&nbsp;sq&nbsp;mi<br />1,695&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|36.4931|N|119.4211|W|name=Clovis}}</small>\n|-\n|292\n|align=left|[[Edison,
+        New Jersey|Edison]]<ref name=NJTwnshps>In the state of [[New Jersey]], [[Township
+        (New Jersey)|townships]] are full-fledged municipalities on par with any [[town]],
+        [[city]], [[Borough (New Jersey)|borough]], or [[Village (New Jersey)|village]].<br>{{cite
+        web|url=http://factfinder2.census.gov/bkmk/table/1.0/en/PEP/2014/PEPANNRES/0400000US34.06100
+        | title = Annual Estimates of the Resident Population for Minor Civil Divisions,
+        by County: April 1, 2010 to July 1, 2014  | work = 2014 Census Population
+        Estimates | publisher = U.S. Census Bureau, Population Division | date = May
+        2015 | accessdate = May 22, 2015}}</ref>\n|align=left|[[New Jersey]]\n| {{change|invert=on|101970|99967}}\n|{{nts|30.6}}&nbsp;sq&nbsp;mi<br
+        />79.4&nbsp;km<sup>2</sup>\n|{{nts|3339.0}}&nbsp;per&nbsp;sq&nbsp;mi<br />1289&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|40.5040|N|74.3494|W|name=Edison}}</small>\n|-\n|293\n|align=left|[[Sandy
+        Springs, Georgia|Sandy Springs]]\n|align=left|[[Georgia (U.S. state)|Georgia]]\n|
+        {{change|invert=on|101908|93853}}\n|{{nts|39.0}}&nbsp;sq&nbsp;mi<br />101.0&nbsp;km<sup>2</sup>\n|{{nts|2613.0}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />1009&nbsp;km<sup>\u22122</sup>\n| <small>{{coord|33.5615|N|84.227|W|name=Sandy
+        Springs}}</small>\n|-\n|294\n|align=left|[[Tyler, Texas|Tyler]]\n|align=left|[[Texas]]\n|
+        {{change|invert=on|101421|96900}}\n|{{nts|54.4}}&nbsp;sq&nbsp;mi<br />140.8&nbsp;km<sup>2</sup>\n|{{nts|1782}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />688&nbsp;km<sup>\u22122</sup>\n| <small>{{coord|32.35|N|95.30|W|name=Tyler}}</small>\n|-\n|295\n|align=left|[[Las
+        Cruces, New Mexico|Las Cruces]]\n|align=left|[[New Mexico]]\n| {{change|invert=on|101408|97618}}\n|{{nts|76.3}}&nbsp;sq&nbsp;mi<br
+        />197.6&nbsp;km<sup>2</sup>\n|{{nts|1279}}&nbsp;per&nbsp;sq&nbsp;mi<br />494&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|32.3197|N|106.7653|W|name=Las Cruces}}</small>\n|-\n|296\n|align=left|[[South
+        Bend, Indiana|South Bend]]\n|align=left|[[Indiana]]\n| {{change|invert=on|101190|101168}}\n|{{nts|41.5}}&nbsp;sq&nbsp;mi<br
+        />107.4&nbsp;km<sup>2</sup>\n|{{nts|2440}}&nbsp;per&nbsp;sq&nbsp;mi<br />942&nbsp;km<sup>\u22122</sup>\n|
+        <small>{{coord|41.6769|N|86.2690|W|name=South Bend}}</small>\n|-\n|297\n|align=left|[[Woodbridge,
+        New Jersey|Woodbridge]]<ref name=NJTwnshps/>\n|align=left|[[New Jersey]]\n|
+        {{change|invert=on|100824|99585}}\n|{{nts|24.5}}&nbsp;sq&nbsp;mi<br />63.5&nbsp;km<sup>2</sup>\n|{{nts|4290.0}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />1656&nbsp;km<sup>\u22122</sup>\n| <small>{{coord|40.5608|N|74.2926|W|name=Woodbridge}}</small>\n|}\n<!--  THE
+        TABLE ABOVE CONTAINS DATA FROM THE UNITED STATES CENSUS BUREAU.  DO NOT ALTER
+        CENSUS BUREAU DATA.  -->\n</onlyinclude><!--See [http://en.wikipedia.org/wiki/Wikipedia_talk:Featured_lists/Archive_1#Proposed_change_to_all_featured_lists]
+        for an explanation of this and other inclusion tags below-->\n\n===Distribution===\nFor
+        cities with populations of 100,000 or more, the following distributions hold.
+        Smaller incorporated places are not included.{{Citation needed|date=December
+        2009}}\n\n[[File:Densityhisto.jpg|400px]]\n\nThe mean density is {{convert|4128.21|PD/sqmi|PD/sqkm}}.{{Citation
+        needed|date=December 2009}}\n\nThe median is {{convert|3160.85|PD/sqmi|PD/sqkm}}.{{Citation
+        needed|date=December 2009}}\n\n{|class=\"wikitable\"\n|-\n!Population\n!Number
+        of municipal governments<ref>{{cite web|work=Government Organization|url=http://www.census.gov/prod/2003pubs/gc021x1.pdf|title=Census
+        of Governments|publisher=U.S. Census Bureau|accessdate=December 30, 2010|date=December
+        2002}}</ref>\n|-\n|1,000,000+\n|10\n|-\n|300,000\u2013999,999\n|54\n|-\n|200,000\u2013299,999\n|52\n|-\n|100,000\u2013199,999\n|179\n|-\n|''''''Total''''''\n|''''''295''''''\n|}\n\n{|class=\"wikitable\"\n|-\n!State\n!Number
+        of cities\n|-\n|[[California|CA]]\n|70\n|-\n|[[Texas|TX]]\n|36\n|-\n|[[Florida|FL]]\n|21\n|-\n|[[Colorado|CO]]\n|11\n|-\n|[[Arizona|AZ]]\n|10\n|-\n|[[North
+        Carolina|NC]]\n|9\n|-\n|[[Illinois|IL]]\n|8\n|-\n|[[Virginia|VA]], [[Washington
+        (state)|WA]]\n|7\n|-\n|[[Michigan|MI]], [[New Jersey|NJ]], [[Ohio|OH]], [[Tennessee|TN]]\n|6\n|-\n|[[Connecticut|CT]],
+        [[Georgia (U.S. state)|GA]], [[Kansas|KS]], [[Massachusetts|MA]], [[Missouri|MO]],
+        [[New York|NY]]\n|5\n|-\n|[[Alabama|AL]], [[Indiana|IN]], [[Louisiana|LA]],
+        [[Nevada|NV]], [[Oklahoma|OK]], [[Oregon|OR]], [[Pennsylvania|PA]], [[Utah|UT]]\n|4\n|-\n|[[Iowa|IA]],
+        [[Minnesota|MN]], [[South Carolina|SC]], [[Wisconsin|WI]]\n|3\n|-\n|[[Kentucky|KY]],
+        [[Nebraska|NE]], [[New Mexico|NM]]\n|2\n|-\n|[[Alaska|AK]], [[Arkansas|AR]],
+        [[District of Columbia|DC]], [[Hawaii|HI]], [[Idaho|ID]], [[Maryland|MD]],
+        [[Mississippi|MS]], [[Montana|MT]], [[North Dakota|ND]], [[New Hampshire|NH]],
+        [[Rhode Island|RI]], [[South Dakota|SD]]\n|1\n|-\n|[[Delaware|DE]], [[Maine|ME]],
+        [[Vermont|VT]], [[West Virginia|WV]], [[Wyoming|WY]]\n|0\n|}\n\n===Gallery===\n{{Gallery\n|title=\n|width=240\n|height=160\n|align=center\n|File:Top
+        of Rock Cropped.jpg|alt1=New York City|1.  [[New York City|New York]], [[New
+        York]]\n|File:LA Skyline Mountains2.jpg|alt2=Los Angeles|2.  [[Los Angeles]],
+        [[California]]\n|File:ChicagovanafSearsTower.jpg|alt3=Chicago|3.  [[Chicago]],
+        [[Illinois]]\n|File:Panoramic Houston skyline.jpg|alt4=Houston| 4.  [[Houston]],
+        [[Texas]]\n|File:Philly skyline.jpg|alt5=Philadelphia|5.  [[Philadelphia]],
+        [[Pennsylvania]]\n|File:Downtown Phoenix Aerial Looking Northeast.jpg|alt6=Phoenix|6.  [[Phoenix,
+        Arizona]]\n|File:Downtown San Antonio View.JPG|alt7=San Antonio|7.  [[San
+        Antonio]], [[Texas]]\n|File:SanDiegoSkylineBay.jpg|alt8=San Diego|8.  [[San
+        Diego]], [[California]]\n|File:Xvisionx Dallas Stemmons.jpg|alt9=Dallas|9.  [[Dallas]],
+        [[Texas]]\n|File:Downtown San Jose.PNG|alt10=San Jose|10.  [[San Jose, California]]\n|File:AustinSkylineLouNeffPoint-2010-03-29-b.JPG|alt11=Austin|11.  [[Austin,
+        Texas]]\n|File:NightJXFL11.jpg|alt12=Jacksonville|12.  [[Jacksonville, Florida]]\n|File:FinancialNorth.jpg|alt13=San
+        Francisco|13.  [[San Francisco]], [[California]]\n|File:Downtown indy from
+        parking garage zoom.JPG|alt14=Indianapolis|14.  [[Indianapolis]], [[Indiana]]\n|File:ColumbusNightSkyline2.jpg|alt15=Columbus|15.  [[Columbus,
+        Ohio]]\n|File:FortWorthTexasSkylineW.jpg|alt16=Fort Worth|16.  [[Fort Worth,
+        Texas]]\n|File:Skyline of Charlotte, North Carolina (2008).jpg|alt17=Charlotte|17.  [[Charlotte,
+        North Carolina]]\n|File:DetroitSkyline.jpg|alt18=Detroit|18.  [[Detroit]],
+        [[Michigan]]\n|File:Downtown El Paso at sunset.jpeg|alt19=El Paso|19.  [[El
+        Paso, Texas]]\n|File:Seattle skyline night.jpg|alt20=Seattle|20.  [[Seattle]],
+        [[Washington (state)|Washington]]\n|File:DenverCP.JPG|alt21=Denver|21.  [[Denver]],
+        [[Colorado]]\n|File:WashMonument WhiteHouse.jpg|alt22=Washington|22.  [[Washington,
+        D.C.|Washington, District of Columbia]]\n|File:Memphis skyline from the air.jpg|alt23=Memphis|23.  [[Memphis,
+        Tennessee]]\n|File:DowntownBoston.jpg|alt24=Boston|24.  [[Boston]], [[Massachusetts]]\n|File:Nashvilleskyline23.jpg|alt25=Nashville|25.  [[Nashville,
+        Tennessee]]\n|File:Bmore skyline inner harbor.jpg|alt26=Baltimore|26.  [[Baltimore]],
+        [[Maryland]]\n|File:Oklahoma city downtown.JPG|alt27=Oklahoma City|27.  [[Oklahoma
+        City]], [[Oklahoma]]\n|File:The Willamette.jpg|alt28=Portland|28.  [[Portland,
+        Oregon]]\n|File:City of Las Vegas skyline.jpg|alt29=Las Vegas|29.  [[Las Vegas]],
+        [[Nevada]]\n|File:Louisville skyline night.jpg|alt30=Louisville|30.  [[Louisville,
+        Kentucky]]\n|File:Milwaukee skyline.jpg|alt31=Milwaukee|31.  [[Milwaukee]],
+        [[Wisconsin]]\n|File:Alb Skyline.png|alt32=Albuquerque|32.  [[Albuquerque,
+        New Mexico]]\n|File:View of Tucson from Sentinel Peak 2.jpg|alt33=Tucson|33.  [[Tucson,
+        Arizona]]\n|File:Downtownfresnoskyline.jpg|alt34=Fresno|34.  [[Fresno, California]]\n|File:Sacramento
+        Riverfront.jpg|alt35=Sacramento|35.  [[Sacramento, California]]\n|File:Long
+        Beach, CA at night.jpg|alt36=Long Beach|36.  [[Long Beach, California]]\n|File:Kansas
+        City MO Skyline 14July2008v.jpg|alt37=Kansas City|37.  [[Kansas City, Missouri]]\n|File:Downtown
+        Mesa Arizona.jpg|alt38=Mesa|38.  [[Mesa, Arizona]]\n|File:Atlanta Skyline
+        from Buckhead.jpg|alt39=Atlanta|39.  [[Atlanta]], [[Georgia (U.S. state)|Georgia]]\n|File:VA
+        Beach Town Center.jpg|alt40=Virginia Beach|40.  [[Virginia Beach, Virginia]]\n|File:Omaha,
+        Nebraska, USA 2008.jpg|alt41=Omaha|41.  [[Omaha, Nebraska]]\n|File:CC COSPRINGS.jpg|alt42=Colorado
+        Springs|42.  [[Colorado Springs, Colorado]]\n|File:Downtown-Raleigh-from-Western-Boulevard-Overpass-20081012.jpeg|alt43=Raleigh|43.  [[Raleigh,
+        North Carolina]]\n|File:Downtown Miami skyline May 2011.jpg|alt44=Miami|44.  [[Miami]],
+        [[Florida]]\n|File:Oaklandatnight02192006.JPG|alt45=Oakland|45.  [[Oakland,
+        California]]\n|File:Minneapolis skyline 51.JPG|alt46=Minneapolis|46.  [[Minneapolis]],
+        [[Minnesota]]\n|File:Tommso.jpg|alt47=Tulsa|47.  [[Tulsa, Oklahoma]]\n|File:Downtown
+        Cleveland.JPG|alt48=Cleveland|48.  [[Cleveland]], [[Ohio]]\n|File:Wichita-ks.jpg|alt49=Wichita|49.  [[Wichita,
+        Kansas]]\n|File:Metairie Galleria.jpg|alt50=New Orleans|50.  [[New Orleans]],
+        [[Louisiana]]\n}}\n<onlyinclude><!--See [[Wikipedia talk:Featured lists#Proposed
+        change to all featured lists]] for an explanation of this and other inclusion
+        tags below-->\n\n==Puerto Rico==\n{{GeoGroup|section=Puerto Rico}}\n[[File:Skyline
+        of San Juan, Puerto Rico.jpg|thumb|240px|1.  [[San Juan, Puerto Rico|San Juan]],
+        [[Puerto Rico]]]]\nThe following table lists the five [[municipalities of
+        Puerto Rico|municipalities]] (''''[[municipalities of Puerto Rico|municipios]]'''')
+        of [[Puerto Rico]] with a population greater than 100,000 on July 1, 2014,
+        as estimated by the [[United States Census Bureau]].\n\nThe table below contains
+        the following information:\n\n# The municipio rank by population as of July
+        1, 2014, as estimated by the United States Census Bureau<ref name=PopEstPR>{{cite
+        web|url=http://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?src=bkmk
+        | title = Annual Estimates of the Resident Population: April 1, 2010 to July
+        1, 2014  | work = 2014 Census Population Estimates | publisher = U.S. Census
+        Bureau, Population Division | date = May 2015 | accessdate = May 22, 2015}}</ref>\n#
+        The municipio<ref name=PopEstPR/>\n# The municipio population as of July 1,
+        2014, as estimated by the United States Census Bureau<ref name=PopEstPR/>\n#
+        The municipio population as of April 1, 2010, as enumerated by the [[2010
+        United States Census]]<ref name=PopEstPR/>\n# The municipio percent population
+        change from April 1, 2010, to July 1, 2014\n# The municipio land area as of
+        January 1, 2010<ref name=\"USCBGazetteer\"/>\n# The municipio population density
+        as of April 1, 2010 (residents per land area)<ref name=USCBGazetteer/>\n#
+        The municipio latitude and longitude coordinates\n{{clear}}\n<!--  THE FOLLOWING
+        TABLE CONTAINS DATA FROM THE UNITED STATES CENSUS BUREAU.  DO NOT ALTER CENSUS
+        BUREAU DATA.  -->\n{| class=\"wikitable sortable\" style=\"text-align:center\"\n|-\n!2014
+        rank\n!Municipio\n!2014 estimate\n!2010 Census\n!Change\n!2010 land area\n!2010
+        population density\n!Location\n|-\n|1\n|align=left|''''''''''[[San Juan, Puerto
+        Rico|San Juan]]''''''''''\n| {{change|invert=on|365575|395326}}\n|{{nts|39.5}}&nbsp;sq&nbsp;mi<br
+        />102.3&nbsp;km<sup>2</sup>\n|{{nts|10008}}&nbsp;per&nbsp;sq&nbsp;mi<br />3,864&nbsp;km<sup>\u22122</sup>\n|{{coord|18.4064|N|66.0640|W|name=San
+        Juan}}\n|-\n|2\n|align=left|[[Bayam\u00f3n, Puerto Rico|Bayam\u00f3n]]\n|
+        {{change|invert=on|194210|208116}}\n|{{nts|27.0}}&nbsp;sq&nbsp;mi<br />69.9&nbsp;km<sup>2</sup>\n|{{nts|7716}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />2,979&nbsp;km<sup>\u22122</sup>\n|{{coord|18.3801|N|66.1633|W|name=Bayam\u00f3n}}\n|-\n|3\n|align=left|[[Carolina,
+        Puerto Rico|Carolina]]\n| {{change|invert=on|165820|176762}}\n|{{nts|20.7}}&nbsp;sq&nbsp;mi<br
+        />53.5&nbsp;km<sup>2</sup>\n|{{nts|8559}}&nbsp;per&nbsp;sq&nbsp;mi<br />3,305&nbsp;km<sup>\u22122</sup>\n|{{coord|18.4121|N|65.9798|W|name=Carolina}}\n|-\n|4\n|align=left|[[Ponce,
+        Puerto Rico|Ponce]]\n| {{change|invert=on|153540|166327}}\n|{{nts|30.6}}&nbsp;sq&nbsp;mi<br
+        />79.3&nbsp;km<sup>2</sup>\n|{{nts|5434}}&nbsp;per&nbsp;sq&nbsp;mi<br />2,098&nbsp;km<sup>\u22122</sup>\n|{{coord|17.9874|N|66.6097|W|name=Ponce}}\n|-\n|5\n|align=left|[[Caguas,
+        Puerto Rico|Caguas]]\n| {{change|invert=on|137032|142893}}\n|{{nts|10.9}}&nbsp;sq&nbsp;mi<br
+        />28.3&nbsp;km<sup>2</sup>\n|{{nts|13090}}&nbsp;per&nbsp;sq&nbsp;mi<br />5,054&nbsp;km<sup>\u22122</sup>\n|{{coord|18.2324|N|66.0390|W|name=Caguas}}\n|}\n\n<!--  THE
+        TABLE ABOVE CONTAINS DATA FROM THE UNITED STATES CENSUS BUREAU. DO NOT ALTER
+        CENSUS BUREAU DATA.  -->\n\n{{clear}}\n\n==Census-designated places==\n{{GeoGroup|section=Census-designated
+        places}}\nThe following table lists U.S. [[Census-designated place|census-designated
+        places (CDPs)]] with populations of at least 100,000 according to the 2010
+        Census.  A CDP is a [[Place (United States Census Bureau)|concentration of
+        population]] identified by the [[United States Census Bureau]] for statistical
+        purposes. CDPs are delineated for each decennial census as the statistical
+        counterparts of [[incorporated place]]s such as [[city|cities]], [[town]]s
+        and [[village]]s. CDPs are populated areas that lack separate municipal government,
+        but which otherwise physically resemble [[municipal corporation|incorporated]]
+        places.  Unlike the incorporated cities in the main list, the US Census Bureau
+        does not release annual population estimates for CDPs.\n\nThe table below
+        contains the following information:\n# The city\n# The state\n# The city population
+        as of April 1, 2010, as enumerated by the [[2010 United States Census]]\n#
+        The city population as of April 1, 2000, as enumerated by the [[2010 United
+        States Census]]\n# The city percent population change from April 1, 2000,
+        to April 1, 2010\n# The city land area as of January 1, 2010<ref name=\"USCBGazetteer\"/>\n#
+        The city population density as of April 1, 2010 (residents per land area)<ref
+        name=USCBGazetteer/>\n# The city [[American National Standards Institute|ANSI]]
+        [[International Committee for Information Technology Standards|INCITS]] 446\u20132008
+        geographic code\n# The city latitude and longitude coordinates\n{{clear}}\n\n<!--  THE
+        FOLLOWING TABLE CONTAINS DATA FROM THE UNITED STATES CENSUS BUREAU.  DO NOT
+        ALTER CENSUS BUREAU DATA.  -->\n{| class=\"wikitable sortable\" style=\"text-align:center\"\n|-\n!City\n!State\n!2010
+        Census\n!2000 Census\n!Change\n!2010 land area\n!2010 population density\n!ANSI\n!Location\n|-\n|align=left|[[Paradise,
+        Nevada|Paradise]]\n|align=left|[[Nevada]]\n| {{change|invert=on|223167|186070}}\n|{{nts|46.717}}&nbsp;sq&nbsp;mi<br
+        />120.997&nbsp;km<sup>2</sup>\n|{{nts|4,777}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />1,844&nbsp;km<sup>\u22122</sup>\n|02409023\n| <small>{{coord|36.08073|N|115.1368|W|name=Paradise
+        }}</small>\n|-\n|align=left|[[Arlington County, Virginia|Arlington]]\n|align=left|[[Virginia]]\n|
+        {{change|invert=on|207627|189453}}\n|{{nts|25.98}}&nbsp;sq&nbsp;mi<br />3085&nbsp;km<sup>2</sup>\n|{{nts|7992}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />3100&nbsp;km<sup>\u22122</sup>\n|\n| <small>{{coord|38.880|N|77.183|W|name=Arlington
+        }}</small>\n|-\n|align=left|[[Sunrise Manor, Nevada|Sunrise Manor]]\n|align=left|[[Nevada]]\n|
+        {{change|invert=on|189372|156120}}\n|{{nts|33.352}}&nbsp;sq&nbsp;mi<br />86.382&nbsp;km<sup>2</sup>\n|{{nts|5678}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />2,192&nbsp;km<sup>\u22122</sup>\n|02410035\n| <small>{{coord|36.1785|N|115.0490|W|name=Sunrise
+        Manor }}</small>\n|-\n|align=left|[[Spring Valley, Nevada|Spring Valley]]\n|align=left|[[Nevada]]\n|
+        {{change|invert=on|178395|117390}}\n|{{nts|33.226}}&nbsp;sq&nbsp;mi<br />86.056&nbsp;km<sup>2</sup>\n|{{nts|5369}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />2,073&nbsp;km<sup>\u22122</sup>\n|02408797\n| <small>{{coord|36.0987|N|115.2619|W|name=Spring
+        Valley }}</small>\n|-\n|align=left|[[Metairie, Louisiana|Metairie]]\n|align=left|[[Louisiana]]\n|
+        {{change|invert=on|138481|146136}}\n|{{nts|23.222}}&nbsp;sq&nbsp;mi<br />60.144&nbsp;km<sup>2</sup>\n|{{nts|5963}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />2,302&nbsp;km<sup>\u22122</sup>\n|02403282\n| <small>{{coord|29.9978|N|90.1779|W|name=Metairie
+        }}</small>\n|-\n|align=left|[[East Los Angeles, California|East Los Angeles]]\n|align=left|[[California]]\n|
+        {{change|invert=on|126496|124283}}\n|{{nts|7.448}}&nbsp;sq&nbsp;mi<br />19.291&nbsp;km<sup>2</sup>\n|{{nts|16984}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />6,557&nbsp;km<sup>\u22122</sup>\n|02408711\n| <small>{{coord|34.0315|N|118.1686|W|name=East
+        Los Angeles }}</small>\n|-\n|align=left|[[Enterprise, Nevada|Enterprise]]\n|align=left|[[Nevada]]\n|
+        {{change|invert=on|108481|14676}}\n|{{nts|46.513}}&nbsp;sq&nbsp;mi<br />120.467&nbsp;km<sup>2</sup>\n|{{nts|2332}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />901&nbsp;km<sup>\u22122</sup>\n|02408084\n| <small>{{coord|36.0182|N|115.2154|W|name=Enterprise
+        }}</small>\n|-\n|align=left|[[Brandon, Florida|Brandon]]\n|align=left|[[Florida]]\n|
+        {{change|invert=on|103483|77895}}\n|{{nts|33.101}}&nbsp;sq&nbsp;mi<br />85.731&nbsp;km<sup>2</sup>\n|{{nts|3126}}&nbsp;per&nbsp;sq&nbsp;mi<br
+        />1,207&nbsp;km<sup>\u22122</sup>\n|02402711\n| <small>{{coord|27.9360|N|82.2993|W|name=Brandon
+        }}</small>\n|}\n<!--  THE TABLE ABOVE CONTAINS DATA FROM THE UNITED STATES
+        CENSUS BUREAU.  DO NOT ALTER CENSUS BUREAU DATA.  -->\n{{clear}}\n\n==Cities
+        formerly over 100,000 people==\nThe following table lists U.S. cities that,
+        in past censuses, have had populations of at least 100,000 but have since
+        decreased beneath this threshold or have been consolidated with or annexed
+        into a neighboring city.\n\nThe table below contains the following information:\n#
+        Name of city\n# Name of state\n# The city population as of July 1, 2014, as
+        estimated by the United States Census Bureau<ref name=PopEstCities/>\n# The
+        city''s peak population based on highest official enumeration recorded by
+        the Census (and the year of that particular Census)\n# The numeric decline
+        in population from its peak Census count to the most recent Census estimate
+        in 2014.\n# The percent decline in population from its peak Census count to
+        the most recent Census estimate in 2014.\n# Any additional notes of significant
+        importance.\n{{clear}}\n<!--  THE FOLLOWING TABLE CONTAINS DATA FROM THE UNITED
+        STATES CENSUS BUREAU.  DO NOT ALTER CENSUS BUREAU DATA.  -->\n{|class=\"wikitable
+        sortable\"\n|-\n!City\n!State\n!2014 estimated population\n!Peak population
+        (year)\n!Numeric decline from<br /> peak population\n!Percent decline from<br
+        /> peak population\n!Notes\n|-\n|[[Albany, New York|Albany]]\n|[[New York]]\n|{{Nts|98566}}\n|{{Nts|134995}}
+        (1950)\n|{{decrease}}-36,429\n|{{decrease}}-26.99%\n|{{increase}}2.30% from
+        2000 to 2010\n|-\n|[[Allegheny, Pennsylvania|Allegheny]]\n|[[Pennsylvania]]\n|N/A\n|{{Nts|129896}}
+        (1900)\n|\u2013\n|\u2013\n|annexed by [[Pittsburgh]] in 1907\n|-\n|[[Brooklyn]]\n|[[New
+        York]]\n|N/A<ref>The population for Brooklyn in the 2010 Census was 2,504,700.  However,
+        since Brooklyn is now a borough of the City of New York and thus no longer
+        its own separate city, for the purposes of this chart, its current population
+        will be regarded as negligible.</ref>\n|{{Nts|806,343}} (1890)\n|\u2013\n|\u2013\n|consolidated
+        with [[New York City]] in 1898\n|-\n|[[Camden, New Jersey|Camden]]\n|[[New
+        Jersey]]\n|{{Nts|77332}}\n|{{Nts|124555}} (1950)\n|{{decrease}}-47,223\n|{{decrease}}-37.91%\n|\n|-\n|[[Canton,
+        Ohio|Canton]]\n|[[Ohio]]\n|{{Nts|72297}}\n|{{Nts|116912}} (1950)\n|{{decrease}}-44,615\n|{{decrease}}-38.16%\n|\n|-\n|[[Dearborn,
+        Michigan|Dearborn]]\n|[[Michigan]]\n|{{Nts|95535}}\n|{{Nts|112007}} (1960)\n|{{decrease}}-16,472\n|{{decrease}}-14.71%\n|{{increase}}9.93%
+        from 1990 to 2010\n|-\n|[[Duluth, Minnesota|Duluth]]\n|[[Minnesota]]\n|{{Nts|86238}}\n|{{Nts|107312}}
+        (1960)\n|{{decrease}}-21,074\n|{{decrease}}-19.64%\n|\n|-\n|[[Erie, Pennsylvania|Erie]]\n|[[Pennsylvania]]\n|{{Nts|99452}}\n|{{Nts|138440}}
+        (1960)\n|{{decrease}}-38,988\n|{{decrease}}-28.16%\n|\n|-\n|[[Fall River,
+        Massachusetts|Fall River]]\n|[[Massachusetts]]\n|{{Nts|88712}}\n|{{Nts|120485}}
+        (1920)\n|{{decrease}}-31,773\n|{{decrease}}-26.37%\n|\n|-\n|[[Flint, Michigan|Flint]]\n|[[Michigan]]\n|{{Nts|99002}}\n|{{Nts|196940}}
+        (1960)\n|{{decrease}}-97,938\n|{{decrease}}-49.73%\n|\n|-\n|[[Gary, Indiana|Gary]]\n|[[Indiana]]\n|{{Nts|77909}}\n|{{Nts|178320}}
+        (1960)\n|{{decrease}}-100,411\n|{{decrease}}-56.31%\n|\n|-\n|[[Hammond, Indiana|Hammond]]\n|[[Indiana]]\n|{{Nts|78384}}\n|{{Nts|111698}}
+        (1960)\n|{{decrease}}-33,314\n|{{decrease}}-29.83%\n|\n|-\n|[[Kenosha, Wisconsin|Kenosha]]\n|[[Wisconsin]]\n|{{Nts|99894}}\n|{{Nts|100150}}
+        (2012 est)*\n|{{decrease}}-256\n|{{decrease}}-0.26%\n|*Only recorded instance
+        of surpassing 100,000 was July 1, 2012 estimate\n|-\n|[[Livonia, Michigan|Livonia]]\n|[[Michigan]]\n|{{Nts|94958}}\n|{{Nts|110109}}
+        (1970)\n|{{decrease}}-15,151\n|{{decrease}}-13.76%\n|\n|-\n|[[Lynn, Massachusetts|Lynn]]\n|[[Massachusetts]]\n|{{Nts|92137}}\n|{{Nts|102320}}
+        (1930)\n|{{decrease}}-10,183\n|{{decrease}}-9.95%\n|{{increase}}15.11% from
+        1980 to 2010\n|-\n|[[New Bedford, Massachusetts|New Bedford]]\n|[[Massachusetts]]\n|{{Nts|94845}}\n|{{Nts|121217}}
+        (1920)\n|{{decrease}}-26,372\n|{{decrease}}-21.76%\n|{{increase}}1.39% from
+        2000 to 2010\n|-\n|[[Niagara Falls, New York|Niagara Falls]]\n|[[New York]]\n|{{Nts|49219}}\n|{{Nts|102394}}
+        (1960)\n|{{decrease}}-53,175\n|{{decrease}}-51.93%\n|\n|-\n|[[Parma, Ohio|Parma]]\n|[[Ohio]]\n|{{Nts|80015}}\n|{{Nts|100216}}
+        (1970)\n|{{decrease}}-20,201\n|{{decrease}}-20.16%\n|\n|-\n|[[Portsmouth,
+        Virginia|Portsmouth]]\n|[[Virginia]]\n|{{Nts|96004}}\n|{{Nts|114773}} (1960)\n|{{decrease}}-18,769\n|{{decrease}}-16.35%\n|\n|-\n|[[Reading,
+        Pennsylvania|Reading]]\n|[[Pennsylvania]]\n|{{Nts|87812}}\n|{{Nts|111171}}
+        (1930)\n|{{decrease}}-23,359\n|{{decrease}}-21.01%\n|{{increase}}12.38% from
+        1990 to 2010\n|-\n|[[Roanoke, Virginia|Roanoke]]\n|[[Virginia]]\n|{{Nts|99428}}\n|{{Nts|100220}}
+        (1980)\n|{{decrease}}-792\n|{{decrease}}-0.79%\n|{{increase}}2.23% from 2000
+        to 2010\n|-\n|[[Scranton, Pennsylvania|Scranton]]\n|[[Pennsylvania]]\n|{{Nts|75281}}\n|{{Nts|143333}}
+        (1930)\n|{{decrease}}-68,052\n|{{decrease}}-47.48%\n|\n|-\n|[[Somerville,
+        Massachusetts|Somerville]]\n|[[Massachusetts]]\n|{{Nts|78901}}\n|{{Nts|103908}}
+        (1930)\n|{{decrease}}-25,007\n|{{decrease}}-24.07%\n|\n|-\n|[[St. Joseph,
+        Missouri|St. Joseph]]\n|[[Missouri]]\n|{{Nts|76967}}\n|{{Nts|102979}} (1900)\n|{{decrease}}-26,012\n|{{decrease}}-25.26%\n|{{increase}}6.86%
+        from 1990 to 2010\n|-\n|[[Trenton, New Jersey|Trenton]]\n|[[New Jersey]]\n|{{Nts|84034}}\n|{{Nts|128009}}
+        (1950)\n|{{decrease}}-43,975\n|{{decrease}}-34.35%\n|\n|-\n|[[Utica, New York|Utica]]\n|[[New
+        York]]\n|{{Nts|61332}}\n|{{Nts|101740}} (1930)\n|{{decrease}}-40,408\n|{{decrease}}-39.72%\n|{{increase}}2.61%
+        from 2000 to 2010\n|-\n|[[Wilmington, Delaware|Wilmington]]\n|[[Delaware]]\n|{{Nts|71817}}\n|{{Nts|112504}}
+        (1940)\n|{{decrease}}-40,687\n|{{decrease}}-36.16%\n|\n|-\n|[[Youngstown,
+        Ohio|Youngstown]]\n|[[Ohio]]\n|{{Nts|65062}}\n|{{Nts|170002}} (1930)\n|{{decrease}}-104,940\n|{{decrease}}-61.73%\n|\n|}\n<!--  THE
+        TABLE ABOVE CONTAINS DATA FROM THE UNITED STATES CENSUS BUREAU.  DO NOT ALTER
+        CENSUS BUREAU DATA.  -->\n{{clear}}\n\n==See also==\n{{portal|Geography|<!--Demography-->|North
+        America|<!--Northern America-->|United States}}\n* [[Demographics of the United
+        States]]\n** [[United States Census Bureau]]\n*** [[List of U.S. states and
+        territories by population]]\n*** [[List of metropolitan areas of the United
+        States]]\n*** List of United States cities by population\n*** [[List of United
+        States counties and county equivalents]]\n<!-- ***[[Cities and metropolitan
+        areas of the United States]] -->\n** [[Office of Management and Budget|United
+        States Office of Management and Budget]]\n*** The OMB has defined [[Statistical
+        area (United States)|1098 statistical areas]] comprising [[List of Metropolitan
+        Statistical Areas|388&nbsp;MSAs]], [[List of Micropolitan Statistical Areas|541&nbsp;\u03bcSAs]],
+        and [[List of Combined Statistical Areas|169&nbsp;CSAs]]\n**** [[United States
+        primary statistical area|Primary statistical area]] \u2013 [[List of primary
+        statistical areas of the United States|List of the 574&nbsp;PSAs]]\n*****
+        [[Combined Statistical Area]] \u2013 [[List of Combined Statistical Areas|List
+        of the 169&nbsp;CSAs]]\n***** [[Core Based Statistical Area]] \u2013 [[List
+        of Core Based Statistical Areas|List of the 929&nbsp;CBSAs]]\n****** [[Metropolitan
+        Statistical Area]] \u2013 [[List of Metropolitan Statistical Areas|List of
+        the 388&nbsp;MSAs]]\n****** [[Micropolitan Statistical Area]] \u2013 [[List
+        of Micropolitan Statistical Areas|List of the 541&nbsp;\u03bcSAs]]\n* [[Largest
+        cities in the United States by population by decade]]\n* [[List of U.S. states''
+        largest cities by population]]\n* [[List of cities proper by population]]
+        (most populous cities in the world)\n* [[List of United States cities by area]]\n*
+        [[List of United States cities by population density]]\n* [[Lists of populated
+        places in the United States]]\n* [[Shrinking cities in the United States]]\n**
+        [[Largest cities in the United States by population by decade]]\n{{clear}}\n\n==References==\n{{reflist|30em}}\n\n==External
+        links==\n{{sister project links|United States|n=Portal:United States|voy=United
+        States}}\n* [http://www.usa.gov/ United States Government]\n** [http://www.census.gov/
+        United States Census Bureau]\n*** [http://2010.census.gov/2010census/ 2010
+        United States Census]\n*** [http://www.census.gov/popest/data/index.html USCB
+        population estimates]\n** [http://www.whitehouse.gov/omb/ United States Office
+        of Management and Budget]\n\n{{Featured list}}\n\n{{DEFAULTSORT:United States
+        Cities By Population}}\n\n[[Category:Lists of cities in the United States
+        by population| 01]]\n[[Category:United States demography-related lists|Cities
+        By Population]]\n[[Category:Demographics by city in the United States|.Population]]\n[[Category:Lists
+        of cities by population|United States]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2016-02-25T15:05:57Z","lastrevid":704333877,"length":127864,"fullurl":"https://en.wikipedia.org/wiki/List_of_United_States_cities_by_population","editurl":"https://en.wikipedia.org/w/index.php?title=List_of_United_States_cities_by_population&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/List_of_United_States_cities_by_population"}}}}'
+    http_version: 
+  recorded_at: Fri, 26 Feb 2016 14:25:59 GMT
+recorded_with: VCR 3.0.0
