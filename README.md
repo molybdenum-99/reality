@@ -188,7 +188,7 @@ or implicitly on `method_missing` or `describe` call.
 ar.head_of_state
 # => #<Reality::Entity?(Mauricio Macri)>
 ar.head_of_state.loaded?
- => false 
+# => false 
 ar.head_of_state.describe
 # ----------------------------------
 # #<Reality::Entity(Mauricio Macri)>
