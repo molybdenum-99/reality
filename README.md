@@ -11,7 +11,7 @@ inspectable and computable.
 ```ruby
 # Like this
 require 'reality'
-include Reality
+include Reality::Methods
 
 ar = Entity('Argentina')
 ar.cities.load!
