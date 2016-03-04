@@ -1,0 +1,350 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://en.wikipedia.org/w/api.php?action=query&format=json&inprop=url&prop=revisions%7Cinfo&redirects=true&rvprop=content&titles=List%20of%20cities%20in%20Italy
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Infoboxer/0.2.2 (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.9.4
+      Date:
+      - Fri, 26 Feb 2016 13:31:35 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '6506'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - HHVM/3.6.5
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=35597 t=1456493495293938
+      X-Varnish:
+      - 1471331746, 153467808, 3047030457
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1068 pass+chfp(0), cp3005 miss+chfp(0), cp3008 frontend pass+chfp(0)
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=UA:07:Kharkov:49.98:36.25:v4; Path=/; Domain=.wikipedia.org
+      - WMF-Last-Access=26-Feb-2016;Path=/;HttpOnly;Expires=Tue, 29 Mar 2016 12:00:00
+        GMT
+      X-Analytics:
+      - https=1;nocookies=1
+      X-Client-Ip:
+      - 94.179.103.153
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"10138926":{"pageid":10138926,"ns":0,"title":"List
+        of cities in Italy","revisions":[{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{see
+        also|Metropolitan cities of Italy}}\n\n==Metropolitan areas==\n[[File:Roman
+        Colosseum With Moon.jpg|thumb|300px|[[Rome]]]]\n[[File:DuomoDiMilano.jpg|thumb|300px|[[Milan]]]]\n[[File:Napoli6.png|thumb|300px|[[Naples]]]]\n[[File:Torino.jpg|thumb|300px|[[Turin]]]]\n[[File:Palermo02
+        flickr.jpg|thumb|300px|[[Palermo]]]]\n[[File:Porto di genova 003.jpg|thumb|300px|[[Genoa]]]]\n[[File:Bologna
+        seen from Asinelli tower.jpg|thumb|300px|[[Bologna]]]]\n[[File:Sunset over
+        florence 1.jpg|thumb|300px|[[Florence]]]]\n[[File:The port of Bari, Italy
+        (L. Massoptier).jpg|thumb|300px|[[Bari]]]]\n[[File:Piazza del Duomo, Catania,
+        Panorama.jpg|thumb|300px|[[Catania]]]]\n[[File:Venezia-punta della dogana.jpg|thumb|300px|[[Venice]]]]\n[[File:Verona
+        - Ponte di Castelvecchio.jpg|thumb|300px|[[Verona]]]]\n[[File:Messina-panorama
+        dal Campanile.jpg|thumb|300px|[[Messina]]]]\n[[File:15PiazzaSignori.jpg|thumb|300px|[[Padua]]]]\n[[File:Trieste-CityHall.jpg|thumb|300px|[[Trieste]]]]\n[[File:Castello
+        Aragonese(Taranto).JPG|thumb|300px|[[Taranto]]]]\n''''''Urban Outlook 2015,
+        Aree Metropolitane'''''' by ''''CityRailways''''\n<ref>http://www.cityrailways.net/studi-e-tecnica/2014/12/22/urban-outlook-2015.html</ref>\n{|
+        class=\"wikitable sortable\" style=\"text-align:left;\"\n|- style=\"font-size:100%;
+        text-align:center;\"\n!align=center|City\n!align=center|Population<br /><small>January
+        1, 2014</small>\n!align=center|Area<br /><small>(km<sup>2</sup>)</small>\n!align=center|Density<br
+        /><small>(inh./km<sup>2</sup>)</small>\n|-\n| [[Milan]] || align=right|1,337,155
+        || align=right|4,450.11 || align=right|1,488\n|-\n| [[Naples]] || align=right|990,005
+        || align=right|3,116.52 || align=right|1,699\n|-\n| [[Rome]] || align=right|4,447,881
+        || align=right|3,340.41 || align=right|1,332\n|-\n| [[Turin]] || align=right|911,823
+        || align=right|1,328.40 || align=right|1,404\n|-\n| [[Venice]]-[[Padua]] ||
+        align=right|1,645,900 || align=right|2,063.44 || align=right|768\n|-\n| [[Florence]]
+        || align=right|1,485,030 || align=right|2,124.22 || align=right|699\n|-\n|
+        [[Bari]] || align=right|1,257,459 || align=right|2,194.62 || align=right|573\n|-\n|
+        [[Palermo]] || align=right|1,183,084 || align=right|1,237.26 || align=right|956\n|-\n|
+        [[Catania]] || align=right|988,240 || align=right|771.32 || align=right|1,281\n|-\n|
+        [[Brescia]] || align=right|924,090 || align=right|1,287.18 || align=right|718\n|-\n|
+        [[Genoa]] || align=right|861,318 || align=right|721.81 || align=right|1,193\n|-\n|
+        [[Messina]]-[[Reggio Calabria]] || align=right|828,507 || align=right|1,405.42
+        || align=right|590\n|-\n| [[Rimini]] || align=right|748,352 || align=right|927.20
+        || align=right|807\n|-\n| [[Bologna]] || align=right|692,710 || align=right|1,034.18
+        || align=right|670\n|-\n| [[Modena]] || align=right|588,998 || align=right|964.48
+        || align=right|611\n|-\n| [[Verona]] || align=right|583,069 || align=right|862.26
+        || align=right|676\n|-\n| [[Pisa]]-[[Livorno]] || align=right|571,559 || align=right|1,079.84
+        || align=right|529\n|-\n| [[Pescara]] || align=right|529,070 || align=right|979.88
+        || align=right|540\n|-\n| ''''[[Versilia]]'''' || align=right|522,092 || align=right|696.73
+        || align=right|749\n|-\n| [[Vicenza]] || align=right|480,392 || align=right|691.38
+        || align=right|695\n|-\n| [[Cagliari]] || align=right|452,816 || align=right|895.28
+        || align=right|506\n|-\n| [[Taranto]] || align=right|439,730 || align=right|1,000.65
+        || align=right|439\n|-\n| [[Trieste]] || align=right|409,905 || align=right|572.58
+        || align=right|716\n|-\n| [[Ancona]] || align=right|408,358 || align=right|854.48
+        || align=right|478\n|-\n| [[Perugia]] || align=right|348,952 || align=right|1,135.07
+        || align=right|307\n|-\n| [[Lecce]] || align=right|345,476 || align=right|768.65
+        || align=right|449\n|-\n| [[Reggio nell''Emilia]] || align=right|307,817 ||
+        align=right|658.75 || align=right|467\n|-\n| [[Parma]] || align=right|305,826
+        || align=right|682.46 || align=right|448\n|}\n\n===Comuni===\nThe following
+        is a list of [[Italy|Italian]] [[comuni|municipalities]] with population over
+        50,000.<ref>[http://demo.istat.it/bil2010/index.html Istat demographic balance
+        2010]</ref> Figures are based on 1981, 1991, 2001 and 2011 [[National Institute
+        of Statistics (Italy)|Istat]] [[census]]es.\n\n{| class=\"wikitable sortable\"
+        style=\"text-align:right;\"\n!align=\"center\" | Rank (in 2011)\n!align=\"center\"
+        | City\n!align=\"center\" | 1981 Census\n!align=\"center\" | 1991 Census\n!align=\"center\"
+        | 2001 Census\n!align=\"center\" | 2011 Census\n!align=\"center\" | Region\n|-\n|
+        1 || align=\"left\" | [[Rome]] || 2,840,259\n || 2,775,250 || 2,546,804 ||
+        2,617,175 || align=\"left\" | [[Lazio]]\n|-\n| 2 || align=\"left\" | [[Milan]]
+        || 1,604,773 || 1,369,231 || 1,256,211 || 1,242,123 || align=\"left\" | [[Lombardy]]\n|-\n|
+        3 || align=\"left\" | [[Naples]] || 1,212,387 || 1,067,365 || 1,004,500 ||
+        962,003 || align=\"left\" | [[Campania]]\n|-\n| 4 || align=\"left\" | [[Turin]]
+        || 1,117,154 || 962,507 || 865,263 || 872,367 || align=\"left\" | [[Piedmont]]\n|-\n|
+        5 || align=\"left\" | [[Palermo]] || 701,782 || 698,556 || 686,722 || 657,651
+        || align=\"left\" | [[Sicily]]\n|-\n| 6 || align=\"left\" | [[Genoa]] || 762,895
+        || 678,771 || 610,307 || 586,180 || align=\"left\" | [[Liguria]] \n|-\n| 7
+        || align=\"left\" | [[Bologna]] || 459,080 || 404,378 || 371,217 || 371,337
+        || align=\"left\" | [[Emilia-Romagna]]\n|-\n| 8 || align=\"left\" | [[Florence]]
+        || 448,331 || 403,294 || 356,118 || 358,079 || align=\"left\" | [[Tuscany]]
+        \n|-\n| 9 || align=\"left\" | [[Bari]] || 371,022 || 342,309 || 316,532 ||
+        315,933 || align=\"left\" | [[Apulia]]\n|-\n| 10 || align=\"left\" | [[Catania]]
+        || 380,328 || 333,075 || 313,110 || 293,902 || align=\"left\" | [[Sicily]]\n|-\n|
+        11 || align=\"left\" | [[Venice]] || 346,146 || 309,422 || 271,073 || 261,362
+        || align=\"left\" | [[Veneto]]\n|-\n| 12 || align=\"left\" | [[Verona]] ||
+        265,932 || 255,824 || 253,208 || 260,172 || align=\"left\" | [[Veneto]]\n|-\n|
+        13 || align=\"left\" | [[Messina]] || 260,233 || 231,693 || 252,026 || 243,262
+        || align=\"left\" | [[Sicily]]\n|-\n| 14 || align=\"left\" | [[Padua]] ||
+        234,678 || 215,137 || 204,870 || 206,192 || align=\"left\" | [[Veneto]]\n|-\n|
+        15 || align=\"left\" | [[Trieste]] || 252,369 || 231,100 || 211,184 || 202,123
+        || align=\"left\" | [[Friuli-Venezia Giulia]]\n|-\n| 16 || align=\"left\"
+        | [[Taranto]] || 244,101 || 232,334 || 202,033 || 200,154 || align=\"left\"
+        | [[Apulia]]\n|-\n| 17 || align=\"left\" | [[Brescia]] || 206,661 || 194,502
+        || 187,567 || 189,902 || align=\"left\" | [[Lombardy]]\n|-\n| 18 || align=\"left\"
+        | [[Prato]] || 160,220 || 165,707 || 172,499 || 185,456 || align=\"left\"
+        | [[Tuscany]]\n|-\n| 19 || align=\"left\" | [[Reggio Calabria]] || 173,486
+        || 177,580 || 180,353 || 180,817 || align=\"left\" | [[Calabria]]\n|-\n| 20
+        || align=\"left\" | [[Modena]] || 180,312 || 176,990 || 175,502 || 179,149
+        || align=\"left\" | [[Emilia-Romagna]]\n|-\n| 21 || align=\"left\" | [[Parma]]
+        || 179,019 || 170,520 || 163,457 || 175,895 || align=\"left\" | [[Emilia-Romagna]]\n|-\n|
+        22 || align=\"left\" | [[Perugia]] || 142,348 || 144,732 || 149,125 || 162,449
+        || align=\"left\" | [[Umbria]]\n|-\n| 23 || align=\"left\" | [[Reggio Emilia]]
+        || 130,376 || 132,030 || 141,877 || 162,082 || align=\"left\" | [[Emilia-Romagna]]\n|-\n|
+        24 || align=\"left\" | [[Livorno]] || 175,741 || 167,512 || 156,274 || 157,052
+        || align=\"left\" | [[Tuscany]]\n|-\n| 25 || align=\"left\" | [[Ravenna]]
+        || 138,034 || 135,844 || 134,631 || 153,740 || align=\"left\" | [[Emilia-Romagna]]\n|-\n|
+        26 || align=\"left\" | [[Foggia]] || 156,467 || 156,268 || 155,203 || 152,747
+        || align=\"left\" | [[Apulia]]\n|-\n| 27 || align=\"left\" | [[Cagliari]]<ref>[[Cagliari
+        metropolitan area]]</ref> || 233,848 || 204,237 || 164,249 || 149,576 || align=\"left\"
+        | [[Sardinia]] \n|-\n| 28 || align=\"left\" | [[Rimini]] || 127,813 || 127,960
+        || 128,656 || 143,321 || align=\"left\" | [[Emilia-Romagna]]\n|-\n| 29 ||
+        align=\"left\" | [[Salerno]] || 157,385 || 148,932 || 138,188 || 139,019 ||
+        align=\"left\" | [[Campania]]\n|-\n| 30 || align=\"left\" | [[Ferrara]] ||
+        149,453 || 138,015 || 130,992 || 135,369 || align=\"left\" | [[Emilia-Romagna]]\n|-\n|
+        31 || align=\"left\" | [[Sassari]] || 119,596 || 122,339 || 120,729 || 130,658
+        || align=\"left\" | [[Sardinia]]\n|-\n| 32 || align=\"left\" | [[Syracuse,
+        Sicily|Syracuse]] || 117,615 || 125,941 || 123,657 || 123,850 || align=\"left\"
+        | [[Sicily]]\n|-\n| 33 || align=\"left\" | [[Pescara]] || 131,330 || 122,236
+        || 116,286 || 123,077 || align=\"left\" | [[Abruzzo]]\n|-\n| 34 || align=\"left\"
+        | [[Monza]] || 123,145 || 120,651 || 120,204 || 122,712 || align=\"left\"
+        | [[Lombardy]]\n|-\n| 35 || align=\"left\" | [[Latina, Lazio|Latina]] || 93,738
+        || 106,203 || 107,898 || 119,804 || align=\"left\" | [[Lazio]]\n|-\n| 36 ||
+        align=\"left\" | [[Bergamo]] || 122,142 || 114,936 || 113,143 || 119,551 ||
+        align=\"left\" | [[Lombardy]]\n|-\n| 37 || align=\"left\" | [[Forl\u00ec]]
+        || 110,806 || 109,541 || 108,335 || 118,167 || align=\"left\" | [[Emilia-Romagna]]\n|-\n|
+        38 || align=\"left\" | [[Giugliano in Campania]] || 44,220 || 60,096 || 97,999
+        || 117,963 || align=\"left\" | [[Campania]]\n|-\n| 39 || align=\"left\" |
+        [[Trento]] || 99,179 || 101,545 || 104,946 || 116,298 || align=\"left\" |
+        [[Trentino-Alto Adige/S\u00fcdtirol|Trentino-Alto Adige]]\n|-\n| 40 || align=\"left\"
+        | [[Vicenza]] || 114,598 || 107,454 || 107,223 || 115,927 || align=\"left\"
+        | [[Veneto]]\n|-\n| 41 || align=\"left\" | [[Terni]] || 111,564 || 108,248
+        || 105,018 || 113,324 || align=\"left\" | [[Umbria]]\n|-\n| 42 || align=\"left\"
+        | [[Novara]] || 102,086 || 101,112 || 100,910 || 105,024 || align=\"left\"
+        | [[Piedmont]]\n|-\n| 43 || align=\"left\" | [[Bolzano]] ||  105,180 || 98,158
+        || 94,989 || 104,029 || align=\"left\" | [[Trentino-Alto Adige/S\u00fcdtirol|Trentino-Alto
+        Adige]]\n|-\n| 44 || align=\"left\" | [[Piacenza]] || 109,039 || 102,268 ||
+        95,594 || 103,206 || align=\"left\" | [[Emilia-Romagna]]\n|-\n| 45 || align=\"left\"
+        | [[Ancona]] || 106,498 || 101,285 || 100,507 || 102,997 || align=\"left\"
+        | [[Marche]]\n|-\n| 46 || align=\"left\" | [[Arezzo]] || 92,105 || 91,626
+        || 91,589 || 100,212 || align=\"left\" | [[Tuscany]]\n|-\n| 47 || align=\"left\"
+        | [[Andria, Italy|Andria]] || 84,661 || 90,063 || 95,653 || 100,086 || align=\"left\"
+        | [[Apulia]]\n|-\n| 48 || align=\"left\" | [[Udine]] || 102,021 || 99,189
+        || 95,030 || 99,627 || align=\"left\" | [[Friuli-Venezia Giulia]]\n|-\n| 49
+        || align=\"left\" | [[Cesena]] || 89,455 || 88,487 || 90,948 || 97,056 ||
+        align=\"left\" | [[Emilia-Romagna]]\n|-\n| 50 || align=\"left\" | [[Lecce]]
+        || 91,289 || 100,884 || 83,303 || 95,520 || align=\"left\" | [[Apulia]]\n|-\n|
+        51 || align=\"left\" | [[La Spezia]] || 115,392 || 101,442 || 91,391 || 95,378
+        || align=\"left\" | [[Liguria]]\n|-\n| 52 || align=\"left\" | [[Pesaro]] ||
+        90,412 || 88,713 || 91,086 || 95,011 || align=\"left\" | [[Marche]]\n|-\n|
+        53 || align=\"left\" | [[Alessandria]] || 100,523 || 90,753 || 85,438 || 94,974
+        || align=\"left\" | [[Piedmont]]\n|-\n| 54 || align=\"left\" | [[Barletta]]
+        || 83,453 || 89,527 || 92,094 || 94,459 || align=\"left\" | [[Apulia]]\n|-\n|
+        55 || align=\"left\" | [[Catanzaro]] || 100,832 || 96,614 || 95,251 || 93,124
+        || align=\"left\" | [[Calabria]]\n|-\n| 56 || align=\"left\" | [[Pistoia]]
+        || 92,274 || 87,830 || 84,274 || 90,288 || align=\"left\" | [[Tuscany]]\n|-\n|
+        57 || align=\"left\" | [[Brindisi]] || 89,786 || 95,383 || 89,081 || 89,780
+        || align=\"left\" | [[Apulia]]\n|-\n| 58 || align=\"left\" | [[Pisa]] || 104,509
+        || 98,928 || 89,694 || 88,217 || align=\"left\" | [[Tuscany]]\n|-\n| 59 ||
+        align=\"left\" | [[Torre del Greco]] || 103,605 || 101,361 || 90,607 || 87,197
+        || align=\"left\" | [[Campania]]\n|-\n| 60 || align=\"left\" | [[Como]] ||
+        95,571 || 87,059 || 78,680 || 85,263 || align=\"left\" | [[Lombardy]]\n|-\n|
+        61 || align=\"left\" | [[Lucca]] || 91,246 || 87,100 || 81,862 || 84,939 ||
+        align=\"left\" | [[Tuscany]]\n|-\n| 62 || align=\"left\" | [[Guidonia Montecelio]]
+        || 50,816 || 57,473 || 67,516 || 83,736 || align=\"left\" | [[Lazio]]\n|-\n|
+        63 || align=\"left\" | [[Pozzuoli]] || 69,861 || 75,142 || 78,754 || 83,459
+        || align=\"left\" | [[Campania]]\n|-\n| 64 || align=\"left\" | [[Treviso]]
+        || 87,696 || 83,598 || 80,144 || 82,807 || align=\"left\" | [[Veneto]]\n|-\n|
+        65 || align=\"left\" | [[Marsala]] || 79,175 || 80,177 || 77,784 || 82,774
+        || align=\"left\" | [[Sicily]]\n|-\n| 66 || align=\"left\" | [[Grosseto]]
+        || 69,523 || 71,257 || 71,263 || 81,928 || align=\"left\" | [[Tuscany]]\n|-\n|
+        67 || align=\"left\" | [[Busto Arsizio]] || 79,728 || 77,094 || 75,916 ||
+        81,760 || align=\"left\" | [[Lombardy]]\n|-\n| 68 || align=\"left\" | [[Varese]]
+        || 90,527 || 85,687 || 80,511 || 81,579 || align=\"left\" | [[Lombardy]]\n|-\n|
+        69 || align=\"left\" | [[Sesto San Giovanni]] || 95,833 || 86,721 || 78,850
+        || 81,130 || align=\"left\" | [[Lombardy]]\n|-\n| 70 || align=\"left\" | [[Casoria]]
+        || 68,521 || 79,707 || 81,888 || 79,562 || align=\"left\" | [[Campania]]\n|-\n|
+        71 || align=\"left\" | [[Caserta]] || 66,318 || 69,027 || 75,208 || 78,693
+        || align=\"left\" | [[Campania]]\n|-\n| 72 || align=\"left\" | [[Gela]] ||
+        74,806 || 72,535 || 72,774 || 77,360 || align=\"left\" | [[Sicily]]\n|-\n|
+        73 || align=\"left\" | [[Asti]] || 77,681 || 73,557 || 71,276 || 76,534 ||
+        align=\"left\" | [[Piedmont]]\n|-\n| 74 || align=\"left\" | [[Cinisello Balsamo]]
+        || 80,757 || 76,262 || 72,050 || 75,150 || align=\"left\" | [[Lombardy]]\n|-\n|
+        75 || align=\"left\" | [[Ragusa, Italy|Ragusa]] || 64,492 || 67,535 || 68,956
+        || 73,743 || align=\"left\" | [[Sicily]]\n|-\n| 76 || align=\"left\" | [[L''Aquila|L\u2019Aquila]]
+        || 63,678 || 66,813 || 68,503 || 72,511 || align=\"left\" | [[Abruzzo]]\n|-\n|
+        77 || align=\"left\" | [[Cremona]] || 80,929 || 74,113 || 70,887 || 72,147
+        || align=\"left\" | [[Lombardy]]\n|-\n| 78 || align=\"left\" | [[Quartu Sant''Elena]]
+        || 43,896 || 61,636 || 68,040 || 71,779 || align=\"left\" | [[Sardinia]]\n|-\n|
+        79 || align=\"left\" | [[Lamezia Terme]] || 63,989 || 70,114 || 70,501 ||
+        71,286 || align=\"left\" | [[Calabria]]\n|-\n| 80 || align=\"left\" | [[Pavia]]
+        || 85,029 || 76,962 || 71,214 || 71,142 || align=\"left\" | [[Lombardy]]\n|-\n|
+        81 || align=\"left\" | [[Fiumicino]] || 37,492 || 41,342 || 50,535 || 70,985
+        || align=\"left\" | [[Lazio]]\n|-\n| 82 || align=\"left\" | [[Massa]] || 65,687
+        || 66,737 || 66,769 || 70,973 || align=\"left\" | [[Tuscany]]\n|-\n| 83 ||
+        align=\"left\" | [[Trapani]] || 71,927 || 69,497 || 68,346 || 70,622 || align=\"left\"
+        | [[Sicily]]\n|-\n| 84 || align=\"left\" | [[Aprilia, Lazio|Aprilia]] || 37,807
+        || 47,037 || 56,028 || 70,349 || align=\"left\" | [[Lazio]]\n|-\n| 85 || align=\"left\"
+        | [[Cosenza]] || 106,801 || 86,664 || 72,998 || 70,068 || align=\"left\" |
+        [[Calabria]]\n|-\n| 86 || align=\"left\" | [[Altamura]] || 51,346 || 57,874
+        || 64,167 || 70,023 || align=\"left\" | [[Apulia]]\n|-\n| 87 || align=\"left\"
+        | [[Imola]] || 60,661 || 62,567 || 64,348 || 69,116 || align=\"left\" | [[Emilia-Romagna]]\n|-\n|
+        88 || align=\"left\" | [[Carpi (Modena)|Carpi]] || 60,614 || 60,715 || 61,476
+        || 69,021 || align=\"left\" | [[Emilia-Romagna]]\n|-\n| 89 || align=\"left\"
+        | [[Potenza]] || 64,358 || 65,714 || 69,060 || 68,297 || align=\"left\" |
+        [[Basilicata]]\n|-\n| 90 || align=\"left\" | [[Carrara]] || 68,702 || 67,197
+        || 65,034 || 65,573 || align=\"left\" | [[Tuscany]]\n|-\n| 91 || align=\"left\"
+        | [[Castellammare di Stabia]] || 70,685 || 68,733 || 66,929 || 64,506 || align=\"left\"
+        | [[Campania]]\n|-\n| 92 || align=\"left\" | [[Viareggio]] || 58,263 || 57,514
+        || 61,103 || 64,503 || align=\"left\" | [[Tuscany]]\n|-\n| 93 || align=\"left\"
+        | [[Fano]] || 52,116 || 53,909 || 57,529 || 64,100 || align=\"left\" | [[Marche]]\n|-\n|
+        94 || align=\"left\" | [[Afragola]] || 57,367 || 60,065 || 62,319 || 63,981
+        || align=\"left\" | [[Campania]]\n|-\n| 95 || align=\"left\" | [[Vigevano]]
+        || 65,179 || 60,384 || 57,450 || 63,700 || align=\"left\" | [[Lombardy]]\n|-\n|
+        96 || align=\"left\" | [[Viterbo]] || 57,632 || 58,380 || 59,308 || 63,597
+        || align=\"left\" | [[Lazio]]\n|-\n| 97 || align=\"left\" | [[Vittoria, Sicily|Vittoria]]
+        || 51,240 || 55,280 || 55,317 || 63,332 || align=\"left\" | [[Sicily]]\n|-\n|
+        98 || align=\"left\" | [[Savona]] || 75,353 || 67,177 || 59,907 || 62,553
+        || align=\"left\" | [[Liguria]]\n|-\n| 99 || align=\"left\" | [[Benevento]]
+        || 62,636 || 62,561 || 61,791 || 62,035 || align=\"left\" | [[Campania]]\n|-\n|
+        100 || align=\"left\" | [[Crotone]] || 58,262 || 59,001 || 60,010 || 61,798
+        || align=\"left\" | [[Calabria]]\n|-\n| 101 || align=\"left\" | [[Pomezia]]
+        || 29,925 || 37,512 || 43,960 || 61,106 || align=\"left\" | [[Lazio]]\n|-\n|
+        102 || align=\"left\" | [[Matera]] || 50,712 || 54,919 || 57,785 || 60,818
+        || align=\"left\" | [[Basilicata]]\n|-\n| 103 || align=\"left\" | [[Caltanissetta]]
+        || 61,146 || 61,319 || 61,438 || 60,267 || align=\"left\" | [[Sicily]]\n|-\n|
+        104 || align=\"left\" | [[Molfetta]] || 65,625 || 66,839 || 62,546 || 60,159
+        || align=\"left\" | [[Apulia]]\n|-\n| 105 || align=\"left\" | [[Marano di
+        Napoli]] || 41,571 || 47,961 || 57,448 || 59,472 || align=\"left\" | [[Campania]]\n|-\n|
+        106 || align=\"left\" | [[Agrigento]] || 51,325 || 55,283 || 54,619 || 59,175
+        || align=\"left\" | [[Sicily]]\n|-\n| 107 || align=\"left\" | [[Legnano]]
+        || 49,687 || 50,018 || 53,797 || 59,147 || align=\"left\" | [[Lombardy]]\n|-\n|
+        108 || align=\"left\" | [[Cerignola]] || 50,819 || 55,052 || 57,366 || 59,103
+        || align=\"left\" | [[Apulia]]\n|-\n| 109 || align=\"left\" | [[Moncalieri]]
+        || 64,035 || 59,700 || 53,350 || 58,320 || align=\"left\" | [[Piedmont]]\n|-\n|
+        110 || align=\"left\" | [[Foligno]] || 52,551 || 53,202 || 51,130 || 58,162
+        || align=\"left\" | [[Umbria]]\n|-\n| 111 || align=\"left\" | [[Faenza]] ||
+        55,167 || 54,139 || 53,641 || 58,150 || align=\"left\" | [[Emilia-Romagna]]\n|-\n|
+        112 || align=\"left\" | [[Manfredonia]] || 53,030 || 58,318 || 57,704 || 57,455
+        || align=\"left\" | [[Apulia]]\n|-\n| 113 || align=\"left\" | [[Sanremo]]
+        || 61,170 || 56,003 || 50,608 || 56,962 || align=\"left\" | [[Liguria]]\n|-\n\n|
+        114 || align=\"left\" | [[Tivoli, Italy|Tivoli]] || 50,985 || 52,372 || 49,342
+        || 56,531 || align=\"left\" | [[Lazio]]\n|-\n| 115 || align=\"left\" | [[Bitonto]]
+        || 49,714 || 53,772 || 56,929 || 56,462 || align=\"left\" | [[Apulia]]\n|-\n|
+        116 || align=\"left\" | [[Avellino]] || 56,892 || 55,662 || 52,703 || 56,339
+        || align=\"left\" | [[Campania]]\n|-\n| 117 || align=\"left\" | [[Bagheria]]
+        || 40,076 || 47,085 || 50,854 || 56,336 || align=\"left\" | [[Sicily]]\n|-\n|
+        118 || align=\"left\" | [[Acerra]] || 36,052 || 41,311 || 45,688 || 56,177
+        || align=\"left\" | [[Campania]]\n|-\n| 119 || align=\"left\" | [[Olbia]]
+        || 30,787 || 41,095 || 45,366 || 56,066 || align=\"left\" | [[Sardinia]]\n|-\n|
+        120 || align=\"left\" | [[Cuneo]] || 55,875 || 55,794 || 52,334 || 55,714
+        || align=\"left\" | [[Piedmont]]\n|-\n| 121 || align=\"left\" | [[Anzio]]
+        || 27,169 || 33,497 || 36,952 || 55,413 || align=\"left\" | [[Lazio]]\n|-\n|
+        122 || align=\"left\" | [[San Severo]] || 54,205 || 55,085 || 55,861 || 55,321
+        || align=\"left\" | [[Apulia]]\n|-\n| 123 || align=\"left\" | [[Modica]] ||
+        47,537 || 50,529 || 52,639 || 55,196 || align=\"left\" | [[Sicily]]\n|-\n|
+        124 || align=\"left\" | [[Teramo]] || 51,092 || 51,756 || 51,023 || 54,957
+        || align=\"left\" | [[Abruzzo]]\n|-\n| 125 || align=\"left\" | [[Bisceglie]]
+        || 46,538 || 47,408 || 51,718 || 54,847 || align=\"left\" | [[Apulia]]\n|-\n|
+        126 || align=\"left\" | [[Ercolano]] || 58,310 || 61,233 || 56,738 || 54,779
+        || align=\"left\" | [[Campania]]\n|-\n| 127 || align=\"left\" | [[Siena]]
+        || 61,989 || 56,956 || 52,625 || 54,543 || align=\"left\" | [[Tuscany]]\n|-\n|
+        128 || align=\"left\" | [[Chieti]] || 54,927 || 55,876 || 52,486 || 54,305
+        || align=\"left\" | [[Abruzzo]]\n|-\n| 129 || align=\"left\" | [[Portici]]
+        || 80,410 || 68,980 || 60,218 || 53,981 || align=\"left\" | [[Campania]]\n|-\n|
+        130 || align=\"left\" | [[Trani]] || 44,510 || 50,429 || 53,139 || 53,940
+        || align=\"left\" | [[Apulia]]\n|-\n| 131 || align=\"left\" | [[Velletri]]
+        || 41,213 || 43,423 || 48,236 || 53,544 || align=\"left\" | [[Lazio]]\n|-\n|
+        132 || align=\"left\" | [[Cava de'' Tirreni]] || 50,667 || 52,502 || 52,616
+        || 53,520 || align=\"left\" | [[Campania]]\n|-\n| 133 || align=\"left\" |
+        [[Acireale]] || 48,493 || 46,199 || 50,190 || 53,122 || align=\"left\" | [[Sicily]]\n|-\n|
+        134 || align=\"left\" | [[Rovigo]] || 52,218 || 52,472 || 50,289 || 52,793
+        || align=\"left\" | [[Veneto]]\n|-\n| 135 || align=\"left\" | [[Civitavecchia]]
+        || 49,389 || 51,201 || 50,032 || 52,294 || align=\"left\" | [[Lazio]]\n|-\n|
+        136 || align=\"left\" | [[Gallarate]] || 47,259 || 44,977 || 46,361 || 51,751
+        || align=\"left\" | [[Lombardy]]\n|-\n| 137 || align=\"left\" | [[Pordenone]]
+        || 52,094 || 50,192 || 49,122 || 51,723 || align=\"left\" | [[Friuli-Venezia
+        Giulia]]\n|-\n| 138 || align=\"left\" | [[Aversa]] || 56,425 || 54,032 ||
+        53,369 || 51,631 || align=\"left\" | [[Campania]]\n|-\n| 139 || align=\"left\"
+        | [[Montesilvano]] || 29,240 || 35,153 || 40,700 || 51,565 || align=\"left\"
+        | [[Abruzzo]]\n|-\n| 140 || align=\"left\" | [[Mazara del Vallo]] || 43,748
+        || 47,750 || 50,377 || 51,492 || align=\"left\" | [[Sicily]]\n|-\n| 141 ||
+        align=\"left\" | [[Ascoli Piceno]] || 54,298 || 53,591 || 51,375 || 51,168
+        || align=\"left\" | [[Marche]]\n|-\n| 142 || align=\"left\" | [[Battipaglia]]
+        || 40,797 || 47,139 || 50,359 || 51,133 || align=\"left\" | [[Campania]]\n|-\n|
+        143 || align=\"left\" | [[Campobasso]] || 48,291 || 50,941 || 50,762 || 50,916
+        || align=\"left\" | [[Molise]]\n|-\n| 144 || align=\"left\" | [[Scafati]]
+        || 34,061 || 40,710 || 47,082 || 50,794 || align=\"left\" | [[Campania]]\n|-\n|
+        145 || align=\"left\" | [[Casalnuovo di Napoli]] || 21,033 || 33,827 || 47,940
+        || 50,724 || align=\"left\" | [[Campania]]\n|-\n| 146 || align=\"left\" |
+        [[Rho (Italy)|Rho]] || 50,666 || 51,848 || 50,246 || 50,686 || align=\"left\"
+        | [[Lombardy]]\n|-\n| 147 || align=\"left\" | [[Chioggia]] || 53,470 || 53,179
+        || 51,779 || 50,674 || align=\"left\" | [[Veneto]]\n|-\n| 148 || align=\"left\"
+        | [[Scandicci]] || 54,038 || 53,523 || 50,136 || 50,309 || align=\"left\"
+        | [[Tuscany]]\n|-\n| 149 || align=\"left\" | [[Collegno]] || 46,578 || 47,161
+        || 46,641 || 50,135 || align=\"left\" | [[Piedmont]]\n|-\n|}\n\n== References
+        ==\n{{Reflist}}\n\n{{Cities in Italy}}\n{{Italy topics}}\n{{List of cities
+        in Europe}}\n\n[[Category:Lists of cities in Italy| ]]\n[[Category:Lists of
+        cities by country|Italy]]\n[[Category:Lists of cities by population|Italy]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2016-02-20T19:46:03Z","lastrevid":705989374,"length":21516,"fullurl":"https://en.wikipedia.org/wiki/List_of_cities_in_Italy","editurl":"https://en.wikipedia.org/w/index.php?title=List_of_cities_in_Italy&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/List_of_cities_in_Italy"}}}}'
+    http_version: 
+  recorded_at: Fri, 26 Feb 2016 13:31:35 GMT
+recorded_with: VCR 3.0.0

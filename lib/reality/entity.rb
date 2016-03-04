@@ -1,81 +1,135 @@
 module Reality
-  require_ %w[entity/class entity/properties entity/list]
+  require_ %w[entity/coercion entity/wikidata_predicates entity/wikipedia_type]
   
   class Entity
     using Refinements
     
-    attr_reader :name, :entity_class
+    attr_reader :wikipage, :wikidata, :wikidata_id
+    attr_reader :values, :wikipedia_type
     
-    def initialize(name, wikipage: nil, wikidata: nil, load: false)
+    def initialize(name, wikipage: nil, wikidata: nil, wikidata_id: nil, load: false)
       @name = name
-      @wikipage, @wikidata = wikipage, wikidata
-      load! if load # TODO: only partial load, like {load: :wikipage}
+      @wikipage, @wikidata, @wikidata_id = wikipage, wikidata, wikidata_id
+      @values = {}
+      
+      load! if load
       after_load if @wikipage
     end
 
+    def name
+      @wikipage ? @wikipage.title : @name
+    end
+
     def inspect
-      "#<#{entity_class || self.class}(#{name})>"
+      if @wikipedia_type && @wikipedia_type.symbol
+        "#<#{self.class}#{loaded? ? '' : '?'}(#{name}):#{@wikipedia_type.symbol}>"
+      else
+        "#<#{self.class}#{loaded? ? '' : '?'}(#{name})>"
+      end
+    end
+
+    def _describe
+      load! unless loaded?
+      Util::Format.describe(inspect, values.map{|k,v| [k, v.inspect]})
+    end
+
+    def describe
+      puts _describe
+      nil
     end
 
     def to_s
       name
     end
 
-    def wikipage
-      load! unless @wikipage
-      @wikipage ||= Infoboxer.wikipedia.get(name)
-    end
-
-    def wikidata
-      load! unless @wikidata
-      @wikidata
+    def to_s?
+      # FIXME: fuuuuuuuu
+      "#{name.include?(',') ? '"' + name + '"' : name}#{loaded? ? '' : '?'}"
     end
 
     def load!
-      @wikipage = Infoboxer.wikipedia.get(name)
-      if @wikipage
-        @wikidata = Wikidata::Entity.fetch(@wikipage.title).first
+      if @wikidata_id
+        @wikidata = Wikidata::Entity.fetch_by_id(@wikidata_id)
+        if @wikidata && @wikidata.en_wikipage
+          @wikipage = Infoboxer.wikipedia.get(@wikidata.en_wikipage)
+        end
+      else
+        @wikipage = Infoboxer.wikipedia.get(name)
+        if @wikipage
+          @wikidata = Wikidata::Entity.fetch(@wikipage.title).first
+        end
       end
       after_load
+      self
+    end
+
+    def setup!(wikipage: nil, wikidata: nil)
+      @wikipage, @wikidata = wikipage, wikidata
+      after_load if @wikipage
     end
 
     def loaded?
       !!@wikipage
     end
 
+    # Don't try to convert me!
+    UNSUPPORTED_METHODS = [:to_hash, :to_ary, :to_a, :to_str, :to_int]
+
+    def method_missing(sym, *arg, **opts, &block)
+      if arg.empty? && opts.empty? && !block && sym !~ /[=?!]/ &&
+        !UNSUPPORTED_METHODS.include?(sym)
+        
+        load! unless loaded?
+
+        # now some new method COULD emerge while loading
+        if methods.include?(sym)
+          send(sym)
+        else
+          values[sym]
+        end
+      else
+        super
+      end
+    end
+
+    def respond_to?(sym)
+      sym !~ /[=?!]/ && !UNSUPPORTED_METHODS.include?(sym) || super
+    end
+
     class << self
-      def load(name, entry_class = nil)
+      def load(name, type = nil)
         Entity.new(name, load: true).tap{|entity|
           return nil if entity.instance_variable_get('@wikipage').nil?
-          return nil if entry_class && entity.entity_class != entry_class
+          return nil if type && entity.wikipedia_type != type
         }
       end
     end
 
-    def to_h
-      if respond_to?(:properties)
-        properties.map{|sym|
-          [sym, to_simple_type(self.send(sym))]
-        }.to_h
-      else
-        {}
-      end
-    end
+    #def to_h
+      #if respond_to?(:properties)
+        #properties.map{|sym|
+          #[sym, to_simple_type(self.send(sym))]
+        #}.to_h
+      #else
+        #{}
+      #end
+    #end
 
     protected
 
     def after_load
-      if @wikipage && !@entity_class
-        @entity_class = EntityClass.for(self)
-        extend(@entity_class) if @entity_class
+      if @wikipage && !@wikipedia_type
+        if (@wikipedia_type = WikipediaType.for(self))
+          extend(@wikipedia_type)
+        end
+      end
+      if @wikidata
+        @values.update(WikidataPredicates.parse(@wikidata))
+      end
+      (@values.keys - methods).each do |sym|
+        define_singleton_method(sym){@values[sym]}
       end
     end
-
-    def values
-      @values ||= {}
-    end
-
-    include EntityProperties
 
     def to_simple_type(val)
       case val

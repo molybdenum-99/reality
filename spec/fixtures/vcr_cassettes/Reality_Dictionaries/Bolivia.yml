@@ -1,0 +1,330 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://en.wikipedia.org/w/api.php?action=query&format=json&meta=siteinfo&siprop=namespaces%7Cnamespacealiases
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Infoboxer/0.2.2 (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.9.4
+      Date:
+      - Fri, 26 Feb 2016 14:35:26 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '708'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - HHVM/3.6.5
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=35529 t=1456497326757295
+      X-Varnish:
+      - 1143347111, 1312621531, 2450181649
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1065 pass+chfp(0), cp3004 miss+chfp(0), cp3012 frontend miss+chfp(0)
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=UA:::50.45:30.52:v4; Path=/; Domain=.wikipedia.org
+      - WMF-Last-Access=26-Feb-2016;Path=/;HttpOnly;Expires=Tue, 29 Mar 2016 12:00:00
+        GMT
+      X-Analytics:
+      - https=1;nocookies=1
+      X-Client-Ip:
+      - 94.179.21.37
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"namespaces":{"-2":{"id":-2,"case":"first-letter","canonical":"Media","*":"Media"},"-1":{"id":-1,"case":"first-letter","canonical":"Special","*":"Special"},"0":{"id":0,"case":"first-letter","content":"","*":""},"1":{"id":1,"case":"first-letter","subpages":"","canonical":"Talk","*":"Talk"},"2":{"id":2,"case":"first-letter","subpages":"","canonical":"User","*":"User"},"3":{"id":3,"case":"first-letter","subpages":"","canonical":"User
+        talk","*":"User talk"},"4":{"id":4,"case":"first-letter","subpages":"","canonical":"Project","*":"Wikipedia"},"5":{"id":5,"case":"first-letter","subpages":"","canonical":"Project
+        talk","*":"Wikipedia talk"},"6":{"id":6,"case":"first-letter","canonical":"File","*":"File"},"7":{"id":7,"case":"first-letter","subpages":"","canonical":"File
+        talk","*":"File talk"},"8":{"id":8,"case":"first-letter","canonical":"MediaWiki","*":"MediaWiki"},"9":{"id":9,"case":"first-letter","subpages":"","canonical":"MediaWiki
+        talk","*":"MediaWiki talk"},"10":{"id":10,"case":"first-letter","subpages":"","canonical":"Template","*":"Template"},"11":{"id":11,"case":"first-letter","subpages":"","canonical":"Template
+        talk","*":"Template talk"},"12":{"id":12,"case":"first-letter","subpages":"","canonical":"Help","*":"Help"},"13":{"id":13,"case":"first-letter","subpages":"","canonical":"Help
+        talk","*":"Help talk"},"14":{"id":14,"case":"first-letter","subpages":"","canonical":"Category","*":"Category"},"15":{"id":15,"case":"first-letter","subpages":"","canonical":"Category
+        talk","*":"Category talk"},"100":{"id":100,"case":"first-letter","subpages":"","canonical":"Portal","*":"Portal"},"101":{"id":101,"case":"first-letter","subpages":"","canonical":"Portal
+        talk","*":"Portal talk"},"108":{"id":108,"case":"first-letter","subpages":"","canonical":"Book","*":"Book"},"109":{"id":109,"case":"first-letter","subpages":"","canonical":"Book
+        talk","*":"Book talk"},"118":{"id":118,"case":"first-letter","subpages":"","canonical":"Draft","*":"Draft"},"119":{"id":119,"case":"first-letter","subpages":"","canonical":"Draft
+        talk","*":"Draft talk"},"446":{"id":446,"case":"first-letter","canonical":"Education
+        Program","*":"Education Program"},"447":{"id":447,"case":"first-letter","subpages":"","canonical":"Education
+        Program talk","*":"Education Program talk"},"710":{"id":710,"case":"first-letter","canonical":"TimedText","*":"TimedText"},"711":{"id":711,"case":"first-letter","canonical":"TimedText
+        talk","*":"TimedText talk"},"828":{"id":828,"case":"first-letter","subpages":"","canonical":"Module","*":"Module"},"829":{"id":829,"case":"first-letter","subpages":"","canonical":"Module
+        talk","*":"Module talk"},"2300":{"id":2300,"case":"first-letter","canonical":"Gadget","*":"Gadget"},"2301":{"id":2301,"case":"first-letter","canonical":"Gadget
+        talk","*":"Gadget talk"},"2302":{"id":2302,"case":"case-sensitive","canonical":"Gadget
+        definition","defaultcontentmodel":"GadgetDefinition","*":"Gadget definition"},"2303":{"id":2303,"case":"case-sensitive","canonical":"Gadget
+        definition talk","*":"Gadget definition talk"},"2600":{"id":2600,"case":"first-letter","canonical":"Topic","defaultcontentmodel":"flow-board","*":"Topic"}},"namespacealiases":[{"id":4,"*":"WP"},{"id":5,"*":"WT"},{"id":6,"*":"Image"},{"id":7,"*":"Image
+        talk"}]}}'
+    http_version: 
+  recorded_at: Fri, 26 Feb 2016 14:35:26 GMT
+- request:
+    method: get
+    uri: https://en.wikipedia.org/w/api.php?action=query&format=json&inprop=url&prop=revisions%7Cinfo&redirects=true&rvprop=content&titles=List%20of%20cities%20in%20Bolivia
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Infoboxer/0.2.2 (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.9.4
+      Date:
+      - Fri, 26 Feb 2016 14:35:27 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '4174'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - HHVM/3.6.5
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=37945 t=1456497327279117
+      X-Varnish:
+      - 120190417, 1477021572, 2450182910
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1067 pass+chfp(0), cp3008 miss+chfp(0), cp3012 frontend pass+chfp(0)
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=UA:::50.45:30.52:v4; Path=/; Domain=.wikipedia.org
+      - WMF-Last-Access=26-Feb-2016;Path=/;HttpOnly;Expires=Tue, 29 Mar 2016 12:00:00
+        GMT
+      X-Analytics:
+      - https=1;nocookies=1
+      X-Client-Ip:
+      - 94.179.21.37
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"redirects":[{"from":"List of cities in
+        Bolivia","to":"List of Bolivian cities by population"}],"pages":{"214434":{"pageid":214434,"ns":0,"title":"List
+        of Bolivian cities by population","revisions":[{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{Use
+        dmy dates|date=February 2014}}\n\n{{Top bolivian cities by pop}}\n\nAccording
+        to the [[National Institute of Statistics of Bolivia]] (INE), a city is classified
+        as an [[area]] where the [[city limit]]s are identifiable, and its [[Politics
+        of Bolivia#Local government|local government]] is recognized.<ref name=\"2012cen\"
+        /> The [[List of sovereign states and dependent territories in South America|South
+        American country]] of [[Bolivia]] has 1,384 cities.<ref>{{Cite web | url=http://www.unesco.org/education/wef/countryreports/bolivia/rapport_1.html
+        | title=Bolivia | publisher=[[UNESCO]] | accessdate=22 February 2014 | language=Spanish}}</ref>
+        As of 21 November 2012, the date of the [[2012 Bolivian census|most-recent
+        national census]],<ref>{{Cite news | url=http://www.lostiempos.com/diario/actualidad/nacional/20120419/el-gobierno-realizara-el-censo-2012-el-21-de_168476_353682.html
+        | title=El Gobierno Realizar\u00e1 el Censo 2012 el 21 de Noviembre | trans_title=The
+        Government will make the 2012 Census on 21 November | language=Spanish | archivedate=1
+        February 2014 | archiveurl=https://web.archive.org/web/20140201170833/http://www.lostiempos.com/diario/actualidad/nacional/20120419/el-gobierno-realizara-el-censo-2012-el-21-de_168476_353682.html
+        | date=19 April 2013 | newspaper=[[Los Tiempos]] | accessdate=10 February
+        2014}}</ref> 53 cities have a population of at least 10,000 in Bolivia, as
+        enumerated by the INE. These 53 cities have a population of 6,162,346, accounting
+        for 61.4% of the country''s population. The largest city is [[Santa Cruz de
+        la Sierra]], with a population of 1,441,406, a 29.4% [[Population growth|increase]]
+        from the [[2001 Bolivian census|last census]] date of 5 September 2001.<ref>{{cite
+        web | author=[[National Institute of Statistics of Bolivia]] | year=2003 |
+        url=http://www.ine.gob.bo/PDF/Fecundidad/Fecundidad0.pdf | archiveurl=http://www.webcitation.org/6NIYTf21e
+        | archivedate=10 February 2014 | title=Bolivia: Niveles, Tendencias y Diferenciales
+        de la Fecundidad | trans_title=Bolivia: Levels, Trends and Differentials of
+        Fertility | publisher=[[National Institute of Statistics of Bolivia]] | language=Spanish
+        | format=PDF | accessdate=10 February 2014 | p=11}}</ref> [[La Guardia, Bolivia|La
+        Guardia]] had the highest percentage increase, 801.5%, from 2001 to 2012.
+        \n\nFrom 2001 to 2012, Bolivia had a population increase of 21.1%. Of the
+        53 cities, 42 had a higher increase and 11 had lower increase. Three cities
+        had a negative population growth from 2001 to 2012: [[La Paz]] (\u20134.1%),
+        [[Yacu\u00edba]] (\u20134.2%), and [[Santa Ana del Yacuma]] (\u20135.4%).
+        With the exception of the [[La Paz Department (Bolivia)|Department of La Paz]],
+        each [[Departments of Bolivia|department]]''s capital city is the largest
+        city in its respective department. The [[Santa Cruz Department (Bolivia)|Department
+        of Santa Cruz]] has the most cities (18), and [[Pando Department|Pando]] and
+        [[Chuquisaca Department|Chuquisaca]] have the least (1).\n{{-}}\n\n== List
+        ==\n\n{{multiple image\n| align     = right\n| direction = vertical\n| header    =
+        Top five cities by population\n| width     = 200\n\n| image1    = Santa Cruz
+        Equipetrol.jpg\n| alt1      = City skyline of Santa Cruz de la Sierra\n| caption1  =
+        1. Santa Cruz de la Sierra\n\n| image2    = Altiplano de La Paz Bolivia.jpg\n|
+        alt2      = City skyline of El Alto\n| caption2  = 2. El Alto\n\n| image3    =
+        Panlapaz 2010.jpg\n| alt3      = City skyline of La Paz\n| caption3  = 3.
+        La Paz\n\n| image4    = \n| alt4      = City skyline of Cochabamba\n| caption4  =
+        4. Cochabamba\n\n| image5    = Oruro, Bolivia-0.jpg\n| alt5      = City skyline
+        or Oruro\n| caption5  = 5. Oruro\n\n}}\n\n{|style=\"margin: 0.75em 0 0 0.5em;\"\n|+''''''Key''''''\n|-\n|  style=\"border:1px
+        solid #aaa; width:2em; text-align:center;\"| *\n| = Department capital\n|-\n|  style=\"border:1px
+        solid #aaa; width:2em; text-align:center;\"| ^\n| = Largest city in department\n|}\n\n{|
+        class=\"wikitable sortable\"\n|-\n! scope=\"col\" | {{Abbr|Rank|The city rank
+        by population as of 21 November 2012, as enumerated by the INE}}\n! scope=\"col\"
+        | {{Abbr|City|The city name}}\n! scope=\"col\" | {{Abbr|[[Departments of Bolivia|Department]]|The
+        name of the department in which the city lies}}\n! scope=\"col\" | {{Abbr|[[2012
+        Bolivian census|2012 Census]]|The city population as of 21 November 2012,
+        as enumerated by the 2012 Bolivian census}}<ref name=\"2012cen\">{{cite web
+        | url=http://www.censosbolivia.bo/localidades/c_listado/listar_comunidades
+        | title=Ciudades/Comunidades/Centros Poblados a Localidades Empadronadas en
+        el Censo de Poblaci\u00f3n y Vivienda 2012 | trans_title=Cities/Communities/Towns
+        and Villages Centers Enumerated in the Census of Population and Housing 2012
+        | language=Spanish | publisher=[[National Institute of Statistics of Bolivia]]
+        | accessdate=2 February 2014}}</ref>\n! scope=\"col\" | {{Abbr|[[2001 Bolivian
+        census|2001 Census]]|The city population as of 5 September 2001, as enumerated
+        by the 2001 Bolivian census}}<ref>{{cite web | url=http://www.ine.gob.bo/comunitaria/comunitaria.aspx
+        | title=Censo de Poblacion y Vivienda \u2013 2001 | trans_title=Census of
+        Population and Housing \u2013 2001 | language=Spanish | publisher=[[National
+        Institute of Statistics of Bolivia]] | date=2 November 2001 | accessdate=22
+        December 2013}}</ref>\n! scope=\"col\" | {{Abbr|Change|The city percent population
+        change from 5 September 2001, to 21 November 2012}}\n|-\n! scope=\"row\" style=\"text-align:center;\"|1\n|
+        [[Santa Cruz de la Sierra]]*^\n| [[Santa Cruz Department (Bolivia)|Santa Cruz]]\n|
+        {{change|invert=on|1441406|1113582|dec=1}}\n|-\n! scope=\"row\" style=\"text-align:center;\"|2\n|
+        [[El Alto]]^\n| [[La Paz Department (Bolivia)|La Paz]]\n| {{change|invert=on|842378|647350|dec=1}}\n|-\n!
+        scope=\"row\" style=\"text-align:center;\"|3\n|[[La Paz]]*\n| [[La Paz Department
+        (Bolivia)|La Paz]]\n| {{change|invert=on|757184|789585|dec=1}}\n|-\n! scope=\"row\"
+        style=\"text-align:center;\"|4\n| [[Cochabamba]]*^\n|[[Cochabamba Department|Cochabamba]]\n|
+        {{change|invert=on|630587|516683|dec=1}}\n|-\n! scope=\"row\" style=\"text-align:center;\"|5\n|
+        [[Oruro, Bolivia|Oruro]]*^\n|[[Oruro Department|Oruro]]\n| {{change|invert=on|264683|201332|dec=1}}\n|-\n!
+        scope=\"row\" style=\"text-align:center;\"|6\n| [[Sucre]]*^\n| [[Chuquisaca
+        Department|Chuquisaca]]\n| {{change|invert=on|237480|193876|dec=1}}\n<!--|[[File:Sucre
+        capital de Bolivia.jpg|200px]]-->\n|-\n! scope=\"row\" style=\"text-align:center;\"|7\n|
+        [[Tarija]]*^\n|[[Tarija Department|Tarija]]\n| {{change|invert=on|179528|135783|dec=1}}\n<!--|[[File:Plaza
+        in Tarija.jpg|200px]]-->\n|-\n! scope=\"row\" style=\"text-align:center;\"|8\n|
+        [[Potos\u00ed]]*^\n|[[Potos\u00ed Department|Potos\u00ed]]\n| {{change|invert=on|174973|132966|dec=1}}\n<!--|[[File:Cerro
+        ricco.jpg|200px]]-->\n|-\n! scope=\"row\" style=\"text-align:center;\"|9\n|[[Sacaba]]\n|[[Cochabamba
+        Department|Cochabamba]]\n| {{change|invert=on|149570|92581|dec=1}}\n<!--|[[File:MAS
+        XVI Aniversario-Sacaba.jpg|200px]]-->\n|-\n! scope=\"row\" style=\"text-align:center;\"|10\n|[[Quillacollo]]\n|[[Cochabamba
+        Department|Cochabamba]]\n| {{change|invert=on|117859|74980|dec=1}}\n<!--|[[File:Vista
+        de la ciudad de Quillacollo.JPG|200px]]-->\n|-\n! scope=\"row\" style=\"text-align:center;\"|11\n|[[Montero]]\n|
+        [[Santa Cruz Department (Bolivia)|Santa Cruz]]\n| {{change|invert=on|107294|78294|dec=1}}\n|-\n!
+        scope=\"row\" style=\"text-align:center;\"|12\n| [[Trinidad, Bolivia|Trinidad]]*^\n|[[Beni
+        Department|Beni]]\n| {{change|invert=on|101454|75540|dec=1}}\n|-\n! scope=\"row\"
+        style=\"text-align:center;\"|13\n|[[Riberalta]]\n|[[Beni Department|Beni]]\n|
+        {{change|invert=on|78754|64511|dec=1}}\n|-\n! scope=\"row\" style=\"text-align:center;\"|14\n|[[Warnes
+        (Santa Cruz)|Warnes]]\n|[[Santa Cruz Department (Bolivia)|Santa Cruz]]\n|
+        {{change|invert=on|77668|17872|dec=1}}\n|-\n! scope=\"row\" style=\"text-align:center;\"|15\n|[[La
+        Guardia, Bolivia|La Guardia]]\n|[[Santa Cruz Department (Bolivia)|Santa Cruz]]\n|
+        {{change|invert=on|77278|8572|dec=1}}\n|-\n! scope=\"row\" style=\"text-align:center;\"|16\n|[[Viacha]]\n|
+        [[La Paz Department (Bolivia)|La Paz]]\n| {{change|invert=on|62516|29108|dec=1}}\n|-\n!
+        scope=\"row\" style=\"text-align:center;\"|17\n|[[Yacu\u00edba]]\n|[[Tarija
+        Department|Tarija]]\n| {{change|invert=on|61844|64611|dec=1}}\n|-\n! scope=\"row\"
+        style=\"text-align:center;\"|18\n|[[Colcapirhua]]\n|[[Cochabamba Department|Cochabamba]]\n|
+        {{change|invert=on|51896|41980|dec=1}}\n|-\n! scope=\"row\" style=\"text-align:center;\"|19\n|[[Tiquipaya]]\n|[[Cochabamba
+        Department|Cochabamba]]\n| {{change|invert=on|49237|26732|dec=1}}\n|-\n! scope=\"row\"
+        style=\"text-align:center;\"|20\n| [[Cobija]]*^\n|[[Pando Department|Pando]]\n|
+        {{change|invert=on|42849|20820|dec=1}}\n|-\n! scope=\"row\" style=\"text-align:center;\"|21\n|[[Vinto]]\n|[[Cochabamba
+        Department|Cochabamba]]\n| {{change|invert=on|40920|14180|dec=1}}\n|-\n! scope=\"row\"
+        style=\"text-align:center;\"|22\n|[[Guayaramer\u00edn]]\n|[[Beni Department|Beni]]\n|
+        {{change|invert=on|35764|33095|dec=1}}\n|-\n! scope=\"row\" style=\"text-align:center;\"|23\n|[[Villaz\u00f3n]]\n|[[Potos\u00ed
+        Department|Potos\u00ed]]\n| {{change|invert=on|35167|28045|dec=1}}\n|-\n!
+        scope=\"row\" style=\"text-align:center;\"|24\n|El Palmar KM 23{{Ref label|note_a1|A|}}\n|[[Santa
+        Cruz Department (Bolivia)|Santa Cruz]]\n| {{change|invert=on|32017|16572|dec=1}}\n|-\n!
+        scope=\"row\" style=\"text-align:center;\"|25\n|[[Villamontes]]\n|[[Tarija
+        Department|Tarija]]\n| {{change|invert=on|30228|16113|dec=1}}\n|-\n! scope=\"row\"
+        style=\"text-align:center;\"|26\n|[[Bermejo, Bolivia|Bermejo]]\n|[[Tarija
+        Department|Tarija]]\n| {{change|invert=on|29459|26059|dec=1}}\n|-\n! scope=\"row\"
+        style=\"text-align:center;\"|27\n|[[Camiri]]\n|[[Santa Cruz Department (Bolivia)|Santa
+        Cruz]]\n| {{change|invert=on|28855|26505|dec=1}}\n|-\n! scope=\"row\" style=\"text-align:center;\"|28\n|[[Tupiza]]\n|[[Potos\u00ed
+        Department|Potos\u00ed]]\n| {{change|invert=on|27302|21707|dec=1}}\n|-\n!
+        scope=\"row\" style=\"text-align:center;\"|29\n|[[Llallagua]]\n|[[Potos\u00ed
+        Department|Potos\u00ed]]\n| {{change|invert=on|25166|20065|dec=1}}\n|-\n!
+        scope=\"row\" style=\"text-align:center;\"|30\n|[[San Ignacio de Velasco]]\n|[[Santa
+        Cruz Department (Bolivia)|Santa Cruz]]\n| {{change|invert=on|23126|19401|dec=1}}\n|-\n!
+        scope=\"row\" style=\"text-align:center;\"|31\n|San Juli\u00e1n\n|[[Santa
+        Cruz Department (Bolivia)|Santa Cruz]]\n| {{change|invert=on|20687|6798|dec=1}}\n|-\n!
+        scope=\"row\" style=\"text-align:center;\"|32\n|[[Huanuni]]\n|[[Oruro Department|Oruro]]\n|
+        {{change|invert=on|20336|15106|dec=1}}\n|-\n! scope=\"row\" style=\"text-align:center;\"|33\n|[[Punata]]\n|[[Cochabamba
+        Department|Cochabamba]]\n| {{change|invert=on|19559|14742|dec=1}}\n|-\n! scope=\"row\"
+        style=\"text-align:center;\"|34\n|[[Cotoca]]\n|[[Santa Cruz Department (Bolivia)|Santa
+        Cruz]]\n| {{change|invert=on|19482|15181|dec=1}}\n|-\n! scope=\"row\" style=\"text-align:center;\"|35\n|[[Ascenci\u00f3n
+        de Guarayos]]\n|[[Santa Cruz Department (Bolivia)|Santa Cruz]]\n| {{change|invert=on|19254|13630|dec=1}}\n|-\n!
+        scope=\"row\" style=\"text-align:center;\"|36\n|[[Achocalla]]\n|[[La Paz Department
+        (Bolivia)|La Paz]]\n| {{change|invert=on|18442|10369|dec=1}}\n|-\n! scope=\"row\"
+        style=\"text-align:center;\"|37\n|Mineros\n|[[Santa Cruz Department (Bolivia)|Santa
+        Cruz]]\n| {{change|invert=on|18340|13282|dec=1}}\n|-\n! scope=\"row\" style=\"text-align:center;\"|38\n|[[Uyuni]]\n|[[Potos\u00ed
+        Department|Potos\u00ed]]\n| {{change|invert=on|18068|10551|dec=1}}\n|-\n!
+        scope=\"row\" style=\"text-align:center;\"|39\n|[[San Borja, Bolivia|San Borja]]\n|[[Beni
+        Department|Beni]]\n| {{change|invert=on|17520|16273|dec=1}}\n|-\n! scope=\"row\"
+        style=\"text-align:center;\"|40\n|[[El Torno, Santa Cruz|El Torno]]\n|[[Santa
+        Cruz Department (Bolivia)|Santa Cruz]]\n| {{change|invert=on|17130|11879|dec=1}}\n|-\n!
+        scope=\"row\" style=\"text-align:center;\"|41\n|[[Puerto Su\u00e1rez]]\n|[[Santa
+        Cruz Department (Bolivia)|Santa Cruz]]\n| {{change|invert=on|16643|11594|dec=1}}\n|-\n!
+        scope=\"row\" style=\"text-align:center;\"|42\n|[[Portachuelo]]\n|[[Santa
+        Cruz Department (Bolivia)|Santa Cruz]]\n| {{change|invert=on|14091|11338|dec=1}}\n|-\n!
+        scope=\"row\" style=\"text-align:center;\"|43\n|[[Caranavi]]\n|[[La Paz Department
+        (Bolivia)|La Paz]]\n| {{change|invert=on|13766|12083|dec=1}}\n|-\n! scope=\"row\"
+        style=\"text-align:center;\"|44\n|[[Rurrenabaque]]\n|[[Beni Department|Beni]]\n|
+        {{change|invert=on|13446|8479|dec=1}}\n|-\n! scope=\"row\" style=\"text-align:center;\"|45\n|[[Challapata]]\n|[[Oruro
+        Department|Oruro]]\n| {{change|invert=on|12684|9452|dec=1}}\n|-\n! scope=\"row\"
+        style=\"text-align:center;\"|46\n|[[Santa Ana del Yacuma]]\n|[[Beni Department|Beni]]\n|
+        {{change|invert=on|12178|12877|dec=1}}\n|-\n! scope=\"row\" style=\"text-align:center;\"|47\n|[[San
+        Jos\u00e9 de Chiquitos]]\n|[[Santa Cruz Department (Bolivia)|Santa Cruz]]\n|
+        {{change|invert=on|11874|9322|dec=1}}\n|-\n! scope=\"row\" style=\"text-align:center;\"|48\n|[[Sipe
+        Sipe]]\n|[[Cochabamba Department|Cochabamba]]\n| {{change|invert=on|11826|3226|dec=1}}\n|-\n!
+        scope=\"row\" style=\"text-align:center;\"|49\n|[[Patacamaya]]\n|[[La Paz
+        Department (Bolivia)|La Paz]]\n| {{change|invert=on|11197|8414|dec=1}}\n|-\n!
+        scope=\"row\" style=\"text-align:center;\"|50\n|[[Puerto Quijarro]]\n|[[Santa
+        Cruz Department (Bolivia)|Santa Cruz]]\n| {{change|invert=on|11071|8963|dec=1}}\n|-\n!
+        scope=\"row\" style=\"text-align:center;\"|51\n|[[Vallegrande]]\n|[[Santa
+        Cruz Department (Bolivia)|Santa Cruz]]\n| {{change|invert=on|10158|7884|dec=1}}\n|-\n!
+        scope=\"row\" style=\"text-align:center;\"|52\n|[[Robor\u00e9]]\n|[[Santa
+        Cruz Department (Bolivia)|Santa Cruz]]\n| {{change|invert=on|10098|10078|dec=1}}\n|-\n!
+        scope=\"row\" style=\"text-align:center;\"|53\n|[[San Ignacio de Moxos]]\n|[[Beni
+        Department|Beni]]\n| {{change|invert=on|10054|9590|dec=1}}\n|-\n! Total !!
+        Bolivia !! N/A !! 10,027,254 !! 8,274,325 !! +{{#expr: 100* (10027254 - 8274325)
+        / 8274325 round 1}}%\n|}\n\n== Notes ==\n*''''''A'''''' {{Note|note_a1}} In
+        2001, El Palmar KM 23 did not exist.<ref>{{Cite web | url=http://www.ine.gob.bo/comunitaria/comunitariaVer.aspx?Depto=07&Prov=04&Seccion=03
+        | title=Censo de Poblacion y Vivienda \u2013 2001: Bolivia: Santa Cruz Departamento:
+        Ichilo Provincia: Yapacan\u00ed Municipales | trans_title=Census of Population
+        and Housing \u2013 2001: Santa Cruz Department: Ichilo Province: Yapacan\u00ed
+        Municipality | language=Spanish | publisher=[[National Institute of Statistics
+        of Bolivia]] | date=2 November 2011 | accessdate=16 February 2014}}</ref>
+        The INE consolidated 19 cities, which had a 2001 population of 16,572, for
+        the 2012 census to form El Palmar KM 23.<ref>{{Cite web | url=http://datos.censosbolivia.bo/comunitaria/comunitaria/mpComunitariaVer.aspx?Depto=07&Prov=04&Seccion=03
+        | title=Censo de Poblacion y Vivienda 2012: Santa Cruz Departamento: Ichilo
+        Provincia: Yapacan\u00ed Municipales | trans_title=Census of Population and
+        Housing 2012: Santa Cruz Department: Ichilo Province: Yapacan\u00ed Municipality
+        | publisher=[[National Institute of Statistics of Bolivia]] | accessdate=16
+        February 2014}}</ref>\n\n== References ==\n{{Reflist}}\n\n{{Bolivia topics}}\n{{South
+        America in topic|List of cities in}}\n\n[[Category:Lists of cities by country|Bolivia,
+        List of cities in]]\n[[Category:Populated places in Bolivia| ]]\n[[Category:Lists
+        of cities in the Americas|Bolivia]]\n[[Category:Bolivia geography-related
+        lists|Cities]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2016-02-20T15:34:26Z","lastrevid":666276328,"length":14869,"fullurl":"https://en.wikipedia.org/wiki/List_of_Bolivian_cities_by_population","editurl":"https://en.wikipedia.org/w/index.php?title=List_of_Bolivian_cities_by_population&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/List_of_Bolivian_cities_by_population"}}}}'
+    http_version: 
+  recorded_at: Fri, 26 Feb 2016 14:35:27 GMT
+recorded_with: VCR 3.0.0

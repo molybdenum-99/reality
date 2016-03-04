@@ -18,6 +18,10 @@ module Reality
       amount <=> other.amount
     end
 
+    def ==(other)
+      amount == other.amount && unit == other.unit
+    end
+
     def -@
       self.class.new(-amount, unit)
     end
@@ -64,24 +68,22 @@ module Reality
     include Comparable
 
     def to_s
-      '%s%s' % [formatted_amount, unit]
+      '%s%s' % [Util::Format.number(amount), unit]
+    end
+
+    def to_f
+      amount.to_f
+    end
+
+    def to_i
+      amount.to_i
     end
 
     def inspect
-      "#<%s(%s %s)>" % [self.class, formatted_amount, unit]
+      "#<%s(%s %s)>" % [self.class, Util::Format.number(amount), unit]
     end
 
     private
-
-    def formatted_amount
-      # FIXME: really naive
-      if amount.abs < 1
-        amount.to_f.to_s
-      else
-        # see http://stackoverflow.com/a/6460145/3683228
-        amount.to_i.to_s.gsub(/(\d)(?=(\d\d\d)+(?!\d))/, "\\1,")
-      end
-    end
 
     def check_compatibility!(other)
       unless other.kind_of?(self.class) && other.unit == unit

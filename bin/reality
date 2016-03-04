@@ -1,6 +1,15 @@
 #!/usr/bin/env ruby
 require 'rubygems'
 require 'reality'
+require 'reality/pretty_inspect'
+require 'reality/shortcuts'
+
+Reality.configure :demo
+
+class << self
+  # including it ONLY into the main object, not Kernel
+  include Reality::Methods
+end
 
 require 'irb'
 ARGV.shift until ARGV.empty?

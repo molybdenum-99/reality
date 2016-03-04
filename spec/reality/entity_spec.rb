@@ -2,128 +2,26 @@ module Reality
   describe Entity, :vcr do
     subject(:entity){Entity.new('Paris')}
     let(:wikipage){double(title: 'Paris, France', infobox: double(name: 'Infobox countryXX'))}
-    let(:wikidata){double}
+    let(:wikidata){double(predicates: {})}
     let(:wikipedia){double}
     before{
       allow(Infoboxer).to receive(:wikipedia).and_return(wikipedia)
     }
 
-    describe :wikipage do
-      it 'is not loaded by default' do
-        expect(entity.instance_variable_get('@wikipage')).to be_nil
+    its(:to_s){should == 'Paris'}
+
+    context 'loading' do
+      context 'when created' do
+        it{should_not be_loaded}
+        it 'has empty wikipage and data' do
+          expect(entity.instance_variable_get('@wikipage')).to be_nil
+          expect(entity.instance_variable_get('@wikidata')).to be_nil
+        end
+
+        its(:inspect){should == '#<Reality::Entity?(Paris)>'}
       end
 
-      it 'is loaded from infoboxer on first call' do
-        expect(Infoboxer.wikipedia).to receive(:get).
-          with('Paris').and_return(wikipage)
-        expect(Wikidata::Entity).to receive(:fetch).
-          with('Paris, France').and_return([wikidata])
-
-        expect(entity.wikipage).to eq wikipage
-        expect(entity.instance_variable_get('@wikipage')).to eq wikipage
-      end
-    end
-
-    describe :wikidata do
-      it 'is not loaded by default' do
-        expect(entity.instance_variable_get('@wikipage')).to be_nil
-      end
-
-      it 'is loaded as Wikidata::Entity on first call' do
-        expect(Infoboxer.wikipedia).to receive(:get).
-          with('Paris').and_return(wikipage)
-        expect(Wikidata::Entity).to receive(:fetch).
-          with('Paris, France').and_return([wikidata])
-
-        expect(entity.wikidata).to eq wikidata
-        expect(entity.instance_variable_get('@wikidata')).to eq wikidata
-      end
-    end
-
-    describe :inspect do
-      its(:inspect){should == '#<Reality::Entity(Paris)>'}
-    end
-
-    describe :to_s do
-      its(:to_s){should == 'Paris'}
-    end
-
-    describe 'preloading' do
-      subject(:entity){Entity.new('Paris', wikipage: wikipage, wikidata: wikidata)}
-
-      it 'should consider data loaded' do
-        expect(entity.wikipage).to eq wikipage
-        expect(entity.wikidata).to eq wikidata
-      end
-    end
-
-    describe 'forced loading' do
-      it 'force-loads on demand' do
-        expect(Infoboxer.wikipedia).to receive(:get).
-          with('Paris').and_return(wikipage)
-        expect(Wikidata::Entity).to receive(:fetch).
-          with('Paris, France').and_return([wikidata])
-
-        entity.load!
-
-        expect(entity.instance_variable_get('@wikidata')).to eq wikidata
-        expect(entity.instance_variable_get('@wikipage')).to eq wikipage
-      end
-      
-      it 'force-loads on initialize' do
-        expect(Infoboxer.wikipedia).to receive(:get).
-          with('Paris').and_return(wikipage)
-        expect(Wikidata::Entity).to receive(:fetch).
-          with('Paris, France').and_return([wikidata])
-
-        entity = Entity.new('Paris', load: true)
-
-        expect(entity.instance_variable_get('@wikidata')).to eq wikidata
-        expect(entity.instance_variable_get('@wikipage')).to eq wikipage
-
-      end
-    end
-
-    xdescribe 'property definition' do
-      # Not sure where it should go, really
-      
-      context :to_h do
-        let(:infobox){double}
-        let(:wikipage){double(infobox: infobox)}
-        let(:wikidata){Wikidata::Entity.new(
-          'Q414',
-          'P30'   => [Wikidata::Link.new('Q18', 'South America')],
-          'P1082' => [43_417_000],
-          'P298'  => ['ARG'],
-          'P47'   => neighbours.map{|i, l| Wikidata::Link.new(i, l)},
-          'P421'  => [Wikidata::Link.new('Q651', 'UTC−03:00')]
-        )}
-
-        before{
-          expect(infobox).to receive(:fetch).with('area_km2').
-            and_return([double(to_s: '2,780,400')]).ordered
-          expect(infobox).to receive(:fetch).with('GDP_PPP').
-            and_return([double(text: '$964.279 billion')]).ordered  
-        }
-        subject{country.to_h}
-        it{should be_a Hash}
-        its(:keys){should include(:continent, :area, :utc_offset)}
-        its([:continent]){should == 'South America'}
-        its([:area]){should == 2_780_400}
-        its([:neighbours]){should include('Bolivia', 'Chile')}
-      end
-    end
-
-    describe 'entity class' do
-      let!(:klass){
-        Module.new{
-          extend EntityClass
-          by_infobox 'Infobox countryXX' # don't mangle real defs
-
-          property :continent, type: :entity, wikidata: 'P30'
-        }
-      }
-      context 'class selection on load' do
+      context 'when loaded' do
         before{
           expect(Infoboxer.wikipedia).to receive(:get).
             with('Paris').and_return(wikipage)
@@ -132,18 +30,131 @@ module Reality
 
           entity.load!
         }
-        its(:entity_class){should == klass}
+        it{should be_loaded}
+        it 'has non-empty wikipage and data' do
+          expect(entity.instance_variable_get('@wikipage')).to eq wikipage
+          expect(entity.instance_variable_get('@wikidata')).to eq wikidata
+        end
+        its(:name){should == 'Paris, France'}
+        its(:inspect){should == '#<Reality::Entity(Paris, France)>'}
       end
 
-      context 'class selection for preloaded' do
-        subject(:entity){Entity.new('Paris', wikipage: wikipage, wikidata: wikidata)}
-        its(:entity_class){should == klass}
+      context 'loading on wikidata id' do
+        let(:wikidata){double(predicates: {},
+          en_wikipage: 'Paris, France'
+        )}
+        subject(:entity){Entity.new('Paris', wikidata_id: 'Q111')}
+        before{
+          expect(Wikidata::Entity).to receive(:fetch_by_id).
+            with('Q111').and_return(wikidata)
+          expect(Infoboxer.wikipedia).to receive(:get).
+            with('Paris, France').and_return(wikipage)
+
+          entity.load!
+        }
+        it{should be_loaded}
       end
 
-      context 'class properties availability' do
+      context 'loading on initialize' do
+        before{
+          expect(Infoboxer.wikipedia).to receive(:get).
+            with('Paris').and_return(wikipage)
+          expect(Wikidata::Entity).to receive(:fetch).
+            with('Paris, France').and_return([wikidata])
+        }
+
+        subject(:entity){Entity.new('Paris', load: true)}
+        it{should be_loaded}
+      end
+
+      context 'when prepopulated with data' do
         subject(:entity){Entity.new('Paris', wikipage: wikipage, wikidata: wikidata)}
-        it{should respond_to(:continent)}
-        its(:properties){should include(:continent)}
+
+        it 'should consider data loaded' do
+          expect(entity.wikipage).to eq wikipage
+          expect(entity.wikidata).to eq wikidata
+        end
+        it{should be_loaded}
+        its(:name){should == 'Paris, France'}
+      end
+
+      context 'when prepopulated with Wikipedia only' do
+      end
+    end
+
+    describe 'properties from Wikidata' do
+      before do
+        Entity::WikidataPredicates.define{
+          predicate 'dummy1', :continent, :entity
+          predicate 'dummy2', :area, :measure, unit: 'km²'
+          predicate 'dummy3', :neighbours, [:entity]
+        }
+      end
+
+      let(:wikidata){
+        Wikidata::Entity.new('DUMMY',
+          'dummy1' => [Wikidata::Link.new('Q18', 'South America')],
+          'dummy2' => [43_417_000],
+          'dummy3' => [Wikidata::Link.new('Q750', 'Bolivia'), Wikidata::Link.new('Q155', 'Brazil')]
+        )
+      }
+      subject(:entity){Entity.new('Paris', wikipage: wikipage, wikidata: wikidata)}
+
+      it 'parses all recognized properties on load' do
+        expect(entity.values).to be_a Hash
+        expect(entity.values).to include(:continent, :area, :neighbours)
+      end
+
+      it 'provides access through method_missing' do
+        expect(entity.area).to eq Reality::Measure.new(43_417_000, 'km²')
+      end
+
+      it 'force-loads on method_missing' do
+        expect(Infoboxer.wikipedia).to receive(:get).
+          with('Paris').and_return(wikipage)
+        expect(Wikidata::Entity).to receive(:fetch).
+          with('Paris, France').and_return([wikidata])
+
+        entity = Entity.new('Paris')
+        entity.area
+        expect(entity).to be_loaded
+      end
+    end
+
+    describe 'type and properites from Wikipedia' do
+      let!(:type){
+        Module.new{
+          extend Entity::WikipediaType
+          infobox_name 'Infobox countryXX' # don't mangle real defs
+
+          infobox 'area_km2', :area, :measure, unit: 'km²'
+        }
+      }
+      before{
+        allow(wikipage.infobox).to receive(:fetch).with('area_km2').
+          and_return([double(to_s: '2,780,400')]).ordered
+      }
+      context 'type selection on load' do
+        before{
+          expect(Infoboxer.wikipedia).to receive(:get).
+            with('Paris').and_return(wikipage)
+          expect(Wikidata::Entity).to receive(:fetch).
+            with('Paris, France').and_return([wikidata])
+
+
+          entity.load!
+        }
+        it{should be_a type}
+      end
+
+      context 'type selection for preloaded' do
+        subject(:entity){Entity.new('Paris', wikipage: wikipage, wikidata: wikidata)}
+        it{should be_a type}
+      end
+
+      context 'values parsed' do
+        subject(:entity){Entity.new('Paris', wikipage: wikipage, wikidata: wikidata)}
+        its(:values){should include(area: Measure.new(2_780_400, 'km²'))}
       end
 
       context 'inspect' do
@@ -151,15 +162,15 @@ module Reality
           if Reality.const_defined?(:CountryX) # to not mangle with our real Country
             Reality.send(:remove_const, :CountryX)
           end
-          Reality.const_set(:CountryX, klass)
+          Reality.const_set(:CountryX, type)
         }
         after{
           if Reality.const_defined?(:CountryX)
             Reality.send(:remove_const, :CountryX)
           end
         }
-        subject(:entity){Entity.new('France', wikipage: wikipage, wikidata: wikidata)}
-        its(:inspect){should == "#<Reality::CountryX(France)>"}
+        subject(:entity){Entity.new('Paris', wikipage: wikipage, wikidata: wikidata)}
+        its(:inspect){should == "#<Reality::Entity(Paris, France):country_x>"}
       end
     end
   end

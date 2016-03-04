@@ -1,0 +1,40 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.geonames.org/timezoneJSON?lat=18.795278&lng=98.998611&username=realitygeo
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 16 Feb 2016 21:05:22 GMT
+      Server:
+      - Apache/2.4.6 (Linux/SUSE)
+      Cache-Control:
+      - no-cache
+      Access-Control-Allow-Origin:
+      - "*"
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json;charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: '{"sunrise":"2016-02-16 06:51","lng":98.998611,"countryCode":"TH","gmtOffset":7,"rawOffset":7,"sunset":"2016-02-16
+        18:24","timezoneId":"Asia/Bangkok","dstOffset":7,"countryName":"Thailand","time":"2016-02-17
+        04:05","lat":18.795278}'
+    http_version: 
+  recorded_at: Tue, 16 Feb 2016 21:05:22 GMT
+recorded_with: VCR 3.0.0

@@ -1,8 +1,12 @@
 source 'https://rubygems.org'
 
-#gem 'infoboxer', git: 'https://github.com/molybdenum-99/infoboxer.git', branch: 'master'
+# gem 'infoboxer', git: 'https://github.com/molybdenum-99/infoboxer.git', branch: 'master'
 
 gemspec
+
+group :docs do
+  gem 'dokaz', git: 'https://github.com/zverok/dokaz.git'
+end
 
 group :development do
   gem 'progress_bar', git: 'git://github.com/zverok/progress_bar'

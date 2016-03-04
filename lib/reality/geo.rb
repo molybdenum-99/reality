@@ -1,3 +1,7 @@
+require 'geokit'
+require 'sun_times'
+Geokit::default_units = :kms # TODO: use global settings
+
 module Reality
   module Geo
     # GeoKit, RGeo, GeoRuby -- I know, ok?
@@ -45,6 +49,28 @@ module Reality
         @lat, @lng = Rational(lat), Rational(lng)
       end
 
+      def distance_to(point)
+        destination_coords = normalize_point(point).to_s
+        res = Geokit::LatLng.distance_between(to_s, destination_coords, formula: :sphere)
+        Reality::Measure(res, 'km')
+      end
+
+      def direction_to(point)
+        destination_coords = normalize_point(point).to_s
+        res = Geokit::LatLng.heading_between(to_s, destination_coords)
+        Reality::Measure(res, '°')
+      end
+
+      def endpoint(direction, distance)
+        res = Geokit::LatLng.endpoint(to_s, direction.to_f, distance.to_f)
+        Coord.new res.lat, res.lng
+      end
+
+      def close_to?(point, radius)
+        area = Geokit::Bounds.from_point_and_radius(to_s, radius.to_f)
+        area.contains?(normalize_point(point).to_s)
+      end
+
       def lat_dms(direction = true)
         seconds = (lat.abs % 1.0) * 3600.0
         d, m, s = lat.to_i, (seconds / 60).to_i, (seconds % 60)
@@ -65,12 +91,31 @@ module Reality
         end
       end
 
+      def to_s
+        "#{lat.to_f},#{lng.to_f}"
+      end
+
       def ==(other)
         other.is_a?(self.class) && lat == other.lat && lng == self.lng
       end
 
       def inspect
         "#<%s(%i°%i′%i″%s,%i°%i′%i″%s)>" % [self.class, *lat_dms, *lng_dms]
+      end
+
+      def sunrise(date = Date.today)
+        SunTimes.new.rise(date, lat.to_f, lng.to_f)
+      end
+
+      def sunset(date = Date.today)
+        SunTimes.new.set(date, lat.to_f, lng.to_f)
+      end
+
+      private
+
+      def normalize_point(point)
+        return point if point.is_a?(Coord)
+        point.coord if point.respond_to?(:coord)
       end
     end
   end

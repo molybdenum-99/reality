@@ -2,46 +2,34 @@ require 'infoboxer'
 require 'yaml'
 
 module Reality
-  require_relative 'config'
-
   def self.require_(*modules)
-    modules.flatten.each do |mod|
-      require File.expand_path("../reality/#{mod}", __FILE__)
-    end
+    modules.flatten.flat_map{|pattern|
+      Dir[File.expand_path("../reality/#{pattern}.rb", __FILE__)]
+    }.each(&Kernel.method(:require))
   end
 
   # basic functionality
-  require_ %w[refinements measure geo util/parsers]
+  require_ %w[version refinements config measure geo tz_offset]
+  require_ %w[util/parsers util/formatters]
 
   # engines
   require_ %w[infoboxer_templates wikidata]
-
-  def self.wp
-    @wp ||= Infoboxer.wp # while Infoboxer recreates wp for each request
-  end
+  Infoboxer.user_agent = "Reality/#{VERSION} (https://github.com/molybdenum-99/reality; zverok.offline@gmail.com)"
 
   # entities
-  require_ %w[entity]
-  require_ %w[entities/country entities/city]
+  require_ %w[entity list]
+  require_ %w[definitions/*]
+  require_ %w[methods]
 
-  def self.entity(name, entity_class = nil)
-    Entity.load(name, entity_class)
+  extend Methods
+
+  def self.reload!
+    require_ %w[definitions/*]
   end
-
-  def self.country(name)
-    entity(name, Country)
-  end
-
-  def self.city(name)
-    entity(name, City)
-  end
-
-  require_ %w[lists]
-
-  extend Lists
 
   # extras
   require_ %w[extras/open_weather_map extras/geonames extras/economic]
   include Extras::OpenWeatherMap
   include Extras::Geonames
+  include Extras::Economic
 end

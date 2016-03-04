@@ -1,5 +1,5 @@
 require 'quandl'
-Quandl::ApiConfig.api_key = QUANDL_KEY
+Quandl::ApiConfig.api_key = Reality.config.fetch('keys', 'quandl')
 Quandl::ApiConfig.api_version = '2015-04-09'
 
 module Reality
@@ -107,6 +107,7 @@ module Reality
           "Unemployment Rate, % of Total Labor Force" => "LUR"
         }
       end
+
     end
   end
 end
