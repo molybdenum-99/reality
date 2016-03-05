@@ -55,6 +55,22 @@ module Reality
         it{should be_loaded}
       end
 
+      context 'fallback to wikidata label search' do
+        let(:wikidata){double(predicates: {'P625' => Geo::Coord.new(41.918936, 12.501193)})}
+        subject(:entity){Entity.new('Piper Club')}
+        before{
+          expect(Infoboxer.wikipedia).to receive(:get).
+            with('Piper Club').and_return(nil)
+          expect(Wikidata::Entity).to receive(:fetch_by_label).
+            with('Piper Club').and_return([wikidata])
+
+          entity.load!
+        }
+        it{should be_loaded}
+        its(:wikipage){should be_nil}
+        its(:values){should_not be_empty}
+      end
+
       context 'loading on initialize' do
         before{
           expect(Infoboxer.wikipedia).to receive(:get).

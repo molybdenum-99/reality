@@ -55,8 +55,10 @@ module Reality
         end
       else
         @wikipage = Infoboxer.wikipedia.get(name)
-        if @wikipage
-          @wikidata = Wikidata::Entity.fetch(@wikipage.title).first
+        @wikidata = if @wikipage
+          Wikidata::Entity.fetch(@wikipage.title).first
+        else
+          Wikidata::Entity.fetch_by_label(name).first
         end
       end
       after_load
@@ -65,11 +67,11 @@ module Reality
 
     def setup!(wikipage: nil, wikidata: nil)
       @wikipage, @wikidata = wikipage, wikidata
-      after_load if @wikipage
+      after_load if @wikipage || @wikidata
     end
 
     def loaded?
-      !!@wikipage
+      !!(@wikipage || @wikidata)
     end
 
     # Don't try to convert me!
@@ -99,7 +101,7 @@ module Reality
     class << self
       def load(name, type = nil)
         Entity.new(name, load: true).tap{|entity|
-          return nil if entity.instance_variable_get('@wikipage').nil?
+          return nil if !entity.loaded?
           return nil if type && entity.wikipedia_type != type
         }
       end
