@@ -1,6 +1,4 @@
 require_relative 'economics/indicator'
-OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
-Reality.configure(:demo)
 
 module Reality
   module Extras
