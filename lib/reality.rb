@@ -28,8 +28,8 @@ module Reality
   end
 
   # extras
-  require_ %w[extras/open_weather_map extras/geonames extras/economic]
+  require_ %w[extras/open_weather_map extras/geonames extras/economics]
   include Extras::OpenWeatherMap
   include Extras::Geonames
-  include Extras::Economic
+  include Extras::Economics
 end

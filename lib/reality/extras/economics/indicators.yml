@@ -1,0 +1,149 @@
+---
+PPPGDP:
+  name: Country GDP based on PPP Valuation
+  unit: USD
+  scale: Billions
+BCA_NGDPD:
+  name: Current Account Balance, % of GDP
+  unit: "%"
+  scale: 1
+BCA:
+  name: Current Account Balance
+  unit: USD
+  scale: Billions
+LE:
+  name: Employment
+  unit: people
+  scale: Millions
+TX_RPCH:
+  name: Exports of Goods and services, % change
+  unit: "%"
+  scale: 1
+TXG_RPCH:
+  name: Exports of Goods, % change
+  unit: "%"
+  scale: 1
+NGDP_FY:
+  name: GDP Corresponding to Fiscal Year, Current Prices, LCU
+  unit: LCU
+  scale: Billions
+NGDP_D:
+  name: GDP Deflator
+  unit:
+  scale: 1
+NGDP_RPCH:
+  name: GDP at Constant Prices, % change
+  unit: "%"
+  scale: 1
+NGDP_R:
+  name: GDP at Constant Prices, LCU
+  unit: LCU
+  scale: Billions
+NGDP:
+  name: GDP at Current Prices, LCU
+  unit: LCU
+  scale: Billions
+NGDPD:
+  name: GDP at Current Prices
+  unit: USD
+  scale: Billions
+NGDPRPC:
+  name: GDP per Capita at Constant Prices, LCU
+  unit: LCU
+NGDPPC:
+  name: GDP per Capita at Current Prices, LCU
+  unit: LCU
+NGDPDPC:
+  name: GDP per Capita at Current Prices, USD
+  unit: USD
+GGXWDG_NGDP:
+  name: General Government Gross Debt, % of GDP
+  unit: "%"
+  scale: "% of GDP"
+GGXWDG:
+  name: General Government Gross Debt
+  unit: USD
+  scale: Billions
+GGXWDN_NGDP:
+  name: General Government Net Debt, % of GDP
+  unit: "%"
+GGXWDN:
+  name: General Government Net Debt
+  unit: USD
+  scale: Billions
+GGXCNL_NGDP:
+  name: General Government Net Lending/Borrowing, % of GDP
+  unit: "%"
+GGXCNL:
+  name: General Government Net Lending/Borrowing
+  unit: USD
+  scale: Billions
+GGXONLB_NGDP:
+  name: General Government Primary Net Lending/Borrowing, % of GDP Billions
+  unit: "%"
+GGXONLB:
+  name: General Government Primary Net Lending/Borrowing
+  unit: USD
+  scale: Billions
+GGR_NGDP:
+  name: General Government Revenue, % of GDP
+  unit: "%"
+GGR:
+  name: General Government Revenue
+  unit: USD
+  scale: Billions
+GGSB_NPGDP:
+  name: General Government Structural Balance, % of GDP
+  unit: "%"
+GGSB:
+  name: General Government Structural Balance
+  unit: USD
+  scale: Billions
+GGX_NGDP:
+  name: General Government Total Expenditure
+  unit: "%"
+GGX:
+  name: General Government Total Expenditure
+  unit: USD
+  scale: Billions
+NGSD_NGDP:
+  name: Gross National Savings, % of GDP
+  unit: "%"
+PPPEX:
+  name: Implied PPP Conversion Rate, LCU per USD
+  unit: LCU/USD
+TM_RPCH:
+  name: Imports of Goods and services, % change
+  unit: "%"
+TMG_RPCH:
+  name: Imports of Goods, % change
+  unit: "%"
+PCPIPCH:
+  name: Inflation % change, Average Consumer Prices
+  unit: "%"
+PCPIEPCH:
+  name: Inflation % change, End of Period Consumer Prices
+  unit: "%"
+PCPI:
+  name: Inflation Index, Average Consumer Prices
+PCPIE:
+  name: Inflation Index, End of Period Consumer Prices
+NGAP_NPGDP:
+  name: Output Gap, % of potential GDP
+  unit: "%"
+PPPPC:
+  name: Per Capita GDP based on PPP Valuation
+  unit: USD
+LP:
+  name: Population
+  scale: Millions
+PPPSH:
+  name: Share of World GDP based on PPP
+  unit: "%"
+NID_NGDP:
+  name: Total Investment, % of GDP
+  unit: "%"
+  scale: "% of GDP"
+LUR:
+  name: Unemployment Rate, % of Total Labor Force
+  unit: "%"
