@@ -1,12 +1,12 @@
-require_relative 'economics/indicator'
-require_relative 'economics/economy'
+require_relative 'quandl/indicator'
+require_relative 'quandl/economy'
 
 module Reality
   module Extras
-    module Economics
-      module CountryEconomic
+    module Quandl
+      module CountryEconomics
         def economy
-          @economy ||= Extras::Economics::Economy.new(self)
+          @economy ||= Extras::Quandl::Economy.new(self)
         end
       end
 
@@ -14,7 +14,7 @@ module Reality
         reality.config.register('keys', 'quandl',
                                 desc: 'Quandl API key. Can be obtained here: http://quandl.com')
 
-        reality::Country.include CountryEconomic
+        reality::Country.include CountryEconomics
       end
     end
   end

@@ -3,12 +3,12 @@ Quandl::ApiConfig.api_version = '2015-04-09'
 
 module Reality
   module Extras
-    module Economics
+    module Quandl
       class Indicator
         attr_reader :name, :code, :unit, :scale, :country
 
         def initialize(country, code, info)
-          Quandl::ApiConfig.api_key = Reality.config.fetch('keys', 'quandl')
+          ::Quandl::ApiConfig.api_key = Reality.config.fetch('keys', 'quandl')
 
           @name = info['name']
           @unit = info['unit']
@@ -37,14 +37,14 @@ module Reality
         end
 
         def inspect
-          "#<%s (%s)>" % ['Economics::Indicator', name]
+          "#<Reality::Quandl::Indicator (%s)>" % [name]
         end
 
         private
 
         def fetch
-          Quandl::Data.all({ params: { database_code: "ODA", dataset_code: "#{@country.iso3_code}_#{@code }" }})
-        rescue Quandl::NotFoundError
+          ::Quandl::Data.all({ params: { database_code: "ODA", dataset_code: "#{@country.iso3_code}_#{@code }" }})
+        rescue ::Quandl::NotFoundError
           nil
         end
       end

@@ -1,6 +1,6 @@
 module Reality
   module Extras
-    module Economics
+    module Quandl
       class Economy
         def initialize(country)
           @country = country
@@ -13,15 +13,13 @@ module Reality
         end
 
         def inspect
-          "#<%s (%s)>" % ['Economics::Economy', @country.name]
+          "#<Reality::Quandl::Economy (%s)>" % [@country.name]
         end
 
         private
 
-        #IMF Cross Country Macroeconomic Statistics
-        #https://www.quandl.com/data/ODA/documentation/overview
         def indicators_info
-          @indicators_info ||= YAML.load_file('lib/reality/extras/economics/indicators.yml')
+          @indicators_info ||= YAML.load_file('lib/reality/extras/quandl/indicators.yml')
         end
       end
     end

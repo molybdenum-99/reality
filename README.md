@@ -449,7 +449,7 @@ ar.capital.coord.weather
 ar.capital.coord.timezone
 # => #<TZInfo::DataTimezone: America/Argentina/Buenos_Aires>
 ar.economy.indicators.first
-# => #<Economics::Indicator (Country GDP based on PPP Valuation)>
+# => #<Reality::Quandl::Indicator (Country GDP based on PPP Valuation)>
 ```
 
 For more extensive data usage, you should use `Reality#configure` with
