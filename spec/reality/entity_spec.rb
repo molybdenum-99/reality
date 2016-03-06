@@ -125,6 +125,10 @@ module Reality
         expect(entity.area).to eq Reality::Measure.new(43_417_000, 'km²')
       end
 
+      it 'raises on non-existent properties' do
+        expect { entity.starsign }.to raise_error(NoMethodError)
+      end
+
       it 'force-loads on method_missing' do
         expect(Infoboxer.wikipedia).to receive(:get).
           with('Paris').and_return(wikipage)
@@ -134,6 +138,12 @@ module Reality
         entity = Entity.new('Paris')
         entity.area
         expect(entity).to be_loaded
+      end
+
+      it 'raises on certain unsupported methods' do
+        Entity::UNSUPPORTED_METHODS.each do |method|
+          expect { entity.send(method) }.to raise_error(NoMethodError)
+        end
       end
     end
 

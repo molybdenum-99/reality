@@ -80,14 +80,14 @@ module Reality
     def method_missing(sym, *arg, **opts, &block)
       if arg.empty? && opts.empty? && !block && sym !~ /[=?!]/ &&
         !UNSUPPORTED_METHODS.include?(sym)
-        
+
         load! unless loaded?
 
         # now some new method COULD emerge while loading
         if methods.include?(sym)
           send(sym)
         else
-          values[sym]
+          values[sym] || super
         end
       else
         super
