@@ -7,7 +7,7 @@ module Reality
     end
 
     def List(*names)
-      Entity::List.new(*names)
+      List.new(*names)
     end
 
     extend Forwardable
