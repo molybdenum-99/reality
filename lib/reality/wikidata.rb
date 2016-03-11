@@ -29,7 +29,7 @@ module Reality
         PREFIX v: <http://www.wikidata.org/prop/statement/>
         PREFIX schema: <http://schema.org/>
       }
-      
+
       SINGLE_QUERY = %Q{
         #{PREFIX}
         
@@ -54,6 +54,28 @@ module Reality
         
         SELECT ?id ?p ?o ?oLabel  WHERE {
           bind(wd:%{id} as ?id)
+          {
+            ?id ?p ?o .
+            FILTER(
+              STRSTARTS(STR(?p), "http://www.wikidata.org/prop/direct/") ||
+              (?p = rdfs:label && langMatches(lang(?o), "EN"))
+            )
+          } union {
+            bind(schema:about as ?p) .
+            ?o schema:about ?id .
+            filter(strstarts(str(?o), "https://en.wikipedia.org/wiki/"))
+          }
+          SERVICE wikibase:label {
+            bd:serviceParam wikibase:language "en" .
+          }
+         }
+      }
+
+      LABEL_QUERY = %Q{
+        #{PREFIX}
+        
+        SELECT ?id ?p ?o ?oLabel  WHERE {
+          ?id rdfs:label "%{label}"@en
           {
             ?id ?p ?o .
             FILTER(
@@ -143,6 +165,11 @@ module Reality
           faraday.get('', query: ID_QUERY % {id: id}, format: :json).
             derp{|res| from_sparql(res.body, subject: 'id', predicate: 'p', object: 'o', object_label: 'oLabel')}.
             first
+        end
+
+        def fetch_by_label(label)
+          faraday.get('', query: LABEL_QUERY % {label: label}, format: :json).
+            derp{|res| from_sparql(res.body, subject: 'id', predicate: 'p', object: 'o', object_label: 'oLabel')}
         end
 
         WIKIURL = 'https://en.wikipedia.org/wiki/%{title}'

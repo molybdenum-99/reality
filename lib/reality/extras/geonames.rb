@@ -12,10 +12,12 @@ module Reality
         private
         
         def guess_timezone
-          Timezone::Configure.username = Reality.config.fetch('keys', 'geonames')
+          Timezone::Lookup.config(:geonames) do |c|
+            c.username = Reality.config.fetch('keys', 'geonames')
+          end
           
-          gnzone = Timezone::Zone.new(latlon: [lat.to_f, lng.to_f])
-          gnzone && TZInfo::Timezone.new(gnzone.zone)
+          gnzone = Timezone.lookup(lat.to_f, lng.to_f)
+          gnzone && TZInfo::Timezone.new(gnzone.name)
         end
       end
 

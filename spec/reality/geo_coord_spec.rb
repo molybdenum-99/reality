@@ -107,7 +107,14 @@ module Reality
         its(:inspect){should == '#<Reality::Geo::Coord(38°53′23″N,77°0′32″W)>'}
       end
 
-      describe :ll do
+      describe :to_s do
+        subject{coord1}
+        its(:to_s){should == "#{subject.lat.to_f},#{subject.lng.to_f}"}
+      end
+
+      describe :to_h do
+        subject{coord1}
+        its(:to_h){should == {lat: subject.lat.to_f, lng: subject.lng.to_f}}
       end
     end
   end

@@ -34,7 +34,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'hashie'
   s.add_dependency 'open-weather'
   s.add_dependency 'quandl'
-  s.add_dependency 'timezone'
+  s.add_dependency 'timezone', '>= 0.99.0'
   s.add_dependency 'geokit'
   s.add_dependency 'tzinfo'
   s.add_dependency 'ruby-sun-times'

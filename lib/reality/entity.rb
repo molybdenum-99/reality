@@ -55,8 +55,10 @@ module Reality
         end
       else
         @wikipage = Infoboxer.wikipedia.get(name)
-        if @wikipage
-          @wikidata = Wikidata::Entity.fetch(@wikipage.title).first
+        @wikidata = if @wikipage
+          Wikidata::Entity.fetch(@wikipage.title).first
+        else
+          Wikidata::Entity.fetch_by_label(name).first
         end
       end
       after_load
@@ -65,11 +67,11 @@ module Reality
 
     def setup!(wikipage: nil, wikidata: nil)
       @wikipage, @wikidata = wikipage, wikidata
-      after_load if @wikipage
+      after_load if @wikipage || @wikidata
     end
 
     def loaded?
-      !!@wikipage
+      !!(@wikipage || @wikidata)
     end
 
     # Don't try to convert me!
@@ -99,21 +101,21 @@ module Reality
     class << self
       def load(name, type = nil)
         Entity.new(name, load: true).tap{|entity|
-          return nil if entity.instance_variable_get('@wikipage').nil?
+          return nil if !entity.loaded?
           return nil if type && entity.wikipedia_type != type
         }
       end
     end
 
-    #def to_h
-      #if respond_to?(:properties)
-        #properties.map{|sym|
-          #[sym, to_simple_type(self.send(sym))]
-        #}.to_h
-      #else
-        #{}
-      #end
-    #end
+    def to_h
+      load! unless loaded?
+      {name: name}.merge \
+        values.map{|k, v| [k.to_sym, Coercion.to_simple_type(v)]}.to_h
+    end
+
+    def to_json
+      to_h.to_json
+    end
 
     protected
 
@@ -130,23 +132,5 @@ module Reality
         define_singleton_method(sym){@values[sym]}
       end
     end
-
-    def to_simple_type(val)
-      case val
-      when nil, Numeric, String, Symbol
-        val
-      when Array
-        val.map{|v| to_simple_type(v)}
-      when Hash
-        val.map{|k, v| [to_simple_type(k), to_simple_type(v)]}.to_h
-      when Entity
-        val.to_s
-      when Reality::Measure
-        val.amount.to_i
-      else
-        fail ArgumentError, "Non-coercible value #{val.class}"
-      end
-    end
-
   end
 end

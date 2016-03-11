@@ -79,6 +79,17 @@ module Reality
       its(:en_wikipage){should == 'Paul McCartney'}
     end
 
+    describe '.fetch_by_label' do
+      subject(:entity){
+        VCR.use_cassette('Wikidata-PiperClub'){
+          Wikidata::Entity.fetch_by_label('Piper Club').first
+        }
+      }
+
+      its(:id){should == 'Q3905504'}
+      its(:label){should == 'Piper Club'}
+    end
+
     describe '.fetch_list' do
       subject(:list){
         VCR.use_cassette('Wikidata-3-countries'){

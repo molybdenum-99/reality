@@ -30,6 +30,9 @@ module Reality
     predicate 'P2046', :area, :measure, unit: 'km²'
     predicate 'P2044', :elevation, :measure, unit: 'm'
 
+    predicate 'P969', :street_address, :string
+    predicate 'P131', :located_in, :entity
+
     # Economy and socilogy ---------------------------------------------
     predicate 'P38', :currency, :entity
     predicate 'P463', :organizations, [:entity]
@@ -101,5 +104,9 @@ module Reality
     # Fictional entities -----------------------------------------------
     predicate 'P1080', :fictional_universe, :string
     predicate 'P1441', :present_in_works, [:entity]
+
+    # Internet ---------------------------------------------------------
+    predicate 'P856', :official_website, :string
+    predicate 'P2002', :twitter_username, :string
   end
 end

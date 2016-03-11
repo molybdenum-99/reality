@@ -95,6 +95,10 @@ module Reality
         "#{lat.to_f},#{lng.to_f}"
       end
 
+      def to_h
+        {lat: lat.to_f, lng: lng.to_f}
+      end
+
       def ==(other)
         other.is_a?(self.class) && lat == other.lat && lng == self.lng
       end
