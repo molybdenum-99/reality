@@ -71,6 +71,26 @@ module Reality
         end
       end
 
+      def to_simple_type(val)
+        case val
+        when Rational
+          val.to_f
+        when nil, Numeric, String, Symbol
+          val
+        when Array
+          val.map{|v| to_simple_type(v)}
+        #when Hash
+          #val.map{|k, v| [to_simple_type(k), to_simple_type(v)]}.to_h
+        when Entity
+          val.loaded? ? val.to_h : val.to_s
+
+        when ->(v){v.respond_to?(:to_h)}
+          val.to_h
+        else
+          val.to_s
+        end
+      end
+
     end
   end
 end

@@ -29,6 +29,22 @@ module Reality
           end
         end
       end
+
+      context :to_h do
+        before{
+          VCR.use_cassette('City-Buenos-Aires-wikidata'){
+            entity.capital.load!
+          }
+        }
+        subject{entity.to_h}
+        let(:expected){
+          entity.values.map{|k,v|
+            [k.to_sym, Entity::Coercion.to_simple_type(v)]
+          }.to_h
+        }
+        it{should include(name: entity.name)}
+        it{should include(expected)}
+      end
     end
   end
 end

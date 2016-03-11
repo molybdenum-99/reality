@@ -2,7 +2,8 @@ module Reality
   describe Entity, 'samples' do
     describe 'existing city' do
       before(:all){
-        VCR.use_cassette('1City-Buenos-Aires'){
+        VCR.use_cassette('1City-Buenos-Aires'){ # without 1 mangles with city-Buenos-Aires on Macs
+        
           @city = Reality.Entity('Buenos Aires') # parsed only once - faster tests
         }
       }

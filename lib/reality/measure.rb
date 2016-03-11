@@ -71,6 +71,10 @@ module Reality
       '%s%s' % [Util::Format.number(amount), unit]
     end
 
+    def to_h
+      {amount: amount.to_f, unit: unit.to_s}
+    end
+
     def to_f
       amount.to_f
     end

@@ -107,15 +107,15 @@ module Reality
       end
     end
 
-    #def to_h
-      #if respond_to?(:properties)
-        #properties.map{|sym|
-          #[sym, to_simple_type(self.send(sym))]
-        #}.to_h
-      #else
-        #{}
-      #end
-    #end
+    def to_h
+      load! unless loaded?
+      {name: name}.merge \
+        values.map{|k, v| [k.to_sym, Coercion.to_simple_type(v)]}.to_h
+    end
+
+    def to_json
+      to_h.to_json
+    end
 
     protected
 
@@ -132,23 +132,5 @@ module Reality
         define_singleton_method(sym){@values[sym]}
       end
     end
-
-    def to_simple_type(val)
-      case val
-      when nil, Numeric, String, Symbol
-        val
-      when Array
-        val.map{|v| to_simple_type(v)}
-      when Hash
-        val.map{|k, v| [to_simple_type(k), to_simple_type(v)]}.to_h
-      when Entity
-        val.to_s
-      when Reality::Measure
-        val.amount.to_i
-      else
-        fail ArgumentError, "Non-coercible value #{val.class}"
-      end
-    end
-
   end
 end

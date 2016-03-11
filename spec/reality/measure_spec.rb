@@ -87,5 +87,11 @@ module Reality
         expect(Measure.new(0.3, 'm').to_s).to eq '0.3m'
       end
     end
+
+    describe 'to_h' do
+      it 'works' do
+        expect(Measure.new(0.3, 'm').to_h).to eq(amount: 0.3, unit: 'm')
+      end
+    end
   end
 end
