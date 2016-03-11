@@ -448,8 +448,8 @@ ar.capital.coord.weather
 # => #<Reality::Weather(21°C, Clear)>
 ar.capital.coord.timezone
 # => #<TZInfo::DataTimezone: America/Argentina/Buenos_Aires>
-ar.economy.indicators.first
-# => #<Reality::Quandl::Indicator (Country GDP based on PPP Valuation)>
+ar.economy.inflation
+# => #<Reality::Measure(16 %)>
 ```
 
 For more extensive data usage, you should use `Reality#configure` with

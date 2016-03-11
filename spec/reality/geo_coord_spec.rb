@@ -85,15 +85,13 @@ module Reality
       describe :distance_to do
         subject { coord1.distance_to(coord2) }
 
-        # FIXME: float comparison, heartless bitch!
-        xit{should == Reality::Measure(409, 'km')}
+        it{should == Reality::Measure(409.33216254608834, 'km')}
       end
 
       describe :direction_to do
         subject { coord1.direction_to(coord2) }
 
-        # FIXME: float comparison, heartless bitch!
-        xit{should == Reality::Measure(279, '°')}
+        it{should == Reality::Measure(279.1519461595766, '°')}
       end
 
       describe :endpoint do

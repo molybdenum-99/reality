@@ -3,46 +3,24 @@ module Reality
     describe Economy do
       let(:country) { double(iso3_code: 'UKR', name: 'United Ruby') }
 
-      describe '#indicators' do
-        subject { described_class.new(country) }
+      subject(:economy) { described_class.new(country) }
 
-        it 'returns list of indicators' do
-          expect(subject.indicators.first).to be_a(Indicator)
-        end
-      end
-    end
+      describe '#inflation', :vcr do
+        subject { economy.inflation }
 
-    describe Indicator do
-      let(:country) { double(iso3_code: 'UKR', name: 'United Ruby') }
-
-      subject(:indicator) { described_class.new(country, 'PPPGDP', {name: 'PPPGDP'}) }
-
-      before do
-        VCR.use_cassette('QUANDL-IMF') { indicator.data }
+        it{should == Reality::Measure(49.979, '%')}
       end
 
-      describe '#current' do
-        it 'returns value' do
-          expect(indicator.current).to be_a(Float)
-        end
+      describe '#unemployment', :vcr do
+        subject { economy.unemployment }
+
+        it{should == Reality::Measure(11.467, '%')}
       end
 
-      describe '#history' do
-        subject { indicator.history }
+      describe '#gdp', :vcr do
+        subject { economy.gdp }
 
-        it 'returns hash with dates and values' do
-          expect(subject[0]['date']).to be_a(Date)
-          expect(subject[0]['value']).to be_a(Float)
-        end
-      end
-
-      describe '#prediction' do
-        subject { indicator.prediction }
-
-        it 'returns hash with dates and values' do
-          expect(subject[0]['date']).to be_a(Date)
-          expect(subject[0]['value']).to be_a(Float)
-        end
+        it{should == Reality::Measure(90_000_000_000, '$')}
       end
     end
   end
