@@ -94,6 +94,7 @@ module Reality
       def to_s
         "#{lat.to_f},#{lng.to_f}"
       end
+      alias_method :latlng, :to_s
 
       def to_h
         {lat: lat.to_f, lng: lng.to_f}
@@ -108,11 +109,22 @@ module Reality
       end
 
       def sunrise(date = Date.today)
-        SunTimes.new.rise(date, lat.to_f, lng.to_f)
+        SunTimes.rise(date, lat.to_f, lng.to_f)
       end
 
       def sunset(date = Date.today)
-        SunTimes.new.set(date, lat.to_f, lng.to_f)
+        SunTimes.set(date, lat.to_f, lng.to_f)
+      end
+
+      LINKS = {
+          osm: "https://www.openstreetmap.org/?mlat=%{lat}&mlon=%{lng}&zoom=12&layers=M",
+          google: "https://maps.google.com/maps?ll=%{latlng}&q=%{latlng}&hl=en&t=m&z=12",
+          wikimapia: "http://wikimapia.org/#lang=en&lat=%{lat}&lon=%{lng}&z=12&m=w"
+      }
+
+      def links
+        param = {lat: lat.to_f, lng: lng.to_f, latlng: latlng}
+        Hashie::Mash.new(LINKS.map{|key, pattern| [key, pattern % param]}.to_h)
       end
 
       private

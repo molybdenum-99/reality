@@ -116,6 +116,19 @@ module Reality
         subject{coord1}
         its(:to_h){should == {lat: subject.lat.to_f, lng: subject.lng.to_f}}
       end
+
+      describe :latlng do
+        subject{coord1}
+        its(:latlng){should == subject.to_s}
+      end
+
+      describe :links do
+        subject{coord1}
+
+        it 'returns http links to set of maps' do
+          expect(subject.links.keys).to match(%w[osm google wikimapia])
+        end
+      end
     end
   end
 end
