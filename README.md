@@ -421,14 +421,16 @@ Reality::TZOffset.parse('GMT+1').now
 
 ### Using external services
 
-Currently, there are two external services (except of Wikipedia and
+Currently, there are 3 external services (except of Wikipedia and
 Wikidata) mashed into Reality:
 * [OpenWeatherMap](http://openweathermap.org/) for "current weather"
   feature;
 * [GeoNames](http://www.geonames.org/) for "timezone at this coordinates"
   feature.
+* [Quandl](http://www.quandl.com/) for "economic indicators"
+  feature.
 
-Both of them, unlike Wikipedia/Wikidata API, require free access key
+All of them, unlike Wikipedia/Wikidata API, require free access key
 for usage. So, in your own code, you'll see something like this:
 
 ```ruby
@@ -446,6 +448,8 @@ ar.capital.coord.weather
 # => #<Reality::Weather(21°C, Clear)>
 ar.capital.coord.timezone
 # => #<TZInfo::DataTimezone: America/Argentina/Buenos_Aires>
+ar.economy.inflation
+# => #<Reality::Measure(16 %)>
 ```
 
 For more extensive data usage, you should use `Reality#configure` with

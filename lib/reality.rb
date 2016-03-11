@@ -28,7 +28,8 @@ module Reality
   end
 
   # extras
-  require_ %w[extras/open_weather_map extras/geonames]
+  require_ %w[extras/open_weather_map extras/geonames extras/quandl]
   include Extras::OpenWeatherMap
   include Extras::Geonames
+  include Extras::Quandl
 end
