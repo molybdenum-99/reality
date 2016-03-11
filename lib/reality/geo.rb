@@ -116,13 +116,15 @@ module Reality
         SunTimes.set(date, lat.to_f, lng.to_f)
       end
 
+      LINKS = {
+          osm: "https://www.openstreetmap.org/?mlat=%{lat}&mlon=%{lng}&zoom=12&layers=M",
+          google: "https://maps.google.com/maps?ll=%{latlng}&q=%{latlng}&hl=en&t=m&z=12",
+          wikimapia: "http://wikimapia.org/#lang=en&lat=%{lat}&lon=%{lng}&z=12&m=w"
+      }
+
       def links
-        links = {
-          osm: "https://www.openstreetmap.org/?mlat=#{lat.to_f}&mlon=#{lng.to_f}&zoom=12&layers=M",
-          google: "https://maps.google.com/maps?ll=#{latlng}&q=#{latlng}&hl=en&t=m&z=12",
-          wikimapia: "http://wikimapia.org/#lang=en&lat=#{lat.to_f}&lon=#{lng.to_f}&z=12&m=w"
-        }
-        Hashie::Mash.new(links)
+        param = {lat: lat.to_f, lng: lng.to_f, latlng: latlng}
+        Hashie::Mash.new(LINKS.map{|key, pattern| [key, pattern % param]}.to_h)
       end
 
       private
