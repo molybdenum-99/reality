@@ -4,11 +4,7 @@ module Reality
   describe Wikidata::Entity do
     describe '.from_sparql' do
       subject(:entity){
-        Wikidata::Entity.from_sparql(source,
-          subject: 'id',
-          predicate: 'p', 
-          object: 'o',
-          object_label: 'oLabel').first
+        Wikidata::Entity.from_sparql(source).first
       }
 
       context('Ukraine'){
@@ -52,26 +48,24 @@ module Reality
       }
     end
 
-    describe '.fetch' do
-      context 'by [Wikipedia] title' do
-        subject(:entity){
-          VCR.use_cassette('Wikidata-Ukraine'){
-            Wikidata::Entity.fetch('Ukraine').first
-          }
+    describe '.one_by_wikititle' do
+      subject(:entity){
+        VCR.use_cassette('Wikidata-Ukraine'){
+          Wikidata::Entity.one_by_wikititle('Ukraine')
         }
+      }
 
-        its(:id){should == 'Q212'}
+      its(:id){should == 'Q212'}
 
-        it 'should have the properties' do
-          expect(entity['P625'].first).to eq Reality::Geo::Coord.new(49.0, 32.0)
-        end
+      it 'should have the properties' do
+        expect(entity['P625'].first).to eq Reality::Geo::Coord.new(49.0, 32.0)
       end
     end
 
-    describe '.fetch_by_id' do
+    describe '.one_by_id' do
       subject(:entity){
         VCR.use_cassette('Wikidata-Q2599'){
-          Wikidata::Entity.fetch_by_id('Q2599')
+          Wikidata::Entity.one_by_id('Q2599')
         }
       }
 
@@ -79,10 +73,10 @@ module Reality
       its(:en_wikipage){should == 'Paul McCartney'}
     end
 
-    describe '.fetch_by_label' do
+    describe '.by_label' do
       subject(:entity){
         VCR.use_cassette('Wikidata-PiperClub'){
-          Wikidata::Entity.fetch_by_label('Piper Club').first
+          Wikidata::Entity.one_by_label('Piper Club')
         }
       }
 
@@ -90,10 +84,10 @@ module Reality
       its(:label){should == 'Piper Club'}
     end
 
-    describe '.fetch_list' do
+    describe '.by_wikititle' do
       subject(:list){
         VCR.use_cassette('Wikidata-3-countries'){
-          Wikidata::Entity.fetch_list('Argentina', 'Bolivia', 'Chile')
+          Wikidata::Entity.by_wikititle('Argentina', 'Bolivia', 'Chile')
         }
       }
       its(:count){should == 3}
@@ -106,10 +100,10 @@ module Reality
       end
     end
 
-    describe '.fetch_list_by_id' do
+    describe '.by_id' do
       subject(:list){
         VCR.use_cassette('Wikidata-3-countries-by-id'){
-          Wikidata::Entity.fetch_list_by_id('Q414', 'Q750', 'Q298')
+          Wikidata::Entity.by_id('Q414', 'Q750', 'Q298')
         }
       }
       its(:count){should == 3}

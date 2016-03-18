@@ -1,3 +1,5 @@
+require_relative 'wikidata/query'
+
 module Reality
   using Reality::Refinements
   
@@ -18,225 +20,38 @@ module Reality
       end
     end
 
-    # FIXME: I should be burn in hell for this mess. But it works. Somehow.
     class Entity
-      PREFIX = %Q{
-        PREFIX wikibase: <http://wikiba.se/ontology#>
-        PREFIX wd: <http://www.wikidata.org/entity/> 
-        PREFIX wdt: <http://www.wikidata.org/prop/direct/>
-        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-        PREFIX p: <http://www.wikidata.org/prop/>
-        PREFIX v: <http://www.wikidata.org/prop/statement/>
-        PREFIX schema: <http://schema.org/>
-      }
-
-      SINGLE_QUERY = %Q{
-        #{PREFIX}
-        
-        SELECT ?id ?p ?o ?oLabel  WHERE {
-          <https://en.wikipedia.org/wiki/%{title}> schema:about ?id .
-          {
-            ?id ?p ?o .
-            FILTER(STRSTARTS(STR(?p), "http://www.wikidata.org/prop/direct/"))
-          } union {
-            ?id ?p ?o .
-            filter(langMatches(lang(?o), "EN")).
-            filter(?p = rdfs:label)
-          }
-          SERVICE wikibase:label {
-            bd:serviceParam wikibase:language "en" .
-          }
-         }
-      }
-
-      ID_QUERY = %Q{
-        #{PREFIX}
-        
-        SELECT ?id ?p ?o ?oLabel  WHERE {
-          bind(wd:%{id} as ?id)
-          {
-            ?id ?p ?o .
-            FILTER(
-              STRSTARTS(STR(?p), "http://www.wikidata.org/prop/direct/") ||
-              (?p = rdfs:label && langMatches(lang(?o), "EN"))
-            )
-          } union {
-            bind(schema:about as ?p) .
-            ?o schema:about ?id .
-            filter(strstarts(str(?o), "https://en.wikipedia.org/wiki/"))
-          }
-          SERVICE wikibase:label {
-            bd:serviceParam wikibase:language "en" .
-          }
-         }
-      }
-
-      LABEL_QUERY = %Q{
-        #{PREFIX}
-        
-        SELECT ?id ?p ?o ?oLabel  WHERE {
-          ?id rdfs:label "%{label}"@en
-          {
-            ?id ?p ?o .
-            FILTER(
-              STRSTARTS(STR(?p), "http://www.wikidata.org/prop/direct/") ||
-              (?p = rdfs:label && langMatches(lang(?o), "EN"))
-            )
-          } union {
-            bind(schema:about as ?p) .
-            ?o schema:about ?id .
-            filter(strstarts(str(?o), "https://en.wikipedia.org/wiki/"))
-          }
-          SERVICE wikibase:label {
-            bd:serviceParam wikibase:language "en" .
-          }
-         }
-      }
-
-      MULTIPLE_QUERY = %Q{
-        #{PREFIX}
-
-        SELECT ?id ?p ?o ?oLabel  WHERE {
-          %{selectors} .
-          {
-            ?id ?p ?o .
-            FILTER(
-              STRSTARTS(STR(?p), "http://www.wikidata.org/prop/direct/") ||
-              (?p = rdfs:label && langMatches(lang(?o), "EN"))
-            )
-          } union {
-            bind(schema:about as ?p) .
-            ?o schema:about ?id .
-            filter(strstarts(str(?o), "https://en.wikipedia.org/wiki/"))
-          }
-          SERVICE wikibase:label {
-            bd:serviceParam wikibase:language "en" .
-          }
-         }
-      }
-      MULTIPLE_IDS_QUERY = %Q{
-        #{PREFIX}
-
-        SELECT ?id ?p ?o ?oLabel  WHERE {
-          %{selectors} .
-          {
-            ?id ?p ?o .
-            FILTER(
-              STRSTARTS(STR(?p), "http://www.wikidata.org/prop/direct/") ||
-              (?p = rdfs:label && langMatches(lang(?o), "EN"))
-            )
-          } union {
-            bind(schema:about as ?p) .
-            ?o schema:about ?id .
-            filter(strstarts(str(?o), "https://en.wikipedia.org/wiki/"))
-          }
-          SERVICE wikibase:label {
-            bd:serviceParam wikibase:language "en" .
-          }
-         }
-      }
-      SELECTOR = %Q{
-        {
-          <https://en.wikipedia.org/wiki/%{title}> schema:about ?id
-        }
-      }
-      IDSELECTOR = %Q{
-        {
-          BIND(wd:%{id} as ?id)
-        }
-      }
-
-      UNSAFE = Regexp.union(URI::UNSAFE, /[,()']/)
-      
       class << self
-        def faraday
-          @faraday ||= Faraday.new(url: 'https://query.wikidata.org/sparql'){|f|
-            f.adapter Faraday.default_adapter
-          }
+        def by_wikititle(*titles)
+          Query.by_wikititle(*titles)
         end
 
-        def fetch(title)
-          title = URI.escape(title, UNSAFE)
-          faraday.get('', query: SINGLE_QUERY % {title: title}, format: :json).
-            derp{|res| from_sparql(res.body, subject: 'id', predicate: 'p', object: 'o', object_label: 'oLabel')}
+        def by_id(*ids)
+          Query.by_id(*ids)
         end
 
-        def fetch_by_id(id)
-          faraday.get('', query: ID_QUERY % {id: id}, format: :json).
-            derp{|res| from_sparql(res.body, subject: 'id', predicate: 'p', object: 'o', object_label: 'oLabel')}.
-            first
+        def by_label(*labels)
+          Query.by_label(*labels)
         end
 
-        def fetch_by_label(label)
-          faraday.get('', query: LABEL_QUERY % {label: label}, format: :json).
-            derp{|res| from_sparql(res.body, subject: 'id', predicate: 'p', object: 'o', object_label: 'oLabel')}
+        def one_by_wikititle(title)
+          by_wikititle(title).values.first
         end
 
-        WIKIURL = 'https://en.wikipedia.org/wiki/%{title}'
-
-        MAX_SLICE = 20
-
-        def fetch_list(*titles)
-          titles.each_slice(MAX_SLICE).map{|titles_chunk|
-            fetch_small_list(*titles_chunk)
-          }.inject(:merge)
+        def one_by_id(id)
+          by_id(id).values.first
         end
 
-        def fetch_list_by_id(*ids)
-          ids.each_slice(MAX_SLICE).map{|ids_chunk|
-            fetch_small_idlist(*ids_chunk)
-          }.inject(:merge)
+        def one_by_label(label)
+          by_label(label).values.first
         end
 
-        def fetch_small_list(*titles)
-          titles.
-            map{|t| SELECTOR % {title: URI.escape(t, UNSAFE)}}.
-            join(' UNION ').
-            derp{|selectors| MULTIPLE_QUERY % {selectors: selectors}}.
-            derp{|query|
-              faraday.get('', query: query, format: :json)
-            }.
-            derp{|res|
-              from_sparql(
-                res.body,
-                subject: 'id',
-                predicate: 'p',
-                object: 'o',
-                object_label: 'oLabel')
-            }.
-            map{|e|
-              [e.en_wikipage, e]
-            }.to_h
-        end
-
-
-        def fetch_small_idlist(*ids)
-          ids.
-            map{|i| IDSELECTOR % {id: i}}.
-            join(' UNION ').
-            derp{|selectors| MULTIPLE_IDS_QUERY % {selectors: selectors}}.
-            derp{|query|
-              faraday.get('', query: query, format: :json)
-            }.
-            derp{|res|
-              from_sparql(
-                res.body,
-                subject: 'id',
-                predicate: 'p',
-                object: 'o',
-                object_label: 'oLabel')
-            }.
-            map{|e|
-              [e.id, e]
-            }.to_h
-        end
-        
-        def from_sparql(sparql_json, subject: 'subject', predicate: 'predicate', object: 'object', object_label: 'object_label')
+        def from_sparql(sparql_json)
           JSON.parse(sparql_json)['results']['bindings'].map{|row|
             [
-              row[subject]['value'].sub('http://www.wikidata.org/entity/', ''),
-              row[predicate]['value'].sub('http://www.wikidata.org/prop/direct/', ''),
-              row[object].merge('label' => row[object_label]['value'])
+              row['s']['value'].sub('http://www.wikidata.org/entity/', ''),
+              row['p']['value'].sub('http://www.wikidata.org/prop/direct/', ''),
+              row['o'].merge('label' => row['oLabel']['value'])
             ]
           }.group_by(&:first).
           map{|id, rows|
