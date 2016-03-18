@@ -82,6 +82,17 @@ module Reality
 
       its(:id){should == 'Q3905504'}
       its(:label){should == 'Piper Club'}
+
+      context 'when there are options' do
+        subject(:entity){
+          VCR.use_cassette('Wikidata-Argentina'){
+            Wikidata::Entity.one_by_label('Argentina')
+          }
+        }
+
+        its(:id){should == 'Q414'}
+        its(:label){should == 'Argentina'}
+      end
     end
 
     describe '.by_wikititle' do
@@ -110,6 +121,22 @@ module Reality
       it 'should be loaded correctly' do
         expect(list.keys).to contain_exactly('Q414', 'Q750', 'Q298')
         expect(list.values.map(&:en_wikipage)).to contain_exactly('Argentina', 'Bolivia', 'Chile')
+      end
+
+      context 'when some entity can not be found' do
+      end
+    end
+
+    describe '.by_label' do
+      subject(:list){
+        VCR.use_cassette('Wikidata-3-countries-label'){
+          Wikidata::Entity.by_label('Argentina', 'Bolivia', 'Chile')
+        }
+      }
+      its(:count){should == 3}
+      it 'should be loaded correctly' do
+        expect(list.keys).to contain_exactly('Argentina', 'Bolivia', 'Chile')
+        expect(list.values.map(&:id)).to contain_exactly('Q414', 'Q750', 'Q298')
       end
 
       context 'when some entity can not be found' do

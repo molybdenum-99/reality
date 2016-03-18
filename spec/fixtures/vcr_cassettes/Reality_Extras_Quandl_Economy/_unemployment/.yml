@@ -1,0 +1,79 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.quandl.com/api/v3/datasets/ODA/UKR_LUR/data
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      X-Api-Token:
+      - JU6KEPEkqqqfVkcpa9MU
+      Request-Source:
+      - ruby
+      Request-Source-Version:
+      - 1.0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 18 Mar 2016 17:06:07 GMT
+      Etag:
+      - W/"aae218e179b88af91282030bba64eb6e"
+      Server:
+      - openresty
+      Set-Cookie:
+      - user_uuid=982ca495-317a-4f62-a535-5a2f1f279356; path=/; expires=Tue, 18 Mar
+        2036 17:06:07 -0000
+      Vary:
+      - Origin
+      X-Api-Version:
+      - '2015-04-09'
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rack-Cors:
+      - preflight-hit; no-origin
+      X-Ratelimit-Limit:
+      - '50000'
+      X-Ratelimit-Remaining:
+      - '49998'
+      X-Request-Id:
+      - 4809a653-4bf5-4454-ae2c-2c877b1d608c
+      X-Runtime:
+      - '0.051964'
+      X-Xss-Protection:
+      - 1; mode=block
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAwAAAP//XNLNbsMgDAfwd/E5jQwJBHLeM+wSVRVqqFSJ0C0f
+        0qaq7z7a2YHtFOkXA/5j7jC61S1+PT2/0N8hXKfrCn3cQqhgnV1cLrd5Yjjf
+        wjbF0zWO/uufRTf5BfoB3tzqoYJ3FzYPxwqW1c2v/T30IKxVByEPjUglPo7s
+        EiXufpn95+bj+Tv9cDFuLiT8bXAY/pR2tTX6WD1RWEZTC2EITcZWd4Qdo61b
+        QabZBKY9FeneqxDF+javlx2XNrknqRpCmVFJSygyGsXdY24ULR2ERSTT0p64
+        R9J1oxm7AhVlQp3RsKl8uOCY2OZzlKGrwz2QrVFxRzKj5kC4B0p31xnWPdHz
+        7syr0TR9W6glM4VxXTEjQ1SOCMnygNpUd3y9xuA+Fs+v8zaPfk7vaPTLGR6P
+        HwAAAP//AwALsx3s8QIAAA==
+    http_version: 
+  recorded_at: Fri, 18 Mar 2016 17:06:07 GMT
+recorded_with: VCR 3.0.0

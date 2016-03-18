@@ -120,6 +120,10 @@ module Reality
         @predicates[pred]
       end
 
+      def id_i
+        id.sub('Q', '').to_i
+      end
+
       def label
         self['http://www.w3.org/2000/01/rdf-schema#label'].first
       end

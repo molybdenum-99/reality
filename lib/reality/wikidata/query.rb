@@ -78,8 +78,12 @@ module Reality
 
       def fetch(key, selectors)
         selectors.each_slice(MAX_SLICE).map{|chunk|
-          fetch_sublist(selectors)
-        }.flatten.map{|entity| [entity.send(key), entity]}.to_h
+            fetch_sublist(selectors)
+          }.flatten(1).
+          group_by(&key).
+          # of several entities with same label, we always prefer first-by-id
+          map{|key, group| group.sort_by(&:id_i).first}. 
+          map{|entity| [entity.send(key), entity]}.to_h
       end
 
       def fetch_sublist(selectors)
