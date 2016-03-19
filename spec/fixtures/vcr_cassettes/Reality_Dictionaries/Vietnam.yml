@@ -8,7 +8,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Infoboxer/0.2.2 (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
+      - Reality/0.0.3 (https://github.com/molybdenum-99/reality; zverok.offline@gmail.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx/1.9.4
       Date:
-      - Fri, 26 Feb 2016 13:45:33 GMT
+      - Sat, 19 Mar 2016 00:40:06 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -29,19 +29,22 @@ http_interactions:
       Connection:
       - keep-alive
       X-Powered-By:
-      - HHVM/3.6.5
+      - HHVM/3.12.1
       X-Content-Type-Options:
       - nosniff
       Cache-Control:
       - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
+        for more info."
       X-Frame-Options:
       - SAMEORIGIN
       Vary:
       - Accept-Encoding,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=43035 t=1456494333880364
+      - D=29914 t=1458348006585367
       X-Varnish:
-      - 1133386990, 1305359863, 3049654858
+      - 2811917682, 4285001689, 2063790709
       Via:
       - 1.1 varnish, 1.1 varnish, 1.1 varnish
       Accept-Ranges:
@@ -49,17 +52,17 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1065 pass+chfp(0), cp3004 miss+chfp(0), cp3008 frontend pass+chfp(0)
+      - cp1065 miss+chfp(0), cp3013 miss+chfp(0), cp3014 frontend miss+chfp(0)
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains; preload
       Set-Cookie:
       - GeoIP=UA:07:Kharkov:49.98:36.25:v4; Path=/; Domain=.wikipedia.org
-      - WMF-Last-Access=26-Feb-2016;Path=/;HttpOnly;Expires=Tue, 29 Mar 2016 12:00:00
+      - WMF-Last-Access=19-Mar-2016;Path=/;HttpOnly;Expires=Wed, 20 Apr 2016 00:00:00
         GMT
       X-Analytics:
       - https=1;nocookies=1
       X-Client-Ip:
-      - 94.179.103.153
+      - 94.179.5.221
     body:
       encoding: ASCII-8BIT
       string: '{"batchcomplete":"","query":{"pages":{"379347":{"pageid":379347,"ns":0,"title":"List
@@ -204,7 +207,7 @@ http_interactions:
         Nam]] (th\u1ecb x\u00e3)\n\n==References==\n{{Reflist|2}}\n\n==External links==\n{{commonscat-inline|Cities
         in Vietnam|''''''Cities in Vietnam''''''}}\n\n{{Asia topic|List of cities
         in}}\n\n[[Category:Cities in Vietnam| ]]\n[[Category:Lists of cities by country|Vietnam,
-        List of cities in]]\n[[Category:Vietnam geography-related lists|Cities]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2016-02-25T03:06:12Z","lastrevid":706755700,"length":10716,"fullurl":"https://en.wikipedia.org/wiki/List_of_cities_in_Vietnam","editurl":"https://en.wikipedia.org/w/index.php?title=List_of_cities_in_Vietnam&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/List_of_cities_in_Vietnam"}}}}'
+        List of cities in]]\n[[Category:Vietnam geography-related lists|Cities]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2016-02-29T17:13:09Z","lastrevid":706755700,"length":10716,"fullurl":"https://en.wikipedia.org/wiki/List_of_cities_in_Vietnam","editurl":"https://en.wikipedia.org/w/index.php?title=List_of_cities_in_Vietnam&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/List_of_cities_in_Vietnam"}}}}'
     http_version: 
-  recorded_at: Fri, 26 Feb 2016 13:45:33 GMT
+  recorded_at: Sat, 19 Mar 2016 00:40:06 GMT
 recorded_with: VCR 3.0.0

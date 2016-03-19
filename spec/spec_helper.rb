@@ -10,3 +10,5 @@ VCR.configure do |config|
 end
 
 Reality.configure(:demo)
+
+#require_relative 'helpers/formatters'

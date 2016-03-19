@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx/1.9.4
       Date:
-      - Fri, 18 Mar 2016 16:53:40 GMT
+      - Sat, 19 Mar 2016 00:40:32 GMT
       Content-Type:
       - application/sparql-results+json
       Transfer-Encoding:
@@ -33,20 +33,20 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Varnish:
-      - 2183943542, 1498367640, 221734482
+      - 2188463390, 1499668776, 2096742006
       Via:
       - 1.1 varnish, 1.1 varnish, 1.1 varnish
       Age:
       - '0'
       X-Cache:
-      - cp1045 miss(0), cp3022 miss(0), cp3019 frontend miss(0)
+      - cp1045 pass(0), cp3022 pass(0), cp3022 frontend pass(0)
       Set-Cookie:
-      - WMF-Last-Access=18-Mar-2016;Path=/;HttpOnly;Expires=Tue, 19 Apr 2016 12:00:00
+      - WMF-Last-Access=19-Mar-2016;Path=/;HttpOnly;Expires=Wed, 20 Apr 2016 00:00:00
         GMT
       X-Analytics:
       - https=1;nocookies=1
       X-Client-Ip:
-      - 46.133.202.247
+      - 94.179.5.221
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -1407,5 +1407,5 @@ http_interactions:
         dGVyYWwiLAogICAgICAgICJ2YWx1ZSIgOiAiMjU1IgogICAgICB9CiAgICB9
         IF0KICB9Cn0=
     http_version: 
-  recorded_at: Fri, 18 Mar 2016 16:53:40 GMT
+  recorded_at: Sat, 19 Mar 2016 00:40:32 GMT
 recorded_with: VCR 3.0.0

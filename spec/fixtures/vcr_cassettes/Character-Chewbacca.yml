@@ -2,96 +2,13 @@
 http_interactions:
 - request:
     method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&format=json&meta=siteinfo&siprop=namespaces%7Cnamespacealiases
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Infoboxer/0.2.2 (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Server:
-      - nginx/1.9.4
-      Date:
-      - Mon, 29 Feb 2016 11:57:23 GMT
-      Content-Type:
-      - application/json; charset=utf-8
-      Content-Length:
-      - '708'
-      Connection:
-      - keep-alive
-      X-Powered-By:
-      - HHVM/3.6.5
-      X-Content-Type-Options:
-      - nosniff
-      Cache-Control:
-      - private, must-revalidate, max-age=0
-      X-Frame-Options:
-      - SAMEORIGIN
-      Vary:
-      - Accept-Encoding,X-Forwarded-Proto,Cookie,Authorization
-      Backend-Timing:
-      - D=23843 t=1456747043171245
-      X-Varnish:
-      - 1929508106, 1881120293, 2044681418
-      Via:
-      - 1.1 varnish, 1.1 varnish, 1.1 varnish
-      Accept-Ranges:
-      - bytes
-      Age:
-      - '0'
-      X-Cache:
-      - cp1065 pass+chfp(0), cp3004 miss+chfp(0), cp3040 frontend miss+chfp(0)
-      Strict-Transport-Security:
-      - max-age=31536000; includeSubDomains; preload
-      Set-Cookie:
-      - GeoIP=UA:::50.45:30.52:v4; Path=/; Domain=.wikipedia.org
-      - WMF-Last-Access=29-Feb-2016;Path=/;HttpOnly;Expires=Fri, 01 Apr 2016 00:00:00
-        GMT
-      X-Analytics:
-      - https=1;nocookies=1
-      X-Client-Ip:
-      - 94.179.34.160
-    body:
-      encoding: ASCII-8BIT
-      string: '{"batchcomplete":"","query":{"namespaces":{"-2":{"id":-2,"case":"first-letter","canonical":"Media","*":"Media"},"-1":{"id":-1,"case":"first-letter","canonical":"Special","*":"Special"},"0":{"id":0,"case":"first-letter","content":"","*":""},"1":{"id":1,"case":"first-letter","subpages":"","canonical":"Talk","*":"Talk"},"2":{"id":2,"case":"first-letter","subpages":"","canonical":"User","*":"User"},"3":{"id":3,"case":"first-letter","subpages":"","canonical":"User
-        talk","*":"User talk"},"4":{"id":4,"case":"first-letter","subpages":"","canonical":"Project","*":"Wikipedia"},"5":{"id":5,"case":"first-letter","subpages":"","canonical":"Project
-        talk","*":"Wikipedia talk"},"6":{"id":6,"case":"first-letter","canonical":"File","*":"File"},"7":{"id":7,"case":"first-letter","subpages":"","canonical":"File
-        talk","*":"File talk"},"8":{"id":8,"case":"first-letter","canonical":"MediaWiki","*":"MediaWiki"},"9":{"id":9,"case":"first-letter","subpages":"","canonical":"MediaWiki
-        talk","*":"MediaWiki talk"},"10":{"id":10,"case":"first-letter","subpages":"","canonical":"Template","*":"Template"},"11":{"id":11,"case":"first-letter","subpages":"","canonical":"Template
-        talk","*":"Template talk"},"12":{"id":12,"case":"first-letter","subpages":"","canonical":"Help","*":"Help"},"13":{"id":13,"case":"first-letter","subpages":"","canonical":"Help
-        talk","*":"Help talk"},"14":{"id":14,"case":"first-letter","subpages":"","canonical":"Category","*":"Category"},"15":{"id":15,"case":"first-letter","subpages":"","canonical":"Category
-        talk","*":"Category talk"},"100":{"id":100,"case":"first-letter","subpages":"","canonical":"Portal","*":"Portal"},"101":{"id":101,"case":"first-letter","subpages":"","canonical":"Portal
-        talk","*":"Portal talk"},"108":{"id":108,"case":"first-letter","subpages":"","canonical":"Book","*":"Book"},"109":{"id":109,"case":"first-letter","subpages":"","canonical":"Book
-        talk","*":"Book talk"},"118":{"id":118,"case":"first-letter","subpages":"","canonical":"Draft","*":"Draft"},"119":{"id":119,"case":"first-letter","subpages":"","canonical":"Draft
-        talk","*":"Draft talk"},"446":{"id":446,"case":"first-letter","canonical":"Education
-        Program","*":"Education Program"},"447":{"id":447,"case":"first-letter","subpages":"","canonical":"Education
-        Program talk","*":"Education Program talk"},"710":{"id":710,"case":"first-letter","canonical":"TimedText","*":"TimedText"},"711":{"id":711,"case":"first-letter","canonical":"TimedText
-        talk","*":"TimedText talk"},"828":{"id":828,"case":"first-letter","subpages":"","canonical":"Module","*":"Module"},"829":{"id":829,"case":"first-letter","subpages":"","canonical":"Module
-        talk","*":"Module talk"},"2300":{"id":2300,"case":"first-letter","canonical":"Gadget","*":"Gadget"},"2301":{"id":2301,"case":"first-letter","canonical":"Gadget
-        talk","*":"Gadget talk"},"2302":{"id":2302,"case":"case-sensitive","canonical":"Gadget
-        definition","defaultcontentmodel":"GadgetDefinition","*":"Gadget definition"},"2303":{"id":2303,"case":"case-sensitive","canonical":"Gadget
-        definition talk","*":"Gadget definition talk"},"2600":{"id":2600,"case":"first-letter","canonical":"Topic","defaultcontentmodel":"flow-board","*":"Topic"}},"namespacealiases":[{"id":4,"*":"WP"},{"id":5,"*":"WT"},{"id":6,"*":"Image"},{"id":7,"*":"Image
-        talk"}]}}'
-    http_version: 
-  recorded_at: Mon, 29 Feb 2016 11:57:23 GMT
-- request:
-    method: get
     uri: https://en.wikipedia.org/w/api.php?action=query&format=json&inprop=url&prop=revisions%7Cinfo&redirects=true&rvprop=content&titles=Chewbacca
     body:
       encoding: US-ASCII
       string: ''
     headers:
       User-Agent:
-      - Infoboxer/0.2.2 (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
+      - Reality/0.0.3 (https://github.com/molybdenum-99/reality; zverok.offline@gmail.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -104,27 +21,30 @@ http_interactions:
       Server:
       - nginx/1.9.4
       Date:
-      - Mon, 29 Feb 2016 11:57:23 GMT
+      - Sat, 19 Mar 2016 00:40:03 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '9107'
+      - '9367'
       Connection:
       - keep-alive
       X-Powered-By:
-      - HHVM/3.6.5
+      - HHVM/3.12.1
       X-Content-Type-Options:
       - nosniff
       Cache-Control:
       - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
+        for more info."
       X-Frame-Options:
       - SAMEORIGIN
       Vary:
       - Accept-Encoding,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=48870 t=1456747043737917
+      - D=29884 t=1458348003670470
       X-Varnish:
-      - 2603458505, 2043682987, 2044685705
+      - 3102221780, 1534797953, 2063782883
       Via:
       - 1.1 varnish, 1.1 varnish, 1.1 varnish
       Accept-Ranges:
@@ -132,17 +52,17 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1053 miss+chfp(0), cp3008 miss+chfp(0), cp3040 frontend miss+chfp(0)
+      - cp1053 miss+chfp(0), cp3008 miss+chfp(0), cp3014 frontend miss+chfp(0)
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains; preload
       Set-Cookie:
-      - GeoIP=UA:::50.45:30.52:v4; Path=/; Domain=.wikipedia.org
-      - WMF-Last-Access=29-Feb-2016;Path=/;HttpOnly;Expires=Fri, 01 Apr 2016 00:00:00
+      - GeoIP=UA:07:Kharkov:49.98:36.25:v4; Path=/; Domain=.wikipedia.org
+      - WMF-Last-Access=19-Mar-2016;Path=/;HttpOnly;Expires=Wed, 20 Apr 2016 00:00:00
         GMT
       X-Analytics:
       - https=1;nocookies=1
       X-Client-Ip:
-      - 94.179.34.160
+      - 94.179.5.221
     body:
       encoding: ASCII-8BIT
       string: '{"batchcomplete":"","query":{"pages":{"19724058":{"pageid":19724058,"ns":0,"title":"Chewbacca","revisions":[{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{pp-pc1}}\n{{pp-move|small=yes}}\n{{Lead
@@ -286,7 +206,13 @@ http_interactions:
         Starkiller Base, the First Order''s battle station. Chewbacca shortly thereafter
         rescues Rey and Finn from the wilderness of Starkiller Base following their
         duel with Ren. As Starkiller Base blows up, Chewbacca escapes in the ''''Falcon''''
-        with Finn and Rey, and later, along with R2-D2, helps Rey find Luke.\n\n===Legends===\n\n====Television====\nThe
+        with Finn and Rey, and later, along with R2-D2, helps Rey find Luke.\n\nThe
+        Wrap reports that Chewbacca will appear in the upcoming Star Wars Anthology
+        Han Solo spin off film, it will see a May 25, 2018, release.<ref>{{cite web|url=http://www.starwars.com/news/christopher-miller-and-phil-lord-to-helm-han-solo-anthology-film|title=Christopher
+        Miller and Phil Lord to Helm Han Solo Anthology Film|work=StarWars.com|accessdate=19
+        December 2015}}</ref><ref>{{cite web|url=http://www.thewrap.com/chewbacca-to-appear-in-new-han-solo-movie-confirms-disneys-bob-iger/|title=Chewbacca
+        to Appear in New Han Solo Movie, Confirms Disney\u2019s Bob Iger|publisher=The
+        Wrap|last1=Maglio|first1=Tony|last2=Snider|first2=Jeff|date=March 8, 2016}}</ref>\n\n===Legends===\n\n====Television====\nThe
         1978 television program ''''[[Star Wars Holiday Special]]'''' introduces Chewbacca''s
         family: ''''''Mallatobuck'''''' (his wife), ''''''Lumpawarrump'''''' (his
         son) and ''''''Attichitcuk'''''', Chief of the ''''''Kaapauku'''''' Tribe
@@ -417,12 +343,12 @@ http_interactions:
         drug dealers]]\n[[Category:Fictional mercenaries]]\n[[Category:Fictional pirates]]\n[[Category:Fictional
         outlaws]]\n[[Category:Fictional smugglers]]\n[[Category:Fictional slaves]]\n[[Category:Fictional
         revolutionaries]]\n[[Category:Fictional carnivorans]]\n[[Category:Fictional
-        mechanics]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2016-02-26T01:12:15Z","lastrevid":706920329,"length":21544,"fullurl":"https://en.wikipedia.org/wiki/Chewbacca","editurl":"https://en.wikipedia.org/w/index.php?title=Chewbacca&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Chewbacca"}}}}'
+        mechanics]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2016-03-17T21:25:32Z","lastrevid":710587086,"length":22209,"fullurl":"https://en.wikipedia.org/wiki/Chewbacca","editurl":"https://en.wikipedia.org/w/index.php?title=Chewbacca&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Chewbacca"}}}}'
     http_version: 
-  recorded_at: Mon, 29 Feb 2016 11:57:23 GMT
+  recorded_at: Sat, 19 Mar 2016 00:40:03 GMT
 - request:
     method: get
-    uri: https://query.wikidata.org/sparql?format=json&query=%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20PREFIX%20wikibase:%20%3Chttp://wikiba.se/ontology%23%3E%0A%20%20%20%20%20%20%20%20PREFIX%20wd:%20%3Chttp://www.wikidata.org/entity/%3E%20%0A%20%20%20%20%20%20%20%20PREFIX%20wdt:%20%3Chttp://www.wikidata.org/prop/direct/%3E%0A%20%20%20%20%20%20%20%20PREFIX%20rdfs:%20%3Chttp://www.w3.org/2000/01/rdf-schema%23%3E%0A%20%20%20%20%20%20%20%20PREFIX%20p:%20%3Chttp://www.wikidata.org/prop/%3E%0A%20%20%20%20%20%20%20%20PREFIX%20v:%20%3Chttp://www.wikidata.org/prop/statement/%3E%0A%20%20%20%20%20%20%20%20PREFIX%20schema:%20%3Chttp://schema.org/%3E%0A%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20SELECT%20?id%20?p%20?o%20?oLabel%20%20WHERE%20%7B%0A%20%20%20%20%20%20%20%20%20%20%3Chttps://en.wikipedia.org/wiki/Chewbacca%3E%20schema:about%20?id%20.%0A%20%20%20%20%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20?id%20?p%20?o%20.%0A%20%20%20%20%20%20%20%20%20%20%20%20FILTER(STRSTARTS(STR(?p),%20%22http://www.wikidata.org/prop/direct/%22))%0A%20%20%20%20%20%20%20%20%20%20%7D%20union%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20?id%20?p%20?o%20.%0A%20%20%20%20%20%20%20%20%20%20%20%20filter(langMatches(lang(?o),%20%22EN%22)).%0A%20%20%20%20%20%20%20%20%20%20%20%20filter(?p%20=%20rdfs:label)%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20SERVICE%20wikibase:label%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20bd:serviceParam%20wikibase:language%20%22en%22%20.%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20
+    uri: https://query.wikidata.org/sparql?format=json&query=%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20PREFIX%20wikibase:%20%3Chttp://wikiba.se/ontology%23%3E%0A%20%20%20%20%20%20%20%20PREFIX%20wd:%20%3Chttp://www.wikidata.org/entity/%3E%20%0A%20%20%20%20%20%20%20%20PREFIX%20wdt:%20%3Chttp://www.wikidata.org/prop/direct/%3E%0A%20%20%20%20%20%20%20%20PREFIX%20rdfs:%20%3Chttp://www.w3.org/2000/01/rdf-schema%23%3E%0A%20%20%20%20%20%20%20%20PREFIX%20p:%20%3Chttp://www.wikidata.org/prop/%3E%0A%20%20%20%20%20%20%20%20PREFIX%20v:%20%3Chttp://www.wikidata.org/prop/statement/%3E%0A%20%20%20%20%20%20%20%20PREFIX%20schema:%20%3Chttp://schema.org/%3E%0A%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20SELECT%20?s%20?p%20?o%20?oLabel%20%20WHERE%20%7B%0A%20%20%20%20%20%20%20%20%20%20%7B%3Chttps://en.wikipedia.org/wiki/Chewbacca%3E%20schema:about%20?s%7D%20.%0A%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%20%20?s%20?p%20?o%20.%0A%20%20%20%20%20%20%20%20%20%20FILTER(%0A%20%20%20%20%20%20%20%20%20%20%20%20STRSTARTS(STR(?p),%20%22http://www.wikidata.org/prop/direct/%22)%20%7C%7C%0A%20%20%20%20%20%20%20%20%20%20%20%20(?p%20=%20rdfs:label%20%26%26%20langMatches(lang(?o),%20%22EN%22))%0A%20%20%20%20%20%20%20%20%20%20)%0A%20%20%20%20%20%20%20%20%7D%20union%20%7B%0A%20%20%20%20%20%20%20%20%20%20bind(schema:about%20as%20?p)%20.%0A%20%20%20%20%20%20%20%20%20%20?o%20schema:about%20?s%20.%0A%20%20%20%20%20%20%20%20%20%20filter(strstarts(str(?o),%20%22https://en.wikipedia.org/wiki/%22))%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20.%0A%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20SERVICE%20wikibase:label%20%7B%0A%20%20%20%20%20%20%20%20%20%20bd:serviceParam%20wikibase:language%20%22en%22%20.%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20
     body:
       encoding: US-ASCII
       string: ''
@@ -441,7 +367,7 @@ http_interactions:
       Server:
       - nginx/1.9.4
       Date:
-      - Mon, 29 Feb 2016 11:57:24 GMT
+      - Sat, 19 Mar 2016 00:40:04 GMT
       Content-Type:
       - application/sparql-results+json
       Transfer-Encoding:
@@ -449,245 +375,51 @@ http_interactions:
       Connection:
       - keep-alive
       X-Served-By:
-      - wdqs1001
+      - wdqs1002
       Access-Control-Allow-Origin:
       - "*"
       X-Varnish:
-      - 1468878090, 1811592596, 2089965131
+      - 2395573860, 1596809602, 2096741928
       Via:
       - 1.1 varnish, 1.1 varnish, 1.1 varnish
       Age:
       - '0'
       X-Cache:
-      - cp1051 miss(0), cp3020 miss(0), cp3022 frontend miss(0)
+      - cp1061 miss(0), cp3021 miss(0), cp3022 frontend miss(0)
       Set-Cookie:
-      - WMF-Last-Access=29-Feb-2016;Path=/;HttpOnly;Expires=Fri, 01 Apr 2016 00:00:00
+      - WMF-Last-Access=19-Mar-2016;Path=/;HttpOnly;Expires=Wed, 20 Apr 2016 00:00:00
         GMT
       X-Analytics:
       - https=1;nocookies=1
       X-Client-Ip:
-      - 94.179.34.160
+      - 94.179.5.221
     body:
       encoding: ASCII-8BIT
       string: |-
         {
           "head" : {
-            "vars" : [ "id", "p", "o", "oLabel" ]
+            "vars" : [ "s", "p", "o", "oLabel" ]
           },
           "results" : {
             "bindings" : [ {
-              "id" : {
+              "s" : {
                 "type" : "uri",
                 "value" : "http://www.wikidata.org/entity/Q51803"
               },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P18"
-              },
               "o" : {
                 "type" : "uri",
-                "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/BigAppleCon11.15.08ByLuigiNovi2.jpg"
-              },
-              "oLabel" : {
-                "type" : "literal",
-                "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/BigAppleCon11.15.08ByLuigiNovi2.jpg"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q51803"
+                "value" : "https://en.wikipedia.org/wiki/Chewbacca"
               },
               "p" : {
                 "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P21"
-              },
-              "o" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q6581097"
-              },
-              "oLabel" : {
-                "xml:lang" : "en",
-                "type" : "literal",
-                "value" : "male"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q51803"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P31"
-              },
-              "o" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q51805"
-              },
-              "oLabel" : {
-                "xml:lang" : "en",
-                "type" : "literal",
-                "value" : "character from Star Wars"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q51803"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P31"
-              },
-              "o" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q1750900"
-              },
-              "oLabel" : {
-                "xml:lang" : "en",
-                "type" : "literal",
-                "value" : "Wookiee"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q51803"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P106"
-              },
-              "o" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q327029"
-              },
-              "oLabel" : {
-                "xml:lang" : "en",
-                "type" : "literal",
-                "value" : "mechanic"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q51803"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P345"
-              },
-              "o" : {
-                "type" : "literal",
-                "value" : "ch0000033"
+                "value" : "http://schema.org/about"
               },
               "oLabel" : {
                 "type" : "literal",
-                "value" : "ch0000033"
+                "value" : "https://en.wikipedia.org/wiki/Chewbacca"
               }
             }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q51803"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P373"
-              },
-              "o" : {
-                "type" : "literal",
-                "value" : "Chewbacca"
-              },
-              "oLabel" : {
-                "type" : "literal",
-                "value" : "Chewbacca"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q51803"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P646"
-              },
-              "o" : {
-                "type" : "literal",
-                "value" : "/m/0fkfk"
-              },
-              "oLabel" : {
-                "type" : "literal",
-                "value" : "/m/0fkfk"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q51803"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P856"
-              },
-              "o" : {
-                "type" : "uri",
-                "value" : "http://www.starwars.com/databank/chewbacca"
-              },
-              "oLabel" : {
-                "type" : "literal",
-                "value" : "http://www.starwars.com/databank/chewbacca"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q51803"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P1080"
-              },
-              "o" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q3551295"
-              },
-              "oLabel" : {
-                "xml:lang" : "en",
-                "type" : "literal",
-                "value" : "Star Wars Expanded Universe"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q51803"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P1080"
-              },
-              "o" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q19786052"
-              },
-              "oLabel" : {
-                "xml:lang" : "en",
-                "type" : "literal",
-                "value" : "Star Wars universe"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q51803"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P2546"
-              },
-              "o" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q51802"
-              },
-              "oLabel" : {
-                "xml:lang" : "en",
-                "type" : "literal",
-                "value" : "Han Solo"
-              }
-            }, {
-              "id" : {
+              "s" : {
                 "type" : "uri",
                 "value" : "http://www.wikidata.org/entity/Q51803"
               },
@@ -705,7 +437,7 @@ http_interactions:
                 "value" : "Chewbacca"
               }
             }, {
-              "id" : {
+              "s" : {
                 "type" : "uri",
                 "value" : "http://www.wikidata.org/entity/Q51803"
               },
@@ -723,7 +455,7 @@ http_interactions:
                 "value" : "Chewbacca"
               }
             }, {
-              "id" : {
+              "s" : {
                 "type" : "uri",
                 "value" : "http://www.wikidata.org/entity/Q51803"
               },
@@ -740,9 +472,220 @@ http_interactions:
                 "type" : "literal",
                 "value" : "Chewbacca"
               }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q51803"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P18"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/BigAppleCon11.15.08ByLuigiNovi2.jpg"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/BigAppleCon11.15.08ByLuigiNovi2.jpg"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q51803"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P21"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q6581097"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "male"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q51803"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P31"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q51805"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "character from Star Wars"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q51803"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P31"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q1750900"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "Wookiee"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q51803"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P106"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q327029"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "mechanic"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q51803"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P345"
+              },
+              "o" : {
+                "type" : "literal",
+                "value" : "ch0000033"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "ch0000033"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q51803"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P373"
+              },
+              "o" : {
+                "type" : "literal",
+                "value" : "Chewbacca"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "Chewbacca"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q51803"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P646"
+              },
+              "o" : {
+                "type" : "literal",
+                "value" : "/m/0fkfk"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "/m/0fkfk"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q51803"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P856"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.starwars.com/databank/chewbacca"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "http://www.starwars.com/databank/chewbacca"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q51803"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P1080"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q3551295"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "Star Wars Expanded Universe"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q51803"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P1080"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q19786052"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "Star Wars universe"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q51803"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P2546"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q51802"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "Han Solo"
+              }
             } ]
           }
         }
     http_version: 
-  recorded_at: Mon, 29 Feb 2016 11:57:24 GMT
+  recorded_at: Sat, 19 Mar 2016 00:40:04 GMT
 recorded_with: VCR 3.0.0

@@ -26,19 +26,17 @@ http_interactions:
     headers:
       Cache-Control:
       - max-age=0, private, must-revalidate
-      Content-Encoding:
-      - gzip
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Fri, 18 Mar 2016 17:06:07 GMT
+      - Sat, 19 Mar 2016 00:40:30 GMT
       Etag:
       - W/"aae218e179b88af91282030bba64eb6e"
       Server:
       - openresty
       Set-Cookie:
-      - user_uuid=982ca495-317a-4f62-a535-5a2f1f279356; path=/; expires=Tue, 18 Mar
-        2036 17:06:07 -0000
+      - user_uuid=69292c2e-d8d3-48fe-ac39-326ffebf66f8; path=/; expires=Wed, 19 Mar
+        2036 00:40:30 -0000
       Vary:
       - Origin
       X-Api-Version:
@@ -54,26 +52,18 @@ http_interactions:
       X-Ratelimit-Remaining:
       - '49998'
       X-Request-Id:
-      - 4809a653-4bf5-4454-ae2c-2c877b1d608c
+      - e5821a60-f8fb-42f6-8025-441fc49aac3a
       X-Runtime:
-      - '0.051964'
+      - '0.055585'
       X-Xss-Protection:
       - 1; mode=block
-      Transfer-Encoding:
-      - chunked
+      Content-Length:
+      - '753'
       Connection:
       - keep-alive
     body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        H4sIAAAAAAAAAwAAAP//XNLNbsMgDAfwd/E5jQwJBHLeM+wSVRVqqFSJ0C0f
-        0qaq7z7a2YHtFOkXA/5j7jC61S1+PT2/0N8hXKfrCn3cQqhgnV1cLrd5Yjjf
-        wjbF0zWO/uufRTf5BfoB3tzqoYJ3FzYPxwqW1c2v/T30IKxVByEPjUglPo7s
-        EiXufpn95+bj+Tv9cDFuLiT8bXAY/pR2tTX6WD1RWEZTC2EITcZWd4Qdo61b
-        QabZBKY9FeneqxDF+javlx2XNrknqRpCmVFJSygyGsXdY24ULR2ERSTT0p64
-        R9J1oxm7AhVlQp3RsKl8uOCY2OZzlKGrwz2QrVFxRzKj5kC4B0p31xnWPdHz
-        7syr0TR9W6glM4VxXTEjQ1SOCMnygNpUd3y9xuA+Fs+v8zaPfk7vaPTLGR6P
-        HwAAAP//AwALsx3s8QIAAA==
+      encoding: UTF-8
+      string: '{"dataset_data":{"limit":null,"transform":null,"column_index":null,"column_names":["Date","Value"],"start_date":"1995-12-31","end_date":"2020-12-31","frequency":"annual","data":[["2020-12-31",7.986],["2019-12-31",8.118],["2018-12-31",8.467],["2017-12-31",9.41],["2016-12-31",10.985],["2015-12-31",11.467],["2014-12-31",9.275],["2013-12-31",7.253],["2012-12-31",7.529],["2011-12-31",7.856],["2010-12-31",8.097],["2009-12-31",8.843],["2008-12-31",6.363],["2007-12-31",6.351],["2006-12-31",6.81],["2005-12-31",7.185],["2004-12-31",8.588],["2003-12-31",9.057],["2002-12-31",9.629],["2001-12-31",10.789],["2000-12-31",11.483],["1999-12-31",11.9],["1998-12-31",11.3],["1997-12-31",9.8],["1996-12-31",10.0],["1995-12-31",14.8]],"collapse":null,"order":"desc"}}'
     http_version: 
-  recorded_at: Fri, 18 Mar 2016 17:06:07 GMT
+  recorded_at: Sat, 19 Mar 2016 00:40:30 GMT
 recorded_with: VCR 3.0.0

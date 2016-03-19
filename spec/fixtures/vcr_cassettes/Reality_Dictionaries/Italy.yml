@@ -8,7 +8,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Infoboxer/0.2.2 (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
+      - Reality/0.0.3 (https://github.com/molybdenum-99/reality; zverok.offline@gmail.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -21,27 +21,30 @@ http_interactions:
       Server:
       - nginx/1.9.4
       Date:
-      - Fri, 26 Feb 2016 13:31:35 GMT
+      - Sat, 19 Mar 2016 00:40:05 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '6506'
+      - '6499'
       Connection:
       - keep-alive
       X-Powered-By:
-      - HHVM/3.6.5
+      - HHVM/3.12.1
       X-Content-Type-Options:
       - nosniff
       Cache-Control:
       - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
+        for more info."
       X-Frame-Options:
       - SAMEORIGIN
       Vary:
       - Accept-Encoding,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=35597 t=1456493495293938
+      - D=29987 t=1458348005863159
       X-Varnish:
-      - 1471331746, 153467808, 3047030457
+      - 3014484604, 4284999664, 2063788580
       Via:
       - 1.1 varnish, 1.1 varnish, 1.1 varnish
       Accept-Ranges:
@@ -49,17 +52,17 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1068 pass+chfp(0), cp3005 miss+chfp(0), cp3008 frontend pass+chfp(0)
+      - cp1068 miss+chfp(0), cp3013 miss+chfp(0), cp3014 frontend miss+chfp(0)
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains; preload
       Set-Cookie:
       - GeoIP=UA:07:Kharkov:49.98:36.25:v4; Path=/; Domain=.wikipedia.org
-      - WMF-Last-Access=26-Feb-2016;Path=/;HttpOnly;Expires=Tue, 29 Mar 2016 12:00:00
+      - WMF-Last-Access=19-Mar-2016;Path=/;HttpOnly;Expires=Wed, 20 Apr 2016 00:00:00
         GMT
       X-Analytics:
       - https=1;nocookies=1
       X-Client-Ip:
-      - 94.179.103.153
+      - 94.179.5.221
     body:
       encoding: ASCII-8BIT
       string: '{"batchcomplete":"","query":{"pages":{"10138926":{"pageid":10138926,"ns":0,"title":"List
@@ -78,10 +81,10 @@ http_interactions:
         class=\"wikitable sortable\" style=\"text-align:left;\"\n|- style=\"font-size:100%;
         text-align:center;\"\n!align=center|City\n!align=center|Population<br /><small>January
         1, 2014</small>\n!align=center|Area<br /><small>(km<sup>2</sup>)</small>\n!align=center|Density<br
-        /><small>(inh./km<sup>2</sup>)</small>\n|-\n| [[Milan]] || align=right|1,337,155
-        || align=right|4,450.11 || align=right|1,488\n|-\n| [[Naples]] || align=right|990,005
+        /><small>(inh./km<sup>2</sup>)</small>\n|-\n| [[Milan]] || align=right|6,623,798
+        || align=right|4,450.11 || align=right|1,488\n|-\n| [[Naples]] || align=right|5,294,546
         || align=right|3,116.52 || align=right|1,699\n|-\n| [[Rome]] || align=right|4,447,881
-        || align=right|3,340.41 || align=right|1,332\n|-\n| [[Turin]] || align=right|911,823
+        || align=right|3,340.41 || align=right|1,332\n|-\n| [[Turin]] || align=right|1,865,284
         || align=right|1,328.40 || align=right|1,404\n|-\n| [[Venice]]-[[Padua]] ||
         align=right|1,645,900 || align=right|2,063.44 || align=right|768\n|-\n| [[Florence]]
         || align=right|1,485,030 || align=right|2,124.22 || align=right|699\n|-\n|
@@ -344,7 +347,7 @@ http_interactions:
         || 46,641 || 50,135 || align=\"left\" | [[Piedmont]]\n|-\n|}\n\n== References
         ==\n{{Reflist}}\n\n{{Cities in Italy}}\n{{Italy topics}}\n{{List of cities
         in Europe}}\n\n[[Category:Lists of cities in Italy| ]]\n[[Category:Lists of
-        cities by country|Italy]]\n[[Category:Lists of cities by population|Italy]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2016-02-20T19:46:03Z","lastrevid":705989374,"length":21516,"fullurl":"https://en.wikipedia.org/wiki/List_of_cities_in_Italy","editurl":"https://en.wikipedia.org/w/index.php?title=List_of_cities_in_Italy&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/List_of_cities_in_Italy"}}}}'
+        cities by country|Italy]]\n[[Category:Lists of cities by population|Italy]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2016-03-17T01:50:14Z","lastrevid":710455120,"length":21520,"fullurl":"https://en.wikipedia.org/wiki/List_of_cities_in_Italy","editurl":"https://en.wikipedia.org/w/index.php?title=List_of_cities_in_Italy&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/List_of_cities_in_Italy"}}}}'
     http_version: 
-  recorded_at: Fri, 26 Feb 2016 13:31:35 GMT
+  recorded_at: Sat, 19 Mar 2016 00:40:05 GMT
 recorded_with: VCR 3.0.0

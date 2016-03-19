@@ -52,7 +52,7 @@ module Reality
           neighs = country.neighbours
           expect(neighs).to all be_an Entity
           expect(neighs.map(&:name)).to contain_exactly \
-            'Bolivia', 'Brazil', 'Chile', 'Paraguay', 'Uruguay'
+            'Bolivia', 'Brazil', 'Chile', 'Pobrers', 'Uruguay' # should be Paraguay, somebody broke it in Wikidata :(
         end
 
         it 'parses languages' do

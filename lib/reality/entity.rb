@@ -49,16 +49,16 @@ module Reality
 
     def load!
       if @wikidata_id
-        @wikidata = Wikidata::Entity.fetch_by_id(@wikidata_id)
+        @wikidata = Wikidata::Entity.one_by_id(@wikidata_id)
         if @wikidata && @wikidata.en_wikipage
           @wikipage = Infoboxer.wikipedia.get(@wikidata.en_wikipage)
         end
       else
         @wikipage = Infoboxer.wikipedia.get(name)
         @wikidata = if @wikipage
-          Wikidata::Entity.fetch(@wikipage.title).first
+          Wikidata::Entity.one_by_wikititle(@wikipage.title)
         else
-          Wikidata::Entity.fetch_by_label(name).first
+          Wikidata::Entity.one_by_label(name)
         end
       end
       after_load

@@ -2,96 +2,13 @@
 http_interactions:
 - request:
     method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&format=json&meta=siteinfo&siprop=namespaces%7Cnamespacealiases
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Infoboxer/0.2.2 (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Server:
-      - nginx/1.9.4
-      Date:
-      - Fri, 26 Feb 2016 13:30:32 GMT
-      Content-Type:
-      - application/json; charset=utf-8
-      Content-Length:
-      - '708'
-      Connection:
-      - keep-alive
-      X-Powered-By:
-      - HHVM/3.6.5
-      X-Content-Type-Options:
-      - nosniff
-      Cache-Control:
-      - private, must-revalidate, max-age=0
-      X-Frame-Options:
-      - SAMEORIGIN
-      Vary:
-      - Accept-Encoding,X-Forwarded-Proto,Cookie,Authorization
-      Backend-Timing:
-      - D=37586 t=1456493432370181
-      X-Varnish:
-      - 1130552809, 1591530746, 3046843622
-      Via:
-      - 1.1 varnish, 1.1 varnish, 1.1 varnish
-      Accept-Ranges:
-      - bytes
-      Age:
-      - '0'
-      X-Cache:
-      - cp1065 pass+chfp(0), cp3010 miss+chfp(0), cp3008 frontend pass+chfp(0)
-      Strict-Transport-Security:
-      - max-age=31536000; includeSubDomains; preload
-      Set-Cookie:
-      - GeoIP=UA:07:Kharkov:49.98:36.25:v4; Path=/; Domain=.wikipedia.org
-      - WMF-Last-Access=26-Feb-2016;Path=/;HttpOnly;Expires=Tue, 29 Mar 2016 12:00:00
-        GMT
-      X-Analytics:
-      - https=1;nocookies=1
-      X-Client-Ip:
-      - 94.179.103.153
-    body:
-      encoding: ASCII-8BIT
-      string: '{"batchcomplete":"","query":{"namespaces":{"-2":{"id":-2,"case":"first-letter","canonical":"Media","*":"Media"},"-1":{"id":-1,"case":"first-letter","canonical":"Special","*":"Special"},"0":{"id":0,"case":"first-letter","content":"","*":""},"1":{"id":1,"case":"first-letter","subpages":"","canonical":"Talk","*":"Talk"},"2":{"id":2,"case":"first-letter","subpages":"","canonical":"User","*":"User"},"3":{"id":3,"case":"first-letter","subpages":"","canonical":"User
-        talk","*":"User talk"},"4":{"id":4,"case":"first-letter","subpages":"","canonical":"Project","*":"Wikipedia"},"5":{"id":5,"case":"first-letter","subpages":"","canonical":"Project
-        talk","*":"Wikipedia talk"},"6":{"id":6,"case":"first-letter","canonical":"File","*":"File"},"7":{"id":7,"case":"first-letter","subpages":"","canonical":"File
-        talk","*":"File talk"},"8":{"id":8,"case":"first-letter","canonical":"MediaWiki","*":"MediaWiki"},"9":{"id":9,"case":"first-letter","subpages":"","canonical":"MediaWiki
-        talk","*":"MediaWiki talk"},"10":{"id":10,"case":"first-letter","subpages":"","canonical":"Template","*":"Template"},"11":{"id":11,"case":"first-letter","subpages":"","canonical":"Template
-        talk","*":"Template talk"},"12":{"id":12,"case":"first-letter","subpages":"","canonical":"Help","*":"Help"},"13":{"id":13,"case":"first-letter","subpages":"","canonical":"Help
-        talk","*":"Help talk"},"14":{"id":14,"case":"first-letter","subpages":"","canonical":"Category","*":"Category"},"15":{"id":15,"case":"first-letter","subpages":"","canonical":"Category
-        talk","*":"Category talk"},"100":{"id":100,"case":"first-letter","subpages":"","canonical":"Portal","*":"Portal"},"101":{"id":101,"case":"first-letter","subpages":"","canonical":"Portal
-        talk","*":"Portal talk"},"108":{"id":108,"case":"first-letter","subpages":"","canonical":"Book","*":"Book"},"109":{"id":109,"case":"first-letter","subpages":"","canonical":"Book
-        talk","*":"Book talk"},"118":{"id":118,"case":"first-letter","subpages":"","canonical":"Draft","*":"Draft"},"119":{"id":119,"case":"first-letter","subpages":"","canonical":"Draft
-        talk","*":"Draft talk"},"446":{"id":446,"case":"first-letter","canonical":"Education
-        Program","*":"Education Program"},"447":{"id":447,"case":"first-letter","subpages":"","canonical":"Education
-        Program talk","*":"Education Program talk"},"710":{"id":710,"case":"first-letter","canonical":"TimedText","*":"TimedText"},"711":{"id":711,"case":"first-letter","canonical":"TimedText
-        talk","*":"TimedText talk"},"828":{"id":828,"case":"first-letter","subpages":"","canonical":"Module","*":"Module"},"829":{"id":829,"case":"first-letter","subpages":"","canonical":"Module
-        talk","*":"Module talk"},"2300":{"id":2300,"case":"first-letter","canonical":"Gadget","*":"Gadget"},"2301":{"id":2301,"case":"first-letter","canonical":"Gadget
-        talk","*":"Gadget talk"},"2302":{"id":2302,"case":"case-sensitive","canonical":"Gadget
-        definition","defaultcontentmodel":"GadgetDefinition","*":"Gadget definition"},"2303":{"id":2303,"case":"case-sensitive","canonical":"Gadget
-        definition talk","*":"Gadget definition talk"},"2600":{"id":2600,"case":"first-letter","canonical":"Topic","defaultcontentmodel":"flow-board","*":"Topic"}},"namespacealiases":[{"id":4,"*":"WP"},{"id":5,"*":"WT"},{"id":6,"*":"Image"},{"id":7,"*":"Image
-        talk"}]}}'
-    http_version: 
-  recorded_at: Fri, 26 Feb 2016 13:30:32 GMT
-- request:
-    method: get
     uri: https://en.wikipedia.org/w/api.php?action=query&format=json&inprop=url&prop=revisions%7Cinfo&redirects=true&rvprop=content&titles=List%20of%20cities%20in%20Ukraine
     body:
       encoding: US-ASCII
       string: ''
     headers:
       User-Agent:
-      - Infoboxer/0.2.2 (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
+      - Reality/0.0.3 (https://github.com/molybdenum-99/reality; zverok.offline@gmail.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -104,27 +21,30 @@ http_interactions:
       Server:
       - nginx/1.9.4
       Date:
-      - Fri, 26 Feb 2016 13:30:33 GMT
+      - Sat, 19 Mar 2016 00:40:04 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '15818'
+      - '18371'
       Connection:
       - keep-alive
       X-Powered-By:
-      - HHVM/3.6.5
+      - HHVM/3.12.1
       X-Content-Type-Options:
       - nosniff
       Cache-Control:
       - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
+        for more info."
       X-Frame-Options:
       - SAMEORIGIN
       Vary:
       - Accept-Encoding,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=34372 t=1456493432859426
+      - D=35369 t=1458348004881100
       X-Varnish:
-      - 1865773754, 426077199, 3046845259
+      - 3102225619, 1208456867, 2063786156
       Via:
       - 1.1 varnish, 1.1 varnish, 1.1 varnish
       Accept-Ranges:
@@ -132,17 +52,17 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1053 pass+chfp(0), cp3012 pass+chfp(0), cp3008 frontend pass+chfp(0)
+      - cp1053 miss+chfp(0), cp3014 miss+chfp(0), cp3014 frontend miss+chfp(0)
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains; preload
       Set-Cookie:
       - GeoIP=UA:07:Kharkov:49.98:36.25:v4; Path=/; Domain=.wikipedia.org
-      - WMF-Last-Access=26-Feb-2016;Path=/;HttpOnly;Expires=Tue, 29 Mar 2016 12:00:00
+      - WMF-Last-Access=19-Mar-2016;Path=/;HttpOnly;Expires=Wed, 20 Apr 2016 00:00:00
         GMT
       X-Analytics:
       - https=1;nocookies=1
       X-Client-Ip:
-      - 94.179.103.153
+      - 94.179.5.221
     body:
       encoding: ASCII-8BIT
       string: '{"batchcomplete":"","query":{"pages":{"4077166":{"pageid":4077166,"ns":0,"title":"List
@@ -307,191 +227,315 @@ http_interactions:
         | [[File:Konstantinovka_bratskaya2.jpg|250px|Kostiantynivka]]\n|-\n|[[Krasnyi
         Luch]] || [[:uk:\u041a\u0440\u0430\u0441\u043d\u0438\u0439 \u041b\u0443\u0447|\u041a\u0440\u0430\u0441\u043d\u0438\u0439
         \u041b\u0443\u0447]] || [[Luhansk Oblast]] || align=right| O || align=right|
-        94,875\n|-\n|[[Oleksandriia]] || [[:uk:\u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u0456\u044f|\u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u0456\u044f]]
-        || [[Kirovohrad Oblast]] || align=right| O || align=right| 93,357\n|-\n|[[Konotop]]
+        94,875 || align=\"center\" | [[File:Executive Committee building in Krasnyi
+        Luch.jpg|250px|Krasnyi Luch]]\n|-\n|[[Oleksandriia]] || [[:uk:\u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u0456\u044f|\u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u0456\u044f]]
+        || [[Kirovohrad Oblast]] || align=right| O || align=right| 93,357|| align=\"center\"
+        | [[File:\u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u0456\u044f
+        \u043f\u043b\u043e\u0449\u0430 \u041b\u0435\u043d\u0456\u043d\u0430.jpg|250px|Oleksandriia]]\n|-\n|[[Konotop]]
         || [[:uk:\u041a\u043e\u043d\u043e\u0442\u043e\u043f|\u041a\u043e\u043d\u043e\u0442\u043e\u043f]]
-        || [[Sumy Oblast]] || align=right| O || align=right| 92,657\n|-\n|[[Stakhanov,
+        || [[Sumy Oblast]] || align=right| O || align=right| 92,657|| align=\"center\"
+        | [[File:Konotop Zaliznychniy Vokzal 01 1 Svobody 23 (YDS 4419).JPG|250px|Konotop]]\n|-\n|[[Stakhanov,
         Ukraine|Stakhanov]] || [[:uk:\u0421\u0442\u0430\u0445\u0430\u043d\u043e\u0432|\u0421\u0442\u0430\u0445\u0430\u043d\u043e\u0432]]
-        || [[Luhansk Oblast]] || align=right| O || align=right| 90,152\n|-\n|[[Uman]]
+        || [[Luhansk Oblast]] || align=right| O || align=right| 90,152|| align=\"center\"
+        | [[File:Stakhanov - Cinema Mir.jpg|250px|Stakhanov, Luhansk Oblast|Stakhanov]]\n|-\n|[[Uman]]
         || [[:uk:\u0423\u043c\u0430\u043d\u044c|\u0423\u043c\u0430\u043d\u044c]] ||
-        [[Cherkasy Oblast]] || align=right| O || align=right| 88,735\n|-\n|[[Berdychiv]]
+        [[Cherkasy Oblast]] || align=right| O || align=right| 88,735|| align=\"center\"
+        | [[File:Hotel Sofievskiy in Uman.JPG|250px|Stakhanov, Luhansk Oblast|Uman]]\n|-\n|[[Berdychiv]]
         || [[:uk:\u0411\u0435\u0440\u0434\u0438\u0447\u0456\u0432|\u0411\u0435\u0440\u0434\u0438\u0447\u0456\u0432]]
-        || [[Zhytomyr Oblast]] || align=right| O || align=right| 87,575\n|-\n|[[Shostka]]
-        || [[:uk:\u0428\u043e\u0441\u0442\u043a\u0430|\u0428\u043e\u0441\u0442\u043a\u0430]]
-        || [[Sumy Oblast]] || align=right| O || align=right| 87,130\n|-\n|[[Brovary]]
+        || [[Zhytomyr Oblast]] || align=right| O || align=right| 87,575|| align=\"center\"
+        | [[File:\u0416\u0438\u0442\u043b\u043e\u0432\u0438\u0439 \u0431\u0443\u0434\u0438\u043d\u043e\u043a.
+        \u043c. \u0411\u0435\u0440\u0434\u0438\u0447\u0456\u0432.JPG|250px|Stakhanov,
+        Luhansk Oblast|Berdychiv]]\n|-\n|[[Shostka]] || [[:uk:\u0428\u043e\u0441\u0442\u043a\u0430|\u0428\u043e\u0441\u0442\u043a\u0430]]
+        || [[Sumy Oblast]] || align=right| O || align=right| 87,130|| align=\"center\"
+        | [[File:\u0412\u043e\u043b\u043e\u0434\u0438\u043c\u0438\u0440\u0430 \u0441\u0432.
+        \u0446\u0435\u0440\u043a\u0432\u0430.jpg|250px|Stakhanov, Luhansk Oblast|Shostka]]\n|-\n|[[Brovary]]
         || [[:uk:\u0411\u0440\u043e\u0432\u0430\u0440\u0438|\u0411\u0440\u043e\u0432\u0430\u0440\u0438]]
-        || [[Kiev Oblast]] || align=right| O || align=right| 86,839\n|-\n|[[Izmail]]
+        || [[Kiev Oblast]] || align=right| O || align=right| 86,839|| align=\"center\"
+        | [[File:Brovary Terminal.jpg|250px|Stakhanov, Luhansk Oblast|Brovary]]\n|-\n|[[Izmail]]
         || [[:uk:\u0406\u0437\u043c\u0430\u0457\u043b|\u0406\u0437\u043c\u0430\u0457\u043b]]
-        || [[Odessa Oblast]] || align=right| O || align=right| 84,815\n|-\n|[[Bakhmut]]
+        || [[Odessa Oblast]] || align=right| O || align=right| 84,815|| align=\"center\"
+        | [[File:PokrovCathedralIzmail.jpg|250px|Stakhanov, Luhansk Oblast|Izmail]]\n|-\n|[[Bakhmut]]
         || [[:uk:\u0411\u0430\u0445\u043c\u0443\u0442|\u0411\u0430\u0445\u043c\u0443\u0442]]
-        || [[Donetsk Oblast]] || align=right| O || align=right| 82,916\n|-\n|[[Mukacheve]]
-        || [[:uk:\u041c\u0443\u043a\u0430\u0447\u0435\u0432\u0435|\u041c\u0443\u043a\u0430\u0447\u0435\u0432\u0435]]
-        || [[Zakarpattia Oblast]] || align=right| O || align=right| 82,346\n|-\n|[[Yalta]]
-        || [[:uk:\u042f\u043b\u0442\u0430|\u042f\u043b\u0442\u0430]] || [[Crimea]]
-        || align=right| O || align=right| 81,654\n|-\n|[[Drohobych]] || [[:uk:\u0414\u0440\u043e\u0433\u043e\u0431\u0438\u0447|\u0414\u0440\u043e\u0433\u043e\u0431\u0438\u0447]]
-        || [[Lviv Oblast]] || align=right| O || align=right| 79,119\n|-\n|[[Nizhyn]]
-        || [[:uk:\u041d\u0456\u0436\u0438\u043d|\u041d\u0456\u0436\u0438\u043d]] ||
-        [[Chernihiv Oblast]] || align=right| O || align=right| 76,625\n|-\n|[[Feodosiya]]
+        || [[Donetsk Oblast]] || align=right| O || align=right| 82,916|| align=\"center\"
+        | [[File:\u0424\u0435\u0434\u043e\u0440\u0435\u043d\u043a\u043e. \u0430\u0440\u0442\u0435\u043c\u043e\u0432\u0441\u043a29.jpg|250px|Stakhanov,
+        Luhansk Oblast|Bakhmut]]\n|-\n|[[Mukacheve]] || [[:uk:\u041c\u0443\u043a\u0430\u0447\u0435\u0432\u0435|\u041c\u0443\u043a\u0430\u0447\u0435\u0432\u0435]]
+        || [[Zakarpattia Oblast]] || align=right| O || align=right| 82,346|| align=\"center\"
+        | [[File:\u041c\u0443\u043a\u0430\u0447\u0435\u0432\u043e, \u0446\u0435\u043d\u0442\u0440.jpg|250px|Stakhanov,
+        Luhansk Oblast|Mukacheve]]\n|-\n|[[Yalta]] || [[:uk:\u042f\u043b\u0442\u0430|\u042f\u043b\u0442\u0430]]
+        || [[Crimea]] || align=right| O || align=right| 81,654|| align=\"center\"
+        | [[File:Widok na Ja\u0142t\u0119 ze statku 01.JPG|250px|Yalta]]\n|-\n|[[Drohobych]]
+        || [[:uk:\u0414\u0440\u043e\u0433\u043e\u0431\u0438\u0447|\u0414\u0440\u043e\u0433\u043e\u0431\u0438\u0447]]
+        || [[Lviv Oblast]] || align=right| O || align=right| 79,119|| align=\"center\"
+        |[[File:Drogobych.jpg|250px|Drohobych]]\n|-\n|[[Nizhyn]] || [[:uk:\u041d\u0456\u0436\u0438\u043d|\u041d\u0456\u0436\u0438\u043d]]
+        || [[Chernihiv Oblast]] || align=right| O || align=right| 76,625|| align=\"center\"
+        |[[File:Nezhin \u0412\u043e\u0437\u043d\u0435\u0441\u0435\u043d\u0441\u044c\u043a\u0430
+        \u0446\u0435\u0440\u043a\u0432\u0430.JPG|250px|Nizhyn]]\n|-\n|[[Feodosiya]]
         || [[:uk:\u0424\u0435\u043e\u0434\u043e\u0441\u0456\u044f|\u0424\u0435\u043e\u0434\u043e\u0441\u0456\u044f]]
-        || [[Crimea]] || align=right| O || align=right| 74,669\n|-\n|[[Sverdlovsk,
+        || [[Crimea]] || align=right| O || align=right| 74,669|| align=\"center\"
+        |[[File:\u0413\u043e\u0442\u0435\u043b\u044c \u0410\u043b\u0438\u0454 \u043f\u0430\u0440\u0443\u0441\u0430.jpg|250px|Feodosia]]\n|-\n|[[Sverdlovsk,
         Ukraine|Sverdlovsk]] || [[:uk:\u0421\u0432\u0435\u0440\u0434\u043b\u043e\u0432\u0441\u044c\u043a|\u0421\u0432\u0435\u0440\u0434\u043b\u043e\u0432\u0441\u044c\u043a]]
-        || [[Luhansk Oblast]] || align=right| O || align=right| 72,531\n|-\n|[[Novomoskovsk,
+        || [[Luhansk Oblast]] || align=right| O || align=right| 72,531|| align=\"center\"
+        |[[File:Street Engels (Sverdlovsk).JPG|250px|Sverdlovsk, Luhansk Oblast|Sverdlovsk]]\n|-\n|[[Novomoskovsk,
         Ukraine|Novomoskovsk]] || [[:uk:\u041d\u043e\u0432\u043e\u043c\u043e\u0441\u043a\u043e\u0432\u0441\u044c\u043a|\u041d\u043e\u0432\u043e\u043c\u043e\u0441\u043a\u043e\u0432\u0441\u044c\u043a]]
-        || [[Dnipropetrovsk Oblast]] || align=right| O || align=right| 72,439\n|-\n|[[Torez]]
+        || [[Dnipropetrovsk Oblast]] || align=right| O || align=right| 72,439|| align=\"center\"
+        |[[File:Novomoskovsk Synagogue.JPG|250px|Novomoskovsk, Dnipropetrovsk Oblast|Novomoskovsk]]\n|-\n|[[Torez]]
         || [[:uk:\u0422\u043e\u0440\u0435\u0437|\u0422\u043e\u0440\u0435\u0437]] ||
-        [[Donetsk Oblast]] || align=right| O || align=right| 72,346\n|-\n|[[Chervonohrad]]
+        [[Donetsk Oblast]] || align=right| O || align=right| 72,346|| align=\"center\"
+        |[[File:\u042e\u043d\u043e\u0441\u0442\u044c-\u0442\u043e\u0440\u0435\u0437.jpg|250px|Torez]]\n|-\n|[[Chervonohrad]]
         || [[:uk:\u0427\u0435\u0440\u0432\u043e\u043d\u043e\u0433\u0440\u0430\u0434|\u0427\u0435\u0440\u0432\u043e\u043d\u043e\u0433\u0440\u0430\u0434]]
-        || [[Lviv Oblast]] || align=right| O || align=right| 70,568\n|-\n|[[Pervomaisk,
+        || [[Lviv Oblast]] || align=right| O || align=right| 70,568|| align=\"center\"
+        |[[File:Chervonograd sancti spiriti.jpg|250px|Chervonohrad]]\n|-\n|[[Pervomaisk,
         Mykolaiv Oblast|Pervomaisk]] || [[:uk:\u041f\u0435\u0440\u0432\u043e\u043c\u0430\u0439\u0441\u044c\u043a|\u041f\u0435\u0440\u0432\u043e\u043c\u0430\u0439\u0441\u044c\u043a]]
-        || [[Mykolaiv Oblast]] || align=right| O || align=right| 70,170\n|-\n|[[Smila,
+        || [[Mykolaiv Oblast]] || align=right| O || align=right| 70,170|| align=\"center\"
+        |[[File:PervMR.jpg|250px|Pervomaisk, Mykolaiv Oblast|Pervomaisk]]\n|-\n|[[Smila,
         Ukraine|Smila]] || [[:uk:\u0421\u043c\u0456\u043b\u0430|\u0421\u043c\u0456\u043b\u0430]]
-        || [[Cherkasy Oblast]] || align=right| O || align=right| 69,681\n|-\n|[[Krasnoarmiysk]]
+        || [[Cherkasy Oblast]] || align=right| O || align=right| 69,681|| align=\"center\"
+        |[[File:\u0417\u0430\u043b\u0456\u0437\u043d\u0438\u0447\u043d\u0438\u0439
+        \u0432\u043e\u043a\u0437\u0430\u043b, \u0421\u043c\u0456\u043b\u0430.JPG|250px|Smila]]\n|-\n|[[Krasnoarmiysk]]
         || [[:uk:\u041a\u0440\u0430\u0441\u043d\u043e\u0430\u0440\u043c\u0456\u0439\u0441\u044c\u043a|\u041a\u0440\u0430\u0441\u043d\u043e\u0430\u0440\u043c\u0456\u0439\u0441\u044c\u043a]]
-        || [[Donetsk Oblast]] || align=right| O || align=right| 69,154\n|-\n|[[Kalush,
+        || [[Donetsk Oblast]] || align=right| O || align=right| 69,154|| align=\"center\"
+        |[[File:Chervonoarmijsk city center (4).JPG|250px|Krasnoarmiisk]]\n|-\n|[[Kalush,
         Ukraine|Kalush]] || [[:uk:\u041a\u0430\u043b\u0443\u0448|\u041a\u0430\u043b\u0443\u0448]]
-        || [[Ivano-Frankivsk Oblast]] || align=right| O || align=right| 67,902\n|-\n|[[Korosten]]
-        || [[:uk:\u041a\u043e\u0440\u043e\u0441\u0442\u0435\u043d\u044c|\u041a\u043e\u0440\u043e\u0441\u0442\u0435\u043d\u044c]]
-        || [[Zhytomyr Oblast]] || align=right| O || align=right| 66,669\n|-\n|[[Kovel]]
+        || [[Ivano-Frankivsk Oblast]] || align=right| O || align=right| 67,902|| align=\"center\"
+        |[[File:\u041a\u043e\u0441\u0442\u0435\u043b 5.jpg|250px|Kalush, Ivano-Frankivsk
+        Oblast|Kalush]]\n|-\n|[[Korosten]] || [[:uk:\u041a\u043e\u0440\u043e\u0441\u0442\u0435\u043d\u044c|\u041a\u043e\u0440\u043e\u0441\u0442\u0435\u043d\u044c]]
+        || [[Zhytomyr Oblast]] || align=right| O || align=right| 66,669|| align=\"center\"
+        |[[File:We2 016.jpg|250px|Kalush, Ivano-Frankivsk Oblast|Korosten]]\n|-\n|[[Kovel]]
         || [[:uk:\u041a\u043e\u0432\u0435\u043b\u044c|\u041a\u043e\u0432\u0435\u043b\u044c]]
-        || [[Volyn Oblast]] || align=right| O || align=right| 66,401\n|-\n|[[Rubizhne]]
+        || [[Volyn Oblast]] || align=right| O || align=right| 66,401|| align=\"center\"
+        |[[File:\u0417\u0430\u043b\u0456\u0437\u043d\u0438\u0447\u043d\u0438\u0439
+        \u0432\u043e\u043a\u0437\u0430\u043b \u0443 \u041a\u043e\u0432\u0435\u043b\u0456.JPG|250px|Kovel]]\n|-\n|[[Rubizhne]]
         || [[:uk:\u0420\u0443\u0431\u0456\u0436\u043d\u0435|\u0420\u0443\u0431\u0456\u0436\u043d\u0435]]
-        || [[Luhansk Oblast]] || align=right| O || align=right| 65,322\n|-\n|[[Pryluky]]
-        || [[:uk:\u041f\u0440\u0438\u043b\u0443\u043a\u0438|\u041f\u0440\u0438\u043b\u0443\u043a\u0438]]
-        || [[Chernihiv Oblast]] || align=right| O || align=right| 64,861\n|-\n|[[Druzhkivka]]
-        || [[:uk:\u0414\u0440\u0443\u0436\u043a\u0456\u0432\u043a\u0430|\u0414\u0440\u0443\u0436\u043a\u0456\u0432\u043a\u0430]]
-        || [[Donetsk Oblast]] || align=right| O || align=right| 64,557\n|-\n|[[Khartsyzk]]
+        || [[Luhansk Oblast]] || align=right| O || align=right| 65,322|| align=\"center\"
+        |[[File:Rubizhne DK.jpg|250px|Rubizhne]]\n|-\n|[[Pryluky]] || [[:uk:\u041f\u0440\u0438\u043b\u0443\u043a\u0438|\u041f\u0440\u0438\u043b\u0443\u043a\u0438]]
+        || [[Chernihiv Oblast]] || align=right| O || align=right| 64,861|| align=\"center\"
+        |[[File:Pryluky Mykola Church.jpg|250px|Pryluky]]\n|-\n|[[Druzhkivka]] ||
+        [[:uk:\u0414\u0440\u0443\u0436\u043a\u0456\u0432\u043a\u0430|\u0414\u0440\u0443\u0436\u043a\u0456\u0432\u043a\u0430]]
+        || [[Donetsk Oblast]] || align=right| O || align=right| 64,557|| align=\"center\"
+        |[[File:\u0414\u0440\u0443\u0436\u043a\u0456\u0432\u043a\u0430.jpg|250px|Druzhkivka]]\n|-\n|[[Khartsyzk]]
         || [[:uk:\u0425\u0430\u0440\u0446\u0438\u0437\u044c\u043a|\u0425\u0430\u0440\u0446\u0438\u0437\u044c\u043a]]
-        || [[Donetsk Oblast]] || align=right| O || align=right| 64,175\n|-\n|[[Lozova]]
-        || [[:uk:\u041b\u043e\u0437\u043e\u0432\u0430|\u041b\u043e\u0437\u043e\u0432\u0430]]
-        || [[Kharkiv Oblast]] || align=right| O || align=right| 64,041\n|-\n|[[Antratsyt]]
-        || [[:uk:\u0410\u043d\u0442\u0440\u0430\u0446\u0438\u0442|\u0410\u043d\u0442\u0440\u0430\u0446\u0438\u0442]]
-        || [[Luhansk Oblast]] || align=right| O || align=right| 63,698\n|-\n|[[Stryi]]
+        || [[Donetsk Oblast]] || align=right| O || align=right| 64,175|| align=\"center\"
+        |[[File:Ab foto 2005 harcizsk 01.jpg|250px|Khartsyzk]]\n|-\n|[[Lozova]] ||
+        [[:uk:\u041b\u043e\u0437\u043e\u0432\u0430|\u041b\u043e\u0437\u043e\u0432\u0430]]
+        || [[Kharkiv Oblast]] || align=right| O || align=right| 64,041|| align=\"center\"
+        |[[File:Lozova RailwaY Station.jpg|250px|Lozova]]\n|-\n|[[Antratsyt]] || [[:uk:\u0410\u043d\u0442\u0440\u0430\u0446\u0438\u0442|\u0410\u043d\u0442\u0440\u0430\u0446\u0438\u0442]]
+        || [[Luhansk Oblast]] || align=right| O || align=right| 63,698|| align=\"center\"
+        |[[File:Antratsyt, Luhans^^39,ka oblast, Ukraine - panoramio.jpg|250px|Antratsyt]]\n|-\n|[[Stryi]]
         || [[:uk:\u0421\u0442\u0440\u0438\u0439|\u0421\u0442\u0440\u0438\u0439]] ||
-        [[Lviv Oblast]] || align=right| O || align=right| 62,479\n|-\n|[[Kolomyia]]
+        [[Lviv Oblast]] || align=right| O || align=right| 62,479|| align=\"center\"
+        |[[File:\u0421\u0442\u0440\u0438\u0439\u0441\u044c\u043a\u0438\u0439 \u043a\u043e\u0441\u0442\u0435\u043b.jpg|250px|Stryi]]\n|-\n|[[Kolomyia]]
         || [[:uk:\u041a\u043e\u043b\u043e\u043c\u0438\u044f|\u041a\u043e\u043b\u043e\u043c\u0438\u044f]]
-        || [[Ivano-Frankivsk Oblast]] || align=right| O || align=right| 61,989\n|-\n|[[Shakhtarsk]]
-        || [[:uk:\u0428\u0430\u0445\u0442\u0430\u0440\u0441\u044c\u043a|\u0428\u0430\u0445\u0442\u0430\u0440\u0441\u044c\u043a]]
-        || [[Donetsk Oblast]] || align=right| O || align=right| 59,589\n|-\n|[[Snizhne]]
-        || [[:uk:\u0421\u043d\u0456\u0436\u043d\u0435|\u0421\u043d\u0456\u0436\u043d\u0435]]
-        || [[Donetsk Oblast]] || align=right| O || align=right| 58,496\n|-\n|[[Novohrad-Volynskyi]]
-        || [[:uk:\u041d\u043e\u0432\u043e\u0433\u0440\u0430\u0434-\u0412\u043e\u043b\u0438\u043d\u0441\u044c\u043a\u0438\u0439|\u041d\u043e\u0432\u043e\u0433\u0440\u0430\u0434-\u0412\u043e\u043b\u0438\u043d\u0441\u044c\u043a\u0438\u0439]]
-        || [[Zhytomyr Oblast]] || align=right| O || align=right| 56,259\n|-\n|[[Enerhodar]]
+        || [[Ivano-Frankivsk Oblast]] || align=right| O || align=right| 61,989|| align=\"center\"
+        |[[File:Kolomyia2.jpg|250px|Kolomyia]]\n|-\n|[[Shakhtarsk]] || [[:uk:\u0428\u0430\u0445\u0442\u0430\u0440\u0441\u044c\u043a|\u0428\u0430\u0445\u0442\u0430\u0440\u0441\u044c\u043a]]
+        || [[Donetsk Oblast]] || align=right| O || align=right| 59,589|| align=\"center\"
+        |[[File:\u0411\u0440\u0430\u0442\u0441\u044c\u043a\u0430 \u043c\u043e\u0433\u0438\u043b\u0430
+        \u0440\u0430\u0434\u044f\u043d\u0441\u044c\u043a\u0438\u0445 \u0432\u043e\u0457\u043d\u0456\u0432
+        \u041f\u0456\u0432\u0434\u0435\u043d\u043d\u043e\u0433\u043e \u0444\u0440\u043e\u043d\u0442\u0443
+        2.JPG|250px|Shakhtarsk]]\n|-\n|[[Snizhne]] || [[:uk:\u0421\u043d\u0456\u0436\u043d\u0435|\u0421\u043d\u0456\u0436\u043d\u0435]]
+        || [[Donetsk Oblast]] || align=right| O || align=right| 58,496|| align=\"center\"
+        |[[File:\u0421\u043d\u0435\u0436\u043d\u043e\u0435. \u0428\u0430\u0445\u0442\u0430
+        9.jpg|250px|Snizhne]]\n|-\n|[[Novohrad-Volynskyi]] || [[:uk:\u041d\u043e\u0432\u043e\u0433\u0440\u0430\u0434-\u0412\u043e\u043b\u0438\u043d\u0441\u044c\u043a\u0438\u0439|\u041d\u043e\u0432\u043e\u0433\u0440\u0430\u0434-\u0412\u043e\u043b\u0438\u043d\u0441\u044c\u043a\u0438\u0439]]
+        || [[Zhytomyr Oblast]] || align=right| O || align=right| 56,259|| align=\"center\"
+        |[[File:\u0411\u0443\u0434\u0456\u0432\u043b\u044f \u0432\u043e\u043a\u0437\u0430\u043b\u0443
+        \u0432 \u041d\u043e\u0432\u043e\u0433\u0440\u0430\u0434\u0456-\u0412\u043e\u043b\u0438\u043d\u0441\u044c\u043a\u043e\u043c\u0443.jpg|250px|Novohrad-Volynskyi]]\n|-\n|[[Enerhodar]]
         || [[:uk:\u0415\u043d\u0435\u0440\u0433\u043e\u0434\u0430\u0440|\u0415\u043d\u0435\u0440\u0433\u043e\u0434\u0430\u0440]]
-        || [[Zaporizhia Oblast]] || align=right| O || align=right| 56,242\n|-\n|[[Izium]]
-        || [[:uk:\u0406\u0437\u044e\u043c|\u0406\u0437\u044e\u043c]] || [[Kharkiv
-        Oblast]] || align=right| O || align=right| 56,114\n|-\n|[[Dymytrov]] || [[:uk:\u0414\u0438\u043c\u0438\u0442\u0440\u043e\u0432|\u0414\u0438\u043c\u0438\u0442\u0440\u043e\u0432]]
-        || [[Donetsk Oblast]] || align=right| O || align=right| 54,787\n|-\n|[[Brianka]]
+        || [[Zaporizhia Oblast]] || align=right| O || align=right| 56,242|| align=\"center\"
+        |[[File:Merija Energodar P1060045.JPG|250px|Enerhodar]]\n|-\n|[[Izium]] ||
+        [[:uk:\u0406\u0437\u044e\u043c|\u0406\u0437\u044e\u043c]] || [[Kharkiv Oblast]]
+        || align=right| O || align=right| 56,114|| align=\"center\" |[[File:\u0426\u0435\u0440\u043a\u0432\u0430
+        \u0412\u043e\u0437\u043d\u0435\u0441\u0456\u043d\u043d\u044f (\u0406\u0437\u044e\u043c)
+        2.JPG|250px|Izium]]\n|-\n|[[Dymytrov]] || [[:uk:\u0414\u0438\u043c\u0438\u0442\u0440\u043e\u0432|\u0414\u0438\u043c\u0438\u0442\u0440\u043e\u0432]]
+        || [[Donetsk Oblast]] || align=right| O || align=right| 54,787|| align=\"center\"
+        |[[File:Stakhanov Coal Mine. Administrative Building.JPG|250px|Dymytrov]]\n|-\n|[[Brianka]]
         || [[:uk:\u0411\u0440\u044f\u043d\u043a\u0430|\u0411\u0440\u044f\u043d\u043a\u0430]]
-        || [[Luhansk Oblast]] || align=right| O || align=right| 54,767\n|-\n|[[Chornomorsk]]
+        || [[Luhansk Oblast]] || align=right| O || align=right| 54,767|| align=\"center\"
+        |[[File:\u0412\u043e\u0438\u043d\u0441\u043a\u043e\u0435 \u0437\u0430\u0445\u043e\u0440\u043e\u043d\u0435\u043d\u0438\u0435.
+        \u043f.\u041a\u0440\u0438\u0432\u043e\u0440\u043e\u0436\u044c\u0435 \u0433.\u0411\u0440\u044f\u043d\u043a\u0430.jpg|250px|Brianka]]\n|-\n|[[Chornomorsk]]
         || [[:uk:\u0427\u043e\u0440\u043d\u043e\u043c\u043e\u0440\u0441\u044c\u043a|\u0427\u043e\u0440\u043d\u043e\u043c\u043e\u0440\u0441\u044c\u043a]]
-        || [[Odessa Oblast]] || align=right| O || align=right| 54,151\n|-\n|[[Boryspil]]
+        || [[Odessa Oblast]] || align=right| O || align=right| 54,151|| align=\"center\"
+        |[[File:\u0406\u043b\u043b\u0456\u0447\u0456\u0432\u0441\u044c\u043a. \u043f\u0440\u0438\u043c\u043e\u0440\u0441\u044c\u043a\u0456
+        \u0441\u0445\u043e\u0434\u0438.JPG|250px|Chornomorsk]]\n|-\n|[[Boryspil]]
         || [[:uk:\u0411\u043e\u0440\u0438\u0441\u043f\u0456\u043b\u044c|\u0411\u043e\u0440\u0438\u0441\u043f\u0456\u043b\u044c]]
-        || [[Kiev Oblast]] || align=right| O || align=right| 53,975\n|-\n|[[Novovolynsk]]
+        || [[Kiev Oblast]] || align=right| O || align=right| 53,975|| align=\"center\"
+        |[[File:\u041a\u043d\u0438\u0448\u043e\u0432\u0438\u0439 \u043c\u0435\u043c\u043e\u0440\u0456\u0430\u043b\u044c\u043d\u0438\u0439
+        \u043f\u0430\u0440\u043a\u043e\u0432\u0438\u0439 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0441
+        \u0411\u043e\u0440\u0438\u0441\u043f\u0456\u043b\u044c.JPG|250px|Boryspil]]\n|-\n|[[Novovolynsk]]
         || [[:uk:\u041d\u043e\u0432\u043e\u0432\u043e\u043b\u0438\u043d\u0441\u044c\u043a|\u041d\u043e\u0432\u043e\u0432\u043e\u043b\u0438\u043d\u0441\u044c\u043a]]
-        || [[Volyn Oblast]] || align=right| O || align=right| 53,838\n|-\n|[[Rovenky]]
+        || [[Volyn Oblast]] || align=right| O || align=right| 53,838|| align=\"center\"
+        |[[File:Novovolynsk Volynska-Monument to the border guards-2.jpg|250px|Novovolynsk]]\n|-\n|[[Rovenky]]
         || [[:uk:\u0420\u043e\u0432\u0435\u043d\u044c\u043a\u0438|\u0420\u043e\u0432\u0435\u043d\u044c\u043a\u0438]]
-        || [[Luhansk Oblast]] || align=right| O || align=right| 53,725\n|-\n|[[Zhovti
-        Vody]] || [[:uk:\u0416\u043e\u0432\u0442\u0456 \u0412\u043e\u0434\u0438|\u0416\u043e\u0432\u0442\u0456
+        || [[Luhansk Oblast]] || align=right| O || align=right| 53,725|| align=\"center\"
+        |[[File:Rovenki Station-2012.jpg|250px|Rovenky]]\n|-\n|[[Zhovti Vody]] ||
+        [[:uk:\u0416\u043e\u0432\u0442\u0456 \u0412\u043e\u0434\u0438|\u0416\u043e\u0432\u0442\u0456
         \u0412\u043e\u0434\u0438]] || [[Dnipropetrovsk Oblast]] || align=right| O
-        || align=right| 53,582\n|-\n|[[Lubny]] || [[:uk:\u041b\u0443\u0431\u043d\u0438|\u041b\u0443\u0431\u043d\u0438]]
-        || [[Poltava Oblast]] || align=right| O || align=right| 52,572\n|-\n|[[Nova
-        Kakhovka]] || [[:uk:\u041d\u043e\u0432\u0430 \u041a\u0430\u0445\u043e\u0432\u043a\u0430|\u041d\u043e\u0432\u0430
-        \u041a\u0430\u0445\u043e\u0432\u043a\u0430]] || [[Kherson Oblast]] || align=right|
-        O || align=right| 52,137\n|-\n|[[Fastiv]] || [[:uk:\u0424\u0430\u0441\u0442\u0456\u0432|\u0424\u0430\u0441\u0442\u0456\u0432]]
-        || [[Kiev Oblast]] || align=right| O || align=right| 51,976\n|-\n|[[Bilhorod-Dnistrovskyi]]
-        || [[:uk:\u0411\u0456\u043b\u0433\u043e\u0440\u043e\u0434-\u0414\u043d\u0456\u0441\u0442\u0440\u043e\u0432\u0441\u044c\u043a\u0438\u0439|\u0411\u0456\u043b\u0433\u043e\u0440\u043e\u0434-\u0414\u043d\u0456\u0441\u0442\u0440\u043e\u0432\u0441\u044c\u043a\u0438\u0439]]
-        || [[Odessa Oblast]] || align=right| O || align=right| 51,890\n|-\n|[[Komsomolsk,
+        || align=right| 53,582|| align=\"center\" |[[File:Palast der Kultur in Schowti
+        Wody Haupteingang.JPG|250px|Zhovti Vody]]\n|-\n|[[Lubny]] || [[:uk:\u041b\u0443\u0431\u043d\u0438|\u041b\u0443\u0431\u043d\u0438]]
+        || [[Poltava Oblast]] || align=right| O || align=right| 52,572|| align=\"center\"
+        |[[File:Lubny.jpg|250px|Lubny]]\n|-\n|[[Nova Kakhovka]] || [[:uk:\u041d\u043e\u0432\u0430
+        \u041a\u0430\u0445\u043e\u0432\u043a\u0430|\u041d\u043e\u0432\u0430 \u041a\u0430\u0445\u043e\u0432\u043a\u0430]]
+        || [[Kherson Oblast]] || align=right| O || align=right| 52,1372|| align=\"center\"
+        |[[File:Nova Kakhovka administrative centr.jpg|250px|Nova Kakhovka]]\n|-\n|[[Fastiv]]
+        || [[:uk:\u0424\u0430\u0441\u0442\u0456\u0432|\u0424\u0430\u0441\u0442\u0456\u0432]]
+        || [[Kiev Oblast]] || align=right| O || align=right| 51,976|| align=\"center\"
+        |[[File:\u041a\u043e\u0441\u0442\u0435\u043b \u0412\u043e\u0437\u0434\u0432\u0438\u0436\u0435\u043d\u043d\u044f
+        \u0421\u0432\u044f\u0442\u043e\u0433\u043e \u0425\u0440\u0435\u0441\u0442\u0430
+        01.jpg|250px|Fastiv]]\n|-\n|[[Bilhorod-Dnistrovskyi]] || [[:uk:\u0411\u0456\u043b\u0433\u043e\u0440\u043e\u0434-\u0414\u043d\u0456\u0441\u0442\u0440\u043e\u0432\u0441\u044c\u043a\u0438\u0439|\u0411\u0456\u043b\u0433\u043e\u0440\u043e\u0434-\u0414\u043d\u0456\u0441\u0442\u0440\u043e\u0432\u0441\u044c\u043a\u0438\u0439]]
+        || [[Odessa Oblast]] || align=right| O || align=right| 51,890|| align=\"center\"
+        |[[File:Bilhorod Dnistrovskyi.jpg|250px|Bilhorod-Dnistrovskyi]]\n|-\n|[[Komsomolsk,
         Ukraine|Komsomolsk]] || [[:uk:\u041a\u043e\u043c\u0441\u043e\u043c\u043e\u043b\u044c\u0441\u044c\u043a|\u041a\u043e\u043c\u0441\u043e\u043c\u043e\u043b\u044c\u0441\u044c\u043a]]
-        || [[Poltava Oblast]] || align=right| O || align=right| 51,740\n|-\n|[[Krasnodon]]
-        || [[:uk:\u041a\u0440\u0430\u0441\u043d\u043e\u0434\u043e\u043d|\u041a\u0440\u0430\u0441\u043d\u043e\u0434\u043e\u043d]]
-        || [[Luhansk Oblast]] || align=right| O || align=right| 50,560\n|-\n|[[Romny]]
-        || [[:uk:\u0420\u043e\u043c\u043d\u0438|\u0420\u043e\u043c\u043d\u0438]] ||
-        [[Sumy Oblast]] || align=right| O || align=right| 50,448\n|-\n|[[Okhtyrka]]
+        || [[Poltava Oblast]] || align=right| O || align=right| 51,740|| align=\"center\"
+        |[[File:Saint Nicholas Cathedral, Komsomolsk.JPG|250px|Komsomolsk, Poltava
+        Oblast|Komsomolsk]]\n|-\n|[[Krasnodon]] || [[:uk:\u041a\u0440\u0430\u0441\u043d\u043e\u0434\u043e\u043d|\u041a\u0440\u0430\u0441\u043d\u043e\u0434\u043e\u043d]]
+        || [[Luhansk Oblast]] || align=right| O || align=right| 50,560|| align=\"center\"
+        |[[File:Krasnodoncoal.jpg|250px|Krasnodon]]\n\n|-\n|[[Romny]] || [[:uk:\u0420\u043e\u043c\u043d\u0438|\u0420\u043e\u043c\u043d\u0438]]
+        || [[Sumy Oblast]] || align=right| O || align=right| 50,448|| align=\"center\"
+        |[[File:\u0411\u043e\u0433\u043e\u0443\u0433\u043e\u0434\u043d\u0438\u0439
+        \u0437\u0430\u043a\u043b\u0430\u0434 (\u043c. \u0420\u043e\u043c\u043d\u0438).jpg|250px|Romny]]\n|-\n|[[Okhtyrka]]
         || [[:uk:\u041e\u0445\u0442\u0438\u0440\u043a\u0430|\u041e\u0445\u0442\u0438\u0440\u043a\u0430]]
-        || [[Sumy Oblast]] || align=right| O || align=right| 50,399\n|-\n|[[Svitlovodsk]]
-        || [[:uk:\u0421\u0432\u0456\u0442\u043b\u043e\u0432\u043e\u0434\u0441\u044c\u043a|\u0421\u0432\u0456\u0442\u043b\u043e\u0432\u043e\u0434\u0441\u044c\u043a]]
-        || [[Kirovohrad Oblast]] || align=right| O || align=right| 50,094\n|-\n|[[Marhanets]]
-        || [[:uk:\u041c\u0430\u0440\u0433\u0430\u043d\u0435\u0446\u044c|\u041c\u0430\u0440\u0433\u0430\u043d\u0435\u0446\u044c]]
-        || [[Dnipropetrovsk Oblast]] || align=right| O || align=right| 49,592\n|-\n|[[Shepetivka]]
+        || [[Sumy Oblast]] || align=right| O || align=right| 50,399|| align=\"center\"
+        |[[File:Okhtyrka Pokrovs''kiy Sobor 07 2 Soborna (Zhovtneva) ploscha...Pushkins''ka
+        1 (YDS 5591).JPG|250px|Okhtyrka]]\n|-\n|[[Svitlovodsk]] || [[:uk:\u0421\u0432\u0456\u0442\u043b\u043e\u0432\u043e\u0434\u0441\u044c\u043a|\u0421\u0432\u0456\u0442\u043b\u043e\u0432\u043e\u0434\u0441\u044c\u043a]]
+        || [[Kirovohrad Oblast]] || align=right| O || align=right| 50,094|| align=\"center\"
+        |[[File:Svitlovodsk7.jpg|250px|Svitlovodsk]]\n|-\n|[[Marhanets]] || [[:uk:\u041c\u0430\u0440\u0433\u0430\u043d\u0435\u0446\u044c|\u041c\u0430\u0440\u0433\u0430\u043d\u0435\u0446\u044c]]
+        || [[Dnipropetrovsk Oblast]] || align=right| O || align=right| 49,592|| align=\"center\"
+        |[[File:\u0413\u0440\u0443\u043f\u0430 \u043c\u043e\u0433\u0438\u043b \u043f\u0430\u0440\u0442\u0438\u0437\u0430\u043d.JPG|250px|Marhanets]]\n|-\n|[[Shepetivka]]
         || [[:uk:\u0428\u0435\u043f\u0435\u0442\u0456\u0432\u043a\u0430|\u0428\u0435\u043f\u0435\u0442\u0456\u0432\u043a\u0430]]
-        || [[Khmelnytskyi Oblast]] || align=right| O || align=right| 48,212\n|-\n|[[Ordzhonikidze,
+        || [[Khmelnytskyi Oblast]] || align=right| O || align=right| 48,212|| align=\"center\"
+        |[[File:\u0428\u0435\u043f\u0435\u0442\u0456\u0432\u043a\u0430. \u0434\u0432\u0456\u0440\u0435\u0446\u044c.JPG|250px|Shepetivka]]\n|-\n|[[Ordzhonikidze,
         Ukraine|Ordzhonikidze]] || [[:uk:\u041e\u0440\u0434\u0436\u043e\u043d\u0456\u043a\u0456\u0434\u0437\u0435|\u041e\u0440\u0434\u0436\u043e\u043d\u0456\u043a\u0456\u0434\u0437\u0435]]
-        || [[Dnipropetrovsk Oblast]] || align=right| O || align=right| 44,834\n|-\n|[[Toretsk]]
-        || [[:uk:\u0422\u043e\u0440\u0435\u0446\u044c\u043a|\u0422\u043e\u0440\u0435\u0446\u044c\u043a]]
-        || [[Donetsk Oblast]] || align=right| O || align=right| 43,371\n|-\n|[[Dzhankoy]]
+        || [[Dnipropetrovsk Oblast]] || align=right| O || align=right| 44,834|| align=\"center\"
+        |[[File:\u0422\u0430\u0440\u0430\u0441 \u0428\u0435\u0432\u0447\u0435\u043d\u043a\u043e
+        - \u043c. \u041e\u0440\u0434\u0436\u043e\u043d\u0456\u043a\u0456\u0434\u0437\u0435.jpg|250px|Ordzhonikidze,
+        Dnipropetrovsk Oblast|Ordzhonikidze]]\n|-\n|[[Toretsk]] || [[:uk:\u0422\u043e\u0440\u0435\u0446\u044c\u043a|\u0422\u043e\u0440\u0435\u0446\u044c\u043a]]
+        || [[Donetsk Oblast]] || align=right| O || align=right| 43,371|| align=\"center\"
+        |[[File:Church St Macarius Dzerzhynsk.JPG|250px|Toretsk]]\n|-\n|[[Dzhankoy]]
         || [[:uk:\u0414\u0436\u0430\u043d\u043a\u043e\u0439|\u0414\u0436\u0430\u043d\u043a\u043e\u0439]]
-        || [[Crimea]] || align=right| O || align=right| 43,343\n|-\n|[[Pervomaisk,
+        || [[Crimea]] || align=right| O || align=right| 43,343\n| align=\"center\"
+        | |[[File:\u0417\u0430\u043b\u0456\u0437\u043d\u0438\u0447\u043d\u0438\u0439
+        \u0432\u043e\u043a\u0437\u0430\u043b \u0414\u0436\u0430\u043d\u043a\u043e\u0439.JPG|250px|Dzhankoy]]\n|-\n|[[Pervomaisk,
         Luhansk Oblast|Pervomaisk]] || [[:uk:\u041f\u0435\u0440\u0432\u043e\u043c\u0430\u0439\u0441\u044c\u043a|\u041f\u0435\u0440\u0432\u043e\u043c\u0430\u0439\u0441\u044c\u043a]]
-        || [[Luhansk Oblast]] || align=right| O || align=right| 43,082\n|-\n|[[Myrhorod]]
-        || [[:uk:\u041c\u0438\u0440\u0433\u043e\u0440\u043e\u0434|\u041c\u0438\u0440\u0433\u043e\u0440\u043e\u0434]]
-        || [[Poltava Oblast]] || align=right| O || align=right| 42,886\n|-\n|[[Voznesensk]]
+        || [[Luhansk Oblast]] || align=right| O || align=right| 43,082|| align=\"center\"
+        |[[File:\u041f\u0435\u0440\u0432\u043e\u043c\u0430\u0439\u0441\u043a \u0443\u043b.\u0422\u0440\u0443\u0434\u043e\u0432\u0430\u044f.jpg|250px|Pervomaisk,
+        Luhansk Oblast|Pervomaisk]]\n|-\n|[[Myrhorod]] || [[:uk:\u041c\u0438\u0440\u0433\u043e\u0440\u043e\u0434|\u041c\u0438\u0440\u0433\u043e\u0440\u043e\u0434]]
+        || [[Poltava Oblast]] || align=right| O || align=right| 42,886|| align=\"center\"
+        |[[File:\u0411\u0443\u0434\u0438\u043d\u043e\u043a \u041c\u0438\u0440\u0433\u043e\u0440\u043e\u0434\u0441\u044c\u043a\u043e\u0457
+        \u043c\u0456\u0441\u044c\u043a\u043e\u0457 \u0443\u043f\u0440\u0430\u0432\u0438.JPG|250px|Myrhorod]]\n|-\n|[[Voznesensk]]
         || [[:uk:\u0412\u043e\u0437\u043d\u0435\u0441\u0435\u043d\u0441\u044c\u043a|\u0412\u043e\u0437\u043d\u0435\u0441\u0435\u043d\u0441\u044c\u043a]]
-        || [[Mykolaiv Oblast]] || align=right| O || align=right| 42,634\n|-\n|[[Kotovsk,
+        || [[Mykolaiv Oblast]] || align=right| O || align=right| 42,634|| align=\"center\"
+        |[[File:\u0410\u043b\u044c\u0442\u0430\u043d\u043a\u0430 \u0443 \u0412\u043e\u0437\u043d\u0435\u0441\u0435\u043d\u0441\u044c\u043a\u0443.jpg|250px|Voznesensk]]\n|-\n|[[Kotovsk,
         Ukraine|Kotovsk]] || [[:uk:\u041a\u043e\u0442\u043e\u0432\u0441\u044c\u043a|\u041a\u043e\u0442\u043e\u0432\u0441\u044c\u043a]]
-        || [[Odessa Oblast]] || align=right| O || align=right| 40,718\n|-\n|[[Irpin]]
-        || [[:uk:\u0406\u0440\u043f\u0456\u043d\u044c (\u043c\u0456\u0441\u0442\u043e)|\u0406\u0440\u043f\u0456\u043d\u044c]]
-        || [[Kiev Oblast]] || align=right| O || align=right| 40,593\n|-\n|[[Vasylkiv]]
-        || [[:uk:\u0412\u0430\u0441\u0438\u043b\u044c\u043a\u0456\u0432|\u0412\u0430\u0441\u0438\u043b\u044c\u043a\u0456\u0432]]
-        || [[Kiev Oblast]] || align=right| O || align=right| 39,722\n|-\n|[[Dubno]]
+        || [[Odessa Oblast]] || align=right| O || align=right| 40,718|| align=\"center\"
+        |[[File:\u0423\u043d\u0438\u0432\u0435\u0440\u0441\u0430\u043c.jpg|250px|Kotovsk,
+        Odessa Oblast|Kotovsk]]\n|-\n|[[Irpin]] || [[:uk:\u0406\u0440\u043f\u0456\u043d\u044c
+        (\u043c\u0456\u0441\u0442\u043e)|\u0406\u0440\u043f\u0456\u043d\u044c]] ||
+        [[Kiev Oblast]] || align=right| O || align=right| 40,593|| align=\"center\"
+        |[[File:\u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0438\u0439
+        \u0423\u043d\u0456\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0414\u0435\u0440\u0436\u0430\u0432\u043d\u043e\u0457
+        \u041f\u043e\u0434\u0430\u0442\u043a\u043e\u0432\u043e\u0457 \u0421\u043b\u0443\u0436\u0431\u0438
+        \u0423\u043a\u0440\u0430\u0457\u043d\u0438(\u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u0438\u0439
+        \u0432\u0445\u0456\u0434).JPG|250px|Irpin]]\n|-\n|[[Vasylkiv]] || [[:uk:\u0412\u0430\u0441\u0438\u043b\u044c\u043a\u0456\u0432|\u0412\u0430\u0441\u0438\u043b\u044c\u043a\u0456\u0432]]
+        || [[Kiev Oblast]] || align=right| O || align=right| 39,722|| align=\"center\"
+        |[[File:\u0421\u043e\u0431\u043e\u0440 \u0410\u043d\u0442\u043e\u043d\u0456\u044f
+        \u0456 \u0424\u0435\u043e\u0434\u043e\u0441\u0456\u044f \u0412\u0430\u0441\u0438\u043b\u044c\u043a\u0456\u0432.jpg|250px|Vasylkiv]]\n|-\n|[[Dubno]]
         || [[:uk:\u0414\u0443\u0431\u043d\u043e|\u0414\u0443\u0431\u043d\u043e]] ||
-        [[Rivne Oblast]] || align=right| O || align=right| 39,146\n|-\n|[[Kuznetsovsk]]
+        [[Rivne Oblast]] || align=right| O || align=right| 39,146|| align=\"center\"
+        |[[File:Dubno Rivnenska-Saint Elijah church-right side view.jpg|250px|Dubno]]\n|-\n|[[Kuznetsovsk]]
         || [[:uk:\u041a\u0443\u0437\u043d\u0435\u0446\u043e\u0432\u0441\u044c\u043a|\u041a\u0443\u0437\u043d\u0435\u0446\u043e\u0432\u0441\u044c\u043a]]
-        || [[Rivne Oblast]] || align=right| O || align=right| 38,830\n|-\n|[[Volodymyr-Volynskyi]]
+        || [[Rivne Oblast]] || align=right| O || align=right| 38,830|| align=\"center\"
+        |[[File:\u0416\u0438\u043b\u043e\u0439-\u0434\u043e\u043c-\u0432-\u041a\u0443\u0437\u043d\u0435\u0446\u043e\u0432\u0441\u043a\u0435.jpg|250px|Kuznetsovsk]]\n|-\n|[[Volodymyr-Volynskyi]]
         || [[:uk:\u0412\u043e\u043b\u043e\u0434\u0438\u043c\u0438\u0440-\u0412\u043e\u043b\u0438\u043d\u0441\u044c\u043a\u0438\u0439|\u0412\u043e\u043b\u043e\u0434\u0438\u043c\u0438\u0440-\u0412\u043e\u043b\u0438\u043d\u0441\u044c\u043a\u0438\u0439]]
-        || [[Volyn Oblast]] || align=right| O || align=right| 38,256\n|-\n|[[Kakhovka]]
+        || [[Volyn Oblast]] || align=right| O || align=right| 38,256|| align=\"center\"
+        |[[File:WladimirWolynsk Uspenski Cathedral.jpeg|250px|Volodymyr-Volynskyi]]\n|-\n|[[Kakhovka]]
         || [[:uk:\u041a\u0430\u0445\u043e\u0432\u043a\u0430|\u041a\u0430\u0445\u043e\u0432\u043a\u0430]]
-        || [[Kherson Oblast]] || align=right| O || align=right| 38,238\n|-\n|[[Yuzhnoukrainsk]]
-        || [[:uk:\u042e\u0436\u043d\u043e\u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a|\u042e\u0436\u043d\u043e\u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a]]
-        || [[Mykolaiv Oblast]] || align=right| O || align=right| 38,206\n|-\n|[[Boryslav]]
+        || [[Kherson Oblast]] || align=right| O || align=right| 38,238|| align=\"center\"
+        |[[File:\u041a\u0430\u0445\u043e\u0432\u0441\u044c\u043a\u0438\u0439 \u041f\u043e\u043a\u0440\u043e\u0432\u0441\u044c\u043a\u0438\u0439
+        \u0445\u0440\u0430\u043c.jpg|250px|Kakhovka]]\n|-\n|[[Yuzhnoukrainsk]] ||
+        [[:uk:\u042e\u0436\u043d\u043e\u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a|\u042e\u0436\u043d\u043e\u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a]]
+        || [[Mykolaiv Oblast]] || align=right| O || align=right| 38,206|| align=\"center\"
+        |[[File:\u041f\u0423\u0410\u0415\u0421.jpg|250px|Yuzhnoukrainsk]]\n|-\n|[[Boryslav]]
         || [[:uk:\u0411\u043e\u0440\u0438\u0441\u043b\u0430\u0432|\u0411\u043e\u0440\u0438\u0441\u043b\u0430\u0432]]
-        || [[Lviv Oblast]] || align=right| O || align=right| 38,122\n|-\n|[[Yasynuvata]]
-        || [[:uk:\u042f\u0441\u0438\u043d\u0443\u0432\u0430\u0442\u0430|\u042f\u0441\u0438\u043d\u0443\u0432\u0430\u0442\u0430]]
-        || [[Donetsk Oblast]] || align=right| O || align=right| 37,552\n|-\n|[[Zhmerynka]]
+        || [[Lviv Oblast]] || align=right| O || align=right| 38,122|| align=\"center\"
+        |[[File:Boryslav3.JPG|250px|Boryslav]]\n|-\n|[[Yasynuvata]] || [[:uk:\u042f\u0441\u0438\u043d\u0443\u0432\u0430\u0442\u0430|\u042f\u0441\u0438\u043d\u0443\u0432\u0430\u0442\u0430]]
+        || [[Donetsk Oblast]] || align=right| O || align=right| 37,552|| align=\"center\"
+        |[[File:\u0412\u043e\u043a\u0437\u0430\u043b \u0441\u0442\u0430\u043d\u0446\u0456\u0457
+        \u042f\u0441\u0438\u043d\u0443\u0432\u0430\u0442\u0430-\u041f\u0430\u0441\u0430\u0436\u0438\u0440\u0441\u044c\u043a\u0430.jpg|250px|Yasynuvata]]\n|-\n|[[Zhmerynka]]
         || [[:uk:\u0416\u043c\u0435\u0440\u0438\u043d\u043a\u0430|\u0416\u043c\u0435\u0440\u0438\u043d\u043a\u0430]]
-        || [[Vinnytsia Oblast]] || align=right| O || align=right| 37,349\n|-\n|[[Avdiivka]]
-        || [[:uk:\u0410\u0432\u0434\u0456\u0457\u0432\u043a\u0430|\u0410\u0432\u0434\u0456\u0457\u0432\u043a\u0430]]
-        || [[Donetsk Oblast]] || align=right| O || align=right| 37,210\n|-\n|[[Chuhuiv]]
+        || [[Vinnytsia Oblast]] || align=right| O || align=right| 37,349|| align=\"center\"
+        |[[File:\u0417\u0430\u043b\u0456\u0437\u043d\u0438\u0447\u043d\u0438\u0439
+        \u0432\u043e\u043a\u0437\u0430\u043b (\u0416\u043c\u0435\u0440\u0438\u043d\u043a\u0430)
+        02.JPG|250px|Zhmerynka]]\n|-\n|[[Avdiivka]] || [[:uk:\u0410\u0432\u0434\u0456\u0457\u0432\u043a\u0430|\u0410\u0432\u0434\u0456\u0457\u0432\u043a\u0430]]
+        || [[Donetsk Oblast]] || align=right| O || align=right| 37,210|| align=\"center\"
+        |[[File:\u0424\u0435\u0434\u043e\u0440\u0435\u043d\u043a\u043e. \u0410\u0432\u0434\u0435\u0435\u0432\u0441\u043a\u0438\u0439
+        \u043a\u0430\u0440\u044c\u0435\u0440 04.jpg|250px|Avdiivka]]\n|-\n|[[Chuhuiv]]
         || [[:uk:\u0427\u0443\u0433\u0443\u0457\u0432|\u0427\u0443\u0433\u0443\u0457\u0432]]
-        || [[Kharkiv Oblast]] || align=right| O || align=right| 36,789\n|-\n|[[Sambir]]
+        || [[Kharkiv Oblast]] || align=right| O || align=right| 36,789|| align=\"center\"
+        |[[File:\u041f\u043e\u043a\u0440\u043e\u0432\u0441\u044c\u043a\u0438\u0439
+        \u0441\u043e\u0431\u043e\u0440. \u043c.\u0427\u0443\u0433\u0443\u0457\u0432.JPG|250px|Chuhuiv]]\n|-\n|[[Sambir]]
         || [[:uk:\u0421\u0430\u043c\u0431\u0456\u0440|\u0421\u0430\u043c\u0431\u0456\u0440]]
-        || [[Lviv Oblast]] || align=right| O || align=right| 36,556\n|-\n|[[Tokmak,
+        || [[Lviv Oblast]] || align=right| O || align=right| 36,556|| align=\"center\"
+        |[[File:\u0421\u0430\u043c\u0431\u043e\u0440. \u0411\u044b\u0432\u0448\u0435\u0435
+        \u043a\u0430\u0437\u043d\u0430\u0447\u0435\u0439\u0441\u0442\u0432\u043e..jpg|250px|Sambir]]\n|-\n|[[Tokmak,
         Ukraine|Tokmak]] || [[:uk:\u0422\u043e\u043a\u043c\u0430\u043a|\u0422\u043e\u043a\u043c\u0430\u043a]]
-        || [[Zaporizhia Oblast]] || align=right| O || align=right| 36,275\n|-\n|[[Boiarka]]
-        || [[:uk:\u0411\u043e\u044f\u0440\u043a\u0430|\u0411\u043e\u044f\u0440\u043a\u0430]]
-        || [[Kiev Oblast]] || align=right| R || align=right| 35,968\n|-\n|[[Hlukhiv]]
+        || [[Zaporizhia Oblast]] || align=right| O || align=right| 36,275|| align=\"center\"
+        |[[File:Tokmak Volodars''kogo 68 Voznesens''ka Tserkva 01 (YDS 8398).JPG|250px|Tokmak,
+        Zaporizhia Oblast|Tokmak]]\n|-\n|[[Boiarka]] || [[:uk:\u0411\u043e\u044f\u0440\u043a\u0430|\u0411\u043e\u044f\u0440\u043a\u0430]]
+        || [[Kiev Oblast]] || align=right| R || align=right| 35,968|| align=\"center\"
+        |[[File:\u0411\u043e\u044f\u0440\u043a\u0430. \u0411\u0435\u043b\u043e\u0433\u043e\u0440\u043e\u0434\u0441\u043a\u0430\u044f,\u0410\u0417\u0421.jpg|250px|Boyarka]]\n|-\n|[[Hlukhiv]]
         || [[:uk:\u0413\u043b\u0443\u0445\u0456\u0432|\u0413\u043b\u0443\u0445\u0456\u0432]]
-        || [[Sumy Oblast]] || align=right| O || align=right| 35,768\n|-\n|[[Dobropillia]]
+        || [[Sumy Oblast]] || align=right| O || align=right| 35,768|| align=\"center\"
+        |[[File:Hlukhiv TriokhAnastasivska Church SAM 0176 59-103-0045.JPG|250px|Hlukhiv]]\n|-\n|[[Dobropillia]]
         || [[:uk:\u0414\u043e\u0431\u0440\u043e\u043f\u0456\u043b\u043b\u044f|\u0414\u043e\u0431\u0440\u043e\u043f\u0456\u043b\u043b\u044f]]
-        || [[Donetsk Oblast]] || align=right| O || align=right| 35,638\n|-\n|[[Starokostiantyniv]]
+        || [[Donetsk Oblast]] || align=right| O || align=right| 35,638|| align=\"center\"
+        |[[File:\u0421\u0432\u044f\u0442\u043e \u041f\u043e\u043a\u0440\u043e\u0432\u0441\u044c\u043a\u0438\u0439
+        \u0445\u0440\u0430\u043c.JPG|250px|Dobropillia]]\n|-\n|[[Starokostiantyniv]]
         || [[:uk:\u0421\u0442\u0430\u0440\u043e\u043a\u043e\u0441\u0442\u044f\u043d\u0442\u0438\u043d\u0456\u0432|\u0421\u0442\u0430\u0440\u043e\u043a\u043e\u0441\u0442\u044f\u043d\u0442\u0438\u043d\u0456\u0432]]
-        || [[Khmelnytskyi Oblast]] || align=right| O || align=right| 35,206\n|-\n|[[Kirovsk,
+        || [[Khmelnytskyi Oblast]] || align=right| O || align=right| 35,206|| align=\"center\"
+        |[[File:Officers Club Starokonstantinov.JPG|250px|Starokostiantyniv]]\n|-\n|[[Kirovsk,
         Luhansk Oblast|Kirovsk]] || [[:uk:\u041a\u0456\u0440\u043e\u0432\u0441\u044c\u043a|\u041a\u0456\u0440\u043e\u0432\u0441\u044c\u043a]]
-        || [[Luhansk Oblast]] || align=right| O || align=right| 35,199\n|-\n|[[Vyshneve]]
-        || [[:uk:\u0412\u0438\u0448\u043d\u0435\u0432\u0435|\u0412\u0438\u0448\u043d\u0435\u0432\u0435]]
-        || [[Kiev Oblast]] || align=right| R || align=right| 34,465\n|-\n|[[Netishyn]]
+        || [[Luhansk Oblast]] || align=right| O || align=right| 35,199|| align=\"center\"
+        |[[File:\u0421\u043a\u0432\u0435\u0440\u0438\u043a \u0432 \u0446\u0435\u043d\u0442\u0440\u0435..JPG|250px|Kirovsk,
+        Luhansk Oblast|Kirovsk|]]\n|-\n|[[Vyshneve]] || [[:uk:\u0412\u0438\u0448\u043d\u0435\u0432\u0435|\u0412\u0438\u0448\u043d\u0435\u0432\u0435]]
+        || [[Kiev Oblast]] || align=right| R || align=right| 34,465|| align=\"center\"
+        |[[File:Vyshneve Church.jpg|250px|Kirovsk, Luhansk Oblast|Vyshneve|]]\n|-\n|[[Netishyn]]
         || [[:uk:\u041d\u0435\u0442\u0456\u0448\u0438\u043d|\u041d\u0435\u0442\u0456\u0448\u0438\u043d]]
-        || [[Khmelnytskyi Oblast]] || align=right| O || align=right| 34,358\n|-\n|[[Slavuta]]
-        || [[:uk:\u0421\u043b\u0430\u0432\u0443\u0442\u0430|\u0421\u043b\u0430\u0432\u0443\u0442\u0430]]
-        || [[Khmelnytskyi Oblast]] || align=right| O || align=right| 34,340\n|-\n|[[Mohyliv-Podilskyi]]
-        || [[:uk:\u041c\u043e\u0433\u0438\u043b\u0456\u0432-\u041f\u043e\u0434\u0456\u043b\u044c\u0441\u044c\u043a\u0438\u0439|\u041c\u043e\u0433\u0438\u043b\u0456\u0432-\u041f\u043e\u0434\u0456\u043b\u044c\u0441\u044c\u043a\u0438\u0439]]
-        || [[Vinnytsia Oblast]] || align=right| O || align=right| 32,853\n|-\n|[[Obukhiv]]
+        || [[Khmelnytskyi Oblast]] || align=right| O || align=right| 34,358|| align=\"center\"
+        |[[File:Netishyn. Khmelnitsky oblast. Ukraine. 2010 year.jpg|250px|Kirovsk,
+        Luhansk Oblast|Netishyn|]]\n|-\n|[[Slavuta]] || [[:uk:\u0421\u043b\u0430\u0432\u0443\u0442\u0430|\u0421\u043b\u0430\u0432\u0443\u0442\u0430]]
+        || [[Khmelnytskyi Oblast]] || align=right| O || align=right| 34,340|| align=\"center\"
+        |[[File:\u0421\u043b\u0430\u0432\u0443\u0442\u0430 . \u0426\u0435\u0440\u043a\u0432\u0430
+        \u0421\u0432\u044f\u0442\u043e\u0457 \u0414\u043e\u0440\u043e\u0442\u0438.
+        04.JPG|250px|Slavuta]]\n|-\n|[[Mohyliv-Podilskyi]] || [[:uk:\u041c\u043e\u0433\u0438\u043b\u0456\u0432-\u041f\u043e\u0434\u0456\u043b\u044c\u0441\u044c\u043a\u0438\u0439|\u041c\u043e\u0433\u0438\u043b\u0456\u0432-\u041f\u043e\u0434\u0456\u043b\u044c\u0441\u044c\u043a\u0438\u0439]]
+        || [[Vinnytsia Oblast]] || align=right| O || align=right| 32,853|| align=\"center\"
+        |[[File:\u041c\u043e\u0433\u0438\u043b\u0456\u0432-\u041f\u043e\u0434\u0456\u043b\u044c\u0441\u044c\u043a\u0438\u0439.
+        \u041c\u0438\u043a\u043e\u043b\u0430\u0457\u0432\u0441\u044c\u043a\u0430 \u0446\u0435\u0440\u043a\u0432\u0430.jpg|250px|Mohyliv-Podilskyi]]\n|-\n|[[Obukhiv]]
         || [[:uk:\u041e\u0431\u0443\u0445\u0456\u0432|\u041e\u0431\u0443\u0445\u0456\u0432]]
-        || [[Kiev Oblast]] || align=right| O || align=right| 32,776\n|-\n|[[Pervomaiskyi]]
+        || [[Kiev Oblast]] || align=right| O || align=right| 32,776|| align=\"center\"
+        |[[File:Vyshneve Church.jpg|250px|\u0426\u0435\u043d\u0442\u0440 \u041e\u0431\u0443\u0445\u043e\u0432\u0430.jpg|Obukhiv|]]\n|-\n|[[Pervomaiskyi]]
         || [[:uk:\u041f\u0435\u0440\u0432\u043e\u043c\u0430\u0439\u0441\u044c\u043a\u0438\u0439|\u041f\u0435\u0440\u0432\u043e\u043c\u0430\u0439\u0441\u044c\u043a\u0438\u0439]]
-        || [[Kharkiv Oblast]] || align=right| O || align=right| 32,523\n|-\n|[[Kupiansk]]
+        || [[Kharkiv Oblast]] || align=right| O || align=right| 32,523|| align=\"center\"
+        |[[File:Railway Station Pervomaiski.jpg|250px|\u0426\u0435\u043d\u0442\u0440
+        \u041e\u0431\u0443\u0445\u043e\u0432\u0430.jpg|Pervomaiskyi]]\n|-\n|[[Kupiansk]]
         || [[:uk:\u041a\u0443\u043f''\u044f\u043d\u0441\u044c\u043a|\u041a\u0443\u043f''\u044f\u043d\u0441\u044c\u043a]]
-        || [[Kharkiv Oblast]] || align=right| O || align=right| 32,449\n|-\n|[[Balakliia]]
-        || [[:uk:\u0411\u0430\u043b\u0430\u043a\u043b\u0456\u044f|\u0411\u0430\u043b\u0430\u043a\u043b\u0456\u044f]]
-        || [[Kharkiv Oblast]] || align=right| R || align=right| 32,408\n|-\n|[[Synelnykove]]
+        || [[Kharkiv Oblast]] || align=right| O || align=right| 32,449|| align=\"center\"
+        |[[File:ER9P-442-Kupyansk.jpg|250px|Kupiansk]]\n|-\n|[[Balakliia]] || [[:uk:\u0411\u0430\u043b\u0430\u043a\u043b\u0456\u044f|\u0411\u0430\u043b\u0430\u043a\u043b\u0456\u044f]]
+        || [[Kharkiv Oblast]] || align=right| R || align=right| 32,408|| align=\"center\"
+        |[[File:\u041f\u0430\u043c\u044f\u0442\u043d\u0438\u043a \u0428\u0435\u0432\u0447\u0435\u043d\u043a\u0443.JPG|250px|Balakliia]]\n|-\n|[[Synelnykove]]
         || [[:uk:\u0421\u0438\u043d\u0435\u043b\u044c\u043d\u0438\u043a\u043e\u0432\u0435|\u0421\u0438\u043d\u0435\u043b\u044c\u043d\u0438\u043a\u043e\u0432\u0435]]
-        || [[Dnipropetrovsk Oblast]] || align=right| O || align=right| 32,302\n|-\n|[[Pereiaslav-Khmelnytskyi]]
-        || [[:uk:\u041f\u0435\u0440\u0435\u044f\u0441\u043b\u0430\u0432-\u0425\u043c\u0435\u043b\u044c\u043d\u0438\u0446\u044c\u043a\u0438\u0439|\u041f\u0435\u0440\u0435\u044f\u0441\u043b\u0430\u0432-\u0425\u043c\u0435\u043b\u044c\u043d\u0438\u0446\u044c\u043a\u0438\u0439]]
-        || [[Kiev Oblast]] || align=right| O || align=right| 31,634\n|-\n|[[Alushta]]
+        || [[Dnipropetrovsk Oblast]] || align=right| O || align=right| 32,302|| align=\"center\"
+        |[[File:\u0412\u043e\u043a\u0437\u0430\u043b \u0441\u0442\u0430\u043d\u0446\u0438\u0438
+        \u0421\u0438\u043d\u0435\u043b\u044c\u043d\u0438\u043a\u043e\u0432\u043e 1
+        2057416.jpg|250px|Synelnykove]]\n|-\n|[[Pereiaslav-Khmelnytskyi]] || [[:uk:\u041f\u0435\u0440\u0435\u044f\u0441\u043b\u0430\u0432-\u0425\u043c\u0435\u043b\u044c\u043d\u0438\u0446\u044c\u043a\u0438\u0439|\u041f\u0435\u0440\u0435\u044f\u0441\u043b\u0430\u0432-\u0425\u043c\u0435\u043b\u044c\u043d\u0438\u0446\u044c\u043a\u0438\u0439]]
+        || [[Kiev Oblast]] || align=right| O || align=right| 31,634|| align=\"center\"
+        |[[File:\u041f\u043b\u043e\u0449\u0430 \u0411\u043e\u0433\u0434\u0430\u043d\u0430
+        \u0425\u043c\u0435\u043b\u044c\u043d\u0438\u0446\u044c\u043a\u043e\u0433\u043e
+        \u041f\u0435\u0440-\u0425\u043c.jpg|250px|Pereiaslav-Khmelnytskyi]]\n|-\n|[[Alushta]]
         || [[:uk:\u0410\u043b\u0443\u0448\u0442\u0430|\u0410\u043b\u0443\u0448\u0442\u0430]]
-        || [[Crimea]] || align=right| O || align=right| 31,440\n|-\n|[[Truskavets]]
+        || [[Crimea]] || align=right| O || align=right| 31,440|| align=\"center\"
+        |[[File:\u0410\u043b\u0443\u0448\u0442\u0430121.JPG|250px|Alushta]]\n|-\n|[[Truskavets]]
         || [[:uk:\u0422\u0440\u0443\u0441\u043a\u0430\u0432\u0435\u0446\u044c|\u0422\u0440\u0443\u0441\u043a\u0430\u0432\u0435\u0446\u044c]]
-        || [[Lviv Oblast]] || align=right| O || align=right| 31,037\n|-\n|[[Krasnoperekopsk]]
-        || [[:uk:\u041a\u0440\u0430\u0441\u043d\u043e\u043f\u0435\u0440\u0435\u043a\u043e\u043f\u0441\u044c\u043a|\u041a\u0440\u0430\u0441\u043d\u043e\u043f\u0435\u0440\u0435\u043a\u043e\u043f\u0441\u044c\u043a]]
+        || [[Lviv Oblast]] || align=right| O || align=right| 31,037|| align=\"center\"
+        |[[File:Truskavets 110.jpg|250px|Truskavets]]\n|-\n|[[Krasnoperekopsk]] ||
+        [[:uk:\u041a\u0440\u0430\u0441\u043d\u043e\u043f\u0435\u0440\u0435\u043a\u043e\u043f\u0441\u044c\u043a|\u041a\u0440\u0430\u0441\u043d\u043e\u043f\u0435\u0440\u0435\u043a\u043e\u043f\u0441\u044c\u043a]]
         || [[Crimea]] || align=right| O || align=right| 31,023\n|-\n|[[Kirovske (Donetsk
         Oblast)|Kirovske]] || [[:uk:\u041a\u0456\u0440\u043e\u0432\u0441\u044c\u043a\u0435|\u041a\u0456\u0440\u043e\u0432\u0441\u044c\u043a\u0435]]
         || [[Donetsk Oblast]] || align=right| O || align=right| 30,910\n|-\n|[[Kostopil]]
@@ -1140,7 +1184,7 @@ http_interactions:
         in Ukraine| ]]\n[[Category:Subdivisions of Ukraine|Cities]]\n[[Category:Lists
         of cities in Ukraine|Ukraine, List of cities in]]\n[[Category:Ukraine geography-related
         lists|Cities]]\n[[Category:Lists of cities in Europe|Ukraine]]\n[[Category:Demographics
-        of Ukraine]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2016-02-21T14:12:01Z","lastrevid":704395483,"length":66688,"fullurl":"https://en.wikipedia.org/wiki/List_of_cities_in_Ukraine","editurl":"https://en.wikipedia.org/w/index.php?title=List_of_cities_in_Ukraine&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/List_of_cities_in_Ukraine"}}}}'
+        of Ukraine]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2016-03-18T10:01:43Z","lastrevid":710672589,"length":75574,"fullurl":"https://en.wikipedia.org/wiki/List_of_cities_in_Ukraine","editurl":"https://en.wikipedia.org/w/index.php?title=List_of_cities_in_Ukraine&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/List_of_cities_in_Ukraine"}}}}'
     http_version: 
-  recorded_at: Fri, 26 Feb 2016 13:30:32 GMT
+  recorded_at: Sat, 19 Mar 2016 00:40:04 GMT
 recorded_with: VCR 3.0.0

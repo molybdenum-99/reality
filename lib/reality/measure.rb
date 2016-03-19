@@ -61,6 +61,10 @@ module Reality
       (num-1).times.inject(self){|res| res*self}
     end
 
+    def abs
+      self.class.new(amount.abs, unit)
+    end
+
     include Comparable
 
     def to_s

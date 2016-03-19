@@ -8,7 +8,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Infoboxer/0.2.2 (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
+      - Reality/0.0.3 (https://github.com/molybdenum-99/reality; zverok.offline@gmail.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx/1.9.4
       Date:
-      - Fri, 26 Feb 2016 13:10:53 GMT
+      - Sat, 19 Mar 2016 00:40:01 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -29,19 +29,22 @@ http_interactions:
       Connection:
       - keep-alive
       X-Powered-By:
-      - HHVM/3.6.5
+      - HHVM/3.12.1
       X-Content-Type-Options:
       - nosniff
       Cache-Control:
       - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
+        for more info."
       X-Frame-Options:
       - SAMEORIGIN
       Vary:
       - Accept-Encoding,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=30737 t=1456492252980109
+      - D=22196 t=1458348001021662
       X-Varnish:
-      - 1242794738, 423306748, 3043056725
+      - 2811898716, 1384145051, 2063775941
       Via:
       - 1.1 varnish, 1.1 varnish, 1.1 varnish
       Accept-Ranges:
@@ -49,17 +52,17 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1052 miss+chfp(0), cp3012 pass+chfp(0), cp3008 frontend pass+chfp(0)
+      - cp1065 pass+chfp(0), cp3004 miss+chfp(0), cp3014 frontend miss+chfp(0)
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains; preload
       Set-Cookie:
       - GeoIP=UA:07:Kharkov:49.98:36.25:v4; Path=/; Domain=.wikipedia.org
-      - WMF-Last-Access=26-Feb-2016;Path=/;HttpOnly;Expires=Tue, 29 Mar 2016 12:00:00
+      - WMF-Last-Access=19-Mar-2016;Path=/;HttpOnly;Expires=Wed, 20 Apr 2016 00:00:00
         GMT
       X-Analytics:
       - https=1;nocookies=1
       X-Client-Ip:
-      - 94.179.103.153
+      - 94.179.5.221
     body:
       encoding: ASCII-8BIT
       string: '{"batchcomplete":"","query":{"namespaces":{"-2":{"id":-2,"case":"first-letter","canonical":"Media","*":"Media"},"-1":{"id":-1,"case":"first-letter","canonical":"Special","*":"Special"},"0":{"id":0,"case":"first-letter","content":"","*":""},"1":{"id":1,"case":"first-letter","subpages":"","canonical":"Talk","*":"Talk"},"2":{"id":2,"case":"first-letter","subpages":"","canonical":"User","*":"User"},"3":{"id":3,"case":"first-letter","subpages":"","canonical":"User
@@ -82,7 +85,7 @@ http_interactions:
         definition talk","*":"Gadget definition talk"},"2600":{"id":2600,"case":"first-letter","canonical":"Topic","defaultcontentmodel":"flow-board","*":"Topic"}},"namespacealiases":[{"id":4,"*":"WP"},{"id":5,"*":"WT"},{"id":6,"*":"Image"},{"id":7,"*":"Image
         talk"}]}}'
     http_version: 
-  recorded_at: Fri, 26 Feb 2016 13:10:52 GMT
+  recorded_at: Sat, 19 Mar 2016 00:40:00 GMT
 - request:
     method: get
     uri: https://en.wikipedia.org/w/api.php?action=query&format=json&inprop=url&prop=revisions%7Cinfo&redirects=true&rvprop=content&titles=Pink%20Floyd
@@ -91,7 +94,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Infoboxer/0.2.2 (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
+      - Reality/0.0.3 (https://github.com/molybdenum-99/reality; zverok.offline@gmail.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -104,27 +107,30 @@ http_interactions:
       Server:
       - nginx/1.9.4
       Date:
-      - Fri, 26 Feb 2016 13:10:53 GMT
+      - Sat, 19 Mar 2016 00:40:01 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '50954'
+      - '50974'
       Connection:
       - keep-alive
       X-Powered-By:
-      - HHVM/3.6.5
+      - HHVM/3.12.1
       X-Content-Type-Options:
       - nosniff
       Cache-Control:
       - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
+        for more info."
       X-Frame-Options:
       - SAMEORIGIN
       Vary:
       - Accept-Encoding,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=56158 t=1456492253462390
+      - D=71781 t=1458348001518935
       X-Varnish:
-      - 1242796320, 1464981524, 3043058335
+      - 2682216268, 1534792016, 2063776592
       Via:
       - 1.1 varnish, 1.1 varnish, 1.1 varnish
       Accept-Ranges:
@@ -132,17 +138,17 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1052 miss+chfp(0), cp3008 miss+chfp(0), cp3008 frontend miss+chfp(0)
+      - cp1052 miss+chfp(0), cp3008 miss+chfp(0), cp3014 frontend miss+chfp(0)
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains; preload
       Set-Cookie:
       - GeoIP=UA:07:Kharkov:49.98:36.25:v4; Path=/; Domain=.wikipedia.org
-      - WMF-Last-Access=26-Feb-2016;Path=/;HttpOnly;Expires=Tue, 29 Mar 2016 12:00:00
+      - WMF-Last-Access=19-Mar-2016;Path=/;HttpOnly;Expires=Wed, 20 Apr 2016 00:00:00
         GMT
       X-Analytics:
       - https=1;nocookies=1
       X-Client-Ip:
-      - 94.179.103.153
+      - 94.179.5.221
     body:
       encoding: ASCII-8BIT
       string: '{"batchcomplete":"","query":{"pages":{"5079506":{"pageid":5079506,"ns":0,"title":"Pink
@@ -155,7 +161,7 @@ http_interactions:
         alt = A black and white photo of five men standing in front of a brick wall.\n|
         landscape = \n| background = group_or_band\n| genre = [[Progressive rock]],
         [[psychedelic rock]], [[art rock]]\n| origin = [[London]], England\n| years_active
-        = {{flatlist|\n*{{Start date|1965}}\u2013{{End date|1994}}\n*{{Start date|2012}}\u20132014<br/><small>(one-off
+        = {{flatlist|\n*{{Start date|1965}}\u2013{{End date|1995}}\n*{{Start date|2012}}\u20132014<br/><small>(one-off
         reunion: 2005)</small>\n}}\n| label = {{flatlist|\n* [[Columbia Graphophone
         Company|EMI Columbia]]\n* [[Harvest Records|Harvest]]\n* [[Capitol Records|Capitol]]\n*
         [[Columbia Records|Columbia]]\n* [[EMI]]\n* [[Parlophone]]\n}}\n| website
@@ -169,57 +175,57 @@ http_interactions:
         music. Distinguished by their use of philosophical lyrics, sonic experimentation,
         extended compositions and elaborate [[Pink Floyd live performances|live shows]],
         they are one of the most [[List of best-selling music artists|commercially
-        successful]] and musically influential groups in the history of popular music.\n\nPink
-        Floyd were founded in 1965 by students [[Syd Barrett]], [[Nick Mason]], [[Roger
-        Waters]], and [[Richard Wright (musician)|Richard Wright]]. They gained popularity
-        performing in London''s underground music scene during the late 1960s, and
-        under Barrett''s leadership released two charting singles and a successful
-        debut album, ''''[[The Piper at the Gates of Dawn]]'''' (1967). [[David Gilmour]]
-        joined as a fifth member in December 1967; Barrett left the band in April
-        1968 due to deteriorating [[mental health]]. Waters became the band''s primary
-        lyricist and, by the mid-1970s, their dominant songwriter, devising the [[concept
-        album|concepts]] behind their critically and commercially successful albums
-        ''''[[The Dark Side of the Moon]]'''' (1973), ''''[[Wish You Were Here (Pink
-        Floyd album)|Wish You Were Here]]'''' (1975), ''''[[Animals (Pink Floyd album)|Animals]]''''
+        successful]] and influential groups in the history of popular music.\n\nPink
+        Floyd were founded in 1965 by students [[Syd Barrett]] on guitar, [[Nick Mason]]
+        on drums, [[Roger Waters]] on bass, and [[Richard Wright (musician)|Richard
+        Wright]] on keyboards. They gained popularity performing in London''s underground
+        music scene during the late 1960s, and under Barrett''s leadership released
+        two charting singles and a successful debut album, ''''[[The Piper at the
+        Gates of Dawn]]'''' (1967). Guitarist [[David Gilmour]] joined in December
+        1967; Barrett left in April 1968 due to deteriorating [[mental health]]. Waters
+        became the band''s primary lyricist and eventually their dominant songwriter,
+        devising the [[concept album|concepts]] behind their albums ''''[[The Dark
+        Side of the Moon]]'''' (1973), ''''[[Wish You Were Here (Pink Floyd album)|Wish
+        You Were Here]]'''' (1975), ''''[[Animals (Pink Floyd album)|Animals]]''''
         (1977), ''''[[The Wall]]'''' (1979) and ''''[[The Final Cut (album)|The Final
         Cut]]'''' (1983). ''''The Dark Side of the Moon'''' and ''''The Wall'''' became
-        two of the best-selling albums of all time.\n\nWright left Pink Floyd in 1979,
-        followed by Waters in 1985. Gilmour and Mason continued as Pink Floyd; Wright
-        rejoined them as a session musician and, later, a band member. The three produced
-        two more albums, ''''[[A Momentary Lapse of Reason]]'''' (1987) and ''''[[The
-        Division Bell]]'''' (1994), and toured until 1994. After nearly two decades
-        of acrimony, Pink Floyd reunited with Waters in 2005 for a performance at
-        the global awareness event [[Live 8]], but Gilmour and Waters have since stated
-        they have no plans to reunite as a band again. Barrett died in 2006 and Wright
-        in 2008. The final Pink Floyd studio album, ''''[[The Endless River]],''''
-        recorded without Waters and based on songs recorded in 1993\u20131994, was
-        released in November 2014.\n\nPink Floyd were inducted into the US [[Rock
-        and Roll Hall of Fame]] in 1996, and the [[UK Music Hall of Fame]] in 2005.
-        By 2013, the band had sold more than 250 million records worldwide, including
-        75 million certified units in the United States.\n\n== 1963\u201367: early
-        years ==\n\n=== Formation ===\n\n[[Roger Waters]] met drummer [[Nick Mason]]
-        while they were both studying architecture at the [[University of Westminster|London
-        Polytechnic]] at Regent Street.<ref>{{harvnb|Blake|2008|pp=37\u201338}}: Mason
-        meeting Waters while studying architecture at the London Polytechnic; {{harvnb|Fitch|2005|p=335}}:
-        Waters meeting Mason while studying architecture at the London Polytechnic.</ref>
-        They first played music together in a group formed by Keith Noble and Clive
-        Metcalfe with Noble''s sister Sheilagh. Keyboardist [[Richard Wright (musician)|Richard
-        Wright]], a fellow architecture student, joined later that year, and the group
-        became a sextet named Sigma&nbsp;6, the first band to include Waters, who
-        was at this time playing lead guitar; Wright, who at first played rhythm guitar
-        since there was rarely an available keyboard; and Mason on drums.<ref>{{harvnb|Blake|2008|pp=39\u201340}}:
-        Wright was also an architecture student when he joined Sigma 6; {{harvnb|Povey|2008|pp=13\u201314}}:
+        two of the [[List of best-selling albums|best-selling albums of all time]].\n\nFollowing
+        creative tensions, Wright left Pink Floyd in 1979, followed by Waters in 1985.
+        Gilmour and Mason continued as Pink Floyd; Wright rejoined them as a session
+        musician and, later, a band member. The three produced two more albums, ''''[[A
+        Momentary Lapse of Reason]]'''' (1987) and ''''[[The Division Bell]]'''' (1994),
+        and toured until 1994. After nearly two decades of acrimony, Pink Floyd reunited
+        with Waters in 2005 for a performance at the global awareness event [[Live
+        8]], but Gilmour and Waters have since stated they have no plans to reunite
+        as a band again. Barrett died in 2006 and Wright in 2008. The final Pink Floyd
+        studio album, ''''[[The Endless River]],'''' recorded without Waters and based
+        on songs recorded in 1993\u20131994, was released in November 2014.\n\nPink
+        Floyd were inducted into the US [[Rock and Roll Hall of Fame]] in 1996, and
+        the [[UK Music Hall of Fame]] in 2005. By 2013, the band had sold more than
+        250 million records worldwide, including 75 million certified units in the
+        United States.\n\n== 1963\u201367: early years ==\n\n=== Formation ===\n\n[[Roger
+        Waters]] met [[Nick Mason]] while they were both studying architecture at
+        the [[University of Westminster|London Polytechnic]] at Regent Street.<ref>{{harvnb|Blake|2008|pp=37\u201338}}:
+        Mason meeting Waters while studying architecture at the London Polytechnic;
+        {{harvnb|Fitch|2005|p=335}}: Waters meeting Mason while studying architecture
+        at the London Polytechnic.</ref> They first played music together in a group
+        formed by Keith Noble and Clive Metcalfe with Noble''s sister Sheilagh. [[Richard
+        Wright (musician)|Richard Wright]], a fellow architecture student, joined
+        later that year, and the group became a sextet named Sigma&nbsp;6. Waters
+        played lead guitar, Mason drums, and Wright rhythm guitar (since there was
+        rarely an available keyboard).<ref>{{harvnb|Blake|2008|pp=39\u201340}}: Wright
+        was also an architecture student when he joined Sigma 6; {{harvnb|Povey|2008|pp=13\u201314}}:
         The formation of Sigma 6; {{Harvnb|Schaffner|1991|p=27}}: Instrumental line-up
         of Sigma 6: Waters (lead guitar), Wright (rhythm guitar) and Mason (drums).</ref>{{refn|group=nb|Wright
         studied architecture until 1963, when he began studying music at London''s
-        [[Royal College of Music]].{{sfn|Blake|2008|pp=39\u201340}}}} The band started
-        performing during private functions, while rehearsing in a [[Tea house|tearoom]]
-        in the basement of the Regent Street Polytechnic. They performed songs by
-        [[The Searchers (band)|The Searchers]] and material written by their manager
-        and songwriter, fellow student Ken Chapman.{{sfn|Blake|2008|pp=38\u201339}}\n\nIn
-        September 1963, Waters and Mason moved into a flat at 39 Stanhope Gardens,
-        near [[Crouch End]] London, owned by Mike Leonard, a part-time tutor at the
-        nearby [[Hornsey College of Art]] and the Regent Street Polytechnic.{{sfn|Mason|2005|pp=24\u201326}}{{refn|group=nb|Leonard
+        [[Royal College of Music]].{{sfn|Blake|2008|pp=39\u201340}}}} The band performed
+        at private functions and rehearsed in a [[Tea house|tearoom]] in the basement
+        of the Regent Street Polytechnic. They performed songs by the [[The Searchers
+        (band)|Searchers]] and material written by their manager and songwriter, fellow
+        student Ken Chapman.{{sfn|Blake|2008|pp=38\u201339}}\n\nIn September 1963,
+        Waters and Mason moved into a flat at 39 Stanhope Gardens near [[Crouch End]]
+        in London, owned by Mike Leonard, a part-time tutor at the nearby [[Hornsey
+        College of Art]] and the Regent Street Polytechnic.{{sfn|Mason|2005|pp=24\u201326}}{{refn|group=nb|Leonard
         designed light machines, which used electric motors to spin perforated discs,
         casting patterns of lights on the walls. These would be demonstrated in an
         early edition of ''''[[Tomorrow''s World]]''''. For a brief time, Leonard
@@ -227,16 +233,15 @@ http_interactions:
         Mason moved out after the 1964 academic year, and guitarist [[Bob Klose]]
         moved in during September 1964, prompting Waters'' switch to bass.{{sfn|Povey|2008|p=14}}{{refn|group=nb|Wright
         also briefly lived at Leonard''s.{{sfn|Povey|2008|p=14}}}} Sigma&nbsp;6 went
-        through a number of other transitory names, including the Meggadeaths, the
-        Abdabs and the Screaming Abdabs, Leonard''s Lodgers, and the Spectrum Five
-        before settling on the Tea Set.{{sfn|Povey|2008|pp=13\u201318}}{{refn|group=nb|Povey
-        spelled it Meggadeaths but Blake spelled it Megadeaths.<ref>{{harvnb|Blake|2008|p=39}}:
-        Megadeaths; {{harvnb|Povey|2008|p=13}}: Meggadeaths.</ref> Architectural Abdabs
-        is sometimes suggested as another variation; Povey dismisses it as a misreading
-        of [http://sigma6.livejournal.com/850.html a headline about the Abdabs] in
-        the Polytechnic''s student newspaper.{{sfn|Povey|2008|pp=14\u201315}} Povey
-        used the Tea Set throughout whereas Blake''s claim of the alternative spelling,
-        the T-Set, remains unsubstantiated.<ref>{{harvnb|Blake|2008|pp=43\u201344}}:
+        through several names, including the Meggadeaths, the Abdabs and the Screaming
+        Abdabs, Leonard''s Lodgers, and the Spectrum Five, before settling on the
+        Tea Set.{{sfn|Povey|2008|pp=13\u201318}}{{refn|group=nb|Povey spelled it Meggadeaths
+        but Blake spelled it Megadeaths.<ref>{{harvnb|Blake|2008|p=39}}: Megadeaths;
+        {{harvnb|Povey|2008|p=13}}: Meggadeaths.</ref> Architectural Abdabs is sometimes
+        suggested as another variation; Povey dismisses it as a misreading of [http://sigma6.livejournal.com/850.html
+        a headline about the Abdabs] in the Polytechnic''s student newspaper.{{sfn|Povey|2008|pp=14\u201315}}
+        Povey used the Tea Set throughout whereas Blake''s claim of the alternative
+        spelling, the T-Set, remains unsubstantiated.<ref>{{harvnb|Blake|2008|pp=43\u201344}}:
         The T-Set as an alternate spelling; {{harvnb|Povey|2008|pp=28\u201329}}: The
         Tea Set used throughout.</ref>}} In 1964, as Metcalfe and Noble left to form
         their own band, guitarist [[Syd Barrett]] joined Klose and Waters at Stanhope
@@ -250,45 +255,45 @@ http_interactions:
         introduce himself to me.\"{{sfn|Mason|2005|p=27}}\n\nNoble and Metcalfe left
         the Tea Set in late 1963, and Klose introduced the band to singer Chris Dennis,
         a technician with the [[Royal Air Force]] (RAF).{{sfn|Blake|2008|pp=42\u201344}}
-        In December 1964, they managed to secure their first recording time, at a
-        studio in West Hampstead, through one of Wright''s friends, who let them use
-        some down time for free. Wright, who was taking a break from his studies,
-        did not participate in the session.{{sfn|Mason|2005|pp=29\u201330}}{{refn|group=nb|The
-        four-song session became the band''s first demo and included the R&B classic
-        \"[[I''m a King Bee]]\", and three Syd Barrett originals, \"Butterfly\", \"Lucy
-        Leave\" and \"Double O Bo\", a song Mason described as \"Bo Diddley meets
-        the 007 theme\".{{sfn|Mason|2005|pp=29\u201330}}}} When the RAF assigned Dennis
-        a post in Bahrain in early 1965, Barrett became the band''s frontman.{{sfn|Povey|2008|p=19}}{{refn|group=nb|According
+        In December 1964, they secured their first recording time, at a studio in
+        West Hampstead, through one of Wright''s friends, who let them use some down
+        time free. Wright, who was taking a break from his studies, did not participate
+        in the session.{{sfn|Mason|2005|pp=29\u201330}}{{refn|group=nb|The four-song
+        session became the band''s first demo and included the R&B classic \"[[I''m
+        a King Bee]]\", and three Syd Barrett originals, \"Butterfly\", \"Lucy Leave\"
+        and \"Double O Bo\", a song Mason described as \"Bo Diddley meets the 007
+        theme\".{{sfn|Mason|2005|pp=29\u201330}}}} When the RAF assigned Dennis a
+        post in Bahrain in early 1965, Barrett became the band''s frontman.{{sfn|Povey|2008|p=19}}{{refn|group=nb|According
         to Povey, by 1964 the group began calling itself the Abdabs.{{sfn|Povey|2008|p=14}}}}
-        Later that year, they became the resident band at the Countdown Club, near
+        Later that year, they became the resident band at the Countdown Club near
         [[Kensington High Street]] in London, where from late night until early morning
-        they played three sets of ninety minutes each. During this period, spurred
-        by the group''s need to extend their sets in order to minimise song repetition,
-        came the band''s \"realisation that songs could be extended with lengthy solos\",
-        wrote Mason.{{sfn|Mason|2005|p=30}} After pressure from his parents and advice
-        from his college tutors, Klose quit the band in mid-1965 and Barrett took
-        over on lead guitar.<ref>{{harvnb|Blake|2008|pp=44\u201345}}: Klose quit the
-        band in mid 1965 and Barrett took over on lead guitar (secondary source);
-        {{harvnb|Mason|2005|p=32}}: Klose quit the band in mid 1965 (primary source).</ref>
-        The group first referred to themselves as the Pink Floyd Sound in late 1965.
-        Barrett created the name on the spur of the moment when he discovered that
-        another band, also called the Tea Set, were to perform at one of their gigs.{{sfn|Povey|2008|pp=18\u201319}}
+        they played three sets of 90 minutes each. During this period, spurred by
+        the group''s need to extend their sets in order to minimise song repetition,
+        the band realised that \"songs could be extended with lengthy solos\", wrote
+        Mason.{{sfn|Mason|2005|p=30}} After pressure from his parents and advice from
+        his college tutors, Klose quit the band in mid-1965 and Barrett took over
+        lead guitar.<ref>{{harvnb|Blake|2008|pp=44\u201345}}: Klose quit the band
+        in mid 1965 and Barrett took over on lead guitar (secondary source); {{harvnb|Mason|2005|p=32}}:
+        Klose quit the band in mid 1965 (primary source).</ref> The group first referred
+        to themselves as the Pink Floyd Sound in late 1965. Barrett created the name
+        on the spur of the moment when he discovered that another band, also called
+        the Tea Set, were to perform at one of their gigs.{{sfn|Povey|2008|pp=18\u201319}}
         The name is derived from the given names of two [[blues]] musicians whose
         [[Piedmont blues]] records Barrett had in his collection, [[Pink Anderson]]
         and [[Floyd Council]].<ref>{{harvnb|Mason|2005|pp=33\u201337}}: The origin
         of the band name Pink Floyd (primary source); {{harvnb|Povey|2008|pp=18\u201319}}:
         The origin of the band name Pink Floyd (secondary source).</ref>\n\nBy 1966,
         the group''s repertoire consisted mainly of [[rhythm and blues]] songs and
-        they had begun to receive paid bookings, including one for a performance at
-        the [[Marquee Club]] in March 1966, where [[Peter Jenner]] noticed them. A
-        lecturer at the [[London School of Economics]], Jenner was impressed by the
-        sonic effects Barrett and Wright created, and with his business partner and
-        friend [[Andrew King (music manager)|Andrew King]], he became their manager.<ref>{{harvnb|Mason|2005|pp=33\u201337}}:
+        they had begun to receive paid bookings, including a performance at the [[Marquee
+        Club]] in March 1966, where [[Peter Jenner]], a lecturer at the [[London School
+        of Economics]], noticed them. Jenner was impressed by the sonic effects Barrett
+        and Wright created, and with his business partner and friend [[Andrew King
+        (music manager)|Andrew King]] became their manager.<ref>{{harvnb|Mason|2005|pp=33\u201337}}:
         Jenner was impressed by Barrett and Wright; {{harvnb|Schaffner|1991|p=17}}:
         Jenner and King became Pink Floyd''s business managers.</ref> The pair had
-        little experience in the [[music industry]] and used King''s inherited money
-        to set up [[Blackhill Enterprises]], purchasing about \u00a31,000 worth of
-        new instruments and equipment for the band. It was around this time that Jenner
+        little experience in the [[music industry]] and used King''s inheritance to
+        set up [[Blackhill Enterprises]], purchasing about \u00a31,000 worth of new
+        instruments and equipment for the band. It was around this time that Jenner
         suggested they drop the \"Sound\" part of their band name, thus becoming the
         Pink Floyd.{{sfn|Schaffner|1991|pp=32\u201333}}{{refn|group=nb|Soon after,
         someone stole the equipment, and the group resorted to purchasing new gear
@@ -296,68 +301,67 @@ http_interactions:
         the group became part of London''s [[underground music]] scene, playing at
         venues including All Saints Hall and the Marquee.{{sfn|Mason|2005|pp=50\u201351}}
         While performing at the Countdown Club, the band had experimented with long
-        instrumental excursions, and they began to expand upon these with rudimentary
-        but visually effective light shows, projected by coloured slides and domestic
-        lights.<ref>{{harvnb|Mason|2005|pp=46\u201349}}: (primary source); {{harvnb|Schaffner|1991|p=34}}:
-        (secondary source).</ref> Jenner and King''s social connections helped gain
-        the band prominent coverage in the ''''[[Financial Times]]'''' and an article
-        in ''''[[The Sunday Times]]'''' which stated: \"At the launching of the new
-        magazine ''''[[International Times|IT]]'''' the other night a pop group called
-        the Pink Floyd played throbbing music while a series of bizarre coloured shapes
-        flashed on a huge screen behind them&nbsp;... apparently very psychedelic\".<ref>{{harvnb|Mason|2005|pp=52\u201353}}:
+        instrumental excursions, and they began to expand them with rudimentary but
+        effective light shows, projected by coloured slides and domestic lights.<ref>{{harvnb|Mason|2005|pp=46\u201349}}:
+        (primary source); {{harvnb|Schaffner|1991|p=34}}: (secondary source).</ref>
+        Jenner and King''s social connections helped gain the band prominent coverage
+        in the ''''[[Financial Times]]'''' and an article in the ''''[[The Sunday
+        Times|Sunday Times]]'''' which stated: \"At the launching of the new magazine
+        ''''[[International Times|IT]]'''' the other night a pop group called the
+        Pink Floyd played throbbing music while a series of bizarre coloured shapes
+        flashed on a huge screen behind them&nbsp;... apparently very psychedelic.\"<ref>{{harvnb|Mason|2005|pp=52\u201353}}:
         Jenner and King''s connections helped gain the band important coverage; {{harvnb|Schaffner|1991|p=44}}:
-        \"apparently very psychedelic\"</ref>\n\nIn 1966, they strengthened their
+        \"apparently very psychedelic\"</ref>\n\nIn 1966, the band strengthened their
         business relationship with Blackhill Enterprises, becoming equal partners
         with Jenner and King and the band members each holding a one-sixth share.{{sfn|Schaffner|1991|pp=32\u201333}}
         By late 1966, their set included fewer R&B standards and more Barrett originals,
         many of which would be included on their first album.{{sfn|Mason|2005|p=49}}
         While they had significantly increased the frequency of their performances,
-        the band were not widely accepted at the time. Following a performance at
-        a Catholic youth club, the owner refused to pay them, claiming that their
-        performance wasn''t music.{{sfn|Mason|2005|p=54}} When their management filed
-        suit in a small claims court against the owner of the youth organisation,
-        a local magistrate upheld the owner''s decision. However, they were much better
-        received at the [[UFO Club]] in London, where a small fan base began to build
-        up around the band.{{sfn|Mason|2005|pp=54\u201358}} Barrett''s performances
-        were enthusiastic, \"leaping around&nbsp;... madness&nbsp;... improvisation&nbsp;...
-        [inspired] to get past his limitations and into areas that were&nbsp;... very
-        interesting. Which none of the others could do\", wrote biographer [[Nicholas
-        Schaffner]].{{sfn|Schaffner|1991|p=49}}\n\n=== Signing with EMI ===\n\nIn
-        1967, Pink Floyd began to attract the attention of the mainstream music industry.<ref>{{harvnb|di
-        Perna|2002|p=29}}: Pink Floyd as a spack rock band; {{harvnb|Povey|2008|p=37}}:
-        The music industry began to take notice of Pink Floyd.</ref>{{refn|group=nb|They
-        dropped the definite article from the band''s name at some point in early
-        1967.{{sfn|Blake|2008|p=79}}}} While in negotiations with record companies,
-        ''''IT'''' co-founder and UFO club manager [[Joe Boyd]] and Pink Floyd''s
-        booking agent [[Bryan Morrison]] arranged for and funded the recording of
-        some songs at Sound Techniques in [[West Hampstead]]. Included were the standout
-        track \"[[Arnold Layne]]\" and \"[[Candy and a Currant Bun]]\" as its B-side,
-        both of which they recorded on 29 January 1967.{{sfn|Povey|2008|p=37}}{{refn|group=nb|Previous
-        to this session, on 11 and 12 January, they recorded a long take of \"[[Interstellar
-        Overdrive]]\".{{sfn|Povey|2008|p=37}} Sometime around the sessions on 29 January,
-        they produced a short music film for \"Arnold Layne\" in Sussex.{{sfn|Mason|2005|pp=59\u201363}}}}
-        Three days later Pink Floyd signed with EMI, receiving a \u00a35,000 advance.
-        EMI released the band''s first single, \"Arnold Layne\", on 10 March 1967,
-        on its [[Columbia Graphophone Company|Columbia]] label.<ref>{{harvnb|Povey|2008|p=342}}:
-        Release date for \"Arnold Layne\"; {{harvnb|Schaffner|1991|pp=54\u201355}}:
-        Signing with EMI.</ref>{{refn|group=nb|Shaffner described the \u00a35,000
-        advance as generous; however, Povey suggested it was an inadequate agreement
-        which required that the money be disbursed over five years.{{sfn|Povey|2008|p=37}}}}
-        The song''s references to [[cross-dressing]] led to a ban by several radio
-        stations; however, some creative manipulation by the retailers who supplied
-        sales figures to the music business meant that the single peaked in the UK
-        at number&nbsp;20.{{sfn|Mason|2005|pp=84\u201385}}\n\nEMI-Columbia released
-        Pink Floyd''s second single, \"[[See Emily Play]]\", on 16 June 1967. It fared
-        slightly better than \"Arnold Layne\", peaking at number&nbsp;6 in the UK.{{sfn|Povey|2008|p=342}}
-        They performed on the BBC''s ''''Look of the Week'''', where Waters and Barrett,
-        erudite and engaging, faced tough questioning from [[Hans Keller]].{{sfn|Blake|2008|pp=86\u201387}}
-        They appeared on the BBC''s ''''[[Top of the Pops]]'''', an immensely popular
-        programme that controversially required artists to mime their singing and
-        playing.{{sfn|Mason|2005|pp=86\u201387}} Though Pink Floyd returned for two
-        more performances, by the third, Barrett had begun to unravel, and it was
-        around this time that the band first noticed significant changes in his behaviour.{{sfn|Povey|2008|p=43}}
-        By early 1967, he was regularly using [[lysergic acid diethylamide|LSD]],
-        and Mason described him as \"completely distanced from everything going on\".<ref>{{harvnb|Mason|2005|p=82}}:
+        the band were still not widely accepted. Following a performance at a Catholic
+        youth club, the owner refused to pay them, claiming that their performance
+        was not music.{{sfn|Mason|2005|p=54}} When their management filed suit in
+        a small claims court against the owner of the youth organisation, a local
+        magistrate upheld the owner''s decision. The band was much better received
+        at the [[UFO Club]] in London, where they began to build a fan base.{{sfn|Mason|2005|pp=54\u201358}}
+        Barrett''s performances were enthusiastic, \"leaping around&nbsp;... madness&nbsp;...
+        improvisation&nbsp;... [inspired] to get past his limitations and into areas
+        that were&nbsp;... very interesting. Which none of the others could do\",
+        wrote biographer [[Nicholas Schaffner]].{{sfn|Schaffner|1991|p=49}}\n\n===
+        Signing with EMI ===\n\nIn 1967, Pink Floyd began to attract the attention
+        of the mainstream music industry.<ref>{{harvnb|di Perna|2002|p=29}}: Pink
+        Floyd as a spack rock band; {{harvnb|Povey|2008|p=37}}: The music industry
+        began to take notice of Pink Floyd.</ref>{{refn|group=nb|They dropped the
+        definite article from the band''s name at some point in early 1967.{{sfn|Blake|2008|p=79}}}}
+        While in negotiations with record companies, ''''IT'''' co-founder and UFO
+        club manager [[Joe Boyd]] and Pink Floyd''s booking agent [[Bryan Morrison]]
+        arranged and funded a recording session at Sound Techniques in [[West Hampstead]].
+        Three days later, Pink Floyd signed with EMI, receiving a \u00a35,000 advance.
+        EMI released the band''s first single, \"[[Arnold Layne]]\", with the B-side
+        \"[[Candy and a Currant Bun]]\", on 10 March 1967 on its [[Columbia Graphophone
+        Company|Columbia]] label.<ref>{{harvnb|Povey|2008|p=342}}: Release date for
+        \"Arnold Layne\"; {{harvnb|Schaffner|1991|pp=54\u201355}}: Signing with EMI.</ref>{{refn|group=nb|Shaffner
+        described the \u00a35,000 advance as generous; however, Povey suggested it
+        was an inadequate agreement which required that the money be disbursed over
+        five years.{{sfn|Povey|2008|p=37}}}} Both tracks were recorded on 29 January
+        1967.{{sfn|Povey|2008|p=37}}{{refn|group=nb|Previous to this session, on 11
+        and 12 January, they recorded a long take of \"[[Interstellar Overdrive]]\".{{sfn|Povey|2008|p=37}}
+        Sometime around the sessions on 29 January, they produced a short music film
+        for \"Arnold Layne\" in Sussex.{{sfn|Mason|2005|pp=59\u201363}}}} \"Arnold
+        Layne\"''s references to [[cross-dressing]] led to a ban by several radio
+        stations; however, creative manipulation by the retailers who supplied sales
+        figures to the music business meant that the single peaked in the UK at number&nbsp;20.{{sfn|Mason|2005|pp=84\u201385}}\n\nEMI-Columbia
+        released Pink Floyd''s second single, \"[[See Emily Play]]\", on 16 June 1967.
+        It fared slightly better than \"Arnold Layne\", peaking at number&nbsp;6 in
+        the UK.{{sfn|Povey|2008|p=342}} The band performed on the BBC''s ''''Look
+        of the Week'''', where Waters and Barrett, erudite and engaging, faced tough
+        questioning from [[Hans Keller]].{{sfn|Blake|2008|pp=86\u201387}} They appeared
+        on the BBC''s ''''[[Top of the Pops]]'''', a popular programme that controversially
+        required artists to mime their singing and playing.{{sfn|Mason|2005|pp=86\u201387}}
+        Though Pink Floyd returned for two more performances, by the third, Barrett
+        had begun to unravel, and it was around this time that the band first noticed
+        significant changes in his behaviour.{{sfn|Povey|2008|p=43}} By early 1967,
+        he was regularly using [[lysergic acid diethylamide|LSD]], and Mason described
+        him as \"completely distanced from everything going on\".<ref>{{harvnb|Mason|2005|p=82}}:
         Barrett was \"completely distanced from everything going on\"; {{harvnb|Schaffner|1991|p=51}}:
         Barrett''s increasing LSD use starting early 1967.</ref>\n\n=== ''''The Piper
         at the Gates of Dawn'''' ===\n{{Main|The Piper at the Gates of Dawn}}\n\nMorrison
@@ -681,7 +685,7 @@ http_interactions:
         found it difficult to compose new material; the success of ''''The Dark Side
         of the Moon'''' had left Pink Floyd physically and emotionally drained. Wright
         later described these early sessions as \"falling within a difficult period\"
-        and Waters found them \"torturous\".{{sfn|Schaffner|1991|pp=184\u2013185}}
+        and Waters found them \"tortuous\".{{sfn|Schaffner|1991|pp=184\u2013185}}
         Gilmour was more interested in improving the band''s existing material. Mason''s
         failing marriage left him in a general malaise and with a sense of apathy,
         both of which interfered with his drumming.{{sfn|Schaffner|1991|pp=184\u2013185}}\n\nDespite
@@ -819,7 +823,7 @@ http_interactions:
         the recording of ''''The Wall'''', Waters, Gilmour and Mason became increasingly
         dissatisfied with Wright''s lack of contribution to the album.{{sfn|Simmons|1999|pp=
         76\u201395}} Gilmour said that Wright \"hadn''t contributed anything of any
-        value whatsoever to the album\u2014he did very, very little\" and that is
+        value whatsoever to the album\u2014he did very, very little\" and this was
         why he \"got the boot\".<ref>{{harvnb|Schaffner|1991|p=219}}: That''s why
         Wright \"got the boot\"; {{harvnb|Simmons|1999|pp= 86\u201388}}: Wright, \"hadn''t
         contributed anything of any value\".</ref> According to Mason, \"Rick''s contribution
@@ -834,10 +838,10 @@ http_interactions:
         Wright''s name did not appear on the album, 285\u2013286: Wright as a paid
         musician during the tour}} Toward the end of ''''The Wall'''' sessions, Mason
         left the final mix to Waters, Gilmour, Ezrin and Guthrie, travelling to New
-        York to record his debut solo album, ''''[[Nick Mason''s Fictitious Sports]]''''.{{sfn|Mason|2005|p=249}}}}\n\nAlthough
-        Pink Floyd had not released a single since 1973''s \"Money\", \"[[Another
-        Brick in the Wall, Part II|Another Brick in the Wall (Part II)]]\" supported
-        the album, topping the charts in the US and the UK.<ref>{{harvnb|Bronson|1992|p=523}}:
+        York to record his debut solo album, ''''[[Nick Mason''s Fictitious Sports]]''''.{{sfn|Mason|2005|p=249}}}}\n\nThe
+        album was supported by \"[[Another Brick in the Wall, Part II|Another Brick
+        in the Wall (Part II)]]\", Pink Floyd''s first single since \"Money\", and
+        topped the charts in the US and the UK.<ref>{{harvnb|Bronson|1992|p=523}}:
         Peak US chart position for \"Another Brick in the Wall (Part II)\"; {{harvnb|Roberts|2005|p=391}}:
         Peak UK chart position for \"Another Brick in the Wall (Part II)\".</ref>
         Released on 30 November 1979, ''''The Wall'''' topped the ''''Billboard''''
@@ -881,19 +885,18 @@ http_interactions:
         in the UK in July 1982.{{sfn|Povey|2008|p=229}}{{refn|group=nb|Pink Floyd
         created a modified soundtrack for some of the film''s songs.{{sfn|Blake|2008|pp=288\u2013292}}}}\n\n===
         ''''The Final Cut'''' ===\n{{Main|The Final Cut (album)}}\nIn 1982, Waters
-        suggested a new musical project for the band, with the working title ''''Spare
-        Bricks'''', originally conceived as the soundtrack album for ''''Pink Floyd
-        \u2013 The Wall''''; however, with the onset of the [[Falklands War]], Waters
-        changed artistic direction and began writing new material. Waters saw [[Margaret
-        Thatcher]]''s response to the invasion of the Falklands as jingoistic and
-        unnecessary, and he dedicated the new album to his late father. Immediately
-        there were arguments between Waters and Gilmour, who felt that the album should
-        include all new material, rather than recycling a number of songs passed over
-        for ''''The Wall''''. Waters felt that Gilmour had contributed little to the
-        band''s lyrical repertoire.{{sfn|Blake|2008|pp=294\u2013295}} [[Michael Kamen]],
-        a contributor to the orchestral arrangements of ''''The Wall'''', mediated
-        between the two, also performing the role traditionally occupied by the then
-        absent Wright.{{sfn|Blake|2008|pp=296\u2013298}}{{refn|group=nb|Recording
+        suggested a new musical project with the working title ''''Spare Bricks'''',
+        originally conceived as the soundtrack album for ''''Pink Floyd \u2013 The
+        Wall.'''' With the onset of the [[Falklands War]], Waters changed direction
+        and began writing new material. He saw [[Margaret Thatcher]]''s response to
+        the invasion of the Falklands as [[Jingoism|jingoistic]] and unnecessary,
+        and dedicated the album to his late father. Immediately arguments arose between
+        Waters and Gilmour, who felt that the album should include all new material,
+        rather than recycle songs passed over for ''''The Wall''''. Waters felt that
+        Gilmour had contributed little to the band''s lyrical repertoire.{{sfn|Blake|2008|pp=294\u2013295}}
+        [[Michael Kamen]], a contributor to the orchestral arrangements of ''''The
+        Wall'''', mediated between the two, also performing the role traditionally
+        occupied by the then-absent Wright.{{sfn|Blake|2008|pp=296\u2013298}}{{refn|group=nb|Recording
         took place in eight studios, including Gilmour''s home studio at [[Outside
         Studios|Hookend Manor]] and Waters'' home studio at [[East Sheen]].<ref>{{harvnb|Blake|2008|pp=296\u2013298}}:
         (secondary source); {{harvnb|Mason|2005|p=268}}: (primary source)</ref>}}
@@ -919,7 +922,7 @@ http_interactions:
         (secondary source); {{harvnb|Mason|2005|p=265}}: (primary source).</ref> Gilmour
         did not have any material ready for the album and asked Waters to delay the
         recording until he could write some songs, but Waters refused.{{sfn|Blake|2008|p=295}}
-        Gilmour later commented, \"I''m certainly guilty at times of being lazy&nbsp;...
+        Gilmour later commented: \"I''m certainly guilty at times of being lazy&nbsp;...
         but he wasn''t right about wanting to put some duff tracks on ''''The Final
         Cut''''.\"{{sfn|Blake|2008|p=295}}{{refn|group=nb|Though Gilmour''s name did
         not appear on the production credits, he retained his pay as musician and
@@ -934,24 +937,24 @@ http_interactions:
         Loder |first= Kurt |title= Pink Floyd\u2014The Final Cut |url= http://www.rollingstone.com/music/albumreviews/the-final-cut-19830414
         |archiveurl= https://web.archive.org/web/20080622041133/http://www.rollingstone.com/artists/pinkfloyd/albums/album/107472/review/5943392/the_final_cut
         |archivedate= 22 June 2008 |work= [[Rolling Stone]] |date= 14 April 1983 |accessdate=4
-        September 2009 }}</ref>\n\n=== \"A spent force\" and Waters'' departure ===\nGilmour
-        had recorded his second solo album, ''''[[About Face (album)|About Face]]'''',
-        in 1984, and he used it to express his feelings about a variety of topics;
-        from the murder of [[John Lennon]] to his relationship with Waters. He later
-        stated that he used the album to distance himself from Pink Floyd. Soon afterwards,
-        Waters began touring his first solo album, ''''The Pros and Cons of Hitch
-        Hiking''''.{{sfn|Blake|2008|pp=302\u2013309}} Wright formed Zee with Dave
-        Harris and recorded ''''[[Identity (Zee album)|Identity]]'''', which went
-        almost unnoticed upon its release.{{sfn|Blake|2008|pp=309\u2013311}}{{refn|group=nb|Wright
+        September 2009 }}</ref>\n\n=== \"A spent force\", Waters'' departure and legal
+        battles ===\nGilmour had recorded his second solo album, ''''[[About Face
+        (album)|About Face]]'''', in 1984, and he used it to express his feelings
+        about a variety of topics, from the murder of [[John Lennon]] to his relationship
+        with Waters. He later stated that he used the album to distance himself from
+        Pink Floyd. Soon afterwards, Waters began touring his first solo album, ''''[[The
+        Pros and Cons of Hitch Hiking]]''''.{{sfn|Blake|2008|pp=302\u2013309}} Wright
+        formed Zee with Dave Harris and recorded ''''[[Identity (Zee album)|Identity]]'''',
+        which went almost unnoticed upon its release.{{sfn|Blake|2008|pp=309\u2013311}}{{refn|group=nb|Wright
         was also in the midst of a difficult divorce and later said that the album
         was, \"made at a time in my life when I was lost.\"{{sfn|Blake|2008|pp=309\u2013311}}}}
         Mason released his second solo album, ''''[[Profiles]]'''', in August 1985.{{sfn|Blake|2008|pp=311\u2013313}}\n\nFollowing
         the release of ''''The Pros and Cons of Hitch Hiking'''', Waters publicly
         insisted that Pink Floyd would not reunite. He contacted O''Rourke to discuss
         settling future royalty payments. O''Rourke felt obliged to inform Mason and
-        Gilmour, and this angered Waters, who wanted to dismiss him as the band''s
-        manager. Waters terminated his management contract with O''Rourke and employed
-        Peter Rudge to manage his affairs.{{sfn|Blake|2008|pp=311\u2013313}}{{refn|group=nb|Waters
+        Gilmour, which angered Waters, who wanted to dismiss him as the band''s manager.
+        He terminated his management contract with O''Rourke and employed Peter Rudge
+        to manage his affairs.{{sfn|Blake|2008|pp=311\u2013313}}{{refn|group=nb|Waters
         went on to record the soundtrack for ''''[[When the Wind Blows (1986 film)|When
         the Wind Blows]]'''', as well as his second solo album, ''''[[Radio K.A.O.S.]]''''.{{sfn|Schaffner|1991|pp=263\u2013266}}}}
         Waters wrote to [[EMI]] and [[Columbia Records|Columbia]] announcing he had
@@ -960,8 +963,8 @@ http_interactions:
         later stated that, by not making new albums, Pink Floyd would be in breach
         of contract\u2014which would suggest that royalty payments would be suspended\u2014and
         that the other band members had forced him from the group by threatening to
-        sue him. Waters then went to the [[High Court of Justice|High Court]] in an
-        effort to dissolve the band and prevent the use of the Pink Floyd name, declaring
+        sue him. He then went to the [[High Court of Justice|High Court]] in an effort
+        to dissolve the band and prevent the use of the Pink Floyd name, declaring
         Pink Floyd \"a spent force creatively.\"<ref>{{harvnb|Blake|2008|pp=311\u2013313}}:
         O''Rourke''s involvement in the settlement; {{harvnb|Povey|2008|p=240}}: \"a
         spent force\".</ref> When his lawyers discovered that the partnership had
@@ -969,9 +972,12 @@ http_interactions:
         to obtain a veto over further use of the band''s name. Gilmour responded by
         issuing a carefully worded press release affirming that Pink Floyd would continue
         to exist. He later told ''''The Sunday Times'''': \"Roger is a dog in the
-        manger and I''m going to fight him\".{{sfn|Schaffner|1991|p=271}}\n\n== 1986\u201395:
-        Gilmour-led era ==\n\n=== ''''A Momentary Lapse of Reason'''' ===\n{{Main|A
-        Momentary Lapse of Reason}}\n[[File:Astoria (P\u00e9niche).jpg|right|thumb|The
+        manger and I''m going to fight him\".{{sfn|Schaffner|1991|p=271}} In 2013,
+        Waters stated that he regretted the lawsuit, saying: \"I was wrong. Of course
+        I was.\"<ref>{{Cite web|url=http://www.bbc.com/news/entertainment-arts-24160584|title=Pink
+        Floyd star Roger Waters regrets suing band - BBC News|website=BBC News|language=en-GB|access-date=2016-03-10}}</ref>\n\n==
+        1986\u201395: Gilmour-led era ==\n\n=== ''''A Momentary Lapse of Reason''''
+        ===\n{{Main|A Momentary Lapse of Reason}}\n[[File:Astoria (P\u00e9niche).jpg|right|thumb|The
         ''''[[Astoria (recording studio)|Astoria]]'''' recording studio|alt=A colour
         image Gilmour''s houseboat and studio the Astoria, anchored in a river. The
         background is green forest and it is a bright sunny day.]]\nIn 1987, Gilmour
@@ -979,10 +985,10 @@ http_interactions:
         without Waters, ''''[[A Momentary Lapse of Reason]]''''.{{sfn|Schaffner|1991|pp=264\u2013268}}{{refn|group=nb|Artists
         such as [[Jon Carin]] and [[Phil Manzanera]] worked on the album, joined by
         Bob Ezrin.{{sfn|Schaffner|1991|pp=264\u2013268}}}} There were legal obstacles
-        to Wright''s readmittance to the band; however, after a meeting in Hampstead
+        to Wright''s re-admittance to the band; however, after a meeting in Hampstead
         Pink Floyd invited Wright to participate in the coming sessions.{{sfn|Blake|2008|pp=316\u2013317}}
-        Gilmour later stated that Wright''s presence, \"would make us stronger legally
-        and musically\"; Pink Floyd employed him as a paid musician with weekly earnings
+        Gilmour later stated that Wright''s presence \"would make us stronger legally
+        and musically\"; Pink Floyd employed him as a musician with weekly earnings
         of $11,000.<ref>{{harvnb|Manning|2006|p=134}}: Pink Floyd employed Wright
         as a paid musician with weekly earnings of $11,000; {{harvnb|Schaffner|1991|p=269}}:
         \"would make us stronger legally and musically\".</ref> Recording sessions
@@ -993,19 +999,19 @@ http_interactions:
         McGough]], eventually choosing [[Anthony Moore]] to write the album''s lyrics.{{sfn|Mason|2005|pp=284\u2013285}}
         Gilmour would later admit that the project was difficult without Waters''
         creative direction.{{sfn|Blake|2008|p=320}} Mason, concerned that he was too
-        out of practice to perform on the album, made use of session musicians to
+        out-of-practice to perform on the album, made use of session musicians to
         complete many of the drum parts. He instead busied himself with the album''s
         sound effects.{{sfn|Mason|2005|p=287}}{{refn|group=nb|In a departure from
         previous Pink Floyd albums, they recorded ''''A Momentary Lapse of Reason''''
         using a 32-channel Mitsubishi digital recorder using [[MIDI]] synchronisation
         with the aid of an [[Macintosh|Apple Macintosh]] computer.<ref>{{harvnb|Mason|2005|p=287}}:
         (primary sources); {{harvnb|Schaffner|1991|pp=268\u2013269}}: (secondary source).</ref>
-        Recording later moved to [[Mayfair Studios]] and then to Los Angeles.{{sfn|Blake|2008|p=321}}}}\n\nThe
-        album was released in September 1987. Storm Thorgerson, whose creative input
-        was absent from ''''The Wall'''' and ''''The Final Cut'''', designed the album
-        cover.{{sfn|Schaffner|1991|p=273}} In order to drive home the point that Waters
-        had left the band, they included a group photograph on the inside cover, the
-        first since ''''Meddle''''.{{sfn|Blake|2008|p=166}}{{refn|group=nb|Wright''s
+        Recording later moved to [[Mayfair Studios]] and then to Los Angeles.{{sfn|Blake|2008|p=321}}}}\n\n''''A
+        Momentary Lapse of Reason'''' was released in September 1987. Storm Thorgerson,
+        whose creative input was absent from ''''The Wall'''' and ''''The Final Cut'''',
+        designed the album cover.{{sfn|Schaffner|1991|p=273}} In order to drive home
+        the point that Waters had left the band, they included a group photograph
+        on the inside cover, the first since ''''Meddle''''.{{sfn|Blake|2008|p=166}}{{refn|group=nb|Wright''s
         name appears only on the credit list.{{sfn|Blake|2008|p=366}}}} The album
         went straight to number three in the UK and the US.{{sfn|Povey|2008|p=349}}
         Waters commented: \"I think it''s facile, but a quite clever forgery&nbsp;...
@@ -1041,18 +1047,18 @@ http_interactions:
         divorced his wife Ginger and Mason married actress Annette Lynton.{{sfn|Blake|2008|p=352}}}}
         In January 1993, they began working on a new album, returning to Britannia
         Row Studios, where for several days, Gilmour, Mason and Wright worked collaboratively,
-        ad-libbing material. After about two weeks, the band had enough ideas to begin
-        creating songs. Ezrin returned to co-produce the album and production moved
-        to the Astoria, where from February to May 1993, they worked on about twenty-five
-        ideas.{{sfn|Mason|2005|pp=314\u2013321}}\n\nContractually, Wright was not
-        a member of the band; he commented: \"It came close to a point where I wasn''t
-        going to do the album\".{{sfn|Blake|2008|p=355}} However, he earned five co-writing
+        improvising material. After about two weeks, the band had enough ideas to
+        begin creating songs. Ezrin returned to co-produce the album and production
+        moved to the Astoria, where from February to May 1993, they worked on about
+        25 ideas.{{sfn|Mason|2005|pp=314\u2013321}}\n\nContractually, Wright was not
+        a member of the band, and said \"It came close to a point where I wasn''t
+        going to do the album.\"{{sfn|Blake|2008|p=355}} However, he earned five co-writing
         credits on the album, his first on a Pink Floyd album since 1975''s ''''Wish
         You Were Here''''.{{sfn|Blake|2008|p=355}} Another songwriter credited on
         the album was Gilmour''s future wife, [[Polly Samson]]. She helped him write
         several tracks, including, \"[[High Hopes (Pink Floyd song)|High Hopes]]\",
         a collaborative arrangement which, though initially tense, \"pulled the whole
-        album together\" commented Ezrin.{{sfn|Blake|2008|p=356}} They hired Michael
+        album together,\" according to Ezrin.{{sfn|Blake|2008|p=356}} They hired Michael
         Kamen to arrange the album''s orchestral parts; [[Dick Parry]] and Chris Thomas
         also returned.<ref>{{harvnb|Blake|2008|pp=356\u2013357}}: (secondary source);
         {{harvnb|Mason|2005|pp=314\u2013321}}: (primary source).</ref> Writer [[Douglas
@@ -1217,8 +1223,8 @@ http_interactions:
         and EMI launched an exhaustive re-release campaign under the title [[Why Pink
         Floyd...?]], reissuing the band''s back catalogue in newly [[Audio mastering|remastered]]
         versions, including \"Experience\" and \"Immersion\" multi-disc multi-format
-        editions. [[James Guthrie (record producer)|James Guthrie]], co-producer of
-        ''''The Wall'''', remastered the albums.<ref>{{cite web|url=http://www.whypinkfloyd.com/
+        editions. The albums were remastered by [[James Guthrie (record producer)|James
+        Guthrie]], co-producer of ''''The Wall''''.<ref>{{cite web|url=http://www.whypinkfloyd.com/
         |title=Why Pink Floyd?, Pink Floyd & EMI 2011 remastered campaign |publisher=Whypinkfloyd.com
         |year=2011 |accessdate=27 May 2011}}</ref> In November 2015, Pink Floyd released
         a limited edition EP, ''''[[1965: Their First Recordings]]'''', comprising
@@ -1729,33 +1735,32 @@ http_interactions:
         of the [[Monty Python]] comedy group, and helped finance their 1975 film ''''[[Monty
         Python and the Holy Grail]]''''.<ref>{{cite web|url=http://articles.chicagotribune.com/2009-05-06/entertainment/0905050391_1_holy-grail-monty-python-john-goldstone|title=Cue
         the coconuts: ''Holy Grail'' gallops on|accessdate=30 November 2014}}</ref>\n\n==
-        Members ==\n{{Main|List of Pink Floyd band members}}\n*[[Roger Waters]] \u2013
+        Members ==\n{{Main|List of Pink Floyd band members}}\n*[[Roger Waters]]&nbsp;\u2013
         co-lead vocals, bass guitar, occasional rhythm guitar (1965\u20131985, 2005)\n*[[David
-        Gilmour]] \u2013 co-lead vocals, lead and rhythm guitar, occasional bass guitar
-        (1967\u20131995, 2005, 2014)\n*[[Richard Wright (musician)|Richard Wright]]
-        \u2013 co-lead vocals, keyboards, synthesizers, piano, occasional rhythm guitar
-        (1965\u20131979, 1987\u20131995, 2005, died 2008)\n*[[Nick Mason]] \u2013
-        drums, percussion, keyboards, piano (1965\u20131994, 2005, 2014)\n*[[Syd Barrett]]
-        \u2013 lead vocals, lead and rhythm guitar (1965\u20131968, died 2006)\n\n==
-        Discography ==\n{{Main|Pink Floyd discography}}\n\n;Studio albums\n* ''''[[The
-        Piper at the Gates of Dawn]]'''' (1967)\n* ''''[[A Saucerful of Secrets]]''''
-        (1968)\n* ''''[[More (soundtrack)|More]]'''' (1969)\n* ''''[[Ummagumma]]''''
-        (1969)\n* ''''[[Atom Heart Mother]]'''' (1970)\n* ''''[[Meddle]]'''' (1971)\n*
-        ''''[[Obscured by Clouds]]'''' (1972)\n* ''''[[The Dark Side of the Moon]]''''
-        (1973)\n* ''''[[Wish You Were Here (Pink Floyd album)|Wish You Were Here]]''''
-        (1975)\n* ''''[[Animals (Pink Floyd album)|Animals]]'''' (1977)\n* ''''[[The
-        Wall]]'''' (1979)\n* ''''[[The Final Cut (album)|The Final Cut]]'''' (1983)\n*
-        ''''[[A Momentary Lapse of Reason]]'''' (1987)\n* ''''[[The Division Bell]]''''
-        (1994)\n* ''''[[The Endless River]]'''' (2014)\n\n== Tours ==\n{{main|Pink
-        Floyd live performances}}\n* [[Pink Floyd World Tour 1968|Pink Floyd World
-        Tour]] (1968)\n* [[The Man and The Journey Tour]] (1969)\n* [[Atom Heart Mother
-        World Tour]] (1970)\n* [[Meddle Tour]] (1971)\n* [[Dark Side of the Moon Tour]]
-        (1972\u201373)\n* [[Pink Floyd 1974 tours#1974 French Summer Tour|French Summer
-        Tour]] (1974)\n* [[Pink Floyd 1974 tours#1974 British Winter Tour|British
-        Winter Tour]] (1974)\n* [[Wish You Were Here Tour]] (1975)\n* [[In the Flesh
-        Tour]] (1977)\n* [[The Wall Tour]] (1980\u201381)\n* [[A Momentary Lapse of
-        Reason Tour]] (1987\u201390)\n* [[The Division Bell Tour]] (1994)\n\n== See
-        also ==\n*[[List of Pink Floyd band members]]\n{{Wikipedia books|Pink Floyd}}\n{{portal
+        Gilmour]]&nbsp;\u2013 co-lead vocals, lead and rhythm guitar, occasional bass
+        guitar (1967\u20131995, 2005, 2014)\n*[[Richard Wright (musician)|Richard
+        Wright]]&nbsp;\u2013 co-lead vocals, keyboards, synthesizers, piano, occasional
+        rhythm guitar (1965\u20131979, 1987\u20131995, 2005, died 2008)\n*[[Nick Mason]]&nbsp;\u2013
+        drums, percussion, keyboards, piano (1965\u20131994, 2005, 2014)\n*[[Syd Barrett]]&nbsp;\u2013
+        lead vocals, lead and rhythm guitar (1965\u20131968, died 2006)\n\n== Discography
+        ==\n{{Main|Pink Floyd discography}}\n\n;Studio albums\n* ''''[[The Piper at
+        the Gates of Dawn]]'''' (1967)\n* ''''[[A Saucerful of Secrets]]'''' (1968)\n*
+        ''''[[More (soundtrack)|More]]'''' (1969)\n* ''''[[Ummagumma]]'''' (1969)\n*
+        ''''[[Atom Heart Mother]]'''' (1970)\n* ''''[[Meddle]]'''' (1971)\n* ''''[[Obscured
+        by Clouds]]'''' (1972)\n* ''''[[The Dark Side of the Moon]]'''' (1973)\n*
+        ''''[[Wish You Were Here (Pink Floyd album)|Wish You Were Here]]'''' (1975)\n*
+        ''''[[Animals (Pink Floyd album)|Animals]]'''' (1977)\n* ''''[[The Wall]]''''
+        (1979)\n* ''''[[The Final Cut (album)|The Final Cut]]'''' (1983)\n* ''''[[A
+        Momentary Lapse of Reason]]'''' (1987)\n* ''''[[The Division Bell]]'''' (1994)\n*
+        ''''[[The Endless River]]'''' (2014)\n\n== Tours ==\n{{main|Pink Floyd live
+        performances}}\n* [[Pink Floyd World Tour 1968|Pink Floyd World Tour]] (1968)\n*
+        [[The Man and The Journey Tour]] (1969)\n* [[Atom Heart Mother World Tour]]
+        (1970)\n* [[Meddle Tour]] (1971)\n* [[Dark Side of the Moon Tour]] (1972\u201373)\n*
+        [[Pink Floyd 1974 tours#1974 French Summer Tour|French Summer Tour]] (1974)\n*
+        [[Pink Floyd 1974 tours#1974 British Winter Tour|British Winter Tour]] (1974)\n*
+        [[Wish You Were Here Tour]] (1975)\n* [[In the Flesh Tour]] (1977)\n* [[The
+        Wall Tour]] (1980\u201381)\n* [[A Momentary Lapse of Reason Tour]] (1987\u201390)\n*
+        [[The Division Bell Tour]] (1994)\n\n{{Wikipedia books|Pink Floyd}}\n{{portal
         bar|Pink Floyd}}\n\n== Notes ==\n{{Reflist|group=\"nb\"|30em}}\n\n== References
         ==\n{{reflist|30em}}\n\n== Sources ==\n{{Refbegin|30em}}\n* {{cite book|last=Blake|first=Mark|authorlink=Mark
         Blake (writer)|title=Comfortably Numb\u2014The Inside Story of Pink Floyd
@@ -1878,12 +1883,12 @@ http_interactions:
         quintets]]\n[[Category:Musical trios]]\n[[Category:British psychedelic rock
         music groups]]\n[[Category:Rock and Roll Hall of Fame inductees]]\n[[Category:Rock
         music duos]]\n[[Category:Space rock musical groups]]\n[[Category:Counterculture
-        of the 1960s]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2016-02-23T00:01:43Z","lastrevid":706195815,"length":141884,"fullurl":"https://en.wikipedia.org/wiki/Pink_Floyd","editurl":"https://en.wikipedia.org/w/index.php?title=Pink_Floyd&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Pink_Floyd"}}}}'
+        of the 1960s]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2016-03-15T14:43:43Z","lastrevid":710195671,"length":141866,"fullurl":"https://en.wikipedia.org/wiki/Pink_Floyd","editurl":"https://en.wikipedia.org/w/index.php?title=Pink_Floyd&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Pink_Floyd"}}}}'
     http_version: 
-  recorded_at: Fri, 26 Feb 2016 13:10:53 GMT
+  recorded_at: Sat, 19 Mar 2016 00:40:01 GMT
 - request:
     method: get
-    uri: https://query.wikidata.org/sparql?format=json&query=%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20PREFIX%20wikibase:%20%3Chttp://wikiba.se/ontology%23%3E%0A%20%20%20%20%20%20%20%20PREFIX%20wd:%20%3Chttp://www.wikidata.org/entity/%3E%20%0A%20%20%20%20%20%20%20%20PREFIX%20wdt:%20%3Chttp://www.wikidata.org/prop/direct/%3E%0A%20%20%20%20%20%20%20%20PREFIX%20rdfs:%20%3Chttp://www.w3.org/2000/01/rdf-schema%23%3E%0A%20%20%20%20%20%20%20%20PREFIX%20p:%20%3Chttp://www.wikidata.org/prop/%3E%0A%20%20%20%20%20%20%20%20PREFIX%20v:%20%3Chttp://www.wikidata.org/prop/statement/%3E%0A%20%20%20%20%20%20%20%20PREFIX%20schema:%20%3Chttp://schema.org/%3E%0A%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20SELECT%20?id%20?p%20?o%20?oLabel%20%20WHERE%20%7B%0A%20%20%20%20%20%20%20%20%20%20%3Chttps://en.wikipedia.org/wiki/Pink%2520Floyd%3E%20schema:about%20?id%20.%0A%20%20%20%20%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20?id%20?p%20?o%20.%0A%20%20%20%20%20%20%20%20%20%20%20%20FILTER(STRSTARTS(STR(?p),%20%22http://www.wikidata.org/prop/direct/%22))%0A%20%20%20%20%20%20%20%20%20%20%7D%20union%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20?id%20?p%20?o%20.%0A%20%20%20%20%20%20%20%20%20%20%20%20filter(langMatches(lang(?o),%20%22EN%22)).%0A%20%20%20%20%20%20%20%20%20%20%20%20filter(?p%20=%20rdfs:label)%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20SERVICE%20wikibase:label%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20bd:serviceParam%20wikibase:language%20%22en%22%20.%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20
+    uri: https://query.wikidata.org/sparql?format=json&query=%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20PREFIX%20wikibase:%20%3Chttp://wikiba.se/ontology%23%3E%0A%20%20%20%20%20%20%20%20PREFIX%20wd:%20%3Chttp://www.wikidata.org/entity/%3E%20%0A%20%20%20%20%20%20%20%20PREFIX%20wdt:%20%3Chttp://www.wikidata.org/prop/direct/%3E%0A%20%20%20%20%20%20%20%20PREFIX%20rdfs:%20%3Chttp://www.w3.org/2000/01/rdf-schema%23%3E%0A%20%20%20%20%20%20%20%20PREFIX%20p:%20%3Chttp://www.wikidata.org/prop/%3E%0A%20%20%20%20%20%20%20%20PREFIX%20v:%20%3Chttp://www.wikidata.org/prop/statement/%3E%0A%20%20%20%20%20%20%20%20PREFIX%20schema:%20%3Chttp://schema.org/%3E%0A%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20SELECT%20?s%20?p%20?o%20?oLabel%20%20WHERE%20%7B%0A%20%20%20%20%20%20%20%20%20%20%7B%3Chttps://en.wikipedia.org/wiki/Pink%2520Floyd%3E%20schema:about%20?s%7D%20.%0A%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%20%20?s%20?p%20?o%20.%0A%20%20%20%20%20%20%20%20%20%20FILTER(%0A%20%20%20%20%20%20%20%20%20%20%20%20STRSTARTS(STR(?p),%20%22http://www.wikidata.org/prop/direct/%22)%20%7C%7C%0A%20%20%20%20%20%20%20%20%20%20%20%20(?p%20=%20rdfs:label%20%26%26%20langMatches(lang(?o),%20%22EN%22))%0A%20%20%20%20%20%20%20%20%20%20)%0A%20%20%20%20%20%20%20%20%7D%20union%20%7B%0A%20%20%20%20%20%20%20%20%20%20bind(schema:about%20as%20?p)%20.%0A%20%20%20%20%20%20%20%20%20%20?o%20schema:about%20?s%20.%0A%20%20%20%20%20%20%20%20%20%20filter(strstarts(str(?o),%20%22https://en.wikipedia.org/wiki/%22))%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20.%0A%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20SERVICE%20wikibase:label%20%7B%0A%20%20%20%20%20%20%20%20%20%20bd:serviceParam%20wikibase:language%20%22en%22%20.%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20
     body:
       encoding: US-ASCII
       string: ''
@@ -1902,7 +1907,7 @@ http_interactions:
       Server:
       - nginx/1.9.4
       Date:
-      - Fri, 26 Feb 2016 13:10:54 GMT
+      - Sat, 19 Mar 2016 00:40:02 GMT
       Content-Type:
       - application/sparql-results+json
       Transfer-Encoding:
@@ -1914,1081 +1919,47 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Varnish:
-      - 2255752637, 1800903156, 2088694128
+      - 2395569748, 1596809534, 2096741924
       Via:
       - 1.1 varnish, 1.1 varnish, 1.1 varnish
       Age:
       - '0'
       X-Cache:
-      - cp1061 miss(0), cp3020 miss(0), cp3022 frontend miss(0)
+      - cp1061 miss(0), cp3021 miss(0), cp3022 frontend miss(0)
       Set-Cookie:
-      - WMF-Last-Access=26-Feb-2016;Path=/;HttpOnly;Expires=Tue, 29 Mar 2016 12:00:00
+      - WMF-Last-Access=19-Mar-2016;Path=/;HttpOnly;Expires=Wed, 20 Apr 2016 00:00:00
         GMT
       X-Analytics:
       - https=1;nocookies=1
       X-Client-Ip:
-      - 94.179.103.153
+      - 94.179.5.221
     body:
       encoding: ASCII-8BIT
       string: |-
         {
           "head" : {
-            "vars" : [ "id", "p", "o", "oLabel" ]
+            "vars" : [ "s", "p", "o", "oLabel" ]
           },
           "results" : {
             "bindings" : [ {
-              "id" : {
+              "s" : {
                 "type" : "uri",
                 "value" : "http://www.wikidata.org/entity/Q2306"
               },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P1411"
-              },
               "o" : {
                 "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q1161113"
-              },
-              "oLabel" : {
-                "xml:lang" : "en",
-                "type" : "literal",
-                "value" : "MTV Video Music Award for Best Concept Video"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
+                "value" : "https://en.wikipedia.org/wiki/Pink%20Floyd"
               },
               "p" : {
                 "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P1411"
-              },
-              "o" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q1441676"
-              },
-              "oLabel" : {
-                "xml:lang" : "en",
-                "type" : "literal",
-                "value" : "American Music Award for Favorite Pop/Rock Band/Duo/Group"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P1411"
-              },
-              "o" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q1542186"
-              },
-              "oLabel" : {
-                "xml:lang" : "en",
-                "type" : "literal",
-                "value" : "Grammy Award for Best Rock Instrumental Performance"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P1411"
-              },
-              "o" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q1542205"
-              },
-              "oLabel" : {
-                "xml:lang" : "en",
-                "type" : "literal",
-                "value" : "Grammy Award for Best Rock Performance by a Duo or Group with Vocal"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P1411"
-              },
-              "o" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q4992254"
-              },
-              "oLabel" : {
-                "xml:lang" : "en",
-                "type" : "literal",
-                "value" : "Grammy Award for Best Music Film"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P1430"
-              },
-              "o" : {
-                "type" : "literal",
-                "value" : "7678"
+                "value" : "http://schema.org/about"
               },
               "oLabel" : {
                 "type" : "literal",
-                "value" : "7678"
+                "value" : "https://en.wikipedia.org/wiki/Pink%20Floyd"
               }
             }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P1728"
-              },
-              "o" : {
-                "type" : "literal",
-                "value" : "mn0000346336"
-              },
-              "oLabel" : {
-                "type" : "literal",
-                "value" : "mn0000346336"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P1875"
-              },
-              "o" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q628852"
-              },
-              "oLabel" : {
-                "xml:lang" : "en",
-                "type" : "literal",
-                "value" : "Blackhill Enterprises"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P1875"
-              },
-              "o" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q19845495"
-              },
-              "oLabel" : {
-                "xml:lang" : "en",
-                "type" : "literal",
-                "value" : "EMKA Productions"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P1875"
-              },
-              "o" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q19845525"
-              },
-              "oLabel" : {
-                "xml:lang" : "en",
-                "type" : "literal",
-                "value" : "Bryan Morrison Agency"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P1890"
-              },
-              "o" : {
-                "type" : "literal",
-                "value" : "000236297"
-              },
-              "oLabel" : {
-                "type" : "literal",
-                "value" : "000236297"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P1902"
-              },
-              "o" : {
-                "type" : "literal",
-                "value" : "0k17h0D3J5VfsdmQ1iZtE9"
-              },
-              "oLabel" : {
-                "type" : "literal",
-                "value" : "0k17h0D3J5VfsdmQ1iZtE9"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P1953"
-              },
-              "o" : {
-                "type" : "literal",
-                "value" : "45467"
-              },
-              "oLabel" : {
-                "type" : "literal",
-                "value" : "45467"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P2002"
-              },
-              "o" : {
-                "type" : "literal",
-                "value" : "PinkFloyd"
-              },
-              "oLabel" : {
-                "type" : "literal",
-                "value" : "PinkFloyd"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P2013"
-              },
-              "o" : {
-                "type" : "literal",
-                "value" : "pinkfloyd"
-              },
-              "oLabel" : {
-                "type" : "literal",
-                "value" : "pinkfloyd"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P17"
-              },
-              "o" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q145"
-              },
-              "oLabel" : {
-                "xml:lang" : "en",
-                "type" : "literal",
-                "value" : "United Kingdom"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P18"
-              },
-              "o" : {
-                "type" : "uri",
-                "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Pinkfloyd.png"
-              },
-              "oLabel" : {
-                "type" : "literal",
-                "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Pinkfloyd.png"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P31"
-              },
-              "o" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q5741069"
-              },
-              "oLabel" : {
-                "xml:lang" : "en",
-                "type" : "literal",
-                "value" : "rock band"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P136"
-              },
-              "o" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q49451"
-              },
-              "oLabel" : {
-                "xml:lang" : "en",
-                "type" : "literal",
-                "value" : "progressive rock"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P136"
-              },
-              "o" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q206159"
-              },
-              "oLabel" : {
-                "xml:lang" : "en",
-                "type" : "literal",
-                "value" : "psychedelic rock"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P136"
-              },
-              "o" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q217467"
-              },
-              "oLabel" : {
-                "xml:lang" : "en",
-                "type" : "literal",
-                "value" : "art rock"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P166"
-              },
-              "o" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q81180"
-              },
-              "oLabel" : {
-                "xml:lang" : "en",
-                "type" : "literal",
-                "value" : "Grammy Hall of Fame Award"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P166"
-              },
-              "o" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q179191"
-              },
-              "oLabel" : {
-                "xml:lang" : "en",
-                "type" : "literal",
-                "value" : "Rock and Roll Hall of Fame"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P166"
-              },
-              "o" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q1542186"
-              },
-              "oLabel" : {
-                "xml:lang" : "en",
-                "type" : "literal",
-                "value" : "Grammy Award for Best Rock Instrumental Performance"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P213"
-              },
-              "o" : {
-                "type" : "literal",
-                "value" : "0000 0001 0939 7559"
-              },
-              "oLabel" : {
-                "type" : "literal",
-                "value" : "0000 0001 0939 7559"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P214"
-              },
-              "o" : {
-                "type" : "literal",
-                "value" : "120713567"
-              },
-              "oLabel" : {
-                "type" : "literal",
-                "value" : "120713567"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P227"
-              },
-              "o" : {
-                "type" : "literal",
-                "value" : "1214989-5"
-              },
-              "oLabel" : {
-                "type" : "literal",
-                "value" : "1214989-5"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P244"
-              },
-              "o" : {
-                "type" : "literal",
-                "value" : "n82000561"
-              },
-              "oLabel" : {
-                "type" : "literal",
-                "value" : "n82000561"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P264"
-              },
-              "o" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q183387"
-              },
-              "oLabel" : {
-                "xml:lang" : "en",
-                "type" : "literal",
-                "value" : "Columbia Records"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P264"
-              },
-              "o" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q183412"
-              },
-              "oLabel" : {
-                "xml:lang" : "en",
-                "type" : "literal",
-                "value" : "EMI"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P264"
-              },
-              "o" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q193023"
-              },
-              "oLabel" : {
-                "xml:lang" : "en",
-                "type" : "literal",
-                "value" : "Capitol Records"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P264"
-              },
-              "o" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q1112471"
-              },
-              "oLabel" : {
-                "xml:lang" : "en",
-                "type" : "literal",
-                "value" : "Columbia Graphophone Company"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P264"
-              },
-              "o" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q1324712"
-              },
-              "oLabel" : {
-                "xml:lang" : "en",
-                "type" : "literal",
-                "value" : "Harvest Records"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P268"
-              },
-              "o" : {
-                "type" : "literal",
-                "value" : "139058178"
-              },
-              "oLabel" : {
-                "type" : "literal",
-                "value" : "139058178"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P269"
-              },
-              "o" : {
-                "type" : "literal",
-                "value" : "027590577"
-              },
-              "oLabel" : {
-                "type" : "literal",
-                "value" : "027590577"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P345"
-              },
-              "o" : {
-                "type" : "literal",
-                "value" : "nm0969139"
-              },
-              "oLabel" : {
-                "type" : "literal",
-                "value" : "nm0969139"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P358"
-              },
-              "o" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q756304"
-              },
-              "oLabel" : {
-                "xml:lang" : "en",
-                "type" : "literal",
-                "value" : "Pink Floyd discography"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P373"
-              },
-              "o" : {
-                "type" : "literal",
-                "value" : "Pink Floyd"
-              },
-              "oLabel" : {
-                "type" : "literal",
-                "value" : "Pink Floyd"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P409"
-              },
-              "o" : {
-                "type" : "literal",
-                "value" : "36222524"
-              },
-              "oLabel" : {
-                "type" : "literal",
-                "value" : "36222524"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P434"
-              },
-              "o" : {
-                "type" : "literal",
-                "value" : "83d91898-7763-47d7-b03b-b92132375c47"
-              },
-              "oLabel" : {
-                "type" : "literal",
-                "value" : "83d91898-7763-47d7-b03b-b92132375c47"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P527"
-              },
-              "o" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q173061"
-              },
-              "oLabel" : {
-                "xml:lang" : "en",
-                "type" : "literal",
-                "value" : "Syd Barrett"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P527"
-              },
-              "o" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q178517"
-              },
-              "oLabel" : {
-                "xml:lang" : "en",
-                "type" : "literal",
-                "value" : "David Gilmour"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P527"
-              },
-              "o" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q180861"
-              },
-              "oLabel" : {
-                "xml:lang" : "en",
-                "type" : "literal",
-                "value" : "Roger Waters"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P527"
-              },
-              "o" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q190251"
-              },
-              "oLabel" : {
-                "xml:lang" : "en",
-                "type" : "literal",
-                "value" : "Richard Wright"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P527"
-              },
-              "o" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q192936"
-              },
-              "oLabel" : {
-                "xml:lang" : "en",
-                "type" : "literal",
-                "value" : "Nick Mason"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P571"
-              },
-              "o" : {
-                "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
-                "type" : "literal",
-                "value" : "1965-01-01T00:00:00Z"
-              },
-              "oLabel" : {
-                "type" : "literal",
-                "value" : "1965-01-01T00:00:00Z"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P646"
-              },
-              "o" : {
-                "type" : "literal",
-                "value" : "/m/01wv9xn"
-              },
-              "oLabel" : {
-                "type" : "literal",
-                "value" : "/m/01wv9xn"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P648"
-              },
-              "o" : {
-                "type" : "literal",
-                "value" : "OL2741598A"
-              },
-              "oLabel" : {
-                "type" : "literal",
-                "value" : "OL2741598A"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P691"
-              },
-              "o" : {
-                "type" : "literal",
-                "value" : "kn20020506004"
-              },
-              "oLabel" : {
-                "type" : "literal",
-                "value" : "kn20020506004"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P740"
-              },
-              "o" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q84"
-              },
-              "oLabel" : {
-                "xml:lang" : "en",
-                "type" : "literal",
-                "value" : "London"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P856"
-              },
-              "o" : {
-                "type" : "uri",
-                "value" : "http://www.pinkfloyd.com/"
-              },
-              "oLabel" : {
-                "type" : "literal",
-                "value" : "http://www.pinkfloyd.com/"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P906"
-              },
-              "o" : {
-                "type" : "literal",
-                "value" : "220711"
-              },
-              "oLabel" : {
-                "type" : "literal",
-                "value" : "220711"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P910"
-              },
-              "o" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q8763095"
-              },
-              "oLabel" : {
-                "xml:lang" : "en",
-                "type" : "literal",
-                "value" : "Category:Pink Floyd"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P950"
-              },
-              "o" : {
-                "type" : "literal",
-                "value" : "XX254199"
-              },
-              "oLabel" : {
-                "type" : "literal",
-                "value" : "XX254199"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P1005"
-              },
-              "o" : {
-                "type" : "literal",
-                "value" : "96310"
-              },
-              "oLabel" : {
-                "type" : "literal",
-                "value" : "96310"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P1266"
-              },
-              "o" : {
-                "type" : "literal",
-                "value" : "51356"
-              },
-              "oLabel" : {
-                "type" : "literal",
-                "value" : "51356"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P1273"
-              },
-              "o" : {
-                "type" : "literal",
-                "value" : "a11769701"
-              },
-              "oLabel" : {
-                "type" : "literal",
-                "value" : "a11769701"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P1286"
-              },
-              "o" : {
-                "type" : "literal",
-                "value" : "02000000707"
-              },
-              "oLabel" : {
-                "type" : "literal",
-                "value" : "02000000707"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P1296"
-              },
-              "o" : {
-                "type" : "literal",
-                "value" : "0051031"
-              },
-              "oLabel" : {
-                "type" : "literal",
-                "value" : "0051031"
-              }
-            }, {
-              "id" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q2306"
-              },
-              "p" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/prop/direct/P1411"
-              },
-              "o" : {
-                "type" : "uri",
-                "value" : "http://www.wikidata.org/entity/Q904528"
-              },
-              "oLabel" : {
-                "xml:lang" : "en",
-                "type" : "literal",
-                "value" : "Grammy Award for Album of the Year"
-              }
-            }, {
-              "id" : {
+              "s" : {
                 "type" : "uri",
                 "value" : "http://www.wikidata.org/entity/Q2306"
               },
@@ -3006,7 +1977,7 @@ http_interactions:
                 "value" : "Pink Floyd"
               }
             }, {
-              "id" : {
+              "s" : {
                 "type" : "uri",
                 "value" : "http://www.wikidata.org/entity/Q2306"
               },
@@ -3024,7 +1995,7 @@ http_interactions:
                 "value" : "Pink Floyd"
               }
             }, {
-              "id" : {
+              "s" : {
                 "type" : "uri",
                 "value" : "http://www.wikidata.org/entity/Q2306"
               },
@@ -3041,9 +2012,1060 @@ http_interactions:
                 "type" : "literal",
                 "value" : "Pink Floyd"
               }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P1411"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q1161113"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "MTV Video Music Award for Best Concept Video"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P1411"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q1441676"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "American Music Award for Favorite Pop/Rock Band/Duo/Group"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P1411"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q1542186"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "Grammy Award for Best Rock Instrumental Performance"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P1411"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q1542205"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "Grammy Award for Best Rock Performance by a Duo or Group with Vocal"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P1411"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q4992254"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "Grammy Award for Best Music Film"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P1430"
+              },
+              "o" : {
+                "type" : "literal",
+                "value" : "7678"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "7678"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P1728"
+              },
+              "o" : {
+                "type" : "literal",
+                "value" : "mn0000346336"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "mn0000346336"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P1875"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q628852"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "Blackhill Enterprises"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P1875"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q19845495"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "EMKA Productions"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P1875"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q19845525"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "Bryan Morrison Agency"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P1890"
+              },
+              "o" : {
+                "type" : "literal",
+                "value" : "000236297"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "000236297"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P1902"
+              },
+              "o" : {
+                "type" : "literal",
+                "value" : "0k17h0D3J5VfsdmQ1iZtE9"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "0k17h0D3J5VfsdmQ1iZtE9"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P1953"
+              },
+              "o" : {
+                "type" : "literal",
+                "value" : "45467"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "45467"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P2002"
+              },
+              "o" : {
+                "type" : "literal",
+                "value" : "PinkFloyd"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "PinkFloyd"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P2013"
+              },
+              "o" : {
+                "type" : "literal",
+                "value" : "pinkfloyd"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "pinkfloyd"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P17"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q145"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "United Kingdom"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P18"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Pinkfloyd.png"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/Pinkfloyd.png"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P31"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q5741069"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "rock band"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P136"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q49451"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "progressive rock"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P136"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q206159"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "psychedelic rock"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P136"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q217467"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "art rock"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P166"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q81180"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "Grammy Hall of Fame Award"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P166"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q179191"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "Rock and Roll Hall of Fame"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P166"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q1542186"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "Grammy Award for Best Rock Instrumental Performance"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P213"
+              },
+              "o" : {
+                "type" : "literal",
+                "value" : "0000 0001 0939 7559"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "0000 0001 0939 7559"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P214"
+              },
+              "o" : {
+                "type" : "literal",
+                "value" : "120713567"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "120713567"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P227"
+              },
+              "o" : {
+                "type" : "literal",
+                "value" : "1214989-5"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "1214989-5"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P244"
+              },
+              "o" : {
+                "type" : "literal",
+                "value" : "n82000561"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "n82000561"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P264"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q183387"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "Columbia Records"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P264"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q183412"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "EMI"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P264"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q193023"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "Capitol Records"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P264"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q1112471"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "Columbia Graphophone Company"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P264"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q1324712"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "Harvest Records"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P268"
+              },
+              "o" : {
+                "type" : "literal",
+                "value" : "139058178"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "139058178"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P269"
+              },
+              "o" : {
+                "type" : "literal",
+                "value" : "027590577"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "027590577"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P345"
+              },
+              "o" : {
+                "type" : "literal",
+                "value" : "nm0969139"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "nm0969139"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P358"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q756304"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "Pink Floyd discography"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P373"
+              },
+              "o" : {
+                "type" : "literal",
+                "value" : "Pink Floyd"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "Pink Floyd"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P409"
+              },
+              "o" : {
+                "type" : "literal",
+                "value" : "36222524"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "36222524"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P434"
+              },
+              "o" : {
+                "type" : "literal",
+                "value" : "83d91898-7763-47d7-b03b-b92132375c47"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "83d91898-7763-47d7-b03b-b92132375c47"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P527"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q173061"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "Syd Barrett"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P527"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q178517"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "David Gilmour"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P527"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q180861"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "Roger Waters"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P527"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q190251"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "Richard Wright"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P527"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q192936"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "Nick Mason"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P571"
+              },
+              "o" : {
+                "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+                "type" : "literal",
+                "value" : "1965-01-01T00:00:00Z"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "1965-01-01T00:00:00Z"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P646"
+              },
+              "o" : {
+                "type" : "literal",
+                "value" : "/m/01wv9xn"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "/m/01wv9xn"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P648"
+              },
+              "o" : {
+                "type" : "literal",
+                "value" : "OL2741598A"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "OL2741598A"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P691"
+              },
+              "o" : {
+                "type" : "literal",
+                "value" : "kn20020506004"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "kn20020506004"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P740"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q84"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "London"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P856"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.pinkfloyd.com/"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "http://www.pinkfloyd.com/"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P906"
+              },
+              "o" : {
+                "type" : "literal",
+                "value" : "220711"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "220711"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P910"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q8763095"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "Category:Pink Floyd"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P950"
+              },
+              "o" : {
+                "type" : "literal",
+                "value" : "XX254199"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "XX254199"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P1005"
+              },
+              "o" : {
+                "type" : "literal",
+                "value" : "96310"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "96310"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P1266"
+              },
+              "o" : {
+                "type" : "literal",
+                "value" : "51356"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "51356"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P1273"
+              },
+              "o" : {
+                "type" : "literal",
+                "value" : "a11769701"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "a11769701"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P1286"
+              },
+              "o" : {
+                "type" : "literal",
+                "value" : "02000000707"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "02000000707"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P1296"
+              },
+              "o" : {
+                "type" : "literal",
+                "value" : "0051031"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "0051031"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q2306"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P1411"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q904528"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "Grammy Award for Album of the Year"
+              }
             } ]
           }
         }
     http_version: 
-  recorded_at: Fri, 26 Feb 2016 13:10:54 GMT
+  recorded_at: Sat, 19 Mar 2016 00:40:02 GMT
 recorded_with: VCR 3.0.0

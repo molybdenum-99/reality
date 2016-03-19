@@ -22,8 +22,8 @@ module Reality
       before{
         expect(Infoboxer.wikipedia).to receive(:get).
           with('Paris').and_return(wikipage)
-        expect(Wikidata::Entity).to receive(:fetch).
-          with('Paris, France').and_return([wikidata])
+        expect(Wikidata::Entity).to receive(:one_by_wikititle).
+          with('Paris, France').and_return(wikidata)
 
         entity.load!
       }
@@ -42,7 +42,7 @@ module Reality
       )}
       subject(:entity){Entity.new('Paris', wikidata_id: 'Q111')}
       before{
-        expect(Wikidata::Entity).to receive(:fetch_by_id).
+        expect(Wikidata::Entity).to receive(:one_by_id).
           with('Q111').and_return(wikidata)
         expect(Infoboxer.wikipedia).to receive(:get).
           with('Paris, France').and_return(wikipage)
@@ -58,8 +58,8 @@ module Reality
       before{
         expect(Infoboxer.wikipedia).to receive(:get).
           with('Piper Club').and_return(nil)
-        expect(Wikidata::Entity).to receive(:fetch_by_label).
-          with('Piper Club').and_return([wikidata])
+        expect(Wikidata::Entity).to receive(:one_by_label).
+          with('Piper Club').and_return(wikidata)
 
         entity.load!
       }
@@ -72,8 +72,8 @@ module Reality
       before{
         expect(Infoboxer.wikipedia).to receive(:get).
           with('Paris').and_return(wikipage)
-        expect(Wikidata::Entity).to receive(:fetch).
-          with('Paris, France').and_return([wikidata])
+        expect(Wikidata::Entity).to receive(:one_by_wikititle).
+          with('Paris, France').and_return(wikidata)
       }
 
       subject(:entity){Entity.new('Paris', load: true)}

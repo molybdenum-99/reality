@@ -65,6 +65,7 @@ module Reality
             to_h
         end
 
+        # FIXME: move all parse_* to util/parsers or wikidata/parsers
         def parse_value(hash)
           case hash['type']
           when 'literal'

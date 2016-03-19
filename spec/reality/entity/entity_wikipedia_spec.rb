@@ -24,9 +24,8 @@ module Reality
       before{
         expect(Infoboxer.wikipedia).to receive(:get).
           with('Paris').and_return(wikipage)
-        expect(Wikidata::Entity).to receive(:fetch).
-          with('Paris, France').and_return([wikidata])
-
+        expect(Wikidata::Entity).to receive(:one_by_wikititle).
+          with('Paris, France').and_return(wikidata)
 
         entity.load!
       }

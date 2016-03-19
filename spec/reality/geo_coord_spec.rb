@@ -85,13 +85,17 @@ module Reality
       describe :distance_to do
         subject { coord1.distance_to(coord2) }
 
-        it{should == Reality::Measure(409.33216254608834, 'km')}
+        it{
+          should be_within(Measure.new(0.1, 'km')).of(Measure.new(409.3, 'km'))
+        }
       end
 
       describe :direction_to do
         subject { coord1.direction_to(coord2) }
 
-        it{should == Reality::Measure(279.1519461595766, '°')}
+        it{
+          should be_within(Measure.new(0.5, '°')).of(Measure.new(279, '°'))
+        }
       end
 
       describe :endpoint do
