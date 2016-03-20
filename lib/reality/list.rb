@@ -50,7 +50,7 @@ module Reality
       
       pages = Infoboxer.wp.get_h(*entities.map(&:name))
       datum = Wikidata::Entity.
-        fetch_list(*pages.values.compact.map(&:title))
+        by_wikititle(*pages.values.compact.map(&:title))
 
       entities.each do |entity|
         page = pages[entity.name]
@@ -63,7 +63,7 @@ module Reality
       return if entities.empty?
       
       datum = Wikidata::Entity.
-        fetch_list_by_id(*entities.map(&:wikidata_id))
+        by_id(*entities.map(&:wikidata_id))
       pages = Infoboxer.wp.
         get_h(*datum.values.compact.map(&:en_wikipage).compact)
       entities.each do |entity|

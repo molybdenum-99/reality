@@ -43,7 +43,7 @@ module Reality
               'Chile' => make_page('Chile')
             )
 
-          expect(Wikidata::Entity).to receive(:fetch_list).
+          expect(Wikidata::Entity).to receive(:by_wikititle).
             with('Argentina', 'Bolivia', 'Chile').
             and_return(
               'Argentina' => make_data('Argentina'),
@@ -66,11 +66,11 @@ module Reality
             with('Argentina').
             and_return('Argentina' => make_page('Argentina')).ordered
 
-          expect(Wikidata::Entity).to receive(:fetch_list).
+          expect(Wikidata::Entity).to receive(:by_wikititle).
             with('Argentina').
             and_return('Argentina' => make_data('Argentina')).ordered
 
-          expect(Wikidata::Entity).to receive(:fetch_list_by_id).
+          expect(Wikidata::Entity).to receive(:by_id).
             with('Q750').
             and_return('Q750' => double(predicates: {}, en_wikipage: 'Bolivia')).ordered
 
@@ -81,6 +81,12 @@ module Reality
           list.load!
         end
       end
+    end
+
+    describe :load!, 'real data' do
+      subject(:list){List.new('Argentina', 'Bolivia', 'Chile')}
+      before{VCR.use_cassette('list-3-countries'){list.load!}}
+      it{should all be_loaded}
     end
 
     describe :inspect do
