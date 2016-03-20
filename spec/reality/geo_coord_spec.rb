@@ -109,6 +109,11 @@ module Reality
       describe :inspect do
         subject(:coord){Coord.from_dms([38, 53, 23], [-77, 00, 32])}
         its(:inspect){should == '#<Reality::Geo::Coord(38°53′23″N,77°0′32″W)>'}
+
+        context 'corner case (needs ceiling)' do
+          subject(:coord){Coord.from_dms([34,35,58,'S'], [58,22,54,'W'])}
+          its(:inspect){should == '#<Reality::Geo::Coord(34°35′58″S,58°22′54″W)>'}
+        end
       end
 
       describe :to_s do

@@ -105,7 +105,7 @@ module Reality
       end
 
       def inspect
-        "#<%s(%i°%i′%i″%s,%i°%i′%i″%s)>" % [self.class, *lat_dms, *lng_dms]
+        "#<%s(%i°%i′%.0f″%s,%i°%i′%.0f″%s)>" % [self.class, *lat_dms, *lng_dms]
       end
 
       def sunrise(date = Date.today)
