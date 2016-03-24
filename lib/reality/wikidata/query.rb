@@ -78,7 +78,7 @@ module Reality
 
       def fetch(key, selectors)
         selectors.each_slice(MAX_SLICE).map{|chunk|
-            fetch_sublist(selectors)
+            fetch_sublist(chunk)
           }.flatten(1).
           group_by(&key).
           # of several entities with same label, we always prefer first-by-id
