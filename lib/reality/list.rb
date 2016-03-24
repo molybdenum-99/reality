@@ -7,7 +7,7 @@ module Reality
     end
 
     def load!
-      partition(&:wikidata_id).tap{|wd, wp|
+      compact.partition(&:wikidata_id).tap{|wd, wp|
           load_by_wikipedia(wp)
           load_by_wikidata(wd)
         }
@@ -22,7 +22,7 @@ module Reality
     end
 
     def inspect
-      "#<#{self.class.name}[#{map(&:to_s?).join(', ')}]>"
+      "#<#{self.class.name}[#{map{|e| e ? e.to_s? : e.inspect}.join(', ')}]>"
     end
 
     def describe
@@ -74,7 +74,7 @@ module Reality
     end
 
     def ensure_type(arr)
-      if arr.kind_of?(Array) && arr.all?{|e| e.is_a?(Entity)}
+      if arr.kind_of?(Array) && arr.all?{|e| e.nil? || e.is_a?(Entity)}
         List[*arr]
       else
         arr
@@ -83,6 +83,8 @@ module Reality
 
     def coerce(val)
       case val
+      when nil
+        val
       when String
         Entity.new(val)
       when Entity

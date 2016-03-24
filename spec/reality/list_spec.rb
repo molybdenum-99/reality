@@ -120,5 +120,20 @@ module Reality
         expect(list.map(&:name)).not_to be_a List
       end
     end
+
+    context 'sparse list (with nils)', :vcr do
+      subject(:list){List.new('Argentina', nil, 'Chile')}
+      
+      its(:inspect){should == '#<Reality::List[Argentina?, nil, Chile?]>'}
+      
+      it 'should preserve type' do
+        expect(list.map(&:itself)).to be_a List
+      end
+
+      it 'should be loaded successfully' do
+        list.load!
+        expect(list.compact).to all be_loaded
+      end
+    end
   end
 end
