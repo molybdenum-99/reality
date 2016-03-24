@@ -1,4 +1,6 @@
 module Reality
+  # This class is a wrapper for numeric values and keeps information about value unit
+  # Allows coercion and general Numeric operations
   class Measure
     %w[unit].each{|mod| require_relative "measure/#{mod}"}
     

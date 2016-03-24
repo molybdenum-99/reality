@@ -4,11 +4,9 @@ Geokit::default_units = :kms # TODO: use global settings
 
 module Reality
   module Geo
-    # GeoKit, RGeo, GeoRuby -- I know, ok?
-    # It's just incredibly simple class to hold two values
-    # and show them prettily.
-    #
-    # GeoKit will be used at its time.
+    # Keeps information about coordinates point.
+    # All services that are based on particular point in space (Weather, Time) depend on it.
+    # Uses Geokit for some operations
     class Coord
       attr_reader :lat, :lng
 
@@ -116,18 +114,18 @@ module Reality
         SunTimes.set(date, lat.to_f, lng.to_f)
       end
 
-      LINKS = {
-          osm: "https://www.openstreetmap.org/?mlat=%{lat}&mlon=%{lng}&zoom=12&layers=M",
-          google: "https://maps.google.com/maps?ll=%{latlng}&q=%{latlng}&hl=en&t=m&z=12",
-          wikimapia: "http://wikimapia.org/#lang=en&lat=%{lat}&lon=%{lng}&z=12&m=w"
-      }
-
       def links
         param = {lat: lat.to_f, lng: lng.to_f, latlng: latlng}
-        Hashie::Mash.new(LINKS.map{|key, pattern| [key, pattern % param]}.to_h)
+        Hashie::Mash.new(EXTERNAL_LINKS.map{|key, pattern| [key, pattern % param]}.to_h)
       end
 
       private
+
+      EXTERNAL_LINKS = {
+        osm: "https://www.openstreetmap.org/?mlat=%{lat}&mlon=%{lng}&zoom=12&layers=M",
+        google: "https://maps.google.com/maps?ll=%{latlng}&q=%{latlng}&hl=en&t=m&z=12",
+        wikimapia: "http://wikimapia.org/#lang=en&lat=%{lat}&lon=%{lng}&z=12&m=w"
+      }
 
       def normalize_point(point)
         return point if point.is_a?(Coord)

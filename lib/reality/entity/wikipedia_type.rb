@@ -1,3 +1,5 @@
+# @private
+
 module Reality
   class Entity
     module WikipediaType
