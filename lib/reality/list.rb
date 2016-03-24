@@ -11,6 +11,11 @@ module Reality
           load_by_wikipedia(wp)
           load_by_wikidata(wd)
         }
+      # try to fallback to labels:
+      compact.reject(&:loaded?).tap{|entities|
+        load_by_wikidata_labels(entities)
+      }
+      
       self
     end
 
@@ -70,6 +75,17 @@ module Reality
         data = datum[entity.wikidata_id]
         page = data && pages[data.en_wikipage]
         entity.setup!(wikipage: page, wikidata: data)
+      end
+    end
+
+    def load_by_wikidata_labels(entities)
+      return if entities.empty?
+      
+      datum = Wikidata::Entity.
+        by_label(*entities.map(&:name))
+      entities.each do |entity|
+        data = datum[entity.name]
+        entity.setup!(wikidata: data)
       end
     end
 

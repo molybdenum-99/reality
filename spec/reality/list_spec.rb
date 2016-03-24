@@ -81,6 +81,24 @@ module Reality
           list.load!
         end
       end
+
+      context 'fallback to labels' do
+        let(:wikidata){double(predicates: {'P625' => Geo::Coord.new(41.918936, 12.501193)})}
+        let(:list){List.new('Piper Club')}
+        before{
+          expect(wikipedia).to receive(:get_h).
+            with('Piper Club').and_return('Piper Club' => nil)
+          expect(Wikidata::Entity).to receive(:by_label).
+            with('Piper Club').and_return('Piper Club' => wikidata)
+
+          list.load!
+        }
+        subject{list.first}
+
+        it{should be_loaded}
+        its(:wikidata){should_not be_nil}
+        its(:wikipage){should be_nil}
+      end
     end
 
     describe :load!, 'real data' do
