@@ -45,6 +45,7 @@ module Reality
         expect(TZOffset.parse('UTC+01:00').minutes).to eq 60
         expect(TZOffset.parse('UTC+2').minutes).to eq 120
         expect(TZOffset.parse('+0200').minutes).to eq 120
+        expect(TZOffset.parse('UTC+5:45').minutes).to eq 60*5 + 45
       end
     end
 

@@ -13,7 +13,8 @@ module Reality
       when /^[A-Z]{3}$/
         Time.zone_offset(text)
       when /^(?:UTC|GMT)?([+-]\d{1,2}:?\d{2})$/
-        Time.zone_offset($1)
+        offset = $1
+        Time.zone_offset(offset.sub(/^([+-])(\d):/, '\10\2:'))
       when /^(?:UTC|GMT)?([+-]\d{1,2})/
         $1.to_i * 3600
       end.derp{|sec| sec && new(sec / 60)}
