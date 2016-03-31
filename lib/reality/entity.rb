@@ -9,6 +9,12 @@ module Reality
 
     # Initializes entity and extends properties from data sources
     #
+    # Examples:
+    #   Reality::Entity.new('Mississippi')
+    #     => #<Reality::Entity?(Mississippi)>
+    #   Reality::Entity.new('Mississippi', load: true)
+    #     => #<Reality::Entity(Mississippi)>
+    #
     # @param name [String]
     # @param wikipage [Infoboxer::MediaWiki::Page] - optional
     # @param wikidata [Reality::Wikidata::Entity] - optional
@@ -38,6 +44,21 @@ module Reality
 
     # Prints general object state and all properties with values
     #
+    # Example:
+    # $> Reality::Entity.new('Mississippi').describe
+    #   Output:
+    #   -------------------------------
+    #   <Reality::Entity(Mississippi)>
+    #   -------------------------------
+    #          capital: #<Reality::Entity?(Jackson)>
+    #            coord: #<Reality::Geo::Coord(33°0′0″N,90°0′0″W)>
+    #          country: #<Reality::Entity?(United States of America)>
+    #       created_at: Wed, 10 Dec 1817
+    #       located_in: #<Reality::Entity?(United States of America)>
+    #       neighbours: #<Reality::List[Alabama?, Tennessee?, Louisiana?, Arkansas?]>
+    # official_website: "http://www.mississippi.gov"
+    #        tz_offset: #<Reality::TZOffset(UTC-06:00)>
+    #
     # @return [nil]
     def describe
       puts _describe
@@ -54,6 +75,7 @@ module Reality
     end
 
     # Loads wikipage and wikidata by wikidata_id or entity name
+    # We try to lazy-load data so this method is executed on demand
     #
     # @return [self]
     def load!
@@ -86,7 +108,7 @@ module Reality
       self
     end
 
-    # Returns true if at least 1 main data source is loaded
+    # Returns true if at least 1 main data source - wikipedia page or wikidata - is loaded
     #
     # @return [true, false]
     def loaded?
@@ -113,10 +135,6 @@ module Reality
       end
     end
 
-    # Returns true for any method name except those that are not valid attributes
-    # or unsupported operations
-    #
-    # @return [true, false]
     def respond_to?(sym)
       sym !~ /[=?!]/ && !UNSUPPORTED_METHODS.include?(sym) || super
     end

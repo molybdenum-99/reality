@@ -1,7 +1,6 @@
-# @private
-
 module Reality
   class Entity
+    # @private
     module WikipediaType
       def infobox_name(*infobox_names)
         infobox_names.each do |n|

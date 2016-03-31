@@ -1,11 +1,26 @@
 module Reality
+  # List is an array of Entities
+  # It optimizes data load by grouping http requests into one.
+  # It can be created with a set of Entities or with a set of their names
   class List < Array
     using Refinements
-    
+
+
+    # Creates List from a set of entity names or entity objects
+    #
+    # Example 1:
+    # Reality::List.new('Argentina', 'Ukraine')
+    # => #<Reality::List[Argentina?, Ukraine?]>
+    #
+    # Example 2:
+    # Reality::List.new(entity1, entity2)
+    # => #<Reality::List[Argentina, Ukraine]>
     def initialize(*names)
       super names.map(&method(:coerce))
     end
 
+    # Loads entities data.
+    # Optimized to make only 2 queries - to Wikipedia and Wikidata
     def load!
       partition(&:wikidata_id).tap{|wd, wp|
           load_by_wikipedia(wp)
