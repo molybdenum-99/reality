@@ -94,8 +94,8 @@ module Reality
       end
     end
 
-    def respond_to?(sym)
-      sym !~ /[=?!]/ && !UNSUPPORTED_METHODS.include?(sym) || super
+    def respond_to?(sym, include_all = false)
+      sym !~ /[=?!]/ && !UNSUPPORTED_METHODS.include?(sym) || super(sym)
     end
 
     class << self
