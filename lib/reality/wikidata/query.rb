@@ -50,7 +50,7 @@ module Reality
         label: '?s rdfs:label "%{label}"@en'
       }
 
-      UNSAFE = Regexp.union(URI::UNSAFE, /[,()':]/)
+      UNSAFE = Regexp.union(URI::UNSAFE, /[,()':!]/)
 
       using Refinements
 

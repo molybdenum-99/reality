@@ -1,16 +1,13 @@
 #!/usr/bin/env ruby
+
 require 'rubygems'
 require 'reality'
-require 'reality/pretty_inspect'
-require 'reality/shortcuts'
+require 'reality/command_line'
 
-Reality.configure :demo
+reality_runner = Reality::CommandLine.new
 
-class << self
-  # including it ONLY into the main object, not Kernel
-  include Reality::Methods
+if reality_runner.interactive?
+  reality_runner.run_interactive_shell
+else
+  puts reality_runner.results
 end
-
-require 'irb'
-ARGV.shift until ARGV.empty?
-IRB.start
