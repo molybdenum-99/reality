@@ -51,9 +51,26 @@ module Reality
     def run_interactive_shell
       require 'irb'
       require 'reality/shortcuts'
-      ::ARGV.shift until ::ARGV.empty?
+      ::ARGV.clear
       IRB::ExtendCommandBundle.include(Reality::Methods)
-      IRB.start
+      IRB.setup nil
+
+      IRB.conf[:IRB_NAME] = 'reality'
+
+      IRB.conf[:PROMPT] = {}
+      IRB.conf[:PROMPT][:REALITY] = {
+        :PROMPT_I => '%N:%03n:%i> ',
+        :PROMPT_S => '%N:%03n:%i%l ',
+        :PROMPT_C => '%N:%03n:%i* ',
+        :RETURN => "# => %s\n"
+      }
+      IRB.conf[:PROMPT_MODE] = :REALITY
+      IRB.conf[:RC] = false
+
+      IRB.conf[:MAIN_CONTEXT] = IRB::Irb.new.context
+
+      require 'irb/ext/multi-irb'
+      IRB.irb nil, self
     end
 
     private

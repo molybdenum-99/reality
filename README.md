@@ -50,18 +50,14 @@ beatles.select(&:alive?).map{|beatle| beatle.albums && beatle.albums.last}
 # => [#<Reality::Entity?(New (album))>, #<Reality::Entity?(Old Wave)>, nil]
 
 # and stuff
-titanic = Entity('Titanic (1997 film)')
-titanic.actors.each do |actor|
-  puts "#{ actor.name }: #{ actor.age_at(titanic.published_at) }"
+t2 = Entity('Terminator 2')
+t2.actors.each do |actor|
+  puts "#{ actor.name }: #{ actor.age_at(t2.published_at) }"
 end
-# Frances Fisher: 45
-# Leonardo DiCaprio: 22
-# Danny Nucci: 29
-# Bill Paxton: 42
-# Gloria Stuart: 87
-# Kate Winslet: 22
-# Billy Zane: 31
-# ......
+# Edward Furlong: 13
+# Arnold Schwarzenegger: 43
+# Linda Hamilton: 34
+# Robert Patrick: 32
 ```
 
 ## Is it real? Is it really working?.. But how?
@@ -108,29 +104,46 @@ Read more at [Tutorial]() and [Examples]() in our wiki.
 
 ### ...from command-line
 
-The `really` command (made by []()) allows you to investigate various
+The `reality` command allows you to investigate various
 concepts in your terminal:
 
 ```
-$ really Katmandu
+$ reality Katmandu
+----------------------------------
+#<Reality::Entity(Kathmandu):city>
+----------------------------------
+             area: #<Reality::Measure(49 km²)>
+            coord: #<Reality::Geo::Coord(27°43′0″N,85°22′0″E)>
+          country: #<Reality::Entity?(Nepal)>
+        elevation: #<Reality::Measure(1,400 m)>
+       located_in: #<Reality::Entity?(Nepal)>
+        long_name: "Kathmandu Metropolitan City\nKTM"
+ official_website: "http://www.kathmandu.gov.np"
+       population: #<Reality::Measure(975,453 person)>
+        tz_offset: #<Reality::TZOffset(UTC+05:45)>
+
 
 $ really Beatles albums first
+Please Please Me
 ```
 
-See [wikipage](Goodies#really) for details.
+See [wikipage](Command-line usage) for details.
 
 ### ...from interactive console
 
-The `reality` command opens interactive console, allowing you to
+The `reality -i` command opens interactive console, allowing you to
 investigate Reality's features immediately. It also provides many useful
 shortcuts for less typing:
 
 ```
-$ reality
+$ reality -i
 
-reality 0.0.3> b = E('Brno')
-reality 0.0.3> b.describe
-reality 0.0.3> b.coord.weather
+reality#1:001:0> b = E('Brno')
+# => #<Reality::Entity(Brno):city>
+reality#1:002:0> b.area
+# => #<Reality::Measure(230 km²)>
+reality#1:003:0> b.coord.weather
+# => #<Reality::Weather(10°C, Rain)>
 ```
 
 ...and so on. Read more at [Interactive console]() and feel free to
@@ -176,16 +189,18 @@ Currently, it would be great if somebody lay their hands on:
 ## Compatibility
 
 Ruby 2+ is a must (we love refinements, keywords arguments and other
-cool stuff). TODO: JRuby & Rubinius compatibility.
+cool stuff). JRuby & Rubinius compatibility was not checked still, help
+would be appreciated here!
 
 Note that there could be a problem with SSL sertificates while connecting
-to Wikipedia API. TODO: explain and recipes.
+to Wikipedia API. _TODO: explain the problem and point to recipes._
   
 ## Credits
 
 * [Victor Shepelev](https://zverok.github.io) [@zverok](https://github.com/zverok);
-* Sergey Mostovoy [@smostovoy](https://github.com/smostovoy).
-* [Several great contributors]()
+* Sergey Mostovoy [@smostovoy](https://github.com/smostovoy);
+* [Valentino Stoll](http://www.awesomevibe.com/) [@codenamev](https://github.com/codenamev);
+* [Several great contributors](https://github.com/molybdenum-99/reality/graphs/contributors).
 
 Development of first version was sponsored by
 [2015 Ruby Association Grant](http://www.ruby.or.jp/en/news/20151116.html).
