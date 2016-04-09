@@ -10,18 +10,18 @@ inspectable and computable.
 
 ## Table Of Contents
 
-* Showcase
-* Is it real? Is it really working?.. But how?
-* Why/when do I need this?..
-* Uhm, ok. How to use it?
-  * ...from your code
-  * ...from command-line
-  * ...from interactive console
-* Good. What next?..
-* Want to help?
-* Compatibility
-* Credits
-* License
+* [Showcase](#showcase)
+* [Is it real? Is it really working?.. But how?](#is-it-real-is-it-really-working-but-how)
+* [Why/when do I need this?..](#whywhen-do-i-need-this)
+* [Uhm, ok. How to use it?](#uhm-ok-how-to-use-it)
+  * [...from your code](#from-your-code)
+  * [...from command-line](#from-command-line)
+  * [...from interactive console](#from-interactive-console)
+* [Good. What next?..](#good-what-next)
+* [Want to help?](#want-to-help)
+* [Compatibility](#compatibility)
+* [Credits](#credits)
+* [License](#license)
 
 ## Showcase
 

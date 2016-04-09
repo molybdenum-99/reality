@@ -7,14 +7,23 @@ namespace :doc do
   task :toc do
     # NB: really dumb. Yet better than any Solution I can find :(
 
-    puts '## Table Of Contents'
-    puts
-    
     File.readlines('README.md').
       map(&:chomp).grep(/\#{2,}\s*/).
       each do |ln|
         level, text = ln.scan(/^(\#{2,})\s*(.+)$/).flatten
-        puts '  ' * (level.count('#') - 2) + '* ' + text
+        next if text == 'Table Of Contents'
+
+        link = text.downcase.
+          gsub(/[\/]/, '').
+          gsub(/[.?, ]/, '-').gsub(/-{2,}/, '-').
+          gsub(/^-|-$/, '')
+        
+        puts '%s* [%s](#%s)' %
+          [
+            '  ' * (level.count('#') - 2),
+            text,
+            link
+          ]
       end
   end
 end
