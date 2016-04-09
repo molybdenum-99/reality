@@ -8,6 +8,23 @@ Reality
 real world (and described in Wikipedia). Its goal is to make the world
 inspectable and computable.
 
+## Table Of Contents
+
+* Showcase
+* Is it real? Is it really working?.. But how?
+* Why/when do I need this?..
+* Uhm, ok. How to use it?
+  * ...from your code
+  * ...from command-line
+  * ...from interactive console
+* Good. What next?..
+* Want to help?
+* Compatibility
+* Credits
+* License
+
+## Showcase
+
 ```ruby
 # Like this
 require 'reality'
@@ -123,7 +140,7 @@ $ reality Katmandu
         tz_offset: #<Reality::TZOffset(UTC+05:45)>
 
 
-$ really Beatles albums first
+$ reality Beatles albums first
 Please Please Me
 ```
 

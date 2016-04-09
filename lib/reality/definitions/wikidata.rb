@@ -40,6 +40,7 @@ module Reality
     predicate 'P1082',:population, :measure, unit: 'person'
 
     predicate 'P35', :head_of_state, :entity
+    predicate 'P6', :head_of_government, :entity
 
     # References -------------------------------------------------------
     predicate 'P297', :iso2_code, :string
