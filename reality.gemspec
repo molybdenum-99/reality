@@ -30,6 +30,8 @@ Gem::Specification.new do |s|
   s.bindir = 'bin'
   s.executables << 'reality'
 
+  s.required_ruby_version = '>= 2.1.0'
+
   #s.add_dependency 'infoboxer', '>= 0.2.3'
   s.add_dependency 'hashie'
   s.add_dependency 'open-weather'
