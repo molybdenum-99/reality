@@ -85,8 +85,8 @@ are working. And almost _any_ thing which Wikipedia knows about, can be
 loaded through **Reality**, and somehow inspected and used and navigated
 to next entities and measured and ...
 
-Read more at ["How it works"]() page in our wiki. It's complicated, yet
-quite interesting.
+Read more at ["How it works"](https://github.com/molybdenum-99/reality/wiki/How-it-works)
+page in our wiki. It's complicated, yet quite interesting.
 
 ## Why/when do I need this?..
 
@@ -110,15 +110,20 @@ require 'reality'
 
 th = Reality::Entity('Thailand')
 p th.area / th.population
+# => #<Reality::Measure(0.007 km²/person)>
+
 
 list = Reality::List('Terminator', 'Terminator 2', 'Terminator 3', 'Terminator 4', 'Terminator 5')
+# => #<Reality::List[Terminator?, Terminator 2?, Terminator 3?, Terminator 4?, Terminator 5?]>
 list.load!
+# => #<Reality::List[Terminator, Terminator 2: Judgment Day, Terminator 3: Rise of the Machines, Terminator Salvation, Terminator Genisys]>
 
 p list.map(&:published_at)
-
+# => [nil, #<Date: 1991-01-01>, #<Date: 2003-01-01>, #<Date: 2009-01-01>, #<Date: 2015-01-01>]
 ```
 
-Read more at [Tutorial]() and [Examples]() in our wiki.
+Start from [Getting started](https://github.com/molybdenum-99/reality/wiki/Getting-started)
+in our wiki and move along the pointers!
 
 ### ...from command-line
 
@@ -145,7 +150,8 @@ $ reality Beatles albums first
 Please Please Me
 ```
 
-See [wikipage](Command-line usage) for details.
+See [wikipage](https://github.com/molybdenum-99/reality/wiki/Command-line-usage)
+for details.
 
 ### ...from interactive console
 
@@ -164,8 +170,8 @@ reality#1:003:0> b.coord.weather
 # => #<Reality::Weather(10°C, Rain)>
 ```
 
-...and so on. Read more at [Interactive console]() and feel free to
-experiment!
+...and so on. Read more at [Interactive console](https://github.com/molybdenum-99/reality/wiki/Interactive-console)
+and feel free to experiment!
 
 ## Good. What next?..
 
