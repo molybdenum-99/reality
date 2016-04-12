@@ -1,0 +1,14 @@
+cache: bundler
+language: ruby
+rvm:
+  - "2.0.0"
+  - "2.1"
+  - "2.2"
+  - "2.3"
+  #- ruby-head    # No head is 2.4 and is STRANGE
+  #- jruby-19mode # Due to https://github.com/jruby/jruby/issues/2599
+  #- rbx-2        # Even will not try, sorry
+install:
+  - bundle install --retry=3 --without development docs
+script:
+  - bundle exec rspec
