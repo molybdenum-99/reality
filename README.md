@@ -2,6 +2,7 @@ Reality
 =======
 
 [![Gem Version](https://badge.fury.io/rb/reality.svg)](http://badge.fury.io/rb/reality)
+[![Build Status](https://travis-ci.org/molybdenum-99/reality.svg?branch=master)](https://travis-ci.org/molybdenum-99/reality)
 [![Join the chat at https://gitter.im/molybdenum-99/reality](https://badges.gitter.im/molybdenum-99/reality.svg)](https://gitter.im/molybdenum-99/reality?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 **Reality** is your quick access point to almost any entity existing in
