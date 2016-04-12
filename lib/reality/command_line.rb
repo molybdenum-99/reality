@@ -52,7 +52,7 @@ module Reality
       require 'irb'
       require 'reality/shortcuts'
       ::ARGV.clear
-      IRB::ExtendCommandBundle.include(Reality::Methods)
+      IRB::ExtendCommandBundle.include(Reality)
       IRB.setup nil
 
       IRB.conf[:IRB_NAME] = 'reality'

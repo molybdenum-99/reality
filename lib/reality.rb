@@ -21,6 +21,7 @@ module Reality
   require_ %w[definitions/*]
   require_ %w[methods]
 
+  include Methods
   extend Methods
 
   def self.reload!
