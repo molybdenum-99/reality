@@ -9,6 +9,7 @@ module Reality
     predicate 'P571', :created_at, :date # TODO: aliases: :founded_at, :incepted_at
 
     predicate 'P740', :location, :entity
+    predicate 'P585', :date    , :date # TODO: maybe :datetime?
 
     predicate 'P737', :influenced_by, [:entity]
 
