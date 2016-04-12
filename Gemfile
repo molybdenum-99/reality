@@ -20,3 +20,10 @@ group :development do
   gem 'rake'
   gem 'rubygems-tasks'
 end
+
+group :test do
+  gem 'rspec', '~> 3'
+  gem 'rspec-its', '~> 1'
+  gem 'vcr'
+  gem 'webmock'
+end

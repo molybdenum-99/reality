@@ -39,9 +39,4 @@ Gem::Specification.new do |s|
   s.add_dependency 'tzinfo'
   s.add_dependency 'ruby-sun-times'
   s.add_dependency 'time_boots'
-
-  s.add_development_dependency 'rspec', '~> 3'
-  s.add_development_dependency 'rspec-its', '~> 1'
-  s.add_development_dependency 'vcr'
-  s.add_development_dependency 'webmock'
 end
