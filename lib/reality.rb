@@ -19,7 +19,7 @@ module Reality
   # entities
   require_ %w[entity list]
   require_ %w[definitions/*]
-  require_ %w[methods]
+  require_ %w[methods names]
 
   extend Methods
 
