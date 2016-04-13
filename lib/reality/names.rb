@@ -1,7 +1,7 @@
 module Reality
   module Names
-    def Names.const_missing(name)
-      name = name.to_s.
+    def Names.const_missing(symbol)
+      name = symbol.to_s.
         gsub('_', ' ').
         gsub(/([a-z])([A-Z])/, '\1 \2')
       Reality::Entity(name) or super
