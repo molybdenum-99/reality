@@ -52,7 +52,11 @@ module Reality
       require 'irb'
       require 'reality/shortcuts'
       ::ARGV.clear
-      IRB::ExtendCommandBundle.include(Reality)
+
+      # FIXME: can't see better means to have everything accessible & included
+      #IRB::ExtendCommandBundle.include(Reality)
+      TOPLEVEL_BINDING.receiver.send(:include, Reality)
+
       IRB.setup nil
 
       IRB.conf[:IRB_NAME] = 'reality'
@@ -70,7 +74,7 @@ module Reality
       IRB.conf[:MAIN_CONTEXT] = IRB::Irb.new.context
 
       require 'irb/ext/multi-irb'
-      IRB.irb nil, self
+      IRB.irb nil, TOPLEVEL_BINDING
     end
 
     private
