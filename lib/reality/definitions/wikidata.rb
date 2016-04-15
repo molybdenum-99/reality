@@ -34,7 +34,7 @@ module Reality
     predicate 'P969', :street_address, :string
     predicate 'P131', :located_in, :entity
 
-    # Economy and socilogy ---------------------------------------------
+    # Economy and sociology ---------------------------------------------
     predicate 'P38', :currency, :entity
     predicate 'P463', :organizations, [:entity]
     predicate 'P2131', :gdp_nominal, :measure, unit: '$'

@@ -1,4 +1,10 @@
 module Reality
+  # Wrapper for numeric values.
+  # Example:
+  #   Reality::Entity.new('Ukraine', load: true).area
+  #    => #<Reality::Measure(603,500 km²)>
+  # Keeps information about value unit
+  # Allows coercion and general Numeric operations
   class Measure
     %w[unit].each{|mod| require_relative "measure/#{mod}"}
     
@@ -7,7 +13,9 @@ module Reality
     def Measure.coerce(amount, unit)
       amount && unit && new(amount, unit)
     end
-    
+
+    # @param amount - numeric value, e.g. 100.5
+    # @param unit - can be any string, e.g. 'km', '$'
     def initialize(amount, unit)
       @amount, @unit = Rational(amount), Unit.parse(unit)
     end

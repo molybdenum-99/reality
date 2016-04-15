@@ -6,7 +6,20 @@ module Reality
     
     attr_reader :wikipage, :wikidata, :wikidata_id
     attr_reader :values, :wikipedia_type
-    
+
+    # Initializes entity and extends properties from data sources
+    #
+    # Examples:
+    #   Reality::Entity.new('Mississippi')
+    #     => #<Reality::Entity?(Mississippi)>
+    #   Reality::Entity.new('Mississippi', load: true)
+    #     => #<Reality::Entity(Mississippi)>
+    #
+    # @param name [String]
+    # @param wikipage [Infoboxer::MediaWiki::Page] - optional
+    # @param wikidata [Reality::Wikidata::Entity] - optional
+    # @param wikidata_id [String] - optional
+    # @param load [true, false] - Executes fetching. Default: false
     def initialize(name, wikipage: nil, wikidata: nil, wikidata_id: nil, load: false)
       @name = name
       @wikipage, @wikidata, @wikidata_id = wikipage, wikidata, wikidata_id
@@ -16,6 +29,7 @@ module Reality
       after_load if @wikipage
     end
 
+    # @return [String]
     def name
       @wikipage ? @wikipage.title : @name
     end
@@ -28,11 +42,24 @@ module Reality
       end
     end
 
-    def _describe
-      load! unless loaded?
-      Util::Format.describe(inspect, values.map{|k,v| [k, v.inspect]})
-    end
-
+    # Prints general object state and all properties with values
+    #
+    # Example:
+    # $> Reality::Entity.new('Mississippi').describe
+    #   Output:
+    #   -------------------------------
+    #   <Reality::Entity(Mississippi)>
+    #   -------------------------------
+    #          capital: #<Reality::Entity?(Jackson)>
+    #            coord: #<Reality::Geo::Coord(33°0′0″N,90°0′0″W)>
+    #          country: #<Reality::Entity?(United States of America)>
+    #       created_at: Wed, 10 Dec 1817
+    #       located_in: #<Reality::Entity?(United States of America)>
+    #       neighbours: #<Reality::List[Alabama?, Tennessee?, Louisiana?, Arkansas?]>
+    # official_website: "http://www.mississippi.gov"
+    #        tz_offset: #<Reality::TZOffset(UTC-06:00)>
+    #
+    # @return [nil]
     def describe
       puts _describe
       nil
@@ -47,6 +74,10 @@ module Reality
       "#{name.include?(',') ? '"' + name + '"' : name}#{loaded? ? '' : '?'}"
     end
 
+    # Loads wikipage and wikidata by wikidata_id or entity name
+    # We try to lazy-load data so this method is executed on demand
+    #
+    # @return [self]
     def load!
       if @wikidata_id
         @wikidata = Wikidata::Entity.one_by_id(@wikidata_id)
@@ -65,11 +96,21 @@ module Reality
       self
     end
 
+    # Assigns pre-loaded data sources and extends entity properties
+    #
+    # @param wikidata
+    # @param wikipage
+    #
+    # @return [self]
     def setup!(wikipage: nil, wikidata: nil)
       @wikipage, @wikidata = wikipage, wikidata
       after_load if @wikipage || @wikidata
+      self
     end
 
+    # Returns true if at least 1 main data source - wikipedia page or wikidata - is loaded
+    #
+    # @return [true, false]
     def loaded?
       !!(@wikipage || @wikidata)
     end
@@ -99,10 +140,14 @@ module Reality
     end
 
     class << self
-      def load(name, type = nil)
+      # Initializes Entity and loads it's data
+      #
+      # @param name [String]
+      #
+      # @return [Entity]
+      def load(name)
         Entity.new(name, load: true).tap{|entity|
           return nil if !entity.loaded?
-          return nil if type && entity.wikipedia_type != type
         }
       end
     end
@@ -131,6 +176,11 @@ module Reality
       (@values.keys - methods).each do |sym|
         define_singleton_method(sym){@values[sym]}
       end
+    end
+
+    def _describe
+      load! unless loaded?
+      Util::Format.describe(inspect, values.map{|k,v| [k, v.inspect]})
     end
   end
 end

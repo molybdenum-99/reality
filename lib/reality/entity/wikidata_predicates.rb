@@ -1,5 +1,6 @@
 module Reality
   class Entity
+    # @private
     module WikidataPredicates
       module_function
       
