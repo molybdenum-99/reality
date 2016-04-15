@@ -26,32 +26,95 @@ module Reality
   #
   class Entity
     using Refinements
-    
-    attr_reader :wikipage, :wikidata, :wikidata_id
-    attr_reader :values, :wikipedia_type
 
-    # Initializes entity and extends properties from data sources
+    # Instance of Infoboxer's [page](http://www.rubydoc.info/gems/infoboxer/Infoboxer/MediaWiki/Page).
     #
-    # Examples:
-    #   Reality::Entity.new('Mississippi')
-    #     => #<Reality::Entity?(Mississippi)>
-    #   Reality::Entity.new('Mississippi', load: true)
-    #     => #<Reality::Entity(Mississippi)>
+    # Pretty useful on its own:
     #
-    # @param name [String]
-    # @param wikidata_id [String] - optional
-    #def initialize(name, wikipage: nil, wikidata: nil, wikidata_id: nil, load: false)
+    # ```ruby
+    # puts Reality::Entity('Argentina').wikipage.intro
+    # # Argentina (ˌɑrdʒənˈtiːnə; aɾxenˈtina), officially the Argentine Republic (República Argentina), is a federal republic....
+    # ```
+    #
+    # Refer to [Infoboxer's documentation](http://www.rubydoc.info/gems/infoboxer/Infoboxer/MediaWiki/Page)
+    # for details.
+    #
+    # @return [Infoboxer::MediaWiki::Page]
+    attr_reader :wikipage
+
+    # All values extracted from data sources, in structured form.
+    # You can pretty-previes them via {#describe}, as well as work with
+    # separate values with method call (see {#method_missing}).
+    #
+    # @return [Hash<Symbol, Object>]
+    attr_reader :values
+
+    # @private
+    attr_reader :wikipedia_type, :wikidata, :wikidata_id
+
+    # Creates new entity. Initially, entity is _not_ loaded from datasources,
+    # it's just a name. If you want to receive a loaded entity with one
+    # statement, take a look at {Entity.load}, which does `new` + `load!`
+    # under the hoods.
+    #
+    # ```
+    # e = Reality::Entity.new('Mississippi')
+    # # => #<Reality::Entity?(Mississippi)>
+    # e.loaded?
+    # # => false
+    # e.values
+    # # => {}
+    # ```
+    #
+    # @param name [String] Name of the entity you want. Basically, it's
+    #   Wikipedia page name for some concept. Not-so-basically, please
+    #   refer to [names explanation](https://github.com/molybdenum-99/reality/wiki/Entity#entity-names)
+    #   in our wiki.
+    # @param wikidata_id [String] Used mostly internally (when not only
+    #   entity name, but also wikidata id is known; this happens on loading
+    #   entities by references from other entities).
     def initialize(name, wikidata_id: nil)
       @name = name
       @wikidata_id = wikidata_id
       @values = {}
     end
 
+    # Entity name string. For not loaded entity returns the name by which it
+    # was created. For loaded, it's correct name of Wikipedia page:
+    #
+    # ```ruby
+    # e = Reality::Entity.new('Einstein')
+    # # => #<Reality::Entity?(Einstein)>
+    # e.name
+    # # => "Einstein"
+    # e.load!
+    # # => #<Reality::Entity(Albert Einstein)>
+    # e.name
+    # # => "Albert Einstein"
+    # ```
+    #
     # @return [String]
     def name
       @wikipage ? @wikipage.title : @name
     end
 
+    # Returns entity brief representation. Things to note:
+    #
+    # ```
+    # #<Reality::Entity?(Argentina)>
+    #                  ^    ^
+    #                  |  Entity name
+    #             Sign of not
+    #             loaded entity
+    #
+    # #<Reality::Entity(Argentina):country>
+    #                  ^             ^
+    #                  |           Name of "additional type" (to be documented...)
+    #            No question mark:
+    #            entity is loaded
+    # ```
+    #
+    # @return [String]
     def inspect
       if @wikipedia_type && @wikipedia_type.symbol
         "#<#{self.class}#{loaded? ? '' : '?'}(#{name}):#{@wikipedia_type.symbol}>"
@@ -116,21 +179,17 @@ module Reality
       self
     end
 
-    # Assigns pre-loaded data sources and extends entity properties
-    #
-    # @param wikidata
-    # @param wikipage
-    #
-    # @return [self]
+    # @private
     def setup!(wikipage: nil, wikidata: nil)
       @wikipage, @wikidata = wikipage, wikidata
       after_load if @wikipage || @wikidata
       self
     end
 
-    # Returns true if at least 1 main data source - wikipedia page or wikidata - is loaded
+    # Returns true if at least one of main data sources - wikipedia page
+    # or wikidata - is loaded.
     #
-    # @return [true, false]
+    # @return [Boolean]
     def loaded?
       !!(@wikipage || @wikidata)
     end
@@ -139,6 +198,18 @@ module Reality
     # Don't try to convert me!
     UNSUPPORTED_METHODS = [:to_hash, :to_ary, :to_a, :to_str, :to_int]
 
+    # Entity handles `method_missing` this way:
+    #
+    # * loads itself if it was not loaded;
+    # * returns one of {values} by method name.
+    # 
+    # Note, that even if there's no value with required key, `method_missing`
+    # will return `nil` (and not through `NoMethodError` as someone may
+    # expect). That's because even supposedly homogenous entities may have different
+    # property sets, and typically you want to do something like
+    # `cities.map(&:area).compact.inject(:+)`, not handling exceptions
+    # about "this city has no 'area' property".
+    #
     def method_missing(sym, *arg, **opts, &block)
       if arg.empty? && opts.empty? && !block && sym !~ /[=?!]/ &&
         !UNSUPPORTED_METHODS.include?(sym)
@@ -156,16 +227,19 @@ module Reality
       end
     end
 
+    # @private
     def respond_to?(sym, include_all = false)
       sym !~ /[=?!]/ && !UNSUPPORTED_METHODS.include?(sym) || super(sym)
     end
 
     class << self
-      # Initializes Entity and loads it's data
+      # Loads Entity from all datasources. Returns either loaded entity
+      # or `nil` if entity not found.
       #
-      # @param name [String]
+      # @param name [String] See {#initialize} for explanations about
+      #   entity names.
       #
-      # @return [Entity]
+      # @return [Entity, nil]
       def load(name)
         Entity.new(name).load!.tap{|entity|
           return nil if !entity.loaded?
@@ -173,12 +247,64 @@ module Reality
       end
     end
 
+    # Converts Entity to hash, preserving only _core types_ (so, you can
+    # store this hash in YAML or JSON, for example). Some notes on conversion:
+    # * Entity name goes to `:name` key;
+    # * Rational values became floating point;
+    # * {Measure} and {Geo::Coord} became hashes;
+    # * other entities became: when loaded - hashes, when not loaded -
+    #    just strings of entity name
+    #
+    # Example:
+    #
+    # ```ruby
+    # argentina = Reality::Entity('Argentina')
+    # # => #<Reality::Entity(Argentina):country>
+    # argentina.head_of_government.load!
+    # # => #<Reality::Entity(Mauricio Macri)>
+    # agentina.to_h
+    # # {:name=>"Argentina",
+    # # :long_name=>"Argentine Republic",
+    # # :area=>{:amount=>2780400.0, :unit=>"km²"},
+    # # :gdp_ppp=>{:amount=>964279000000.0, :unit=>"$"},
+    # # :population=>{:amount=>43417000.0, :unit=>"person"},
+    # # :head_of_government=>
+    # #   {:name=>"Mauricio Macri", 
+    # #   :birthday=>"1959-02-08",
+    # #   ....},
+    # # :country=>"Argentina",
+    # # :continent=>"South America",
+    # # :head_of_state=>"Mauricio Macri",
+    # # :capital=>"Buenos Aires",
+    # # :currency=>"peso",
+    # # :neighbours=>["Uruguay", "Brazil", "Chile", "Paraguay", "Bolivia"],
+    # # :tld=>".ar",
+    # # :adm_divisions=>["Buenos Aires", "Buenos Aires Province", ....],
+    # # :iso2_code=>"AR",
+    # # :iso3_code=>"ARG",
+    # # :part_of=>["Latin America"],
+    # # :tz_offset=>"-03:00",
+    # # :organizations=>["United Nations","Union of South American Nations","Mercosur",...],
+    # # :calling_code=>"+54",
+    # # :created_at=>"1816-01-01",
+    # # :highest_point=>"Aconcagua",
+    # # :coord=>{:lat=>-34.0, :lng=>-64.0},
+    # # :official_website=>"http://www.argentina.gob.ar/",
+    # # :gdp_nominal=>{:amount=>537659972702.0, :unit=>"$"}}
+    # # 
+    # ```
+    #
+    # @return [Hash]
     def to_h
       load! unless loaded?
       {name: name}.merge \
         values.map{|k, v| [k.to_sym, Coercion.to_simple_type(v)]}.to_h
     end
 
+    # Converts entity to JSON (same as `entity.to_h.to_json`)
+    #
+    # @see #to_h
+    # @return [String]
     def to_json
       to_h.to_json
     end
