@@ -53,7 +53,7 @@ module Reality
       let(:infobox){double(name: '')}
       let(:wikipage){double(title: 'Paris, France', infobox: infobox)}
       let(:wikidata){double(predicates: {})}
-      let(:entity){Entity.new('Argentina', wikidata: wikidata, wikipage: wikipage)}
+      let(:entity){Entity.new('Argentina').setup!(wikidata: wikidata, wikipage: wikipage)}
 
       subject(:type){
         Module.new{

@@ -3,7 +3,7 @@ module Reality
     before(:all){
       # parsed only once - faster tests
       VCR.use_cassette('Continent-South-America'){
-        @continent = Reality::Entity.new('South America', load: true) 
+        @continent = Reality::Entity('South America') 
       }
     }
     subject(:continent){@continent}

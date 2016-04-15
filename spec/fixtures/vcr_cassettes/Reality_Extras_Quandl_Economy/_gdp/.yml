@@ -1,0 +1,78 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.quandl.com/api/v3/datasets/ODA/UKR_NGDPD/data
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      X-Api-Token:
+      - JU6KEPEkqqqfVkcpa9MU
+      Request-Source:
+      - ruby
+      Request-Source-Version:
+      - 1.0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 15 Apr 2016 13:26:18 GMT
+      Etag:
+      - W/"bbd3fa558fbaeb7e71d5420b45b6a59f"
+      Server:
+      - openresty
+      Set-Cookie:
+      - user_uuid=d5643b07-8086-4aee-85b0-ddf525375eb7; path=/; expires=Tue, 15 Apr
+        2036 13:26:18 -0000
+      Vary:
+      - Origin
+      X-Api-Version:
+      - '2015-04-09'
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rack-Cors:
+      - preflight-hit; no-origin
+      X-Ratelimit-Limit:
+      - '50000'
+      X-Ratelimit-Remaining:
+      - '49988'
+      X-Request-Id:
+      - 10cb6d6d-8f7d-4683-8ebd-82707b2615c5
+      X-Runtime:
+      - '0.048605'
+      X-Xss-Protection:
+      - 1; mode=block
+      Content-Length:
+      - '377'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA1zTS2rDMBCA4bto7Q4ajfXKumfoJpggYgUCjtL6AS0hd6+S
+        SGO3q8BnMdYvKzfRhzlMcT48fsXuJobz5TyLXVqGoRHzGNJ0uo6XCsfrsFzS
+        4Zz6+P3PUrjESez24j3MUTTiIwxLFF0jpjmMz/lR7AR6r95QvRHmJTH11ZVU
+        kv00xq8lpuNPfhBSWsKQ8bXB/f7PUiQLTpuueTB6ZqXBeyzsmFFDq3Vhyyxb
+        IGkLm8qewKEqqlklILmi7boPCaZug1itB23rCLWyBsvvQ2ZDgKZuepNoIK96
+        sdwkImhdZss10TlQbdG1sHVgqTIXIiI4V85DcqLzoFydzInGglIlUXKiVnlz
+        BTmwJfD1o0juI59P2RflPFJA9JyQr4bfqDFV3WYuoS7KcTpHGFuU29p8ao6K
+        chrl07F1QrtR+frSWTmNNEhV13KbUoCeuu5574fwOcX6P7iOfRzzje3jdBT3
+        +y8AAAD//wMAeuIplVsDAAA=
+    http_version: 
+  recorded_at: Fri, 15 Apr 2016 13:26:18 GMT
+recorded_with: VCR 3.0.0

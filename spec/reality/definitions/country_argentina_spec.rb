@@ -4,7 +4,7 @@ module Reality
       before(:all){
         # parsed only once - faster tests
         VCR.use_cassette('Country-Argentina'){
-          @country = Reality::Entity.new('Argentina', load: true) 
+          @country = Reality::Entity('Argentina') 
         }
       }
       

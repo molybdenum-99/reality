@@ -5,6 +5,7 @@ gem 'infoboxer', git: 'https://github.com/molybdenum-99/infoboxer.git', branch: 
 gemspec
 
 group :docs do
+  gem 'yard'
   gem 'dokaz', git: 'https://github.com/zverok/dokaz.git'
 end
 

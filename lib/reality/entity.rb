@@ -1,6 +1,29 @@
 module Reality
   require_ %w[entity/coercion entity/wikidata_predicates entity/wikipedia_type]
-  
+
+  # Reality::Entity is a main concept of the library. It represents errr
+  # well, some entity from real world. You can think of it as of rough
+  # equivalent of Wikipedia article.
+  #
+  # Wiki has more details about entity [concept](https://github.com/molybdenum-99/reality/wiki/Entity)
+  # and [internals](https://github.com/molybdenum-99/reality/wiki/Entity%20internals).
+  #
+  # The easiest way to have an entity is to instantiate is as {Entity.load}
+  # (also aliased as `Reality.Entity()` method): you'll just have your
+  # entity already _loaded_ from all possible data sources (or `nil` if
+  # neither of them knows about it):
+  #
+  # ```ruby
+  # argentina = Reality::Entity('Argentina')
+  # # => #<Reality::Entity(Argentina):country>
+  # ```
+  # Then, you can use {#describe} to see what properties entity has, and
+  # call any of them by name, like `argentina.capital`.
+  #
+  # Or you can create not loaded entities with just {#initialize} (it
+  # may be useful when you want to further batch-load several of them 
+  # through {List#load!}).
+  #
   class Entity
     using Refinements
     
@@ -16,17 +39,12 @@ module Reality
     #     => #<Reality::Entity(Mississippi)>
     #
     # @param name [String]
-    # @param wikipage [Infoboxer::MediaWiki::Page] - optional
-    # @param wikidata [Reality::Wikidata::Entity] - optional
     # @param wikidata_id [String] - optional
-    # @param load [true, false] - Executes fetching. Default: false
-    def initialize(name, wikipage: nil, wikidata: nil, wikidata_id: nil, load: false)
+    #def initialize(name, wikipage: nil, wikidata: nil, wikidata_id: nil, load: false)
+    def initialize(name, wikidata_id: nil)
       @name = name
-      @wikipage, @wikidata, @wikidata_id = wikipage, wikidata, wikidata_id
+      @wikidata_id = wikidata_id
       @values = {}
-      
-      load! if load
-      after_load if @wikipage
     end
 
     # @return [String]
@@ -45,6 +63,8 @@ module Reality
     # Prints general object state and all properties with values
     #
     # Example:
+    #
+    # ```
     # $> Reality::Entity.new('Mississippi').describe
     #   Output:
     #   -------------------------------
@@ -58,8 +78,7 @@ module Reality
     #       neighbours: #<Reality::List[Alabama?, Tennessee?, Louisiana?, Arkansas?]>
     # official_website: "http://www.mississippi.gov"
     #        tz_offset: #<Reality::TZOffset(UTC-06:00)>
-    #
-    # @return [nil]
+    # ```
     def describe
       puts _describe
       nil
@@ -69,6 +88,7 @@ module Reality
       name
     end
 
+    # @private
     def to_s?
       # FIXME: fuuuuuuuu
       "#{name.include?(',') ? '"' + name + '"' : name}#{loaded? ? '' : '?'}"
@@ -115,6 +135,7 @@ module Reality
       !!(@wikipage || @wikidata)
     end
 
+    # @private
     # Don't try to convert me!
     UNSUPPORTED_METHODS = [:to_hash, :to_ary, :to_a, :to_str, :to_int]
 
@@ -146,7 +167,7 @@ module Reality
       #
       # @return [Entity]
       def load(name)
-        Entity.new(name, load: true).tap{|entity|
+        Entity.new(name).load!.tap{|entity|
           return nil if !entity.loaded?
         }
       end

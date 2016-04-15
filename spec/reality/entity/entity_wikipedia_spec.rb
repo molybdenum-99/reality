@@ -33,12 +33,12 @@ module Reality
     end
 
     context 'type selection for preloaded' do
-      subject(:entity){Entity.new('Paris', wikipage: wikipage, wikidata: wikidata)}
+      subject(:entity){Entity.new('Paris').setup!(wikipage: wikipage, wikidata: wikidata)}
       it{should be_a type}
     end
 
     context 'values parsed' do
-      subject(:entity){Entity.new('Paris', wikipage: wikipage, wikidata: wikidata)}
+      subject(:entity){Entity.new('Paris').setup!(wikipage: wikipage, wikidata: wikidata)}
       its(:values){should include(area: Measure.new(2_780_400, 'km²'))}
     end
 
@@ -54,7 +54,7 @@ module Reality
           Reality.send(:remove_const, :CountryX)
         end
       }
-      subject(:entity){Entity.new('Paris', wikipage: wikipage, wikidata: wikidata)}
+      subject(:entity){Entity.new('Paris').setup!(wikipage: wikipage, wikidata: wikidata)}
       its(:inspect){should == "#<Reality::Entity(Paris, France):country_x>"}
     end
   end

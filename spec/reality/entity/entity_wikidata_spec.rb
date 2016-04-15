@@ -23,7 +23,7 @@ module Reality
         'dummy3' => [Wikidata::Link.new('Q750', 'Bolivia'), Wikidata::Link.new('Q155', 'Brazil')]
       )
     }
-    subject(:entity){Entity.new('Paris', wikipage: wikipage, wikidata: wikidata)}
+    subject(:entity){Entity.new('Paris').setup!(wikipage: wikipage, wikidata: wikidata)}
 
     it 'parses all recognized properties on load' do
       expect(entity.values).to be_a Hash

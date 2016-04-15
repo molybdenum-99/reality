@@ -115,7 +115,7 @@ module Reality
       end
 
       context 'loaded entities' do
-        let(:entity){Entity.new('Argentina', wikipage: make_page('Argentina'), wikidata: make_data('Argentina'))}
+        let(:entity){Entity.new('Argentina').setup!(wikipage: make_page('Argentina'), wikidata: make_data('Argentina'))}
         subject{List.new(entity)}
 
         its(:inspect){should == '#<Reality::List[Argentina]>'}

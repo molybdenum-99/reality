@@ -68,20 +68,8 @@ module Reality
       its(:values){should_not be_empty}
     end
 
-    context 'loading on initialize' do
-      before{
-        expect(Infoboxer.wikipedia).to receive(:get).
-          with('Paris').and_return(wikipage)
-        expect(Wikidata::Entity).to receive(:one_by_wikititle).
-          with('Paris, France').and_return(wikidata)
-      }
-
-      subject(:entity){Entity.new('Paris', load: true)}
-      it{should be_loaded}
-    end
-
     context 'when prepopulated with data' do
-      subject(:entity){Entity.new('Paris', wikipage: wikipage, wikidata: wikidata)}
+      subject(:entity){Entity.new('Paris').setup!(wikipage: wikipage, wikidata: wikidata)}
 
       it 'should consider data loaded' do
         expect(entity.wikipage).to eq wikipage
@@ -89,9 +77,6 @@ module Reality
       end
       it{should be_loaded}
       its(:name){should == 'Paris, France'}
-    end
-
-    context 'when prepopulated with Wikipedia only' do
     end
   end
 end

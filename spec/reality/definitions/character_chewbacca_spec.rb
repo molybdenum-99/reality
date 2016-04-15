@@ -3,7 +3,7 @@ module Reality
     before(:all){
       # parsed only once - faster tests
       VCR.use_cassette('Character-Chewbacca'){
-        @character = Reality::Entity.new('Chewbacca', load: true) 
+        @character = Reality::Entity('Chewbacca') 
       }
     }
     subject(:character){@character}

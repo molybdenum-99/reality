@@ -1,0 +1,67 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.quandl.com/api/v3/datasets/ODA/UKR_PCPIPCH/data
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      X-Api-Token:
+      - JU6KEPEkqqqfVkcpa9MU
+      Request-Source:
+      - ruby
+      Request-Source-Version:
+      - 1.0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 15 Apr 2016 13:26:16 GMT
+      Etag:
+      - W/"a81784834e7ae25c5ff7e7629628915d"
+      Server:
+      - openresty
+      Set-Cookie:
+      - user_uuid=272f070b-1b93-4eba-a527-b0e4e541cd5b; path=/; expires=Tue, 15 Apr
+        2036 13:26:16 -0000
+      Vary:
+      - Origin
+      X-Api-Version:
+      - '2015-04-09'
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rack-Cors:
+      - preflight-hit; no-origin
+      X-Ratelimit-Limit:
+      - '50000'
+      X-Ratelimit-Remaining:
+      - '49990'
+      X-Request-Id:
+      - 5777b051-49a3-40e0-9405-3c789f4d525a
+      X-Runtime:
+      - '0.042523'
+      X-Xss-Protection:
+      - 1; mode=block
+      Content-Length:
+      - '812'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"dataset_data":{"limit":null,"transform":null,"column_index":null,"column_names":["Date","Value"],"start_date":"1993-12-31","end_date":"2020-12-31","frequency":"annual","data":[["2020-12-31",5.016],["2019-12-31",5.005],["2018-12-31",6.981],["2017-12-31",9.862],["2016-12-31",14.18],["2015-12-31",49.979],["2014-12-31",12.1],["2013-12-31",-0.261],["2012-12-31",0.565],["2011-12-31",7.958],["2010-12-31",9.365],["2009-12-31",15.9],["2008-12-31",25.201],["2007-12-31",12.843],["2006-12-31",9.076],["2005-12-31",13.52],["2004-12-31",9.036],["2003-12-31",5.21],["2002-12-31",0.757],["2001-12-31",11.959],["2000-12-31",28.203],["1999-12-31",22.684],["1998-12-31",10.577],["1997-12-31",15.886],["1996-12-31",80.23],["1995-12-31",376.745],["1994-12-31",891.187],["1993-12-31",4734.914]],"collapse":null,"order":"desc"}}'
+    http_version: 
+  recorded_at: Fri, 15 Apr 2016 13:26:16 GMT
+recorded_with: VCR 3.0.0
