@@ -2,6 +2,8 @@ require 'optparse'
 require 'reality/pretty_inspect'
 
 module Reality
+  # This module contains services used from `bin/reality`, you typically
+  # don't need to think of it.
   class CommandLine
     attr_accessor :search_term, :article, :commands, :options, :errors
 
