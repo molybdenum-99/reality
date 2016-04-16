@@ -32,15 +32,22 @@ module Reality
     end
   end
 
+  # @private
   def Reality.config
     @config ||= Config.new
   end
 
-  def Reality.configure(cfg)
-    if cfg == :demo
+  # Allows to configure Reality.
+  #
+  # @param path [String] Path to config. See `config/demo.yml` for config
+  #   sample. Also, you can use `:demo` value for config Reality with
+  #   demo keys.
+  #
+  def Reality.configure(path)
+    if path == :demo
       config.load(File.expand_path('../../../config/demo.yml', __FILE__))
     else
-      config.load(cfg)
+      config.load(path)
     end
   end
 end

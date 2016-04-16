@@ -1,7 +1,14 @@
 require 'infoboxer'
 require 'yaml'
 
+# Reality is library for accessing all world data, starting from Wikipedia.
+#
+# Look at {Entity} for good starting point.
+#
+# You also may want to navigate [Getting started](https://github.com/molybdenum-99/reality/wiki/Getting-started)
+# page in our wiki.
 module Reality
+  # @private
   def self.require_(*modules)
     modules.flatten.flat_map{|pattern|
       Dir[File.expand_path("../reality/#{pattern}.rb", __FILE__)]
@@ -23,10 +30,6 @@ module Reality
 
   include Methods
   extend Methods
-
-  def self.reload!
-    require_ %w[definitions/*]
-  end
 
   # extras
   require_ %w[extras/open_weather_map extras/geonames extras/quandl]
