@@ -1,26 +1,49 @@
 module Reality
-  # List is an array of Entities
-  # It optimizes data load by grouping http requests into one.
-  # It can be created with a set of Entities or with a set of their names
+  # List is subclass of Array, which allows effective entities storing
+  # and loading.
+  #
+  # You can create list from entities or just their names:
+  #
+  # ```ruby
+  # Reality::List.new('Argentina', 'Ukraine')
+  # # => #<Reality::List[Argentina?, Ukraine?]>
+  # ```
+  #
+  # ...or from existing entities:
+  #
+  # ```ruby
+  # Reality::List.new(Reality::Entity.new('Argentina'), Reality::Entity.new('Ukraine'))
+  # # => #<Reality::List[Argentina?, Ukraine?]>
+  # ```
+  #
+  # List is useful for compact inspect (see above), and for effective
+  # batch loading (see {#load!}).
+  #
+  # Also, List is smart enough to remain List on multiple enumerable
+  # methods like `#select`, `#reject`, `#map` and so on:
+  #
+  # ```ruby
+  # Reality::List.new('Argentina', 'Bolivia', 'Chile').sample(2)
+  # # => #<Reality::List[Chile?, Argentina?]>
+  #
+  # Reality::List.new('Argentina', 'Bolivia', 'Chile').load!.map(&:capital)
+  # # => #<Reality::List[Buenos Aires?, La Paz?, Santiago?]>
+  # ```
+  #
   class List < Array
     using Refinements
 
-
-    # Creates List from a set of entity names or entity objects
+    # Creates List from a set of entity names or entity objects.
+    # Also aliased as `Reality::List()` method.
     #
-    # Example 1:
-    # Reality::List.new('Argentina', 'Ukraine')
-    # => #<Reality::List[Argentina?, Ukraine?]>
-    #
-    # Example 2:
-    # Reality::List.new(entity1, entity2)
-    # => #<Reality::List[Argentina, Ukraine]>
     def initialize(*names)
       super names.map(&method(:coerce))
     end
 
-    # Loads entities data.
-    # Optimized to make only 2 queries - to Wikipedia and Wikidata
+    # Loads all entities in batch. Optimized to make as few requests
+    # as possible. Typically, when you want to load several entities
+    #
+    # @return [self]
     def load!
       compact.partition(&:wikidata_id).tap{|wd, wp|
           load_by_wikipedia(wp)
@@ -41,10 +64,24 @@ module Reality
       }
     end
 
+    # @return [String]
     def inspect
       "#<#{self.class.name}[#{map{|e| e ? e.to_s? : e.inspect}.join(', ')}]>"
     end
 
+    # Prints compact description of the list. Implicitly loads all list
+    # if not loaded.
+    #
+    # ```ruby
+    # Reality::List.new('Argentina', 'Bolivia', 'Chile').describe
+    # # -------------------------
+    # # #<Reality::List(3 items)>
+    # # -------------------------
+    # #   keys: adm_divisions (3), area (3), calling_code (3), capital (3), continent (3), coord (3), country (3), created_at (3), currency (3), gdp_nominal (3), gdp_ppp (3), head_of_government (2), head_of_state (3), highest_point (3), iso2_code (3), iso3_code (3), long_name (3), neighbours (3), official_website (1), organizations (3), part_of (3), population (3), tld (3), tz_offset (3)
+    # #  types: country (3)
+    # ```
+    #
+    # @return [nil]
     def describe
       load! unless all?(&:loaded?)
       
