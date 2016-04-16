@@ -20,6 +20,8 @@ group :development do
   #gem 'progress_bar'
   gem 'rake'
   gem 'rubygems-tasks'
+  gem 'iruby'
+  gem 'rbczmq'
 end
 
 group :test do
