@@ -1,4 +1,5 @@
 module Reality
+  # @private
   module Character
     extend Entity::WikipediaType
 

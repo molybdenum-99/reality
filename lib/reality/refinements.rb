@@ -1,4 +1,5 @@
 module Reality
+  # @private
   module Refinements
     refine Object do
       def derp

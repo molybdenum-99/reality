@@ -1,4 +1,5 @@
 module Reality
+  # @private
   module Util
     module Format
       module_function

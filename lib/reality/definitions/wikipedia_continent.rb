@@ -1,4 +1,5 @@
 module Reality
+  # @private
   module Continent
     extend Entity::WikipediaType
 

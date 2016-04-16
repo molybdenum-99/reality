@@ -1,4 +1,5 @@
 module Reality
+  # @private
   module Person
     extend Entity::WikipediaType
 

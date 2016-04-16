@@ -2,7 +2,8 @@ require_relative 'wikidata/query'
 
 module Reality
   using Reality::Refinements
-  
+
+  # @private
   module Wikidata
     class Link
       attr_reader :id, :label
