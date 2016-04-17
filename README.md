@@ -215,7 +215,8 @@ Currently, it would be great if somebody lay their hands on:
 * play with Reality and share your experiences and examples and problems
   and cool demos!
 
-[Development]() page in wiki explains some things a bit deeper.
+[Contributing](https://github.com/molybdenum-99/reality/wiki/Contributing)
+page in wiki explains some things a bit deeper.
 
 ## Compatibility
 
