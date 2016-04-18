@@ -19,6 +19,7 @@ inspectable and computable.
   * [...from command-line](#from-command-line)
   * [...from interactive console](#from-interactive-console)
 * [Good. What next?..](#good-what-next)
+* [Docs](#docs)
 * [Want to help?](#want-to-help)
 * [Compatibility](#compatibility)
 * [Credits](#credits)
