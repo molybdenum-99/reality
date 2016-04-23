@@ -13,7 +13,7 @@ module Reality
     let(:html){data.to_html}
     subject(:doc){Nokogiri::HTML(html)}
 
-    its(:text){is_expected.to eq 'Reality::Measure(100kg)'}
+    its(:text){is_expected.to eq '100kg'}
   end
 
   describe Geo::Coord, '#to_html' do
@@ -21,7 +21,7 @@ module Reality
     let(:html){data.to_html}
     subject(:doc){Nokogiri::HTML(html)}
 
-    its(:text){is_expected.to eq 'Reality::Geo::Coord(38°53′23″N,77°0′32″W)'}
+    its(:text){is_expected.to eq '38°53′23″N, 77°0′32″W'}
   end
 
   describe TZOffset, '#to_html' do
@@ -29,7 +29,7 @@ module Reality
     let(:html){data.to_html}
     subject(:doc){Nokogiri::HTML(html)}
 
-    its(:text){is_expected.to eq 'Reality::TZOffset(+02:00)'}
+    its(:text){is_expected.to eq '+02:00'}
   end
 
   describe Entity do
@@ -40,12 +40,7 @@ module Reality
         let(:html){country.to_html}
         subject(:doc){Nokogiri::HTML(html)}
 
-        its(:text){is_expected.to eq 'Reality::Entity?(Argentina)'}
-        it 'should notify that not loaded' do
-          sup = doc.at('sup')
-          expect(sup.text).to eq '?'
-          expect(sup.attr('title')).to eq 'Not loaded'
-        end
+        its(:text){is_expected.to eq 'Argentina'}
       end
     end
 

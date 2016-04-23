@@ -22,6 +22,7 @@ group :development do
   gem 'rubygems-tasks'
   gem 'iruby'
   gem 'rbczmq'
+  gem 'daru'
 end
 
 group :test do

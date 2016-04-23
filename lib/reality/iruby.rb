@@ -51,8 +51,12 @@ module Reality
       if loaded?
         Reality::IRuby.templates.entity.result(binding)
       else
-        Reality::IRuby.templates.entity_n.result(binding)
+        compact_to_html
       end
+    end
+
+    def compact_to_html
+      Reality::IRuby.templates.entity_n.result(binding)
     end
 
     include Reality::IRuby::Extensions
@@ -76,8 +80,23 @@ module Reality
   class List
     def to_html
       '[' + 
-      to_a.map{|i| i.nil? ? "<span style='background-color: gray;'>nil</span>" : i.to_html}.
+      to_a.map{|i| i.nil? ? "<span style='background-color: gray;'>nil</span>" : i.compact_to_html}.
         join(', ') + ']'
+    end
+
+    def to_dataframe(*fields)
+      require 'daru'
+      
+      load! unless any?(&:loaded?)
+      
+      if fields.empty?
+        fields = map{|e| e.values.keys}.flatten.uniq.sort
+      end
+      Daru::DataFrame.new(
+        #fields.map{|f| [f, map{|e| Entity::Coercion.to_simple_type(e.send(f))}]}.to_h.
+        fields.map{|f| [f, map{|e| e.send(f)}]}.to_h,
+        index: map(&:name)
+      )
     end
   end
 end

@@ -1,8 +1,13 @@
 <table style="border: 1px solid #B0C6D0; border-collapse: collapse;">
-  <% values.sort_by(&:first).each do |key, val| %>
-    <tr >
-      <th style="text-align:right; border: 1px solid #B0C6D0; padding: 2px; color:gray; font-variant: small-caps;"><%= key %></th>
-      <td style="border: 1px solid #B0C6D0; padding: 2px;"><%= iruby_render(val) %></td>
-    </tr>
-  <% end %>
+  <thead>
+    <tr><th colspan="2"  style="border: 1px solid #B0C6D0; padding: 4px; font-weight: bold; color: #B0C6D0; font-size: big; text-align: center;"><%= name %></th></tr>
+  </thead>
+  <tbody>
+    <% values.sort_by(&:first).each do |key, val| %>
+      <tr >
+        <th style="text-align:right; border: 1px solid #B0C6D0; padding: 2px; color:gray; font-variant: small-caps;"><%= key %></th>
+        <td style="border: 1px solid #B0C6D0; padding: 2px;"><%= iruby_render(val) %></td>
+      </tr>
+    <% end %>
+  </tbody>
 </table>
