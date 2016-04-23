@@ -1,4 +1,5 @@
 module Reality
+  # @private
   module City
     extend Entity::WikipediaType
 

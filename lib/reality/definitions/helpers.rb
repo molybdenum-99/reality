@@ -1,6 +1,7 @@
 require 'time_boots'
 
 module Reality
+  # @private
   # Just assorted "cool things", included into all entities
   # Subject to change/refactor
   module Helpers

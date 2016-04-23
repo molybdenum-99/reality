@@ -1,4 +1,5 @@
 module Reality
+  # @private
   module Util
     module Parse
       module_function

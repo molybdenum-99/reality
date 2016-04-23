@@ -19,6 +19,7 @@ inspectable and computable.
   * [...from command-line](#from-command-line)
   * [...from interactive console](#from-interactive-console)
 * [Good. What next?..](#good-what-next)
+* [Docs](#docs)
 * [Want to help?](#want-to-help)
 * [Compatibility](#compatibility)
 * [Credits](#credits)
@@ -94,7 +95,7 @@ page in our wiki. It's complicated, yet quite interesting.
 * Enrichement of existing data;
 * Teaching Ruby and data processing on realistic data...
 
-...and [more](applications).
+...and [more](https://github.com/molybdenum-99/reality/wiki/Applications).
 
 ## Uhm, ok. How to use it?
 
@@ -190,6 +191,13 @@ not-so-near plans looks like this (order is vague):
 * large demo-scripts set, maybe in independent repository;
 * separation of largely independent parts to another gems and libraries.
 
+## Docs
+
+* [Our wiki](https://github.com/molybdenum-99/reality/wiki) have pretty
+  comprehensive docs now, from Tutorial to some advanced topics;
+* [YARD docs](http://www.rubydoc.info/gems/reality) are mostly written
+  and contain explanations, examples and definitions.
+
 ## Want to help?
 
 Great!
@@ -208,7 +216,8 @@ Currently, it would be great if somebody lay their hands on:
 * play with Reality and share your experiences and examples and problems
   and cool demos!
 
-[Development]() page in wiki explains some things a bit deeper.
+[Contributing](https://github.com/molybdenum-99/reality/wiki/Contributing)
+page in wiki explains some things a bit deeper.
 
 ## Compatibility
 
@@ -227,7 +236,7 @@ to Wikipedia API. _TODO: explain the problem and point to recipes._
 * [Several great contributors](https://github.com/molybdenum-99/reality/graphs/contributors).
 
 Development of first version was sponsored by
-[2015 Ruby Association Grant](http://www.ruby.or.jp/en/news/20151116.html).
+[2015 Ruby Association Grant](http://www.ruby.or.jp/en/news/20160406.html).
 
 Initial idea is inspired by "integrated data" of
 [Wolfram Language](http://reference.wolfram.com/language/).

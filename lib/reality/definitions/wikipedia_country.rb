@@ -1,4 +1,5 @@
 module Reality
+  # @private
   module Country
     extend Entity::WikipediaType
 

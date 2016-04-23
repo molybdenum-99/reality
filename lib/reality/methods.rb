@@ -10,6 +10,10 @@ module Reality
       List.new(*names)
     end
 
+    def Measure(*arg)
+      Measure.new(*arg)
+    end
+
     extend Forwardable
     def_delegators Dictionaries, :countries, :continents
   end

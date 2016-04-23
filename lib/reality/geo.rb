@@ -7,20 +7,27 @@ module Reality
     # Keeps information about coordinates point.
     # All services that are based on particular point in space (Weather, Time) depend on it.
     # Many Entity types can have coordinates, they can be accessed as #coord  method which returns this class.
-    # Example:
-    #   Entity.new('Mississippi').coord
-    #     => #<Reality::Geo::Coord(33°0′0″N,90°0′0″W)>
     #
-    # Usage Examples:
-    #   coord = Reality::Geo::Coord.new(50.45, 30.52)
-    #      => #<Reality::Geo::Coord(50°27′0″N,30°31′24″E)>
-    #   coord.sunrise
-    #      => 2016-03-31 03:35:22 UTC
-    #   coord.distance_to(Entity('London'))
-    #      => #<Reality::Measure(2,135 km)>
+    # Example:
+    #
+    # ```ruby
+    # Reality::Entity('Mississippi').coord
+    # # => #<Reality::Geo::Coord(33°0′0″N,90°0′0″W)>
+    # ```
+    #
+    # Usage examples:
+    #
+    # ```ruby
+    # coord = Reality::Geo::Coord.new(50.45, 30.52)
+    # # => #<Reality::Geo::Coord(50°27′0″N,30°31′24″E)>
+    # coord.sunrise
+    # #  => 2016-03-31 03:35:22 UTC
+    # coord.distance_to(Reality::Entity('London'))
+    # #  => #<Reality::Measure(2,135 km)>
+    # ```
     #
     # Uses Geokit for some operations like #distance_to, #close_to? etc.
-
+    #
     class Coord
       attr_reader :lat, :lng
 

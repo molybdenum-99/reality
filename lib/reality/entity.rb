@@ -142,6 +142,8 @@ module Reality
     # official_website: "http://www.mississippi.gov"
     #        tz_offset: #<Reality::TZOffset(UTC-06:00)>
     # ```
+    #
+    # @return [nil]
     def describe
       puts _describe
       nil
@@ -157,8 +159,14 @@ module Reality
       "#{name.include?(',') ? '"' + name + '"' : name}#{loaded? ? '' : '?'}"
     end
 
-    # Loads wikipage and wikidata by wikidata_id or entity name
-    # We try to lazy-load data so this method is executed on demand
+    # Loads entity data from all external sources.
+    #
+    # Note that this method is called implicitly on {#method_missing},
+    # {#describe} or {#to_h}.
+    #
+    # Note also that if you need several entities to be loaded, its much
+    # more effective to have them grouped into {List} and batch-loaded
+    # via {List#load!}.
     #
     # @return [self]
     def load!
@@ -186,8 +194,7 @@ module Reality
       self
     end
 
-    # Returns true if at least one of main data sources - wikipedia page
-    # or wikidata - is loaded.
+    # Returns `true` if entity is loaded already.
     #
     # @return [Boolean]
     def loaded?

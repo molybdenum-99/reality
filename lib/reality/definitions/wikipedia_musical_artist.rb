@@ -1,4 +1,5 @@
 module Reality
+  # @private
   module MusicalArtist
     extend Entity::WikipediaType
 
