@@ -1,0 +1,8 @@
+<table>
+  <% values.sort_by(&:first).each do |key, val| %>
+    <tr>
+      <th><%= key %></th>
+      <td><%= iruby_render(val) %></td>
+    </tr>
+  <% end %>
+</table>
