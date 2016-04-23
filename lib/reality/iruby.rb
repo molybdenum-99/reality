@@ -1,3 +1,5 @@
+require 'erb'
+
 module Reality
   module IRuby
     using Refinements
@@ -8,51 +10,43 @@ module Reality
         map{|path| [File.basename(path).sub(/\..*$/, '').to_sym, ERB.new(File.read(path).strip)]}.
         to_h.derp{|h| Hashie::Mash.new(h)}
     end
+
+    module Extensions
+      def html_safe_inspect
+        inspect.gsub('<', '&lt;')
+      end
+
+      def html_reality_style
+        'border: 1px solid #B0C6D0; background-color: #DEE7EC; padding: 1px; cursor: pointer;'
+      end
+    end
   end
   
   class Measure
     def to_html
       Reality::IRuby.templates.measure.result(binding)
     end
+
+    include Reality::IRuby::Extensions
   end
 
   class TZOffset
     def to_html
       Reality::IRuby.templates.tz_offset.result(binding)
     end
+
+    include Reality::IRuby::Extensions
   end
 
   class Geo::Coord
     def to_html
       Reality::IRuby.templates.geo_coord.result(binding)
     end
+
+    include Reality::IRuby::Extensions
   end
   
   class Entity
-    #def to_html
-      #"<span style='background-color: #FBFBC1;'>#{name}</span>"
-    #end
-
-    #STYLE = %Q{
-      #<style>
-        #.reality-entity {border-color: '#FFA500;'}
-        #.reality-entity th {font-weight: bold; background-color: #F8F8D3;'}
-      #</style>
-    #}
-
-    #def to_html
-      #if loaded?
-        #STYLE + 
-        #"<table class='reality-entity'>" +
-          #values.sort_by(&:first).map{|key, value|
-            #"<tr><th>#{key}</th><td>#{value.inspect}</td></tr>"
-          #}.join +
-        #"</table>"
-      #else
-        #"<span style='background-color: #FBFBC1;'>#{name}</span>"
-      #end
-    #end
-
     def to_html
       if loaded?
         Reality::IRuby.templates.entity.result(binding)
@@ -60,6 +54,8 @@ module Reality
         Reality::IRuby.templates.entity_n.result(binding)
       end
     end
+
+    include Reality::IRuby::Extensions
 
     def path
       '(somehow iruby notebook fails without this thing)'
@@ -80,7 +76,7 @@ module Reality
   class List
     def to_html
       '[' + 
-      to_a.map{|i| i.nil? ? "<span style='background-color: gray;'>nil</span>" :  "<span style='background-color: #FBFBC1;'>#{i.name}</span>"}.
+      to_a.map{|i| i.nil? ? "<span style='background-color: gray;'>nil</span>" : i.to_html}.
         join(', ') + ']'
     end
   end
