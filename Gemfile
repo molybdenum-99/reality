@@ -20,9 +20,6 @@ group :development do
   #gem 'progress_bar'
   gem 'rake'
   gem 'rubygems-tasks'
-  gem 'iruby'
-  gem 'rbczmq'
-  gem 'daru'
 end
 
 group :test do
@@ -30,4 +27,8 @@ group :test do
   gem 'rspec-its', '~> 1'
   gem 'vcr'
   gem 'webmock'
+  gem 'iruby'
+  gem 'rbczmq'
+  gem 'daru'
+  gem 'nokogiri'
 end
