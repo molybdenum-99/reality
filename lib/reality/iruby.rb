@@ -45,6 +45,14 @@ module Reality
 
     include Reality::IRuby::Extensions
   end
+
+  class Reality::Extras::OpenWeatherMap::Weather
+    def to_html
+      Reality::IRuby.templates.weather.result(binding)
+    end
+
+    include Reality::IRuby::Extensions
+  end
   
   class Entity
     def to_html
