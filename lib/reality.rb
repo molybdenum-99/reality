@@ -36,4 +36,8 @@ module Reality
   include Extras::OpenWeatherMap
   include Extras::Geonames
   include Extras::Quandl
+
+  if defined?(::IRuby)
+    require_ %w[iruby]
+  end
 end
