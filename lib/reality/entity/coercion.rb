@@ -91,6 +91,19 @@ module Reality
         end
       end
 
+      def to_df_type(val)
+        # Fix only some types coercion for dataframes to have reasonable
+        # values in those columns
+        case val
+        when Measure
+          val.amount.to_f
+        when Geo::Coord
+          val.to_s
+        else
+          to_simple_type(val)
+        end
+      end
+
     end
   end
 end

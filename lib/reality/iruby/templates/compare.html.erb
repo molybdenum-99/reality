@@ -1,0 +1,23 @@
+<table style="border: 1px solid #B0C6D0; border-collapse: collapse;">
+  <thead>
+    <tr>
+      <th colspan="<%= entities.count + 1 %>"  style="border: 1px solid #B0C6D0; padding: 4px; font-weight: bold; color: #B0C6D0; font-size: big; text-align: center;"><%= entities.map(&:compact_to_html).join(' | ') %></th>
+    </tr>
+    <tr>
+      <th style="border: 1px solid #B0C6D0;">&nbsp;</th>
+      <% entities.each do |e| %>
+        <th style="text-align:center; border: 1px solid #B0C6D0; padding: 2px; color:gray; font-variant: small-caps;"><%= e.name %></th>
+      <% end %>
+    </tr>
+  </thead>
+  <tbody>
+    <% keys.each do |key| %>
+      <tr>
+        <th style="text-align:right; border: 1px solid #B0C6D0; padding: 2px; color:gray; font-variant: small-caps;"><%= key %></th>
+        <% entities.each do |e| %>
+          <td style="border: 1px solid #B0C6D0; padding: 2px;"><%= e.send(:iruby_render, e.send(key)) %></td>
+        <% end %>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

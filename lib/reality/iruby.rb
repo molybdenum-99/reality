@@ -77,6 +77,24 @@ module Reality
     end
   end
 
+  class Comparator
+    attr_reader :entities
+    
+    def initialize(entities)
+      @entities = entities
+    end
+
+    include Reality::IRuby::Extensions
+
+    def keys
+      entities.map{|e| e.values.keys}.flatten.uniq.sort
+    end
+
+    def to_html
+      Reality::IRuby.templates.compare.result(binding)
+    end
+  end
+
   class List
     def to_html
       '[' + 
@@ -93,10 +111,14 @@ module Reality
         fields = map{|e| e.values.keys}.flatten.uniq.sort
       end
       Daru::DataFrame.new(
-        #fields.map{|f| [f, map{|e| Entity::Coercion.to_simple_type(e.send(f))}]}.to_h.
-        fields.map{|f| [f, map{|e| e.send(f)}]}.to_h,
+        fields.map{|f| [f, map{|e| Entity::Coercion.to_df_type(e.send(f))}]}.to_h,
         index: map(&:name)
       )
+    end
+
+    def compare
+      load! unless any?(&:loaded?)
+      Comparator.new(to_a.compact)
     end
   end
 end
