@@ -36,7 +36,7 @@ ar = Entity('Argentina')
 ar.cities.load!
 #  => #<Reality::List[Buenos Aires, "Córdoba, Argentina", "Rosario, Santa Fe", "Mendoza, Argentina", La Plata, San Miguel de Tucumán, Mar del Plata, Salta, "Santa Fe, Argentina", "San Juan, Argentina", "Resistencia, Chaco", Neuquén, Santiago del Estero, Corrientes, Avellaneda, Bahía Blanca, San Salvador de Jujuy, Quilmes, Lanús, Comodoro Rivadavia, "Concordia, Entre Ríos"]>
 ar.cities.map{|city| city.coord.distance_to(ar.capital)}
-# => [#<Reality::Measure(0.0 km)>, #<Reality::Measure(646 km)>, #<Reality::Measure(278 km)>, #<Reality::Measure(985 km)>, #<Reality::Measure(54 km)>, #<Reality::Measure(1,084 km)>, #<Reality::Measure(385 km)>, #<Reality::Measure(1,285 km)>, #<Reality::Measure(394 km)>, #<Reality::Measure(1,005 km)>, #<Reality::Measure(797 km)>, #<Reality::Measure(987 km)>, #<Reality::Measure(942 km)>, #<Reality::Measure(793 km)>, #<Reality::Measure(7 km)>, #<Reality::Measure(574 km)>, #<Reality::Measure(1,338 km)>, #<Reality::Measure(16 km)>, #<Reality::Measure(11 km)>, #<Reality::Measure(1,471 km)>, #<Reality::Measure(358 km)>] 
+# => [#<Reality::Measure(0.0 km)>, #<Reality::Measure(646 km)>, #<Reality::Measure(278 km)>, #<Reality::Measure(985 km)>, #<Reality::Measure(54 km)>, #<Reality::Measure(1,084 km)>, #<Reality::Measure(385 km)>, #<Reality::Measure(1,285 km)>, #<Reality::Measure(394 km)>, #<Reality::Measure(1,005 km)>, #<Reality::Measure(797 km)>, #<Reality::Measure(987 km)>, #<Reality::Measure(942 km)>, #<Reality::Measure(793 km)>, #<Reality::Measure(7 km)>, #<Reality::Measure(574 km)>, #<Reality::Measure(1,338 km)>, #<Reality::Measure(16 km)>, #<Reality::Measure(11 km)>, #<Reality::Measure(1,471 km)>, #<Reality::Measure(358 km)>]
 
 # or this
 matz = Entity('Yukihiro Matsumoto')
@@ -64,7 +64,7 @@ beatles = Entity('Beatles').parts
 # => #<Reality::List[John Lennon?, Sir. Paul McCartney?, Ringo Starr?, George Harrison?, Stuart Sutcliffe?, Pete Best?]>
 beatles.load!
 beatles.select(&:alive?)
-# => #<Reality::List[Paul McCartney, Ringo Starr, Pete Best]> 
+# => #<Reality::List[Paul McCartney, Ringo Starr, Pete Best]>
 beatles.select(&:alive?).map{|beatle| beatle.albums && beatle.albums.last}
 # => [#<Reality::Entity?(New (album))>, #<Reality::Entity?(Old Wave)>, nil]
 
@@ -227,7 +227,17 @@ would be appreciated here!
 
 Note that there could be a problem with SSL sertificates while connecting
 to Wikipedia API. _TODO: explain the problem and point to recipes._
-  
+
+## Nitrous Quickstart
+
+With [Nitrous](https://www.nitrous.io/) you can create a Reality based development environnment at the click of a button and in just a few minutes. The environment has everything you need to begin developing and using Reality.
+
+Simply [sign up](https://www.nitrous.io/app/#/signup) and [login](https://www.nitrous.io/app/#/login) to the Nitrous platform then click the button below to begin the "Quickstart" project creation process:
+
+[![Nitrous Quickstart](https://nitrous-image-icons.s3.amazonaws.com/quickstart.svg)](https://www.nitrous.io/quickstart?repo=https://github.com/5car1z/nitrous-quickstart-reality)
+
+For further instructions visit the [nitrous-quickstart-reality](https://github.com/5car1z/nitrous-quickstart-reality) repository.
+
 ## Credits
 
 * [Victor Shepelev](https://zverok.github.io) [@zverok](https://github.com/zverok);
