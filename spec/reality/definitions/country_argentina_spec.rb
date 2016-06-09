@@ -4,13 +4,13 @@ module Reality
       before(:all){
         # parsed only once - faster tests
         VCR.use_cassette('Country-Argentina'){
-          @country = Reality::Entity('Argentina') 
+          @country = Reality::Entity('Argentina')
         }
       }
-      
+
       subject(:country){@country}
       its(:wikipedia_type){should == Reality::Country}
-      
+
       describe 'basics' do
         its(:name){should == 'Argentina'}
         its(:long_name){should == 'Argentine Republic'}
@@ -52,7 +52,7 @@ module Reality
           neighs = country.neighbours
           expect(neighs).to all be_an Entity
           expect(neighs.map(&:name)).to contain_exactly \
-            'Bolivia', 'Brazil', 'Chile', 'Pobrers', 'Uruguay' # should be Paraguay, somebody broke it in Wikidata :(
+            'Bolivia', 'Brazil', 'Chile', 'Paraguay', 'Uruguay'
         end
 
         it 'parses languages' do

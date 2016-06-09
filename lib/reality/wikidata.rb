@@ -97,7 +97,7 @@ module Reality
           when 'http://www.opengis.net/ont/geosparql#wktLiteral'
             # TODO: WTF
             if hash['value'] =~ /^\s*point\s*\(\s*([-\d.]+)\s+([-\d.]+)\s*\)\s*$/i
-              lat, lng = $1, $2
+              lng, lat = $1, $2
               Geo::Coord.new(lat.to_f, lng.to_f)
             else
               fail ArgumentError, "Unparseable WKT: #{hash['value']}"
@@ -136,7 +136,7 @@ module Reality
 
       def en_wikipage
         return nil unless about
-        
+
         name = about.first.
           scan(%r{https://en\.wikipedia\.org/wiki/(.+)$}).
           flatten.first.derp{|s| URI.unescape(s)}
