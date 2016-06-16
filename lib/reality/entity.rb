@@ -48,6 +48,7 @@ module Reality
     #
     # @return [Hash<Symbol, Object>]
     attr_reader :values
+    alias_method :attributes, :values
 
     # @private
     attr_reader :wikipedia_type, :wikidata, :wikidata_id
