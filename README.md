@@ -231,7 +231,7 @@ to Wikipedia API. _TODO: explain the problem and point to recipes._
 ## Credits
 
 * [Victor Shepelev](https://zverok.github.io) [@zverok](https://github.com/zverok);
-* Sergey Mostovoy [@smostovoy](https://github.com/smostovoy);
+* Sergii Mostovyi [@smostovoy](https://github.com/smostovoy);
 * [Valentino Stoll](http://www.awesomevibe.com/) [@codenamev](https://github.com/codenamev);
 * [Several great contributors](https://github.com/molybdenum-99/reality/graphs/contributors).
 
