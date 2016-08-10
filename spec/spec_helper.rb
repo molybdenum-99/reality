@@ -10,5 +10,7 @@ VCR.configure do |config|
 end
 
 Reality.configure(:demo)
+#Reality::Entity::Extension.disable!
+#Reality::Definitions::MediaWiki.disable!
 
 #require_relative 'helpers/formatters'

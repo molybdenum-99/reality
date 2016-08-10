@@ -50,7 +50,7 @@ module Reality
         reality.config.register('keys', 'quandl',
                                 desc: 'Quandl API key. Can be obtained here: http://quandl.com')
 
-        reality::Country.include CountryEconomics
+        #reality::Country.include CountryEconomics
       end
     end
   end

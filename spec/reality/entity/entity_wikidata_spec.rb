@@ -1,7 +1,7 @@
 module Reality
   describe Entity, 'wikidata properties' do
     subject(:entity){Entity.new('Paris')}
-    let(:wikipage){double(title: 'Paris, France', infobox: double(name: 'Infobox countryXX'))}
+    let(:wikipage){double(title: 'Paris, France', templates: [])}
     let(:wikidata){double(predicates: {})}
     let(:wikipedia){double}
     before{

@@ -9,7 +9,6 @@ module Reality
       }
 
       subject(:country){@country}
-      its(:wikipedia_type){should == Reality::Country}
 
       describe 'basics' do
         its(:name){should == 'Argentina'}

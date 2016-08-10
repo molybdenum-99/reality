@@ -1,61 +1,40 @@
 module Reality
-  describe Entity, 'wikipedia type and properties' do
+  describe Entity, 'wikipedia data parsing' do
     subject(:entity){Entity.new('Paris')}
-    let(:wikipage){double(title: 'Paris, France', infobox: double(name: 'Infobox countryXX'))}
+    let(:wikipage){double(title: 'Paris, France')}
     let(:wikidata){double(predicates: {})}
     let(:wikipedia){double}
-    before{
-      allow(Infoboxer).to receive(:wikipedia).and_return(wikipedia)
-    }
+    let(:infobox){double}
 
-    let!(:type){
-      Module.new{
-        extend Entity::WikipediaType
-        infobox_name 'Infobox countryXX' # don't mangle real defs
+    before do
+      Entity::WikipediaData.clear
+      Entity::WikipediaData.define{
+        infobox 'Infobox country' do
+          infobox_field 'area_km2', :area, :measure, unit: 'km²'
+        end
 
-        infobox 'area_km2', :area, :measure, unit: 'km²'
+        parser :capital, :string do 'London' end
       }
-    }
-    before{
-      allow(wikipage.infobox).to receive(:fetch).with('area_km2').
-        and_return([double(to_s: '2,780,400')]).ordered
-    }
-    context 'type selection on load' do
+      allow(wikipage).to receive(:templates).with(name: 'Infobox country').and_return([infobox])
+      allow(infobox).to receive(:fetch).with('area_km2').
+        and_return([double(to_s: '2,780,400')])
+    end
+
+    context 'on load' do
       before{
-        expect(Infoboxer.wikipedia).to receive(:get).
-          with('Paris').and_return(wikipage)
-        expect(Wikidata::Entity).to receive(:one_by_wikititle).
+        allow(Infoboxer).to receive(:wikipedia).and_return(wikipedia)
+        allow(wikipedia).to receive(:get).with('Paris').and_return(wikipage)
+        allow(Wikidata::Entity).to receive(:one_by_wikititle).
           with('Paris, France').and_return(wikidata)
 
         entity.load!
       }
-      it{should be_a type}
+      it { is_expected.to have_attributes(area: Measure.new(2_780_400, 'km²'), capital: 'London') }
     end
 
-    context 'type selection for preloaded' do
+    context 'for preloaded' do
       subject(:entity){Entity.new('Paris').setup!(wikipage: wikipage, wikidata: wikidata)}
-      it{should be_a type}
-    end
-
-    context 'values parsed' do
-      subject(:entity){Entity.new('Paris').setup!(wikipage: wikipage, wikidata: wikidata)}
-      its(:values){should include(area: Measure.new(2_780_400, 'km²'))}
-    end
-
-    context 'inspect' do
-      before{
-        if Reality.const_defined?(:CountryX) # to not mangle with our real Country
-          Reality.send(:remove_const, :CountryX)
-        end
-        Reality.const_set(:CountryX, type)
-      }
-      after{
-        if Reality.const_defined?(:CountryX)
-          Reality.send(:remove_const, :CountryX)
-        end
-      }
-      subject(:entity){Entity.new('Paris').setup!(wikipage: wikipage, wikidata: wikidata)}
-      its(:inspect){should == "#<Reality::Entity(Paris, France):country_x>"}
+      it { is_expected.to have_attributes(area: Measure.new(2_780_400, 'km²'), capital: 'London') }
     end
   end
 end

@@ -8,9 +8,9 @@ module Reality
 
     subject(:band){@band}
 
-    its(:wikipedia_type){should == Reality::MusicalArtist}
     it 'should have parsed discography' do
       dsc = band.albums
+      expect(dsc).to be_an Array
       expect(dsc.count).to eq 15
       expect(dsc).to all be_an Entity
       expect(dsc.map(&:name)).to include('The Dark Side of the Moon')

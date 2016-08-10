@@ -25,7 +25,7 @@ module Reality
 
   # entities
   require_ %w[entity list]
-  require_ %w[definitions/*]
+  require_ %w[definitions]
   require_ %w[methods names]
 
   include Methods
