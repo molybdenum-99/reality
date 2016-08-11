@@ -1,0 +1,798 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://en.wikipedia.org/w/api.php?action=query&format=json&meta=siteinfo&siprop=namespaces%7Cnamespacealiases
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Reality/0.0.4 (https://github.com/molybdenum-99/reality; zverok.offline@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 11 Aug 2016 14:27:57 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '708'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1277.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.1
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=19050 t=1470925677842845
+      X-Varnish:
+      - 3489719561, 1000211007, 107505841
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1054 pass, cp3042 pass, cp3041 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=UA:07:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access=11-Aug-2016;Path=/;HttpOnly;secure;Expires=Mon, 12 Sep 2016
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 94.179.68.181
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"namespaces":{"-2":{"id":-2,"case":"first-letter","canonical":"Media","*":"Media"},"-1":{"id":-1,"case":"first-letter","canonical":"Special","*":"Special"},"0":{"id":0,"case":"first-letter","content":"","*":""},"1":{"id":1,"case":"first-letter","subpages":"","canonical":"Talk","*":"Talk"},"2":{"id":2,"case":"first-letter","subpages":"","canonical":"User","*":"User"},"3":{"id":3,"case":"first-letter","subpages":"","canonical":"User
+        talk","*":"User talk"},"4":{"id":4,"case":"first-letter","subpages":"","canonical":"Project","*":"Wikipedia"},"5":{"id":5,"case":"first-letter","subpages":"","canonical":"Project
+        talk","*":"Wikipedia talk"},"6":{"id":6,"case":"first-letter","canonical":"File","*":"File"},"7":{"id":7,"case":"first-letter","subpages":"","canonical":"File
+        talk","*":"File talk"},"8":{"id":8,"case":"first-letter","canonical":"MediaWiki","*":"MediaWiki"},"9":{"id":9,"case":"first-letter","subpages":"","canonical":"MediaWiki
+        talk","*":"MediaWiki talk"},"10":{"id":10,"case":"first-letter","subpages":"","canonical":"Template","*":"Template"},"11":{"id":11,"case":"first-letter","subpages":"","canonical":"Template
+        talk","*":"Template talk"},"12":{"id":12,"case":"first-letter","subpages":"","canonical":"Help","*":"Help"},"13":{"id":13,"case":"first-letter","subpages":"","canonical":"Help
+        talk","*":"Help talk"},"14":{"id":14,"case":"first-letter","subpages":"","canonical":"Category","*":"Category"},"15":{"id":15,"case":"first-letter","subpages":"","canonical":"Category
+        talk","*":"Category talk"},"100":{"id":100,"case":"first-letter","subpages":"","canonical":"Portal","*":"Portal"},"101":{"id":101,"case":"first-letter","subpages":"","canonical":"Portal
+        talk","*":"Portal talk"},"108":{"id":108,"case":"first-letter","subpages":"","canonical":"Book","*":"Book"},"109":{"id":109,"case":"first-letter","subpages":"","canonical":"Book
+        talk","*":"Book talk"},"118":{"id":118,"case":"first-letter","subpages":"","canonical":"Draft","*":"Draft"},"119":{"id":119,"case":"first-letter","subpages":"","canonical":"Draft
+        talk","*":"Draft talk"},"446":{"id":446,"case":"first-letter","canonical":"Education
+        Program","*":"Education Program"},"447":{"id":447,"case":"first-letter","subpages":"","canonical":"Education
+        Program talk","*":"Education Program talk"},"710":{"id":710,"case":"first-letter","canonical":"TimedText","*":"TimedText"},"711":{"id":711,"case":"first-letter","canonical":"TimedText
+        talk","*":"TimedText talk"},"828":{"id":828,"case":"first-letter","subpages":"","canonical":"Module","*":"Module"},"829":{"id":829,"case":"first-letter","subpages":"","canonical":"Module
+        talk","*":"Module talk"},"2300":{"id":2300,"case":"first-letter","canonical":"Gadget","*":"Gadget"},"2301":{"id":2301,"case":"first-letter","canonical":"Gadget
+        talk","*":"Gadget talk"},"2302":{"id":2302,"case":"case-sensitive","canonical":"Gadget
+        definition","defaultcontentmodel":"GadgetDefinition","*":"Gadget definition"},"2303":{"id":2303,"case":"case-sensitive","canonical":"Gadget
+        definition talk","*":"Gadget definition talk"},"2600":{"id":2600,"case":"first-letter","canonical":"Topic","defaultcontentmodel":"flow-board","*":"Topic"}},"namespacealiases":[{"id":4,"*":"WP"},{"id":5,"*":"WT"},{"id":6,"*":"Image"},{"id":7,"*":"Image
+        talk"}]}}'
+    http_version: 
+  recorded_at: Thu, 11 Aug 2016 14:27:57 GMT
+- request:
+    method: get
+    uri: https://en.wikipedia.org/w/api.php?action=query&format=json&inprop=url&prop=revisions%7Cinfo&redirects=true&rvprop=content&titles=Chewbacca
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Reality/0.0.4 (https://github.com/molybdenum-99/reality; zverok.offline@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 11 Aug 2016 14:27:58 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '9560'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1222.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.1
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=34127 t=1470925678314437
+      X-Varnish:
+      - 418083599, 1772791272, 107508395
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1053 pass, cp3041 pass, cp3041 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=UA:07:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access=11-Aug-2016;Path=/;HttpOnly;secure;Expires=Mon, 12 Sep 2016
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 94.179.68.181
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"19724058":{"pageid":19724058,"ns":0,"title":"Chewbacca","revisions":[{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{pp-move|small=yes}}\n{{Lead
+        too short|date=December 2014}}\n{{Infobox character\n| name        = Chewbacca\n|
+        image       = Chewbacca-2-.jpg\n| caption     = Chewbacca in ''''[[Star Wars
+        (film)|Star Wars]]''''\n| series      = [[Star Wars]]\n| first       = ''''[[Star
+        Wars (film)|Star Wars]]'''' (1977)\n| creator     = [[George Lucas]]\n| portrayer   =
+        [[Peter Mayhew]] {{small|(''''Episodes III\u2013VIII'''', ''''[[Star Wars
+        Holiday Special|Holiday Special]]'''')}}<br>[[Joonas Suotamo]] {{small|(body
+        double, ''''Episode VII-VIII'''')}}\n| voice       = [[Peter Mayhew]] ({{small|consultant)}}<br>''''[[Star
+        Wars: The Clone Wars (2008 TV series)|The Clone Wars]]'''')\n| occupation  =
+        Co-pilot and first mate on ''''[[Millennium Falcon]]''''\n| species     =
+        [[Wookiee]]\n| gender      = Male\n| affiliation = [[Galactic Republic]]<br>[[Rebel
+        Alliance]]<br>[[New Republic (Star Wars)|New Republic]]\n| lbl21       = Homeworld
+        \n| data21      = [[Kashyyyk]]\n}}\n''''''Chewbacca'''''' ({{IPAc-en|t\u0283|u\u02d0|\u02c8|b|\u0251\u02d0|k|\u0259}}),
+        nicknamed \"''''''Chewie''''''\", is a fictional character in the ''''[[Star
+        Wars]]'''' franchise. He is a [[Wookiee]], a tall, hirsute biped and intelligent
+        species from the planet [[Kashyyyk]]. Chewbacca is the loyal friend and associate
+        of [[Han Solo]], and serves as co-pilot on Solo''s spaceship, the ''''[[Millennium
+        Falcon]]''''.<ref>{{Cite web|title = Star Wars, Databank, Chewbacca|url =
+        http://www.starwars.com/databank/chewbacca|accessdate = 2015-12-17}}</ref>
+        Chewbacca is portrayed by actor [[Peter Mayhew]] in the ''''Star Wars''''
+        films. The character has also appeared on television, in books, comics, and
+        video games.\n\n==Character==\nChewbacca, a 200-year-old [[Wookiee]], becomes
+        [[Han Solo|Han Solo''s]] companion after Han, an Imperial officer at the time,
+        refused an order to kill him, for which Han was dismissed from the Imperial
+        Navy and became a smuggler. To repay this debt, Chewbacca protected Han for
+        the rest of his life, and served as his co-pilot on the ''''Millennium Falcon''''.<ref
+        name=\"profile\">[http://www.starwars.com/databank/chewbacca Chewbacca Profile],
+        at StarWars.com. Retrieved December 12, 2014.</ref> Standing at 8 feet tall,
+        Chewbacca is covered with long hair, and wears only a bandolier. His weapon
+        of choice is the Wookiee bowcaster (a [[crossbow]]-shaped [[directed-energy
+        weapon]]).<ref name=\"sweet\">{{cite book |title=The Star Wars Encyclopedia
+        |first=Stephen J. |last=Sansweet |isbn=0-345-40227-8 |publisher=Del Rey |date=1998-06-30
+        |edition=1st}}</ref>  Chewbacca was named one of the \"greatest [[sidekick]]s\"
+        in film history by ''''[[Entertainment Weekly]]''''.<ref>Ben Schott, ''''Schott''s
+        Miscellany Calendar 2009'''' (New York: Workman Publishing, 2008), March 21.</ref>\n\n===In
+        other countries===\nIn Italy the name of Chewbacca was changed to ''''Chewbecca''''
+        and his nickname is ''''Chewbe''''.{{cn|date=May 2016}}\n\n==Creation==\nChewbacca''s
+        creation as a \"gentle, [[hairy]], non-English-speaking co-pilot\" was inspired
+        by [[George Lucas]] seeing his own dog sitting up on the passenger seat of
+        his car.<ref>George Lucas, in DVD bonus disc documentary, \"Characters of
+        Star Wars\"</ref> It is said that Chewbacca''s name is derived from ''''\u0441\u043e\u0431\u0430\u043a\u0430''''
+        (sobaka), the [[slavic languages|Russian]] word for ''''dog''''.<ref name=\"Russian\">{{cite
+        web|url=http://www.filmsmarts.com/movies/starwars/c_chewbacca.html|title=FilmSmarts.com
+        - Chewbacca from Star Wars|work=filmsmarts.com}}</ref>\n\nIn all five screen
+        appearances, Chewbacca was played by [[Peter Mayhew]], who was chosen for
+        his height of 7''3\" (2.2 m).<ref name=\"BONUS\">''''The Characters of Star
+        Wars'''' Star Wars Original Trilogy DVD Box Set: Bonus Materials</ref>  Five
+        identical costumes were made for Mayhew: in the three original films and a
+        holiday special, the suits were made of [[yak]] hair and [[mohair]]. In ''''[[Star
+        Wars: Episode III \u2013 Revenge of the Sith|Revenge of the Sith]]'''', the
+        suit was made of more comfortable materials, though Mayhew''s filming only
+        lasted a day. Only Mayhew''s blue eyes could be seen in his costume, but fans
+        easily recognize him by his gestures, and his co-workers claimed the ability
+        to tell when a stand-in was taking his place.<ref name=\"PMB\">[http://www.screenrush.co.uk/personne/fichepersonne_gen_cpersonne=68258.html
+        Peter Mayhew Biography], at Screenrush. Retrieved January 8, 2009.</ref>\n\nChewbacca''s
+        voice was created by the original films'' [[sound designer]], [[Ben Burtt]],
+        from recordings of [[walrus]]es, lions, [[camel]]s, bears, rabbits, tigers,
+        and [[badger]]s in Burtt''s personal [[menagerie]].<ref name=\"PMB\"/> The
+        individual recordings were mixed at different ratios for Chewbacca''s different
+        utterances. One of the most prominent elements in the voice was a [[American
+        black bear|black bear]] named Tarik, from [[Happy Hollow Zoo]] in [[San Jose,
+        California]].<ref>{{cite web|url=http://www.starwars.com/databank/character/chewbacca/?id=bts|title=Chewbacca|work=StarWars.com}}</ref>\n\nThe
+        original costume was created by [[Stuart Freeborn]] and his wife Kay Freeborn,
+        who hand knitted the torso section. During preproduction of ''''[[The Force
+        Awakens]]'''', Creature Effects Supervisor [[Neal Scanlan]] commented that
+        the original suit was far more sophisticated than they had originally realized,
+        leading him to entirely scrap their first attempt at making the new suit,
+        go back and study Freeborn''s work in order to better appreciate how it worked,
+        and attempt to emulate it.<ref>{{cite web|last1=Poland|first1=David|title=DP/30:
+        Star Wars: The Force Awakens - The On-Set FX Supervisors |url= https://www.youtube.com/watch?v=r1M2KM-lE_g
+        |website= [[YouTube]] |accessdate=15 January 2016 |location= Los Angeles |format=
+        Video interview |date=14 January 2016}}</ref>\n\n==Appearances==\n===Films===\nFirst
+        appearing in ''''[[Star Wars (film)|Star Wars]]'''' (1977), Chewbacca and
+        Han Solo accept a charter to take [[Luke Skywalker]], [[Obi-Wan Kenobi]],
+        and [[droid (robot)|droids]] [[C-3PO]] and [[R2-D2]] to the planet [[Alderaan]].<ref>''''Star
+        Wars Episode IV''''</ref> When they find the planet destroyed by the [[Death
+        Star]], the two smugglers are drawn into the [[Rebel Alliance]]. As part of
+        a plan to rescue Leia, Luke tries to put handcuffs on Chewbacca to make it
+        look like he''s a prisoner. Chewbacca almost attacks Luke believing him to
+        be selling him and Solo out, but Han explains that he knows what Luke has
+        in mind and convinces the Wookiee to play along. After rescuing Leia and taking
+        her to the rebel base on Yavin IV, the two smugglers are given reward money
+        in the value of a payload lost by him to which he owes [[Jabba The Hutt]].
+        Somehow, Chewbacca is able to convince Han to put his debt to Jabba aside
+        for the time being and help The Rebels in their fight against the evil Galactic
+        Empire''s Death Star . They manage to save Luke from being killed, also allowing
+        him to be the one to destroy the space station.\n\nIn ''''[[The Empire Strikes
+        Back]]'''' (1980), Chewbacca finds a dismantled C-3PO in a junk pile in Cloud
+        City and rescues him from being melted down. He later tries to repair him,
+        but does a terrible job at it. Before Han is frozen in carbonite, he asks
+        Chewbacca to look after [[Princess Leia]] for him. When [[Lando Calrissian]]
+        is able to save Leia and Chewbacca from being taken to [[Darth Vader|Darth
+        Vader''s]] ship, he uncuffs the Wookie, who upon release starts strangling
+        him for selling them out. When Lando explains that they still have a chance
+        to save Han, Leia has Chewbacca stop choking him. Even though they''re unsuccessful
+        at saving the frozen Han, they make it back to the ''''Falcon'''' with R2-D2.
+        Chewbacca carried C-3PO on his back throughout their escape to the ''''Falcon''''.
+        When Leia hears Luke''s cry for help, she has Chewbacca turn the ship around
+        to rescue him. After doing so, they attempt the jump to lightspeed but fail,
+        even after Lando''s men fixed it. Chewbacca is furious at Lando and goes to
+        fix it himself, having spent part of the movie trying to do so. What none
+        of them except for R2-D2 realize is that the hyperdrive had been deactivated
+        by the Empire, which R2-D2 had learned from Cloud City''s central computer
+        while helping them escape. Admiral Firmus Piett''s men disguised themselves
+        as Lando''s repairmen and deactivated the hyperdrive as part of Vader''s plan
+        to capture Luke and turn him to the dark side of the Force, but R2-D2 is able
+        to fix it allowing them to make the jump to hyperspeed and get to the Rebel
+        fleet. While Luke heals and is given a robotic right hand to replace the one
+        he lost against Vader, Lando and Chewbacca prepare to leave to find [[Jabba
+        the Hutt]] and [[Boba Fett]] and rescue Han.\n\nIn ''''[[Return of the Jedi]]''''
+        (1983), Chewbacca pretends to be the prisoner of a bounty hunter named Boushh,
+        which is actually Leia in disguise as part of Luke''s plan to rescue Han from
+        Jabba the Hutt. During the Battle of Endor, Chewbacca and some Ewoks commandeer
+        an AT-ST from the empire and use it to shoot down other walkers and imperial
+        troops.<ref>''''Star Wars Episodes V'''' & ''''VI''''</ref>\n\n====Prequels
+        and sequels====\nIn the 2005 [[Star Wars prequel trilogy|prequel film]] ''''[[Star
+        Wars: Episode III \u2013 Revenge of the Sith]]'''', Chewbacca and [[List of
+        Star Wars Old Republic characters#Tarfful|Tarfful]] fight in the [[Clone Wars
+        (Star Wars)|Clone Wars]] when their planet [[Kashyyyk]] is invaded by the
+        Separatist Alliance. They also help  [[Yoda]] escape his clone troopers, who
+        had been ordered to kill him. Chewbacca is not identified until Yoda says
+        goodbye to him at the end of a scene.\n\nOn April 7, 2014, it was confirmed
+        that Mayhew would reprise his role as Chewbacca in ''''[[Star Wars: The Force
+        Awakens]]''''. In the film, set 30 years after ''''Return of the Jedi'''',
+        he and Han are piloting a cargo vessel and find the ''''Millennium Falcon'''',
+        which had been stolen from them. Chewbacca and Han help the rogue stormtrooper
+        [[Finn (Star Wars)|Finn]], the scavenger [[Rey (Star Wars)|Rey]] and the droid
+        [[BB-8]] escape from a gang of mercenaries on board the ''''Falcon''''. They
+        then fly to [[Maz Kanata|Maz Kanata''s]] castle so that Maz could help them
+        get BB-8 to the Resistance. But before Chewbacca and the gang could get Maz''s
+        help, the First Order attacks the castle and captures Rey while Chewbacca,
+        Finn, and Han are saved by X-wing pilots led by [[Poe Dameron]]. Without Rey,
+        they fly to a Resistance base, where Chewbacca and Han reunite with Leia,
+        C-3PO, and R2-D2. They also soon reunite with Rey, who escaped from the First
+        Order. Chewbacca helps in the fight between the Resistance and First Order.
+        When Han is killed by his son [[Kylo Ren]] during the battle, an enraged Chewbacca
+        shoots Ren in the side, leaving him severely weakened, kills many Stormtroopers
+        and then sets off explosives that allows Poe and other X-wing pilots to destroy
+        Starkiller Base, the First Order''s battle station. Chewbacca shortly thereafter
+        rescues Rey and Finn from the wilderness of Starkiller Base following their
+        duel with Ren. As Starkiller Base blows up, Chewbacca escapes in the ''''Falcon''''
+        with Finn and Rey, and later, along with R2-D2, helps Rey find Luke.\n\nThe
+        Wrap reports that Chewbacca will appear in the upcoming Star Wars Anthology
+        Han Solo spin off film, which will see a May 25, 2018 release.<ref>{{cite
+        web|url=http://www.starwars.com/news/christopher-miller-and-phil-lord-to-helm-han-solo-anthology-film|title=Christopher
+        Miller and Phil Lord to Helm Han Solo Anthology Film|work=StarWars.com|accessdate=19
+        December 2015}}</ref><ref>{{cite web|url=http://www.thewrap.com/chewbacca-to-appear-in-new-han-solo-movie-confirms-disneys-bob-iger/|title=Chewbacca
+        to Appear in New Han Solo Movie, Confirms Disney\u2019s Bob Iger|publisher=The
+        Wrap|last1=Maglio|first1=Tony|last2=Snider|first2=Jeff|date=March 8, 2016}}</ref>\n\n====''''The
+        Clone Wars''''====\nIn the season 3 finale of ''''[[Star Wars: The Clone Wars
+        (2008 TV series)|Star Wars: The Clone Wars]]'''', Chewbacca is captured by  Trandoshan
+        hunters, but is freed by [[Ahsoka Tano]] and agrees to help her and two younglings
+        escape. He builds a transmitter out of parts from the damaged Trandoshan ship,
+        but it seems unable to work. Later, he and Ahsoka attack the Trandoshan fortress,
+        killing many in sight, before they are found and assisted by other Wookiees
+        led by Tarfful.\n\n====Comic books====\nIn 2015, [[Marvel Comics]] published
+        a five-issue miniseries titled ''''Chewbacca'''' written by Gerry Duggan and
+        art by [[Phil Noto]].<ref>{{Cite web|title = Exclusive: ''Star Wars'' Spins
+        Off ''Chewbacca'' Into His Own Solo Adventures|url = http://www.mtv.com/news/2209122/chewbacca-star-wars-marvel-comics/|website
+        = MTV News|access-date = 2016-01-19}}</ref> The comic is part of the [[Star
+        Wars canon|canon]] developed subsequent to [[The Walt Disney Company|Disney]]''s
+        acquisition of [[Lucasfilm]] in 2012, and the end of [[Dark Horse Comics]]''
+        publication of ''''Star Wars'''' comics.<ref>{{Cite web|title = A complete
+        guide to the new Star Wars canon before The Force Awakens|url = http://www.theverge.com/2015/12/16/10215194/star-wars-the-force-awakens-guide-canon|website
+        = The Verge|access-date = 2016-01-19}}</ref><ref>{{Cite web|title = Disney
+        buys Lucasfilm for $4 billion|url = http://www.usatoday.com/story/money/business/2012/10/30/disney-star-wars-lucasfilm/1669739/|website
+        = USA TODAY|access-date = 2016-01-19}}</ref>\n\n===Legends===\n====Television====\nThe
+        1978 television program ''''[[Star Wars Holiday Special]]'''' introduces Chewbacca''s
+        family: Mallatobuck (his wife), Lumpawarrump (his son) and Attichitcuk, Chief
+        of the Kaapauku Tribe (his father). They live together on Kashyyyk.<ref name=\"abc1\">{{cite
+        news |work=ABC News |title=Holiday Specials Gone Bad; The ''Star Wars Holiday
+        Special'' Flop Lives On |url=http://www.abcnews.go.com/Nightline/story?id=4034365&page=1
+        |date=2007-12-20 |first=John |last=Berman |author2=Ted Gerstein}}</ref> The
+        ''''Star Wars Holiday Special'''' consisted of a [[frame story]] in which  Chewbacca
+        and Han must prevent [[Darth Vader]] from spoiling Life Day, and get home
+        to be with Chewbacca''s family. It aired only once.<ref>{{cite web|url=http://www.starwarsholidayspecial.com/text/faq.htm|title=Star
+        Wars Holiday Special|work=starwarsholidayspecial.com}}</ref>\n\n====Books====\nChewbacca
+        appears in the Han Solo Adventures trilogy of books written by Brian Daley,
+        including ''''Han Solo at Stars'' End'''', ''''Han Solo''s Revenge'''' and
+        ''''Han Solo and the Lost Legacy'''', originally published between 1979 and
+        1980.\n\nChewbacca''s family also appears in the non-canon ''''Star Wars''''
+        Legends books (''''Star Wars'''' books published before December 2014), most
+        notably ''''The Wookiee Storybook'''', ''''[[The Black Fleet Crisis]]''''
+        trilogy by [[Michael P. Kube-McDowell]], and ''''[[The Hutt Gambit]]'''' and
+        ''''[[Rebel Dawn]]'''' by [[A. C. Crispin]]. The latter also introduces other
+        family members, including a sister named [[List of Star Wars characters#Kallabow|Kallabow]]
+        and cousins named Dryanta and Jowdrrl, as well as the matriarch, Ellen.\n\nIn
+        the novel ''''[[Dark Lord: The Rise of Darth Vader]]'''', set just after the
+        events in ''''[[Star Wars: Episode III \u2013 Revenge of the Sith|Revenge
+        of the Sith]]'''', Chewbacca is forced to leave Kashyyyk after he narrowly
+        escapes a major Imperial attack on the planet. [[Darth Vader]] and [[Emperor
+        Palpatine]] enslave most of Kashyyyk''s population for forced labor on the
+        construction of the Death Star. To escape, he joins a ship of smugglers who
+        are friendly to the [[Jedi]].\n\nThe novel ''''[[The Hutt Gambit]]'''' explains
+        how Chewbacca and Han first meet when Han, a lieutenant in the Imperial Navy,
+        finds him unconscious aboard a [[Slavery|slave]] ship. Han''s commanding officer
+        orders him to skin Chewbacca, but Han refuses and rescues the helpless prisoner.
+        Upon regaining consciousness, Chewbacca swears a \"life-debt\" to Han, and
+        the two become business partners and best friends.<ref>''''Hutt Gambit''''</ref>\n\nIn
+        the book ''''[[Heirs of the Force]]'''', part of the ''''[[Young Jedi Knights]]''''
+        series, Chewbacca has a nephew, Kallabow''s son named [[List of Star Wars
+        characters#Lowbacca|Lowbacca]] who goes to the [[Jedi Academy]].\n\nIn the
+        1999 novel ''''[[Vector Prime]]'''' by [[R. A. Salvatore]], the first in the
+        ''''[[New Jedi Order]]'''' series, Chewbacca sacrifices his life to save Han''s
+        son [[Anakin Solo|Anakin]] from a collision between the planet Sernpidal and
+        one of its moons. Lumpawarrump and Lowbacca offer to assume Chewbacca''s life
+        debt to Han.\n\nChewbacca appears in the third book of the ''''[[The Strange
+        Case of Origami Yoda|Origami Yoda]]'''' series, ''''The Secret of the Fortune
+        Wookie'''' (in [[origami]] form) and in some of the subsequent books of the
+        series.\n\n[[Lucasfilm]] followed ''''Vector Prime'''' with a four-issue comic
+        book titled ''''Star Wars: Chewbacca'''', in which C-3PO and R2-D2 travel
+        the galaxy to collect the stories of beings who knew or met the Wookiee.\n\n====Video
+        games====\nIn the fighting game ''''[[Star Wars: Masters of Ter\u00e4s K\u00e4si]]'''',
+        Chewbacca is a playable character.\n\nIn ''''[[Star Wars Jedi Knight: Jedi
+        Academy]]'''', Chewbacca appears briefly at the [[Mos Eisley]] spaceport as
+        an NPC, assisting [[Jaden Korr]] in disabling the tractor beams holding both
+        the ''''[[Millennium Falcon]]'''' and the Raven''s Claw captive.<ref>''''Jedi
+        Academy''''</ref>\n\nIn LucasArts'' game ''''[[Kinect Star Wars]]'''', the
+        player acts as gunner on a spacecraft piloted by a young Chewbacca.\n\nIn
+        ''''[[Star Wars Battlefront II]]'''', ''''[[Star Wars Battlefront: Renegade
+        Squadron]]'''' and ''''[[Star Wars Battlefront: Elite Squadron]]'''', Chewbacca
+        is a playable hero on the rebels side.\n\nHe was a playable (LEGO version)
+        character in ''''[[Lego Star Wars: The Original Trilogy]]'''' and ''''[[Lego
+        Star Wars: The Video Game]]'''' as he had a big role in the original trilogy
+        movies but is only in one level in ''''The Video Game''''. The level is where
+        Chewbacca''s home is under attack, Yoda helps him and so at the end of the
+        level Chewbacca and another Wookie lead him to a space pod to escape, just
+        as in the film.\n\nChewbacca will be a playabale character on the Death Star
+        DLC from Star Wars: Battlefront 2015, which will come out on September.<ref>{{cite
+        web|url=http://www.ign.com/articles/2016/07/16/star-wars-celebration-2016-chewbacca-and-bossk-confirmed-for-battlefront|title=Star
+        Wars Celebration 2016: Chewbacca and Bossk Confirmed for Battlefront|first=By
+        Daniel|last=Krupa|work=ign.com|date=16 July 2016|accessdate=18 July 2016}}</ref>\n\n==Reception==\n[[IGN]]
+        has been fond of the character, choosing the character as the 9th top ''''Star
+        Wars'''' character,<ref name=\"Top 100 IGN\">{{cite web|url=http://ie.ign.com/star-wars-characters/1.html
+        |title=Top 100 Star Wars Characters |work=[[IGN]] |accessdate=12 January 2011
+        |deadurl=yes |archiveurl=https://web.archive.org/web/20100817203656/http://ie.ign.com/star-wars-characters/1.html
+        |archivedate=August 17, 2010 }}</ref> listing his relationship with [[Han
+        Solo]] as one of their top 10 movie [[bromance]]s,<ref name=\"IGN Bromance\">{{cite
+        web |url=http://uk.movies.ign.com/articles/964/964053p3.html |title=Top 10
+        Movie Bromances |author=Scott Collura |date=18 March 2009 |work=[[IGN]] |accessdate=12
+        January 2011}}</ref> claiming him as one of the characters they would like
+        to see in ''''[[Star Wars: The Clone Wars (2008 TV series)|The Clone Wars]]'''',<ref
+        name=\"Clone Wars IGN\">{{cite web |url=http://uk.tv.ign.com/articles/113/1133259p2.html
+        |title=Star Wars: The Clone Wars - Characters We''d Like to See |author=Eric
+        Goldman |date=11 November 2010 |work=[[IGN]] |accessdate=12 January 2011}}</ref>
+        and choosing him as one of the characters they would like to see in ''''[[Star
+        Wars: The Force Unleashed]]''''<ref name=\"TFU IGN\">{{cite web |url=http://uk.stars.ign.com/articles/892/892418p1.html
+        |title=Players Wanted: The Force Unleashed |author=Jesse Schedeen |date=21
+        July 2008 |work=[[IGN]] |accessdate=12 January 2011}}</ref> and (along with
+        Han) its [[Star Wars: The Force Unleashed II|sequel]].<ref name=\"TFU2 IGN\">{{cite
+        web |url=http://uk.stars.ign.com/articles/909/909087p7.html |title=Players
+        Wanted: The Force Unleashed 2 |author=Jesse Schedeen |date=10 September 2008
+        |work=[[IGN]] |accessdate=12 January 2011}}</ref> [[UGO Networks]] listed
+        the character as \"one of the most bad-ass archers in popular culture.\"<ref
+        name=\"UGO Archers\">{{cite web |url=http://www.ugo.com/the-goods/the-best-archers-list
+        |title=The 11 Most Bad-Ass Archers in Pop Culture |author=T J Dietsch |date=13
+        May 2010 |work=[[UGO Networks]]|accessdate=12 January 2011}}</ref>\n\nIn contrast,
+        [[Roger Ebert]] in his 1997 review of [[List of changes in Star Wars re-releases#Episode
+        V: The Empire Strikes Back|the Special Edition re-release of ''''The Empire
+        Strikes Back'''']] declared that the character gave the worst performance
+        of the film: \"This character was thrown into the first film as window dressing,
+        was never thought through, and as a result has been saddled with one facial
+        expression and one mournful yelp. Much more could have been done. How can
+        you be a space pilot and not be able to communicate in any meaningful way?
+        Does Han Solo really understand Chew''s monotonous noises? Do they have long
+        chats sometimes?\"<ref name=\"Ebert Review\">{{cite web |url=http://rogerebert.suntimes.com/apps/pbcs.dll/article?AID=/19970221/REVIEWS/702210302/1023
+        |title=The Empire Strikes Back |author=Roger Ebert |date=21 February 1997
+        |work=[[Chicago Sun-Times]]|accessdate=29 February 2012}}</ref>\n\n===Awards===\nChewbacca
+        is one of the few fictional characters to receive a [[Lifetime Achievement
+        Award]] at the [[MTV Movie Awards]]. Because fans complained that he should
+        have received a medal along with [[Luke Skywalker]] and Han Solo at the end
+        of ''''A New Hope'''', [[MTV]] presented the award as a medal bestowed by
+        [[Carrie Fisher]]. Peter Mayhew had voiced concern about Chewbacca being skipped
+        in the original medal scene as well, but noted that Chewbacca does get the
+        last \"line\" in the film as compensation.\n\n==References==\n{{reflist|30em}}\n\n==External
+        links==\n*{{Official website |http://www.starwars.com/databank/chewbacca}}\n*{{Wookieepedia|Chewbacca}}\n\n{{Star
+        Wars characters}}\n{{Star Wars (film)}}\n{{The Empire Strikes Back}}\n{{Return
+        of the Jedi}}\n{{Star Wars Episode III: Revenge of the Sith}}\n{{Star Wars:
+        The Force Awakens}}\n{{Star Wars Episode VIII}}\n{{Star Wars Jedi Prince series}}\n{{Star
+        Wars}}\n\n[[Category:Fictional aviators]]\n[[Category:Fictional anti\u2013human
+        trafficking activists]]\n[[Category:Fictional characters introduced in 1977]]\n[[Category:Fictional
+        generals]]\n[[Category:Film sidekicks]]\n[[Category:Science fiction soldiers]]\n[[Category:Star
+        Wars characters]]\n\n[[Category:Fictional drug dealers]]\n[[Category:Fictional
+        mercenaries]]\n[[Category:Fictional pirates]]\n[[Category:Fictional outlaws]]\n[[Category:Fictional
+        smugglers]]\n[[Category:Fictional slaves]]\n[[Category:Fictional revolutionaries]]\n[[Category:Fictional
+        carnivorans]]\n[[Category:Fictional mechanics]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2016-08-10T02:53:46Z","lastrevid":732697033,"length":22800,"fullurl":"https://en.wikipedia.org/wiki/Chewbacca","editurl":"https://en.wikipedia.org/w/index.php?title=Chewbacca&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Chewbacca"}}}}'
+    http_version: 
+  recorded_at: Thu, 11 Aug 2016 14:27:57 GMT
+- request:
+    method: get
+    uri: https://query.wikidata.org/sparql?format=json&query=%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20PREFIX%20wikibase:%20%3Chttp://wikiba.se/ontology%23%3E%0A%20%20%20%20%20%20%20%20PREFIX%20wd:%20%3Chttp://www.wikidata.org/entity/%3E%20%0A%20%20%20%20%20%20%20%20PREFIX%20wdt:%20%3Chttp://www.wikidata.org/prop/direct/%3E%0A%20%20%20%20%20%20%20%20PREFIX%20rdfs:%20%3Chttp://www.w3.org/2000/01/rdf-schema%23%3E%0A%20%20%20%20%20%20%20%20PREFIX%20p:%20%3Chttp://www.wikidata.org/prop/%3E%0A%20%20%20%20%20%20%20%20PREFIX%20v:%20%3Chttp://www.wikidata.org/prop/statement/%3E%0A%20%20%20%20%20%20%20%20PREFIX%20schema:%20%3Chttp://schema.org/%3E%0A%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20SELECT%20?s%20?p%20?o%20?oLabel%20%20WHERE%20%7B%0A%20%20%20%20%20%20%20%20%20%20%7B%3Chttps://en.wikipedia.org/wiki/Chewbacca%3E%20schema:about%20?s%7D%20.%0A%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%20%20?s%20?p%20?o%20.%0A%20%20%20%20%20%20%20%20%20%20FILTER(%0A%20%20%20%20%20%20%20%20%20%20%20%20STRSTARTS(STR(?p),%20%22http://www.wikidata.org/prop/direct/%22)%20%7C%7C%0A%20%20%20%20%20%20%20%20%20%20%20%20(?p%20=%20rdfs:label%20%26%26%20langMatches(lang(?o),%20%22EN%22))%0A%20%20%20%20%20%20%20%20%20%20)%0A%20%20%20%20%20%20%20%20%7D%20union%20%7B%0A%20%20%20%20%20%20%20%20%20%20bind(schema:about%20as%20?p)%20.%0A%20%20%20%20%20%20%20%20%20%20?o%20schema:about%20?s%20.%0A%20%20%20%20%20%20%20%20%20%20filter(strstarts(str(?o),%20%22https://en.wikipedia.org/wiki/%22))%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20.%0A%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20SERVICE%20wikibase:label%20%7B%0A%20%20%20%20%20%20%20%20%20%20bd:serviceParam%20wikibase:language%20%22en%22%20.%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 11 Aug 2016 14:27:58 GMT
+      Content-Type:
+      - application/sparql-results+json
+      Content-Length:
+      - '611'
+      Connection:
+      - keep-alive
+      Server:
+      - nginx/1.11.1
+      X-Served-By:
+      - wdqs1002
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=300
+      Vary:
+      - Accept, Accept-Encoding
+      X-Varnish:
+      - 248957186, 892436564, 642683625 640510862
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Age:
+      - '201'
+      X-Cache:
+      - cp1045 miss, cp3009 miss, cp3008 hit/1
+      X-Cache-Status:
+      - hit
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - WMF-Last-Access=11-Aug-2016;Path=/;HttpOnly;secure;Expires=Mon, 12 Sep 2016
+        12:00:00 GMT
+      X-Analytics:
+      - https=1;nocookies=1
+      X-Client-Ip:
+      - 94.179.68.181
+      Accept-Ranges:
+      - bytes
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        {
+          "head" : {
+            "vars" : [ "s", "p", "o", "oLabel" ]
+          },
+          "results" : {
+            "bindings" : [ {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q51803"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "https://en.wikipedia.org/wiki/Chewbacca"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://schema.org/about"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "https://en.wikipedia.org/wiki/Chewbacca"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q51803"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.w3.org/2000/01/rdf-schema#label"
+              },
+              "o" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "Chewbacca"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "Chewbacca"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q51803"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.w3.org/2000/01/rdf-schema#label"
+              },
+              "o" : {
+                "xml:lang" : "en-ca",
+                "type" : "literal",
+                "value" : "Chewbacca"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "Chewbacca"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q51803"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.w3.org/2000/01/rdf-schema#label"
+              },
+              "o" : {
+                "xml:lang" : "en-gb",
+                "type" : "literal",
+                "value" : "Chewbacca"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "Chewbacca"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q51803"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P18"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/BigAppleCon11.15.08ByLuigiNovi2.jpg"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "http://commons.wikimedia.org/wiki/Special:FilePath/BigAppleCon11.15.08ByLuigiNovi2.jpg"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q51803"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P21"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q6581097"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "male"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q51803"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P31"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q51805"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "character from Star Wars"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q51803"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P31"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q1750900"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "Wookiee"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q51803"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P106"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q327029"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "mechanic"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q51803"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P345"
+              },
+              "o" : {
+                "type" : "literal",
+                "value" : "ch0000033"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "ch0000033"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q51803"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P373"
+              },
+              "o" : {
+                "type" : "literal",
+                "value" : "Chewbacca"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "Chewbacca"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q51803"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P646"
+              },
+              "o" : {
+                "type" : "literal",
+                "value" : "/m/0fkfk"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "/m/0fkfk"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q51803"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P856"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.starwars.com/databank/chewbacca"
+              },
+              "oLabel" : {
+                "type" : "literal",
+                "value" : "http://www.starwars.com/databank/chewbacca"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q51803"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P1080"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q3551295"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "Star Wars Expanded Universe"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q51803"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P1080"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q19786052"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "Star Wars universe"
+              }
+            }, {
+              "s" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q51803"
+              },
+              "p" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/prop/direct/P2546"
+              },
+              "o" : {
+                "type" : "uri",
+                "value" : "http://www.wikidata.org/entity/Q51802"
+              },
+              "oLabel" : {
+                "xml:lang" : "en",
+                "type" : "literal",
+                "value" : "Han Solo"
+              }
+            } ]
+          }
+        }
+    http_version: 
+  recorded_at: Thu, 11 Aug 2016 14:27:58 GMT
+recorded_with: VCR 3.0.1

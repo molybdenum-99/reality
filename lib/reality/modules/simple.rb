@@ -1,3 +1,5 @@
+require 'time_math'
+
 module Reality
   # @private
   module Modules
@@ -18,7 +20,7 @@ module Reality
 
       def age_at(tm)
         from = birthday || created_at || published_at
-        TimeMath.measure(from.to_time, tm.to_time)
+        TimeMath.year.measure(from.to_time, tm.to_time)
       end
 
       def age

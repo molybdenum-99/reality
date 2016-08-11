@@ -1,13 +1,5 @@
 module Reality
-  describe 'Europe' do
-    before(:all){
-      # parsed only once - faster tests
-      VCR.use_cassette('Continent-Europe'){
-        @continent = Reality::Entity('Europe')
-      }
-    }
-    subject(:continent){@continent}
-
+  describe 'Europe', :integrational, entity: 'Europe' do
     its(:area){should == Reality::Measure.new(10_180_000, 'km²')}
 
     context 'on-demand loading', :vcr do

@@ -9,7 +9,7 @@ module Reality
     def include_into(entity)
       return if @disabled
       list
-        .select { |block, mod| entity.instance_eval(&block) rescue false }
+        .select { |block, mod| entity.instance_eval(&block) }
         .map(&:last).each(&entity.method(:extend))
     end
 

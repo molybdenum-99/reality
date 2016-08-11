@@ -36,10 +36,10 @@ module Reality
 
       page.tables.map{|t|
         t.heading_row or next []
-        
+
         idx = t.heading_row.children.
           index{|c| c.text =~ /\bname\b/i || CITY_SYNONYMS.any?{|s| c.text.strip.start_with?(s)}} or next []
-          
+
         t.lookup(:TableCell, index: idx).lookup(:Wikilink)
       }.flatten.
       derp{|links| Entity::Coercion.coerce(links, [:entity])}
@@ -51,17 +51,15 @@ module Reality
     end
 
     def countries_by_continents_cache
-      @by_continents ||= Infoboxer.wp.
-        get('List of countries by continent').
-        sections.first.
-        sections.map{|s|
+      @by_continents ||= Infoboxer.wp.get('List of countries by continent').sections.map{|s|
           continent = s.heading.text_
+          next [] unless s.tables.first
           s.tables.first.
             lookup(:Wikilink, :bold?).map(&:link).
             map{|country| [country, continent]}
         }.flatten(1).
         reject{|country, continent| country == 'Holy See'}. # it has [Vatican City]/[Holy See]
         to_h
-    end    
+    end
   end
 end
