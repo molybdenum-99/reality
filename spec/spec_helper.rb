@@ -32,6 +32,13 @@ module EntityIntegrationHelper
 end
 
 RSpec.configure do |c|
+  c.before(:suite) do
+    VCR.use_cassette('en-wikipedia-metadata') do
+      Infoboxer.wp
+      Infoboxer.wikipedia
+    end
+  end
+
   c.before do |example|
     unless example.metadata[:integrational]
       Reality::Modules.list.clear
