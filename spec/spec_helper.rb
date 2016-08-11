@@ -14,3 +14,9 @@ Reality.configure(:demo)
 #Reality::Definitions::MediaWiki.disable!
 
 #require_relative 'helpers/formatters'
+
+RSpec.configure do |c|
+  c.before do
+    Reality::Modules.list.clear
+  end
+end
