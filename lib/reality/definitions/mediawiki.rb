@@ -15,25 +15,7 @@ module Reality::Definitions
     def parse(wikipage)
       return {} if @disabled
 
-      from_templates =
-        definitions.map{|name, symbol, type, infobox_names, opts|
-          infobox_names.map { |infobox_name|
-            infobox = wikipage.templates(name: infobox_name).first
-            var = infobox && infobox.fetch(name)
-            if var && !var.empty?
-              [symbol, Reality::Entity::Coercion.coerce(var, type, **opts)]
-            end
-          }
-        }.flatten(1).compact.to_h
-      from_parsers =
-        parsers.map { | symbol, type, opts, parser|
-          val = parser.call(wikipage)
-          if val
-            [symbol, Reality::Entity::Coercion.coerce(val, type, **opts)]
-          end
-        }.compact.to_h
-
-      from_templates.merge(from_parsers)
+      [parse_templates(wikipage), parse_free_parsers(wikipage)].inject(:merge)
     end
 
     def disable!
@@ -46,6 +28,27 @@ module Reality::Definitions
 
     private
     module_function
+
+    def parse_templates(wikipage)
+      definitions.map{|name, symbol, type, infobox_names, opts|
+        infobox_names.map { |infobox_name|
+          infobox = wikipage.templates(name: infobox_name).first
+          make_key_value(infobox && infobox.fetch(name), symbol, type, opts)
+        }
+      }.flatten(1).compact.to_h
+    end
+
+    def parse_free_parsers(wikipage)
+      parsers.map { | symbol, type, opts, parser|
+        make_key_value(parser.call(wikipage), symbol, type, opts)
+      }.compact.to_h
+    end
+
+    def make_key_value(value, symbol, type, opts)
+      if value && !(value.respond_to?(:empty?) && value.empty?)
+        [symbol, Reality::Entity::Coercion.coerce(value, type, **opts)]
+      end
+    end
 
     def infobox_field(name, symbol, type, infobox: @current_infobox, **opts)
       infobox or fail ArgumentError, "You need to define template name or pattern to look for field #{name}"

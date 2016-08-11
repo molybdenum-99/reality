@@ -12,7 +12,7 @@ module Reality::Definitions
         [val, definitions[key]]
       }.reject{|_, dfn| !dfn}.
       map{|val, (symbol, type, opts)|
-        [symbol, Entity::Coercion.coerce(val, type, **opts)]
+        [symbol, Reality::Entity::Coercion.coerce(val, type, **opts)]
       }.to_h
     end
 
