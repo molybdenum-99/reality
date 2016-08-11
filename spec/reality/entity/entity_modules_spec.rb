@@ -7,13 +7,12 @@ module Kernel
 end
 
 module Reality
-  describe Entity, 'applying extensions' do
+  describe Entity, 'including modules extensions' do
     subject(:entity){Entity.new('Paris')}
 
     let!(:extension1) {
       Module.new do
-        extend Entity::Extension
-        condition { |e| true }
+        Reality::Modules.register(self) { true }
 
         def foo
           'foo'
@@ -22,8 +21,7 @@ module Reality
     }
     let!(:extension2) {
       Module.new do
-        extend Entity::Extension
-        condition { |e| false }
+        Reality::Modules.register(self) { false }
 
         def bar
           'bar'

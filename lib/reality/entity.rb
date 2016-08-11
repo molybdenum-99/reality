@@ -319,12 +319,12 @@ module Reality
     protected
 
     def after_load
-      @wikipage and @values.update(WikipediaData.parse(@wikipage))
-      @wikidata and @values.update(WikidataPredicates.parse(@wikidata))
+      @wikipage and @values.update(Definitions::MediaWiki.parse(@wikipage))
+      @wikidata and @values.update(Definitions::Wikidata.parse(@wikidata))
       (@values.keys - methods).each do |sym|
         define_singleton_method(sym){@values[sym]}
       end
-      Extension.apply_to(self)
+      Modules.include_into(self)
     end
 
     def _describe

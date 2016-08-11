@@ -7,8 +7,7 @@ module Reality
     let(:infobox){double}
 
     before do
-      Entity::WikipediaData.clear
-      Entity::WikipediaData.define{
+      Definitions::MediaWiki.define{
         infobox 'Infobox country' do
           infobox_field 'area_km2', :area, :measure, unit: 'km²'
         end

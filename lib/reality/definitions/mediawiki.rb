@@ -18,14 +18,6 @@ module Reality::Definitions
       [parse_templates(wikipage), parse_free_parsers(wikipage)].inject(:merge)
     end
 
-    def disable!
-      @disabled = true
-    end
-
-    def enable!
-      @disabled = false
-    end
-
     private
     module_function
 
@@ -73,4 +65,6 @@ module Reality::Definitions
       parsers << [symbol, type, opts, block]
     end
   end
+
+  Reality.require_ %w[definitions/mediawiki/*]
 end

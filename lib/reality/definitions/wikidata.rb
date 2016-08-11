@@ -27,4 +27,6 @@ module Reality::Definitions
       @definitions ||= {}
     end
   end
+
+  Reality.require_ %w[definitions/wikidata/*]
 end

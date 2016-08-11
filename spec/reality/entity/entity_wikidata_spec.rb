@@ -9,7 +9,7 @@ module Reality
     }
 
     before do
-      Entity::WikidataPredicates.define{
+      Definitions::Wikidata.define{
         predicate 'dummy1', :continent, :entity
         predicate 'dummy2', :area, :measure, unit: 'km²'
         predicate 'dummy3', :neighbours, [:entity]
