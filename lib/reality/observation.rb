@@ -17,6 +17,20 @@ module Reality
       @data.keys
     end
 
+    def to_h
+      @data.dup
+    end
+
+    def ==(other)
+      other.is_a?(Observation) && index == other.index && type == other.type &&
+        @data == other.to_h
+    end
+
+    def extend_variables(*variables)
+      new_data = variables.map { |v| [v, nil] }.to_h.merge(@data)
+      Observation.new(_index: index, _type: type, **new_data)
+    end
+
     def inspect
       "#<#{self.class}(#{type}): #{index} - " +
         @data.map { |k, v| "#{k}: #{v.inspect}" }.join(', ') + '>'
