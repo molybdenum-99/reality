@@ -22,12 +22,13 @@ module Reality
 
     describe 'measures' do
       # FIXME: Wikidata now has area in SQUARE METRES damn them
-      #its(:area){should == Reality::Measure(203, 'km²')}
+      its(:area){should == Reality::Measure(203, 'km²')}
       its(:population){should == Reality::Measure(2_890_151, 'person')}
       its(:population_metro){should == Reality::Measure(12_741_364, 'person')}
     end
 
     xdescribe 'geo' do
+      # TODO: "around" comparison"
       its(:coord){should == Reality::Geo::Coord.from_dms([34,35,58,'S'], [58,22,54,'W'])}
     end
   end
