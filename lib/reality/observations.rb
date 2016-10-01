@@ -1,55 +1,30 @@
+require 'forwardable'
+
 module Reality
   using Reality::Refinements
 
   class Observations
+    extend Forwardable
+
     attr_reader :observations
 
     def initialize(*observations)
-      observations.map(&:type).uniq.tap { |types|
-        types.size == 1 or raise(ArgumentError, "Observations have different types: #{types.join(', ')}")
-      }
-      observations.map(&:index).map(&:class).uniq.tap { |classes|
-        classes.size == 1 or raise(ArgumentError, "Observations have different index classes: #{classes.join(', ')}")
-      }
-      observations.map(&:index).group_by(&:itself).select { |i, g| g.count > 1 }.tap { |groups|
-        groups.empty? or raise(ArgumentError, "Observations have non-unique indexes: #{groups.keys.join(', ')}")
-      }
+      validate(observations)
 
       variables = observations.map(&:variables).flatten.uniq
       @observations = observations
         .map { |o| o.extend_variables(*variables) }.freeze
     end
 
-    def variables
-      observations.first.variables
-    end
+    def_delegators :observations, :first, :last, :size, :each, :[]
+    def_delegators :first, :type, :variables
 
     def index
       observations.map(&:index)
     end
 
-    def type
-      observations.first.type
-    end
-
     def inspect
       "#<#{self.class.name}(#{type}): [#{variables.join(', ')}] x #{size}>"
-    end
-
-    def size
-      observations.size
-    end
-
-    def first
-      observations.first
-    end
-
-    def last
-      observations.last
-    end
-
-    def [](idx)
-      observations[idx]
     end
 
     def at(index)
@@ -63,10 +38,18 @@ module Reality
       at(Date.today)
     end
 
-    def each(&block)
-      return to_enum(:each) unless block
+    private
 
-      @observations.each(&block)
+    def validate(observations)
+      observations.map(&:type).uniq.tap { |types|
+        types.size == 1 or raise(ArgumentError, "Observations have different types: #{types.join(', ')}")
+      }
+      observations.map(&:index).map(&:class).uniq.tap { |classes|
+        classes.size == 1 or raise(ArgumentError, "Observations have different index classes: #{classes.join(', ')}")
+      }
+      observations.map(&:index).group_by(&:itself).select { |i, g| g.count > 1 }.tap { |groups|
+        groups.empty? or raise(ArgumentError, "Observations have non-unique indexes: #{groups.keys.join(', ')}")
+      }
     end
   end
 end
