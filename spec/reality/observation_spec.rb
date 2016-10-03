@@ -20,7 +20,7 @@ module Reality
     end
 
     describe '#inspect' do
-      its(:inspect) { is_expected.to eq('#<Reality::Observation(Weather): 2016-05-01 - temp: 30, humidity: 50, sky: "clear">') }
+      its(:inspect) { is_expected.to eq('#<Reality::Observation(Weather): 2016-05-01 - temp: 30, humidity: 50, sky: clear>') }
     end
   end
 end
