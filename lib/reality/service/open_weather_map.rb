@@ -14,25 +14,35 @@ module Reality
       #
       # config_key 'open_weather_map'
       # condition(&:coord)
-      # method_name :weather #, :osm
-      #
-      # impl TLAW::OpenWeatherMap
+      # method_name :weather # TODO: `, :osm` and switch services
 
       def current
         @client.current
           .location(@entity.coord.lat, @entity.coord.lng)
           .derp { |hash| remap(hash, WEATHER_MAPPINGS).merge(_type: 'Weather') }
-          .derp(&Observation.method(:new))
+          .derp(&Observation.method(:new)) # TODO: Observation['Weather'].method(:new) here
       end
 
       def forecast
         @client.forecast
           .location(@entity.coord.lat, @entity.coord.lng)['list']
           .map { |row| remap(row, WEATHER_MAPPINGS).merge(_type: 'Weather') }
-          .derp(&Observations.method(:from_hashes))
+          .derp(&Observations.method(:from_hashes)) # TODO: Observations['Weather'].method(:new) here
+      end
+
+      def inspect
+        "#<#{self.class.name}(#{@entity.name}): #{service_methods.join(', ')}>"
       end
 
       private
+
+      def service_methods
+        methods
+          .map(&method(:method))
+          .select { |m| m.owner == self.class }
+          .map(&:name)
+          .derp { |ms| ms - %i[inspect] }
+      end
 
       WEATHER_MAPPINGS = {
         'dt' => :_index,

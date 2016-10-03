@@ -15,8 +15,12 @@ module Reality
       end
 
       context 'instance' do
-        let(:entity) { double(coord: Geo::Coord.new(1, 2)) }
+        let(:entity) { double(name: 'Chiang Mai', coord: Geo::Coord.new(1, 2)) }
         subject(:service) { described_class.new(entity, ENV['OPEN_WEATHER_MAP_APPID']) }
+
+        its(:inspect) {
+          is_expected.to eq '#<Reality::Service::OpenWeatherMap(Chiang Mai): current, forecast>'
+        }
 
         describe '#current', :vcr do
           subject { service.current }
