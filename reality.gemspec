@@ -42,4 +42,5 @@ Gem::Specification.new do |s|
   s.add_dependency 'tzinfo'
   s.add_dependency 'ruby-sun-times'
   s.add_dependency 'time_math2', '>= 0.0.5'
+  s.add_dependency 'tlaw'
 end

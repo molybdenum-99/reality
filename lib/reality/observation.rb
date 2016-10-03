@@ -33,7 +33,7 @@ module Reality
 
     def inspect
       "#<#{self.class}(#{type}): #{index} - " +
-        @data.map { |k, v| "#{k}: #{v.inspect}" }.join(', ') + '>'
+        @data.map { |k, v| "#{k}: #{v}" }.join(', ') + '>'
     end
   end
 end

@@ -14,6 +14,9 @@ Reality.configure(:demo)
 
 #require_relative 'helpers/formatters'
 
+require 'dotenv'
+Dotenv.load
+
 module EntityIntegrationHelper
   def self.included(group)
     group.before(:all){

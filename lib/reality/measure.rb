@@ -7,11 +7,15 @@ module Reality
   # Allows coercion and general Numeric operations
   class Measure
     %w[unit].each{|mod| require_relative "measure/#{mod}"}
-    
+
     attr_reader :amount, :unit
 
     def Measure.coerce(amount, unit)
       amount && unit && new(amount, unit)
+    end
+
+    def Measure.[](unit)
+      Unit.parse(unit)
     end
 
     # @param amount - numeric value, e.g. 100.5
@@ -22,7 +26,7 @@ module Reality
 
     def <=>(other)
       check_compatibility!(other)
-      
+
       amount <=> other.amount
     end
 

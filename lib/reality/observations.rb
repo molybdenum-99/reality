@@ -8,6 +8,10 @@ module Reality
 
     attr_reader :observations
 
+    def self.from_hashes(hashes)
+      new(*hashes.map(&Observation.method(:new)))
+    end
+
     def initialize(*observations)
       validate(observations)
 

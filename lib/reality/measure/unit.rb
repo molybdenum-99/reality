@@ -4,7 +4,7 @@ module Reality
   class Measure
     class Unit
       @unicode = true
-      
+
       class << self
         attr_accessor :unicode
 
@@ -14,11 +14,11 @@ module Reality
 
         def parse(str)
           return str if str.kind_of?(Unit)
-          
+
           scanner = StringScanner.new(str)
           denom = false
           units = []
-          
+
           loop do
             # (variable [power] operator) ....
             unit = scanner.scan(UNIT_REGEX) or fail("Variable expected at #{scanner.rest}")
@@ -47,9 +47,9 @@ module Reality
           denom ? -res : res
         end
       end
-      
+
       attr_reader :components
-      
+
       def initialize(*components)
         @components = components.
           group_by{|sig, pow| sig}.
@@ -99,6 +99,10 @@ module Reality
 
       def inspect
         "#<#{self.class}(#{to_s})>"
+      end
+
+      def units(num)
+        Measure.new(num, self)
       end
 
       private
