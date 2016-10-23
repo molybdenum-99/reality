@@ -16,6 +16,25 @@
         },
         "p": {
           "type": "uri",
+          "value": "http://www.w3.org/2000/01/rdf-schema#label"
+        },
+        "o": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "assassination of John F. Kennedy"
+        },
+        "oLabel": {
+          "type": "literal",
+          "value": "assassination of John F. Kennedy"
+        }
+      },
+      {
+        "s": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q193484"
+        },
+        "p": {
+          "type": "uri",
           "value": "http://www.wikidata.org/prop/direct/P17"
         },
         "o": {
@@ -170,11 +189,11 @@
         "o": {
           "datatype": "http://www.opengis.net/ont/geosparql#wktLiteral",
           "type": "literal",
-          "value": "Point(32.779166666667 -96.808333333333)"
+          "value": "Point(-96.808333333 32.779166666)"
         },
         "oLabel": {
           "type": "literal",
-          "value": "Point(32.779166666667 -96.808333333333)"
+          "value": "Point(-96.808333333 32.779166666)"
         }
       },
       {
@@ -249,25 +268,6 @@
           "xml:lang": "en",
           "type": "literal",
           "value": "John F. Kennedy"
-        }
-      },
-      {
-        "s": {
-          "type": "uri",
-          "value": "http://www.wikidata.org/entity/Q193484"
-        },
-        "p": {
-          "type": "uri",
-          "value": "http://www.w3.org/2000/01/rdf-schema#label"
-        },
-        "o": {
-          "xml:lang": "en",
-          "type": "literal",
-          "value": "assassination of John F. Kennedy"
-        },
-        "oLabel": {
-          "type": "literal",
-          "value": "assassination of John F. Kennedy"
         }
       }
     ]

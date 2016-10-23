@@ -30,7 +30,7 @@ module Reality
         end
 
         it 'parses GeoSPARQL' do
-          expect(entity['P625'].first).to eq Reality::Geo::Coord.new(49.0, 32.0)
+          expect(entity['P625'].first).to eq Geo::Coord.new(49.0, 32.0)
         end
 
         it 'parses multi-value properties' do
@@ -58,7 +58,7 @@ module Reality
       its(:id){should == 'Q212'}
 
       it 'should have the properties' do
-        expect(entity['P625'].first).to eq Reality::Geo::Coord.new(49.0, 32.0)
+        expect(entity['P625'].first).to eq Geo::Coord.new(49.0, 32.0)
       end
     end
 

@@ -1,3 +1,4 @@
+require 'geo/coord'
 require_relative 'wikidata/query'
 
 module Reality
