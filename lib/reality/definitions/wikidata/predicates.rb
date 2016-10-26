@@ -36,6 +36,10 @@ module Reality
         predicate 'P969', :street_address, :string
         predicate 'P131', :located_in, :entity
 
+        # Time --------------------------------------------------------------
+        predicate 'P580', :start_date, :date
+        predicate 'P582', :end_date, :date
+
         # Economy and sociology ---------------------------------------------
         predicate 'P38', :currency, :entity
         predicate 'P463', :organizations, [:entity]

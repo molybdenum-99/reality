@@ -1,3 +1,5 @@
+require 'tz_offset'
+
 module Reality
   class Entity
     module Coercion
