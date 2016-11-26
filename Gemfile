@@ -20,6 +20,7 @@ group :development do
   #gem 'progress_bar'
   gem 'rake'
   gem 'rubygems-tasks'
+  gem 'ruby-prof'
 end
 
 group :test do

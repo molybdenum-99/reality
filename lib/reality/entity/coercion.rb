@@ -19,7 +19,7 @@ module Reality
         measure: ->(val, **opts){
           u = opts[:unit] || opts[:units] or fail("Units are not defined for measure type")
           num = Util::Parse.scaled_number(val.to_s)
-          if u == 'km²' && num > 1_000_000 && (num % 1_000_000).zero?
+          if u == 'km²' && num && num > 1_000_000 && (num % 1_000_000).zero?
             # Wikidata now sometimes provide area in square meters.
             # As we still can't extract units via SPARQL, here is ugly hack!
             num /= 1_000_000
