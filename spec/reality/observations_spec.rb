@@ -3,14 +3,14 @@ require 'reality/observations'
 
 module Reality
   describe Observations do
-    let(:observations) {
+    let(:observations_list) {
       [
         Observation.new(_index: Date.new(2016,5,1), _type: 'Weather', temp: 30, humidity: 23),
         Observation.new(_index: Date.new(2016,5,2), _type: 'Weather', temp: 18),
         Observation.new(_index: Date.new(2016,5,3), _type: 'Weather', temp: 30, humidity: 23, sky: 'clear')
       ]
     }
-    subject { described_class.new(*observations) }
+    subject(:observations) { described_class.new(*observations_list) }
 
     describe '#initialize' do
       its(:size) { is_expected.to eq 3 }
@@ -22,36 +22,36 @@ module Reality
       its(:observations) { is_expected.to all satisfy { |o| o.variables == subject.variables } }
 
       context 'observations type check' do
-        let(:observations) {
+        let(:observations_list) {
           [
             Observation.new(_index: Date.new(2016,5,1), _type: 'Weather', temp: 30, humidity: 23),
             Observation.new(_index: Date.new(2016,5,2), _type: 'Demographics', population: 300_000),
           ]
         }
 
-        it { expect { subject }.to raise_error(ArgumentError, /Weather, Demographics/) }
+        its_call { is_expected.to raise_error(ArgumentError, /Weather, Demographics/) }
       end
 
       context 'observations index type check' do
-        let(:observations) {
+        let(:observations_list) {
           [
             Observation.new(_index: Date.new(2016,5,1), _type: 'Weather', temp: 30, humidity: 23),
             Observation.new(_index: Time.new(2016,5,1), _type: 'Weather', temp: 18),
           ]
         }
 
-        it { expect { subject }.to raise_error(ArgumentError, /Date, Time/) }
+        its_call { is_expected.to raise_error(ArgumentError, /Date, Time/) }
       end
 
       context 'index unicality check' do
-        let(:observations) {
+        let(:observations_list) {
           [
             Observation.new(_index: Date.new(2016,5,1), _type: 'Weather', temp: 30, humidity: 23),
             Observation.new(_index: Date.new(2016,5,1), _type: 'Weather', temp: 18),
           ]
         }
 
-        it { expect { subject }.to raise_error(ArgumentError, /non-unique indexes.*2016-05-01/) }
+        its_call { is_expected.to raise_error(ArgumentError, /non-unique indexes.*2016-05-01/) }
       end
     end
 
@@ -78,8 +78,10 @@ module Reality
         end
 
         describe '#today' do
+          subject { observations.today }
+
           context 'with date index' do
-            let(:observations) {
+            let(:observations_list) {
               [
                 Observation.new(_index: Date.new(2016,5,1), _type: 'Weather', temp: 30, humidity: 23),
                 Observation.new(_index: Date.new(2016,5,2), _type: 'Weather', temp: 18),
@@ -88,11 +90,11 @@ module Reality
               ]
             }
 
-            its(:today) { is_expected.to eq subject.observations.last }
+            it { is_expected.to eq observations.observations.last }
           end
 
           context 'with non-date index' do
-            let(:observations) {
+            let(:observations_list) {
               [
                 Observation.new(_index: 1, _type: 'Weather', temp: 30, humidity: 23),
                 Observation.new(_index: 2, _type: 'Weather', temp: 18),
@@ -100,7 +102,7 @@ module Reality
               ]
             }
 
-            it { expect { subject.today }.to raise_error(/non-Date index/) }
+            its_call { is_expected.to raise_error(/non-Date index/) }
           end
         end
       end
@@ -111,7 +113,7 @@ module Reality
     end
 
     context '#index' do
-      its(:index) { is_expected.to eq observations.map(&:index) }
+      its(:index) { is_expected.to eq observations_list.map(&:index) }
     end
   end
 end

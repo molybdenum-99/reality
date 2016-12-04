@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 #gem 'infoboxer', git: 'https://github.com/molybdenum-99/infoboxer.git', branch: 'master'
+gem 'mediawiktory', path: '/media/storage/work/gems/mediawiktory'
+gem 'infoboxer', path: '/media/storage/work/gems/infoboxer'
 
 gemspec
 

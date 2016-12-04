@@ -11,6 +11,10 @@ module Reality
       def except(*keys)
         reject { |k, _v| keys.include?(k) }
       end
+
+      def compact
+        reject { |_k, v| v.nil? }
+      end
     end
 
     refine Array do

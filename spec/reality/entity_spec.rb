@@ -1,50 +1,84 @@
 module Reality
   describe Entity do
-    context 'basics' do
-      subject(:entity){Entity.new('Paris')}
-      let(:wikipage){double(title: 'Paris, France', infobox: double(name: 'Infobox countryXX'))}
-      let(:wikidata){double(predicates: {})}
-      let(:wikipedia){double}
-      before{
-        allow(Infoboxer).to receive(:wikipedia).and_return(wikipedia)
-      }
+    describe '#initialize' do
+      context 'when created from name only' do
+        subject { described_class.new('Kharkiv') }
+        its(:name) { is_expected.to eq 'Kharkiv' }
+        its(:inspect) { is_expected.to eq '#<Reality::Entity Kharkiv>' }
+      end
 
-      its(:to_s){should == 'Paris'}
-      its(:inspect){should == "#<Reality::Entity?(Paris)>"}
+      context 'when created from data sources' do
+        subject { described_class.new(wikipedia: 'Kharkiv', wikidata: 'Q242') }
+        its(:name) { is_expected.to be_nil }
+        its(:inspect) { is_expected.to eq '#<Reality::Entity (wikipedia: Kharkiv?, wikidata: Q242?)>' }
+      end
+
+      context 'when created from name & data sources' do
+        subject { described_class.new('Kharkiv', wikipedia: 'Kharkiv', wikidata: 'Q242') }
+        its(:name) { is_expected.to eq 'Kharkiv' }
+        its(:inspect) { is_expected.to eq '#<Reality::Entity Kharkiv (wikipedia: Kharkiv, wikidata: Q242)>' }
+      end
+
+      context 'when unknown data source'
     end
 
-    context 'with real entity' do
-      let(:entity){
-        VCR.use_cassette('Country-Argentina'){
-          Entity.load('Argentina')
-        }
-      }
+    describe 'identity' do
+    end
 
-      context :describe do
-        subject{entity._describe}
-        it{should include(entity.inspect)}
-        it 'renders all properties' do
-          entity.values.each do |key, val|
-            expect(subject).to include("#{key}: #{val.inspect}")
+    describe '#load' do
+      describe 'querying data sources' do
+        let(:entity) { described_class.new(wikipedia: 'Kharkiv', wikidata: 'Q242') }
+
+        context 'all available data sources' do
+          subject { entity.load }
+
+          its_call {
+            is_expected
+              .to send_message(Reality::DataSources.wikipedia, :get).with('Kharkiv').returning({})
+              .and send_message(Reality::DataSources.wikidata, :get).with('Q242').returning({})
+          }
+        end
+
+        context 'selected data sources' do
+          subject { entity.load(:wikidata) }
+        end
+
+        xcontext 'recursive' do
+          let(:entity) { described_class.new(wikipedia: 'Kharkiv')
+          subject { entity.load(recursive: true) }
+
+          before {
+            allow(Reality::DataSources.wikipedia).to receive(:get).with('Kharkiv').returning({wikidata_id: 'Q242'})
+          }
+
+          its_call {
+            is_expected
+              .to send_message(Reality::DataSources.wikidata, :get).with('Q242').returning({})
+          }
+
+          context 'selectively recursive' do
+            subject { entity.load(recursive: :wikidata) }
           end
         end
       end
 
-      context :to_h do
-        before{
-          VCR.use_cassette('City-Buenos-Aires-wikidata'){
-            entity.capital.load!
-          }
-        }
-        subject{entity.to_h}
-        let(:expected){
-          entity.values.map{|k,v|
-            [k.to_sym, Entity::Coercion.to_simple_type(v)]
-          }.to_h
-        }
-        it{should include(name: entity.name)}
-        it{should include(expected)}
+      describe 'setting up variables' do
       end
+    end
+
+    describe '#variables' do
+    end
+
+    describe '#<variable>' do
+    end
+
+    describe '#inspect' do
+    end
+
+    describe '#describe' do
+    end
+
+    describe '.load' do
     end
   end
 end

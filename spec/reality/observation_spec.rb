@@ -3,24 +3,30 @@ require 'reality/observation'
 module Reality
   describe Observation do
     subject(:observation) {
-      described_class.new(_index: Date.new(2016, 5, 1), _type: 'Weather', temp: 30, humidity: 50, sky: 'clear')
+      described_class.new(timestamp: Date.new(2016, 5, 1), value: 30, source: :wikidata)
     }
 
-    its(:variables) { is_expected.to eq %i[temp humidity sky] }
+    its(:timestamp) { is_expected.to eq Date.new(2016, 5, 1) }
+    its(:value) { is_expected.to eq 30 }
+    its(:source) { is_expected.to eq :wikidata }
 
-    context 'behaving like const struct' do
-      its(:temp) { is_expected.to eq 30 }
-      it { expect { observation.city }.to raise_error(NoMethodError) }
-    end
-
-    context 'behaving like const hash' do
-      its([:temp]) { is_expected.to eq 30 }
-      it { expect { observation[:temp] = 40 }.to raise_error(NoMethodError) }
-      it { expect { observation[:city] }.to raise_error(KeyError) }
+    describe '#==' do
+      it { is_expected.to eq described_class.new(timestamp: Date.new(2016, 5, 1), value: 30, source: :wikidata) }
+      it { is_expected.not_to eq described_class.new(timestamp: Date.new(2016, 5, 2), value: 30, source: :wikidata) }
+      it { is_expected.not_to eq described_class.new(timestamp: Date.new(2016, 5, 1), value: 31, source: :wikidata) }
+      it { is_expected.not_to eq described_class.new(timestamp: Date.new(2016, 5, 1), value: 30, source: :wikipedia) }
     end
 
     describe '#inspect' do
-      its(:inspect) { is_expected.to eq('#<Reality::Observation(Weather): 2016-05-01 - temp: 30, humidity: 50, sky: clear>') }
+      its(:inspect) { is_expected.to eq '#<Reality::Observation 2016-05-01 - 30 (wikidata)>' }
+
+      context 'without source' do
+        subject(:observation) {
+          described_class.new(timestamp: Date.new(2016, 5, 1), value: 30)
+        }
+
+        its(:inspect) { is_expected.to eq '#<Reality::Observation 2016-05-01 - 30>' }
+      end
     end
   end
 end
