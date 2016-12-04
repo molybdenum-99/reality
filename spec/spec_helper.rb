@@ -1,14 +1,15 @@
 require 'rspec/its'
-require 'reality'
-require 'pp'
-
 require 'vcr'
+require 'pp'
+require 'timecop'
 
 VCR.configure do |config|
   config.cassette_library_dir = "spec/fixtures/vcr_cassettes"
   config.hook_into :webmock
   config.configure_rspec_metadata!
 end
+
+require 'reality'
 
 Reality.configure(:demo)
 

@@ -31,4 +31,5 @@ group :test do
   gem 'vcr'
   gem 'webmock'
   gem 'dotenv'
+  gem 'timecop'
 end

@@ -2,7 +2,7 @@ module Reality
   class Observation
     attr_reader :timestamp, :value, :source
 
-    def initialize(timestamp:, value:, source: nil)
+    def initialize(timestamp, value, source: nil)
       @timestamp = timestamp
       @value = value
       @source = source
@@ -16,6 +16,10 @@ module Reality
       "#<#{self.class} #{timestamp} - #{value}" +
         (source ? " (#{source})" : '') +
         '>'
+    end
+
+    def to_s
+      value.to_s
     end
   end
 end
