@@ -81,6 +81,8 @@ module Reality
       its(:inspect) { is_expected.to eq '#<Reality::Variable temperature (2016-04-01 - 2016-05-06): 12>' }
     end
 
-    describe '#to_s'
+    describe '#to_s' do
+      its(:to_s) { is_expected.to eq '12' }
+    end
   end
 end

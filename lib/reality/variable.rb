@@ -24,7 +24,7 @@ module Reality
     end
 
     def current
-      at(Date.today) # FIXME: Time.now, comparison failed
+      at(Date.today) # FIXME: Time.now, comparison with Date failed
     end
 
     def timestamps
@@ -34,6 +34,10 @@ module Reality
     def inspect
       '#<%s %s (%s - %s): %s>' %
         [self.class.name, name, timestamps.min, timestamps.max, current]
+    end
+
+    def to_s
+      current.to_s
     end
 
     private
