@@ -40,9 +40,11 @@ module Reality
     end
 
     describe '#at' do
-      subject { variable.at(Date.parse('2016-04-01')) }
+      context 'inside period' do
+        subject { variable.at(Date.parse('2016-04-01')) }
 
-      it { is_expected.to eq Observation.new(Date.parse('2016-04-01'), 11, source: :wikidata) }
+        it { is_expected.to eq Observation.new(Date.parse('2016-04-01'), 11, source: :wikidata) }
+      end
 
       context 'before observation start' do
         subject { variable.at(Date.parse('2015-04-01')) }
@@ -75,6 +77,12 @@ module Reality
         Observation.new(Date.parse('2016-04-15'), 12, source: :wikipedia),
         Observation.new(Date.parse('2016-05-06'), 14, source: :wikipedia),
       ]}
+
+      context 'unknown source' do
+        subject { variable.from(:openweathermap) }
+
+        it { is_expected.to be_nil }
+      end
     end
 
     describe '#inspect' do
@@ -83,6 +91,24 @@ module Reality
 
     describe '#to_s' do
       its(:to_s) { is_expected.to eq '12' }
+    end
+
+    describe '#updated' do
+      before { variable.update(Variable.new(:temperature, [Observation.new(Date.parse('2016-03-01'), 8, source: :wikipedia)])) }
+
+      its(:observations) { are_expected.to eq [
+        Observation.new(Date.parse('2016-03-01'), 8, source: :wikipedia),
+        Observation.new(Date.parse('2016-04-01'), 10, source: :wikipedia),
+        Observation.new(Date.parse('2016-04-01'), 11, source: :wikidata),
+        Observation.new(Date.parse('2016-04-15'), 12, source: :wikipedia),
+        Observation.new(Date.parse('2016-05-06'), 14, source: :wikipedia),
+      ]}
+
+      context 'with different name' do
+      end
+
+      context 'with conflicting observations' do
+      end
     end
   end
 end

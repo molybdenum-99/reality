@@ -1,5 +1,6 @@
 module Reality
   class Variable
+    using Refinements
     attr_reader :name, :observations
 
     def initialize(name, observations = [])
@@ -20,7 +21,7 @@ module Reality
     end
 
     def at(timestamp)
-      before(timestamp).observations.last
+      before(timestamp).derp { |prev| prev && prev.observations.last }
     end
 
     def current
@@ -29,6 +30,12 @@ module Reality
 
     def timestamps
       observations.map(&:timestamp)
+    end
+
+    def update(other)
+      other.is_a?(Variable) && other.name == name or fail ArgumentError, "Can't update variable with #{other.inspect}"
+      @observations.concat(other.observations)
+      @observations.sort_by!(&:timestamp)
     end
 
     def inspect
@@ -40,10 +47,15 @@ module Reality
       current.to_s
     end
 
+    def ==(other)
+      # TODO: what about cases like if Kharkiv.population == Measure[:people](10_000)?
+      other.is_a?(Variable) && other.name == name && other.observations == observations
+    end
+
     private
 
     def select(&condition)
-      new(name, observations.select(&condition))
+      observations.select(&condition).derp { |obs| obs.empty? ? nil : new(name, obs) }
     end
 
     def new(nm, obs)
