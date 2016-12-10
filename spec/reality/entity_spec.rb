@@ -1,3 +1,5 @@
+require 'reality/data_sources'
+
 module Reality
   describe Entity do
     def var(name, *observations)
@@ -30,6 +32,9 @@ module Reality
         subject { described_class.new(sources: sources) }
 
         its(:sources) { are_expected.to eq sources }
+
+        context 'data source validation' do
+        end
       end
     end
 
@@ -37,6 +42,12 @@ module Reality
       context 'variable-based'
       context 'source-based'
       context 'none found'
+    end
+
+    describe '#inspect' do
+    end
+
+    describe '#describe' do
     end
 
     describe '#<variable>' do
@@ -93,7 +104,58 @@ module Reality
       its(:pressure) { is_expected.to eq var(:pressure, obs('2016-05-01', 222)) }
     end
 
-    describe '#load'
+    describe '#load' do
+      describe 'querying data sources' do
+        let(:entity) { described_class.new(sources: {wikipedia: 'Kharkiv', wikidata: 'Q242'}) }
+
+        context 'all available data sources' do
+          subject { entity.load! }
+
+          its_call {
+            is_expected
+              .to send_message(Reality::DataSources.wikipedia, :get).with('Kharkiv').returning([])
+              .and send_message(Reality::DataSources.wikidata, :get).with('Q242').returning([])
+          }
+        end
+
+        #context 'selected data sources' do
+          #subject { entity.load(:wikidata) }
+        #end
+
+        #xcontext 'recursive' do
+          #let(:entity) { described_class.new(wikipedia: 'Kharkiv')
+          #subject { entity.load(recursive: true) }
+
+          #before {
+            #allow(Reality::DataSources.wikipedia).to receive(:get).with('Kharkiv').returning({wikidata_id: 'Q242'})
+          #}
+
+          #its_call {
+            #is_expected
+              #.to send_message(Reality::DataSources.wikidata, :get).with('Q242').returning({})
+          #}
+
+          #context 'selectively recursive' do
+            #subject { entity.load(recursive: :wikidata) }
+          #end
+        #end
+      end
+
+      describe 'setting up variables' do
+        subject(:entity) { described_class.new(sources: {wikipedia: 'Kharkiv'}) }
+
+        let(:temp) { var(:temperature, obs('2016-05-01', 15)) }
+        before {
+          allow(Reality::DataSources.wikipedia).to receive(:get)
+            .and_return([temp])
+
+          entity.load!
+        }
+
+        its(:variables) { is_expected.not_to be_empty }
+        its(:temperature) { is_expected.to eq temp }
+      end
+    end
 
     describe '.load'
   end
@@ -122,61 +184,13 @@ __END__
       context 'when unknown data source'
     end
 
-    describe 'identity' do
-    end
-
     describe '#variables' do
-    end
-
-    describe '#<variable>' do
     end
 
     describe '#inspect' do
     end
 
     describe '#describe' do
-    end
-
-
-    describe '#load' do
-      describe 'querying data sources' do
-        let(:entity) { described_class.new(wikipedia: 'Kharkiv', wikidata: 'Q242') }
-
-        context 'all available data sources' do
-          subject { entity.load }
-
-          its_call {
-            is_expected
-              .to send_message(Reality::DataSources.wikipedia, :get).with('Kharkiv').returning({})
-              .and send_message(Reality::DataSources.wikidata, :get).with('Q242').returning({})
-          }
-        end
-
-        context 'selected data sources' do
-          subject { entity.load(:wikidata) }
-        end
-
-        xcontext 'recursive' do
-          let(:entity) { described_class.new(wikipedia: 'Kharkiv')
-          subject { entity.load(recursive: true) }
-
-          before {
-            allow(Reality::DataSources.wikipedia).to receive(:get).with('Kharkiv').returning({wikidata_id: 'Q242'})
-          }
-
-          its_call {
-            is_expected
-              .to send_message(Reality::DataSources.wikidata, :get).with('Q242').returning({})
-          }
-
-          context 'selectively recursive' do
-            subject { entity.load(recursive: :wikidata) }
-          end
-        end
-      end
-
-      describe 'setting up variables' do
-      end
     end
 
     describe '.load' do

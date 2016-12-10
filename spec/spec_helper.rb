@@ -57,7 +57,7 @@ RSpec::Matchers.define :send_message do |object, message|
   match do |block|
     allow(object).to receive(message)
       .tap { |m| m.with(*@with) if @with }
-      .tap { |m| m.and_return(*@return) if @return }
+      .tap { |m| m.and_return(@return) if @return }
       .tap { |m| m.and_call_original if @call_original }
 
     block.call

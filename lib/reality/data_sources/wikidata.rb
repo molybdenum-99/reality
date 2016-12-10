@@ -5,6 +5,8 @@ module Reality
     using Reality::Refinements
 
     class Wikidata < Base
+      register :wikidata
+
       class << self
         def predicate(pred, name, type, &block)
           rule(name) { |entity| type.parse(entity[pred].first.to_s) }

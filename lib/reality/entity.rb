@@ -22,10 +22,16 @@ module Reality
     end
 
     def method_missing(sym, *arg)
-      super if sym =~ /\?=$/ || arg.count > 1
+      super if sym =~ /!\?=$/ || arg.count > 1
 
       var = @variables.detect { |v| v.name == sym } or return nil
       arg.first ? var.from(arg.first) : var
+    end
+
+    def load!
+      sources.each do |source, identity|
+        update(DataSources[source].get(identity))
+      end
     end
   end
 end

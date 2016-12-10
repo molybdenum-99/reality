@@ -5,6 +5,8 @@ module Reality
     using Reality::Refinements
 
     class Wikipedia < Base
+      register :wikipedia
+
       class << self
         def infobox(var, name, &block)
           rule(name) { |page| block.call(page.infobox.fetch(var).first) }
