@@ -13,7 +13,7 @@ module Reality
         end
       end
 
-      def get(id)
+      def get_hash(id)
         Reality::Wikidata::Entity.one_by_id(id).derp(&method(:entity_to_hash))
       end
 

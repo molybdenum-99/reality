@@ -3,8 +3,8 @@ require 'reality/data_sources/wikidata'
 describe Reality::DataSources::Wikidata do
   subject(:client) { described_class.new }
 
-  describe '#get', :vcr do
-    subject { client.get('Q42') }
+  describe '#get_hash', :vcr do
+    subject { client.get_hash('Q42') }
 
     its_call {
       is_expected

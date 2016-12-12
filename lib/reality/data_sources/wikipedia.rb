@@ -13,7 +13,7 @@ module Reality
         end
       end
 
-      def get(title)
+      def get_hash(title)
         Infoboxer.wikipedia.get(title, prop: :wbentityusage).derp(&method(:page_to_hash))
       end
 

@@ -12,16 +12,24 @@ module Reality
           @rules << [name, block]
         end
 
-        def register(name)
-          @name = name
-          class_name = self.name
+        attr_reader :symbol
+
+        def register(symbol)
+          @symbol = symbol
+          name = self.name
           DataSources.instance_eval(<<-METHOD, __FILE__, __LINE__
-            def #{name}
-              @#{name} ||= #{class_name}.new
+            def #{symbol}
+              @#{symbol} ||= #{name}.new
             end
           METHOD
           )
         end
+      end
+
+      def get(identity)
+        get_hash(identity).map { |key, val|
+          Variable.new(key, [Observation.new(Time.now, val, source: self.class.symbol)])
+        }
       end
     end
   end

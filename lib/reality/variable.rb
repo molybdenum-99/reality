@@ -25,7 +25,8 @@ module Reality
     end
 
     def current
-      at(Date.today) # FIXME: Time.now, comparison with Date failed
+      at(Time.now) # FIXME: Time.now vs Date.today, comparison of Time with Date failed
+                   # ...which raises a global question about timestamps coercion
     end
 
     def timestamps

@@ -3,8 +3,8 @@ require 'reality/data_sources/wikipedia'
 describe Reality::DataSources::Wikipedia do
   subject(:client) { described_class.new }
 
-  describe '#get', :vcr do
-    subject { client.get('Einstein') }
+  describe '#get_hash', :vcr do
+    subject { client.get_hash('Einstein') }
 
     its_call {
       is_expected
