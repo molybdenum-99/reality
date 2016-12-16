@@ -44,16 +44,18 @@ module Reality
     # as possible. Typically, when you want to load several entities
     #
     # @return [self]
-    def load!
-      compact.partition(&:wikidata_id).tap{|wd, wp|
-          load_by_wikipedia(wp)
-          load_by_wikidata(wd)
+    def load!(frame = 3)
+      Timeout.timeout(frame) do
+        compact.partition(&:wikidata_id).tap{|wd, wp|
+            load_by_wikipedia(wp)
+            load_by_wikidata(wd)
+          }
+        # try to fallback to labels:
+        compact.reject(&:loaded?).tap{|entities|
+          load_by_wikidata_labels(entities)
         }
-      # try to fallback to labels:
-      compact.reject(&:loaded?).tap{|entities|
-        load_by_wikidata_labels(entities)
-      }
-      
+      end
+
       self
     end
 
