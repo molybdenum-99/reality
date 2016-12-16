@@ -3,6 +3,10 @@ module Reality
     using Refinements
     attr_reader :name, :observations
 
+    def self.from_value(name, value, source: nil)
+      new(name, [Observation.new(Time.now, value, source: source)])
+    end
+
     def initialize(name, observations = [])
       @name = name
       @observations = observations
@@ -61,6 +65,18 @@ module Reality
 
     def new(nm, obs)
       self.class.new(nm, obs)
+    end
+  end
+
+  class DerivedVariable < Variable
+    def initialize(name, *components, &block)
+      super(name)
+      @components = components
+      @formula = block or fail(ArgumentError, "Provide block")
+    end
+
+    def at(timestamp)
+      @formula.call(*@components.map { |c| c.at(timestamp) })
     end
   end
 end
