@@ -53,7 +53,6 @@ module Reality
     def countries_by_continents_cache
       @by_continents ||= Infoboxer.wp.
         get('List of countries by continent').
-        sections.first.
         sections.map{|s|
           continent = s.heading.text_
           s.tables.first.

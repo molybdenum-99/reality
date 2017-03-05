@@ -21,7 +21,7 @@ module Reality
       describe '#gdp', :vcr do
         subject { economy.gdp }
 
-        it{should == Reality::Measure(90_000_000_000, '$')}
+        it{should == Reality::Measure(93_000_000_000, '$')}
       end
     end
   end
