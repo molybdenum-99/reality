@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 05 Mar 2017 17:12:45 GMT
+      - Sun, 05 Mar 2017 17:22:51 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -27,7 +27,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1281.eqiad.wmnet
+      - mw1279.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.12.14
       X-Content-Type-Options:
@@ -42,9 +42,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=89205 t=1488733964913834
+      - D=62467 t=1488734571241420
       X-Varnish:
-      - 843293888, 48821243, 573354083
+      - 847155051, 824002314, 575292919
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -52,7 +52,7 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1065 pass, cp3030 pass, cp3040 pass
+      - cp1065 pass, cp3042 pass, cp3040 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
@@ -2152,7 +2152,7 @@ http_interactions:
         dmy dates|date=October 2012}}\n\n{{Authority control}}\n\n[[Category:Europe|
         ]]<!--please leave the empty space as standard-->\n[[Category:Continents]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-03-05T11:04:18Z","lastrevid":767916820,"length":172551,"fullurl":"https://en.wikipedia.org/wiki/Europe","editurl":"https://en.wikipedia.org/w/index.php?title=Europe&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Europe"}}}}'
     http_version: 
-  recorded_at: Sun, 05 Mar 2017 17:12:43 GMT
+  recorded_at: Sun, 05 Mar 2017 17:22:50 GMT
 - request:
     method: get
     uri: https://query.wikidata.org/sparql?format=json&query=%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20PREFIX%20wikibase:%20%3Chttp://wikiba.se/ontology%23%3E%0A%20%20%20%20%20%20%20%20PREFIX%20wd:%20%3Chttp://www.wikidata.org/entity/%3E%20%0A%20%20%20%20%20%20%20%20PREFIX%20wdt:%20%3Chttp://www.wikidata.org/prop/direct/%3E%0A%20%20%20%20%20%20%20%20PREFIX%20rdfs:%20%3Chttp://www.w3.org/2000/01/rdf-schema%23%3E%0A%20%20%20%20%20%20%20%20PREFIX%20p:%20%3Chttp://www.wikidata.org/prop/%3E%0A%20%20%20%20%20%20%20%20PREFIX%20v:%20%3Chttp://www.wikidata.org/prop/statement/%3E%0A%20%20%20%20%20%20%20%20PREFIX%20schema:%20%3Chttp://schema.org/%3E%0A%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20SELECT%20?s%20?p%20?o%20?oLabel%20%20WHERE%20%7B%0A%20%20%20%20%20%20%20%20%20%20%7B%3Chttps://en.wikipedia.org/wiki/Europe%3E%20schema:about%20?s%7D%20.%0A%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%20%20?s%20?p%20?o%20.%0A%20%20%20%20%20%20%20%20%20%20FILTER(%0A%20%20%20%20%20%20%20%20%20%20%20%20STRSTARTS(STR(?p),%20%22http://www.wikidata.org/prop/direct/%22)%20%7C%7C%0A%20%20%20%20%20%20%20%20%20%20%20%20(?p%20=%20rdfs:label%20%26%26%20langMatches(lang(?o),%20%22EN%22))%0A%20%20%20%20%20%20%20%20%20%20)%0A%20%20%20%20%20%20%20%20%7D%20union%20%7B%0A%20%20%20%20%20%20%20%20%20%20bind(schema:about%20as%20?p)%20.%0A%20%20%20%20%20%20%20%20%20%20?o%20schema:about%20?s%20.%0A%20%20%20%20%20%20%20%20%20%20filter(strstarts(str(?o),%20%22https://en.wikipedia.org/wiki/%22))%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20.%0A%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20SERVICE%20wikibase:label%20%7B%0A%20%20%20%20%20%20%20%20%20%20bd:serviceParam%20wikibase:language%20%22en%22%20.%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20
@@ -2172,7 +2172,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 05 Mar 2017 17:12:47 GMT
+      - Sun, 05 Mar 2017 17:22:57 GMT
       Content-Type:
       - application/sparql-results+json
       Content-Length:
@@ -2182,7 +2182,7 @@ http_interactions:
       Server:
       - nginx/1.11.6
       X-Served-By:
-      - wdqs1003
+      - wdqs1002
       Access-Control-Allow-Origin:
       - "*"
       Cache-Control:
@@ -2190,15 +2190,15 @@ http_interactions:
       Vary:
       - Accept, Accept-Encoding
       X-Varnish:
-      - 125008722, 59167218, 15733810 20154808
+      - 19694802, 53143419, 11396272
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Age:
-      - '5'
+      - '0'
       X-Cache:
-      - cp1058 miss, cp3008 miss, cp3008 hit/1
+      - cp1061 miss, cp3008 miss, cp3008 miss
       X-Cache-Status:
-      - hit
+      - miss
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains; preload
       Set-Cookie:
@@ -2666,66 +2666,66 @@ http_interactions:
         CiAgICAgIH0sCiAgICAgICJwIiA6IHsKICAgICAgICAidHlwZSIgOiAidXJp
         IiwKICAgICAgICAidmFsdWUiIDogImh0dHA6Ly93d3cud2lraWRhdGEub3Jn
         L3Byb3AvZGlyZWN0L1AxNTQ5IgogICAgICB9LAogICAgICAibyIgOiB7CiAg
-        ICAgICAgInhtbDpsYW5nIiA6ICJkYSIsCiAgICAgICAgInR5cGUiIDogImxp
-        dGVyYWwiLAogICAgICAgICJ2YWx1ZSIgOiAiRXVyb3DDpmVyIgogICAgICB9
+        ICAgICAgInhtbDpsYW5nIiA6ICJubCIsCiAgICAgICAgInR5cGUiIDogImxp
+        dGVyYWwiLAogICAgICAgICJ2YWx1ZSIgOiAiRXVyb3BlYWFuIgogICAgICB9
         LAogICAgICAib0xhYmVsIiA6IHsKICAgICAgICAidHlwZSIgOiAibGl0ZXJh
-        bCIsCiAgICAgICAgInZhbHVlIiA6ICJFdXJvcMOmZXIiCiAgICAgIH0KICAg
+        bCIsCiAgICAgICAgInZhbHVlIiA6ICJFdXJvcGVhYW4iCiAgICAgIH0KICAg
         IH0sIHsKICAgICAgInMiIDogewogICAgICAgICJ0eXBlIiA6ICJ1cmkiLAog
         ICAgICAgICJ2YWx1ZSIgOiAiaHR0cDovL3d3dy53aWtpZGF0YS5vcmcvZW50
         aXR5L1E0NiIKICAgICAgfSwKICAgICAgInAiIDogewogICAgICAgICJ0eXBl
         IiA6ICJ1cmkiLAogICAgICAgICJ2YWx1ZSIgOiAiaHR0cDovL3d3dy53aWtp
         ZGF0YS5vcmcvcHJvcC9kaXJlY3QvUDE1NDkiCiAgICAgIH0sCiAgICAgICJv
         IiA6IHsKICAgICAgICAieG1sOmxhbmciIDogImRhIiwKICAgICAgICAidHlw
-        ZSIgOiAibGl0ZXJhbCIsCiAgICAgICAgInZhbHVlIiA6ICJFdXJvcMOmaXNr
-        IgogICAgICB9LAogICAgICAib0xhYmVsIiA6IHsKICAgICAgICAidHlwZSIg
-        OiAibGl0ZXJhbCIsCiAgICAgICAgInZhbHVlIiA6ICJFdXJvcMOmaXNrIgog
-        ICAgICB9CiAgICB9LCB7CiAgICAgICJzIiA6IHsKICAgICAgICAidHlwZSIg
-        OiAidXJpIiwKICAgICAgICAidmFsdWUiIDogImh0dHA6Ly93d3cud2lraWRh
-        dGEub3JnL2VudGl0eS9RNDYiCiAgICAgIH0sCiAgICAgICJwIiA6IHsKICAg
-        ICAgICAidHlwZSIgOiAidXJpIiwKICAgICAgICAidmFsdWUiIDogImh0dHA6
-        Ly93d3cud2lraWRhdGEub3JnL3Byb3AvZGlyZWN0L1AxNTQ5IgogICAgICB9
-        LAogICAgICAibyIgOiB7CiAgICAgICAgInhtbDpsYW5nIiA6ICJkZSIsCiAg
-        ICAgICAgInR5cGUiIDogImxpdGVyYWwiLAogICAgICAgICJ2YWx1ZSIgOiAi
-        RXVyb3DDpGVyaW5uZW4iCiAgICAgIH0sCiAgICAgICJvTGFiZWwiIDogewog
-        ICAgICAgICJ0eXBlIiA6ICJsaXRlcmFsIiwKICAgICAgICAidmFsdWUiIDog
-        IkV1cm9ww6RlcmlubmVuIgogICAgICB9CiAgICB9LCB7CiAgICAgICJzIiA6
-        IHsKICAgICAgICAidHlwZSIgOiAidXJpIiwKICAgICAgICAidmFsdWUiIDog
-        Imh0dHA6Ly93d3cud2lraWRhdGEub3JnL2VudGl0eS9RNDYiCiAgICAgIH0s
-        CiAgICAgICJwIiA6IHsKICAgICAgICAidHlwZSIgOiAidXJpIiwKICAgICAg
-        ICAidmFsdWUiIDogImh0dHA6Ly93d3cud2lraWRhdGEub3JnL3Byb3AvZGly
-        ZWN0L1AxNTQ5IgogICAgICB9LAogICAgICAibyIgOiB7CiAgICAgICAgInht
-        bDpsYW5nIiA6ICJmciIsCiAgICAgICAgInR5cGUiIDogImxpdGVyYWwiLAog
-        ICAgICAgICJ2YWx1ZSIgOiAiRXVyb3DDqWVuIgogICAgICB9LAogICAgICAi
-        b0xhYmVsIiA6IHsKICAgICAgICAidHlwZSIgOiAibGl0ZXJhbCIsCiAgICAg
-        ICAgInZhbHVlIiA6ICJFdXJvcMOpZW4iCiAgICAgIH0KICAgIH0sIHsKICAg
+        ZSIgOiAibGl0ZXJhbCIsCiAgICAgICAgInZhbHVlIiA6ICJFdXJvcMOmZXIi
+        CiAgICAgIH0sCiAgICAgICJvTGFiZWwiIDogewogICAgICAgICJ0eXBlIiA6
+        ICJsaXRlcmFsIiwKICAgICAgICAidmFsdWUiIDogIkV1cm9ww6ZlciIKICAg
+        ICAgfQogICAgfSwgewogICAgICAicyIgOiB7CiAgICAgICAgInR5cGUiIDog
+        InVyaSIsCiAgICAgICAgInZhbHVlIiA6ICJodHRwOi8vd3d3Lndpa2lkYXRh
+        Lm9yZy9lbnRpdHkvUTQ2IgogICAgICB9LAogICAgICAicCIgOiB7CiAgICAg
+        ICAgInR5cGUiIDogInVyaSIsCiAgICAgICAgInZhbHVlIiA6ICJodHRwOi8v
+        d3d3Lndpa2lkYXRhLm9yZy9wcm9wL2RpcmVjdC9QMTU0OSIKICAgICAgfSwK
+        ICAgICAgIm8iIDogewogICAgICAgICJ4bWw6bGFuZyIgOiAiZGEiLAogICAg
+        ICAgICJ0eXBlIiA6ICJsaXRlcmFsIiwKICAgICAgICAidmFsdWUiIDogIkV1
+        cm9ww6Zpc2siCiAgICAgIH0sCiAgICAgICJvTGFiZWwiIDogewogICAgICAg
+        ICJ0eXBlIiA6ICJsaXRlcmFsIiwKICAgICAgICAidmFsdWUiIDogIkV1cm9w
+        w6Zpc2siCiAgICAgIH0KICAgIH0sIHsKICAgICAgInMiIDogewogICAgICAg
+        ICJ0eXBlIiA6ICJ1cmkiLAogICAgICAgICJ2YWx1ZSIgOiAiaHR0cDovL3d3
+        dy53aWtpZGF0YS5vcmcvZW50aXR5L1E0NiIKICAgICAgfSwKICAgICAgInAi
+        IDogewogICAgICAgICJ0eXBlIiA6ICJ1cmkiLAogICAgICAgICJ2YWx1ZSIg
+        OiAiaHR0cDovL3d3dy53aWtpZGF0YS5vcmcvcHJvcC9kaXJlY3QvUDE1NDki
+        CiAgICAgIH0sCiAgICAgICJvIiA6IHsKICAgICAgICAieG1sOmxhbmciIDog
+        ImRlIiwKICAgICAgICAidHlwZSIgOiAibGl0ZXJhbCIsCiAgICAgICAgInZh
+        bHVlIiA6ICJFdXJvcMOkZXJpbm5lbiIKICAgICAgfSwKICAgICAgIm9MYWJl
+        bCIgOiB7CiAgICAgICAgInR5cGUiIDogImxpdGVyYWwiLAogICAgICAgICJ2
+        YWx1ZSIgOiAiRXVyb3DDpGVyaW5uZW4iCiAgICAgIH0KICAgIH0sIHsKICAg
         ICAgInMiIDogewogICAgICAgICJ0eXBlIiA6ICJ1cmkiLAogICAgICAgICJ2
         YWx1ZSIgOiAiaHR0cDovL3d3dy53aWtpZGF0YS5vcmcvZW50aXR5L1E0NiIK
         ICAgICAgfSwKICAgICAgInAiIDogewogICAgICAgICJ0eXBlIiA6ICJ1cmki
         LAogICAgICAgICJ2YWx1ZSIgOiAiaHR0cDovL3d3dy53aWtpZGF0YS5vcmcv
         cHJvcC9kaXJlY3QvUDE1NDkiCiAgICAgIH0sCiAgICAgICJvIiA6IHsKICAg
         ICAgICAieG1sOmxhbmciIDogImZyIiwKICAgICAgICAidHlwZSIgOiAibGl0
-        ZXJhbCIsCiAgICAgICAgInZhbHVlIiA6ICJFdXJvcMOpZW5uZSIKICAgICAg
-        fSwKICAgICAgIm9MYWJlbCIgOiB7CiAgICAgICAgInR5cGUiIDogImxpdGVy
-        YWwiLAogICAgICAgICJ2YWx1ZSIgOiAiRXVyb3DDqWVubmUiCiAgICAgIH0K
-        ICAgIH0sIHsKICAgICAgInMiIDogewogICAgICAgICJ0eXBlIiA6ICJ1cmki
-        LAogICAgICAgICJ2YWx1ZSIgOiAiaHR0cDovL3d3dy53aWtpZGF0YS5vcmcv
-        ZW50aXR5L1E0NiIKICAgICAgfSwKICAgICAgInAiIDogewogICAgICAgICJ0
-        eXBlIiA6ICJ1cmkiLAogICAgICAgICJ2YWx1ZSIgOiAiaHR0cDovL3d3dy53
-        aWtpZGF0YS5vcmcvcHJvcC9kaXJlY3QvUDE1NDkiCiAgICAgIH0sCiAgICAg
-        ICJvIiA6IHsKICAgICAgICAieG1sOmxhbmciIDogImh1IiwKICAgICAgICAi
-        dHlwZSIgOiAibGl0ZXJhbCIsCiAgICAgICAgInZhbHVlIiA6ICJldXLDs3Bh
-        aSIKICAgICAgfSwKICAgICAgIm9MYWJlbCIgOiB7CiAgICAgICAgInR5cGUi
-        IDogImxpdGVyYWwiLAogICAgICAgICJ2YWx1ZSIgOiAiZXVyw7NwYWkiCiAg
-        ICAgIH0KICAgIH0sIHsKICAgICAgInMiIDogewogICAgICAgICJ0eXBlIiA6
-        ICJ1cmkiLAogICAgICAgICJ2YWx1ZSIgOiAiaHR0cDovL3d3dy53aWtpZGF0
-        YS5vcmcvZW50aXR5L1E0NiIKICAgICAgfSwKICAgICAgInAiIDogewogICAg
-        ICAgICJ0eXBlIiA6ICJ1cmkiLAogICAgICAgICJ2YWx1ZSIgOiAiaHR0cDov
-        L3d3dy53aWtpZGF0YS5vcmcvcHJvcC9kaXJlY3QvUDE1NDkiCiAgICAgIH0s
-        CiAgICAgICJvIiA6IHsKICAgICAgICAieG1sOmxhbmciIDogIm5sIiwKICAg
-        ICAgICAidHlwZSIgOiAibGl0ZXJhbCIsCiAgICAgICAgInZhbHVlIiA6ICJF
-        dXJvcGVhYW4iCiAgICAgIH0sCiAgICAgICJvTGFiZWwiIDogewogICAgICAg
-        ICJ0eXBlIiA6ICJsaXRlcmFsIiwKICAgICAgICAidmFsdWUiIDogIkV1cm9w
-        ZWFhbiIKICAgICAgfQogICAgfSwgewogICAgICAicyIgOiB7CiAgICAgICAg
+        ZXJhbCIsCiAgICAgICAgInZhbHVlIiA6ICJFdXJvcMOpZW4iCiAgICAgIH0s
+        CiAgICAgICJvTGFiZWwiIDogewogICAgICAgICJ0eXBlIiA6ICJsaXRlcmFs
+        IiwKICAgICAgICAidmFsdWUiIDogIkV1cm9ww6llbiIKICAgICAgfQogICAg
+        fSwgewogICAgICAicyIgOiB7CiAgICAgICAgInR5cGUiIDogInVyaSIsCiAg
+        ICAgICAgInZhbHVlIiA6ICJodHRwOi8vd3d3Lndpa2lkYXRhLm9yZy9lbnRp
+        dHkvUTQ2IgogICAgICB9LAogICAgICAicCIgOiB7CiAgICAgICAgInR5cGUi
+        IDogInVyaSIsCiAgICAgICAgInZhbHVlIiA6ICJodHRwOi8vd3d3Lndpa2lk
+        YXRhLm9yZy9wcm9wL2RpcmVjdC9QMTU0OSIKICAgICAgfSwKICAgICAgIm8i
+        IDogewogICAgICAgICJ4bWw6bGFuZyIgOiAiZnIiLAogICAgICAgICJ0eXBl
+        IiA6ICJsaXRlcmFsIiwKICAgICAgICAidmFsdWUiIDogIkV1cm9ww6llbm5l
+        IgogICAgICB9LAogICAgICAib0xhYmVsIiA6IHsKICAgICAgICAidHlwZSIg
+        OiAibGl0ZXJhbCIsCiAgICAgICAgInZhbHVlIiA6ICJFdXJvcMOpZW5uZSIK
+        ICAgICAgfQogICAgfSwgewogICAgICAicyIgOiB7CiAgICAgICAgInR5cGUi
+        IDogInVyaSIsCiAgICAgICAgInZhbHVlIiA6ICJodHRwOi8vd3d3Lndpa2lk
+        YXRhLm9yZy9lbnRpdHkvUTQ2IgogICAgICB9LAogICAgICAicCIgOiB7CiAg
+        ICAgICAgInR5cGUiIDogInVyaSIsCiAgICAgICAgInZhbHVlIiA6ICJodHRw
+        Oi8vd3d3Lndpa2lkYXRhLm9yZy9wcm9wL2RpcmVjdC9QMTU0OSIKICAgICAg
+        fSwKICAgICAgIm8iIDogewogICAgICAgICJ4bWw6bGFuZyIgOiAiaHUiLAog
+        ICAgICAgICJ0eXBlIiA6ICJsaXRlcmFsIiwKICAgICAgICAidmFsdWUiIDog
+        ImV1csOzcGFpIgogICAgICB9LAogICAgICAib0xhYmVsIiA6IHsKICAgICAg
+        ICAidHlwZSIgOiAibGl0ZXJhbCIsCiAgICAgICAgInZhbHVlIiA6ICJldXLD
+        s3BhaSIKICAgICAgfQogICAgfSwgewogICAgICAicyIgOiB7CiAgICAgICAg
         InR5cGUiIDogInVyaSIsCiAgICAgICAgInZhbHVlIiA6ICJodHRwOi8vd3d3
         Lndpa2lkYXRhLm9yZy9lbnRpdHkvUTQ2IgogICAgICB9LAogICAgICAicCIg
         OiB7CiAgICAgICAgInR5cGUiIDogInVyaSIsCiAgICAgICAgInZhbHVlIiA6
@@ -2980,5 +2980,765 @@ http_interactions:
         ZjgxMmVlMmI0ZjY1ZGI4NDhkNmYwMDNkOSIKICAgICAgfQogICAgfSBdCiAg
         fQp9
     http_version: 
-  recorded_at: Sun, 05 Mar 2017 17:12:44 GMT
+  recorded_at: Sun, 05 Mar 2017 17:22:55 GMT
+- request:
+    method: get
+    uri: https://en.wikipedia.org/w/api.php?action=query&format=json&inprop=url&prop=revisions%7Cinfo&redirects=true&rvprop=content&titles=List%20of%20countries%20by%20continent
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Reality/0.0.4 (https://github.com/molybdenum-99/reality; zverok.offline@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 05 Mar 2017 17:23:04 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - mw1202.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=44515 t=1488734584382026
+      X-Varnish:
+      - 496881742, 659631301, 579032350
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1054 pass, cp3040 pass, cp3040 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=05-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
+        06 Apr 2017 12:00:00 GMT
+      - WMF-Last-Access=05-Mar-2017;Path=/;HttpOnly;secure;Expires=Thu, 06 Apr 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 94.179.38.99
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"redirects":[{"from":"List of countries
+        by continent","to":"List of sovereign states and dependent territories by
+        continent"}],"pages":{"68256":{"pageid":68256,"ns":0,"title":"List of sovereign
+        states and dependent territories by continent","revisions":[{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{merge
+        from|List of sovereign states and dependent territories in Eurasia|date=July
+        2016}}\n{{merge from|List of sovereign states and dependent territories in
+        the Americas|date=July 2016}}\n\nThis is a list of [[sovereign state]]s and
+        [[dependent territory|dependent territories]] of the [[world]] by [[continent]],
+        displayed with their respective [[national flag]]s and [[national capital|capital]]s,
+        including the following entities:\n* In ''''''bold'''''': [[List of sovereign
+        states|Internationally recognized sovereign states]]\n** The 193 [[List of
+        United Nations member states|member states]] of the [[United Nations]] (UN)\n**
+        [[Vatican City]] (administered by the [[Holy See]], a [[United Nations General
+        Assembly observers#Non-member states|UN-recognized non-member state]])\n**
+        [[State of Palestine]] (administered by the [[Palestinian National Authority|PNA]],
+        a [[United Nations General Assembly observers#Non-member states|UN-recognized
+        non-member state]])\n* In ''''''''''bold italics'''''''''': [[List of states
+        with limited recognition|States with limited recognition]] and [[associated
+        state]]s not members of the United Nations\n** ''''De facto'''' sovereign
+        states lacking general international recognition\n** [[Cook Islands]] and
+        [[Niue]], two [[Realm of New Zealand|associated states of New Zealand]] without
+        UN membership\n* In ''''italics'''': Non-sovereign territories that are recognized
+        by the UN as part of some member state\n** [[List of dependent territories|Dependent
+        territories]]\n** Special territories recognized by international treaty(such
+        as the [[Special Administrative Region of the People''s Republic of China|special
+        administrative regions of China]])\n** Other territories often regarded as
+        separate geographical territories even though they are integral parts of their
+        mother countries (such as the [[Overseas departments and territories of France|overseas
+        departments of France]])\n\nFollowing the [[United Nations geoscheme]],<ref>{{cite
+        web| url=http://unstats.un.org/unsd/methods/m49/m49regin.htm| title=Composition
+        of macro geographical (continental) regions, geographical sub-regions, and
+        selected economic and other groupings| publisher=United Nations Statistics
+        Division}}</ref> this list divides the world using the seven-continent model,
+        with islands grouped into adjacent continents. Variations on this model are
+        noted below and discussed in the article [[Continent]].\n\n== Africa ==\n{{merge
+        from|List of sovereign states and dependent territories in Africa|date=July
+        2016}}\n{{main article|Africa|List of sovereign states and dependent territories
+        in Africa}}\n{{further|Geography of Africa}}\n''''For a table of sovereign
+        states and dependent territories in Africa with geographical data such as
+        area, population, and population density, see [[Africa#Territories and regions|Africa:
+        territories and regions]].''''\n\nGeologically, Africa is connected to Eurasia
+        by the [[Isthmus of Suez]] and forms part of [[Afro-Eurasia]].\n\n{| class=\"wikitable
+        sortable\"\n! class=\"unsortable\" | Flag\n! Name\n! Capital\n! Status\n|-\n|
+        {{flagicon|Algeria|size=50px}}\n| ''''''[[Algeria]]''''''\n| [[Algiers]]\n|\n|-\n|
+        {{flagicon|Angola|size=50px}}\n| ''''''[[Angola]]''''''\n| [[Luanda]]\n|\n|-\n|
+        {{flagicon|Benin|size=50px}}\n| ''''''[[Benin]]''''''\n| [[Porto-Novo]] (official)<br
+        /> [[Cotonou]] ([[seat of government]])\n|\n|-\n| {{flagicon|Botswana|size=50px}}\n|
+        ''''''[[Botswana]]''''''\n| [[Gaborone]]\n|\n|-\n| {{flagicon|Burkina Faso|size=50px}}\n|
+        ''''''[[Burkina Faso]]''''''\n| [[Ouagadougou]]\n|\n|-\n| {{flagicon|Burundi|size=50px}}\n|
+        ''''''[[Burundi]]''''''\n| [[Bujumbura]]\n|\n|-\n| {{flagicon|Cameroon|size=50px}}\n|
+        ''''''[[Cameroon]]''''''\n| [[Yaound\u00e9]]\n|\n|-\n| {{flagicon|Cape Verde|size=50px}}\n|
+        ''''''[[Cape Verde]]''''''\n| [[Praia]]\n|\n|-\n| {{flagicon|Central African
+        Republic|size=50px}}\n| ''''''[[Central African Republic]]''''''\n| [[Bangui]]\n|\n|-\n|
+        {{flagicon|Chad|size=50px}}\n| ''''''[[Chad]]''''''\n| [[N''Djamena]]\n|\n|-\n|
+        {{flagicon|Comoros|size=50px}}\n| ''''''[[Comoros]]''''''\n| [[Moroni, Comoros|Moroni]]\n|\n|-\n|
+        {{flagicon|Republic of the Congo|size=50px}}\n| ''''''[[Republic of the Congo|Congo]]''''''
+        (Congo-Brazzaville)\n| [[Brazzaville]]\n|\n|-\n| {{flagicon|Democratic Republic
+        of the Congo|size=50px}}\n| ''''''[[Democratic Republic of the Congo]]''''''
+        (Congo-Kinshasa)\n| [[Kinshasa]]\n|\n|-\n| {{flagicon|Djibouti|size=50px}}\n|
+        ''''''[[Djibouti]]''''''\n| [[Djibouti City]]\n|\n|-\n| {{flagicon|Egypt|size=50px}}\n|
+        ''''''[[Egypt]]''''''\n| [[Cairo]]\n|\n|-\n| {{flagicon|Equatorial Guinea|size=50px}}\n|
+        ''''''[[Equatorial Guinea]]''''''\n| [[Malabo]]\n|\n|-\n| {{flagicon|Eritrea|size=50px}}\n|
+        ''''''[[Eritrea]]''''''\n| [[Asmara]]\n|\n|-\n| {{flagicon|Ethiopia|size=50px}}\n|
+        ''''''[[Ethiopia]]''''''\n| [[Addis Ababa]]\n|\n|-\n| {{flagicon|Gabon|size=50px}}\n|
+        ''''''[[Gabon]]''''''\n| [[Libreville]]\n|\n|-\n| {{flagicon|Gambia|size=50px}}\n|
+        ''''''[[Gambia]]''''''\n| [[Banjul]]\n|\n|-\n| {{flagicon|Ghana|size=50px}}\n|
+        ''''''[[Ghana]]''''''\n| [[Accra]]\n|\n|-\n| {{flagicon|Guinea|size=50px}}\n|
+        ''''''[[Guinea]]''''''\n| [[Conakry]]\n|\n|-\n| {{flagicon|Guinea-Bissau|size=50px}}\n|
+        ''''''[[Guinea-Bissau]]''''''\n| [[Bissau]]\n|\n|-\n| {{flagicon|Ivory Coast|size=50px}}\n|
+        ''''''[[Ivory Coast]]'''''' (C\u00f4te d''Ivoire)\n| [[Yamoussoukro]] (official)<br
+        /> [[Abidjan]] ([[seat of government]])\n|\n|-\n| {{flagicon|Kenya|size=50px}}\n|
+        ''''''[[Kenya]]''''''\n| [[Nairobi]]\n|\n|-\n| {{flagicon|Lesotho|size=50px}}\n|
+        ''''''[[Lesotho]]''''''\n| [[Maseru]]\n|\n|-\n| {{flagicon|Liberia|size=50px}}\n|
+        ''''''[[Liberia]]''''''\n| [[Monrovia]]\n|\n|-\n| {{flagicon|Libya|size=50px}}\n|
+        ''''''[[Libya]]''''''\n| [[Tripoli]]\n|\n|-\n| {{flagicon|Madagascar|size=50px}}\n|
+        ''''''[[Madagascar]]''''''\n| [[Antananarivo]]\n|\n|-\n| {{flagicon|Malawi|size=50px}}\n|
+        ''''''[[Malawi]]''''''\n| [[Lilongwe]]\n|\n|-\n| {{flagicon|Mali|size=50px}}\n|
+        ''''''[[Mali]]''''''\n| [[Bamako]]\n|\n|-\n| {{flagicon|Mauritania|size=50px}}\n|
+        ''''''[[Mauritania]]''''''\n| [[Nouakchott]]\n|\n|-\n| {{flagicon|Mauritius|size=50px}}\n|
+        ''''''[[Mauritius]]''''''\n| [[Port Louis]]\n|\n|-\n| {{flagicon|Mayotte|size=50px}}\n|
+        ''''[[Mayotte]]''''\n| [[Mamoudzou]]\n| [[Overseas departments and territories
+        of France|Overseas department of France]]\n|-\n| {{flagicon|Morocco|size=50px}}\n|
+        ''''''[[Morocco]]''''''\n| [[Rabat]]\n|\n|-\n| {{flagicon|Mozambique|size=50px}}\n|
+        ''''''[[Mozambique]]''''''\n| [[Maputo]]\n|\n|-\n| {{flagicon|Namibia|size=50px}}\n|
+        ''''''[[Namibia]]''''''\n| [[Windhoek]]\n|\n|-\n| {{flagicon|Niger|size=50px}}\n|
+        ''''''[[Niger]]''''''\n| [[Niamey]]\n|\n|-\n| {{flagicon|Nigeria|size=50px}}\n|
+        ''''''[[Nigeria]]''''''\n| [[Abuja]]\n|\n|-\n| {{flagicon|R\u00e9union|size=50px}}\n|
+        ''''[[R\u00e9union]]''''\n| [[Saint-Denis, R\u00e9union|Saint-Denis]]\n| [[Overseas
+        departments and territories of France|Overseas department of France]]\n|-\n|
+        {{flagicon|Rwanda|size=50px}}\n| ''''''[[Rwanda]]''''''\n| [[Kigali]]\n|\n|-\n|
+        {{flagicon|Sahrawi Arab Democratic Republic|size=50px}}\n| ''''''''''[[Sahrawi
+        Arab Democratic Republic]]''''''''''\n| [[El Aai\u00fan]] (official)<br />
+        [[Tifariti]] (factual [[temporary capital|temporary]], [[seat of government]])
+        and [[Sahrawi refugee camps]] (some government and military facilities)\n|
+        ''''De facto'''' sovereign state lacking general international recognition.<br
+        /> It claims the territory of [[Western Sahara]], most of which is controlled
+        by [[Morocco]].\n|-\n| {{flagicon|Saint Helena, Ascension and Tristan da Cunha|size=50px}}\n|
+        ''''[[Saint Helena, Ascension and Tristan da Cunha]]''''\n| [[Jamestown, Saint
+        Helena|Jamestown]] ([[Saint Helena]])<br /> [[Georgetown, Ascension Island|Georgetown]]
+        ([[Ascension Island]])<br /> [[Edinburgh of the Seven Seas]] ([[Tristan da
+        Cunha]])\n| [[British Overseas Territories|Overseas territory of the United
+        Kingdom]]\n|-\n| {{flagicon|S\u00e3o Tom\u00e9 and Pr\u00edncipe|size=50px}}\n|
+        ''''''[[S\u00e3o Tom\u00e9 and Pr\u00edncipe]]''''''\n| [[S\u00e3o Tom\u00e9]]\n|\n|-\n|
+        {{flagicon|Senegal|size=50px}}\n| ''''''[[Senegal]]''''''\n| [[Dakar]]\n|\n|-\n|
+        {{flagicon|Seychelles|size=50px}}\n| ''''''[[Seychelles]]''''''\n| [[Victoria,
+        Seychelles|Victoria]]\n|\n|-\n| {{flagicon|Sierra Leone|size=50px}}\n| ''''''[[Sierra
+        Leone]]''''''\n| [[Freetown]]\n|\n|-\n| {{flagicon|Somalia|size=50px}}\n|
+        ''''''[[Somalia]]''''''\n| [[Mogadishu]]\n|\n|-\n| {{flagicon|Somaliland|size=50px}}\n|
+        ''''''''''[[Somaliland]]''''''''''\n| [[Hargeisa]]\n| ''''De facto'''' sovereign
+        state lacking general international recognition<br /> Recognized by the [[United
+        Nations]] as part of [[Somalia]]\n|-\n| {{flagicon|South Africa|size=50px}}\n|
+        ''''''[[South Africa]]''''''\n| [[Pretoria]] (administrative/executive)<br
+        /> [[Cape Town]] (legislative)<br /> [[Bloemfontein]] (judicial)\n|\n|-\n|
+        {{flagicon|South Sudan|size=50px}}\n| ''''''[[South Sudan]]''''''\n| [[Juba]]\n|\n|-\n|
+        {{flagicon|Sudan|size=50px}}\n| ''''''[[Sudan]]''''''\n| [[Khartoum]]\n|\n|-\n|
+        {{flagicon|Swaziland|size=50px}}\n| ''''''[[Swaziland]]''''''\n| [[Mbabane]]
+        (administrative)<br /> [[Lobamba]] (royal and legislative)\n|\n|-\n| {{flagicon|Tanzania|size=50px}}\n|
+        ''''''[[Tanzania]]''''''\n| [[Dodoma]] (official)<br /> [[Dar es Salaam]]
+        ([[seat of government]])\n|\n|-\n| {{flagicon|Togo|size=50px}}\n| ''''''[[Togo]]''''''\n|
+        [[Lom\u00e9]]\n|\n|-\n| {{flagicon|Tunisia|size=50px}}\n| ''''''[[Tunisia]]''''''\n|
+        [[Tunis]]\n|\n|-\n| {{flagicon|Uganda|size=50px}}\n| ''''''[[Uganda]]''''''\n|
+        [[Kampala]]\n|\n|-\n| {{flagicon|Zambia|size=50px}}\n| ''''''[[Zambia]]''''''\n|
+        [[Lusaka]]\n|\n|-\n| {{flagicon|Zimbabwe|size=50px}}\n| ''''''[[Zimbabwe]]''''''\n|
+        [[Harare]]\n|\n|}\n*Transcontinental countries in Europe and Africa, classified
+        as [[Southern Europe]]an countries by the [[United Nations Statistics Division]]:
+        ''''''{{flag|Portugal}}'''''' ([[Madeira]] and the [[Savage Islands]]) and
+        ''''''{{flag|Spain}}'''''' ([[Canary Islands]], [[Ceuta]], [[Melilla]] and
+        Spain''s [[plazas de soberan\u00eda]]).\n*Transcontinental countries in Asia
+        and Africa, classified as [[Western Asia]]n countries by the [[United Nations
+        Statistics Division]]: ''''''{{flag|Yemen}}'''''' ([[Socotra]]).\n\n== Asia
+        ==\n\n{{merge from|List of sovereign states and dependent territories in Asia|date=July
+        2016}}\n{{main article|Asia|List of sovereign states and dependent territories
+        in Asia}}\n{{see also|Eurasia|List of sovereign states and dependent territories
+        in Eurasia}}\n{{further|Geography of Asia}}\n''''For a table of sovereign
+        states and dependent territories in Asia with geographical data such as area,
+        population, and population density, see [[Asia#Territories and regions|Asia:
+        territories and regions]].''''\n\nGeologically, Asia is part of [[Eurasia]]
+        and due to the [[Isthmus of Suez]] forms part of [[Afro-Eurasia]].\n\n{| class=\"wikitable
+        sortable\"\n! class=\"unsortable\" | Flag\n! Name\n! Capital\n! Status\n|-\n|
+        {{flagicon|Abkhazia|size=50px}}\n| ''''''''''[[Abkhazia]]''''''''''  \n| [[Sukhumi]]\n|
+        ''''De facto'''' sovereign state lacking general international recognition<br
+        /> Recognized by the [[United Nations]] as part of [[Georgia (country)|Georgia]]\n|-\n|
+        {{flagicon|Afghanistan|size=50px}}\n| ''''''[[Afghanistan]]''''''\n| [[Kabul]]\n|\n|-\n|
+        {{flagicon|Akrotiri and Dhekelia|size=50px}}\n| ''''[[Akrotiri and Dhekelia]]''''  \n|
+        [[Episkopi Cantonment]]\n| [[British Overseas Territories|Overseas territory
+        of the United Kingdom]]\n|-\n| {{flagicon|Armenia|size=50px}}\n| ''''''[[Armenia]]''''''\n|
+        [[Yerevan]]\n|\n|-\n| {{flagicon|Azerbaijan|size=50px}}\n| ''''''[[Azerbaijan]]''''''\n|
+        [[Baku]]\n|\n|-\n| {{flagicon|Bahrain|size=50px}}\n| ''''''[[Bahrain]]''''''\n|
+        [[Manama]]\n|\n|-\n| {{flagicon|Bangladesh|size=50px}}\n| ''''''[[Bangladesh]]''''''\n|
+        [[Dhaka]]\n|\n|-\n| {{flagicon|Bhutan|size=50px}}\n| ''''''[[Bhutan]]''''''\n|
+        [[Thimphu]]\n|\n|-\n| {{flagicon|British Indian Ocean Territory|size=50px}}\n|
+        ''''[[British Indian Ocean Territory]]''''\n| [[Diego Garcia]]\n| [[British
+        Overseas Territories|Overseas territory of the United Kingdom]]\n|-\n| {{flagicon|Brunei|size=50px}}\n|
+        ''''''[[Brunei]]''''''\n| [[Bandar Seri Begawan]]\n|\n|-\n| {{flagicon|Cambodia|size=50px}}\n|
+        ''''''[[Cambodia]]''''''\n| [[Phnom Penh]]\n|\n|-\n| {{flagicon|China|size=50px}}\n|
+        ''''''[[China]]''''''\n| [[Beijing]]\n|\n|-\n| {{flagicon|Christmas Island|size=50px}}\n|
+        ''''[[Christmas Island]]''''\n| [[Flying Fish Cove]]\n| [[States and territories
+        of Australia|External territory of Australia]]\n|-\n| {{flagicon|Cocos (Keeling)
+        Islands|size=50px}}\n| ''''[[Cocos (Keeling) Islands]]''''\n| [[West Island,
+        Cocos (Keeling) Islands|West Island]]\n| [[States and territories of Australia|External
+        territory of Australia]]\n|-\n| {{flagicon|Cyprus|size=50px}}\n| ''''''[[Cyprus]]''''''\n|
+        [[Nicosia]]\n|\n|-\n|{{flagicon|Timor-Leste|size=50px}}\n| ''''''[[East Timor]]''''''
+        (Timor-Leste)\n| [[Dili]]\n|\n|-\n| {{flagicon|Georgia|size=50px}}\n| ''''''[[Georgia
+        (country)|Georgia]]''''''\n| [[Tbilisi]]\n|\n|-\n| {{flagicon|Hong Kong|size=50px}}\n|
+        ''''[[Hong Kong]]''''\n| [[Hong Kong]]\n| [[Special Administrative Region
+        of the People''s Republic of China|Special administrative region of China]]\n|-\n|
+        {{flagicon|India|size=50px}}\n| ''''''[[India]]''''''\n| [[New Delhi]]\n|\n|-\n|
+        {{flagicon|Indonesia|size=50px}}\n| ''''''[[Indonesia]]''''''\n| [[Jakarta]]\n|\n|-\n|
+        {{flagicon|Iran|size=50px}}\n| ''''''[[Iran]]''''''\n| [[Tehran]]\n|\n|-\n|
+        {{flagicon|Iraq|size=50px}}\n| ''''''[[Iraq]]''''''\n| [[Baghdad]]\n|\n|-\n|
+        {{flagicon|Israel|size=50px}}\n| ''''''[[Israel]]''''''\n| [[Jerusalem]]\n|\n|-\n|
+        {{flagicon|Japan|size=50px}}\n| ''''''[[Japan]]''''''\n| [[Tokyo]]\n|\n|-\n|
+        {{flagicon|Jordan|size=50px}}\n| ''''''[[Jordan]]''''''\n| [[Amman]]\n|\n|-\n|
+        {{flagicon|Kazakhstan|size=50px}}\n| ''''''[[Kazakhstan]]''''''\n| [[Astana]]\n|\n|-\n|
+        {{flagicon|Kuwait|size=50px}}\n| ''''''[[Kuwait]]''''''\n| [[Kuwait City]]\n|\n|-\n|
+        {{flagicon|Kyrgyzstan|size=50px}}\n| ''''''[[Kyrgyzstan]]''''''\n| [[Bishkek]]\n|\n|-\n|
+        {{flagicon|Laos|size=50px}}\n| ''''''[[Laos]]''''''\n| [[Vientiane]]\n|\n|-\n|
+        {{flagicon|Lebanon|size=50px}}\n| ''''''[[Lebanon]]''''''\n| [[Beirut]]\n|\n|-\n|
+        {{flagicon|Macau|size=50px}}\n| ''''[[Macau]]''''\n| \u2014\n| [[Special Administrative
+        Region of the People''s Republic of China|Special administrative region of
+        China]]\n|-\n| {{flagicon|Malaysia|size=50px}}\n| ''''''[[Malaysia]]''''''\n|
+        [[Kuala Lumpur]] (official)<br /> [[Putrajaya]] ([[seat of government]])\n|\n|-\n|
+        {{flagicon|Maldives|size=50px}}\n| ''''''[[Maldives]]''''''\n| [[Mal\u00e9]]\n|\n|-\n|
+        {{flagicon|Mongolia|size=50px}}\n| ''''''[[Mongolia]]''''''\n| [[Ulaanbaatar]]\n|\n|-\n|
+        {{flagicon|Myanmar|size=50px}}\n| ''''''[[Myanmar]]'''''' (Burma)\n| [[Naypyidaw]]\n|\n|-\n|
+        {{flagicon|Nagorno-Karabakh|size=50px}}\n| ''''''''''[[Nagorno-Karabakh Republic|Nagorno-Karabakh]]''''''''''  \n|
+        [[Stepanakert]]\n| ''''De facto'''' sovereign state lacking general international
+        recognition<br /> Recognized by the [[United Nations]] as part of [[Azerbaijan]]\n|-\n|
+        {{flagicon|Nepal|size=35px}}\n| ''''''[[Nepal]]''''''\n| [[Kathmandu]]\n|\n|-\n|
+        {{flagicon|Northern Cyprus|size=50px}}\n| ''''''''''[[Northern Cyprus]]''''''''''  \n|
+        [[Nicosia]]\n| ''''De facto'''' sovereign state lacking general international
+        recognition<br /> Recognized by the [[United Nations]] as part of [[Cyprus]]\n|-\n|
+        {{flagicon|North Korea|size=50px}}\n| ''''''[[North Korea]]''''''\n| [[Pyongyang]]\n|\n|-\n|
+        {{flagicon|Oman|size=50px}}\n| ''''''[[Oman]]''''''\n| [[Muscat, Oman|Muscat]]\n|\n|-\n|
+        {{flagicon|Pakistan|size=50px}}\n| ''''''[[Pakistan]]''''''\n| [[Islamabad]]\n|\n|-\n|
+        {{flagicon|Palestine|size=50px}}\n| ''''''[[State of Palestine|Palestine]]''''''\n|
+        [[East Jerusalem]] (claimed capital)<br /> [[Ramallah]] ([[West Bank]] seat
+        of government)<br /> [[Gaza City|Gaza]] ([[Gaza Strip]] seat of government)\n|\n|-\n|
+        {{flagicon|Philippines|size=50px}}\n| ''''''[[Philippines]]''''''\n| [[Manila]]\n|\n|-\n|
+        {{flagicon|Qatar|size=50px}}\n| ''''''[[Qatar]]''''''\n| [[Doha]]\n|\n|-\n|
+        {{flagicon|Saudi Arabia|size=50px}}\n| ''''''[[Saudi Arabia]]''''''\n| [[Riyadh]]\n|\n|-\n|
+        {{flagicon|Singapore|size=50px}}\n| ''''''[[Singapore]]''''''\n| [[Singapore]]\n|\n|-\n|
+        {{flagicon|South Korea|size=50px}}\n| ''''''[[South Korea]]''''''\n| [[Seoul]]\n|\n|-\n|
+        {{flagicon|South Ossetia|size=50px}}\n| ''''''''''[[South Ossetia]]''''''''''
+        \n| [[Tskhinvali]]\n| ''''De facto'''' sovereign state lacking general international
+        recognition<br /> Recognized by the [[United Nations]] as part of [[Georgia
+        (country)|Georgia]]\n|-\n| {{flagicon|Sri Lanka|size=50px}}\n| ''''''[[Sri
+        Lanka]]''''''\n| [[Sri Jayawardenapura Kotte]]\n|\n|-\n| {{flagicon|Syria|size=50px}}\n|
+        ''''''[[Syria]]''''''\n| [[Damascus]]\n|\n|-\n| {{flagicon|Taiwan|size=50px}}\n|
+        ''''''''''[[Taiwan]]''''''''''\n| [[Taipei]]\n| ''''De facto'''' sovereign
+        state lacking general international recognition<br /> Recognized by the [[United
+        Nations]] as part of [[China]].\n|-\n| {{flagicon|Tajikistan|size=50px}}\n|
+        ''''''[[Tajikistan]]''''''\n| [[Dushanbe]]\n|\n|-\n| {{flagicon|Thailand|size=50px}}\n|
+        ''''''[[Thailand]]''''''\n| [[Bangkok]]\n|\n|-\n| {{flagicon|Turkey|size=50px}}\n|
+        ''''''[[Turkey]]''''''\n| [[Ankara]]\n|\n|-\n| {{flagicon|Turkmenistan|size=50px}}\n|
+        ''''''[[Turkmenistan]]''''''\n| [[Ashgabat]]\n|\n|-\n| {{flagicon|United Arab
+        Emirates|size=50px}}\n| ''''''[[United Arab Emirates]]''''''\n| [[Abu Dhabi]]\n|\n|-\n|
+        {{flagicon|Uzbekistan|size=50px}}\n| ''''''[[Uzbekistan]]''''''\n| [[Tashkent]]\n|\n|-\n|
+        {{flagicon|Vietnam|size=50px}}\n| ''''''[[Vietnam]]''''''\n| [[Hanoi]]\n|\n|-\n|
+        {{flagicon|Yemen|size=50px}}\n| ''''''[[Yemen]]''''''\n| [[Sana''a]]\n|\n|}\n*Transcontinental
+        countries in Europe and Asia, classified as [[Eastern Europe]]an countries
+        by the [[United Nations Statistics Division]]: ''''''{{flag|Russia}}''''''.\n*Transcontinental
+        countries in Africa and Asia, classified as [[Northern Africa]]n countries
+        by the [[United Nations Statistics Division]]: ''''''{{flag|Egypt}}''''''.\n\n==
+        Europe ==\n{{merge from|List of sovereign states and dependent territories
+        in Europe|date=July 2016}}\n{{main article|Europe|List of sovereign states
+        and dependent territories in Europe}}\n{{see also|Eurasia|List of sovereign
+        states and dependent territories in Eurasia}}\n{{further|Geography of Europe}}\n''''For
+        a table of sovereign states and dependent territories in Europe with geographical
+        data such as area, population, and population density, see [[Europe#Political
+        geography|Europe: political geography]].''''\n\nGeologically, Europe is part
+        of [[Eurasia]] and due to the [[Isthmus of Suez]] forms part of [[Afro-Eurasia]].\n\n{|
+        class=\"wikitable sortable\"\n! class=\"unsortable\" | Flag\n! Name\n! Capital\n!
+        Status\n|-\n| {{flagicon|\u00c5land Islands|size=50px}}\n| ''''[[\u00c5land
+        Islands]]''''\n| [[Mariehamn]]\n| Autonomous region of [[Finland]] (recognized
+        by international treaty)\n|-\n| {{flagicon|Albania|size=50px}}\n| ''''''[[Albania]]''''''\n|
+        [[Tirana]]\n|\n|-\n| {{flagicon|Andorra|size=50px}}\n| ''''''[[Andorra]]''''''\n|
+        [[Andorra la Vella]]\n|\n|-\n| {{flagicon|Austria|size=50px}}\n| ''''''[[Austria]]''''''\n|
+        [[Vienna]]\n|\n|-\n| {{flagicon|Belarus|size=50px}}\n| ''''''[[Belarus]]''''''\n|
+        [[Minsk]]\n|\n|-\n| {{flagicon|Belgium|size=50px}}\n| ''''''[[Belgium]]''''''\n|
+        [[Brussels]]\n|\n|-\n| {{flagicon|Bosnia and Herzegovina|size=50px}}\n| ''''''[[Bosnia
+        and Herzegovina]]''''''\n| [[Sarajevo]]\n|\n|-\n| {{flagicon|Bulgaria|size=50px}}\n|
+        ''''''[[Bulgaria]]''''''\n| [[Sofia]]\n|\n|-\n| {{flagicon|Croatia|size=50px}}\n|
+        ''''''[[Croatia]]''''''\n| [[Zagreb]]\n|\n|-\n| {{flagicon|Czech Republic|size=50px}}\n|
+        ''''''[[Czech Republic]]''''''\n| [[Prague]]\n|\n|-\n| {{flagicon|Denmark|size=50px}}\n|
+        ''''''[[Denmark]]''''''\n| [[Copenhagen]]\n|\n|-\n| {{flagicon|Estonia|size=50px}}\n|
+        ''''''[[Estonia]]''''''\n| [[Tallinn]]\n|\n|-\n| {{flagicon|Faroe Islands|size=50px}}\n|
+        ''''[[Faroe Islands]]''''\n| [[T\u00f3rshavn]]\n| Self-governing territory
+        of the [[Danish Realm]]\n|-\n| {{flagicon|Finland|size=50px}}\n| ''''''[[Finland]]''''''\n|
+        [[Helsinki]]\n|\n|-\n| {{flagicon|France|size=50px}}\n| ''''''[[France]]''''''\n|
+        [[Paris]]\n|\n|-\n| {{flagicon|Germany|size=50px}}\n| ''''''[[Germany]]''''''\n|
+        [[Berlin]]\n|\n|-\n| {{flagicon|Gibraltar|size=50px}}\n| ''''[[Gibraltar]]''''\n|
+        [[Gibraltar]]\n| [[British Overseas Territories|Overseas territory of the
+        United Kingdom]]\n|-\n| {{flagicon|Greece|size=50px}}\n| ''''''[[Greece]]''''''\n|
+        [[Athens]]\n|\n|-\n| {{flagicon|Guernsey|size=50px}}\n| ''''[[Guernsey]]''''\n|
+        [[Saint Peter Port]]\n| [[Crown Dependencies|Crown dependency of the United
+        Kingdom]]\n|-\n| {{flagicon|Hungary|size=50px}}\n| ''''''[[Hungary]]''''''\n|
+        [[Budapest]]\n|\n|-\n| {{flagicon|Iceland|size=50px}}\n| ''''''[[Iceland]]''''''\n|
+        [[Reykjav\u00edk]]\n|\n|-\n| {{flagicon|Ireland|size=50px}}\n| ''''''[[Republic
+        of Ireland|Ireland]]''''''\n| [[Dublin]]\n|\n|-\n| {{flagicon|Isle of Man|size=50px}}\n|
+        ''''[[Isle of Man]]''''\n| [[Douglas, Isle of Man|Douglas]]\n| [[Crown Dependencies|Crown
+        dependency of the United Kingdom]]\n|-\n| {{flagicon|Italy|size=50px}}\n|
+        ''''''[[Italy]]''''''\n| [[Rome]]\n|\n|-\n| {{flagicon|Jersey|size=50px}}\n|
+        ''''[[Jersey]]''''\n| [[Saint Helier]]\n| [[Crown Dependencies|Crown dependency
+        of the United Kingdom]]\n|-\n| {{flagicon|Kosovo|size=50px}}\n| ''''''''''[[Republic
+        of Kosovo|Kosovo]]''''''''''\n| [[Pristina]]\n| ''''De facto'''' sovereign
+        state recognized by {{Numrec|Kosovo||UN member states}} <br /> A [[United
+        Nations]] [[Kosovo Force|mandate]] in [[Serbia]]n territory was put in place
+        starting in 1999.\n|-\n| {{flagicon|Latvia|size=50px}}\n| ''''''[[Latvia]]''''''\n|
+        [[Riga]]\n|\n|-\n| {{flagicon|Liechtenstein|size=50px}}\n| ''''''[[Liechtenstein]]''''''\n|
+        [[Vaduz]]\n|\n|-\n| {{flagicon|Lithuania|size=50px}}\n| ''''''[[Lithuania]]''''''\n|
+        [[Vilnius]]\n|\n|-\n| {{flagicon|Luxembourg|size=50px}}\n| ''''''[[Luxembourg]]''''''\n|
+        [[Luxembourg, Luxembourg|Luxembourg]]\n|\n|-\n| {{flagicon|Macedonia|size=50px}}\n|
+        ''''''[[Republic of Macedonia|Macedonia]]''''''\n| [[Skopje]]\n|\n|-\n| {{flagicon|Malta|size=50px}}\n|
+        ''''''[[Malta]]''''''\n| [[Valletta]]\n|\n|-\n| {{flagicon|Moldova|size=50px}}\n|
+        ''''''[[Moldova]]''''''\n| [[Chi\u015fin\u0103u]]\n|\n|-\n| {{flagicon|Monaco|size=40px}}\n|
+        ''''''[[Monaco]]''''''\n| [[Monaco]]\n|\n|-\n| {{flagicon|Montenegro|size=50px}}\n|
+        ''''''[[Montenegro]]''''''\n| [[Podgorica]]\n|\n|-\n| {{flagicon|Netherlands|size=50px}}\n|
+        ''''''[[Kingdom of the Netherlands|Netherlands]]''''''\n| [[Amsterdam]]\n|\n|-\n|
+        {{flagicon|Norway|size=50px}}\n| ''''''[[Norway]]''''''\n| [[Oslo]]\n|\n|-\n|
+        {{flagicon|Poland|size=50px}}\n| ''''''[[Poland]]''''''\n| [[Warsaw]]\n|\n|-\n|
+        {{flagicon|Portugal|size=50px}}\n| ''''''[[Portugal]]''''''\n| [[Lisbon]]\n|\n|-\n|
+        {{flagicon|Romania|size=50px}}\n| ''''''[[Romania]]''''''\n| [[Bucharest]]\n|\n|-\n|
+        {{flagicon|Russia|size=50px}}\n| ''''''[[Russia]]''''''\n| [[Moscow]]\n|\n|-\n|
+        {{flagicon|San Marino|size=50px}}\n| ''''''[[San Marino]]''''''\n| [[San Marino,
+        San Marino|San Marino]]\n|\n|-\n| {{flagicon|Serbia|size=50px}}\n| ''''''[[Serbia]]''''''\n|
+        [[Belgrade]]\n|\n|-\n| {{flagicon|Slovakia|size=50px}}\n| ''''''[[Slovakia]]''''''\n|
+        [[Bratislava]]\n|\n|-\n| {{flagicon|Slovenia|size=50px}}\n| ''''''[[Slovenia]]''''''\n|
+        [[Ljubljana]]\n|\n|-\n| {{flagicon|Spain|size=50px}}\n| ''''''[[Spain]]''''''\n|
+        [[Madrid]]\n|\n|-\n| {{flagicon|Svalbard|size=50px}}\n| ''''[[Svalbard]]''''\n|
+        [[Longyearbyen]]\n| Special territory of [[Norway]] (recognized by international
+        treaty)\n|-\n| {{flagicon|Sweden|size=50px}}\n| ''''''[[Sweden]]''''''\n|
+        [[Stockholm]]\n|\n|-\n| {{flagicon|Switzerland|size=40px}}\n| ''''''[[Switzerland]]''''''\n|
+        [[Bern]]\n|\n|-\n| {{flagicon|Transnistria|size=50px}}\n| ''''''''''[[Transnistria]]''''''''''\n|
+        [[Tiraspol]]\n| ''''De facto'''' sovereign state lacking general international
+        recognition<br /> Recognized by the [[United Nations]] as part of [[Moldova]]\n|-\n|
+        {{flagicon|Ukraine|size=50px}}\n| ''''''[[Ukraine]]''''''\n| [[Kiev]]\n|\n|-\n|
+        {{flagicon|United Kingdom|size=50px}}\n| ''''''[[United Kingdom]]''''''\n|
+        [[London]]\n|\n|-\n| {{flagicon|Vatican City|size=40px}}\n| ''''''[[Vatican
+        City]]/[[Holy See]]''''''\n| [[Vatican City]]\n|\n|}\n*Transcontinental countries
+        in Europe and Asia, classified as [[West Asia]]n countries by the [[United
+        Nations Statistics Division]]: ''''''{{flag|Azerbaijan}}'''''',  ''''''{{flag|Georgia}}'''''',  ''''''{{flag|Kazakhstan}}'''''',  ''''''{{flag|Turkey}}''''''.\n*Entirely
+        in West Asia, but commonly associated with Europe and a member of the [[Council
+        of Europe]]: ''''''{{flag|Armenia}}'''''',  ''''''{{flag|Cyprus}}''''''.\n\n==
+        North America ==\n{{merge from|List of sovereign states and dependent territories
+        in North America|date=July 2016}}\n{{main article|North America|List of sovereign
+        states and dependent territories in North America}}\n{{see also|Americas|List
+        of sovereign states and dependent territories in the Americas}}\n{{further|Geography
+        of North America}}\n''''For a table of sovereign states and dependent territories
+        in North America with geographical data such as area, population, and population
+        density, see [[North America#Countries and territories|North America: countries
+        and territories]].''''\n\nGeologically, North America is joined with South
+        America by the [[Isthmus of Panama]] to form the [[Americas]].\n\n{| class=\"wikitable
+        sortable\"\n! class=\"unsortable\" | Flag\n! Name\n! Capital\n! Status\n|-\n|
+        {{flagicon|Anguilla|size=50px}}\n| ''''[[Anguilla]]''''\n| [[The Valley, Anguilla|The
+        Valley]]\n| [[British Overseas Territories|Overseas territory of the United
+        Kingdom]]\n|-\n| {{flagicon|Antigua and Barbuda|size=50px}}\n| ''''''[[Antigua
+        and Barbuda]]''''''\n| [[St. John''s, Antigua and Barbuda|St. John''s]]\n|\n|-\n|
+        {{flagicon|Aruba|size=50px}}\n| ''''[[Aruba]]''''\n| [[Oranjestad, Aruba|Oranjestad]]\n|
+        [[Kingdom of the Netherlands|Constituent country of the Kingdom of the Netherlands]]\n|-\n|
+        {{flagicon|Bahamas|size=50px}}\n| ''''''[[Bahamas]]''''''\n| [[Nassau, Bahamas|Nassau]]\n|\n|-\n|
+        {{flagicon|Barbados|size=50px}}\n| ''''''[[Barbados]]''''''\n| [[Bridgetown]]\n|\n|-\n|
+        {{flagicon|Belize|size=50px}}\n| ''''''[[Belize]]''''''\n| [[Belmopan]]\n|\n|-\n|
+        {{flagicon|Bermuda|size=50px}}\n| ''''[[Bermuda]]''''\n| [[Hamilton, Bermuda|Hamilton]]\n|
+        [[British Overseas Territories|Overseas territory of the United Kingdom]]\n|-\n|
+        {{flagicon|Bonaire|size=50px}}\n| ''''[[Bonaire]]''''\n| [[Kralendijk]]\n|
+        [[Kingdom of the Netherlands|Special municipality of the Netherlands]]\n|-\n|
+        {{flagicon|British Virgin Islands|size=50px}}\n| ''''[[British Virgin Islands]]''''\n|
+        [[Road Town]]\n| [[British Overseas Territories|Overseas territory of the
+        United Kingdom]]\n|-\n| {{flagicon|Canada|size=50px}}\n| ''''''[[Canada]]''''''\n|
+        [[Ottawa]]\n|\n|-\n| {{flagicon|Cayman Islands|size=50px}}\n| ''''[[Cayman
+        Islands]]''''\n| [[George Town, Cayman Islands|George Town]]\n| [[British
+        Overseas Territories|Overseas territory of the United Kingdom]]\n|-\n| {{flagicon|Clipperton
+        Island|size=50px}}\n| ''''[[Clipperton Island]]''''\n| \u2014\n| [[Overseas
+        departments and territories of France|Overseas territory of France]]\n|-\n|
+        {{flagicon|Costa Rica|size=50px}}\n| ''''''[[Costa Rica]]''''''\n| [[San Jos\u00e9,
+        Costa Rica|San Jos\u00e9]]\n|\n|-\n| {{flagicon|Cuba|size=50px}}\n| ''''''[[Cuba]]''''''\n|
+        [[Havana]]\n|\n|-\n| {{flagicon|Cura\u00e7ao|size=50px}}\n| ''''[[Cura\u00e7ao]]''''\n|
+        [[Willemstad]]\n| [[Kingdom of the Netherlands|Constituent country of the
+        Kingdom of the Netherlands]]\n|-\n| {{flagicon|Dominica|size=50px}}\n| ''''''[[Dominica]]''''''\n|
+        [[Roseau]]\n|\n|-\n| {{flagicon|Dominican Republic|size=50px}}\n| ''''''[[Dominican
+        Republic]]''''''\n| [[Santo Domingo]]\n|\n|-\n| {{flagicon|El Salvador|size=50px}}\n|
+        ''''''[[El Salvador]]''''''\n| [[San Salvador]]\n|\n|-\n| {{flagicon|Greenland|size=50px}}\n|
+        ''''[[Greenland]]''''\n| [[Nuuk]]\n| Self-governing territory of the [[Danish
+        Realm]]\n|-\n| {{flagicon|Grenada|size=50px}}\n| ''''''[[Grenada]]''''''\n|
+        [[St. George''s, Grenada|St. George''s]]\n|\n|-\n| {{flagicon|Guadeloupe|size=50px}}\n|
+        ''''[[Guadeloupe]]''''\n| [[Basse-Terre]]\n| [[Overseas departments and territories
+        of France|Overseas department of France]]\n|-\n| {{flagicon|Guatemala|size=50px}}\n|
+        ''''''[[Guatemala]]''''''\n| [[Guatemala City]]\n|\n|-\n| {{flagicon|Haiti|size=50px}}\n|
+        ''''''[[Haiti]]''''''\n| [[Port-au-Prince]]\n|\n|-\n| {{flagicon|Honduras|size=50px}}\n|
+        ''''''[[Honduras]]''''''\n| [[Tegucigalpa]]\n|\n|-\n| {{flagicon|Jamaica|size=50px}}\n|
+        ''''''[[Jamaica]]''''''\n| [[Kingston, Jamaica|Kingston]]\n|\n|-\n| {{flagicon|Martinique|size=50px}}\n|
+        ''''[[Martinique]]''''\n| [[Fort-de-France]]\n| [[Overseas departments and
+        territories of France|Overseas department of France]]\n|-\n| {{flagicon|Mexico|size=50px}}\n|
+        ''''''[[Mexico]]''''''\n| [[Mexico City]]\n|\n|-\n| {{flagicon|Montserrat|size=50px}}\n|
+        ''''[[Montserrat]]''''\n| [[Plymouth, Montserrat|Plymouth]] (official)<br
+        /> [[Brades]] ([[seat of government]])\n| [[British Overseas Territories|Overseas
+        territory of the United Kingdom]]\n|-\n| {{flagicon|Navassa Island|size=50px}}\n|
+        ''''[[Navassa Island]]''''\n| [[Lulu Town]]\n| [[Insular area|Insular area
+        of the United States of America]]\n|-\n| {{flagicon|Nicaragua|size=50px}}\n|
+        ''''''[[Nicaragua]]''''''\n| [[Managua]]\n|\n|-\n| {{flagicon|Panama|size=50px}}\n|
+        ''''''[[Panama]]''''''\n| [[Panama City]]\n|\n|-\n| {{flagicon|Puerto Rico|size=50px}}\n|
+        ''''[[Puerto Rico]]''''\n| [[San Juan, Puerto Rico|San Juan]]\n| [[Insular
+        area|Insular area of the United States of America]]\n|-\n| {{flagicon|Saba|size=50px}}\n|
+        ''''[[Saba]]''''\n| [[The Bottom]]\n| [[Kingdom of the Netherlands|Special
+        municipality of the Netherlands]]\n|-\n| {{flagicon|Saint Barth\u00e9lemy|size=50px}}\n|
+        ''''[[Saint Barth\u00e9lemy]]''''\n| [[Gustavia, Saint Barth\u00e9lemy|Gustavia]]\n|
+        [[Overseas collectivity]] of [[France]]\n|-\n| {{flagicon|Saint Kitts and
+        Nevis|size=50px}}\n| ''''''[[Saint Kitts and Nevis]]''''''\n| [[Basseterre]]\n|\n|-\n|
+        {{flagicon|Saint Lucia|size=50px}}\n| ''''''[[Saint Lucia]]''''''\n| [[Castries]]\n|\n|-\n|
+        {{flagicon|Saint Martin|size=50px}}\n| ''''[[Saint Martin (France)|Saint Martin]]''''\n|
+        [[Marigot, Saint Martin|Marigot]]\n| [[Overseas collectivity]] of [[France]]\n|-\n|
+        {{flagicon|Saint Pierre and Miquelon|size=50px}}\n| ''''[[Saint Pierre and
+        Miquelon]]''''\n| [[Saint-Pierre, Saint Pierre and Miquelon|Saint-Pierre]]\n|
+        [[Overseas collectivity]] of [[France]]\n|-\n| {{flagicon|Saint Vincent and
+        the Grenadines|size=50px}}\n| ''''''[[Saint Vincent and the Grenadines]]''''''\n|
+        [[Kingstown]]\n|\n|-\n| {{flagicon|Sint Eustatius|size=50px}}\n| ''''[[Sint
+        Eustatius]]''''\n| [[Oranjestad, Sint Eustatius|Oranjestad]]\n| [[Kingdom
+        of the Netherlands|Special municipality of the Netherlands]]\n|-\n| {{flagicon|Sint
+        Maarten|size=50px}}\n| ''''[[Sint Maarten]]''''\n| [[Philipsburg, Sint Maarten|Philipsburg]]\n|
+        [[Kingdom of the Netherlands|Constituent country of the Kingdom of the Netherlands]]\n|-\n|
+        {{flagicon|Trinidad and Tobago|size=50px}}\n| ''''''[[Trinidad and Tobago]]''''''\n|
+        [[Port of Spain]]\n|\n|-\n| {{flagicon|Turks and Caicos Islands|size=50px}}\n|
+        ''''[[Turks and Caicos Islands]]''''\n| [[Cockburn Town]]\n| [[British Overseas
+        Territories|Overseas territory of the United Kingdom]]\n|-\n| {{flagicon|United
+        States|size=50px}}\n| ''''''[[United States]]''''''\n| [[Washington, D.C.]]\n|\n|-\n|
+        {{flagicon|United States Virgin Islands|size=50px}}\n| ''''[[United States
+        Virgin Islands]]''''\n| [[Charlotte Amalie, United States Virgin Islands|Charlotte
+        Amalie]]\n| [[Insular area|Insular area of the United States of America]]\n|}\n\n==
+        South America ==\n{{merge from|List of sovereign states and dependent territories
+        in South America|date=July 2016}}\n{{main article|South America|List of sovereign
+        states and dependent territories in South America}}\n{{see also|Americas|List
+        of sovereign states and dependent territories in the Americas}}\n{{further|Geography
+        of South America}}\n''''For a table of sovereign states and dependent territories
+        in South America with geographical data such as area, population, and population
+        density, see [[South America#Demographics|South America: demographics]].''''\n\nGeologically,
+        South America is joined with North America by the [[Isthmus of Panama]] to
+        form the [[Americas]].\n\n{| class=\"wikitable sortable\"\n! class=\"unsortable\"
+        | Flag\n! Name\n! Capital\n! Status\n|-\n| {{flagicon|Argentina|size=50px}}\n|
+        ''''''[[Argentina]]''''''\n| [[Buenos Aires]]\n|\n|-\n| {{flagicon|Bolivia|size=50px}}\n|
+        ''''''[[Bolivia]]''''''\n| [[Sucre]] (official)<br /> [[La Paz]] ([[seat of
+        government]])\n|\n|-\n| {{flagicon|Brazil|size=50px}}\n| ''''''[[Brazil]]''''''\n|
+        [[Bras\u00edlia]]\n|\n|-\n| {{flagicon|Chile|size=50px}}\n| ''''''[[Chile]]''''''\n|
+        [[Santiago, Chile|Santiago]]\n|\n|-\n| {{flagicon|Colombia|size=50px}}\n|
+        ''''''[[Colombia]]''''''\n| [[Bogot\u00e1]]\n|\n|-\n| {{flagicon|Ecuador|size=50px}}\n|
+        ''''''[[Ecuador]]''''''\n| [[Quito]]\n|\n|-\n| {{flagicon|Falkland Islands|size=50px}}\n|
+        ''''[[Falkland Islands]]''''\n| [[Stanley, Falkland Islands|Stanley]]\n| [[British
+        Overseas Territories|Overseas territory of the United Kingdom]]\n|-\n| {{flagicon|French
+        Guiana|size=50px}}\n| ''''[[French Guiana]]''''\n| [[Cayenne]]\n| [[Overseas
+        departments and territories of France|Overseas department of France]]\n|-\n|
+        {{flagicon|Guyana|size=50px}}\n| ''''''[[Guyana]]''''''\n| [[Georgetown, Guyana|Georgetown]]\n|\n|-\n|
+        {{flagicon|Paraguay|size=50px}}\n| ''''''[[Paraguay]]''''''\n| [[Asunci\u00f3n]]\n|\n|-\n|
+        {{flagicon|Peru|size=50px}}\n| ''''''[[Peru]]''''''\n| [[Lima]]\n|\n|-\n|
+        {{flagicon|South Georgia and the South Sandwich Islands|size=50px}}\n| ''''[[South
+        Georgia and the South Sandwich Islands]]''''\n| [[King Edward Point]]\n| [[British
+        Overseas Territories|Overseas territory of the United Kingdom]]\n|-\n| {{flagicon|Suriname|size=50px}}\n|
+        ''''''[[Suriname]]''''''\n| [[Paramaribo]]\n|\n|-\n| {{flagicon|Uruguay|size=50px}}\n|
+        ''''''[[Uruguay]]''''''\n| [[Montevideo]]\n|\n|-\n| {{flagicon|Venezuela|size=50px}}\n|
+        ''''''[[Venezuela]]''''''\n| [[Caracas]]\n|\n|}\n\n== Oceania ==\n{{merge
+        from|List of sovereign states and dependent territories in Oceania|date=July
+        2016}}\n{{main article|Oceania|List of sovereign states and dependent territories
+        in Oceania}}\n{{see also|Australia (continent)|Pacific Islands}}\n{{further|Geography
+        of Oceania}}\n''''For a table of sovereign states and dependent territories
+        in Oceania with geographical data such as area, population, and population
+        density, see [[Oceania#Territories and regions|Oceania: territories and regions]].''''\n\n{|
+        class=\"wikitable sortable\"\n! class=\"unsortable\" | Flag\n! Name\n! Capital\n!
+        Status\n|-\n| {{flagicon|American Samoa|size=50px}}\n| ''''[[American Samoa]]''''\n|
+        [[Pago Pago]]\n| [[Insular area|Insular area of the United States of America]]\n|-\n|
+        {{flagicon|Ashmore and Cartier Islands|size=50px}}\n| ''''[[Ashmore and Cartier
+        Islands]]''''\n| \u2014\n| [[States and territories of Australia|External
+        territory of Australia]]\n|-\n| {{flagicon|Australia|size=50px}}\n| ''''''[[Australia]]''''''\n|
+        [[Canberra]]\n|\n|-\n| {{flagicon|Baker Island|size=50px}}\n| ''''[[Baker
+        Island]]''''\n| \u2014\n| [[Insular area|Insular area of the United States
+        of America]]\n|-\n| {{flagicon|Cook Islands|size=50px}}\n| ''''''''''[[Cook
+        Islands]]''''''''''\n| [[Avarua]]\n| [[Realm of New Zealand|Self-governing
+        parliamentary democracy in free association with New Zealand]]. It shares
+        a [[Monarchy of New Zealand|head of state]] with New Zealand as well as having
+        [[New Zealand nationality law|shared citizenship]], but is independent in
+        its international affairs.\n|-\n| {{flagicon|Coral Sea Islands|size=50px}}\n|
+        ''''[[Coral Sea Islands]]''''\n| \u2014\n| [[States and territories of Australia|External
+        territory of Australia]]\n|-\n| {{flagicon|Fiji|size=50px}}\n| ''''''[[Fiji]]''''''\n|
+        [[Suva]]\n|\n|-\n| {{flagicon|French Polynesia|size=50px}}\n| ''''[[French
+        Polynesia]]''''\n| [[Papeete]]\n| [[Overseas collectivity]] of [[France]]\n|-\n|
+        {{flagicon|Guam|size=50px}}\n| ''''[[Guam]]''''\n| [[Hag\u00e5t\u00f1a]]\n|
+        [[Insular area|Insular area of the United States of America]]\n|-\n| {{flagicon|Howland
+        Island|size=50px}}\n| ''''[[Howland Island]]''''\n| \u2014\n| [[Insular area|Insular
+        area of the United States of America]]\n|-\n| {{flagicon|Jarvis Island|size=50px}}\n|
+        ''''[[Jarvis Island]]''''\n| \u2014\n| [[Insular area|Insular area of the
+        United States of America]]\n|-\n| {{flagicon|Johnston Atoll|size=50px}}\n|
+        ''''[[Johnston Atoll]]''''\n| \u2014\n| [[Insular area|Insular area of the
+        United States of America]]\n|-\n| {{flagicon|Kingman Reef|size=50px}}\n| ''''[[Kingman
+        Reef]]''''\n| \u2014\n| [[Insular area|Insular area of the United States of
+        America]]\n|-\n| {{flagicon|Kiribati|size=50px}}\n| ''''''[[Kiribati]]''''''\n|
+        [[South Tarawa]]\n|\n|-\n| {{flagicon|Marshall Islands|size=50px}}\n| ''''''[[Marshall
+        Islands]]''''''\n| [[Majuro]]\n|\n|-\n| {{flagicon|Federated States of Micronesia|size=50px}}\n|
+        ''''''[[Federated States of Micronesia|Micronesia]]''''''\n| [[Palikir]]\n|\n|-\n|
+        {{flagicon|Midway Atoll|size=50px}}\n| ''''[[Midway Atoll]]''''\n| \u2014\n|
+        [[Insular area|Insular area of the United States of America]]\n|-\n| {{flagicon|Nauru|size=50px}}\n|
+        ''''''[[Nauru]]''''''\n| [[Yaren, Nauru|Yaren]] ([[seat of government]])\n|\n|-\n|
+        {{flagicon|New Caledonia|size=50px}}\n| ''''[[New Caledonia]]''''\n| [[Noum\u00e9a]]\n|
+        ''''[[Sui generis collectivity]]'''' (special collectivity) of [[France]]\n|-\n|
+        {{flagicon|New Zealand|size=50px}}\n| ''''''[[New Zealand]]''''''\n| [[Wellington]]\n|\n|-\n|
+        {{flagicon|Niue|size=50px}}\n| ''''''''''[[Niue]]''''''''''\n| [[Alofi]]\n|
+        [[Realm of New Zealand|Self-governing parliamentary democracy in free association
+        with New Zealand]]. It shares a [[Monarchy of New Zealand|head of state]]
+        with New Zealand as well as having [[New Zealand nationality law|shared citizenship]],
+        but is independent in its international affairs.\n|-\n| {{flagicon|Norfolk
+        Island|size=50px}}\n| ''''[[Norfolk Island]]''''\n| [[Kingston, Norfolk Island|Kingston]]\n|
+        [[States and territories of Australia|Self-governing territory of Australia]]\n|-\n|
+        {{flagicon|Northern Mariana Islands|size=50px}}\n| ''''[[Northern Mariana
+        Islands]]''''\n| [[Saipan]]\n| [[Insular area|Insular area of the United States
+        of America]]\n|-\n| {{flagicon|Palau|size=50px}}\n| ''''''[[Palau]]''''''\n|
+        [[Ngerulmud]]\n|\n|-\n| {{flagicon|Palmyra Atoll|size=50px}}\n| ''''[[Palmyra
+        Atoll]]''''\n| \u2014\n| [[Insular area|Insular area of the United States
+        of America]]\n|-\n| {{flagicon|Papua New Guinea|size=50px}}\n| ''''''[[Papua
+        New Guinea]]''''''\n| [[Port Moresby]]\n|\n|-\n| {{flagicon|Pitcairn Islands|size=50px}}\n|
+        ''''[[Pitcairn Islands]]''''\n| [[Adamstown, Pitcairn Islands|Adamstown]]\n|
+        [[British Overseas Territories|Overseas territory of the United Kingdom]]\n|-\n|
+        {{flagicon|Samoa|size=50px}}\n| ''''''[[Samoa]]''''''\n| [[Apia]]\n|\n|-\n|
+        {{flagicon|Solomon Islands|size=50px}}\n| ''''''[[Solomon Islands]]''''''\n|
+        [[Honiara]]\n|\n|-\n| {{flagicon|Tokelau|size=50px}}\n| ''''[[Tokelau]]''''\n|
+        [[Nukunonu]] (main settlement, although each atoll has its own administrative
+        centre)\n| [[Realm of New Zealand|Dependent territory of New Zealand]]\n|-\n|
+        {{flagicon|Tonga|size=50px}}\n| ''''''[[Tonga]]''''''\n| [[Nuku\u02bbalofa|Nuku{{Okina}}alofa]]\n|\n|-\n|
+        {{flagicon|Tuvalu|size=50px}}\n| ''''''[[Tuvalu]]''''''\n| [[Funafuti]]\n|\n|-\n|
+        {{flagicon|Vanuatu|size=50px}}\n| ''''''[[Vanuatu]]''''''\n| [[Port Vila]]\n|\n|-\n|
+        {{flagicon|Wake Island|size=50px}}\n| ''''[[Wake Island]]''''\n| \u2014\n|
+        [[Insular area|Insular area of the United States of America]]\n|-\n| {{flagicon|Wallis
+        and Futuna|size=50px}}\n| ''''[[Wallis and Futuna]]''''\n| [[Mata-Utu]]\n|
+        [[Overseas collectivity]] of [[France]]\n|}\n\n== Antarctica ==\n{{main article|Antarctica}}\n{{further|Geography
+        of Antarctica}}\n\nAntarctica is regulated by the [[Antarctic Treaty System]],
+        which defines it as all land and ice shelves south of [[60th parallel south|60\u00b0S]],
+        and has no government and belongs to no country. However, the following [[territorial
+        claims in Antarctica]] have been made:\n* Argentina: [[Argentine Antarctica]]\n*
+        Australia: [[Australian Antarctic Territory]]\n* Brazil: [[Brazilian Antarctica]]
+        (unofficial)\n* Chile: [[Ant\u00e1rtica]]\n* France: [[Ad\u00e9lie Land]]
+        (part of the [[French Southern and Antarctic Lands]])\n* New Zealand: [[Ross
+        Dependency]]\n* Norway: [[Peter I Island]] and [[Queen Maud Land]]\n* United
+        Kingdom: [[British Antarctic Territory]]\n* (Unclaimed: [[Marie Byrd Land]])\n\nThe
+        United States and Russia have reserved the right to claim territory on Antarctica.\n\nMoreover,
+        the following dependent territories are situated in the wider [[Antarctic|Antarctic
+        Region]]:\n\n{| class=\"wikitable sortable\"\n! class=\"unsortable\" | Flag\n!
+        Name\n! Capital\n! Status\n|-\n| {{flagicon|Bouvet Island|size=50px}}\n| ''''[[Bouvet
+        Island]]''''\n| \u2014\n| [[Possessions of Norway|Dependent territory of Norway]]\n|-\n|
+        {{flagicon|French Southern Territories|size=50px}}\n| ''''[[French Southern
+        and Antarctic Lands]]''''\n| [[Alfred Faure]] ([[Crozet Islands]])<br /> [[Port-aux-Fran\u00e7ais]]
+        ([[Kerguelen Islands]])<br /> [[Martin-de-Vivi\u00e8s]] ([[\u00cele Saint-Paul|Saint
+        Paul]] and [[\u00cele Amsterdam|Amsterdam]] Islands)\n| [[Overseas departments
+        and territories of France|Overseas territory of France]]\n|-\n| {{flagicon|Heard
+        Island and McDonald Islands|size=50px}}\n| ''''[[Heard Island and McDonald
+        Islands]]''''\n| \u2014\n| [[States and territories of Australia|External
+        territory of Australia]]\n|-\n| {{flagicon|South Georgia and the South Sandwich
+        Islands|size=50px}}\n| ''''[[South Georgia and the South Sandwich Islands]]''''\n|
+        [[King Edward Point]]\n| [[British Overseas Territories|Overseas territory
+        of the United Kingdom]]\n|}\n\n==Geographical boundaries of continents==\n{{unreferenced
+        section|date=October 2011}}\n{{Synthesis|date=April 2011}}\n{{further|Boundaries
+        between continents}}\nIn this section, the geographical boundaries of the
+        continents are used to divide the world into continents, where differences
+        from the [[#Classification according to United Nations geoscheme|previous
+        list according to the United Nations geoscheme]] are noted.\n\n===Boundaries
+        of Africa===\n''''For a detailed description of the geographical boundaries
+        of Africa, see [[Borders of the continents#Africa|Borders of the continents:
+        Africa]].''''\n\n====Suez Canal====\nConsidering the [[Suez Canal]] as a boundary
+        between [[Africa]] and [[Asia]], the following change from the previous list
+        occurs:\n* ''''''{{flag|Egypt}}'''''': Africa, west of the Suez Canal; to
+        the east, Asia.\n\n====Continental shelf of Africa====\nConsidering the [[continental
+        shelf]] of [[Africa]], the following changes from the previous list occur:\n*
+        ''''''{{flag|French Southern and Antarctic Lands|French Southern Territories}}'''''':
+        subantarctic territory; the [[Scattered islands in the Indian Ocean|\u00celes
+        \u00c9parses]] ([[Bassas da India]], [[Europa Island]], the [[Glorioso Islands]],
+        [[Juan de Nova Island]], and [[Tromelin Island]]) in Africa.\n* ''''''{{flag|Italy}}'''''':
+        Europe; [[Pantelleria]] and the [[Pelagie Islands]] in Africa.\n* ''''''{{flag|Malta}}'''''':
+        Africa.\n* ''''''{{flag|Portugal}}'''''': Europe; [[Madeira]] (including the
+        [[Desertas Islands]] and the [[Savage Islands]]) in Africa.\n* ''''''{{flag|Spain}}'''''':
+        Europe; the [[Canary Islands]] and the [[plazas de soberan\u00eda]] in Africa
+        (some of the plazas de soberan\u00eda, including [[Ceuta]] and [[Melilla]],
+        are on mainland Africa).\n* ''''''{{flag|Yemen}}'''''': Asia; [[Socotra]]
+        in Africa.\n\n===Boundaries between Asia and Europe===\n''''For a detailed
+        description of the geographical boundaries between Asia and Europe, see [[Borders
+        of the continents#Europe and Asia|Borders of the continents: Europe and Asia]].''''\n\n====Sea
+        of Marmara and Turkish Straits====\nConsidering the [[Sea of Marmara]] and
+        the [[Turkish Straits]] (the [[Bosporus]] and the [[Dardanelles]]) as a boundary
+        between [[Asia]] and [[Europe]], the following change from the previous list
+        occurs:\n* ''''''{{flag|Turkey}}'''''': Asia, east and south of the Sea of
+        Marmara and the Turkish Straits; to the west and north, Europe.\n\n====Ural
+        definitions====\nConsidering the Ural definition that follows the [[water
+        divide|watershed]] of the [[Ural Mountains]], and then the [[Ural River]]
+        until the [[Caspian Sea]], as a boundary between [[Asia]] and [[Europe]],
+        the following changes from the previous list occur:\n* ''''''{{flag|Kazakhstan}}'''''':
+        Asia, east of the Ural River; to the west, Europe.\n* ''''''{{flag|Russia}}'''''':
+        Europe, west and north of the Ural Mountains watershed and the Ural River;
+        to the east and south, Asia.\n\nConsidering the Ural definition that follows
+        the [[water divide|watershed]] of the [[Ural Mountains]], and then the [[Ural
+        River]] until it reaches [[Kazakhstan]]''s border for the first time, and
+        then the [[Or River]] and the [[Emba River]], as a boundary between [[Asia]]
+        and [[Europe]], the following changes from the previous list occur:\n* ''''''{{flag|Kazakhstan}}'''''':
+        Asia, east of the Or River and the Emba River; to the west, Europe.\n* ''''''{{flag|Russia}}'''''':
+        Europe, west of the Ural Mountains watershed and the Ural River (until it
+        reaches Kazakhstan''s border for the first time); to the east, Asia.\n\n====Caucasus
+        definitions====\nConsidering the [[Caucasus]] definition that follows the
+        [[water divide|watershed]] of the [[Greater Caucasus]] of the [[Caucasus Mountains]]
+        as a boundary between [[Asia]] and [[Europe]], the following changes from
+        the previous list occur:\n* ''''''{{flag|Azerbaijan}}'''''': Asia, south of
+        the Greater Caucasus watershed; to the north, Europe (very small area).\n*
+        ''''''{{flag|Georgia}}'''''': Asia, south of the Greater Caucasus watershed;
+        to the north, Europe (very small area).\n* ''''''{{flag|Russia}}'''''': Europe,
+        north of the Greater Caucasus watershed; to the south, Asia (very small area).\n\nConsidering
+        the [[Caucasus]] definition that follows the [[Kuma-Manych Depression]], marked
+        by the [[Kuma River (Russia)|Kuma River]] and the [[Manych River]], as a boundary
+        between [[Asia]] and [[Europe]], the following change from the previous list
+        occurs:\n* ''''''{{flag|Russia}}'''''': Europe, north of the Kuma River and
+        the Manych River; to the south, Asia.\n\n====Continental shelfs of Asia and
+        Europe====\nConsidering the [[continental shelf]]s of [[Asia]] and [[Europe]],
+        the following change from the previous list occurs:\n* ''''''{{flag|Greece}}'''''':
+        Europe (including [[Crete]], the [[Ionian Islands]], the [[Cyclades]], and
+        near mainland Greek islands); the [[North Aegean Islands]], the [[Dodecanese]],
+        and nearby islands in Asia.\n\n===Boundaries between Asia and North America===\n''''For
+        a detailed description of the geographical boundaries between Asia and North
+        America, see [[Borders of the continents#Asia and North America|Borders of
+        the continents: Asia and North America]].''''\n\n====Continental shelfs of
+        Asia and North America====\nConsidering the [[continental shelf]]s of [[Asia]]
+        and [[North America]], the following change from the previous list occurs:\n*
+        ''''''{{flag|United States}}'''''': North America; the [[Near Islands]] and
+        [[St. Lawrence Island]] in Asia.\n\n===Boundaries between Europe and North
+        America===\n''''For a detailed description of the geographical boundaries
+        between Europe and North America, see [[Borders of the continents#Europe and
+        North America|Borders of the continents: Europe and North America]].''''\n\n====Mid-Atlantic
+        Ridge====\nThough very rare, considering the [[Mid-Atlantic Ridge]] as a boundary
+        between [[Europe]] and [[North America]], the following change from the previous
+        list occurs:\n* ''''''{{flag|Iceland}}'''''': Europe, east of the Mid-Atlantic
+        Ridge; to the west, North America.\n* ''''''{{flag|Portugal}}'''''': Europe
+        (including [[S\u00e3o Miguel Island|S\u00e3o Miguel]], [[Santa Maria Island|Santa
+        Maria]], [[Terceira Island|Terceira]], [[Graciosa]], [[S\u00e3o Jorge Island|S\u00e3o
+        Jorge]], [[Pico Island|Pico]], and [[Faial Island|Faial]] of the [[Azores]]);
+        [[Flores Island (Azores)|Flores]] and [[Corvo Island|Corvo]] of the Azores
+        in North America.\n\n===Boundaries between North and South America===\n''''For
+        a detailed description of the geographical boundaries between North and South
+        America, see [[Borders of the continents#The Americas|Borders of the continents:
+        the Americas]].''''\n\n====Panama Canal====\nConsidering the [[Panama Canal]]
+        as a boundary between [[North America|North]] and [[South America]], the following
+        change from the previous list occurs:\n* ''''''{{flag|Panama}}'''''': North
+        America, west of the Panama Canal; to the east, South America.\n\n====Continental
+        shelfs of North and South America====\nConsidering the [[continental shelf]]s
+        of [[North America|North]] and [[South America]], the following changes from
+        the previous list occur:\n* ''''''{{flag|Aruba}}'''''': South America.\n*
+        ''''''{{flag|Colombia}}'''''': South America; the [[Archipelago of San Andr\u00e9s,
+        Providencia and Santa Catalina]] in North America.\n* ''''''{{flag|Cura\u00e7ao}}'''''':
+        South America.\n* ''''''{{flag|Netherlands}}'''''': South America.; [[Bonaire]]\n*
+        ''''''{{flag|Trinidad and Tobago}}'''''': South America.\n* ''''''{{flag|Venezuela}}'''''':
+        South America; [[Isla Aves]] in North America.\n\n===Boundaries of Oceania===\n''''For
+        a detailed description of the geographical boundaries of Oceania, see [[Borders
+        of the continents#Asia and Oceania|Borders of the continents: Asia and Oceania]].''''\n\n====Pacific
+        Islands====\nConsidering all [[Pacific Islands]] as being part of [[Oceania]],
+        the following changes from the previous list occur:\n* ''''''{{flag|Chile}}'''''':
+        South America; [[Easter Island]] and [[Sala y G\u00f3mez]] in Oceania.\n*
+        ''''''{{flag|France}}'''''': [[Clipperton Island]]'''''': Oceania\n* ''''''{{flag|Japan}}'''''':
+        Asia; [[Bonin Islands]] in Oceania.\n* ''''''{{flag|United States}}'''''':
+        North America; [[Hawaii]] in Oceania.\n\n===Boundaries of Antarctica===\n''''For
+        a detailed description of the geographical boundaries of Antarctica, see [[Borders
+        of the continents#Antarctica|Borders of the continents: Antarctica]].''''\n\n====Subantarctic
+        islands====\nConsidering [[List of Antarctic and subantarctic islands]] north
+        of 60\u00b0S which are fully integrated with its country, the following changes
+        from the previous list occur:\n* ''''''{{flag|Australia}}'''''': Oceania;
+        [[Macquarie Island]], subantarctic territory.\n* ''''''{{flag|New Zealand}}'''''':
+        Oceania; the [[New Zealand Subantarctic Islands]] (the [[Antipodes Islands]],
+        the [[Auckland Islands]], the [[Bounty Islands]], the [[Campbell Island group|Campbell
+        Islands]], and the [[The Snares|Snares Islands]]), subantarctic territory.\n*
+        ''''''{{flag|South Africa}}'''''': Africa; the [[Prince Edward Islands]],
+        subantarctic territory.\n\n==Continental intergovernmental organizations==\n{{main
+        article|Continental union}}\n\nThere are a number of [[intergovernmental organization]]s
+        with continental scope and having the most wide and possibly non-overlapping
+        membership:\n* Africa: [[African Union]]\n* Asia: [[Asia Cooperation Dialogue]]\n*
+        Europe: [[Council of Europe]]\n** Not to be confused with the [[European Union]]
+        (EU)\n* Americas: [[Organization of American States]]\n** South America: [[Union
+        of South American Nations]]\n* Oceania: [[Pacific Islands Forum]]\n\nTherefore,
+        a member of one of these organizations may be considered as belonging to that
+        particular continent according to political criteria. Considering this, the
+        following changes from the previous list occur:\n* [[Armenia]], [[Azerbaijan]],
+        [[Cyprus]], [[Georgia (country)|Georgia]], and [[Turkey]] are members of the
+        [[Council of Europe]]. In particular, Cyprus is an [[Member State of the European
+        Union|EU member]], while Turkey is a candidate.\n* [[Russia]] is a member
+        of both the [[Council of Europe]] and the [[Asia Cooperation Dialogue]].\n\nHowever,
+        in general only internationally recognized sovereign states are members of
+        intergovernmental organizations, and not every one of them is a member of
+        one of the organizations listed above.\n\n===Dependent territories===\nDependent
+        territories, through political ties with their mother countries, may be associated
+        with another continent other than its own geographical continent. For example,
+        [[French Guiana]], [[Guadeloupe]], [[Martinique]], and [[R\u00e9union]], all
+        overseas departments of France, are part of the EU and use the [[euro]] as
+        their official currency. Other dependent territories of EU members, such as
+        [[Greenland]], while not part of the EU, enjoy [[Special Member State territories
+        and the European Union|special relationships with the EU]].\n\nThe following
+        dependent territories, all of them sparsely populated islands remote from
+        continental mass, may be grouped into more than one continent, as there is
+        no general convention as to which continent they belong to:\n* The [[British
+        Indian Ocean Territory]] is geographically located in the [[Indian Ocean]],
+        about equidistant from Africa and Asia. Politically it is administered from
+        the United Kingdom, while historically it is part of Mauritius. It may be
+        grouped into either Africa or Asia.\n* [[Christmas Island]] and [[Cocos (Keeling)
+        Islands]] are geographically located in the Indian Ocean, much closer to Asia
+        than to Australia. Politically they are administered from Australia. They
+        may be grouped into Asia or Oceania.\n* [[Clipperton Island]] is geographically
+        located in the [[Pacific Ocean]], much closer to North America than to other
+        Pacific Islands. Politically they are administered from France, previously
+        from French Polynesia. They may be grouped into North America or Oceania.\n*
+        The [[French Southern Territories]], which exclude the Antarctic territorial
+        claim of Ad\u00e9lie Land, are geographically located in the Indian Ocean;
+        the \u00celes \u00c9parses are close to Madagascar, while other islands are
+        approximately equidistant from Africa, Antarctica and Australia. Politically
+        they are administered from R\u00e9union. They may be grouped into Africa or
+        Antarctica.\n* [[South Georgia and the South Sandwich Islands]] is geographically
+        in the [[Atlantic Ocean]], about equidistant from South America and Antarctica.
+        Politically it is administered from the Falkland Islands. It may be grouped
+        into South America or Antarctica.\n\n==See also==\n* [[List of sovereign states
+        and dependent territories by continent (data file)]] &mdash; this data in
+        a plain text format suitable for automated processing\n* [[List of countries
+        and capitals in native languages]]\n* [[List of national capitals]]\n* [[Gallery
+        of sovereign state flags]]\n* [[Gallery of dependent territory flags]]\n\n==References==\n<references
+        />\n\n==External links==\n* [http://www.un.org/Depts/Cartographic/english/geoinfo/geoname.pdf
+        UN List of Territories]\n* [https://www.cia.gov/library/publications/the-world-factbook/index.html
+        CIA &ndash; The World Factbook]\n* [http://www.state.gov/r/pa/ei/bgn/ U.S.
+        Department of State: Background notes]\n* [http://publications.europa.eu/code/en/en-5000500.htm
+        European Commission: List of countries, territories and currencies]\n* [http://www.statoids.com/
+        Administrative Divisions of Countries (\"Statoids\")]\n* {{webarchive |date=2012-12-04
+        |url=http://archive.is/20121204142112/http://www.world-gazetteer.com/ |title=World
+        Gazetteer}}\n\n{{Navboxes\n|list =\n{{Continents of the world|state=collapsed}}\n{{Lists
+        of countries by continent}}\n}}\n\n{{DEFAULTSORT:Sovereign States And Dependent
+        Territories By Continent, List Of}}\n[[Category:Lists of countries by continent|
+        ]]\n[[Category:Dependent territories]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-03-05T16:42:48Z","lastrevid":767776142,"length":52401,"fullurl":"https://en.wikipedia.org/wiki/List_of_sovereign_states_and_dependent_territories_by_continent","editurl":"https://en.wikipedia.org/w/index.php?title=List_of_sovereign_states_and_dependent_territories_by_continent&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/List_of_sovereign_states_and_dependent_territories_by_continent"}}}}'
+    http_version: 
+  recorded_at: Sun, 05 Mar 2017 17:23:03 GMT
 recorded_with: VCR 3.0.3

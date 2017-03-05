@@ -53,7 +53,9 @@ module Reality
     def countries_by_continents_cache
       @by_continents ||= Infoboxer.wp.
         get('List of countries by continent').
-        sections.map{|s|
+        sections.
+        reject{|s| s.tables.empty? }.
+        map{|s|
           continent = s.heading.text_
           s.tables.first.
             lookup(:Wikilink, :bold?).map(&:link).

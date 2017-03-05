@@ -12,3 +12,12 @@ end
 Reality.configure(:demo)
 
 #require_relative 'helpers/formatters'
+
+RSpec.configure do |c|
+  c.before(:suite) do
+    VCR.use_cassette('en-wikipedia-metadata') do
+      Infoboxer.wp
+      Infoboxer.wikipedia
+    end
+  end
+end
