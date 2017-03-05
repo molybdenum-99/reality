@@ -1,5 +1,6 @@
 require 'infoboxer'
 require 'yaml'
+require 'geo/coord'
 
 # Reality is library for accessing all world data, starting from Wikipedia.
 #
@@ -32,8 +33,8 @@ module Reality
   extend Methods
 
   # extras
-  require_ %w[extras/open_weather_map extras/geonames extras/quandl]
-  include Extras::OpenWeatherMap
-  include Extras::Geonames
-  include Extras::Quandl
+  #require_ %w[extras/open_weather_map extras/geonames extras/quandl]
+  #include Extras::OpenWeatherMap
+  #include Extras::Geonames
+  #include Extras::Quandl
 end

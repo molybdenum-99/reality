@@ -30,7 +30,7 @@ module Reality
       end
 
       describe 'geo' do
-        its(:coord){should == Geo::Coord.from_dms([34,'S'], [64,'W'])}
+        its(:coord){is_expected.to eq Geo::Coord.new(latd: 34, lath: 'S', lngd: 64, lngh: 'W')}
       end
 
       describe 'links' do

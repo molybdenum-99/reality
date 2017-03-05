@@ -41,4 +41,5 @@ Gem::Specification.new do |s|
   s.add_dependency 'tzinfo'
   s.add_dependency 'ruby-sun-times'
   s.add_dependency 'time_boots'
+  s.add_dependency 'geo_coord'
 end
