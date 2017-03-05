@@ -17,7 +17,7 @@ module Reality
   end
 
   # basic functionality
-  require_ %w[version refinements config measure geo tz_offset]
+  require_ %w[version refinements config measure tz_offset]
   require_ %w[util/parsers util/formatters]
 
   # engines
@@ -25,7 +25,7 @@ module Reality
   Infoboxer.user_agent = "Reality/#{VERSION} (https://github.com/molybdenum-99/reality; zverok.offline@gmail.com)"
 
   # entities
-  require_ %w[entity list]
+  require_ %w[observation entity list]
   require_ %w[definitions/*]
   require_ %w[methods names]
 
