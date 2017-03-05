@@ -1,4 +1,5 @@
 require 'infoboxer'
+require 'wikidata'
 require 'yaml'
 require 'geo/coord'
 
@@ -21,11 +22,11 @@ module Reality
   require_ %w[util/parsers util/formatters]
 
   # engines
-  require_ %w[infoboxer_templates wikidata]
+  require_ %w[infoboxer_templates]
   Infoboxer.user_agent = "Reality/#{VERSION} (https://github.com/molybdenum-99/reality; zverok.offline@gmail.com)"
 
   # entities
-  require_ %w[observation entity list]
+  require_ %w[observation link entity list]
   require_ %w[definitions/*]
   require_ %w[methods names]
 

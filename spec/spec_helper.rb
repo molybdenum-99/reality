@@ -21,3 +21,6 @@ RSpec.configure do |c|
     end
   end
 end
+
+# I officially hate you now, Hashie.
+Hashie::Mash.instance_variable_set('@disable_warnings', true)

@@ -42,4 +42,5 @@ Gem::Specification.new do |s|
   s.add_dependency 'ruby-sun-times'
   s.add_dependency 'time_boots'
   s.add_dependency 'geo_coord'
+  s.add_dependency 'wikidata-client'
 end
