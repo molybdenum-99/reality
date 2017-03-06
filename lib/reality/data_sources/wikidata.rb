@@ -8,16 +8,15 @@ module Reality
       end
     
       def get(id)
-        ::Wikidata::Item.find(id)
-          .derp { |item|
-            [
-              Observation.new(:_source, Link.new(:wikidata, id)),
-              *item
-                .instance_variable_get('@hash').claims.flat_map { |id, claims| claims2observations(id, claims) }
-                .compact
-                .reject { |o| o.value.nil? }
-            ]
-          }
+        ::Wikidata::Item.find(id).derp { |item|
+          [
+            Observation.new(:_source, Link.new(:wikidata, id)),
+            *item
+              .instance_variable_get('@hash').claims.flat_map { |id, claims| claims2observations(id, claims) }
+              .compact
+              .reject { |o| o.value.nil? }
+          ]
+        }
       end
 
       private
