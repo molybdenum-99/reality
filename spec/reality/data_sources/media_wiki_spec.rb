@@ -2,7 +2,7 @@ require 'reality/data_sources/media_wiki'
 
 module Reality
   describe DataSources::MediaWiki do
-    let(:client) { VCR.use_cassette('en-wikipedia-metadata') { described_class.new('https://en.wikipedia.org/w/api.php') } }
+    let(:client) { VCR.use_cassette('en-wikipedia-metadata') { described_class.new(:wikipedia, 'https://en.wikipedia.org/w/api.php') } }
     let(:page) { VCR.use_cassette('Wikipedia-Argentina') { Infoboxer.wp.get('Argentina') } }
     before {
       expect_any_instance_of(Infoboxer::MediaWiki)
@@ -24,6 +24,7 @@ module Reality
         let(:client) {
           VCR.use_cassette('en-wikipedia-metadata') {
             described_class.new(
+              :wikipedia, 
               'https://en.wikipedia.org/w/api.php',
               {
                 name: :long_name,
