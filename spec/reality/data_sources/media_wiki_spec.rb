@@ -29,7 +29,7 @@ module Reality
               {
                 name: :long_name,
                 path: ->(p) { p.templates(name: 'Infobox country').fetch('conventional_long_name') },
-                coerce: ->(val, *) { val.first.text_ }
+                coerce: ->(val, *) { val.first.text_ } # TODO: :as_string
               }
             )
           }

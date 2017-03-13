@@ -10,5 +10,9 @@ module Reality
     def inspect
       '#<%s %s=%s>' % [self.class.name, name, value]
     end
+
+    def ==(other)
+      other.is_a?(Observation) && name == other.name && value == other.value
+    end
   end
 end

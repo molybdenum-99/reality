@@ -11,6 +11,10 @@ module Reality
       '#<%s %s:%s>' % [self.class, source, id]
     end
 
+    def to_s
+      '<%s:%s>' % [source, id]
+    end
+
     def ==(other)
       other.is_a?(Link) && other.source == source && other.id == id
     end

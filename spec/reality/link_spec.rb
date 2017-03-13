@@ -11,6 +11,10 @@ module Reality
       its(:inspect) { is_expected.to eq '#<Reality::Link wikidata:Q414>' }
     end
 
+    describe '#to_s' do
+      its(:to_s) { is_expected.to eq '<wikidata:Q414>' }
+    end
+
     describe '#==' do
       it { is_expected.to eq Reality::Link.new(:wikidata, 'Q414') }
       it { is_expected.to_not eq Reality::Link.new(:wikidata, 'Q413') }

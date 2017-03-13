@@ -27,11 +27,11 @@ module Reality
 
   # entities
   require_ %w[observation link entity list]
-  require_ %w[definitions/*]
-  require_ %w[methods names]
+  #require_ %w[definitions/*]
+  #require_ %w[methods names]
 
-  include Methods
-  extend Methods
+  #include Methods
+  #extend Methods
 
   # extras
   #require_ %w[extras/open_weather_map extras/geonames extras/quandl]
