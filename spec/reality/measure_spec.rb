@@ -7,6 +7,19 @@ module Reality
       its(:unit){should == Measure::Unit.new(['m', 1])}
     end
 
+    describe '.[]' do
+      subject(:klass) { described_class[:km] }
+      it { is_expected.to be_a Class }
+      it { is_expected.to be < described_class }
+      its(:inspect) { is_expected.to eq 'Reality::Measure[km]' }
+
+      context 'created measure' do
+        subject { klass.new(100) }
+        its(:amount) { is_expected.to eq 100 }
+        its(:unit) { is_expected.to eq Measure::Unit.new(['km', 1]) }
+      end
+    end
+
     describe 'compare' do
       context 'compatible' do
         subject{Measure.new(5, 'm')}

@@ -2,6 +2,7 @@ module Reality
   describe Entity do
     let(:observations) {
       [
+        Observation.new(:_source, Link.new(:wikipedia, 'Johnny Depp')),
         Observation.new(:name, 'John'),
         Observation.new(:age, 21),
         Observation.new(:father, Link.new(:wikipedia, 'Jeff Bridges'))
@@ -23,7 +24,9 @@ module Reality
       # not loaded source
     end
 
-    describe '#inspect'
+    describe '#inspect' do
+      its(:inspect) { is_expected.to eq '#<Reality::Entity wikipedia:Johnny Depp>' }
+    end
   end
 end
  

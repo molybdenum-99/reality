@@ -1,9 +1,12 @@
+require 'reality/data_sources/media_wiki'
+require 'reality/definitions/wikipedia'
+
 module Reality
   describe 'Entity from wikipedia', :integrational do
-    describe '.wikipedia' do
+    describe '.wikipedia', :vcr do
       subject { Reality.wikipedia }
 
-      it { is_expected.to be_a Reality::DataSource::MediaWiki }
+      it { is_expected.to be_a Reality::DataSources::MediaWiki }
     end
 
     describe 'Argentina', :vcr do
@@ -29,7 +32,7 @@ module Reality
           |      coord: -34.600000,-58.383333
           |       area: 2,780,400 km²
           | population: 43,417,000 person
-          |    capital: <wikipedia:Buenos Aires>
+          |    capital: wikipedia:Buenos Aires
         }}
       end
     end

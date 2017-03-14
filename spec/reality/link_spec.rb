@@ -12,7 +12,7 @@ module Reality
     end
 
     describe '#to_s' do
-      its(:to_s) { is_expected.to eq '<wikidata:Q414>' }
+      its(:to_s) { is_expected.to eq 'wikidata:Q414' }
     end
 
     describe '#==' do

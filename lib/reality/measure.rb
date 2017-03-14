@@ -14,6 +14,14 @@ module Reality
       amount && unit && new(amount, unit)
     end
 
+    def Measure.[](unit)
+      unit = unit.to_s
+      Class.new(self) {
+        define_singleton_method(:inspect) { "Reality::Measure[#{unit}]" }
+        define_method(:initialize) { |amount| super(amount, unit) }
+      }
+    end
+
     # @param amount - numeric value, e.g. 100.5
     # @param unit - can be any string, e.g. 'km', '$'
     def initialize(amount, unit)
@@ -92,7 +100,7 @@ module Reality
     end
 
     def inspect
-      "#<%s(%s %s)>" % [self.class, Util::Format.number(amount), unit]
+      "#<Reality::Measure(%s %s)>" % [Util::Format.number(amount), unit]
     end
 
     private

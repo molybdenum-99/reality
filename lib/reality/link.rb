@@ -12,7 +12,7 @@ module Reality
     end
 
     def to_s
-      '<%s:%s>' % [source, id]
+      '%s:%s' % [source, id]
     end
 
     def ==(other)
