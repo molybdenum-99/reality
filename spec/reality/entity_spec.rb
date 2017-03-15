@@ -27,6 +27,17 @@ module Reality
     describe '#inspect' do
       its(:inspect) { is_expected.to eq '#<Reality::Entity wikipedia:Johnny Depp>' }
     end
+
+    describe '#describe' do # (sic)
+      its(:describe) {
+        is_expected.to eq %Q{
+          |#<Reality::Entity wikipedia:Johnny Depp>
+          |   name: John
+          |    age: 21
+          | father: wikipedia:Jeff Bridges
+        }.unindent
+      }
+    end
   end
 end
  

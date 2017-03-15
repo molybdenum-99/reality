@@ -14,12 +14,18 @@ module Reality
       amount && unit && new(amount, unit)
     end
 
-    def Measure.[](unit)
-      unit = unit.to_s
-      Class.new(self) {
-        define_singleton_method(:inspect) { "Reality::Measure[#{unit}]" }
-        define_method(:initialize) { |amount| super(amount, unit) }
+    def Measure.classes
+      @classes ||= Hash.new { |h, unit|
+        unit = unit.to_s
+        h[unit] = Class.new(self) {
+          define_singleton_method(:inspect) { "Reality::Measure[#{unit}]" }
+          define_method(:initialize) { |amount| super(amount, unit) }
+        }
       }
+    end
+
+    def Measure.[](unit)
+      classes[unit]
     end
 
     # @param amount - numeric value, e.g. 100.5
@@ -84,7 +90,7 @@ module Reality
     include Comparable
 
     def to_s
-      '%s%s' % [Util::Format.number(amount), unit]
+      '%s %s' % [Util::Format.number(amount), unit]
     end
 
     def to_h

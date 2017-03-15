@@ -14,7 +14,7 @@ Reality.wikipedia.on(
 )
 
 Reality.wikipedia.on(
-  ->(p) { p.templates(name: /^Infobox/).fetch('coordinates').tempates(name: 'Coord') },
+  ->(p) { p.templates(name: /^Infobox/).fetch('coordinates').templates(name: 'Coord').first },
   :coord,
   :as_coord_from_array
 )
@@ -23,18 +23,18 @@ Reality.wikipedia.on(
   ->(p) { p.templates(name: /^Infobox/).fetch('area_km2') },
   :area,
   :as_measure,
-  unit: :km2
+  unit: 'km^2'
 )
 
 Reality.wikipedia.on(
   ->(p) { p.templates(name: /^Infobox/).fetch('population_census') },
-  :area,
+  :population,
   :as_measure,
   unit: :person
 )
 
 Reality.wikipedia.on(
   ->(p) { p.templates(name: /^Infobox/).fetch('capital') },
-  :area,
+  :capital,
   :as_link
 )
