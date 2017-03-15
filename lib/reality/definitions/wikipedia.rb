@@ -23,7 +23,7 @@ Reality.wikipedia.on(
   ->(p) { p.templates(name: /^Infobox/).fetch('area_km2') },
   :area,
   :as_measure,
-  unit: 'km^2'
+  unit: 'km²'
 )
 
 Reality.wikipedia.on(

@@ -21,7 +21,7 @@ module Reality
         its([:long_name]) { is_expected.to eq 'Argentine Republic' }
         its([:coord]) { is_expected.to eq Geo::Coord.new(latd: 34, latm: 36, lath: 'S', lngd: 58, lngm: 23, lngh: 'W') }
         its([:area]) { is_expected.to eq Measure['km²'].new(2_780_400) }
-        its([:population]) { is_expected.to eq Measure[:person].new(43_417_000) }
+        its([:population]) { is_expected.to eq Measure[:person].new(40_117_096) }
         its([:capital]) { is_expected.to eq Link.new(:wikipedia, 'Buenos Aires') }
       end
 

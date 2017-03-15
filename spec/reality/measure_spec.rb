@@ -13,6 +13,12 @@ module Reality
       it { is_expected.to be < described_class }
       its(:inspect) { is_expected.to eq 'Reality::Measure[km]' }
 
+      it { is_expected.to eq described_class[:km] }
+
+      # TODO:
+      xspecify { expect(Measure['km²']).to eq Measure['km^2'] }
+      xspecify { expect(Measure['km²']).to eq Measure['km*km'] }
+
       context 'created measure' do
         subject { klass.new(100) }
         its(:amount) { is_expected.to eq 100 }
@@ -89,15 +95,15 @@ module Reality
     describe 'output' do
       subject{Measure.new(5, 'm')}
 
-      its(:to_s){should == '5m'}
+      its(:to_s){should == '5 m'}
       its(:inspect){should == "#<Reality::Measure(5 m)>"}
 
       it 'formats very large numbers' do
-        expect(Measure.new(5_000_000, 'm').to_s).to eq '5,000,000m'
+        expect(Measure.new(5_000_000, 'm').to_s).to eq '5,000,000 m'
       end
 
       it 'formats fractions' do
-        expect(Measure.new(0.3, 'm').to_s).to eq '0.3m'
+        expect(Measure.new(0.3, 'm').to_s).to eq '0.3 m'
       end
     end
 

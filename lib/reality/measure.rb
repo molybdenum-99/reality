@@ -16,7 +16,6 @@ module Reality
 
     def Measure.classes
       @classes ||= Hash.new { |h, unit|
-        unit = unit.to_s
         h[unit] = Class.new(self) {
           define_singleton_method(:inspect) { "Reality::Measure[#{unit}]" }
           define_method(:initialize) { |amount| super(amount, unit) }
@@ -25,7 +24,7 @@ module Reality
     end
 
     def Measure.[](unit)
-      classes[unit]
+      classes[unit.to_s]
     end
 
     # @param amount - numeric value, e.g. 100.5
