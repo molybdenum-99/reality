@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&format=json&inprop=url&prop=revisions%7Cinfo&redirects=true&rvprop=content&titles=Argentina
+    uri: https://en.wikipedia.org/w/api.php?action=query&format=json&inprop=url&prop=revisions%7Cinfo&redirects=true&rvprop=content%7Ctimestamp&titles=Argentina
     body:
       encoding: US-ASCII
       string: ''
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 06 Mar 2017 20:08:11 GMT
+      - Sat, 18 Mar 2017 14:57:44 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -27,7 +27,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1276.eqiad.wmnet
+      - mw1231.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.12.14
       X-Content-Type-Options:
@@ -42,9 +42,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=45578 t=1488830891337839
+      - D=59952 t=1489849064421730
       X-Varnish:
-      - 80220848, 984757137, 543900162
+      - 1062111401, 296686748, 422993545
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -52,25 +52,25 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1054 pass, cp3031 pass, cp3031 pass
+      - cp1065 pass, cp3033 pass, cp3031 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains; preload
       Set-Cookie:
-      - GeoIP=UA:63:Kharkiv:49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
-      - WMF-Last-Access-Global=06-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Fri,
-        07 Apr 2017 12:00:00 GMT
-      - WMF-Last-Access=06-Mar-2017;Path=/;HttpOnly;secure;Expires=Fri, 07 Apr 2017
+      - GeoIP=UA:::50.45:30.52:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=18-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Wed,
+        19 Apr 2017 12:00:00 GMT
+      - WMF-Last-Access=18-Mar-2017;Path=/;HttpOnly;secure;Expires=Wed, 19 Apr 2017
         12:00:00 GMT
       X-Analytics:
       - ns=-1;special=Badtitle;https=1;nocookies=1
       X-Client-Ip:
-      - 94.179.22.201
+      - 94.179.12.55
     body:
       encoding: ASCII-8BIT
-      string: '{"batchcomplete":"","query":{"pages":{"18951905":{"pageid":18951905,"ns":0,"title":"Argentina","revisions":[{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{other
-        uses}}\n{{pp-semi|small=yes}}\n{{Use dmy dates|date=October 2016}}\n{{Coord|34|S|64|W|display=title}}\n{{Infobox
+      string: '{"batchcomplete":"","query":{"pages":{"18951905":{"pageid":18951905,"ns":0,"title":"Argentina","revisions":[{"timestamp":"2017-03-18T02:27:21Z","contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{other
+        uses}}\n{{pp-semi|small=yes}}\n{{Use dmy dates|date=March 2017}}\n{{Coord|34|S|64|W|display=title}}\n{{Infobox
         country\n|coordinates = {{Coord|34|36|S|58|23|W|type:city}}\n|conventional_long_name
         = Argentine Republic{{efn-ua|name=altnames|Article 35 of the [[Argentine Constitution]]
         gives equal recognition to the names \"United Provinces of the River Plate\",
@@ -255,23 +255,44 @@ http_interactions:
         in financial institutions remains low.|archiveurl=https://web.archive.org/web/20111026023022/http://www.prosperity.com/country.aspx?id=AR|archivedate=26
         October 2011|deadurl=yes}}</ref> Argentina is classified as a [[high-income
         economy]].<ref>{{cite web|url=http://data.worldbank.org/about/country-and-lending-groups#High_income|title=Country
-        and Lending Groups|publisher=}}</ref>\n\n==Name and etymology==\nThe name
-        \"Argentina\" is derived from [[Latin]] ''''argentum'''' (\"silver\", ''''plata''''
-        in [[Spanish language|Spanish]]), a noun associated with the [[Sierra de la
-        Plata|silver mountains legend]], widespread among the first European explorers
-        of the [[La Plata Basin]].{{sfnm|1a1=Rock|1y=1987|1pp=6, 8|2a1=Edwards|2y=2008|2p=7}}\n\nThe
-        first written use of the name can be traced to ''''[[La Argentina (poem)|La
-        Argentina]]'''',{{efn-ua|The poem''s full name is ''''La Argentina y conquista
-        del R\u00edo de la Plata, con otros acaecimientos de los reinos del Per\u00fa,
-        Tucum\u00e1n y estado del Brasil''''.}} a 1602 poem by [[Mart\u00edn del Barco
-        Centenera]] describing the region and the foundation of Buenos Aires.{{sfn|Traba|1985|pp=15,
-        71}}\nAlthough \"Argentina\" was already in common usage by the 18th century,
-        the country was formally named \"Viceroyalty of the R\u00edo de la Plata\"
-        by the Spanish Empire, and \"United Provinces of the R\u00edo de la Plata\"
-        after independence.\n\nThe [[Argentine Constitution of 1826|1826 constitution]]
-        included the first use of the name \"Argentine Republic\" in legal documents.{{sfn|Constitution
-        of Argentina|loc=1826, art. 1}}\nThe name \"Argentine Confederation\" was
-        also commonly used and was formalized in the [[Argentine Constitution of 1853]].{{sfn|Constitution
+        and Lending Groups|publisher=}}</ref>\n\n==Name and etymology==\nThe description
+        of the country by the word ''''Argentina'''' has to be found on a [[Venice
+        (Italy)|Venice]] map in 1536.<ref>The name ''''Argentine'''' (Spanish) [http://www.oni.escuelas.edu.ar/olimpi99/libros-digitales/html/argentin.htm
+        El nombre de Argentina]</ref>\n\nIn English the name \"Argentina\" probably
+        comes from the [[Spanish language]], however the naming itself is not Spanish,
+        but [[Italian language|Italian]]. ''''Argentina'''' ([[Grammatical gender|masculine]]
+        ''''argentino'''') means in Italian \"(made) of silver, silver coloured\",
+        probably borrowed from the  [[French language|Old French]] adjective ''''argentine''''
+        \"(made) of silver\" > \"silver coloured\" already mentioned in the 12th century.<ref>Etymology
+        of ''''argentin / -e'''' (French)[http://www.cnrtl.fr/etymologie/argentin]</ref>
+        The French word ''''argentine'''' is the [[Grammatical gender|feminine]] form
+        of ''''argentin'''' and derives of ''''argent'''' \"silver\" with the [[suffix]]
+        ''''-in'''' (same construction as Old French ''''acerin'''' \"(made) of steel\",
+        from ''''acier'''' \"steel\" + ''''-in'''' or ''''sapin'''' \"(made) of fir
+        wood\", from OF ''''sap'''' \"fir\" + ''''-in''''). The Italian naming \"Argentina\"
+        for the country implies ''''Argentina Terra'''' \"land of silver\" or ''''Argentina
+        costa'''' \"coast of silver\". In Italian, the adjective or the [[proper noun]]
+        is often used in an autonomous way as a substantive and replaces it and it
+        is said ''''l''Argentina'''' (It cannot be for the proper noun in French for
+        example).\n\nThe name ''''Argentina'''' was probably first given by the Venitian
+        and Genoese navigators, such as [[Giovanni Caboto]]. In Spanish and Portuguese,
+        the words for \"silver\" are respectively ''''plata'''' and ''''prata''''
+        and \"(made) of silver\" is said ''''plateado'''' and ''''prateado''''. ''''Argentina''''
+        was first associated with the [[Sierra de la Plata|silver mountains legend]],
+        widespread among the first European explorers of the [[La Plata Basin]].{{sfnm|1a1=Rock|1y=1987|1pp=6,
+        8|2a1=Edwards|2y=2008|2p=7}}\n\nThe first written use of the name in Spanish
+        can be traced to ''''[[La Argentina (poem)|La Argentina]]'''',{{efn-ua|The
+        poem''s full name is ''''La Argentina y conquista del R\u00edo de la Plata,
+        con otros acaecimientos de los reinos del Per\u00fa, Tucum\u00e1n y estado
+        del Brasil''''.}} a 1602 poem by [[Mart\u00edn del Barco Centenera]] describing
+        the region and the foundation of Buenos Aires.{{sfn|Traba|1985|pp=15, 71}}\nAlthough
+        \"Argentina\" was already in common usage by the 18th century, the country
+        was formally named \"Viceroyalty of the R\u00edo de la Plata\" by the Spanish
+        Empire, and \"United Provinces of the R\u00edo de la Plata\" after independence.\n\nThe
+        [[Argentine Constitution of 1826|1826 constitution]] included the first use
+        of the name \"Argentine Republic\" in legal documents.{{sfn|Constitution of
+        Argentina|loc=1826, art. 1}}\nThe name \"Argentine Confederation\" was also
+        commonly used and was formalized in the [[Argentine Constitution of 1853]].{{sfn|Constitution
         of Argentina|loc=1853, Preamble}}\nIn 1860 a presidential decree settled the
         country''s name as \"Argentine Republic\",{{sfn|Rosenblat|1964|p=78}} and
         that year''s constitutional amendment ruled all the names since 1810 as legally
@@ -418,17 +439,17 @@ http_interactions:
         I|pp=363\u2013541}} [[File:Archivo General de la Naci\u00f3n Argentina 1910
         Buenos Aires, Fiesta del Centenario en Buenos Aires, la Infanta Isabel de
         Borb\u00f3n revistando las tropas.jpg|thumb|200px|The [[Argentina Centennial]]
-        was celebrated on May 25, 1910.|alt=]]\n\nStarting with [[Julio Argentino
-        Roca]] in 1880, ten consecutive federal governments emphasized [[economic
-        liberalism|liberal economic policies]]. The [[Immigration in Argentina|massive
-        wave of European immigration]] they promoted\u2014second only to the United
-        States''\u2014led to a near-reinvention of Argentine society and economy that
-        by 1908 had placed the country as the seventh wealthiest{{sfn|Bolt|Van Zanden|2013}}
-        developed nation{{sfn|D\u00edaz Alejandro|1970|p=1}} in the world.\nDriven
-        by this [[immigration]] wave and decreasing mortality, the Argentine population
-        grew fivefold and the economy 15-fold:{{sfn|Lewis|1990|pp=18\u201330}} from
-        1870 to 1910 Argentina''s [[wheat]] exports went from {{convert|100000|to|2500000|MT|ST|abbr=on}}
-        per year, while frozen beef exports increased from {{convert|25000|to|365000|MT|ST|abbr=on}}
+        was celebrated on 25 May 1910.|alt=]]\n\nStarting with [[Julio Argentino Roca]]
+        in 1880, ten consecutive federal governments emphasized [[economic liberalism|liberal
+        economic policies]]. The [[Immigration in Argentina|massive wave of European
+        immigration]] they promoted\u2014second only to the United States''\u2014led
+        to a near-reinvention of Argentine society and economy that by 1908 had placed
+        the country as the seventh wealthiest{{sfn|Bolt|Van Zanden|2013}} developed
+        nation{{sfn|D\u00edaz Alejandro|1970|p=1}} in the world.\nDriven by this [[immigration]]
+        wave and decreasing mortality, the Argentine population grew fivefold and
+        the economy 15-fold:{{sfn|Lewis|1990|pp=18\u201330}} from 1870 to 1910 Argentina''s
+        [[wheat]] exports went from {{convert|100000|to|2500000|MT|ST|abbr=on}} per
+        year, while frozen beef exports increased from {{convert|25000|to|365000|MT|ST|abbr=on}}
         per year,{{sfn|Mosk|1990|pp=88\u201389}} placing Argentina as one of the world''s
         top five exporters.{{sfn|Cruz|1990|p=10}} Its railway mileage rose from {{convert|503|to|31104|km|abbr=on}}.{{sfn|D\u00edaz
         Alejandro|1970|pp=2\u20133}} Fostered by a new [[Argentine Law 1420|public,
@@ -795,7 +816,8 @@ http_interactions:
         (ranked 16th)\n* 162 cataloged [[amphibian]] species (ranked 19th)\n\n===Climate===\n{{main
         article|Climate of Argentina|Climatic regions of Argentina}}\n\nAlthough the
         most populated areas are generally [[temperate climate|temperate]], Argentina
-        has an exceptional climate diversity,<ref name = FAO>{{cite web |url= http://www.fao.org/ag/agp/AGPC/doc/Counprof/Argentina/argentina.htm
+        has an exceptional amount of climate diversity,<ref name = FAO>{{cite web
+        |url= http://www.fao.org/ag/agp/AGPC/doc/Counprof/Argentina/argentina.htm
         |title= Argentina |work= Country Pasture/Forage Resource Profiles |publisher=
         Food and Agriculture Organization |accessdate= 7 June 2015}}</ref> ranging
         from [[subtropical]] in the north to [[Oceanic climate#Subpolar variety|subpolar]]
@@ -1050,22 +1072,22 @@ http_interactions:
         by the [[Argentine Federal Police|Federal Police]]; the [[Argentine Naval
         Prefecture|Prefecture]], which fulfills [[coast guard]] duties; the [[Argentine
         National Gendarmerie|Gendarmerie]], which serves [[border guard]] tasks; and
-        the [[Airport Security Police]].<ref>{{cite Argentine law|d=18711 \u2013 Fuerzas
-        de Seguridad|bo=21955|date=23 June 1970}}</ref> At the provincial level it
-        is coordinated by the respective internal security ministries and enforced
-        by local police agencies.<ref name=lsi/>\n\nArgentina was the only South American
-        country to send warships and cargo planes in 1991 to the [[Gulf War]] under
-        [[United Nations|UN]] mandate and has remained involved in [[peacekeeping]]
-        efforts in multiple locations like [[UNPROFOR]] in [[Croatia]]/[[Bosnia and
-        Herzegovina|Bosnia]], [[Gulf of Fonseca]], [[United Nations Peacekeeping Force
-        in Cyprus|UNFICYP]] in [[Cyprus]] (where among Army and Marines troops the
-        Air Force provided the UN Air contingent since 1994) and [[MINUSTAH]] in [[Haiti]].
-        Argentina is the only Latin American country to maintain troops in [[Kosovo]]
-        during [[SFOR]] (and later [[EUFOR]]) operations where [[Combat engineering|combat
-        engineers]] of the Argentine Armed Forces are embedded in an [[Italian Army|Italian
-        brigade]].\n\nIn 2007, an Argentine contingent including helicopters, boats
-        and water purification plants was sent to help [[Bolivia]] against their worst
-        floods in decades.<ref>[http://www.gacetamarinera.com.ar/index.php?SESID=662a1ef16ed420aeb93b117d1c4fabc6&mp_id=1&mp_op=1&seccion=principal&nota_id=3209
+        the [[Airport Security Police (Argentina)|Airport Security Police]].<ref>{{cite
+        Argentine law|d=18711 \u2013 Fuerzas de Seguridad|bo=21955|date=23 June 1970}}</ref>
+        At the provincial level it is coordinated by the respective internal security
+        ministries and enforced by local police agencies.<ref name=lsi/>\n\nArgentina
+        was the only South American country to send warships and cargo planes in 1991
+        to the [[Gulf War]] under [[United Nations|UN]] mandate and has remained involved
+        in [[peacekeeping]] efforts in multiple locations like [[UNPROFOR]] in [[Croatia]]/[[Bosnia
+        and Herzegovina|Bosnia]], [[Gulf of Fonseca]], [[United Nations Peacekeeping
+        Force in Cyprus|UNFICYP]] in [[Cyprus]] (where among Army and Marines troops
+        the Air Force provided the UN Air contingent since 1994) and [[MINUSTAH]]
+        in [[Haiti]]. Argentina is the only Latin American country to maintain troops
+        in [[Kosovo]] during [[SFOR]] (and later [[EUFOR]]) operations where [[Combat
+        engineering|combat engineers]] of the Argentine Armed Forces are embedded
+        in an [[Italian Army|Italian brigade]].\n\nIn 2007, an Argentine contingent
+        including helicopters, boats and water purification plants was sent to help
+        [[Bolivia]] against their worst floods in decades.<ref>[http://www.gacetamarinera.com.ar/index.php?SESID=662a1ef16ed420aeb93b117d1c4fabc6&mp_id=1&mp_op=1&seccion=principal&nota_id=3209
         Trabajo Conjunto en Bolivia]</ref> In 2010 the Armed Forces were also involved
         in [[Humanitarian response by national governments to the 2010 Haiti earthquake|Haiti]]
         and [[Humanitarian response to the 2010 Chile earthquake|Chile]] humanitarian
@@ -1092,7 +1114,7 @@ http_interactions:
         |archivedate=19 October 2013 |df=dmy }}</ref>]]\n\nBenefiting from rich [[natural
         resources]], a highly literate population, a diversified industrial base,
         and an export-oriented agricultural sector, the economy of Argentina is Latin
-        America''s third-largest,<ref name=wsj1>{{cite news|url=http://online.wsj.com/article/BT-CO-20130403-713853.html|title=Exchanges
+        America''s third-largest,<ref name=wsj1>{{cite news|url=https://www.wsj.com/article/BT-CO-20130403-713853.html|title=Exchanges
         in Argentina Move Toward Greater Integration|work=The Wall Street Journal|place=New
         York, NY, USA|date=3 April 2013|archiveurl=https://web.archive.org/web/20140307022904/http://online.wsj.com/article/BT-CO-20130403-713853.html|archivedate=7
         March 2014|deadurl=no}}</ref> and the second largest in [[South America]].<ref>{{cite
@@ -1507,7 +1529,7 @@ http_interactions:
         pot]]).\n\nDuring the 19th and 20th centuries especially, Argentina was the
         country with the second biggest immigration wave in the world, with 6.6 million,
         second only to the United States in the numbers of immigrants received (27
-        millions) and ahead of such other areas of new settlement like Canada, Brazil
+        million) and ahead of such other areas of new settlement like Canada, Brazil
         and Australia.<ref name=\"ref1\">https://web.archive.org/web/20070610215422/http://www.cels.org.ar/Site_cels/publicaciones/informes_pdf/1998.Capitulo7.pdf</ref><ref
         name=\"ref2\">https://web.archive.org/web/20110814202421/http://docentes.fe.unl.pt/~satpeg/PapersInova/Labor%20and%20Immigration%20in%20LA-2005.pdf</ref>\n\nStrikingly,
         at those times, the national population doubled every two decades. This belief
@@ -2212,7 +2234,7 @@ http_interactions:
         |title=Constitution of the Argentine Nation |authors=National Constituent
         Convention |place=Santa Fe |date=22 August 1994 |ref={{harvid|Constitution
         of Argentina}} |deadurl=yes |archiveurl=http://web.archive.org/web/20040509144959/http://www.senado.gov.ar/web/interes/constitucion/english.php
-        |archivedate=2004-05-09 }}\n{{refend}}\n\n;Articles\n{{refbegin|30em}}\n*
+        |archivedate=9 May 2004 }}\n{{refend}}\n\n;Articles\n{{refbegin|30em}}\n*
         {{cite journal|last1=Bolt|first1=Jutta|last2=Van Zanden|first2=Jan Luiten|title=The
         First Update of the Maddison Project; Re-estimating Growth Before 1820|url=http://www.ggdc.net/maddison/maddison-project/data/mpd_2013-01.xlsx|format=XLS|work=Maddison
         Project Working Paper 4|year=2013|ref=harv}}\n* {{cite journal|last1=Colantoni|first1=Laura|last2=Gurlekian|first2=Jorge|title=Convergence
@@ -2413,7 +2435,7 @@ http_interactions:
         states of Mercosur]]\n[[Category:Member states of the Union of South American
         Nations]]\n[[Category:Member states of the United Nations]]\n[[Category:Spanish-speaking
         countries and territories]]\n[[Category:States and territories established
-        in 1816]]\n[[Category:1816 establishments in South America]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-03-05T08:38:12Z","lastrevid":768700958,"length":203356,"fullurl":"https://en.wikipedia.org/wiki/Argentina","editurl":"https://en.wikipedia.org/w/index.php?title=Argentina&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Argentina"}}}}'
+        in 1816]]\n[[Category:1816 establishments in South America]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-03-18T09:54:36Z","lastrevid":770868184,"length":205022,"fullurl":"https://en.wikipedia.org/wiki/Argentina","editurl":"https://en.wikipedia.org/w/index.php?title=Argentina&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Argentina"}}}}'
     http_version: 
-  recorded_at: Mon, 06 Mar 2017 20:08:10 GMT
+  recorded_at: Sat, 18 Mar 2017 14:57:47 GMT
 recorded_with: VCR 3.0.3

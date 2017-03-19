@@ -24,7 +24,7 @@ module Reality
           [
             Observation.new(:_source, Link.new(@symbol, title)),
             Observation.new(:title, page.title),
-            *@parsers.map { |name:, path:, coerce:, args:|
+            *@parsers.map { |name:, path:, coerce:, args: {}|
               path.call(page).derp { |v| v && coerce_value(v, coerce, **args) }.derp { |v| v && Observation.new(name, v) }
             }
           ]
