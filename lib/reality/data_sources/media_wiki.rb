@@ -1,10 +1,10 @@
 module Reality
   using Refinements
-  
+
   module DataSources
     class MediaWiki
       attr_reader :parsers
-    
+
       def initialize(symbol, api_url, *parsers)
         @symbol = symbol
         @parsers = parsers
@@ -16,14 +16,12 @@ module Reality
       end
 
       def find(title)
-        Entity.new(find_observations(title)) # FIXME: what if observations are found for several entities?
-      end
-
-      def find_observations(title)
-        internal.get(title).derp { |page|
+        # FIXME: `prop` is specific for Wikipedia
+        internal.get(title, prop: :wbentityusage).derp { |page|
           [
             Observation.new(:_source, Link.new(@symbol, title)),
             Observation.new(:title, page.title),
+            *extract_sources(page),
             *@parsers.map { |name:, path:, coerce:, args: {}|
               path.call(page).derp { |v| v && coerce_value(v, coerce, **args) }.derp { |v| v && Observation.new(name, v) }
             }
@@ -35,6 +33,14 @@ module Reality
 
       def internal
         @internal ||= Infoboxer::MediaWiki.new(@api_url)
+      end
+
+      def extract_sources(page)
+        [
+          page.source.raw.wbentityusage
+            .derp { |wbe| wbe && wbe.keys.grep(/^Q/).first }
+            .derp { |id| id && Link.new(:wikidata, id) }
+        ].compact.map { |link| Observation.new(:_source, link) }
       end
 
       def as_string(nodes, **)

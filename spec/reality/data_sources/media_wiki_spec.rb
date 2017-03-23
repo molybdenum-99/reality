@@ -3,14 +3,14 @@ require 'reality/data_sources/media_wiki'
 module Reality
   describe DataSources::MediaWiki do
     let(:client) { described_class.new(:wikipedia, 'https://en.wikipedia.org/w/api.php') }
-    let(:page) { VCR.use_cassette('Wikipedia-Argentina') { Infoboxer.wp.get('Argentina') } }
+    let(:page) { VCR.use_cassette('Wikipedia-Argentina') { Infoboxer.wp.get('Argentina', prop: :wbentityusage) } }
     before {
       VCR.use_cassette('en-wikipedia-metadata') { client.send(:internal) }
       expect_any_instance_of(Infoboxer::MediaWiki)
-        .to receive(:get).with('Argentina').and_return(page)
+        .to receive(:get).with('Argentina', prop: :wbentityusage).and_return(page)
     }
 
-    subject(:response) { client.find_observations('Argentina') }
+    subject(:response) { client.find('Argentina') }
 
     it { is_expected.not_to be_empty }
     it { is_expected.to all be_a Observation }
@@ -18,8 +18,14 @@ module Reality
     context 'particular properties' do
       subject { ->(name) { response.detect { |o| o.name == name }.value } }
 
-      its([:_source]) { is_expected.to eq Reality::Link.new(:wikipedia, 'Argentina') }
+      its([:_source]) { is_expected.to eq Link.new(:wikipedia, 'Argentina') }
       its([:title]) { is_expected.to eq 'Argentina' }
+
+      context 'sources' do
+        subject { response.select { |o| o.name == :_source }.map(&:value) }
+
+        it { is_expected.to include Link.new(:wikidata, 'Q414') }
+      end
 
       context 'with parsers defined' do
         before {

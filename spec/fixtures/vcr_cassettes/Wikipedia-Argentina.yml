@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&format=json&inprop=url&prop=revisions%7Cinfo&redirects=true&rvprop=content%7Ctimestamp&titles=Argentina
+    uri: https://en.wikipedia.org/w/api.php?action=query&format=json&inprop=url&prop=wbentityusage%7Crevisions%7Cinfo&redirects=true&rvprop=content%7Ctimestamp&titles=Argentina
     body:
       encoding: US-ASCII
       string: ''
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 18 Mar 2017 14:57:44 GMT
+      - Sun, 19 Mar 2017 13:36:32 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -27,7 +27,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1231.eqiad.wmnet
+      - mw1288.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.12.14
       X-Content-Type-Options:
@@ -42,9 +42,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=59952 t=1489849064421730
+      - D=61644 t=1489930592758994
       X-Varnish:
-      - 1062111401, 296686748, 422993545
+      - 256300958, 272994204, 552047242
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -52,24 +52,24 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1065 pass, cp3033 pass, cp3031 pass
+      - cp1066 pass, cp3032 pass, cp3031 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains; preload
       Set-Cookie:
       - GeoIP=UA:::50.45:30.52:v4; Path=/; secure; Domain=.wikipedia.org
-      - WMF-Last-Access-Global=18-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Wed,
-        19 Apr 2017 12:00:00 GMT
-      - WMF-Last-Access=18-Mar-2017;Path=/;HttpOnly;secure;Expires=Wed, 19 Apr 2017
+      - WMF-Last-Access-Global=19-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
+        20 Apr 2017 12:00:00 GMT
+      - WMF-Last-Access=19-Mar-2017;Path=/;HttpOnly;secure;Expires=Thu, 20 Apr 2017
         12:00:00 GMT
       X-Analytics:
       - ns=-1;special=Badtitle;https=1;nocookies=1
       X-Client-Ip:
-      - 94.179.12.55
+      - 94.179.98.199
     body:
       encoding: ASCII-8BIT
-      string: '{"batchcomplete":"","query":{"pages":{"18951905":{"pageid":18951905,"ns":0,"title":"Argentina","revisions":[{"timestamp":"2017-03-18T02:27:21Z","contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{other
+      string: '{"batchcomplete":"","query":{"pages":{"18951905":{"pageid":18951905,"ns":0,"title":"Argentina","wbentityusage":{"Q414":{"aspects":["S","T","X"]}},"revisions":[{"timestamp":"2017-03-18T02:27:21Z","contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{other
         uses}}\n{{pp-semi|small=yes}}\n{{Use dmy dates|date=March 2017}}\n{{Coord|34|S|64|W|display=title}}\n{{Infobox
         country\n|coordinates = {{Coord|34|36|S|58|23|W|type:city}}\n|conventional_long_name
         = Argentine Republic{{efn-ua|name=altnames|Article 35 of the [[Argentine Constitution]]
@@ -2437,5 +2437,5 @@ http_interactions:
         countries and territories]]\n[[Category:States and territories established
         in 1816]]\n[[Category:1816 establishments in South America]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-03-18T09:54:36Z","lastrevid":770868184,"length":205022,"fullurl":"https://en.wikipedia.org/wiki/Argentina","editurl":"https://en.wikipedia.org/w/index.php?title=Argentina&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Argentina"}}}}'
     http_version: 
-  recorded_at: Sat, 18 Mar 2017 14:57:47 GMT
+  recorded_at: Sun, 19 Mar 2017 13:36:36 GMT
 recorded_with: VCR 3.0.3

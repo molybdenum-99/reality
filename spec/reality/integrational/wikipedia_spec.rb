@@ -10,7 +10,7 @@ module Reality
     end
 
     describe 'Argentina', :vcr do
-      subject(:entity) { Reality.wikipedia.find('Argentina') }
+      subject(:entity) { Reality::Entity.find(wikipedia: 'Argentina') }
 
       it { is_expected.to be_an Entity }
       its(:inspect) { is_expected.to eq '#<Reality::Entity wikipedia:Argentina>' }
@@ -23,6 +23,12 @@ module Reality
         its([:area]) { is_expected.to eq Measure['km²'].new(2_780_400) }
         its([:population]) { is_expected.to eq Measure[:person].new(40_117_096) }
         its([:capital]) { is_expected.to eq Link.new(:wikipedia, 'Buenos Aires') }
+      end
+
+      context 'multiple values' do
+        subject { ->(n) { entity[n].map(&:value) } }
+
+        its([:source]) { is_expected.to eq Link.new(:wikidata, 'Q414') }
       end
 
       describe '#describe' do # (sic!)
