@@ -1,8 +1,8 @@
-module Reality
-  def Reality.wikipedia
-    @wikipedia ||= DataSources::MediaWiki.new(:wikipedia, 'https://en.wikipedia.org/w/api.php')
-  end
+def Reality.wikipedia
+  @wikipedia ||= Reality::DataSources::MediaWiki.new(:wikipedia, 'https://en.wikipedia.org/w/api.php')
 end
+
+Reality.data_sources[:wikipedia] = Reality.wikipedia # FIXME: Or something ¯\_(ツ)_/¯
 
 # NB: those first lambdas should be thought like XPath/CSS statements. But Ruby lambdas.
 # Any MORE declarative approach is highly appreciated.

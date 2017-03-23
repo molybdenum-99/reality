@@ -49,6 +49,7 @@ module Reality
 
     describe '#inspect' do
       its(:inspect) { is_expected.to eq '#<Reality::Entity wikipedia:Johnny Depp>' }
+      # TODO: inspect including other sources
     end
 
     describe '#describe' do # (sic!)
