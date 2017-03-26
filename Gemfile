@@ -6,11 +6,12 @@ gemspec
 
 group :docs do
   gem 'yard'
-  gem 'dokaz', git: 'https://github.com/zverok/dokaz.git'
+  gem 'dokaz', github: 'zverok/dokaz'
 end
 
 group :development do
-  gem 'progress_bar', git: 'git://github.com/zverok/progress_bar'
+  gem 'progress_bar', github: 'zverok/progress_bar'
+  gem 'saharspec', github: 'zverok/saharspec'
 
   gem 'nokogiri'
   gem 'addressable'
@@ -20,6 +21,7 @@ group :development do
   #gem 'progress_bar'
   gem 'rake'
   gem 'rubygems-tasks'
+  gem 'dotenv'
 end
 
 group :test do
@@ -27,4 +29,5 @@ group :test do
   gem 'rspec-its', '~> 1'
   gem 'vcr'
   gem 'webmock'
+  gem 'timecop'
 end

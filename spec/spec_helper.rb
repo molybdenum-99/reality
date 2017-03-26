@@ -2,6 +2,10 @@ require 'rspec/its'
 require 'reality'
 
 require 'vcr'
+require 'webmock/rspec'
+require 'dotenv/load'
+require 'timecop'
+require 'saharspec/its_map'
 
 VCR.configure do |config|
   config.cassette_library_dir = "spec/fixtures/vcr_cassettes"
@@ -13,20 +17,31 @@ Reality.configure(:demo)
 
 #require_relative 'helpers/formatters'
 
-RSpec.configure do |c|
-  c.before(:suite) do
-    VCR.use_cassette('en-wikipedia-metadata') do
-      Infoboxer.wp
-      Infoboxer.wikipedia
-      require 'reality/data_sources/media_wiki'
-      require 'reality/definitions/wikipedia'
-      Reality.wikipedia.send(:internal)
-    end
+#RSpec.configure do |c|
+  #c.before(:suite) do
+    #VCR.use_cassette('en-wikipedia-metadata') do
+      #Infoboxer.wp
+      #Infoboxer.wikipedia
+      #require 'reality/data_sources/media_wiki'
+      #require 'reality/definitions/wikipedia'
+      #Reality.wikipedia.send(:internal)
+    #end
+  #end
+#end
+
+RSpec::Matchers.define :be_covered_by do |range|
+  match do |actual|
+    range.cover?(actual)
+  end
+
+  failure_message do |actual|
+    "expected that #{actual} would be covered by #{range}"
+  end
+
+  description do
+    "be covered by #{range}"
   end
 end
-
-# I officially hate you now, Hashie.
-Hashie::Mash.instance_variable_set('@disable_warnings', true)
 
 class String
   # allows to pretty test agains multiline strings:
