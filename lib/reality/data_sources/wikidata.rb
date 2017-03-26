@@ -1,13 +1,18 @@
 module Reality
   using Refinements
-  
+
   module DataSources
     class Wikidata
       def initialize(predicates = {})
         @predicates = predicates
       end
-    
-      def get(id)
+
+      def predicate(id, name, *)
+        # TODO: custom converters
+        @predicates[id] = name
+      end
+
+      def find(id)
         ::Wikidata::Item.find(id).derp { |item|
           [
             Observation.new(:_source, Link.new(:wikidata, id)),
