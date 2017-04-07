@@ -43,6 +43,16 @@ RSpec::Matchers.define :be_covered_by do |range|
   end
 end
 
+RSpec::Matchers.define :observe do |value|
+  match do |observations|
+    observations.map(&:value).include?(value)
+  end
+
+  failure_message do |observations|
+    "expected to include #{value.inspect} but got #{observations.map(&:value).uniq}"
+  end
+end
+
 class String
   # allows to pretty test agains multiline strings:
   #   %Q{

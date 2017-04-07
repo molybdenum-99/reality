@@ -2,6 +2,96 @@
 http_interactions:
 - request:
     method: get
+    uri: https://en.wikipedia.org/w/api.php?action=query&format=json&meta=siteinfo&siprop=namespaces%7Cnamespacealiases
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Reality/0.0.4 (https://github.com/molybdenum-99/reality; zverok.offline@gmail.com)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 26 Mar 2017 19:40:55 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '680'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1283.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=26035 t=1490557255743468
+      X-Varnish:
+      - 703922698, 330089713, 721748794
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1068 pass, cp3040 pass, cp3030 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=UA:63::49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=26-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
+        27 Apr 2017 12:00:00 GMT
+      - WMF-Last-Access=26-Mar-2017;Path=/;HttpOnly;secure;Expires=Thu, 27 Apr 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 94.179.98.34
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"namespaces":{"-2":{"id":-2,"case":"first-letter","canonical":"Media","*":"Media"},"-1":{"id":-1,"case":"first-letter","canonical":"Special","*":"Special"},"0":{"id":0,"case":"first-letter","content":"","*":""},"1":{"id":1,"case":"first-letter","subpages":"","canonical":"Talk","*":"Talk"},"2":{"id":2,"case":"first-letter","subpages":"","canonical":"User","*":"User"},"3":{"id":3,"case":"first-letter","subpages":"","canonical":"User
+        talk","*":"User talk"},"4":{"id":4,"case":"first-letter","subpages":"","canonical":"Project","*":"Wikipedia"},"5":{"id":5,"case":"first-letter","subpages":"","canonical":"Project
+        talk","*":"Wikipedia talk"},"6":{"id":6,"case":"first-letter","canonical":"File","*":"File"},"7":{"id":7,"case":"first-letter","subpages":"","canonical":"File
+        talk","*":"File talk"},"8":{"id":8,"case":"first-letter","canonical":"MediaWiki","*":"MediaWiki"},"9":{"id":9,"case":"first-letter","subpages":"","canonical":"MediaWiki
+        talk","*":"MediaWiki talk"},"10":{"id":10,"case":"first-letter","subpages":"","canonical":"Template","*":"Template"},"11":{"id":11,"case":"first-letter","subpages":"","canonical":"Template
+        talk","*":"Template talk"},"12":{"id":12,"case":"first-letter","subpages":"","canonical":"Help","*":"Help"},"13":{"id":13,"case":"first-letter","subpages":"","canonical":"Help
+        talk","*":"Help talk"},"14":{"id":14,"case":"first-letter","subpages":"","canonical":"Category","*":"Category"},"15":{"id":15,"case":"first-letter","subpages":"","canonical":"Category
+        talk","*":"Category talk"},"100":{"id":100,"case":"first-letter","subpages":"","canonical":"Portal","*":"Portal"},"101":{"id":101,"case":"first-letter","subpages":"","canonical":"Portal
+        talk","*":"Portal talk"},"108":{"id":108,"case":"first-letter","subpages":"","canonical":"Book","*":"Book"},"109":{"id":109,"case":"first-letter","subpages":"","canonical":"Book
+        talk","*":"Book talk"},"118":{"id":118,"case":"first-letter","subpages":"","canonical":"Draft","*":"Draft"},"119":{"id":119,"case":"first-letter","subpages":"","canonical":"Draft
+        talk","*":"Draft talk"},"446":{"id":446,"case":"first-letter","canonical":"Education
+        Program","*":"Education Program"},"447":{"id":447,"case":"first-letter","subpages":"","canonical":"Education
+        Program talk","*":"Education Program talk"},"710":{"id":710,"case":"first-letter","canonical":"TimedText","*":"TimedText"},"711":{"id":711,"case":"first-letter","canonical":"TimedText
+        talk","*":"TimedText talk"},"828":{"id":828,"case":"first-letter","subpages":"","canonical":"Module","*":"Module"},"829":{"id":829,"case":"first-letter","subpages":"","canonical":"Module
+        talk","*":"Module talk"},"2300":{"id":2300,"case":"first-letter","canonical":"Gadget","*":"Gadget"},"2301":{"id":2301,"case":"first-letter","canonical":"Gadget
+        talk","*":"Gadget talk"},"2302":{"id":2302,"case":"case-sensitive","canonical":"Gadget
+        definition","defaultcontentmodel":"GadgetDefinition","*":"Gadget definition"},"2303":{"id":2303,"case":"case-sensitive","canonical":"Gadget
+        definition talk","*":"Gadget definition talk"}},"namespacealiases":[{"id":4,"*":"WP"},{"id":5,"*":"WT"},{"id":6,"*":"Image"},{"id":7,"*":"Image
+        talk"}]}}'
+    http_version: 
+  recorded_at: Sun, 26 Mar 2017 19:41:05 GMT
+- request:
+    method: get
     uri: https://en.wikipedia.org/w/api.php?action=query&format=json&inprop=url&prop=wbentityusage%7Crevisions%7Cinfo&redirects=true&rvprop=content%7Ctimestamp&titles=Argentina
     body:
       encoding: US-ASCII
@@ -19,7 +109,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 26 Mar 2017 19:37:49 GMT
+      - Sun, 26 Mar 2017 19:40:58 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -27,7 +117,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1207.eqiad.wmnet
+      - mw1285.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.12.14
       X-Content-Type-Options:
@@ -42,9 +132,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=271556 t=1490557068840371
+      - D=47522 t=1490557258299811
       X-Varnish:
-      - 365519090, 327352181, 715440317
+      - 385306331, 88173495, 719656429
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -52,7 +142,7 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1055 pass, cp3040 pass, cp3030 pass
+      - cp1055 pass, cp3030 pass, cp3030 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
@@ -2439,5 +2529,5 @@ http_interactions:
         countries and territories]]\n[[Category:States and territories established
         in 1816]]\n[[Category:1816 establishments in South America]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-03-26T18:41:28Z","lastrevid":772167780,"length":205193,"fullurl":"https://en.wikipedia.org/wiki/Argentina","editurl":"https://en.wikipedia.org/w/index.php?title=Argentina&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Argentina"}}}}'
     http_version: 
-  recorded_at: Sun, 26 Mar 2017 19:37:58 GMT
+  recorded_at: Sun, 26 Mar 2017 19:41:08 GMT
 recorded_with: VCR 3.0.3
