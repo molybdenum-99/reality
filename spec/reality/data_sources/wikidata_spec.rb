@@ -13,10 +13,10 @@ module Reality
       allow(::Wikidata::Item).to receive(:find).with('Q414').and_return(item)
     }
 
-    subject(:response) { client.get('Q414') }
+    subject(:response) { client.find('Q414') }
 
     it { is_expected.not_to be_empty }
-    it { is_expected.to all be_a Observation }
+    it { is_expected.to all be_an Observation }
 
     context 'particular properties' do
       subject { ->(name) { response.detect { |o| o.name == name }.value } }
