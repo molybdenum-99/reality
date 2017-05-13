@@ -3,8 +3,14 @@ module Reality
 
   module DataSources
     class Wikidata
+      SITEMAP = {
+        enwiki: :wikipedia
+      }.freeze
+
+
       def initialize(predicates = {})
         @predicates = predicates
+        @api = Impl::Api.new(user_agent: Reality::USER_AGENT)
       end
 
       def predicate(id, name, *)
@@ -13,15 +19,19 @@ module Reality
       end
 
       def find(id)
-        ::Wikidata::Item.find(id).derp { |item|
-          [
-            Observation.new(:_source, Link.new(:wikidata, id)),
-            *item
-              .instance_variable_get('@hash').claims.flat_map { |id, claims| claims2observations(id, claims) }
-              .compact
-              .reject { |o| o.value.nil? }
-          ]
-        }
+        @api
+          .wbgetentities.ids(id).props(:info, :sitelinks, :claims).sitefilter(:enwiki).languages(:en)
+          .response.dig('entities', id) # TODO: what if not found?
+          .derp { |entity|
+            [
+              Observation.new(:_source, Link.new(:wikidata, id)),
+              *entity['claims'].flat_map { |id, claims| claims2observations(id, claims) }
+                .compact
+                .reject { |o| o.value.nil? },
+              *entity['sitelinks']
+                .map { |site, link| Observation.new(:_source, Link.new(SITEMAP.fetch(site.to_sym), link.fetch('title'))) }
+            ]
+          }
       end
 
       private
@@ -45,3 +55,5 @@ module Reality
     end
   end
 end
+
+require_relative 'wikidata/api'

@@ -1,17 +1,8 @@
 require 'reality/data_sources/wikidata'
 
 module Reality
-  describe DataSources::Wikidata do
+  describe DataSources::Wikidata, :vcr do
     let(:client) { described_class.new }
-    let(:item) {
-      Wikidata::Item.new(
-        JSON.parse(File.read('spec/fixtures/wikidata-entities-Argentina.json'))['entities'].values.first
-      )
-    }
-
-    before {
-      allow(::Wikidata::Item).to receive(:find).with('Q414').and_return(item)
-    }
 
     subject(:response) { client.find('Q414') }
 
@@ -31,6 +22,12 @@ module Reality
         let(:client) { described_class.new(P898: :transcription) }
 
         its([:transcription]) { is_expected.to eq 'ɑɾgənˈtiːnɑ' }
+      end
+
+      context 'links to other sites' do
+        subject { response.select { |o| o.name == :_source }.map(&:value) }
+
+        it { is_expected.to include Reality::Link.new(:wikipedia, 'Argentina') }
       end
     end
   end
