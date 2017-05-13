@@ -1,3 +1,5 @@
+require 'infoboxer'
+
 module Reality
   using Refinements
 
@@ -37,7 +39,7 @@ module Reality
 
       def extract_sources(page)
         [
-          page.source.raw.wbentityusage
+          page.source['wbentityusage']
             .derp { |wbe| wbe && wbe.keys.grep(/^Q/).first }
             .derp { |id| id && Link.new(:wikidata, id) }
         ].compact.map { |link| Observation.new(:_source, link) }

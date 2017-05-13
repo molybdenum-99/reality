@@ -22,7 +22,7 @@ module Reality
     end
 
     context 'sources' do
-      its(:sources) { are_expected.to include(Link.new(:wikipedia, 'Q414'), Link.new(:openweathermap, '34.36,58.23')) }
+      its(:sources) { are_expected.to include(Link.new(:wikidata, 'Q414'), Link.new(:openweathermap, '34.36,58.23')) }
     end
 
     describe '#describe' do # (sic!)
