@@ -2,13 +2,13 @@
 http_interactions:
 - request:
     method: get
-    uri: https://en.wikipedia.org/w/api.php?action=query&format=json&inprop=url&prop=wbentityusage%7Crevisions%7Cinfo&redirects=true&rvprop=content%7Ctimestamp&titles=Argentina
+    uri: https://en.wikipedia.org/w/api.php?action=query&format=json&inprop=url&prop=revisions%7Cinfo%7Cwbentityusage&redirects=true&rvprop=content%7Ctimestamp&titles=Argentina
     body:
       encoding: US-ASCII
       string: ''
     headers:
       User-Agent:
-      - Reality/0.0.4 (https://github.com/molybdenum-99/reality; zverok.offline@gmail.com)
+      - Infoboxer/0.2.8 (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 26 Mar 2017 19:37:47 GMT
+      - Sat, 13 May 2017 15:50:32 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -27,7 +27,7 @@ http_interactions:
       Connection:
       - keep-alive
       Server:
-      - mw1230.eqiad.wmnet
+      - mw1290.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.12.14
       X-Content-Type-Options:
@@ -42,9 +42,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=54170 t=1490557067544955
+      - D=55519 t=1494690632566015
       X-Varnish:
-      - 385328735, 35970758, 718386473
+      - 114768545, 786440811, 732184730
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -52,24 +52,24 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1055 pass, cp3031 pass, cp3030 pass
+      - cp1068 pass, cp3041 pass, cp3041 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains; preload
       Set-Cookie:
-      - GeoIP=UA:63::49.98:36.25:v4; Path=/; secure; Domain=.wikipedia.org
-      - WMF-Last-Access-Global=26-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
-        27 Apr 2017 12:00:00 GMT
-      - WMF-Last-Access=26-Mar-2017;Path=/;HttpOnly;secure;Expires=Thu, 27 Apr 2017
+      - GeoIP=UA:::50.45:30.52:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=13-May-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Wed,
+        14 Jun 2017 12:00:00 GMT
+      - WMF-Last-Access=13-May-2017;Path=/;HttpOnly;secure;Expires=Wed, 14 Jun 2017
         12:00:00 GMT
       X-Analytics:
       - ns=-1;special=Badtitle;https=1;nocookies=1
       X-Client-Ip:
-      - 94.179.98.34
+      - 94.179.12.42
     body:
       encoding: ASCII-8BIT
-      string: '{"batchcomplete":"","query":{"pages":{"18951905":{"pageid":18951905,"ns":0,"title":"Argentina","wbentityusage":{"Q414":{"aspects":["S","T","X"]}},"revisions":[{"timestamp":"2017-03-25T18:30:59Z","contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{other
+      string: '{"batchcomplete":"","query":{"pages":{"18951905":{"pageid":18951905,"ns":0,"title":"Argentina","revisions":[{"timestamp":"2017-05-06T16:09:33Z","contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{other
         uses}}\n{{pp-semi|small=yes}}\n{{Use dmy dates|date=March 2017}}\n{{Coord|34|S|64|W|display=title}}\n{{Infobox
         country\n|coordinates = {{Coord|34|36|S|58|23|W|type:city}}\n|conventional_long_name
         = Argentine Republic{{efn-ua|name=altnames|Article 35 of the [[Argentine Constitution]]
@@ -96,12 +96,10 @@ http_interactions:
         \"The sun''s features are those of [[Inti]], the [[Inca]]n sun god. The sun
         commemorates the appearance of the sun through cloudy skies on 25 May 1810,
         during the first mass demonstration in favor of independence.\"}}|nolink=yes|paren=off}}<br
-        />{{small|(Sun of May)}}\n|image_map = Argentina orthographic.svg\n|map_width
-        = 220px\n|map_caption = {{resize|110%|Mainland Argentina shown in dark green,
-        with [[Foreign relations of Argentina#Sovereignty claims|territorial claims]]
-        shown in light green}}\n|capital = [[Buenos Aires]]\n|largest_city = capital\n|languages_type
-        = National language<br />{{nobold|and ''''de facto'''' official}}\n|languages
-        = [[Spanish language|Spanish]]{{ref label|note-lang|a|}}\n|languages2_type
+        />{{small|(Sun of May)}}\n|image_map = Argentina orthogonal.svg\n|map_width
+        = 220px\n|map_caption = Argentina shown in dark green\n|capital = [[Buenos
+        Aires]]\n|largest_city = capital\n|languages_type = Official language<br />{{nobold|and
+        national language}} \n|languages = [[Spanish language|Spanish]]{{ref label|note-lang|a|}}\n|languages2_type
         = Regional languages\n|languages2 = \n{{nowrap|[[Guaran\u00ed language|Guaran\u00ed]]
         in [[Corrientes Province|Corrientes]];<ref name=gn/>}}\n[[Toba Qom language|Qom]],
         [[Mocov\u00ed language|Mocov\u00ed]] and [[Wich\u00ed language|Wichi]] in
@@ -142,14 +140,14 @@ http_interactions:
         = 212th\n|GDP_PPP = $879.447 billion<ref name=imf2>{{cite web|url=http://www.imf.org/external/pubs/ft/weo/2016/02/weodata/weorept.aspx?sy=2016&ey=2021&scsm=1&ssd=1&sort=country&ds=.&br=1&c=213&s=NGDPD%2CNGDPDPC%2CPPPGDP%2CPPPPC&grp=0&a=&pr1.x=90&pr1.y=13|title=Argentina|work=
         World Economic Outlook Database |publisher=International Monetary Fund }}</ref>\n|GDP_PPP_year
         = 2016\n|GDP_PPP_rank = 25th\n|GDP_PPP_per_capita = $20,170<ref name=imf2/>\n|GDP_PPP_per_capita_rank
-        = 56th\n|GDP_nominal = $541.748 billion<ref name=imf2/>\n|GDP_nominal_year
-        = 2016\n|GDP_nominal_rank = 21st\n|GDP_nominal_per_capita = $12,425<ref name=imf2/>\n|GDP_nominal_per_capita_rank
+        = 56th\n|GDP_nominal = $628.935 billion<ref name=imf2/>\n|GDP_nominal_year
+        = 2017\n|GDP_nominal_rank = 21st\n|GDP_nominal_per_capita = $12,425<ref name=imf2/>\n|GDP_nominal_per_capita_rank
         = 53rd\n|Gini = 42.7 <!--number only-->\n|Gini_year = 2014 <!-- use the year
         to which the data refers, not the publication year-->\n|Gini_change = increase
         <!--increase/decrease/steady-->\n|Gini_ref = <ref name=gini/>\n|Gini_rank
         =\n|HDI = 0.827 <!--number only-->\n|HDI_year = 2015 <!-- use the year to
-        which the data refers, not the publication year-->\n|HDI_change = increase
-        <!--increase/decrease/steady-->\n|HDI_ref = <ref name=\"HDI\">{{cite web |url=http://hdr.undp.org/sites/default/files/2016_human_development_report.pdf
+        which the data refers, not the publication year-->\n|HDI_change = steady <!--increase/decrease/steady-->\n|HDI_ref
+        = <ref name=\"HDI\">{{cite web |url=http://hdr.undp.org/sites/default/files/2016_human_development_report.pdf
         |title=2016 Human Development Report |year=2016 |accessdate=25 March 2017
         |publisher=United Nations Development Programme}}</ref>\n|HDI_rank = 45th\n|currency
         = [[Argentine peso|Peso]] ([[Dollar sign|$]])\n|currency_code = ARS\n|time_zone
@@ -265,36 +263,35 @@ http_interactions:
         but [[Italian language|Italian]]. ''''Argentina'''' ([[Grammatical gender|masculine]]
         ''''argentino'''') means in Italian \"(made) of silver, silver coloured\",
         probably borrowed from the  [[French language|Old French]] adjective ''''argentine''''
-        \"(made) of silver\" > \"silver coloured\" already mentioned in the 12th century.<ref>Etymology
-        of ''''argentin / -e'''' (French)[http://www.cnrtl.fr/etymologie/argentin]</ref>
-        The French word ''''argentine'''' is the [[Grammatical gender|feminine]] form
-        of ''''argentin'''' and derives of ''''argent'''' \"silver\" with the [[suffix]]
-        ''''-in'''' (same construction as Old French ''''acerin'''' \"(made) of steel\",
-        from ''''acier'''' \"steel\" + ''''-in'''' or ''''sapin'''' \"(made) of fir
-        wood\", from OF ''''sap'''' \"fir\" + ''''-in''''). The Italian naming \"Argentina\"
-        for the country implies ''''Argentina Terra'''' \"land of silver\" or ''''Argentina
-        costa'''' \"coast of silver\". In Italian, the adjective or the [[proper noun]]
-        is often used in an autonomous way as a substantive and replaces it and it
-        is said ''''l''Argentina'''' (It cannot be for the proper noun in French for
-        example).\n\nThe name ''''Argentina'''' was probably first given by the Venitian
-        and Genoese navigators, such as [[Giovanni Caboto]]. In Spanish and Portuguese,
-        the words for \"silver\" are respectively ''''plata'''' and ''''prata''''
-        and \"(made) of silver\" is said ''''plateado'''' and ''''prateado''''. ''''Argentina''''
-        was first associated with the [[Sierra de la Plata|silver mountains legend]],
-        widespread among the first European explorers of the [[La Plata Basin]].{{sfnm|1a1=Rock|1y=1987|1pp=6,
-        8|2a1=Edwards|2y=2008|2p=7}}\n\nThe first written use of the name in Spanish
-        can be traced to ''''[[La Argentina (poem)|La Argentina]]'''',{{efn-ua|The
-        poem''s full name is ''''La Argentina y conquista del R\u00edo de la Plata,
-        con otros acaecimientos de los reinos del Per\u00fa, Tucum\u00e1n y estado
-        del Brasil''''.}} a 1602 poem by [[Mart\u00edn del Barco Centenera]] describing
-        the region and the foundation of Buenos Aires.{{sfn|Traba|1985|pp=15, 71}}\nAlthough
-        \"Argentina\" was already in common usage by the 18th century, the country
-        was formally named \"Viceroyalty of the R\u00edo de la Plata\" by the Spanish
-        Empire, and \"United Provinces of the R\u00edo de la Plata\" after independence.\n\nThe
-        [[Argentine Constitution of 1826|1826 constitution]] included the first use
-        of the name \"Argentine Republic\" in legal documents.{{sfn|Constitution of
-        Argentina|loc=1826, art. 1}}\nThe name \"Argentine Confederation\" was also
-        commonly used and was formalized in the [[Argentine Constitution of 1853]].{{sfn|Constitution
+        \"(made) of silver\" > \"silver coloured\" already mentioned in the 12th century.<ref>[http://www.cnrtl.fr/etymologie/argentin
+        Etymology of ''''argentin / -e'''' (French)]</ref> The French word ''''argentine''''
+        is the [[Grammatical gender|feminine]] form of ''''argentin'''' and derives
+        of ''''argent'''' \"silver\" with the [[suffix]] ''''-in'''' (same construction
+        as Old French ''''acerin'''' \"(made) of steel\", from ''''acier'''' \"steel\"
+        + ''''-in'''' or ''''sapin'''' \"(made) of fir wood\", from OF ''''sap''''
+        \"fir\" + ''''-in''''). The Italian naming \"Argentina\" for the country implies
+        ''''Argentina Terra'''' \"land of silver\" or ''''Argentina costa'''' \"coast
+        of silver\". In Italian, the adjective or the [[proper noun]] is often used
+        in an autonomous way as a substantive and replaces it and it is said ''''l''Argentina''''
+        (It cannot be for the proper noun in French for example).\n\nThe name ''''Argentina''''
+        was probably first given by the Venetian and Genoese navigators, such as [[Giovanni
+        Caboto]]. In Spanish and Portuguese, the words for \"silver\" are respectively
+        ''''plata'''' and ''''prata'''' and \"(made) of silver\" is said ''''plateado''''
+        and ''''prateado''''. ''''Argentina'''' was first associated with the [[Sierra
+        de la Plata|silver mountains legend]], widespread among the first European
+        explorers of the [[La Plata Basin]].{{sfnm|1a1=Rock|1y=1987|1pp=6, 8|2a1=Edwards|2y=2008|2p=7}}\n\nThe
+        first written use of the name in Spanish can be traced to ''''[[La Argentina
+        (poem)|La Argentina]]'''',{{efn-ua|The poem''s full name is ''''La Argentina
+        y conquista del R\u00edo de la Plata, con otros acaecimientos de los reinos
+        del Per\u00fa, Tucum\u00e1n y estado del Brasil''''.}} a 1602 poem by [[Mart\u00edn
+        del Barco Centenera]] describing the region and the foundation of Buenos Aires.{{sfn|Traba|1985|pp=15,
+        71}}\nAlthough \"Argentina\" was already in common usage by the 18th century,
+        the country was formally named \"Viceroyalty of the R\u00edo de la Plata\"
+        by the Spanish Empire, and \"United Provinces of the R\u00edo de la Plata\"
+        after independence.\n\nThe [[Argentine Constitution of 1826|1826 constitution]]
+        included the first use of the name \"Argentine Republic\" in legal documents.{{sfn|Constitution
+        of Argentina|loc=1826, art. 1}}\nThe name \"Argentine Confederation\" was
+        also commonly used and was formalized in the [[Argentine Constitution of 1853]].{{sfn|Constitution
         of Argentina|loc=1853, Preamble}}\nIn 1860 a presidential decree settled the
         country''s name as \"Argentine Republic\",{{sfn|Rosenblat|1964|p=78}} and
         that year''s constitutional amendment ruled all the names since 1810 as legally
@@ -644,18 +641,21 @@ http_interactions:
         within two months Argentina was defeated by the United Kingdom. [[Reynaldo
         Bignone]] replaced Galtieri and began to organize the transition to democratic
         rule.{{sfn|Galasso|2011|loc=vol. II|pp=505\u2013532}}\n\n===Contemporary era===\n{{main
-        article|Argentine economic crisis (1999\u20132002)|Kirchnerism}}\n[[File:Cristina
-        Fernandez Comandante en Jefe.jpg|thumb|left|200px|alt=Photograph of Cristina
-        Kirchner.|[[Cristina Kirchner]], President of Argentina from 2007 to 2015|alt=]]\n[[Ra\u00fal
-        Alfons\u00edn]] won the [[Argentine general election, 1983|1983 elections]]
-        campaigning for the prosecution of those responsible for [[human rights]]
-        violations during the ''''Proceso'''': the [[Trial of the Juntas]] and other
-        martial courts sentenced all the coup''s leaders but, under military pressure,
-        he also enacted the [[Full Stop Law|Full Stop]] and [[Law of Due Obedience|Due
-        Obedience]] laws,<ref>{{cite Argentine law|l=23492|date=29 December 1986|bo=26058}}</ref><ref>{{cite
-        Argentine law|l=23521|date=9 June 1987|bo=26155}}</ref> which halted prosecutions
-        further down the [[chain of command]]. The worsening economic crisis and [[hyperinflation]]
-        reduced his popular support and the Peronist [[Carlos Menem]] won the [[Argentine
+        article|Argentine economic crisis (1999\u20132002)|Kirchnerism}}\n[[File:Presidenta
+        Cristina Fernandez y diputado Nestor Kirchner.jpg|thumb|left|200px|alt=Photograph
+        of Cristina Kirchner.|[[Cristina Fern\u00e1ndez]] and [[N\u00e9stor Kirchner]]
+        during the ''''[[Argentina Bicentennial|Bicentenario]]''''. The couple has
+        occupied the presidency of Argentina for 12 years, him from 2003 to 2007 and
+        her from 2007 to 2015.]]\n[[Ra\u00fal Alfons\u00edn]] won the [[Argentine
+        general election, 1983|1983 elections]] campaigning for the prosecution of
+        those responsible for [[human rights]] violations during the ''''Proceso'''':
+        the [[Trial of the Juntas]] and other martial courts sentenced all the coup''s
+        leaders but, under military pressure, he also enacted the [[Full Stop Law|Full
+        Stop]] and [[Law of Due Obedience|Due Obedience]] laws,<ref>{{cite Argentine
+        law|l=23492|date=29 December 1986|bo=26058}}</ref><ref>{{cite Argentine law|l=23521|date=9
+        June 1987|bo=26155}}</ref> which halted prosecutions further down the [[chain
+        of command]]. The worsening economic crisis and [[hyperinflation]] reduced
+        his popular support and the Peronist [[Carlos Menem]] won the [[Argentine
         general election, 1989|1989 election]]. Soon after, [[1989 riots in Argentina|riots
         forced Alfons\u00edn to an early resignation]].{{sfn|Galasso|2011|loc=vol.
         II|pp=533\u2013549}}\n\nMenem embraced [[neo-liberalism|neo-liberal]] policies:{{sfn|Epstein|Pion-Berlin|2006|p=6}}
@@ -858,9 +858,9 @@ http_interactions:
         of Argentina|loc=art. 37}}{{efn-ua|Since 2012 suffrage is optional for ages
         16 and 17.<ref>{{cite web|url=http://www.washingtonpost.com/blogs/worldviews/wp/2012/11/01/argentina-voting-age/|title=Argentina
         lowers its voting age to 16|work=The Washington Post|place=Washington, D.
-        C.|date=1 November 2012|deadurl=no}}</ref>}}\n\nThe federal government is
-        composed of three branches:\n\nThe [[Legislature|Legislative]] branch consists
-        of the [[bicameralism|bicameral]] Congress, made up of the [[Argentine Senate|Senate]]
+        C.|date=1 November 2012}}</ref>}}\n\nThe federal government is composed of
+        three branches:\n\nThe [[Legislature|Legislative]] branch consists of the
+        [[bicameralism|bicameral]] Congress, made up of the [[Argentine Senate|Senate]]
         and [[Argentine Chamber of Deputies|Deputy]] chambers, which makes [[federal
         law]], [[declaration of war|declares war]], approves [[treaty|treaties]] and
         has the [[power of the purse]] and of [[impeachment]], by which it can remove
@@ -1017,24 +1017,24 @@ http_interactions:
         of which Argentina is a founding signatory and permanent consulting member,
         with the [[Antarctic Treaty Secretariat]] being based in Buenos Aires.<ref>{{cite
         web|url=http://www.ats.aq/|title=ATS \u2013 Secretariat of the Antarctic Treaty|publisher=Antarctic
-        Treaty Secretariat|place=Buenos Aires|year=2013|deadurl=no}}</ref>\n\nArgentina
-        [[Falkland Islands sovereignty dispute|disputes sovereignty]] over the Falkland
-        Islands ({{lang-es|Islas Malvinas|link=no}}), and [[South Georgia and South
-        Sandwich Islands sovereignty dispute|South Georgia and the South Sandwich
-        Islands]],{{sfn|Constitution of Argentina|loc=T. P. 1}} which are administered
-        by the United Kingdom as [[British Overseas Territories|Overseas Territories]].\n\n===Armed
-        forces===\n{{main article|Armed Forces of the Argentine Republic}}\n[[File:Ejercito
-        Argentino.jpg|thumb|left|180px|[[Argentine Army]].]]\nThe President holds
-        the title of commander-in-chief of the Argentine Armed Forces, as part of
-        a legal framework that imposes a strict separation between national defense
-        and internal security systems:<ref>{{cite Argentine law|l=23554 \u2013 Defensa
-        Nacional|bo=26375|p=4|date=5 May 1988}}</ref><ref name=lsi>{{cite Argentine
-        law|l=24059 \u2013 Seguridad Interior|bo=27307|p=1|date=17 January 1992}}</ref>\n\nThe
-        [[Argentine defense industry|National Defense System]], an exclusive responsibility
-        of the federal government,{{sfn|Constitution of Argentina|loc=arts. 125\u2013126}}
-        coordinated by the [[Ministry of Defense (Argentina)|Ministry of Defense]],
-        and comprising the [[Argentine Army|Army]], the [[Argentine Navy|Navy]] and
-        the [[Argentine Air Force|Air Force]].<ref>{{cite web|url=http://www.indexmundi.com/argentina/military_branches.html|title=Argentina
+        Treaty Secretariat|place=Buenos Aires|year=2013}}</ref>\n\nArgentina [[Falkland
+        Islands sovereignty dispute|disputes sovereignty]] over the Falkland Islands
+        ({{lang-es|Islas Malvinas|link=no}}), and [[South Georgia and South Sandwich
+        Islands sovereignty dispute|South Georgia and the South Sandwich Islands]],{{sfn|Constitution
+        of Argentina|loc=T. P. 1}} which are administered by the United Kingdom as
+        [[British Overseas Territories|Overseas Territories]].\n\n===Armed forces===\n{{main
+        article|Armed Forces of the Argentine Republic}}\n[[File:Ejercito Argentino.jpg|thumb|left|180px|[[Argentine
+        Army]].]]\nThe President holds the title of commander-in-chief of the Argentine
+        Armed Forces, as part of a legal framework that imposes a strict separation
+        between national defense and internal security systems:<ref>{{cite Argentine
+        law|l=23554 \u2013 Defensa Nacional|bo=26375|p=4|date=5 May 1988}}</ref><ref
+        name=lsi>{{cite Argentine law|l=24059 \u2013 Seguridad Interior|bo=27307|p=1|date=17
+        January 1992}}</ref>\n\nThe [[Argentine defense industry|National Defense
+        System]], an exclusive responsibility of the federal government,{{sfn|Constitution
+        of Argentina|loc=arts. 125\u2013126}} coordinated by the [[Ministry of Defense
+        (Argentina)|Ministry of Defense]], and comprising the [[Argentine Army|Army]],
+        the [[Argentine Navy|Navy]] and the [[Argentine Air Force|Air Force]].<ref>{{cite
+        web|url=http://www.indexmundi.com/argentina/military_branches.html|title=Argentina
         \u2013 Military branches|publisher=Index Mundi \u2013 CIA World Factbook|year=2011|archiveurl=https://web.archive.org/web/20121103093751/http://www.indexmundi.com/argentina/military_branches.html|archivedate=3
         November 2012|deadurl=no}}</ref> Ruled and monitored by Congress{{sfn|Constitution
         of Argentina|loc=arts. 21, 75, 99}} through the Houses'' Defense Committees,<ref
@@ -1097,15 +1097,20 @@ http_interactions:
         of Argentina}}\n{{see also|Argentine foreign trade}}\n[[File:Puerto Madero
         bs as.jpg|thumb|right|200px|alt=Large city skyline.|[[Buenos Aires]] is the
         second largest city in South America. It is one of the only three \"alpha\"
-        cities in Latin America.<ref name=gawc>{{cite web|url=http://www.lboro.ac.uk/gawc/world2010t.html|title=GaWC
-        - The World According to GaWC 2010|publisher=Loughborough University}}</ref>
-        and it''s the most visited city in South America.<ref>{{cite web|url=http://america.infobae.com/notas/52348-Ciudad-de-Mexico-Buenos-Aires-y-San-Pablo-los-destinos-turisticos-favoritos
+        cities in Latin America.<ref name=gawc>{{cite web|url=http://www.lboro.ac.uk/gawc/world2010t.html
+        |title=GaWC - The World According to GaWC 2010 |publisher=Loughborough University
+        |deadurl=yes |archiveurl=https://web.archive.org/web/20131010004859/http://www.lboro.ac.uk/gawc/world2010t.html
+        |archivedate=10 October 2013 |df= }}</ref> and it''s the most visited city
+        in South America.<ref>{{cite web|url=http://america.infobae.com/notas/52348-Ciudad-de-Mexico-Buenos-Aires-y-San-Pablo-los-destinos-turisticos-favoritos
         |title=M\u00e9xico DF, Buenos Aires y San Pablo, los destinos tur\u00edsticos
         favoritos |work=infobae |deadurl=yes |archiveurl=https://web.archive.org/web/20130115022952/http://america.infobae.com/notas/52348-Ciudad-de-Mexico-Buenos-Aires-y-San-Pablo-los-destinos-turisticos-favoritos
         |archivedate=15 January 2013 |df=dmy }}</ref> It is also the 13th richest
         city in the world.<ref>{{cite web|url=http://www.lanacion.com.ar/893054-buenos-aires-entre-las-ciudades-mas-ricas-del-mundo|title=Buenos
-        Aires, entre las ciudades m\u00e1s ricas del mundo|work=La Naci\u00f3n}}</ref><ref>https://www.ukmediacentre.pwc.com/imagelibrary/downloadMedia.ashx?MediaDetailsID=1562</ref>
-        It has the highest per capita income in the Southern Cone.<ref>http://www.mckinsey.com/tools/Wrappers/Wrapper.aspx?sid={C84CB74F-A3B1-47B1-8265-6252F6D85B68}&pid={4F5BEDB1-6C1F-4243-A052-83ADBABE82DF}</ref>]]\n[[File:Bodega
+        Aires, entre las ciudades m\u00e1s ricas del mundo|work=La Naci\u00f3n}}</ref><ref>{{cite
+        web|url=https://www.ukmediacentre.pwc.com/imagelibrary/downloadMedia.ashx?MediaDetailsID%3D1562
+        |title=Archived copy |accessdate=2009-12-16 |deadurl=yes |archiveurl=https://web.archive.org/web/20110504031739/https://www.ukmediacentre.pwc.com/imagelibrary/downloadMedia.ashx?MediaDetailsID=1562
+        |archivedate= 4 May 2011 |df= }}</ref> It has the highest per capita income
+        in the Southern Cone.<ref>http://www.mckinsey.com/tools/Wrappers/Wrapper.aspx?sid={C84CB74F-A3B1-47B1-8265-6252F6D85B68}&pid={4F5BEDB1-6C1F-4243-A052-83ADBABE82DF}</ref>]]\n[[File:Bodega
         chakana hacia la monta\u00f1a.jpg|thumb|left|190px|alt=Field|[[Agriculture
         in Argentina|Argentine agriculture]] is relatively capital intensive, today
         providing about 7% of all employment.<ref name=mecon>{{cite web|url=http://www.mecon.gov.ar/
@@ -1151,15 +1156,16 @@ http_interactions:
         heated public debate over manipulated statistics.<ref>{{cite news|last=Winter|first=Brian|url=http://www.reuters.com/article/2013/04/25/argentina-inflation-minister-idUSL2N0DC1J820130425|title=Argentina
         minister ducks inflation question, causes stir|agency=Reuters|place=London|date=25
         April 2013|archiveurl=https://web.archive.org/web/20140305030958/http://www.reuters.com/article/2013/04/25/argentina-inflation-minister-idUSL2N0DC1J820130425|archivedate=5
-        March 2014|deadurl=no}}</ref><ref>{{cite news|url=http://www.economist.com/node/21548242?fsrc=scn/fb/wl/ar/donelietomeargentina|title=Official
-        statistics: Don''t lie to me, Argentina|work=The Economist|place=London|date=25
-        February 2012|archiveurl=https://web.archive.org/web/20131207101054/http://www.economist.com/node/21548242?fsrc=scn/fb/wl/ar/donelietomeargentina|archivedate=7
-        December 2013|deadurl=no}}</ref> [[Income distribution]], having improved
-        since 2002, is classified as \"medium\", still considerably unequal.<ref name=gini>{{cite
-        web |url=http://data.worldbank.org/indicator/SI.POV.GINI?locations=AR |title=
-        GINI index (World Bank estimate) |publisher= World Bank |accessdate= 9 November
-        2016}}</ref>\n\nArgentina ranks 107th out of 175 countries in the [[Transparency
-        International]]''s 2014 [[Corruption Perceptions Index]].<ref>{{cite web|url=https://www.transparency.org/cpi2014/results|format=|title=Corruption
+        March 2014|deadurl=no}}</ref><ref>{{cite news|url=http://www.economist.com/node/21548242?fsrc=scn/fb/wl/ar/donelietomeargentina
+        |title=Official statistics: Don''t lie to me, Argentina |work=The Economist
+        |place=London |date=25 February 2012 |archiveurl=https://web.archive.org/web/20131207101054/http://www.economist.com/node/21548242?fsrc=scn%2Ffb%2Fwl%2Far%2Fdonelietomeargentina
+        |archivedate= 7 December 2013 |deadurl=no |df= }}</ref> [[Income distribution]],
+        having improved since 2002, is classified as \"medium\", still considerably
+        unequal.<ref name=gini>{{cite web |url=http://data.worldbank.org/indicator/SI.POV.GINI?locations=AR
+        |title= GINI index (World Bank estimate) |publisher= World Bank |accessdate=
+        9 November 2016}}</ref>\n\nArgentina ranks 107th out of 175 countries in the
+        [[Transparency International]]''s 2014 [[Corruption Perceptions Index]].<ref>{{cite
+        web|url=https://www.transparency.org/cpi2014/results|format=|title=Corruption
         Perceptions Index 2014|publisher=Transparency International|year=2014|accessdate=4
         January 2016}}</ref> While the country has settled most of its debts, it faces
         a technical debt crisis since 31 July 2014. A New York judge blocked Argentina''s
@@ -1177,13 +1183,15 @@ http_interactions:
         Power Plant|Atucha I]] and [[Atucha II Nuclear Power Plant|II]].]]\n\n{{As
         of|2012|alt=In 2012}} [[manufacturing]] accounted for 20.3% of GDP\u2014the
         largest goods-producing sector in the nation''s economy.<ref name=infoeco1>{{cite
-        web|url=http://www.mecon.gov.ar/download/infoeco/actividad_ied.xls|format=XLS|title=Informaci\u00f3n
-        Econ\u00f3mica al D\u00eda \u2013 Nivel de Actividad|publisher=Direcci\u00f3n
-        Nacional de Pol\u00edtica Macroecon\u00f3mica \u2013 Ministerio de Econom\u00eda
-        y Finanzas P\u00fablicas|place=Buenos Aires|year=2013|language=Spanish|archiveurl=https://web.archive.org/web/20140410031557/http://www.mecon.gov.ar/download/infoeco/actividad_ied.xls|archivedate=10
-        April 2014|deadurl=no}}</ref> Well-integrated into Argentine agriculture,
-        half of the industrial exports have rural origin.<ref name=infoeco1/>\n\nWith
-        a 6.5% production growth rate {{as of|2011|alt=in 2011}},<ref>{{cite web|url=http://www.indexmundi.com/argentina/industrial_production_growth_rate.html|title=Argentina
+        web|url=http://www.mecon.gov.ar/download/infoeco/actividad_ied.xls |format=XLS
+        |title=Informaci\u00f3n Econ\u00f3mica al D\u00eda \u2013 Nivel de Actividad
+        |publisher=Direcci\u00f3n Nacional de Pol\u00edtica Macroecon\u00f3mica \u2013
+        Ministerio de Econom\u00eda y Finanzas P\u00fablicas |place=Buenos Aires |year=2013
+        |language=Spanish |archiveurl=https://web.archive.org/web/20140410031557/http://www.mecon.gov.ar/download/infoeco/actividad_ied.xls
+        |archivedate=10 April 2014 |deadurl=yes |df= }}</ref> Well-integrated into
+        Argentine agriculture, half of the industrial exports have rural origin.<ref
+        name=infoeco1/>\n\nWith a 6.5% production growth rate {{as of|2011|alt=in
+        2011}},<ref>{{cite web|url=http://www.indexmundi.com/argentina/industrial_production_growth_rate.html|title=Argentina
         \u2013 Industrial production growth rate|publisher=Index Mundi \u2013 CIA
         World Factbook|year=2011|archiveurl=https://web.archive.org/web/20130310152617/http://www.indexmundi.com/argentina/industrial_production_growth_rate.html|archivedate=10
         March 2013|deadurl=no}}</ref> the diversified manufacturing sector rests on
@@ -1264,8 +1272,9 @@ http_interactions:
         Es ley la creaci\u00f3n de Ferrocarriles Argentinos] - EnElSubte, 15 April
         2015</ref><ref>[http://prensa.argentina.ar/2015/04/15/57505-ferrocarriles-argentinos-randazzo-agradecio-a-la-oposicion-parlamentaria-por-acompanar-en-su-recuperacion.php
         Ferrocarriles Argentinos: Randazzo agradeci\u00f3 a la oposici\u00f3n parlamentaria
-        por acompa\u00f1ar en su recuperaci\u00f3n] - Sala de Prensa de la Republica
-        Argentina, 15 April 2015</ref>\n\n[[File:200 Series at San Jos\u00e9 de Flores.jpg|thumb|210px|alt=Underground
+        por acompa\u00f1ar en su recuperaci\u00f3n] {{webarchive|url=https://web.archive.org/web/20150416184115/http://prensa.argentina.ar/2015/04/15/57505-ferrocarriles-argentinos-randazzo-agradecio-a-la-oposicion-parlamentaria-por-acompanar-en-su-recuperacion.php
+        |date=16 April 2015 }} - Sala de Prensa de la Republica Argentina, 15 April
+        2015</ref>\n\n[[File:200 Series at San Jos\u00e9 de Flores.jpg|thumb|210px|alt=Underground
         railway.|[[Buenos Aires Underground]], is the first underground railway in
         [[Latin America]], the [[Southern Hemisphere]] and the [[hispanophone|Spanish
         speaking world]].<ref>[http://www.ambito.com/noticia.asp?id=718445 Se cumplieron
@@ -1422,8 +1431,8 @@ http_interactions:
         Science and Education in Argentina]. argentina.ar</ref> Established in 1991,
         the [[CONAE]] has since launched two satellites successfully and,<ref>{{cite
         web|url=http://www.conae.gov.ar/eng/satelites/satelites.html |title=Satellite
-        Missions |publisher=CONAE |accessdate=25 October 2012 |deadurl=yes |archiveurl=https://web.archive.org/web/20090204030327/http://www.conae.gov.ar:80/eng/satelites/satelites.html
-        |archivedate=4 February 2009 |df=dmy }}</ref> in June 2009, secured an agreement
+        Missions |publisher=CONAE |accessdate=25 October 2012 |deadurl=yes |archiveurl=https://web.archive.org/web/20090204030327/http://www.conae.gov.ar/eng/satelites/satelites.html
+        |archivedate= 4 February 2009 |df=dmy }}</ref> in June 2009, secured an agreement
         with the [[European Space Agency]] for the installation of a 35-m diameter
         antenna and other mission support facilities at the [[Pierre Auger Observatory]],
         the world''s foremost [[cosmic ray]] observatory.<ref>{{cite web|url=http://www.auger.org/news/releases/inauguration_release.html
@@ -1503,7 +1512,7 @@ http_interactions:
         marriage nationwide.<ref>{{cite news|url=http://seattletimes.nwsource.com/html/nationworld/2012368514_argentina16.html
         |title=Argentina becomes second nation in Americas to legalize gay marriage
         |publisher=seattletimes.nwsource.com |date=15 July 2010 |accessdate=15 July
-        2010 |first=Juan |last=Forero |deadurl=yes |archiveurl=https://web.archive.org/web/20110521221225/http://seattletimes.nwsource.com:80/html/nationworld/2012368514_argentina16.html
+        2010 |first=Juan |last=Forero |deadurl=yes |archiveurl=https://web.archive.org/web/20110521221225/http://seattletimes.nwsource.com/html/nationworld/2012368514_argentina16.html
         |archivedate=21 May 2011 |df=dmy }}</ref> It was the tenth country to allow
         [[same-sex marriage in Argentina|same-sex marriage]].<ref>{{cite news|last=Fastenberg
         |first=Dan |url=http://www.time.com/time/world/article/0,8599,2005678,00.html
@@ -1524,10 +1533,10 @@ http_interactions:
         \n| last2 = Moreno | first2 = R. S. \n| title = Genetic epidemiology of single
         gene defects in Chile \n| journal = Journal of Medical Genetics \n| volume
         = 31 \n| issue = 9 \n| pages = 702\u2013706 \n| year = 1994 \n| pmid = 7815439
-        \n| pmc = 1050080\n}}</ref><ref>{{cite web|url=http://www.argentina.gov.ar/argentina/portal/paginas.dhtml?pagina=1669|title=About
-        Argentina|publisher=Government of Argentina| archiveurl= https://web.archive.org/web/20090919230812/http://www.argentina.gov.ar/argentina/portal/paginas.dhtml?pagina=1669|
-        archivedate= 19 September 2009 | deadurl= no}}</ref> Argentines usually refer
-        to the country as a ''''crisol de razas'''' (crucible of races, or [[melting
+        \n| pmc = 1050080\n}}</ref><ref>{{cite web|url=http://www.argentina.gov.ar/argentina/portal/paginas.dhtml?pagina=1669
+        |title=About Argentina |publisher=Government of Argentina |archiveurl=https://web.archive.org/web/20090919230812/http://www.argentina.gov.ar/argentina/portal/paginas.dhtml?pagina=1669
+        |archivedate=19 September 2009 |deadurl=yes |df= }}</ref> Argentines usually
+        refer to the country as a ''''crisol de razas'''' (crucible of races, or [[melting
         pot]]).\n\nBetween 1857 and 1950 Argentina was the country with the second
         biggest immigration wave in the world, with 6.6 million, second only to the
         United States in the numbers of immigrants received (27 million) and ahead
@@ -2056,23 +2065,24 @@ http_interactions:
         Century]].]]\n\n''''[[Pato]]'''' is the [[national sport]],<ref name=pato1>{{cite
         Argentine law|d=17468/1953|date=25 September 1953|bo=17490}}</ref> an ancient
         horseback game locally originated in the early 1600s and predecessor of [[horseball]].{{sfn|Nauright|Parrish|2012|pp=124\u2013125}}<ref
-        name=pato2>{{cite web|url=http://www.en.argentina.ar/_en/sports/C480-pato-argentinas-national-sport.php|title=Pato,
-        Argentina''s national sport|work=Argentina \u2013 Portal p\u00fablico de noticias
-        de la Rep\u00fablica Argentina|publisher=Secretar\u00eda de Medios de Comunicaci\u00f3n
-        \u2013 Presidencia de la Naci\u00f3n|place=Buenos Aires|date=18 November 2008|archiveurl=https://web.archive.org/web/20110706075011/http://www.en.argentina.ar/_en/sports/C480-pato-argentinas-national-sport.php|archivedate=6
-        July 2011|deadurl=no|quote=In 1610, thirty years after [[Buenos Aires]]''
-        second foundation and two hundred years before the [[May Revolution]], a document
-        drafted by the military anthropologist [[F\u00e9lix de Azara]] described a
-        ''''pato'''' sport scene taking place in the city.}}</ref> The most popular
-        sport is [[Association Football|Football]]. Along with [[French national football
-        team|France]], the [[Argentina national football team|men''s national team]]
-        is the only to have won the most important international triplet: [[FIFA World
-        Cup|World Cup]], [[FIFA Confederations Cup|Confederations Cup]], and [[Football
-        at the Summer Olympics|Olympic Gold Medal]]. It has also won 14 [[Copa Am\u00e9rica|Copas
-        Am\u00e9rica]], 6 [[Football at the Pan American Games|Pan American Gold Medals]],
-        and many other trophies.{{sfn|Nauright|Parrish|2012|pp=14\u201323}} [[Alfredo
-        Di St\u00e9fano]], [[Diego Maradona]], and [[Lionel Messi]] are among the
-        best players in the game''s history.{{sfn|Friedman|2007|pp=56, 127}}\n\nThe
+        name=pato2>{{cite web|url=http://www.en.argentina.ar/_en/sports/C480-pato-argentinas-national-sport.php
+        |title=Pato, Argentina''s national sport |work=Argentina \u2013 Portal p\u00fablico
+        de noticias de la Rep\u00fablica Argentina |publisher=Secretar\u00eda de Medios
+        de Comunicaci\u00f3n \u2013 Presidencia de la Naci\u00f3n |place=Buenos Aires
+        |date=18 November 2008 |archiveurl=https://web.archive.org/web/20110706075011/http://www.en.argentina.ar/_en/sports/C480-pato-argentinas-national-sport.php
+        |archivedate= 6 July 2011 |deadurl=yes |quote=In 1610, thirty years after
+        [[Buenos Aires]]'' second foundation and two hundred years before the [[May
+        Revolution]], a document drafted by the military anthropologist [[F\u00e9lix
+        de Azara]] described a ''''pato'''' sport scene taking place in the city.
+        |df= }}</ref> The most popular sport is [[Association Football|Football]].
+        Along with [[French national football team|France]], the [[Argentina national
+        football team|men''s national team]] is the only to have won the most important
+        international triplet: [[FIFA World Cup|World Cup]], [[FIFA Confederations
+        Cup|Confederations Cup]], and [[Football at the Summer Olympics|Olympic Gold
+        Medal]]. It has also won 14 [[Copa Am\u00e9rica|Copas Am\u00e9rica]], 6 [[Football
+        at the Pan American Games|Pan American Gold Medals]], and many other trophies.{{sfn|Nauright|Parrish|2012|pp=14\u201323}}
+        [[Alfredo Di St\u00e9fano]], [[Diego Maradona]], and [[Lionel Messi]] are
+        among the best players in the game''s history.{{sfn|Friedman|2007|pp=56, 127}}\n\nThe
         country''s [[Argentina women''s national field hockey team|women''s field
         hockey team ''''Las Leonas'''']] is one of the world''s most successful, with
         four [[Field hockey at the Summer Olympics|Olympic medals]], two [[Women''s
@@ -2203,15 +2213,16 @@ http_interactions:
         |deadurl=yes |archiveurl=https://web.archive.org/web/20120309220652/http://www.me.gov.ar/efeme/virgendelujan/index.html
         |archivedate=9 March 2012 |df=dmy }}</ref>\n\nThe [[Furnarius rufus|''''hornero'''']],
         living across most of the national territory, was chosen as the [[national
-        bird]] in 1928 after a lower school survey.<ref>{{cite web|url=http://www.redargentina.com/Faunayflora/Aves/hornero.asp|title=El
-        Hornero|publisher=Red Argentina|place=Carlos Casares, Argentina|date=24 September
-        2009|language=Spanish|archiveurl=https://web.archive.org/web/20131113022038/http://www.redargentina.com/Faunayflora/Aves/hornero.asp|archivedate=13
-        November 2013|deadurl=no}}</ref>\nThe [[Erythrina crista-galli|''''ceibo'''']]
-        is the [[national floral emblem]] and [[national tree]],<ref name=natsymb/><ref>{{cite
-        Argentine law|d=138974/1942|date=25 January 1943|bo=14519|p=5}}</ref> while
-        the [[Schinopsis balansae|''''quebracho colorado'''']] is the national forest
-        tree.<ref>{{cite Argentine law|d=15190/1956|date=5 September 1956}}</ref>\n[[Rhodochrosite]]
-        is known as the national gemstone.<ref>{{cite web|url=http://www.ecolo.mrecic.gov.ar/content/piedra-nacional-la-rodocrosita|title=Piedra
+        bird]] in 1928 after a lower school survey.<ref>{{cite web|url=http://www.redargentina.com/Faunayflora/Aves/hornero.asp
+        |title=El Hornero |publisher=Red Argentina |place=Carlos Casares, Argentina
+        |date=24 September 2009 |language=Spanish |archiveurl=https://web.archive.org/web/20131113022038/http://www.redargentina.com/Faunayflora/Aves/hornero.asp
+        |archivedate=13 November 2013 |deadurl=yes |df= }}</ref>\nThe [[Erythrina
+        crista-galli|''''ceibo'''']] is the [[national floral emblem]] and [[national
+        tree]],<ref name=natsymb/><ref>{{cite Argentine law|d=138974/1942|date=25
+        January 1943|bo=14519|p=5}}</ref> while the [[Schinopsis balansae|''''quebracho
+        colorado'''']] is the national forest tree.<ref>{{cite Argentine law|d=15190/1956|date=5
+        September 1956}}</ref>\n[[Rhodochrosite]] is known as the national gemstone.<ref>{{cite
+        web|url=http://www.ecolo.mrecic.gov.ar/content/piedra-nacional-la-rodocrosita|title=Piedra
         nacional: la Rodocrosita|publisher=Embajada de la Rep\u00fablica Argentina
         en la Rep\u00fablica de Colombia|place=Bogot\u00e1|year=2013|language=Spanish|archiveurl=https://web.archive.org/web/20130929050230/http://www.ecolo.mrecic.gov.ar/content/piedra-nacional-la-rodocrosita|archivedate=29
         September 2013|deadurl=no}}</ref>\nThe national sport is ''''[[pato]]'''',
@@ -2235,8 +2246,8 @@ http_interactions:
         documents\n{{refbegin}}\n* {{citation|url=http://www.senado.gov.ar/web/interes/constitucion/english.php
         |title=Constitution of the Argentine Nation |authors=National Constituent
         Convention |place=Santa Fe |date=22 August 1994 |ref={{harvid|Constitution
-        of Argentina}} |deadurl=yes |archiveurl=http://web.archive.org/web/20040509144959/http://www.senado.gov.ar/web/interes/constitucion/english.php
-        |archivedate=9 May 2004 }}\n{{refend}}\n\n;Articles\n{{refbegin|30em}}\n*
+        of Argentina}} |deadurl=yes |archiveurl=https://web.archive.org/web/20040509144959/http://www.senado.gov.ar/web/interes/constitucion/english.php
+        |archivedate= 9 May 2004 |df= }}\n{{refend}}\n\n;Articles\n{{refbegin|30em}}\n*
         {{cite journal|last1=Bolt|first1=Jutta|last2=Van Zanden|first2=Jan Luiten|title=The
         First Update of the Maddison Project; Re-estimating Growth Before 1820|url=http://www.ggdc.net/maddison/maddison-project/data/mpd_2013-01.xlsx|format=XLS|work=Maddison
         Project Working Paper 4|year=2013|ref=harv}}\n* {{cite journal|last1=Colantoni|first1=Laura|last2=Gurlekian|first2=Jorge|title=Convergence
@@ -2437,7 +2448,7 @@ http_interactions:
         states of Mercosur]]\n[[Category:Member states of the Union of South American
         Nations]]\n[[Category:Member states of the United Nations]]\n[[Category:Spanish-speaking
         countries and territories]]\n[[Category:States and territories established
-        in 1816]]\n[[Category:1816 establishments in South America]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-03-26T18:41:28Z","lastrevid":772167780,"length":205193,"fullurl":"https://en.wikipedia.org/wiki/Argentina","editurl":"https://en.wikipedia.org/w/index.php?title=Argentina&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Argentina"}}}}'
+        in 1816]]\n[[Category:1816 establishments in South America]]"}],"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2017-05-11T22:58:50Z","lastrevid":779028847,"length":205921,"fullurl":"https://en.wikipedia.org/wiki/Argentina","editurl":"https://en.wikipedia.org/w/index.php?title=Argentina&action=edit","canonicalurl":"https://en.wikipedia.org/wiki/Argentina","wbentityusage":{"Q414":{"aspects":["S","T","X"]}}}}}}'
     http_version: 
-  recorded_at: Sun, 26 Mar 2017 19:37:57 GMT
+  recorded_at: Sat, 13 May 2017 15:51:08 GMT
 recorded_with: VCR 3.0.3

@@ -6,6 +6,7 @@ require 'webmock/rspec'
 require 'dotenv/load'
 require 'timecop'
 require 'saharspec/its_map'
+require 'saharspec/string_ext'
 
 VCR.configure do |config|
   config.cassette_library_dir = "spec/fixtures/vcr_cassettes"

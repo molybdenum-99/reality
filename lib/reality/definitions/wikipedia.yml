@@ -1,0 +1,59 @@
+- name: long_name
+  path: '//templates[name=Infobox country]/var[name=conventional_long_name]'
+  parser: string
+- name: coord
+  path: '//templates[name=/^Infobox/]/var[name=coordinates]//templates[name=Coord][first]'
+  parser: coord_from_array
+- name: area
+  path: '//templates[name=/^Infobox/]/var[name=area_km2]'
+  parse: measure
+  unit: 'km²'
+# less priorithized variant of the above
+- name: area
+  path: '//templates[name=/^Infobox/]/var[name=area_total_km2]'
+  parse: measure
+  unit: 'km²'
+- name: population
+  path: '//templates[name=/^Infobox/]/var[name=population_total]'
+  parse: measure
+  unit: 'person'
+- name: population
+  path: '//templates[name=/^Infobox/]/var[name=population_census]'
+  parse: measure
+  unit: 'person'
+- name: capital
+  path: '//templates[name=/^Infobox/]/var[name=capital]'
+  parse: wikilink
+- name: album
+  path: '/section[heading=Discography]//unordered_list//wikilink[italic]'
+  parse: wikilink
+- name: gdp_ppp
+  path: '//templates[name=Infobox country]/var[name=GDP_PPP]'
+  parse: measure
+  unit: '$'
+- name: area
+  path: '//templates[name=Infobox continent]/var[name=area]//template[name=convert]/var[name=1]'
+  parse: measure
+  unit: 'km²'
+# simpler variant of above, less priorithized
+- name: area
+  path: '//templates[name=Infobox continent]/var[name=area]'
+  parse: measure
+  unit: 'km²'
+
+
+# Cities
+# TODO: copypaste all possible 'Infobox something' names
+- name: long_name
+  path: '//templates[name=Infobox city]/var[name=name]'
+  parser: string
+
+- name: species
+  path: '//template[name=Infobox character]/var[name=species]//wikilink[first]'
+  parser: wikilink
+- name: affilation
+  path: '//template[name=Infobox character]/var[name=affilactions]//wikilink'
+  parser: wikilink
+- name: portrayer
+  path: '//template[name=Infobox character]/var[name=portrayer]//wikilink'
+  parser: wikilink
