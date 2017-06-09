@@ -3,7 +3,7 @@ module Reality
   module Person
     extend Entity::WikipediaType
 
-    infobox_name 'Infobox person'
+    infobox_name 'Infobox person', 'Infobox person ii'
 
     # Singular artists, like Bjork or David Bowie
     # TODO: should not repeat code from musical artist, but include it from module?
