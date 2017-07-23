@@ -68,11 +68,11 @@ module Reality
       case other
       when Numeric
         self.class.new(amount / other, unit)
-      when self.class
+      when Measure
         un = unit / other.unit
         un.scalar? ?
           amount / other.amount :
-          self.class.new(amount / other.amount, un)
+          Measure[un].new(amount / other.amount)
       else
         fail ArgumentError, "Can't divide by #{other.class}"
       end
