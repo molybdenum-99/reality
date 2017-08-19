@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-#gem 'infoboxer', github: 'molybdenum-99/infoboxer', branch: 'develop'
-gem 'infoboxer', '~> 0.2.8'
+gem 'infoboxer', github: 'molybdenum-99/infoboxer', branch: 'develop'
+#gem 'infoboxer', '~> 0.3.0'
 
 gemspec
 

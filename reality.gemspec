@@ -44,4 +44,6 @@ Gem::Specification.new do |s|
   s.add_dependency 'geo_coord'
   #s.add_dependency 'wikidata-client'
   s.add_dependency 'tlaw'
+  s.add_dependency 'money'
+  s.add_dependency 'tz_offset'
 end
