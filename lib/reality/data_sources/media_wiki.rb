@@ -18,7 +18,7 @@ module Reality
       end
 
       def find(title)
-        # FIXME: `prop` is specific for Wikipedia
+        # FIXME: `prop` is specific for Wikipedia/Wikivoyage
         internal.get(title, prop: :wbentityusage).derp { |page|
           [
             Observation.new(:_source, Link.new(@symbol, title)),
