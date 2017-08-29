@@ -45,7 +45,10 @@ module Reality
               label = members.delete(label_ref['ref'])
               res.merge('label_id' => "node:#{label['id']}").merge(label['tags'])
             elsif admin_centre_ref = rel['members']&.detect { |m| m['role'] == 'admin_centre' }
-              admin_centre = members[admin_centre_ref['ref']]['tags']['name'] == rel['tags']['name'] ? members.delete(admin_centre_ref['ref']) : nil
+              centre = members[admin_centre_ref['ref']]
+              admin_centre = if (centre['tags']['name:en'] || centre['tags']['name']) == (rel['tags']['name:en'] || rel['tags']['name'])
+                members.delete(admin_centre_ref['ref'])
+              end
               if admin_centre
                 res.merge('label_id' => "node:#{admin_centre['id']}").merge(admin_centre['tags'])
               else

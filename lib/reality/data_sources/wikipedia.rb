@@ -135,14 +135,16 @@ module Reality
 
       def parse_coord(vals)
         num = vals.index('E') || vals.index('W') or fail("Unparseable coord #{node.inspect}")
-        vals = vals.first(num + 1).map { |t| t =~ /[SNEW]/ ? t : t.to_i }
+        vals = vals.first(num + 1).map { |t| t =~ /[SNEW]/ ? t : t.to_f }
         names = case vals.count
         when 8
           %i[latd latm lats lath lngd lngm lngs lngh]
         when 6
           %i[latd latm lath lngd lngm lngh]
+        when 4
+          %i[lat lath lng lngh]
         else
-          fail("Unparseable coord #{node.inspect}")
+          fail("Unparseable coord #{vals.inspect}")
         end
         Geo::Coord.new(names.zip(vals).to_h)
       end
