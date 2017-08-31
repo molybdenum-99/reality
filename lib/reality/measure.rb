@@ -34,7 +34,7 @@ module Reality
     end
 
     def <=>(other)
-      check_compatibility!(other)
+      return nil unless compatible?(other)
 
       amount <=> other.amount
     end
@@ -111,9 +111,11 @@ module Reality
     private
 
     def check_compatibility!(other)
-      unless other.kind_of?(self.class) && other.unit == unit
-        fail ArgumentError, "#{self} incompatible with #{other}"
-      end
+      compatible?(other) or fail ArgumentError, "#{self} incompatible with #{other}"
+    end
+
+    def compatible?(other)
+      other.kind_of?(self.class) && other.unit == unit
     end
   end
 end

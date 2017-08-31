@@ -1,56 +1,116 @@
+require 'time'
+
 module Reality
   using Refinements
 
   module DataSources
     class Wikidata
-      SITEMAP = {
-        enwiki: :wikipedia
-      }.freeze
-
-
-      def initialize(predicates = {})
-        @predicates = predicates
+      def initialize
         @api = Impl::Api.new(user_agent: Reality::USER_AGENT)
+        @units = {}
       end
 
-      def predicate(id, name, *)
-        # TODO: custom converters
-        @predicates[id] = name
-      end
-
-      def find(id)
+      def get(title)
         @api
-          .wbgetentities.ids(id).props(:info, :sitelinks, :claims).sitefilter(:enwiki).languages(:en)
-          .response.dig('entities', id) # TODO: what if not found?
-          .derp { |entity|
-            [
-              Observation.new(:_source, Link.new(:wikidata, id)),
-              *entity['claims'].flat_map { |id, claims| claims2observations(id, claims) }
-                .compact
-                .reject { |o| o.value.nil? },
-              *entity['sitelinks']
-                .map { |site, link| Observation.new(:_source, Link.new(SITEMAP.fetch(site.to_sym), link.fetch('title'))) }
-            ]
-          }
+          .wbgetentities.titles(title).sites(:enwiki)
+          .props(:info, :sitelinks, :claims).languages(:en)
+          .response['entities'].values.first
+          .derp(&method(:process_entity))
       end
 
       private
 
-      def claims2observations(id, claims)
-        claims.map { |c| Observation.new(convert_predicate(id), convert_value(c.dig('mainsnak', 'datavalue'))) }
+      def process_entity(entity)
+        [process_basics(entity), process_sitelinks(entity), process_claims(entity)].flatten(1)
       end
 
-      def convert_predicate(id)
-        @predicates.fetch(id.to_sym, "_#{id}".to_sym)
+      def process_basics(entity)
+        %w[id title].map { |key| [key, entity.fetch(key)] }
       end
 
-      def convert_value(val)
-        case val['type']
+      def process_sitelinks(entity)
+        entity['sitelinks'].select { |key, _| key.start_with?('en') }.map { |key, link| ['source', "#<Link[#{key}:#{link['title']}]>"] }
+      end
+
+      def process_claims(entity)
+        property_names = fetch_properties(entity)
+
+        extract_units(entity)
+
+        entity['claims']
+          .flat_map { |id, values| values.map(&method(:parse_value)).compact.map { |v| [property_names.fetch(id), v] } }
+          .sort_by(&:first)
+      end
+
+      def parse_value(snak)
+        datavalue = snak.dig('mainsnak', 'datavalue')
+        value = datavalue['value']
+        # TODO: snack qualifiers:
+        # time
+        case datavalue['type']
         when 'string'
-          val['value']
+          case snak.dig('mainsnak', 'datatype')
+          when 'commonsMedia'
+            "#<Link[commons:#{value}]>"
+          when 'string'
+            value
+          when 'external-id'
+            "#<Id[#{value}]>"
+          when 'url'
+            "#<URL[#{value}]>"
+          else
+            fail("Unknown snak type #{snak}")
+          end
+        when 'wikibase-entityid'
+          "#<Link[#{value['id']}]>"
+        when 'quantity'
+          Measure[unit(value['unit'])].new(value['amount'].to_f)
+        when 'monolingualtext'
+          value['language'] == 'en' ? value['text'] : nil
+        when 'globecoordinate'
+          # TODO: has globe, check Mars
+          Geo::Coord.new(value['latitude'], value['longitude'])
+        when 'time'
+          # TODO: has timezone, calendar and other stuff
+          begin
+            Time.parse(value['time'])
+          rescue ArgumentError
+            # TODO: period: "+1552-00-00T00:00:00Z"
+            value['time']
+          end
         else
-          #fail ArgumentError, "Unprocessabel type: #{val['type']}"
-        end
+          fail("Unknown datavalue type #{datavalue}")
+        end.tap { |v| p snak if v == 'Cs-Japonsko.ogg' }
+      end
+
+      def unit(url)
+        url == '1' and return 'item' # TODO: Measure[nil].new(1) #=> 1
+        id = url.scan(%r{entity/(Q.+)}).flatten.first or fail("Unparseable unit #{url}")
+        @units.fetch(id).gsub(/[^a-z0-9]/i, '_')
+      end
+
+      def extract_units(entity)
+        # TODO: friendly synonyms; cache of well-knowns
+        ids = entity['claims'].values.flatten.map { |c| c.dig('mainsnak', 'datavalue', 'value', 'unit') rescue nil }
+          .compact.uniq.reject { |u| u == '1'}
+          .map { |u| u.scan(%r{entity/(Q.+)}).flatten.first or fail("Unparseable unit #{u}") }
+
+        return if ids.empty?
+        @api
+          .wbgetentities
+          .ids(*(ids - @units.keys)).props(:labels).languages(:en)
+          .response['entities'].map { |k,v| [k, v.dig('labels', 'en', 'value')]}.to_h
+          .derp(&@units.method(:update))
+      end
+
+      def fetch_properties(entity)
+        entity['claims'].keys.each_slice(50).map { |ids|
+          @api
+            .wbgetentities
+            .ids(*ids).props(:labels).languages(:en)
+            .response['entities']
+        }.reduce(:merge)
+        .map { |k,v| [k, v.dig('labels', 'en', 'value')]}.to_h
       end
     end
   end
