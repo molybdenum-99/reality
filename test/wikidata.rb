@@ -10,7 +10,6 @@ source = Reality::DataSources::Wikidata.new
 titles.each do |t|
   puts "#{t}\n" + "="*t.length + "\n"
 
-  observations = source.get(t)
-  #pp observations['claims'].select { |k, v| v.count > 1 }.map{|k,v| [k, v.count]}.to_h
+  observations = t =~ /^Q\d+$/ ? source.id(t) : source.get(t)
   observations.each { |name, val| puts '%s: %p' % [name, val] }
 end

@@ -10,6 +10,14 @@ module Reality
         @units = {}
       end
 
+      def id(i)
+        @api
+          .wbgetentities.ids(i).sites(:enwiki)
+          .props(:info, :sitelinks, :claims).languages(:en)
+          .response['entities'].values.first
+          .derp(&method(:process_entity))
+      end
+
       def get(title)
         @api
           .wbgetentities.titles(title).sites(:enwiki)
@@ -49,6 +57,7 @@ module Reality
         # time
         case datavalue['type']
         when 'string'
+          # TODO: find list of all types!!!
           case snak.dig('mainsnak', 'datatype')
           when 'commonsMedia'
             "#<Link[commons:#{value}]>"
@@ -58,6 +67,8 @@ module Reality
             "#<Id[#{value}]>"
           when 'url'
             "#<URL[#{value}]>"
+          when 'math'
+            "#<Math[#{value}]>"
           else
             fail("Unknown snak type #{snak}")
           end

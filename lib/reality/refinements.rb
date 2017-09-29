@@ -5,6 +5,8 @@ module Reality
       def derp
         yield self
       end
+
+      alias m method
     end
 
     refine Hash do
