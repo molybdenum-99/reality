@@ -21,7 +21,7 @@ module Reality
   # call any of them by name, like `argentina.capital`.
   #
   # Or you can create not loaded entities with just {#initialize} (it
-  # may be useful when you want to further batch-load several of them 
+  # may be useful when you want to further batch-load several of them
   # through {List#load!}).
   #
   class Entity
@@ -174,7 +174,7 @@ module Reality
       if @wikidata_id
         @wikidata = Wikidata::Entity.one_by_id(@wikidata_id)
         if @wikidata && @wikidata.en_wikipage
-          @wikipage = Infoboxer.wikipedia.get(@wikidata.en_wikipage)
+          @wikipage = Infoboxer.wikipedia.get(@wikidata.en_wikipage.tr('_', ' '))
         end
       else
         @wikipage = Infoboxer.wikipedia.get(name)
@@ -210,7 +210,7 @@ module Reality
     #
     # * loads itself if it was not loaded;
     # * returns one of {values} by method name.
-    # 
+    #
     # Note, that even if there's no value with required key, `method_missing`
     # will return `nil` (and not through `NoMethodError` as someone may
     # expect). That's because even supposedly homogenous entities may have different
@@ -221,7 +221,7 @@ module Reality
     def method_missing(sym, *arg, **opts, &block)
       if arg.empty? && opts.empty? && !block && sym !~ /[=?!]/ &&
         !UNSUPPORTED_METHODS.include?(sym)
-        
+
         load! unless loaded?
 
         # now some new method COULD emerge while loading
@@ -277,7 +277,7 @@ module Reality
     # # :gdp_ppp=>{:amount=>964279000000.0, :unit=>"$"},
     # # :population=>{:amount=>43417000.0, :unit=>"person"},
     # # :head_of_government=>
-    # #   {:name=>"Mauricio Macri", 
+    # #   {:name=>"Mauricio Macri",
     # #   :birthday=>"1959-02-08",
     # #   ....},
     # # :country=>"Argentina",
@@ -299,7 +299,7 @@ module Reality
     # # :coord=>{:lat=>-34.0, :lng=>-64.0},
     # # :official_website=>"http://www.argentina.gob.ar/",
     # # :gdp_nominal=>{:amount=>537659972702.0, :unit=>"$"}}
-    # # 
+    # #
     # ```
     #
     # @return [Hash]

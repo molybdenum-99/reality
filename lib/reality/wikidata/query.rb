@@ -3,7 +3,7 @@ module Reality
     module Query
       PREFIX = %Q{
         PREFIX wikibase: <http://wikiba.se/ontology#>
-        PREFIX wd: <http://www.wikidata.org/entity/> 
+        PREFIX wd: <http://www.wikidata.org/entity/>
         PREFIX wdt: <http://www.wikidata.org/prop/direct/>
         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         PREFIX p: <http://www.wikidata.org/prop/>
@@ -36,7 +36,7 @@ module Reality
 
       QUERY = %Q{
         #{PREFIX}
-        
+
         SELECT ?s ?p ?o ?oLabel  WHERE {
           %{selectors} .
           #{PREDICATES} .
@@ -58,7 +58,8 @@ module Reality
 
       def by_wikititle(*titles)
         fetch(:en_wikipage, titles.
-          map{|t| SELECTORS[:wikipedia] % {title: URI.escape(t, UNSAFE)}}
+          map{|t| SELECTORS[:wikipedia] % {title: t.tr(' ', '_')}}
+          #map{|t| SELECTORS[:wikipedia] % {title: URI.escape(t, UNSAFE)}}
         )
       end
 
@@ -82,7 +83,7 @@ module Reality
           }.flatten(1).
           group_by(&key).
           # of several entities with same label, we always prefer first-by-id
-          map{|key, group| group.sort_by(&:id_i).first}. 
+          map{|key, group| group.sort_by(&:id_i).first}.
           map{|entity| [entity.send(key), entity]}.to_h
       end
 
