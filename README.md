@@ -6,7 +6,7 @@ Reality
 [![Join the chat at https://gitter.im/molybdenum-99/reality](https://badges.gitter.im/molybdenum-99/reality.svg)](https://gitter.im/molybdenum-99/reality?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 **Reality** is your quick access point to almost any entity existing in
-real world (and described in Wikipedia). Its goal is to make the world
+the real world (and described in Wikipedia). Its goal is to make the world
 inspectable and computable.
 
 ## Table Of Contents
@@ -14,8 +14,8 @@ inspectable and computable.
 * [Showcase](#showcase)
 * [Is it real? Is it really working?.. But how?](#is-it-real-is-it-really-working-but-how)
 * [Why/when do I need this?..](#whywhen-do-i-need-this)
-* [Uhm, ok. How to use it?](#uhm-ok-how-to-use-it)
-  * [...from your code](#from-your-code)
+* [Uhm, ok. How do I use it?](#uhm-ok-how-do-i-use-it)
+  * [...from code](#from-code)
   * [...from command-line](#from-command-line)
   * [...from interactive console](#from-interactive-console)
 * [Good. What next?..](#good-what-next)
@@ -81,30 +81,30 @@ end
 
 ## Is it real? Is it really working?.. But how?
 
-Yes. Every example you can see above is working. And many other things
-are working. And almost _any_ thing which Wikipedia knows about, can be
-loaded through **Reality**, and somehow inspected and used and navigated
-to next entities and measured and ...
+Yes. Every example you see above is working. And many other things
+are working. And almost _any_ thing which Wikipedia knows about can be
+loaded through **Reality**, somehow inspected, and used, and navigated
+to additional entities, and measured, and ...
 
-Read more at ["How it works"](https://github.com/molybdenum-99/reality/wiki/How-it-works)
+Read more at the ["How it works"](https://github.com/molybdenum-99/reality/wiki/How-it-works)
 page in our wiki. It's complicated, yet quite interesting.
 
 ## Why/when do I need this?..
 
 * Demos and experiments;
-* Enrichement of existing data;
+* Enrichment of existing data;
 * Teaching Ruby and data processing on realistic data...
 
 ...and [more](https://github.com/molybdenum-99/reality/wiki/Applications).
 
-## Uhm, ok. How to use it?
+## Uhm, ok. How do I use it?
 
-First, install the gem as usual (it is on rubygems, and named "reality"),
+First, install the gem as usual (it is on rubygems, named "reality"),
 using Gemfile/`bundle install` or `gem install reality`.
 
 Now, you can use it...
 
-### ...from your code
+### ...from code
 
 ```ruby
 require 'reality'
@@ -124,7 +124,7 @@ p list.map(&:published_at)
 ```
 
 Start from [Getting started](https://github.com/molybdenum-99/reality/wiki/Getting-started)
-in our wiki and move along the pointers!
+in our wiki and follow along with the pointers!
 
 ### ...from command-line
 
@@ -151,12 +151,12 @@ $ reality Beatles albums first
 Please Please Me
 ```
 
-See [wikipage](https://github.com/molybdenum-99/reality/wiki/Command-line-usage)
+See the [wikipage](https://github.com/molybdenum-99/reality/wiki/Command-line-usage)
 for details.
 
 ### ...from interactive console
 
-The `reality -i` command opens interactive console, allowing you to
+The `reality -i` command opens an interactive console, allowing you to
 investigate Reality's features immediately. It also provides many useful
 shortcuts for less typing:
 
@@ -176,57 +176,57 @@ and feel free to experiment!
 
 ## Good. What next?..
 
-Reality currently in, let's say "working prototype" state. Many things
-work and useful, many others are subject to change/improve. Near and
-not-so-near plans looks like this (order is vague):
+Reality is currently in, let's say, a "working prototype" state. Many things
+work and are useful, but many others are subject to change/improvement. Near and
+not-so-near plans looks like this (the order is arbitrary):
 
 * more definitions of useful Wikidata/Wikipedia properties and types,
   cleanup and re-checking of existing ones;
 * more external datasources ([OpenStreetMap](http://www.openstreetmap.org/)
-  one of first candidates) and more info from already included ones;
+  being one of the first candidates) and more info from already included ones;
 * more maturity: cleaner code, more tests, docs, config policy....
 * powerful and flexible data caching (if you run "study all world capitals"
-  script 10 times, or want to do a quick presentation of topic to students,
-  you'll be happy that previously quiried data are already on disk);
-* large demo-scripts set, maybe in independent repository;
-* separation of largely independent parts to another gems and libraries.
+  script 10 times, or want to do a quick presentation of a topic to students,
+  you'll be happy that previously queried data are already on the disk);
+* large demo-scripts set, maybe in an independent repository;
+* separation of largely independent parts to other gems and libraries.
 
 ## Docs
 
-* [Our wiki](https://github.com/molybdenum-99/reality/wiki) have pretty
-  comprehensive docs now, from Tutorial to some advanced topics;
+* [Our wiki](https://github.com/molybdenum-99/reality/wiki) has pretty
+  comprehensive docs now, from a tutorial to some advanced topics;
 * [YARD docs](http://www.rubydoc.info/gems/reality) are mostly written
-  and contain explanations, examples and definitions.
+  and contain explanations, examples, and definitions.
 
 ## Want to help?
 
 Great!
 
 **Reality** will be glad to accept your issues and pull requests.
-Currently, it would be great if somebody lay their hands on:
+Currently, it would be great if somebody laid their hands on:
 
 * thoroughly define more and more Wikidata predicates (and enchance system
-  for predicates definition: consider aliases, plural/singular properties
+  for predicates definition: consider aliases, plural/singular properties,
   and so on);
 * investigate and define more Wikipedia types (kinds of infoboxes) and
   enchance existing ones;
 * connect more external services and integrate them into Reality (for
-  example, geocoding: via OpenStreetMap guess city from coordinates
+  example, geocoding: via OpenStreetMap, guess city from coordinates
   **and** make this city a `Reality::Entity`);
-* play with Reality and share your experiences and examples and problems
+* play with Reality and share your experiences, examples, problems,
   and cool demos!
 
-[Contributing](https://github.com/molybdenum-99/reality/wiki/Contributing)
-page in wiki explains some things a bit deeper.
+The [Contributing](https://github.com/molybdenum-99/reality/wiki/Contributing)
+page in the wiki explains some things a bit more deeply.
 
 ## Compatibility
 
-Ruby 2+ is a must (we love refinements, keywords arguments and other
-cool stuff). JRuby & Rubinius compatibility was not checked still, help
+Ruby 2+ is a must (we love refinements, keywords arguments, and other
+cool stuff). JRuby & Rubinius compatibility has not been checked yet, so help
 would be appreciated here!
 
-Note that there could be a problem with SSL sertificates while connecting
-to Wikipedia API. _TODO: explain the problem and point to recipes._
+Note that there could be a problem with SSL certificates while connecting
+to the Wikipedia API. _TODO: explain the problem and point to recipes._
   
 ## Credits
 
@@ -235,10 +235,10 @@ to Wikipedia API. _TODO: explain the problem and point to recipes._
 * [Valentino Stoll](http://www.awesomevibe.com/) [@codenamev](https://github.com/codenamev);
 * [Several great contributors](https://github.com/molybdenum-99/reality/graphs/contributors).
 
-Development of first version was sponsored by
+Development of the first version was sponsored by
 [2015 Ruby Association Grant](http://www.ruby.or.jp/en/news/20160406.html).
 
-Initial idea is inspired by "integrated data" of
+Initial idea was inspired by the "integrated data" of
 [Wolfram Language](http://reference.wolfram.com/language/).
 
 ## License
