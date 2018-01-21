@@ -32,6 +32,7 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = '>= 2.1.0'
 
+  s.add_dependency 'backports', '~> 3.11'
   #s.add_dependency 'infoboxer', '>= 0.2.4'
   #s.add_dependency 'hashie'
   s.add_dependency 'open-weather'
@@ -41,9 +42,9 @@ Gem::Specification.new do |s|
   s.add_dependency 'tzinfo'
   s.add_dependency 'ruby-sun-times'
   s.add_dependency 'time_boots'
-  s.add_dependency 'geo_coord'
-  #s.add_dependency 'wikidata-client'
+  #s.add_dependency 'geo_coord'
   s.add_dependency 'tlaw'
   s.add_dependency 'money'
   s.add_dependency 'tz_offset'
+  s.add_dependency 'memoist'
 end

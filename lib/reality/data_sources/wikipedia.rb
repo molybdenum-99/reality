@@ -3,55 +3,79 @@ require 'money'
 require 'tz_offset'
 
 module Reality
-  using Refinements
+  #using Refinements
 
   module DataSources
     class Wikipedia
+      extend Memoist
+
       def get(title)
-        internal.get(title).derp(&method(:parse_infobox))
+        internal.get(title).yield_self(&method(:parse_infobox))
+      end
+
+      memoize def log
+        Logger.new(STDOUT)
       end
 
       private
 
-      def internal
-        @internal ||= Infoboxer.wp
+      memoize def internal
+        Infoboxer.wp
       end
 
       def parse_infobox(page)
         infobox = page.templates(name: /(^infobox|box$)/i).reject { |i| i.name.end_with?('image') }.first
-        [[:infobox, infobox.name]] + infobox.variables.flat_map(&method(:infobox_variable))
+        [['meta.infobox_name', infobox.name]] +
+          infobox.variables.flat_map(&method(:infobox_variable))
+          .compact
+          .yield_self(&method(:convolve))
       end
 
       def infobox_variable(var)
         return if var.name =~ /(footnote|_ref$|_note$)/
         return parse_infobox(var) if var.name == 'module'
 
-        @v = var.name
-        [process_value(var.children)].flatten
+        [process_value(var.children)].flatten(1)
+          .reject(&method(:empty_value?))
           .flat_map { |val| postprocess_value(var.name, val) }
           .compact
-          .map { |val| [var.name.downcase.gsub(/[^a-z_0-9]/, '_'), val] }
+          .map { |val| [var.name, val] }
+      end
+
+      def empty_value?(val)
+        val.nil? || val.respond_to?(:empty?) && val.empty?
+      end
+
+      ValueOrText = Struct.new(:value, :text) do
+        def empty?
+          text.empty?
+        end
+
+        def to_s
+          text
+        end
       end
 
       def process_value(nodes)
         nodes = cleanup(nodes)
-        #p nodes.to_a if @v == 'government_type'
         if nodes.count == 1
-          process_singular(nodes.first)
+          ValueOrText.new(process_singular(nodes.first), nodes.first.text)
         elsif nodes.all?(&method(:textual?))
           text = nodes.text.strip
           return text unless text.include?("\n")
           lines = text.split("\n").map(&:strip).reject(&:empty?)
-          if lines.all? { |l| l =~ /^\s*\d+(\.\d+)?\s*%\s*(.+)$/ }
-            lines.map { |l| l.scan(/^\s*(\d+(?:\.\d+)?)\s*%\s*(.+)$/).flatten }
-              .map { |pct, title| [title, pct.to_f] }
-              .to_h
-          else
-            lines
-          end
+          try_parce_percents(lines) || lines
         else
+          log.debug "Unparseable value: #{nodes.to_tree}"
           '???'
         end
+      end
+
+      def try_parce_percents(lines)
+        return unless lines.all? { |l| l =~ /^\s*\d+(\.\d+)?\s*%\s*(.+)$/ }
+        lines.map { |l| l.scan(/^\s*(\d+(?:\.\d+)?)\s*%\s*(.+)$/).flatten }
+          .map { |pct, title| [title, pct.to_f] }
+          .to_h
       end
 
       def self.sel(*arg, &block)
@@ -64,6 +88,7 @@ module Reality
         sel(:Template, name: 'lower'),
         sel(:Template, name: 'smallsup'),
         sel(:HTMLTag, tag: 'sup'),
+        sel(:HTMLTag, tag: 'small'),
         sel(:Template, name: /^(decrease|increase)$/i),
         sel(:Template, name: 'RP'),
         sel(:Template, name: /^efn/i),
@@ -96,7 +121,7 @@ module Reality
 
       def textual?(node)
         case node
-        when sel(:Text), sel(:Wikilink), sel(:HTMLTag, tag: /^w?br/)
+        when sel(:Text), sel(:Wikilink), sel(:HTMLTag, tag: /^w?br/), sel(:ExternalLink)
           true
         else
           false
@@ -128,7 +153,12 @@ module Reality
           Measure[unit].new(val.to_i)
         when sel(:ExternalLink)
           node.link
+        when sel(:Template, name: 'url')
+          "http://#{node.variables.text}"
+        when sel(:Template, name: /^flag(country)?$/)
+          "#<Link[#{node.variables.text}]>"
         else
+          log.debug "Unparseable singular: #{node.to_tree}"
           '?'
         end
       end
@@ -195,38 +225,21 @@ module Reality
       end
 
       def postprocess_value(name, value)
-        if name.end_with?('_km2') && !name.end_with?('density_km2')
-          return Measure['km²'].new(value.gsub(',', '').to_i)
-        end
+        return value.map { |v| postprocess_value(name, v) } if value.is_a?(Array)
+        return value unless value.is_a?(String) || value.is_a?(ValueOrText)
 
-        if name.end_with?('_m')
-          return Measure['m'].new(value.to_i)
-        end
+        guess = try_guess_by_name(name, value) and return guess
+        str = value.is_a?(ValueOrText) ? value.value : value.strip
 
-        if name.start_with?('utc_offset')
-          if value.include?('/')
-            return value.split(%r{\s*/\s*}).map(&TZOffset.method(:parse))
-              .derp { |offsets| offsets.any?(&:nil?) ? value :offsets }
-          else
-            return TZOffset.parse(value) || value
-          end
-        end
-
-        if name.end_with?('_rank') && !value.empty?
-          return value.to_i
-        end
-
-        case value
-        when '', []
-          nil
+        case str
         when /^\d{1,2}[[:space:]]+(\w+)[[:space:]]+\d{4}([[:space:]]+BCE)?$/, /^(\w+)[[:space:]]+\d{1,2},[[:space:]]+\d{4}([[:space:]]+BCE)?$/
-          Date.parse(value).inspect
+          Date.parse(str).inspect
         when /^\d+$/
-          value.to_i
+          str.to_i
         when /^\d+\.\d+$/
-          value.to_f
+          str.to_f
         when /^\d{1,3},(\d{3},)*\d{3}$/
-          value.gsub(',', '').to_i
+          str.gsub(',', '').to_i
         when /^\$(\d{1,3},(\d{3},)*\d{3})$/
           val = Regexp.last_match[1].gsub(',', '').to_i
           Measure['$'].new(val)
@@ -234,13 +247,96 @@ module Reality
           num, scale = Regexp.last_match[:num], Regexp.last_match[:scale]
           val = (num.gsub(',', '').to_f * fetch_scale(scale)).to_i
           Measure['$'].new(val)
-        when String
-          value.strip
-        when Array
-          value.map { |v| postprocess_value(name, v) }
         else
-          value
+          value # returning entire ValueOrText, if it is present!
+        end.yield_self { |val| try_make_measure(name, val) }
+      end
+
+      def try_guess_by_name(name, val)
+        value = val.to_s
+        case name
+        when /^utc_offset/
+          if value.include?('/')
+            value.split(%r{\s*/\s*}).map(&TZOffset.method(:parse))
+              .yield_self { |offsets| offsets.any?(&:nil?) ? value : offsets }
+          else
+            TZOffset.parse(value) || value
+          end
+        when /_rank$/
+          value =~ /^\d/ ? value.to_i : value
         end
+      end
+
+      def try_make_measure(name, val)
+        return val unless val.is_a?(Numeric)
+        case name
+        when /^population_density_(.*)km2$/
+          'people/km²'
+        when /^population_(?!density|as_of)/
+          'people'
+        when /(?<!density)_km2$/
+          'km²'
+        when /_m$/
+          'm'
+        end.yield_self { |unit| unit ? Measure[unit].new(val) : val }
+      end
+
+      CONVOLUTIONS = [
+        [/^blank(?<number>\d+)?_name(?<section>_sec\d+)?$/, 'blank%{number}_info%{section}'],
+        [/^(?<name>.+)_type(?<number>\d+)?$/, '%{name}_name%{number}'],
+        [/^(?<name>.+)_title(?<number>\d+)?$/, '%{name}_name%{number}'],
+        [/^(?<name>.+)_title(?<number>\d+)?$/, '%{name}_date%{number}'],
+        [/^(?<prefix>.+)_blank(?<number>\d+)?_title$/, '%{prefix}_blank%{number}'],
+        [/^(?<name>.+)_type(?<number>\d+)?$/, '%{name}%{number}'],
+      ]
+
+      def convolve(pairs)
+        extract_convolved(pairs)
+          .map { |name, val| [nameify(name), unpack(val)] }
+      end
+
+      def extract_convolved(pairs)
+        remove = []
+        replace = {}
+        pairs.each_with_index do |(name, value), i|
+          CONVOLUTIONS
+            .select { |name_pat, val_pat| name.match(name_pat) }
+            .each do |name_pat, val_pat|
+              match = match_hash(name, name_pat)
+              val_name = val_pat % match
+              val_candidates = pairs.select { |name, _| name == val_name }
+              next if val_candidates.empty?
+              result_name = [match['prefix'], value.to_s].compact.join('_')
+              log.debug "Convolving #{name} with #{val_name} to #{result_name} (#{val_candidates.count} values)"
+
+              remove << val_name
+              replace[name] = val_candidates.map { |_, val| [result_name, val] }
+              break
+            end
+        end
+        pairs.map { |name, value|
+          if remove.include?(name)
+            []
+          elsif replace.key?(name)
+            replace[name]
+          else
+            [[name, value]]
+          end
+        }.flatten(1)
+      end
+
+      def match_hash(str, pattern)
+        m = str.match(pattern) or return nil
+        m.names.map(&:to_sym).zip(m.captures).to_h
+      end
+
+      def unpack(val)
+        val.is_a?(ValueOrText) ? val.value : val
+      end
+
+      def nameify(name)
+        # TODO: "mayor and head of city administration" → [mayor, head of city adm]
+        name.downcase.gsub(/\([^)]+\)/, '').gsub(/[^a-z_0-9]/, '_').sub(/(^_+|_+$)/, '')
       end
 
       # See "Short scale": https://en.wikipedia.org/wiki/Long_and_short_scales#Comparison

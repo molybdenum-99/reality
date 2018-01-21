@@ -1,4 +1,7 @@
 require 'yaml'
+require 'pp'
+require 'backports/2.5.0/kernel'
+require 'memoist'
 require 'geo/coord'
 
 # Reality is library for accessing all world data, starting from Wikipedia.
