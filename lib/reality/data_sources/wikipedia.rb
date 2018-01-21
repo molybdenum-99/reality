@@ -134,7 +134,9 @@ module Reality
       end
 
       def parse_coord(vals)
-        num = vals.index('E') || vals.index('W') or fail("Unparseable coord #{node.inspect}")
+        vals = vals.grep_v(/:/)
+        num = vals.count == 2 ? 2 :
+          vals.index('E') || vals.index('W') or fail("Unparseable coord #{vals.inspect}")
         vals = vals.first(num + 1).map { |t| t =~ /[SNEW]/ ? t : t.to_f }
         names = case vals.count
         when 8
@@ -143,6 +145,8 @@ module Reality
           %i[latd latm lath lngd lngm lngh]
         when 4
           %i[lat lath lng lngh]
+        when 2
+          %i[lat lng]
         else
           fail("Unparseable coord #{vals.inspect}")
         end

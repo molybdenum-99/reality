@@ -42,7 +42,7 @@ module Reality
           on_template(page, :iata, name: 'IATA') { |t| t .unnamed_variables.first.children.text },
           on_template(page, :is_part_of, name: 'IsPartOf') { |t| '#<Link[' + t.unnamed_variables.first.children.text + ']>' },
           on_template(page, :quality, name: QUALITIES) { |t| t.name.scan(QUALITIES).flatten.first },
-          on_template(page, :climate, name: 'climate', &method(:parse_climate)),
+          *on_template(page, :climate, name: 'climate', merge: true, &method(:parse_climate)),
           on_template(page, :route, name: 'routebox', &method(:parse_routes)),
           on_template(page, :region, name: 'regionlist', &method(:parse_regions)),
           on_template(page, :currency, name: 'exchange rates', &method(:parse_currency))
@@ -50,20 +50,26 @@ module Reality
       end
 
       def on_template(page, symbol, *selectors, &block)
+        merge = selectors.last.is_a?(Hash) ? selectors.last.delete(:merge) : false
         tpl = page.templates(*selectors).first or return nil
-        [symbol, block.call(tpl)]
+        if merge
+          block.call(tpl)
+        else
+          [symbol, block.call(tpl)]
+        end
       end
 
       MONTHES = Date::ABBR_MONTHNAMES.compact.map(&:downcase).freeze
 
       def parse_climate(template)
         MONTHES.map { |m|
-          {
-            "temperature.high.#{m}": Measure.new(template.fetch("#{m}high").text.to_f, '°C'),
-            "temperature.low.#{m}": Measure.new(template.fetch("#{m}low").text.to_f, '°C'),
-            "precipation.#{m}": Measure.new(template.fetch("#{m}precip").text.to_f, 'mm'),
-          }
-        }.inject(&:merge)
+          ["climate.#{m}",
+            {
+              temperature: Measure.new(template.fetch("#{m}low").text.to_f, '°C')..Measure.new(template.fetch("#{m}high").text.to_f, '°C'),
+              precipation: Measure.new(template.fetch("#{m}precip").text.to_f, 'mm'),
+            }
+          ]
+        }
       end
 
       ROSE = {
