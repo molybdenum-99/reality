@@ -20,7 +20,7 @@ module Reality
   end
 
   # basic functionality
-  require_ %w[version refinements config measure tz_offset]
+  require_ %w[version refinements config measure tz_offset date]
   require_ %w[util/parsers util/formatters]
 
   # engines

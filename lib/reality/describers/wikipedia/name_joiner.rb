@@ -8,11 +8,15 @@ module Reality
 
         CONVOLUTIONS = [
           [/^blank(?<number>\d+)?_name(?<section>_sec\d+)?$/, 'blank%{number}_info%{section}'],
-          [/^(?<name>.+)_type(?<number>\d+)?$/, '%{name}_name%{number}'],
-          [/^(?<name>.+)_title(?<number>\d+)?$/, '%{name}_name%{number}'],
-          [/^(?<name>.+)_title(?<number>\d+)?$/, '%{name}_date%{number}'],
-          [/^(?<prefix>.+)_blank(?<number>\d+)?_title$/, '%{prefix}_blank%{number}'],
-          [/^(?<name>.+)_type(?<number>\d+)?$/, '%{name}%{number}'],
+          [/^(?<name>\D+)_type(?<number>\d+)?$/, '%{name}_name%{number}'],
+          [/^(?<name>\D+)_title(?<number>\d+)?$/, '%{name}_name%{number}'],
+          [/^(?<prefix>\D+)(?<number1>\d+)?_title(?<number2>\d+)?$/, '%{prefix}%{number1}_info%{number2}'],
+          [/^(?<prefix>\D+)_blank(?<number>\d+)?_title$/, '%{prefix}_blank%{number}'],
+          [/^(?<prefix>\D+)_blank(?<number>\d+)?_title$/, '%{prefix}_blank%{number}_km2'],
+          [/^(?<name>\D+)_type(?<number>\d+)?$/, '%{name}%{number}'],
+          # Provides too uniq "variables", like Unification of Buda, Pest and Óbuda: #<Reality::Date 1873-11-17>
+          # better have something like established: <event: foo @ time: bar>
+          # [/^(?<name>\D+)_title(?<number>\d+)?$/, '%{name}_date%{number}'],
         ]
 
         def call(vars)

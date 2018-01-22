@@ -105,7 +105,7 @@ module Reality
     end
 
     def inspect
-      "#<Reality::Measure(%s%s)>" % [Util::Format.number(amount), unit]
+      "#<Reality::Measure %s %s>" % [Util::Format.number(amount), unit]
     end
 
     private

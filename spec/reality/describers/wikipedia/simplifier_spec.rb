@@ -55,4 +55,12 @@ RSpec.describe Reality::Describers::Wikipedia::Simplifier do
     |* three
     |}}
   })) { is_expected.to ret parse('one<br/>two<br/>three') }
+  its_call(multiline(%{
+    |{{unbulleted list
+    ||titlestyle = background:transparent;text-align:left;font-weight:normal;
+    || 84.8% [[Bulgarians]]
+    || 8.8% [[Turks in Bulgaria|Turks]]
+    || 4.9% [[Roma in Bulgaria|Roma]]
+    || 1.5% others}}
+  })) { is_expected.to ret parse(' 84.8% [[Bulgarians]]<br/> 8.8% [[Turks in Bulgaria|Turks]]<br/> 4.9% [[Roma in Bulgaria|Roma]]<br/> 1.5% others') }
 end

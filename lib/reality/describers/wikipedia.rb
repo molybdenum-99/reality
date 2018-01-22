@@ -8,20 +8,22 @@ module Reality
       private
 
       def parse_page(page)
-        parse_infobox(page)
+        parse_infoboxes(page)
       end
 
       AUX_VARIABLES = /(footnote|_ref$|_note$)/
 
-      def parse_infobox(page)
-        infobox = page.templates(name: /(^infobox|box$)/i).reject { |i| i.name.end_with?('image') }.first
-        return unless infobox
-
-        [['meta.infobox_name', infobox.name]] +
-          infobox.named_variables.flat_map(&method(:infobox_variable))
-            .compact
-            .yield_self(&NameJoiner.method(:call))
-            .map { |name, var| [name, var.value] }
+      def parse_infoboxes(page)
+        # TODO: if there are several infoboxes, prefix variables
+        page.templates(name: /(^infobox|box$)/i)
+          .reject { |i| i.name.end_with?('image') || !i.in_sections.empty? }
+          .flat_map { |infobox|
+            [['meta.infobox_name', infobox.name]] +
+              infobox.named_variables.flat_map(&method(:infobox_variable))
+                .compact
+                .yield_self(&NameJoiner.method(:call))
+                .map { |name, var| [name, var.value] }
+          }
       end
 
       def infobox_variable(var)
@@ -30,7 +32,7 @@ module Reality
         # return parse_infobox(var) if var.name == 'module'
 
         Simplifier.call(var.children)
-          .tap { |res| p res if var.name == 'followed_by' }
+          .tap { |res| p res if var.name == '______' }
           .yield_self(&method(:split_lines))
           .map { |nodes| Nodes.new(nodes, label: var.name) }
       end

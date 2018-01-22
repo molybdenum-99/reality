@@ -16,7 +16,8 @@ module Reality
         WRAPPERS = [
           W(:Italic),
           W(:Bold),
-          W(:BoldItalic)
+          W(:BoldItalic),
+          W(:Paragraph)
         ].freeze
 
         WRAP_TEMPLATES = [
@@ -39,7 +40,7 @@ module Reality
           W(:HTMLTag, tag: 'small'),
           W(:Template, name: /^(decrease|increase)$/i),
           W(:Template, name: 'RP'),
-          W(:Template, name: /^(ref|efn)/i),
+          W(:Template, name: /^(ref|efn|sfn)/i),
         ].freeze
 
         # TODO: replace

@@ -16,6 +16,8 @@ module Reality
             string.tr('−', '-').to_f
           when /^\d{1,3},(\d{3},)*\d{3}$/
             string.gsub(',', '').to_i
+          when /^\d{1,3},(\d{3},)*\d{3}.\d+$/
+            string.gsub(',', '').to_f
           when /^\$(\d{1,3},(\d{3},)*\d{3})$/
             val = Regexp.last_match[1].gsub(',', '').to_i
             Measure['$'].new(val)
@@ -25,6 +27,8 @@ module Reality
             Measure['$'].new(val)
           when /^(\d+)[[:space:]]+min(utes)?$/
             Measure['min'].new(Regexp.last_match[1].to_i)
+          when /^(\d+)[[:space:]]+sec(onds)?$/
+            Measure['sec'].new(Regexp.last_match[1].to_i)
           else
             string
           end.yield_self { |val| try_make_measure(label, val) }
@@ -43,6 +47,9 @@ module Reality
             end
           when /_rank$/
             string.to_i if string =~ /^\d+(\w{2})$/
+          when /_magnitude$/
+            m = string.match(/^(\d+) E(\d+)$/) or return
+            m[1].to_i * 10**m[2].to_i
           end
         end
 
