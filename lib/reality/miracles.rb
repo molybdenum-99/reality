@@ -20,7 +20,7 @@ module Reality
 
       def nameify(name)
         # TODO: Something(s) => somethings
-        name.downcase.gsub(/\([^)]+\)/, '').gsub(/[^a-z_0-9]/, '_').sub(/(^_+|_+$)/, '')
+        name.downcase.gsub(/\([^)]+\)/, '').gsub(/[^a-z_0-9]/, '_').sub(/(^_+|_+$)/, '').to_sym
       end
     end
 
@@ -32,7 +32,8 @@ module Reality
       end
 
       def respond_to_missing?(name, *)
-        entity.respond_to_missing?(name)
+        p ["HER!", name]
+        entity.respond_to?(name)
       end
 
       private
