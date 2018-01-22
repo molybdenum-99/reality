@@ -24,8 +24,8 @@ module Reality
         type, id = id.split(':')
         query = type == 'rel' ? QUERY_REL % {osm_id: id} : QUERY_NODE % {osm_id: id}
         faraday.get('', data: query).body
-          .derp(&JSON.method(:parse))['elements']
-          .derp { |els| parse_relation(els.last, els[0..-2]) }
+          .yield_self(&JSON.method(:parse))['elements']
+          .yield_self { |els| parse_relation(els.last, els[0..-2]) }
       end
 
       private
@@ -40,7 +40,7 @@ module Reality
           .map { |m| [m['id'], m] }.to_h
         {'id' => rel['id']}
           .merge(rel['tags'])
-          .derp { |res|
+          .yield_self { |res|
             if label_ref = rel['members']&.detect { |m| m['role'] == 'label' }
               label = members.delete(label_ref['ref'])
               res.merge('label_id' => "node:#{label['id']}").merge(label['tags'])
@@ -59,10 +59,10 @@ module Reality
             end
           }
           .merge(
-            rel['members']&.derp { |rel_members|
+            rel['members']&.yield_self { |rel_members|
               rel_members
               .group_by { |m| m['role'] }
-              .map { |role, ms| [role, ms.map { |m| members[m['ref']] }.compact.derp(&method(:group_members))] }
+              .map { |role, ms| [role, ms.map { |m| members[m['ref']] }.compact.yield_self(&method(:group_members))] }
               .reject { |role, ms| ms.empty? }
               .sort_by(&:first)
               .to_h
