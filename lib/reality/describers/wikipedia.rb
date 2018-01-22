@@ -7,8 +7,13 @@ module Reality
 
       private
 
+      def descriptor
+        :wikipedia
+      end
+
       def parse_page(page)
         parse_infoboxes(page)
+          .map { |label, value| obs(page.title, label, value) }
       end
 
       AUX_VARIABLES = /(footnote|_ref$|_note$)/
@@ -46,3 +51,6 @@ module Reality
 end
 
 %w[simplifier parsers name_joiner templates nodes].each { |f| require_relative "wikipedia/#{f}" }
+
+# FIXME: :philosoraptor:
+Reality.describers[:wikipedia] = Reality::Describers::Wikipedia.new

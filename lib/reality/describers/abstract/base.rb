@@ -6,7 +6,7 @@ module Reality
 
         def get(id)
           # we assume that child was good and returned observations about only one entity, basically
-          observations_for(id) #.yield_self(&method(:make_entities)).first
+          observations_for(id).yield_self(&method(:make_entities)).first
         end
 
         memoize def log
@@ -27,8 +27,8 @@ module Reality
         # Internal helpers
 
         def make_entities(observations)
-          observations.group_by(&:entity_id).map { |(source, entity_id), group|
-            Entity.new(source, entity_id, group)
+          observations.group_by(&:entity_id).map { |entity_id, group|
+            Entity.new(group)
           }
         end
 

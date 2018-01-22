@@ -32,6 +32,9 @@ module Reality
   #require_ %w[definitions/*]
   #require_ %w[methods names]
 
+  # particular describers
+  require_ %w[describers describers/abstract/base describers/abstract/media_wiki describers/wikipedia]
+
   #include Methods
   #extend Methods
 

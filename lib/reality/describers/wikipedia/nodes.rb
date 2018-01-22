@@ -50,7 +50,7 @@ module Reality
         end
 
         def link(title)
-          "#<Link(#{title})>"
+          Link.new(:wikipedia, title)
         end
       end
     end

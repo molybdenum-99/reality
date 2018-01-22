@@ -1,6 +1,8 @@
 module Reality
   module Miracles
     module EntityMethods
+      extend Memoist
+
       def method_missing(name, *arg, &block)
         super if !arg.empty? && block.nil? && _symbolic_names.key?(name)
         _symbolic_names.fetch(name)
@@ -23,6 +25,8 @@ module Reality
     end
 
     module LinkMethods
+      extend Memoist
+
       def method_missing(name, *arg, &block)
         entity.method_missing(name, *arg, &block)
       end

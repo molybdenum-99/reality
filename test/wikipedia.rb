@@ -13,8 +13,9 @@ source = Reality::Describers::Wikipedia.new
 source.log.level = Logger::DEBUG
 
 titles.each do |t|
-  observations = source.get(t)
+  entity = source.get(t)
 
   puts "#{t}\n" + "="*t.length + "\n"
-  observations.compact.each { |name, val| puts '%s: %p' % [name, val] }
+  #observations.each(&method(:puts))
+  puts entity.describe
 end

@@ -1,23 +1,29 @@
 module Reality
   class Observation
-    attr_reader :name, :value, :time
+    attr_reader :entity_id, :label, :value, :time, :source
 
-    def initialize(name, value, time: nil)
-      @name = name
+    def initialize(entity_id, label, value, source:, time: nil)
+      @entity_id = entity_id
+      @label = label
       @value = value
       @time = time
+      @source = source
     end
 
     def inspect
       if timed?
-        '#<%s %s=%s (%s)>' % [self.class.name, name, value, time.strftime('%Y-%m-%d at %H:%M:%S')]
+        '#<%s(%s) %s=%s (%s)>' % [self.class.name, source, label, value, time.strftime('%Y-%m-%d at %H:%M:%S')]
       else
-        '#<%s %s=%s>' % [self.class.name, name, value]
+        '#<%s(%s) %s=%s>' % [self.class.name, source, label, value]
       end
     end
 
+    def to_s
+      '%s=%p' % [label, value]
+    end
+
     def ==(other)
-      other.is_a?(Observation) && name == other.name && value == other.value &&
+      other.is_a?(Observation) && label == other.label && value == other.value &&
         time == other.time
     end
 

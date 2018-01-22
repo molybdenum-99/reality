@@ -2,6 +2,8 @@ module Reality
   using Refinements
 
   class Entity
+    extend Memoist
+
     attr_reader :observations
 
     class << self
@@ -18,22 +20,22 @@ module Reality
       @observations = observations.compact
     end
 
-    def [](name)
-      @observations.select { |o| o.name == name }
+    def [](label)
+      @observations.select { |o| o.label == label }
     end
 
-    def sources
-      self[:_source].map(&:value)
+    memoize def links
+      observations.map { |o| Link.new(o.source, o.entity_id) }.uniq
     end
 
     def inspect
-      "#<Reality::Entity #{sources.join(', ')}>"
+      "#<Reality::Entity #{links.join(', ')}>"
     end
 
     def describe
       [
         inspect,
-        *inspect_observations(observations.reject { |o| o.name.to_s.start_with?('_') })
+        *inspect_observations(observations)
       ].join("\n")
     end
 
@@ -53,8 +55,8 @@ module Reality
     private
 
     def inspect_observations(obs)
-      name_length = obs.map(&:name).map(&:length).max + 1
-      obs.map { |o| "#{o.name.to_s.rjust(name_length)}: #{o.value}" }
+      label_length = obs.map(&:label).map(&:length).max + 1
+      obs.map { |o| "#{o.label.to_s.rjust(label_length)}: #{o.value}" }
     end
   end
 end
