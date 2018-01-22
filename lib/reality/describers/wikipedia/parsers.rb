@@ -12,8 +12,8 @@ module Reality
             Date.parse(string)
           when /^\d+$/
             string.to_i
-          when /^\d+\.\d+$/
-            string.to_f
+          when /^[−-]?\d+\.\d+$/
+            string.tr('−', '-').to_f
           when /^\d{1,3},(\d{3},)*\d{3}$/
             string.gsub(',', '').to_i
           when /^\$(\d{1,3},(\d{3},)*\d{3})$/
@@ -23,6 +23,8 @@ module Reality
             num, scale = Regexp.last_match[:num], Regexp.last_match[:scale]
             val = (num.gsub(',', '').to_f * fetch_scale(scale)).to_i
             Measure['$'].new(val)
+          when /^(\d+)[[:space:]]+min(utes)?$/
+            Measure['min'].new(Regexp.last_match[1].to_i)
           else
             string
           end.yield_self { |val| try_make_measure(label, val) }

@@ -6,7 +6,7 @@ module Reality
 
         def get(id)
           # we assume that child was good and returned observations about only one entity, basically
-          observations_for(id).yield_self(&method(:make_entities)).first
+          observations_for(id) #.yield_self(&method(:make_entities)).first
         end
 
         memoize def log

@@ -18,6 +18,7 @@ RSpec.describe Reality::Describers::Wikipedia::Parsers do
     its_call('10', 'population_density_km2') { is_expected.to ret Measure['people/km²'].new(10) }
     its_call('10', 'population_total') { is_expected.to ret Measure['people'].new(10) }
     its_call('$104 billion') { is_expected.to ret Measure['$'].new(104_000_000_000) }
+    its_call('−4.2', 'elevation_min_m') { is_expected.to ret Measure['m'].new(-4.2) }
 
     # TODO:
     # its_call('74% Russians') { is_expected.to ret WHAT }

@@ -24,6 +24,7 @@ RSpec.describe Reality::Describers::Wikipedia::Simplifier do
   its_call("{{native name|uk|Україна|italics=off}}<br />''{{small|Ukrayina}}''") {
     is_expected.to ret parse('{{native name|uk|Україна|italics=off}}')
   }
+  its_call("''[[Serenity (film)|Serenity]]'' (film)") { is_expected.to ret parse('[[Serenity (film)|Serenity]]') }
   its_call(multiline(%{
     |
     |* one
@@ -46,4 +47,12 @@ RSpec.describe Reality::Describers::Wikipedia::Simplifier do
     |  | {{nowrap|4.9% others/unspecified}}
     | }}
   })) { is_expected.to ret parse(' 77.8% [[Ukrainians]]<br/> 17.3% [[Russians in Ukraine|Russians]]<br/>4.9% others/unspecified') }
+
+  its_call(multiline(%{
+    |{{plainlist||
+    |* ''one''
+    |* two
+    |* three
+    |}}
+  })) { is_expected.to ret parse('one<br/>two<br/>three') }
 end

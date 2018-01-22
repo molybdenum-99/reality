@@ -17,5 +17,11 @@ module Reality
         }
       end
     end
+
+    refine MatchData do
+      def to_h
+        names.map(&:to_sym).zip(captures).to_h
+      end
+    end
   end
 end

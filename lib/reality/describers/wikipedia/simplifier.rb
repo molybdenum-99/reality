@@ -10,6 +10,7 @@ module Reality
           nodes.flat_map(&method(:unwrap))
             .yield_self(&method(:remove_aux))
             .yield_self(&method(:strip))
+            .yield_self(&method(:remove_parens)) # FIXME: does that only once, should for each row
         end
 
         WRAPPERS = [
@@ -20,7 +21,8 @@ module Reality
 
         WRAP_TEMPLATES = [
           W(:Template, name: 'nowrap'),
-          W(:Template, name: 'nobold')
+          W(:Template, name: 'nobold'),
+          W(:Template, name: 'Formatnum')
         ].freeze
 
         LIST_TEMPLATES = [
@@ -46,6 +48,8 @@ module Reality
           W(:Template, name: '\\') => Infoboxer::Tree::Text.new('/'),
         }.freeze
 
+        BR = Infoboxer::Tree::HTMLTag.new('br', {})
+
         def unwrap(node)
           if WRAPPERS.any? { |wrap| wrap === node }
             node.children.flat_map(&method(:unwrap))
@@ -53,11 +57,15 @@ module Reality
             node.unnamed_variables.first.children.flat_map(&method(:unwrap))
           elsif W(:List) === node
             node.children.map(&:children)
-              .yield_self { |items| ajoin(items, Infoboxer::Tree::HTMLTag.new('br', {})) }
+              .yield_self { |items| ajoin(items, BR) }
               .flat_map(&method(:unwrap))
+          elsif W(:Template, name: /^(plain ?list|flatlist)$/i) === node # Infoboxer can't help here
+            *before, list = node.unnamed_variables.first.children
+            before[0] = Infoboxer::Tree::Text.new(before[0].text.sub(/^\* /, ''))
+            [*before.flat_map(&method(:unwrap)), BR, *unwrap(list)]
           elsif LIST_TEMPLATES.any? { |list| list === node }
             node.unnamed_variables.map(&:children).map(&method(:strip))
-              .yield_self { |items| ajoin(items, Infoboxer::Tree::HTMLTag.new('br', {})) }
+              .yield_self { |items| ajoin(items, BR) }
               .flat_map(&method(:unwrap))
           else
             node
@@ -76,6 +84,12 @@ module Reality
           nodes
         end
 
+        def remove_parens(nodes)
+          nodes = nodes.dup
+          nodes.pop if W(:Text, text: /^[[:space:]]*\([^)]*\)[[:space:]]*$/) === nodes.last
+          nodes
+        end
+
         def blank_node?(node)
           # TODO: W() | W() in infoboxer
           W(:Text, text: /^[[:space:]]*$/) === node ||
@@ -83,6 +97,7 @@ module Reality
         end
 
         def ajoin(arrays, splitter)
+          return arrays.first || [] if arrays.size < 2
           arrays[0..-2].map { |a| [*a, splitter] }.flatten(1) + arrays[-1]
         end
       end

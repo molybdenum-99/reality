@@ -3,11 +3,13 @@
 require 'bundler/setup'
 $LOAD_PATH.unshift 'lib'
 require 'reality'
-require 'reality/data_sources/wikipedia'
+require 'reality/describers/abstract/base'
+require 'reality/describers/abstract/media_wiki'
+require 'reality/describers/wikipedia'
 
 titles = ARGV.dup
 
-source = Reality::DataSources::Wikipedia.new
+source = Reality::Describers::Wikipedia.new
 source.log.level = Logger::DEBUG
 
 titles.each do |t|

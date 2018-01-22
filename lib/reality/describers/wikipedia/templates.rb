@@ -6,8 +6,8 @@ module Reality
 
         COORD_ATTRS = {
           8 => %i[latd latm lats lath lngd lngm lngs lngh],
-          6 => %i[latd latm lath lngd lngm lngh]
-          4 => %i[lat lath lng lngh]
+          6 => %i[latd latm lath lngd lngm lngh],
+          4 => %i[lat lath lng lngh],
           2 => %i[lat lng]
         }.freeze
 
@@ -23,6 +23,15 @@ module Reality
 
         def date(template)
           Date.new(*template.unnamed_variables.map(&:text).first(3).map(&:to_i))
+        end
+
+        def convert(template)
+          # {{convert|249200000|km|mi AU....
+          num, unit = template.unnamed_variables.first(2).map(&:text)
+          # {{convert|3389.5|±|0.2|km|mi|....
+          unit = template.unnamed_variables[3].text if unit == '±'
+          unit.sub!(/2$/, '²')
+          Measure[unit].new(num.to_f)
         end
       end
     end
