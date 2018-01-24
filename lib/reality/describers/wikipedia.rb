@@ -7,13 +7,13 @@ module Reality
 
       private
 
-      def descriptor
-        :wikipedia
+      def prefix
+        'wikipedia:en'
       end
 
       def parse_page(page)
         parse_infoboxes(page)
-          .map { |label, value| obs(page.title, label, value) }
+          .map { |params| obs(page.title, *params) }
       end
 
       AUX_VARIABLES = /(footnote|_ref$|_note$)/
@@ -24,10 +24,7 @@ module Reality
           .reject { |i| i.name.end_with?('image') || !i.in_sections.empty? }
           .flat_map { |infobox|
             [['meta.infobox_name', infobox.name]] +
-              infobox.named_variables.flat_map(&method(:infobox_variable))
-                .compact
-                .yield_self(&NameJoiner.method(:call))
-                .map { |name, var| [name, var.value] }
+              infobox.named_variables.map(&method(:infobox_variable)).compact
           }
       end
 
@@ -37,9 +34,12 @@ module Reality
         # return parse_infobox(var) if var.name == 'module'
 
         Simplifier.call(var.children)
-          .tap { |res| p res if var.name == '______' }
           .yield_self(&method(:split_lines))
-          .map { |nodes| Nodes.new(nodes, label: var.name) }
+          .map { |nodes| Parsers.nodes(nodes, var.name) }
+          .yield_self { |values|
+            return if values.none?
+            [var.name, values.one? ? values.first : values, source: var]
+          }
       end
 
       def split_lines(nodes)
@@ -50,7 +50,7 @@ module Reality
   end
 end
 
-%w[simplifier parsers name_joiner templates nodes].each { |f| require_relative "wikipedia/#{f}" }
+%w[simplifier templates parsers name_joiner nodes].each { |f| require_relative "wikipedia/#{f}" }
 
 # FIXME: :philosoraptor:
 Reality.describers[:wikipedia] = Reality::Describers::Wikipedia.new

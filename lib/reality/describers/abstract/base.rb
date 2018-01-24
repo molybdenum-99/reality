@@ -27,17 +27,13 @@ module Reality
         # Internal helpers
 
         def make_entities(observations)
-          observations.group_by(&:entity_id).map { |entity_id, group|
+          observations.group_by(&:entity_uri).map { |_, group|
             Entity.new(group)
           }
         end
 
-        def obs(entity_id, name, value, time: nil)
-          Observation.new(entity_id, name, value, time: time, source: descriptor)
-        end
-
-        def link(entity_id, source = nil)
-          Link.new(source || descriptor, entity_id)
+        def obs(entity_id, name, value, source: nil, time: nil)
+          Observation.new([prefix, entity_id].join(':'), name, value, time: time, source: source)
         end
       end
     end

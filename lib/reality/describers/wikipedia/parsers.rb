@@ -2,7 +2,31 @@ module Reality
   module Describers
     class Wikipedia
       module Parsers
+        extend Infoboxer::Navigation::Helpers
+
         module_function
+
+        SINGULAR_PARSERS = {
+          W(:Wikilink) => ->(n) { Link.new('wikipedia:en', n.link) },
+          W(:ExternalLink) => :link,
+
+          W(:Template, name: /^coord$/i) => Templates.method(:coord),
+          W(:Template, name: /^(start|birth|end) date/i) => Templates.method(:date),
+          W(:Template, name: 'convert') => Templates.method(:convert),
+          W(:Template, name: 'url') => ->(n) { "http://#{n.variables.text}" },
+          W(:Template, name: /^flag(country)?$/) => ->(n) { Link.new('wikipedia:en', n.variables.text) },
+          W(:Template, name: /^[A-Z]{3}$/) => :name # Country ISO code, probably
+        }
+
+        def nodes(nds, label = nil)
+          val = nds.one? ? singular_node(nds.first) : nds.text
+          val.is_a?(String) ? text(val, label) : val
+        end
+
+        def singular_node(node)
+          _, parser = SINGULAR_PARSERS.detect { |sel, _| sel === node }
+          parser&.to_proc&.call(node) || node.text_
+        end
 
         def text(string, label = nil)
           by_label = text_by_label(string, label) and return by_label

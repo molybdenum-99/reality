@@ -24,12 +24,12 @@ module Reality
       @observations.select { |o| o.label == label }
     end
 
-    memoize def links
-      observations.map { |o| Link.new(o.source, o.entity_id) }.uniq
+    memoize def uris
+      observations.map(&:entity_uri).uniq
     end
 
     def inspect
-      "#<Reality::Entity #{links.join(', ')}>"
+      "#<Reality::Entity #{uris.join(', ')}>"
     end
 
     def describe
@@ -55,8 +55,9 @@ module Reality
     private
 
     def inspect_observations(obs)
-      label_length = obs.map(&:label).map(&:length).max + 1
-      obs.map { |o| "#{o.label.to_s.rjust(label_length)}: #{o.value}" }
+      var_length = obs.map(&:variable).map(&:length).max + 1
+      pattern = "%#{var_length}s: %s"
+      obs.map { |o| pattern % [o.variable, o.value] }
     end
   end
 end

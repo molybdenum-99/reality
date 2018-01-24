@@ -13,7 +13,7 @@ group :docs do
 end
 
 group :development do
-  gem 'progress_bar', github: 'zverok/progress_bar'
+  #gem 'progress_bar', github: 'zverok/progress_bar'
   gem 'saharspec', github: 'zverok/saharspec'
 
   gem 'nokogiri'

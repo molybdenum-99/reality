@@ -14,7 +14,7 @@ module Reality
           [/^(?<prefix>\D+)_blank(?<number>\d+)?_title$/, '%{prefix}_blank%{number}'],
           [/^(?<prefix>\D+)_blank(?<number>\d+)?_title$/, '%{prefix}_blank%{number}_km2'],
           [/^(?<name>\D+)_type(?<number>\d+)?$/, '%{name}%{number}'],
-          # Provides too uniq "variables", like Unification of Buda, Pest and Óbuda: #<Reality::Date 1873-11-17>
+          # Provides too uniq "variables", like "Unification of Buda, Pest and Óbuda": #<Reality::Date 1873-11-17>
           # better have something like established: <event: foo @ time: bar>
           # [/^(?<name>\D+)_title(?<number>\d+)?$/, '%{name}_date%{number}'],
         ]
