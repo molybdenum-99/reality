@@ -7,10 +7,14 @@ module Reality
         REQUEST_PARAMS = []
 
         def observations_for(title)
-          parse_page(internal.get(title, *self.class::REQUEST_PARAMS))
+          parse_page(internal.get(title, &method(:setup_request)))
         end
 
         private
+
+        def setup_request(req)
+          req
+        end
 
         memoize def internal
           Infoboxer::MediaWiki.new(self.class::API_URL)

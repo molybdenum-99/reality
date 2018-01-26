@@ -7,11 +7,11 @@ module Reality
         module_function
 
         SINGULAR_PARSERS = {
-          W(:Wikilink) => ->(n) { Link.new('wikipedia:en', n.link) },
+          W(:Wikilink) => ->(n) { Link.new('wikipedia:en', n.link, title: n.text) },
           W(:ExternalLink) => :link,
 
           W(:Template, name: /^coord$/i) => Templates.method(:coord),
-          W(:Template, name: /^(start|birth|end) date/i) => Templates.method(:date),
+          W(:Template, name: /^(start|birth|end|film) date/i) => Templates.method(:date),
           W(:Template, name: 'convert') => Templates.method(:convert),
           W(:Template, name: 'url') => ->(n) { "http://#{n.variables.text}" },
           W(:Template, name: /^flag(country)?$/) => ->(n) { Link.new('wikipedia:en', n.variables.text) },

@@ -1,18 +1,27 @@
 module Reality
   class Link
-    attr_reader :source, :id
+    attr_reader :source, :id, :title
 
-    def initialize(source, id)
+    def initialize(source, id, title: nil)
       @source = source
       @id = id
+      @title = title || id
     end
 
     def inspect
-      '#<%s %s:%s>' % [self.class, source, id]
+      if title && title != id
+        '#<%s %s:%s "%s">' % [self.class, source, id, title]
+      else
+        '#<%s %s:%s>' % [self.class, source, id]
+      end
     end
 
     def to_s
-      '<%s:%s>' % [source, id]
+      if title && title != id
+        '<%s:[%s] %s>' % [source, id, title]
+      else
+        '<%s:%s>' % [source, id]
+      end
     end
 
     def ==(other)

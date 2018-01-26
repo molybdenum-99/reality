@@ -11,9 +11,23 @@ module Reality
         'wikipedia:en'
       end
 
+      def setup_request(request)
+        request.prop(:pageimages).prop(:thumbnail, :original)
+      end
+
       def parse_page(page)
-        parse_infoboxes(page)
+        (parse_meta(page) +
+        parse_infoboxes(page))
           .map { |params| obs(page.title, *params) }
+      end
+
+      def parse_meta(page)
+        [
+          ['meta.title', page.title],
+          ['meta.url', page.url],
+          ['meta.image', page.source.dig('original', 'source')],
+          ['meta.thumb', page.source.dig('thumbnail', 'source')],
+        ].select(&:last)
       end
 
       AUX_VARIABLES = /(footnote|_ref$|_note$)/
@@ -21,9 +35,9 @@ module Reality
       def parse_infoboxes(page)
         # TODO: if there are several infoboxes, prefix variables
         page.templates(name: /(^infobox|box$)/i)
-          .reject { |i| i.name.end_with?('image') || !i.in_sections.empty? }
+          .reject { |i| i.name.match(/(^Color | image$)/i) || !i.in_sections.empty? }
           .flat_map { |infobox|
-            [['meta.infobox_name', infobox.name]] +
+            [['infobox_name', infobox.name]] +
               infobox.named_variables.map(&method(:infobox_variable)).compact
           }
       end

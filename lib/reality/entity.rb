@@ -57,7 +57,7 @@ module Reality
     def inspect_observations(obs)
       var_length = obs.map(&:variable).map(&:length).max + 1
       pattern = "%#{var_length}s: %s"
-      obs.map { |o| pattern % [o.variable, o.value] }
+      obs.map { |o| pattern % [o.variable, Array(o.value).join(', ')] }
     end
   end
 end

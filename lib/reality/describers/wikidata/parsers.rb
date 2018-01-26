@@ -16,7 +16,7 @@ module Reality
           when 'string'
             string_snak(value, snak.dig('mainsnak', 'datatype'))
           when 'wikibase-entityid'
-            Link.new('wikidata', value['id'])
+            Link.new('wikidata', value['id'], title: cache[value['id']])
           when 'quantity'
             Measure[fetch_unit(value['unit'], cache)].new(value['amount'].to_f)
           when 'monolingualtext'
