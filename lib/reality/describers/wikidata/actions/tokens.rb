@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module Reality::DataSources::Wikidata::Impl
+module Reality::Describers::Wikidata::Impl
   module Actions
     # Get tokens for data-modifying actions.
     #
@@ -13,11 +13,11 @@ module Reality::DataSources::Wikidata::Impl
     # ```
     #
     # See {Base} for generic explanation of working with MediaWiki actions and
-    # {Reality::DataSources::Wikidata::Impl::Response} for working with action responses.
+    # {Reality::Describers::Wikidata::Impl::Response} for working with action responses.
     #
     # All action's parameters are documented as its public methods, see below.
     #
-    class Tokens < Reality::DataSources::Wikidata::Impl::Actions::Get
+    class Tokens < Reality::Describers::Wikidata::Impl::Actions::Get
 
       # Types of token to request.
       #

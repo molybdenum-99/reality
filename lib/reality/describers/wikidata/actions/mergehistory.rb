@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module Reality::DataSources::Wikidata::Impl
+module Reality::Describers::Wikidata::Impl
   module Actions
     # Merge page histories.
     #
@@ -13,11 +13,11 @@ module Reality::DataSources::Wikidata::Impl
     # ```
     #
     # See {Base} for generic explanation of working with MediaWiki actions and
-    # {Reality::DataSources::Wikidata::Impl::Response} for working with action responses.
+    # {Reality::Describers::Wikidata::Impl::Response} for working with action responses.
     #
     # All action's parameters are documented as its public methods, see below.
     #
-    class Mergehistory < Reality::DataSources::Wikidata::Impl::Actions::Post
+    class Mergehistory < Reality::Describers::Wikidata::Impl::Actions::Post
 
       # Title of the page from which history will be merged. Cannot be used together with fromid.
       #

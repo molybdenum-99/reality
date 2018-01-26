@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module Reality::DataSources::Wikidata::Impl
+module Reality::Describers::Wikidata::Impl
   module Actions
     # Creates Wikibase claims.
     #
@@ -13,11 +13,11 @@ module Reality::DataSources::Wikidata::Impl
     # ```
     #
     # See {Base} for generic explanation of working with MediaWiki actions and
-    # {Reality::DataSources::Wikidata::Impl::Response} for working with action responses.
+    # {Reality::Describers::Wikidata::Impl::Response} for working with action responses.
     #
     # All action's parameters are documented as its public methods, see below.
     #
-    class Wbcreateclaim < Reality::DataSources::Wikidata::Impl::Actions::Post
+    class Wbcreateclaim < Reality::Describers::Wikidata::Impl::Actions::Post
 
       # ID of the entity the claim is being added to
       #

@@ -4,7 +4,7 @@ require 'addressable'
 require 'faraday'
 require 'faraday_middleware'
 
-module Reality::DataSources::Wikidata::Impl
+module Reality::Describers::Wikidata::Impl
   # Internal low-level client class, used by {Api}.
   #
   # Uses [Faraday](https://github.com/lostisland/faraday) library inside (and will expose it's settings
@@ -32,12 +32,12 @@ module Reality::DataSources::Wikidata::Impl
     def initialize(url, **options)
       @url = Addressable::URI.parse(url)
       @options = options
-      @faraday = Faraday.new(url) do |f|
+      @faraday = Faraday.new(url, headers: headers) do |f|
         f.request :url_encoded
         f.use FaradayMiddleware::FollowRedirects, limit: 5
+        f.use FaradayMiddleware::Gzip
         f.adapter Faraday.default_adapter
       end
-      @faraday.headers.merge!(headers)
     end
 
     def user_agent
@@ -55,7 +55,7 @@ module Reality::DataSources::Wikidata::Impl
     private
 
     def headers
-      {'User-Agent' => user_agent}
+      {'Accept-Encoding' => 'gzip', 'User-Agent' => user_agent}
     end
   end
 end

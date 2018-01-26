@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module Reality::DataSources::Wikidata::Impl
+module Reality::Describers::Wikidata::Impl
   module Actions
     # Parses content and returns parser output.
     #
@@ -13,11 +13,11 @@ module Reality::DataSources::Wikidata::Impl
     # ```
     #
     # See {Base} for generic explanation of working with MediaWiki actions and
-    # {Reality::DataSources::Wikidata::Impl::Response} for working with action responses.
+    # {Reality::Describers::Wikidata::Impl::Response} for working with action responses.
     #
     # All action's parameters are documented as its public methods, see below.
     #
-    class Parse < Reality::DataSources::Wikidata::Impl::Actions::Get
+    class Parse < Reality::Describers::Wikidata::Impl::Actions::Get
 
       # Title of page the text belongs to. If omitted, contentmodel must be specified, and API will be used as the title.
       #

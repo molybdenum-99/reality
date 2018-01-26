@@ -20,8 +20,8 @@ module Reality
       @observations = observations.compact
     end
 
-    def [](label)
-      @observations.select { |o| o.label == label }
+    def [](variable)
+      @observations.select { |o| o.variable == variable }
     end
 
     memoize def uris

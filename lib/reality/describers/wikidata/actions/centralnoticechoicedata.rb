@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module Reality::DataSources::Wikidata::Impl
+module Reality::Describers::Wikidata::Impl
   module Actions
     # Get data needed to choose a banner for a given project and language
     #
@@ -13,11 +13,11 @@ module Reality::DataSources::Wikidata::Impl
     # ```
     #
     # See {Base} for generic explanation of working with MediaWiki actions and
-    # {Reality::DataSources::Wikidata::Impl::Response} for working with action responses.
+    # {Reality::Describers::Wikidata::Impl::Response} for working with action responses.
     #
     # All action's parameters are documented as its public methods, see below.
     #
-    class Centralnoticechoicedata < Reality::DataSources::Wikidata::Impl::Actions::Get
+    class Centralnoticechoicedata < Reality::Describers::Wikidata::Impl::Actions::Get
 
       # The project to get banner choice data for.
       #

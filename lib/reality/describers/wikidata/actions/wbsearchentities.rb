@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module Reality::DataSources::Wikidata::Impl
+module Reality::Describers::Wikidata::Impl
   module Actions
     # Searches for entities using labels and aliases. Returns a label and description for the entity in the user language if possible. Returns details of the matched term. The matched term text is also present in the aliases key if different from the display label.
     #
@@ -13,11 +13,11 @@ module Reality::DataSources::Wikidata::Impl
     # ```
     #
     # See {Base} for generic explanation of working with MediaWiki actions and
-    # {Reality::DataSources::Wikidata::Impl::Response} for working with action responses.
+    # {Reality::Describers::Wikidata::Impl::Response} for working with action responses.
     #
     # All action's parameters are documented as its public methods, see below.
     #
-    class Wbsearchentities < Reality::DataSources::Wikidata::Impl::Actions::Get
+    class Wbsearchentities < Reality::Describers::Wikidata::Impl::Actions::Get
 
       # Search for this text.
       #

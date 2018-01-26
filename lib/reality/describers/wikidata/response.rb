@@ -2,7 +2,7 @@
 
 require 'json'
 
-module Reality::DataSources::Wikidata::Impl
+module Reality::Describers::Wikidata::Impl
   # Thin wrapper around MediaWiki API response.
   #
   # It provides services for separating metadata of response of its essential data, continuing multi-

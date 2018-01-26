@@ -10,23 +10,23 @@ require_relative './actions'
 # It also can be used for access to any other MediaWiki site, but some of actions could be
 # non-existent/outdated.
 #
-# See {Reality::DataSources::Wikidata::Impl::Api} for usage.
+# See {Reality::Describers::Wikidata::Impl::Api} for usage.
 #
-module Reality::DataSources::Wikidata::Impl
+module Reality::Describers::Wikidata::Impl
   # Base API class for [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page).
   #
   # Example of usage:
   #
   # ```ruby
   # # For Wikidata
-  # api = Reality::DataSources::Wikidata::Impl::Api.new
+  # api = Reality::Describers::Wikidata::Impl::Api.new
   # api.some_action.some_param(value).other_param(*more_values).perform
   # # => returns raw response of MediaWiki API
   # api.some_action.some_param(value).other_param(*more_values).response
   # # => returns an instance of Response, parsed from JSON
   #
   # # For any other site:
-  # api = Reality::DataSources::Wikidata::Impl::Api.new('https://some.site/w/api.php')
+  # api = Reality::Describers::Wikidata::Impl::Api.new('https://some.site/w/api.php')
   # # ...the same as above
   # ```
   #
@@ -75,6 +75,6 @@ module Reality::DataSources::Wikidata::Impl
       "#<#{self.class.name}(#{@client.url})>"
     end
 
-    include Reality::DataSources::Wikidata::Impl::Actions
+    include Reality::Describers::Wikidata::Impl::Actions
   end
 end

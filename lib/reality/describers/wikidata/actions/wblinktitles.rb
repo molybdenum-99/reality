@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module Reality::DataSources::Wikidata::Impl
+module Reality::Describers::Wikidata::Impl
   module Actions
     # Associates two articles on two different wikis with a Wikibase item.
     #
@@ -13,11 +13,11 @@ module Reality::DataSources::Wikidata::Impl
     # ```
     #
     # See {Base} for generic explanation of working with MediaWiki actions and
-    # {Reality::DataSources::Wikidata::Impl::Response} for working with action responses.
+    # {Reality::Describers::Wikidata::Impl::Response} for working with action responses.
     #
     # All action's parameters are documented as its public methods, see below.
     #
-    class Wblinktitles < Reality::DataSources::Wikidata::Impl::Actions::Post
+    class Wblinktitles < Reality::Describers::Wikidata::Impl::Actions::Post
 
       # An identifier for the site on which the page resides. Use together with totitle to make a complete sitelink.
       #

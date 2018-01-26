@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module Reality::DataSources::Wikidata::Impl
+module Reality::Describers::Wikidata::Impl
   module Actions
     # Log out and clear session data.
     #
@@ -15,11 +15,11 @@ module Reality::DataSources::Wikidata::Impl
     # This action has no parameters.
     #
     # See {Base} for generic explanation of working with MediaWiki actions and
-    # {Reality::DataSources::Wikidata::Impl::Response} for working with action responses.
+    # {Reality::Describers::Wikidata::Impl::Response} for working with action responses.
     #
     # All action's parameters are documented as its public methods, see below.
     #
-    class Logout < Reality::DataSources::Wikidata::Impl::Actions::Get
+    class Logout < Reality::Describers::Wikidata::Impl::Actions::Get
     end
   end
 end

@@ -1,11 +1,11 @@
 # frozen_string_literal: true
 
-module Reality::DataSources::Wikidata::Impl
+module Reality::Describers::Wikidata::Impl
   module Modules
     # Find all pages that use the given image title.
     #
     # The "submodule" (MediaWiki API term) is included in action after setting some param, providing
-    # additional tweaking for this param. Example (for {Reality::DataSources::Wikidata::Impl::Actions::Query} and
+    # additional tweaking for this param. Example (for {Reality::Describers::Wikidata::Impl::Actions::Query} and
     # its submodules):
     #
     # ```ruby

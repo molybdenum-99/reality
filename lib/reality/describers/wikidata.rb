@@ -1,130 +1,83 @@
-require 'time'
-
 module Reality
-  using Refinements
-
-  module DataSources
-    class Wikidata
+  module Describers
+    class Wikidata < Abstract::Base
       def initialize
         @api = Impl::Api.new(user_agent: Reality::USER_AGENT)
-        @units = {}
+        @units = Units.new(&method(:labels_for))
       end
 
-      def id(i)
+      def observations_for(id)
         @api
-          .wbgetentities.ids(i).sites(:enwiki)
-          .props(:info, :sitelinks, :claims).languages(:en)
-          .response['entities'].values.first
-          .derp(&method(:process_entity))
+          .wbgetentities.ids(id).sites(:enwiki)
+          .props(:info, :sitelinks, :claims, :labels, :aliases, :descriptions).languages(:en)
+          .yield_self(&method(:query))['entities']
+          .values.first
+          .yield_self(&method(:process_entity))
+          .map { |name, *arg| obs(id, name, *arg) }
       end
 
-      def get(title)
-        @api
-          .wbgetentities.titles(title).sites(:enwiki)
-          .props(:info, :sitelinks, :claims).languages(:en)
-          .response['entities'].values.first
-          .derp(&method(:process_entity))
-      end
+      #def get(title)
+        #@api
+          #.wbgetentities.titles(title).sites(:enwiki)
+          #.props(:info, :sitelinks, :claims).languages(:en)
+          #.response['entities'].values.first
+          #.yield_self(&method(:process_entity))
+      #end
 
       private
+
+      def prefix
+        'wikidata'
+      end
+
+      def query(q)
+        log.debug "Requesting #{q.to_url}"
+        q.response
+      end
 
       def process_entity(entity)
         [process_basics(entity), process_sitelinks(entity), process_claims(entity)].flatten(1)
       end
 
       def process_basics(entity)
-        %w[id title].map { |key| [key, entity.fetch(key)] }
+        # TODO: labels, descriptions, aliases
+        %w[id title].map { |key| ["meta.#{key}", entity.fetch(key)] }
       end
 
       def process_sitelinks(entity)
-        entity['sitelinks'].select { |key, _| key.start_with?('en') }.map { |key, link| ['source', "#<Link[#{key}:#{link['title']}]>"] }
+        entity['sitelinks'].select { |key, _| key.start_with?('en') }
+          .map { |key, link| ['meta.sitelinks', Link.new(key, link.fetch('title'))] }
       end
 
       def process_claims(entity)
-        property_names = fetch_properties(entity)
-
-        extract_units(entity)
+        property_names = labels_for(*entity['claims'].keys)
+        @units.update_from(entity)
 
         entity['claims']
-          .flat_map { |id, values| values.map(&method(:parse_value)).compact.map { |v| [property_names.fetch(id), v] } }
-          .sort_by(&:first)
+          .map { |id, snaks| [property_names.fetch(id), *process_snaks(snaks)] }
+          .reject { |_, val, _| val.nil? }
       end
 
-      def parse_value(snak)
-        datavalue = snak.dig('mainsnak', 'datavalue')
-        value = datavalue['value']
-        # TODO: snack qualifiers:
-        # time
-        case datavalue['type']
-        when 'string'
-          # TODO: find list of all types!!!
-          case snak.dig('mainsnak', 'datatype')
-          when 'commonsMedia'
-            "#<Link[commons:#{value}]>"
-          when 'string'
-            value
-          when 'external-id'
-            "#<Id[#{value}]>"
-          when 'url'
-            "#<URL[#{value}]>"
-          when 'math'
-            "#<Math[#{value}]>"
-          else
-            fail("Unknown snak type #{snak}")
-          end
-        when 'wikibase-entityid'
-          "#<Link[#{value['id']}]>"
-        when 'quantity'
-          Measure[unit(value['unit'])].new(value['amount'].to_f)
-        when 'monolingualtext'
-          value['language'] == 'en' ? value['text'] : nil
-        when 'globecoordinate'
-          # TODO: has globe, check Mars
-          Geo::Coord.new(value['latitude'], value['longitude'])
-        when 'time'
-          # TODO: has timezone, calendar and other stuff
-          begin
-            Time.parse(value['time'])
-          rescue ArgumentError
-            # TODO: period: "+1552-00-00T00:00:00Z"
-            value['time']
-          end
-        else
-          fail("Unknown datavalue type #{datavalue}")
-        end.tap { |v| p snak if v == 'Cs-Japonsko.ogg' }
+      def process_snaks(snaks)
+        values = snaks.map { |s| Parsers.snak(s, @units) }.compact
+        return if values.empty?
+        [
+          values.one? ? values.first : values,
+          source: snaks
+        ]
       end
 
-      def unit(url)
-        url == '1' and return 'item' # TODO: Measure[nil].new(1) #=> 1
-        id = url.scan(%r{entity/(Q.+)}).flatten.first or fail("Unparseable unit #{url}")
-        @units.fetch(id).gsub(/[^a-z0-9]/i, '_')
-      end
-
-      def extract_units(entity)
-        # TODO: friendly synonyms; cache of well-knowns
-        ids = entity['claims'].values.flatten.map { |c| c.dig('mainsnak', 'datavalue', 'value', 'unit') rescue nil }
-          .compact.uniq.reject { |u| u == '1'}
-          .map { |u| u.scan(%r{entity/(Q.+)}).flatten.first or fail("Unparseable unit #{u}") }
-
-        return if ids.empty?
-        @api
-          .wbgetentities
-          .ids(*(ids - @units.keys)).props(:labels).languages(:en)
-          .response['entities'].map { |k,v| [k, v.dig('labels', 'en', 'value')]}.to_h
-          .derp(&@units.method(:update))
-      end
-
-      def fetch_properties(entity)
-        entity['claims'].keys.each_slice(50).map { |ids|
-          @api
-            .wbgetentities
-            .ids(*ids).props(:labels).languages(:en)
-            .response['entities']
+      def labels_for(*ids)
+        # wbgetentities have no pagination, so we need to implement it on client
+        ids.each_slice(50).map { |ids|
+          query(@api.wbgetentities.ids(*ids).props(:labels).languages(:en))['entities']
         }.reduce(:merge)
-        .map { |k,v| [k, v.dig('labels', 'en', 'value')]}.to_h
+        .map { |k,v| [k, v.dig('labels', 'en', 'value')] }.to_h
       end
     end
   end
 end
 
 require_relative 'wikidata/api'
+require_relative 'wikidata/parsers'
+require_relative 'wikidata/units'

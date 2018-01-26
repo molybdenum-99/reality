@@ -50,7 +50,7 @@ module Reality
   end
 end
 
-%w[simplifier templates parsers name_joiner nodes].each { |f| require_relative "wikipedia/#{f}" }
+%w[simplifier templates parsers name_joiner].each { |f| require_relative "wikipedia/#{f}" }
 
 # FIXME: :philosoraptor:
 Reality.describers[:wikipedia] = Reality::Describers::Wikipedia.new

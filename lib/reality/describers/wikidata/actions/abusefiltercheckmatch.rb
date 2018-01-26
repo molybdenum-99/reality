@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module Reality::DataSources::Wikidata::Impl
+module Reality::Describers::Wikidata::Impl
   module Actions
     # Check to see if an AbuseFilter matches a set of variables, editor logged AbuseFilter event.
     #
@@ -13,11 +13,11 @@ module Reality::DataSources::Wikidata::Impl
     # ```
     #
     # See {Base} for generic explanation of working with MediaWiki actions and
-    # {Reality::DataSources::Wikidata::Impl::Response} for working with action responses.
+    # {Reality::Describers::Wikidata::Impl::Response} for working with action responses.
     #
     # All action's parameters are documented as its public methods, see below.
     #
-    class Abusefiltercheckmatch < Reality::DataSources::Wikidata::Impl::Actions::Get
+    class Abusefiltercheckmatch < Reality::Describers::Wikidata::Impl::Actions::Get
 
       # The full filter text to check for a match.
       #

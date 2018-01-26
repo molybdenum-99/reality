@@ -1,11 +1,11 @@
 # frozen_string_literal: true
 
-module Reality::DataSources::Wikidata::Impl
+module Reality::Describers::Wikidata::Impl
   module Modules
     # Searches for entities using labels and aliases. This can be used as a generator for other queries. Returns the matched term that should be displayed.
     #
     # The "submodule" (MediaWiki API term) is included in action after setting some param, providing
-    # additional tweaking for this param. Example (for {Reality::DataSources::Wikidata::Impl::Actions::Query} and
+    # additional tweaking for this param. Example (for {Reality::Describers::Wikidata::Impl::Actions::Query} and
     # its submodules):
     #
     # ```ruby

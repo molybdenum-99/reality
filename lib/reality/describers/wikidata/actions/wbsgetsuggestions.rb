@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module Reality::DataSources::Wikidata::Impl
+module Reality::Describers::Wikidata::Impl
   module Actions
     # API module for getting suggestions of additional properties to add to a Wikibase entity. The API module is primarily intended for use by the suggester widget when users are editing Wikibase entities.
     #
@@ -13,11 +13,11 @@ module Reality::DataSources::Wikidata::Impl
     # ```
     #
     # See {Base} for generic explanation of working with MediaWiki actions and
-    # {Reality::DataSources::Wikidata::Impl::Response} for working with action responses.
+    # {Reality::Describers::Wikidata::Impl::Response} for working with action responses.
     #
     # All action's parameters are documented as its public methods, see below.
     #
-    class Wbsgetsuggestions < Reality::DataSources::Wikidata::Impl::Actions::Get
+    class Wbsgetsuggestions < Reality::Describers::Wikidata::Impl::Actions::Get
 
       # Suggest properties for the given entity, based on existing list of properties that the entity has.
       #

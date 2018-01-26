@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module Reality::DataSources::Wikidata::Impl
+module Reality::Describers::Wikidata::Impl
   module Actions
     # Obtain information about API modules.
     #
@@ -13,11 +13,11 @@ module Reality::DataSources::Wikidata::Impl
     # ```
     #
     # See {Base} for generic explanation of working with MediaWiki actions and
-    # {Reality::DataSources::Wikidata::Impl::Response} for working with action responses.
+    # {Reality::Describers::Wikidata::Impl::Response} for working with action responses.
     #
     # All action's parameters are documented as its public methods, see below.
     #
-    class Paraminfo < Reality::DataSources::Wikidata::Impl::Actions::Get
+    class Paraminfo < Reality::Describers::Wikidata::Impl::Actions::Get
 
       # List of module names (values of the action and format parameters, or main). Can specify submodules with a +, or all submodules with +*, or all submodules recursively with +**.
       #

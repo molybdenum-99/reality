@@ -1,11 +1,11 @@
 # frozen_string_literal: true
 
-module Reality::DataSources::Wikidata::Impl
+module Reality::Describers::Wikidata::Impl
   module Modules
     # Shows per-page pageview data (the number of daily pageviews for each of the last pvipdays days). The result format is page title (with underscores) => date (Ymd) => count.
     #
     # The "submodule" (MediaWiki API term) is included in action after setting some param, providing
-    # additional tweaking for this param. Example (for {Reality::DataSources::Wikidata::Impl::Actions::Query} and
+    # additional tweaking for this param. Example (for {Reality::Describers::Wikidata::Impl::Actions::Query} and
     # its submodules):
     #
     # ```ruby

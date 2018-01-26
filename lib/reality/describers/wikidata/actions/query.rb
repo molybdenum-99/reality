@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module Reality::DataSources::Wikidata::Impl
+module Reality::Describers::Wikidata::Impl
   module Actions
     # Fetch data from and about MediaWiki.
     #
@@ -13,47 +13,47 @@ module Reality::DataSources::Wikidata::Impl
     # ```
     #
     # See {Base} for generic explanation of working with MediaWiki actions and
-    # {Reality::DataSources::Wikidata::Impl::Response} for working with action responses.
+    # {Reality::Describers::Wikidata::Impl::Response} for working with action responses.
     #
     # All action's parameters are documented as its public methods, see below.
     #
-    class Query < Reality::DataSources::Wikidata::Impl::Actions::Get
+    class Query < Reality::Describers::Wikidata::Impl::Actions::Get
 
       # Which properties to get for the queried pages.
       #
       # @param values [Array<Symbol>] All selected options include tweaking methods from corresponding modules:
-      #   * `:categories` - {Reality::DataSources::Wikidata::Impl::Modules::Categories} List all categories the pages belong to.
-      #   * `:categoryinfo` - {Reality::DataSources::Wikidata::Impl::Modules::Categoryinfo} Returns information about the given categories.
-      #   * `:contributors` - {Reality::DataSources::Wikidata::Impl::Modules::Contributors} Get the list of logged-in contributors and the count of anonymous contributors to a page.
-      #   * `:coordinates` - {Reality::DataSources::Wikidata::Impl::Modules::Coordinates} Returns coordinates of the given pages.
-      #   * `:deletedrevisions` - {Reality::DataSources::Wikidata::Impl::Modules::Deletedrevisions} Get deleted revision information.
-      #   * `:duplicatefiles` - {Reality::DataSources::Wikidata::Impl::Modules::Duplicatefiles} List all files that are duplicates of the given files based on hash values.
-      #   * `:extlinks` - {Reality::DataSources::Wikidata::Impl::Modules::Extlinks} Returns all external URLs (not interwikis) from the given pages.
-      #   * `:extracts` - {Reality::DataSources::Wikidata::Impl::Modules::Extracts} Returns plain-text or limited HTML extracts of the given pages.
-      #   * `:fileusage` - {Reality::DataSources::Wikidata::Impl::Modules::Fileusage} Find all pages that use the given files.
-      #   * `:flowinfo` - {Reality::DataSources::Wikidata::Impl::Modules::Flowinfo} Get basic Flow information about a page.
-      #   * `:globalusage` - {Reality::DataSources::Wikidata::Impl::Modules::Globalusage} Returns global image usage for a certain image.
-      #   * `:imageinfo` - {Reality::DataSources::Wikidata::Impl::Modules::Imageinfo} Returns file information and upload history.
-      #   * `:images` - {Reality::DataSources::Wikidata::Impl::Modules::Images} Returns all files contained on the given pages.
-      #   * `:info` - {Reality::DataSources::Wikidata::Impl::Modules::Info} Get basic page information.
-      #   * `:iwlinks` - {Reality::DataSources::Wikidata::Impl::Modules::Iwlinks} Returns all interwiki links from the given pages.
-      #   * `:langlinks` - {Reality::DataSources::Wikidata::Impl::Modules::Langlinks} Returns all interlanguage links from the given pages.
-      #   * `:links` - {Reality::DataSources::Wikidata::Impl::Modules::Links} Returns all links from the given pages.
-      #   * `:linkshere` - {Reality::DataSources::Wikidata::Impl::Modules::Linkshere} Find all pages that link to the given pages.
-      #   * `:mapdata` - {Reality::DataSources::Wikidata::Impl::Modules::Mapdata} Request all map data from the page Metallica
-      #   * `:pageimages` - {Reality::DataSources::Wikidata::Impl::Modules::Pageimages} Returns information about images on the page, such as thumbnail and presence of photos.
-      #   * `:pageprops` - {Reality::DataSources::Wikidata::Impl::Modules::Pageprops} Get various page properties defined in the page content.
-      #   * `:pageterms` - {Reality::DataSources::Wikidata::Impl::Modules::Pageterms} Get the Wikidata terms (typically labels, descriptions and aliases) associated with a page via a sitelink. On the entity page itself, the terms are used directly. Caveat: On a repo wiki, this module only works directly on entity pages, not on pages connected to an entity via a sitelink. This may change in the future.
-      #   * `:pageviews` - {Reality::DataSources::Wikidata::Impl::Modules::Pageviews} Shows per-page pageview data (the number of daily pageviews for each of the last pvipdays days). The result format is page title (with underscores) => date (Ymd) => count.
-      #   * `:redirects` - {Reality::DataSources::Wikidata::Impl::Modules::Redirects} Returns all redirects to the given pages.
-      #   * `:references` - {Reality::DataSources::Wikidata::Impl::Modules::References} Return a data representation of references associated with the given pages.
-      #   * `:revisions` - {Reality::DataSources::Wikidata::Impl::Modules::Revisions} Get revision information.
-      #   * `:stashimageinfo` - {Reality::DataSources::Wikidata::Impl::Modules::Stashimageinfo} Returns file information for stashed files.
-      #   * `:templates` - {Reality::DataSources::Wikidata::Impl::Modules::Templates} Returns all pages transcluded on the given pages.
-      #   * `:transcludedin` - {Reality::DataSources::Wikidata::Impl::Modules::Transcludedin} Find all pages that transclude the given pages.
-      #   * `:transcodestatus` - {Reality::DataSources::Wikidata::Impl::Modules::Transcodestatus} Get transcode status for a given file page.
-      #   * `:videoinfo` - {Reality::DataSources::Wikidata::Impl::Modules::Videoinfo} Extends imageinfo to include video source (derivatives) information
-      #   * `:wbentityusage` - {Reality::DataSources::Wikidata::Impl::Modules::Wbentityusage} Returns all entity IDs used in the given pages.
+      #   * `:categories` - {Reality::Describers::Wikidata::Impl::Modules::Categories} List all categories the pages belong to.
+      #   * `:categoryinfo` - {Reality::Describers::Wikidata::Impl::Modules::Categoryinfo} Returns information about the given categories.
+      #   * `:contributors` - {Reality::Describers::Wikidata::Impl::Modules::Contributors} Get the list of logged-in contributors and the count of anonymous contributors to a page.
+      #   * `:coordinates` - {Reality::Describers::Wikidata::Impl::Modules::Coordinates} Returns coordinates of the given pages.
+      #   * `:deletedrevisions` - {Reality::Describers::Wikidata::Impl::Modules::Deletedrevisions} Get deleted revision information.
+      #   * `:duplicatefiles` - {Reality::Describers::Wikidata::Impl::Modules::Duplicatefiles} List all files that are duplicates of the given files based on hash values.
+      #   * `:extlinks` - {Reality::Describers::Wikidata::Impl::Modules::Extlinks} Returns all external URLs (not interwikis) from the given pages.
+      #   * `:extracts` - {Reality::Describers::Wikidata::Impl::Modules::Extracts} Returns plain-text or limited HTML extracts of the given pages.
+      #   * `:fileusage` - {Reality::Describers::Wikidata::Impl::Modules::Fileusage} Find all pages that use the given files.
+      #   * `:flowinfo` - {Reality::Describers::Wikidata::Impl::Modules::Flowinfo} Get basic Flow information about a page.
+      #   * `:globalusage` - {Reality::Describers::Wikidata::Impl::Modules::Globalusage} Returns global image usage for a certain image.
+      #   * `:imageinfo` - {Reality::Describers::Wikidata::Impl::Modules::Imageinfo} Returns file information and upload history.
+      #   * `:images` - {Reality::Describers::Wikidata::Impl::Modules::Images} Returns all files contained on the given pages.
+      #   * `:info` - {Reality::Describers::Wikidata::Impl::Modules::Info} Get basic page information.
+      #   * `:iwlinks` - {Reality::Describers::Wikidata::Impl::Modules::Iwlinks} Returns all interwiki links from the given pages.
+      #   * `:langlinks` - {Reality::Describers::Wikidata::Impl::Modules::Langlinks} Returns all interlanguage links from the given pages.
+      #   * `:links` - {Reality::Describers::Wikidata::Impl::Modules::Links} Returns all links from the given pages.
+      #   * `:linkshere` - {Reality::Describers::Wikidata::Impl::Modules::Linkshere} Find all pages that link to the given pages.
+      #   * `:mapdata` - {Reality::Describers::Wikidata::Impl::Modules::Mapdata} Request all map data from the page Metallica
+      #   * `:pageimages` - {Reality::Describers::Wikidata::Impl::Modules::Pageimages} Returns information about images on the page, such as thumbnail and presence of photos.
+      #   * `:pageprops` - {Reality::Describers::Wikidata::Impl::Modules::Pageprops} Get various page properties defined in the page content.
+      #   * `:pageterms` - {Reality::Describers::Wikidata::Impl::Modules::Pageterms} Get the Wikidata terms (typically labels, descriptions and aliases) associated with a page via a sitelink. On the entity page itself, the terms are used directly. Caveat: On a repo wiki, this module only works directly on entity pages, not on pages connected to an entity via a sitelink. This may change in the future.
+      #   * `:pageviews` - {Reality::Describers::Wikidata::Impl::Modules::Pageviews} Shows per-page pageview data (the number of daily pageviews for each of the last pvipdays days). The result format is page title (with underscores) => date (Ymd) => count.
+      #   * `:redirects` - {Reality::Describers::Wikidata::Impl::Modules::Redirects} Returns all redirects to the given pages.
+      #   * `:references` - {Reality::Describers::Wikidata::Impl::Modules::References} Return a data representation of references associated with the given pages.
+      #   * `:revisions` - {Reality::Describers::Wikidata::Impl::Modules::Revisions} Get revision information.
+      #   * `:stashimageinfo` - {Reality::Describers::Wikidata::Impl::Modules::Stashimageinfo} Returns file information for stashed files.
+      #   * `:templates` - {Reality::Describers::Wikidata::Impl::Modules::Templates} Returns all pages transcluded on the given pages.
+      #   * `:transcludedin` - {Reality::Describers::Wikidata::Impl::Modules::Transcludedin} Find all pages that transclude the given pages.
+      #   * `:transcodestatus` - {Reality::Describers::Wikidata::Impl::Modules::Transcodestatus} Get transcode status for a given file page.
+      #   * `:videoinfo` - {Reality::Describers::Wikidata::Impl::Modules::Videoinfo} Extends imageinfo to include video source (derivatives) information
+      #   * `:wbentityusage` - {Reality::Describers::Wikidata::Impl::Modules::Wbentityusage} Returns all entity IDs used in the given pages.
       # @return [self]
       def prop(*values)
         values.inject(self) { |res, val| res._prop(val) or fail ArgumentError, "Unknown value for prop: #{val}" }
@@ -67,60 +67,60 @@ module Reality::DataSources::Wikidata::Impl
       # Which lists to get.
       #
       # @param values [Array<Symbol>] All selected options include tweaking methods from corresponding modules:
-      #   * `:abusefilters` - {Reality::DataSources::Wikidata::Impl::Modules::Abusefilters} Show details of the abuse filters.
-      #   * `:abuselog` - {Reality::DataSources::Wikidata::Impl::Modules::Abuselog} Show events that were caught by one of the abuse filters.
-      #   * `:allcategories` - {Reality::DataSources::Wikidata::Impl::Modules::Allcategories} Enumerate all categories.
-      #   * `:alldeletedrevisions` - {Reality::DataSources::Wikidata::Impl::Modules::Alldeletedrevisions} List all deleted revisions by a user or in a namespace.
-      #   * `:allfileusages` - {Reality::DataSources::Wikidata::Impl::Modules::Allfileusages} List all file usages, including non-existing.
-      #   * `:allimages` - {Reality::DataSources::Wikidata::Impl::Modules::Allimages} Enumerate all images sequentially.
-      #   * `:alllinks` - {Reality::DataSources::Wikidata::Impl::Modules::Alllinks} Enumerate all links that point to a given namespace.
-      #   * `:allpages` - {Reality::DataSources::Wikidata::Impl::Modules::Allpages} Enumerate all pages sequentially in a given namespace.
-      #   * `:allredirects` - {Reality::DataSources::Wikidata::Impl::Modules::Allredirects} List all redirects to a namespace.
-      #   * `:allrevisions` - {Reality::DataSources::Wikidata::Impl::Modules::Allrevisions} List all revisions.
-      #   * `:alltransclusions` - {Reality::DataSources::Wikidata::Impl::Modules::Alltransclusions} List all transclusions (pages embedded using {{x}}), including non-existing.
-      #   * `:allusers` - {Reality::DataSources::Wikidata::Impl::Modules::Allusers} Enumerate all registered users.
-      #   * `:backlinks` - {Reality::DataSources::Wikidata::Impl::Modules::Backlinks} Find all pages that link to the given page.
-      #   * `:betafeatures` - {Reality::DataSources::Wikidata::Impl::Modules::Betafeatures} List all BetaFeatures
-      #   * `:blocks` - {Reality::DataSources::Wikidata::Impl::Modules::Blocks} List all blocked users and IP addresses.
-      #   * `:categorymembers` - {Reality::DataSources::Wikidata::Impl::Modules::Categorymembers} List all pages in a given category.
-      #   * `:centralnoticelogs` - {Reality::DataSources::Wikidata::Impl::Modules::Centralnoticelogs} Get a log of campaign configuration changes.
-      #   * `:checkuser` - {Reality::DataSources::Wikidata::Impl::Modules::Checkuser} Check which IP addresses are used by a given username or which usernames are used by a given IP address.
-      #   * `:checkuserlog` - {Reality::DataSources::Wikidata::Impl::Modules::Checkuserlog} Get entries from the CheckUser log.
-      #   * `:deletedrevs` - {Reality::DataSources::Wikidata::Impl::Modules::Deletedrevs} List deleted revisions.
-      #   * `:embeddedin` - {Reality::DataSources::Wikidata::Impl::Modules::Embeddedin} Find all pages that embed (transclude) the given title.
-      #   * `:exturlusage` - {Reality::DataSources::Wikidata::Impl::Modules::Exturlusage} Enumerate pages that contain a given URL.
-      #   * `:filearchive` - {Reality::DataSources::Wikidata::Impl::Modules::Filearchive} Enumerate all deleted files sequentially.
-      #   * `:gadgetcategories` - {Reality::DataSources::Wikidata::Impl::Modules::Gadgetcategories} Returns a list of gadget categories.
-      #   * `:gadgets` - {Reality::DataSources::Wikidata::Impl::Modules::Gadgets} Returns a list of gadgets used on this wiki.
-      #   * `:geosearch` - {Reality::DataSources::Wikidata::Impl::Modules::Geosearch} Returns pages having coordinates that are located in a certain area.
-      #   * `:globalallusers` - {Reality::DataSources::Wikidata::Impl::Modules::Globalallusers} Enumerate all global users.
-      #   * `:globalblocks` - {Reality::DataSources::Wikidata::Impl::Modules::Globalblocks} List all globally blocked IP addresses.
-      #   * `:globalgroups` - {Reality::DataSources::Wikidata::Impl::Modules::Globalgroups} Enumerate all global groups.
-      #   * `:imageusage` - {Reality::DataSources::Wikidata::Impl::Modules::Imageusage} Find all pages that use the given image title.
-      #   * `:iwbacklinks` - {Reality::DataSources::Wikidata::Impl::Modules::Iwbacklinks} Find all pages that link to the given interwiki link.
-      #   * `:langbacklinks` - {Reality::DataSources::Wikidata::Impl::Modules::Langbacklinks} Find all pages that link to the given language link.
-      #   * `:logevents` - {Reality::DataSources::Wikidata::Impl::Modules::Logevents} Get events from logs.
-      #   * `:messagecollection` - {Reality::DataSources::Wikidata::Impl::Modules::Messagecollection} Query MessageCollection about translations.
-      #   * `:mmsites` - {Reality::DataSources::Wikidata::Impl::Modules::Mmsites} Serve autocomplete requests for the site field in MassMessage.
-      #   * `:mostviewed` - {Reality::DataSources::Wikidata::Impl::Modules::Mostviewed} Lists the most viewed pages (based on last day's pageview count).
-      #   * `:mystashedfiles` - {Reality::DataSources::Wikidata::Impl::Modules::Mystashedfiles} Get a list of files in the current user's upload stash.
-      #   * `:pagepropnames` - {Reality::DataSources::Wikidata::Impl::Modules::Pagepropnames} List all page property names in use on the wiki.
-      #   * `:pageswithprop` - {Reality::DataSources::Wikidata::Impl::Modules::Pageswithprop} List all pages using a given page property.
-      #   * `:prefixsearch` - {Reality::DataSources::Wikidata::Impl::Modules::Prefixsearch} Perform a prefix search for page titles.
-      #   * `:protectedtitles` - {Reality::DataSources::Wikidata::Impl::Modules::Protectedtitles} List all titles protected from creation.
-      #   * `:querypage` - {Reality::DataSources::Wikidata::Impl::Modules::Querypage} Get a list provided by a QueryPage-based special page.
-      #   * `:random` - {Reality::DataSources::Wikidata::Impl::Modules::Random} Get a set of random pages.
-      #   * `:recentchanges` - {Reality::DataSources::Wikidata::Impl::Modules::Recentchanges} Enumerate recent changes.
-      #   * `:search` - {Reality::DataSources::Wikidata::Impl::Modules::Search} Perform a full text search.
-      #   * `:tags` - {Reality::DataSources::Wikidata::Impl::Modules::Tags} List change tags.
-      #   * `:usercontribs` - {Reality::DataSources::Wikidata::Impl::Modules::Usercontribs} Get all edits by a user.
-      #   * `:users` - {Reality::DataSources::Wikidata::Impl::Modules::Users} Get information about a list of users.
-      #   * `:watchlist` - {Reality::DataSources::Wikidata::Impl::Modules::Watchlist} Get recent changes to pages in the current user's watchlist.
-      #   * `:watchlistraw` - {Reality::DataSources::Wikidata::Impl::Modules::Watchlistraw} Get all pages on the current user's watchlist.
-      #   * `:wblistentityusage` - {Reality::DataSources::Wikidata::Impl::Modules::Wblistentityusage} Returns all pages that use the given entity IDs.
-      #   * `:wbsearch` - {Reality::DataSources::Wikidata::Impl::Modules::Wbsearch} Searches for entities using labels and aliases. This can be used as a generator for other queries. Returns the matched term that should be displayed.
-      #   * `:wbsubscribers` - {Reality::DataSources::Wikidata::Impl::Modules::Wbsubscribers} Get subscriptions to given entities.
-      #   * `:wikisets` - {Reality::DataSources::Wikidata::Impl::Modules::Wikisets} Enumerate all wiki sets.
+      #   * `:abusefilters` - {Reality::Describers::Wikidata::Impl::Modules::Abusefilters} Show details of the abuse filters.
+      #   * `:abuselog` - {Reality::Describers::Wikidata::Impl::Modules::Abuselog} Show events that were caught by one of the abuse filters.
+      #   * `:allcategories` - {Reality::Describers::Wikidata::Impl::Modules::Allcategories} Enumerate all categories.
+      #   * `:alldeletedrevisions` - {Reality::Describers::Wikidata::Impl::Modules::Alldeletedrevisions} List all deleted revisions by a user or in a namespace.
+      #   * `:allfileusages` - {Reality::Describers::Wikidata::Impl::Modules::Allfileusages} List all file usages, including non-existing.
+      #   * `:allimages` - {Reality::Describers::Wikidata::Impl::Modules::Allimages} Enumerate all images sequentially.
+      #   * `:alllinks` - {Reality::Describers::Wikidata::Impl::Modules::Alllinks} Enumerate all links that point to a given namespace.
+      #   * `:allpages` - {Reality::Describers::Wikidata::Impl::Modules::Allpages} Enumerate all pages sequentially in a given namespace.
+      #   * `:allredirects` - {Reality::Describers::Wikidata::Impl::Modules::Allredirects} List all redirects to a namespace.
+      #   * `:allrevisions` - {Reality::Describers::Wikidata::Impl::Modules::Allrevisions} List all revisions.
+      #   * `:alltransclusions` - {Reality::Describers::Wikidata::Impl::Modules::Alltransclusions} List all transclusions (pages embedded using {{x}}), including non-existing.
+      #   * `:allusers` - {Reality::Describers::Wikidata::Impl::Modules::Allusers} Enumerate all registered users.
+      #   * `:backlinks` - {Reality::Describers::Wikidata::Impl::Modules::Backlinks} Find all pages that link to the given page.
+      #   * `:betafeatures` - {Reality::Describers::Wikidata::Impl::Modules::Betafeatures} List all BetaFeatures
+      #   * `:blocks` - {Reality::Describers::Wikidata::Impl::Modules::Blocks} List all blocked users and IP addresses.
+      #   * `:categorymembers` - {Reality::Describers::Wikidata::Impl::Modules::Categorymembers} List all pages in a given category.
+      #   * `:centralnoticelogs` - {Reality::Describers::Wikidata::Impl::Modules::Centralnoticelogs} Get a log of campaign configuration changes.
+      #   * `:checkuser` - {Reality::Describers::Wikidata::Impl::Modules::Checkuser} Check which IP addresses are used by a given username or which usernames are used by a given IP address.
+      #   * `:checkuserlog` - {Reality::Describers::Wikidata::Impl::Modules::Checkuserlog} Get entries from the CheckUser log.
+      #   * `:deletedrevs` - {Reality::Describers::Wikidata::Impl::Modules::Deletedrevs} List deleted revisions.
+      #   * `:embeddedin` - {Reality::Describers::Wikidata::Impl::Modules::Embeddedin} Find all pages that embed (transclude) the given title.
+      #   * `:exturlusage` - {Reality::Describers::Wikidata::Impl::Modules::Exturlusage} Enumerate pages that contain a given URL.
+      #   * `:filearchive` - {Reality::Describers::Wikidata::Impl::Modules::Filearchive} Enumerate all deleted files sequentially.
+      #   * `:gadgetcategories` - {Reality::Describers::Wikidata::Impl::Modules::Gadgetcategories} Returns a list of gadget categories.
+      #   * `:gadgets` - {Reality::Describers::Wikidata::Impl::Modules::Gadgets} Returns a list of gadgets used on this wiki.
+      #   * `:geosearch` - {Reality::Describers::Wikidata::Impl::Modules::Geosearch} Returns pages having coordinates that are located in a certain area.
+      #   * `:globalallusers` - {Reality::Describers::Wikidata::Impl::Modules::Globalallusers} Enumerate all global users.
+      #   * `:globalblocks` - {Reality::Describers::Wikidata::Impl::Modules::Globalblocks} List all globally blocked IP addresses.
+      #   * `:globalgroups` - {Reality::Describers::Wikidata::Impl::Modules::Globalgroups} Enumerate all global groups.
+      #   * `:imageusage` - {Reality::Describers::Wikidata::Impl::Modules::Imageusage} Find all pages that use the given image title.
+      #   * `:iwbacklinks` - {Reality::Describers::Wikidata::Impl::Modules::Iwbacklinks} Find all pages that link to the given interwiki link.
+      #   * `:langbacklinks` - {Reality::Describers::Wikidata::Impl::Modules::Langbacklinks} Find all pages that link to the given language link.
+      #   * `:logevents` - {Reality::Describers::Wikidata::Impl::Modules::Logevents} Get events from logs.
+      #   * `:messagecollection` - {Reality::Describers::Wikidata::Impl::Modules::Messagecollection} Query MessageCollection about translations.
+      #   * `:mmsites` - {Reality::Describers::Wikidata::Impl::Modules::Mmsites} Serve autocomplete requests for the site field in MassMessage.
+      #   * `:mostviewed` - {Reality::Describers::Wikidata::Impl::Modules::Mostviewed} Lists the most viewed pages (based on last day's pageview count).
+      #   * `:mystashedfiles` - {Reality::Describers::Wikidata::Impl::Modules::Mystashedfiles} Get a list of files in the current user's upload stash.
+      #   * `:pagepropnames` - {Reality::Describers::Wikidata::Impl::Modules::Pagepropnames} List all page property names in use on the wiki.
+      #   * `:pageswithprop` - {Reality::Describers::Wikidata::Impl::Modules::Pageswithprop} List all pages using a given page property.
+      #   * `:prefixsearch` - {Reality::Describers::Wikidata::Impl::Modules::Prefixsearch} Perform a prefix search for page titles.
+      #   * `:protectedtitles` - {Reality::Describers::Wikidata::Impl::Modules::Protectedtitles} List all titles protected from creation.
+      #   * `:querypage` - {Reality::Describers::Wikidata::Impl::Modules::Querypage} Get a list provided by a QueryPage-based special page.
+      #   * `:random` - {Reality::Describers::Wikidata::Impl::Modules::Random} Get a set of random pages.
+      #   * `:recentchanges` - {Reality::Describers::Wikidata::Impl::Modules::Recentchanges} Enumerate recent changes.
+      #   * `:search` - {Reality::Describers::Wikidata::Impl::Modules::Search} Perform a full text search.
+      #   * `:tags` - {Reality::Describers::Wikidata::Impl::Modules::Tags} List change tags.
+      #   * `:usercontribs` - {Reality::Describers::Wikidata::Impl::Modules::Usercontribs} Get all edits by a user.
+      #   * `:users` - {Reality::Describers::Wikidata::Impl::Modules::Users} Get information about a list of users.
+      #   * `:watchlist` - {Reality::Describers::Wikidata::Impl::Modules::Watchlist} Get recent changes to pages in the current user's watchlist.
+      #   * `:watchlistraw` - {Reality::Describers::Wikidata::Impl::Modules::Watchlistraw} Get all pages on the current user's watchlist.
+      #   * `:wblistentityusage` - {Reality::Describers::Wikidata::Impl::Modules::Wblistentityusage} Returns all pages that use the given entity IDs.
+      #   * `:wbsearch` - {Reality::Describers::Wikidata::Impl::Modules::Wbsearch} Searches for entities using labels and aliases. This can be used as a generator for other queries. Returns the matched term that should be displayed.
+      #   * `:wbsubscribers` - {Reality::Describers::Wikidata::Impl::Modules::Wbsubscribers} Get subscriptions to given entities.
+      #   * `:wikisets` - {Reality::Describers::Wikidata::Impl::Modules::Wikisets} Enumerate all wiki sets.
       # @return [self]
       def list(*values)
         values.inject(self) { |res, val| res._list(val) or fail ArgumentError, "Unknown value for list: #{val}" }
@@ -134,25 +134,25 @@ module Reality::DataSources::Wikidata::Impl
       # Which metadata to get.
       #
       # @param values [Array<Symbol>] All selected options include tweaking methods from corresponding modules:
-      #   * `:allmessages` - {Reality::DataSources::Wikidata::Impl::Modules::Allmessages} Return messages from this site.
-      #   * `:authmanagerinfo` - {Reality::DataSources::Wikidata::Impl::Modules::Authmanagerinfo} Retrieve information about the current authentication status.
-      #   * `:babel` - {Reality::DataSources::Wikidata::Impl::Modules::Babel} Get information about what languages the user knows
-      #   * `:featureusage` - {Reality::DataSources::Wikidata::Impl::Modules::Featureusage} Get a summary of logged API feature usages for a user agent.
-      #   * `:filerepoinfo` - {Reality::DataSources::Wikidata::Impl::Modules::Filerepoinfo} Return meta information about image repositories configured on the wiki.
-      #   * `:globaluserinfo` - {Reality::DataSources::Wikidata::Impl::Modules::Globaluserinfo} Show information about a global user.
-      #   * `:languagestats` - {Reality::DataSources::Wikidata::Impl::Modules::Languagestats} Query language stats.
-      #   * `:messagegroups` - {Reality::DataSources::Wikidata::Impl::Modules::Messagegroups} Return information about message groups.
-      #   * `:messagegroupstats` - {Reality::DataSources::Wikidata::Impl::Modules::Messagegroupstats} Query message group stats.
-      #   * `:messagetranslations` - {Reality::DataSources::Wikidata::Impl::Modules::Messagetranslations} Query all translations for a single message.
-      #   * `:notifications` - {Reality::DataSources::Wikidata::Impl::Modules::Notifications} Get notifications waiting for the current user.
-      #   * `:oath` - {Reality::DataSources::Wikidata::Impl::Modules::Oath} Check to see if two-factor authentication (OATH) is enabled for a user.
-      #   * `:ores` - {Reality::DataSources::Wikidata::Impl::Modules::Ores} Return ORES configuration and model data for this wiki.
-      #   * `:siteinfo` - {Reality::DataSources::Wikidata::Impl::Modules::Siteinfo} Return general information about the site.
-      #   * `:siteviews` - {Reality::DataSources::Wikidata::Impl::Modules::Siteviews} Shows sitewide pageview data (daily pageview totals for each of the last pvisdays days). The result format is date (Ymd) => count.
-      #   * `:tokens` - {Reality::DataSources::Wikidata::Impl::Modules::Tokens} Gets tokens for data-modifying actions.
-      #   * `:unreadnotificationpages` - {Reality::DataSources::Wikidata::Impl::Modules::Unreadnotificationpages} Get pages for which there are unread notifications for the current user.
-      #   * `:userinfo` - {Reality::DataSources::Wikidata::Impl::Modules::Userinfo} Get information about the current user.
-      #   * `:wikibase` - {Reality::DataSources::Wikidata::Impl::Modules::Wikibase} Get information about the Wikibase client and the associated Wikibase repository.
+      #   * `:allmessages` - {Reality::Describers::Wikidata::Impl::Modules::Allmessages} Return messages from this site.
+      #   * `:authmanagerinfo` - {Reality::Describers::Wikidata::Impl::Modules::Authmanagerinfo} Retrieve information about the current authentication status.
+      #   * `:babel` - {Reality::Describers::Wikidata::Impl::Modules::Babel} Get information about what languages the user knows
+      #   * `:featureusage` - {Reality::Describers::Wikidata::Impl::Modules::Featureusage} Get a summary of logged API feature usages for a user agent.
+      #   * `:filerepoinfo` - {Reality::Describers::Wikidata::Impl::Modules::Filerepoinfo} Return meta information about image repositories configured on the wiki.
+      #   * `:globaluserinfo` - {Reality::Describers::Wikidata::Impl::Modules::Globaluserinfo} Show information about a global user.
+      #   * `:languagestats` - {Reality::Describers::Wikidata::Impl::Modules::Languagestats} Query language stats.
+      #   * `:messagegroups` - {Reality::Describers::Wikidata::Impl::Modules::Messagegroups} Return information about message groups.
+      #   * `:messagegroupstats` - {Reality::Describers::Wikidata::Impl::Modules::Messagegroupstats} Query message group stats.
+      #   * `:messagetranslations` - {Reality::Describers::Wikidata::Impl::Modules::Messagetranslations} Query all translations for a single message.
+      #   * `:notifications` - {Reality::Describers::Wikidata::Impl::Modules::Notifications} Get notifications waiting for the current user.
+      #   * `:oath` - {Reality::Describers::Wikidata::Impl::Modules::Oath} Check to see if two-factor authentication (OATH) is enabled for a user.
+      #   * `:ores` - {Reality::Describers::Wikidata::Impl::Modules::Ores} Return ORES configuration and model data for this wiki.
+      #   * `:siteinfo` - {Reality::Describers::Wikidata::Impl::Modules::Siteinfo} Return general information about the site.
+      #   * `:siteviews` - {Reality::Describers::Wikidata::Impl::Modules::Siteviews} Shows sitewide pageview data (daily pageview totals for each of the last pvisdays days). The result format is date (Ymd) => count.
+      #   * `:tokens` - {Reality::Describers::Wikidata::Impl::Modules::Tokens} Gets tokens for data-modifying actions.
+      #   * `:unreadnotificationpages` - {Reality::Describers::Wikidata::Impl::Modules::Unreadnotificationpages} Get pages for which there are unread notifications for the current user.
+      #   * `:userinfo` - {Reality::Describers::Wikidata::Impl::Modules::Userinfo} Get information about the current user.
+      #   * `:wikibase` - {Reality::Describers::Wikidata::Impl::Modules::Wikibase} Get information about the Wikibase client and the associated Wikibase repository.
       # @return [self]
       def meta(*values)
         values.inject(self) { |res, val| res._meta(val) or fail ArgumentError, "Unknown value for meta: #{val}" }
@@ -248,47 +248,47 @@ module Reality::DataSources::Wikidata::Impl
       # Get the list of pages to work on by executing the specified query module.
       #
       # @param value [Symbol] Selecting an option includes tweaking methods from corresponding module:
-      #   * `:allcategories` - {Reality::DataSources::Wikidata::Impl::Modules::GAllcategories} Enumerate all categories. _Generator module: for fetching pages corresponding to request._
-      #   * `:alldeletedrevisions` - {Reality::DataSources::Wikidata::Impl::Modules::GAlldeletedrevisions} List all deleted revisions by a user or in a namespace. _Generator module: for fetching pages corresponding to request._
-      #   * `:allfileusages` - {Reality::DataSources::Wikidata::Impl::Modules::GAllfileusages} List all file usages, including non-existing. _Generator module: for fetching pages corresponding to request._
-      #   * `:allimages` - {Reality::DataSources::Wikidata::Impl::Modules::GAllimages} Enumerate all images sequentially. _Generator module: for fetching pages corresponding to request._
-      #   * `:alllinks` - {Reality::DataSources::Wikidata::Impl::Modules::GAlllinks} Enumerate all links that point to a given namespace. _Generator module: for fetching pages corresponding to request._
-      #   * `:allpages` - {Reality::DataSources::Wikidata::Impl::Modules::GAllpages} Enumerate all pages sequentially in a given namespace. _Generator module: for fetching pages corresponding to request._
-      #   * `:allredirects` - {Reality::DataSources::Wikidata::Impl::Modules::GAllredirects} List all redirects to a namespace. _Generator module: for fetching pages corresponding to request._
-      #   * `:allrevisions` - {Reality::DataSources::Wikidata::Impl::Modules::GAllrevisions} List all revisions. _Generator module: for fetching pages corresponding to request._
-      #   * `:alltransclusions` - {Reality::DataSources::Wikidata::Impl::Modules::GAlltransclusions} List all transclusions (pages embedded using {{x}}), including non-existing. _Generator module: for fetching pages corresponding to request._
-      #   * `:backlinks` - {Reality::DataSources::Wikidata::Impl::Modules::GBacklinks} Find all pages that link to the given page. _Generator module: for fetching pages corresponding to request._
-      #   * `:categories` - {Reality::DataSources::Wikidata::Impl::Modules::GCategories} List all categories the pages belong to. _Generator module: for fetching pages corresponding to request._
-      #   * `:categorymembers` - {Reality::DataSources::Wikidata::Impl::Modules::GCategorymembers} List all pages in a given category. _Generator module: for fetching pages corresponding to request._
-      #   * `:deletedrevisions` - {Reality::DataSources::Wikidata::Impl::Modules::GDeletedrevisions} Get deleted revision information. _Generator module: for fetching pages corresponding to request._
-      #   * `:duplicatefiles` - {Reality::DataSources::Wikidata::Impl::Modules::GDuplicatefiles} List all files that are duplicates of the given files based on hash values. _Generator module: for fetching pages corresponding to request._
-      #   * `:embeddedin` - {Reality::DataSources::Wikidata::Impl::Modules::GEmbeddedin} Find all pages that embed (transclude) the given title. _Generator module: for fetching pages corresponding to request._
-      #   * `:exturlusage` - {Reality::DataSources::Wikidata::Impl::Modules::GExturlusage} Enumerate pages that contain a given URL. _Generator module: for fetching pages corresponding to request._
-      #   * `:fileusage` - {Reality::DataSources::Wikidata::Impl::Modules::GFileusage} Find all pages that use the given files. _Generator module: for fetching pages corresponding to request._
-      #   * `:geosearch` - {Reality::DataSources::Wikidata::Impl::Modules::GGeosearch} Returns pages having coordinates that are located in a certain area. _Generator module: for fetching pages corresponding to request._
-      #   * `:images` - {Reality::DataSources::Wikidata::Impl::Modules::GImages} Returns all files contained on the given pages. _Generator module: for fetching pages corresponding to request._
-      #   * `:imageusage` - {Reality::DataSources::Wikidata::Impl::Modules::GImageusage} Find all pages that use the given image title. _Generator module: for fetching pages corresponding to request._
-      #   * `:iwbacklinks` - {Reality::DataSources::Wikidata::Impl::Modules::GIwbacklinks} Find all pages that link to the given interwiki link. _Generator module: for fetching pages corresponding to request._
-      #   * `:langbacklinks` - {Reality::DataSources::Wikidata::Impl::Modules::GLangbacklinks} Find all pages that link to the given language link. _Generator module: for fetching pages corresponding to request._
-      #   * `:links` - {Reality::DataSources::Wikidata::Impl::Modules::GLinks} Returns all links from the given pages. _Generator module: for fetching pages corresponding to request._
-      #   * `:linkshere` - {Reality::DataSources::Wikidata::Impl::Modules::GLinkshere} Find all pages that link to the given pages. _Generator module: for fetching pages corresponding to request._
-      #   * `:messagecollection` - {Reality::DataSources::Wikidata::Impl::Modules::GMessagecollection} Query MessageCollection about translations. _Generator module: for fetching pages corresponding to request._
-      #   * `:mostviewed` - {Reality::DataSources::Wikidata::Impl::Modules::GMostviewed} Lists the most viewed pages (based on last day's pageview count). _Generator module: for fetching pages corresponding to request._
-      #   * `:pageswithprop` - {Reality::DataSources::Wikidata::Impl::Modules::GPageswithprop} List all pages using a given page property. _Generator module: for fetching pages corresponding to request._
-      #   * `:prefixsearch` - {Reality::DataSources::Wikidata::Impl::Modules::GPrefixsearch} Perform a prefix search for page titles. _Generator module: for fetching pages corresponding to request._
-      #   * `:protectedtitles` - {Reality::DataSources::Wikidata::Impl::Modules::GProtectedtitles} List all titles protected from creation. _Generator module: for fetching pages corresponding to request._
-      #   * `:querypage` - {Reality::DataSources::Wikidata::Impl::Modules::GQuerypage} Get a list provided by a QueryPage-based special page. _Generator module: for fetching pages corresponding to request._
-      #   * `:random` - {Reality::DataSources::Wikidata::Impl::Modules::GRandom} Get a set of random pages. _Generator module: for fetching pages corresponding to request._
-      #   * `:recentchanges` - {Reality::DataSources::Wikidata::Impl::Modules::GRecentchanges} Enumerate recent changes. _Generator module: for fetching pages corresponding to request._
-      #   * `:redirects` - {Reality::DataSources::Wikidata::Impl::Modules::GRedirects} Returns all redirects to the given pages. _Generator module: for fetching pages corresponding to request._
-      #   * `:revisions` - {Reality::DataSources::Wikidata::Impl::Modules::GRevisions} Get revision information. _Generator module: for fetching pages corresponding to request._
-      #   * `:search` - {Reality::DataSources::Wikidata::Impl::Modules::GSearch} Perform a full text search. _Generator module: for fetching pages corresponding to request._
-      #   * `:templates` - {Reality::DataSources::Wikidata::Impl::Modules::GTemplates} Returns all pages transcluded on the given pages. _Generator module: for fetching pages corresponding to request._
-      #   * `:transcludedin` - {Reality::DataSources::Wikidata::Impl::Modules::GTranscludedin} Find all pages that transclude the given pages. _Generator module: for fetching pages corresponding to request._
-      #   * `:watchlist` - {Reality::DataSources::Wikidata::Impl::Modules::GWatchlist} Get recent changes to pages in the current user's watchlist. _Generator module: for fetching pages corresponding to request._
-      #   * `:watchlistraw` - {Reality::DataSources::Wikidata::Impl::Modules::GWatchlistraw} Get all pages on the current user's watchlist. _Generator module: for fetching pages corresponding to request._
-      #   * `:wblistentityusage` - {Reality::DataSources::Wikidata::Impl::Modules::GWblistentityusage} Returns all pages that use the given entity IDs. _Generator module: for fetching pages corresponding to request._
-      #   * `:wbsearch` - {Reality::DataSources::Wikidata::Impl::Modules::GWbsearch} Searches for entities using labels and aliases. This can be used as a generator for other queries. Returns the matched term that should be displayed. _Generator module: for fetching pages corresponding to request._
+      #   * `:allcategories` - {Reality::Describers::Wikidata::Impl::Modules::GAllcategories} Enumerate all categories. _Generator module: for fetching pages corresponding to request._
+      #   * `:alldeletedrevisions` - {Reality::Describers::Wikidata::Impl::Modules::GAlldeletedrevisions} List all deleted revisions by a user or in a namespace. _Generator module: for fetching pages corresponding to request._
+      #   * `:allfileusages` - {Reality::Describers::Wikidata::Impl::Modules::GAllfileusages} List all file usages, including non-existing. _Generator module: for fetching pages corresponding to request._
+      #   * `:allimages` - {Reality::Describers::Wikidata::Impl::Modules::GAllimages} Enumerate all images sequentially. _Generator module: for fetching pages corresponding to request._
+      #   * `:alllinks` - {Reality::Describers::Wikidata::Impl::Modules::GAlllinks} Enumerate all links that point to a given namespace. _Generator module: for fetching pages corresponding to request._
+      #   * `:allpages` - {Reality::Describers::Wikidata::Impl::Modules::GAllpages} Enumerate all pages sequentially in a given namespace. _Generator module: for fetching pages corresponding to request._
+      #   * `:allredirects` - {Reality::Describers::Wikidata::Impl::Modules::GAllredirects} List all redirects to a namespace. _Generator module: for fetching pages corresponding to request._
+      #   * `:allrevisions` - {Reality::Describers::Wikidata::Impl::Modules::GAllrevisions} List all revisions. _Generator module: for fetching pages corresponding to request._
+      #   * `:alltransclusions` - {Reality::Describers::Wikidata::Impl::Modules::GAlltransclusions} List all transclusions (pages embedded using {{x}}), including non-existing. _Generator module: for fetching pages corresponding to request._
+      #   * `:backlinks` - {Reality::Describers::Wikidata::Impl::Modules::GBacklinks} Find all pages that link to the given page. _Generator module: for fetching pages corresponding to request._
+      #   * `:categories` - {Reality::Describers::Wikidata::Impl::Modules::GCategories} List all categories the pages belong to. _Generator module: for fetching pages corresponding to request._
+      #   * `:categorymembers` - {Reality::Describers::Wikidata::Impl::Modules::GCategorymembers} List all pages in a given category. _Generator module: for fetching pages corresponding to request._
+      #   * `:deletedrevisions` - {Reality::Describers::Wikidata::Impl::Modules::GDeletedrevisions} Get deleted revision information. _Generator module: for fetching pages corresponding to request._
+      #   * `:duplicatefiles` - {Reality::Describers::Wikidata::Impl::Modules::GDuplicatefiles} List all files that are duplicates of the given files based on hash values. _Generator module: for fetching pages corresponding to request._
+      #   * `:embeddedin` - {Reality::Describers::Wikidata::Impl::Modules::GEmbeddedin} Find all pages that embed (transclude) the given title. _Generator module: for fetching pages corresponding to request._
+      #   * `:exturlusage` - {Reality::Describers::Wikidata::Impl::Modules::GExturlusage} Enumerate pages that contain a given URL. _Generator module: for fetching pages corresponding to request._
+      #   * `:fileusage` - {Reality::Describers::Wikidata::Impl::Modules::GFileusage} Find all pages that use the given files. _Generator module: for fetching pages corresponding to request._
+      #   * `:geosearch` - {Reality::Describers::Wikidata::Impl::Modules::GGeosearch} Returns pages having coordinates that are located in a certain area. _Generator module: for fetching pages corresponding to request._
+      #   * `:images` - {Reality::Describers::Wikidata::Impl::Modules::GImages} Returns all files contained on the given pages. _Generator module: for fetching pages corresponding to request._
+      #   * `:imageusage` - {Reality::Describers::Wikidata::Impl::Modules::GImageusage} Find all pages that use the given image title. _Generator module: for fetching pages corresponding to request._
+      #   * `:iwbacklinks` - {Reality::Describers::Wikidata::Impl::Modules::GIwbacklinks} Find all pages that link to the given interwiki link. _Generator module: for fetching pages corresponding to request._
+      #   * `:langbacklinks` - {Reality::Describers::Wikidata::Impl::Modules::GLangbacklinks} Find all pages that link to the given language link. _Generator module: for fetching pages corresponding to request._
+      #   * `:links` - {Reality::Describers::Wikidata::Impl::Modules::GLinks} Returns all links from the given pages. _Generator module: for fetching pages corresponding to request._
+      #   * `:linkshere` - {Reality::Describers::Wikidata::Impl::Modules::GLinkshere} Find all pages that link to the given pages. _Generator module: for fetching pages corresponding to request._
+      #   * `:messagecollection` - {Reality::Describers::Wikidata::Impl::Modules::GMessagecollection} Query MessageCollection about translations. _Generator module: for fetching pages corresponding to request._
+      #   * `:mostviewed` - {Reality::Describers::Wikidata::Impl::Modules::GMostviewed} Lists the most viewed pages (based on last day's pageview count). _Generator module: for fetching pages corresponding to request._
+      #   * `:pageswithprop` - {Reality::Describers::Wikidata::Impl::Modules::GPageswithprop} List all pages using a given page property. _Generator module: for fetching pages corresponding to request._
+      #   * `:prefixsearch` - {Reality::Describers::Wikidata::Impl::Modules::GPrefixsearch} Perform a prefix search for page titles. _Generator module: for fetching pages corresponding to request._
+      #   * `:protectedtitles` - {Reality::Describers::Wikidata::Impl::Modules::GProtectedtitles} List all titles protected from creation. _Generator module: for fetching pages corresponding to request._
+      #   * `:querypage` - {Reality::Describers::Wikidata::Impl::Modules::GQuerypage} Get a list provided by a QueryPage-based special page. _Generator module: for fetching pages corresponding to request._
+      #   * `:random` - {Reality::Describers::Wikidata::Impl::Modules::GRandom} Get a set of random pages. _Generator module: for fetching pages corresponding to request._
+      #   * `:recentchanges` - {Reality::Describers::Wikidata::Impl::Modules::GRecentchanges} Enumerate recent changes. _Generator module: for fetching pages corresponding to request._
+      #   * `:redirects` - {Reality::Describers::Wikidata::Impl::Modules::GRedirects} Returns all redirects to the given pages. _Generator module: for fetching pages corresponding to request._
+      #   * `:revisions` - {Reality::Describers::Wikidata::Impl::Modules::GRevisions} Get revision information. _Generator module: for fetching pages corresponding to request._
+      #   * `:search` - {Reality::Describers::Wikidata::Impl::Modules::GSearch} Perform a full text search. _Generator module: for fetching pages corresponding to request._
+      #   * `:templates` - {Reality::Describers::Wikidata::Impl::Modules::GTemplates} Returns all pages transcluded on the given pages. _Generator module: for fetching pages corresponding to request._
+      #   * `:transcludedin` - {Reality::Describers::Wikidata::Impl::Modules::GTranscludedin} Find all pages that transclude the given pages. _Generator module: for fetching pages corresponding to request._
+      #   * `:watchlist` - {Reality::Describers::Wikidata::Impl::Modules::GWatchlist} Get recent changes to pages in the current user's watchlist. _Generator module: for fetching pages corresponding to request._
+      #   * `:watchlistraw` - {Reality::Describers::Wikidata::Impl::Modules::GWatchlistraw} Get all pages on the current user's watchlist. _Generator module: for fetching pages corresponding to request._
+      #   * `:wblistentityusage` - {Reality::Describers::Wikidata::Impl::Modules::GWblistentityusage} Returns all pages that use the given entity IDs. _Generator module: for fetching pages corresponding to request._
+      #   * `:wbsearch` - {Reality::Describers::Wikidata::Impl::Modules::GWbsearch} Searches for entities using labels and aliases. This can be used as a generator for other queries. Returns the matched term that should be displayed. _Generator module: for fetching pages corresponding to request._
       # @return [self]
       def generator(value)
         _generator(value) or fail ArgumentError, "Unknown value for generator: #{value}"

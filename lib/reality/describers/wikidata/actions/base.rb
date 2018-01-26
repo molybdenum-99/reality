@@ -2,7 +2,7 @@
 
 require_relative '../response'
 
-module Reality::DataSources::Wikidata::Impl
+module Reality::Describers::Wikidata::Impl
   module Actions
     # Global setup methods included into every action through {Base}.
     module GlobalParams
@@ -10,14 +10,14 @@ module Reality::DataSources::Wikidata::Impl
       # The format of the output.
       #
       # @param value [Symbol] Selecting an option includes tweaking methods from corresponding module:
-      #   * `:json` - {Reality::DataSources::Wikidata::Impl::Modules::Json} Output data in JSON format.
-      #   * `:jsonfm` - {Reality::DataSources::Wikidata::Impl::Modules::Jsonfm} Output data in JSON format (pretty-print in HTML).
-      #   * `:none` - {Reality::DataSources::Wikidata::Impl::Modules::None} Output nothing.
-      #   * `:php` - {Reality::DataSources::Wikidata::Impl::Modules::Php} Output data in serialized PHP format.
-      #   * `:phpfm` - {Reality::DataSources::Wikidata::Impl::Modules::Phpfm} Output data in serialized PHP format (pretty-print in HTML).
-      #   * `:rawfm` - {Reality::DataSources::Wikidata::Impl::Modules::Rawfm} Output data, including debugging elements, in JSON format (pretty-print in HTML).
-      #   * `:xml` - {Reality::DataSources::Wikidata::Impl::Modules::Xml} Output data in XML format.
-      #   * `:xmlfm` - {Reality::DataSources::Wikidata::Impl::Modules::Xmlfm} Output data in XML format (pretty-print in HTML).
+      #   * `:json` - {Reality::Describers::Wikidata::Impl::Modules::Json} Output data in JSON format.
+      #   * `:jsonfm` - {Reality::Describers::Wikidata::Impl::Modules::Jsonfm} Output data in JSON format (pretty-print in HTML).
+      #   * `:none` - {Reality::Describers::Wikidata::Impl::Modules::None} Output nothing.
+      #   * `:php` - {Reality::Describers::Wikidata::Impl::Modules::Php} Output data in serialized PHP format.
+      #   * `:phpfm` - {Reality::Describers::Wikidata::Impl::Modules::Phpfm} Output data in serialized PHP format (pretty-print in HTML).
+      #   * `:rawfm` - {Reality::Describers::Wikidata::Impl::Modules::Rawfm} Output data, including debugging elements, in JSON format (pretty-print in HTML).
+      #   * `:xml` - {Reality::Describers::Wikidata::Impl::Modules::Xml} Output data in XML format.
+      #   * `:xmlfm` - {Reality::Describers::Wikidata::Impl::Modules::Xmlfm} Output data in XML format (pretty-print in HTML).
       # @return [self]
       def format(value)
         _format(value) or fail ArgumentError, "Unknown value for format: #{value}"
@@ -156,12 +156,12 @@ module Reality::DataSources::Wikidata::Impl
 
     end
 
-    # Base class for all {Reality::DataSources::Wikidata::Impl::Api} actions. "Actions" is MediaWiki's term for
+    # Base class for all {Reality::Describers::Wikidata::Impl::Api} actions. "Actions" is MediaWiki's term for
     # different request types. Everything you are doing with your target MediaWiki installation, you
     # are doing by _performing actions_.
     #
     # Typically, you should never instantiate this class or its descendants directly, but rather by
-    # {Reality::DataSources::Wikidata::Impl::Api Api} methods (included from {Reality::DataSources::Wikidata::Impl::Actions Actions}
+    # {Reality::Describers::Wikidata::Impl::Api Api} methods (included from {Reality::Describers::Wikidata::Impl::Actions Actions}
     # module).
     #
     # The usual workflow with actions is:
@@ -169,7 +169,7 @@ module Reality::DataSources::Wikidata::Impl
     # * Create it with `api.action_name`
     # * Set action params with subsequent `paramname(paramvalue)` calls;
     # * Perform action with {#perform} (returns row MediaWiki response as a string) or {#response}
-    #   (returns {Reality::DataSources::Wikidata::Impl::Response} class with parsed data and helper methods).
+    #   (returns {Reality::Describers::Wikidata::Impl::Response} class with parsed data and helper methods).
     #
     # Note that some of `paramname(value)` calls include new {Modules} into action, which provides
     # new params & methods. For example:

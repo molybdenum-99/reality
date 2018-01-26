@@ -1,11 +1,11 @@
 # frozen_string_literal: true
 
-module Reality::DataSources::Wikidata::Impl
+module Reality::Describers::Wikidata::Impl
   module Modules
     # Get the Wikidata terms (typically labels, descriptions and aliases) associated with a page via a sitelink. On the entity page itself, the terms are used directly. Caveat: On a repo wiki, this module only works directly on entity pages, not on pages connected to an entity via a sitelink. This may change in the future.
     #
     # The "submodule" (MediaWiki API term) is included in action after setting some param, providing
-    # additional tweaking for this param. Example (for {Reality::DataSources::Wikidata::Impl::Actions::Query} and
+    # additional tweaking for this param. Example (for {Reality::Describers::Wikidata::Impl::Actions::Query} and
     # its submodules):
     #
     # ```ruby

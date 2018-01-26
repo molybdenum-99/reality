@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module Reality::DataSources::Wikidata::Impl
+module Reality::Describers::Wikidata::Impl
   module Actions
     # Allows actions to be taken on Flow pages.
     #
@@ -13,35 +13,35 @@ module Reality::DataSources::Wikidata::Impl
     # ```
     #
     # See {Base} for generic explanation of working with MediaWiki actions and
-    # {Reality::DataSources::Wikidata::Impl::Response} for working with action responses.
+    # {Reality::Describers::Wikidata::Impl::Response} for working with action responses.
     #
     # All action's parameters are documented as its public methods, see below.
     #
-    class Flow < Reality::DataSources::Wikidata::Impl::Actions::Get
+    class Flow < Reality::Describers::Wikidata::Impl::Actions::Get
 
       # The Flow submodule to invoke.
       #
       # @param value [Symbol] Selecting an option includes tweaking methods from corresponding module:
-      #   * `:close-open-topic` - {Reality::DataSources::Wikidata::Impl::Modules::CloseOpenTopic} Deprecated in favor of action=flow&submodule=lock-topic.
-      #   * `:edit-header` - {Reality::DataSources::Wikidata::Impl::Modules::EditHeader} Edits a board description.
-      #   * `:edit-post` - {Reality::DataSources::Wikidata::Impl::Modules::EditPost} Edits a post's content.
-      #   * `:edit-title` - {Reality::DataSources::Wikidata::Impl::Modules::EditTitle} Edits a topic's title.
-      #   * `:edit-topic-summary` - {Reality::DataSources::Wikidata::Impl::Modules::EditTopicSummary} Edits a topic summary's content.
-      #   * `:lock-topic` - {Reality::DataSources::Wikidata::Impl::Modules::LockTopic} Lock or unlock a Flow topic.
-      #   * `:moderate-post` - {Reality::DataSources::Wikidata::Impl::Modules::ModeratePost} Moderates a Flow post.
-      #   * `:moderate-topic` - {Reality::DataSources::Wikidata::Impl::Modules::ModerateTopic} Moderates a Flow topic.
-      #   * `:new-topic` - {Reality::DataSources::Wikidata::Impl::Modules::NewTopic} Creates a new Flow topic on the given workflow.
-      #   * `:reply` - {Reality::DataSources::Wikidata::Impl::Modules::Reply} Replies to a post.
-      #   * `:undo-edit-header` - {Reality::DataSources::Wikidata::Impl::Modules::UndoEditHeader} Retrieve information necessary to undo description edits.
-      #   * `:undo-edit-post` - {Reality::DataSources::Wikidata::Impl::Modules::UndoEditPost} Retrieve information necesary to undo post edit.
-      #   * `:undo-edit-topic-summary` - {Reality::DataSources::Wikidata::Impl::Modules::UndoEditTopicSummary} Retrieve information necessary to undo topic summary edits.
-      #   * `:view-header` - {Reality::DataSources::Wikidata::Impl::Modules::ViewHeader} View a board description.
-      #   * `:view-post` - {Reality::DataSources::Wikidata::Impl::Modules::ViewPost} View a post.
-      #   * `:view-post-history` - {Reality::DataSources::Wikidata::Impl::Modules::ViewPostHistory} View the revision history of a post.
-      #   * `:view-topic` - {Reality::DataSources::Wikidata::Impl::Modules::ViewTopic} View a topic.
-      #   * `:view-topic-history` - {Reality::DataSources::Wikidata::Impl::Modules::ViewTopicHistory} View the revision history of a topic.
-      #   * `:view-topic-summary` - {Reality::DataSources::Wikidata::Impl::Modules::ViewTopicSummary} View a topic summary.
-      #   * `:view-topiclist` - {Reality::DataSources::Wikidata::Impl::Modules::ViewTopiclist} View a list of topics.
+      #   * `:close-open-topic` - {Reality::Describers::Wikidata::Impl::Modules::CloseOpenTopic} Deprecated in favor of action=flow&submodule=lock-topic.
+      #   * `:edit-header` - {Reality::Describers::Wikidata::Impl::Modules::EditHeader} Edits a board description.
+      #   * `:edit-post` - {Reality::Describers::Wikidata::Impl::Modules::EditPost} Edits a post's content.
+      #   * `:edit-title` - {Reality::Describers::Wikidata::Impl::Modules::EditTitle} Edits a topic's title.
+      #   * `:edit-topic-summary` - {Reality::Describers::Wikidata::Impl::Modules::EditTopicSummary} Edits a topic summary's content.
+      #   * `:lock-topic` - {Reality::Describers::Wikidata::Impl::Modules::LockTopic} Lock or unlock a Flow topic.
+      #   * `:moderate-post` - {Reality::Describers::Wikidata::Impl::Modules::ModeratePost} Moderates a Flow post.
+      #   * `:moderate-topic` - {Reality::Describers::Wikidata::Impl::Modules::ModerateTopic} Moderates a Flow topic.
+      #   * `:new-topic` - {Reality::Describers::Wikidata::Impl::Modules::NewTopic} Creates a new Flow topic on the given workflow.
+      #   * `:reply` - {Reality::Describers::Wikidata::Impl::Modules::Reply} Replies to a post.
+      #   * `:undo-edit-header` - {Reality::Describers::Wikidata::Impl::Modules::UndoEditHeader} Retrieve information necessary to undo description edits.
+      #   * `:undo-edit-post` - {Reality::Describers::Wikidata::Impl::Modules::UndoEditPost} Retrieve information necesary to undo post edit.
+      #   * `:undo-edit-topic-summary` - {Reality::Describers::Wikidata::Impl::Modules::UndoEditTopicSummary} Retrieve information necessary to undo topic summary edits.
+      #   * `:view-header` - {Reality::Describers::Wikidata::Impl::Modules::ViewHeader} View a board description.
+      #   * `:view-post` - {Reality::Describers::Wikidata::Impl::Modules::ViewPost} View a post.
+      #   * `:view-post-history` - {Reality::Describers::Wikidata::Impl::Modules::ViewPostHistory} View the revision history of a post.
+      #   * `:view-topic` - {Reality::Describers::Wikidata::Impl::Modules::ViewTopic} View a topic.
+      #   * `:view-topic-history` - {Reality::Describers::Wikidata::Impl::Modules::ViewTopicHistory} View the revision history of a topic.
+      #   * `:view-topic-summary` - {Reality::Describers::Wikidata::Impl::Modules::ViewTopicSummary} View a topic summary.
+      #   * `:view-topiclist` - {Reality::Describers::Wikidata::Impl::Modules::ViewTopiclist} View a list of topics.
       # @return [self]
       def submodule(value)
         _submodule(value) or fail ArgumentError, "Unknown value for submodule: #{value}"

@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module Reality::DataSources::Wikidata::Impl
+module Reality::Describers::Wikidata::Impl
   module Actions
     # Unblocks a user from receiving autopromotions due to an abusefilter consequence.
     #
@@ -13,11 +13,11 @@ module Reality::DataSources::Wikidata::Impl
     # ```
     #
     # See {Base} for generic explanation of working with MediaWiki actions and
-    # {Reality::DataSources::Wikidata::Impl::Response} for working with action responses.
+    # {Reality::Describers::Wikidata::Impl::Response} for working with action responses.
     #
     # All action's parameters are documented as its public methods, see below.
     #
-    class Abusefilterunblockautopromote < Reality::DataSources::Wikidata::Impl::Actions::Post
+    class Abusefilterunblockautopromote < Reality::Describers::Wikidata::Impl::Actions::Post
 
       # Username of the user you want to unblock.
       #

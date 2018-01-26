@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module Reality::DataSources::Wikidata::Impl
+module Reality::Describers::Wikidata::Impl
   module Actions
     # Link an account from a third-party provider to the current user.
     #
@@ -13,11 +13,11 @@ module Reality::DataSources::Wikidata::Impl
     # ```
     #
     # See {Base} for generic explanation of working with MediaWiki actions and
-    # {Reality::DataSources::Wikidata::Impl::Response} for working with action responses.
+    # {Reality::Describers::Wikidata::Impl::Response} for working with action responses.
     #
     # All action's parameters are documented as its public methods, see below.
     #
-    class Linkaccount < Reality::DataSources::Wikidata::Impl::Actions::Post
+    class Linkaccount < Reality::Describers::Wikidata::Impl::Actions::Post
 
       # Only use these authentication requests, by the id returned from action=query&meta=authmanagerinfo with amirequestsfor=link or from a previous response from this module.
       #
