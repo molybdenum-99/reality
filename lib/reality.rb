@@ -1,9 +1,10 @@
 require 'yaml'
 require 'pp'
-require 'backports/2.5.0/kernel'
+require 'backports/latest'
 require 'memoist'
 require 'geo/coord'
 require 'tz_offset'
+require 'fileutils'
 
 # Reality is library for accessing all world data, starting from Wikipedia.
 #
@@ -21,7 +22,7 @@ module Reality
 
   # basic functionality
   require_ %w[version refinements config measure tz_offset date]
-  require_ %w[util/parsers util/formatters]
+  require_ %w[util util/parsers util/formatters]
 
   # engines
   #require_ %w[infoboxer_templates]

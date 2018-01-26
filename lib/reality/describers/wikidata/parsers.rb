@@ -4,18 +4,21 @@ module Reality
       module Parsers
         module_function
 
-        def snak(snak, units)
+        def snak(snak, cache)
+          return nil if snak.dig('mainsnak', 'snaktype') == 'novalue'
+
           datavalue = snak.dig('mainsnak', 'datavalue')
           value = datavalue.fetch('value')
           # TODO: snack qualifiers:
           #   time
+          #   relates to part... - ???
           case datavalue.fetch('type')
           when 'string'
             string_snak(value, snak.dig('mainsnak', 'datatype'))
           when 'wikibase-entityid'
             Link.new('wikidata', value['id'])
           when 'quantity'
-            Measure[units.get(value['unit'])].new(value['amount'].to_f)
+            Measure[fetch_unit(value['unit'], cache)].new(value['amount'].to_f)
           when 'monolingualtext'
             value['language'] == 'en' ? value['text'] : nil
           when 'globecoordinate'
@@ -45,6 +48,14 @@ module Reality
           else
             fail("Unknown snak type #{snak}")
           end
+        end
+
+        def fetch_unit(url, cache)
+          # TODO: Measure[nil].new(1) #=> 1
+          # TODO: square_kilometers => km² and so on
+          return 'item' if url == '1'
+          id = url.scan(%r{entity/(Q.+)}).flatten.first or fail("Unparseable unit #{u}")
+          cache[id].gsub(/[^a-z0-9]/i, '_')
         end
       end
     end
