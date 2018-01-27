@@ -1,9 +1,7 @@
-require 'hashie'
-
 module Reality
   class Config
     attr_reader :keys, :data
-    
+
     def initialize
       @keys = {}
       @data = {}.extend Hashie::Extensions::DeepFetch
@@ -26,7 +24,7 @@ module Reality
         end
       }
     end
-    
+
     def register(*path, **opts)
       @keys[path] = opts
     end

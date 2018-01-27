@@ -1,6 +1,4 @@
 module Reality
-  using Refinements
-
   module Describers
     class Wikipedia
       module NameJoiner

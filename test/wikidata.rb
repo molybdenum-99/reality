@@ -2,7 +2,6 @@
 
 require_relative '_base'
 require 'reality'
-require 'reality/describers/wikidata'
 
 titles = ARGV.dup
 

@@ -1,6 +1,4 @@
 module Reality
-  using Refinements
-
   class Entity
     extend Memoist
 
