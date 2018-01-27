@@ -16,6 +16,9 @@ module Reality
           .map { |name, *arg| obs(id, name, *arg) }
       end
 
+      def query(predicates)
+      end
+
       private
 
       def prefix

@@ -24,7 +24,7 @@ module Reality
         type, id = id.split(':')
         query = type == 'rel' ? QUERY_REL % {osm_id: id} : QUERY_NODE % {osm_id: id}
         faraday.get('', data: query).body
-          .yield_self(&JSON.method(:parse))['elements']
+          .yield_self(&JSON.method(:parse)).fetch('elements')
           .yield_self { |els| parse_relation(els.last, els[0..-2]) }
       end
 
@@ -69,6 +69,7 @@ module Reality
             } || {}
           )
           .map { |k, v| post_process(k, v) }
+          .reject { |k, _| k.match(/:([a-z]{2})(-[a-z]+)?$/) && Regexp.last_match[1] != 'en' }
           .to_h
       end
 

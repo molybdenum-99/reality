@@ -3,9 +3,7 @@
 require 'bundler/setup'
 $LOAD_PATH.unshift 'lib'
 require 'reality'
-require 'reality/data_sources/open_street_map'
-module Reality::DataSources::Wikidata; end
-require 'reality/data_sources/wikidata/api'
+require 'reality/describers/open_street_map'
 require 'pp'
 
 title = ARGV.first
