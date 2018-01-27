@@ -35,7 +35,7 @@ module Reality
     end
 
     def load
-      Reality.describers[source].get(id)
+      Reality.describers.fetch(source).get(id)
     end
   end
 end

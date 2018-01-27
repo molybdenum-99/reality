@@ -82,3 +82,5 @@ end
 require_relative 'wikidata/api'
 require_relative 'wikidata/parsers'
 require_relative 'wikidata/labels_cache'
+
+Reality.describers['wikidata'] = Reality::Describers::Wikidata.new

@@ -9,7 +9,7 @@ module Reality
     end
 
     def wikipedia
-      describers[:wikipedia]
+      describers['wikipedia']
     end
   end
 end

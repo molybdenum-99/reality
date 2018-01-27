@@ -5,6 +5,28 @@ module Reality
 
       API_URL = Infoboxer.url_for(:wikipedia)
 
+      def query(args = {})
+        if args.key?(:category)
+          category = case (c = args[:category])
+          when Link
+            # FIXME: in future, for other language wikis, we can't do this, they may have _local_
+            # category names.
+            c.source == 'wikipedia:en' or fail ArgumentError, "Wrong source #{c.source}"
+            c.id =~ /^category:(.+)$/i or fail ArgumentError, "Wrong Wikipedia page (not a category) #{c.id}"
+            Regexp.last_match[1]
+          when String
+            c.sub(/^category:/i, '')
+          else
+            fail ArgumentError, "Not a link #{c.inspect}"
+          end
+          internal.api.query.list(:categorymembers).title('Category:' + category)
+            .response['categorymembers']
+            .map { |m| m.fetch('title') }
+            .flatten
+            .map { |title| Link.new(prefix, title) }
+        end
+      end
+
       private
 
       def prefix
@@ -70,4 +92,4 @@ end
 %w[simplifier templates parsers name_joiner].each { |f| require_relative "wikipedia/#{f}" }
 
 # FIXME: :philosoraptor:
-Reality.describers[:wikipedia] = Reality::Describers::Wikipedia.new
+Reality.describers['wikipedia'] = Reality.describers['wikipedia:en'] = Reality::Describers::Wikipedia.new
