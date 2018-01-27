@@ -39,6 +39,10 @@ module Reality
         aliases: ['aliases', 'en', :*, 'value'],
       }
 
+      KNOWN_SITES = {
+        'enwiki' => 'wikipedia:en'
+      }
+
       def process_basics(entity)
         METADATA_FETCHERS.map { |key, path|
           ["meta.#{key}", Util.dig(entity, *path)]
@@ -47,8 +51,12 @@ module Reality
 
       def process_sitelinks(entity)
         Array(entity['sitelinks']).select { |key, _| key.start_with?('en') }
-          .map { |key, link| Link.new(key, link.fetch('title')) }
+          .map { |key, link| Link.new(describer_for(key), link.fetch('title')) }
           .yield_self { |links| [['meta.sitelinks', links]] }
+      end
+
+      def describer_for(siteid)
+        KNOWN_SITES.fetch(siteid, siteid)
       end
 
       def process_claims(entity)

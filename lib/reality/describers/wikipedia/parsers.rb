@@ -80,9 +80,9 @@ module Reality
         def try_make_measure(label, val)
           return val unless val.is_a?(Numeric)
           case label
-          when /^population_density_(.*)km2$/
+          when /^population_density_/
             'people/km²'
-          when /^population_(?!density|as_of)/
+          when /^population_(?!density|as_of|date)/, /^population$/i
             'people'
           when /(?<!density)_km2$/
             'km²'

@@ -12,7 +12,9 @@ module Reality
       end
 
       def setup_request(request)
-        request.prop(:pageimages).prop(:thumbnail, :original)
+        request
+          .prop(:pageimages).prop(:thumbnail, :original) # main image of the page
+          .prop(:wbentityusage).aspect('O') # links to wikidata, only "O" aspect (which means "Other", which somehow stands for "main entity")
       end
 
       def parse_page(page)
@@ -27,6 +29,7 @@ module Reality
           ['meta.url', page.url],
           ['meta.image', page.source.dig('original', 'source')],
           ['meta.thumb', page.source.dig('thumbnail', 'source')],
+          ['meta.wikidata', page.source['wbentityusage']&.keys&.first&.yield_self { |id| id && Link.new('wikidata', id) }]
         ].select(&:last)
       end
 

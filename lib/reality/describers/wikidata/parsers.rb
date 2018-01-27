@@ -41,7 +41,7 @@ module Reality
           # TODO: find list of all types!!!
           case type
           when 'commonsMedia'
-            Link.new('wikimedia-commons', value)
+            Link.new('wikimedia-commons', "File:#{value}")
           when *%w[string url math external-id]
             # TODO: external id + property name => link
             value

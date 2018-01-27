@@ -45,6 +45,6 @@ Gem::Specification.new do |s|
   #s.add_dependency 'geo_coord'
   s.add_dependency 'tlaw'
   s.add_dependency 'money'
-  s.add_dependency 'tz_offset'
+  s.add_dependency 'tz_offset', '>= 0.0.4'
   s.add_dependency 'memoist'
 end
