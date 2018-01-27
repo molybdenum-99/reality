@@ -3,8 +3,9 @@ module Reality
     class Wikidata
       # Cache able to do `cache['Q212'] # => 'Ukraine'` and batch-fetching of new values.
       #
-      # From external point of view, it just "knows" where to take what need labels for entity, fetch
-      # all of it in as few requests as possible, and store in cache for further access as cache[wikidata_id]
+      # From external point of view, it just "knows" where in entity structure labels are, fetches
+      # all of them in as few requests as possible, and store in cache for further access as
+      # `cache[wikidata_id]`.
       #
       # From internal point of view, it stores several different cache files separately:
       # * unit names;
@@ -30,8 +31,8 @@ module Reality
           values = claims.values.flatten(1)
           cache_facets(
             properties: claims.keys,
-            entities: Util.dig(values, *LINKS_PATH).compact,
-            links: Util.dig(values, *UNITS_PATH).compact.grep_v('1').map(&method(:url2id))
+            entities: Util.dig(values, *LINKS_PATH).grep_v('id').compact,
+            units: Util.dig(values, *UNITS_PATH).compact.grep_v('1').map(&method(:url2id))
           )
         end
 
