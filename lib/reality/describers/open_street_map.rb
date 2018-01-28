@@ -2,88 +2,41 @@ require 'faraday'
 require 'json'
 
 module Reality
-  using Refinements
+  module Describers
+    class OpenStreetMap < Abstract::Base
+      QUERY_REL = %{
+        [out:json];
+        rel(%{osm_id});
+        out tags;
+      }.freeze
 
-  QUERY_REL = %{
-    [out:json];
-    rel(%{osm_id})->.main;
-    (node(r.main); way(r.main););
-    out tags;
-    .main out;
-  }.freeze
+      QUERY_NODE = %{
+        [out:json];
+        node(%{osm_id});
+        out;
+      }.freeze
 
-  QUERY_NODE = %{
-    [out:json];
-    node(%{osm_id});
-    out;
-  }.freeze
-
-  module DataSources
-    class OpenStreetMap
-      def get(id)
-        type, id = id.split(':')
-        query = type == 'rel' ? QUERY_REL % {osm_id: id} : QUERY_NODE % {osm_id: id}
-        faraday.get('', data: query).body
-          .yield_self(&JSON.method(:parse)).fetch('elements')
-          .yield_self { |els| parse_relation(els.last, els[0..-2]) }
+      def observations_for(full_id)
+        type, id = full_id.split(':')
+        # FIXME: really temp!
+        q = type == 'rel' ? QUERY_REL % {osm_id: id} : QUERY_NODE % {osm_id: id}
+        query(q).fetch('elements').first
+          .yield_self(&method(:parse_element))
+          .map { |name, val| obs(full_id, name, val) }
       end
 
       private
 
-      def faraday
-        @faraday ||= Faraday.new('http://overpass-api.de/api/interpreter')
+      def prefix
+        'osm'
       end
 
-      def parse_relation(rel, members)
-        members = members
-          .select { |m| m['tags']&.key?('name') }
-          .map { |m| [m['id'], m] }.to_h
-        {'id' => rel['id']}
-          .merge(rel['tags'])
-          .yield_self { |res|
-            if label_ref = rel['members']&.detect { |m| m['role'] == 'label' }
-              label = members.delete(label_ref['ref'])
-              res.merge('label_id' => "node:#{label['id']}").merge(label['tags'])
-            elsif admin_centre_ref = rel['members']&.detect { |m| m['role'] == 'admin_centre' }
-              centre = members[admin_centre_ref['ref']]
-              admin_centre = if (centre['tags']['name:en'] || centre['tags']['name']) == (rel['tags']['name:en'] || rel['tags']['name'])
-                members.delete(admin_centre_ref['ref'])
-              end
-              if admin_centre
-                res.merge('label_id' => "node:#{admin_centre['id']}").merge(admin_centre['tags'])
-              else
-                res
-              end
-            else
-              res
-            end
-          }
-          .merge(
-            rel['members']&.yield_self { |rel_members|
-              rel_members
-              .group_by { |m| m['role'] }
-              .map { |role, ms| [role, ms.map { |m| members[m['ref']] }.compact.yield_self(&method(:group_members))] }
-              .reject { |role, ms| ms.empty? }
-              .sort_by(&:first)
-              .to_h
-            } || {}
-          )
+      def parse_element(el)
+        {'meta.id' => el.values_at('type', 'id').join(':')}
+          .merge(el.fetch('tags'))
           .map { |k, v| post_process(k, v) }
-          .reject { |k, _| k.match(/:([a-z]{2})(-[a-z]+)?$/) && Regexp.last_match[1] != 'en' }
+          .reject { |k, _| k.match(/:([a-z]{2,3})([-_][-_a-z]+)?$/) && Regexp.last_match[1] != 'en' }
           .to_h
-      end
-
-      def group_members(ms)
-        ms
-          .map { |m| {id: "#{m['type']}:#{m['id']}", name: (m['tags']['name:en'] || m['tags']['name'])} }
-          .group_by { |m| m[:name] }
-          .map { |name, ms|
-            if ms.count <= 5
-              "#<Link[#{ms.map{|m| m[:id]}.join(',')}] #{name}>"
-            else
-              "#<Link[#{ms.map{|m| m[:id]}.first(5).join(',')}...#{ms.count - 5} more...] #{name}>"
-            end
-          }
       end
 
       def post_process(key, value)
@@ -92,10 +45,24 @@ module Reality
           Measure['person'].new(value.to_i)
         when 'sqkm'
           Measure['km²'].new(value.to_f)
+        when 'wikidata'
+          Link.new('wikidata', value)
+        when 'wikipedia'
+          lang, title = value.split(':', 2)
+          Link.new("wikipedia:#{lang}", title)
         else
           value
         end
         [key, value]
+      end
+
+      def faraday
+        @faraday ||= Faraday.new('http://overpass-api.de/api/interpreter')
+      end
+
+      def query(text)
+        faraday.post('', data: text).body.yield_self(&JSON.method(:parse))
+        # TODO: It returns HTML error on wrong queries
       end
     end
   end

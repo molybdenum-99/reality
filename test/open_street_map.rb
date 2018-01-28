@@ -19,9 +19,10 @@ else
   "rel:#{osm_id}"
 end
 
-source = Reality::DataSources::OpenStreetMap.new
+source = Reality::Describers::OpenStreetMap.new
 
 puts "#{title}\n" + "="*title.length + "\n"
 
-observations = source.get(id)
-observations.each { |name, val| puts '%s: %p' % [name, val] }
+entity = source.get(id)
+#observations.each { |name, val| puts '%s: %p' % [name, val] }
+puts entity.describe
