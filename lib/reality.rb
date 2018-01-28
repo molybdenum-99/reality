@@ -31,7 +31,7 @@ module Reality
   USER_AGENT = "Reality/#{VERSION} (https://github.com/molybdenum-99/reality; zverok.offline@gmail.com)"
 
   # entities
-  require_ %w[observation link entity list]
+  require_ %w[observation link query entity]
 
   # particular describers
   require_ %w[

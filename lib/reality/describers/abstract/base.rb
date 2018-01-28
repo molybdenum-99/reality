@@ -9,6 +9,10 @@ module Reality
           observations_for(id).yield_self(&method(:make_entities)).first
         end
 
+        def query(params)
+          Query.new(prefix, params)
+        end
+
         memoize def log
           Logger.new(STDOUT)
         end

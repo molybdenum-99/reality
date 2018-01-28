@@ -5,9 +5,9 @@ module Reality
 
       API_URL = Infoboxer.url_for(:wikipedia)
 
-      def query(args = {})
-        if args.key?(:category)
-          category = case (c = args[:category])
+      def perform_query(params = {})
+        if params.key?(:category)
+          category = case (c = params[:category])
           when Link
             # FIXME: in future, for other language wikis, we can't do this, they may have _local_
             # category names.
@@ -51,8 +51,14 @@ module Reality
           ['meta.url', page.url],
           ['meta.image', page.source.dig('original', 'source')],
           ['meta.thumb', page.source.dig('thumbnail', 'source')],
-          ['meta.wikidata', page.source['wbentityusage']&.keys&.first&.yield_self { |id| id && Link.new('wikidata', id) }]
+          ['meta.wikidata', page.source['wbentityusage']&.keys&.first&.yield_self { |id| id && Link.new('wikidata', id) }],
+          *category_meta(page)
         ].select(&:last)
+      end
+
+      def category_meta(page)
+        return [] unless page.category?
+        [['meta.pages', Query.new('wikipedia:en', category: page.title)]]
       end
 
       AUX_VARIABLES = /(footnote|_ref$|_note$)/
