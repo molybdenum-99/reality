@@ -40,5 +40,7 @@ module Reality
     describers/abstract/media_wiki
     describers/wikipedia
     describers/wikidata
+    describers/open_street_map
+    describers/wikimedia_commons
   ]
 end
