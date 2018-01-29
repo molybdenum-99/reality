@@ -53,6 +53,8 @@ module Reality
             Measure['min'].new(Regexp.last_match[1].to_i)
           when /^(\d+)[[:space:]]+sec(onds)?$/
             Measure['sec'].new(Regexp.last_match[1].to_i)
+          when /\.(svg|png|jpg|jpeg)$/i
+            Link.new('wikipedia:en', 'File:' + string)
           else
             string
           end.yield_self { |val| try_make_measure(label, val) }

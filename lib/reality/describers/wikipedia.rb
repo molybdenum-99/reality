@@ -76,4 +76,4 @@ end
 %w[simplifier templates parsers name_joiner].each { |f| require_relative "wikipedia/#{f}" }
 
 # FIXME: :philosoraptor:
-Reality.describers['wikipedia'] = Reality.describers['wikipedia:en'] = Reality::Describers::Wikipedia.new
+Reality.describers['wikipedia'] = Reality.describers['wp'] = Reality.describers['wikipedia:en'] = Reality::Describers::Wikipedia.new

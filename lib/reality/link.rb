@@ -10,18 +10,27 @@ module Reality
 
     def inspect
       if title && title != id
-        '#<%s %s:%s "%s">' % [self.class, source, id, title]
+        '#<%s %s://%s (%s)>' % [self.class, pretty_source, id, title]
       else
-        '#<%s %s:%s>' % [self.class, source, id]
+        '#<%s %s://%s>' % [self.class, pretty_source, id]
       end
     end
 
     def to_s
       if title && title != id
-        '<%s:[%s] %s>' % [source, id, title]
+        '<%s://%s (%s)>' % [pretty_source, id, title]
       else
-        '<%s:%s>' % [source, id]
+        '<%s://%s>' % [pretty_source, id]
       end
+    end
+
+    def pretty_source
+      known = known_source? ? '' : '?'
+      "#{source}#{known}"
+    end
+
+    def known_source?
+      Reality.describers.key?(source)
     end
 
     def ==(other)
@@ -35,6 +44,7 @@ module Reality
     end
 
     def load
+      known_source? or fail %{Reality describer "#{source}" is yet to be implemented}
       Reality.describers.fetch(source).get(id)
     end
   end
