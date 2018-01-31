@@ -14,7 +14,7 @@ module Reality
       if timed?
         '#<%s %s=%s (%s)>' % [self.class.name, variable, value, time.strftime('%Y-%m-%d at %H:%M:%S')]
       else
-        '#<%s %s=%s>' % [self.class.name, variable, value]
+        '#<%s[%s] %s=%s>' % [self.class.name, entity_uri, variable, value]
       end
     end
 

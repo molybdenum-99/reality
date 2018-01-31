@@ -19,7 +19,8 @@ module Reality
     end
 
     def [](variable)
-      @observations.select { |o| o.variable == variable }
+      @observations.detect { |o| o.variable == variable } ||
+        @observations.select { |o| variable === o.variable }
     end
 
     memoize def uris
