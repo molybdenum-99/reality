@@ -36,8 +36,8 @@ module Reality
 
         def val(template)
           num = template.unnamed_variables.first.text.to_f
-          u = template.fetch('u', 'ul').first&.text
-          up = template.fetch('up', 'upl').first&.text
+          u = template.fetch('u', 'ul').first&.text&.gsub(/[^a-z0-9]/i, '_')
+          up = template.fetch('up', 'upl').first&.text&.gsub(/[^a-z0-9]/i, '_')
           unit = case
             when u.nil?
             when !up.nil?

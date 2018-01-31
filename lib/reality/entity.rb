@@ -35,7 +35,7 @@ module Reality
       [
         inspect,
         *inspect_observations(observations)
-      ].join("\n")
+      ].join("\n").yield_self(&Util::Description.method(:new))
     end
 
     def load(*srcs)
@@ -56,7 +56,7 @@ module Reality
     def inspect_observations(obs)
       var_length = obs.map(&:variable).map(&:length).max + 1
       pattern = "%#{var_length}s: %s"
-      obs.map { |o| pattern % [o.variable, Array(o.value).join(', ')] }
+      obs.map { |o| pattern % [o.variable, [o.value].flatten(1).join(', ')] }
     end
   end
 end

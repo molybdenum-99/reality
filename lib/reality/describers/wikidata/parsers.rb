@@ -18,7 +18,9 @@ module Reality
           when 'wikibase-entityid'
             Link.new('wikidata', value['id'], title: cache[value['id']])
           when 'quantity'
-            Measure[fetch_unit(value['unit'], cache)].new(value['amount'].to_f)
+            num = value['amount'].to_f
+            fetch_unit(value['unit'], cache)
+              .yield_self { |u| u ? Measure[u].new(num) : num }
           when 'monolingualtext'
             value['language'] == 'en' ? value['text'] : nil
           when 'globecoordinate'
@@ -55,7 +57,7 @@ module Reality
         def fetch_unit(url, cache)
           # TODO: Measure[nil].new(1) #=> 1
           # TODO: square_kilometers => km² and so on
-          return 'item' if url == '1'
+          return if url == '1'
           id = url.scan(%r{entity/(Q.+)}).flatten.first or fail("Unparseable unit #{u}")
           cache[id].gsub(/[^a-z0-9]/i, '_')
         end

@@ -15,7 +15,7 @@ module Reality
       private
 
       memoize def _symbolic_names
-        observations.group_by { |o| nameify(o.label) }.to_h
+        observations.group_by { |o| nameify(o.variable) }.to_h
       end
 
       def nameify(name)
@@ -32,7 +32,6 @@ module Reality
       end
 
       def respond_to_missing?(name, *)
-        p ["HER!", name]
         entity.respond_to?(name)
       end
 
