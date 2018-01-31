@@ -1,8 +1,9 @@
 source 'https://rubygems.org'
 
 #gem 'infoboxer', github: 'molybdenum-99/infoboxer', branch: 'develop'
-gem 'geo_coord', github: 'zverok/geo_coord', branch: 'bigdecimal'
+#gem 'geo_coord', github: 'zverok/geo_coord', branch: 'bigdecimal'
 #gem 'infoboxer', '~> 0.3.0'
+gem 'geo_coord', path: '/home/zverok/gems/geo_coord'
 gem 'mediawiktory', path: '/home/zverok/gems/mediawiktory'
 gem 'infoboxer', path: '/home/zverok/gems/infoboxer'
 

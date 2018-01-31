@@ -43,7 +43,7 @@ module Reality
 
       def parse_infoboxes(page)
         # TODO: if there are several infoboxes, prefix variables
-        page.templates(name: /(^infobox|box$)/i)
+        page.templates(name: /(^([a-z]+)box|box$)/i)
           .reject { |i| i.name.match(/(^Color | image$)/i) || !i.in_sections.empty? }
           .flat_map { |infobox|
             [['infobox_name', infobox.name]] +

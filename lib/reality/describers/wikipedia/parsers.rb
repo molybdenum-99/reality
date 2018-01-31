@@ -13,9 +13,11 @@ module Reality
           W(:Template, name: /^coord$/i) => Templates.method(:coord),
           W(:Template, name: /^(start|birth|end|film) date/i) => Templates.method(:date),
           W(:Template, name: 'convert') => Templates.method(:convert),
+          W(:Template, name: 'val') => Templates.method(:val),
+
           W(:Template, name: 'url') => ->(n) { "http://#{n.variables.text}" },
           W(:Template, name: /^flag(country)?$/) => ->(n) { Link.new('wikipedia:en', n.variables.text) },
-          W(:Template, name: /^[A-Z]{3}$/) => :name # Country ISO code, probably
+          W(:Template, name: /^[A-Z]{3}$/) => :name, # Country ISO code, probably
         }
 
         def nodes(nds, label = nil)

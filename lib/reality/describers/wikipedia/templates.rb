@@ -33,6 +33,20 @@ module Reality
           unit.sub!(/2$/, '²')
           Measure[unit].new(num.to_f)
         end
+
+        def val(template)
+          num = template.unnamed_variables.first.text.to_f
+          u = template.fetch('u', 'ul').first&.text
+          up = template.fetch('up', 'upl').first&.text
+          unit = case
+            when u.nil?
+            when !up.nil?
+              "#{u}/#{up}"
+            else
+              u
+            end
+          unit ? Measure[unit].new(num) : num
+        end
       end
     end
   end

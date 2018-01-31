@@ -46,10 +46,16 @@ module Reality
 
         # what we output.
         # TODO: out counts, for "continue"?.. Though, we CAN'T continue as it has no pagination...
-        query << 'out ids qt 10;'
+        query << 'out tags qt 10;'
 
         overpass_query(query).fetch('elements')
-          .map { |el| Link.new('osm', "#{SHORT_TYPE.fetch(el['type'])}(#{el['id']})") }
+          .map { |el|
+            Link.new(
+              'osm',
+              "#{SHORT_TYPE.fetch(el['type'])}(#{el['id']})",
+              title: (el['tags'] || {}).values_at('name:en', 'name', 'int_name').compact.first
+            )
+          }
       end
 
       private

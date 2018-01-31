@@ -11,8 +11,8 @@ module Reality
         end
 
         def perform_query(params = {})
-          if params.key?(:category)
-            category = case (c = params[:category])
+          if (c = params['category'])
+            category = case c
             when Link
               # FIXME: in future, for other language wikis, we can't do this, they may have _local_
               # category names.
@@ -26,6 +26,12 @@ module Reality
             end
             internal.api.query.list(:categorymembers).title('Category:' + category)
               .response['categorymembers']
+              .map { |m| m.fetch('title') }
+              .flatten
+              .map { |title| Link.new(prefix, title) }
+          elsif (s = params['search'])
+            internal.api.query.list(:search).search(s)
+              .response['search']
               .map { |m| m.fetch('title') }
               .flatten
               .map { |title| Link.new(prefix, title) }
