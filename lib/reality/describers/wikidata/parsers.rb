@@ -45,8 +45,10 @@ module Reality
           when *%w[string url math external-id]
             # TODO: external id + property name => link
             value
+          when 'tabular-data'
+            Link.new('wikimedia-commons', value)
           else
-            fail("Unknown snak type #{snak}")
+            fail("Unknown snak type #{type.inspect} for #{value.inspect}")
           end
         end
 
