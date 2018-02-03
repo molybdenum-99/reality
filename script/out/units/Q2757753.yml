@@ -1,0 +1,62 @@
+---
+pageid: 2646888
+ns: 0
+title: Q2757753
+lastrevid: 560948648
+modified: '2017-09-17T19:25:21Z'
+type: item
+id: Q2757753
+labels:
+  en:
+    language: en
+    value: petawatt hour
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 06df6efe68f6e25b0d602229267e4d3e9ccc3d64
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2916980
+          id: Q2916980
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2757753$30f2adf0-4505-f112-d8c2-9c7f359f75fa
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: a3fc00cae1e6697a108397bb80f266ab67073ab2
+      datavalue:
+        value: PWh
+        type: string
+      datatype: string
+    type: statement
+    id: q2757753$a0eb6026-436e-2ba8-3218-29d8d35600d5
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: fe4d1810494cbeee700d850dbef29d6633788507
+      datavalue:
+        value:
+          amount: "+1000000000000000"
+          unit: http://www.wikidata.org/entity/Q12874593
+          upperBound: "+1000000000000000"
+          lowerBound: "+1000000000000000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q2757753$46a325d8-4663-337b-dcfb-a40388156425
+    rank: normal
+sitelinks:
+  nlwiki:
+    site: nlwiki
+    title: Petawattuur
+    badges: []

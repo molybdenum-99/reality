@@ -1,0 +1,126 @@
+---
+pageid: 2523626
+ns: 0
+title: Q2616640
+lastrevid: 618459225
+modified: '2018-01-10T11:24:45Z'
+type: item
+id: Q2616640
+labels:
+  en:
+    language: en
+    value: Zanzibari rupee
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 8cd9c17f8fdeabce8600bb1a36df21f1d2ad7a45
+      datavalue:
+        value: "/m/0b1gtq"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2616640$02CD20F5-BDEB-4F10-ACE3-55EC2CB363AF
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2616640$499612a8-4416-7e09-fad6-26fd58bfc845
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 722fce3c96570963f5142c29f91554a6f9eabcbc
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 157904
+          id: Q157904
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2616640$4f3875f8-4b63-15a6-0a74-7987820b8098
+    rank: normal
+  P1705:
+  - mainsnak:
+      snaktype: value
+      property: P1705
+      hash: 5ed8c8ef1a025e9f4846cd446627d3ca6c598b12
+      datavalue:
+        value:
+          text: روپيه‎
+          language: ar
+        type: monolingualtext
+      datatype: monolingualtext
+    type: statement
+    id: Q2616640$b710d912-4ef5-5f2f-6f51-5e4ac19c97b7
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: روبية زنجبارية
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Sansibar-Rupie
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Ρουπία Ζανζιβάρης
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Zanzibari rupee
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Rupia zanzibarí
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Занзибарская рупия
+    badges: []

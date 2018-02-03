@@ -1,0 +1,301 @@
+---
+pageid: 82307
+ns: 0
+title: Q79756
+lastrevid: 625299079
+modified: '2018-01-31T20:27:40Z'
+type: item
+id: Q79756
+labels:
+  en:
+    language: en
+    value: kibibyte
+aliases:
+  en:
+  - language: en
+    value: KiB
+  - language: en
+    value: KB
+  - language: en
+    value: Kilobyte
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: ea5a0fc4bbff17d4dcb9e4b1afb9382669e062c6
+      datavalue:
+        value: KiB
+        type: string
+      datatype: string
+    type: statement
+    id: Q79756$604a8fc6-4da8-add9-c63a-87ec2c0ed508
+    rank: normal
+    references:
+    - hash: 5fe1039858667ad40e3911367de1d0a0cac48c8e
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 0e73b9396411d565bdd95a9c668d5a209a8197d0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 193858
+              id: Q193858
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: a437a43f7a0eebbebf4f6cead2bcacaf61270048
+      datavalue:
+        value: КиБ
+        type: string
+      datatype: string
+    type: statement
+    id: Q79756$73948a5a-46f2-d3da-17f7-98bf5dbe8f06
+    rank: normal
+    references:
+    - hash: 5fe1039858667ad40e3911367de1d0a0cac48c8e
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 0e73b9396411d565bdd95a9c668d5a209a8197d0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 193858
+              id: Q193858
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: acc7e707a1c054cea6c02bc2c6d5d9590adc4692
+      datavalue:
+        value: "/m/0137y0"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q79756$0FDDBEF8-0816-405A-86B8-2907C3F4133B
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 2d6ead580ca479cd38b25f8d8c677f1c03ad7473
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3550873
+          id: Q3550873
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q79756$0590b306-4eee-bd28-1f62-c457c3879595
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: cd1555178528ba9cd86e7bd2311b4e08bff40c18
+      datavalue:
+        value: kibibyte
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q79756$045E0A72-2BCA-4A8B-AE64-C09E83F17FC3
+    rank: normal
+  P4746:
+  - mainsnak:
+      snaktype: value
+      property: P4746
+      hash: e909d7d8d5964757c365fe0eac623c7ef9c0f5b5
+      datavalue:
+        value: '026561'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q79756$124CC732-2756-4622-BD49-252C50ECA947
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: d181668972b74cb3ba6fc3ff26437543e2b534b5
+      datavalue:
+        value:
+          amount: "+1024"
+          unit: http://www.wikidata.org/entity/Q8799
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q79756$26913165-4c36-97b3-ed67-c6fb16cd50e2
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: كيبيبايت
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Кібібайт
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Kibibyte
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Kibibyte
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Kibibyte
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Κιμπιμπάιτ
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Kibibyte
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Kibibajto
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Kibibyte
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Kibibyte
+    badges: []
+  fawiki:
+    site: fawiki
+    title: کیبی‌بایت
+    badges: []
+  iawiki:
+    site: iawiki
+    title: Kibibyte
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Kibibita
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Kibibyte
+    badges: []
+  jawiki:
+    site: jawiki
+    title: キビバイト
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 키비바이트
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Кибибајт
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: കിബിബൈറ്റ്
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Kibibait
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Kibibyte
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Kibibyte
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Quiloocteto
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Кибибайт
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Kibibyte
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Kibibajt
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Кибибајт
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Kibibyte
+    badges: []
+  thwiki:
+    site: thwiki
+    title: กิบิไบต์
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Kibibayt
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Кібібайт
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Kibibyte
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: Kibibyte
+    badges: []

@@ -1,0 +1,70 @@
+---
+pageid: 30398931
+ns: 0
+title: Q28739762
+lastrevid: 578867366
+modified: '2017-10-16T15:22:17Z'
+type: item
+id: Q28739762
+labels:
+  en:
+    language: en
+    value: grams per liter
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 5c1e31495c3ee00418bae011defe6d61827b8990
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10387685
+          id: Q10387685
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q28739762$c668edd8-42a5-5a7b-29f1-d69daab8100f
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 8b14e405f40125fd89fb1d702a42bdf3423a9b8e
+      datavalue:
+        value: г/л
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q28739762$ae13f41e-4e46-72e7-b3d2-7b3c871c5415
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: a02f094da43f8433932bddad32e2373c27171e5e
+      datavalue:
+        value:
+          amount: "+1"
+          unit: http://www.wikidata.org/entity/Q844211
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q28739762$904738a5-48c1-ffdb-c35e-743a42a13d54
+    rank: normal
+sitelinks: {}

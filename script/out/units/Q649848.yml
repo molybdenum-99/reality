@@ -1,0 +1,202 @@
+---
+pageid: 611599
+ns: 0
+title: Q649848
+lastrevid: 560479467
+modified: '2017-09-17T06:50:47Z'
+type: item
+id: Q649848
+labels:
+  en:
+    language: en
+    value: line
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: fe6138cb7cd3513363ab7bc8f7233fc91311b74c
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2534228
+          id: Q2534228
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q649848$ee3235a7-47ea-512e-c032-dfca34607199
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: f085b0c4c3db3510ae2e3f19c22f34ba4ced3b75
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 16782623
+          id: Q16782623
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q649848$52cb7232-4958-c1af-9805-c9f56bcf005c
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: d4b926028eaf26c83d8424258caec03857e1d443
+      datavalue:
+        value: "/m/03c19kl"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q649848$C0B3A026-05F6-4EA2-BF83-CB05DACEE42B
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 43863ded236372e1216663deb39d1309bcda895c
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 350532
+          id: Q350532
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q649848$2eb813f1-462b-5610-718a-255ff6762739
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 2b8b8057cb4029acdd61112e5a77ff87c571c45b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 435964
+          id: Q435964
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q649848$D77DF2CD-AD62-402D-9426-62A663A9A26D
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: '0818d696448e5a6f94cad6fc6ee5f0b8db0f4699'
+      datavalue:
+        value:
+          amount: "+10"
+          unit: http://www.wikidata.org/entity/Q2397915
+          upperBound: "+10"
+          lowerBound: "+10"
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P518:
+      - snaktype: value
+        property: P518
+        hash: f41cd318622949531067021b102d847a62a49afa
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 435964
+            id: Q435964
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P518
+    id: Q649848$f2ee832e-4349-93d5-d1fe-d7cf8eb79801
+    rank: normal
+sitelinks:
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Лінія (адзінка даўжыні)
+    badges: []
+  cvwiki:
+    site: cvwiki
+    title: Йĕр (хушă виçи)
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Linie (Einheit)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Line (unit)
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Liin (pikkusühik)
+    badges: []
+  fiu_vrowiki:
+    site: fiu_vrowiki
+    title: Liin (pikkusmõõt)
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Linja (mittayksikkö)
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Lína (mælieining)
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ライン (単位)
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Linija (matavimo vienetas)
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Linia (jednostka)
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Линия (единица длины)
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Лінія (одиниця довжини)
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Chiziq (uzunlik birligi)
+    badges: []

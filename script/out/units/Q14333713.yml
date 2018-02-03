@@ -1,0 +1,248 @@
+---
+pageid: 16002647
+ns: 0
+title: Q14333713
+lastrevid: 537539345
+modified: '2017-08-14T08:08:42Z'
+type: item
+id: Q14333713
+labels:
+  en:
+    language: en
+    value: sextarius
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: c454c0c3de246c32f34b9be05dc25a1c41e32e6f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 25906214
+          id: Q25906214
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q14333713$F74EB8C4-6270-45F0-BFC1-594F3B08986C
+    rank: normal
+    references:
+    - hash: 7bed4348e9ce6cbb9b35e78782403748cc60bc8c
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 2dec9667d599ba3e42a0e590a79ca231e658949b
+          datavalue:
+            value: http://homepage.usask.ca/~jrp638/CourseNotes/weightsmeasures.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 44699fe3d9f23905b4c77a211b111fe8b0b332d0
+          datavalue:
+            value:
+              time: "+2016-07-15T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 5cebe0e16525e81b3e1616fe4971f74d9462a48b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 186218
+          id: Q186218
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q14333713$c114d197-4f93-7dbd-aa6d-18f0106d1719
+    rank: normal
+    references:
+    - hash: 7bed4348e9ce6cbb9b35e78782403748cc60bc8c
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 2dec9667d599ba3e42a0e590a79ca231e658949b
+          datavalue:
+            value: http://homepage.usask.ca/~jrp638/CourseNotes/weightsmeasures.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 44699fe3d9f23905b4c77a211b111fe8b0b332d0
+          datavalue:
+            value:
+              time: "+2016-07-15T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: f37c73dec48ba9a6299af3cc096435154a20ce68
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 6008757
+          id: Q6008757
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q14333713$d36a8e18-4f7e-3531-231a-19f8f3dfdfe9
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 52afd5559217923531f59bd55edf87f344e02b43
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1161819
+          id: Q1161819
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q14333713$6c8eb3fc-4d8d-f1e9-0d3c-db76d7bdcc50
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 6d21f409b3e6e167a726599b1209642cc2f620de
+      datavalue:
+        value:
+          amount: "+12"
+          unit: http://www.wikidata.org/entity/Q3676321
+          upperBound: "+12"
+          lowerBound: "+12"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q14333713$e3bf61f3-4954-1997-4eef-609d55645fc2
+    rank: normal
+    references:
+    - hash: 1abbd84c2a2fb8b938a959a6f6d4ca5958f8105a
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 2dec9667d599ba3e42a0e590a79ca231e658949b
+          datavalue:
+            value: http://homepage.usask.ca/~jrp638/CourseNotes/weightsmeasures.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 3ebb11b1a4ce7a98b7cbb359a6e944bd00f283b0
+          datavalue:
+            value:
+              time: "+2016-07-12T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 128adcba4db49273fbde75ccff93987e3e79a59a
+      datavalue:
+        value:
+          amount: "+0.000546"
+          unit: http://www.wikidata.org/entity/Q25517
+          upperBound: "+0.000546"
+          lowerBound: "+0.000546"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q14333713$a43b3d74-4e57-84a7-e85c-1606502d25c4
+    rank: normal
+    references:
+    - hash: 77558b2586162aee5b4404eb03a24e761dda99fa
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: afd0bc01045c9e952bd83a2da36c2745f89ac643
+          datavalue:
+            value: http://www.livius.org/w/weights/weights2.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 319eca416990be95d0bc1936656ae864506b85ef
+          datavalue:
+            value:
+              time: "+2016-07-17T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: ece6f6e6968e83ab4ea375829a8c5694d93dff51
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 39297
+          id: Q39297
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q14333713$55C762AE-C9AB-4FCD-9D3F-2D6DC12DD35D
+    rank: normal
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Sextarius
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Sextario
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Sextarius
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Sextarius
+    badges: []

@@ -1,0 +1,82 @@
+---
+pageid: 40044640
+ns: 0
+title: Q38682622
+lastrevid: 552162547
+modified: '2017-09-05T11:09:00Z'
+type: item
+id: Q38682622
+labels:
+  en:
+    language: en
+    value: bit per second
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q38682622$c81b29fd-4a8b-3b60-a365-24bd24e07747
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: cc5cb346c34194245a007c7f85f45abe249ddd4c
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 495092
+          id: Q495092
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q38682622$84d849b8-48c4-f181-0c96-4ce876d37326
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 9621675e1a2b1ef1f2c51e976d510321912c442b
+      datavalue:
+        value: bit/s
+        type: string
+      datatype: string
+    type: statement
+    id: Q38682622$08d7109d-42f2-f78a-bd0c-db42979476f1
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 6b3e2d3281391ce5c4c1422d30e13e43136720a7
+      datavalue:
+        value: B/s
+        type: string
+      datatype: string
+    type: statement
+    id: Q38682622$6c8a8ed0-424d-555f-5499-b5d14eaf241d
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: b5cab5712cc307644af921cb9abd8e575b37c75a
+      datavalue:
+        value:
+          amount: "+1"
+          unit: http://www.wikidata.org/entity/Q38682622
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q38682622$21048d6a-48d7-3ed9-5bff-4a06441f5ef7
+    rank: normal
+sitelinks: {}

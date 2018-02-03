@@ -1,0 +1,96 @@
+---
+pageid: 34201089
+ns: 0
+title: Q32739436
+lastrevid: 516573513
+modified: '2017-07-09T02:46:32Z'
+type: item
+id: Q32739436
+labels:
+  en:
+    language: en
+    value: level of a power quantity
+aliases:
+  en:
+  - language: en
+    value: Lp
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 50afdc16346d8687f53963f614e8d645419488a0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 208469
+          id: Q208469
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q32739436$17635f3a-4435-5145-ffe7-74eea4858126
+    rank: normal
+  P2534:
+  - mainsnak:
+      snaktype: value
+      property: P2534
+      hash: d26f8873a50cd8659e8684f3361fbd6df1059d7d
+      datavalue:
+        value: L_{P} = \frac{1}{2} \ln \frac{P}{P_{0}} = ln \sqrt{\frac{P}{P_{0}}}
+        type: string
+      datatype: math
+    type: statement
+    id: Q32739436$0a3c0ab9-4d36-893e-3815-684cb50b6022
+    rank: normal
+    references:
+    - hash: 20864611e308271886e07d09b04aefbbe4e31747
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: 06bc35a8f697d34eeb7d4dbfeee5afa5bc2e0a16
+          datavalue:
+            value: 3-22
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: '095b22e5c47a47f7d5e84e00899837038be11bd4'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 26711932
+          id: Q26711932
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P958:
+      - snaktype: value
+        property: P958
+        hash: 06bc35a8f697d34eeb7d4dbfeee5afa5bc2e0a16
+        datavalue:
+          value: 3-22
+          type: string
+        datatype: string
+    qualifiers-order:
+    - P958
+    id: Q32739436$d724a562-4d8e-1194-5aaf-84c9ca417ef9
+    rank: normal
+sitelinks: {}

@@ -1,0 +1,97 @@
+---
+pageid: 1112922
+ns: 0
+title: Q1166886
+lastrevid: 624541266
+modified: '2018-01-29T16:53:35Z'
+type: item
+id: Q1166886
+labels:
+  en:
+    language: en
+    value: darwin
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1166886$14e4eef7-468a-bf3f-c6c2-0b6d9cfce60a
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 33aebf7f61802a0603388dcfd70328d609246cb8
+      datavalue:
+        value: "/m/0d2s8d"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1166886$FC97E0EA-69DE-45C0-95BA-9847288A8AC2
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Darwin (Einheit)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Darwin (unit)
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Darwin (yksikkö)
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Darwin (unité)
+    badges: []
+  hewiki:
+    site: hewiki
+    title: דרווין (יחידת מידה)
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Darwin (jednostka)
+    badges: []

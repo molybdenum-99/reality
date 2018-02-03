@@ -1,0 +1,129 @@
+---
+pageid: 2526285
+ns: 0
+title: Q2619500
+lastrevid: 497493116
+modified: '2017-06-08T10:28:37Z'
+type: item
+id: Q2619500
+labels:
+  en:
+    language: en
+    value: Foe
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 06df6efe68f6e25b0d602229267e4d3e9ccc3d64
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2916980
+          id: Q2916980
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2619500$4d77adf3-4d58-727f-41a2-07840ba760b4
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 16b7ed5ead54a128f52632995c1d69a7a9f9351c
+      datavalue:
+        value: foe
+        type: string
+      datatype: string
+    type: statement
+    id: Q2619500$aa0a4092-4b9d-161c-129e-6318d69ad181
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 2441d73698160140c781d990c9f92b14d81d5aad
+      datavalue:
+        value: "/m/05l2jt"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2619500$28F86700-5BE9-4E98-A727-E3D656F22439
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: فو (وحدة)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Foe (unit)
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Foe
+    badges: []
+  fawiki:
+    site: fawiki
+    title: فو (یکا)
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Foe (unité)
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Foe (unità di misura)
+    badges: []
+  jawiki:
+    site: jawiki
+    title: フォエ (単位)
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Foe
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Foe
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Foe
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: Foe (單位)
+    badges: []

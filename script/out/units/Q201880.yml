@@ -1,0 +1,390 @@
+---
+pageid: 198490
+ns: 0
+title: Q201880
+lastrevid: 617888448
+modified: '2018-01-08T22:59:09Z'
+type: item
+id: Q201880
+labels:
+  en:
+    language: en
+    value: Lebanese pound
+aliases: {}
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: a33dc5415b93b8f8543923ec80ad79625df44178
+      datavalue:
+        value: Money of Lebanon
+        type: string
+      datatype: string
+    type: statement
+    id: q201880$02F9B96E-4820-49A7-86F2-FC4ECDAE75EC
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q201880$C133E52A-E98B-4870-B0BE-CC5CE0E9F042
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 4b8e3ae0f7403d4871db2a3946598409d031846e
+      datavalue:
+        value: LBP
+        type: string
+      datatype: external-id
+    type: statement
+    id: q201880$1686a1ec-4df9-d067-49bf-d1b00c75766a
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: ac71450349d9f13dde4a7f19b7f6c33a1d7ae37e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1776564
+          id: Q1776564
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q201880$8EEF867E-0D7D-4D52-B82F-E250D12B4D98
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: e37082d320c4560634963341108ee4d552c0a02d
+      datavalue:
+        value: "/m/025tsrc"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q201880$43F4257F-0F50-4A95-A2BB-F6124A441D01
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: c3c0e4cbffd8f123d426fa9c63201f56170ad682
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 822
+          id: Q822
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q201880$d355de53-47d5-17fc-1d71-858165168c8f
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 5b31b50af007e34b2a5f00b2627dbe6d78bb6ed8
+      datavalue:
+        value: 500 Lebanese Pounds - Minted 2009 - Backside.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q201880$c323e6f3-427f-39b6-5140-8ee3c7b19a28
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: a5deda76ddd740ba283d06c5a3f23fb7a79c89bd
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 339180
+          id: Q339180
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q201880$bc2cdc90-42d7-793e-ddb8-4aa0a35aa873
+    rank: normal
+  P2581:
+  - mainsnak:
+      snaktype: value
+      property: P2581
+      hash: 238e47bc3a14b5ba0177c63058fcc4c951ca9394
+      datavalue:
+        value: '00050468n'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q201880$8E0A0C48-226E-4A96-A4CC-8AE8BF9A7185
+    rank: normal
+    references:
+    - hash: bd0ee81488cd8c23d4b655e417aac78dca370283
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: a0b4f55dbedbadaf83e7d2461b47b7aeaba86359
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 4837690
+              id: Q4837690
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: f5678b8bfb2926d2f7ad75042d6bdb213ba57aaa
+      datavalue:
+        value: '500196'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q201880$68529114-2661-4356-BE8A-2A647B166C28
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: ليرة لبنانية
+    badges: []
+  arzwiki:
+    site: arzwiki
+    title: ليره لبنانيه
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Livan funtu
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Лібанскі фунт
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Ліванскі фунт
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Ливанска лира
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: লেবানিজ পাউন্ড
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Lliura libanesa
+    badges: []
+  commonswiki:
+    site: commonswiki
+    title: Category:Lebanese Pound
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Libanesisches Pfund
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Λίρα του Λιβάνου
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Lebanese pound
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Libana liro
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Libra libanesa
+    badges: []
+  fawiki:
+    site: fawiki
+    title: لیره لبنان
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Libanonin punta
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Livre libanaise
+    badges: []
+  hewiki:
+    site: hewiki
+    title: לירה לבנונית
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: लेबनानी पाउंड
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Libanonska funta
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Libanoni font
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Pound Lebanon
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Lira libanese
+    badges: []
+  jawiki:
+    site: jawiki
+    title: レバノン・ポンド
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 레바논 파운드
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Ливанса фунт
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Libano svaras
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: लेबनीझ पाउंड
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Libanees pond
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Libanesisk pund
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਲਿਬਨਾਨੀ ਪਾਊਂਡ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Funt libański
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Libra libanesa
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Ливанский фунт
+    badges: []
+  sahwiki:
+    site: sahwiki
+    title: Либан лирата
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Libanonski funt
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Либанска фунта
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Libanesiskt pund
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Фунти Лубнон
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Lübnan lirası
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Ліванський фунт
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: ლიბანური გირვანქა
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Ponun Lẹ́bánọ́nì
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Lī-pa-lùn pound
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 黎巴嫩鎊
+    badges: []

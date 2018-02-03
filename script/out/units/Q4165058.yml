@@ -1,0 +1,93 @@
+---
+pageid: 3973062
+ns: 0
+title: Q4165058
+lastrevid: 491642684
+modified: '2017-05-28T20:58:31Z'
+type: item
+id: Q4165058
+labels:
+  en:
+    language: en
+    value: Pitcairn Islands dollar
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q4165058$F8B0D84A-3B9F-4574-8421-03DFEF79C7C3
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 7105bfbd62c8fe2dce714968dc5d4b8bd3460004
+      datavalue:
+        value: "/m/0b__016"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q4165058$74986261-22D3-4AE8-A91D-BF780906E384
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Pitcairn Islands dollar
+    badges: []
+  fawiki:
+    site: fawiki
+    title: دلار جزایر پیتکارین
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Pitcairnin dollari
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Доллар Островов Питкэрн
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Pitcairn Kûn-tó dollar
+    badges: []

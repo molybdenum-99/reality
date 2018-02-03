@@ -1,0 +1,134 @@
+---
+pageid: 558875
+ns: 0
+title: Q593880
+lastrevid: 621313090
+modified: '2018-01-17T15:12:57Z'
+type: item
+id: Q593880
+labels:
+  en:
+    language: en
+    value: Alderney pound
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q593880$7FB8A1A5-28D9-4F69-AD62-9AB7883592C5
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 48dad11e4d75aa74b8b0904f85a3d307400ea278
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 339180
+          id: Q339180
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q593880$52a51fb2-4a15-6327-9920-38fea7614827
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 1c08dfafc509fd49ec740be1744cdac51e517d5e
+      datavalue:
+        value: "/m/09mc3j"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q593880$F7CFD82E-0500-4948-9513-D757C4F89C91
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P1001:
+  - mainsnak:
+      snaktype: value
+      property: P1001
+      hash: 1d91460fba47386c41425be87e8e44b5303d0b16
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 179313
+          id: Q179313
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q593880$5212b545-4db1-37d1-be47-8c023521c97c
+    rank: normal
+sitelinks:
+  azwiki:
+    site: azwiki
+    title: Olderni funtu
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Alderney pound
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Alderneyn punta
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Aldernejska funta
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Alderney-i font
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Sterlina di Alderney
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Funt Alderney
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Фунт Олдерни
+    badges: []

@@ -1,0 +1,315 @@
+---
+pageid: 696372
+ns: 0
+title: Q740340
+lastrevid: 622987014
+modified: '2018-01-24T14:12:23Z'
+type: item
+id: Q740340
+labels:
+  en:
+    language: en
+    value: Asselian
+aliases: {}
+claims:
+  P155:
+  - mainsnak:
+      snaktype: value
+      property: P155
+      hash: d08d865586f2000450106619777a36334e0612c8
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1030848
+          id: Q1030848
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q740340$78490830-0A30-4BD5-826C-59CC1DF5C23D
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P156:
+  - mainsnak:
+      snaktype: value
+      property: P156
+      hash: 51aa1e241672ea62b928e40618aee1d9139a4745
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 912962
+          id: Q912962
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q740340$3ECEB352-2097-4CDF-B257-5C8924D52AC9
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P625:
+  - mainsnak:
+      snaktype: value
+      property: P625
+      hash: aae46fa24c42138ffcbfe2662a0020474d2de053
+      datavalue:
+        value:
+          latitude: 50.2458
+          longitude: 57.8914
+          altitude: 
+          precision: 2.77777777778e-06
+          globe: http://www.wikidata.org/entity/Q2
+        type: globecoordinate
+      datatype: globe-coordinate
+    type: statement
+    id: Q740340$820059F1-CB10-492D-822A-2EAEECF37145
+    rank: normal
+    references:
+    - hash: d4bd87b862b12d99d26e86472d44f26858dee639
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: f30cbd35620c4ea6d0633aaf0210a8916130469b
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 8447
+              id: Q8447
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 2f377a37c92ec8b6a9d8168ea1dd4a2fd0f9732f
+      datavalue:
+        value: "/m/07p2dx"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q740340$7A0A35C3-383E-45ED-943C-495386A19ABA
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: c091b5b7b9d5b4716304508fca875ecd87e6a041
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3697749
+          id: Q3697749
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q740340$a7fdf314-4023-f2d3-66f1-627837ceb08e
+    rank: normal
+    references:
+    - hash: 188c176d45c04f497b4bfc229be621942e92aa28
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: e14179f1b62ebfc45282c3ce090720b5b9357fc3
+          datavalue:
+            value:
+              time: "+2014-10-18T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P813
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1774498cb861c7f76e71afc94661ed9a03d8461a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1123245
+          id: Q1123245
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q740340$8b0bc536-46de-efa2-aa76-b8fe00ae8dac
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: b230ba6f73ec78c2fd8b28c19fab3a1a3e51124e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 568683
+          id: Q568683
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q740340$9a464f33-4309-f810-abf0-a01ee3dc915d
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 2f32251b4960d2f1edc0304a6a780810660750ee
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 642169
+          id: Q642169
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q740340$b51ad217-4b19-5a68-7838-22ab7f4679c0
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Asselium
+    badges: []
+  arwiki:
+    site: arwiki
+    title: الأسيلي
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Asselià
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Asselium
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Asselian
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Asseliense
+    badges: []
+  fawiki:
+    site: fawiki
+    title: آسلین
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Assélien
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Assel
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Asszeli
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Asseliano
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Ассель ярусы
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Asselien
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Assel (geologia)
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Asseliano
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Ассельский ярус
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Aselij
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Tầng Assel
+    badges: []

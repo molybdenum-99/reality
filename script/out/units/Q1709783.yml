@@ -1,0 +1,79 @@
+---
+pageid: 1642999
+ns: 0
+title: Q1709783
+lastrevid: 572158616
+modified: '2017-10-04T12:15:53Z'
+type: item
+id: Q1709783
+labels:
+  en:
+    language: en
+    value: joule-second
+aliases:
+  en:
+  - language: en
+    value: Js
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: e58445f80efc407370fb27c581740827d1339174
+      datavalue:
+        value: Js
+        type: string
+      datatype: string
+    type: statement
+    id: Q1709783$e1c9dce0-440a-5d72-1fc2-e3c64f917fae
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 902a915adec7ba52e6b4e5962c595a4078977514
+      datavalue:
+        value: Дж·с
+        type: string
+      datatype: string
+    type: statement
+    id: Q1709783$375850cd-4814-921c-aeb3-4bff07ea86fc
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: bb22982fb13ba8dd3be8930b60276da4c0814ed8
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 846785
+          id: Q846785
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1709783$47b0164f-4e18-389e-b5c3-855da2fd7d27
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 50afdc16346d8687f53963f614e8d645419488a0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 208469
+          id: Q208469
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1709783$c46c4e42-4cd2-f07d-8274-ec53161b7f03
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Joulesekunde
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Joule-second
+    badges: []

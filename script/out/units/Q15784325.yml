@@ -1,0 +1,135 @@
+---
+pageid: 17415623
+ns: 0
+title: Q15784325
+lastrevid: 550560105
+modified: '2017-09-02T12:42:11Z'
+type: item
+id: Q15784325
+labels:
+  en:
+    language: en
+    value: attoparsec
+aliases: {}
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: ecb768a8a25120c373f8f2d3701a5f3ccedb4a6a
+      datavalue:
+        value: apc
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q15784325$a59fca2d-4b4e-3ab5-c29e-82fe1273d48f
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 8858e4fa542dcc9a3f48fc0f31abf0e88e518a6b
+      datavalue:
+        value: апк
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q15784325$445e29b8-44fd-574c-60a1-a332e611ae33
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1c41b2ea8a3f6d3fab77c103d826ae5ead7a9c01
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1978718
+          id: Q1978718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q15784325$6a37d143-4ccd-0fd8-b721-2daf85594d49
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 4354e3cc033f2c5371e447e5ab1cca8b89ffa3e0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 36253
+          id: Q36253
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q15784325$d9e6920d-48b8-4c9e-4647-b19665c9e339
+    rank: normal
+  P2043:
+  - mainsnak:
+      snaktype: value
+      property: P2043
+      hash: 567e9778cefe4ea239f36561a4bbf7fb030d0fa7
+      datavalue:
+        value:
+          amount: "+3.1"
+          unit: http://www.wikidata.org/entity/Q174728
+          upperBound: "+3.2"
+          lowerBound: "+3.0"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q15784325$eae06692-43f5-f0e4-eb65-05ab723dc5c5
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2043
+      hash: 4c3e47443ed06cf1e38e6ddae3f72843dbd3d83c
+      datavalue:
+        value:
+          amount: "+0.000000000000000001"
+          unit: http://www.wikidata.org/entity/Q12129
+          upperBound: "+0.000000000000000001"
+          lowerBound: "+0.000000000000000001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q15784325$0828d4d9-4c71-e0a7-e644-f846b9f7a079
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Attoparsec
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Attoparsec
+    badges: []

@@ -1,0 +1,120 @@
+---
+pageid: 1722398
+ns: 0
+title: Q1790908
+lastrevid: 560350007
+modified: '2017-09-17T01:01:31Z'
+type: item
+id: Q1790908
+labels:
+  en:
+    language: en
+    value: cubic mile
+aliases:
+  en:
+  - language: en
+    value: mi3
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: d2dcd1f1f818e0bc1d823f9e32ead1710bb6bd35
+      datavalue:
+        value: "/m/09_86v"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1790908$E4E3C6D5-4BC5-44D5-A5FC-DAF7AC950A75
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6e3da81891b6fba54d9ac8088595a4b05e5a5f95
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1302471
+          id: Q1302471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1790908$8276A385-09B3-4071-8F12-9E360FFF73AE
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 572f81f23b861b52dea61dda2e8af233a6bd041d
+      datavalue:
+        value: CubicMile
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1790908$1f93badd-43b6-96e4-1ffb-9c4c45e844ea
+    rank: normal
+sitelinks:
+  astwiki:
+    site: astwiki
+    title: Milla cúbica
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Kubikmeile
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Cubic mile
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Milla cúbica
+    badges: []
+  fawiki:
+    site: fawiki
+    title: مایل مکعب
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Mille cube
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Miglio cubo
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Milha cúbica
+    badges: []

@@ -1,0 +1,153 @@
+---
+pageid: 1350296
+ns: 0
+title: Q1411382
+lastrevid: 618465056
+modified: '2018-01-10T11:45:25Z'
+type: item
+id: Q1411382
+labels:
+  en:
+    language: en
+    value: Fijian pound
+aliases: {}
+claims:
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: b8d23924c630f985d81bcfbbb63a26712f8ef153
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1776552
+          id: Q1776552
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q1411382$28243329-71E6-4E5E-9328-5905882409C5
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 54de45d90ac167dd665a6b90ceff688aae5eaa32
+      datavalue:
+        value: "/m/0b01sk"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1411382$ED8C140B-5563-4365-9A1D-538E5A09846D
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1411382$85955b00-45ae-f56b-c50e-ccb08f3d0321
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 48dad11e4d75aa74b8b0904f85a3d307400ea278
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 339180
+          id: Q339180
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1411382$4b856461-492b-0297-baa7-f291d0b474b2
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: d937c8c965a5fe9c2be3fac0ffb75d54db96b021
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 712
+          id: Q712
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1411382$5ddd043e-420a-67c8-42e2-6c8ea2b3f865
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Fidschi-Pfund
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Fijian pound
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Libra fiyiana
+    badges: []
+  fawiki:
+    site: fawiki
+    title: پوند فیجی
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Фиджийский фунт
+    badges: []

@@ -1,0 +1,108 @@
+---
+pageid: 634993
+ns: 0
+title: Q674173
+lastrevid: 623623696
+modified: '2018-01-26T16:45:11Z'
+type: item
+id: Q674173
+labels:
+  en:
+    language: en
+    value: okta
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: f6c993a5f22cdb2391e9050ca7b8df77d65838ca
+      datavalue:
+        value: "/m/026dnw8"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q674173$8A7571CA-ADC3-40E4-9E07-DB8F276F0364
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q674173$bcb9db91-45ce-f6d6-cb39-b338ef651036
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 0c2a4071642c4aca8c00bc724ae5fa85177edc7e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 830457
+          id: Q830457
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q674173$faad7429-4efd-fe86-f38e-e1bcdf837f22
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Okta
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Okta
+    badges: []
+  fawiki:
+    site: fawiki
+    title: اکتا
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Octa (unité)
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Okta
+    badges: []

@@ -1,0 +1,135 @@
+---
+pageid: 2630816
+ns: 0
+title: Q2739114
+lastrevid: 536954071
+modified: '2017-08-13T12:12:23Z'
+type: item
+id: Q2739114
+labels:
+  en:
+    language: en
+    value: microsievert
+aliases:
+  en:
+  - language: en
+    value: µSv
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 83ae1f68735fba5dd63c3898492beb5567725b29
+      datavalue:
+        value: µSv
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q2739114$3a590485-48d9-1389-c8aa-0ddb17078d41
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: dad5dccfdd3bca87ee541f1086e38e35062cde0c
+      datavalue:
+        value: мкЗв
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q2739114$9c4a66cf-4f1f-f7d6-4483-8679f0d76b60
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2739114$856d2fee-4d0f-ee2d-ded3-b230eded3adb
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: ee3e6895736e3410b945ea7953234610b2febf25
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 256106
+          id: Q256106
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2739114$12dabfd2-4b7d-0eaa-2382-64ffcda927fe
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 6ed0f8326231dbfa47a54be7d589616503b61153
+      datavalue:
+        value:
+          amount: "+0.000001"
+          unit: http://www.wikidata.org/entity/Q103246
+          upperBound: "+0.000001"
+          lowerBound: "+0.000001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q2739114$6ec47f45-44ad-15a3-ab4a-db197a638c66
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 0152d7cffe0d72ef5ac7f9b6aa54373fdc12e233
+      datavalue:
+        value: microsievert
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2739114$03ECB710-D86A-4197-89C2-830428A949C8
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Mikrosievert
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Microsievert
+    badges: []

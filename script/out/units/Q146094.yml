@@ -1,0 +1,324 @@
+---
+pageid: 147698
+ns: 0
+title: Q146094
+lastrevid: 622981100
+modified: '2018-01-24T13:55:33Z'
+type: item
+id: Q146094
+labels:
+  en:
+    language: en
+    value: Zanclean
+aliases:
+  en:
+  - language: en
+    value: Zanclian
+  - language: en
+    value: Early Pliocene
+claims:
+  P156:
+  - mainsnak:
+      snaktype: value
+      property: P156
+      hash: 2c03e28f808fa93c8e4bec8749dcac8abae42aa4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 514873
+          id: Q514873
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q146094$9C95528F-3F11-494C-959C-66A5EEAD3EC3
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P155:
+  - mainsnak:
+      snaktype: value
+      property: P155
+      hash: 2fee249ffd3f172bfc7538bbc267e0b1f3385614
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 508465
+          id: Q508465
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q146094$7dc7d661-407e-6f00-0ceb-b4162780afe3
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P625:
+  - mainsnak:
+      snaktype: value
+      property: P625
+      hash: fa9784b4f66c78ed9b481ac2d87326c88fbd812c
+      datavalue:
+        value:
+          latitude: 37.39166667
+          longitude: 13.28055556
+          altitude: 
+          precision: 0.00027777777777778
+          globe: http://www.wikidata.org/entity/Q2
+        type: globecoordinate
+      datatype: globe-coordinate
+    type: statement
+    id: Q146094$F35F2D50-FA63-4F0E-8B47-D92D0FF10EC2
+    rank: normal
+    references:
+    - hash: d4bd87b862b12d99d26e86472d44f26858dee639
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: f30cbd35620c4ea6d0633aaf0210a8916130469b
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 8447
+              id: Q8447
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 271eff6f60ed03affc40fa06f812f74a176ee1a9
+      datavalue:
+        value: "/m/063_rt"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q146094$EC4DAABB-3D13-4CE5-97BA-0BF7F3D145E7
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 504bad832fe06aec01fd75fba15535cdfdb2626a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 9386870
+          id: Q9386870
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q146094$ad114dd7-4fe7-3e63-c7ec-7bf5053ba2a8
+    rank: normal
+  P910:
+  - mainsnak:
+      snaktype: value
+      property: P910
+      hash: 7a1434cb7b48c5b4d98a3c4b69428beea41c8839
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 24068595
+          id: Q24068595
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q146094$CDCA5780-46CB-465D-BA4F-D7C1BBDF8825
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1774498cb861c7f76e71afc94661ed9a03d8461a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1123245
+          id: Q1123245
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q146094$05ab62f7-445e-5b52-5eac-849f7d60ad96
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: b230ba6f73ec78c2fd8b28c19fab3a1a3e51124e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 568683
+          id: Q568683
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q146094$394db54f-4f43-f1e5-99a6-5eef4e2fdcef
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 24203847eef5f27b190d7362df05095a5a136a75
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 76259
+          id: Q76259
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q146094$09aff869-44ae-606d-2eed-7141901a0dc8
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Zancleum
+    badges: []
+  arwiki:
+    site: arwiki
+    title: الزانكلي
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Zancleanu
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Zancleà
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Zancleum
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Zanclean
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Zankleano
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Zancliense
+    badges: []
+  fawiki:
+    site: fawiki
+    title: زانکلین
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Zancléen
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Zancleano
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ザンクリアン
+    badges: []
+  ndswiki:
+    site: ndswiki
+    title: Zancleum
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Zanclien
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Zancleum
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Zankl
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Zancleano
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Zanklij
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Zankl
+    badges: []

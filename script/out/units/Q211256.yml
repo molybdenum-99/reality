@@ -1,0 +1,478 @@
+---
+pageid: 206957
+ns: 0
+title: Q211256
+lastrevid: 623232624
+modified: '2018-01-25T09:54:09Z'
+type: item
+id: Q211256
+labels:
+  en:
+    language: en
+    value: miles per hour
+aliases:
+  en:
+  - language: en
+    value: mph
+  - language: en
+    value: mi/h
+  - language: en
+    value: mile per hour
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 063c857427ffca4a744ee781b0d86129f5f18555
+      datavalue:
+        value: mph
+        type: string
+      datatype: string
+    type: statement
+    id: q211256$92fc4f53-43cd-7edd-f922-ec821465fe48
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: bedb5d7e09ab2f3733546edc2041c58d05f7065f
+      datavalue:
+        value: ميل/س
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: aa3f8171d71338a019a3e43c848eb59374b15b71
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8196
+            id: Q8196
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q211256$11C0BC02-FC36-4799-8882-4ECEC6EB8CF5
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: e2b0c0fc0c1ac0c2b3c016c6cd4c25d75e988b88
+      datavalue:
+        value: mi/h
+        type: string
+      datatype: string
+    type: statement
+    id: Q211256$ceca42ba-4488-982c-c802-2768ba10a04c
+    rank: normal
+    references:
+    - hash: 12c7e792040e5d841d0059ea87c44c97d35b8b7a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: 87d7c95126c8d8e71be6800e4a5f3d5e0c1f5eb9
+          datavalue:
+            value: 3-8.B.b
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: e9877874de9a8be2ac6bf1369d06c5c4e13c1a99
+      datavalue:
+        value: "/m/018x8t"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q211256$C63CC12E-A540-4F30-B6ED-5F5CB5B9F0AF
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: b4f9c836c43d6700bbb61b79f9c7e714c1b52c93
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 15222637
+          id: Q15222637
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q211256$203a07ab-400d-3465-f0f7-9d78b3f4db2b
+    rank: normal
+    references:
+    - hash: 12c7e792040e5d841d0059ea87c44c97d35b8b7a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: 87d7c95126c8d8e71be6800e4a5f3d5e0c1f5eb9
+          datavalue:
+            value: 3-8.B.b
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 408edc3a7042615093f6a9069fb25c960540a89e
+      datavalue:
+        value:
+          amount: "+0.44704"
+          unit: http://www.wikidata.org/entity/Q182429
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q211256$87c26ef5-42b3-f9f6-2fbb-b2a48d294871
+    rank: normal
+    references:
+    - hash: 12c7e792040e5d841d0059ea87c44c97d35b8b7a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: 87d7c95126c8d8e71be6800e4a5f3d5e0c1f5eb9
+          datavalue:
+            value: 3-8.B.b
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 29682986d6df8fcfb72e46350995d5a279effc06
+      datavalue:
+        value: Ford Mondeo MK3 ST220 - Speedometer.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q211256$DE698CEE-1638-4939-AB31-856A07438E71
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 54ebb2c2199d0676ab4681a13734f6b37d92e437
+      datavalue:
+        value: MilePerHour
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q211256$40F0E67E-0B79-485B-9A81-6368AB8D4501
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 2c2d3f27b59ac12ffdc077eca67e67ee6340aee6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11465
+          id: Q11465
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q211256$5f82d1c0-4829-d7d1-ec12-cc67303d8901
+    rank: normal
+    references:
+    - hash: 12c7e792040e5d841d0059ea87c44c97d35b8b7a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: 87d7c95126c8d8e71be6800e4a5f3d5e0c1f5eb9
+          datavalue:
+            value: 3-8.B.b
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 68362d093f343c799590215a6e784718e864cc48
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3711325
+          id: Q3711325
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q211256$645805fb-4afc-b915-577e-43c558372b54
+    rank: normal
+    references:
+    - hash: 12c7e792040e5d841d0059ea87c44c97d35b8b7a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: 87d7c95126c8d8e71be6800e4a5f3d5e0c1f5eb9
+          datavalue:
+            value: 3-8.B.b
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 968c79d363728e1a771088fb9297eb6fb6419cf2
+      datavalue:
+        value: Miles-per-Hour
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q211256$4D83D5B8-F9DB-4DAE-9C64-947292EBC2D1
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: '095b22e5c47a47f7d5e84e00899837038be11bd4'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 26711932
+          id: Q26711932
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P958:
+      - snaktype: value
+        property: P958
+        hash: 87d7c95126c8d8e71be6800e4a5f3d5e0c1f5eb9
+        datavalue:
+          value: 3-8.B.b
+          type: string
+        datatype: string
+    qualifiers-order:
+    - P958
+    id: Q211256$e3b20dda-4a2a-3a0c-a94e-11182e031d73
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: ميل في الساعة
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Миля в час
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Milla per hora
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Míle za hodinu
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Meilen pro Stunde
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Miles per hour
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Milla por hora
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Miil tunnis
+    badges: []
+  fawiki:
+    site: fawiki
+    title: مایل بر ساعت
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Maili tunnissa
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Mille par heure
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Mil per jam
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Miglio orario
+    badges: []
+  jawiki:
+    site: jawiki
+    title: マイル毎時
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Милји на час
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Batu sejam
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Mijl per uur
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Mph
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Mila na godzinę
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Milha por hora
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Миля в час
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Miles per hour
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Mil bölü saat
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Dặm trên giờ
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 哩每小時
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 英里每小時
+    badges: []

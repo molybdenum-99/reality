@@ -1,0 +1,441 @@
+---
+pageid: 704486
+ns: 0
+title: Q748716
+lastrevid: 560442385
+modified: '2017-09-17T04:47:30Z'
+type: item
+id: Q748716
+labels:
+  en:
+    language: en
+    value: foot per second
+aliases:
+  en:
+  - language: en
+    value: ft/s
+  - language: en
+    value: ft/sec
+  - language: en
+    value: fps
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: ddbb7532ac80815c41b73f53301bbed3e5647696
+      datavalue:
+        value: "/m/08g0rs"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q748716$09DE2CBE-6CB1-4477-B6B1-4BF677CED679
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: b4f9c836c43d6700bbb61b79f9c7e714c1b52c93
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 15222637
+          id: Q15222637
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q748716$4ae33596-4863-e905-f117-3267aa8919c7
+    rank: normal
+    references:
+    - hash: 54b7e7bc77f4cbc4c56e2bd9b139196bd5980ea2
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: fc802acc789e006454d9efbfdfb8ac7a623258c6
+          datavalue:
+            value: 3-8.B.a
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: f2e2d2f0d5687bcb6d108b17b3dee536e3e9f880
+      datavalue:
+        value: FootPerSecond
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q748716$484D9FB9-7E81-4609-9F47-9447D2025379
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: c63d541ebf157a0a32b01c9f7716d5198e8f87d5
+      datavalue:
+        value: ft/s
+        type: string
+      datatype: string
+    type: statement
+    id: Q748716$43c1e25e-42fa-35f9-8e75-59b0b4346248
+    rank: normal
+    references:
+    - hash: 54b7e7bc77f4cbc4c56e2bd9b139196bd5980ea2
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: fc802acc789e006454d9efbfdfb8ac7a623258c6
+          datavalue:
+            value: 3-8.B.a
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  P144:
+  - mainsnak:
+      snaktype: value
+      property: P144
+      hash: 2b575d2548418e5c26e1e38e6224dd732e63bd75
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3710
+          id: Q3710
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q748716$181f54cf-4418-3d6c-3144-b2461b4b112c
+    rank: normal
+    references:
+    - hash: 54b7e7bc77f4cbc4c56e2bd9b139196bd5980ea2
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: fc802acc789e006454d9efbfdfb8ac7a623258c6
+          datavalue:
+            value: 3-8.B.a
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  - mainsnak:
+      snaktype: value
+      property: P144
+      hash: ebf5624ca36a2a70da95989b39899b5a0655869f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11574
+          id: Q11574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q748716$25d1601e-4402-7be9-b4a4-c2492c0f44f8
+    rank: normal
+    references:
+    - hash: 54b7e7bc77f4cbc4c56e2bd9b139196bd5980ea2
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: fc802acc789e006454d9efbfdfb8ac7a623258c6
+          datavalue:
+            value: 3-8.B.a
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 68362d093f343c799590215a6e784718e864cc48
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3711325
+          id: Q3711325
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q748716$6e5521b4-42eb-8bb2-7529-96620c51170a
+    rank: normal
+    references:
+    - hash: 54b7e7bc77f4cbc4c56e2bd9b139196bd5980ea2
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: fc802acc789e006454d9efbfdfb8ac7a623258c6
+          datavalue:
+            value: 3-8.B.a
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 2c2d3f27b59ac12ffdc077eca67e67ee6340aee6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11465
+          id: Q11465
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q748716$19c6b882-4b51-645c-77d2-ac531405cc35
+    rank: normal
+    references:
+    - hash: 54b7e7bc77f4cbc4c56e2bd9b139196bd5980ea2
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: fc802acc789e006454d9efbfdfb8ac7a623258c6
+          datavalue:
+            value: 3-8.B.a
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: f621b86a8fc84511584f6c7246198489e99104c3
+      datavalue:
+        value:
+          amount: "+0.3048"
+          unit: http://www.wikidata.org/entity/Q182429
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q748716$574b30b3-4c1d-5369-8e55-c420a090b725
+    rank: normal
+    references:
+    - hash: 54b7e7bc77f4cbc4c56e2bd9b139196bd5980ea2
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: fc802acc789e006454d9efbfdfb8ac7a623258c6
+          datavalue:
+            value: 3-8.B.a
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: '095b22e5c47a47f7d5e84e00899837038be11bd4'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 26711932
+          id: Q26711932
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P958:
+      - snaktype: value
+        property: P958
+        hash: fc802acc789e006454d9efbfdfb8ac7a623258c6
+        datavalue:
+          value: 3-8.B.a
+          type: string
+        datatype: string
+    qualifiers-order:
+    - P958
+    id: Q748716$16eb5f9d-48e8-5204-a469-c5c93d035494
+    rank: normal
+sitelinks:
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Фут за сэкунду
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Peus per segon
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Stopa za sekundu
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Foot per second
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Pie por segundo
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Jalg sekundis
+    badges: []
+  fawiki:
+    site: fawiki
+    title: پا بر ثانیه
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Pied par seconde
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Kaki per detik
+    badges: []
+  jawiki:
+    site: jawiki
+    title: フィート毎秒
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Стапка во секунда
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Fot per sekund
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Stopy na sekundę
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Pés por segundo
+    badges: []
+  tawiki:
+    site: tawiki
+    title: அடி/விநாடி
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 英尺每秒
+    badges: []

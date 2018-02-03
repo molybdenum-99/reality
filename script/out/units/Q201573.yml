@@ -1,0 +1,229 @@
+---
+pageid: 198218
+ns: 0
+title: Q201573
+lastrevid: 576338735
+modified: '2017-10-13T07:39:04Z'
+type: item
+id: Q201573
+labels:
+  en:
+    language: en
+    value: milk churn
+aliases:
+  en:
+  - language: en
+    value: milk can
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 9cd7f039c0f1341b417cac0e763bb2fd6b1fd46a
+      datavalue:
+        value: Milk cans
+        type: string
+      datatype: string
+    type: statement
+    id: q201573$CD44CD63-1634-4526-8206-693CC202DBC3
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: d9668dc9c7997402fbb975cd2ecd5b6402a0dde6
+      datavalue:
+        value: "/m/0n41c2x"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q201573$103E5FB5-ACB1-479A-9124-7D4449A4F26F
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: a417a96f57b0eeb068af7fcd6998552c8d3a6d44
+      datavalue:
+        value: Bidone da latte - Musei del cibo - Parmigiano - 002c.tif
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q201573$6ced7654-4c66-862c-2e80-6eb0f60904cb
+    rank: normal
+  P1014:
+  - mainsnak:
+      snaktype: value
+      property: P1014
+      hash: 1e3982e68bc3b7b1bf9b84f586977e08cfa3310e
+      datavalue:
+        value: '300255809'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q201573$414E213A-BC75-44EA-99EF-59B5F421270F
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 5c8fe83f6483c9b8411b8793c1de2266eb03f213
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 987767
+          id: Q987767
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q201573$22895ef0-4176-f10e-83a0-6871492c75ca
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: c454c0c3de246c32f34b9be05dc25a1c41e32e6f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 25906214
+          id: Q25906214
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q201573$8cda43cf-4dd6-87a3-5018-4f08acd69c39
+    rank: normal
+  P129:
+  - mainsnak:
+      snaktype: value
+      property: P129
+      hash: 5e74e8765052ac736aa308681ddd71a495617c18
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2095
+          id: Q2095
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q201573$c39f83fe-4555-e5ff-77d1-074664f26968
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P129
+      hash: 0db4523fb58e4585e2b5781766a64a28978079fa
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8495
+          id: Q8495
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q201573$ad5d67d1-4026-aa62-1eda-e5c550b77b0f
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P129
+      hash: 7393f9f548d6d55a92dc5a0c67d443152f873464
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11435
+          id: Q11435
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q201573$f988845d-4a86-8bf7-f2d5-d3c71f9d099c
+    rank: normal
+sitelinks:
+  bgwiki:
+    site: bgwiki
+    title: Бидон
+    badges: []
+  commonswiki:
+    site: commonswiki
+    title: Category:Milk cans
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Mælkejunge
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Milchkanne
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Milk churn
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Lechera (recipiente)
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Maitotonkka
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Bidon (récipient)
+    badges: []
+  fywiki:
+    site: fywiki
+    title: Molkbus
+    badges: []
+  iowiki:
+    site: iowiki
+    title: Bidono
+    badges: []
+  ndswiki:
+    site: ndswiki
+    title: Melkbumm
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Melkbus
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Melkespann
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Бидон (ёмкость)
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Mjölkkruka
+    badges: []

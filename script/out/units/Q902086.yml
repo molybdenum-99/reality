@@ -1,0 +1,249 @@
+---
+pageid: 852864
+ns: 0
+title: Q902086
+lastrevid: 621431112
+modified: '2018-01-18T04:06:00Z'
+type: item
+id: Q902086
+labels:
+  en:
+    language: en
+    value: attenuation coefficient
+aliases:
+  en:
+  - language: en
+    value: α
+  - language: en
+    value: Absorption coefficient
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: f69a2efaf77c5ebcb7f91b89ca3d32c8317e098a
+      datavalue:
+        value: "/m/02v_h11"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q902086$5740DA93-CC2B-48DD-8A08-FF0504039B98
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P1014:
+  - mainsnak:
+      snaktype: value
+      property: P1014
+      hash: 6dcc5d937f17594a5768cadc4fbeb2984df25ed0
+      datavalue:
+        value: '300254886'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q902086$B23DCEE1-8736-4DDB-B001-D761F22DA2AF
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 50afdc16346d8687f53963f614e8d645419488a0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 208469
+          id: Q208469
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q902086$6cac1968-47e5-634d-7185-81eea0ffc2ec
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 9c91a2efbe178b759bb26b19ffa3e9a4e1a672dd
+      datavalue:
+        value: α
+        type: string
+      datatype: string
+    type: statement
+    id: Q902086$d52edd21-4541-c480-0f82-70795e5429ff
+    rank: normal
+    references:
+    - hash: 19575dac3fcda651518c4306233e0a9f9523fa3c
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: 4d9657783ff35f9eda04fc10ccdedadb2c4c5856
+          datavalue:
+            value: 3-25.1
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: '095b22e5c47a47f7d5e84e00899837038be11bd4'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 26711932
+          id: Q26711932
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P958:
+      - snaktype: value
+        property: P958
+        hash: 4d9657783ff35f9eda04fc10ccdedadb2c4c5856
+        datavalue:
+          value: 3-25.1
+          type: string
+        datatype: string
+    qualifiers-order:
+    - P958
+    id: Q902086$aad9d134-41d4-34c8-7d94-b035abac8c20
+    rank: normal
+  P4732:
+  - mainsnak:
+      snaktype: value
+      property: P4732
+      hash: 6dc438b4e40f97cb75e4eb67a2152c1cb8a580ef
+      datavalue:
+        value: A00516
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q902086$4BE9B97C-5BCD-481C-A72B-479D966AA2A0
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: معامل امتصاص
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Каэфіцыент паглынання
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Absorpční koeficient
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Absorptionskoefficient
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Absorptionskoeffizient
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Attenuation coefficient
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Coeficiente de absorción
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Coefficient d'absorption
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Coefficiente di assorbimento
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 吸収係数
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Absorptiecoëfficiënt
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Absorpsjonskoeffisient
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Absorpsjonskoeffisient
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Zdolność absorpcyjna
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Coeficiente de absorção
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Коэффициент поглощения
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Absorpčný koeficient
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Absorpcijski koeficient
+    badges: []
+  tawiki:
+    site: tawiki
+    title: ஏற்பு குணக எண்
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Коефіцієнт поглинання
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 衰減係數
+    badges: []

@@ -1,0 +1,235 @@
+---
+pageid: 603026
+ns: 0
+title: Q640907
+lastrevid: 516764125
+modified: '2017-07-09T13:16:08Z'
+type: item
+id: Q640907
+labels:
+  en:
+    language: en
+    value: stilb
+aliases:
+  en:
+  - language: en
+    value: sb
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 4fda5c7e6b804d2b21d26b883ced4ae5a613c495
+      datavalue:
+        value: "/m/04csv72"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q640907$6F792D0D-1C01-44A3-AC51-AA03F2E28941
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q640907$af57a2ae-481b-4c31-7f19-1739eff3b184
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 40a647159957ec1f4e3b32fab685a509bb9f74a8
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 355386
+          id: Q355386
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q640907$ce5f8c0a-484f-6213-20b3-3a81b38d0fc3
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: e990400d98b02a89c906b8dd861e6ff92836599d
+      datavalue:
+        value:
+          amount: "+10000"
+          unit: http://www.wikidata.org/entity/Q281096
+          upperBound: "+10000"
+          lowerBound: "+10000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q640907$781149a6-498c-82c7-d723-e16eb7a18265
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: cfd2a93c0fe8be3094f4af99ca3a22da31b49370
+      datavalue:
+        value: Stilb
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q640907$d6efd061-4768-ddf6-2456-0f111dc1755b
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: b8d52ca593c10db6d1b8f6607b0a89c7601360ab
+      datavalue:
+        value: sb
+        type: string
+      datatype: string
+    type: statement
+    id: Q640907$d9550a76-4243-a967-e7e0-e38990592d03
+    rank: normal
+  P3365:
+  - mainsnak:
+      snaktype: value
+      property: P3365
+      hash: eb8d04dae1074e343665c8bfc192ebb3b4bc6aa4
+      datavalue:
+        value: stilb
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q640907$D53257C7-035A-4DCF-BDE0-B8270B574270
+    rank: normal
+    references:
+    - hash: d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 5a343e7e758a4282a01316d3e959b6e653b767fc
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 11920
+              id: Q11920
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 29f320b8b9d72f5df98cd9d6463eac0220dfdb8d
+      datavalue:
+        value: stilb
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q640907$1146A666-36B8-4314-B6EA-B6F1F1CB7EE7
+    rank: normal
+sitelinks:
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Стыльб
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Стыльб
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Stilb
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Stilb
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Stilb (unit)
+    badges: []
+  fawiki:
+    site: fawiki
+    title: استیل (یکا)
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Stilb
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Stilb
+    badges: []
+  jawiki:
+    site: jawiki
+    title: スチルブ
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Stilb
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Stilb
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Stilb
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Stilb
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Стильб
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Stilb (enota)
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Стильб
+    badges: []

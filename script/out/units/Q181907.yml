@@ -1,0 +1,450 @@
+---
+pageid: 181041
+ns: 0
+title: Q181907
+lastrevid: 621282398
+modified: '2018-01-17T12:07:22Z'
+type: item
+id: Q181907
+labels:
+  en:
+    language: en
+    value: South African rand
+aliases:
+  en:
+  - language: en
+    value: Rand
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 9afc52bae3f77b631d1821e0f231e4a25487103c
+      datavalue:
+        value: Money of South Africa
+        type: string
+      datatype: string
+    type: statement
+    id: q181907$91677B33-5054-4210-BA13-2B9162A659EE
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q181907$CA6EE069-5355-42A5-9511-DBEF6660B852
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 9fc870e7911798da351860c4a658575132fdb0c8
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 912920
+          id: Q912920
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q181907$04F8CA4A-9A21-426D-B495-066AB61D9AD5
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: c0b00deb70ded70c8c42e0ef0766057e09ca511f
+      datavalue:
+        value: "/m/01rmbs"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q181907$3113CBAB-D81D-47EF-884C-BE281E1BE4D8
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 41044e118814bacf0f9141eb11f1a68d76ea0571
+      datavalue:
+        value: ZAR
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q181907$feb91120-4a42-c12c-9370-234c9ce8d5bf
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 10885211025f7eed75a9d05dfa3113acdf746bf2
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 258
+          id: Q258
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q181907$5F4CB8DD-0682-42AA-8418-14E0EADF4426
+    rank: normal
+  P2284:
+  - mainsnak:
+      snaktype: value
+      property: P2284
+      hash: 2508c5d971c782dca68f8671c1ac16ef120f0ded
+      datavalue:
+        value:
+          amount: "+0.071022"
+          unit: http://www.wikidata.org/entity/Q4917
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: f742be92339cdcc54bf77fbdde9a24b9045f361a
+        datavalue:
+          value:
+            time: "+2016-11-22T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q181907$C94280CB-0ADA-4250-9F6D-534F0F91313C
+    rank: normal
+  P1365:
+  - mainsnak:
+      snaktype: value
+      property: P1365
+      hash: 7837a92f781de728f2fe12f7f3a91817f687ae29
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2635004
+          id: Q2635004
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q181907$e9672fde-4a41-9f5f-bf6e-4b8f27ca3be9
+    rank: normal
+  P580:
+  - mainsnak:
+      snaktype: value
+      property: P580
+      hash: 9e9a22a57f3289e73c722119634f8643ce450de4
+      datavalue:
+        value:
+          time: "+1961-02-14T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 11
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q181907$f46d533e-42f3-4c14-11b7-5f4ed78ffc6b
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 14d48785f5bac010f8f252a3dc93a1be6ad1b945
+      datavalue:
+        value: '500197'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q181907$6630AFDF-ABB3-4EC6-BB57-58CAE8E7EB53
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Suid-Afrikaanse rand
+    badges: []
+  arwiki:
+    site: arwiki
+    title: راند جنوب أفريقي
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Cənubi Afrika randı
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Паўднёваафрыканскі ранд
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Паўднёваафрыканскі ранд
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Южноафрикански ранд
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: খা আফ্রিকান রান্ড
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Rand
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Jihoafrický rand
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Rand
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Südafrikanischer Rand
+    badges: []
+  enwiki:
+    site: enwiki
+    title: South African rand
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Sudafrika rando
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Rand sudafricano
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Hegoafrikar rand
+    badges: []
+  fawiki:
+    site: fawiki
+    title: رند آفریقای جنوبی
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Etelä-Afrikan randi
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Rand (monnaie)
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Rand surafricano
+    badges: []
+  hewiki:
+    site: hewiki
+    title: ראנד דרום אפריקאי
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: दक्षिण अफ्रीकी रेंड
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Južnoafrički rand
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Dél-afrikai rand
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Rand Afrika Selatan
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Rand sudafricano
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ランド (通貨)
+    badges: []
+  kawiki:
+    site: kawiki
+    title: რანდი
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 남아프리카 공화국 랜드
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Лунвыв Африкаса ранд
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Randas (Pietų Afrika)
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: സൗത്ത് ആഫ്രിക്കൻ റാൻഡ്
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: दक्षिण आफ्रिकन रँड
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Rand Afrika Selatan
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Zuid-Afrikaanse rand
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Sørafrikansk rand
+    badges: []
+  nsowiki:
+    site: nsowiki
+    title: Ranta
+    badges: []
+  nywiki:
+    site: nywiki
+    title: South African Rand
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Rand sudafrican
+    badges: []
+  pdcwiki:
+    site: pdcwiki
+    title: Rand
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Rand (waluta)
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Rand
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Rand sud-african
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Южноафриканский рэнд
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: South African rand
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Rand (mena)
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Јужноафрички ранд
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Rand (valuta)
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Ранди Африқои Ҷанубӣ
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Rand ng Timog Aprika
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Güney Afrika randı
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Ранд
+    badges: []
+  urwiki:
+    site: urwiki
+    title: جنوبی افریقی رانڈ
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Rand
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Lâm-hui rand
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 南非蘭特
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 南非兰特
+    badges: []
+  zuwiki:
+    site: zuwiki
+    title: IRandi
+    badges: []

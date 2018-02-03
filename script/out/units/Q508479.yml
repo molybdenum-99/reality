@@ -1,0 +1,361 @@
+---
+pageid: 478131
+ns: 0
+title: Q508479
+lastrevid: 623079193
+modified: '2018-01-24T20:08:30Z'
+type: item
+id: Q508479
+labels:
+  en:
+    language: en
+    value: Aquitanian
+aliases: {}
+claims:
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 35950428a98351733c7156446f2b6797c30d5f29
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1179
+          id: Q1179
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q508479$527F30E7-79E0-4D46-94A6-D0A5505B7532
+    rank: normal
+  P155:
+  - mainsnak:
+      snaktype: value
+      property: P155
+      hash: a523e159cc1c565208e900a6084ea336d299a55b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 502171
+          id: Q502171
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q508479$cd5a996c-4524-ab2b-f42a-406c9cb8258b
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P156:
+  - mainsnak:
+      snaktype: value
+      property: P156
+      hash: 02ec0d0f1be85b8e58e023da2b1539aed1414357
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 508650
+          id: Q508650
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q508479$bcd5d0f4-4f3e-13fd-2bbd-1b34b50eaaad
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P625:
+  - mainsnak:
+      snaktype: value
+      property: P625
+      hash: cce8d840bc453270cd5b6e7f56f8367959bf1cb1
+      datavalue:
+        value:
+          latitude: 44.65888889
+          longitude: 8.83638889
+          altitude: 
+          precision: 0.00027777777777778
+          globe: http://www.wikidata.org/entity/Q2
+        type: globecoordinate
+      datatype: globe-coordinate
+    type: statement
+    id: Q508479$8A31D896-8D23-4BBE-839B-75C475294186
+    rank: normal
+    references:
+    - hash: d4bd87b862b12d99d26e86472d44f26858dee639
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: f30cbd35620c4ea6d0633aaf0210a8916130469b
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 8447
+              id: Q8447
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 10f468a14433debb76c0d8ac82823745476ee965
+      datavalue:
+        value: "/m/07p22n"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q508479$771616C3-9C1D-4024-A140-E62209C9CE54
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: ac90d3fdc3a43de7268a7a988abca47da7999cc1
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 76267
+          id: Q76267
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q508479$c6f2ab42-4335-3c4a-73f0-e39363980842
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1774498cb861c7f76e71afc94661ed9a03d8461a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1123245
+          id: Q1123245
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q508479$c3710148-46ab-193a-08dd-d77dc9624a54
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: b230ba6f73ec78c2fd8b28c19fab3a1a3e51124e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 568683
+          id: Q568683
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q508479$bbce9280-45e6-df70-7e37-f926c5696754
+    rank: normal
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 18e6d3e5a4b2e8891df3becff7db1570f149a24e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 20078554
+          id: Q20078554
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P805:
+      - snaktype: value
+        property: P805
+        hash: 5a33b72a99557f315dbbb560155870e9a74463da
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 28943733
+            id: Q28943733
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P805
+    id: Q508479$E8823651-DCDE-49D1-8741-6E776449E09D
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 88389772f86dcd7d415ddd029f601412e5cc894a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 602358
+          id: Q602358
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P805:
+      - snaktype: value
+        property: P805
+        hash: e92278d269fdb4e33899260b7dac591b7c9c0a75
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 24328980
+            id: Q24328980
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P805
+    id: Q508479$ADB44C7E-6B12-43AE-A550-8C4B1B8E84FE
+    rank: normal
+  P3827:
+  - mainsnak:
+      snaktype: value
+      property: P3827
+      hash: d0f1d4cdbe33fb310b1b7159cf97286f76076503
+      datavalue:
+        value: aquitanian-age
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q508479$AE1E3458-1F20-41F9-AE78-3E01859E36BA
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Aquitanium
+    badges: []
+  arwiki:
+    site: arwiki
+    title: الأكويتاني
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Aquitanianu
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Aquitanià
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Aquitanium
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Aquitanian (stage)
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Aquitaniense
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Akitaniar (estaia)
+    badges: []
+  fawiki:
+    site: fawiki
+    title: آکوئیتانین
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Aquitanien
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Aquitaniano
+    badges: []
+  jawiki:
+    site: jawiki
+    title: アキタニアン
+    badges: []
+  ndswiki:
+    site: ndswiki
+    title: Aquitanium
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Aquitanien
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Aquitanium
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Akwitan
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Aquitaniano
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Аквитанский ярус
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Akvitan
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Аквітанський ярус
+    badges: []

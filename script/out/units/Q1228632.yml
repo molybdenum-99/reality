@@ -1,0 +1,105 @@
+---
+pageid: 1169929
+ns: 0
+title: Q1228632
+lastrevid: 491631794
+modified: '2017-05-28T20:34:07Z'
+type: item
+id: Q1228632
+labels:
+  en:
+    language: en
+    value: Victoriatus
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 4f0eab0b20117da4f803327768431744b06d776b
+      datavalue:
+        value: "/m/02rmzq"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1228632$FB44C30B-0AAA-4280-8719-D1912780602F
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1228632$363CDBEE-C295-4D43-BB78-67F69E793451
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Victoriatus
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Victoriatus
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Vittoriato
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Victoriatus
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Viktoriatas
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Викториат
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Vitturiatu
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Вікторіатус
+    badges: []

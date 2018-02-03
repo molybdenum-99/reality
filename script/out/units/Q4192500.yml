@@ -1,0 +1,89 @@
+---
+pageid: 4001506
+ns: 0
+title: Q4192500
+lastrevid: 491642720
+modified: '2017-05-28T20:58:37Z'
+type: item
+id: Q4192500
+labels:
+  en:
+    language: en
+    value: Młynarki
+aliases: {}
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 48c78ca0971b1488f87426dd5ecdd008fc0a2db2
+      datavalue:
+        value: Zloty of the German Occupation Zone (1939-1944)
+        type: string
+      datatype: string
+    type: statement
+    id: Q4192500$82078D6E-8F4E-49E0-9CFF-723F7C61330D
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4192500$747C0225-1656-4079-88E4-24772A872282
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 161b9d18e71c73f7d3bbc2c5ac51684df95bf606
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 7318
+          id: Q7318
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4192500$6A02675B-9499-4E57-B0B7-970836183782
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  commonswiki:
+    site: commonswiki
+    title: Category:Zloty of the German Occupation Zone (1939-1944)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Młynarki
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Młynarki
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Злотый Эмиссионного банка в Польше
+    badges: []

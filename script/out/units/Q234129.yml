@@ -1,0 +1,372 @@
+---
+pageid: 227749
+ns: 0
+title: Q234129
+lastrevid: 623077932
+modified: '2018-01-24T20:04:25Z'
+type: item
+id: Q234129
+labels:
+  en:
+    language: en
+    value: penny
+aliases:
+  en:
+  - language: en
+    value: pennies
+  - language: en
+    value: pence
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q234129$f054bbb5-4cfb-8f6e-9d5b-bb2e5d9adf98
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 9e214002696f6bdc5b9ff3f72ac5fcbf14678b29
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 41207
+          id: Q41207
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q234129$d101a74f-4eb0-6e78-d890-ad8c27b28819
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: bd5c775d12cf0f13e7819b350f3fad53fac3a9e6
+      datavalue:
+        value: Penny
+        type: string
+      datatype: string
+    type: statement
+    id: q234129$FB37AEE6-F6E0-47AD-A79A-A9DF50762BC0
+    rank: normal
+    references:
+    - hash: c456dc5cd2117249948c288206ff3f8b1bf574f0
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e17507043402fe54ae6c4d65cc51f46cec987de9
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 8449
+              id: Q8449
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: e186b8779a56aecdf3046b717bdb971a5f1e2aa5
+      datavalue:
+        value: "/m/011j77"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q234129$13449E45-D622-451F-AEF4-CF104139930F
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P910:
+  - mainsnak:
+      snaktype: value
+      property: P910
+      hash: 899944a9d0cb21a34f2e83997d1643787f8316f6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 7904721
+          id: Q7904721
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q234129$E40162B2-2D8B-4E9C-A111-3BCD1B5303CC
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: eda63bed5c3d7a3460033092338ab321a2374c7f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2041543
+          id: Q2041543
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P805:
+      - snaktype: value
+        property: P805
+        hash: a8c7956939a959bd42e18e8db524624f470f5c90
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 23863825
+            id: Q23863825
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P805
+    id: Q234129$B2771BFC-D006-4B05-9DB7-BD74DC333405
+    rank: normal
+  P1014:
+  - mainsnak:
+      snaktype: value
+      property: P1014
+      hash: 392df6bc48a91fd9617989f0f02863c91d3e8254
+      datavalue:
+        value: '300195397'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q234129$62ca277d-49f7-9700-20ce-560954bcfde4
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 4eb293677b1e0cba89471d4145e589213117318f
+      datavalue:
+        value: Pennies
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q234129$0E7B03CB-D9BC-4CD6-8165-A3E4DFD9775C
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: بنس
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Пэні
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Пені
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Penic
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Pence
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Penny (Münze)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Penny
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Penco
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Penique
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Penn
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Penni
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Penny
+    badges: []
+  gawiki:
+    site: gawiki
+    title: Pingin
+    badges: []
+  hewiki:
+    site: hewiki
+    title: פני
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Penny
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Penny
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Penny
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Penny
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ペニー
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 페니
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Pensas
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Penny (munt)
+    badges: []
+  nsowiki:
+    site: nsowiki
+    title: Penny
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Pens
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Pêni
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Пенни
+    badges: []
+  sahwiki:
+    site: sahwiki
+    title: Пенни
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Penny
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Penny
+    badges: []
+  sqwiki:
+    site: sqwiki
+    title: Peni
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Penny
+    badges: []
+  tawiki:
+    site: tawiki
+    title: பென்னி
+    badges: []
+  thwiki:
+    site: thwiki
+    title: เพนนี
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Peni
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Пенні
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Penny
+    badges: []
+  yiwiki:
+    site: yiwiki
+    title: פעני
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 便士
+    badges: []

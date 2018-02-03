@@ -1,0 +1,113 @@
+---
+pageid: 30585252
+ns: 0
+title: Q28924752
+lastrevid: 615258460
+modified: '2017-12-30T19:24:18Z'
+type: item
+id: Q28924752
+labels:
+  en:
+    language: en
+    value: gram per mole
+aliases:
+  en:
+  - language: en
+    value: g/mol
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 7c24cffe3260c635bb47c1cae161f8e35c5b608b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 33138136
+          id: Q33138136
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q28924752$38446f43-4abd-fff3-79ee-0d14795d2014
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: f0aa2dffd20f0412c6d6d58ec9512b34f9438517
+      datavalue:
+        value:
+          amount: "+0.001"
+          unit: http://www.wikidata.org/entity/Q28924753
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q28924752$ea3cc0dd-4c14-2403-e297-07878baf10a4
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 733cec1d1d7d3671ce97efe4f24aa84b6f888400
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 145623
+          id: Q145623
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q28924752$9d47859b-43b7-3b4f-5b13-775ccfdc6dc0
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 0c66439bc323f8635c9926ee92740880e39f5f65
+      datavalue:
+        value: g/mol
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q28924752$69154232-4540-27bb-b563-bf08df01a1e9
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 0b4ac62a5ff78f04452b7166e7bd00e1fa7fb4da
+      datavalue:
+        value: г/моль
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q28924752$83d502cd-40cb-d0aa-a6da-4000bc76a1e0
+    rank: normal
+sitelinks: {}

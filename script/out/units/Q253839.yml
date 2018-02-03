@@ -1,0 +1,350 @@
+---
+pageid: 246352
+ns: 0
+title: Q253839
+lastrevid: 622988318
+modified: '2018-01-24T14:16:34Z'
+type: item
+id: Q253839
+labels:
+  en:
+    language: en
+    value: Famennian
+aliases: {}
+claims:
+  P155:
+  - mainsnak:
+      snaktype: value
+      property: P155
+      hash: b115fe2f1ff10377cf9a211c069de7a4b8f1b06b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 264200
+          id: Q264200
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q253839$D90996D6-3210-478C-9958-980B02D45401
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P156:
+  - mainsnak:
+      snaktype: value
+      property: P156
+      hash: 7821fe0ca15d1399e52b9985044633ff84caa3df
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 940381
+          id: Q940381
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q253839$532BDC10-8184-44A6-9168-1D68AA7606DB
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: c1cc55989a22e3ea9c815910aaed41838d95f114
+      datavalue:
+        value: "/m/08rnyr"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q253839$2C3B2A68-5579-4B39-AC7E-00FAEC5093F0
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: f6d55d53f35780fdb1559a74472dfc09c3adc41b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1395106
+          id: Q1395106
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q253839$6954fa17-4c6d-c8b9-74f2-c11f8f2aa63b
+    rank: normal
+    references:
+    - hash: 63415f71a121c033dd075ccbeb03b3445f6180ac
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: ba6467859404b851590089347bdb02ffc207b65c
+          datavalue:
+            value:
+              time: "+2014-10-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P813
+      - P143
+  P625:
+  - mainsnak:
+      snaktype: value
+      property: P625
+      hash: 51a5a20b1d78e39756195a7150ebe3383441b98b
+      datavalue:
+        value:
+          latitude: 43.46888889
+          longitude: 3.05833333
+          altitude: 
+          precision: 0.012377784593039
+          globe: http://www.wikidata.org/entity/Q2
+        type: globecoordinate
+      datatype: globe-coordinate
+    type: statement
+    id: Q253839$FE52AAF0-91FF-4DB0-A93C-4B17520D872E
+    rank: normal
+    references:
+    - hash: 9cdd4f1d064faebc44a10fbd408afa604f3b89f6
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 16eef556b717b1b9c8e2599faef3af2af8537632
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 199700
+              id: Q199700
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P910:
+  - mainsnak:
+      snaktype: value
+      property: P910
+      hash: 274c04f3dd7f6e5c3ce7103c6c014166a3a98086
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 24069177
+          id: Q24069177
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q253839$938C9E6D-28E6-48DA-88B4-5E0D5326F525
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1774498cb861c7f76e71afc94661ed9a03d8461a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1123245
+          id: Q1123245
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q253839$a561b5f5-4324-eb29-4429-0f975bcb1e90
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: b230ba6f73ec78c2fd8b28c19fab3a1a3e51124e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 568683
+          id: Q568683
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q253839$e985a14b-49b2-61d6-08a2-82bad9163882
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: c963dd10c2696a0e95087a2357d7660bde5d810c
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10265844
+          id: Q10265844
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q253839$3e81330e-4694-aaa0-db84-53c83502f9a1
+    rank: normal
+  P3827:
+  - mainsnak:
+      snaktype: value
+      property: P3827
+      hash: c09101db92648e0c58f7d7554bec2ea82b4637f9
+      datavalue:
+        value: famennian-age
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q253839$F69C46AC-3F88-499B-A2AA-9BAF5DB265D9
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Famennium
+    badges: []
+  arwiki:
+    site: arwiki
+    title: الفاميني
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Famennià
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Famennium
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Famennian
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Fameniense
+    badges: []
+  fawiki:
+    site: fawiki
+    title: فامنین (زمین‌شناسی)
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Famennien
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Famenni
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Famenniano
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Famenas stāvs
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Famennien
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Famen
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Fameniano
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Фаменин
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Tầng Famenne
+    badges: []

@@ -1,0 +1,489 @@
+---
+pageid: 1410732
+ns: 0
+title: Q1472704
+lastrevid: 617888400
+modified: '2018-01-08T22:58:56Z'
+type: item
+id: Q1472704
+labels:
+  en:
+    language: en
+    value: New Zealand dollar
+aliases:
+  en:
+  - language: en
+    value: NZD
+  - language: en
+    value: NZ$
+  - language: en
+    value: "$"
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 1bcc2feefba6aa976e2e4ba666027f6dffeb9f4f
+      datavalue:
+        value: Money of New Zealand
+        type: string
+      datatype: string
+    type: statement
+    id: q1472704$24BBB22A-4600-4FDE-8E36-284C50F2B941
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q1472704$D732AC3B-5158-4CD7-928C-BC5E43B9BB9E
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 7cc10845466a8e2163eb916724328bd18f29cdca
+      datavalue:
+        value: NZD
+        type: string
+      datatype: external-id
+    type: statement
+    id: q1472704$9545862d-4a15-0dbf-7981-bdd5ac520f39
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 63b8c50dcb072774239f08deaca00b98d71cfcc2
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1494550
+          id: Q1494550
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q1472704$7FBECAC3-F97D-4A1C-A50E-438E56CEEED2
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: eb73350ee6c6662b0f883f343ad1be31187ddeec
+      datavalue:
+        value: "/m/015f1d"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1472704$8E755E22-FE03-4962-A9EF-B9680B30A57B
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 4ca99002d7956874c9d5c13060663a9f312ecadb
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 664
+          id: Q664
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1472704$a71d9fe7-4d61-e754-2e87-52a7af403e4b
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 7de875af95e04fc36c8596af5bba167cdf2a7d7d
+      datavalue:
+        value: New_Zealand_dollar
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1472704$8FCAEED4-23C7-4BCD-907D-C09667731116
+    rank: normal
+  P2284:
+  - mainsnak:
+      snaktype: value
+      property: P2284
+      hash: 13ecba19e9a679d04a171b670d2ad5b76356ce60
+      datavalue:
+        value:
+          amount: "+0.7153"
+          unit: http://www.wikidata.org/entity/Q4917
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: 644cdfd9cd9fb275d2c0be8bd6dd0f1e83f70c05
+        datavalue:
+          value:
+            time: "+2016-11-00T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 10
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q1472704$1357D73D-5C54-4870-A4F0-A80935B12436
+    rank: normal
+  P1365:
+  - mainsnak:
+      snaktype: value
+      property: P1365
+      hash: 2c708f957677926cd4b26347db41c0e99791fb3a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1887019
+          id: Q1887019
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: 3bccc74794fb83919eb2902e66125d0a73663e7a
+        datavalue:
+          value:
+            time: "+1967-07-10T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q1472704$8ab4681d-4528-ef58-d421-2851fe9343e8
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 2eabdbd099c5b68bb6a7b560bb9c86e525ac968b
+      datavalue:
+        value: New-Zealand-Dollar
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1472704$0807C720-33CF-4A36-B258-0F19F456012A
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 8dd9910e31b7f625c0526a198f110c32869a15c9
+      datavalue:
+        value: '500150'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1472704$02CF3859-6097-4374-8AA2-7A60FFFA6483
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Nieu-Seelandse dollar
+    badges: []
+  anwiki:
+    site: anwiki
+    title: Dólar neozelandés
+    badges: []
+  arwiki:
+    site: arwiki
+    title: دولار نيوزيلندي
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Dólar neozelandés
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Новазэляндзкі даляр
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Новазеландскі долар
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Новозеландски долар
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: নিউজিল্যান্ড ডলার
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Dòlar neozelandès
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Novozélandský dolar
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Newzealandske dollar
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Neuseeland-Dollar
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Δολάριο Νέας Ζηλανδίας
+    badges: []
+  enwiki:
+    site: enwiki
+    title: New Zealand dollar
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Novzelanda dolaro
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Dólar neozelandés
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Zeelandaberritar dolar
+    badges: []
+  fawiki:
+    site: fawiki
+    title: دلار نیوزیلند
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Uuden-Seelannin dollari
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Dollar néo-zélandais
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Dólar neozelandés
+    badges: []
+  hewiki:
+    site: hewiki
+    title: דולר ניו זילנדי
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Novozelandski dolar
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Új-zélandi dollár
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Dolar Selandia Baru
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Dollaro neozelandese
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ニュージーランド・ドル
+    badges: []
+  kawiki:
+    site: kawiki
+    title: ახალზელანდიური დოლარი
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 뉴질랜드 달러
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Выль Зеландияса доллар
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Naujosios Zelandijos doleris
+    badges: []
+  miwiki:
+    site: miwiki
+    title: Tāra
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Новозеландски долар
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: न्यू झीलँड डॉलर
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Dolar New Zealand
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Nieuw-Zeelandse dollar
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Newzealandsk dollar
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Newzealandsk dollar
+    badges: []
+  pihwiki:
+    site: pihwiki
+    title: Nyuu Ziilan dola
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Dolar nowozelandzki
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Dólar neozelandês
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Dolar neozeelandez
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Новозеландский доллар
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Novozelandski dolar
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: New Zealand Dollar
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Novozélandský dolár
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Новозеландски долар
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Nyzeeländsk dollar
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Доллари Зеландияи Нав
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Yeni Zelanda doları
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Новозеландський долар
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Đô la New Zealand
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Dọ́là New Zealand
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: New Zealand dollar
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 紐西蘭元
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 紐西蘭元
+    badges: []

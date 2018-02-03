@@ -1,0 +1,441 @@
+---
+pageid: 570147
+ns: 0
+title: Q605601
+lastrevid: 615117520
+modified: '2017-12-30T07:51:33Z'
+type: item
+id: Q605601
+labels:
+  en:
+    language: en
+    value: Nordic Bronze Age
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 29868492e2648404bc6f7b62789b68129bc135ef
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 15401633
+          id: Q15401633
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q605601$52d6dee5-42e7-d37d-5df0-cdcdd2f86fdf
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 92552e4c0d6e1f224a89fead1ce2ad09e638c945
+      datavalue:
+        value: Nordic Bronze Age
+        type: string
+      datatype: string
+    type: statement
+    id: q605601$14730C36-E2F8-4239-963E-5C82586A9A3A
+    rank: normal
+  P910:
+  - mainsnak:
+      snaktype: value
+      property: P910
+      hash: da19c762697137d15d79081f33ee03cc61f7b90e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10119885
+          id: Q10119885
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q605601$D07962DB-66D1-4DB2-A458-2286F404EC49
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 93d4043669690b5d8fa5b143ed2fed63f787597f
+      datavalue:
+        value: "/m/03_09c"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q605601$ECC535DE-2955-412E-9686-56E1D6B055A0
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P227:
+  - mainsnak:
+      snaktype: value
+      property: P227
+      hash: 60733bed2abe06fda168bf5e3268f64775457bf5
+      datavalue:
+        value: 4132425-0
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q605601$34DE8DCE-36BB-4C0F-B905-0C757010E75B
+    rank: normal
+    references:
+    - hash: 9a24f7c0208b05d6be97077d855671d1dfdbc0dd
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: d38375ffe6fe142663ff55cd783aa4df4301d83d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 48183
+              id: Q48183
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 1a11c9ed68c400ebac0cc7c233042552b78c999d
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11761
+          id: Q11761
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q605601$c7920a95-45f6-afa9-88e1-d65aa9437a2f
+    rank: normal
+  P580:
+  - mainsnak:
+      snaktype: value
+      property: P580
+      hash: e11001ffbeb8e72c9b6340ec43e5cc359e18cb64
+      datavalue:
+        value:
+          time: "-1800-00-00T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 9
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    qualifiers:
+      P31:
+      - snaktype: value
+        property: P31
+        hash: d5ac6d02e7a8948b72184d9e39cf10acbc5e61ed
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 26961029
+            id: Q26961029
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P31
+    id: Q605601$af3bbea7-4b9d-01c1-282d-3575f49c4be5
+    rank: normal
+  P582:
+  - mainsnak:
+      snaktype: value
+      property: P582
+      hash: 3ac98d66c3ea33f9c82d42430a84437480e17ff6
+      datavalue:
+        value:
+          time: "-0530-00-00T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 9
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    qualifiers:
+      P31:
+      - snaktype: value
+        property: P31
+        hash: d5ac6d02e7a8948b72184d9e39cf10acbc5e61ed
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 26961029
+            id: Q26961029
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P31
+    id: Q605601$34694fff-4418-1116-2d3f-03d16af1fa8c
+    rank: normal
+  P61:
+  - mainsnak:
+      snaktype: value
+      property: P61
+      hash: 5e809242e9e38a7dad47bf48c97ae3018add8de4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 312397
+          id: Q312397
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q605601$19324c52-45cc-6ceb-4134-f7033f78ccb5
+    rank: normal
+  P706:
+  - mainsnak:
+      snaktype: value
+      property: P706
+      hash: b198b624ba4a5589a1473052e36b8b4d9520af25
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 21195
+          id: Q21195
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q605601$7e02d126-4cd8-0c66-17bb-b459002dd535
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P706
+      hash: 2579fd16820bcf953643586e8682c9ad7c4913ee
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 191
+          id: Q191
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q605601$d79d433a-4cc4-8a42-060d-0106550d566d
+    rank: normal
+  P155:
+  - mainsnak:
+      snaktype: value
+      property: P155
+      hash: b6bc34727720fee055797fccafe6c383902b86cd
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1235409
+          id: Q1235409
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q605601$0cc0d88d-42cc-9de0-4434-228c9487d074
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 81f5d9c1825904bb33617549e6b254d74aba7e0c
+      datavalue:
+        value: Nordic Bronze Age.png
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q605601$D1F8FA38-D381-4B58-85B8-53D1B7B955C1
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P156:
+  - mainsnak:
+      snaktype: value
+      property: P156
+      hash: 8b0061724f60d40b57127731a2ce6f470171749d
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 500099
+          id: Q500099
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q605601$1D92A306-B7D4-405E-B11A-693865F90689
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P2581:
+  - mainsnak:
+      snaktype: value
+      property: P2581
+      hash: 4b13347b871bf0165e5702881082a021d7f6ed73
+      datavalue:
+        value: 00140611n
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q605601$DBF63C01-787D-4176-AB2F-C667846D5BA9
+    rank: normal
+    references:
+    - hash: bd0ee81488cd8c23d4b655e417aac78dca370283
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: a0b4f55dbedbadaf83e7d2461b47b7aeaba86359
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 4837690
+              id: Q4837690
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P1417:
+  - mainsnak:
+      snaktype: value
+      property: P1417
+      hash: 394fe10766e3163d11f6bcbca1ae649ca7896712
+      datavalue:
+        value: topic/Nordic-Bronze-Age
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q605601$A7977489-A600-4B5C-830A-4456FAD23011
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: عصر برونزي شمالي
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Nordische Bronzezeit
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Nordic Bronze Age
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Skandinava bronzepoko
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Edad de Bronce nórdica
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Âge du bronze danois
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Északi bronzkor
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Età del bronzo scandinava
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 北欧青銅器時代
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 북유럽 청동기 시대
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Skandinavijos bronzos amžius
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Noordse bronstijd
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Bronsealderen i Norge
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Kultura nordyjska
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Idade do Bronze na Suécia
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Скандинавский бронзовый век
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Nordijsko bronzano doba
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Sverige under bronsåldern
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Скандинавська бронзова доба
+    badges: []

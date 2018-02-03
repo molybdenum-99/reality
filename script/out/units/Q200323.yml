@@ -1,0 +1,685 @@
+---
+pageid: 197149
+ns: 0
+title: Q200323
+lastrevid: 623232307
+modified: '2018-01-25T09:53:01Z'
+type: item
+id: Q200323
+labels:
+  en:
+    language: en
+    value: decimetre
+aliases:
+  en:
+  - language: en
+    value: decimeter
+  - language: en
+    value: dm
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: '08c6a99684e9d872435ca38be3cec3ef8a0dbfde'
+      datavalue:
+        value: dm
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: q200323$b8bbda4e-4066-d1ca-87f3-395b14dced5c
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: f156f59521efea12363e904ee09cbcad0379615a
+      datavalue:
+        value: дм
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q200323$ad499ce6-47e8-862a-44d9-1027adb3995b
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 0a97a951bfdac3fd028ffe036ff919786978489e
+      datavalue:
+        value: "/m/01p5ld"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q200323$CFC036B4-3AB3-40AB-A328-4149F16D2FD6
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1c41b2ea8a3f6d3fab77c103d826ae5ead7a9c01
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1978718
+          id: Q1978718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q200323$373f228e-4b7a-57f1-2938-00e369fde20f
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 2242677eccabd403624b9e90b1362cd5e59812d9
+      datavalue:
+        value:
+          amount: "+0.1"
+          unit: http://www.wikidata.org/entity/Q11573
+          upperBound: "+0.1"
+          lowerBound: "+0.1"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q200323$3c856f71-4dd2-0e52-3882-2dd554270025
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 96a3ddd950fec62ea51d4113002fab40eec9cc86
+      datavalue:
+        value: decimetre
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q200323$7335D496-1817-4B64-AA8E-5BE361F90F94
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 4354e3cc033f2c5371e447e5ab1cca8b89ffa3e0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 36253
+          id: Q36253
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q200323$EC74D7B9-08E1-483D-B871-EBD0D4626AEF
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 2a6b14416fcf8768d41842057471026d8214d811
+      datavalue:
+        value:
+          amount: "+0.0001"
+          unit: http://www.wikidata.org/entity/Q828224
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q200323$b072a29e-42da-7ea4-ec9e-100557e04c7f
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 89e95b1f126af7a80084622093c6012160e8fbf2
+      datavalue:
+        value:
+          amount: "+0.1"
+          unit: http://www.wikidata.org/entity/Q11573
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q200323$d26506f8-4834-0560-9799-2b1041e1b614
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 40e8b618f457105c75b6150598ac398e83f547a9
+      datavalue:
+        value:
+          amount: "+0.00006213712"
+          unit: http://www.wikidata.org/entity/Q253276
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q200323$c3df716f-42fb-0efd-4458-76a8e890e56a
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: df3ec4c05b98cd3cd6f91538bb73ff849daa3f79
+      datavalue:
+        value:
+          amount: "+10"
+          unit: http://www.wikidata.org/entity/Q174728
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q200323$ce61b8d8-4d13-f58c-6dd3-628ae225395e
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 253e08f4ee55dde53e1d99ccf470b2c6a0866c55
+      datavalue:
+        value:
+          amount: "+100"
+          unit: http://www.wikidata.org/entity/Q174789
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q200323$f603d12a-4b5f-1643-ef0c-f364252036aa
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 376fda5ae80ab8bf2f1ca8305f9e21870b4a59f7
+      datavalue:
+        value:
+          amount: "+0.3280840"
+          unit: http://www.wikidata.org/entity/Q3710
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q200323$9c354bb4-485a-4b9c-ba12-56f1e3dc6591
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: fb07fa2639a4384853ca676f987b595efd573a4d
+      datavalue:
+        value:
+          amount: "+3.937008"
+          unit: http://www.wikidata.org/entity/Q218593
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q200323$60ab4e82-4607-46c3-5052-d4063a406816
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 6bef3d9e65f6c88896a2015911c38a3ce931547b
+      datavalue:
+        value:
+          amount: "+0.1093613"
+          unit: http://www.wikidata.org/entity/Q482798
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q200323$45d70a6e-449d-f0b2-a0e8-fe405176c517
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: f860b8053cb16e86f0a17f96a6f8561fa029eacd
+      datavalue:
+        value:
+          amount: "+0.000000000000000003240779"
+          unit: http://www.wikidata.org/entity/Q12129
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q200323$101ba232-4d51-da57-cb9c-5b102c643023
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 52d39f2181db6f9b3fdc3a7851a5a221001301d0
+      datavalue:
+        value:
+          amount: "+0.00000000000000001057001"
+          unit: http://www.wikidata.org/entity/Q531
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q200323$4b19c29a-4f01-3e03-3077-6a2a87686c52
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: fc11406dbfd76df7cadfc34aa5fbd1b2adeb89e7
+      datavalue:
+        value:
+          amount: "+0.00005396118"
+          unit: http://www.wikidata.org/entity/Q39359957
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q200323$f5ca5fe9-4b43-5a86-d7a7-f62911b09e5c
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 587fc820b2724f46c12d74df83549e92a80a48db
+      datavalue:
+        value:
+          amount: "+0.0004970960"
+          unit: http://www.wikidata.org/entity/Q494083
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q200323$d7a289b7-4042-80ed-e8a9-acbb5a22f927
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 30020c6d3ca7a1ed49ec6228a3ed5174a63e78c4
+      datavalue:
+        value:
+          amount: "+0.004970960"
+          unit: http://www.wikidata.org/entity/Q552299
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q200323$87fd88c2-436b-6024-aec0-742710e78368
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 2b736ba1bd56007276343ab11b0a1c93b846f64b
+      datavalue:
+        value:
+          amount: "+0.00002071233"
+          unit: http://www.wikidata.org/entity/Q39360235
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q200323$f5cf1b3c-4cf8-2771-e674-774a24de6747
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 573222c4d24ed2b401eec43fab9c88390d2da71d
+      datavalue:
+        value:
+          amount: "+0.00001799856"
+          unit: http://www.wikidata.org/entity/Q39360471
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q200323$e9cb5b8b-4a34-898f-52ba-6ab38d4623ff
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: '00298b9511bd91e9253580ed2cd7e2761c7cb455'
+      datavalue:
+        value:
+          amount: "+3937008"
+          unit: http://www.wikidata.org/entity/Q39362962
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q200323$750bf714-41e7-e3b0-7581-b164059846a6
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 0ed9d6824a3a319a3850f3e6101dbd2a643edaf3
+      datavalue:
+        value:
+          amount: "+0.00005399568"
+          unit: http://www.wikidata.org/entity/Q39380159
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q200323$54c3cc33-4a13-9b39-d924-8a7f9ceb0443
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 27b26a376a3cd8bb3956331a628e978d3b46f803
+      datavalue:
+        value:
+          amount: "+0.0000207"
+          unit: http://www.wikidata.org/entity/Q39363132
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q200323$0124e425-4caa-29d7-5a97-c4e53caf8808
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: fd8ae254019471b40c6f75a4ce19cccdcef1a5bd
+      datavalue:
+        value:
+          amount: "+0.00001798706"
+          unit: http://www.wikidata.org/entity/Q39363209
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q200323$e1a888fb-4853-5ad6-a7bf-082be668979f
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 6084b94450a278b94e0848f1e128145039858891
+      datavalue:
+        value:
+          amount: "+100000"
+          unit: http://www.wikidata.org/entity/Q175821
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q200323$0ed0e6fa-45f7-280e-7a37-8891252170c1
+    rank: normal
+  P1014:
+  - mainsnak:
+      snaktype: value
+      property: P1014
+      hash: 13ff951413a16ea79b5c3796985d79177f7510fa
+      datavalue:
+        value: '300379255'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q200323$513A1C14-82E3-4454-A70C-8B6D1495FEAF
+    rank: normal
+sitelinks:
+  anwiki:
+    site: anwiki
+    title: Decimetro
+    badges: []
+  arwiki:
+    site: arwiki
+    title: ديسيمتر
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Decímetru
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Дэцымэтар
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Дэцыметр
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Дециметър
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: ডেসিমিটার
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Decimetar
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Decímetre
+    badges: []
+  cvwiki:
+    site: cvwiki
+    title: Дециметр
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Decimeter
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Dezimeter
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Δεκατόμετρο
+    badges: []
+  emlwiki:
+    site: emlwiki
+    title: Decìmeter
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Decimetre
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Decimetro
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Decímetro
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Detsimeeter
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Dezimetro
+    badges: []
+  fawiki:
+    site: fawiki
+    title: دسی‌متر
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Décimètre
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Decímetro
+    badges: []
+  hakwiki:
+    site: hakwiki
+    title: Kûng-tshun
+    badges: []
+  iawiki:
+    site: iawiki
+    title: Decimetro
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Desimeter
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Decimetro
+    badges: []
+  jawiki:
+    site: jawiki
+    title: デシメートル
+    badges: []
+  kawiki:
+    site: kawiki
+    title: დეციმეტრი
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Дециметр
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 데시미터
+    badges: []
+  kuwiki:
+    site: kuwiki
+    title: Desîmetre
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Decimetrum
+    badges: []
+  liwiki:
+    site: liwiki
+    title: Decimaeter
+    badges: []
+  lowiki:
+    site: lowiki
+    title: ເດຊີແມັດ
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Decimetrs
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Дециметар
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: डेसिमीटर
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Decimeter
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Desimeter
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Desimeter
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Decymetr
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Decímetro
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Дециметр
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Dicìmitru
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Decimetar
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Decimeter
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Decimeter
+    badges: []
+  sowiki:
+    site: sowiki
+    title: Decimetre
+    badges: []
+  sqwiki:
+    site: sqwiki
+    title: Decimetri
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Decimeter
+    badges: []
+  swwiki:
+    site: swwiki
+    title: Desimita
+    badges: []
+  tawiki:
+    site: tawiki
+    title: டெசிமீட்டர்
+    badges: []
+  tewiki:
+    site: tewiki
+    title: డెసీమీటరు
+    badges: []
+  thwiki:
+    site: thwiki
+    title: เดซิเมตร
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Desimetre
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Дециметр
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Detsimetr
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Đêximét
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 分米
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 分米
+    badges: []

@@ -1,0 +1,217 @@
+---
+pageid: 747263
+ns: 0
+title: Q794261
+lastrevid: 620598099
+modified: '2018-01-15T13:00:45Z'
+type: item
+id: Q794261
+labels:
+  en:
+    language: en
+    value: cubic metre per second
+aliases:
+  en:
+  - language: en
+    value: m3/s
+  - language: en
+    value: m³/s
+  - language: en
+    value: cubic meter per second
+  - language: en
+    value: cumec
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 50afdc16346d8687f53963f614e8d645419488a0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 208469
+          id: Q208469
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q794261$AA835E34-9CCF-4C15-BFBF-A2BA09C5BCA0
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 3289340ce62c7461fb8c931508abd315ab2ee084
+      datavalue:
+        value: "/m/0gbw2l"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q794261$FDAC0583-312D-4CF7-9BFE-48D7296E9F34
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 7cd01b2b45e3808d31a18fb7a44562739818f4eb
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1134348
+          id: Q1134348
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q794261$95f32fd9-402e-5dcb-8d11-ed00b80048ec
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 46bfdea8d121ec346c9aaaa059ed0c72557070ed
+      datavalue:
+        value: m³/s
+        type: string
+      datatype: string
+    type: statement
+    id: Q794261$3fc0c6d3-4d75-8f0e-edcc-a4f6ff7d1d07
+    rank: deprecated
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: cdd1d04f4fd9c60283644933efd978cd1bc27d17
+      datavalue:
+        value:
+          amount: "+1"
+          unit: http://www.wikidata.org/entity/Q794261
+          upperBound: "+1"
+          lowerBound: "+1"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q794261$c5e5d795-4fb8-a240-c81b-278560f235ff
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 9de6fa309e9b46b7b2921c77264d94767b4c77ee
+      datavalue:
+        value: cubic_metre_per_second-time
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q794261$2C925C5D-4627-476D-B4DF-36C2968BFB58
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: fcd24b06a05e2180de729dfc53c9fb09618f2f5c
+      datavalue:
+        value: CubicMeterPerSecond
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q794261$add29ec3-4171-267e-c21a-707cb28df7cd
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: متر مكعب في الثانية
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Kub metr saniyə
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Metre cúbic per segon
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Metr krychlový za sekundu
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Cubic metre per second
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Metro cúbico por segundo
+    badges: []
+  fawiki:
+    site: fawiki
+    title: متر مکعب بر ثانیه
+    badges: []
+  hewiki:
+    site: hewiki
+    title: מטר מעוקב לשנייה
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Kubni metar u sekundi
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Meter kubik per sekon
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Metro cubo al secondo
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 立方メートル毎秒
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Кубен метар во секунда
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Metr sześcienny na sekundę
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Кубический метр в секунду
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Kubni metar u sekundi
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Kubický meter za sekundu
+    badges: []

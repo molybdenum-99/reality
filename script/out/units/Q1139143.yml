@@ -1,0 +1,113 @@
+---
+pageid: 1085880
+ns: 0
+title: Q1139143
+lastrevid: 491631136
+modified: '2017-05-28T20:32:43Z'
+type: item
+id: Q1139143
+labels:
+  en:
+    language: en
+    value: Hyderabadi rupee
+aliases: {}
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 622e5220bf26cd114e378ae8a20e68139debfa25
+      datavalue:
+        value: Money of the Hyderabad State
+        type: string
+      datatype: string
+    type: statement
+    id: Q1139143$bc9aee41-41bd-734d-685c-92cf7f8f19b5
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 0a548c3797ed3437f267d83d050a697916ff5974
+      datavalue:
+        value: "/m/09swxh"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1139143$69060C9F-BDE1-449B-87C1-CBCAC2A9170B
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1139143$daab0867-4ddb-3435-9904-1272a8a65018
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Hyderabad-Rupie
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Hyderabadi rupee
+    badges: []
+  fawiki:
+    site: fawiki
+    title: روپیه حیدرآباد
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Hyderabadsk rupi
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Хайдарабадская рупия
+    badges: []
+  tawiki:
+    site: tawiki
+    title: ஐதராபாதி ரூபாய்
+    badges: []
+  tewiki:
+    site: tewiki
+    title: హైదరాబాదీ రూపీ
+    badges: []

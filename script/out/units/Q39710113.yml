@@ -1,0 +1,59 @@
+---
+pageid: 41060790
+ns: 0
+title: Q39710113
+lastrevid: 558446243
+modified: '2017-09-14T04:54:07Z'
+type: item
+id: Q39710113
+labels:
+  en:
+    language: en
+    value: boiler horsepower equivalent direct radiation
+aliases:
+  en:
+  - language: en
+    value: bhp EDR
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 0f49769a073adbf1aea6d3645a68f24ad29dbeb6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1371562
+          id: Q1371562
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q39710113$a5375d18-4b39-65a3-ac9e-3a9e489d0961
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: d86e1acaad1e3997409236016b66f922433403f6
+      datavalue:
+        value: bhp EDR
+        type: string
+      datatype: string
+    type: statement
+    id: Q39710113$94427788-4c60-f152-2b41-e5cc1a4d2c1e
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: bd6015bb0374aa00d18adff9767e943ff805ad0b
+      datavalue:
+        value:
+          amount: "+12.958174"
+          unit: http://www.wikidata.org/entity/Q25343
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q39710113$9f6c905c-4354-9090-c7f1-24c9c4780ad7
+    rank: normal
+sitelinks: {}

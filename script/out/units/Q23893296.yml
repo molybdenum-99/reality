@@ -1,0 +1,94 @@
+---
+pageid: 25890332
+ns: 0
+title: Q23893296
+lastrevid: 622560685
+modified: '2018-01-22T12:34:29Z'
+type: item
+id: Q23893296
+labels:
+  en:
+    language: en
+    value: cases per 100000 person-years
+aliases:
+  en:
+  - language: en
+    value: "#/100000py"
+  - language: en
+    value: 1/100000py
+  - language: en
+    value: 1/100,000 person-years
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 72262ff97555064a210a685a46d5e2f2d4846eee
+      datavalue:
+        value: 1/100000py
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q23893296$3a0b215c-40d8-57df-8692-643b5dd8a0c9
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: b9902d1d4f6671c849ad2a723c0845d1ff2f3c5a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 217690
+          id: Q217690
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q23893296$03d19ccf-400b-8e65-d66c-8867b50f6ad2
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q23893296$95f21938-49b3-22f0-5a03-731cbb36c63d
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 491b92a5146a3cae10d4333058ef9e6fb48f274e
+      datavalue:
+        value:
+          amount: "+0.00001"
+          unit: http://www.wikidata.org/entity/Q23893259
+          upperBound: "+0.00002"
+          lowerBound: "+0.00000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q23893296$f82df45d-4bc5-16ac-48ab-573c8621e300
+    rank: normal
+sitelinks: {}

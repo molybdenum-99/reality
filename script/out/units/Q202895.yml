@@ -1,0 +1,402 @@
+---
+pageid: 199424
+ns: 0
+title: Q202895
+lastrevid: 620442562
+modified: '2018-01-15T01:19:07Z'
+type: item
+id: Q202895
+labels:
+  en:
+    language: en
+    value: Nepalese rupee
+aliases: {}
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 82b79094e689c277340e44ad158c6f3b487d421e
+      datavalue:
+        value: Money of Nepal
+        type: string
+      datatype: string
+    type: statement
+    id: q202895$072FBD0D-171E-4C61-AB4F-08155C1E02D1
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q202895$B24CFF9B-0FE2-492B-A7C4-BFBD3D2B8386
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 00d28d776e75a467b2129a074827c23333b8b330
+      datavalue:
+        value: NPR
+        type: string
+      datatype: external-id
+    type: statement
+    id: q202895$53b9cc0c-48ae-752a-b203-5e60235e55d6
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: c2825091871354804eabb895a2e6e915924bd32d
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1318435
+          id: Q1318435
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q202895$058FBBA5-1CBB-47C2-A1B2-451CC02B9D08
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 364f16e28fea5fb3daf9ac870264c9299e13db47
+      datavalue:
+        value: "/m/02f4f4"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q202895$A99ADDD0-4289-4835-9E79-9A3B3D59A42E
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 149ea4071d6a57ea9979e1cc1ed1d5c607b722e9
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 837
+          id: Q837
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q202895$3d520a4a-47d2-2221-3865-6ac944e2e568
+    rank: normal
+  P2284:
+  - mainsnak:
+      snaktype: value
+      property: P2284
+      hash: c81ed733bb4042eb9beb7d27316ae5a95e4c9069
+      datavalue:
+        value:
+          amount: "+0.009166"
+          unit: http://www.wikidata.org/entity/Q4917
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: f742be92339cdcc54bf77fbdde9a24b9045f361a
+        datavalue:
+          value:
+            time: "+2016-11-22T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q202895$0C573082-964D-45D0-8011-4B22E9A1B405
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 4589c3830063b46fd7c8a741ee743b935fe9f7c3
+      datavalue:
+        value: '500220'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q202895$23088C49-696E-44F0-BE60-87D0CCF8F30C
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Nepalese Rupee
+    badges: []
+  arwiki:
+    site: arwiki
+    title: روبية نيبالية
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Непалска рупия
+    badges: []
+  bhwiki:
+    site: bhwiki
+    title: नेपाली रुपिया
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: নেপালিজ রুপি
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Rupia nepalesa
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Nepálská rupie
+    badges: []
+  cvwiki:
+    site: cvwiki
+    title: Непал рупийĕ
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Nepalesiske rupee
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Nepalesische Rupie
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Ρουπία Νεπάλ
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Nepalese rupee
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Nepala rupio
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Rupia nepalí
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Nepali ruupia
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Errupia nepaldar
+    badges: []
+  fawiki:
+    site: fawiki
+    title: روپیه نپال
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Nepalin rupia
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Roupie népalaise
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Rupia nepalesa
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: नेपाली रुपया
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Nepalska rupija
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Nepáli rúpia
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Rupee Nepal
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Rupia nepalese
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ネパール・ルピー
+    badges: []
+  kmwiki:
+    site: kmwiki
+    title: រ៉ូពីនេប៉ាល់
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 네팔 루피
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Непалса рупия
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Nepalo rupija
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: നേപ്പാളി രൂപ
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: नेपाळी रुपया
+    badges: []
+  newiki:
+    site: newiki
+    title: रुपैयाँ
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Nepalese roepie
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Nepalsk rupi
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਨੇਪਾਲੀ ਰੁਪਈਆ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Rupia nepalska
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Rupia nepalesa
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Непальская рупия
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Nepalska rupija
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Непалска рупија
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Nepalesisk rupie
+    badges: []
+  tawiki:
+    site: tawiki
+    title: நேபாள ரூபாய்
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Рупии Непал
+    badges: []
+  thwiki:
+    site: thwiki
+    title: รูปีเนปาล
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Rupee ng Nepal
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Nepal rupisi
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Непальська рупія
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Rupee Nepal
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: ნეპალური რუპია
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Rupee Nepali
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Nepal rupee
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 尼泊爾盧比
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 尼泊尔卢比
+    badges: []

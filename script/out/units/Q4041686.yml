@@ -1,0 +1,116 @@
+---
+pageid: 3851578
+ns: 0
+title: Q4041686
+lastrevid: 619241569
+modified: '2018-01-12T11:11:20Z'
+type: item
+id: Q4041686
+labels:
+  en:
+    language: en
+    value: inch of water
+aliases:
+  en:
+  - language: en
+    value: wc
+  - language: en
+    value: inch water column
+  - language: en
+    value: inAq
+  - language: en
+    value: Aq
+  - language: en
+    value: inch of water gauge
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6166ea9a07e43efe7af58b089be082880e6b8c61
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10751953
+          id: Q10751953
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4041686$49c138ed-4fd3-dfe3-db83-817f0e149620
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 89cd8f79f203a1fd36c6293067903c2a8f734e62
+      datavalue:
+        value:
+          amount: "+248.84"
+          unit: http://www.wikidata.org/entity/Q44395
+          upperBound: "+248.85"
+          lowerBound: "+248.83"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q4041686$1a474011-4db4-74d9-cece-56e31e23c956
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 758277947b0d96891b026bd65fcf177af9ea3139
+      datavalue:
+        value: iwc
+        type: string
+      datatype: string
+    type: statement
+    id: Q4041686$e613794e-423c-121e-90de-854af3e86de9
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 680a2ab099a62016cc24cf19e73012eaac1ad0ee
+      datavalue:
+        value: InchOfWater
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q4041686$a6aa6672-4ef4-bd30-1c73-90dd980a1a49
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: a876e7a41293d4f8e5ebf4ae8bf3c9ee615576b8
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 39552
+          id: Q39552
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4041686$E8404F15-202C-4BD8-9D55-780262DEE469
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Inch of water
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Inch of water
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Дюйм водяного столба
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Inch nước
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 英寸水柱
+    badges: []

@@ -1,0 +1,221 @@
+---
+pageid: 35208
+ns: 0
+title: Q32361
+lastrevid: 616035357
+modified: '2018-01-03T06:46:30Z'
+type: item
+id: Q32361
+labels:
+  en:
+    language: en
+    value: Brazilian cruzeiro
+aliases:
+  en:
+  - language: en
+    value: cruzeiro
+  - language: en
+    value: cruzeiros
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 4386d6cd651e7370d1dc323535af0a113c07d573
+      datavalue:
+        value: Brazilian cruzeiro
+        type: string
+      datatype: string
+    type: statement
+    id: q32361$F90C1A03-1151-4E6F-894A-B6864B368168
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 9f32a74f4fe92143f0b39cde0a67aa9d18def14d
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 806186
+          id: Q806186
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q32361$48DAE6EE-E478-4570-918A-E4E3E8C00EAB
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 9fd9aaa0f5085b7bcc26a3f6e01d90a32d69e983
+      datavalue:
+        value: "/m/042pkh"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q32361$5356B4F8-1F53-4BE9-8B79-CE48A1EFEE15
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q32361$b9c6ae9b-4b6f-ada6-8f4a-dc354c548494
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: ccf9ede99ddbcc3df75d4e01bb776ca093e11db4
+      datavalue:
+        value: Cruzeiro
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q32361$3495FFEF-92A7-4794-BBA3-707B5C7410B7
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P2581:
+  - mainsnak:
+      snaktype: value
+      property: P2581
+      hash: 34514f7869cc4d0e161ec5405315e8bdb48d55ec
+      datavalue:
+        value: '00181111n'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q32361$AA463430-3F36-466A-9621-34F034730AFF
+    rank: normal
+    references:
+    - hash: bd0ee81488cd8c23d4b655e417aac78dca370283
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: a0b4f55dbedbadaf83e7d2461b47b7aeaba86359
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 4837690
+              id: Q4837690
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Cruzeiro
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Cruzeiro (Währung)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Brazilian cruzeiro
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Cruzeiro (moneda)
+    badges: []
+  fawiki:
+    site: fawiki
+    title: کروزیروی برزیل
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Cruzeiro (monnaie)
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Brazil cruzeiro
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Cruzeiro (munteenheid)
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Brasiliansk cruzeiro
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Cruzeiro (moeda)
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Крузейро (денежная единица)
+    badges: []

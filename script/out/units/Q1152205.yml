@@ -1,0 +1,93 @@
+---
+pageid: 1098603
+ns: 0
+title: Q1152205
+lastrevid: 491631511
+modified: '2017-05-28T20:33:37Z'
+type: item
+id: Q1152205
+labels:
+  en:
+    language: en
+    value: Solothurn thaler
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 107e236e6b6f98f20fec65626f340aa88ebc5bfc
+      datavalue:
+        value: "/m/02r3mm6"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1152205$BA42B3FD-CD43-496A-B332-BFB4E30C4EB8
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1152205$8153C208-D68C-4A3A-A65E-5215AA38DC34
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: ثالر سولوتورن
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Solothurn thaler
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Tallero di Soletta
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Thaler Solothurn
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Золотурнский талер
+    badges: []

@@ -1,0 +1,312 @@
+---
+pageid: 796451
+ns: 0
+title: Q844338
+lastrevid: 564653729
+modified: '2017-09-24T01:06:10Z'
+type: item
+id: Q844338
+labels:
+  en:
+    language: en
+    value: hectometre
+aliases:
+  en:
+  - language: en
+    value: hectometer
+  - language: en
+    value: hm
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: eecb3f50cddeb245c0a67dcbc9c05df7a7d62ef8
+      datavalue:
+        value: hm
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q844338$d063de8d-49c6-09d5-282d-5e27855052ca
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 52b92e984030317c082ac7de72cb783e9e600715
+      datavalue:
+        value: гм
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q844338$56832009-451a-e24a-8e43-b10b3bdd57ab
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1c41b2ea8a3f6d3fab77c103d826ae5ead7a9c01
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1978718
+          id: Q1978718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q844338$bb12df78-4312-4937-43da-f4de5ce2fe02
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 0f2be20cdaa5da6916613f58fcb737a7200011c4
+      datavalue:
+        value: "/m/02qs2d"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q844338$BD2C8432-B0FE-4A1C-8029-447267069566
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2043:
+  - mainsnak:
+      snaktype: value
+      property: P2043
+      hash: c51b8f2f18147d430d0f9edcdd42c490707e2b39
+      datavalue:
+        value:
+          amount: "+100"
+          unit: http://www.wikidata.org/entity/Q11573
+          upperBound: "+100"
+          lowerBound: "+100"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q844338$c75375f0-483f-1826-e8a2-4840cb8084e0
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 24fa56fbe962463fab02e460ef9f97a80fd26557
+      datavalue:
+        value:
+          amount: "+100"
+          unit: http://www.wikidata.org/entity/Q11573
+          upperBound: "+100"
+          lowerBound: "+100"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q844338$4902d84f-4f2c-ec15-beeb-5543fd8586ce
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: a86148bb643bb59bc2a5db8deb67bbc040b588ae
+      datavalue:
+        value: hectometre
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q844338$4D22EA82-3E89-4AA2-846E-8AC356D7D0C4
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 4354e3cc033f2c5371e447e5ab1cca8b89ffa3e0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 36253
+          id: Q36253
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q844338$41A56E16-91F8-4B79-99DE-F0779FC6FD73
+    rank: normal
+sitelinks:
+  anwiki:
+    site: anwiki
+    title: Hectometro
+    badges: []
+  arwiki:
+    site: arwiki
+    title: هكتومتر
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Hectómetru
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Hectòmetre
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Hektometer
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Hectometre
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Hectómetro
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Hektometro
+    badges: []
+  fawiki:
+    site: fawiki
+    title: هکتومتر
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Hectómetro
+    badges: []
+  hakwiki:
+    site: hakwiki
+    title: Kûng-yîn
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Hektometer
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Ettometro
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ヘクトメートル
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 헥토미터
+    badges: []
+  lowiki:
+    site: lowiki
+    title: ເຮັກໂຕແມັດ
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: हेक्टोमीटर
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Hectometer
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Hektometer
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Hektometer
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Hektometr
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Hectômetro
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Hektometar
+    badges: []
+  sowiki:
+    site: sowiki
+    title: Hectometre
+    badges: []
+  sqwiki:
+    site: sqwiki
+    title: Hektometri
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Хектометар
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Hektometer
+    badges: []
+  tawiki:
+    site: tawiki
+    title: ஹெக்டா மீட்டர்
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Hektometre
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 百米
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 粨
+    badges: []

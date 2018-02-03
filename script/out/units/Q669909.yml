@@ -1,0 +1,265 @@
+---
+pageid: 630842
+ns: 0
+title: Q669909
+lastrevid: 537539211
+modified: '2017-08-14T08:08:24Z'
+type: item
+id: Q669909
+labels:
+  en:
+    language: en
+    value: modius
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 5cebe0e16525e81b3e1616fe4971f74d9462a48b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 186218
+          id: Q186218
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q669909$65BEB80C-E3B8-4789-B616-2CBF25F94B29
+    rank: normal
+    references:
+    - hash: 7bed4348e9ce6cbb9b35e78782403748cc60bc8c
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 2dec9667d599ba3e42a0e590a79ca231e658949b
+          datavalue:
+            value: http://homepage.usask.ca/~jrp638/CourseNotes/weightsmeasures.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 44699fe3d9f23905b4c77a211b111fe8b0b332d0
+          datavalue:
+            value:
+              time: "+2016-07-15T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: f37c73dec48ba9a6299af3cc096435154a20ce68
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 6008757
+          id: Q6008757
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q669909$9edc3f20-47fe-82f7-0a06-ef775af29d04
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 52afd5559217923531f59bd55edf87f344e02b43
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1161819
+          id: Q1161819
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q669909$69da36ba-4e0d-2673-59f2-3742f16d954e
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 8e11bc6ba636730295146591a891462b97b00073
+      datavalue:
+        value:
+          amount: "+16"
+          unit: http://www.wikidata.org/entity/Q14333713
+          upperBound: "+16"
+          lowerBound: "+16"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q669909$8adeaac9-4974-7e70-bd2c-bbedaf21b1dd
+    rank: normal
+    references:
+    - hash: 7bed4348e9ce6cbb9b35e78782403748cc60bc8c
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 2dec9667d599ba3e42a0e590a79ca231e658949b
+          datavalue:
+            value: http://homepage.usask.ca/~jrp638/CourseNotes/weightsmeasures.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 44699fe3d9f23905b4c77a211b111fe8b0b332d0
+          datavalue:
+            value:
+              time: "+2016-07-15T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 47e97bf6a8c77fd2a92c2c45fccaaba9aa97bac3
+      datavalue:
+        value:
+          amount: "+8.736"
+          unit: http://www.wikidata.org/entity/Q11582
+          upperBound: "+8.736"
+          lowerBound: "+8.736"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q669909$78aa8d0c-4256-d7a5-ff44-c39e75899181
+    rank: normal
+    references:
+    - hash: 77558b2586162aee5b4404eb03a24e761dda99fa
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: afd0bc01045c9e952bd83a2da36c2745f89ac643
+          datavalue:
+            value: http://www.livius.org/w/weights/weights2.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 319eca416990be95d0bc1936656ae864506b85ef
+          datavalue:
+            value:
+              time: "+2016-07-17T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 3397789065474cd442df8dc31c980fb2fabae22b
+      datavalue:
+        value:
+          amount: "+0.008736"
+          unit: http://www.wikidata.org/entity/Q25517
+          upperBound: "+0.008736"
+          lowerBound: "+0.008736"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q669909$3aa8676f-4964-89a3-9c70-a2c8ad7e34c2
+    rank: normal
+    references:
+    - hash: 77558b2586162aee5b4404eb03a24e761dda99fa
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: afd0bc01045c9e952bd83a2da36c2745f89ac643
+          datavalue:
+            value: http://www.livius.org/w/weights/weights2.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 319eca416990be95d0bc1936656ae864506b85ef
+          datavalue:
+            value:
+              time: "+2016-07-17T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: ece6f6e6968e83ab4ea375829a8c5694d93dff51
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 39297
+          id: Q39297
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q669909$20D7CA17-3EA0-4EE2-8D75-7CCE95C3A577
+    rank: normal
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Modius
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Modius (Einheit)
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Μόδιος
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Modio
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Modius
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Modius
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Modius
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Modius
+    badges: []

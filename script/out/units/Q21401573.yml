@@ -1,0 +1,63 @@
+---
+pageid: 23447623
+ns: 0
+title: Q21401573
+lastrevid: 560449197
+modified: '2017-09-17T05:07:12Z'
+type: item
+id: Q21401573
+labels:
+  en:
+    language: en
+    value: reciprocal cubic metre
+aliases:
+  en:
+  - language: en
+    value: m^-3
+  - language: en
+    value: inverse cubic metre
+  - language: en
+    value: per cubic metre
+  - language: en
+    value: per metre cubed
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 50afdc16346d8687f53963f614e8d645419488a0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 208469
+          id: Q208469
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q21401573$e68a38ba-4332-c484-ed9b-3b38ce36707f
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 650f04957fb34c11b59e28f3de2b17b5d7b072ee
+      datavalue:
+        value: reciprocal_cubic_metre
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q21401573$2DA4F5F8-21A7-4301-9F0B-E3E1DCC11039
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 7d1355caff15fb8b9b82bfd9b5cb6f547259ae00
+      datavalue:
+        value: PerCubicMeter
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q21401573$34159e34-49d9-8a74-858e-91d44ca48062
+    rank: normal
+sitelinks: {}

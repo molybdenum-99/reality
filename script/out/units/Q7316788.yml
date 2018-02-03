@@ -1,0 +1,109 @@
+---
+pageid: 7222527
+ns: 0
+title: Q7316788
+lastrevid: 544013746
+modified: '2017-08-22T17:11:43Z'
+type: item
+id: Q7316788
+labels:
+  en:
+    language: en
+    value: mebi-
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: fe4251e8ce417e4fb8898fa6a97b88a531d71ce2
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 6583973
+          id: Q6583973
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q7316788$9b3fc42e-4cd0-f629-2cb4-6d825540ccf7
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 2279fdd810027b6a428164ff9950a5d3e408cfd0
+      datavalue:
+        value: Mi
+        type: string
+      datatype: string
+    type: statement
+    id: Q7316788$66edf3f1-470e-6b62-1296-3b70c53a1444
+    rank: normal
+    references:
+    - hash: 5fe1039858667ad40e3911367de1d0a0cac48c8e
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 0e73b9396411d565bdd95a9c668d5a209a8197d0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 193858
+              id: Q193858
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 5bc0ddacf3731c76959e39cd4b78b32ef74f0981
+      datavalue:
+        value: Ми
+        type: string
+      datatype: string
+    type: statement
+    id: Q7316788$6d35c8d2-4912-22df-40e9-b445928e433b
+    rank: normal
+    references:
+    - hash: 5fe1039858667ad40e3911367de1d0a0cac48c8e
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 0e73b9396411d565bdd95a9c668d5a209a8197d0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 193858
+              id: Q193858
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 770d6582511898669f96682180667c6ed4b8401f
+      datavalue:
+        value: mebi
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q7316788$509720DC-FB4D-4800-A8E5-5D49A5F7A089
+    rank: normal
+sitelinks:
+  bgwiki:
+    site: bgwiki
+    title: Меби-
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Mebi
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Mebi
+    badges: []

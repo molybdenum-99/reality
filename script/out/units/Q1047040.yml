@@ -1,0 +1,251 @@
+---
+pageid: 996108
+ns: 0
+title: Q1047040
+lastrevid: 618694322
+modified: '2018-01-11T05:31:01Z'
+type: item
+id: Q1047040
+labels:
+  en:
+    language: en
+    value: Monegasque franc
+aliases:
+  en:
+  - language: en
+    value: MCF
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 54c30edc3e8c4a7169e44f1afb9d97665cf8ceff
+      datavalue:
+        value: "/m/0d2c29"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1047040$0FD70CE9-8A78-4079-B3D3-53E13AC04930
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1047040$b8bc4500-473b-a224-6838-147bf5a82fdc
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: cf1b2d9f05c58c5d13ac4290235eeffc27940731
+      datavalue:
+        value: 1FrancMonaco1978pile.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    qualifiers:
+      P2096:
+      - snaktype: value
+        property: P2096
+        hash: 31501ad985423eedaf486c9c1d71403ac847f192
+        datavalue:
+          value:
+            text: Revers de la moneda d'1 franc de 1978
+            language: ca
+          type: monolingualtext
+        datatype: monolingualtext
+    qualifiers-order:
+    - P2096
+    id: Q1047040$664733A1-C535-4160-B6F7-41A87F20C9B3
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 823cb1d8e9510ad51dd926ff0abc795aa8914784
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 235
+          id: Q235
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1047040$d828e316-41c7-63b9-3244-df29e57a767a
+    rank: normal
+  P1366:
+  - mainsnak:
+      snaktype: value
+      property: P1366
+      hash: 2c75bfaf4e3db000df3888eef763865c5c85478b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 4916
+          id: Q4916
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: 2e2c1dd772d2e79466748ae4847164f99c871a2e
+        datavalue:
+          value:
+            time: "+2002-01-01T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q1047040$607d3308-48d5-b5f3-4509-a2abb066dca0
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: e15314f0e23bbc32e503d6b64f86da401a6628e2
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1403377
+          id: Q1403377
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1047040$1ec5f420-42b8-2ff2-7bb8-6026f02b8e89
+    rank: normal
+sitelinks:
+  bgwiki:
+    site: bgwiki
+    title: Монакски франк
+    badges: []
+  brwiki:
+    site: brwiki
+    title: Lur Monaco
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Franc monegasc
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Monacký frank
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Monegassischer Franc
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Monégasque franc
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Franco monegasco
+    badges: []
+  fawiki:
+    site: fawiki
+    title: فرانک موناکو
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Franc monégasque
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Monegaški franak
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Mónakóskur franki
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Franco monegasco
+    badges: []
+  jawiki:
+    site: jawiki
+    title: モネガスク・フラン
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 모나코 프랑
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Monako frankas
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Monegaskische frank
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Frank monakijski
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Franco monegasco
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Franc monegasc
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Монегасский франк
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Франк Монако
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 摩納哥法郎
+    badges: []

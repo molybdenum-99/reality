@@ -1,0 +1,660 @@
+---
+pageid: 196992
+ns: 0
+title: Q200050
+lastrevid: 617888484
+modified: '2018-01-08T22:59:17Z'
+type: item
+id: Q200050
+labels:
+  en:
+    language: en
+    value: Chilean peso
+aliases:
+  en:
+  - language: en
+    value: peso
+  - language: en
+    value: CLP
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: ec39ad83861f30b1ed94b23b10a44b59b9925e0a
+      datavalue:
+        value: Chilean peso
+        type: string
+      datatype: string
+    type: statement
+    id: q200050$6CDD661B-05E9-4E6B-A3B8-3D94FD9434FD
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 62b92ff7d900ebf6441612661ea967a57d2eb600
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1643989
+          id: Q1643989
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q200050$03CEEE42-3E31-4049-8B86-3E478BBA164E
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q200050$7BFA7614-37C6-48DE-9032-40506097D23B
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 944513051a1303beda2f5f952a31ffebafc5d2f8
+      datavalue:
+        value: CLP
+        type: string
+      datatype: external-id
+    type: statement
+    id: q200050$a11baeed-4269-0c11-cb64-57476bf93e9c
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 7e74d91f3907fc9aea537bc0d797c33802345038
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2631674
+          id: Q2631674
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q200050$072C701C-66EC-4E78-A4A8-2CB06A9BE8F2
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: a61ab36526725f67a4b5c756afdda626010cfd19
+      datavalue:
+        value: "/m/0172zs"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q200050$2B52C6BF-36E9-401F-89AD-0A78D439EF4A
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: e8ccd0e986dbab687e97e16135182ba3caa49071
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 298
+          id: Q298
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q200050$4aec0d5c-4a8c-3479-9fe6-6ec756fcf85f
+    rank: normal
+  P2284:
+  - mainsnak:
+      snaktype: value
+      property: P2284
+      hash: 5cde7cb7bd691122631885592d3e908966e952e0
+      datavalue:
+        value:
+          amount: "+0.001489"
+          unit: http://www.wikidata.org/entity/Q4917
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: f742be92339cdcc54bf77fbdde9a24b9045f361a
+        datavalue:
+          value:
+            time: "+2016-11-22T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q200050$E573D6AA-2BFE-47B0-B036-BE0A30D6C103
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 1f384b972f726eaba77b34c57e30d8df2a15a82e
+      datavalue:
+        value: Peso Chile Vs.JPG
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q200050$22FE8AF7-2D72-482C-8EBE-C54C70EBAB3E
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: 755b245a521b5ebf099df1cfc41fa78e2ad1a96f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 244696
+          id: Q244696
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q200050$d7a94149-47f2-9576-cedd-1bf532cddf91
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 9aea7d479ca28ebb0ce44cb3c3d06e672c6ad202
+      datavalue:
+        value: '500143'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q200050$AD274D70-6F30-44C7-A973-282A616104DC
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Chileense Peso
+    badges: []
+  amwiki:
+    site: amwiki
+    title: የቺሌ ፔሶ
+    badges: []
+  anwiki:
+    site: anwiki
+    title: Peso chileno
+    badges: []
+  arcwiki:
+    site: arcwiki
+    title: ܦܝܣܘ ܬܫܝܠܝܢܝܐ
+    badges: []
+  arwiki:
+    site: arwiki
+    title: بيزو تشيلي
+    badges: []
+  arzwiki:
+    site: arzwiki
+    title: بيزو تشيلى
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Peso chilenu
+    badges: []
+  azbwiki:
+    site: azbwiki
+    title: شیلی پسوسو
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Çili pesosu
+    badges: []
+  barwiki:
+    site: barwiki
+    title: Chilenischa Peso
+    badges: []
+  bat_smgwiki:
+    site: bat_smgwiki
+    title: Čilės pesos
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Чылійскае песа
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Чилийско песо
+    badges: []
+  bhwiki:
+    site: bhwiki
+    title: चिलीयाई पेसो
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: চিলেয়ান পেসো
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Peso xilè
+    badges: []
+  cdowiki:
+    site: cdowiki
+    title: Chile peso
+    badges: []
+  ckbwiki:
+    site: ckbwiki
+    title: پێسۆی چیلی
+    badges: []
+  commonswiki:
+    site: commonswiki
+    title: Category:Chilean peso
+    badges: []
+  cowiki:
+    site: cowiki
+    title: Peso cilenu
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Chilské peso
+    badges: []
+  cvwiki:
+    site: cvwiki
+    title: Чили песовĕ
+    badges: []
+  cywiki:
+    site: cywiki
+    title: Peso Chile
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Chilenischer Peso
+    badges: []
+  diqwiki:
+    site: diqwiki
+    title: Pesoyê Şili
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Πέσο Χιλής
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Chilean peso
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Ĉilia peso
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Peso (moneda de Chile)
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Tšiili peeso
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Peso txiletar
+    badges: []
+  fawiki:
+    site: fawiki
+    title: پزو شیلی
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Chilen peso
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Peso chilien
+    badges: []
+  ganwiki:
+    site: ganwiki
+    title: 智利比索
+    badges: []
+  gotwiki:
+    site: gotwiki
+    title: "\U00010343\U00010339\U0001033B\U00010339 \U00010340\U00010334\U00010343\U00010349"
+    badges: []
+  gvwiki:
+    site: gvwiki
+    title: Peso Shilleeagh
+    badges: []
+  hakwiki:
+    site: hakwiki
+    title: Chile peso
+    badges: []
+  hewiki:
+    site: hewiki
+    title: פסו צ'יליאני
+    badges: []
+  hifwiki:
+    site: hifwiki
+    title: Chilean peso
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: चिलीयन पेसो
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Čileanski pezo
+    badges: []
+  hsbwiki:
+    site: hsbwiki
+    title: Chilski peso
+    badges: []
+  htwiki:
+    site: htwiki
+    title: Chilyen peso
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Chilei peso
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Չիլիական պեսո
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Peso Chili
+    badges: []
+  iowiki:
+    site: iowiki
+    title: Chiliana peso
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Peso cileno
+    badges: []
+  jawiki:
+    site: jawiki
+    title: チリ・ペソ
+    badges: []
+  jbowiki:
+    site: jbowiki
+    title: tciles pes
+    badges: []
+  kawiki:
+    site: kawiki
+    title: ჩილეს პესო
+    badges: []
+  knwiki:
+    site: knwiki
+    title: ಚಿಲಿ ಪೆಸೊ
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 칠레 페소
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Чилиса песо
+    badges: []
+  lbwiki:
+    site: lbwiki
+    title: Chilenesche Peso
+    badges: []
+  lowiki:
+    site: lowiki
+    title: ເປໂຊຈີເລ
+    badges: []
+  ltgwiki:
+    site: ltgwiki
+    title: Čilesu peso
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Čilės pesas
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Čīles peso
+    badges: []
+  mgwiki:
+    site: mgwiki
+    title: Shiliana Peso
+    badges: []
+  miwiki:
+    site: miwiki
+    title: Peho Hiri
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: ചിലിയൻ പെസോ
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: चिलीयन पेसो
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Peso Chile
+    badges: []
+  mwlwiki:
+    site: mwlwiki
+    title: Peso chileno
+    badges: []
+  myvwiki:
+    site: myvwiki
+    title: Чилиянь песо
+    badges: []
+  mywiki:
+    site: mywiki
+    title: ချီလီပီဆို
+    badges: []
+  mznwiki:
+    site: mznwiki
+    title: شیلی پزو
+    badges: []
+  newwiki:
+    site: newwiki
+    title: चिलीन्न प्पीस्सू
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Chileense peso
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Chilensk peso
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Peso de Chile
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਚਿਲੀਆਈ ਪੇਸੋ
+    badges: []
+  pcdwiki:
+    site: pcdwiki
+    title: Chilienne peso
+    badges: []
+  pdcwiki:
+    site: pdcwiki
+    title: Peso (Chile)
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Peso chilijskie
+    badges: []
+  pmswiki:
+    site: pmswiki
+    title: Peso (Cile)
+    badges: []
+  pnbwiki:
+    site: pnbwiki
+    title: پیسو
+    badges: []
+  pswiki:
+    site: pswiki
+    title: پزوی شیلی
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Peso chileno
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Чилийское песо
+    badges: []
+  sahwiki:
+    site: sahwiki
+    title: Чили песота
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Pesu cilinu
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Chilean peso
+    badges: []
+  sewiki:
+    site: sewiki
+    title: Chile peso
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Chilean peso
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Čilenski peso
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Чилеански пезос
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Chilensk peso
+    badges: []
+  thwiki:
+    site: thwiki
+    title: เปโซชิลี
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Şili pesosu
+    badges: []
+  ugwiki:
+    site: ugwiki
+    title: چىلى پېسو
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Чилійський песо
+    badges: []
+  urwiki:
+    site: urwiki
+    title: چلین پیسہ
+    badges: []
+  vecwiki:
+    site: vecwiki
+    title: Peso cileno
+    badges: []
+  vepwiki:
+    site: vepwiki
+    title: Čilin peso
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Peso Chile
+    badges: []
+  vlswiki:
+    site: vlswiki
+    title: Chileensche peso
+    badges: []
+  warwiki:
+    site: warwiki
+    title: Chileno nga peso
+    badges: []
+  wuuwiki:
+    site: wuuwiki
+    title: 智利比索
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: ჩილეური პესო
+    badges: []
+  yiwiki:
+    site: yiwiki
+    title: טשילענישע פעזא
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Peso Tsílè
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Chile peso
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 智利披索
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 智利比索
+    badges: []

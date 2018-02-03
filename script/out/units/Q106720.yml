@@ -1,0 +1,439 @@
+---
+pageid: 109379
+ns: 0
+title: Q106720
+lastrevid: 625079917
+modified: '2018-01-31T12:35:32Z'
+type: item
+id: Q106720
+labels:
+  en:
+    language: en
+    value: North Korean won
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q106720$CCECD7E7-8CEF-4028-BD33-A906C12831C8
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 61129a5971da4538e0fdfcc24b39b44d7188170b
+      datavalue:
+        value: Money of North Korea
+        type: string
+      datatype: string
+    type: statement
+    id: q106720$0BBB90F8-AF4D-475F-B794-E179AAB8EF67
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: ba9616e08992d394cf7c5c2de62bd89fc6198eda
+      datavalue:
+        value: KPW
+        type: string
+      datatype: external-id
+    type: statement
+    id: q106720$c6ed39b0-40ec-06c2-3201-d486b50ba10c
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 7225bc31c0f92727d202551f1ff20de6ae8bc6a6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1141425
+          id: Q1141425
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q106720$1309CE38-E49F-4AE9-BFDC-F693AE258B93
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 2a9a928f11a03d9904eba8712eacd226f4ac3b36
+      datavalue:
+        value: "/m/01rn14"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q106720$6765C65D-0E50-4B48-9C1A-6F032587A5AA
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: f9d1f68374f351ebf2d6d29d83bf1a810d090ab1
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 423
+          id: Q423
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q106720$c749d5e7-4551-da5b-1134-2d96e4a29c17
+    rank: normal
+  P2001:
+  - mainsnak:
+      snaktype: value
+      property: P2001
+      hash: dad4c1f7ef01fab7700e089dd06f13ed147971f3
+      datavalue:
+        value: Joseon minjujuui inmin gonghwaguk won
+        type: string
+      datatype: string
+    type: statement
+    id: Q106720$10F772C6-A5F9-4D37-B77A-F5C5C53A412F
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P1942:
+  - mainsnak:
+      snaktype: value
+      property: P1942
+      hash: f3fa2ba53ffcdf8b309477f864b73ba0b4bc26e4
+      datavalue:
+        value: Chosŏn minjujuŭi inmin konghwakuk wŏn
+        type: string
+      datatype: string
+    type: statement
+    id: Q106720$287BABBB-02DB-48C3-99F5-462311FA875D
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 45de47a0ef31725353768536ff55f80c2b581d47
+      datavalue:
+        value: '500190'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q106720$39773536-ABB8-4E5E-91F6-34E9B440734C
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: وون كوري شمالي
+    badges: []
+  bat_smgwiki:
+    site: bat_smgwiki
+    title: Šiaurės Kuoriejės vuona
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Паўночнакарэйская вона
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Вона КНДР
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Севернокорейски вон
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: ঔয়াং কোরিয়ান ৱোন
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Sjevernokorejski von
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Won nord-coreà
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Severokorejský won
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Nordkoreanske won
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Nordkoreanischer Won
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Γουόν Βόρειας Κορέας
+    badges: []
+  enwiki:
+    site: enwiki
+    title: North Korean won
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Nordkoreia ŭono
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Won norcoreano
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Põhja-Korea vonn
+    badges: []
+  fawiki:
+    site: fawiki
+    title: وون کره شمالی
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Pohjois-Korean won
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Won nord-coréen
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Won norcoreano
+    badges: []
+  hewiki:
+    site: hewiki
+    title: וון צפון-קוריאני
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: उत्तर कोरियाई वॉन
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Sjevernokorejski von
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Észak-koreai von
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Won Korea Utara
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Won nordcoreano
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 朝鮮民主主義人民共和国ウォン
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 조선민주주의인민공화국 원
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Войвыв Кореяса вона
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Šiaurės Korėjos vona
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: വോൺ
+    badges: []
+  mnwiki:
+    site: mnwiki
+    title: Хойд Солонгос вон
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Won Korea Utara
+    badges: []
+  ndswiki:
+    site: ndswiki
+    title: Noordkoreaansch Won
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Noord-Koreaanse won
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Nordkoreansk won
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਉੱਤਰੀ ਕੋਰੀਆਈ ਵੌਨ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Won północnokoreański
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Won norte-coreano
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Won nord-coreean
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Северокорейская вона
+    badges: []
+  sahwiki:
+    site: sahwiki
+    title: Хоту Кэриэйэ воната
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Sjevernokorejski wŏn
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Севернокорејски вон
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Nordkoreansk won
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Вони Кореяи Шимолӣ
+    badges: []
+  thwiki:
+    site: thwiki
+    title: วอน (สกุลเงินเกาหลีเหนือ)
+    badges: []
+  tkwiki:
+    site: tkwiki
+    title: Günorta Koreýa Won
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Won ng Hilagang Korea
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Kuzey Kore wonu
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Північнокорейська вона
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Won Cộng hòa Dân chủ Nhân dân Triều Tiên
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: ოორუეკორეული ვონა
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Won Kòréà Àríwá
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Tiâu-sián Bîn-chú-chú-gī Jîn-bîn Kiōng-hô-kok won
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 北韓圓
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 朝鮮圓
+    badges: []

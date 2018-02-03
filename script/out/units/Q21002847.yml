@@ -1,0 +1,90 @@
+---
+pageid: 23054415
+ns: 0
+title: Q21002847
+lastrevid: 599670480
+modified: '2017-11-28T00:42:03Z'
+type: item
+id: Q21002847
+labels:
+  en:
+    language: en
+    value: FairCoin
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 16ab8cfff2957341998c927ff03e50befb65a864
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 13479982
+          id: Q13479982
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q21002847$5a17041f-46f1-034f-9a7e-88d77d02ee29
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: ce4257da9f5377336f2398dd4c9cfc8d39e921a3
+      datavalue:
+        value: FairCoin
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q21002847$4F414E81-BD23-4D1B-89AD-37DA45F62710
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P2002:
+  - mainsnak:
+      snaktype: value
+      property: P2002
+      hash: cf959b85821e1fcea8a76082ff08c49ce4cc2581
+      datavalue:
+        value: FairCoinTeam
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q21002847$78B551B8-EF72-47ED-9D45-A71CDCF5F350
+    rank: normal
+  P856:
+  - mainsnak:
+      snaktype: value
+      property: P856
+      hash: 13b4cd54fc2aaf030cb5b92cfb4d664c9f242be2
+      datavalue:
+        value: https://fair-coin.org
+        type: string
+      datatype: url
+    type: statement
+    id: Q21002847$1B9B839B-1E21-49C3-80D6-CB39379D11D6
+    rank: normal
+sitelinks:
+  eswiki:
+    site: eswiki
+    title: Faircoin
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: FairCoin
+    badges: []

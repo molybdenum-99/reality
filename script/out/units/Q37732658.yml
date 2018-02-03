@@ -1,0 +1,165 @@
+---
+pageid: 39105101
+ns: 0
+title: Q37732658
+lastrevid: 549479149
+modified: '2017-08-31T05:36:50Z'
+type: item
+id: Q37732658
+labels:
+  en:
+    language: en
+    value: degrees Rankine
+aliases:
+  en:
+  - language: en
+    value: degree Rankine
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 50afdc16346d8687f53963f614e8d645419488a0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 208469
+          id: Q208469
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q37732658$224234ed-460b-9685-4678-252d00ce97e7
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 5774bada555a6041b0c7885263cb032464e4f5b0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2394680
+          id: Q2394680
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q37732658$5c72f72d-43b4-4afb-a8bd-f724ee7f6423
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 8860ef13bdabc74dd4407fd2f3da4ef374f37598
+      datavalue:
+        value: "°R"
+        type: string
+      datatype: string
+    type: statement
+    id: Q37732658$7afbf57a-4871-da06-9361-3816bd11f913
+    rank: normal
+  P1296:
+  - mainsnak:
+      snaktype: value
+      property: P1296
+      hash: f624e9773d249488501980280b41f99e4b5afd40
+      datavalue:
+        value: '0054277'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q37732658$06a74753-41b9-180b-0b5d-0783feac687e
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: f8a5d94f062573b45b7df2f610c781277797a8b5
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 207488
+          id: Q207488
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q37732658$2c3086c1-4140-7935-a1e3-36453d73cbb2
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: somevalue
+      property: P2370
+      hash: 0f7ca06cd53ddbefbd474a4474e543045f1f7995
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P2916:
+      - snaktype: value
+        property: P2916
+        hash: a9dafaf155b0024a8e35f624d9f483b90545f6b2
+        datavalue:
+          value:
+            text: not a factor
+            language: en
+          type: monolingualtext
+        datatype: monolingualtext
+    qualifiers-order:
+    - P2916
+    id: Q37732658$c84164f4-4238-8c0f-4ad9-6cdd7ecd014d
+    rank: normal
+  P370:
+  - mainsnak:
+      snaktype: value
+      property: P370
+      hash: fa5b32588cb4adde0ad8a84758296aeed9817c83
+      datavalue:
+        value: "$1*5/9"
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P1013:
+      - snaktype: value
+        property: P1013
+        hash: 979c2ceb82efc0d1e0fbdcff2b56e5ad97c3dba5
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 11579
+            id: Q11579
+          type: wikibase-entityid
+        datatype: wikibase-item
+      P2916:
+      - snaktype: value
+        property: P2916
+        hash: 3c374554cfca971d8d2656f9d9ca73a8b0b406f6
+        datavalue:
+          value:
+            text: SI conversion formula (to be implemented)
+            language: en
+          type: monolingualtext
+        datatype: monolingualtext
+    qualifiers-order:
+    - P1013
+    - P2916
+    id: Q37732658$9515a8a6-4a72-2978-dc75-1e22cd071541
+    rank: normal
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Grau Rankine
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Stupeň Rankina
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Grado Rankine
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Ранкинов степен
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Stupeň Rankina
+    badges: []

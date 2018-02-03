@@ -1,0 +1,141 @@
+---
+pageid: 28114760
+ns: 0
+title: Q26162541
+lastrevid: 609517597
+modified: '2017-12-15T09:02:22Z'
+type: item
+id: Q26162541
+labels:
+  en:
+    language: en
+    value: square meter per second
+aliases:
+  en:
+  - language: en
+    value: m²/s
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 8f0d94bcb683d9927309247d5754a6efdaaddc48
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 15106259
+          id: Q15106259
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q26162541$e72f20fe-42db-82bc-7f2e-0b60fc33bf8b
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 50afdc16346d8687f53963f614e8d645419488a0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 208469
+          id: Q208469
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q26162541$ab9b4385-4dca-ccf2-f827-fbe728a83c7f
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 6f56afba5acf843c2fa9100447191fa7afe73ddf
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 15106259
+          id: Q15106259
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q26162541$8d732b33-4023-5e46-c0d4-83c1a2938c03
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: b33d6bd9f432fcdfcd2ac9689cb8b5a69a8d774e
+      datavalue:
+        value: m²/s
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q26162541$20854e95-47de-caf9-93b2-96cff4be2061
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: f0720ebd92871d8e1dc9a1343dc129fb9996bfd7
+      datavalue:
+        value: м²/с
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q26162541$e612135f-44e1-1dff-b0a7-dd60fc609f3c
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 7a0b8535fe95541e9caff3f633da5be6d0ffc4e0
+      datavalue:
+        value:
+          amount: "+1"
+          unit: http://www.wikidata.org/entity/Q26162541
+          upperBound: "+1"
+          lowerBound: "+1"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q26162541$a617ccc5-465a-619f-cb71-07e834643cc4
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 9b630e39ed42ede10e863fb42bdec25f49a475e2
+      datavalue:
+        value: square_metre_per_second-time
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q26162541$1550F005-C43F-4CD7-85A7-A73DD99BBB9D
+    rank: normal
+sitelinks: {}

@@ -1,0 +1,252 @@
+---
+pageid: 286490
+ns: 0
+title: Q296936
+lastrevid: 619542756
+modified: '2018-01-13T03:06:10Z'
+type: item
+id: Q296936
+labels:
+  en:
+    language: en
+    value: Tonne of oil equivalent
+aliases:
+  en:
+  - language: en
+    value: GTOE
+  - language: en
+    value: Ton Petroleum Equivalent
+  - language: en
+    value: Gtoe
+  - language: en
+    value: Ton of oil equivalent
+  - language: en
+    value: Kilogramme of oil equivalent
+  - language: en
+    value: Oil equivalent
+  - language: en
+    value: Million Tonnes of Oil Equivalent
+  - language: en
+    value: Kilogrammes of oil equivalent
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 21af046d1ba9a37ea51c815134361c116a284f1d
+      datavalue:
+        value: "/m/03r93c"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q296936$C264EE68-1098-42AD-B34A-A03A59400AD0
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 06df6efe68f6e25b0d602229267e4d3e9ccc3d64
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2916980
+          id: Q2916980
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q296936$79aae68d-4c00-9971-0964-8b2faac7f1cc
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: fc11c7e02f7a8f1affe47d814d2e74675992cc48
+      datavalue:
+        value:
+          amount: "+41868000000"
+          unit: '1'
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q296936$bd888089-45eb-7867-3c2b-e56be9314b0f
+    rank: normal
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 601e90b554d61dc927e604ac3f8194925a8ca3ab
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 191118
+          id: Q191118
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q296936$ef348ed7-4f57-9248-9283-8d55f5f14624
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: cfc878d0d56307986363d41fc74e38847e898d6d
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 22656
+          id: Q22656
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q296936$c116266e-4ad3-3b3b-e541-8dcf5df743da
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 7ad0f8fc8c23eb3ede324fc816121895c19109c6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11379
+          id: Q11379
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q296936$ae938e99-47b0-3d4c-e4c6-b23badc977e6
+    rank: normal
+  P3219:
+  - mainsnak:
+      snaktype: value
+      property: P3219
+      hash: b483117c479a21740216e450002f5b49c79a9aff
+      datavalue:
+        value: tep
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q296936$D009620E-26AA-4EF7-93C6-2DB304F8886C
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: طن نفط مكافئ
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Tona equivalent de petroli
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Öleinheit
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Τόνος ισοδύναμου πετρελαίου
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Tonne of oil equivalent
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Tuno da ekvivalento de nafto
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Tonelada equivalente de petróleo
+    badges: []
+  fawiki:
+    site: fawiki
+    title: معادل یک تن نفت
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Öljyekvivalenttitonni
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Tonne d'équivalent pétrole
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Olajegyenérték
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Tonnellata equivalente di petrolio
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 石油換算トン
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 석유환산톤
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Naftos ekvivalentas
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Ton olie-equivalent
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Oljeekvivalent
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Tona oleju ekwiwalentnego
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Tonelada equivalente de petróleo
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Tonă Echivalent Petrol
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Ton oljeekvivalenter
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Ton eşdeğer petrol
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Тонна нафтового еквівалента
+    badges: []

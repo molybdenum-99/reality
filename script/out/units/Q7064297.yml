@@ -1,0 +1,134 @@
+---
+pageid: 6955883
+ns: 0
+title: Q7064297
+lastrevid: 585122719
+modified: '2017-10-28T00:02:01Z'
+type: item
+id: Q7064297
+labels:
+  en:
+    language: en
+    value: Nova Scotian pound
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q7064297$1eebb006-44f1-e973-d72b-76b32e1c98b0
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 48dad11e4d75aa74b8b0904f85a3d307400ea278
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 339180
+          id: Q339180
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q7064297$ddc4161f-4923-e272-9c62-b9b36e7cdeeb
+    rank: normal
+  P1366:
+  - mainsnak:
+      snaktype: value
+      property: P1366
+      hash: d991bf52e51d8f81ee121e44c6dc8a7eab5cdb5d
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1934986
+          id: Q1934986
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: 64c47359eb2efc19d831db5c9451dc9850e9d96f
+        datavalue:
+          value:
+            time: "+1860-00-00T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 9
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q7064297$547c7380-4b83-3e6a-003c-92f4dce8841d
+    rank: normal
+  P1001:
+  - mainsnak:
+      snaktype: value
+      property: P1001
+      hash: d09b72b0831ca3e7ed360c3cee7c45a6fc3b6539
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1952
+          id: Q1952
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q7064297$ebf98aeb-4ea7-3ff6-544d-f3e6d1c6022e
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 784d2c6a0572cdb2820f9d3c7c6ec98c890d903d
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1952
+          id: Q1952
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q7064297$9377fcee-47e6-27df-13a0-5d26d394541a
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Nova Scotian pound
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ノバスコシア・ポンド
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Фунт Новой Шотландии
+    badges: []

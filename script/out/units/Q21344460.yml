@@ -1,0 +1,90 @@
+---
+pageid: 23390825
+ns: 0
+title: Q21344460
+lastrevid: 566091993
+modified: '2017-09-25T22:08:54Z'
+type: item
+id: Q21344460
+labels:
+  en:
+    language: en
+    value: picofarad per metre
+aliases:
+  en:
+  - language: en
+    value: pF/m
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q21344460$a122d6b2-44ae-92a3-5da6-ff990b0f04c5
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 725c494d47bb2fbcc1a68f83c73d236165678dd9
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 211569
+          id: Q211569
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q21344460$d951d7b8-4882-1619-e9d3-2c6a5021fdbc
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: f507c4dd2d9e5339f48813b30de1dac5ef59dd06
+      datavalue:
+        value: pF/m
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q21344460$acf06dba-4753-2d0a-260f-9477facb0eb2
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 3151cf4696d6406f682f5d8fe603a40fdab7871e
+      datavalue:
+        value:
+          amount: "+0.000000000001"
+          unit: http://www.wikidata.org/entity/Q21294882
+          upperBound: "+0.000000000001"
+          lowerBound: "+0.000000000001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q21344460$17e5006f-463c-51d1-488e-d8d49272146a
+    rank: normal
+sitelinks: {}

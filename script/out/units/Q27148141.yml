@@ -1,0 +1,1028 @@
+---
+pageid: 28985589
+ns: 0
+title: Q27148141
+lastrevid: 625317289
+modified: '2018-01-31T23:23:58Z'
+type: item
+id: Q27148141
+labels:
+  en:
+    language: en
+    value: Zcash
+aliases: {}
+claims:
+  P1282:
+  - mainsnak:
+      snaktype: value
+      property: P1282
+      hash: a664290f8abb74da7b8a2ee821e761dc30f96f65
+      datavalue:
+        value: Key:currency:ZEC
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P1963:
+      - snaktype: value
+        property: P1963
+        hash: e848c65f3fd7ec37055a8947345a0b897da708f7
+        datavalue:
+          value:
+            entity-type: property
+            numeric-id: 38
+            id: P38
+          type: wikibase-entityid
+        datatype: wikibase-property
+    qualifiers-order:
+    - P1963
+    id: Q27148141$918412e5-4e9a-2c40-cb21-4aa8c405b275
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 16ab8cfff2957341998c927ff03e50befb65a864
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 13479982
+          id: Q13479982
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q27148141$bf8a1509-48a6-2cd5-bf0f-6dc3cfb1edba
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 108498abe70a9492000b3bd172031bd75d3ae4e9
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 7397
+          id: Q7397
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q27148141$A618B1D8-EBE9-481A-B0F3-9322464022F9
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P154:
+  - mainsnak:
+      snaktype: value
+      property: P154
+      hash: 1499254823af966ab273b68a7774f9c254f8d17a
+      datavalue:
+        value: Zcash-logo-black.png
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q27148141$C9505526-1352-4C3B-A86A-61E87DC49970
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P2283:
+  - mainsnak:
+      snaktype: value
+      property: P2283
+      hash: 84efc95c1e17d3aafae2432b08212113435982b6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 7249984
+          id: Q7249984
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q27148141$4e34e591-4a9d-2d85-0250-88f90561840f
+    rank: normal
+  P1813:
+  - mainsnak:
+      snaktype: value
+      property: P1813
+      hash: aba5b60864988b9a2d45f32d47c19930342f94b4
+      datavalue:
+        value:
+          text: ZEC
+          language: en
+        type: monolingualtext
+      datatype: monolingualtext
+    type: statement
+    id: Q27148141$168383d2-4326-eb2e-20e5-5bef37cf1df7
+    rank: normal
+  P571:
+  - mainsnak:
+      snaktype: value
+      property: P571
+      hash: 5759f1c41fe6df4cdb6f11e1727d1dab861637bd
+      datavalue:
+        value:
+          time: "+2016-10-28T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 11
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q27148141$09020500-43b6-427d-1fe8-baf936b7a078
+    rank: normal
+  P856:
+  - mainsnak:
+      snaktype: value
+      property: P856
+      hash: 3b028068bef8358bb98a68107dc07f4c90426f9b
+      datavalue:
+        value: https://z.cash/
+        type: string
+      datatype: url
+    type: statement
+    id: Q27148141$44dc1813-4953-905a-f8a9-4aee6b1594bf
+    rank: normal
+  P1324:
+  - mainsnak:
+      snaktype: value
+      property: P1324
+      hash: a8a578f712d26e8e1e5b80d1d800368021efc337
+      datavalue:
+        value: https://github.com/zcash/zcash
+        type: string
+      datatype: url
+    type: statement
+    id: Q27148141$fabd2a1b-4eaa-e05e-f8e4-095bedf05697
+    rank: normal
+  P973:
+  - mainsnak:
+      snaktype: value
+      property: P973
+      hash: 8376721d83d58dff076e73f4c67ba6fe6f8a8588
+      datavalue:
+        value: https://coinmarketcap.com/currencies/zcash/
+        type: string
+      datatype: url
+    type: statement
+    id: Q27148141$de804888-400f-61c4-cd93-c49185b30439
+    rank: normal
+  P348:
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 358678526fe1265d776b089f1ca29b89208f26dd
+      datavalue:
+        value: 1.0.14
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: '094b0508265f34016c6c3a20ca324cf2508004dc'
+        datavalue:
+          value:
+            time: "+2018-01-08T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q27148141$AD876802-3608-4A28-917F-1C93AFBF5256
+    rank: preferred
+    references:
+    - hash: 0cce42ef0b47a797651a30d87a2c66ac9f37ef25
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 29083536a4e38b24c2e0547a6f85fe1d08d5fddf
+          datavalue:
+            value:
+              time: "+2018-01-30T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: b3bdac3596859eb698898b05922c9af0f51f66d7
+          datavalue:
+            value: https://api.github.com/repos/zcash/zcash/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 47eb2b7709838a24e84d9462632bce50ea4b1f05
+      datavalue:
+        value: 1.0.13
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 671c2d4b022e730276abdd9e10b431b104eae846
+        datavalue:
+          value:
+            time: "+2017-11-21T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q27148141$3E7543F1-E9FF-4F27-B9B1-3154BA72816F
+    rank: normal
+    references:
+    - hash: 0cce42ef0b47a797651a30d87a2c66ac9f37ef25
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 29083536a4e38b24c2e0547a6f85fe1d08d5fddf
+          datavalue:
+            value:
+              time: "+2018-01-30T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: b3bdac3596859eb698898b05922c9af0f51f66d7
+          datavalue:
+            value: https://api.github.com/repos/zcash/zcash/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 305de82a44758b54fcb5ab28266554aa1d685916
+      datavalue:
+        value: 1.0.12
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 4eec4ef45378ca17a9a5dbe2d675735f924ba740
+        datavalue:
+          value:
+            time: "+2017-09-28T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q27148141$269DE3B4-670F-46F5-B92E-FE245B1A7DF1
+    rank: normal
+    references:
+    - hash: 0cce42ef0b47a797651a30d87a2c66ac9f37ef25
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 29083536a4e38b24c2e0547a6f85fe1d08d5fddf
+          datavalue:
+            value:
+              time: "+2018-01-30T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: b3bdac3596859eb698898b05922c9af0f51f66d7
+          datavalue:
+            value: https://api.github.com/repos/zcash/zcash/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: cab71e9a895a299beb029114d08cb451aa2014ab
+      datavalue:
+        value: 1.0.11
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: '048c9a5a08cced44a4a66336ac69a8c58cc91d95'
+        datavalue:
+          value:
+            time: "+2017-08-16T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q27148141$A07DD9C5-E198-44FF-8DC9-16FA41EC20BD
+    rank: normal
+    references:
+    - hash: 0cce42ef0b47a797651a30d87a2c66ac9f37ef25
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 29083536a4e38b24c2e0547a6f85fe1d08d5fddf
+          datavalue:
+            value:
+              time: "+2018-01-30T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: b3bdac3596859eb698898b05922c9af0f51f66d7
+          datavalue:
+            value: https://api.github.com/repos/zcash/zcash/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 2f4f1a591dd1b478c5276c49d0ef4519526f107e
+      datavalue:
+        value: 1.0.10
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 2b10090db0b99b065e68fd8ed3ee8bb0a94c37cf
+        datavalue:
+          value:
+            time: "+2017-06-27T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q27148141$63A3F84B-0009-4839-A48E-6D36A2C604B2
+    rank: normal
+    references:
+    - hash: 0cce42ef0b47a797651a30d87a2c66ac9f37ef25
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 29083536a4e38b24c2e0547a6f85fe1d08d5fddf
+          datavalue:
+            value:
+              time: "+2018-01-30T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: b3bdac3596859eb698898b05922c9af0f51f66d7
+          datavalue:
+            value: https://api.github.com/repos/zcash/zcash/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: a09eb7bf118247d693ddb2c76ed6ea485902f528
+      datavalue:
+        value: 1.0.9
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 2b10090db0b99b065e68fd8ed3ee8bb0a94c37cf
+        datavalue:
+          value:
+            time: "+2017-06-27T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q27148141$258CF73D-5A3A-42F8-9850-E208DCE0010D
+    rank: normal
+    references:
+    - hash: 0cce42ef0b47a797651a30d87a2c66ac9f37ef25
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 29083536a4e38b24c2e0547a6f85fe1d08d5fddf
+          datavalue:
+            value:
+              time: "+2018-01-30T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: b3bdac3596859eb698898b05922c9af0f51f66d7
+          datavalue:
+            value: https://api.github.com/repos/zcash/zcash/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 67c355ba1da679d4a0f3eb45ea9ed6637c050703
+      datavalue:
+        value: 1.0.8
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 97d3551b0abc568510d0bd740fd406f4abb8eaac
+        datavalue:
+          value:
+            time: "+2017-04-14T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      - snaktype: value
+        property: P577
+        hash: 2b10090db0b99b065e68fd8ed3ee8bb0a94c37cf
+        datavalue:
+          value:
+            time: "+2017-06-27T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q27148141$8123866C-4859-4086-BD3A-0623CC06A43C
+    rank: normal
+    references:
+    - hash: 0cce42ef0b47a797651a30d87a2c66ac9f37ef25
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 29083536a4e38b24c2e0547a6f85fe1d08d5fddf
+          datavalue:
+            value:
+              time: "+2018-01-30T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: b3bdac3596859eb698898b05922c9af0f51f66d7
+          datavalue:
+            value: https://api.github.com/repos/zcash/zcash/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: eb93923ed571968b5660c045b4622fd138fda0c7
+      datavalue:
+        value: 1.0.7
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: a98bb0128629fa52dfb0507564d2807ff43d5756
+        datavalue:
+          value:
+            time: "+2017-03-09T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q27148141$40F5DFFB-EDA3-4E73-B276-470786EBAD52
+    rank: normal
+    references:
+    - hash: 0cce42ef0b47a797651a30d87a2c66ac9f37ef25
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 29083536a4e38b24c2e0547a6f85fe1d08d5fddf
+          datavalue:
+            value:
+              time: "+2018-01-30T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: b3bdac3596859eb698898b05922c9af0f51f66d7
+          datavalue:
+            value: https://api.github.com/repos/zcash/zcash/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 0403e6027bfb7bf1d5feb552ac68f69b85f404af
+      datavalue:
+        value: 1.0.6
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: a98bb0128629fa52dfb0507564d2807ff43d5756
+        datavalue:
+          value:
+            time: "+2017-03-09T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q27148141$76D23C26-A018-4E31-A140-A98FD6B410AF
+    rank: normal
+    references:
+    - hash: 0cce42ef0b47a797651a30d87a2c66ac9f37ef25
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 29083536a4e38b24c2e0547a6f85fe1d08d5fddf
+          datavalue:
+            value:
+              time: "+2018-01-30T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: b3bdac3596859eb698898b05922c9af0f51f66d7
+          datavalue:
+            value: https://api.github.com/repos/zcash/zcash/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 0a83304a45ee69aac9c64f131a539414f70d819d
+      datavalue:
+        value: 1.0.5
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: a98bb0128629fa52dfb0507564d2807ff43d5756
+        datavalue:
+          value:
+            time: "+2017-03-09T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q27148141$25967BD4-03E3-49B9-910A-9BF3FFA18180
+    rank: normal
+    references:
+    - hash: 0cce42ef0b47a797651a30d87a2c66ac9f37ef25
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 29083536a4e38b24c2e0547a6f85fe1d08d5fddf
+          datavalue:
+            value:
+              time: "+2018-01-30T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: b3bdac3596859eb698898b05922c9af0f51f66d7
+          datavalue:
+            value: https://api.github.com/repos/zcash/zcash/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 20d7e50fe4db4f0c254686dfde8b9c007423a2b9
+      datavalue:
+        value: 1.0.4
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: e249e5a88aa09b6729bd403f60155c9155f20532
+        datavalue:
+          value:
+            time: "+2016-12-16T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q27148141$786A9405-3DE2-41A8-89F0-64C6715B07B5
+    rank: normal
+    references:
+    - hash: 0cce42ef0b47a797651a30d87a2c66ac9f37ef25
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 29083536a4e38b24c2e0547a6f85fe1d08d5fddf
+          datavalue:
+            value:
+              time: "+2018-01-30T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: b3bdac3596859eb698898b05922c9af0f51f66d7
+          datavalue:
+            value: https://api.github.com/repos/zcash/zcash/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 8f9b44ecd1e4fa09d46bd0f2bf96c20fd131f1d3
+      datavalue:
+        value: 1.0.3
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 89cb5bdfff96825ade64a0d34ada19322d6086a9
+        datavalue:
+          value:
+            time: "+2016-12-15T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q27148141$BC0B9397-0AFE-43A3-914D-123B6D5B18E7
+    rank: normal
+    references:
+    - hash: 0cce42ef0b47a797651a30d87a2c66ac9f37ef25
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 29083536a4e38b24c2e0547a6f85fe1d08d5fddf
+          datavalue:
+            value:
+              time: "+2018-01-30T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: b3bdac3596859eb698898b05922c9af0f51f66d7
+          datavalue:
+            value: https://api.github.com/repos/zcash/zcash/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 9506ccc578c59253f03a989915f0a32849de56d0
+      datavalue:
+        value: 1.0.2
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 89cb5bdfff96825ade64a0d34ada19322d6086a9
+        datavalue:
+          value:
+            time: "+2016-12-15T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q27148141$E31281CF-1AC6-4092-9BE3-03DFE80B5AC6
+    rank: normal
+    references:
+    - hash: 0cce42ef0b47a797651a30d87a2c66ac9f37ef25
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 29083536a4e38b24c2e0547a6f85fe1d08d5fddf
+          datavalue:
+            value:
+              time: "+2018-01-30T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: b3bdac3596859eb698898b05922c9af0f51f66d7
+          datavalue:
+            value: https://api.github.com/repos/zcash/zcash/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 15a6da288aad0e20278a31a23a2f11f379dd192b
+      datavalue:
+        value: 1.0.1
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 89cb5bdfff96825ade64a0d34ada19322d6086a9
+        datavalue:
+          value:
+            time: "+2016-12-15T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q27148141$01D50DD2-FB60-48A4-8EFF-1F7A97A12E15
+    rank: normal
+    references:
+    - hash: 0cce42ef0b47a797651a30d87a2c66ac9f37ef25
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 29083536a4e38b24c2e0547a6f85fe1d08d5fddf
+          datavalue:
+            value:
+              time: "+2018-01-30T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: b3bdac3596859eb698898b05922c9af0f51f66d7
+          datavalue:
+            value: https://api.github.com/repos/zcash/zcash/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Zcash
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Zcash
+    badges: []
+  jawiki:
+    site: jawiki
+    title: Zcash
+    badges: []
+  kowiki:
+    site: kowiki
+    title: Zcash
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Zcash
+    badges:
+    - Q17559452
+  ukwiki:
+    site: ukwiki
+    title: Zcash
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Zcash
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: Zcash
+    badges: []

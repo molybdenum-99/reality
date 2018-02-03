@@ -1,0 +1,352 @@
+---
+pageid: 1272674
+ns: 0
+title: Q1332978
+lastrevid: 619542913
+modified: '2018-01-13T03:07:00Z'
+type: item
+id: Q1332978
+labels:
+  en:
+    language: en
+    value: deadweight tonnage
+aliases:
+  en:
+  - language: en
+    value: tdw
+  - language: en
+    value: dwt
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 9adf1a32b2e8a6b180461c200823743202214d1f
+      datavalue:
+        value: "/m/03w95ch"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1332978$F68B191F-251D-4B35-BD27-78628BB69D71
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6e3da81891b6fba54d9ac8088595a4b05e5a5f95
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1302471
+          id: Q1302471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1332978$D6A42B29-4724-41B1-BB47-BDF3C2EBA2DD
+    rank: normal
+  P1417:
+  - mainsnak:
+      snaktype: value
+      property: P1417
+      hash: d828ad15183b6a6c7db2fe830ff2160639a1a647
+      datavalue:
+        value: technology/deadweight-tonnage
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1332978$3D04F21B-8A16-4C83-9CDD-DD14DBD90308
+    rank: normal
+  P1813:
+  - mainsnak:
+      snaktype: value
+      property: P1813
+      hash: 3f79774c0c7fb3894728441fcea46e840da53b93
+      datavalue:
+        value:
+          text: tdw
+          language: en
+        type: monolingualtext
+      datatype: monolingualtext
+    type: statement
+    id: Q1332978$f62902db-46db-d39a-c86c-8c20ee25d831
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  - mainsnak:
+      snaktype: value
+      property: P1813
+      hash: dcc16b4309442d46a15520b6d00ee426030c0216
+      datavalue:
+        value:
+          text: dwt
+          language: en
+        type: monolingualtext
+      datatype: monolingualtext
+    type: statement
+    id: Q1332978$27f2cba8-46a2-a612-71fe-d3726f505870
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  - mainsnak:
+      snaktype: value
+      property: P1813
+      hash: e6ee9ce2c5816f3558ccd7eb623b5649a674255c
+      datavalue:
+        value:
+          text: tpl
+          language: fr
+        type: monolingualtext
+      datatype: monolingualtext
+    type: statement
+    id: Q1332978$cd5d70df-443b-630d-5787-8b1c67b0064a
+    rank: normal
+    references:
+    - hash: d4bd87b862b12d99d26e86472d44f26858dee639
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: f30cbd35620c4ea6d0633aaf0210a8916130469b
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 8447
+              id: Q8447
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  - mainsnak:
+      snaktype: value
+      property: P1813
+      hash: b44825700d551fe48c68e81e03357e11c8b82c6c
+      datavalue:
+        value:
+          text: TDWAT
+          language: en
+        type: monolingualtext
+      datatype: monolingualtext
+    type: statement
+    id: Q1332978$6816bc85-4e80-36a9-1605-60b5ddc10a0f
+    rank: normal
+    references:
+    - hash: 9a24f7c0208b05d6be97077d855671d1dfdbc0dd
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: d38375ffe6fe142663ff55cd783aa4df4301d83d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 48183
+              id: Q48183
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  - mainsnak:
+      snaktype: value
+      property: P1813
+      hash: aefb7cfed3fdb0788198b332fa10fdf772e8fda3
+      datavalue:
+        value:
+          text: T dwat
+          language: en
+        type: monolingualtext
+      datatype: monolingualtext
+    type: statement
+    id: Q1332978$bcff224b-4512-44c3-0407-6f0580832f3a
+    rank: normal
+    references:
+    - hash: 9a24f7c0208b05d6be97077d855671d1dfdbc0dd
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: d38375ffe6fe142663ff55cd783aa4df4301d83d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 48183
+              id: Q48183
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: حمولة ساكنة
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Дедуейт
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Tonatge de pes mort
+    badges: []
+  cswiki:
+    site: cswiki
+    title: DWT (jednotka)
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Dødvægt
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Deadweight tonnage
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Tonelaje de peso muerto
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Dedveit
+    badges: []
+  fawiki:
+    site: fawiki
+    title: تناژ وزن مرده
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Port en lourd
+    badges: []
+  hewiki:
+    site: hewiki
+    title: מעמס
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Tonase bobot mati
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Tonnellaggio di portata lorda
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 載貨重量トン数
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Amphoratum ponderis mortui
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Dedveito tonažas
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Berat mati
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Draagvermogen (scheepvaart)
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Dødvekttonn
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Dødvekttonn
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Nośność statku
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Porte (náutica)
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Дедвейт
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Nosilnost ladje
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Dödvikt
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Detveyt
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Дедвейт
+    badges: []
+  viwiki:
+    site: viwiki
+    title: DWT
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 載重噸位
+    badges: []

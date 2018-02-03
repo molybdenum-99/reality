@@ -1,0 +1,401 @@
+---
+pageid: 226206
+ns: 0
+title: Q232415
+lastrevid: 617888357
+modified: '2018-01-08T22:58:45Z'
+type: item
+id: Q232415
+labels:
+  en:
+    language: en
+    value: Belgian franc
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q232415$b864dd98-4520-972a-03c7-c98d7a7a766c
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: '08236c83adb97fef841a304ed5beaa1a82f7cea6'
+      datavalue:
+        value: Money of Belgium
+        type: string
+      datatype: string
+    type: statement
+    id: q232415$67B91F50-12C7-4937-9046-D74B2D923676
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 573a0331ec35e6e50f8e2eeb3a198c905ce4b810
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 685918
+          id: Q685918
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q232415$78B73713-E975-457F-A096-09CA2A0CAC6A
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 665e58d196a99edc18691434c3286d7d67198449
+      datavalue:
+        value: "/m/05d5cy"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q232415$F1B90C2A-6A50-4EC7-BC0C-293C058D23C8
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 3659efd44fdcc2da61184e3bdba7fbb63bfaf302
+      datavalue:
+        value: BEF
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q232415$d7051ae4-4a85-38d7-5967-80e00dcd399c
+    rank: normal
+  P1296:
+  - mainsnak:
+      snaktype: value
+      property: P1296
+      hash: efb440a3de79d6fa2523cd3d9b9367d20933dcaf
+      datavalue:
+        value: '0184779'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q232415$ddd4db58-4147-1e82-18a1-499b4817f7f6
+    rank: normal
+  P580:
+  - mainsnak:
+      snaktype: value
+      property: P580
+      hash: bb3ab71e13c4e40b27806329a14a4137fed1fe0f
+      datavalue:
+        value:
+          time: "+1832-00-00T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 9
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q232415$a7aa9a2c-4f30-a510-9fea-d07c54c9f274
+    rank: normal
+  P582:
+  - mainsnak:
+      snaktype: value
+      property: P582
+      hash: 3f59374699911b7049a8d2737c28d3dfd0dbae8d
+      datavalue:
+        value:
+          time: "+2002-01-01T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 11
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q232415$3aea48d7-4191-ecaf-93d2-ba4c2eb3a6b5
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: f734315292d460e9cb436f4e8fcb32dce97b6a07
+      datavalue:
+        value: Belgian coin of 1 franc Albert II in Dutch - reverse.TIF
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q232415$899e4309-43c5-ddb9-d7da-690a2a913c2c
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: c2859f311753176d6bdfa7da54ceeeac7acb52c8
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 31
+          id: Q31
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q232415$45129b38-4829-2abd-0b94-c43a18c142c1
+    rank: normal
+  P1365:
+  - mainsnak:
+      snaktype: value
+      property: P1365
+      hash: d4017421471944222196a950a54b0b4a07225a8d
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 788472
+          id: Q788472
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q232415$c84d9cfc-40fc-7e28-824a-ac63f2e74606
+    rank: normal
+  P1366:
+  - mainsnak:
+      snaktype: value
+      property: P1366
+      hash: 2c75bfaf4e3db000df3888eef763865c5c85478b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 4916
+          id: Q4916
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q232415$5a7763b9-4551-ba16-01c3-c9ad97667341
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: a61a8c1e6eb5f1b204f1cd49232b78ba16e7ab39
+      datavalue:
+        value: '500499'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q232415$4533cfe8-43c4-b318-4818-ba304ad76587
+    rank: normal
+sitelinks:
+  bgwiki:
+    site: bgwiki
+    title: Белгийски франк
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Belgijski franak
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Franc belga
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Belgický frank
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Belgischer Franken
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Βελγικό Φράγκο
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Belgian franc
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Belga franko
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Franco belga
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Belgia frank
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Belgikar franko
+    badges: []
+  fawiki:
+    site: fawiki
+    title: فرانک بلژیک
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Belgian frangi
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Franc belge
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Franco belga
+    badges: []
+  hewiki:
+    site: hewiki
+    title: פרנק בלגי
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Belgijski franak
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Belga frank
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Belgískur franki
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Franco belga
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ベルギー・フラン
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 벨기에 프랑
+    badges: []
+  lbwiki:
+    site: lbwiki
+    title: Belsche Frang
+    badges: []
+  lnwiki:
+    site: lnwiki
+    title: Falánga ya Bɛ́ljika
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Belgijos frankas
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Belgische frank
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Belgisk franc
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Frank belgijski
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Franco belga
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Franc belgian
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Бельгийский франк
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Belgian franc
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Belgický frank
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Belgisk franc
+    badges: []
+  thwiki:
+    site: thwiki
+    title: ฟรังก์เบลเยียม
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Belçika frangı
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Бельгійський франк
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Pe̍k-ní-gī franc
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 比利時法郎
+    badges: []

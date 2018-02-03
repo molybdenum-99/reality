@@ -1,0 +1,534 @@
+---
+pageid: 111151
+ns: 0
+title: Q108529
+lastrevid: 622524079
+modified: '2018-01-22T09:28:21Z'
+type: item
+id: Q108529
+labels:
+  en:
+    language: en
+    value: tera
+aliases:
+  en:
+  - language: en
+    value: T
+  - language: en
+    value: tera-
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: b2c09aff06d6a44f3bf82f6c9cc86dc28c629779
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 131299
+          id: Q131299
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q108529$5ECE3416-98D5-4527-A75F-B0BAE08CE533
+    rank: normal
+    references:
+    - hash: '011612885ba1d8d75d459891bee210fd0d8c3035'
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: c2213e83c554bae5121243bc2ace76aeffa9ce42
+          datavalue:
+            value: '19'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: cef4c7c76f433be2c042113a43ecdc990b112ef2
+          datavalue:
+            value: 6.5.4
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: b3810031515bff09eb3a19b869c113159c2bdfc4
+      datavalue:
+        value: T
+        type: string
+      datatype: string
+    type: statement
+    id: q108529$108fe247-46fc-2480-8f7b-8bf7e2134cd2
+    rank: normal
+    references:
+    - hash: '011612885ba1d8d75d459891bee210fd0d8c3035'
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: c2213e83c554bae5121243bc2ace76aeffa9ce42
+          datavalue:
+            value: '19'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: cef4c7c76f433be2c042113a43ecdc990b112ef2
+          datavalue:
+            value: 6.5.4
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: ecb8b4f9c023ae3c9ba0807f56f38a71f72424d8
+      datavalue:
+        value: "/m/0dldw"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q108529$BF16B2C5-C8F8-4A42-B283-2C07FEB77B78
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P1181:
+  - mainsnak:
+      snaktype: value
+      property: P1181
+      hash: 34931ac58258bb31258a71ca6dbde5ecef926a47
+      datavalue:
+        value:
+          amount: "+1000000000000"
+          unit: '1'
+          upperBound: "+1000000000000"
+          lowerBound: "+1000000000000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q108529$aca19534-464e-f04c-df03-a5fe066efd56
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 4a03e0aeb60d5e0610141b2be4b565a28a452ca8
+      datavalue:
+        value: tera
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q108529$D4A38691-C7CE-44AF-B101-882DAA122CB3
+    rank: normal
+  P155:
+  - mainsnak:
+      snaktype: value
+      property: P155
+      hash: 67a6cc3262879630abb52a2e8c6a52e976759368
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 108483
+          id: Q108483
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q108529$ced247d7-44a8-fc6c-70cd-c22cd3ab2e68
+    rank: normal
+    references:
+    - hash: '011612885ba1d8d75d459891bee210fd0d8c3035'
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: c2213e83c554bae5121243bc2ace76aeffa9ce42
+          datavalue:
+            value: '19'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: cef4c7c76f433be2c042113a43ecdc990b112ef2
+          datavalue:
+            value: 6.5.4
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P156:
+  - mainsnak:
+      snaktype: value
+      property: P156
+      hash: fbecfa3c6049f49b8c904fcbf3f01a25f9bf78a8
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 108468
+          id: Q108468
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q108529$c30826f4-455b-9ca6-7807-0545dab292c5
+    rank: normal
+    references:
+    - hash: '011612885ba1d8d75d459891bee210fd0d8c3035'
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: c2213e83c554bae5121243bc2ace76aeffa9ce42
+          datavalue:
+            value: '19'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: cef4c7c76f433be2c042113a43ecdc990b112ef2
+          datavalue:
+            value: 6.5.4
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P2534:
+  - mainsnak:
+      snaktype: value
+      property: P2534
+      hash: 25f8bdf2bd5188394df6577456550d944a89d76c
+      datavalue:
+        value: 10^{12}
+        type: string
+      datatype: math
+    type: statement
+    id: Q108529$29451202-43fd-c2e6-d808-f07298a06c82
+    rank: normal
+    references:
+    - hash: '011612885ba1d8d75d459891bee210fd0d8c3035'
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: c2213e83c554bae5121243bc2ace76aeffa9ce42
+          datavalue:
+            value: '19'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: cef4c7c76f433be2c042113a43ecdc990b112ef2
+          datavalue:
+            value: 6.5.4
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P4746:
+  - mainsnak:
+      snaktype: value
+      property: P4746
+      hash: e925bc34ce2fe90c8dcf806785f74d93546f5384
+      datavalue:
+        value: '064392'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q108529$54A7C8CF-AED6-4EC1-BC67-505D95E21BB9
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Tera
+    badges: []
+  arwiki:
+    site: arwiki
+    title: تيرا (سابقة)
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Тера-
+    badges: []
+  brwiki:
+    site: brwiki
+    title: Tera
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Tera-
+    badges: []
+  ckbwiki:
+    site: ckbwiki
+    title: تێرا-
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Tera
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Tera-
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Tera
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Tera (prefijo)
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Tera-
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Tera (aurrizkia)
+    badges: []
+  fawiki:
+    site: fawiki
+    title: ترا
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Tera (kerrannaisyksikkö)
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Téra
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Tera-
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: टेरा-
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Tera
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Տերա
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Tera-
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Tera (prefisso)
+    badges: []
+  jawiki:
+    site: jawiki
+    title: テラ
+    badges: []
+  kawiki:
+    site: kawiki
+    title: ტერა...
+    badges: []
+  kmwiki:
+    site: kmwiki
+    title: តេរ៉ា
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 테라
+    badges: []
+  kshwiki:
+    site: kshwiki
+    title: Tera
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Tera-
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Тера-
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: ടെറ-
+    badges: []
+  mznwiki:
+    site: mznwiki
+    title: ترا (روستا)
+    badges: []
+  ndswiki:
+    site: ndswiki
+    title: Tera
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Tera
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Tera
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Tera
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Tera
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Tera
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Тера-
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Tera (prifissu)
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Tera-
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Tera
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Tera
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Тера (префикс)
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Tera
+    badges: []
+  tewiki:
+    site: tewiki
+    title: టెరా-
+    badges: []
+  thwiki:
+    site: thwiki
+    title: เทระ
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Тера-
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Têra
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 太拉
+    badges: []

@@ -1,0 +1,393 @@
+---
+pageid: 570245
+ns: 0
+title: Q605704
+lastrevid: 623066289
+modified: '2018-01-24T19:24:18Z'
+type: item
+id: Q605704
+labels:
+  en:
+    language: en
+    value: dozen
+aliases:
+  en:
+  - language: en
+    value: doz
+  - language: en
+    value: dz
+  - language: en
+    value: group of 12
+claims:
+  P460:
+  - mainsnak:
+      snaktype: value
+      property: P460
+      hash: '09ffec2d058557acf8eaeb711b2c80faa7c1682d'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 36977
+          id: Q36977
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q605704$15edec3f-4959-df13-48e9-c974f75cf2c5
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P460
+      hash: a1e1df14c945ed99d0b485ba19c9ad1b8d3b1bde
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 12339940
+          id: Q12339940
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q605704$46A073E1-5FF1-4085-B479-D0106C3FA035
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P460
+      hash: 5df57edbd4fd0d7d2bee07225caf62a2a1f92fc6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 245254
+          id: Q245254
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q605704$1051ee7c-4647-0584-1c16-85681ac3a82c
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: cf3c224e8db64deac776621d6d4093930b9e77f2
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2360980
+          id: Q2360980
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q605704$42576b9c-41c9-f1bc-c435-4e7b10507432
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 705de58742c106c9692a8ef50fbc6611868253b8
+      datavalue:
+        value: "/m/01dkdj"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q605704$3C169F31-81F2-46B5-A254-A3CF93CA43A4
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P1181:
+  - mainsnak:
+      snaktype: value
+      property: P1181
+      hash: f4d1ff5024406298caf2a99469fd0b1cd2682ff8
+      datavalue:
+        value:
+          amount: "+12"
+          unit: '1'
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q605704$f7051881-42bd-ce12-266c-1e26adda7387
+    rank: normal
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: ecb04d74140f2ee856c06658b03ec90a21c2edf2
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1970746
+          id: Q1970746
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P805:
+      - snaktype: value
+        property: P805
+        hash: 133c74ca5d9c3bacc2ac2c565bb7720463869afa
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 23622683
+            id: Q23622683
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P805
+    id: Q605704$667B654E-FFAB-4476-8F60-307770942028
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 88389772f86dcd7d415ddd029f601412e5cc894a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 602358
+          id: Q602358
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P805:
+      - snaktype: value
+        property: P805
+        hash: 63b70dadd4ba0fdc1e216a2d7185605442015e0e
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 23622694
+            id: Q23622694
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P805
+    id: Q605704$88808783-BD1C-4790-9E0C-AB13A99E2027
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: 9781f8e8a809aacd7042ba9a3bc355bc1add8758
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 16887380
+          id: Q16887380
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q605704$586A2E51-4BD6-42A9-9497-9DB94B7972BF
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: f0352721766a19ef6aa1f469e7ff91b73ae40095
+      datavalue:
+        value: Groups of twelve
+        type: string
+      datatype: string
+    type: statement
+    id: Q605704$6149038d-4274-be4f-2da3-d04b00cd712c
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: دزينة
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Тузін
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Тузін
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Дузина
+    badges: []
+  brwiki:
+    site: brwiki
+    title: Dousenn
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Dusin
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Dutzend
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Dozen
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Dekduo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Docena
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Tosin
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Hamabiko
+    badges: []
+  fawiki:
+    site: fawiki
+    title: دوجین
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Tusina
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Douzaine
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Ducia
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Tucat
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Lusin
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Tylft
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ダース
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 타 (단위)
+    badges: []
+  lbwiki:
+    site: lbwiki
+    title: Dosen
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Tuzinas
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Дузина
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Dozijn
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Tylft
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Dusin
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Tuzin
+    badges: []
+  pnbwiki:
+    site: pnbwiki
+    title: درجݨ
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Dúzia
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Дюжина
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Dozen
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Ducat
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Dussin
+    badges: []
+  swwiki:
+    site: swwiki
+    title: Thenashara
+    badges: []
+  tawiki:
+    site: tawiki
+    title: டசின்
+    badges: []
+  thwiki:
+    site: thwiki
+    title: โหล
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Düzine
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Дюжина
+    badges: []
+  urwiki:
+    site: urwiki
+    title: درجن
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Tá (số đếm)
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 打 (數)
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 打
+    badges: []

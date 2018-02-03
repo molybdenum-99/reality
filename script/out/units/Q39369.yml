@@ -1,0 +1,826 @@
+---
+pageid: 41803
+ns: 0
+title: Q39369
+lastrevid: 597757766
+modified: '2017-11-24T01:21:24Z'
+type: item
+id: Q39369
+labels:
+  en:
+    language: en
+    value: hertz
+aliases:
+  en:
+  - language: en
+    value: Hz
+  - language: en
+    value: cycles per second
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 50afdc16346d8687f53963f614e8d645419488a0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 208469
+          id: Q208469
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q39369$0924E372-5D8C-4B04-B34E-BB06BCC22809
+    rank: normal
+    references:
+    - hash: 3896afd7baf0e1629db1a1af56241836f65fb2c3
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 0a2fe880cf33d2b0639c9ba25541b40e4bac3e9d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 19606873
+              id: Q19606873
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+    - hash: 04236527a1d6139c066bc969a1e83e439efc00ba
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 587564898ba1c818316ca0a7af2bb0867f80d4bb
+          datavalue:
+            value: '18'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: a8acdbdb9ade23dbae3d6835a293e04c6df76a0f
+          datavalue:
+            value: 6.5.3
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 939eca17a8c8ef82428dff47f7a90d49402fd719
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11652
+          id: Q11652
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q39369$B0456269-55C2-4E3A-B953-E6A6162833B2
+    rank: normal
+    references:
+    - hash: 04236527a1d6139c066bc969a1e83e439efc00ba
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 587564898ba1c818316ca0a7af2bb0867f80d4bb
+          datavalue:
+            value: '18'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: a8acdbdb9ade23dbae3d6835a293e04c6df76a0f
+          datavalue:
+            value: 6.5.3
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: a06e6dfda7f7fd20ed9d60a7ac891aa30ff13556
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1256787
+          id: Q1256787
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q39369$d42d7b2c-4934-406d-4104-f40b67624d14
+    rank: normal
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 3aab709cb4581a7fa7a00197aa2536b0ca11bf91
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 41257
+          id: Q41257
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q39369$414DE504-18EB-4E93-BBA4-A1B08E48D186
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 0b2d628598fbf56f6c8c0e5be78da1bb0779191a
+      datavalue:
+        value: Hz
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: q39369$a310d8df-4727-bf48-0b6b-f0a92d78d960
+    rank: normal
+    references:
+    - hash: 04236527a1d6139c066bc969a1e83e439efc00ba
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 587564898ba1c818316ca0a7af2bb0867f80d4bb
+          datavalue:
+            value: '18'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: a8acdbdb9ade23dbae3d6835a293e04c6df76a0f
+          datavalue:
+            value: 6.5.3
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+    - hash: 79626b8b55946b086996fac4cce094595ca3bb72
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: b76293562f575892ba28f5870b6e6bccb4956b74
+          datavalue:
+            value: 3-15.a
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 1e9b7f50db67e4d6530270c6a7e43a99ac4fd479
+      datavalue:
+        value: Гц
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q39369$621e602d-4bc5-fe8d-2265-ab6ec6ba6f15
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 9a280a663b073d7fafc8bcd0f490584cfb751ac4
+      datavalue:
+        value: "/m/03nsh"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q39369$64E1908C-B241-4793-8464-4A8ED2D43E24
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 928ae41d6827fbd46cd000dfc96154587cb62b4b
+      datavalue:
+        value:
+          amount: "+1"
+          unit: http://www.wikidata.org/entity/Q39369
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q39369$735ec8ee-4643-71f4-0561-f1617ae51aab
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: da64f3f86b37a62eeaa6538d7e2fb889c889d63c
+      datavalue:
+        value: Hertz
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q39369$8398AAA2-56F3-43FC-AFEB-5E420123E47C
+    rank: normal
+  P487:
+  - mainsnak:
+      snaktype: value
+      property: P487
+      hash: 120a40a2d67c8433b4f795d158689c500be2cf50
+      datavalue:
+        value: "㎐"
+        type: string
+      datatype: string
+    type: statement
+    id: Q39369$d8ed6246-4d10-e020-d5ae-c7f6fcceb40d
+    rank: normal
+  P3569:
+  - mainsnak:
+      snaktype: value
+      property: P3569
+      hash: bd763dc2a790d295f397016a5ca32c253a1e1bf1
+      datavalue:
+        value: natuurkunde-scheikunde-en-sterrenkunde/hertz
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q39369$3247E645-9408-4607-8CCE-AFE554DB06F2
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: f906755ec12f879eb2accfe4604472a68afa86f4
+      datavalue:
+        value: hertz
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q39369$8d01edde-4fcc-0432-26cc-f988e0860df7
+    rank: normal
+  P144:
+  - mainsnak:
+      snaktype: value
+      property: P144
+      hash: ebf5624ca36a2a70da95989b39899b5a0655869f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11574
+          id: Q11574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P2534:
+      - snaktype: value
+        property: P2534
+        hash: 405d30e1bf254e5c6926ff7c591f037e1f4ee9f0
+        datavalue:
+          value: "\\text{Hz} = \\text{s}^{-1}"
+          type: string
+        datatype: math
+    qualifiers-order:
+    - P2534
+    id: Q39369$1781a9ef-44a7-0299-a24a-d094d535b081
+    rank: normal
+    references:
+    - hash: 04236527a1d6139c066bc969a1e83e439efc00ba
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 587564898ba1c818316ca0a7af2bb0867f80d4bb
+          datavalue:
+            value: '18'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: a8acdbdb9ade23dbae3d6835a293e04c6df76a0f
+          datavalue:
+            value: 6.5.3
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: '095b22e5c47a47f7d5e84e00899837038be11bd4'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 26711932
+          id: Q26711932
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P958:
+      - snaktype: value
+        property: P958
+        hash: b76293562f575892ba28f5870b6e6bccb4956b74
+        datavalue:
+          value: 3-15.a
+          type: string
+        datatype: string
+    qualifiers-order:
+    - P958
+    id: Q39369$34f24fd4-434f-e739-f5c2-affbc73ab952
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: b41a0dd1d611924fdb8a86e106092da14fed38c7
+      datavalue:
+        value: Hertz
+        type: string
+      datatype: string
+    type: statement
+    id: Q39369$76AAE455-DE86-41FD-83CD-486011426A71
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Hertz
+    badges: []
+  arwiki:
+    site: arwiki
+    title: هرتز
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Herciu
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Hers
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Гэрц (адзінка вымярэньня)
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Герц (адзінка вымярэння)
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Херц
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: হার্জ
+    badges: []
+  bowiki:
+    site: bowiki
+    title: ཧེར་ཚི།
+    badges: []
+  brwiki:
+    site: brwiki
+    title: Hertz
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Herc
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Hertz
+    badges: []
+  commonswiki:
+    site: commonswiki
+    title: Category:Hertz
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Hertz
+    badges: []
+  cywiki:
+    site: cywiki
+    title: Hertz
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Hertz
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Hertz (Einheit)
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Χερτζ
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Hertz
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Herco
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Hercio
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Herts
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Hertz
+    badges: []
+  fawiki:
+    site: fawiki
+    title: هرتز
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Hertsi
+    badges: []
+  frrwiki:
+    site: frrwiki
+    title: Hertz
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Hertz
+    badges: []
+  fywiki:
+    site: fywiki
+    title: Hertz (ienheid)
+    badges: []
+  gawiki:
+    site: gawiki
+    title: Heirts
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Hertz
+    badges: []
+  hakwiki:
+    site: hakwiki
+    title: Het-tsṳ̂
+    badges: []
+  hewiki:
+    site: hewiki
+    title: הרץ
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: हर्ट्ज़
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Herc
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Hertz
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Հերց (չափման միավոր)
+    badges: []
+  iawiki:
+    site: iawiki
+    title: Hertz
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Hertz
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Herts
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Hertz
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ヘルツ
+    badges: []
+  jvwiki:
+    site: jvwiki
+    title: Hertz
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Герц
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 헤르츠
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Hertz
+    badges: []
+  lbwiki:
+    site: lbwiki
+    title: Hertz (Eenheet)
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Hercas
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Hercs
+    badges: []
+  mhrwiki:
+    site: mhrwiki
+    title: Герц (шотлымаш)
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Херц
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: ഹെർട്സ്
+    badges: []
+  mnwiki:
+    site: mnwiki
+    title: Герц (нэгж)
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: हर्ट्‌झ
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Hertz
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Hertz (eenheid)
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Hertz
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Hertz
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Hertz
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Herc
+    badges: []
+  pmswiki:
+    site: pmswiki
+    title: Hertz
+    badges: []
+  pnbwiki:
+    site: pnbwiki
+    title: ہرٹز
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Hertz
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Hertz
+    badges: []
+  ruewiki:
+    site: ruewiki
+    title: Гертз
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Герц (единица измерения)
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Hertz
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Hertz
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Herc
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Hertz
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Hertz (jednotka)
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Herc
+    badges: []
+  sqwiki:
+    site: sqwiki
+    title: Herci
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Херц
+    badges: []
+  suwiki:
+    site: suwiki
+    title: Hertz
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Hertz
+    badges: []
+  swwiki:
+    site: swwiki
+    title: Hezi
+    badges: []
+  tawiki:
+    site: tawiki
+    title: ஏர்ட்சு
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Ҳертс
+    badges: []
+  thwiki:
+    site: thwiki
+    title: เฮิรตซ์
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Hertz
+    badges: []
+  ttwiki:
+    site: ttwiki
+    title: Герц (үлчәү берәмлеге)
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Герц
+    badges: []
+  urwiki:
+    site: urwiki
+    title: ہرٹز
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Hertz
+    badges: []
+  warwiki:
+    site: warwiki
+    title: Hertz
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Hertz
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 赫茲
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 赫兹
+    badges: []

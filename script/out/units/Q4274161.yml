@@ -1,0 +1,107 @@
+---
+pageid: 4085120
+ns: 0
+title: Q4274161
+lastrevid: 524064325
+modified: '2017-07-20T07:25:41Z'
+type: item
+id: Q4274161
+labels:
+  en:
+    language: en
+    value: saeculum
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: e51752ac72baa80ec935b3d45c0f59fdf299b1da
+      datavalue:
+        value: "/m/0nf0g"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q4274161$74FBB231-C449-4887-ADC1-59F5CA33A4E1
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 98a1e85b80bda7ff493c25a6b805599da715c077
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1790144
+          id: Q1790144
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4274161$2d1c46d0-484e-fbec-97f8-273d1a372f35
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: c2adcd7aa554de79f1f12ae2f61c12c2e1861ad7
+      datavalue:
+        value:
+          amount: "+110"
+          unit: http://www.wikidata.org/entity/Q577
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q4274161$68310e16-4338-72d1-2901-1fe3fb9fa4f2
+    rank: normal
+sitelinks:
+  diqwiki:
+    site: diqwiki
+    title: Saeculum
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Saeculum
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Saeculum
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Saeculum
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Saeculum
+    badges: []

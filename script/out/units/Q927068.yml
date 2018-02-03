@@ -1,0 +1,130 @@
+---
+pageid: 877448
+ns: 0
+title: Q927068
+lastrevid: 623918764
+modified: '2018-01-27T18:37:23Z'
+type: item
+id: Q927068
+labels:
+  en:
+    language: en
+    value: ream
+aliases:
+  en:
+  - language: en
+    value: Rieß
+  - language: en
+    value: Ries
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 73a7903c5c53cfb07c0e3f236daf1d377b809c2b
+      datavalue:
+        value: "/m/02qshy1"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q927068$842DF301-9B0B-4D8E-8614-4472BC648E0B
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P1417:
+  - mainsnak:
+      snaktype: value
+      property: P1417
+      hash: 301193c98f4c7c10c674dfed18b548af1f38c286
+      datavalue:
+        value: science/ream-weight
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q927068$EF25E5DD-6BEB-49E4-90BE-C19A4DBC4ED8
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: cf3c224e8db64deac776621d6d4093930b9e77f2
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2360980
+          id: Q2360980
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q927068$f368ecd3-4e75-feb3-5f49-76b1fdc0acfe
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: وحدات كمية الورق
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Raima
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Ries (Papiermaß)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Units of paper quantity
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Resma
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Risma
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Riem (papier)
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Ryza
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Resma
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 令 (紙張單位)
+    badges: []

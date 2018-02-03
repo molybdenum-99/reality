@@ -1,0 +1,52 @@
+---
+pageid: 31715373
+ns: 0
+title: Q30102988
+lastrevid: 560487922
+modified: '2017-09-17T07:18:37Z'
+type: item
+id: Q30102988
+labels:
+  en:
+    language: en
+    value: bushel
+aliases:
+  en:
+  - language: en
+    value: ba-ri2-ga
+  - language: en
+    value: parsiktu
+  - language: en
+    value: "\U00012040\U00012337\U000120B5"
+  - language: en
+    value: bariga
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6e3da81891b6fba54d9ac8088595a4b05e5a5f95
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1302471
+          id: Q1302471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q30102988$1caddf1b-4b8f-f2c8-bf7e-d4722fd787d1
+    rank: normal
+    references:
+    - hash: 1c756021da20e720334f918dd529731cba115dc9
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 1e5708b2581b6afd9a23c9827eaada26c619ba7c
+          datavalue:
+            value: http://it.stlawu.edu/~dmelvill/mesomath/obmetrology.html
+            type: string
+          datatype: url
+      snaks-order:
+      - P854
+sitelinks: {}

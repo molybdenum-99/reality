@@ -1,0 +1,62 @@
+---
+pageid: 32198970
+ns: 0
+title: Q30588224
+lastrevid: 591492025
+modified: '2017-11-09T23:29:11Z'
+type: item
+id: Q30588224
+labels:
+  en:
+    language: en
+    value: Devcoin
+aliases: {}
+claims:
+  P856:
+  - mainsnak:
+      snaktype: value
+      property: P856
+      hash: de8f17f4fb1b70c468632b95fdbffb98127654c5
+      datavalue:
+        value: http://devcoin.org
+        type: string
+      datatype: url
+    type: statement
+    id: Q30588224$bd9e9ea1-458b-1103-2b0d-5784c252f97c
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 16ab8cfff2957341998c927ff03e50befb65a864
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 13479982
+          id: Q13479982
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q30588224$74f48c46-4e2c-4985-006d-7fb2f2ba2ade
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Devcoin
+    badges: []

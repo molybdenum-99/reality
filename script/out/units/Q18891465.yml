@@ -1,0 +1,126 @@
+---
+pageid: 20447067
+ns: 0
+title: Q18891465
+lastrevid: 491303342
+modified: '2017-05-28T00:07:38Z'
+type: item
+id: Q18891465
+labels:
+  en:
+    language: en
+    value: Timekeeping on Mars
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 98a1e85b80bda7ff493c25a6b805599da715c077
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1790144
+          id: Q1790144
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q18891465$9EE3B795-2C92-48D3-A95F-293355FF3671
+    rank: normal
+  P2047:
+  - mainsnak:
+      snaktype: value
+      property: P2047
+      hash: 4e785f8b4947416d9bd170610f0c318f9f86eddb
+      datavalue:
+        value:
+          amount: "+88775.24409"
+          unit: http://www.wikidata.org/entity/Q11574
+          upperBound: "+88775.24409"
+          lowerBound: "+88775.24409"
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P642:
+      - snaktype: value
+        property: P642
+        hash: 98673ab0b611568e4353047c97f99ac0d5e400b1
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 1778552
+            id: Q1778552
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P642
+    id: Q18891465$4691fecb-410a-fe23-c99d-d56026b7e756
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2047
+      hash: 14d605df5c972484c160022a688e961f334e74d4
+      datavalue:
+        value:
+          amount: "+1.0274912510"
+          unit: http://www.wikidata.org/entity/Q573
+          upperBound: "+1.0274912510"
+          lowerBound: "+1.0274912510"
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P642:
+      - snaktype: value
+        property: P642
+        hash: 98673ab0b611568e4353047c97f99ac0d5e400b1
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 1778552
+            id: Q1778552
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P642
+    id: Q18891465$631bfb60-45e8-b372-60fc-c5a66c022b3c
+    rank: normal
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Mesura del temps a Mart
+    badges: []
+  cywiki:
+    site: cywiki
+    title: Amser Mawrth
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Timekeeping on Mars
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Medida del tiempo en Marte
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Mesure du temps sur Mars
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Tijdmeting op Mars
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Časomiera na Marse
+    badges:
+    - Q17437798
+  ukwiki:
+    site: ukwiki
+    title: Хронометрія на Марсі
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 火星時
+    badges: []

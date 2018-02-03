@@ -1,0 +1,124 @@
+---
+pageid: 722315
+ns: 0
+title: Q768908
+lastrevid: 616940764
+modified: '2018-01-05T22:01:51Z'
+type: item
+id: Q768908
+labels:
+  en:
+    language: en
+    value: drop
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q768908$D1F3FDD3-2092-4C36-BB82-6675C765B0BE
+    rank: normal
+    references:
+    - hash: d4bd87b862b12d99d26e86472d44f26858dee639
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: f30cbd35620c4ea6d0633aaf0210a8916130469b
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 8447
+              id: Q8447
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 682548a6946ea14518ad0a36e8219334c70d5c36
+      datavalue:
+        value: "/m/04vp4q"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q768908$E2CC2B21-4ED6-4CEC-A004-DB0B7E71665E
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: ece6f6e6968e83ab4ea375829a8c5694d93dff51
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 39297
+          id: Q39297
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q768908$a7a2fcf2-4507-e64d-96bc-03942ed9b533
+    rank: normal
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Gota (unitat)
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Drop (Einheit)
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Σταγόνα (μονάδα)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Drop (unit)
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Gota (unidad de volumen)
+    badges: []

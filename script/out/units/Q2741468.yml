@@ -1,0 +1,231 @@
+---
+pageid: 2632790
+ns: 0
+title: Q2741468
+lastrevid: 581614460
+modified: '2017-10-20T08:26:24Z'
+type: item
+id: Q2741468
+labels:
+  en:
+    language: en
+    value: Korean yang
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 252f2df89c46849a3bbbcf61a4b3e640994425c4
+      datavalue:
+        value: "/m/09z7bt"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2741468$2E4DF604-6923-445A-B8F8-C50B1A4F60D3
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 5cca003cb9989d5104d640b8e508f9568e4ae260
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 28179
+          id: Q28179
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2741468$af1a6cb7-4e42-7444-68f5-4f8c184700c1
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: 0c14933d6b109747ca35487771382dfe3a76b449
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P580:
+      - snaktype: value
+        property: P580
+        hash: 8dc416ace5bcbd841ba84df077d207afe7d547d4
+        datavalue:
+          value:
+            time: "+1892-01-01T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 9
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      P582:
+      - snaktype: value
+        property: P582
+        hash: 894a944e12e4d9221cd83aa5e675dabaea9cba23
+        datavalue:
+          value:
+            time: "+1902-01-01T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 9
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P580
+    - P582
+    id: Q2741468$c3a49724-46bd-db19-a586-860354648420
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2741468$CECF3E4D-5148-41C3-BBD9-92587FE7BD76
+    rank: normal
+  P2001:
+  - mainsnak:
+      snaktype: value
+      property: P2001
+      hash: a4878936995bf608289feca97bce69d9f5917243
+      datavalue:
+        value: yang
+        type: string
+      datatype: string
+    type: statement
+    id: Q2741468$F65B8796-0758-4804-B83F-C3A9F130F8AE
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P1942:
+  - mainsnak:
+      snaktype: value
+      property: P1942
+      hash: 89b4592f45eb4a20b922924c3c3fa4e38bed0428
+      datavalue:
+        value: yang
+        type: string
+      datatype: string
+    type: statement
+    id: Q2741468$F6342AF2-C651-46DD-886D-C22B83396D97
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: يانغ كوري
+    badges: []
+  ckbwiki:
+    site: ckbwiki
+    title: یانگی کۆری
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Yang (Münze)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Korean yang
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Yang coréen
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Yang coreano
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 조선 양
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Koreaanse yang
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Whan
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Корейский янг
+    badges: []

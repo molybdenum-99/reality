@@ -1,0 +1,77 @@
+---
+pageid: 9118836
+ns: 0
+title: Q9048643
+lastrevid: 560349194
+modified: '2017-09-17T00:59:47Z'
+type: item
+id: Q9048643
+labels:
+  en:
+    language: en
+    value: nanoliter
+aliases:
+  en:
+  - language: en
+    value: nanolitre
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6e3da81891b6fba54d9ac8088595a4b05e5a5f95
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1302471
+          id: Q1302471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q9048643$0bb9a96d-4165-48a4-07cf-f92c2f3554d1
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 2cd3dac909fbbc2e51103586be2ede4801ba8b97
+      datavalue:
+        value: nl
+        type: string
+      datatype: string
+    type: statement
+    id: Q9048643$4c872112-42ca-d680-423d-092eeaf5186f
+    rank: normal
+  P2234:
+  - mainsnak:
+      snaktype: value
+      property: P2234
+      hash: c6cd6d9b68141f2973086949b4a517bc102dffd8
+      datavalue:
+        value:
+          amount: "+0.000000001"
+          unit: http://www.wikidata.org/entity/Q11582
+          upperBound: "+0.000000002"
+          lowerBound: "+0.000000000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q9048643$a8219219-46c6-b8e2-6652-e0dd7771bc17
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 4f13f26e0ba4902cd64715ae9110ec3603ef711a
+      datavalue:
+        value: nanolitre
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q9048643$0265F9C3-A038-4461-98CB-202FABA4FF76
+    rank: normal
+sitelinks:
+  eswiki:
+    site: eswiki
+    title: Nanolitro
+    badges: []

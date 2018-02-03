@@ -1,0 +1,114 @@
+---
+pageid: 508530
+ns: 0
+title: Q539959
+lastrevid: 491626893
+modified: '2017-05-28T20:23:49Z'
+type: item
+id: Q539959
+labels:
+  en:
+    language: en
+    value: Vereinsthaler
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 508e984404c52f27d7dc29a55ffe071279a1db18
+      datavalue:
+        value: "/m/08dqfz"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q539959$220DE29D-DFC0-4FD9-90C0-097B64254988
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q539959$BD4242C6-99CF-4737-8296-F0177AED98AC
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 06bea010b63145db6f0559c799f8936bcde6a5be
+      datavalue:
+        value: Vereinsthaler
+        type: string
+      datatype: string
+    type: statement
+    id: Q539959$7ED653CD-09AA-4405-A669-01CC87147413
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Vereinstaler
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Vereinsthaler
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Egyleti tallér
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Vereinstaler
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Vereinsthaler
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Vereinsthaler
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Союзный талер
+    badges:
+    - Q17437796

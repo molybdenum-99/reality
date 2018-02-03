@@ -1,0 +1,248 @@
+---
+pageid: 3177428
+ns: 0
+title: Q3332814
+lastrevid: 625300038
+modified: '2018-01-31T20:31:46Z'
+type: item
+id: Q3332814
+labels:
+  en:
+    language: en
+    value: megabit
+aliases: {}
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: bfd0d358768fb612dd4ea032af0ebc086671e11e
+      datavalue:
+        value: Mbit
+        type: string
+      datatype: string
+    type: statement
+    id: Q3332814$95a0318d-423b-5be2-1dcc-7812f35bac5d
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: ec44a670bf027e346e204b9d5cc50f46ca672b41
+      datavalue:
+        value: Mb
+        type: string
+      datatype: string
+    type: statement
+    id: Q3332814$d5f5b28c-44be-0b4a-9f77-826104cdaf56
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 3928fe77a686bc76045964aec69158e80f073a04
+      datavalue:
+        value: Мбит
+        type: string
+      datatype: string
+    type: statement
+    id: Q3332814$2bc66443-4527-e5be-3730-c788d676874e
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 4de543084681e9e4efa386aa37fc4e6269bcbb2f
+      datavalue:
+        value: Мб
+        type: string
+      datatype: string
+    type: statement
+    id: Q3332814$178c74ae-4303-944e-f7bf-7c0ef3e841fe
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 50c4947cc84806f278411b9c2a4d39482b04dbbc
+      datavalue:
+        value: "/m/021189"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3332814$8567A474-5DCA-4056-B41D-31FF02017919
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 2d6ead580ca479cd38b25f8d8c677f1c03ad7473
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3550873
+          id: Q3550873
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3332814$052f286d-4bd2-c3fc-daab-31936a915172
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 7d5e19b86db148e5c915f0b3b8e81f4e41f31193
+      datavalue:
+        value: megabit
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3332814$82253A42-BCA1-4388-BA14-91A442133769
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 794976801835cd0dbee9ae9aef2b41949d33341c
+      datavalue:
+        value:
+          amount: "+1000000"
+          unit: http://www.wikidata.org/entity/Q8805
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q3332814$5e75b714-4964-e7cd-f00b-6252bec61cc3
+    rank: normal
+sitelinks:
+  bewiki:
+    site: bewiki
+    title: Мегабіт
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Мегабит
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Megabit
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Megabit
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Megabit
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Megabit
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Megabit
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Megabit
+    badges: []
+  fawiki:
+    site: fawiki
+    title: مگابیت
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Mégabit
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Megabit
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Megabit
+    badges: []
+  jawiki:
+    site: jawiki
+    title: メガビット
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 메가비트
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Megabit
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Megabit
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Megabit
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Megabit
+    badges: []
+  pnbwiki:
+    site: pnbwiki
+    title: ایم بی
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Megabit
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Мегабит
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Megabit
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Мегабит
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Megabit
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Megabit
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Мегабіт
+    badges: []

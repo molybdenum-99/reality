@@ -1,0 +1,91 @@
+---
+pageid: 20882235
+ns: 0
+title: Q19310187
+lastrevid: 522597595
+modified: '2017-07-17T14:19:18Z'
+type: item
+id: Q19310187
+labels:
+  en:
+    language: en
+    value: academic quarter
+aliases:
+  en:
+  - language: en
+    value: quarter
+  - language: en
+    value: academic trimester
+  - language: en
+    value: trimester
+claims:
+  P3827:
+  - mainsnak:
+      snaktype: value
+      property: P3827
+      hash: 87f5ff64a621553654af03cbc9998c4c99b1feee
+      datavalue:
+        value: quarter-system
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q19310187$31E850AF-E0EF-4536-8C5B-8FA994B65ABB
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: dce91ff4efc2a8663e04ada2f4d62edd627b7530
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 586598
+          id: Q586598
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q19310187$eaea01d6-4875-84bb-cab9-6bdfc45d6490
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 62e88b867373b604a164d6d9e8e16e3ac8e2e899
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 915466
+          id: Q915466
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q19310187$696dd1c4-4cf7-f7a2-cc40-98550b10f784
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 98a1e85b80bda7ff493c25a6b805599da715c077
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1790144
+          id: Q1790144
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q19310187$60d13222-43ee-8a3c-a023-8417729f8cb0
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Trimester (Studium)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Academic quarter (year division)
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 4学期制
+    badges: []

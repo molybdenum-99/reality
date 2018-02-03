@@ -1,0 +1,112 @@
+---
+pageid: 2268327
+ns: 0
+title: Q2347864
+lastrevid: 535147029
+modified: '2017-08-10T17:27:18Z'
+type: item
+id: Q2347864
+labels:
+  en:
+    language: en
+    value: quattrino
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 2240daba22c0b96752ba155f9e4a2e21de56bec3
+      datavalue:
+        value: "/m/0cmf1sv"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2347864$B884CBC2-4004-4324-807C-4042DE22267C
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2347864$FCA4E8D4-3911-498D-ADE4-D125C5BE9DBA
+    rank: normal
+  P1889:
+  - mainsnak:
+      snaktype: value
+      property: P1889
+      hash: 06fc15a71946ac5039891bb8d5bf497c08aca1e7
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 17127020
+          id: Q17127020
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2347864$C74D870E-5784-49F9-B125-6FF1B1B2E267
+    rank: normal
+sitelinks:
+  bat_smgwiki:
+    site: bat_smgwiki
+    title: Kvatrėns
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Quattrino
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Quattrino
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Kvatrinas
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Каттрино
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Quattrinu
+    badges: []

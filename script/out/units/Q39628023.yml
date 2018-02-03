@@ -1,0 +1,44 @@
+---
+pageid: 40979819
+ns: 0
+title: Q39628023
+lastrevid: 558117474
+modified: '2017-09-13T13:40:58Z'
+type: item
+id: Q39628023
+labels:
+  en:
+    language: en
+    value: Gregorian year
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 98a1e85b80bda7ff493c25a6b805599da715c077
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1790144
+          id: Q1790144
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q39628023$2f5dfa36-412a-40c7-a8c1-78a8f59c8b31
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 58a9dbc236dbd27d051780eab3c6471bf3b2350a
+      datavalue:
+        value:
+          amount: "+31556952"
+          unit: http://www.wikidata.org/entity/Q11574
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q39628023$9f41a285-4be7-b047-f37b-fe5f51811801
+    rank: normal
+sitelinks: {}

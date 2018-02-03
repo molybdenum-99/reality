@@ -1,0 +1,164 @@
+---
+pageid: 3609282
+ns: 0
+title: Q3785200
+lastrevid: 537539631
+modified: '2017-08-14T08:09:18Z'
+type: item
+id: Q3785200
+labels:
+  en:
+    language: en
+    value: heredium
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 0f49769a073adbf1aea6d3645a68f24ad29dbeb6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1371562
+          id: Q1371562
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3785200$1AFF24CB-AA04-49E5-83DE-1E43BE7F241B
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 52afd5559217923531f59bd55edf87f344e02b43
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1161819
+          id: Q1161819
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3785200$281b85bb-4e4c-c169-dcc0-88ca03e440dd
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: e90d385d1a670b17a1c67bd31f998505e38d4796
+      datavalue:
+        value:
+          amount: "+2"
+          unit: http://www.wikidata.org/entity/Q251545
+          upperBound: "+2"
+          lowerBound: "+2"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q3785200$b9a3ce34-448d-3ef2-9b01-11b5864d0bb2
+    rank: normal
+    references:
+    - hash: 61342d089c7f10b34847e82b1cf2f66b5389d0ce
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: d86f121e9d5a78f78240e05ebfbb23fc9504c83d
+          datavalue:
+            value: http://www.livius.org/w/weights/weights3.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: a31b98af17fbec602005e55f91baed9ae5725776
+          datavalue:
+            value:
+              time: "+2016-08-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 137a60dec39c500ff5b8a361cdd0050d0929e97c
+      datavalue:
+        value:
+          amount: "+5036"
+          unit: http://www.wikidata.org/entity/Q25343
+          upperBound: "+5036"
+          lowerBound: "+5036"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q3785200$d3e274e2-4ff6-0688-c923-3e11df890f57
+    rank: normal
+    references:
+    - hash: 61342d089c7f10b34847e82b1cf2f66b5389d0ce
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: d86f121e9d5a78f78240e05ebfbb23fc9504c83d
+          datavalue:
+            value: http://www.livius.org/w/weights/weights3.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: a31b98af17fbec602005e55f91baed9ae5725776
+          datavalue:
+            value:
+              time: "+2016-08-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: e12439f34cec95ee050daf4e503b6952b0e935f4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11500
+          id: Q11500
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3785200$527F7597-2A5A-4BE3-95C3-BF7B5C450792
+    rank: normal
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Heredium
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Heredium (Einheit)
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Heredium
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Heredium
+    badges: []

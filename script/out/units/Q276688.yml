@@ -1,0 +1,137 @@
+---
+pageid: 267550
+ns: 0
+title: Q276688
+lastrevid: 619460819
+modified: '2018-01-12T22:31:06Z'
+type: item
+id: Q276688
+labels:
+  en:
+    language: en
+    value: Honduran peso
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: '09e85e6e18ee0c8619896072316cbd73224e9847'
+      datavalue:
+        value: "/m/090jlp"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q276688$DB1E3B63-222B-4F70-A5AB-BDB349DA1491
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q276688$DB6474A2-43E8-4E08-A64B-09C94093D3D6
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 3e2e3de95bf069f64c11e9c0c20052d75ac63fd5
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 244696
+          id: Q244696
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q276688$35473106-453c-db23-7e06-b74aba8cf515
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: c76c61a04389416d22d2cf7bad43111f87c4fa5c
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 783
+          id: Q783
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q276688$1c9fc852-4633-7a11-c3cc-85706f7a666e
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 5e2e846c8fe687e530392736522659b72881e315
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2920146
+          id: Q2920146
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q276688$0d1f247b-475d-98bd-838d-378d616534e0
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Honduran peso
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Peso hondureño
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Peso hondurien
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Peso honduregno
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Гондурасское песо
+    badges: []

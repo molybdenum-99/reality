@@ -1,0 +1,101 @@
+---
+pageid: 27868398
+ns: 0
+title: Q25915412
+lastrevid: 610007449
+modified: '2017-12-16T21:09:28Z'
+type: item
+id: Q25915412
+labels:
+  en:
+    language: en
+    value: actus duplicatus
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 0f49769a073adbf1aea6d3645a68f24ad29dbeb6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1371562
+          id: Q1371562
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q25915412$072B6658-1D14-4442-8432-F8A9673E1EDB
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 52afd5559217923531f59bd55edf87f344e02b43
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1161819
+          id: Q1161819
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q25915412$18FAA328-80E4-42AE-804A-7225C3795DFC
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: 886b4162818834f12f01970d0509f301c7ddc23c
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3511220
+          id: Q3511220
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q25915412$952d0781-48f8-86cc-4ecc-7d7f640301f7
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 4262fea8dfab91875a9c94d804495db524796ef1
+      datavalue:
+        value:
+          amount: "+28800"
+          unit: http://www.wikidata.org/entity/Q25909396
+          upperBound: "+28800"
+          lowerBound: "+28800"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q25915412$e2961602-4227-7094-338f-cc35fbd22d57
+    rank: normal
+    references:
+    - hash: 0ce0538642350cdcd2908a3ce50d3b792c6ecdd9
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 5a343e7e758a4282a01316d3e959b6e653b767fc
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 11920
+              id: Q11920
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P4656:
+        - snaktype: value
+          property: P4656
+          hash: da7ed0081712f0b7115cca154a43f56e4c274286
+          datavalue:
+            value: https://it.wikipedia.org/w/index.php?title=Actus_(unit%C3%A0_di_misura)&oldid=68403463
+            type: string
+          datatype: url
+      snaks-order:
+      - P143
+      - P4656
+sitelinks: {}

@@ -1,0 +1,4531 @@
+---
+pageid: 18386839
+ns: 0
+title: Q16783523
+lastrevid: 625013779
+modified: '2018-01-31T09:43:57Z'
+type: item
+id: Q16783523
+labels:
+  en:
+    language: en
+    value: Ethereum
+aliases:
+  en:
+  - language: en
+    value: ETH
+claims:
+  P170:
+  - mainsnak:
+      snaktype: value
+      property: P170
+      hash: 0b5bd254f5ebbae42fa75892aca9ccd83439b578
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 16197959
+          id: Q16197959
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q16783523$aacce3b3-4dd8-f545-0605-9dc294fc95b8
+    rank: normal
+  P856:
+  - mainsnak:
+      snaktype: value
+      property: P856
+      hash: 676d21a5c85fa239ceb3264a42d000adfc047cf3
+      datavalue:
+        value: https://www.ethereum.org/
+        type: string
+      datatype: url
+    type: statement
+    qualifiers:
+      P813:
+      - snaktype: value
+        property: P813
+        hash: b7d5bcc2bb94fc597e92dcdbdac8e646a208c0c8
+        datavalue:
+          value:
+            time: "+2015-10-20T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      P407:
+      - snaktype: value
+        property: P407
+        hash: daf1c4fcb58181b02dff9cc89deb084004ddae4b
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 1860
+            id: Q1860
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P813
+    - P407
+    id: Q16783523$B39628BC-9CA2-4C56-B35F-A58392561ABB
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  - mainsnak:
+      snaktype: value
+      property: P856
+      hash: 30fe99661c2fbe2a977a9c477d0c6ff7e44f6df1
+      datavalue:
+        value: https://geth.ethereum.org
+        type: string
+      datatype: url
+    type: statement
+    id: Q16783523$A0E3F8E7-520D-446A-A42B-B1C642C93EDC
+    rank: normal
+    references:
+    - hash: 32aa646f58048c19a97ae0908aaa7bc91f2c338f
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 5b9b9638cd969f40639cdef1f0197637c9de738f
+          datavalue:
+            value:
+              time: "+2017-01-08T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 6831cc0df97c3d0d017995538bb0363549a3a7ce
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P856
+      hash: b4c4df8e63eae56452cd2f465aa24ff4b3a4681a
+      datavalue:
+        value: https://geth.io
+        type: string
+      datatype: url
+    type: statement
+    id: Q16783523$06EA609F-6507-42C4-A339-51C39E89902C
+    rank: normal
+    references:
+    - hash: 5efc528da6ad214a524ce1d2da9277fc37b3fedf
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 6831cc0df97c3d0d017995538bb0363549a3a7ce
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: bbe43324b565f05ac5a26d8c302430dac5f623a7
+          datavalue:
+            value:
+              time: "+2017-04-06T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 3d48bc778020e6fae5a9bfaa97fe02e6a3b0b44e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 193424
+          id: Q193424
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q16783523$f88489e3-4760-8019-a0ce-c475702520ab
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 16ab8cfff2957341998c927ff03e50befb65a864
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 13479982
+          id: Q13479982
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q16783523$22f5b90f-4fbd-baef-697a-f3fa70375ba2
+    rank: normal
+  P275:
+  - mainsnak:
+      snaktype: value
+      property: P275
+      hash: 71e4ae2c9628ff025d071fc9603457d3a55e0205
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10513445
+          id: Q10513445
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q16783523$1e2da352-459d-6cfd-e4b5-9ae62e7d19ae
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P275
+      hash: '0447296e0e56d461ed7491de8ee2da7367b75861'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 334661
+          id: Q334661
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q16783523$f184fafa-4216-0524-edc4-208565020b1f
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P275
+      hash: e87fb4e5fb72c096a0be48eb35cc84c2aeb6c14f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 192897
+          id: Q192897
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q16783523$9ef2883c-4731-7762-9e57-2dd8d61662ae
+    rank: normal
+  P577:
+  - mainsnak:
+      snaktype: value
+      property: P577
+      hash: afaa709b2c3135f167ee8b7ef7cbb920f6c25e53
+      datavalue:
+        value:
+          time: "+2015-07-30T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 11
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q16783523$addd3737-4532-3b8e-fbd1-50b80aee0ef3
+    rank: normal
+  P154:
+  - mainsnak:
+      snaktype: value
+      property: P154
+      hash: d71914241af197e139a4d9e2a6a98a2790fb1440
+      datavalue:
+        value: Ethereum logo 2014.svg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q16783523$003d607b-4593-6751-ea8a-52b7e1d88ed0
+    rank: normal
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: '08683f140557032a2b1d581d254d24705919f6db'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 208702
+          id: Q208702
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q16783523$13023c86-46b3-229f-5945-5804d8e10d59
+    rank: normal
+    references:
+    - hash: 9dc4eb8c6d7ebc990d9c8cb52f2c0dfb792336c8
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 758edab97dbaeaee88b2d5fdf6185c0d57adcc40
+          datavalue:
+            value: http://www.lemonde.fr/pixels/article/2014/10/07/l-ether-la-future-monnaie-qui-vaut-deja-des-millions_4501940_4408996.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: b7d5bcc2bb94fc597e92dcdbdac8e646a208c0c8
+          datavalue:
+            value:
+              time: "+2015-10-20T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  P277:
+  - mainsnak:
+      snaktype: value
+      property: P277
+      hash: 758444e877886704f4f61e0541b202183ff24691
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2407
+          id: Q2407
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q16783523$4BBB77E8-D040-43A0-8779-AA84693AB619
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P277
+      hash: 59a2be362e0f864aabe5b183e689b1643265695b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 37227
+          id: Q37227
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q16783523$B249666B-17FB-4ACE-B3EE-BD5F967878DF
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P277
+      hash: e1685d1411bf12440b27bfc30e6637af7072d515
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 28865
+          id: Q28865
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q16783523$ABCC1687-BFD2-4762-A894-D84AC245AC11
+    rank: normal
+  P1324:
+  - mainsnak:
+      snaktype: value
+      property: P1324
+      hash: 358a1f34e289cb3eb4c6d1110adbae00359f50d1
+      datavalue:
+        value: https://github.com/ethereum/go-ethereum
+        type: string
+      datatype: url
+    type: statement
+    qualifiers:
+      P2700:
+      - snaktype: value
+        property: P2700
+        hash: c9653c60db2ac354cb25a08c14c306afd1238d7c
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 186055
+            id: Q186055
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P2700
+    id: Q16783523$5969701b-4d4b-1ec9-6c1d-bd5227dbee1f
+    rank: normal
+    references:
+    - hash: da34d8c7326d071545c49ba4593f14fe2d4aef4b
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 2354fdc43b4368725cb018ac4578ede3e98a8712
+          datavalue:
+            value:
+              time: "+2016-10-05T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P813
+  P2992:
+  - mainsnak:
+      snaktype: value
+      property: P2992
+      hash: 0f97d5f3ff950230d3fb34faaaa518604b8542c5
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 965769
+          id: Q965769
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P1065:
+      - snaktype: value
+        property: P1065
+        hash: e603ff49db17fed71d9bf27d0f74a7b5385a067b
+        datavalue:
+          value: https://travis-ci.org/ethereum/go-ethereum
+          type: string
+        datatype: url
+      P973:
+      - snaktype: value
+        property: P973
+        hash: c50bb96bfe27a42f930a46452c44ce7e87ad3623
+        datavalue:
+          value: https://github.com/ethereum/go-ethereum/blob/master/.travis.yml
+          type: string
+        datatype: url
+    qualifiers-order:
+    - P1065
+    - P973
+    id: Q16783523$A6EE85E8-DD7C-4C5E-9F7B-971D9F9EBD6D
+    rank: normal
+    references:
+    - hash: da34d8c7326d071545c49ba4593f14fe2d4aef4b
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 2354fdc43b4368725cb018ac4578ede3e98a8712
+          datavalue:
+            value:
+              time: "+2016-10-05T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P813
+  P3381:
+  - mainsnak:
+      snaktype: value
+      property: P3381
+      hash: ce093c133c90df833e78350dae60411883185d2b
+      datavalue:
+        value: Ethereum
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q16783523$FD314E71-6559-4770-B96A-5695D8F2B4D5
+    rank: normal
+  P348:
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: b5abac9f9cc071191ea483a7a1fc7b8775a4d627
+      datavalue:
+        value: 1.1.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 3ae02224c39a76ca89781067941e88305722fa8c
+        datavalue:
+          value:
+            time: "+2015-09-10T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      - snaktype: value
+        property: P577
+        hash: f6646fda4697e513fed835665e13ca71fee169ca
+        datavalue:
+          value:
+            time: "+2015-09-02T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      - snaktype: value
+        property: P577
+        hash: 281f5109514cbc8bfcb7aab0350b3bfe28dabdf9
+        datavalue:
+          value:
+            time: "+2015-09-01T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      - snaktype: value
+        property: P577
+        hash: 880e9381c6e525cfaad22533f13390ce85860732
+        datavalue:
+          value:
+            time: "+2015-08-25T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$E090C71D-9CBD-40DF-AF84-F9F19F208689
+    rank: normal
+    references:
+    - hash: dbb2f57c3a9521941e8e050fe298aea642b24c26
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 5b9b9638cd969f40639cdef1f0197637c9de738f
+          datavalue:
+            value:
+              time: "+2017-01-08T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 41f3925ce9534e25ef14907bb440d728bf9cec65
+      datavalue:
+        value: 1.5.7
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: e25dd0cf004851be0c50d8e16fdd9933f14fb867
+        datavalue:
+          value:
+            time: "+2017-01-16T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$6600EDB0-0B65-4641-9F93-F0DE08F9BB45
+    rank: normal
+    references:
+    - hash: 68b891f16950540b6d8cf150bffda66ed6881ca0
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: e7e251f9bc945bb957d7ee51124097dec9f6b922
+          datavalue:
+            value:
+              time: "+2017-01-16T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: a28c3683864d4fcfad8242b243b55f74b4e3c371
+      datavalue:
+        value: 1.5.6
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 2cfd30ea36062377d446c196480c3432758d2073
+        datavalue:
+          value:
+            time: "+2017-01-09T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$1247A730-2A50-4A57-81FA-B03445BB6B75
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 193293da02685c24795e6e3f06d6dfecb0d2e71a
+      datavalue:
+        value: 1.5.5
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 03de5ccd528f3b5a39ad9476821134748acd07f7
+        datavalue:
+          value:
+            time: "+2016-12-14T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$7B85D2BC-DB8D-48D7-8269-A561BD143B67
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: c947f5ba1f239c6d95b8fa36c900b5c765d185aa
+      datavalue:
+        value: 1.5.4
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 6d2af43ef4cc40e0db2bd99a0fb1a19c53c8e584
+        datavalue:
+          value:
+            time: "+2016-11-28T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$25323002-08DC-470E-BB81-B5CD10950832
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: f84a9951a81649d929715bd0945d65b2995acff0
+      datavalue:
+        value: 1.5.3
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 80863ad2232b9141ed5026a8e1927961d0c0d702
+        datavalue:
+          value:
+            time: "+2016-11-24T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$013784C8-0601-4A32-96D8-98B205027074
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: ef7ddf799eb23ea1be8967e529cad615d06aaac4
+      datavalue:
+        value: 1.5.2
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 1ebea28cfa64d9e0ca7563c5ed2f52bc72b3c3eb
+        datavalue:
+          value:
+            time: "+2016-11-18T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$7940673D-3A50-4E42-85A2-59D0B5240A09
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 10ffc4c0f7a83211e0b020eeeee3d3fbb5c46bd2
+      datavalue:
+        value: 1.5.1
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: f843289404099405569b8426ef15f0e825529aba
+        datavalue:
+          value:
+            time: "+2016-11-17T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$442BC9A7-3070-470A-9DBB-1C762FC3EE49
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 464794f5b96caf0f31530ab5186becdc1cf3306a
+      datavalue:
+        value: 1.5.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: ee213a2dca0c1f2647d2ff47ab2f36fd959cb907
+        datavalue:
+          value:
+            time: "+2016-11-15T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$3633B769-DBDD-425F-A5F4-B05BB6334E10
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: a9959a0c625b8fc026eab575dd5eb5fa7e351dfc
+      datavalue:
+        value: 1.4.19
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: ee213a2dca0c1f2647d2ff47ab2f36fd959cb907
+        datavalue:
+          value:
+            time: "+2016-11-15T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$E38EE633-20F4-404E-9585-D77DA8CE2DCE
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 2c95e60b25757fe7c8b29c6fec0bf51aeed704aa
+      datavalue:
+        value: 1.4.18
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: dafffa5d85649e471fe33ce53f271095ea5d91d8
+        datavalue:
+          value:
+            time: "+2016-10-15T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$D3241CFE-ACF8-4630-BA21-17E0BD88C9CD
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: d9a8676d7820c99f1c77f508de5261174725ca85
+      datavalue:
+        value: 1.4.17
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: ba2957804356239fda80fca08d3472fa0c2a4dce
+        datavalue:
+          value:
+            time: "+2016-10-10T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$F19EF1BB-CC72-4960-9CF5-2C1876210F7B
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: d40adfea28936bf8c7907a5ca7e0302f7477b962
+      datavalue:
+        value: 1.4.16
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: f4c7ce55e8aa849e2262cb58c46e0841bfd5813f
+        datavalue:
+          value:
+            time: "+2016-10-06T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$D8D6AC8B-878D-4712-8BCF-139F40D68445
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: b052a0807b74745e7e2ac325dfb3441757b726ef
+      datavalue:
+        value: 1.4.15
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 196989156d9aacd108a0d5cde78dd9064bc236fc
+        datavalue:
+          value:
+            time: "+2016-10-03T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$1643DFD9-CAC5-494B-A56E-79C5790E9508
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: daf6dc7002825f1b35f7ca179b7f6828c7acdc9a
+      datavalue:
+        value: 1.4.13
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: ef50bcaee5a21a493a73e1f139b689bd6cee77ca
+        datavalue:
+          value:
+            time: "+2016-09-26T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$F883E281-E76C-4139-8EDD-DB5CFF8C40ED
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 0a5d05cbefa8e9142cf0322892221369949bab72
+      datavalue:
+        value: 1.4.12
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 89fed0f5c0e453dc023e90dd0e6cfff98273bcb5
+        datavalue:
+          value:
+            time: "+2016-09-19T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$CFD3477C-FD5F-4151-BA16-58B902F78D34
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 4dd0203f18e7748b14d63be75760b8a6d7df646b
+      datavalue:
+        value: 1.4.11
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: b67301a4670f985de321d46a45152e67ea368c5d
+        datavalue:
+          value:
+            time: "+2016-08-18T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$0AB6B0DA-CE7F-40DD-AAD6-735AD7CFE589
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 94be253e7884f60af46a23b3430216ff7324bd6a
+      datavalue:
+        value: 1.4.10
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 4b50e6c7d8f9861c4b796d797cc3c17d4cc8ca10
+        datavalue:
+          value:
+            time: "+2016-07-16T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$79DFFD81-8AA5-4C0A-BB5C-515EAA86266C
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 3749eeb0fb63beaa5e175e3fe869703d408bbb97
+      datavalue:
+        value: 1.4.9
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: c5487e80139ae2611d49cc1c08d5a419cfd3f74f
+        datavalue:
+          value:
+            time: "+2016-06-29T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$A97156E6-6DB3-49A0-A4FF-00A3A7A7F7F4
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: b1356275a4a0c0d85101c15ae51e4c3334d1f753
+      datavalue:
+        value: 1.4.8
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: c5487e80139ae2611d49cc1c08d5a419cfd3f74f
+        datavalue:
+          value:
+            time: "+2016-06-29T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$7A8963C7-C217-4B59-A82A-C74A9DE6C025
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 7df57f36b24748dcf14ed611c4ae84f9e2f32da3
+      datavalue:
+        value: 1.4.7
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: d2a7162638ba0b76965e5dde8b7421d6430ba540
+        datavalue:
+          value:
+            time: "+2016-06-15T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$5C322880-85C9-4322-BE2F-9D8F3B104316
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: ab2650b21f6a5b318ceb07a01ba8f41649f9d503
+      datavalue:
+        value: 1.4.6
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 3e9bb31dea48b95d0a73c14b9615a338f4259242
+        datavalue:
+          value:
+            time: "+2016-06-06T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$A96799F1-17E6-446A-994F-5C242C02427E
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 46028ea6750815ee4286c359886f810cd2e3af14
+      datavalue:
+        value: 1.4.5
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: c6e2ae5b5445985882fe957cbb672017d92ab867
+        datavalue:
+          value:
+            time: "+2016-05-24T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$1FAD5A4E-2898-4C71-8562-03E9E31AE4D4
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 3f446ab83afda78a6b45b02e29b712dac8bee62a
+      datavalue:
+        value: 1.4.4
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 71befef5320ab214e59280963af0c829d18e6f59
+        datavalue:
+          value:
+            time: "+2016-05-17T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$E4079354-F9B6-410E-A690-955B2398DE4F
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 832c59be8496468adf6c8ca07773b9c34829c5e8
+      datavalue:
+        value: 1.4.3
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 9de48cb7f2164efadfb026fc7f8f02c170fef75b
+        datavalue:
+          value:
+            time: "+2016-05-10T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$97514DBE-6886-42C9-9DC0-B987F5E1E65A
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 055cd2f7b47c6c4be49d10b077978f77674e55f7
+      datavalue:
+        value: 1.4.2
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 9de48cb7f2164efadfb026fc7f8f02c170fef75b
+        datavalue:
+          value:
+            time: "+2016-05-10T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$FE8BD12F-ACFA-4179-8D6D-4C0166C66282
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: f2774ff1012714a9da6c850d37551480cf055f0a
+      datavalue:
+        value: 1.3.6
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 2c6bc9f4fb7d6d058bc944c80086e754192374c9
+        datavalue:
+          value:
+            time: "+2016-04-01T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$DB1D6873-BD4B-4BE3-9104-CA67CCC9DF32
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 2d33e61382fd4ea3946a17434de14e224744cbcd
+      datavalue:
+        value: 1.3.5
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: a3dc59ba07132bcf1cc132206722578f48e4e1b1
+        datavalue:
+          value:
+            time: "+2016-03-03T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$6ADD42F5-BFA9-49C7-BB14-5EAD44A1AC7F
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 1c734cc72f06b7203387fb142f327e94ed35ba6a
+      datavalue:
+        value: 1.3.4
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: d8ef01593eb0e82b17e3223ea0bcc06e9a6f0d53
+        datavalue:
+          value:
+            time: "+2016-02-29T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$4E10AEC7-FEAE-4989-9C60-A64EF1A61FAC
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 1be9229ae0645add2cc3ef0831c970ebec551909
+      datavalue:
+        value: 1.3.3
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: af5a2bfaa15a2c462d0554bb52613950454ca32e
+        datavalue:
+          value:
+            time: "+2016-01-05T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$338E633E-3037-4ABB-916F-4D1DB82D55A2
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: ba41f40129b65c4301252660b0a2d97446dcc434
+      datavalue:
+        value: 1.3.2
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 7b662fd06b4887ea313e1262f88f9605f9c47e91
+        datavalue:
+          value:
+            time: "+2015-11-25T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$146F6A90-D150-4D30-8238-7094440AE4F9
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: d07cb64ceaae6be7537cb07c142ce58b1bddea9d
+      datavalue:
+        value: 1.3.1
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 0a8be0dc20cf56141197b892a30e28c09641e8fc
+        datavalue:
+          value:
+            time: "+2015-11-03T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$A362A14A-B0BB-4538-8DF9-86EC30A9A284
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 4c8d9b009a8198c11a8b9ad355788fcb51f8597c
+      datavalue:
+        value: 1.2.3
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: c659773dc0c8fcde57aed917378ee44dab1d2fc8
+        datavalue:
+          value:
+            time: "+2015-10-21T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$1AD688F2-00A7-4A4B-89E2-B62A16027645
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 5deae8bb4b1accb66c1f6461a8fabbef05ed219e
+      datavalue:
+        value: 1.2.2
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 950d7c4cb16a8cfb4f7514eba309d6aa7233cf9d
+        datavalue:
+          value:
+            time: "+2015-10-02T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$27B1ABF7-5F23-489B-8ADA-75CCDFF1F334
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 79725be90fb9ccf45c1c70a96685820a90c8df8b
+      datavalue:
+        value: 1.2.1
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 409e32f6141bd520136fde71aff6a06147ae3d7e
+        datavalue:
+          value:
+            time: "+2015-10-01T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$3C69C9DF-2DD3-4DB8-9C76-76E51FEE4C7C
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 8f9b44ecd1e4fa09d46bd0f2bf96c20fd131f1d3
+      datavalue:
+        value: 1.0.3
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 281f5109514cbc8bfcb7aab0350b3bfe28dabdf9
+        datavalue:
+          value:
+            time: "+2015-09-01T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$0BA413E9-AC2E-4534-91C7-8526D223731E
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 9506ccc578c59253f03a989915f0a32849de56d0
+      datavalue:
+        value: 1.0.2
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: e4539cfd75835187b44da40194d299c0c9f291a3
+        datavalue:
+          value:
+            time: "+2015-08-22T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$CAA197EB-EEA2-4552-A464-94069FD651D6
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 15a6da288aad0e20278a31a23a2f11f379dd192b
+      datavalue:
+        value: 1.0.1
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 8258ed1f6fbb16610363c7281dbb88db0b821779
+        datavalue:
+          value:
+            time: "+2015-08-05T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$AC043B9E-2EBE-4167-9CCD-95C401BD8A1B
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 64d14fdb512c1950b8d072277663c01ebc162538
+      datavalue:
+        value: 1.0.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 5506b980115e05986c0b5a9cfcdbe48ea56b7d2f
+        datavalue:
+          value:
+            time: "+2015-07-29T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$4E2F795A-EF6F-4E04-ABF9-97092D903B56
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: c649b63f5a6c7d2bcfb2e1ff4d5a4612ce15e86f
+      datavalue:
+        value: 0.9.38
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 66884c9ea58fe73b46ceed1e4a920133670e390c
+        datavalue:
+          value:
+            time: "+2015-07-09T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$36B0BC0C-EAA8-44E3-BC23-E20A006B2719
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: fa5c0990c1413b9aeea748bd4009018250356431
+      datavalue:
+        value: 0.9.36
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 2235c354ea05ec9d6b130259dbff78ecdcd2164e
+        datavalue:
+          value:
+            time: "+2015-07-07T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$073D809C-4EDA-48B0-BBF0-CCE93C7D09C4
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 7b8c0b04456a479abfdcafab232500d916044611
+      datavalue:
+        value: 0.9.34
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 9c41551f6a4cd2347faa02bab165724b4c324991
+        datavalue:
+          value:
+            time: "+2015-06-30T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$13CAE0D2-DC63-4A8C-A649-7018C6BF2551
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: bf7fc31aa0f8345033402d647e6c0ccd3cf80fd3
+      datavalue:
+        value: 0.9.32
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: ff72a644a78f481fb05ff2f55d5c17d7dbe19905
+        datavalue:
+          value:
+            time: "+2015-06-23T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$18B6346B-8F12-4D4A-A65A-66FD7D275760
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 220e072f72533284813187edd13215631fef39be
+      datavalue:
+        value: 0.9.30
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 3eb46bb1ac77b72a89da16eb5e7f7e16eb3e3593
+        datavalue:
+          value:
+            time: "+2015-06-15T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$67163537-B67B-40EC-B732-A3F4FA2B8414
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 0e93804480163f84e0aa39caaf0ee4f6209b7750
+      datavalue:
+        value: 0.9.28
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: fbfd675d3460f3e4d1d7613d8f420003830e72b5
+        datavalue:
+          value:
+            time: "+2015-06-09T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$A3F269E6-CB8F-4F49-AFDE-05ABAFE0A4A1
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 46deaeef9c9f473f6c153f663e576928126cd9c9
+      datavalue:
+        value: 0.9.26
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 6892598f5e3132e6129e51cea39e7214434eb601
+        datavalue:
+          value:
+            time: "+2015-05-28T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$234D74D2-5F13-4A91-96C6-AE6A646D0812
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 77717fee31e95ef6b6f776a597d20e49421fee61
+      datavalue:
+        value: 0.9.25
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 3f81783be5d201af04834bc38ed02504334fe29e
+        datavalue:
+          value:
+            time: "+2015-05-27T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$38EE41F2-CD35-4AE7-B671-35B123EEEA43
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 6b52ecf46fb44abe888131ef3002d585fbf64baa
+      datavalue:
+        value: 0.9.24
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 38965c48d42585888b6fc64124d0b1cbe16f8690
+        datavalue:
+          value:
+            time: "+2015-05-26T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$AF53E41F-56E9-4AEE-8B6D-008D92DD51ED
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 1c21bbe9859949f03a0daf55dfafec1af665ca65
+      datavalue:
+        value: 0.9.23
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 726664f0b8a4619deb6e3b464df7de29401d9dc0
+        datavalue:
+          value:
+            time: "+2015-05-21T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$68810773-C432-4D43-8DCE-0B50133A1C94
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 576d09e209096c75185216712fa7ed7ec952822b
+      datavalue:
+        value: 0.9.21.1
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 04ec542d5ddcaeffedcb6aebb27764fff4c7c67f
+        datavalue:
+          value:
+            time: "+2015-05-16T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$AE216E77-9711-4835-BADD-91E88F726A5E
+    rank: normal
+    references:
+    - hash: cbe08d3ec00c1ce4ce4463c4f42d2e100b21a9a2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 9d52b0ebc98449cf06544996a8dffbb7935cb643
+      datavalue:
+        value: 1.5.9
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 628f996cbe85c41df2d2acb64bfd76ebc3d090e8
+        datavalue:
+          value:
+            time: "+2017-02-13T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$D4469C93-1B0A-4483-8EEC-065AE0E2F63C
+    rank: normal
+    references:
+    - hash: 322613c3202a51b35e009eae62de2a6407b731fd
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: d82bd9b1a800ad6ffbba071b5e3cb1f0530afb77
+          datavalue:
+            value:
+              time: "+2017-02-17T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 4716c331ebeef2181f3b13362c26a3e57317c3b0
+      datavalue:
+        value: 1.5.8
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: fef4592f82b89dd3aed2add44fb0deb7adcc4269
+        datavalue:
+          value:
+            time: "+2017-02-01T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$ABB6576E-5C26-44BE-856E-8E7309B01845
+    rank: normal
+    references:
+    - hash: 322613c3202a51b35e009eae62de2a6407b731fd
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: d82bd9b1a800ad6ffbba071b5e3cb1f0530afb77
+          datavalue:
+            value:
+              time: "+2017-02-17T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: a6129dc25f4242c6c3c0195fa35f09050cebb482
+      datavalue:
+        value: 1.6.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 97d3551b0abc568510d0bd740fd406f4abb8eaac
+        datavalue:
+          value:
+            time: "+2017-04-14T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$BF9F58A9-8E40-4DAE-AB76-08F437BAA53D
+    rank: normal
+    references:
+    - hash: 91e60d3175532c4c50f461c712abfe5f2718047a
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 3b484e449d058ead231f4a9bd74b48ce76b48bbc
+          datavalue:
+            value:
+              time: "+2017-04-14T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: fb442851a7a5da2b2f2fb1f2f6577b19be97eb0c
+      datavalue:
+        value: 1.6.1
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 4d2eac7c1ab91346679c153d76887db3dbb52696
+        datavalue:
+          value:
+            time: "+2017-05-04T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$0D4B31C3-0C3E-4E27-9BB5-D45B73FC64DE
+    rank: normal
+    references:
+    - hash: 665b7578ddcef8cc6aa19e750b84b618798a32ed
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: d1777b2d199908af5955d555ea7ef2aca2d28a04
+          datavalue:
+            value:
+              time: "+2017-05-04T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 6389677f34529bfe94f67a469fae42340f9022ce
+      datavalue:
+        value: 1.6.2
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 4336092dd88decce7890ad089ca390a0760c6f30
+        datavalue:
+          value:
+            time: "+2017-05-31T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$4950212C-1ECF-42AC-A726-328D782605CE
+    rank: normal
+    references:
+    - hash: 99d111b70f4c66115df486969d922bca89ee1737
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 1b7e967f88cc87d8bba5d32a33bf27923fe961a7
+          datavalue:
+            value:
+              time: "+2017-05-31T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: b4238906f22886547abe998aa10a6a99b2dac31c
+      datavalue:
+        value: 1.6.5
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 25580650ece5d90d91860084ace37619ab401660
+        datavalue:
+          value:
+            time: "+2017-06-01T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$6194AF07-D5C7-4BA6-BE1B-7AD92DF002F0
+    rank: normal
+    references:
+    - hash: 787ee545c002895bb987ce9c23a6b2fb53b5d196
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: c3a7e588a8622692a715773c75abb5e90312925a
+          datavalue:
+            value:
+              time: "+2017-06-01T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: ca6e9f973bac683e49752ca1e47f31d8de6ac824
+      datavalue:
+        value: 1.6.4
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 25580650ece5d90d91860084ace37619ab401660
+        datavalue:
+          value:
+            time: "+2017-06-01T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$699883BD-6C1C-4A69-BB2B-434A8A80AA28
+    rank: normal
+    references:
+    - hash: 787ee545c002895bb987ce9c23a6b2fb53b5d196
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: c3a7e588a8622692a715773c75abb5e90312925a
+          datavalue:
+            value:
+              time: "+2017-06-01T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: e6caba4e2f33ce52eec3e5d12e63afcfa1ee324e
+      datavalue:
+        value: 1.6.3
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 25580650ece5d90d91860084ace37619ab401660
+        datavalue:
+          value:
+            time: "+2017-06-01T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$2568B81F-0BF9-488A-8038-4C372152BC2B
+    rank: normal
+    references:
+    - hash: 787ee545c002895bb987ce9c23a6b2fb53b5d196
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: c3a7e588a8622692a715773c75abb5e90312925a
+          datavalue:
+            value:
+              time: "+2017-06-01T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: f40202fb5a40dd8ab8f9553bd977b01313e13e19
+      datavalue:
+        value: 1.7.2
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 2eeb9aeac0f0d3ab24dedf07a0cd61957ec3f6f1
+        datavalue:
+          value:
+            time: "+2017-10-14T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$AB42A78F-CF30-46F0-B100-F0989619FAA2
+    rank: normal
+    references:
+    - hash: 7bf672f281057accb5380c4eff99da193b4b721b
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: d3fd9a97c285ef739589831f5ac7736cdce2241e
+          datavalue:
+            value:
+              time: "+2017-11-19T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 8207c9007de9d138e72d29060fee88e97a67bfcd
+      datavalue:
+        value: 1.7.1
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: ccb78d72ec6e15462d8c60ad46647d0241e8c90e
+        datavalue:
+          value:
+            time: "+2017-10-04T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$845AA954-8D77-4E30-B292-1FB064CB7A32
+    rank: normal
+    references:
+    - hash: 7bf672f281057accb5380c4eff99da193b4b721b
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: d3fd9a97c285ef739589831f5ac7736cdce2241e
+          datavalue:
+            value:
+              time: "+2017-11-19T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: f69b187f0eac16a5fe2fbddea7551228380b6391
+      datavalue:
+        value: 1.7.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 6104b2d94ca377c65d32be3a4b757421436a732b
+        datavalue:
+          value:
+            time: "+2017-09-14T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$0AF2D4CD-9DA1-43C2-A92A-EE8AC332D3B9
+    rank: normal
+    references:
+    - hash: 7bf672f281057accb5380c4eff99da193b4b721b
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: d3fd9a97c285ef739589831f5ac7736cdce2241e
+          datavalue:
+            value:
+              time: "+2017-11-19T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 129cf8a8058fde54866e74c0ba60bd14d4afc6ae
+      datavalue:
+        value: 1.6.7
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 7eb7decac0a5880905fc5dabcbd1142663435d44
+        datavalue:
+          value:
+            time: "+2017-07-12T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$72906DB5-5894-4821-807D-91FC05140616
+    rank: normal
+    references:
+    - hash: 7bf672f281057accb5380c4eff99da193b4b721b
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: d3fd9a97c285ef739589831f5ac7736cdce2241e
+          datavalue:
+            value:
+              time: "+2017-11-19T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: e4f6fbbfe67cd00cee89bb1362d309a628b40561
+      datavalue:
+        value: 1.6.6
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: df73c2f66e85bf993b875723d90d926fc9faba21
+        datavalue:
+          value:
+            time: "+2017-06-23T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$23BB4BF3-F0D4-4AA6-BD24-EE08841898F8
+    rank: normal
+    references:
+    - hash: 7bf672f281057accb5380c4eff99da193b4b721b
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: d3fd9a97c285ef739589831f5ac7736cdce2241e
+          datavalue:
+            value:
+              time: "+2017-11-19T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: a39c89394cbf00f9ce2a3c60df2f00112fa1e291
+      datavalue:
+        value: 1.7.3
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 671c2d4b022e730276abdd9e10b431b104eae846
+        datavalue:
+          value:
+            time: "+2017-11-21T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q16783523$3D976F9B-3136-4E85-8651-8141A7B0445D
+    rank: preferred
+    references:
+    - hash: 9e89b13259026e8d2318e11ae36881205e5e6866
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 836170810ed7ea9e1d8068bfdca35cc172d0423e
+          datavalue:
+            value: https://api.github.com/repos/ethereum/go-ethereum/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 94c32fbfcc0899c08ee59c9b738bd055fd7550f8
+          datavalue:
+            value:
+              time: "+2017-11-21T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  P910:
+  - mainsnak:
+      snaktype: value
+      property: P910
+      hash: 40a670623e2cce2cedef197cbf1ec0907b6a89df
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 25251796
+          id: Q25251796
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q16783523$963B3167-19A8-4175-B109-614A84C74E49
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 22aa5a6d773b76bc77529a86776c514cf4fda77b
+      datavalue:
+        value: Ethereum
+        type: string
+      datatype: string
+    type: statement
+    id: Q16783523$ee93e3f6-42d0-1130-1bb4-8a2283675953
+    rank: normal
+  P2002:
+  - mainsnak:
+      snaktype: value
+      property: P2002
+      hash: 6236ed0058af59585314541f86f1833f0609a2fd
+      datavalue:
+        value: ethereumproject
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q16783523$8e47bab2-4d10-2db8-718a-e969e2db8a17
+    rank: normal
+  P3984:
+  - mainsnak:
+      snaktype: value
+      property: P3984
+      hash: 44eff1e6c264ffd414b7469d3611e049bdde29d6
+      datavalue:
+        value: ethereum
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q16783523$2b028eb6-4099-19a9-9cc5-78018654383d
+    rank: normal
+  P2397:
+  - mainsnak:
+      snaktype: value
+      property: P2397
+      hash: 7419d1662d345569be7da9b16a2e68cd6e4aa5c7
+      datavalue:
+        value: UC6rYoXJ_3BbPyWx_GQDDRRQ
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q16783523$f425a738-4f46-9e6e-0b71-03db40961e2d
+    rank: normal
+  P1482:
+  - mainsnak:
+      snaktype: value
+      property: P1482
+      hash: c490d84b2d159e8452192eb85af64c922d92d4d1
+      datavalue:
+        value: https://ethereum.stackexchange.com/
+        type: string
+      datatype: url
+    type: statement
+    id: Q16783523$cfcc8ea9-4b4b-b14c-2583-983ce85de0f4
+    rank: normal
+  P2013:
+  - mainsnak:
+      snaktype: value
+      property: P2013
+      hash: e27f3a09a880fc16705808a421794d7a7729a21b
+      datavalue:
+        value: ethereumproject
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q16783523$3cc63411-49b8-c190-6ae6-1e17f66c37b5
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 874636695ecf3ae6f4357c000e1d611cddc2743b
+      datavalue:
+        value: Ethereum-blockchain-app-platform
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q16783523$a91ff6d7-4a87-8a12-0896-d70a1e458288
+    rank: normal
+  P306:
+  - mainsnak:
+      snaktype: value
+      property: P306
+      hash: 01b345a882853b4326b5d884c140d3fffb0ac0ae
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 388
+          id: Q388
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q16783523$4b5f65f3-404f-735b-ba09-78e4164b5575
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  - mainsnak:
+      snaktype: value
+      property: P306
+      hash: 372b598ec10a56c64b0db84314aeca97e8818e67
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1406
+          id: Q1406
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q16783523$c75f90a4-419b-bf03-74f1-8cd3cf1b4ba9
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  - mainsnak:
+      snaktype: value
+      property: P306
+      hash: 6f8d90e64f36074872798095d66b8bdfe139bca0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 14116
+          id: Q14116
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q16783523$781d1bb4-4572-0991-12f1-6665ac9224a5
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  - mainsnak:
+      snaktype: value
+      property: P306
+      hash: 4cf165f3f207cb0c58e2bfd9fa15595c17c877d5
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 14658
+          id: Q14658
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q16783523$8e439b8c-471e-c001-3c11-55c1a05b8bb9
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P112:
+  - mainsnak:
+      snaktype: value
+      property: P112
+      hash: 48bd444d79a22951697c8630fc043710330924d1
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 16197959
+          id: Q16197959
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q16783523$8d0fa7c7-4353-22e5-beef-f5c39d764041
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P571:
+  - mainsnak:
+      snaktype: value
+      property: P571
+      hash: a0e8300521e5893130fde51563ce424663eb4d02
+      datavalue:
+        value:
+          time: "+2015-07-30T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 11
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q16783523$73241103-06B5-4074-929A-58EE7F84D458
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P2283:
+  - mainsnak:
+      snaktype: value
+      property: P2283
+      hash: 84efc95c1e17d3aafae2432b08212113435982b6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 7249984
+          id: Q7249984
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q16783523$60cd4b2a-48bf-3d30-ca75-8fa37a7e2531
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: إيثريوم
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Етериум
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Ethereum
+    badges: []
+  commonswiki:
+    site: commonswiki
+    title: Category:Ethereum
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Ethereum
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Ethereum
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Ethereum
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Ethereum
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Ethereum
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Ethereum
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Ethereum
+    badges: []
+  fawiki:
+    site: fawiki
+    title: اتیریم
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Ethereum
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Ethereum
+    badges: []
+  hewiki:
+    site: hewiki
+    title: את'ריום
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Ethereum
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Ethereum
+    badges: []
+  jawiki:
+    site: jawiki
+    title: イーサリアム
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 이더리움
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Ethereum
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Ethereum
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Ethereum
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Ethereum
+    badges: []
+  ruwikinews:
+    site: ruwikinews
+    title: Категория:Ethereum
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Ethereum
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Ethereum
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Ethereum
+    badges: []
+  ttwiki:
+    site: ttwiki
+    title: Efirium
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Ethereum
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Ethereum
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 以太坊
+    badges: []

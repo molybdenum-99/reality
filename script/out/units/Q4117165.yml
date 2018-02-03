@@ -1,0 +1,89 @@
+---
+pageid: 3924916
+ns: 0
+title: Q4117165
+lastrevid: 491642187
+modified: '2017-05-28T20:57:19Z'
+type: item
+id: Q4117165
+labels:
+  en:
+    language: en
+    value: St. Gallen frank
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 5b23d842b1a00cf5e8c582b4fe918ce7eb0e225d
+      datavalue:
+        value: "/m/02r2p5t"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q4117165$598B6BEF-0530-4E24-855F-91CDEC8E1456
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4117165$35587551-0D22-4D87-A35E-F8F42BD0154D
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: فرنك سانت غالن
+    badges: []
+  enwiki:
+    site: enwiki
+    title: St. Gallen frank
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Franco de San Galo
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Франк Санкт-Галлена
+    badges: []

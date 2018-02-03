@@ -1,0 +1,101 @@
+---
+pageid: 26886
+ns: 0
+title: Q23502
+lastrevid: 517673858
+modified: '2017-07-11T13:24:58Z'
+type: item
+id: Q23502
+labels:
+  en:
+    language: en
+    value: Magnum
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6e3da81891b6fba54d9ac8088595a4b05e5a5f95
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1302471
+          id: Q1302471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q23502$3F3FE676-9609-44AF-B3C1-B0819236C327
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: d220ff868d053e6257aa9895a2046e250c75ab99
+      datavalue:
+        value: Magnum
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q23502$53144E9A-B90B-49BD-871B-54F650859C59
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: b44b70369af201ab3835feaf69ad08e241f7e924
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 80228
+          id: Q80228
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q23502$5324d916-426b-4eab-641f-8c2ab342c74f
+    rank: normal
+sitelinks:
+  dawiki:
+    site: dawiki
+    title: Magnum (flaske)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Magnum (unit)
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Magnum (bouteille)
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Magnum (bottiglia)
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Magnum (inhoudsmaat)
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Магнум (бутылка)
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Magnum (flaska)
+    badges: []

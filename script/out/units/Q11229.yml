@@ -1,0 +1,603 @@
+---
+pageid: 12719
+ns: 0
+title: Q11229
+lastrevid: 624151342
+modified: '2018-01-28T08:17:22Z'
+type: item
+id: Q11229
+labels:
+  en:
+    language: en
+    value: percentage
+aliases:
+  en:
+  - language: en
+    value: percent
+  - language: en
+    value: Percent
+  - language: en
+    value: "%"
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1a6a6f060b5b794e83e5edd142822cf64c120485
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 27084
+          id: Q27084
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q11229$3abd2df3-4409-fdce-7447-a655d6832c0c
+    rank: normal
+  P913:
+  - mainsnak:
+      snaktype: value
+      property: P913
+      hash: a706c47d3c1c7451da224d272f01bca88a9f62d9
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 7559698
+          id: Q7559698
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q11229$e3f8d867-46aa-802a-295e-667cc72d0de5
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 281be360344f3e0dcc7a20e08d23b380919a4390
+      datavalue:
+        value: "/m/0h6zk"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q11229$7A577FA8-F8A5-4E10-87F1-2984E9735E66
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: ef247bebba9b08a74ea5fe88e09b0c28e298289f
+      datavalue:
+        value: Percentages
+        type: string
+      datatype: string
+    type: statement
+    id: Q11229$99C0B4AF-B528-428D-8BFC-0F2FCF294D79
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P1296:
+  - mainsnak:
+      snaktype: value
+      property: P1296
+      hash: 69b44b2c69b47116f97c62be89ccf4793f2d8fcc
+      datavalue:
+        value: '0130904'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q11229$5DE55C59-CF97-4FEA-898C-074E9655A2FD
+    rank: normal
+  P1181:
+  - mainsnak:
+      snaktype: value
+      property: P1181
+      hash: 854b0ba6973c5ac0d2394d38458fe6747d1ca3d1
+      datavalue:
+        value:
+          amount: "+0.01"
+          unit: '1'
+          upperBound: "+0.01"
+          lowerBound: "+0.01"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q11229$4d0cb505-423b-6093-b807-b7841f29b81f
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: c5b080a28db63b5adb33f8072766863517a79db7
+      datavalue:
+        value: Percent
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q11229$48D8E6E6-5AC1-4F70-932C-FC3C77B058AD
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 0b2e65b16f4cbd91c2c8dfb405319cb84bcd991f
+      datavalue:
+        value: Percentage
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q11229$4C4ABFB0-E7EE-45F3-A5F5-B03E15590C87
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 8351d85f2582e74d78eec4a24c3d811fd45f352f
+      datavalue:
+        value: "%"
+        type: string
+      datatype: string
+    type: statement
+    id: Q11229$50e13b41-4c87-487e-e4b1-78e97212c6ed
+    rank: normal
+  P3827:
+  - mainsnak:
+      snaktype: value
+      property: P3827
+      hash: 8127262b4730c9087639c1df83a3bd77f4498d8d
+      datavalue:
+        value: percentages
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q11229$DFD80B38-33E6-4CF3-BCC7-025290E40E7E
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 5616aad1eaf09efeb027329ebd57225d8dfb0113
+      datavalue:
+        value: Visualisation parts per.svg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q11229$1b2f9a2a-4ee5-ec91-fbb4-0ff4443b1645
+    rank: normal
+  P2581:
+  - mainsnak:
+      snaktype: value
+      property: P2581
+      hash: 712562aa0f39a317637cf063101a3b157eb40be2
+      datavalue:
+        value: 00061135n
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q11229$4AD4B891-2DDC-4B27-BBF6-E216651CC01C
+    rank: normal
+    references:
+    - hash: bd0ee81488cd8c23d4b655e417aac78dca370283
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: a0b4f55dbedbadaf83e7d2461b47b7aeaba86359
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 4837690
+              id: Q4837690
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P2924:
+  - mainsnak:
+      snaktype: value
+      property: P2924
+      hash: d147d473745bfdf6f6b50ee809a433e24d676795
+      datavalue:
+        value: '3170047'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q11229$009E33D2-4859-451A-96B6-7E92BEAD3634
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Persentasie
+    badges: []
+  arwiki:
+    site: arwiki
+    title: نسبة مئوية
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Faiz
+    badges: []
+  bawiki:
+    site: bawiki
+    title: Процент
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Адсотак
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Працэнт
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Процент
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: শতকরা হার
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Postotak
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Percentatge
+    badges: []
+  ckbwiki:
+    site: ckbwiki
+    title: سەدیچن
+    badges: []
+  commonswiki:
+    site: commonswiki
+    title: Category:Percentages
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Procento
+    badges: []
+  cvwiki:
+    site: cvwiki
+    title: Процент
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Procent
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Prozent
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Ποσοστό
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Percentage
+    badges: []
+  enwikibooks:
+    site: enwikibooks
+    title: A Guide to the GRE/Percentages
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Procento
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Porcentaje
+    badges: []
+  eswikibooks:
+    site: eswikibooks
+    title: Porcentaje
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Protsent
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Ehuneko
+    badges: []
+  fawiki:
+    site: fawiki
+    title: درصد
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Prosentti
+    badges: []
+  frrwiki:
+    site: frrwiki
+    title: Prosent
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Pourcentage
+    badges: []
+  frwikiversity:
+    site: frwikiversity
+    title: Pourcentage
+    badges: []
+  ganwiki:
+    site: ganwiki
+    title: 百分率
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Porcentaxe
+    badges: []
+  hewiki:
+    site: hewiki
+    title: אחוז
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: प्रतिशत
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Postotak
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Százalék
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Տոկոս
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Persentase
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Hundraðshluti
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Percentuale
+    badges: []
+  jamwiki:
+    site: jamwiki
+    title: Posentij
+    badges: []
+  jawiki:
+    site: jawiki
+    title: パーセント
+    badges: []
+  jvwiki:
+    site: jvwiki
+    title: Persèn
+    badges: []
+  kawiki:
+    site: kawiki
+    title: პროცენტი
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Пайыз
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 백분율
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Centesima pars
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Procentas
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Procents
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Процент
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: ശതമാനം
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: टक्का
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Peratusan
+    badges: []
+  ndswiki:
+    site: ndswiki
+    title: Prozent
+    badges: []
+  newiki:
+    site: newiki
+    title: प्रतिशत
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Procent
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Prosent
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Prosent
+    badges: []
+  nrmwiki:
+    site: nrmwiki
+    title: "%"
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਫ਼ੀਸਦੀ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Procent
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Porcentagem
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Procent
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Процент
+    badges: []
+  sahwiki:
+    site: sahwiki
+    title: Бырыһыан
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Pircentuali
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Postotak
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Percentage
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Percento
+    badges: []
+  skwikiquote:
+    site: skwikiquote
+    title: Percento
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Odstotek
+    badges: []
+  sowiki:
+    site: sowiki
+    title: Boqolleey
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Проценат
+    badges: []
+  suwiki:
+    site: suwiki
+    title: Perséntase
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Procent
+    badges: []
+  swwiki:
+    site: swwiki
+    title: Asilimia
+    badges: []
+  tawiki:
+    site: tawiki
+    title: விழுக்காடு
+    badges: []
+  tewiki:
+    site: tewiki
+    title: శాతం
+    badges: []
+  thwiki:
+    site: thwiki
+    title: อัตราร้อยละ
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Persentahe
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Відсоток
+    badges: []
+  urwiki:
+    site: urwiki
+    title: فیصد
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Foiz
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Phần trăm
+    badges: []
+  xalwiki:
+    site: xalwiki
+    title: Процент
+    badges: []
+  yiwiki:
+    site: yiwiki
+    title: פראצענט
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Pah-hun-pí
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 巴仙
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 百分比
+    badges: []

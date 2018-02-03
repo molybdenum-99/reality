@@ -1,0 +1,93 @@
+---
+pageid: 1090736
+ns: 0
+title: Q1144098
+lastrevid: 491631224
+modified: '2017-05-28T20:32:55Z'
+type: item
+id: Q1144098
+labels:
+  en:
+    language: en
+    value: Berne frank
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 845db55c647411c38099d51f69c814f7f09864a0
+      datavalue:
+        value: "/m/02r0vzr"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1144098$19A8CF2F-B475-4304-9560-55DA589C61C2
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1144098$E65FEC9F-8E60-4F0D-B8D2-AA8B0F2AFA0D
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: فرنك برن
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Berne frank
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Franco de Berna
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Franco di Berna
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Бернский франк
+    badges: []

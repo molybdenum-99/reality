@@ -1,0 +1,341 @@
+---
+pageid: 5539
+ns: 0
+title: Q4595
+lastrevid: 618823851
+modified: '2018-01-11T12:48:03Z'
+type: item
+id: Q4595
+labels:
+  en:
+    language: en
+    value: Seychellois rupee
+aliases:
+  en:
+  - language: en
+    value: Seychelles Rupee
+  - language: en
+    value: SRe
+  - language: en
+    value: Rupee
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 5830115401ccb0b893cdb7996eab52dd93dd8886
+      datavalue:
+        value: Money of the Seychelles
+        type: string
+      datatype: string
+    type: statement
+    id: q4595$88ED27A9-1432-4B16-9FB3-1D941863D8F1
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q4595$70D9E8BC-C252-4D91-AB44-159D3751777F
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: a0905e3d0546ea8110e12f010cf268f3fc2b0a64
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 4504280
+          id: Q4504280
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q4595$8CA30958-C934-4A8B-99F6-C094B93FE3FF
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: ebca3b64b09102aa8d7f470d3bebe566ef15001f
+      datavalue:
+        value: "/m/01lvjz"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q4595$CDB0AD76-51A1-41E2-8168-59245B134C2C
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 5deaf7b3d038afcea11c4e9a3250ea72bd3b43cd
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1042
+          id: Q1042
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4595$70c03e40-475b-790b-0afb-e7db9a0a646f
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 71b77bcf307ee36400f512ea73dc86ef9f8f9ba9
+      datavalue:
+        value: SCR
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q4595$6078df52-476f-d2db-c326-b6308e99a9c5
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: 7a01cd7a81ef0593e1cc09e854fc075ca12c72b0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 178843
+          id: Q178843
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4595$32f3a2da-4c4e-7abe-9329-da470a605bd8
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: f40b0e7e1c241e921d48b22d76e54c79354b26e6
+      datavalue:
+        value: '500242'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q4595$80B8859B-C1EC-4406-AC82-B54BD8347F29
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: روبية سيشلية
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Seyşel rupisi
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Сэйшэльская рупія
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Сейшэльская рупія
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Сейшелска рупия
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: সেইশেলিয়জ রূপি
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Rupia de les Seychelles
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Seychelská rupie
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Seychelliske rupee
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Seychellen-Rupie
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Ρουπία Σεϋχελλών
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Seychellois rupee
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Sejŝela rupio
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Rupia seychelense
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Seišelli ruupia
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Errupia seychelletar
+    badges: []
+  fawiki:
+    site: fawiki
+    title: روپیه سیشل
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Seychellien rupia
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Roupie seychelloise
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Sejšelska rupija
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Seychelle-i rúpia
+    badges: []
+  iowiki:
+    site: iowiki
+    title: Rupio di Seycheli
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Rupia delle Seychelles
+    badges: []
+  jawiki:
+    site: jawiki
+    title: セーシェル・ルピー
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 세이셸 루피
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Seišelių rupija
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: सेशेल्स रुपया
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Seychelse roepie
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Seychellisk rupi
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Rupia seszelska
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Rupia das Seicheles
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Сейшельская рупия
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Sejšelska rupija
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Сејшелска рупија
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Seychellisk rupie
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Рупии Сейшал
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Seyşeller rupisi
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Сейшельська рупія
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Rupee Ṣèíhẹ́lẹ́sì
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Seychelles rupee
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 塞席爾盧比
+    badges: []

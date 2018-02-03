@@ -1,0 +1,160 @@
+---
+pageid: 31950604
+ns: 0
+title: Q30338391
+lastrevid: 516585118
+modified: '2017-07-09T03:16:35Z'
+type: item
+id: Q30338391
+labels:
+  en:
+    language: en
+    value: second to the power minus one
+aliases:
+  en:
+  - language: en
+    value: s⁻¹
+  - language: en
+    value: s^-1
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q30338391$16d97cc1-4fd7-e45b-9e6e-7622ff55fee1
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 50afdc16346d8687f53963f614e8d645419488a0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 208469
+          id: Q208469
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q30338391$fd8b2626-4293-c998-ffc4-3d88c7a7677c
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 13b5cc40a5c322cae336f35b5633a750c0570563
+      datavalue:
+        value: s⁻¹
+        type: string
+      datatype: string
+    type: statement
+    id: Q30338391$7ca2dcb1-4768-5ee9-c8d0-87b7cafecb18
+    rank: normal
+    references:
+    - hash: d956d8b7618acf8532f750eda92e72ade2bac80e
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: ea6b21f92558c4bea2b49a296e781886eefa4f16
+          datavalue:
+            value: 3-15.b
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+    - hash: a15cfadf7636216dfe1e65b6adb3714433c628d3
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: 9667a8099277dde91387c333cb7e437a428968ad
+          datavalue:
+            value: 3-16.b
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+    - hash: 3711a968442ad5851ae29234f36292cd65a258fc
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: aec1e42a33cab95da9ffcbbdd20cd28555f0dcdb
+          datavalue:
+            value: 3-23.a
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: '095b22e5c47a47f7d5e84e00899837038be11bd4'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 26711932
+          id: Q26711932
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P958:
+      - snaktype: value
+        property: P958
+        hash: ea6b21f92558c4bea2b49a296e781886eefa4f16
+        datavalue:
+          value: 3-15.b
+          type: string
+        datatype: string
+    qualifiers-order:
+    - P958
+    id: Q30338391$356f5675-4e08-699b-ee48-d6c7aae6e464
+    rank: normal
+sitelinks: {}

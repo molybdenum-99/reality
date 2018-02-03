@@ -1,0 +1,94 @@
+---
+pageid: 31549134
+ns: 0
+title: Q29924639
+lastrevid: 616469259
+modified: '2018-01-04T09:29:39Z'
+type: item
+id: Q29924639
+labels:
+  en:
+    language: en
+    value: kilo-volt-ampere
+aliases:
+  en:
+  - language: en
+    value: kVA
+  - language: en
+    value: kilo volt ampere
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 116ccff192c7c9c7ac8717e13172125bb454be6b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10387689
+          id: Q10387689
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q29924639$327f5f89-4c20-3da2-108b-8eba6efada66
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 99a39d9c43239d2e7c6e5d7098d51389c1e44e02
+      datavalue:
+        value:
+          amount: "+1000"
+          unit: http://www.wikidata.org/entity/Q25236
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q29924639$caf4c384-482b-98a3-4de1-c10126453715
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: b56a1a57130334d68fbaf06b4f92300229c8e4b1
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1930258
+          id: Q1930258
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q29924639$5c0c5fa6-47e0-dc81-8f36-8911763a7bcb
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: de92872df6c8158e914cb95dae09cde85f23ec14
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 27137
+          id: Q27137
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q29924639$28db85d2-4b15-721c-0eff-451c73f06aac
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 1678c7a8d55491956fff1fba52a7df059bbbfa06
+      datavalue:
+        value: kVA
+        type: string
+      datatype: string
+    type: statement
+    id: Q29924639$61573df1-4472-6382-2d8b-be1738388280
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Kilovoltampere
+    badges: []

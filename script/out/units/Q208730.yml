@@ -1,0 +1,480 @@
+---
+pageid: 204689
+ns: 0
+title: Q208730
+lastrevid: 619836926
+modified: '2018-01-13T17:15:33Z'
+type: item
+id: Q208730
+labels:
+  en:
+    language: en
+    value: Austrian schilling
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q208730$9653210c-4037-12ed-e7c4-328aace93160
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 665fc8b3c012d38d172a1db21f84b31c78eed96a
+      datavalue:
+        value: Coins of Austria
+        type: string
+      datatype: string
+    type: statement
+    id: q208730$18E7666A-AB14-4208-B083-85C17EB0D264
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 38a2dd4e8468dc34f3da647d9c236a6ab2383c49
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 670723
+          id: Q670723
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q208730$CB641489-9F27-443B-BA6A-0C44DCD6EFD1
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: be89918ce86915cced1e8b3503098aadd7e601d9
+      datavalue:
+        value: "/m/019sht"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q208730$0ED06EF6-347C-4B64-B9BC-6226A0D5B8A0
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: ccf8f871ebe392004c66ed37b78dd30d341cc949
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 40
+          id: Q40
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P580:
+      - snaktype: value
+        property: P580
+        hash: 71c73fb4284072d0dc17ae74a4d0b3d242eb6c0d
+        datavalue:
+          value:
+            time: "+1945-11-30T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      P582:
+      - snaktype: value
+        property: P582
+        hash: df10ff4a444566cc8c7883a049e2a0d6f67155c5
+        datavalue:
+          value:
+            time: "+2002-02-28T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P580
+    - P582
+    id: Q208730$D108417A-CB60-4DF4-810D-63A9D458005B
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: e90b86738eddd8e51a364202c3eee416c1638ad2
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 518101
+          id: Q518101
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P580:
+      - snaktype: value
+        property: P580
+        hash: 204ea3e476a288ca74ab8601c750306428e86215
+        datavalue:
+          value:
+            time: "+1924-12-20T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      P582:
+      - snaktype: value
+        property: P582
+        hash: d891ce40f69966c67d51064ede7b543c5790cdf5
+        datavalue:
+          value:
+            time: "+1938-03-17T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P580
+    - P582
+    id: Q208730$12fdbaaa-45bf-af7e-4fd9-1aaad6c0e4b5
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 81b94076291b7b208ec4ddb1d1c3dfd1dbc6411b
+      datavalue:
+        value: ATS
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q208730$fd43c963-40a2-ee47-fcb9-5388a4ff54e9
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: c8377d5ebff784fe104d5f873d3954049595944c
+      datavalue:
+        value: 10 Schilling Lipizzaner obverse.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    qualifiers:
+      P2096:
+      - snaktype: value
+        property: P2096
+        hash: be021a34a3e253443398a45f25001144609c7bb3
+        datavalue:
+          value:
+            text: Bitllet de 10 xílings del 1950
+            language: ca
+          type: monolingualtext
+        datatype: monolingualtext
+    qualifiers-order:
+    - P2096
+    id: Q208730$1357e7d2-48ab-0bee-ae93-8cf9c2d7dee3
+    rank: normal
+  P571:
+  - mainsnak:
+      snaktype: value
+      property: P571
+      hash: 5d50bfe102a6ab2052d1f5ccc0d3330c8b655770
+      datavalue:
+        value:
+          time: "+1925-03-01T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 11
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q208730$519c0514-46c0-f51f-430c-336e51d7e798
+    rank: normal
+  P582:
+  - mainsnak:
+      snaktype: value
+      property: P582
+      hash: 71ac4288e59dea43948a499a79271f2e4524cf6d
+      datavalue:
+        value:
+          time: "+2002-02-12T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 11
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q208730$cdc156e9-4635-8a28-1222-3c8de3d8185b
+    rank: normal
+  P1365:
+  - mainsnak:
+      snaktype: value
+      property: P1365
+      hash: e2cda3ebfb8f6cc0620dccaf749f32a4f40ce1ff
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 303713
+          id: Q303713
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q208730$3b8f3c46-44cc-c121-aca3-be3a8370b490
+    rank: normal
+  P1366:
+  - mainsnak:
+      snaktype: value
+      property: P1366
+      hash: 2c75bfaf4e3db000df3888eef763865c5c85478b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 4916
+          id: Q4916
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q208730$23ef3854-4eec-be3f-17d9-552b3b2c237d
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 29261333d644b45caa7a4559bb02180cad0e974b
+      datavalue:
+        value: '500511'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q208730$1C184BB3-8283-43EE-BC78-361137814947
+    rank: normal
+sitelinks:
+  barwiki:
+    site: barwiki
+    title: Österreichischa Schilling
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Австрийски шилинг
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Austrijski šiling
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Xíling austríac
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Rakouský šilink
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Schilling
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Österreichischer Schilling
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Αυστριακό Σελίνι
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Austrian schilling
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Aŭstra ŝilingo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Chelín austriaco
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Austria šilling
+    badges: []
+  fawiki:
+    site: fawiki
+    title: شیلینگ اتریش
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Itävallan šillinki
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Schilling autrichien
+    badges: []
+  hewiki:
+    site: hewiki
+    title: שילינג אוסטרי
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Austrijski šiling
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Osztrák schilling
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Ավստրիական շիլլինգ
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Schilling Austria
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Austurrískur skildingur
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Scellino austriaco
+    badges: []
+  jawiki:
+    site: jawiki
+    title: オーストリア・シリング
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 오스트리아 실링
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Austrijos šilingas
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Oostenrijkse schilling
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Austerriksk schilling
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Østerriksk schilling
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Szyling austriacki
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Xelim austríaco
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Șiling austriac
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Австрийский шиллинг
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Rakúsky šiling
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Аустријски шилинг
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Österrikisk schilling
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Avusturya şilini
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Австрійський шилінг
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Ò-tē-lī schilling
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 奧地利先令
+    badges: []

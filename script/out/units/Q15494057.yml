@@ -1,0 +1,115 @@
+---
+pageid: 17136703
+ns: 0
+title: Q15494057
+lastrevid: 620464927
+modified: '2018-01-15T03:15:56Z'
+type: item
+id: Q15494057
+labels:
+  en:
+    language: en
+    value: Mastercoin
+aliases:
+  en:
+  - language: en
+    value: Omni
+claims:
+  P856:
+  - mainsnak:
+      snaktype: value
+      property: P856
+      hash: b930e181e4643f3bcd0de34d80b2f707387c8821
+      datavalue:
+        value: http://mastercoin.org/
+        type: string
+      datatype: url
+    type: statement
+    id: Q15494057$7e2310db-4f3c-f8d1-34b6-8d9e062bbadd
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 108498abe70a9492000b3bd172031bd75d3ae4e9
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 7397
+          id: Q7397
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q15494057$22A4780C-F512-43D1-BAC2-DFFDAF8F38D1
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 16ab8cfff2957341998c927ff03e50befb65a864
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 13479982
+          id: Q13479982
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q15494057$6a347e17-443d-97ab-47e3-93638d451e2e
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 1e60a28740d4e0cb1db4eb6324d7f256ea4a1eff
+      datavalue:
+        value: Mastercoin
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q15494057$347B6CB5-3F25-41FA-BFA1-10AF4061F2A0
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  elwiki:
+    site: elwiki
+    title: Mastercoin
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Omni Layer
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Mastercoin
+    badges: []
+  jawiki:
+    site: jawiki
+    title: マスターコイン
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Mastercoin
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Omni (Mastercoin)
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 万事达币
+    badges: []

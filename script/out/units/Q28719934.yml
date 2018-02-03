@@ -1,0 +1,202 @@
+---
+pageid: 30379464
+ns: 0
+title: Q28719934
+lastrevid: 624572426
+modified: '2018-01-29T20:26:29Z'
+type: item
+id: Q28719934
+labels:
+  en:
+    language: en
+    value: kiloelectronvolt
+aliases:
+  en:
+  - language: en
+    value: keV
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 06df6efe68f6e25b0d602229267e4d3e9ccc3d64
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2916980
+          id: Q2916980
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q28719934$ff142870-4dc0-766a-ddd2-e29a15e91646
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 954edbd3fef27ce6396c0878a95c608ca4ed84af
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3647172
+          id: Q3647172
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P101:
+      - snaktype: value
+        property: P101
+        hash: b629402775f0e1e70b1e283c54d929de77b33439
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 18334
+            id: Q18334
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P101
+    id: Q28719934$10eefa7d-401c-5285-a3af-205f125cf34e
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 03ae458a1bcbf771639d4ede7e03478c940db970
+      datavalue:
+        value:
+          amount: "+0.00000000000000016022"
+          unit: http://www.wikidata.org/entity/Q25269
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q28719934$e89fc38f-46f1-614d-a5e6-f132f2d17bd3
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 188a001c28096acb1bc719b1760d339b6c4566a6
+      datavalue:
+        value: keV
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q28719934$c0a9cda6-4b9c-429a-32b0-07438321acf0
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: c09cca86303f63b576f7c4e4e28048f73e50f20f
+      datavalue:
+        value: кэВ
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q28719934$5f282074-4e4b-9ec4-abbe-b857729f6efe
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 39d96dd65bdf760362cc127011557492fc22f37a
+      datavalue:
+        value: кеВ
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P407:
+      - snaktype: value
+        property: P407
+        hash: 44a3ac8edb091f4814a4db3d0324920996d33892
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8798
+            id: Q8798
+          type: wikibase-entityid
+        datatype: wikibase-item
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P407
+    - P282
+    id: Q28719934$33ae13d8-4de5-5e00-d9af-c47e974ac5be
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 42bcf191261ed1f70c528aa4bd977b7fbf9f969b
+      datavalue:
+        value: KiloElectronVolt
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q28719934$aab686ab-4bab-8a3a-e1a0-1f9e77c2fd5b
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 5b269bad7af06919ac1dc95ed3a91a505d2e1b1a
+      datavalue:
+        value: kiloelectronvolt
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q28719934$a2f5a210-4631-6165-912d-23fdfb73c5fd
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 7ad0f8fc8c23eb3ede324fc816121895c19109c6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11379
+          id: Q11379
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q28719934$99F037DA-CD32-4946-9826-E01985AB1349
+    rank: normal
+sitelinks: {}

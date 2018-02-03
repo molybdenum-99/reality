@@ -1,0 +1,352 @@
+---
+pageid: 707658
+ns: 0
+title: Q752079
+lastrevid: 625511305
+modified: '2018-02-01T14:19:45Z'
+type: item
+id: Q752079
+labels:
+  en:
+    language: en
+    value: gross register ton
+aliases:
+  en:
+  - language: en
+    value: GRT
+  - language: en
+    value: gross tons
+  - language: en
+    value: tons
+  - language: en
+    value: gross register tonnage
+  - language: en
+    value: gross register tons
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: df06af5eb6c2669622ede1acbe402c4b93485c95
+      datavalue:
+        value: "/m/03w95vt"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q752079$A48F00CE-A629-4F5E-930C-D551BA0D821A
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6e3da81891b6fba54d9ac8088595a4b05e5a5f95
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1302471
+          id: Q1302471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q752079$5C8A5A22-6541-481B-AE0E-D91BB3666843
+    rank: normal
+    references:
+    - hash: 3bf39867b037e8e494a8389ae8a03bad6825a7fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 5946b91c53409c48f5f1fb0319ed41fc67a764da
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 191168
+              id: Q191168
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P1813:
+  - mainsnak:
+      snaktype: value
+      property: P1813
+      hash: d3702ef5a93fc9f5bbbb98135e2010529b674b9e
+      datavalue:
+        value:
+          text: TJB
+          language: fr
+        type: monolingualtext
+      datatype: monolingualtext
+    type: statement
+    id: Q752079$10926ab7-4701-9d48-4a26-bfb79dbeee0c
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P1813
+      hash: edf5e3490bbf89b1b010e583aa98740d85b9962b
+      datavalue:
+        value:
+          text: GRT
+          language: en
+        type: monolingualtext
+      datatype: monolingualtext
+    type: statement
+    id: Q752079$24bd7ad4-461b-3da0-c39f-32349fe53dfd
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P1813
+      hash: 2969d3e5bd602d46dc25e1a3f5b8478b1cea557f
+      datavalue:
+        value:
+          text: BRT
+          language: de
+        type: monolingualtext
+      datatype: monolingualtext
+    type: statement
+    id: Q752079$ae9a5aba-4a91-75fa-87d4-44b0a3ba2fe9
+    rank: normal
+    references:
+    - hash: 9a24f7c0208b05d6be97077d855671d1dfdbc0dd
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: d38375ffe6fe142663ff55cd783aa4df4301d83d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 48183
+              id: Q48183
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  - mainsnak:
+      snaktype: value
+      property: P1813
+      hash: ac1db5c8c5bbc64fcefb0793bab0de092b005f1f
+      datavalue:
+        value:
+          text: NRT
+          language: de
+        type: monolingualtext
+      datatype: monolingualtext
+    type: statement
+    id: Q752079$b3fc1bae-4233-73b3-12e2-3f5a71fdd5db
+    rank: normal
+    references:
+    - hash: 9a24f7c0208b05d6be97077d855671d1dfdbc0dd
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: d38375ffe6fe142663ff55cd783aa4df4301d83d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 48183
+              id: Q48183
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: dd14ba129a591dd8775137d3ad6616c5b49544fc
+      datavalue:
+        value:
+          amount: "+100"
+          unit: http://www.wikidata.org/entity/Q1545979
+          upperBound: "+100"
+          lowerBound: "+100"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q752079$099c79c7-4c0c-f9e8-5a9c-51a2d380118a
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: cd074dd3e70c174eacc94f2afa87d8c8a2369f73
+      datavalue:
+        value:
+          amount: "+2.83"
+          unit: http://www.wikidata.org/entity/Q25517
+          upperBound: "+2.83"
+          lowerBound: "+2.83"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q752079$63af76cb-4b1a-75ae-f053-bd192a76e7f1
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: ece6f6e6968e83ab4ea375829a8c5694d93dff51
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 39297
+          id: Q39297
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q752079$4DFD2ED4-547D-4807-BA88-B30734F58BC8
+    rank: normal
+sitelinks:
+  bgwiki:
+    site: bgwiki
+    title: Регистров тон
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Brutto registrovaná tuna
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Registerton
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Registertonne
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Κόρος
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Gross register tonnage
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Arqueo
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Registertonn
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Rekisteritonni
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Tonneau (unité)
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Registarska tona
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Regisztertonna
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Tonase bruto terdaftar
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Tonnellata di stazza
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 総登録トン数
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Corus
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Bruto registro tona
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Tanan berdaftar kasar
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Registerton
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Registertonn
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Registertonn
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Tona rejestrowa
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Tonelagem de arqueação bruta
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Регистровая тонна
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Brutto registrovaná tona
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Registrska tona
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Registerton
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Sicile kayıtlı gros tonaj
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Реєстрова тонна
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 容積總噸
+    badges: []

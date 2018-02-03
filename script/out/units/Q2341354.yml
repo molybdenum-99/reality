@@ -1,0 +1,126 @@
+---
+pageid: 2261992
+ns: 0
+title: Q2341354
+lastrevid: 618456784
+modified: '2018-01-10T11:15:47Z'
+type: item
+id: Q2341354
+labels:
+  en:
+    language: en
+    value: Burmese rupee
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: d6612477f5eb6af8184bbe53d0df26f3f7a98550
+      datavalue:
+        value: "/m/0948d5"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2341354$6E99DFC4-DE9A-4D22-80B0-D69D274A58BA
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2341354$2B664279-FAF6-4948-B0E8-6C64CCB7DBBF
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: b4cb97212c4943f79ae73de3c08c097ab5492433
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 178843
+          id: Q178843
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2341354$cbb4180e-463c-7269-1d5b-f9b5b0e46b17
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: c22b48524439e135d58a7907ec741a65e30d1a9d
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 836
+          id: Q836
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2341354$e70905a3-40cf-10ea-7bcd-e0c9c0fc6719
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Burmese rupee
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Rupia birmana
+    badges: []
+  fawiki:
+    site: fawiki
+    title: روپیه برمه
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Rupee Myanmar
+    badges: []
+  mywiki:
+    site: mywiki
+    title: မြန်မာရူပီးငွေ
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Бирманская рупия
+    badges: []

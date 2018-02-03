@@ -1,0 +1,141 @@
+---
+pageid: 1483647
+ns: 0
+title: Q1547176
+lastrevid: 492844511
+modified: '2017-05-31T13:15:07Z'
+type: item
+id: Q1547176
+labels:
+  en:
+    language: en
+    value: Groat
+aliases: {}
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 79ffe05cd111988061fde906542b0ab7acc34130
+      datavalue:
+        value: Groat
+        type: string
+      datatype: string
+    type: statement
+    id: q1547176$682B39C0-833E-493B-B25C-FC2C320608D1
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 4689f1f168427a575e14b70bbca869bbf4072ba9
+      datavalue:
+        value: "/m/01rfj8"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1547176$414D39F9-8A0E-4F27-8930-9A38ACB91AA3
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1547176$6358DFA8-1248-4150-B21A-5BEB87BD25E5
+    rank: normal
+  P1014:
+  - mainsnak:
+      snaktype: value
+      property: P1014
+      hash: bbad79448cc4dbd68d59f3f24e04aee83228aa86
+      datavalue:
+        value: '300193283'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1547176$9DD976CE-E8CD-479E-974C-B962EE51383C
+    rank: normal
+sitelinks:
+  bewiki:
+    site: bewiki
+    title: Гроўт
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Groat
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Groat (coin)
+    badges: []
+  gdwiki:
+    site: gdwiki
+    title: Gròt
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Groat
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Groat
+    badges: []
+  jawiki:
+    site: jawiki
+    title: グロート
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Groutas
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Гроут
+    badges: []
+  sahwiki:
+    site: sahwiki
+    title: Гроут
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Гроут
+    badges: []

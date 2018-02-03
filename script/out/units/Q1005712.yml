@@ -1,0 +1,118 @@
+---
+pageid: 955179
+ns: 0
+title: Q1005712
+lastrevid: 571230453
+modified: '2017-10-02T11:05:08Z'
+type: item
+id: Q1005712
+labels:
+  en:
+    language: en
+    value: actions per minute
+aliases:
+  en:
+  - language: en
+    value: APM
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 23a7e9dd52870d50d2f01d5ab9ca756dfa467e6e
+      datavalue:
+        value: "/m/05_ktf"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1005712$DA2C40F6-F66F-4224-8019-C4F56F8959CC
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1688184d930a605cf5818c9f3950a6e8f6dac92b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 21162604
+          id: Q21162604
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1005712$5ea07d74-4b9e-40c3-58ed-15a710399473
+    rank: normal
+  P2144:
+  - mainsnak:
+      snaktype: value
+      property: P2144
+      hash: 2077790bea8680cbcb7349e6d2205680f24742d6
+      datavalue:
+        value:
+          amount: "+0.0166666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666667"
+          unit: http://www.wikidata.org/entity/Q39369
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1005712$c566e542-4c4a-3c1e-3eff-dc1c4d5ca216
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Actions per minute
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Action par minute
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Actions per minute
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Veiksmai per minutę
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Ações por minuto
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Chỉ số APM
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 每分钟操作数
+    badges: []

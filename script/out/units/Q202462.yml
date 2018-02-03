@@ -1,0 +1,346 @@
+---
+pageid: 199037
+ns: 0
+title: Q202462
+lastrevid: 617888328
+modified: '2018-01-08T22:58:37Z'
+type: item
+id: Q202462
+labels:
+  en:
+    language: en
+    value: Namibian dollar
+aliases:
+  en:
+  - language: en
+    value: NAD
+  - language: en
+    value: N$
+  - language: en
+    value: "$"
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q202462$225C72FD-2A8D-4F88-AB8A-0485CA1B9E9B
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 981dc62680b7001d97a2cd9611777949b5309b8f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 806684
+          id: Q806684
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q202462$D74F1C98-2ED9-4158-8FC0-94D6FDF214F0
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 27e51af1e38d789f02b930b7aebbe3f544449d1f
+      datavalue:
+        value: "/m/01y8jz"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q202462$A61E372A-0DF0-4612-BE0A-5F253979F0C5
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 44bbe20f19fc1cd480ad9d960eedad5830b3a041
+      datavalue:
+        value: Money of Namibia
+        type: string
+      datatype: string
+    type: statement
+    id: Q202462$7CA8B31C-4A24-4DD4-AA85-5B8D5384A00C
+    rank: normal
+    references:
+    - hash: b3fd5e254143d8b52cd96cff43af9af5e3a82358
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: f13c99a16441677ec69fcea23f221d866f1fc98f
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 199693
+              id: Q199693
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 630fca0e41b6e68f8548e4e0259b95867e78b2b3
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1030
+          id: Q1030
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q202462$bba78d09-423b-8e2e-ab64-d4886f51dff3
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: ffe8e3a97e1ab3f35d2592805383a09790734805
+      datavalue:
+        value: NAD
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q202462$d65b7ee4-48c2-5689-effd-31fd5ec72857
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: d41ef2b0b4f5eb21814ea10cb9ba59dd6be3d16e
+      datavalue:
+        value: '500219'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q202462$8672D551-3330-4E30-91F3-F5DF419A6474
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Namibiese dollar
+    badges: []
+  arwiki:
+    site: arwiki
+    title: دولار ناميبي
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Намібійскі даляр
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Долар Намібіі
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Намибийски долар
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: নামিবিয়ান ডলার
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Dòlar namibià
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Namibijský dolar
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Namibisk dollar
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Namibia-Dollar
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Namibian dollar
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Namibia dolaro
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Dólar namibio
+    badges: []
+  fawiki:
+    site: fawiki
+    title: دلار نامیبیا
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Namibian dollari
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Dollar namibien
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Dólar namibio
+    badges: []
+  hewiki:
+    site: hewiki
+    title: דולר נמיבי
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Namibijski dolar
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Namíbiai dollár
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Dolar Namibia
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Dollaro namibiano
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ナミビア・ドル
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 나미비아 달러
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Namibijos doleris
+    badges: []
+  mnwiki:
+    site: mnwiki
+    title: Намиби доллар
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: नामिबियन डॉलर
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Namibische dollar
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Namibisk dollar
+    badges: []
+  nsowiki:
+    site: nsowiki
+    title: Namibian dollar
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Dolar namibian
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Dolar namibijski
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Dólar da Namíbia
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Доллар Намибии
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Намибијски долар
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Namibisk dollar
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Доллари Намибия
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Namibya doları
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Намібійський долар
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Dọ́là Nàmíbíà
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Namibia dollar
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 納米比亞元
+    badges: []

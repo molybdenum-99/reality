@@ -1,0 +1,219 @@
+---
+pageid: 312056
+ns: 0
+title: Q324923
+lastrevid: 603929042
+modified: '2017-12-05T08:29:49Z'
+type: item
+id: Q324923
+labels:
+  en:
+    language: en
+    value: ban
+aliases:
+  en:
+  - language: en
+    value: hartley
+  - language: en
+    value: dit
+  - language: en
+    value: Hart
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 9a4514d740c3ca4a7608129e6d8d7f4edd92c285
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 17342348
+          id: Q17342348
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q324923$39e2b211-4fe6-993e-1356-27b3acdff5b4
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 2d6ead580ca479cd38b25f8d8c677f1c03ad7473
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3550873
+          id: Q3550873
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q324923$ad61eeb6-4d6b-b4c5-9b22-81f5572c662a
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: bd7e3c29db128905cee82ba9ea9d93abbd0427d3
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 735075
+          id: Q735075
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q324923$38e64ae6-4a5f-8aa5-cbab-1b187ca3a432
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 8b6ade5cd819646e5ee53506b4cb7542c32ad04c
+      datavalue:
+        value: "/m/08pfb9"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q324923$FADAFDAA-F9E2-462D-BEEE-A5538874E4FD
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: ac30e85afa9754e7ce75f494acc488ec2949b015
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 529886
+          id: Q529886
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q324923$08996EA3-1831-4D67-B1E4-3663230CE327
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 6e9d31211fd688f1d2b5c8aa1d42ae447128e4a3
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 16203461
+          id: Q16203461
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q324923$3065377F-F753-4722-BEDF-34C1539AD4A8
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: a5693011ac71c9630e5ce4419de85c03024c7340
+      datavalue:
+        value: Hart
+        type: string
+      datatype: string
+    type: statement
+    id: Q324923$EF595553-7867-4B60-814A-7B21FAF1D090
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: de29ea2cdd9a679faee3030deabc276f36e9df8d
+      datavalue:
+        value: Ban
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q324923$9131ea2c-4e4c-e931-3890-568a83f3ddab
+    rank: normal
+  P2581:
+  - mainsnak:
+      snaktype: value
+      property: P2581
+      hash: d504dd69cf5ce2b30fb6dc14b5db5b7011c78cf6
+      datavalue:
+        value: 17133602n
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q324923$8775956B-5E0E-43E7-9D3A-786BCA1186D1
+    rank: normal
+    references:
+    - hash: bd0ee81488cd8c23d4b655e417aac78dca370283
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: a0b4f55dbedbadaf83e7d2461b47b7aeaba86359
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 4837690
+              id: Q4837690
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Ban (Einheit)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Hartley (unit)
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Hartley
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ハートレー (単位)
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 밴 (컴퓨팅)
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Ban (informacja)
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Гартлі (одиниця вимірювання)
+    badges: []

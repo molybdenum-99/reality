@@ -1,0 +1,323 @@
+---
+pageid: 734242
+ns: 0
+title: Q781218
+lastrevid: 617968850
+modified: '2018-01-09T08:59:32Z'
+type: item
+id: Q781218
+labels:
+  en:
+    language: en
+    value: Argentine austral
+aliases: {}
+claims:
+  P582:
+  - mainsnak:
+      snaktype: value
+      property: P582
+      hash: 19ced91f324c23ee68d71cf3b5d6cc30486f4147
+      datavalue:
+        value:
+          time: "+1991-12-31T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 11
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q781218$0fb3b9a9-4802-94c2-f158-552cc32b16ec
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: d06759986db6ed52e2f976b2051127431e51a8be
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 414
+          id: Q414
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q781218$355DE909-20DC-4740-9634-09F8D9E5787C
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q781218$aa51ffd2-46df-f318-04d2-51a0ad17e72e
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 809c1c20366b022ce8a445ab34c5215d66826c0c
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 642444
+          id: Q642444
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q781218$487F83B8-B1A4-4055-B261-CE729E7656EA
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: efdfa085860603e72a3268592f4b879e993a5f99
+      datavalue:
+        value: "/m/08t230"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q781218$D3FC86D4-8828-4F34-AF3A-98F9012A1318
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P580:
+  - mainsnak:
+      snaktype: value
+      property: P580
+      hash: bdc80b38813384af0048ad45c091f2eae120b646
+      datavalue:
+        value:
+          time: "+1985-06-15T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 11
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q781218$73bf8a80-4a69-f125-8127-2319fe7c5440
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: ef82280623360d7c8508a0913156deaea8aa8c19
+      datavalue:
+        value: ARA
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q781218$39bdfa6d-4c66-9f42-a7cc-cd240c8d269d
+    rank: normal
+    references:
+    - hash: d02474982183c95f6e6732c36db4bf853cc5ff63
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: d7dc0a32d0346cbed1a4676273759373facdd97c
+          datavalue:
+            value: http://www.currency-iso.org/en/home/tables/table-a3.html
+            type: string
+          datatype: url
+      snaks-order:
+      - P854
+  P227:
+  - mainsnak:
+      snaktype: value
+      property: P227
+      hash: 3e58c09904458673f99be996ee8d048b0fb9e47b
+      datavalue:
+        value: 4251465-4
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q781218$55FDDCDA-651F-44B8-AD94-E47BBC1FD313
+    rank: normal
+    references:
+    - hash: 9a24f7c0208b05d6be97077d855671d1dfdbc0dd
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: d38375ffe6fe142663ff55cd783aa4df4301d83d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 48183
+              id: Q48183
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 7f5baeca7b4374eea6569c6f742e79c4249cf6df
+      datavalue:
+        value: Argentine austral
+        type: string
+      datatype: string
+    type: statement
+    id: Q781218$ADF3CC93-2C48-4936-98B9-972DAE7A7ECC
+    rank: normal
+  P1889:
+  - mainsnak:
+      snaktype: value
+      property: P1889
+      hash: 1877cb36c56ac769602e26501596f0333c2270c4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 403748
+          id: Q403748
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q781218$4f1f53f7-4e57-278e-d8e1-fea6b338520a
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: eb2987b4aa399518bba057bac592061207f2311a
+      datavalue:
+        value: '500507'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q781218$662540D3-D654-4ACF-91CC-C6528E59C13F
+    rank: normal
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Austral (moneda)
+    badges: []
+  commonswiki:
+    site: commonswiki
+    title: Category:Argentine austral
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Austral (Währung)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Argentine austral
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Aŭstralo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Austral (moneda)
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Austral argentinar
+    badges: []
+  fawiki:
+    site: fawiki
+    title: آئوسترال
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Austral (monnaie)
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Austral argentino
+    badges: []
+  jawiki:
+    site: jawiki
+    title: アウストラル
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 아르헨티나 아우스트랄
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Argentinos australis
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Austral
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Austral
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Austral (moeda)
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Аустраль
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Аустраль
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 阿根廷奧斯特拉爾
+    badges: []

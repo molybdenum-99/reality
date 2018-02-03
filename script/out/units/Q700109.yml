@@ -1,0 +1,184 @@
+---
+pageid: 658833
+ns: 0
+title: Q700109
+lastrevid: 621476797
+modified: '2018-01-18T11:46:35Z'
+type: item
+id: Q700109
+labels:
+  en:
+    language: en
+    value: Danzig gulden
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 67ef1737b03d15fdda5e32a01251618d7791bed2
+      datavalue:
+        value: "/m/097n1w"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q700109$0FB75C3B-52D8-420C-8099-7772E792FF81
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q700109$8574E1BB-464C-4576-83DE-117FFFA670F5
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 346fadb2273e686c75a982f4e55f6759a6369d55
+      datavalue:
+        value: Money of the Free City of Danzig
+        type: string
+      datatype: string
+    type: statement
+    id: Q700109$AD8D6A95-52EE-410F-B2CB-8E968121BA23
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: b39192b6d916d11e63c4af2b77ca0950e3eeb98c
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 216173
+          id: Q216173
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q700109$cc79d0da-44e4-1ccf-2955-393ab4e5b31a
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  cswiki:
+    site: cswiki
+    title: Gdaňský gulden
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Danziger Gulden
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Danzig gulden
+    badges: []
+  fawiki:
+    site: fawiki
+    title: گولدن دانتسیگ
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Florin de Dantzig
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Danciški gulden
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Fiorino di Danzica
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Dancigo guldenas
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Danziger gulden
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Danzig gulden
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Gulden gdański
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Gulden din Danzig
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Данцигский гульден
+    badges: []

@@ -1,0 +1,238 @@
+---
+pageid: 863841
+ns: 0
+title: Q913365
+lastrevid: 616325185
+modified: '2018-01-04T00:17:26Z'
+type: item
+id: Q913365
+labels:
+  en:
+    language: en
+    value: Planck energy
+aliases: {}
+claims:
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 62604b308db3d2feaa7df599c59ff422986481fa
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 9021
+          id: Q9021
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q913365$800FCBE6-B90B-41D8-8E85-387CC7199E24
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 896ce07efd8dee7b9ca2f9c949f680339c320987
+      datavalue:
+        value: "/m/033yrv"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q913365$A790155F-87A1-449E-A8D7-CBF82348B5EA
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 06df6efe68f6e25b0d602229267e4d3e9ccc3d64
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2916980
+          id: Q2916980
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q913365$5d75ac9a-414e-271e-d46d-22a4a26af9ed
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: cf5310dfff107a9093c8f7ea5fc72f034d46c7a4
+      datavalue:
+        value: PlanckEnergy
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q913365$c52e8b51-4f04-41cc-5ec4-d0306720c19d
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 45aa76848f38eb265f21ac51c4f844f70c398eff
+      datavalue:
+        value:
+          amount: "+1956100000"
+          unit: http://www.wikidata.org/entity/Q25269
+          upperBound: "+1956200000"
+          lowerBound: "+1956000000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q913365$f4d5321d-430e-4a6a-4dc4-4430a884cc73
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 7f362dd95b1fb01f46c86ecdf9cbb62ef4fba37c
+      datavalue:
+        value: E_p
+        type: string
+      datatype: string
+    type: statement
+    id: Q913365$759197ac-4731-2b32-fe5e-b12b83ffe7da
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 0a80cc8c1d4f843037b3a5a211ee962e6f01b686
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 468999
+          id: Q468999
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q913365$8337b774-4b7a-d8a1-f3ae-b93e53869751
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 7ad0f8fc8c23eb3ede324fc816121895c19109c6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11379
+          id: Q11379
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q913365$b6a3592d-4eeb-1dbe-0023-6af4f8870b93
+    rank: normal
+sitelinks:
+  bewiki:
+    site: bewiki
+    title: Планкаўская энергія
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Energia de Planck
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Planckova energie
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Planck energy
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Energio de Planck
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Energía de Planck
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Planckin energia
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Énergie de Planck
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Planck-energia
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Energia di Planck
+    badges: []
+  jawiki:
+    site: jawiki
+    title: プランクエネルギー
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 플랑크 에너지
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Energia Plancka
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Energia de Planck
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Планковская энергия
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Enirgia di Planck
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Planckova energija
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Planckenergi
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Planck enerjisi
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 普朗克能量
+    badges: []

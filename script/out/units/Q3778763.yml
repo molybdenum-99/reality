@@ -1,0 +1,203 @@
+---
+pageid: 3603082
+ns: 0
+title: Q3778763
+lastrevid: 517493209
+modified: '2017-07-11T06:08:26Z'
+type: item
+id: Q3778763
+labels:
+  en:
+    language: en
+    value: assignation ruble
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3778763$DAE69291-C679-45E9-A2AC-97DAE886E27A
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 99737cd62be2a3b19a71809f263e5ab492b7b459
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 4411107
+          id: Q4411107
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P580:
+      - snaktype: value
+        property: P580
+        hash: 33e21b56b9deafb75056d50f9b0dd116a671a5f7
+        datavalue:
+          value:
+            time: "+1768-12-29T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      P582:
+      - snaktype: value
+        property: P582
+        hash: 2e97887234458a58046e726489c2e89c6ce8792e
+        datavalue:
+          value:
+            time: "+1780-00-00T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 9
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P580
+    - P582
+    id: Q3778763$c4572941-421b-bdac-086e-500e8c07beb1
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: e64bc21e5649b2265a5047822c9b3f580989c9eb
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 34266
+          id: Q34266
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3778763$b383feb9-4f7c-8272-2232-da66467b7b92
+    rank: normal
+  P580:
+  - mainsnak:
+      snaktype: value
+      property: P580
+      hash: 33e21b56b9deafb75056d50f9b0dd116a671a5f7
+      datavalue:
+        value:
+          time: "+1768-12-29T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 11
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q3778763$7d5ba24b-498f-3133-dbba-d86164a405a9
+    rank: normal
+  P582:
+  - mainsnak:
+      snaktype: value
+      property: P582
+      hash: bf952815e9f0849964ab4f3b9633ee4686794b61
+      datavalue:
+        value:
+          time: "+1840-00-00T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 9
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    qualifiers:
+      P793:
+      - snaktype: value
+        property: P793
+        hash: 172dd683aca52518dafc6069a982c6815ef20229
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 4157874
+            id: Q4157874
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P793
+    id: Q3778763$321af74d-4249-9506-2e5e-8f76854b9fe8
+    rank: normal
+  P1684:
+  - mainsnak:
+      snaktype: value
+      property: P1684
+      hash: 7a43f66d12ad8afca7a5dd30ae9fbb0663ff4bdb
+      datavalue:
+        value:
+          text: Дѣйствуетъ къ пользѣ онаго
+          language: ru
+        type: monolingualtext
+      datatype: monolingualtext
+    type: statement
+    id: Q3778763$2eb22700-444a-5f49-6b07-6bd16a909e0d
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P1684
+      hash: 8f1b63e75e59e8a0c281e01d812169c734f4028f
+      datavalue:
+        value:
+          text: Любовь къ Отечеству
+          language: ru
+        type: monolingualtext
+      datatype: monolingualtext
+    type: statement
+    id: Q3778763$ee2d3f4d-4d5d-96be-0a41-4028f84a8254
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: '0923e2075d4e83c910837738a4ba23fd5b153121'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 4146789
+          id: Q4146789
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3778763$acba2520-4deb-e07d-f110-a7bab5383768
+    rank: normal
+sitelinks:
+  bewiki:
+    site: bewiki
+    title: Асігнацыйны рубель
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Assignation ruble
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Rouble d'assignation
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Ассигнационный рубль
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Асигнації
+    badges: []

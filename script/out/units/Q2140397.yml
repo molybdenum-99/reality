@@ -1,0 +1,278 @@
+---
+pageid: 2066287
+ns: 0
+title: Q2140397
+lastrevid: 560351299
+modified: '2017-09-17T01:04:04Z'
+type: item
+id: Q2140397
+labels:
+  en:
+    language: en
+    value: cubic inch
+aliases:
+  en:
+  - language: en
+    value: in³
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6e3da81891b6fba54d9ac8088595a4b05e5a5f95
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1302471
+          id: Q1302471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2140397$f9aee415-402f-a659-ff7d-05df7a98704d
+    rank: normal
+    references:
+    - hash: cb57cb7c1e7f99efcdcd25cb633fd1f17a5c1c9e
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: fb8a5a7e0b44410dabf8420e5979d89d08d71c70
+          datavalue:
+            value: 3-4.B.a
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: fbd2c1479b247a27c2f44da45bd74c0b547d3be1
+      datavalue:
+        value: "/m/01fc8j"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2140397$5619768F-360F-4148-B4FF-17596566B5A2
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 6baf41cc4e9d015d9bf0470070f4671a6c9df5cd
+      datavalue:
+        value: CubicInch
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2140397$d4e85598-4dc4-1bd6-bb83-5ce3ae9a731a
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: a58247f61833f18b4b2180353f8e40bd9e64d08e
+      datavalue:
+        value: in³
+        type: string
+      datatype: string
+    type: statement
+    id: Q2140397$a8ce00bd-4828-0dd9-a6ac-d8f1b2b5e965
+    rank: normal
+    references:
+    - hash: cb57cb7c1e7f99efcdcd25cb633fd1f17a5c1c9e
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: fb8a5a7e0b44410dabf8420e5979d89d08d71c70
+          datavalue:
+            value: 3-4.B.a
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: '095b22e5c47a47f7d5e84e00899837038be11bd4'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 26711932
+          id: Q26711932
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P958:
+      - snaktype: value
+        property: P958
+        hash: fb8a5a7e0b44410dabf8420e5979d89d08d71c70
+        datavalue:
+          value: 3-4.B.a
+          type: string
+        datatype: string
+    qualifiers-order:
+    - P958
+    id: Q2140397$43044f50-47bc-9fc7-8104-f2170bbaf1d5
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: e5dcd68b217e0256f54618aa5721dc9919cabea3
+      datavalue:
+        value:
+          amount: "+0.000016387064"
+          unit: http://www.wikidata.org/entity/Q25517
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q2140397$bf2b9755-4cc7-c572-9d27-75e547bf47ca
+    rank: normal
+    references:
+    - hash: cb57cb7c1e7f99efcdcd25cb633fd1f17a5c1c9e
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: fb8a5a7e0b44410dabf8420e5979d89d08d71c70
+          datavalue:
+            value: 3-4.B.a
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: ece6f6e6968e83ab4ea375829a8c5694d93dff51
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 39297
+          id: Q39297
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2140397$9BD4CA5E-7C3E-4A01-A7B2-9B2D3649BEAE
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: بوصة مكعبة
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Kubikzoll
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Cubic inch
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Pulgada cúbica
+    badges: []
+  fawiki:
+    site: fawiki
+    title: اینچ مکعب
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Pollice cubo
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 立方インチ
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Кубен инч
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Polegada cúbica
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Cubic inch
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Kubiktum
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 立方英寸
+    badges: []

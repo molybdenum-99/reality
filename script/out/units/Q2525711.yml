@@ -1,0 +1,148 @@
+---
+pageid: 2437697
+ns: 0
+title: Q2525711
+lastrevid: 590762886
+modified: '2017-11-08T14:10:59Z'
+type: item
+id: Q2525711
+labels:
+  en:
+    language: en
+    value: Yugoslav krone
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 4fba01880368f27c2ce74b012193af8cf0b24c22
+      datavalue:
+        value: "/m/0dy5gw"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2525711$D7226059-AD68-4812-A361-6DC188D32EEA
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2525711$daa046c9-4a54-05b0-d6eb-e30a02ba1f2f
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 6e944b1ebff421341437b6df1a9986c72254a2e7
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 191077
+          id: Q191077
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2525711$BFD1C1D9-9B55-4ECD-8932-F3BADBB3F932
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  bswiki:
+    site: bswiki
+    title: Jugoslavenska kruna
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Yugoslav krone
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Corona yugoslava
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Jugoslavenska kruna
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Corona jugoslava
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Krone Yugoslavia
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Coroană iugoslavă
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Крона Королевства сербов, хорватов и словенцев
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Југословенска круна
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 南斯拉夫克朗
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 南斯拉夫克朗
+    badges: []

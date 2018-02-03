@@ -1,0 +1,148 @@
+---
+pageid: 324141
+ns: 0
+title: Q338261
+lastrevid: 622521994
+modified: '2018-01-22T09:19:52Z'
+type: item
+id: Q338261
+labels:
+  en:
+    language: en
+    value: Coefficient of restitution
+aliases:
+  en:
+  - language: en
+    value: Spring constant
+claims:
+  P3827:
+  - mainsnak:
+      snaktype: value
+      property: P3827
+      hash: c052f8b0728fec2aeb37110f80769319e1a547f6
+      datavalue:
+        value: coefficient-of-restitution
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q338261$BAF1EADD-CF99-46AA-BF7F-8D33CDB3A69D
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 50afdc16346d8687f53963f614e8d645419488a0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 208469
+          id: Q208469
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q338261$158354b0-4327-7bd3-6981-6c83be26e108
+    rank: normal
+  P416:
+  - mainsnak:
+      snaktype: value
+      property: P416
+      hash: 6fb1134555026692cf39f617ff3d499b430823ef
+      datavalue:
+        value: k
+        type: string
+      datatype: string
+    type: statement
+    id: Q338261$2a271b90-4ace-43f5-6c73-37e8c82c863b
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P416
+      hash: ae1265459a358b322d7263040d912c7a451e7d86
+      datavalue:
+        value: D
+        type: string
+      datatype: string
+    type: statement
+    id: Q338261$74c49093-4f80-c9de-8a45-c5fbddd855b3
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P416
+      hash: 07f1130f1167146997fa0c7d9054b9afcce290a1
+      datavalue:
+        value: c
+        type: string
+      datatype: string
+    type: statement
+    id: Q338261$98d24916-433b-9ccc-8eed-b704e8c4704d
+    rank: normal
+  P2534:
+  - mainsnak:
+      snaktype: value
+      property: P2534
+      hash: 98a763f245831f30ab4aeed3442cb536d7c3c614
+      datavalue:
+        value: k = \frac{F}{s}
+        type: string
+      datatype: math
+    type: statement
+    id: Q338261$f1771dde-4420-fd12-960d-63268b7106a4
+    rank: normal
+  P144:
+  - mainsnak:
+      snaktype: value
+      property: P144
+      hash: 7f08978849562752fe27c692a1c8622b9d9562fc
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 12438
+          id: Q12438
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q338261$f268ea1f-431f-5f41-58f0-c119c9460fd1
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P144
+      hash: 14e4119567cfb01a2298d782b2a6181d8247d688
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11573
+          id: Q11573
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q338261$dc168fea-4dff-5242-4bbf-a9e2892e6e7a
+    rank: normal
+  P4746:
+  - mainsnak:
+      snaktype: value
+      property: P4746
+      hash: ee7facbf27866ae7e5173f99977e23d3ac4d3289
+      datavalue:
+        value: '137030'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q338261$0744E123-5D5A-4E7F-ACE9-C9D34A9C8589
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Federkonstante
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ばね定数
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Veerconstante
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 劲度系数
+    badges: []

@@ -1,0 +1,84 @@
+---
+pageid: 23646192
+ns: 0
+title: Q21604951
+lastrevid: 560446849
+modified: '2017-09-17T04:59:49Z'
+type: item
+id: Q21604951
+labels:
+  en:
+    language: en
+    value: grams per cubic meter
+aliases:
+  en:
+  - language: en
+    value: grams per cubic metre
+  - language: en
+    value: gram per cubic meter
+  - language: en
+    value: gram per cubic metre
+  - language: en
+    value: g/m3
+  - language: en
+    value: g/m^3
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q21604951$e9d6cfeb-4744-a690-706b-d7e51af299d9
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 6dcf9bb941805fbd62dd3d9d88114c6fbda071f8
+      datavalue:
+        value:
+          amount: "+0.001"
+          unit: http://www.wikidata.org/entity/Q844211
+          upperBound: "+0.001"
+          lowerBound: "+0.001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q21604951$1fc0f002-45e1-5483-8fe6-65ef0236917e
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: bb47bd682407d817c86b0b4f171ab8655048448e
+      datavalue:
+        value: gram_per_cubic_metre
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q21604951$F9A13EF0-9667-48DA-8AE3-52D27B41DAA2
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 254c45396879cff6e87567db52857f181aec72ac
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 29539
+          id: Q29539
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q21604951$62221619-4adc-2e74-2c34-6b2a2cf466d2
+    rank: normal
+sitelinks: {}

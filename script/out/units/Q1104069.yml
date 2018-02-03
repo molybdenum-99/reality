@@ -1,0 +1,763 @@
+---
+pageid: 1051390
+ns: 0
+title: Q1104069
+lastrevid: 617887948
+modified: '2018-01-08T22:57:18Z'
+type: item
+id: Q1104069
+labels:
+  en:
+    language: en
+    value: Canadian dollar
+aliases:
+  en:
+  - language: en
+    value: CAD
+  - language: en
+    value: C$
+  - language: en
+    value: "$"
+  - language: en
+    value: CA$
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 9500906f4cc95edbf7e1cd808c8674a8acc3970f
+      datavalue:
+        value: "$"
+        type: string
+      datatype: string
+    type: statement
+    id: Q1104069$93ef62fe-41d7-f2f7-98cf-932d69a8c9b1
+    rank: preferred
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 2e1da3e109bea38deb50d3d4bc5f385cb6977a10
+      datavalue:
+        value: C$
+        type: string
+      datatype: string
+    type: statement
+    id: Q1104069$d6a68129-4a10-14c6-c0a0-eab4518e356b
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: ebc6a85d592753cb2ccbd0cdeeb2428d1924c656
+      datavalue:
+        value: CAD$
+        type: string
+      datatype: string
+    type: statement
+    id: Q1104069$a0863502-4d08-accb-000e-177c4a00108c
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 1fa689a1374f2a0edf1375026994738216249acd
+      datavalue:
+        value: "¢"
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P805:
+      - snaktype: value
+        property: P805
+        hash: 765b0ce6ad81c5860fdaa97746cd7a6b79e178ea
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 58093
+            id: Q58093
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P805
+    id: Q1104069$2dae958b-4436-44b9-6be4-308d9e822acb
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q1104069$98DCD28D-DE07-4E6D-910F-EE2E7763E5EA
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: b4be0426e70424fc88f6fffa119e63241107e611
+      datavalue:
+        value: Money of Canada
+        type: string
+      datatype: string
+    type: statement
+    id: q1104069$9B6FE38E-5EAF-4542-8598-B0D41E99476C
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 6f56db9d8814a65ad882554e2ba09e8da4d03900
+      datavalue:
+        value: CAD
+        type: string
+      datatype: external-id
+    type: statement
+    id: q1104069$80a2d72f-4f00-508d-7934-aba0b11eaacd
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: f7f9d54336fa5b0908bb1d2f0f171be354757260
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 806703
+          id: Q806703
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q1104069$D669F282-A82C-4ADF-A7AD-569F28B3D234
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 8ef992c88e8959565c3ae4e730b75b34ff2b2c5e
+      datavalue:
+        value: "/m/0ptk_"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1104069$D16B23D4-9714-42E8-B11C-7BA3AA64E3C2
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: a3723c4c3601569aebcc86e0f0c5c3697821da1b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 16
+          id: Q16
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1104069$b01dd1eb-4e82-738c-dcc6-b13d50ab2f36
+    rank: preferred
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 2862e1cffd99bb85f2dc1b19b9917dadedb9e24d
+      datavalue:
+        value: CAD 4 dollar bill.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q1104069$8BA79368-F963-4B77-80C9-459D6DF47527
+    rank: normal
+  P1365:
+  - mainsnak:
+      snaktype: value
+      property: P1365
+      hash: 68dc40bf62020fa565b284117438f4f5b5f8e72e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 16080864
+          id: Q16080864
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: 498ba09dcc4724457132724403587fd9e23c7059
+        datavalue:
+          value:
+            time: "+1867-00-00T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 9
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q1104069$4074e1b9-4549-68b8-af58-5b6dffb9d30c
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P1365
+      hash: 0a90330c74e76c5e80aaac43a846ff77c0118d0a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1323382
+          id: Q1323382
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: 498ba09dcc4724457132724403587fd9e23c7059
+        datavalue:
+          value:
+            time: "+1867-00-00T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 9
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q1104069$a1fa1518-454f-3a7f-d860-61b193be1095
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P1365
+      hash: a1f8b3a380a4c0e2e09df8a3638c8bc44a2e68b1
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3712660
+          id: Q3712660
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: '051991f21a5a8b10e0c1d28f9e0a201457cb0b52'
+        datavalue:
+          value:
+            time: "+1871-00-00T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 9
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q1104069$01e15cae-45ab-61fc-72ef-51d04906ab08
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P1365
+      hash: 19d5a176e7824167a12cd93b4c2b7248a95ee1f7
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3712661
+          id: Q3712661
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: e1186483b135acf0f591bf334943771cf8989c0b
+        datavalue:
+          value:
+            time: "+1873-00-00T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 9
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q1104069$328a15f2-466f-c3c4-eb32-88f2f1e6fdcf
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P1365
+      hash: c69646e0073db8f64a2f3a810dc4370e44aa3513
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1934986
+          id: Q1934986
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: '051991f21a5a8b10e0c1d28f9e0a201457cb0b52'
+        datavalue:
+          value:
+            time: "+1871-00-00T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 9
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q1104069$74c121ef-47fe-1e07-63e2-7a171e005cf6
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P1365
+      hash: 7ec30e73c44d9382f5f8dd8c8909be58cc6418bc
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2411666
+          id: Q2411666
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: 1860896dc35f131202ffed522978bdfd5f598e60
+        datavalue:
+          value:
+            time: "+1949-00-00T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 9
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q1104069$86262997-4bd1-ea03-2249-dc6a216eff5c
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: 58aefd5472e9725c741c446715f38df346769277
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 14083
+          id: Q14083
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1104069$c27d69a9-4726-7af3-0197-71df3a54dc14
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 4e0403a9f4da46a18dfe8c46045db6279d10d83f
+      datavalue:
+        value: Canadian_dollar
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1104069$298A4612-8E57-48FB-B022-26DADC1BC10E
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 8da7278e54e8598f96f7abe94b7f9a7b238f3714
+      datavalue:
+        value: Canadian-Dollar
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1104069$43FDC101-1ED4-46CB-B988-D6D4266E051B
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: b71c711993e2a7c03932ca78c74b56fc63ec791b
+      datavalue:
+        value: CanadianDollar
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1104069$c4ce4a82-4194-b7f0-d8b5-4a485ca9ac08
+    rank: normal
+  P2284:
+  - mainsnak:
+      snaktype: value
+      property: P2284
+      hash: d3c8ccf05c60e72830397bdc9ee35e33b967e4b0
+      datavalue:
+        value:
+          amount: "+0.81"
+          unit: http://www.wikidata.org/entity/Q4917
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1104069$b503d5c3-4c3c-45b9-3c17-cb0396cf4eda
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 4093e8fa2968b15a1172be73a0b8047804b94924
+      datavalue:
+        value: '500140'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1104069$DE8E7F52-A701-48B5-9950-69A5A8EE4EE7
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Kanadese dollar
+    badges: []
+  arwiki:
+    site: arwiki
+    title: دولار كندي
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Dólar canadianu
+    badges: []
+  azbwiki:
+    site: azbwiki
+    title: کانادا دولاری
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Kanada dolları
+    badges: []
+  bat_smgwiki:
+    site: bat_smgwiki
+    title: Kanadas duoleris
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Канадскі долар
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Канадски долар
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: কানাডীয় ডলার
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: কানাডিয়ান ডলার
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Kanadski dolar
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Dòlar canadenc
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Kanadský dolar
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Canadiske dollar
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Kanadischer Dollar
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Canadian dollar
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Kanada dolaro
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Dólar canadiense
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Kanada dollar
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Dolar kanadar
+    badges: []
+  fawiki:
+    site: fawiki
+    title: دلار کانادا
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Kanadan dollari
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Dollar canadien
+    badges: []
+  fywiki:
+    site: fywiki
+    title: Kanadeeske dollar
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Dólar canadense
+    badges: []
+  hewiki:
+    site: hewiki
+    title: דולר קנדי
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Kanadski dolar
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Kanadai dollár
+    badges: []
+  iawiki:
+    site: iawiki
+    title: Dollar canadian
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Dolar Kanada
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Dollaro canadese
+    badges: []
+  jawiki:
+    site: jawiki
+    title: カナダドル
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 캐나다 달러
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Канадаса доллар
+    badges: []
+  ladwiki:
+    site: ladwiki
+    title: Dolar de Kanada
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Kanados doleris
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Kanādas dolārs
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Канадски долар
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: कॅनेडियन डॉलर
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Dolar Kanada
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Canadese dollar
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Canadisk dollar
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਕੈਨੇਡੀਆਈ ਡਾਲਰ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Dolar kanadyjski
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Dólar canadense
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Dolar canadian
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Канадский доллар
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Canadian dollar
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Kanadski dolar
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Canadian dollar
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Kanadský dolár
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Kanadski dolar
+    badges: []
+  sqwiki:
+    site: sqwiki
+    title: Dollari Kanadez
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Канадски долар
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Kanadensisk dollar
+    badges: []
+  tawiki:
+    site: tawiki
+    title: கனடா டொலர்
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Доллари Канада
+    badges: []
+  thwiki:
+    site: thwiki
+    title: ดอลลาร์แคนาดา
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Kanada doları
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Канадський долар
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Đô la Canada
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Dọ́là Kánádà
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Canada dollar
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 加拿大元
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 加拿大元
+    badges: []

@@ -1,0 +1,124 @@
+---
+pageid: 1722193
+ns: 0
+title: Q1790688
+lastrevid: 617579580
+modified: '2018-01-08T01:05:37Z'
+type: item
+id: Q1790688
+labels:
+  en:
+    language: en
+    value: millesimal fineness
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q1790688$ac299750-4edf-b711-00a7-22b9fa6103c3
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: d78bf96e4662bbe2302dcacc2ba47a44244a3dbc
+      datavalue:
+        value: Hallmarks
+        type: string
+      datatype: string
+    type: statement
+    id: q1790688$5D926506-FE03-4591-8488-FCF822EB5A64
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 01a9f70c837f7e8753dde2aaef27eb62cd086eb7
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1401905
+          id: Q1401905
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1790688$ddf0ec80-48aa-ec17-779c-33ab1903aa04
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 2afdea0ee1738a50d534ac9f1e00c82b8b7bd969
+      datavalue:
+        value: "/m/06h54j"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1790688$27EDFB63-D50A-4399-A442-8900F00BF101
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Metall de llei
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Millesimal fineness
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Ley (pureza)
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Titre au millième
+    badges: []
+  hewiki:
+    site: hewiki
+    title: דרגת טוהר
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Հարգ
+    badges: []

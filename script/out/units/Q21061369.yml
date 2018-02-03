@@ -1,0 +1,125 @@
+---
+pageid: 23108318
+ns: 0
+title: Q21061369
+lastrevid: 591319138
+modified: '2017-11-09T15:06:01Z'
+type: item
+id: Q21061369
+labels:
+  en:
+    language: en
+    value: gram per kilogram
+aliases:
+  en:
+  - language: en
+    value: grams per kilogram
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q21061369$e0e9693a-450c-9c9b-c2d4-da2d42ef58b8
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 6c3ab14f2787040c5a372121a16db8132b0efc70
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3686031
+          id: Q3686031
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q21061369$b0aef44d-4f47-7138-1084-8a47f376ef8c
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: df02a7f6f9b70a1003cbc6903dcc50dcbb4faff3
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 899138
+          id: Q899138
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q21061369$560bbac1-4856-b870-7f3c-3821affd1359
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: d5b790340dd5e9d35578979f2c5a5909584895d4
+      datavalue:
+        value: г/кг
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q21061369$4c7da483-4f1b-cf4b-21e9-a6bc67b79a1c
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 5eb8464f4b980c457735db6112ab214a461d3b35
+      datavalue:
+        value: g/kg
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q21061369$3439cd29-4e86-7830-908e-0df274808767
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 617cb3264d20d1f35717715ef35e49153148fd7f
+      datavalue:
+        value: gram_per_kilogram
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q21061369$87580CA1-FC7C-4215-B143-05BC2D6E3B02
+    rank: normal
+sitelinks: {}

@@ -1,0 +1,503 @@
+---
+pageid: 28826
+ns: 0
+title: Q25417
+lastrevid: 617888311
+modified: '2018-01-08T22:58:32Z'
+type: item
+id: Q25417
+labels:
+  en:
+    language: en
+    value: Danish krone
+aliases:
+  en:
+  - language: en
+    value: kr
+  - language: en
+    value: DKK
+claims:
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: b44e5082894722a7575db454e833f93682439849
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 35
+          id: Q35
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q25417$043e30ff-4769-3032-eee6-f9911ac6141b
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: c9323387b451aaea35f43affd0db4024be68e4e9
+      datavalue:
+        value: Money of Denmark
+        type: string
+      datatype: string
+    type: statement
+    id: q25417$476C515F-30EC-42F2-AB87-9FD138C7F11D
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 5fb66a08f35812a2cc714efe0f8ba8c16e7cdd94
+      datavalue:
+        value: DKK
+        type: string
+      datatype: external-id
+    type: statement
+    id: q25417$24d2c74b-4158-29ff-fae1-d0b278b50fa8
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q25417$D5181BC5-3DA5-4D84-A4DF-1BB9F3604633
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: e68814067d2d694411264eaaa1c656faba21c019
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 683252
+          id: Q683252
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q25417$5DFAFD5D-D1A3-4E4B-B4EB-FD787C062FCB
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: c458cc8e47d26939d932109ead61cae251db43b8
+      datavalue:
+        value: "/m/01j9nc"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q25417$FB2833C1-17B8-4C97-9456-00CCED94941B
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 14533d1f5a5bfda2228fe199c16e934965b1cbe0
+      datavalue:
+        value: kr.
+        type: string
+      datatype: string
+    type: statement
+    id: Q25417$add05da3-4239-6736-ab6d-0da1306d5480
+    rank: normal
+  P2284:
+  - mainsnak:
+      snaktype: value
+      property: P2284
+      hash: 4db0e05f8208d30c9054ffcb24a813bf0bb88b9c
+      datavalue:
+        value:
+          amount: "+0.14216"
+          unit: http://www.wikidata.org/entity/Q4917
+          upperBound: "+0.14217"
+          lowerBound: "+0.14215"
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: fcb927971bff68616475459f04641301453f1c5e
+        datavalue:
+          value:
+            time: "+2016-11-29T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q25417$168C8041-D429-4AE1-98E7-AC2DB95C088D
+    rank: normal
+    references:
+    - hash: 15017ea174f11c72d3a1653328fd7717d93284c5
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 73b6a8e71bfeaf986e336b7482ad8fea6fba97d1
+          datavalue:
+            value: http://www.nationalbanken.dk/da/statistik/valutakurs/Sider/Default.aspx
+            type: string
+          datatype: url
+      snaks-order:
+      - P854
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 81dc78f9058ba735dfd2ed08d299cca3bb10d943
+      datavalue:
+        value: '500156'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q25417$CD2F27D9-B943-4A07-9A69-B73E1BF9820F
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Deense kroon
+    badges: []
+  arwiki:
+    site: arwiki
+    title: كرونة دنماركية
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Danimarka kronu
+    badges: []
+  bat_smgwiki:
+    site: bat_smgwiki
+    title: Danėjės kruona
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Дацкая крона
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Дацкая крона
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Датска крона
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: ডেনিশ ক্রোন
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Danska kruna (valuta)
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Corona danesa
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Dánská koruna
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Danske kroner
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Dänische Krone
+    badges:
+    - Q17437798
+  elwiki:
+    site: elwiki
+    title: Κορόνα Δανίας
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Danish krone
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Dana krono
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Corona danesa
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Taani kroon
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Daniar koroa
+    badges: []
+  fawiki:
+    site: fawiki
+    title: کرون دانمارک
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Tanskan kruunu
+    badges: []
+  fowiki:
+    site: fowiki
+    title: Danska krónan
+    badges: []
+  frrwiki:
+    site: frrwiki
+    title: Däänsk krüün
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Couronne danoise
+    badges: []
+  fywiki:
+    site: fywiki
+    title: Deenske kroan
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Coroa dinamarquesa
+    badges: []
+  hewiki:
+    site: hewiki
+    title: כתר דני
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: डेनिश क्रोन
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Danska kruna
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Dán korona
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Դանիական կրոն
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Krona Denmark
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Dönsk króna
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Corona danese
+    badges: []
+  jawiki:
+    site: jawiki
+    title: デンマーク・クローネ
+    badges: []
+  kawiki:
+    site: kawiki
+    title: დანიური კრონი
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 덴마크 크로네
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Данияса крона
+    badges: []
+  lmowiki:
+    site: lmowiki
+    title: Curona danesa
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Danijos krona
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Dānijas krona
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Данска круна
+    badges: []
+  mnwiki:
+    site: mnwiki
+    title: Дани крон
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: डॅनिश क्रोन
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Krone Denmark
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Deense kroon
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Dansk krone
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Dansk krone
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Corona danesa
+    badges: []
+  oswiki:
+    site: oswiki
+    title: Данийы кронæ
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਡੈੱਨਮਾਰਕੀ ਕਰੋਨਾ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Korona duńska
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Coroa dinamarquesa
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Coroană daneză
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Датская крона
+    badges: []
+  sewiki:
+    site: sewiki
+    title: Dánmárkku ruvdno
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Danska kruna
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Danish krone
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Dánska koruna
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Данска круна
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Dansk krona
+    badges: []
+  tawiki:
+    site: tawiki
+    title: டானிய குரோன்
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Крони Дания
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Danimarka kronu
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Данська крона
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Krone Đan Mạch
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: დანიური კრონი
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Krone Dẹ́nmárkì
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Tan-be̍h krone
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 丹麥克朗
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 丹麥克朗
+    badges: []

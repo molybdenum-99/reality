@@ -1,0 +1,116 @@
+---
+pageid: 3759327
+ns: 0
+title: Q3942166
+lastrevid: 491641219
+modified: '2017-05-28T20:54:37Z'
+type: item
+id: Q3942166
+labels:
+  en:
+    language: en
+    value: Polish rubel
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: '05687ea1ba9e7dbc16c9765640eaebd226c02275'
+      datavalue:
+        value: "/m/02q64q6"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3942166$16E8D896-0A1B-409C-9975-C52A8FACDC09
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3942166$42AF73E8-DA24-4145-8134-5D7A0B5571D6
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: ba332f63a87521370f230445a186bcf70c2e2939
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 34266
+          id: Q34266
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3942166$8F4DF5A4-6858-4BD1-905E-633C09810F48
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Polish rubel
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Rublo polacco
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Рубль Польского банка
+    badges: []

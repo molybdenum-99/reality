@@ -1,0 +1,322 @@
+---
+pageid: 184481
+ns: 0
+title: Q185648
+lastrevid: 596929193
+modified: '2017-11-21T18:59:15Z'
+type: item
+id: Q185648
+labels:
+  en:
+    language: en
+    value: torr
+aliases:
+  en:
+  - language: en
+    value: mmHg
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 7fbde2f6e77f21c442280f760ca9bc77648f0bad
+      datavalue:
+        value: Torr
+        type: string
+      datatype: string
+    type: statement
+    id: Q185648$f2f4f306-4bf2-b143-5483-05e85aaa000b
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 4c7f2da45053d13ef66555ee94272809b31cbc12
+      datavalue:
+        value: mmHg
+        type: string
+      datatype: string
+    type: statement
+    id: Q185648$28c01da4-43c3-c936-482d-0b2d2db1989c
+    rank: normal
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 5e597ae837a6d51a85075a7bc984c6e0b1d6f7bd
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 102490
+          id: Q102490
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q185648$90311019-417f-fe1c-d6d3-c2d2018abf63
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6166ea9a07e43efe7af58b089be082880e6b8c61
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10751953
+          id: Q10751953
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q185648$938804ad-4d0d-a06e-de15-2fc04ea523da
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 992753bf87e19dd5d620c4c3c872cd3d6d6323f7
+      datavalue:
+        value: "/m/07gwd"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q185648$06B3C570-BCCC-4520-B775-75C7D682E111
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P460:
+  - mainsnak:
+      snaktype: value
+      property: P460
+      hash: 348dcf7eef0991961b202378eb4fa87a8c746643
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 6859652
+          id: Q6859652
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q185648$130724ff-462b-6522-e04f-af283a3e3268
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 83b4153fe1c35748fe5638932f2d893ecbb4715e
+      datavalue:
+        value:
+          amount: "+133.3223684211"
+          unit: http://www.wikidata.org/entity/Q44395
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q185648$4bbacc3c-4e15-5038-df19-d3bbd35638bd
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: ae6b908ad7c003dd497258f0f1fb027e3ec45cd5
+      datavalue:
+        value: Torr
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q185648$9207F389-8916-41FE-8C41-1E7C8A5D6823
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 483435ef182b9919f80a481f3d38ce23f18ae4d4
+      datavalue:
+        value: Torr
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q185648$BDF14CE2-54B5-47FD-AE6D-FBE75184AAFC
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 83602d8fee33b8377c3591ee228e14b3939a36fc
+      datavalue:
+        value: torr
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q185648$BB107347-32E0-414F-97E6-773342184441
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: a876e7a41293d4f8e5ebf4ae8bf3c9ee615576b8
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 39552
+          id: Q39552
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q185648$07C4D558-81BA-4B57-BC24-5886FD59F017
+    rank: normal
+  P3471:
+  - mainsnak:
+      snaktype: value
+      property: P3471
+      hash: 0f088f78b1e788f9043fa88a47a6c978842ced25
+      datavalue:
+        value: '18916'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q185648$BD0F1361-0A98-4FD5-BBCE-F73FDD79E76A
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: تور (وحدة)
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Torr
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Torr
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Torr
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Torr
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Torr
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Torr
+    badges: []
+  fawiki:
+    site: fawiki
+    title: تور (یکا)
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Torri
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Torr
+    badges: []
+  gawiki:
+    site: gawiki
+    title: Torr
+    badges: []
+  hewiki:
+    site: hewiki
+    title: מילימטר כספית
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Torr
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Torr
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Torr
+    badges: []
+  jawiki:
+    site: jawiki
+    title: トル
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Торр
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 토르 (단위)
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Tor (jednostka)
+    badges: []
+  pmswiki:
+    site: pmswiki
+    title: Torr
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Torr
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Torr
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Torr
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Torr
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 托
+    badges: []

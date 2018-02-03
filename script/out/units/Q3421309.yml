@@ -1,0 +1,160 @@
+---
+pageid: 3259668
+ns: 0
+title: Q3421309
+lastrevid: 610588150
+modified: '2017-12-18T10:28:33Z'
+type: item
+id: Q3421309
+labels:
+  en:
+    language: en
+    value: Jupiter radius
+aliases:
+  en:
+  - language: en
+    value: RJ
+  - language: en
+    value: Rj
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1c41b2ea8a3f6d3fab77c103d826ae5ead7a9c01
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1978718
+          id: Q1978718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3421309$82da0025-48e7-a19c-93d0-415484eb250b
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3421309$caf054ee-4a36-2d74-da4b-7c7416c1acc4
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: f68786a51bfa7c7c48955e1c87ebf4eafded6846
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 173817
+          id: Q173817
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3421309$76e9fe4d-4799-b616-10a8-25015b596026
+    rank: normal
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: aadb0a1c5f18686aa6abcab3a93916d95a0030a8
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 319
+          id: Q319
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3421309$9eedbeae-4020-7830-ee03-ac5b3f38d400
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: fbebc9e6a7fff2c7e888bba9b3b346c5e79dcdb5
+      datavalue:
+        value: R_J
+        type: string
+      datatype: string
+    type: statement
+    id: Q3421309$6f52579b-4815-cf0e-c63f-b8e6441aacf1
+    rank: normal
+  P2043:
+  - mainsnak:
+      snaktype: value
+      property: P2043
+      hash: d3ab2981dd22ec3fa6a7959ab8d17865fade4de6
+      datavalue:
+        value:
+          amount: "+69911"
+          unit: http://www.wikidata.org/entity/Q828224
+          upperBound: "+69911"
+          lowerBound: "+69911"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q3421309$d9691999-428c-9ddf-b1b1-a43f00696339
+    rank: normal
+    references:
+    - hash: 8b70c2251c9cd104943c9129bd24569022a68cee
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 82dcb7c0c8671a8ba2e7bd37e2ac1a72d6db9b08
+          datavalue:
+            value: http://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html
+            type: string
+          datatype: url
+      snaks-order:
+      - P854
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: aa94de5cd76ab1a0fcddc2820184cf50e8504046
+      datavalue:
+        value:
+          amount: "+69911000"
+          unit: http://www.wikidata.org/entity/Q11573
+          upperBound: "+69911000"
+          lowerBound: "+69911000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q3421309$c663d6b2-4131-5b7a-cc88-aa745b094515
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Jupiter-radius
+    badges: []
+  arwiki:
+    site: arwiki
+    title: نصف قطر مشتري
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Jupiter radius
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Radio de Júpiter
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Rayon jovien
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Promień Jowisza
+    badges: []

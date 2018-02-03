@@ -1,0 +1,784 @@
+---
+pageid: 28750
+ns: 0
+title: Q25344
+lastrevid: 620710308
+modified: '2018-01-15T18:49:52Z'
+type: item
+id: Q25344
+labels:
+  en:
+    language: en
+    value: Swiss franc
+aliases:
+  en:
+  - language: en
+    value: Swiss franco
+  - language: en
+    value: Franc
+  - language: en
+    value: Swiss francs
+  - language: en
+    value: Schweizer Franken
+  - language: en
+    value: Chf
+  - language: en
+    value: S₣
+  - language: en
+    value: Swiss Frank
+  - language: en
+    value: Swiss Franken
+  - language: en
+    value: Franc suisse
+  - language: en
+    value: Franco svizzero
+claims:
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 72649de3bac2e56da4b2eca1af96de4a619af9bc
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 39
+          id: Q39
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q25344$003577CA-894B-405B-B556-066FE4B2B153
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 9d197f7c931799051031d0385221dede0a5955cd
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 347
+          id: Q347
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q25344$45124C42-5324-44C7-8936-D3F500E3EB14
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q25344$A640B8EE-E521-45D5-8DFB-7C39311AEF1B
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: f92a0bf742f0eb75d29363fabfb87d2597896538
+      datavalue:
+        value: Swiss franc
+        type: string
+      datatype: string
+    type: statement
+    id: q25344$133A7864-5C8A-4135-85CE-1C34C8BA66B2
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 9949624c6e4e7bd7753d1db06236a0552c0b599b
+      datavalue:
+        value: CHF
+        type: string
+      datatype: external-id
+    type: statement
+    id: q25344$aad507df-40b1-b05c-0d4d-15d51d766133
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: c4ee11fe2edb1fa917cea705f39b3e9b40d3d6c8
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 597394
+          id: Q597394
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q25344$B3A42C69-E357-4168-A45D-7A0C78094B76
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: ad2da18b31f300bacff31f3ca2f6a3e8003b3d0f
+      datavalue:
+        value: "/m/01_h4b"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q25344$267E36EE-CA4B-43BF-9AF7-A9220CF17754
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P227:
+  - mainsnak:
+      snaktype: value
+      property: P227
+      hash: 8c3dd480275d86251e5d4a9fc5b1ced8c52d3a35
+      datavalue:
+        value: 4180480-6
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q25344$1632A9B6-1A1F-4654-BA2D-74200F0D70E0
+    rank: normal
+    references:
+    - hash: 9a24f7c0208b05d6be97077d855671d1dfdbc0dd
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: d38375ffe6fe142663ff55cd783aa4df4301d83d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 48183
+              id: Q48183
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P1296:
+  - mainsnak:
+      snaktype: value
+      property: P1296
+      hash: df8c2bf8b578e9a53efff2fabb2aedb5f94ff585
+      datavalue:
+        value: '0184787'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q25344$DCF022F9-BF98-43FB-BAF3-67B5FFF59932
+    rank: normal
+    references:
+    - hash: b3fd5e254143d8b52cd96cff43af9af5e3a82358
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: f13c99a16441677ec69fcea23f221d866f1fc98f
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 199693
+              id: Q199693
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: cd31d132d2fe8cc548640241920c52100502f063
+      datavalue:
+        value: CHF
+        type: string
+      datatype: string
+    type: statement
+    id: Q25344$657822df-4ce7-5661-6f84-05873b2de592
+    rank: normal
+  P902:
+  - mainsnak:
+      snaktype: value
+      property: P902
+      hash: '05965fc0b8d45d7a10c9e5023dd5c639940082fc'
+      datavalue:
+        value: '13671'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q25344$30024948-3AF2-4496-BC52-9FF7BBB23994
+    rank: normal
+    references:
+    - hash: d4bd87b862b12d99d26e86472d44f26858dee639
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: f30cbd35620c4ea6d0633aaf0210a8916130469b
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 8447
+              id: Q8447
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P935:
+  - mainsnak:
+      snaktype: value
+      property: P935
+      hash: caa694f0891b8ef8a8c693ef0b238483a0e402d0
+      datavalue:
+        value: Swiss franc
+        type: string
+      datatype: string
+    type: statement
+    id: Q25344$0C86980C-1AED-4393-9615-EF21100C3B1F
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 71d6b1d6ddddbe9040a7fdd4f6ccb5d8a5c49900
+      datavalue:
+        value: CHF Banknotes.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q25344$482680E0-6A2E-4E3C-B072-FCE763239383
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 9c43990a375dba745719d359b177d51992912538
+      datavalue:
+        value: Swiss_franc
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q25344$B88F8BA6-D2D5-49F3-B004-2E66DFB6E8B5
+    rank: normal
+  P2284:
+  - mainsnak:
+      snaktype: value
+      property: P2284
+      hash: 96aff454fed3bb837c5913295c53cbac89bb4041
+      datavalue:
+        value:
+          amount: "+0"
+          unit: http://www.wikidata.org/entity/Q4917
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: f742be92339cdcc54bf77fbdde9a24b9045f361a
+        datavalue:
+          value:
+            time: "+2016-11-22T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q25344$B79A2CC0-6A1E-403E-9349-9AD4D6BCF8E8
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: e15314f0e23bbc32e503d6b64f86da401a6628e2
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1403377
+          id: Q1403377
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q25344$c4154f38-4e73-19ae-71aa-aa5fa9141907
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: e29a9db99fcc478b635fb1dc14be0327df588568
+      datavalue:
+        value: Swiss-Franc
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q25344$7D007675-5C69-4D05-BDED-53E39FC850DF
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P508:
+  - mainsnak:
+      snaktype: value
+      property: P508
+      hash: caa47854e9fe340e02d3742dd1a0c83f0cc85bb6
+      datavalue:
+        value: '57085'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q25344$F88D3585-89A7-4D2F-8C69-FD924C30323B
+    rank: normal
+    references:
+    - hash: 7002ae52473b0b693b7c7aced9f9184ce0b29751
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 69c026c251f75d0291b3d466e54c44ef90ce1db7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 16583225
+              id: Q16583225
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 6f8713f473a0682f08cee5325d9bdc354d91c3f7
+      datavalue:
+        value: '500201'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q25344$DC1C9945-3B0E-47C4-B0BB-611355602EA4
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Switserse frank
+    badges: []
+  alswiki:
+    site: alswiki
+    title: Schweizer Franken
+    badges: []
+  arwiki:
+    site: arwiki
+    title: فرنك سويسري
+    badges: []
+  arzwiki:
+    site: arzwiki
+    title: فرانك سويسرى
+    badges: []
+  azwiki:
+    site: azwiki
+    title: İsveçrə frankı
+    badges: []
+  barwiki:
+    site: barwiki
+    title: Schweizer Franken
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Швайцарскі франк
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Швейцарскі франк
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Швейцарски франк
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: সুইস ফ্রাংক
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: সুইজ ফ্রাঙ্ক
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Švicarski franak
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Franc suís
+    badges: []
+  ckbwiki:
+    site: ckbwiki
+    title: فڕانکی سویسری
+    badges: []
+  commonswiki:
+    site: commonswiki
+    title: Swiss franc
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Švýcarský frank
+    badges: []
+  cvwiki:
+    site: cvwiki
+    title: Швейцари Франкĕ
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Schweiziske franc
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Schweizer Franken
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Ελβετικό φράγκο
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Swiss franc
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Svisa franko
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Franco suizo
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Šveitsi frank
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Suitzar franko
+    badges: []
+  fawiki:
+    site: fawiki
+    title: فرانک سوئیس
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Sveitsin frangi
+    badges: []
+  frpwiki:
+    site: frpwiki
+    title: Franc suisso
+    badges: []
+  frrwiki:
+    site: frrwiki
+    title: Schweizer Franken
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Franc suisse
+    badges: []
+  fywiki:
+    site: fywiki
+    title: Switserske frank
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Franco suízo
+    badges: []
+  hewiki:
+    site: hewiki
+    title: פרנק שווייצרי
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: स्विस फ़्रैंक
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Švicarski franak
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Svájci frank
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Շվեյցարական ֆրանկ
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Franc Swiss
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Svissneskur franki
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Franco svizzero
+    badges: []
+  jawiki:
+    site: jawiki
+    title: スイス・フラン
+    badges: []
+  kawiki:
+    site: kawiki
+    title: შვეიცარული ფრანკი
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Швейцария франкі
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 스위스 프랑
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Швейцарияса франк
+    badges: []
+  ladwiki:
+    site: ladwiki
+    title: Franko suiso
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Francus Helveticus
+    badges: []
+  lnwiki:
+    site: lnwiki
+    title: Falánga ya Swisi
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Šveicarijos frankas
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Šveices franks
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Швајцарски франк
+    badges: []
+  mnwiki:
+    site: mnwiki
+    title: Швейцари франк
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: स्विस फ्रँक
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Franc Swiss
+    badges: []
+  napwiki:
+    site: napwiki
+    title: Franco sguizzero
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Zwitserse frank
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Sveitsisk franc
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Franc soís
+    badges: []
+  orwiki:
+    site: orwiki
+    title: ସ୍ୱିସ୍ ଫ୍ରାଙ୍କ୍
+    badges: []
+  oswiki:
+    site: oswiki
+    title: Швейцарийы франк
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਸਵਿੱਸ ਫ਼ਰਾਂਕ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Frank szwajcarski
+    badges: []
+  pnbwiki:
+    site: pnbwiki
+    title: سوئس فرانک
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Franco suíço
+    badges: []
+  rmwiki:
+    site: rmwiki
+    title: Franc svizzer
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Franc elvețian
+    badges: []
+  ruewiki:
+    site: ruewiki
+    title: Швейцарськый франк
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Швейцарский франк
+    badges: []
+  ruwikinews:
+    site: ruwikinews
+    title: Категория:Швейцарский франк
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Francu svìzziru
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Swiss franc
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Švicarski franak
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Švajčiarsky frank
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Švicarski frank
+    badges: []
+  sqwiki:
+    site: sqwiki
+    title: Franga zvicerane
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Швајцарски франак
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Schweizisk franc
+    badges: []
+  tawiki:
+    site: tawiki
+    title: சுவிசு பிராங்க்
+    badges: []
+  tewiki:
+    site: tewiki
+    title: స్విస్ ఫ్రాంక్
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Франки Свис
+    badges: []
+  thwiki:
+    site: thwiki
+    title: ฟรังก์สวิส
+    badges: []
+  trwiki:
+    site: trwiki
+    title: İsviçre frangı
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Швейцарський франк
+    badges: []
+  urwiki:
+    site: urwiki
+    title: سویس فرانک
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Franc Thụy Sĩ
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: შვეიცარიული ფრანკი
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Franki Swítsàlandì
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Sūi-se franc
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 瑞士法郎
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 瑞士法郎
+    badges: []

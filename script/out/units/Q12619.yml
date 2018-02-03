@@ -1,0 +1,115 @@
+---
+pageid: 14214
+ns: 0
+title: Q12619
+lastrevid: 517681662
+modified: '2017-07-11T13:59:26Z'
+type: item
+id: Q12619
+labels:
+  en:
+    language: en
+    value: Pot Lyonnais
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6e3da81891b6fba54d9ac8088595a4b05e5a5f95
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1302471
+          id: Q1302471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q12619$0C6711B3-FA73-4433-8D2A-C15362AB6423
+    rank: normal
+  P2234:
+  - mainsnak:
+      snaktype: value
+      property: P2234
+      hash: 6b8c275b65924e1f82968ad325495c7ec90cd5b7
+      datavalue:
+        value:
+          amount: "+0.46"
+          unit: http://www.wikidata.org/entity/Q11582
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: e6050e07ad2eb9da0d45ba4b0e5771ff598e909d
+        datavalue:
+          value:
+            time: "+1840-00-00T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 8
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q12619$ca412c51-42ec-e527-1e97-ca482a9fe600
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: b44b70369af201ab3835feaf69ad08e241f7e924
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 80228
+          id: Q80228
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q12619$f2ae6767-48a6-446d-34c0-8df22d94a951
+    rank: normal
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 1bc2aebc5116f25c83d9d13d1c042bb23981642b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 456
+          id: Q456
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q12619$64ea3724-4add-3815-bf3f-a27187fcf524
+    rank: normal
+  P973:
+  - mainsnak:
+      snaktype: value
+      property: P973
+      hash: 2c7cc3e1733f546b6d7e5c6e6b8365f0099db572
+      datavalue:
+        value: http://www.guichetdusavoir.org/viewtopic.php?t=11257
+        type: string
+      datatype: url
+    type: statement
+    id: Q12619$7731c6b4-4ded-e392-b585-7409b1ea9e32
+    rank: normal
+sitelinks:
+  frwiki:
+    site: frwiki
+    title: Pot lyonnais
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Garrafa lionesa
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Лионская бутылка
+    badges: []

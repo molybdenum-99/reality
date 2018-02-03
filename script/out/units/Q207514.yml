@@ -1,0 +1,370 @@
+---
+pageid: 203674
+ns: 0
+title: Q207514
+lastrevid: 617888040
+modified: '2018-01-08T22:57:40Z'
+type: item
+id: Q207514
+labels:
+  en:
+    language: en
+    value: Paraguayan guaraní
+aliases:
+  en:
+  - language: en
+    value: Paraguayan guarani
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q207514$54CB9D9E-FE6B-40BD-A741-5C80544FA424
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: fdaf00523f3ad9264b29f68edd6eac5c563bcd5f
+      datavalue:
+        value: PYG
+        type: string
+      datatype: external-id
+    type: statement
+    id: q207514$70798dd1-49da-fa48-d5b6-55677327b9d6
+    rank: normal
+  P154:
+  - mainsnak:
+      snaktype: value
+      property: P154
+      hash: 8f2ee739fa0cdf72e06d001df63a6368ed745cb5
+      datavalue:
+        value: Parag-guarani-G.png
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: q207514$5AD71729-70F1-460E-A540-D4D3DFA735E2
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: a9686ad4a34706f092c7d2c9cb6cc47e2f6f29e9
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 733
+          id: Q733
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q207514$CC5B2502-4B95-4979-B820-212907774FC6
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 9cbdb91bc53e106d1e3095cb8fef2513ee55c97e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 4504275
+          id: Q4504275
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q207514$C3F32CB8-22FF-47D1-BA08-494055021623
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: b5ce39b9fa3b4d1ec2ec94f74c4f9ad5e1ee5d8d
+      datavalue:
+        value: "/m/04w7dd"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q207514$6085E6B0-CA72-41C5-A9C5-FA1A0D76E1DE
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: f5a71b02e3eae01a4f3fb5e20fba85b259d49ae8
+      datavalue:
+        value: Paraguayan Guarani
+        type: string
+      datatype: string
+    type: statement
+    id: Q207514$3D2DC5CC-AEA1-45FD-9934-0C0966FCD371
+    rank: normal
+    references:
+    - hash: 3bf39867b037e8e494a8389ae8a03bad6825a7fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 5946b91c53409c48f5f1fb0319ed41fc67a764da
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 191168
+              id: Q191168
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P487:
+  - mainsnak:
+      snaktype: value
+      property: P487
+      hash: 5725d9468a7da0479e17a7b0ae49eacad69ebd72
+      datavalue:
+        value: "₲"
+        type: string
+      datatype: string
+    type: statement
+    id: Q207514$901564ec-47da-dedc-b076-4f47d4a2326a
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 8bb8c49f28a7da1cf0e8a9cb27ffd4fb118da192
+      datavalue:
+        value: '500228'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q207514$F816F3B3-E464-46C3-BB7A-7207ADE1641C
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: غواراني باراغواي
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Парагвайскі гуарані
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: পারাগুয়ান গুয়ারানইনি
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Guaraní (moneda)
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Paraguayský guaraní
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Paraguayischer Guaraní
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Γκουαρανί (νόμισμα)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Paraguayan guaraní
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Paragvaja gvaranio
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Guaraní (moneda)
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Guarani (dirua)
+    badges: []
+  fawiki:
+    site: fawiki
+    title: گوارانی پاراگوئه
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Paraguayn guaraní
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Guaraní (monnaie)
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Guaraní (moeda)
+    badges: []
+  gnwiki:
+    site: gnwiki
+    title: Guarani (viru)
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Paragvajski gvarani
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Paraguayi guaraní
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Guaraní Paraguay
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Guaraní paraguaiano
+    badges: []
+  jawiki:
+    site: jawiki
+    title: グアラニー (通貨)
+    badges: []
+  kawiki:
+    site: kawiki
+    title: პარაგვაული გუარანი
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 파라과이 과라니
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Gvaranis
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: पेराग्वे गुआरानी
+    badges: []
+  mznwiki:
+    site: mznwiki
+    title: گوارانی
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Paraguayaanse Guarani
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Paraguayansk guaraní
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਪੈਰਾਗੁਏਵੀ ਗੁਆਰਾਨੀ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Guaraní (waluta)
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Guarani (moeda)
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Парагвайский гуарани
+    badges: []
+  sahwiki:
+    site: sahwiki
+    title: Гуарани (харчы)
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Guarani (mena)
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Парагвајски гварани
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Guarani (valuta)
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Гуарани Парагвай
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Guarani ng Paraguay
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Paraguay guaranísi
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Парагвайський гуарані
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Guaraní Paragúáì
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Paraguay guaraní
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 巴拉圭瓜拉尼
+    badges: []

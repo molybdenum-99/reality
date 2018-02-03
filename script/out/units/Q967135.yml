@@ -1,0 +1,215 @@
+---
+pageid: 916862
+ns: 0
+title: Q967135
+lastrevid: 617520249
+modified: '2018-01-07T20:18:47Z'
+type: item
+id: Q967135
+labels:
+  en:
+    language: en
+    value: Estonian mark
+aliases: {}
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 8bcce86542c503c321459a38702e014c0389aae9
+      datavalue:
+        value: Banknotes of Estonia
+        type: string
+      datatype: string
+    type: statement
+    id: q967135$1B28ABCC-F4F4-496D-8626-2557B18176B7
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 302b2cb333c651010853f86841dcb7fb2bb279e0
+      datavalue:
+        value: "/m/08y502"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q967135$0F7616FF-4B0C-41BD-A8A9-B4311F677DD0
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P580:
+      - snaktype: value
+        property: P580
+        hash: 26de8627027486e2646d856226a875376bd91720
+        datavalue:
+          value:
+            time: "+1919-00-00T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 9
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      P582:
+      - snaktype: value
+        property: P582
+        hash: acc4a00072567683e6801f21fe5b89e5d574fceb
+        datavalue:
+          value:
+            time: "+1927-00-00T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 9
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P580
+    - P582
+    id: Q967135$cdc5d334-4bf5-e1eb-1d99-e317c93ddbe2
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 21b21489a3206bbdd928f9257d8fcd1327b83486
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 191
+          id: Q191
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q967135$f2d4a92a-493d-2727-aa9d-4da79c9aec94
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: '096aa726894f722d9ad07670c4f1222ba2fda9df'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 366960
+          id: Q366960
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q967135$b0abaa7a-4950-2333-2973-bca1c4cbad95
+    rank: normal
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Marc estonià
+    badges: []
+  commonswiki:
+    site: commonswiki
+    title: Category:Estonian mark
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Estnische Mark
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Μάρκο Εσθονίας
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Estonian mark
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Marco estonio
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Eesti mark
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Viron markka
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Mark estonien
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Észt márka
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Marco estone
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Igaunijas marka
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Marka estońska
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Marcă estoniană
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Эстонская марка
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Estonian mark
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Естонська марка
+    badges: []

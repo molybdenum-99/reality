@@ -1,0 +1,483 @@
+---
+pageid: 178241
+ns: 0
+title: Q178874
+lastrevid: 617888461
+modified: '2018-01-08T22:59:11Z'
+type: item
+id: Q178874
+labels:
+  en:
+    language: en
+    value: Slovak koruna
+aliases:
+  en:
+  - language: en
+    value: SKK
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 5f915fd4144a5b00e6926236318d42773a3ff98a
+      datavalue:
+        value: Money of Slovakia
+        type: string
+      datatype: string
+    type: statement
+    id: q178874$1504FE88-A49D-4B1C-AB98-86C910C53EAD
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 3e6b0a11e8c45ba47d8298f133cc6a4acd836dc4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1481791
+          id: Q1481791
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q178874$A019A9F1-A2AC-49DD-A3FF-2B1F49D2A7BA
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 641eec615f1441f26eff7f551f0f1df59b81161c
+      datavalue:
+        value: "/m/07nw_f"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q178874$70FA26E1-F911-4560-9C26-43F82C98857A
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q178874$30dcfb8e-45b8-ffa7-bbd0-d78d6e2d15c4
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 4c2904f7df1bf50bec10f7fa958b11e2664d9578
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 214
+          id: Q214
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q178874$3ec0113f-4135-6d6d-b6b3-fd55c3257aa7
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: da9690493bd6f69c551f6a70dcedbde7466ded0a
+      datavalue:
+        value: SKK
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q178874$8053ca36-4bc3-767e-0c3a-d90459ecc2ee
+    rank: normal
+  P580:
+  - mainsnak:
+      snaktype: value
+      property: P580
+      hash: 26de8627027486e2646d856226a875376bd91720
+      datavalue:
+        value:
+          time: "+1919-00-00T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 9
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q178874$95bdb0e4-4d93-f238-15a7-ecf2c8addb9d
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P580
+      hash: ea531e545525335977cbfea33c26c8130cbe8a5c
+      datavalue:
+        value:
+          time: "+1993-02-08T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 11
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q178874$6a159206-42e9-72ab-6a31-b8e35ccdd7f2
+    rank: normal
+  P582:
+  - mainsnak:
+      snaktype: value
+      property: P582
+      hash: b03ea488ee0be6346c54a696a26110a301fa3db8
+      datavalue:
+        value:
+          time: "+1945-11-01T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 11
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q178874$43035448-4ff6-80ea-25b4-3d253b4b831b
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P582
+      hash: 1ce114d263a5f85254d1a01abbb16ffeb88cbaaf
+      datavalue:
+        value:
+          time: "+2009-01-01T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 11
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q178874$1305041f-4c5d-7d9f-5fcd-13a5b571dad7
+    rank: normal
+  P3222:
+  - mainsnak:
+      snaktype: value
+      property: P3222
+      hash: e752053ed05afce56e467086ed360da93b9ba7f2
+      datavalue:
+        value: skk-(svenska-kennelklubben)
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q178874$BFA03B02-481E-441B-BDE7-3D5A67F7374A
+    rank: normal
+  P1366:
+  - mainsnak:
+      snaktype: value
+      property: P1366
+      hash: 2c75bfaf4e3db000df3888eef763865c5c85478b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 4916
+          id: Q4916
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: 992510c0e5480ce9cde210c3dc6db92865bb376e
+        datavalue:
+          value:
+            time: "+2009-01-01T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q178874$3eab5b63-4efb-30d8-a1a8-4c9580c60c85
+    rank: normal
+  P1365:
+  - mainsnak:
+      snaktype: value
+      property: P1365
+      hash: '08164f878386119c96910ef2f607ef81e59b2b25'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 622599
+          id: Q622599
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q178874$c2ce90e5-481a-3a09-7098-a0c2f0445d43
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 0a03e7c060bf330b7d506354c40f4dcc732712e4
+      datavalue:
+        value: '500245'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q178874$BB8A584A-9380-4E36-8CCB-C956AEAF57E9
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: كرونة سلوفاكية
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Славацкая крона
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Славацкая крона
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Словашка крона
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: স্লোভাক করুনা
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Slovačka kruna
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Corona eslovaca
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Slovenská koruna
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Slovakiske koruna
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Slowakische Krone (1993–2008)
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Κορόνα Σλοβακίας
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Slovak koruna
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Slovaka krono
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Corona eslovaca
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Slovakkia kroon
+    badges: []
+  fawiki:
+    site: fawiki
+    title: کرونای اسلواکی
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Slovakian koruna
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Couronne slovaque
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Coroa eslovaca
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Slovačka kruna
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Szlovák korona (1993)
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Koruna Slowakia
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Slóvakísk króna
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Corona slovacca
+    badges: []
+  jawiki:
+    site: jawiki
+    title: スロバキア・コルナ
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 슬로바키아 코루나
+    badges: []
+  lmowiki:
+    site: lmowiki
+    title: Curona sluvaca
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Slovakijos krona
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Slovākijas krona
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Словачка круна
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Koruna Slovakia
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Slowaakse kroon
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Slovakisk koruna
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Korona słowacka
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Coroa eslovaca
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Coroană slovacă
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Словацкая крона
+    badges: []
+  sahwiki:
+    site: sahwiki
+    title: Словакия кроната
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Slovačka kruna
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Slovak koruna
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Slovenská koruna
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Slovaška krona
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Словачка круна
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Slovakisk krona
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Корунаи Словакия
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Словацька крона
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Slovakia koruna
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 斯洛伐克克朗
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 斯洛伐克克朗
+    badges: []

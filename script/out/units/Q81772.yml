@@ -1,0 +1,118 @@
+---
+pageid: 84217
+ns: 0
+title: Q81772
+lastrevid: 619461039
+modified: '2018-01-12T22:31:43Z'
+type: item
+id: Q81772
+labels:
+  en:
+    language: en
+    value: Guatemalan peso
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: d2e1820ea5ed30b5a304ebf65777f736fb66fc2f
+      datavalue:
+        value: "/m/09056w"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q81772$4BC7117E-85E7-4F20-8D66-35533C2C5E1B
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q81772$2E6B0DDD-9677-434E-BD56-C08B79436F7B
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 3e2e3de95bf069f64c11e9c0c20052d75ac63fd5
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 244696
+          id: Q244696
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q81772$3475490d-4951-b1de-e7fd-05e8ccadee9c
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: afb436d6b79428439dac84ef269024219b8ea5c6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 774
+          id: Q774
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q81772$b67fe72f-41a2-7617-1458-3e02261c22f1
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Guatemalan peso
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Peso guatemalteco
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Peso guatemalteco
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Гватемальское песо
+    badges: []

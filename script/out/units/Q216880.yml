@@ -1,0 +1,444 @@
+---
+pageid: 212054
+ns: 0
+title: Q216880
+lastrevid: 622527170
+modified: '2018-01-22T09:42:12Z'
+type: item
+id: Q216880
+labels:
+  en:
+    language: en
+    value: kilogram-force
+aliases:
+  en:
+  - language: en
+    value: kgf
+  - language: en
+    value: kp
+  - language: en
+    value: kilopond
+  - language: en
+    value: kg-f
+  - language: en
+    value: kg-w
+  - language: en
+    value: kg force
+  - language: en
+    value: kilogram weight
+  - language: en
+    value: kilogram force
+  - language: en
+    value: kilogram-weight
+  - language: en
+    value: kg-force
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 61eec523f66a8023b47d574209355cb769d8989b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 15976022
+          id: Q15976022
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q216880$5b56add2-40de-37eb-4619-a685a159aad2
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 2e0ce2ac3ab88a8ee0b77281f928aeca31ee66ae
+      datavalue:
+        value: "/m/026z5d"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q216880$3D900CC4-8762-4C64-A174-0E066BB96754
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 9c9779209edf30434464319c577c5e30d5e4fae7
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1213508
+          id: Q1213508
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q216880$c7ff7017-4998-627b-4397-a438e3eb8b37
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: '0238abd297e612d131f1cbf51b27ce2814743623'
+      datavalue:
+        value: kp
+        type: string
+      datatype: string
+    type: statement
+    id: Q216880$9d7f8666-4a15-0bfa-4933-c8f787a4007f
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 7e4f46e1478c4c284ec1bad5bac00fa7c8fe9c44
+      datavalue:
+        value: kgf
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q216880$10af5eb9-4690-4b2a-0d36-ff2ec25bf025
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 60411c81441d43dbd5add17d2c5fdbacbe88f24a
+      datavalue:
+        value: кгс
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q216880$d08fe51a-4c68-d72f-86d1-4f015d85a2e2
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: c3ce8b70f855d048020cda92e213d2bb5b624ab6
+      datavalue:
+        value: кГ
+        type: string
+      datatype: string
+    type: statement
+    id: Q216880$1ef42463-4bd0-1a06-0697-260b5c8a89c3
+    rank: normal
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 62c309f8296338bd9647a7e758857137f3370310
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2657718
+          id: Q2657718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P478:
+      - snaktype: value
+        property: P478
+        hash: ab49dc08d24a45b6e4ca6b5613d63a1756aa3d7f
+        datavalue:
+          value: '5'
+          type: string
+        datatype: string
+      P304:
+      - snaktype: value
+        property: P304
+        hash: c3eae294cea423c323bba1b12749c8b59684cb37
+        datavalue:
+          value: '429'
+          type: string
+        datatype: string
+    qualifiers-order:
+    - P478
+    - P304
+    id: Q216880$D73E0E5C-8269-4C32-8107-0D7E40CA5EAB
+    rank: normal
+    references:
+    - hash: 8bc722e6797143f2ba971ee5fedaeb0a331268e6
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 4b9ead388e47f64ea2ecb2b82c5d4f516003a8d5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 1975217
+              id: Q1975217
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: b52b9c766f0614ff6f5f34f07d1a5f18a6304d26
+      datavalue:
+        value:
+          amount: "+9.80665"
+          unit: http://www.wikidata.org/entity/Q12438
+          upperBound: "+9.80665"
+          lowerBound: "+9.80665"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q216880$fe534b12-4b65-7722-7167-a007f83a35dd
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 2009020bfb8749f9c3cf624765bf45f194e7cef3
+      datavalue:
+        value: KilogramForce
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q216880$E28187A4-1EB9-430E-AE88-1DC75F03F709
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 886dda2a8ff0711f405bbf864a1821cc2e6ae501
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11402
+          id: Q11402
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q216880$3C4B2AEB-D434-46F5-8D54-B0A0D25BAF67
+    rank: normal
+  P4746:
+  - mainsnak:
+      snaktype: value
+      property: P4746
+      hash: 5467a8b713eea40a9a255424efccad5d9de9ad23
+      datavalue:
+        value: '033356'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q216880$AAFF9557-AD27-4AB2-98B8-83CE322ABD41
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: كيلو غرام ثقلي
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Quilopondiu
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Кіляграм-сіла
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Килограм-сила
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Kilopond
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Quilopond
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Kilopond
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Kilopond
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Kilopond
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Kilogram-force
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Pondo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Kilopondio
+    badges: []
+  fawiki:
+    site: fawiki
+    title: کیلوگرم-نیرو
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Kilopondi
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Kilogramme-force
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Quilogramo forza
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Kilopond
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Kilopond
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Կիլոգրամ-ուժ
+    badges: []
+  iawiki:
+    site: iawiki
+    title: Kilopondio
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Chilogrammo forza
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 重量キログラム
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Килограмм-күш
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 킬로그램힘
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Килопонд
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Kilogramkracht
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Kilopond
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Pond
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Kilogram-siła
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Quilograma-força
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Килограмм-сила
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Chilugrammu forza
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Kilopond
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Kilopond
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Kilopond
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Kilopond
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Kilogram-kuvvet
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Кілограм-сила
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 千克力
+    badges: []

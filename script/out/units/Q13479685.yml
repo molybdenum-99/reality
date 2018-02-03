@@ -1,0 +1,155 @@
+---
+pageid: 17380289
+ns: 0
+title: Q13479685
+lastrevid: 560462982
+modified: '2017-09-17T05:59:04Z'
+type: item
+id: Q13479685
+labels:
+  en:
+    language: en
+    value: millimeters of water
+aliases:
+  en:
+  - language: en
+    value: mm H2O
+  - language: en
+    value: mm wc
+  - language: en
+    value: mm wg
+  - language: en
+    value: mmH2O
+  - language: en
+    value: mm h20
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6166ea9a07e43efe7af58b089be082880e6b8c61
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10751953
+          id: Q10751953
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q13479685$14538c7f-4eca-ca96-8244-6b5a93f941dd
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 2fe3bbc6bcd1971f5efc8057f0abea59b894036d
+      datavalue:
+        value: мм вод. ст.
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P407:
+      - snaktype: value
+        property: P407
+        hash: d291ddb7cd77c94a7bd709a8395934147e0864fc
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 7737
+            id: Q7737
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P407
+    id: Q13479685$50f4def6-4884-538f-d44c-fa54c384a1e6
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: a842750f739e726ca335ead4b15e7e8baef4e904
+      datavalue:
+        value: mm wg
+        type: string
+      datatype: string
+    type: statement
+    id: Q13479685$46ccab8e-4ea7-f6d0-09b2-bf36937aa00b
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: db7a65fbe17e70bd26a3e960f3b2837f8ad84445
+      datavalue:
+        value: mm H2O
+        type: string
+      datatype: string
+    type: statement
+    id: Q13479685$0fce09fb-4acc-19ce-e732-c1f9538b6d10
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 48fb615b9abd7466e8cab791519dbade0f740ba0
+      datavalue:
+        value: mm wc
+        type: string
+      datatype: string
+    type: statement
+    id: Q13479685$cb856ace-4387-1ff9-65aa-65fd8a97bde3
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 1698b451ad63976e7508ab58a75040b604c94d2a
+      datavalue:
+        value:
+          amount: "+9.80638"
+          unit: http://www.wikidata.org/entity/Q44395
+          upperBound: "+9.80639"
+          lowerBound: "+9.80637"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q13479685$4c504ebd-4087-2ea1-69ef-c04bdb17985a
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: a876e7a41293d4f8e5ebf4ae8bf3c9ee615576b8
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 39552
+          id: Q39552
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q13479685$38429D0F-249D-4790-A4DC-17F6777E144C
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Millimeters, water gauge
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Milímetro columna de agua
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Milimetr słupa wody
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Миллиметр водяного столба
+    badges: []
+  shwiki:
+    site: shwiki
+    title: MmVS
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Millimeter vattenpelare
+    badges: []

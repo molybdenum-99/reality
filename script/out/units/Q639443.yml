@@ -1,0 +1,307 @@
+---
+pageid: 601615
+ns: 0
+title: Q639443
+lastrevid: 622987843
+modified: '2018-01-24T14:14:58Z'
+type: item
+id: Q639443
+labels:
+  en:
+    language: en
+    value: Bashkirian
+aliases: {}
+claims:
+  P156:
+  - mainsnak:
+      snaktype: value
+      property: P156
+      hash: eaca9c9cdbdbacffce5a6ea4c011653a4efdf18f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1179385
+          id: Q1179385
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q639443$87E0B0F1-20F2-4219-9AFA-189074EBDD5A
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P155:
+  - mainsnak:
+      snaktype: value
+      property: P155
+      hash: e32146c235c012be5c83c183420eb0bac2affcdc
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1068088
+          id: Q1068088
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q639443$DE0C92F2-67D3-486A-B9BF-E5A24972A468
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: bdbf4291b5adb9654e27c0ba5ab64fabfd4040c4
+      datavalue:
+        value: "/m/07p2r1"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q639443$C169AE49-C699-4C5C-8807-10050E5D3540
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 15e2ad905627732a351ea164f021e9fbafe34554
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 5710
+          id: Q5710
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q639443$b24a6bf7-4acb-df80-4930-236db2096706
+    rank: normal
+    references:
+    - hash: 5ff766dbf762881b70b7f991921d5dc087fb7c55
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 83bc8d107a104e4f53fc6879b27ffc075a7e8c90
+          datavalue:
+            value:
+              time: "+2014-10-19T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P813
+      - P143
+  P625:
+  - mainsnak:
+      snaktype: value
+      property: P625
+      hash: 01b40a9f21820b98b5835696ae85c7f8f6118bee
+      datavalue:
+        value:
+          latitude: 36.73333333
+          longitude: -114.77777778
+          altitude: 
+          precision: 0.011208935561944
+          globe: http://www.wikidata.org/entity/Q2
+        type: globecoordinate
+      datatype: globe-coordinate
+    type: statement
+    id: Q639443$FA3885C1-9F1E-42E9-879C-6510882F47E3
+    rank: normal
+    references:
+    - hash: 9cdd4f1d064faebc44a10fbd408afa604f3b89f6
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 16eef556b717b1b9c8e2599faef3af2af8537632
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 199700
+              id: Q199700
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1774498cb861c7f76e71afc94661ed9a03d8461a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1123245
+          id: Q1123245
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q639443$20cde2af-47c5-207d-9832-ca36c6e80876
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: b230ba6f73ec78c2fd8b28c19fab3a1a3e51124e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 568683
+          id: Q568683
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q639443$b5d6eefa-44c7-a6ec-f6ea-9f1dfdd61762
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 8c015ddc39f178a609712c358353949a90e16da4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 373772
+          id: Q373772
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q639443$f12d59c8-4cea-f2c3-76dc-4d2dd9fe00fd
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Bashkirium
+    badges: []
+  arwiki:
+    site: arwiki
+    title: الباشكري
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Bashkirium
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Bashkirian
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Bashkiriense
+    badges: []
+  fawiki:
+    site: fawiki
+    title: باشکیرین
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Bashkirien
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Baskíriai
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Bashkiriano
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Bashkirien
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Bashkirium
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Baszkir
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Bashkiriano
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Baškir
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Башкирський ярус
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Tầng Bashkiria
+    badges: []

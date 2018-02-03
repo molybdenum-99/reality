@@ -1,0 +1,203 @@
+---
+pageid: 2021627
+ns: 0
+title: Q2094914
+lastrevid: 624310667
+modified: '2018-01-28T22:50:53Z'
+type: item
+id: Q2094914
+labels:
+  en:
+    language: en
+    value: Sahrawi peseta
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q2094914$9463A1FE-5916-4F68-8A7C-0C798755F753
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: f0c949f8c29993c28139eb21068c38e7a91b14ab
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 240425
+          id: Q240425
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q2094914$D92F4BA2-0662-4106-B83C-5FF26A0D51D8
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 8ce1578fd7541cf37d0696c94f399b9020ec6ed9
+      datavalue:
+        value: "/m/08085t7"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2094914$CD48F6E2-F7FC-4B19-98EC-B918ACD1EE59
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 33714f0d667de6f820c59fcb37ae7d7f4634be25
+      datavalue:
+        value: 1 Peseta Sahara.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q2094914$8C533895-9010-41DD-89B4-5E4FDB2701A3
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: d245c8a4b45272ccad926c0f79226f837aba4893
+      datavalue:
+        value: EHP
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2094914$05331a47-4c9a-62b7-3afc-dd7e7ffe7c49
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: ad781f9e3d403b54c719e0a53f699d196d1d84b2
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 40362
+          id: Q40362
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2094914$65e8ed5f-4562-4dd6-efc2-f8800e70875d
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: بيزيتا صحراوية
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Saharaui-Peseta
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Sahrawi peseta
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Peseta saharaui
+    badges: []
+  fawiki:
+    site: fawiki
+    title: پزتا صحراوی
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Saharan demokraattisen arabitasavallan peseta
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Peseta sahraouie
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Peseta saharaui
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Saharska pezeta
+    badges: []
+  ladwiki:
+    site: ladwiki
+    title: Peseta saharaui
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Peseta saaraui
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Сахарская песета
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Сахравійська песета
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Sahrawi peseta
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 撒拉威比塞塔
+    badges: []

@@ -1,0 +1,389 @@
+---
+pageid: 19080788
+ns: 0
+title: Q17492392
+lastrevid: 607738155
+modified: '2017-12-12T19:15:47Z'
+type: item
+id: Q17492392
+labels:
+  en:
+    language: en
+    value: BlackCoin
+aliases: {}
+claims:
+  P275:
+  - mainsnak:
+      snaktype: value
+      property: P275
+      hash: '0447296e0e56d461ed7491de8ee2da7367b75861'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 334661
+          id: Q334661
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q17492392$2EA68915-3DE5-4DC5-A8D3-0BE62885EFAD
+    rank: normal
+  P277:
+  - mainsnak:
+      snaktype: value
+      property: P277
+      hash: 758444e877886704f4f61e0541b202183ff24691
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2407
+          id: Q2407
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q17492392$70791347-37A0-4FAA-8CDA-4D3BF1A01883
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 80151d72feae178bc698c542c7d25a7496a146c5
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 341
+          id: Q341
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q17492392$29B91DB7-00B9-4E9C-AB72-D2FFD6BBD6F8
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 16ab8cfff2957341998c927ff03e50befb65a864
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 13479982
+          id: Q13479982
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q17492392$fe4ff48c-4241-145a-4c3f-33d6f5286ecf
+    rank: normal
+  P856:
+  - mainsnak:
+      snaktype: value
+      property: P856
+      hash: de3fe151a825b5b8c20f4f0ac1ed8c078c155ec0
+      datavalue:
+        value: http://blackcoin.co/
+        type: string
+      datatype: url
+    type: statement
+    id: Q17492392$5aa27fe7-4874-52eb-8c21-2e86279f1e19
+    rank: normal
+  P1324:
+  - mainsnak:
+      snaktype: value
+      property: P1324
+      hash: 8e69499fdd84b0d43cfcf387891c934246cc6445
+      datavalue:
+        value: https://github.com/rat4/blackcoin
+        type: string
+      datatype: url
+    type: statement
+    id: Q17492392$86a21740-4f58-bfc6-d7d2-46a6ff619638
+    rank: preferred
+    references:
+    - hash: 05f7fa14e9329ce21c828d72cd044304ebe6d71c
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 3b4be99a23b0e4161c5b9b642bcb963470811e39
+          datavalue:
+            value: http://blackcoin.co/#downloads
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: d585115650774edd8f607964b11aea660fd2a371
+          datavalue:
+            value:
+              time: "+2017-01-21T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P1324
+      hash: 411689efbc5f5a7a028a2f49a2de488c321b1bd3
+      datavalue:
+        value: https://github.com/CoinBlack/blackcoin
+        type: string
+      datatype: url
+    type: statement
+    id: Q17492392$59268b4e-4e79-2ead-d81f-b6f96ed36ae5
+    rank: normal
+    references:
+    - hash: 05f7fa14e9329ce21c828d72cd044304ebe6d71c
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 3b4be99a23b0e4161c5b9b642bcb963470811e39
+          datavalue:
+            value: http://blackcoin.co/#downloads
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: d585115650774edd8f607964b11aea660fd2a371
+          datavalue:
+            value:
+              time: "+2017-01-21T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  P348:
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 5deae8bb4b1accb66c1f6461a8fabbef05ed219e
+      datavalue:
+        value: 1.2.2
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: b7d1fcf1e62edb22de8c8ef15915b87ae8bce735
+        datavalue:
+          value:
+            time: "+2016-02-18T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q17492392$0353455F-6AB9-45E7-98AA-ED023578FEE8
+    rank: preferred
+    references:
+    - hash: 179c4896ed4ee6755befb075c5b1e5876d534958
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: fce144a46d1de0f085ee0d2f80121fea605130d0
+          datavalue:
+            value: https://api.github.com/repos/rat4/blackcoin/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 79725be90fb9ccf45c1c70a96685820a90c8df8b
+      datavalue:
+        value: 1.2.1
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 053c2d49ce1f6d30061b0d80ab76c93c89545e85
+        datavalue:
+          value:
+            time: "+2015-11-08T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q17492392$C58537EF-47E1-49CB-9F0B-44E5C67EC65F
+    rank: normal
+    references:
+    - hash: 179c4896ed4ee6755befb075c5b1e5876d534958
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: fce144a46d1de0f085ee0d2f80121fea605130d0
+          datavalue:
+            value: https://api.github.com/repos/rat4/blackcoin/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 50669ba9cdf4c7b1f9242c1dc7d21a3a0ad36859
+      datavalue:
+        value: 1.2.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 9ac141c40548b76da2f22229d898ba5e00cee9ba
+        datavalue:
+          value:
+            time: "+2015-09-19T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q17492392$451C4AC9-BDBB-4DE7-A346-809C3FD2D0FD
+    rank: normal
+    references:
+    - hash: 179c4896ed4ee6755befb075c5b1e5876d534958
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 72934608391bfab78c29f35f9ba1bc5e0ddcbe1a
+          datavalue:
+            value:
+              time: "+2017-01-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: fce144a46d1de0f085ee0d2f80121fea605130d0
+          datavalue:
+            value: https://api.github.com/repos/rat4/blackcoin/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 01e12c713036a6f16349a2043f9e734a225c6203
+      datavalue:
+        value: Blackcoin
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q17492392$3C2F3BCE-24D3-4622-A8C7-F3F414BF2A76
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P2283:
+  - mainsnak:
+      snaktype: value
+      property: P2283
+      hash: 44f05fe9dd11fd000be7fb09e5bf3a760fbf7ff7
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 17083510
+          id: Q17083510
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q17492392$715ca3ba-4e73-e3e9-b462-ca322a1c47b3
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: BlackCoin
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: BlackCoin
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: BlackCoin
+    badges: []

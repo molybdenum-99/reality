@@ -1,0 +1,364 @@
+---
+pageid: 189402
+ns: 0
+title: Q191068
+lastrevid: 616007597
+modified: '2018-01-03T04:20:19Z'
+type: item
+id: Q191068
+labels:
+  en:
+    language: en
+    value: Faroese króna
+aliases:
+  en:
+  - language: en
+    value: Faroese krona
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q191068$97A3DC4F-E8C2-47EC-87CC-BCF32C8FCB74
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: e68814067d2d694411264eaaa1c656faba21c019
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 683252
+          id: Q683252
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q191068$04373FED-A5BB-4D9B-BA98-B4E6FF039E53
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 70ad265347c4d0bd71d233b85a73229b24080e2b
+      datavalue:
+        value: "/m/04wmt2"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q191068$9F06BDE3-C749-4642-AC67-BE57EA166230
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P1279:
+  - mainsnak:
+      snaktype: value
+      property: P1279
+      hash: 30d960b5774c99014249c7ce60d5075ff4c6ca48
+      datavalue:
+        value:
+          amount: "+2.3"
+          unit: http://www.wikidata.org/entity/Q11229
+          upperBound: "+2.4"
+          lowerBound: "+2.2"
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: 1277780215cd5ca03e85ca9c50830783b4fedfe1
+        datavalue:
+          value:
+            time: "+2011-00-00T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 9
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q191068$e1ce4041-4916-a4d6-f02f-3985a10bf415
+    rank: normal
+    references:
+    - hash: 88b6602c24693e8f9f12b14ba5f7c44464a74be1
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: bbdf38646beefc730da530c41aaf94052ce0ea6f
+          datavalue:
+            value: https://www.cia.gov/library/publications/the-world-factbook/fields/2092.html
+            type: string
+          datatype: url
+      snaks-order:
+      - P854
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 464abae8aaec517ee5271b2f4414e26431ce45be
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 4628
+          id: Q4628
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q191068$64a08c72-48d9-7805-f3fe-1cb71b2b7069
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: '08d087d8bbf7ec63c06e86df8ad78d27c3900dca'
+      datavalue:
+        value: Faroese króna
+        type: string
+      datatype: string
+    type: statement
+    id: Q191068$ff478565-4d28-a490-c4ba-b4fbca18447a
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: كرونة فاروية
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Фарэрская крона
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Фарэрская крона
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Farska kruna
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Corona feroesa
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Faerská koruna
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Færøske kroner
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Färöische Krone
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Faroese króna
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Feroa krono
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Corona feroesa
+    badges: []
+  fawiki:
+    site: fawiki
+    title: کرون فاروئی
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Färsaarten kruunu
+    badges: []
+  fowiki:
+    site: fowiki
+    title: Føroyska krónan
+    badges: []
+  frrwiki:
+    site: frrwiki
+    title: Färöisk krüün
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Couronne féroïenne
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Coroa feroesa
+    badges: []
+  gvwiki:
+    site: gvwiki
+    title: Króna Faaroagh
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: फ़रोसे क्रोना
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Føroyarska kruna
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Feröeri korona
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Króna Faroe
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Corona delle Fær Øer
+    badges: []
+  jawiki:
+    site: jawiki
+    title: フェロー・クローネ
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 페로 크로나
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Farerų krona
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Фарска круна
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Faeröerse kroon
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Færøysk krone
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Korona Wysp Owczych
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Coroa feroesa
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Coroană feroeză
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Фарерская крона
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Farska kruna
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Faerská koruna
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Фарска круна
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Färöisk krona
+    badges: []
+  tawiki:
+    site: tawiki
+    title: பரோயே குரோனா
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Крони Фароиз
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Faroe kronu
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Фарерська крона
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: ფარერიშ კოკეფიშ კრონი
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Króna Fàróè
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Faroe króna
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 法羅克朗
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 法羅群島克朗
+    badges: []

@@ -1,0 +1,302 @@
+---
+pageid: 25922023
+ns: 0
+title: Q23925413
+lastrevid: 623233791
+modified: '2018-01-25T09:57:31Z'
+type: item
+id: Q23925413
+labels:
+  en:
+    language: en
+    value: gallon
+aliases:
+  en:
+  - language: en
+    value: US gallon
+  - language: en
+    value: U.S. wet gallon
+  - language: en
+    value: liquid gallon
+  - language: en
+    value: gal
+claims:
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: b69cec127ed573f4811352620dc08288f17ecc06
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 178413
+          id: Q178413
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q23925413$cff8759c-4f0e-aaef-be91-b8ce4d4e8cfd
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6e3da81891b6fba54d9ac8088595a4b05e5a5f95
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1302471
+          id: Q1302471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q23925413$b02e620c-40f9-aba3-9f10-5370d868535a
+    rank: normal
+    references:
+    - hash: a8eb7c59cfd3dad36d64a741ae60cffc91eba680
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: 7e26979543e69459fb3a08370aae18a2a201db21
+          datavalue:
+            value: 3-4.B.h
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 36ab0628ee5f81c9ecd1ffe82b2b9bece23d0a2b
+      datavalue:
+        value: gal
+        type: string
+      datatype: string
+    type: statement
+    id: Q23925413$78c7ba38-4c68-f675-4bbe-4559f2789ec6
+    rank: normal
+    references:
+    - hash: a8eb7c59cfd3dad36d64a741ae60cffc91eba680
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: 7e26979543e69459fb3a08370aae18a2a201db21
+          datavalue:
+            value: 3-4.B.h
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 63b7caecaf1853ba52c526d041c8d7cca5963f06
+      datavalue:
+        value:
+          amount: "+0.003785412"
+          unit: http://www.wikidata.org/entity/Q25517
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q23925413$ef8a82c8-4353-0868-1af1-99ff7ce79fb6
+    rank: normal
+    references:
+    - hash: a8eb7c59cfd3dad36d64a741ae60cffc91eba680
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: 7e26979543e69459fb3a08370aae18a2a201db21
+          datavalue:
+            value: 3-4.B.h
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 3c1faafbe89999594e10dd1accf0762d17a3c280
+      datavalue:
+        value:
+          amount: "+231"
+          unit: http://www.wikidata.org/entity/Q2140397
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q23925413$2d4602e3-4f50-40a2-1988-4ab939770261
+    rank: normal
+    references:
+    - hash: a8eb7c59cfd3dad36d64a741ae60cffc91eba680
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: 7e26979543e69459fb3a08370aae18a2a201db21
+          datavalue:
+            value: 3-4.B.h
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 87f2c78a6fb3236f531b781cf85f5697076085e2
+      datavalue:
+        value:
+          amount: "+0.832674"
+          unit: http://www.wikidata.org/entity/Q23925410
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q23925413$566ff45e-4974-0c40-dcbb-92e27e531ef4
+    rank: normal
+    references:
+    - hash: a8eb7c59cfd3dad36d64a741ae60cffc91eba680
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: 7e26979543e69459fb3a08370aae18a2a201db21
+          datavalue:
+            value: 3-4.B.h
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: ece6f6e6968e83ab4ea375829a8c5694d93dff51
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 39297
+          id: Q39297
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q23925413$75eaeed7-4681-cef4-dcd8-746e3a53657b
+    rank: normal
+    references:
+    - hash: a8eb7c59cfd3dad36d64a741ae60cffc91eba680
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: 7e26979543e69459fb3a08370aae18a2a201db21
+          datavalue:
+            value: 3-4.B.h
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: '095b22e5c47a47f7d5e84e00899837038be11bd4'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 26711932
+          id: Q26711932
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P958:
+      - snaktype: value
+        property: P958
+        hash: 7e26979543e69459fb3a08370aae18a2a201db21
+        datavalue:
+          value: 3-4.B.h
+          type: string
+        datatype: string
+    qualifiers-order:
+    - P958
+    id: Q23925413$20402ccc-4e22-7b04-a6f5-39adeeb8d391
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: US gallon
+    badges: []

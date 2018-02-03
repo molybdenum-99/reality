@@ -1,0 +1,212 @@
+---
+pageid: 2219794
+ns: 0
+title: Q2297968
+lastrevid: 491636973
+modified: '2017-05-28T20:44:25Z'
+type: item
+id: Q2297968
+labels:
+  en:
+    language: en
+    value: Zambian pound
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q2297968$7b566908-4698-c1db-3530-8fbb41140ad1
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 48dad11e4d75aa74b8b0904f85a3d307400ea278
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 339180
+          id: Q339180
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2297968$c9874053-4e8f-5efa-14f7-6e7fd066c9db
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: e4db391782402778ab2d4d3059b75bf156906abd
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 953
+          id: Q953
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q2297968$5ce1843c-4828-d313-91bd-28efacd3d9ea
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 204b4d79fd532d9d8b12eb3b64e889b0d48666e6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 806694
+          id: Q806694
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q2297968$57AE5BBC-3590-4125-B43E-86E7ADBAC6E1
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 74c98e4f62d721378034ae4836e1750db65b85a1
+      datavalue:
+        value: "/m/09czd6"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2297968$C2F3179C-594A-4F1C-91BE-FBAED8C2932B
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P580:
+  - mainsnak:
+      snaktype: value
+      property: P580
+      hash: 88a1cb3c9d039a1967583814b315375727468705
+      datavalue:
+        value:
+          time: "+1964-10-24T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 11
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q2297968$c68e85c6-4250-3452-507c-656a33d4ecba
+    rank: normal
+  P582:
+  - mainsnak:
+      snaktype: value
+      property: P582
+      hash: b3183fee012ea3672fe08c340f25398e728ea6a6
+      datavalue:
+        value:
+          time: "+1968-01-16T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 11
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q2297968$d4d1d926-4fa6-6233-a943-d26f223d688b
+    rank: normal
+  P1365:
+  - mainsnak:
+      snaktype: value
+      property: P1365
+      hash: 2cf43ef2a5ea6452e4297361a48c4c78a0f1bd58
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2616644
+          id: Q2616644
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2297968$a8cb8600-4011-b5f0-1385-8cb09a3306ac
+    rank: normal
+sitelinks:
+  elwiki:
+    site: elwiki
+    title: Λίρα της Ζάμπιας
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Zambian pound
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Libra zambiana
+    badges: []
+  fawiki:
+    site: fawiki
+    title: پوند زامبیا
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Sterlina zambiana
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ザンビア・ポンド
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Замбийский фунт
+    badges: []

@@ -1,0 +1,113 @@
+---
+pageid: 1603401
+ns: 0
+title: Q1669865
+lastrevid: 292858173
+modified: '2016-01-17T16:39:37Z'
+type: item
+id: Q1669865
+labels:
+  en:
+    language: en
+    value: Masu
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: e8e244a5b298c1bf0af4fceb35467d41bb10de98
+      datavalue:
+        value: "/m/0b32p0"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1669865$F9AFC357-7941-4F54-A79C-58CF3FAAF089
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6e3da81891b6fba54d9ac8088595a4b05e5a5f95
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1302471
+          id: Q1302471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1669865$A26326F2-49BE-4777-A1E4-661A7A15BDB9
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 857fb049e18c4aad0d0a5f030b8625a103494123
+      datavalue:
+        value: Masu (containers)
+        type: string
+      datatype: string
+    type: statement
+    id: Q1669865$7D78AD43-8DF2-4C1F-BF4B-79B0DD154E0A
+    rank: normal
+sitelinks:
+  commonswiki:
+    site: commonswiki
+    title: Category:Masu (containers)
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Masu
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Masu (measurement)
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Masu
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 枡
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Masu
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Masu
+    badges: []

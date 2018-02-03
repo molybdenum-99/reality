@@ -1,0 +1,111 @@
+---
+pageid: 23018314
+ns: 0
+title: Q20966455
+lastrevid: 611689609
+modified: '2017-12-21T08:47:19Z'
+type: item
+id: Q20966455
+labels:
+  en:
+    language: en
+    value: joule per mole-kelvin
+aliases:
+  en:
+  - language: en
+    value: J mol⁻¹ K⁻¹
+  - language: en
+    value: J K⁻¹ mol⁻¹
+claims:
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: f21f713b699815f548970bb42a03eafb3d0ab1d4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 179388
+          id: Q179388
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q20966455$f862c837-455f-b137-4748-81b133aad2ba
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: a93afca8d746ec233e34b1a05ae2fed420645557
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 45721316
+          id: Q45721316
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q20966455$439633e6-4436-8eaf-3bbe-c6e524d5483e
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 50afdc16346d8687f53963f614e8d645419488a0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 208469
+          id: Q208469
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q20966455$a4441865-4248-a85c-a759-73a8ac61b037
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 52daef7b094e94c298935a2928b70619d679e888
+      datavalue:
+        value: J/(mol K)
+        type: string
+      datatype: string
+    type: statement
+    id: Q20966455$6e65e04b-4ddd-9e50-a331-ef81bcc1b01c
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: f20608368e2ead43a1bb085eb68edd2ebd338b69
+      datavalue:
+        value: J/(mol·K)
+        type: string
+      datatype: string
+    type: statement
+    id: Q20966455$1bf82156-4a4e-870d-f312-e789eafd859d
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: dded518e5ab99fbc0834cd79b5a243409d42df66
+      datavalue:
+        value: joule_per_kelvin_mole
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q20966455$DA1ED2B4-0775-4E56-ADE8-FBAD3B1AF6FE
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 9f3194df3a4a409512ee55a6c8016855547ef57d
+      datavalue:
+        value: JoulePerMoleKelvin
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q20966455$be137ab1-40a9-0ce6-7402-0df280f88cd5
+    rank: normal
+sitelinks: {}

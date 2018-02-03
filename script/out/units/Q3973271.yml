@@ -1,0 +1,409 @@
+---
+pageid: 3788504
+ns: 0
+title: Q3973271
+lastrevid: 618469044
+modified: '2018-01-10T11:58:33Z'
+type: item
+id: Q3973271
+labels:
+  en:
+    language: en
+    value: Palestine pound
+aliases: {}
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: c935f947b778eccbc69e2568197ad95898ce6ee9
+      datavalue:
+        value: Palestine pound
+        type: string
+      datatype: string
+    type: statement
+    id: Q3973271$0314516b-4a95-8253-1ddc-ca4dd75a793c
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3973271$09548FE3-4916-4EDC-B536-6252AE1535B1
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 48dad11e4d75aa74b8b0904f85a3d307400ea278
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 339180
+          id: Q339180
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3973271$63d1b7dc-491a-223e-d997-479d2ddebe97
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: b37a583f14dc7a9defce31fa46a0edaa93b30822
+      datavalue:
+        value: "/m/09sxh9"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3973271$EC408303-AAD1-4872-A22D-4D86884C3A76
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 7f4a67cc582aa680ebccc641e09a5c5280bee14f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 193714
+          id: Q193714
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P580:
+      - snaktype: value
+        property: P580
+        hash: 11168340279157634262c7e5282ede4e9f3f6dfb
+        datavalue:
+          value:
+            time: "+1927-00-00T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 9
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      P582:
+      - snaktype: value
+        property: P582
+        hash: 3e328ddf41c2697c4f1e9053f959f8b177efef48
+        datavalue:
+          value:
+            time: "+1948-05-14T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P580
+    - P582
+    id: Q3973271$18c431a9-482b-5684-9544-7f9f1ff74f3a
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 5a6dca24746cad49a3ff9d5d6f6ce8d2fbde41fb
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1121819
+          id: Q1121819
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P580:
+      - snaktype: value
+        property: P580
+        hash: 11168340279157634262c7e5282ede4e9f3f6dfb
+        datavalue:
+          value:
+            time: "+1927-00-00T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 9
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      P582:
+      - snaktype: value
+        property: P582
+        hash: 609dce7d03a375cd4c0b142ff13d5b7aa80662da
+        datavalue:
+          value:
+            time: "+1949-00-00T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 9
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P580
+    - P582
+    id: Q3973271$757b9696-47d1-d415-a59a-cbd918e5b573
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 5a2b055dad41ad2106c8f62c9ac44107a651c67b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 36678
+          id: Q36678
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P580:
+      - snaktype: value
+        property: P580
+        hash: 11168340279157634262c7e5282ede4e9f3f6dfb
+        datavalue:
+          value:
+            time: "+1927-00-00T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 9
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      P582:
+      - snaktype: value
+        property: P582
+        hash: f688a3af42e5d3d6d509da0cb6db1cf36e66f78e
+        datavalue:
+          value:
+            time: "+1950-00-00T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 9
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P580
+    - P582
+    id: Q3973271$7ed9aa74-4435-df53-03fc-3fced8446c4b
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: cfa17a0e1af2fd20826d7649de8b95ee2f8a6268
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 801
+          id: Q801
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P580:
+      - snaktype: value
+        property: P580
+        hash: 48e3991c170dc9bb6f7f79f8ae238ef2338316c2
+        datavalue:
+          value:
+            time: "+1948-05-15T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      P582:
+      - snaktype: value
+        property: P582
+        hash: 577518c4fcdc708f8f38ec488e80a55b99353d61
+        datavalue:
+          value:
+            time: "+1952-08-00T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 10
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P580
+    - P582
+    id: Q3973271$06fbcef8-49dc-d111-3996-6bd1486fe1cd
+    rank: normal
+  P580:
+  - mainsnak:
+      snaktype: value
+      property: P580
+      hash: 11168340279157634262c7e5282ede4e9f3f6dfb
+      datavalue:
+        value:
+          time: "+1927-00-00T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 9
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q3973271$01b9c466-47d6-17ca-65a5-21c7a882310f
+    rank: normal
+  P582:
+  - mainsnak:
+      snaktype: value
+      property: P582
+      hash: f688a3af42e5d3d6d509da0cb6db1cf36e66f78e
+      datavalue:
+        value:
+          time: "+1950-00-00T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 9
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q3973271$20fe4338-449b-f3f1-c952-7a3ba52d7c2d
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: b41c48a5d5154fbf8607c91070090cf6455f1f0c
+      datavalue:
+        value: PalestineP7b-1Pound-1929-donatedtj f.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    qualifiers:
+      P2096:
+      - snaktype: value
+        property: P2096
+        hash: 8020ecfde888610b3ca47da8235c41315066ed28
+        datavalue:
+          value:
+            text: Bitllet d'1 lliura palestina del 1929
+            language: ca
+          type: monolingualtext
+        datatype: monolingualtext
+    qualifiers-order:
+    - P2096
+    id: Q3973271$f646842a-4f32-29da-46d8-8740fe2b9d81
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: جنيه فلسطيني
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Lliura palestina
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Palestinská libra
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Palestine pound
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Libra palestina
+    badges: []
+  fawiki:
+    site: fawiki
+    title: پاوند فلسطین
+    badges: []
+  hewiki:
+    site: hewiki
+    title: לירה ארץ ישראלית
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Sterlina palestinese
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Palestijnse pond
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Libra palestina
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Liră palestiniană
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Палестинский фунт
+    badges: []

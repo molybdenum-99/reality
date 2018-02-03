@@ -1,0 +1,200 @@
+---
+pageid: 6853680
+ns: 0
+title: Q6982035
+lastrevid: 621705828
+modified: '2018-01-19T14:45:35Z'
+type: item
+id: Q6982035
+labels:
+  en:
+    language: en
+    value: megawatt
+aliases:
+  en:
+  - language: en
+    value: MW
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 116ccff192c7c9c7ac8717e13172125bb454be6b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10387689
+          id: Q10387689
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q6982035$c78350a6-4c66-5347-7e60-e278cc92d1ec
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: ea67479976d9a0fb9e1fbd90680894e9e285f693
+      datavalue:
+        value: MW
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+      P407:
+      - snaktype: value
+        property: P407
+        hash: c757ac6da9712097bc0871742564687f009a3f64
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 20923490
+            id: Q20923490
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    - P407
+    id: q6982035$2f82776e-4b87-9222-0af4-fbcdda9d0b8d
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 8edacee9bc62f75d7fa00ba1ec878c70755a6fc7
+      datavalue:
+        value: МВт
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P407:
+      - snaktype: value
+        property: P407
+        hash: d291ddb7cd77c94a7bd709a8395934147e0864fc
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 7737
+            id: Q7737
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P407
+    id: Q6982035$5f12cc03-4957-54ae-1fe1-4ffac231ed0e
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 2f17d197f14200b5608d4dabfd987e0f086c1a2e
+      datavalue:
+        value:
+          amount: "+1000000"
+          unit: http://www.wikidata.org/entity/Q25236
+          upperBound: "+1000000"
+          lowerBound: "+1000000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q6982035$f6ed6fa7-412f-1068-6e05-78dbd01b9344
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: f29b8b07db93cd5478d54722f8f558313fa40a04
+      datavalue:
+        value: megawatt
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q6982035$02DE1E2E-D9B3-440C-9514-664A2177DF20
+    rank: normal
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: '08fc0bf52f2ab17be31887caf8e3f8c4805572df'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 107205
+          id: Q107205
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q6982035$44ed6f4f-4f91-b6fd-f439-8649a3695f5b
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: f28c9b9721103347d93d1a6da78c475244747a7b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 25236
+          id: Q25236
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q6982035$48df3360-404b-0f89-57ae-1142991701c8
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 67975d1096e3104e0d615b341d0c2a8dc15923c1
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 25342
+          id: Q25342
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q6982035$45fa6d12-4f69-2688-7325-d4d69cab19a7
+    rank: normal
+  P4746:
+  - mainsnak:
+      snaktype: value
+      property: P4746
+      hash: b2f35e9f818521fc7db24c70f3a69eb071aaa10b
+      datavalue:
+        value: '015820'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q6982035$7A5D9FC0-8B88-4BF3-A562-42C4B86B8EC0
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Megawatt
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Megavatio
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Megawatt
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Megawatt
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Megawatt
+    badges: []

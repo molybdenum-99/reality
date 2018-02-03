@@ -1,0 +1,89 @@
+---
+pageid: 883701
+ns: 0
+title: Q933427
+lastrevid: 468776252
+modified: '2017-03-20T21:37:51Z'
+type: item
+id: Q933427
+labels:
+  en:
+    language: en
+    value: Bubnoff unit
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 6830156777c568563211589ef077d0ee4c871104
+      datavalue:
+        value: "/m/02w557z"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q933427$39D10BC9-E216-444C-82CD-21B3269F65E4
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: b4f9c836c43d6700bbb61b79f9c7e714c1b52c93
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 15222637
+          id: Q15222637
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q933427$0852c5e4-482a-8634-0d4d-631edad9ada3
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Bubnoff-Einheit
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Bubnoff unit
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Jednostka Bubnoffa
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Одиниця Бубнова
+    badges: []

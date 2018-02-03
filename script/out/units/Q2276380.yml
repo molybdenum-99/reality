@@ -1,0 +1,147 @@
+---
+pageid: 2198803
+ns: 0
+title: Q2276380
+lastrevid: 537528673
+modified: '2017-08-14T07:42:12Z'
+type: item
+id: Q2276380
+labels:
+  en:
+    language: en
+    value: imperial horsepower
+aliases:
+  en:
+  - language: en
+    value: bhp
+  - language: en
+    value: mechanical horsepower
+  - language: en
+    value: British horsepower
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 116ccff192c7c9c7ac8717e13172125bb454be6b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10387689
+          id: Q10387689
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2276380$56b51899-4441-89c3-e4e4-47d42a2aa56d
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: f1fa375c12924bd2e1484b687acaf955e1d1ce66
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 641227
+          id: Q641227
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2276380$96f4ad7f-4765-ead7-df6d-8f3020a63835
+    rank: normal
+  P1889:
+  - mainsnak:
+      snaktype: value
+      property: P1889
+      hash: 4d19c34f31bfae9c15f75605f43d8a19c56fcc9e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 160857
+          id: Q160857
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2276380$32e2759b-4769-718b-1ca4-b6b033693f5d
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: ae637afa799b99ad0ec878b4535a2b6cce8e6b15
+      datavalue:
+        value:
+          amount: "+745.7"
+          unit: http://www.wikidata.org/entity/Q25236
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q2276380$3443adc7-4935-e9c5-47b1-a49a56610f42
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 6f7e11c0d10252bf5dde9d7399e177472a307c20
+      datavalue:
+        value:
+          amount: "+1.014"
+          unit: http://www.wikidata.org/entity/Q160857
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q2276380$3b76a20b-43f3-c2d9-53f4-cf9d97712d29
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 9b08ac479d9aa5dd6cf46d9aa8124d52960692f4
+      datavalue:
+        value: HP
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P407:
+      - snaktype: value
+        property: P407
+        hash: ffe70325d10cfc55f0dca807ed80ca0b5b97c472
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 1321
+            id: Q1321
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P407
+    id: Q2276380$8fee4415-452a-4986-c8e1-759d0850e16c
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 67975d1096e3104e0d615b341d0c2a8dc15923c1
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 25342
+          id: Q25342
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2276380$84c75b72-4047-5e15-45fb-b8a44eb47c41
+    rank: normal
+sitelinks:
+  eswiki:
+    site: eswiki
+    title: Caballo de fuerza
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Cavallo vapore britannico
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Koń parowy
+    badges: []

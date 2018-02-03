@@ -1,0 +1,131 @@
+---
+pageid: 868723
+ns: 0
+title: Q918294
+lastrevid: 618460623
+modified: '2018-01-10T11:29:52Z'
+type: item
+id: Q918294
+labels:
+  en:
+    language: en
+    value: East African rupee
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 2f5d3718e5ec6640bf9a622bf89eb274990642eb
+      datavalue:
+        value: "/m/0922n0"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q918294$98047B73-A0BA-4690-A1CD-C3CDD3DE9923
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q918294$77C6A087-D5DA-4F2D-BB07-678044364DE8
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: a44880420787fb348836dc51d3babc5227c4ef7e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 145
+          id: Q145
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q918294$e640419e-42c5-2136-1909-48fbf820158d
+    rank: normal
+  P1001:
+  - mainsnak:
+      snaktype: value
+      property: P1001
+      hash: 4bfd32c6091d6be6985f0d9bb5575bf7da81dab4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 876185
+          id: Q876185
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q918294$36808933-4d09-5ebc-b9a8-f7528f7f44fe
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Britische Ostafrikanische Rupie
+    badges: []
+  enwiki:
+    site: enwiki
+    title: East African rupee
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Rupia de África del Este
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Itä-Afrikan rupia
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Roupie est-africaine
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Восточноафриканская рупия
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Східноафриканська рупія
+    badges: []

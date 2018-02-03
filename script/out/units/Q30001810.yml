@@ -1,0 +1,97 @@
+---
+pageid: 31616281
+ns: 0
+title: Q30001810
+lastrevid: 587442499
+modified: '2017-11-01T15:39:04Z'
+type: item
+id: Q30001810
+labels:
+  en:
+    language: en
+    value: attoampere
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q30001810$85B051FD-21A2-4A2B-B4C6-657B7CE7DB6D
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: dd7d1a617decb7fab215de19817e4b866ae37097
+      datavalue:
+        value: attoampere
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q30001810$9FB3AFB8-5903-47E1-A1AD-7A796D58D2F0
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 15a941f7e0daf85cfb5720ee4550f9c2942ff98c
+      datavalue:
+        value:
+          amount: "+0.000000000000000001"
+          unit: http://www.wikidata.org/entity/Q25272
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q30001810$598a5c42-4329-c5ef-1c16-912ad6fb35ae
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 2ae3b6a3725751cab9352945af36282b89b663fd
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 29996
+          id: Q29996
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q30001810$d9d24a54-4007-1fa4-599d-8200ddf7b56e
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: acdd567b8c5b734bc94270a2c9289a658e031b42
+      datavalue:
+        value: aA
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q30001810$826ad85d-44b9-61d8-d72c-c20dc15223ce
+    rank: normal
+sitelinks: {}

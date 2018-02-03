@@ -1,0 +1,370 @@
+---
+pageid: 202520
+ns: 0
+title: Q206243
+lastrevid: 623343276
+modified: '2018-01-25T15:21:14Z'
+type: item
+id: Q206243
+labels:
+  en:
+    language: en
+    value: Ethiopian birr
+aliases:
+  en:
+  - language: en
+    value: Ethiopian dollar
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: dff9d6d84722931448a188cc51c335ea117ba062
+      datavalue:
+        value: Banknotes of Ethiopia
+        type: string
+      datatype: string
+    type: statement
+    id: q206243$5542008B-C9DB-4EDD-9811-EF381956D005
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q206243$48831E0B-25DA-4856-BD22-11025B8B573E
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 21f1dac9123cee7abcf804ad862a10a66c499c3d
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1967889
+          id: Q1967889
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q206243$A1683E1E-2C74-4EA0-9C02-ED5DA0000900
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 9d5b6d0f2bc10c195fcb4465f397318609b417fe
+      datavalue:
+        value: ETB
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q206243$07c7fdfd-4e5c-c8e5-da73-c95f7078d1f4
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: b7fd83f62b560c3e1c9b9dcb1f48cb86e4a5513a
+      datavalue:
+        value: "/m/02_mbk"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q206243$BE3DA9D8-A99A-4A96-B34D-B6BFE69F2241
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 56496dbdb38921ad67605189d78cab9018454623
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 115
+          id: Q115
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q206243$0f61d9a4-4f76-37fb-1818-d8b40eeb1077
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: a886f60f69ff3ac915c10b2c8ef2e5665c52cfa1
+      datavalue:
+        value: Ethiopan Birr.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q206243$3DECD697-5CF4-4F7B-86A7-2B83348760B9
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: d13ab8ec8c73d0ab1b185c9695403fb72e2fa774
+      datavalue:
+        value: '500163'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q206243$7A9E951E-7E17-4020-9F76-180EF2A86264
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Birr
+    badges: []
+  amwiki:
+    site: amwiki
+    title: የኢትዮጵያ ብር
+    badges: []
+  arwiki:
+    site: arwiki
+    title: بير إثيوبي
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Этыёпскі быр
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Эфіопскі быр
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Етиопски бир
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: ইথিওপিয়ান বির
+    badges: []
+  brwiki:
+    site: brwiki
+    title: Birr
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Birr
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Etiopský birr
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Äthiopischer Birr
+    badges: []
+  diqwiki:
+    site: diqwiki
+    title: Birr
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Μπιρ
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Ethiopian birr
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Etiopa birro
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Birr etíope
+    badges: []
+  fawiki:
+    site: fawiki
+    title: بیر اتیوپی
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Etiopian birr
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Birr
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: बिर्र
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Etiopski bir
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Etióp birr
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Birr Ethiopia
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Birr etiope
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ブル (通貨)
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 에티오피아 비르
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Эфиопияса быр
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Etiopijos biras
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: इथियोपियन बिर्र
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Birr Habsyah
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Ethiopische birr
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Etiopisk birr
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Etiopisk birr
+    badges: []
+  nsowiki:
+    site: nsowiki
+    title: Ethiopian birr
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Birr (waluta)
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Birr etíope
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Эфиопский быр
+    badges: []
+  sowiki:
+    site: sowiki
+    title: Birr (lacag)
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Етиопски бир
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Birr
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Birr ng Ethiopia
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Birr
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Ефіопський бир
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Birr
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Ethiopia birr
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 衣索比亞比爾
+    badges: []

@@ -1,0 +1,143 @@
+---
+pageid: 1736533
+ns: 0
+title: Q1805331
+lastrevid: 615569499
+modified: '2018-01-01T16:55:15Z'
+type: item
+id: Q1805331
+labels:
+  en:
+    language: en
+    value: langley
+aliases:
+  en:
+  - language: en
+    value: Ly
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: ef6008fffe26e967f54b0565ef86c202b3dae740
+      datavalue:
+        value: "/m/04ks5q"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1805331$EC8B09F3-82C0-4CA0-948F-043794DF18FC
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1805331$e41848f0-47fd-bed0-05a3-5a47eb593a42
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: eb50ad65e84557bb6e45e0e16ddd4d281b947ecc
+      datavalue:
+        value: Ly
+        type: string
+      datatype: string
+    type: statement
+    id: Q1805331$3fcc6aad-4592-cd2a-fe95-4a7c96d777e1
+    rank: normal
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: a99429eb8474c095518b5d0ab94f2210b66b1958
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 357961
+          id: Q357961
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1805331$259368e9-4c19-8bac-dd1b-543652c5ea09
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: لانغلي (وحدة قياس)
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Langley (Einheit)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Langley (unit)
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Langley
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Langley (mittayksikkö)
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Langley (unité)
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Langley (unità di misura)
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Langley (eenheid)
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Лэнгли (единица измерения)
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 兰利 (单位)
+    badges: []

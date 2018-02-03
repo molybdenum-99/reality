@@ -1,0 +1,276 @@
+---
+pageid: 252360
+ns: 0
+title: Q260126
+lastrevid: 618716630
+modified: '2018-01-11T07:27:20Z'
+type: item
+id: Q260126
+labels:
+  en:
+    language: en
+    value: Roentgen equivalent man
+aliases:
+  en:
+  - language: en
+    value: BER
+  - language: en
+    value: rem
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: c9076960c5a35d84b9e49aac1c2d75be3f0b0ede
+      datavalue:
+        value: "/m/02q0jw"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q260126$FE2D6A39-74C8-4549-990A-D701BA7F8D59
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q260126$e55e0e7b-4eb7-38c3-410c-4686fcde2fed
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: ee3e6895736e3410b945ea7953234610b2febf25
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 256106
+          id: Q256106
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q260126$ea207ee1-43b2-5da6-7359-14fda78d6e7a
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: a80c6ebe04bbd0b1e5b6a4f86f7c8a64cb2ae3de
+      datavalue:
+        value:
+          amount: "+0.01"
+          unit: http://www.wikidata.org/entity/Q103246
+          upperBound: "+0.01"
+          lowerBound: "+0.01"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q260126$b5c558c7-4618-bcbb-bdfb-d7c694ef880a
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: a01d0e7722bbde9084b36dd773b7eb9dd645819a
+      datavalue:
+        value: rem
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q260126$815fcbab-4037-2410-1fd5-15717a22c6eb
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 8f44374b50eaad0020890c04c0feb0d28d63547b
+      datavalue:
+        value: бэр
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+      P407:
+      - snaktype: value
+        property: P407
+        hash: d291ddb7cd77c94a7bd709a8395934147e0864fc
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 7737
+            id: Q7737
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    - P407
+    id: Q260126$df1db132-40e1-eb38-9448-0c0dffe25676
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 0eec95a8f22d3895b87b90268cdbc5a4137aad50
+      datavalue:
+        value: rem
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q260126$6C1C66CB-9E56-47B1-8417-998CE148CFE1
+    rank: normal
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Rem (física)
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Rem (jednotka)
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Rem (enhed)
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Rem (Einheit)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Roentgen equivalent man
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Rem (física)
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Rem (fisika)
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Rem
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Röntgen equivalent man
+    badges: []
+  gawiki:
+    site: gawiki
+    title: Reim
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Rem (jedinica)
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Röntgen equivalent man
+    badges: []
+  jawiki:
+    site: jawiki
+    title: レム
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 인체 뢴트겐 당량
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Rem (straling)
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Eininga rem
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Rem (jednostka)
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Rem (física)
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Бэр (единица измерения)
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Rem (jedinica)
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Бер
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Ber
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 雷姆 (单位)
+    badges: []

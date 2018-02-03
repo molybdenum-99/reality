@@ -1,0 +1,309 @@
+---
+pageid: 2486741
+ns: 0
+title: Q2577141
+lastrevid: 607736272
+modified: '2017-12-12T19:06:28Z'
+type: item
+id: Q2577141
+labels:
+  en:
+    language: en
+    value: Namecoin
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 16ab8cfff2957341998c927ff03e50befb65a864
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 13479982
+          id: Q13479982
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2577141$111a0029-4c0d-ec56-714b-3f676f3fad45
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 8363a996a6a72ab45b7d44cf40d8dd70023c4cd5
+      datavalue:
+        value: Namecoin
+        type: string
+      datatype: string
+    type: statement
+    id: q2577141$12105030-F011-4363-B736-9AFDE7421210
+    rank: normal
+  P856:
+  - mainsnak:
+      snaktype: value
+      property: P856
+      hash: 172fe5c93a983d14f45d6b2e002bc2c4fa7b6970
+      datavalue:
+        value: https://www.namecoin.org
+        type: string
+      datatype: url
+    type: statement
+    id: Q2577141$ca9a9cb4-42ce-d5a5-56e2-c66216a966d3
+    rank: normal
+    references:
+    - hash: 79d4637313ea36b258f91b36d63a360e6584fde6
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 3a4b0ca2a8fdffce628bddae0dc3fbd7b6d2a854
+          datavalue:
+            value: https://github.com/namecoin/namecoin.org
+            type: string
+          datatype: url
+      snaks-order:
+      - P854
+  P275:
+  - mainsnak:
+      snaktype: value
+      property: P275
+      hash: '0447296e0e56d461ed7491de8ee2da7367b75861'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 334661
+          id: Q334661
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2577141$22095778-6D26-41F5-BE18-64B4BB3053FA
+    rank: normal
+  P277:
+  - mainsnak:
+      snaktype: value
+      property: P277
+      hash: 758444e877886704f4f61e0541b202183ff24691
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2407
+          id: Q2407
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2577141$C00A368C-4B3B-4C6F-B923-A728079AEF97
+    rank: normal
+  P154:
+  - mainsnak:
+      snaktype: value
+      property: P154
+      hash: db39f11ea7657764453fa889046f9c5e305eae20
+      datavalue:
+        value: Original Namecoin Logo.png
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q2577141$19D9DD79-4F93-470E-874A-4AD96AF4A267
+    rank: normal
+  P577:
+  - mainsnak:
+      snaktype: value
+      property: P577
+      hash: cdc5de3cd488639b0db264d64955db0dcc7ca9c9
+      datavalue:
+        value:
+          time: "+2011-04-18T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 11
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q2577141$28438a45-483e-476e-1316-27ffdaa5f83d
+    rank: normal
+  P3381:
+  - mainsnak:
+      snaktype: value
+      property: P3381
+      hash: 5e830ba8c62035cbfe448bb340b004c83583c4b4
+      datavalue:
+        value: Namecoin
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2577141$32FDD95B-9575-4CF1-97E3-9FB71336FF09
+    rank: normal
+  P306:
+  - mainsnak:
+      snaktype: value
+      property: P306
+      hash: 372b598ec10a56c64b0db84314aeca97e8818e67
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1406
+          id: Q1406
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2577141$58fbdc41-48d1-2393-4987-1d403750457f
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  - mainsnak:
+      snaktype: value
+      property: P306
+      hash: 01b345a882853b4326b5d884c140d3fffb0ac0ae
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 388
+          id: Q388
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2577141$605b8fde-444e-918e-e67d-fde3d224c936
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P348:
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 3a367064bbd1454c25a834f7ce9c3fb79f691b19
+      datavalue:
+        value: 0.3.80 (18 декабря 2014)
+        type: string
+      datatype: string
+    type: statement
+    id: Q2577141$df06faa5-4756-5a4d-8af1-3f5c2fae9a21
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P571:
+  - mainsnak:
+      snaktype: value
+      property: P571
+      hash: '08a354d3a5d9f71de3a63f8c98ebb7002a069ffd'
+      datavalue:
+        value:
+          time: "+2011-04-18T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 11
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q2577141$e698466b-449d-029b-5be6-4d6810f1791d
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P2283:
+  - mainsnak:
+      snaktype: value
+      property: P2283
+      hash: 84efc95c1e17d3aafae2432b08212113435982b6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 7249984
+          id: Q7249984
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2577141$d5e4cfeb-4691-9098-c3b9-f7d865ecb3ac
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Namecoin
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Namecoin
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Namecoin
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Namecoin
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Namecoin
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Namecoin
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Namecoin
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Namecoin
+    badges: []

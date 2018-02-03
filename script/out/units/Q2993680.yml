@@ -1,0 +1,147 @@
+---
+pageid: 2862571
+ns: 0
+title: Q2993680
+lastrevid: 612531998
+modified: '2017-12-22T23:04:28Z'
+type: item
+id: Q2993680
+labels:
+  en:
+    language: en
+    value: fortnight
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 8ac66ed1987f21c4adc6d165f75437f371454185
+      datavalue:
+        value: "/m/017cn_"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2993680$DEEC6469-5522-4BBE-9D6B-05FFBD5126D5
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 98a1e85b80bda7ff493c25a6b805599da715c077
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1790144
+          id: Q1790144
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2993680$23771a1b-435a-6e19-b8bc-1d8c79fa9c9d
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: ff8c80092e6ec12122c6deb740f5979e0e7fbf20
+      datavalue:
+        value:
+          amount: "+2"
+          unit: http://www.wikidata.org/entity/Q23387
+          upperBound: "+2"
+          lowerBound: "+2"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q2993680$2353231d-4107-3906-5816-eb1809660541
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 638264a5682e5488aff2129833f27a6fb6238726
+      datavalue:
+        value:
+          amount: "+1209600"
+          unit: http://www.wikidata.org/entity/Q11574
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q2993680$72e68997-459c-6585-128a-6ef8e4a964e8
+    rank: normal
+  P1417:
+  - mainsnak:
+      snaktype: value
+      property: P1417
+      hash: 801631dd20262fcecf0042f7163fb05cb40b4319
+      datavalue:
+        value: technology/fortnight
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2993680$B73B8484-9C6C-4A39-8B28-F3C5EC1B6AEF
+    rank: normal
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Quinzena
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Fortnight
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Quincena
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 半月 (期間)
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Quinzena
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Фортнайт
+    badges: []
+  tewiki:
+    site: tewiki
+    title: పక్షము
+    badges: []
+  thwiki:
+    site: thwiki
+    title: ปักษ์
+    badges: []

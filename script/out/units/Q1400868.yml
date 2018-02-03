@@ -1,0 +1,65 @@
+---
+pageid: 1339920
+ns: 0
+title: Q1400868
+lastrevid: 524618229
+modified: '2017-07-22T16:00:43Z'
+type: item
+id: Q1400868
+labels:
+  en:
+    language: en
+    value: vagon
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 954edbd3fef27ce6396c0878a95c608ca4ed84af
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3647172
+          id: Q3647172
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1400868$34fe75e5-46c5-916c-46e3-decb2775f6d9
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: bc7c9fdc5bb7b302cb653b879e4013527f37d18a
+      datavalue:
+        value:
+          amount: "+10000"
+          unit: http://www.wikidata.org/entity/Q11570
+          upperBound: "+10000"
+          lowerBound: "+10000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1400868$f17b59e9-409a-e46e-ebe4-87ac56d1c0f1
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 16653c4848e0552e9604edc668341bd5f95825a4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11423
+          id: Q11423
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1400868$96E9CF15-F668-48E5-A13F-27CD4DC2C687
+    rank: normal
+sitelinks:
+  huwiki:
+    site: huwiki
+    title: Vagon (mértékegység)
+    badges: []

@@ -1,0 +1,524 @@
+---
+pageid: 205337
+ns: 0
+title: Q209426
+lastrevid: 584850606
+modified: '2017-10-27T08:10:10Z'
+type: item
+id: Q209426
+labels:
+  en:
+    language: en
+    value: minute of arc
+aliases:
+  en:
+  - language: en
+    value: arcminute
+  - language: en
+    value: arcmin
+  - language: en
+    value: MOA
+  - language: en
+    value: "′"
+  - language: en
+    value: minute
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: e1a89220b4d9f1cd1f012fd95b86be438541f86e
+      datavalue:
+        value: "′"
+        type: string
+      datatype: string
+    type: statement
+    id: q209426$cbbffb88-4de5-6943-5c70-e8ecd5b5fce2
+    rank: normal
+    references:
+    - hash: fe6b5dd7a873279b7847286a2e1e29865e66e930
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 26fc09289522fb4d0720942564c921c35a0d4db9
+          datavalue:
+            value: '21'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: d91796d6666672ef9ffefbcaff859ec386db1751
+          datavalue:
+            value: 6.5.6
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+    - hash: 12f9682b49b92da50dcb586c7631af225cdd285c
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: 7bb9a546b362fa1c14e4b007831687e73a7f6f6e
+          datavalue:
+            value: 3-5.c
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 063c85ea19978379e14f8fd30e2753fcf6f27198
+      datavalue:
+        value: "'"
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 120f05a3c89af48217bb82f861634d9efc5486cd
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8815
+            id: Q8815
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q209426$198870cb-4df0-2c49-b9d0-8553882d18c0
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 114407d8f5f64b19f01153752bedcf6679128ec0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 13587321
+          id: Q13587321
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q209426$8d349c4d-4e61-27fc-1eec-b332f674d9f6
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 51d448b6d652a150e2935601ed6b5d14d1469e43
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 22066399
+          id: Q22066399
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q209426$0898a28f-444c-482a-284a-f442ed851b1b
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 517b960cb2a3f7e55c22a2e0692a8db8434b4453
+      datavalue:
+        value: "/m/0zgv"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q209426$EB49CC29-5D8A-4A93-9686-80059FCEAD54
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: d0feb6f4d24ea3bcd137fc71595c04cd7cba024d
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 12097402
+          id: Q12097402
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q209426$76193d03-4520-1ded-fec8-1c10ccb0add9
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 130b9cd1f448c635bd816894ab351d0b9a92aac7
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11352
+          id: Q11352
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q209426$f8c6f60d-4f78-366a-ddff-8c7d13272919
+    rank: normal
+    references:
+    - hash: fe6b5dd7a873279b7847286a2e1e29865e66e930
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 26fc09289522fb4d0720942564c921c35a0d4db9
+          datavalue:
+            value: '21'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: d91796d6666672ef9ffefbcaff859ec386db1751
+          datavalue:
+            value: 6.5.6
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 722ded955cbbc62fd109884330541800f765c16c
+      datavalue:
+        value: ArcMinute
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q209426$c1adcf36-4921-2f43-e073-553ad698f4bf
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: c790efa90716e2de8134b694ecac8db3357ff049
+      datavalue:
+        value:
+          amount: "+0.01666666666666666666"
+          unit: http://www.wikidata.org/entity/Q28390
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P2534:
+      - snaktype: value
+        property: P2534
+        hash: e8d374359366992dd05279e91fddc8c8f8c9f2cb
+        datavalue:
+          value: "^\\prime = \\frac{1}{60} \\cdot ^\\circ"
+          type: string
+        datatype: math
+    qualifiers-order:
+    - P2534
+    id: Q209426$f5632ea2-4947-05d6-e150-f96c740dc4da
+    rank: normal
+    references:
+    - hash: fe6b5dd7a873279b7847286a2e1e29865e66e930
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 26fc09289522fb4d0720942564c921c35a0d4db9
+          datavalue:
+            value: '21'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: d91796d6666672ef9ffefbcaff859ec386db1751
+          datavalue:
+            value: 6.5.6
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: '095b22e5c47a47f7d5e84e00899837038be11bd4'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 26711932
+          id: Q26711932
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P958:
+      - snaktype: value
+        property: P958
+        hash: 7bb9a546b362fa1c14e4b007831687e73a7f6f6e
+        datavalue:
+          value: 3-5.c
+          type: string
+        datatype: string
+    qualifiers-order:
+    - P958
+    id: Q209426$bdbbb269-4c86-853e-8ae5-fb0ade66246a
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 40c85f5dd4c9c70d8445dff20f66f2a7c68ac671
+      datavalue:
+        value:
+          amount: "+0.00029088820866572"
+          unit: http://www.wikidata.org/entity/Q224047
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q209426$4fb15435-4f8a-fa7f-0376-966ca5ba7d94
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Boogminuut
+    badges: []
+  arwiki:
+    site: arwiki
+    title: دقيقة قوسية
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Minutu sexaxesimal
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: আর্কমিনিট
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Ugaona minuta
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Minut d'arc
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Minuta (úhlová jednotka)
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Bueminut
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Winkelminute
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Arcminute
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Minuto de arco
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Minut (geomeetria)
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Minutu sexagesimal
+    badges: []
+  fawiki:
+    site: fawiki
+    title: دقیقه قوسی
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Kulmaminuutti
+    badges: []
+  hewiki:
+    site: hewiki
+    title: דקת קשת
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Menit busur
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Primo (geometria)
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 分 (角度)
+    badges: []
+  kawiki:
+    site: kawiki
+    title: მინუტი
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 분 (각도)
+    badges: []
+  lbwiki:
+    site: lbwiki
+    title: Bouminutt
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Лачна минута
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Boogminuut
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Bueminutt
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Minuta kątowa
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Minuto de arco
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Minut de arc
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Минута дуги
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Lučni minut
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Kotna minuta
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Лучни минут
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Bågminut
+    badges: []
+  tawiki:
+    site: tawiki
+    title: கலை (கோணம்)
+    badges: []
+  thwiki:
+    site: thwiki
+    title: ลิปดา
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Açısal dakika
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Мінута
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Phút (góc)
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 角分
+    badges: []

@@ -1,0 +1,112 @@
+---
+pageid: 1569524
+ns: 0
+title: Q1635189
+lastrevid: 413905862
+modified: '2016-12-04T12:42:09Z'
+type: item
+id: Q1635189
+labels:
+  en:
+    language: en
+    value: pinch
+aliases:
+  en:
+  - language: en
+    value: pn
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: f3a9dba1c21482edf2a8f1566dd2f9fc7ad5f264
+      datavalue:
+        value: "/m/099crk"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1635189$5561C0FB-371F-41CC-946E-51014B2CE201
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1635189$43eca0f3-43d5-83cc-5932-ffab28d575b9
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: def796aca5ed64b6b6576266343188ab3fea56f1
+      datavalue:
+        value: pn
+        type: string
+      datatype: string
+    type: statement
+    id: Q1635189$cb9441b9-4508-ced8-91f9-7c0bed14eb15
+    rank: normal
+sitelinks:
+  bgwiki:
+    site: bgwiki
+    title: Щипка (готварство)
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Knivspids
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Prise (Maßeinheit)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Pinch (cooking)
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Á hnífsoddi (matreiðsla)
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Szczypta
+    badges: []

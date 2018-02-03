@@ -1,0 +1,3233 @@
+---
+pageid: 133563
+ns: 0
+title: Q131723
+lastrevid: 624727963
+modified: '2018-01-30T12:03:32Z'
+type: item
+id: Q131723
+labels:
+  en:
+    language: en
+    value: Bitcoin
+aliases:
+  en:
+  - language: en
+    value: BTC
+  - language: en
+    value: bitcoin
+  - language: en
+    value: XBT
+claims:
+  P1249:
+  - mainsnak:
+      snaktype: value
+      property: P1249
+      hash: 6817e828433a30cde29cc52f2341fdfc6331a20e
+      datavalue:
+        value:
+          time: "+2008-10-31T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 11
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q131723$981a0279-4a94-70b2-40a3-d22fbed454ee
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 16ab8cfff2957341998c927ff03e50befb65a864
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 13479982
+          id: Q13479982
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q131723$4eb35438-4a68-1548-4894-6a0a276dba1e
+    rank: preferred
+    references:
+    - hash: 1d874ae5d39836ff581c5165f5b9fa167dd394eb
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 7f2ba1b32c4115f67cd40dbe75268cd340ae754a
+          datavalue:
+            value: http://bitguru.co.uk/bitcoininfo/
+            type: string
+          datatype: url
+      snaks-order:
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 961c0bec009aaf510d21250115a51ea0e2daab95
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10836209
+          id: Q10836209
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q131723$648468A0-7482-4158-B8F2-0297E0B01359
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 418756c09428aa352a78376b42b0342a72b6a25f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 986008
+          id: Q986008
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q131723$8c897508-4775-513a-3e39-bd783f678e65
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 80151d72feae178bc698c542c7d25a7496a146c5
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 341
+          id: Q341
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q131723$0b08b613-441a-7d41-b5dd-305ec55e66b0
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 5aea5fe7749474d15bcd3eb8d00f5b530bd61d75
+      datavalue:
+        value: Bitcoin
+        type: string
+      datatype: string
+    type: statement
+    id: q131723$69F9873D-D991-462E-A9D6-09F72CAF972A
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P487:
+  - mainsnak:
+      snaktype: value
+      property: P487
+      hash: a9fa92fcdafde272f20960ff47600bac46796044
+      datavalue:
+        value: "₿"
+        type: string
+      datatype: string
+    type: statement
+    id: Q131723$53a25124-4f7f-d42d-1f38-6eb4f4580b9e
+    rank: normal
+    references:
+    - hash: 8ea0a0e207b8a447327a7ea22f95a2daa539c661
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 141daf66e88c9d41b2042a566c4957313342fda8
+          datavalue:
+            value: https://en.bitcoin.it/wiki/Bitcoin_symbol
+            type: string
+          datatype: url
+      snaks-order:
+      - P854
+  P154:
+  - mainsnak:
+      snaktype: value
+      property: P154
+      hash: c4aef4115f03a0ea69cf0e833a3750901a01e548
+      datavalue:
+        value: Bitcoin logo.svg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: q131723$70dae373-40aa-60f5-0472-791fd205304e
+    rank: normal
+    references:
+    - hash: f9c583978ef3ac19c8823a631378939dc5bb6278
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: b226ec5eeb94be31a6bd3d5d663d1a4706d21b0a
+          datavalue:
+            value: https://bitcointalk.org/?topic=1756.0
+            type: string
+          datatype: url
+      snaks-order:
+      - P854
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: adb7702a43db9395a38212ccca2a440f469f9b12
+      datavalue:
+        value: "/m/05p0rrx"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q131723$14664000-6B80-4290-B00A-1EA4D9D4B072
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P571:
+  - mainsnak:
+      snaktype: value
+      property: P571
+      hash: 44e0419389b95018deeb4ff0cd86d67a8748ed48
+      datavalue:
+        value:
+          time: "+2009-01-03T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 11
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q131723$02f4421c-4bb4-56da-d5ea-f2a9bdeed4dd
+    rank: preferred
+  P910:
+  - mainsnak:
+      snaktype: value
+      property: P910
+      hash: 82c5b246f62d817425ea0573add7e822c5288092
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 15099787
+          id: Q15099787
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q131723$f6075d9f-4f8b-fdb1-6db4-e049f3d7290e
+    rank: normal
+  P227:
+  - mainsnak:
+      snaktype: value
+      property: P227
+      hash: d3f37e3deb42331faa04bffb7d375fe8bc678425
+      datavalue:
+        value: '1041888279'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q131723$174AACF2-85D0-4DB8-BA66-43AB7488466E
+    rank: normal
+    references:
+    - hash: 9a24f7c0208b05d6be97077d855671d1dfdbc0dd
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: d38375ffe6fe142663ff55cd783aa4df4301d83d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 48183
+              id: Q48183
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P244:
+  - mainsnak:
+      snaktype: value
+      property: P244
+      hash: 7d0ec4e372a9e810eace64c0a7bff057bf06f208
+      datavalue:
+        value: sh2015000075
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q131723$0332388e-421e-3df5-a699-7cc9c233863e
+    rank: normal
+  P348:
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: f24d691cb09d5ebb891d081abf2c95230686b5a4
+      datavalue:
+        value: 0.11.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 12d0586d16743a627e6cd6910b25ed8dc6fb3093
+        datavalue:
+          value:
+            time: "+2015-07-10T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q131723$efe4c7e9-4364-987a-86c1-c61bf1cec916
+    rank: normal
+    references:
+    - hash: 58c838b85882a7cb768cc3071b56dc820f271d02
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: dcacd207d8771a615eac1418c07388e0e5418c4e
+          datavalue:
+            value: https://github.com/bitcoin/bitcoin/releases/tag/v0.11.0
+            type: string
+          datatype: url
+      snaks-order:
+      - P854
+    - hash: cf1b28e2bf9b45a025f14d22c2eb470795f5b0c3
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 273d101afff8df4dbcee8ebad4146d4d6240bf24
+          datavalue:
+            value: https://bitcoin.org/en/version-history
+            type: string
+          datatype: url
+        P1476:
+        - snaktype: value
+          property: P1476
+          hash: 69221993c016e4ef6fe617adcfc03a61bb2b7f77
+          datavalue:
+            value:
+              text: Bitcoin Core version history
+              language: en
+            type: monolingualtext
+          datatype: monolingualtext
+        P813:
+        - snaktype: value
+          property: P813
+          hash: c21f56c48cc488748aab5130a0ae3aa4f151f749
+          datavalue:
+            value:
+              time: "+2016-02-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P1476
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: ecaadeb570ab9c28e5673f3b6d102c847166040b
+      datavalue:
+        value: 0.11.1
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 2b487f92badd369f2da9fef503c85bab58740935
+        datavalue:
+          value:
+            time: "+2015-10-14T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      - snaktype: value
+        property: P577
+        hash: 172347283edf02f1432a22f368e8a56248b37de6
+        datavalue:
+          value:
+            time: "+2016-11-01T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q131723$7800cf5c-478f-c8bf-4648-a29195d8943c
+    rank: normal
+    references:
+    - hash: 8c8fe959a8188b04dd12a8e1b1290754d8230599
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 89ddc82c0ab848873ff068bbab425eeb38a14dea
+          datavalue:
+            value: https://github.com/bitcoin/bitcoin/releases/tag/v0.11.1
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: d7c7193eb76ad8bd2e4d274e5f056ef8ec8ad009
+          datavalue:
+            value:
+              time: "+2013-11-06T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P407:
+        - snaktype: value
+          property: P407
+          hash: daf1c4fcb58181b02dff9cc89deb084004ddae4b
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 1860
+              id: Q1860
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P854
+      - P813
+      - P407
+    - hash: cf1b28e2bf9b45a025f14d22c2eb470795f5b0c3
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 273d101afff8df4dbcee8ebad4146d4d6240bf24
+          datavalue:
+            value: https://bitcoin.org/en/version-history
+            type: string
+          datatype: url
+        P1476:
+        - snaktype: value
+          property: P1476
+          hash: 69221993c016e4ef6fe617adcfc03a61bb2b7f77
+          datavalue:
+            value:
+              text: Bitcoin Core version history
+              language: en
+            type: monolingualtext
+          datatype: monolingualtext
+        P813:
+        - snaktype: value
+          property: P813
+          hash: c21f56c48cc488748aab5130a0ae3aa4f151f749
+          datavalue:
+            value:
+              time: "+2016-02-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P1476
+      - P813
+    - hash: 555ed98a824b71ca89b3b0feed917dfff6b2c0d8
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 5b9b9638cd969f40639cdef1f0197637c9de738f
+          datavalue:
+            value:
+              time: "+2017-01-08T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: d4ab3ff817b53b4a9ab9c438c90db2ec935e9dd0
+          datavalue:
+            value: https://api.github.com/repos/bitcoin/bitcoin/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 4de83d2a894120b521bdd8c5f6e5ba00b3d8e207
+      datavalue:
+        value: 0.11.2
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 9d97574efedd82b2a0207f9ce647090b92e8581a
+        datavalue:
+          value:
+            time: "+2015-11-12T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      - snaktype: value
+        property: P577
+        hash: 172347283edf02f1432a22f368e8a56248b37de6
+        datavalue:
+          value:
+            time: "+2016-11-01T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q131723$4cf1acfa-4b3a-83cf-998a-2bbd7554a6be
+    rank: normal
+    references:
+    - hash: 877a37c87cd3047c087c6436f57c89e2bee9cf1a
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 8b54749a123be8b84d765059111a1c721cd82ded
+          datavalue:
+            value: https://github.com/bitcoin/bitcoin/releases/tag/v0.11.2
+            type: string
+          datatype: url
+        P407:
+        - snaktype: value
+          property: P407
+          hash: daf1c4fcb58181b02dff9cc89deb084004ddae4b
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 1860
+              id: Q1860
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P1476:
+        - snaktype: value
+          property: P1476
+          hash: 00bc58e15ccd27c1726d754ba6f05feb8103db1e
+          datavalue:
+            value:
+              text: Release 0.11.2
+              language: en
+            type: monolingualtext
+          datatype: monolingualtext
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 312ce1509646ccc6a5809fda17e946856a6da2a2
+          datavalue:
+            value:
+              time: "+2015-12-06T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P407
+      - P1476
+      - P813
+    - hash: cf1b28e2bf9b45a025f14d22c2eb470795f5b0c3
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 273d101afff8df4dbcee8ebad4146d4d6240bf24
+          datavalue:
+            value: https://bitcoin.org/en/version-history
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: c21f56c48cc488748aab5130a0ae3aa4f151f749
+          datavalue:
+            value:
+              time: "+2016-02-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P1476:
+        - snaktype: value
+          property: P1476
+          hash: 69221993c016e4ef6fe617adcfc03a61bb2b7f77
+          datavalue:
+            value:
+              text: Bitcoin Core version history
+              language: en
+            type: monolingualtext
+          datatype: monolingualtext
+      snaks-order:
+      - P854
+      - P813
+      - P1476
+    - hash: 555ed98a824b71ca89b3b0feed917dfff6b2c0d8
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 5b9b9638cd969f40639cdef1f0197637c9de738f
+          datavalue:
+            value:
+              time: "+2017-01-08T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: d4ab3ff817b53b4a9ab9c438c90db2ec935e9dd0
+          datavalue:
+            value: https://api.github.com/repos/bitcoin/bitcoin/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 1b9d49d71568804eb33c6d58be6857389618e4b3
+      datavalue:
+        value: 0.12.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 1cea7b7adee8503bd1a2b4ed52db3296bdb015e6
+        datavalue:
+          value:
+            time: "+2016-02-23T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      - snaktype: value
+        property: P577
+        hash: 172347283edf02f1432a22f368e8a56248b37de6
+        datavalue:
+          value:
+            time: "+2016-11-01T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q131723$dc613127-4cc2-5961-c896-011b4a27aa46
+    rank: normal
+    references:
+    - hash: 4656c31125fe7ba353c8102a27b4175579b9c4a6
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 273d101afff8df4dbcee8ebad4146d4d6240bf24
+          datavalue:
+            value: https://bitcoin.org/en/version-history
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 8f487cb4ef733664df1ff100f90b7153b2d1ac2e
+          datavalue:
+            value:
+              time: "+2016-02-23T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P1476:
+        - snaktype: value
+          property: P1476
+          hash: 69221993c016e4ef6fe617adcfc03a61bb2b7f77
+          datavalue:
+            value:
+              text: Bitcoin Core version history
+              language: en
+            type: monolingualtext
+          datatype: monolingualtext
+      snaks-order:
+      - P854
+      - P813
+      - P1476
+    - hash: 3689397f022fca7b5d06fd311feaaa1359f9f5a4
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: c11a9c7ca9c95e1088d913e2f4a36e4382dcb08d
+          datavalue:
+            value: https://github.com/bitcoin/bitcoin/releases/tag/v0.12.0
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 8f487cb4ef733664df1ff100f90b7153b2d1ac2e
+          datavalue:
+            value:
+              time: "+2016-02-23T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+    - hash: 3c84b50b694a7533757afd65121ed21f21c94086
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 2365451de7e90781dbe46b421acc80fb28917beb
+          datavalue:
+            value: https://bitcoincore.org/en/releases/0.12.0/
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 97673ed481eeaccbf0de1c0ce61a8b1aac5ad9cb
+          datavalue:
+            value:
+              time: "+2016-02-24T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+    - hash: 555ed98a824b71ca89b3b0feed917dfff6b2c0d8
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 5b9b9638cd969f40639cdef1f0197637c9de738f
+          datavalue:
+            value:
+              time: "+2017-01-08T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: d4ab3ff817b53b4a9ab9c438c90db2ec935e9dd0
+          datavalue:
+            value: https://api.github.com/repos/bitcoin/bitcoin/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 530b1656da2840d367af65deb1bc6ac7e7acbb36
+      datavalue:
+        value: 0.12.1
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: e1a910e1be65275d7bf9a650c43d8a77a3f82e37
+        datavalue:
+          value:
+            time: "+2016-04-15T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      - snaktype: value
+        property: P577
+        hash: 172347283edf02f1432a22f368e8a56248b37de6
+        datavalue:
+          value:
+            time: "+2016-11-01T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      P963:
+      - snaktype: value
+        property: P963
+        hash: fb40b8cbd2ca76c79a1cadb53849761b66ecb9ae
+        datavalue:
+          value: https://bitcoin.org/bin/bitcoin-core-0.12.1/
+          type: string
+        datatype: url
+      P548:
+      - snaktype: value
+        property: P548
+        hash: e006ea8d2fa441433e0fa85bc4132b806e0fabee
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 2804309
+            id: Q2804309
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P577
+    - P963
+    - P548
+    id: Q131723$c0cb05c0-4e82-9f03-7f51-ab1a28970a49
+    rank: normal
+    references:
+    - hash: 5ec659f74a9904c18b55c4af0582db0a972d1b69
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 2cae726c528dad4b50b89d76f0763e95a614eb13
+          datavalue:
+            value: https://bitcoin.org/en/release/v0.12.1
+            type: string
+          datatype: url
+        P1476:
+        - snaktype: value
+          property: P1476
+          hash: aa68606a4b6ae6cbda0455bf038baf9489e807c7
+          datavalue:
+            value:
+              text: Bitcoin Core version 0.12.1 released
+              language: en
+            type: monolingualtext
+          datatype: monolingualtext
+        P407:
+        - snaktype: value
+          property: P407
+          hash: daf1c4fcb58181b02dff9cc89deb084004ddae4b
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 1860
+              id: Q1860
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P854
+      - P1476
+      - P407
+    - hash: 555ed98a824b71ca89b3b0feed917dfff6b2c0d8
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 5b9b9638cd969f40639cdef1f0197637c9de738f
+          datavalue:
+            value:
+              time: "+2017-01-08T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: d4ab3ff817b53b4a9ab9c438c90db2ec935e9dd0
+          datavalue:
+            value: https://api.github.com/repos/bitcoin/bitcoin/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 8db0576422441614988ca72f41f8ffacdf3904bb
+      datavalue:
+        value: 0.13.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 73f3c7e111f1f3fc2a1200c670287a4b24236479
+        datavalue:
+          value:
+            time: "+2016-08-23T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      - snaktype: value
+        property: P577
+        hash: 172347283edf02f1432a22f368e8a56248b37de6
+        datavalue:
+          value:
+            time: "+2016-11-01T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      P963:
+      - snaktype: value
+        property: P963
+        hash: 544d2bfe9540065f8eb77673dfa3f7721c602aa8
+        datavalue:
+          value: https://bitcoin.org/bin/bitcoin-core-0.13.0/
+          type: string
+        datatype: url
+      P548:
+      - snaktype: value
+        property: P548
+        hash: e006ea8d2fa441433e0fa85bc4132b806e0fabee
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 2804309
+            id: Q2804309
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P577
+    - P963
+    - P548
+    id: Q131723$01844cb1-45e0-2d1a-a695-78c954c09768
+    rank: normal
+    references:
+    - hash: 0e0c5e696735bb970e96e5fa634bb46d591609ae
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 9dc61792952d8d9e3f011763539a08981d59e237
+          datavalue:
+            value: https://bitcoin.org/en/release/v0.13.0
+            type: string
+          datatype: url
+        P1476:
+        - snaktype: value
+          property: P1476
+          hash: e3534cd8ad76ddcc07c17eb33ff376100e3370fd
+          datavalue:
+            value:
+              text: Bitcoin Core version 0.13.0 released
+              language: en
+            type: monolingualtext
+          datatype: monolingualtext
+        P407:
+        - snaktype: value
+          property: P407
+          hash: daf1c4fcb58181b02dff9cc89deb084004ddae4b
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 1860
+              id: Q1860
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P854
+      - P1476
+      - P407
+    - hash: 555ed98a824b71ca89b3b0feed917dfff6b2c0d8
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 5b9b9638cd969f40639cdef1f0197637c9de738f
+          datavalue:
+            value:
+              time: "+2017-01-08T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: d4ab3ff817b53b4a9ab9c438c90db2ec935e9dd0
+          datavalue:
+            value: https://api.github.com/repos/bitcoin/bitcoin/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 0c4b13c3dd82b006cdcc5635d743dc4fd0c77632
+      datavalue:
+        value: 0.13.1
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 6d7b9a37f09e938e07884d8d28cefccf9b43243f
+        datavalue:
+          value:
+            time: "+2016-10-27T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      - snaktype: value
+        property: P577
+        hash: 172347283edf02f1432a22f368e8a56248b37de6
+        datavalue:
+          value:
+            time: "+2016-11-01T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      P548:
+      - snaktype: value
+        property: P548
+        hash: e006ea8d2fa441433e0fa85bc4132b806e0fabee
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 2804309
+            id: Q2804309
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P577
+    - P548
+    id: Q131723$83450da3-4873-eb63-bada-43ca8af70556
+    rank: normal
+    references:
+    - hash: 020c13ad47e6e2e1d3bb32e1edbf09b1b19d7e52
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: d45e55fecaa86e5e5161cb11f221d5d3b2221e6c
+          datavalue:
+            value: https://github.com/bitcoin/bitcoin/releases/tag/v0.13.1
+            type: string
+          datatype: url
+        P1476:
+        - snaktype: value
+          property: P1476
+          hash: 40a977ff8a35b571b8197d5ea1793879bf9ce376
+          datavalue:
+            value:
+              text: Bitcoin Core v0.13.1
+              language: en
+            type: monolingualtext
+          datatype: monolingualtext
+        P407:
+        - snaktype: value
+          property: P407
+          hash: daf1c4fcb58181b02dff9cc89deb084004ddae4b
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 1860
+              id: Q1860
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P854
+      - P1476
+      - P407
+    - hash: 555ed98a824b71ca89b3b0feed917dfff6b2c0d8
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 5b9b9638cd969f40639cdef1f0197637c9de738f
+          datavalue:
+            value:
+              time: "+2017-01-08T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: d4ab3ff817b53b4a9ab9c438c90db2ec935e9dd0
+          datavalue:
+            value: https://api.github.com/repos/bitcoin/bitcoin/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 8b989cb4596ac2a2ea639285c5146c31b7251424
+      datavalue:
+        value: 0.13.2
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 22339ae6b40eb7990e5f6ebad4f872c766af0715
+        datavalue:
+          value:
+            time: "+2017-01-03T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      P548:
+      - snaktype: value
+        property: P548
+        hash: e006ea8d2fa441433e0fa85bc4132b806e0fabee
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 2804309
+            id: Q2804309
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P577
+    - P548
+    id: Q131723$6a55de3d-4bf3-db33-b771-040ef309b44d
+    rank: normal
+    references:
+    - hash: 87ac3bde3c326c5a81d5fedf0256995bcfb257d3
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: fe1ef733ac9a0156a654ec152029d9aa3f268df8
+          datavalue:
+            value: https://bitcoin.org/en/release/v0.13.2
+            type: string
+          datatype: url
+      snaks-order:
+      - P854
+    - hash: 555ed98a824b71ca89b3b0feed917dfff6b2c0d8
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 5b9b9638cd969f40639cdef1f0197637c9de738f
+          datavalue:
+            value:
+              time: "+2017-01-08T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: d4ab3ff817b53b4a9ab9c438c90db2ec935e9dd0
+          datavalue:
+            value: https://api.github.com/repos/bitcoin/bitcoin/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: f7a446a61feccd3bcc8a671573cfb0ec5d00106f
+      datavalue:
+        value: 0.10.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 172347283edf02f1432a22f368e8a56248b37de6
+        datavalue:
+          value:
+            time: "+2016-11-01T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q131723$9C9ED93D-93BC-4171-A867-3046A6CAE167
+    rank: normal
+    references:
+    - hash: 555ed98a824b71ca89b3b0feed917dfff6b2c0d8
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 5b9b9638cd969f40639cdef1f0197637c9de738f
+          datavalue:
+            value:
+              time: "+2017-01-08T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: d4ab3ff817b53b4a9ab9c438c90db2ec935e9dd0
+          datavalue:
+            value: https://api.github.com/repos/bitcoin/bitcoin/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: '069f55bc6948a744dd49bc38380f1b558e0d26d9'
+      datavalue:
+        value: 0.10.1
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 172347283edf02f1432a22f368e8a56248b37de6
+        datavalue:
+          value:
+            time: "+2016-11-01T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q131723$00B24C4C-7A97-4C70-AFBC-73B0FAA29A65
+    rank: normal
+    references:
+    - hash: 555ed98a824b71ca89b3b0feed917dfff6b2c0d8
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 5b9b9638cd969f40639cdef1f0197637c9de738f
+          datavalue:
+            value:
+              time: "+2017-01-08T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: d4ab3ff817b53b4a9ab9c438c90db2ec935e9dd0
+          datavalue:
+            value: https://api.github.com/repos/bitcoin/bitcoin/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 0e4cf54529e4e4c872c979b58b0dec594f54f635
+      datavalue:
+        value: 0.10.2
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 172347283edf02f1432a22f368e8a56248b37de6
+        datavalue:
+          value:
+            time: "+2016-11-01T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q131723$5CABE74D-8D15-4772-8112-345B3521BF52
+    rank: normal
+    references:
+    - hash: 555ed98a824b71ca89b3b0feed917dfff6b2c0d8
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 5b9b9638cd969f40639cdef1f0197637c9de738f
+          datavalue:
+            value:
+              time: "+2017-01-08T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: d4ab3ff817b53b4a9ab9c438c90db2ec935e9dd0
+          datavalue:
+            value: https://api.github.com/repos/bitcoin/bitcoin/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 426cdca53a1f5416b9c8f94ec3819112d50def49
+      datavalue:
+        value: 0.10.3
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 172347283edf02f1432a22f368e8a56248b37de6
+        datavalue:
+          value:
+            time: "+2016-11-01T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q131723$3F993ADA-D9EF-429E-9333-36C30CB0E6E4
+    rank: normal
+    references:
+    - hash: 555ed98a824b71ca89b3b0feed917dfff6b2c0d8
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 5b9b9638cd969f40639cdef1f0197637c9de738f
+          datavalue:
+            value:
+              time: "+2017-01-08T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: d4ab3ff817b53b4a9ab9c438c90db2ec935e9dd0
+          datavalue:
+            value: https://api.github.com/repos/bitcoin/bitcoin/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 6c57158b675cbdd81671f2a533eb4e48a465ce87
+      datavalue:
+        value: 0.10.4
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 172347283edf02f1432a22f368e8a56248b37de6
+        datavalue:
+          value:
+            time: "+2016-11-01T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q131723$B70AECDE-8E98-4A13-AC63-5366591EC48C
+    rank: normal
+    references:
+    - hash: 555ed98a824b71ca89b3b0feed917dfff6b2c0d8
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 5b9b9638cd969f40639cdef1f0197637c9de738f
+          datavalue:
+            value:
+              time: "+2017-01-08T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: d4ab3ff817b53b4a9ab9c438c90db2ec935e9dd0
+          datavalue:
+            value: https://api.github.com/repos/bitcoin/bitcoin/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 00e4040bf15bfedcd60230ca04a094380ac02a6b
+      datavalue:
+        value: 0.14.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: f1650b52d9227807307c5f3eb9cd2e2b824930b1
+        datavalue:
+          value:
+            time: "+2017-03-08T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q131723$AD225EB2-F86D-4D44-9202-0581743B034B
+    rank: normal
+    references:
+    - hash: 5b7654dfee8a5f12ef1596758404fe4a5347c0eb
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: d4ab3ff817b53b4a9ab9c438c90db2ec935e9dd0
+          datavalue:
+            value: https://api.github.com/repos/bitcoin/bitcoin/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: ef513b51539a71c1bf144a02f5613d88ab533924
+          datavalue:
+            value:
+              time: "+2017-03-08T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: ac6c5701368deaf6c37e503916aeaf3ab3565386
+      datavalue:
+        value: 0.14.1
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 4dbc413af7005845b26236a5ae94062b09e173d9
+        datavalue:
+          value:
+            time: "+2017-04-22T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q131723$C395D7AD-EA99-44BD-9FA0-FE5D0ECFF49D
+    rank: normal
+    references:
+    - hash: 046a355783277196ba74bc793ecce6403eec127f
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: d4ab3ff817b53b4a9ab9c438c90db2ec935e9dd0
+          datavalue:
+            value: https://api.github.com/repos/bitcoin/bitcoin/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 073e54deae0a274053ecf38a519a4c46232a6415
+          datavalue:
+            value:
+              time: "+2017-04-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 5affce6b713b1db1d6fcff91ce2028ad259745ee
+      datavalue:
+        value: 0.14.2
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: caa00673c59ec25ce77f172574e0a18dc99797f9
+        datavalue:
+          value:
+            time: "+2017-06-18T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q131723$2F528845-E430-4A70-B5C4-A9B0D6427AAF
+    rank: normal
+    references:
+    - hash: b730ca81cebffddde72a6e800402213fc82767b2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 1fbc4ff0a0e02d9fc80ccd55b2bd531de0f0f852
+          datavalue:
+            value:
+              time: "+2017-06-18T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: d4ab3ff817b53b4a9ab9c438c90db2ec935e9dd0
+          datavalue:
+            value: https://api.github.com/repos/bitcoin/bitcoin/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 9ac5990bbc206342fae3d3e98540cb330d030f80
+      datavalue:
+        value: 0.15.0.1
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 60e9e8c8cae85822b33178fd06ff1f3bed850ba8
+        datavalue:
+          value:
+            time: "+2017-09-19T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      P548:
+      - snaktype: value
+        property: P548
+        hash: e006ea8d2fa441433e0fa85bc4132b806e0fabee
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 2804309
+            id: Q2804309
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P577
+    - P548
+    id: Q131723$ce8ebd85-4d34-2c75-ab6b-92709bb453ba
+    rank: normal
+    references:
+    - hash: 640194636a9a2dbdf740532da75eda385bba98d3
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: d4ab3ff817b53b4a9ab9c438c90db2ec935e9dd0
+          datavalue:
+            value: https://api.github.com/repos/bitcoin/bitcoin/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: ef22758d8967e6766f6f32405b30a00425f8bd3d
+      datavalue:
+        value: 0.15.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 29a7e622ebfa85a7609e4858fbfcbfd4b1897502
+        datavalue:
+          value:
+            time: "+2017-09-10T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      - snaktype: value
+        property: P577
+        hash: 6104b2d94ca377c65d32be3a4b757421436a732b
+        datavalue:
+          value:
+            time: "+2017-09-14T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q131723$993f95a4-4022-5551-8df4-6cb906fd69b1
+    rank: normal
+    references:
+    - hash: 640194636a9a2dbdf740532da75eda385bba98d3
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: d4ab3ff817b53b4a9ab9c438c90db2ec935e9dd0
+          datavalue:
+            value: https://api.github.com/repos/bitcoin/bitcoin/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 3acac4dfca72f739444de826b765513a56ba6552
+      datavalue:
+        value: 0.15.1
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 14df4a1c5799268d285e2b265cc7f236ccfc6a97
+        datavalue:
+          value:
+            time: "+2017-11-11T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q131723$B3F5833E-5EB8-4097-B44D-98FC1993BB97
+    rank: preferred
+    references:
+    - hash: a892f3c92f4340c3d1a6563dff59cd999c62f9c0
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: d4ab3ff817b53b4a9ab9c438c90db2ec935e9dd0
+          datavalue:
+            value: https://api.github.com/repos/bitcoin/bitcoin/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 6475f4725ad6b042e29d6067dc12fb5647f9bdf6
+          datavalue:
+            value:
+              time: "+2017-11-18T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  P2184:
+  - mainsnak:
+      snaktype: value
+      property: P2184
+      hash: 7ead85b5506c3c5ae6428ea8075e374ecff8acd2
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 15854247
+          id: Q15854247
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q131723$d39ecba2-4901-e0eb-c755-8a432b2e3af8
+    rank: normal
+  P275:
+  - mainsnak:
+      snaktype: value
+      property: P275
+      hash: '0447296e0e56d461ed7491de8ee2da7367b75861'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 334661
+          id: Q334661
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q131723$7D1AFB54-1B50-4FA6-B8E8-50A75B5B24A6
+    rank: normal
+  P277:
+  - mainsnak:
+      snaktype: value
+      property: P277
+      hash: 758444e877886704f4f61e0541b202183ff24691
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2407
+          id: Q2407
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q131723$2F4BA2F3-A5C1-4C74-AA2F-AE8B96FD098E
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 5535d3a457b1aa27436bc890eb5ea415ff838285
+      datavalue:
+        value: XBT
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q131723$248bcdb1-4d21-e230-8a6d-87108ef5906e
+    rank: normal
+  P913:
+  - mainsnak:
+      snaktype: value
+      property: P913
+      hash: 44a6340a0228e854653cf1828fc472cb6e96d0c7
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 23055403
+          id: Q23055403
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q131723$99e88ef7-4cbc-0959-92c5-9a893a31aa32
+    rank: normal
+  P407:
+  - mainsnak:
+      snaktype: value
+      property: P407
+      hash: c757ac6da9712097bc0871742564687f009a3f64
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 20923490
+          id: Q20923490
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q131723$526e6d46-4cb7-630f-a980-3bd7088db0b4
+    rank: preferred
+    references:
+    - hash: d4bd87b862b12d99d26e86472d44f26858dee639
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: f30cbd35620c4ea6d0633aaf0210a8916130469b
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 8447
+              id: Q8447
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  - mainsnak:
+      snaktype: value
+      property: P407
+      hash: daf1c4fcb58181b02dff9cc89deb084004ddae4b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1860
+          id: Q1860
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q131723$2bc8b3fe-435d-a277-2080-3e6c7bfe5575
+    rank: normal
+    references:
+    - hash: d4bd87b862b12d99d26e86472d44f26858dee639
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: f30cbd35620c4ea6d0633aaf0210a8916130469b
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 8447
+              id: Q8447
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  - mainsnak:
+      snaktype: value
+      property: P407
+      hash: d197d0a5efa4b4c23a302a829dd3ef43684fe002
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 150
+          id: Q150
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q131723$3de5d5b0-45c7-a05d-67d1-7c851a5a665a
+    rank: normal
+    references:
+    - hash: d4bd87b862b12d99d26e86472d44f26858dee639
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: f30cbd35620c4ea6d0633aaf0210a8916130469b
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 8447
+              id: Q8447
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  - mainsnak:
+      snaktype: value
+      property: P407
+      hash: 46bfd327b830f66f7061ea92d1be430c135fa91f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 188
+          id: Q188
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q131723$4d5021f7-4a55-9a3b-f5a8-673482f8676c
+    rank: normal
+    references:
+    - hash: d4bd87b862b12d99d26e86472d44f26858dee639
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: f30cbd35620c4ea6d0633aaf0210a8916130469b
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 8447
+              id: Q8447
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  - mainsnak:
+      snaktype: value
+      property: P407
+      hash: ffe70325d10cfc55f0dca807ed80ca0b5b97c472
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1321
+          id: Q1321
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q131723$2ff4a1c7-4c2f-67fe-d232-77bcf71972fc
+    rank: normal
+    references:
+    - hash: d4bd87b862b12d99d26e86472d44f26858dee639
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: f30cbd35620c4ea6d0633aaf0210a8916130469b
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 8447
+              id: Q8447
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  - mainsnak:
+      snaktype: value
+      property: P407
+      hash: 700aeaff381db1a1b58c6d58777ab5ec7daefe17
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 7411
+          id: Q7411
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q131723$3787d7f3-47f5-9095-497d-48bfd6a192ea
+    rank: normal
+    references:
+    - hash: d4bd87b862b12d99d26e86472d44f26858dee639
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: f30cbd35620c4ea6d0633aaf0210a8916130469b
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 8447
+              id: Q8447
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  - mainsnak:
+      snaktype: value
+      property: P407
+      hash: 2ab2e485ce235a18142330fa1873a5bba7115d23
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 652
+          id: Q652
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q131723$44584d3c-40ee-0ace-401f-15837a8694c8
+    rank: normal
+    references:
+    - hash: d4bd87b862b12d99d26e86472d44f26858dee639
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: f30cbd35620c4ea6d0633aaf0210a8916130469b
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 8447
+              id: Q8447
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  - mainsnak:
+      snaktype: value
+      property: P407
+      hash: d3341820d45f6bb2097e8460656f7cd8fea3cf2a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 5146
+          id: Q5146
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q131723$eacc5b2f-47cc-37d4-92d6-417c6ace1ff4
+    rank: normal
+    references:
+    - hash: d4bd87b862b12d99d26e86472d44f26858dee639
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: f30cbd35620c4ea6d0633aaf0210a8916130469b
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 8447
+              id: Q8447
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  - mainsnak:
+      snaktype: value
+      property: P407
+      hash: d291ddb7cd77c94a7bd709a8395934147e0864fc
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 7737
+          id: Q7737
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q131723$55397438-4376-2492-381b-99928b413248
+    rank: normal
+    references:
+    - hash: d4bd87b862b12d99d26e86472d44f26858dee639
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: f30cbd35620c4ea6d0633aaf0210a8916130469b
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 8447
+              id: Q8447
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  - mainsnak:
+      snaktype: value
+      property: P407
+      hash: 1b1356fe89ad919c93fbcf2b7754a7a6ae114093
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 13955
+          id: Q13955
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q131723$5c86d603-4df0-cb54-b207-cefd32763cd4
+    rank: normal
+  P112:
+  - mainsnak:
+      snaktype: value
+      property: P112
+      hash: feff46f3c0f6d4b9768baa1877a34069e5cc1904
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 13382352
+          id: Q13382352
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q131723$f7d7d1eb-4885-5646-2029-23e5fb941c06
+    rank: normal
+  P306:
+  - mainsnak:
+      snaktype: value
+      property: P306
+      hash: 372b598ec10a56c64b0db84314aeca97e8818e67
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1406
+          id: Q1406
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q131723$0aea519e-48df-87a0-b5b1-6add32b85096
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P306
+      hash: 9c855953ce5b4275715170211ccecd34101d2dbd
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3251801
+          id: Q3251801
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q131723$295a8058-499b-9ed2-47f7-809f347bf304
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P306
+      hash: 6f8d90e64f36074872798095d66b8bdfe139bca0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 14116
+          id: Q14116
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q131723$578e44b9-4e7c-378f-9cc1-32b47c820703
+    rank: normal
+  P1324:
+  - mainsnak:
+      snaktype: value
+      property: P1324
+      hash: 491b9e4d9cbe16bae62e802cca1d01a8cd79e62f
+      datavalue:
+        value: https://github.com/bitcoin/bitcoin
+        type: string
+      datatype: url
+    type: statement
+    qualifiers:
+      P2700:
+      - snaktype: value
+        property: P2700
+        hash: c9653c60db2ac354cb25a08c14c306afd1238d7c
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 186055
+            id: Q186055
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P2700
+    id: Q131723$23c7449d-4cd7-0d79-57ef-ea4a7f190f8b
+    rank: normal
+    references:
+    - hash: da34d8c7326d071545c49ba4593f14fe2d4aef4b
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 2354fdc43b4368725cb018ac4578ede3e98a8712
+          datavalue:
+            value:
+              time: "+2016-10-05T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P813
+  P3221:
+  - mainsnak:
+      snaktype: value
+      property: P3221
+      hash: 3bff578ed77571dbd81a518b2de030930e97c6ab
+      datavalue:
+        value: subject/bitcoin
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q131723$88aac80d-4bae-90e8-51c3-79d81d7a4bd8
+    rank: normal
+  P2992:
+  - mainsnak:
+      snaktype: value
+      property: P2992
+      hash: 0f97d5f3ff950230d3fb34faaaa518604b8542c5
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 965769
+          id: Q965769
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P1065:
+      - snaktype: value
+        property: P1065
+        hash: 46cbcf80eb5ad6ece12e47886a78848d38146f0f
+        datavalue:
+          value: https://travis-ci.org/bitcoin/bitcoin
+          type: string
+        datatype: url
+      P973:
+      - snaktype: value
+        property: P973
+        hash: b3e4ebabc2d992d6952a7f5a0f76281aeebc8ee5
+        datavalue:
+          value: https://github.com/bitcoin/bitcoin/blob/master/.travis.yml
+          type: string
+        datatype: url
+    qualifiers-order:
+    - P1065
+    - P973
+    id: Q131723$282C4681-4CBC-4773-A0F7-73DAA91ABB5C
+    rank: normal
+    references:
+    - hash: d1c686de93fa2164accec41aeab4d811fdfb1bc5
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 693d1db43f7acdd993c23100bafe9bf91622d80d
+          datavalue:
+            value:
+              time: "+2016-10-17T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P813
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 1d8d044b58c4b62a49e12f43408384714ab925d6
+      datavalue:
+        value: Bitcoin
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q131723$105314FC-E9E5-4A93-9F9A-0278F6F7EC1B
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P2910:
+  - mainsnak:
+      snaktype: value
+      property: P2910
+      hash: '075558a542125979caf0114c7eb98d594df5847c'
+      datavalue:
+        value: Bitcoin Sign.png
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q131723$48fc9479-499a-2f3c-fb07-24fde110fc38
+    rank: normal
+  P856:
+  - mainsnak:
+      snaktype: value
+      property: P856
+      hash: 00c62f9614f8a1e2f8b20b6d34ebd200579a7c63
+      datavalue:
+        value: https://bitcoin.org
+        type: string
+      datatype: url
+    type: statement
+    id: Q131723$a66b1260-4be8-7b63-f1c0-5ef8f1f1f24c
+    rank: preferred
+    references:
+    - hash: 6b74cf05f4b51a74e0060c221da41ef0574e7364
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: c3f2f4cb90dd78ae8342cd793309dbebe183b339
+          datavalue:
+            value: https://api.github.com/repos/bitcoin/bitcoin
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: aa2623d018c21e3a433119799246371c290633d1
+          datavalue:
+            value:
+              time: "+2017-06-19T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  P1282:
+  - mainsnak:
+      snaktype: value
+      property: P1282
+      hash: 04b83d53f3385f3d2364dc4c8811be9c096eacc0
+      datavalue:
+        value: Key:currency:XBT
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P3176:
+      - snaktype: value
+        property: P3176
+        hash: e6749612a3f364f1d03435ed31080559f02b43a9
+        datavalue:
+          value:
+            entity-type: property
+            numeric-id: 38
+            id: P38
+          type: wikibase-entityid
+        datatype: wikibase-property
+    qualifiers-order:
+    - P3176
+    id: Q131723$fe1b31c3-4eb9-5f9e-ebfb-f6304944d159
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P1282
+      hash: 1ee8589ec45867c76409350c29ef4a8a8973137f
+      datavalue:
+        value: Key:payment:bitcoin
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P3176:
+      - snaktype: value
+        property: P3176
+        hash: b595db45d5e92f4c0d6ff5def368d1e60ffb5487
+        datavalue:
+          value:
+            entity-type: property
+            numeric-id: 2851
+            id: P2851
+          type: wikibase-entityid
+        datatype: wikibase-property
+    qualifiers-order:
+    - P3176
+    id: Q131723$b9141586-4da2-3845-c8ae-0c4caee990bb
+    rank: normal
+  P508:
+  - mainsnak:
+      snaktype: value
+      property: P508
+      hash: 1b2e429fe6cc538e9c513c52826e51b44aba43b4
+      datavalue:
+        value: '57668'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q131723$C3752A14-D420-4B89-9724-F6E049B020B3
+    rank: normal
+    references:
+    - hash: 7002ae52473b0b693b7c7aced9f9184ce0b29751
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 69c026c251f75d0291b3d466e54c44ef90ce1db7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 16583225
+              id: Q16583225
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P2572:
+  - mainsnak:
+      snaktype: value
+      property: P2572
+      hash: c8b414cc22e63fcb805a0e7df11a6a123f92e6d9
+      datavalue:
+        value: Bitcoin
+        type: string
+      datatype: string
+    type: statement
+    id: Q131723$bf098028-423e-24ab-f7e6-04d2ecf8a057
+    rank: normal
+  P1482:
+  - mainsnak:
+      snaktype: value
+      property: P1482
+      hash: cf0bee7965425732b2803e5ce3c3d8238a4ffe39
+      datavalue:
+        value: https://stackoverflow.com/tags/bitcoin
+        type: string
+      datatype: url
+    type: statement
+    id: Q131723$1cc3a511-474e-7ca8-048b-b179f617d86d
+    rank: normal
+  P1417:
+  - mainsnak:
+      snaktype: value
+      property: P1417
+      hash: 0606463c55c4cbca5a25f3d6e5ce4fe981973b4a
+      datavalue:
+        value: topic/Bitcoin
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q131723$8A5B7708-6886-413F-9DE6-BC1D8688DFFF
+    rank: normal
+  P1813:
+  - mainsnak:
+      snaktype: value
+      property: P1813
+      hash: 9d24078588e1fda47afb4c241ee1fc387ebc6592
+      datavalue:
+        value:
+          text: BTC
+          language: en
+        type: monolingualtext
+      datatype: monolingualtext
+    type: statement
+    id: Q131723$d047d160-42f5-c472-5340-33641819fa39
+    rank: normal
+  P577:
+  - mainsnak:
+      snaktype: value
+      property: P577
+      hash: 9b33f2463c903a9d91decc981b5927175aaabbb1
+      datavalue:
+        value:
+          time: "+2009-01-03T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 11
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q131723$d2c47790-4847-a332-fc60-77c8b3bf6b93
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P3984:
+  - mainsnak:
+      snaktype: value
+      property: P3984
+      hash: da038e0431a1bb74cb6a609ef2bb40ff4aabb412
+      datavalue:
+        value: Bitcoin
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q131723$6C5568A8-265D-4591-809D-E9D9CD3AC5AA
+    rank: normal
+  P2283:
+  - mainsnak:
+      snaktype: value
+      property: P2283
+      hash: 84efc95c1e17d3aafae2432b08212113435982b6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 7249984
+          id: Q7249984
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q131723$fcf04f2c-49ac-d25c-4529-4fa22e09a27c
+    rank: normal
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: ea0a610d1ea6592de09a5c72c40a0f00f0e70522
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8805
+          id: Q8805
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q131723$f93518bf-414f-fb71-3594-5e0f6088ba35
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 93f135fb1b183b6a4c3c2b64d14141664e92f190
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 41207
+          id: Q41207
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q131723$70f78a49-434e-14f7-99f3-d7371f2d60a7
+    rank: normal
+  P3509:
+  - mainsnak:
+      snaktype: value
+      property: P3509
+      hash: b42840cb2622097009dacdde192300fd7f966d14
+      datavalue:
+        value: bitcoin
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q131723$661BAF86-7247-4FA9-BE4C-6853478E3E52
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 318625c9a5d53478f12a311ddfb2a3478cdf9286
+      datavalue:
+        value: Bitcoin-core-v0.10.0.png
+        type: string
+      datatype: commonsMedia
+    type: statement
+    qualifiers:
+      P2096:
+      - snaktype: value
+        property: P2096
+        hash: ccc5514127eb8526b7dd1e908148d3c735f8a2b2
+        datavalue:
+          value:
+            text: Bitcoin sur Ubuntu.
+            language: fr
+          type: monolingualtext
+        datatype: monolingualtext
+    qualifiers-order:
+    - P2096
+    id: Q131723$ea4f441b-4981-adec-2c49-8b9c064f793a
+    rank: normal
+  P178:
+  - mainsnak:
+      snaktype: value
+      property: P178
+      hash: 286aea1c9b761e4952ce0cc05ee8e6cc787df178
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 13382352
+          id: Q13382352
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q131723$b8ea040a-490e-4a2b-2428-3ca858606808
+    rank: normal
+  P973:
+  - mainsnak:
+      snaktype: value
+      property: P973
+      hash: 4f7e8f3ebfdb8c10909b05c35c8171c6e1873441
+      datavalue:
+        value: http://linuxfr.org/users/linuce/journaux/bitcoin-premi%C3%A8re-arnaque-num%C3%A9rique-de-masse
+        type: string
+      datatype: url
+    type: statement
+    qualifiers:
+      P407:
+      - snaktype: value
+        property: P407
+        hash: d197d0a5efa4b4c23a302a829dd3ef43684fe002
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 150
+            id: Q150
+          type: wikibase-entityid
+        datatype: wikibase-item
+      P361:
+      - snaktype: value
+        property: P361
+        hash: 2ccf7fba80c3fb1efe965e868d7a3b5aea1ec13b
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 3241717
+            id: Q3241717
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P407
+    - P361
+    id: Q131723$16db2f3a-4331-e0e0-8497-734cf661a223
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P973
+      hash: 93d1819d35cd1b59700af39872175320df8daefa
+      datavalue:
+        value: https://www.nytimes.com/2018/01/29/opinion/bitcoin-bubble-fraud.html
+        type: string
+      datatype: url
+    type: statement
+    qualifiers:
+      P407:
+      - snaktype: value
+        property: P407
+        hash: daf1c4fcb58181b02dff9cc89deb084004ddae4b
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 1860
+            id: Q1860
+          type: wikibase-entityid
+        datatype: wikibase-item
+      P361:
+      - snaktype: value
+        property: P361
+        hash: 909e88ee85f11131c590c0cfa989cea74ab64d19
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 9684
+            id: Q9684
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P407
+    - P361
+    id: Q131723$88edba00-41d0-34fb-a871-33e9a8373de4
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Bitcoin
+    badges: []
+  alswiki:
+    site: alswiki
+    title: Bitcoin
+    badges: []
+  arwiki:
+    site: arwiki
+    title: بيتكوين
+    badges: []
+  azbwiki:
+    site: azbwiki
+    title: بیتکوین
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Bitcoin
+    badges: []
+  barwiki:
+    site: barwiki
+    title: Bitcoin
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Біткойн
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Біткойн
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Биткойн
+    badges: []
+  bhwiki:
+    site: bhwiki
+    title: बिटकॉइन
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: বিটকয়েন
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Bitcoin
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Bitcoin
+    badges: []
+  cywiki:
+    site: cywiki
+    title: Bitcoin
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Bitcoin
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Bitcoin
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Bitcoin
+    badges: []
+  elwikibooks:
+    site: elwikibooks
+    title: Τα πρώτα βήματα στο Bitcoin
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Bitcoin
+    badges: []
+  enwikiquote:
+    site: enwikiquote
+    title: Bitcoin
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Bitmono
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Bitcoin
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Bitcoin
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Bitcoin
+    badges: []
+  fawiki:
+    site: fawiki
+    title: بیت‌کوین
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Bitcoin
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Bitcoin
+    badges: []
+  gawiki:
+    site: gawiki
+    title: Bitcoin
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Bitcoin
+    badges: []
+  hewiki:
+    site: hewiki
+    title: ביטקוין
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: बिटकॉइन
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Bitcoin
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Bitcoin
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Bitcoin
+    badges: []
+  iawiki:
+    site: iawiki
+    title: Bitcoin
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Bitcoin
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Bitcoin
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Bitcoin
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ビットコイン
+    badges: []
+  kawiki:
+    site: kawiki
+    title: ბიტკოინი
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Биткоин
+    badges: []
+  knwiki:
+    site: knwiki
+    title: ಬಿಟ್‌ಕಾಯಿನ್
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 비트코인
+    badges: []
+  lmowiki:
+    site: lmowiki
+    title: Bitcoin
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Bitcoin
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Bitcoin
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Биткоин
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: ബിറ്റ്കോയിൻ
+    badges: []
+  mnwiki:
+    site: mnwiki
+    title: Биткойн
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: बिटकॉईन
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Bitcoin
+    badges: []
+  mtwiki:
+    site: mtwiki
+    title: Bitcoin
+    badges: []
+  mywiki:
+    site: mywiki
+    title: ဘစ်ကွိုင်
+    badges: []
+  newiki:
+    site: newiki
+    title: बिटकोइन
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Bitcoin
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Bitcoin
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Bitcoin
+    badges: []
+  orwiki:
+    site: orwiki
+    title: ବିଟକଏନ
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਬਿਟਕੌਇਨ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Bitcoin
+    badges: []
+  plwikibooks:
+    site: plwikibooks
+    title: Bitcoin
+    badges: []
+  pmswiki:
+    site: pmswiki
+    title: Bitcoin
+    badges: []
+  pnbwiki:
+    site: pnbwiki
+    title: بِٹ کوئن
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Bitcoin
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Bitcoin
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Биткойн
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Bitcoin
+    badges: []
+  sewiki:
+    site: sewiki
+    title: Bitcoin
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Bitcoin
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Bitcoin
+    badges: []
+  siwiki:
+    site: siwiki
+    title: බිට්කොයින්
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Bitcoin
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Bitcoin
+    badges: []
+  sqwiki:
+    site: sqwiki
+    title: Bitcoin
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Биткојн
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Bitcoin
+    badges: []
+  tawiki:
+    site: tawiki
+    title: பிட்காயின்
+    badges: []
+  tewiki:
+    site: tewiki
+    title: బిట్ కాయిన్
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Биткоин
+    badges: []
+  thwiki:
+    site: thwiki
+    title: บิตคอยน์
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Bitcoin
+    badges: []
+  ttwiki:
+    site: ttwiki
+    title: Bitkoin
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Bitcoin
+    badges: []
+  ukwikiquote:
+    site: ukwikiquote
+    title: Bitcoin
+    badges: []
+  urwiki:
+    site: urwiki
+    title: بٹ کوئن
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Bitcoin
+    badges: []
+  yiwiki:
+    site: yiwiki
+    title: ביטקוין
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Bitcoin
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 位元幣
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 比特币
+    badges: []

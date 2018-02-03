@@ -1,0 +1,77 @@
+---
+pageid: 25997875
+ns: 0
+title: Q24004469
+lastrevid: 623600484
+modified: '2018-01-26T15:04:13Z'
+type: item
+id: Q24004469
+labels:
+  en:
+    language: en
+    value: ten million years
+aliases:
+  en:
+  - language: en
+    value: 10,000,000 years
+claims:
+  P2803:
+  - mainsnak:
+      snaktype: value
+      property: P2803
+      hash: 9972c22406e400351438ce475455521fcfa4b3d6
+      datavalue:
+        value:
+          amount: "+2"
+          unit: '1'
+          upperBound: "+2"
+          lowerBound: "+2"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q24004469$9951ec5d-4971-52da-7cec-242da2e9bf09
+    rank: normal
+    references:
+    - hash: b4147714250705a404dbab5498df6bf642f8d11c
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 73865457b9769a749e50619f4e961401d4eb3b06
+          datavalue:
+            value: https://www.wikidata.org/wiki/Special:ListDatatypes#Time
+            type: string
+          datatype: url
+      snaks-order:
+      - P854
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 98a1e85b80bda7ff493c25a6b805599da715c077
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1790144
+          id: Q1790144
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q24004469$D0E5643E-A74D-4096-ADC6-AA510831F785
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: 5bbe97789237ce4f617c76b2ebdfca50a4ab24a2
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 186081
+          id: Q186081
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q24004469$0B9D31FC-8446-409E-9A55-0B2548A864A6
+    rank: normal
+sitelinks: {}

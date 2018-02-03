@@ -1,0 +1,81 @@
+---
+pageid: 29869603
+ns: 0
+title: Q28171715
+lastrevid: 589546959
+modified: '2017-11-06T04:07:37Z'
+type: item
+id: Q28171715
+labels:
+  en:
+    language: en
+    value: bow
+aliases:
+  en:
+  - language: en
+    value: Dhanush
+  - language: en
+    value: Dhanusha
+claims:
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 18fb076bdc1c07e578546d1670ba193b768531ac
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 668
+          id: Q668
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q28171715$10199526-8407-46F2-B8A8-F58DEF60B7CF
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q28171715$265B6FB1-D69B-4CFA-9CFE-0F931503DC16
+    rank: normal
+    references:
+    - hash: e3f9bb4804a93d519c77080678d502ed9d3eb195
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: eb5252ae1473cce0806c8efd08f95e54da53fb44
+          datavalue:
+            value: https://www.britannica.com/science/bow-Iranian-unit-of-measurement
+            type: string
+          datatype: url
+      snaks-order:
+      - P854
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 7f43196553e914b02745885b26b507a11a861bf8
+      datavalue:
+        value:
+          amount: "+1.8288"
+          unit: http://www.wikidata.org/entity/Q11573
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q28171715$1e5b1a17-4424-8305-8eb0-222fa70edba8
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Dhanusha (unit)
+    badges: []

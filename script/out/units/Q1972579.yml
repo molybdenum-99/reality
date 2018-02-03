@@ -1,0 +1,204 @@
+---
+pageid: 1901554
+ns: 0
+title: Q1972579
+lastrevid: 589403210
+modified: '2017-11-05T19:00:15Z'
+type: item
+id: Q1972579
+labels:
+  en:
+    language: en
+    value: poundal
+aliases:
+  en:
+  - language: en
+    value: pdl
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 672316fcb548d7e74e5eb654f262b5b9d324db91
+      datavalue:
+        value: "/m/038n1p"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1972579$5D5AF5CD-25AE-4867-9F38-0966863995D0
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 61eec523f66a8023b47d574209355cb769d8989b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 15976022
+          id: Q15976022
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1972579$87c05b24-4d81-a057-c99f-4e256205b1d4
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 3d2216f6efb3d5bfd02e8b585e6ed4dc7cd33a0f
+      datavalue:
+        value: pdl
+        type: string
+      datatype: string
+    type: statement
+    id: Q1972579$9af3685b-4693-556b-8694-7635433a430f
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: fbc9f3b1be5ae719ecbc406a254219442bbef59d
+      datavalue:
+        value: باوندال
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: aa3f8171d71338a019a3e43c848eb59374b15b71
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8196
+            id: Q8196
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q1972579$AAB9AF0C-C923-44F3-AB7A-74C297E6294B
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 9999afad355099ff59867a4e4887f934beb2105a
+      datavalue:
+        value:
+          amount: "+0.138254954376"
+          unit: http://www.wikidata.org/entity/Q12438
+          upperBound: "+0.138254954377"
+          lowerBound: "+0.138254954375"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1972579$ffce7a61-4914-08aa-e4ca-1b3c3b32d55e
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 464bae6be05d2f310529320d08ee14467c32f9fb
+      datavalue:
+        value: Poundal
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1972579$064BEBD2-B60D-44E1-A818-9FBA8804EE14
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 80e47c1c8a3642939e6149aa4bea98157f8fbee0
+      datavalue:
+        value: poundal
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1972579$CFA8F232-2CC3-4828-B4D7-BA25D9153D5C
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 886dda2a8ff0711f405bbf864a1821cc2e6ae501
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11402
+          id: Q11402
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1972579$026B9213-239D-45FD-9AA2-EF24BC6BF317
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: باوندال
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Poundal
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Poundal
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Poundal
+    badges: []
+  jawiki:
+    site: jawiki
+    title: パウンダル
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Poundal
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Poundal
+    badges: []
+  tawiki:
+    site: tawiki
+    title: பவுண்டல்
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Poundal
+    badges: []

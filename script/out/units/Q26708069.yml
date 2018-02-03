@@ -1,0 +1,115 @@
+---
+pageid: 28640574
+ns: 0
+title: Q26708069
+lastrevid: 479452845
+modified: '2017-04-27T19:18:02Z'
+type: item
+id: Q26708069
+labels:
+  en:
+    language: en
+    value: kilocalorie
+aliases:
+  en:
+  - language: en
+    value: large calorie
+  - language: en
+    value: kilogram calorie
+  - language: en
+    value: calorie (colloquial)
+  - language: en
+    value: Calorie (colloquial)
+  - language: en
+    value: food calorie
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 06df6efe68f6e25b0d602229267e4d3e9ccc3d64
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2916980
+          id: Q2916980
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q26708069$a531e6e5-44aa-45b9-2176-646ee1451bd5
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: f501cd0de038fa48e0feccaadc289c278a64eb24
+      datavalue:
+        value: kcal
+        type: string
+      datatype: string
+    type: statement
+    id: Q26708069$8110dc56-48b8-0afb-6c3b-ea742337dfac
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: d64c143cadc307ec5cdb35b86c8498b1a5ab90f8
+      datavalue:
+        value: кКал
+        type: string
+      datatype: string
+    type: statement
+    id: Q26708069$8d09286a-40a2-33a6-ddcc-c0d0f1b7c4d4
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 7ad0f8fc8c23eb3ede324fc816121895c19109c6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11379
+          id: Q11379
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q26708069$4be5d272-414a-c399-7025-71ef225884d3
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: c141bc94dd214e75e4913c4e35be735b5dd8a6a2
+      datavalue:
+        value:
+          amount: "+1000"
+          unit: http://www.wikidata.org/entity/Q130964
+          upperBound: "+1000"
+          lowerBound: "+1000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q26708069$0b7dca6d-4544-a7f5-253f-44fba677681e
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: '0563962110c28eb8c779aa11097c71198eb869fb'
+      datavalue:
+        value:
+          amount: "+4200"
+          unit: http://www.wikidata.org/entity/Q25269
+          upperBound: "+4400"
+          lowerBound: "+4000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q26708069$1aa45dee-468e-1bc5-66f0-e34912075505
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Kilokalorie
+    badges: []

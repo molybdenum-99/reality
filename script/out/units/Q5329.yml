@@ -1,0 +1,472 @@
+---
+pageid: 6269
+ns: 0
+title: Q5329
+lastrevid: 622758307
+modified: '2018-01-23T12:10:44Z'
+type: item
+id: Q5329
+labels:
+  en:
+    language: en
+    value: decibel
+aliases: {}
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 95fd6459819cc1ba828b9a8a608d2fd14b546fec
+      datavalue:
+        value: dB
+        type: string
+      datatype: string
+    type: statement
+    id: q5329$f84a6691-48d0-4169-123c-ca2f4bb053d4
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: '0781d9f1ac22889067a4db15249b14fb2ec0829e'
+      datavalue:
+        value: дБ
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q5329$f08fa087-48bb-a41b-0237-928b6bc953a1
+    rank: normal
+  P487:
+  - mainsnak:
+      snaktype: value
+      property: P487
+      hash: 5a4e690eb009626213d825ffd705550b7910ce65
+      datavalue:
+        value: "㏈"
+        type: string
+      datatype: string
+    type: statement
+    id: q5329$f030a20a-48d3-68a2-b46b-d4b188e085a1
+    rank: normal
+  P349:
+  - mainsnak:
+      snaktype: value
+      property: P349
+      hash: 9b4ad0cde0737c31e9902e1d5b6981926511c018
+      datavalue:
+        value: '00561486'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q5329$D6F741A9-D177-4769-A65B-C116A51558C3
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 0e11e43dd5e4b9a9b82ebc9510fc84dbbdd2348e
+      datavalue:
+        value: "/m/02bn8"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q5329$484BCBCC-3B52-405E-A1BD-6254C2722904
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 9a4514d740c3ca4a7608129e6d8d7f4edd92c285
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 17342348
+          id: Q17342348
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q5329$ae5f95e1-469a-2c8b-687c-7097a2024c5f
+    rank: normal
+  P1482:
+  - mainsnak:
+      snaktype: value
+      property: P1482
+      hash: 6b38275d20bf4c97e38b6de1d3124e8a1f191135
+      datavalue:
+        value: https://stackoverflow.com/tags/decibel
+        type: string
+      datatype: url
+    type: statement
+    id: Q5329$882BC0A6-80F4-4CEC-A55E-F936D0D5EB33
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 5e4e2c3c1d2c41d9ad0be150810207441b87f24c
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2133472
+          id: Q2133472
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q5329$3863a328-4b3d-8255-668e-0b8b40b9c9fa
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: d27c28947f154bf63ae3408037863b6634ed17c5
+      datavalue:
+        value: Decibel
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q5329$64996631-74B0-4A04-8682-29255E3AD8FF
+    rank: normal
+  P2959:
+  - mainsnak:
+      snaktype: value
+      property: P2959
+      hash: 2004bbe4fa177910db235a1c1f702fa20b8749b0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 27149145
+          id: Q27149145
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q5329$9C40CEF3-23FD-4D07-8F71-496E3025F62C
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: f0ea3284d9e9280c62c173c6f1c6697c9dd4b8f5
+      datavalue:
+        value: Decibels
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q5329$74B9EC0C-35A6-4DFA-BA96-6BB89F101869
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P3569:
+  - mainsnak:
+      snaktype: value
+      property: P3569
+      hash: 137fa5580145e1a0c3097a228cc17aa0a25362c8
+      datavalue:
+        value: techologie-en-techniek/decibel
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q5329$2FCADB78-FA49-4A7D-839B-E4FFB225FC5E
+    rank: normal
+  P2924:
+  - mainsnak:
+      snaktype: value
+      property: P2924
+      hash: f1a642cadb7930bf170426eb5f234f87c5ee67a7
+      datavalue:
+        value: '1950726'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q5329$ED9D02E7-EAE9-4E41-AE48-373E2E5F6B88
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: ديسيبل
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Desibel
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Децибел
+    badges: []
+  bowiki:
+    site: bowiki
+    title: དེ་སྦེལ།
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Decibel
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Decibel
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Dezibel
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Ντεσιμπέλ
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Decibel
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Decibelo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Decibelio
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Detsibell
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Dezibel
+    badges: []
+  fawiki:
+    site: fawiki
+    title: دسی‌بل
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Desibeli
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Décibel
+    badges: []
+  gawiki:
+    site: gawiki
+    title: Deicibeil
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Decibel
+    badges: []
+  hewiki:
+    site: hewiki
+    title: דציבל
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: डेसीबेल
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Decibel
+    badges: []
+  htwiki:
+    site: htwiki
+    title: Desibèl
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Decibel
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Դեցիբել
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Desibel
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Desíbel
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Decibel
+    badges: []
+  jawiki:
+    site: jawiki
+    title: デシベル
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Децибел
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 데시벨
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Decibels
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Децибел
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: ഡെസിബെൽ
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Desibel
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Decibel (eenheid)
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Desibel
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Desibel
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Decibèl
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Decybel
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Decibel
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Decibel
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Децибел
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Decibel
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Decibel
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Decibel
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Decibel
+    badges: []
+  sowiki:
+    site: sowiki
+    title: Dhesibel
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Decibel
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Decibel
+    badges: []
+  tawiki:
+    site: tawiki
+    title: டெசிபெல்
+    badges: []
+  tewiki:
+    site: tewiki
+    title: డెసిబెల్
+    badges: []
+  thwiki:
+    site: thwiki
+    title: เดซิเบล
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Desibel
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Децибел
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Detsibel
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Decibel
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 分貝
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 分貝
+    badges: []

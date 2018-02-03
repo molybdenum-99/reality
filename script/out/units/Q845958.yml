@@ -1,0 +1,148 @@
+---
+pageid: 798000
+ns: 0
+title: Q845958
+lastrevid: 491629413
+modified: '2017-05-28T20:29:07Z'
+type: item
+id: Q845958
+labels:
+  en:
+    language: en
+    value: B yen
+aliases: {}
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: e47be2cc05de0a3bcced5515f00215f1563c9ad8
+      datavalue:
+        value: B yen
+        type: string
+      datatype: string
+    type: statement
+    id: q845958$559CF727-24EF-4C2B-A910-B576424D7ED4
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 67782720f8dc707fd3d55806df72409983a237a2
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 55526
+          id: Q55526
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q845958$C4B8E871-8409-4D7A-B319-BF0799A37468
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 8d961ed25a51ceb86c7c6a679cc975575d4987ce
+      datavalue:
+        value: "/m/05bzzgv"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q845958$92EC4BDE-C855-4D5A-A388-F6B45E72F53C
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q845958$A10B56CF-E8DE-4680-8103-2F30973EFEF8
+    rank: normal
+sitelinks:
+  commonswiki:
+    site: commonswiki
+    title: Category:B yen
+    badges: []
+  enwiki:
+    site: enwiki
+    title: B yen
+    badges: []
+  fawiki:
+    site: fawiki
+    title: ین بی
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Yen B
+    badges: []
+  jawiki:
+    site: jawiki
+    title: B円
+    badges: []
+  kowiki:
+    site: kowiki
+    title: B엔
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Американская оккупационная иена
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: B型軍票
+    badges: []

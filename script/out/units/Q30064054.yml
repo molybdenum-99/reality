@@ -1,0 +1,65 @@
+---
+pageid: 31677814
+ns: 0
+title: Q30064054
+lastrevid: 560452299
+modified: '2017-09-17T05:17:00Z'
+type: item
+id: Q30064054
+labels:
+  en:
+    language: en
+    value: ampere per degree
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q30064054$30876038-4985-cb66-05ba-13bf843ecb81
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 3e7f5f37257efde978aac20076dd196fefd617ab
+      datavalue:
+        value: A/°
+        type: string
+      datatype: string
+    type: statement
+    id: Q30064054$b13e2f0d-45ad-061e-5fa5-64be0022376b
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 9380421348911c875d22ded349d309a9db66898e
+      datavalue:
+        value: A/deg
+        type: string
+      datatype: string
+    type: statement
+    id: Q30064054$593ab733-4e16-49e1-a2f3-c824872f012b
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 2f813d6c416cdfc2c045c771c1ea9e54dd5053f4
+      datavalue:
+        value: AmperePerDegree
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q30064054$95d69351-4114-966c-10e5-8de6c8ca586b
+    rank: normal
+sitelinks: {}

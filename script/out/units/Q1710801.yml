@@ -1,0 +1,85 @@
+---
+pageid: 1643996
+ns: 0
+title: Q1710801
+lastrevid: 206116225
+modified: '2015-03-23T14:18:02Z'
+type: item
+id: Q1710801
+labels:
+  en:
+    language: en
+    value: Juchart
+aliases: {}
+claims:
+  P902:
+  - mainsnak:
+      snaktype: value
+      property: P902
+      hash: 8d92079c7402e71ae3f618c1e9ca83b488a81670
+      datavalue:
+        value: '14192'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1710801$760928B3-0C08-4617-A818-AB7CFEA5B959
+    rank: normal
+    references:
+    - hash: 9a24f7c0208b05d6be97077d855671d1dfdbc0dd
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: d38375ffe6fe142663ff55cd783aa4df4301d83d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 48183
+              id: Q48183
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: e12439f34cec95ee050daf4e503b6952b0e935f4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11500
+          id: Q11500
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1710801$c5c4b0ee-450a-e295-3037-fff8d9d39115
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 0f49769a073adbf1aea6d3645a68f24ad29dbeb6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1371562
+          id: Q1371562
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1710801$72f3f264-49e9-b191-1def-678cce642374
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Juchart
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Juchart
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Pose (unité)
+    badges: []

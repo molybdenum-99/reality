@@ -1,0 +1,157 @@
+---
+pageid: 336584
+ns: 0
+title: Q352512
+lastrevid: 615339040
+modified: '2017-12-31T01:53:44Z'
+type: item
+id: Q352512
+labels:
+  en:
+    language: en
+    value: Augustalis
+aliases: {}
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: d9fdb9546576a84163719cd9fed0937c1f98d69d
+      datavalue:
+        value: Augustale
+        type: string
+      datatype: string
+    type: statement
+    id: q352512$12A02ACE-5314-4425-B8BF-09DF5510C43B
+    rank: normal
+    references:
+    - hash: 9a24f7c0208b05d6be97077d855671d1dfdbc0dd
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: d38375ffe6fe142663ff55cd783aa4df4301d83d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 48183
+              id: Q48183
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 1893fbb8468cc5827e9eaa934db5061dd0a1ddfc
+      datavalue:
+        value: "/m/034m78"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q352512$BDF216D1-69CB-494D-B363-1FCCC933FF24
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P1296:
+  - mainsnak:
+      snaktype: value
+      property: P1296
+      hash: '0280cd56aef2d5b164a1ec381f6d50dfb77acd98'
+      datavalue:
+        value: '0075789'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q352512$25F236A2-7A5B-48A4-826E-4256460BF883
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q352512$085ED875-464A-4248-A95A-2EAD0DC9ECDA
+    rank: normal
+  P2950:
+  - mainsnak:
+      snaktype: value
+      property: P2950
+      hash: bf9d7c93dade417a58ed745a1c67cb3576b1e3c8
+      datavalue:
+        value: augustalis
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q352512$4188AFCB-7D20-4590-B628-6C5A0A7C8E99
+    rank: normal
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Agostar
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Augustalis
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Augustalis
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Augustale
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Augustalis
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Augustalis
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Августаль
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Augustal
+    badges: []

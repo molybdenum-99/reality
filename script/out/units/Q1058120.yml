@@ -1,0 +1,303 @@
+---
+pageid: 1006941
+ns: 0
+title: Q1058120
+lastrevid: 623108565
+modified: '2018-01-24T21:34:51Z'
+type: item
+id: Q1058120
+labels:
+  en:
+    language: en
+    value: quart
+aliases: {}
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 1bcbc0d764a6e149b7ecb54de28bed70f6b59e8b
+      datavalue:
+        value: Quart
+        type: string
+      datatype: string
+    type: statement
+    id: q1058120$36264498-27C9-41DC-8D9D-4E7BFB06B00A
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: d7436ecf4bddb459ac72ff2bde6bdadc19daa408
+      datavalue:
+        value: "/m/01lctl"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1058120$36893A52-3DF8-4C13-9E82-314A138D625E
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6e3da81891b6fba54d9ac8088595a4b05e5a5f95
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1302471
+          id: Q1302471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1058120$74723967-DA6F-4A87-8E04-925D88F8F5E4
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: f085b0c4c3db3510ae2e3f19c22f34ba4ced3b75
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 16782623
+          id: Q16782623
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1058120$ccd32786-4b08-d755-2056-fb99e5268eaf
+    rank: normal
+  P2959:
+  - mainsnak:
+      snaktype: value
+      property: P2959
+      hash: c9682a482a3f0305c7a9317c9aaf8732c2c2571e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 6094100
+          id: Q6094100
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1058120$828607D1-C863-4420-9688-883DA02BD794
+    rank: normal
+    references:
+    - hash: c2f39ff33f55ea09d8384af9942405fbfadac0b6
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 8e2eb310e9e3fabb887a8a12729526cf45148212
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 20651139
+              id: Q20651139
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 42346dfe9209b7359c1f5db829a368b38d407797
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 19180675
+          id: Q19180675
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P805:
+      - snaktype: value
+        property: P805
+        hash: 07b51aff8bc6bf7b1b98b2abd212211132d0c573
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 24763137
+            id: Q24763137
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P805
+    id: Q1058120$C6849822-43B3-4017-8C70-4FE523E48876
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 88389772f86dcd7d415ddd029f601412e5cc894a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 602358
+          id: Q602358
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P805:
+      - snaktype: value
+        property: P805
+        hash: 469d275cce7258d796d96881db267560e932e1ca
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 24439100
+            id: Q24439100
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P805
+    id: Q1058120$161C0EBF-A3C4-4F51-BBB3-2F8DA8BB5EB3
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: كوارت (وحدة قياس)
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Кварта (адзінка аб’ёму)
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Quart (unitat de volum)
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Quart (Einheit)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Quart
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Cuarto (unidad de volumen)
+    badges: []
+  fawiki:
+    site: fawiki
+    title: کوارت
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Quart (unité)
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Kvart
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Quarto (unità di misura)
+    badges: []
+  jawiki:
+    site: jawiki
+    title: クォート
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 쿼트
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Stops (mērvienība)
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Quart (eenheid)
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Quart
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Kwarta (jednostka objętości)
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Quarto (volume)
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Кварта (единица объёма)
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Quart
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Quart
+    badges: []
+  thwiki:
+    site: thwiki
+    title: ควอร์ต
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Quart
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Кварта (одиниця об'єму)
+    badges: []
+  warwiki:
+    site: warwiki
+    title: Kwarto (yunit hit panukol)
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 夸脫
+    badges: []

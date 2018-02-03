@@ -1,0 +1,213 @@
+---
+pageid: 13090079
+ns: 0
+title: Q11925390
+lastrevid: 537539293
+modified: '2017-08-14T08:08:35Z'
+type: item
+id: Q11925390
+labels:
+  en:
+    language: en
+    value: hemina
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: c454c0c3de246c32f34b9be05dc25a1c41e32e6f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 25906214
+          id: Q25906214
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q11925390$03e1ff6e-4f7a-9c01-63c9-8debadd0da4f
+    rank: normal
+    references:
+    - hash: 77558b2586162aee5b4404eb03a24e761dda99fa
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: afd0bc01045c9e952bd83a2da36c2745f89ac643
+          datavalue:
+            value: http://www.livius.org/w/weights/weights2.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 319eca416990be95d0bc1936656ae864506b85ef
+          datavalue:
+            value:
+              time: "+2016-07-17T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: f37c73dec48ba9a6299af3cc096435154a20ce68
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 6008757
+          id: Q6008757
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q11925390$ba77535e-4f45-0971-f09c-cc6fd5e0512c
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 52afd5559217923531f59bd55edf87f344e02b43
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1161819
+          id: Q1161819
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q11925390$95703408-497b-b31e-0ad6-b2fa7ed224ef
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: bc70750609f3edcccfbc183ca7a69913846f0c62
+      datavalue:
+        value:
+          amount: "+0.5"
+          unit: http://www.wikidata.org/entity/Q14333713
+          upperBound: "+0.5"
+          lowerBound: "+0.5"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q11925390$c42873a1-4d59-45d8-160e-4237705e5ffb
+    rank: normal
+    references:
+    - hash: 77558b2586162aee5b4404eb03a24e761dda99fa
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: afd0bc01045c9e952bd83a2da36c2745f89ac643
+          datavalue:
+            value: http://www.livius.org/w/weights/weights2.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 319eca416990be95d0bc1936656ae864506b85ef
+          datavalue:
+            value:
+              time: "+2016-07-17T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 46d246ab5675b65c3e262a0d250e54f3d50ccda2
+      datavalue:
+        value:
+          amount: "+6"
+          unit: http://www.wikidata.org/entity/Q3676321
+          upperBound: "+6"
+          lowerBound: "+6"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q11925390$737bf9dd-4a76-1c1a-43cc-343428b38c2b
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: ab987870b3d6f3e3e5a4d096cac45b616fe700a1
+      datavalue:
+        value:
+          amount: "+0.00027"
+          unit: http://www.wikidata.org/entity/Q25517
+          upperBound: "+0.00027"
+          lowerBound: "+0.00027"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q11925390$07dc418f-49ef-0df4-dcce-efbb20a66c78
+    rank: normal
+    references:
+    - hash: 77558b2586162aee5b4404eb03a24e761dda99fa
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: afd0bc01045c9e952bd83a2da36c2745f89ac643
+          datavalue:
+            value: http://www.livius.org/w/weights/weights2.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 319eca416990be95d0bc1936656ae864506b85ef
+          datavalue:
+            value:
+              time: "+2016-07-17T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: ece6f6e6968e83ab4ea375829a8c5694d93dff51
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 39297
+          id: Q39297
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q11925390$DAB50A2D-FF29-441E-9163-EB199622CEA1
+    rank: normal
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Heminae
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Hemina
+    badges: []

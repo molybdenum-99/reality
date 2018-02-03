@@ -1,0 +1,368 @@
+---
+pageid: 630864
+ns: 0
+title: Q669931
+lastrevid: 623098294
+modified: '2018-01-24T21:04:29Z'
+type: item
+id: Q669931
+labels:
+  en:
+    language: en
+    value: dessiatin
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 8223e0a44ca032319190c3525fbf95b79865a795
+      datavalue:
+        value: "/m/02z7vbp"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q669931$F241DA51-B954-4E06-9A35-6696CAF61F53
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 0f49769a073adbf1aea6d3645a68f24ad29dbeb6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1371562
+          id: Q1371562
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q669931$468bcf22-45af-182c-5bcf-2dd6724a200f
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 2b8b8057cb4029acdd61112e5a77ff87c571c45b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 435964
+          id: Q435964
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q669931$4D8CF2F2-D17D-42E7-9A1E-72DACC4954B6
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 4e5bc8246a2564dfbc2b781053370a8bf7b749ea
+      datavalue:
+        value:
+          amount: "+2400"
+          unit: http://www.wikidata.org/entity/Q26221041
+          upperBound: "+2400"
+          lowerBound: "+2400"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q669931$fe86ad49-4d55-a827-7dc1-4abcc1f9b908
+    rank: normal
+    references:
+    - hash: 4dc2a3d7c2af611cb278e4c9eed182bce41c6e81
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: b5f16009d6f2eeaaff365215632bca98770c2a06
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 24397194
+              id: Q24397194
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 4d33b6280e7935ecf45fdd834c845c6eed697b6d
+      datavalue:
+        value:
+          amount: "+21600"
+          unit: http://www.wikidata.org/entity/Q26250779
+          upperBound: "+21600"
+          lowerBound: "+21600"
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P2559:
+      - snaktype: value
+        property: P2559
+        hash: 06bfa1a23546cf42273941c22b2ed6b47805e16a
+        datavalue:
+          value:
+            text: 1 dessiatin = 2400×3×3 square arshin
+            language: en
+          type: monolingualtext
+        datatype: monolingualtext
+    qualifiers-order:
+    - P2559
+    id: Q669931$f1462a9e-42b3-2b18-17c0-3f73d0c35f3a
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 5a3d6ad43275d2e7f16b9d1bb467511fa817f557
+      datavalue:
+        value:
+          amount: "+117600"
+          unit: http://www.wikidata.org/entity/Q857027
+          upperBound: "+117600"
+          lowerBound: "+117600"
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P2559:
+      - snaktype: value
+        property: P2559
+        hash: 7deafa9e3852c070fb03b11f58c3516903841f65
+        datavalue:
+          value:
+            text: 1 dessiatin = 2400×7×7 square feet
+            language: en
+          type: monolingualtext
+        datatype: monolingualtext
+    qualifiers-order:
+    - P2559
+    id: Q669931$2e7fe2f4-47df-7723-50dd-f065c1a8d5ef
+    rank: normal
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 42346dfe9209b7359c1f5db829a368b38d407797
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 19180675
+          id: Q19180675
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P805:
+      - snaktype: value
+        property: P805
+        hash: f7cc90fd05bd45d0cdc0d59d2d0b600a07e2aa4c
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 24745582
+            id: Q24745582
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P805
+    id: Q669931$729E956A-F6B1-49B5-9B87-C9D4944DF63A
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 88389772f86dcd7d415ddd029f601412e5cc894a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 602358
+          id: Q602358
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P805:
+      - snaktype: value
+        property: P805
+        hash: 9c5436f1bbb81e65a672ad1ef23eaedabcd0e95b
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 24397194
+            id: Q24397194
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P805
+    id: Q669931$BC1304CF-7653-449C-AB26-6005CBA44E3C
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: e12439f34cec95ee050daf4e503b6952b0e935f4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11500
+          id: Q11500
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q669931$f671fe7c-4a64-bd95-b424-c2096887d3ad
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 638c973555af5494faa72e42be88b8b336b509dd
+      datavalue:
+        value: дес.
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P407:
+      - snaktype: value
+        property: P407
+        hash: d291ddb7cd77c94a7bd709a8395934147e0864fc
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 7737
+            id: Q7737
+          type: wikibase-entityid
+        datatype: wikibase-item
+      P1480:
+      - snaktype: value
+        property: P1480
+        hash: 9818a0fd3fce9ef046b3fee90c6845026501322d
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 18122778
+            id: Q18122778
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P407
+    - P1480
+    id: Q669931$6753402b-4e02-017e-bdd9-769270ff81a1
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 01abd8b5ae1bfa87a6b4970ffec24cec4409b698
+      datavalue:
+        value:
+          amount: "+10926.512"
+          unit: http://www.wikidata.org/entity/Q25343
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q669931$ec799b17-48b8-f133-3f76-473955bdddcc
+    rank: normal
+sitelinks:
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Дзесяціна (мера плошчы)
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Дзесяціна (мера плошчы)
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Dessjatine
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Dessiatin
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Tiin
+    badges: []
+  fiu_vrowiki:
+    site: fiu_vrowiki
+    title: Tiin
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Desjatiina
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Dessiatine
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Desjatina
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Десятина
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Dešimtinė (ploto vienetas)
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Desjatina
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Desjatin
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Dziesięcina (miara powierzchni)
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Десятина (мера площади)
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Desjatina
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Десятина (одиниця площі)
+    badges: []

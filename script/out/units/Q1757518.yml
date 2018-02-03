@@ -1,0 +1,116 @@
+---
+pageid: 1690134
+ns: 0
+title: Q1757518
+lastrevid: 560475784
+modified: '2017-09-17T06:39:19Z'
+type: item
+id: Q1757518
+labels:
+  en:
+    language: en
+    value: Łan
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: bbd5e59dd427cceb51d78c7c22f918cafb90f773
+      datavalue:
+        value: "/m/0cgrh8"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1757518$1E9B59B9-6890-4A4E-908E-8DCA61E56F90
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 0f49769a073adbf1aea6d3645a68f24ad29dbeb6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1371562
+          id: Q1371562
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1757518$2f875313-45ce-beff-4eda-53c165ba5a4c
+    rank: normal
+  P460:
+  - mainsnak:
+      snaktype: value
+      property: P460
+      hash: '08fcdf9d2dbd9f5017dfcd5869b9c825c45598da'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 280209
+          id: Q280209
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1757518$6787ecfe-40e8-5f23-e7ec-3ed0cc66e188
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Hufe
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Hubo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Mas
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Labourée de bœufs
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Hoeve (oppervlaktemaat)
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Гуфа (единица измерения)
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Huba
+    badges: []

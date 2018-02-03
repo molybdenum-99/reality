@@ -1,0 +1,96 @@
+---
+pageid: 2464375
+ns: 0
+title: Q2553708
+lastrevid: 514113874
+modified: '2017-07-05T22:57:08Z'
+type: item
+id: Q2553708
+labels:
+  en:
+    language: en
+    value: megavolt
+aliases:
+  en:
+  - language: en
+    value: MV
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: c3717caf370bc66c57c66b183492f69bada9f3eb
+      datavalue:
+        value: MV
+        type: string
+      datatype: string
+    type: statement
+    id: q2553708$3a26e62d-452b-ac11-f9c8-793896405b7b
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2553708$495c1c64-4181-a776-58d2-c3420a6d7789
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 5d7aa1381bd0416b71df64b26a0ae5feef7f7909
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 25428
+          id: Q25428
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2553708$85e6664b-4aa0-6d69-1e63-32191812bdc9
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 305c59b43efd5b5693b4e028c01c4471b052f73c
+      datavalue:
+        value: MEGAVOLT
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2553708$15A230B9-C762-412F-90F5-992B6A67BCE0
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Megavolt
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Megavolt
+    badges: []

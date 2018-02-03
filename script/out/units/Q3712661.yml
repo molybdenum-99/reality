@@ -1,0 +1,180 @@
+---
+pageid: 3538473
+ns: 0
+title: Q3712661
+lastrevid: 618701941
+modified: '2018-01-11T06:11:24Z'
+type: item
+id: Q3712661
+labels:
+  en:
+    language: en
+    value: Prince Edward Island dollar
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3712661$f3a110e1-4102-2f84-a187-b2660fafac0d
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: bededd8acef634244a0b0d8ad98f06539357a78a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 14083
+          id: Q14083
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3712661$51b712a4-42cc-5a68-cb8d-750a21466ae2
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 6d2fc5975a573cd09beb1224905ab7b402d663b6
+      datavalue:
+        value: "/m/03d2n0l"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3712661$CEAEF6A4-5DC5-49B2-9A25-4700B9787AE6
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P580:
+  - mainsnak:
+      snaktype: value
+      property: P580
+      hash: c6841b4281d9c9e196a9f907be345ec25f20438a
+      datavalue:
+        value:
+          time: "+1871-01-01T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 9
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q3712661$d04c30c4-4105-a6f1-1cdf-f80b11370c00
+    rank: normal
+  P582:
+  - mainsnak:
+      snaktype: value
+      property: P582
+      hash: 4ac7115fb6dc7701f8c28290bb01f08db6fde743
+      datavalue:
+        value:
+          time: "+1873-01-01T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 9
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q3712661$90cdbc05-4c94-5330-0d4e-c3c06f75e4e9
+    rank: normal
+  P1366:
+  - mainsnak:
+      snaktype: value
+      property: P1366
+      hash: f35f0cb2df097e55eafd8d1bf907d70e6b1e362e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1104069
+          id: Q1104069
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3712661$f5f2e74b-427e-752c-6be1-00ea7e3a192c
+    rank: normal
+  P1365:
+  - mainsnak:
+      snaktype: value
+      property: P1365
+      hash: 145e117c05a721eb550527eec805acec0b5ff2d5
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 7243962
+          id: Q7243962
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3712661$1dd66a8c-4185-0346-92c8-c2d664559020
+    rank: normal
+  P1001:
+  - mainsnak:
+      snaktype: value
+      property: P1001
+      hash: 2f00264ce5953a9d72135cdb146d41eef8fe78be
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1979
+          id: Q1979
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3712661$8b67c09c-4bf2-39af-e53a-e30daf26f29f
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Prince Edward Island dollar
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Dollaro dell'Isola del Principe Edoardo
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Đô la đảo Hoàng tử Edward
+    badges: []

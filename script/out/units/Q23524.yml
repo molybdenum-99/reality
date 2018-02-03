@@ -1,0 +1,111 @@
+---
+pageid: 26911
+ns: 0
+title: Q23524
+lastrevid: 535240482
+modified: '2017-08-10T19:46:42Z'
+type: item
+id: Q23524
+labels:
+  en:
+    language: en
+    value: Mignonnette
+aliases:
+  en:
+  - language: en
+    value: Miniature
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6e3da81891b6fba54d9ac8088595a4b05e5a5f95
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1302471
+          id: Q1302471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q23524$1F1B4F89-B634-4C02-936C-3393BB6B5159
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 742050cde837971be7ba1206662a1cdda241c67d
+      datavalue:
+        value: Miniature liquor bottles
+        type: string
+      datatype: string
+    type: statement
+    id: Q23524$58823BE4-EB86-42A6-B6D9-E1E3DDEEE374
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: b44b70369af201ab3835feaf69ad08e241f7e924
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 80228
+          id: Q80228
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q23524$a981cf6f-46ed-9d8e-5048-3756b8b9a4e4
+    rank: normal
+  P1889:
+  - mainsnak:
+      snaktype: value
+      property: P1889
+      hash: e9efb915be45c98d3e42df1222b32a7d96dc5b40
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1932457
+          id: Q1932457
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q23524$0947CFF5-351D-4F93-B4BF-FCC8793E28DD
+    rank: normal
+sitelinks:
+  commonswiki:
+    site: commonswiki
+    title: Category:Miniature liquor bottles
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Miniatur (Spirituosen)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Miniature (alcohol)
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Mignonnette
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Mignonette
+    badges: []

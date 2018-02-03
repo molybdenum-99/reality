@@ -1,0 +1,129 @@
+---
+pageid: 2010845
+ns: 0
+title: Q2083869
+lastrevid: 468571685
+modified: '2017-03-20T09:04:38Z'
+type: item
+id: Q2083869
+labels:
+  en:
+    language: en
+    value: German ostmark
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 116cc3cf6e58ef7e014599831a3477f6ef50f0e0
+      datavalue:
+        value: "/m/0b1rm5"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2083869$D41A283E-6F55-43A7-99D9-907D4811C38A
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: e75081b7eb0b508e8d930d2feaa84874a0538734
+      datavalue:
+        value: Banknotes of the German occupation Zone (1914-1918)
+        type: string
+      datatype: string
+    type: statement
+    id: Q2083869$3a192857-4bff-f424-7a28-b4a93bd4d129
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2083869$6D9CBCFA-1F1C-4CC8-9E0B-4BF76A1A1C3D
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Oberost-Mark
+    badges: []
+  enwiki:
+    site: enwiki
+    title: German ostmark
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Saksa idamark
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Ostmark (valuta)
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Ostmark (Eerste Wereldoorlog)
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Ostmarka
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Oberost-Mark
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Германская восточная марка
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Ostmark (valuta)
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Німецька ост-марка
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 德国东线马克
+    badges: []

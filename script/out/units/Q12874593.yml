@@ -1,0 +1,273 @@
+---
+pageid: 14309787
+ns: 0
+title: Q12874593
+lastrevid: 623570197
+modified: '2018-01-26T12:50:06Z'
+type: item
+id: Q12874593
+labels:
+  en:
+    language: en
+    value: watt-hour
+aliases:
+  en:
+  - language: en
+    value: Wh
+  - language: en
+    value: watt hour
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: '069d8ae4d725e700bc6d0c36df0e643b2632c010'
+      datavalue:
+        value: Wh
+        type: string
+      datatype: string
+    type: statement
+    id: q12874593$c3cffe66-4c62-12c2-520b-c37dd883f7f9
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 06df6efe68f6e25b0d602229267e4d3e9ccc3d64
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2916980
+          id: Q2916980
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q12874593$9b241e81-466f-ea0e-998e-3ec47a676699
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 773ee15f159811bdc0e2541d29ebde7057f0d74d
+      datavalue:
+        value: "/m/018lqb"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q12874593$3BC04ECE-647D-4856-ADCD-4BC57F120868
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: a642424a10c4316ee9409b105ccfb2ed6a99810a
+      datavalue:
+        value:
+          amount: "+3600"
+          unit: http://www.wikidata.org/entity/Q25269
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q12874593$63bd1f7b-4c02-87cd-d0dd-a52b73772335
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 75adc02ba304126338ccfba69f5740d8f6c8747a
+      datavalue:
+        value: Watthour
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q12874593$1b3aa707-49c6-eb98-efec-b9d618507d76
+    rank: normal
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: f28c9b9721103347d93d1a6da78c475244747a7b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 25236
+          id: Q25236
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q12874593$e3120267-4c60-e80f-b1a9-5890a1262b46
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: e4a5f9581e209abc694c7972aa2190af05de1b8e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 25235
+          id: Q25235
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q12874593$a7f9177a-4df3-4ffb-0d69-1d75b019f5ee
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 7ad0f8fc8c23eb3ede324fc816121895c19109c6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11379
+          id: Q11379
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q12874593$49E2A181-3C14-4E46-8E8A-D04336BBC49F
+    rank: normal
+  P4746:
+  - mainsnak:
+      snaktype: value
+      property: P4746
+      hash: 2e0bc8546e2b0d8d0154d211d03f788fbada9362
+      datavalue:
+        value: '133183'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q12874593$D458136C-6133-4917-9E9C-AE5C9041A8D6
+    rank: normal
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: eda63bed5c3d7a3460033092338ab321a2374c7f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2041543
+          id: Q2041543
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P805:
+      - snaktype: value
+        property: P805
+        hash: 17ef45ead565ef319cf9f2462cd81e6858e604d3
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 23858186
+            id: Q23858186
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P805
+    id: Q12874593$F0311E10-8289-4A76-BACE-D2C3B6F9751A
+    rank: normal
+    references:
+    - hash: 202b7afb9de9e7d0846c18af65670453bf63c87c
+      snaks:
+        P3452:
+        - snaktype: value
+          property: P3452
+          hash: 5ee254fc0132cf7a45f35552dbc279f0944d1ef2
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 23858186
+              id: Q23858186
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P3452
+sitelinks:
+  bswiki:
+    site: bswiki
+    title: Vatsat
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Watthodina
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Wattstunde
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Βατώρα
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Vatio-hora
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Wattitunti
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Vatsat
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Wattora
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Watt-hora
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Watt-oră
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Vatsat
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Watthodina
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Wattimme
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Ват-година
+    badges: []

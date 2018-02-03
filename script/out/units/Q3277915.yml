@@ -1,0 +1,169 @@
+---
+pageid: 3126769
+ns: 0
+title: Q3277915
+lastrevid: 564651840
+modified: '2017-09-24T01:01:16Z'
+type: item
+id: Q3277915
+labels:
+  en:
+    language: en
+    value: zettametre
+aliases:
+  en:
+  - language: en
+    value: zettameter
+  - language: en
+    value: Zm
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1c41b2ea8a3f6d3fab77c103d826ae5ead7a9c01
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1978718
+          id: Q1978718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3277915$e8277a38-4101-672e-780e-aa03a4796b3b
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: ad69de7a3e3f55f0dbb65549476bc13919985e0c
+      datavalue:
+        value: Zm
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q3277915$4baf70fa-4163-3fef-143a-98c2805e2a23
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: b13e72d2ec4264bb7839f92806ccdd8213c2c3ab
+      datavalue:
+        value: Зм
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q3277915$d1055945-4732-3d51-9e7c-12265bee9942
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: d95be53eac3fdb4d443556804d111aaf08b325fc
+      datavalue:
+        value:
+          amount: "+1000000000000000000000"
+          unit: http://www.wikidata.org/entity/Q11573
+          upperBound: "+1000000000000000000000"
+          lowerBound: "+1000000000000000000000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q3277915$795fce82-47d6-703b-eeec-40bf871d0b43
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: c2db4a963453ddb08f55c0ea6d22f6adefded2a9
+      datavalue:
+        value: zettametre
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3277915$F3F65CAC-D0E6-404C-85C4-6611F133D87C
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 4354e3cc033f2c5371e447e5ab1cca8b89ffa3e0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 36253
+          id: Q36253
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3277915$54FF3876-EE4D-4088-A636-837F9A5A53BC
+    rank: normal
+sitelinks:
+  astwiki:
+    site: astwiki
+    title: Zetámetru
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Zetàmetre
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Zettameter
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Zettametro
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Zettametro
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ゼタメートル
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 제타미터
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Zettameter
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Zettameter
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Zettameter
+    badges: []

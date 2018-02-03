@@ -1,0 +1,431 @@
+---
+pageid: 971473
+ns: 0
+title: Q1022113
+lastrevid: 623231323
+modified: '2018-01-25T09:48:45Z'
+type: item
+id: Q1022113
+labels:
+  en:
+    language: en
+    value: cubic centimetre
+aliases:
+  en:
+  - language: en
+    value: cubic centimeter
+  - language: en
+    value: cm³
+  - language: en
+    value: cc
+  - language: en
+    value: ccm
+  - language: en
+    value: cm3
+  - language: en
+    value: cm^3
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6e3da81891b6fba54d9ac8088595a4b05e5a5f95
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1302471
+          id: Q1302471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1022113$5abbde22-4c7f-db51-e4a8-94c6f1780952
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 4ad2c33e336f0980d6040931c44aa442a0d80663
+      datavalue:
+        value: "/m/025yhnx"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1022113$99D2FA54-CDA5-4244-A5C9-043BE8C64523
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P460:
+  - mainsnak:
+      snaktype: value
+      property: P460
+      hash: d3e309aa987981c2639f7dbcc06dc7437f82988e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 6932247
+          id: Q6932247
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1022113$4C27913B-9F38-4A98-8F56-6812B26DFD69
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P460
+      hash: 2c7f6527902b67abdb057c5ad0bea87e0606da19
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2332346
+          id: Q2332346
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1022113$67c19426-428d-b294-3ed6-b5159e4fd1c3
+    rank: normal
+  P2234:
+  - mainsnak:
+      snaktype: value
+      property: P2234
+      hash: bb12ca00e35b6df655427eeca08f780acd0a5f39
+      datavalue:
+        value:
+          amount: "+0.000001"
+          unit: http://www.wikidata.org/entity/Q25517
+          upperBound: "+0.000001"
+          lowerBound: "+0.000001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1022113$c2e9bcd5-464b-5873-c94e-5cbf9c15ae35
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2234
+      hash: cd72a81b2341fb5af8ac8f096945086ce38dd5b7
+      datavalue:
+        value:
+          amount: "+0.001"
+          unit: http://www.wikidata.org/entity/Q11582
+          upperBound: "+0.001"
+          lowerBound: "+0.001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1022113$c6e4d587-416d-cdf8-0878-745a240c433a
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: d2549cfbc9753722d13cc69cbba45a539f5a3404
+      datavalue:
+        value: cm³
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q1022113$00ec31ee-4888-14e2-eaab-9d381e9fcd93
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: d74a2d26c899d4f809ce0eb34a0c0b624d9dc74e
+      datavalue:
+        value: см³
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q1022113$691d22a8-4f11-0522-c2f1-aaf735c39ad3
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: d911a167d9232930efc60fc076fca159c1670c9b
+      datavalue:
+        value: סמ"ק
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 5ab9edfe720165e8c92da8c7b47bbac87f665de5
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 33513
+            id: Q33513
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q1022113$cd675769-4d23-f780-a971-c9580402d641
+    rank: normal
+  P487:
+  - mainsnak:
+      snaktype: value
+      property: P487
+      hash: 80ada3bde692ba2e4467cbc5d18d731d75b3c283
+      datavalue:
+        value: "㎤"
+        type: string
+      datatype: string
+    type: statement
+    id: Q1022113$f62147d3-4a46-6bd0-b45f-1039f4bad713
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: c832e35e321851e4103b8301692bcda615a028ca
+      datavalue:
+        value:
+          amount: "+0.000001"
+          unit: http://www.wikidata.org/entity/Q25517
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1022113$754e79db-428a-4616-59fe-509241853535
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 68bf25dd124be02e2c03a6018e920eed871e6861
+      datavalue:
+        value: cubic_centimetre
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1022113$6E13C956-3109-4524-827C-8522607BA190
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 662dd79324b0a1c6e9ee9d2c824973d4b464d9db
+      datavalue:
+        value: CubicCentimeter
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1022113$7d947a60-424c-3687-21a6-ff2333203df2
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: ece6f6e6968e83ab4ea375829a8c5694d93dff51
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 39297
+          id: Q39297
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1022113$75E9D00C-21DA-4506-9575-AA0E240C0C14
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Kubieke sentimeter
+    badges: []
+  arwiki:
+    site: arwiki
+    title: سنتيمتر مكعب
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Centímetru cúbicu
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Centímetre cúbic
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Centimetr krychlový
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Kubikzentimeter
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Κυβικό εκατοστό
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Cubic centimetre
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Kuba centimetro
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Centímetro cúbico
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Zentimetro kubiko
+    badges: []
+  fawiki:
+    site: fawiki
+    title: سانتیمتر مکعب
+    badges: []
+  frrwiki:
+    site: frrwiki
+    title: Kubiksentimeeter
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Centimètre cube
+    badges: []
+  hakwiki:
+    site: hakwiki
+    title: Li̍p-fông kûng-fûn
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Centimetro cubo
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 立方センチメートル
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 세제곱센티미터
+    badges: []
+  kuwiki:
+    site: kuwiki
+    title: Sentîmetre kûb
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Kubinis centimetras
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Kubikcentimetrs
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Кубен сантиметар
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Sentimeter padu
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Kubieke centimeter
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Kubikkcentimeter
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Kubikkcentimeter
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Centymetr sześcienny
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Centímetro cúbico
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Centimetru cubbu
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Cubic centimetre
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Kubický centimeter
+    badges: []
+  swwiki:
+    site: swwiki
+    title: Sentimita ya ujazo
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Кубічний сантиметр
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Phân khối
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 立方厘米
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 立方厘米
+    badges: []

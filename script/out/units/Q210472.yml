@@ -1,0 +1,350 @@
+---
+pageid: 206285
+ns: 0
+title: Q210472
+lastrevid: 617888231
+modified: '2018-01-08T22:58:18Z'
+type: item
+id: Q210472
+labels:
+  en:
+    language: en
+    value: Panamanian balboa
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q210472$BCBDC33B-001F-44BE-B5E5-634CF8115F26
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 340b08b3ff316f9d4a3f7bb60f21abc10edee7a7
+      datavalue:
+        value: PAB
+        type: string
+      datatype: external-id
+    type: statement
+    id: q210472$ec19bc90-4064-3b6c-63fd-69e92b1d2746
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 28749146c3525efb9181fa8b53990b9f748e7a3a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 429235
+          id: Q429235
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q210472$76DE14CB-1359-412F-AC66-C3B65F0022DE
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: e6b25c3e204b8b86543db9ae6aff466373a1ccf9
+      datavalue:
+        value: "/m/0200cp"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q210472$CA4017B6-6024-4E18-A5A1-C54A9C0DFDC3
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: e9cbb3d4017ed7548ad842affe8864473e05434b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 804
+          id: Q804
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q210472$5da2913a-4371-da73-b9ee-b216c82d85b4
+    rank: normal
+  P913:
+  - mainsnak:
+      snaktype: value
+      property: P913
+      hash: 44a6340a0228e854653cf1828fc472cb6e96d0c7
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 23055403
+          id: Q23055403
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q210472$85d7c275-48d7-d14a-a330-77aedf01aff5
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: ced907bbdf2257775f59da152c3ef4e91540924d
+      datavalue:
+        value: Balboa
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q210472$759b17b8-4626-2f80-7449-655fa07276f8
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 49c0b1cf8848619772019c3287a4f96eca8c0e6e
+      datavalue:
+        value: 1-balboa-panamc3a1-2011.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q210472$9bf652ca-44f1-fae0-5c5e-4751592bf09d
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 2cccb26d51da8d3e20615dc4cf83140262b57c4b
+      datavalue:
+        value: '500226'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q210472$A94D7187-7F3D-4235-B960-0D03A66223A4
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: بالبوا بنمي
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Панамскі бальбоа
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Панамска балбоа
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: পানামানিয়ান বালবোৱা
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Balboa (moneda)
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Panamská balboa
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Panamaischer Balboa
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Μπαλμπόα Παναμά
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Panamanian balboa
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Panama balboo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Balboa (moneda de Panamá)
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Balboa
+    badges: []
+  fawiki:
+    site: fawiki
+    title: بالبوآ پاناما
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Panaman balboa
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Balboa (monnaie)
+    badges: []
+  hewiki:
+    site: hewiki
+    title: בלבואה (מטבע)
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Panamska balboa
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Panamai balboa
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Balboa panamense
+    badges: []
+  jawiki:
+    site: jawiki
+    title: バルボア (通貨)
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Бальбоа (ақша)
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 파나마 발보아
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Balboa (valiuta)
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Panamas balboa
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: पनामेनियन बाल्बोआ
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Balboa Panama
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Panamese balboa
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Panamansk balboa
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਪਨਾਮਾਈ ਬਾਲਬੋਆ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Balboa
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Balboa (moeda)
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Панамский бальбоа
+    badges: []
+  sahwiki:
+    site: sahwiki
+    title: Бальбоа (харчы)
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Панамска балбоа
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Balboa (valuta)
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Балбоаи Панама
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Panama balboası
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Панамське бальбоа
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Balboa
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Balboa
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Panama balboa
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 巴拿馬巴波亞
+    badges: []

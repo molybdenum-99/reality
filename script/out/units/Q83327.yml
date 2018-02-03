@@ -1,0 +1,739 @@
+---
+pageid: 85724
+ns: 0
+title: Q83327
+lastrevid: 621709755
+modified: '2018-01-19T15:11:01Z'
+type: item
+id: Q83327
+labels:
+  en:
+    language: en
+    value: electronvolt
+aliases:
+  en:
+  - language: en
+    value: electron volt
+  - language: en
+    value: eV
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 06df6efe68f6e25b0d602229267e4d3e9ccc3d64
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2916980
+          id: Q2916980
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q83327$4825d7d8-4b6e-2260-da43-3be13e5c6054
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 954edbd3fef27ce6396c0878a95c608ca4ed84af
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3647172
+          id: Q3647172
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P101:
+      - snaktype: value
+        property: P101
+        hash: b629402775f0e1e70b1e283c54d929de77b33439
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 18334
+            id: Q18334
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P101
+    id: Q83327$06bc6731-4bee-9413-06af-e1ef7088c898
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 212a5ede39d1c22757e9dbcbdf8fa1a8f645d053
+      datavalue:
+        value: eV
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q83327$9cc5f76d-4cd4-1321-a8f7-179be1d426e7
+    rank: normal
+    references:
+    - hash: 95864393ba1472a5c37242a1b6dcf7f9fb5c3bd8
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: ab1f1ea302cee24f8f799bc493e9ec816980b918
+          datavalue:
+            value: '22'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: d91796d6666672ef9ffefbcaff859ec386db1751
+          datavalue:
+            value: 6.5.6
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 6315253d4aff397014b571816da7ddd0851011af
+      datavalue:
+        value: эВ
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q83327$ac9caa12-4372-04bf-e77d-94cab8c61688
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 57dad579983bf9eb4952dbd24671f136a9332b90
+      datavalue:
+        value: "/m/02m68"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q83327$8A2436F2-E09B-4D2F-AA79-44B208A0FE8C
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P1296:
+  - mainsnak:
+      snaktype: value
+      property: P1296
+      hash: bec4f57d12114bd4e8818931487fcbfb0e40fbad
+      datavalue:
+        value: '0100685'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q83327$BFD88C40-F933-41C5-8CF2-D9BA2CBE3D35
+    rank: normal
+    references:
+    - hash: b3fd5e254143d8b52cd96cff43af9af5e3a82358
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: f13c99a16441677ec69fcea23f221d866f1fc98f
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 199693
+              id: Q199693
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 1c7c021c2687563a50bef69f7918db7f99822aa5
+      datavalue:
+        value:
+          amount: "+0.000000000000000000160217656535"
+          unit: http://www.wikidata.org/entity/Q25269
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q83327$83d4d42c-4d8f-e91d-c523-1cd5c9554dd2
+    rank: normal
+    references:
+    - hash: 95864393ba1472a5c37242a1b6dcf7f9fb5c3bd8
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: ab1f1ea302cee24f8f799bc493e9ec816980b918
+          datavalue:
+            value: '22'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: d91796d6666672ef9ffefbcaff859ec386db1751
+          datavalue:
+            value: 6.5.6
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P1645:
+  - mainsnak:
+      snaktype: value
+      property: P1645
+      hash: bcfb529faac371718b16017326f98fcf7cce7dd6
+      datavalue:
+        value: tevj
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q83327$4253bbf8-42a2-749b-62ef-1fd116f9998b
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 99ae65f442adf375ee847f8397e1d76a85aa3f8c
+      datavalue:
+        value: ElectronVolt
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q83327$B3C230E3-84D6-4FA5-9E59-4BB6D2F4DAB1
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 3625f979561735b5a25204737e13ac37df1d0993
+      datavalue:
+        value: electronvolt
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q83327$DC0684C4-036D-41D1-A70B-811E714BB27D
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 7ad0f8fc8c23eb3ede324fc816121895c19109c6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11379
+          id: Q11379
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q83327$608c11c2-4128-8268-c756-b6825785f0de
+    rank: normal
+    references:
+    - hash: 95864393ba1472a5c37242a1b6dcf7f9fb5c3bd8
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: ab1f1ea302cee24f8f799bc493e9ec816980b918
+          datavalue:
+            value: '22'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: d91796d6666672ef9ffefbcaff859ec386db1751
+          datavalue:
+            value: 6.5.6
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P2534:
+  - mainsnak:
+      snaktype: value
+      property: P2534
+      hash: 7909ba146a413582d66d9e2933726f65bc2eb5d7
+      datavalue:
+        value: 1\; \text{eV}/c^{2} = \frac{(1.60217646 \times 10^{-19} \; \text{C})
+          \cdot 1 \; \text{V}}{(2.99792458 \times 10^{8}\; \text{m}/\text{s})^2} =
+          1.783 \times 10^{-36}\; \text{kg}
+        type: string
+      datatype: math
+    type: statement
+    id: Q83327$D466D1EF-CB2C-4EFD-96C0-2D05BB289138
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 19eba48d5c7b720842cfcac3f3084a9a57df122f
+      datavalue:
+        value: Electronvolt
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q83327$7C87F379-A9DA-40C5-B36D-FDCD478EF1DB
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P1417:
+  - mainsnak:
+      snaktype: value
+      property: P1417
+      hash: 5c659972fc7e1fbb83c43ceaaf9a879f2e221e68
+      datavalue:
+        value: science/electron-volt
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q83327$B715C2CE-A1FF-42D1-9638-5776D8C69BED
+    rank: normal
+  P4732:
+  - mainsnak:
+      snaktype: value
+      property: P4732
+      hash: c97768f579e4dacda9a43dd469819a682eee2f5a
+      datavalue:
+        value: E02014
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q83327$35C0C34B-CC7C-41E6-BEE9-F5F7AEF940E4
+    rank: normal
+  P4746:
+  - mainsnak:
+      snaktype: value
+      property: P4746
+      hash: fce58751e8707217dcc3bcf8c706ec256c6d1d15
+      datavalue:
+        value: '022802'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q83327$F2E8978C-22E9-4008-91FA-42B168210F9A
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Elektronvolt
+    badges: []
+  anwiki:
+    site: anwiki
+    title: Electronvolt
+    badges: []
+  arwiki:
+    site: arwiki
+    title: إلكترون فولت
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Electrón-voltiu
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Elektron volt
+    badges: []
+  barwiki:
+    site: barwiki
+    title: Elektronenvolt
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Электронвольт
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Электронвольт
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Електронволт
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: ইলেক্ট্রন-ভোল্ট
+    badges: []
+  bowiki:
+    site: bowiki
+    title: གློག་རྡུལ་ཝོལ།
+    badges: []
+  brwiki:
+    site: brwiki
+    title: Elektron-volt
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Elektronvolt
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Electró-volt
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Elektronvolt
+    badges:
+    - Q17437796
+  dawiki:
+    site: dawiki
+    title: Elektronvolt
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Elektronenvolt
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Ηλεκτρονιοβόλτ
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Electronvolt
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Elektronvolto
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Electronvoltio
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Elektronvolt
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Elektronvolt
+    badges: []
+  fawiki:
+    site: fawiki
+    title: الکترون‌ولت
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Elektronivoltti
+    badges: []
+  frrwiki:
+    site: frrwiki
+    title: Elektronenvolt
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Électron-volt
+    badges: []
+  gawiki:
+    site: gawiki
+    title: Leictreonvolta
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Electrón-volt
+    badges: []
+  hewiki:
+    site: hewiki
+    title: אלקטרון וולט
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: इलेक्ट्रॉन वोल्ट
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Elektronvolt
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Elektronvolt
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Էլեկտրոն-վոլտ
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Elektronvolt
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Rafeindarvolt
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Elettronvolt
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 電子ボルト
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Электронвольт
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 전자볼트
+    badges: []
+  lijwiki:
+    site: lijwiki
+    title: Elettron-volt
+    badges: []
+  liwiki:
+    site: liwiki
+    title: Elektronvolt
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Elektronvoltas
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Elektronvolts
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Електронволт
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: इलेक्ट्रॉनव्होल्ट
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Elektronvolt
+    badges: []
+  ndswiki:
+    site: ndswiki
+    title: Elektronvolt
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Elektronvolt
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Elektronvolt
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Elektronvolt
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Elektronowolt
+    badges: []
+  pmswiki:
+    site: pmswiki
+    title: Eletronvòlt
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Elétron-volt
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Electronvolt
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Электронвольт
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Elettronvolt
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Electronvolt
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Elektronvolt
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Electronvolt
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Elektrónvolt
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Elektronvolt
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Електронволт
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Elektronvolt
+    badges: []
+  tawiki:
+    site: tawiki
+    title: இலத்திரன்வோல்ட்
+    badges: []
+  thwiki:
+    site: thwiki
+    title: อิเล็กตรอนโวลต์
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Elektronvolt
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Електронвольт
+    badges: []
+  urwiki:
+    site: urwiki
+    title: الیکٹرون وولٹ
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Elektronvolt
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Electronvolt
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 電子伏特
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 電子伏特
+    badges: []

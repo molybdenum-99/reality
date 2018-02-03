@@ -1,0 +1,81 @@
+---
+pageid: 41050245
+ns: 0
+title: Q39699418
+lastrevid: 560456411
+modified: '2017-09-17T05:32:06Z'
+type: item
+id: Q39699418
+labels:
+  en:
+    language: en
+    value: centimetre per second squared
+aliases:
+  en:
+  - language: en
+    value: centimetre per square second
+  - language: en
+    value: centimetre / square second
+  - language: en
+    value: cm/s²
+  - language: en
+    value: cm/s2
+  - language: en
+    value: centimetre / second squared
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: d502f26f12c7aac0e3b72aa81644ff1477ed0cfa
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 39699875
+          id: Q39699875
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q39699418$ff715448-4462-de53-fb0f-2f374eb83a56
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 50afdc16346d8687f53963f614e8d645419488a0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 208469
+          id: Q208469
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q39699418$1172161e-4f47-9ebf-c6a9-511141fe1c4e
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 1fa7224a10a7b03e56cfbfeb1f56496956bc82d3
+      datavalue:
+        value: cm/s²
+        type: string
+      datatype: string
+    type: statement
+    id: Q39699418$d906b08b-4c86-388c-294c-410b03c39642
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 38971e3121f6f802b94977de0d0ffaebb90a6068
+      datavalue:
+        value:
+          amount: "+0.01"
+          unit: http://www.wikidata.org/entity/Q1051665
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q39699418$576c6829-444c-4f7e-3708-ce4ccce81d1c
+    rank: normal
+sitelinks: {}

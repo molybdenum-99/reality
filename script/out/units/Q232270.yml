@@ -1,0 +1,346 @@
+---
+pageid: 226072
+ns: 0
+title: Q232270
+lastrevid: 617888030
+modified: '2018-01-08T22:57:38Z'
+type: item
+id: Q232270
+labels:
+  en:
+    language: en
+    value: Aruban florin
+aliases:
+  en:
+  - language: en
+    value: AWG
+  - language: en
+    value: Afl.
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q232270$961A8048-A146-4B68-9798-10ED8E5EAEEB
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: aedd958783c6eef55aac028f0213cd69fdee3311
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 203607
+          id: Q203607
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q232270$C9985D63-BC59-431E-B4C3-5CBBD66B4477
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 511e9fc4b58c888c696935de794605f5fb2096a0
+      datavalue:
+        value: AWG
+        type: string
+      datatype: external-id
+    type: statement
+    id: q232270$07977d1e-4008-30bc-c366-ad6c2e0ee1b9
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 49a79d108276c6d5d812c364f6ba92d23931549f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1774469
+          id: Q1774469
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q232270$08F67E6C-6090-4774-9EDF-9BE6B896EB5D
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: a6f1f70956b52db3cec38f3009c3bfcd7e58b136
+      datavalue:
+        value: "/m/08s1k3"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q232270$BCEEAC38-1709-4DAB-BA18-E77789FF2CEB
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: bdd23f612327119aef86ff008714096314f031ab
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 21203
+          id: Q21203
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q232270$6177f654-4bd0-e1ae-f9a0-348c02a6198d
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: b34824ae6902edb48b50772ac3196fbd18851610
+      datavalue:
+        value: ArubanGuilder
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q232270$a609f009-4217-de40-a57e-d7b8d2b3769b
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: caedc2f6d16e656c2d9e575f014a6e2082dbbe6d
+      datavalue:
+        value: '500116'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q232270$7A993856-4C7A-4AB6-99BB-639C1BBD4DFD
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: فلورن أروبي
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Aruba florini
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Florí d'Aruba
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Arubský florin
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Aruba-Florin
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Φλορίνι της Αρούμπα
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Aruban florin
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Aruba guldeno
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Florín arubeño
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Aruba floriin
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Florin arubar
+    badges: []
+  fawiki:
+    site: fawiki
+    title: آروبا فلورین
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Aruban floriini
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Florin arubais
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Florín de Aruba
+    badges: []
+  hewiki:
+    site: hewiki
+    title: פלורין של ארובה
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Arupski gulden
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Arubai florin
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Florin Aruba
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Fiorino arubano
+    badges: []
+  jawiki:
+    site: jawiki
+    title: アルバ・フロリン
+    badges: []
+  kawiki:
+    site: kawiki
+    title: ფლორინი
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 아루바 플로린
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Arubos florinas
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: अरूबा फ्लोरिन
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Florin Aruba
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Arubaanse florin
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Arubansk florin
+    badges: []
+  papwiki:
+    site: papwiki
+    title: Florin
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਅਰੂਬਾਈ ਫ਼ਲੋਰਿਨ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Florin arubański
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Florim arubano
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Florin arubez
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Арубанский флорин
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Arupski florin
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Arubansk florin
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Флорини Аруба
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Aruba florini
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Арубський флорин
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: არუბული ფლორინი
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Florin
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Aruba florin
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 阿魯巴弗羅林
+    badges: []

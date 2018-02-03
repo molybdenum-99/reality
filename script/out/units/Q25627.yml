@@ -1,0 +1,540 @@
+---
+pageid: 29044
+ns: 0
+title: Q25627
+lastrevid: 617888204
+modified: '2018-01-08T22:58:13Z'
+type: item
+id: Q25627
+labels:
+  en:
+    language: en
+    value: Lithuanian litas
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q25627$D1444F94-B54C-4547-AB6E-0D183596D82A
+    rank: normal
+  P370:
+  - mainsnak:
+      snaktype: value
+      property: P370
+      hash: 92d091f5951ac2ab2656e3fa2ee68af0cb0e33ea
+      datavalue:
+        value: '3.4528'
+        type: string
+      datatype: string
+    type: statement
+    id: q25627$4F1C2D79-639A-4CBE-833D-EBBB988163B0
+    rank: normal
+    references:
+    - hash: 13fba01f2c800161e6e2783a16d28f01d138bf54
+      snaks:
+        P370:
+        - snaktype: value
+          property: P370
+          hash: 0c71c07f8d478be8cd881303cd6fc6987efe6702
+          datavalue:
+            value: Template:Exchange Rate Data
+            type: string
+          datatype: string
+      snaks-order:
+      - P370
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 2d145a27f895f22918e57cc6e49eb2c953c5912f
+      datavalue:
+        value: LTL
+        type: string
+      datatype: external-id
+    type: statement
+    id: q25627$c20c7130-48a1-8e62-4865-80b13b0f8e5c
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 555407a1f089a3f166c3e2b6e5fd28bdc825aa7f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 616849
+          id: Q616849
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q25627$AAFC3A8A-3274-4513-A0FB-B5DD3C1283EC
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 9b3096a32e443424bb93e71228347a7d94e86460
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 37
+          id: Q37
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q25627$dbaf589f-43af-e60d-b75d-c962fb35028e
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: e1c04c069f68cddf2bf27c2215f8072b617598ce
+      datavalue:
+        value: Money of Lithuania
+        type: string
+      datatype: string
+    type: statement
+    id: q25627$EC7B6CDB-9146-4B07-860E-AC9912E6C736
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 2824b9dd8d7f9355e3a32637e833f5ee7d37693f
+      datavalue:
+        value: "/m/02rp23"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q25627$EC7479C5-B956-4CE3-879F-2820646CCD2F
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P935:
+  - mainsnak:
+      snaktype: value
+      property: P935
+      hash: 415e6df26b6875671f0d022d6353d704e817a36e
+      datavalue:
+        value: Lithuanian litas
+        type: string
+      datatype: string
+    type: statement
+    id: Q25627$80CD099C-01E0-4A3E-B2D2-5253E29721F1
+    rank: normal
+  P2284:
+  - mainsnak:
+      snaktype: value
+      property: P2284
+      hash: 96aff454fed3bb837c5913295c53cbac89bb4041
+      datavalue:
+        value:
+          amount: "+0"
+          unit: http://www.wikidata.org/entity/Q4917
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: f742be92339cdcc54bf77fbdde9a24b9045f361a
+        datavalue:
+          value:
+            time: "+2016-11-22T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q25627$308BC500-3CE3-4457-A903-E090C0EA6C58
+    rank: normal
+  P580:
+  - mainsnak:
+      snaktype: value
+      property: P580
+      hash: f9941dbac03ff4df7ff591c148e75342d73ea24c
+      datavalue:
+        value:
+          time: "+1922-00-00T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 9
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q25627$d7e1520f-4afa-7b7a-6cc8-16fdd4a956bb
+    rank: normal
+  P582:
+  - mainsnak:
+      snaktype: value
+      property: P582
+      hash: cf81d9b14600015e24026031896c31375c4b961e
+      datavalue:
+        value:
+          time: "+2015-01-01T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 11
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q25627$5cc6a7d4-4f2a-927d-bb88-87aa506060d6
+    rank: normal
+  P1366:
+  - mainsnak:
+      snaktype: value
+      property: P1366
+      hash: 2c75bfaf4e3db000df3888eef763865c5c85478b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 4916
+          id: Q4916
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: feb3e8f4ba1013140da854ca70a8aa11a16800e2
+        datavalue:
+          value:
+            time: "+2015-01-01T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q25627$f41b3ea8-4546-e428-4ec5-7c0938527ea2
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: cf68a2364c5e3aff4ea3070b5e9be55d23954aec
+      datavalue:
+        value: '500202'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q25627$21E1D836-C1F7-42A5-A4B0-8A6F63F11265
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Litas
+    badges: []
+  arwiki:
+    site: arwiki
+    title: ليتاس ليتواني
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Litva litası
+    badges: []
+  bat_smgwiki:
+    site: bat_smgwiki
+    title: Lits
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Летувіскі літ
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Літ
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Литовски литас
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: লিথুয়ানিয়ান লিটাস
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Litvanski litas
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Litas
+    badges: []
+  commonswiki:
+    site: commonswiki
+    title: Lithuanian litas
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Litevský litas
+    badges: []
+  cvwiki:
+    site: cvwiki
+    title: Литас
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Litauiske litas
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Litas
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Λίτας
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Lithuanian litas
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Litova lido
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Litas lituana
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Leedu litt
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Lituaniar litas
+    badges: []
+  fawiki:
+    site: fawiki
+    title: لیتاس لیتوانی
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Liettuan liti
+    badges: []
+  frrwiki:
+    site: frrwiki
+    title: Litas
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Litas
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Litas lituana
+    badges: []
+  hewiki:
+    site: hewiki
+    title: ליטאס
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Litavski litas
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Litván litas
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Litas
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Litháískt litas
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Litas lituano
+    badges: []
+  jawiki:
+    site: jawiki
+    title: リタス
+    badges: []
+  kawiki:
+    site: kawiki
+    title: ლიტვური ლიტი
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 리투아니아 리타스
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Литваса лит
+    badges: []
+  kywiki:
+    site: kywiki
+    title: Литовтык лит
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Litas
+    badges:
+    - Q17437798
+  lvwiki:
+    site: lvwiki
+    title: Lits
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Литвански литас
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: लिथुएनियन लिटाज
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Litas Lithuania
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Litouwse litas
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Litauisk litas
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਲਿਥੁਆਨੀਆਈ ਲਿਤਾਸ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Lit (waluta)
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Litas lituano
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Litas
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Литовский лит
+    badges: []
+  sahwiki:
+    site: sahwiki
+    title: Литва лита
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Litvanski litas
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Lithuanian litas
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Litovský litas
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Литвански литас
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Litas
+    badges: []
+  tawiki:
+    site: tawiki
+    title: லித்துவேனிய லித்தாசு
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Литаи Литва
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Litvanya litası
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Литовський лит
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Litas
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Lietuva litas
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 立陶宛立特
+    badges: []

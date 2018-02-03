@@ -1,0 +1,459 @@
+---
+pageid: 131928
+ns: 0
+title: Q129983
+lastrevid: 617888283
+modified: '2018-01-08T22:58:27Z'
+type: item
+id: Q129983
+labels:
+  en:
+    language: en
+    value: Estonian kroon
+aliases:
+  en:
+  - language: en
+    value: EEK
+  - language: en
+    value: Kroon
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q129983$EA627FE9-88A0-4FBF-BB0C-7C5BF29F6667
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 9e47c393aa8ab67449fdc9cdf7993a6c1cafc9fa
+      datavalue:
+        value: Money of Estonia
+        type: string
+      datatype: string
+    type: statement
+    id: q129983$78906831-5CA4-4C13-8529-716F1FCD596D
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: '096aa726894f722d9ad07670c4f1222ba2fda9df'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 366960
+          id: Q366960
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q129983$4999D59B-E549-4AB7-B7D4-AF6480C2CF59
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: f920acb4212b8e7124b57edbed0d132b1802f636
+      datavalue:
+        value: EEK
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q129983$4e4a03b0-4cb2-c90f-b656-14447f628daf
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 21b21489a3206bbdd928f9257d8fcd1327b83486
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 191
+          id: Q191
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q129983$65590844-45c6-711a-0415-0c87a008c37d
+    rank: normal
+  P576:
+  - mainsnak:
+      snaktype: value
+      property: P576
+      hash: 8d78a0e5f0842ce2e70643141c9fc6cb25363300
+      datavalue:
+        value:
+          time: "+2011-01-14T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 11
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q129983$fc3753d4-4671-6c3e-d056-825126d5dff1
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P1366:
+  - mainsnak:
+      snaktype: value
+      property: P1366
+      hash: 2c75bfaf4e3db000df3888eef763865c5c85478b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 4916
+          id: Q4916
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: 4ebacc2cb4070eff72bc975132387cbab97fa53f
+        datavalue:
+          value:
+            time: "+2011-01-01T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q129983$326eb49a-4b81-ba6e-8ab0-3fe4a2ba704b
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 2fc98bc0a458e4db021fb16bd6ca100635c31e59
+      datavalue:
+        value: EST-coins-overview.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q129983$c697c306-4c32-cccc-2a35-7f1da76d98bb
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: ef9d685878053c402aedc273a2d8d4ccc99354d7
+      datavalue:
+        value: '500162'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q129983$4CBB7EAF-C1B4-4761-9188-2AAA2FF99D31
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: كرون إستوني
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Estoniya kronu
+    badges: []
+  bat_smgwiki:
+    site: bat_smgwiki
+    title: Estėjės kruona
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Эстонская крона
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Эстонская крона
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Естонска крона
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: এস্তোনিয়ান ক্রোন
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Estonska kruna
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Corona estoniana
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Estonská koruna
+    badges: []
+  cvwiki:
+    site: cvwiki
+    title: Эстони крони
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Estiske kroon
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Estnische Krone
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Κορόνα Εσθονίας
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Estonian kroon
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Estona krono
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Corona estonia
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Eesti kroon
+    badges: []
+  fawiki:
+    site: fawiki
+    title: کرون استونی
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Viron kruunu
+    badges: []
+  fowiki:
+    site: fowiki
+    title: Estiska krónan
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Couronne estonienne
+    badges: []
+  hewiki:
+    site: hewiki
+    title: קרון אסטוני
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: एस्तोनियन क्रून
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Estonska kruna
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Észt korona
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Էստոնական կրոն (դրամական միավոր)
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Kroon
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Eistnesk króna
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Corona estone
+    badges: []
+  jawiki:
+    site: jawiki
+    title: クローン (通貨)
+    badges: []
+  kawiki:
+    site: kawiki
+    title: ესტონური კრონი
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 에스토니아 크론
+    badges: []
+  kywiki:
+    site: kywiki
+    title: Эстониялык крону
+    badges: []
+  lmowiki:
+    site: lmowiki
+    title: Curona estuniana
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Estijos krona
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Igaunijas krona
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Естонска круна
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Kroon
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Estische kroon
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Estisk kroon
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Estlandsk krone
+    badges: []
+  oswiki:
+    site: oswiki
+    title: Эстонийы кронæ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Korona estońska
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Coroa estoniana
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Coroană estoniană
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Эстонская крона
+    badges: []
+  sahwiki:
+    site: sahwiki
+    title: Эстония кроната
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Estonska kruna
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Estónska koruna
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Estonska krona
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Естонска круна
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Estnisk krona
+    badges: []
+  tawiki:
+    site: tawiki
+    title: எஸ்தோனிய குரூன்
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Крони Эстония
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Estonya kronu
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Естонська крона
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Kroon Estonia
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Kroon
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Estonia kroon
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 愛沙尼亞克朗
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 愛沙尼亞克朗
+    badges: []

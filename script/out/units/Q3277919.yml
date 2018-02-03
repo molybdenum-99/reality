@@ -1,0 +1,177 @@
+---
+pageid: 3126772
+ns: 0
+title: Q3277919
+lastrevid: 611956410
+modified: '2017-12-21T18:48:57Z'
+type: item
+id: Q3277919
+labels:
+  en:
+    language: en
+    value: petametre
+aliases:
+  en:
+  - language: en
+    value: petameter
+  - language: en
+    value: Pm
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1c41b2ea8a3f6d3fab77c103d826ae5ead7a9c01
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1978718
+          id: Q1978718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3277919$99ffad00-4be0-51ea-3a13-1547019bae4f
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 71b9b07235f7a06513d658f1306b255a3be8effb
+      datavalue:
+        value: Pm
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q3277919$3af3b6f1-42d3-55e9-ab0a-8b3a84820a90
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 5beaf68f2f03ecd912c8162de1405e4a6745f955
+      datavalue:
+        value: Пм
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q3277919$2c6f8681-41da-8cc3-d5f2-40b586a23769
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: f5fc1ab51f79418cc2490815250b7e84ad74f53e
+      datavalue:
+        value:
+          amount: "+1000000000000000"
+          unit: http://www.wikidata.org/entity/Q11573
+          upperBound: "+1000000000000000"
+          lowerBound: "+1000000000000000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q3277919$f50ea4c2-4170-6f5b-96aa-4171901cd5cd
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 866ba4b3f46187f0b2cf0581244ef7f176bca81f
+      datavalue:
+        value: petametre
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3277919$0142B4AA-A606-4B91-8C34-5E6A823183B1
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 4354e3cc033f2c5371e447e5ab1cca8b89ffa3e0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 36253
+          id: Q36253
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3277919$5E1E2639-0F3C-491B-B15F-079AE4E278C5
+    rank: normal
+sitelinks:
+  astwiki:
+    site: astwiki
+    title: Petámetru
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Petàmetre
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Petameter
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Petámetro
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Petametro
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ペタメートル
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 페타미터
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Petameter
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Petameter
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Petameter
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Pêtamét
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 拍米
+    badges: []

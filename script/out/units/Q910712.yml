@@ -1,0 +1,116 @@
+---
+pageid: 861352
+ns: 0
+title: Q910712
+lastrevid: 618459512
+modified: '2018-01-10T11:25:49Z'
+type: item
+id: Q910712
+labels:
+  en:
+    language: en
+    value: Afghan rupee
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: b0458383ce7510aed499c387292d1e7d52ad082c
+      datavalue:
+        value: "/m/09v28k"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q910712$106BF861-309E-4097-8AE1-3C52E07710C0
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q910712$FD194EDC-F785-45E1-80E9-09B2F575A25B
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 66077d19cdd80e08c9b636cd398bbbfa379d8820
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 889
+          id: Q889
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q910712$6d8923ba-46c6-b1fc-3cd4-8f039a778428
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: روبية أفغانية
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Afghanische Rupie
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Afghan rupee
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Rupia afgana
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Rupia afghana
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 아프가니스탄 루피
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Афганская рупия
+    badges: []

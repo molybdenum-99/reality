@@ -1,0 +1,85 @@
+---
+pageid: 6649023
+ns: 0
+title: Q6799778
+lastrevid: 623137607
+modified: '2018-01-24T23:01:55Z'
+type: item
+id: Q6799778
+labels:
+  en:
+    language: en
+    value: Mbsf
+aliases:
+  en:
+  - language: en
+    value: metres below seafloor
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q6799778$c5b71fbd-43b6-7758-5658-6d6d38e1b654
+    rank: normal
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 05713d3714aa2203942506f4de66845dc854b210
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 15757222
+          id: Q15757222
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P805:
+      - snaktype: value
+        property: P805
+        hash: 7c1bc18df4f49cf0f5b07d792d24568da0431cef
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 27835048
+            id: Q27835048
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P805
+    id: Q6799778$83e3c216-4c95-1dc6-1bd8-6148d2f24ac5
+    rank: normal
+  P1683:
+  - mainsnak:
+      snaktype: value
+      property: P1683
+      hash: 9bf5011095fa6bad0206fc7e03ab4da1a7b799ba
+      datavalue:
+        value:
+          text: In general, we follow Ocean Drilling Program (ODP) meters below seafloor
+            (mbsf) convention in positioning the top of recovered sediment at the
+            top of the cored interval and in calculating sub-bottom depths for samples
+            within a particular section using the depth of the top of the section
+            and the depth in the section (see pp. 47-48 of Flood, Piper, Klaus, et
+            al., 1995).
+          language: en
+        type: monolingualtext
+      datatype: monolingualtext
+    type: statement
+    id: Q6799778$fa457b76-4980-f89b-79a4-3a50a9c40786
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Mbsf
+    badges: []

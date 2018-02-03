@@ -1,0 +1,84 @@
+---
+pageid: 2925472
+ns: 0
+title: Q3060693
+lastrevid: 591646150
+modified: '2017-11-10T13:05:26Z'
+type: item
+id: Q3060693
+labels:
+  en:
+    language: en
+    value: Europa
+aliases: {}
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: dff9e6a77eba0e3ef34f45ea91932a774f4bf36d
+      datavalue:
+        value: Europa (coinage)
+        type: string
+      datatype: string
+    type: statement
+    id: Q3060693$DAF68AC9-D76A-4293-82D5-AAB2D373E83B
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3060693$ce3e42d8-4d71-7e91-6487-38b645d272db
+    rank: normal
+  P571:
+  - mainsnak:
+      snaktype: value
+      property: P571
+      hash: 87ecae0f4a08c15fc6d8fc2921463c0c26275303
+      datavalue:
+        value:
+          time: "+1928-00-00T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 9
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q3060693$ba4772f3-4cee-2b79-417b-79eacccf4adc
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Europa (currency)
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Europa (monnaie)
+    badges: []

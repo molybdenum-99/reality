@@ -1,0 +1,257 @@
+---
+pageid: 982139
+ns: 0
+title: Q1032866
+lastrevid: 622989713
+modified: '2018-01-24T14:21:05Z'
+type: item
+id: Q1032866
+labels:
+  en:
+    language: en
+    value: Darriwilian
+aliases: {}
+claims:
+  P155:
+  - mainsnak:
+      snaktype: value
+      property: P155
+      hash: 9590ff27ba3dc8f514788afb907143d6cfce84c1
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 288112
+          id: Q288112
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q1032866$59092DC0-AB7E-41AA-92B9-95D4FAA2D206
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P156:
+  - mainsnak:
+      snaktype: value
+      property: P156
+      hash: 7f659cdabc2436bbc37c3faba648f2e142275dc9
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1807140
+          id: Q1807140
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q1032866$074A710E-ADDC-4DA9-B8E9-1513A8C75323
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P625:
+  - mainsnak:
+      snaktype: value
+      property: P625
+      hash: 766b1b95cc75eff80d7a462164070b498558a4a6
+      datavalue:
+        value:
+          latitude: 28.8539
+          longitude: 118.4897
+          altitude: 
+          precision: 2.77777777778e-06
+          globe: http://www.wikidata.org/entity/Q2
+        type: globecoordinate
+      datatype: globe-coordinate
+    type: statement
+    id: Q1032866$5FF9964D-F33F-4A21-995C-ABF8190A4CFF
+    rank: normal
+    references:
+    - hash: d4bd87b862b12d99d26e86472d44f26858dee639
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: f30cbd35620c4ea6d0633aaf0210a8916130469b
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 8447
+              id: Q8447
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 5596ea5524cbfddb0d61b79363370c072820745b
+      datavalue:
+        value: "/m/0b05zq"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1032866$A35ACC6F-DAD4-46B0-AC97-3B1A43F6C30C
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1774498cb861c7f76e71afc94661ed9a03d8461a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1123245
+          id: Q1123245
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1032866$dfb0296a-4ff5-b982-54a7-0169be735d61
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: b230ba6f73ec78c2fd8b28c19fab3a1a3e51124e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 568683
+          id: Q568683
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1032866$57e98162-4048-f612-d0f4-9dc15bdd0009
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 6ae7c4ca7ea3cc7c5056e8f6944ae3ba815c228a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 13389102
+          id: Q13389102
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1032866$6b68c144-43e2-3a95-7ed9-c433c935c7b5
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: الداريولي
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Дариуилий
+    badges: []
+  brwiki:
+    site: brwiki
+    title: Darriwilian
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Darriwilium
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Darriwilian
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Darriwiliense
+    badges: []
+  fawiki:
+    site: fawiki
+    title: داریویلین
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Darriwilien
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Darriwiliano
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Darriwilien
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Darriwilium
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Darriwil
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Darriwiliano
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Darivil
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Tầng Darriwil
+    badges: []

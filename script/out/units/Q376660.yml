@@ -1,0 +1,227 @@
+---
+pageid: 358462
+ns: 0
+title: Q376660
+lastrevid: 617989505
+modified: '2018-01-09T10:13:24Z'
+type: item
+id: Q376660
+labels:
+  en:
+    language: en
+    value: nat
+aliases:
+  en:
+  - language: en
+    value: natural unit of information
+  - language: en
+    value: nit
+  - language: en
+    value: nepit
+claims:
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 885e53b3f08456af5cb88d9d8e6e4b4eba19c604
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 159592
+          id: Q159592
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q376660$29a5fe2d-4b78-8e9a-9770-e46e565c76fd
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: bd7e3c29db128905cee82ba9ea9d93abbd0427d3
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 735075
+          id: Q735075
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q376660$bbe7620d-4dc7-4032-675a-068540245881
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 9a4514d740c3ca4a7608129e6d8d7f4edd92c285
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 17342348
+          id: Q17342348
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q376660$bb189677-416c-8dc7-abc9-a40b5f0c1fdf
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 2d6ead580ca479cd38b25f8d8c677f1c03ad7473
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3550873
+          id: Q3550873
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q376660$0b8e7f3c-48f1-06fd-38eb-7c2d51cae688
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: bc39d6ba8c18e1e654c867fe374f7dd2aa27d150
+      datavalue:
+        value: "/m/08pdqc"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q376660$1A26740F-AC49-4F74-B30B-2BA4F7BC7D70
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 7248d34eac3451e89b84f07f843218c7b4e506b1
+      datavalue:
+        value: Nat
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q376660$75d1b186-4799-8543-e297-f5eaef0bab7e
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: fc7ecbc8d5061b73583bb081b8f2c0cc01e4ca54
+      datavalue:
+        value:
+          amount: "+0.434"
+          unit: http://www.wikidata.org/entity/Q324923
+          upperBound: "+0.435"
+          lowerBound: "+0.433"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q376660$72742439-4bd3-e15e-11cc-e1b90a808f27
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 84d2f7b17a6ebe16ab2498ec07e40ec19eb631f9
+      datavalue:
+        value:
+          amount: "+1.44"
+          unit: http://www.wikidata.org/entity/Q8805
+          upperBound: "+1.45"
+          lowerBound: "+1.43"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q376660$5ed2d9c5-43a5-67fe-ddf7-cdaa8e251d90
+    rank: normal
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Nat (unitat)
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Nit (Informationseinheit)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Nat (unit)
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Nat (informo)
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Nat (información)
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Nat (information)
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Nat (információs alapmértékegység)
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Nat (unità di misura)
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ナット (単位)
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 내트
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Nat (jednostka miary)
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Nat (unidade)
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Нат (теория информации)
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Нат (одиниця вимірювання)
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 纳特
+    badges: []

@@ -1,0 +1,168 @@
+---
+pageid: 11622651
+ns: 0
+title: Q10317923
+lastrevid: 524619231
+modified: '2017-07-22T16:04:07Z'
+type: item
+id: Q10317923
+labels:
+  en:
+    language: en
+    value: libra
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 954edbd3fef27ce6396c0878a95c608ca4ed84af
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3647172
+          id: Q3647172
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q10317923$40A04209-85AA-45C5-9C81-9903AC70287E
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 52afd5559217923531f59bd55edf87f344e02b43
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1161819
+          id: Q1161819
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q10317923$0CD7E511-0647-48DF-B62E-AAF23E551951
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 2b7d81564c25626586ca69125eae34aba8e3d67a
+      datavalue:
+        value:
+          amount: "+12"
+          unit: http://www.wikidata.org/entity/Q25840166
+          upperBound: "+12"
+          lowerBound: "+12"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q10317923$84A4984F-7A2D-4892-99CF-4680BA82962C
+    rank: normal
+    references:
+    - hash: 1abbd84c2a2fb8b938a959a6f6d4ca5958f8105a
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 2dec9667d599ba3e42a0e590a79ca231e658949b
+          datavalue:
+            value: http://homepage.usask.ca/~jrp638/CourseNotes/weightsmeasures.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 3ebb11b1a4ce7a98b7cbb359a6e944bd00f283b0
+          datavalue:
+            value:
+              time: "+2016-07-12T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 8d48e70f63531957a88dfcf3282ef5c15f85c3d3
+      datavalue:
+        value:
+          amount: "+0.323"
+          unit: http://www.wikidata.org/entity/Q11570
+          upperBound: "+0.323"
+          lowerBound: "+0.323"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q10317923$324453b6-4d03-e65b-19bb-375e25a49cef
+    rank: normal
+    references:
+    - hash: f47bd3a5b7e92279e5d9a7e1b161304f06e49aef
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: b7c34f44018e1033474b4294e5c2e735e594415b
+          datavalue:
+            value: http://www.livius.org/w/weights/weights.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 319eca416990be95d0bc1936656ae864506b85ef
+          datavalue:
+            value:
+              time: "+2016-07-17T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 16653c4848e0552e9604edc668341bd5f95825a4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11423
+          id: Q11423
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q10317923$AFFAC2C3-2E43-46FC-AAA1-A305E3743F7A
+    rank: normal
+sitelinks:
+  nnwiki:
+    site: nnwiki
+    title: Eininga libra
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Libra
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Libra (jednostka miary)
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Libra romana
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Libra (viktmått)
+    badges: []

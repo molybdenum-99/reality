@@ -1,0 +1,395 @@
+---
+pageid: 163338
+ns: 0
+title: Q162528
+lastrevid: 619613978
+modified: '2018-01-13T07:49:53Z'
+type: item
+id: Q162528
+labels:
+  en:
+    language: en
+    value: thaler
+aliases: {}
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 487f5869830adb45670e17538f41fa28a9583883
+      datavalue:
+        value: Daler
+        type: string
+      datatype: string
+    type: statement
+    id: q162528$C45EA083-48C7-4AA6-8ED5-02CFA714B22F
+    rank: normal
+  P910:
+  - mainsnak:
+      snaktype: value
+      property: P910
+      hash: 2ddb10a2b59217a9d62099cede84c91e8490f950
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8845961
+          id: Q8845961
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q162528$C23C448D-B673-4B4C-9D08-D68F1EAF5E02
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 6097701c2cbc6b3353d8868aee2bc5176146a8ae
+      datavalue:
+        value: "/m/0gbfk"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q162528$94491F28-38D7-4F27-B842-334609556242
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P935:
+  - mainsnak:
+      snaktype: value
+      property: P935
+      hash: 33690f3e98d66bc737fddb8495d7e395338dcc14
+      datavalue:
+        value: Thaler
+        type: string
+      datatype: string
+    type: statement
+    id: Q162528$A5832144-99E4-401E-8DF9-44F44AFD3145
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q162528$D643BCC2-9C8B-4DDC-811E-426D60F56CD1
+    rank: normal
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 7dafe04d037a3cb0455fa71b96d99dafc53c716e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 830418
+          id: Q830418
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q162528$ccc3c059-456c-e3ce-9eb5-988bc4c251f5
+    rank: normal
+  P2950:
+  - mainsnak:
+      snaktype: value
+      property: P2950
+      hash: bbe6176c74a620737395d1ef04a6596f06f41511
+      datavalue:
+        value: taler
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q162528$F41A0E00-AC39-4091-B635-1238328F56FF
+    rank: normal
+  P1296:
+  - mainsnak:
+      snaktype: value
+      property: P1296
+      hash: 7bf1ebd02fb3fffd03979f15c8f5a7dd7c9ef621
+      datavalue:
+        value: '0144815'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q162528$B0B7D341-9844-41D9-AB64-E0B2D867385E
+    rank: normal
+    references:
+    - hash: b3fd5e254143d8b52cd96cff43af9af5e3a82358
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: f13c99a16441677ec69fcea23f221d866f1fc98f
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 199693
+              id: Q199693
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P902:
+  - mainsnak:
+      snaktype: value
+      property: P902
+      hash: 8e4103d0e77d9e1a5c5ce8578dc46f4869e88507
+      datavalue:
+        value: '13692'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q162528$2639B28B-852F-4942-8F22-7B580462233A
+    rank: normal
+    references:
+    - hash: 9a24f7c0208b05d6be97077d855671d1dfdbc0dd
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: d38375ffe6fe142663ff55cd783aa4df4301d83d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 48183
+              id: Q48183
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P1014:
+  - mainsnak:
+      snaktype: value
+      property: P1014
+      hash: d69a085dce23e78077cc78ce97f4c74a6abb8ce3
+      datavalue:
+        value: '300191673'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q162528$1d608f93-4045-44d0-dc7e-82d0cb123368
+    rank: normal
+  P227:
+  - mainsnak:
+      snaktype: value
+      property: P227
+      hash: a5f387d9e8afdf00bb462a295337f2ff42498f0c
+      datavalue:
+        value: 4184382-4
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q162528$8a6d838f-4e03-d5b3-6f11-d9fa8ea72c70
+    rank: normal
+sitelinks:
+  amwiki:
+    site: amwiki
+    title: Thaler
+    badges: []
+  arwiki:
+    site: arwiki
+    title: تالر
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Талер
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Талер
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Талер
+    badges: []
+  brwiki:
+    site: brwiki
+    title: Taler
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Tàler
+    badges: []
+  commonswiki:
+    site: commonswiki
+    title: Thaler
+    badges: []
+  csbwiki:
+    site: csbwiki
+    title: Talôr
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Tolar (historická měna)
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Daler
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Taler
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Thaler
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Talero
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Tálero
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Taaler
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Thaler
+    badges: []
+  fawiki:
+    site: fawiki
+    title: تالر
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Taaleri
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Thaler
+    badges: []
+  hewiki:
+    site: hewiki
+    title: טאלר
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Talir
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Tallér
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Թալեր
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Tallero
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ターラー (通貨)
+    badges: []
+  kawiki:
+    site: kawiki
+    title: ტალერი
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Dālderis
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Daalder
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Dalar
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Daler
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Thaler
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Talar
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Táler
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Taler
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Талер
+    badges: []
+  sahwiki:
+    site: sahwiki
+    title: Талер
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Talir
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Thaler
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Toliar (historická minca)
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Tolar
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Daler
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Таляр
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 塔勒
+    badges: []

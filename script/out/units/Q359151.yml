@@ -1,0 +1,169 @@
+---
+pageid: 342537
+ns: 0
+title: Q359151
+lastrevid: 526369106
+modified: '2017-07-26T23:59:57Z'
+type: item
+id: Q359151
+labels:
+  en:
+    language: en
+    value: Rayl
+aliases: {}
+claims:
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: cdec0f1f202dc90274a30744d747f0cb09135613
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 83297
+          id: Q83297
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q359151$99b7faba-4c93-0de1-3e4e-2e38a6f0f992
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 8d2d7365a38bea29d4141eecefd508ddc9162303
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 975684
+          id: Q975684
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q359151$6f0ec80c-4455-3f71-5f6f-0ad92a174ce8
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q359151$eea536ef-4a9b-a215-93e8-22cb20ef620c
+    rank: normal
+  P2534:
+  - mainsnak:
+      snaktype: value
+      property: P2534
+      hash: 69eb7f9f33987d42847536e8ba629bbcaed1f2c0
+      datavalue:
+        value: "{\\rm 1~Rayl_{CGS} = 1~\\frac{dyn \\cdot s}{cm^3} = 1~\\frac{ba \\cdot
+          s}{cm} = 1~\\frac{g}{s \\cdot cm^2}}"
+        type: string
+      datatype: math
+    type: statement
+    qualifiers:
+      P642:
+      - snaktype: value
+        property: P642
+        hash: 400c1e882ffd9325dd14fd3859407b7876703b72
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 26240
+            id: Q26240
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P642
+    id: Q359151$5A4A0B94-33A5-4CFE-9E75-D84C67F2A002
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  - mainsnak:
+      snaktype: value
+      property: P2534
+      hash: f81d3e29596ec9b013b01e8dcb78e19ce6a6c416
+      datavalue:
+        value: "{\\rm 1~Rayl_{MKS} = 1~\\frac{N \\cdot s}{m^3} = 1~\\frac{Pa \\cdot
+          s}{m} = 1~\\frac{kg}{s \\cdot m^2}}"
+        type: string
+      datatype: math
+    type: statement
+    qualifiers:
+      P642:
+      - snaktype: value
+        property: P642
+        hash: be9116dcdd07ee223df2e88a07e62fc7d1c14a80
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 512417
+            id: Q512417
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P642
+    id: Q359151$ad70caa5-40ae-3ca1-b855-766a91dbdda7
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: b188ce52b6382f8ef53bc31659ff62e7fe446f0c
+      datavalue:
+        value: rayl
+        type: string
+      datatype: string
+    type: statement
+    id: Q359151$07aacb14-40a0-8b33-2f60-9c65da6e5f36
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Rayl
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Rayl
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Rayl
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Rayl
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 레일 (단위)
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Rayl
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Reley (birlik)
+    badges: []

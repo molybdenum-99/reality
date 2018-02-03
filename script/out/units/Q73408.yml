@@ -1,0 +1,411 @@
+---
+pageid: 76093
+ns: 0
+title: Q73408
+lastrevid: 617887987
+modified: '2018-01-08T22:57:27Z'
+type: item
+id: Q73408
+labels:
+  en:
+    language: en
+    value: Zambian kwacha
+aliases:
+  en:
+  - language: en
+    value: ZMW
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q73408$D178E14F-B91B-44A6-8233-E579F4B4EC71
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 204b4d79fd532d9d8b12eb3b64e889b0d48666e6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 806694
+          id: Q806694
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q73408$7732B005-231D-4066-A512-6815A4984D2B
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 33ac174859dd22af803ffd397f4e9db35a15b121
+      datavalue:
+        value: "/m/0fr4f"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q73408$4814B308-52FD-4AC1-A7B5-6BE8BE06BA56
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 14aef49051152ce631895ba00507ac3f101db6a3
+      datavalue:
+        value: Money of Zambia
+        type: string
+      datatype: string
+    type: statement
+    id: Q73408$EB26F10C-4E26-4FAA-95AC-B331149E7A0B
+    rank: normal
+    references:
+    - hash: b3fd5e254143d8b52cd96cff43af9af5e3a82358
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: f13c99a16441677ec69fcea23f221d866f1fc98f
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 199693
+              id: Q199693
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: a523e85ff143999b794b74a8515caaf52ed83d23
+      datavalue:
+        value: ZMW
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q73408$b47c02c5-4e1f-67bd-f89e-22ca79dc3a0f
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: e4db391782402778ab2d4d3059b75bf156906abd
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 953
+          id: Q953
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q73408$35b9e6bc-4a03-eecb-f496-896abb5ca82c
+    rank: normal
+  P856:
+  - mainsnak:
+      snaktype: value
+      property: P856
+      hash: 706060e7a1896b7094d5063b0df3e7c0c3113148
+      datavalue:
+        value: http://www.boz.zm/
+        type: string
+      datatype: url
+    type: statement
+    id: Q73408$ec2b69bd-45e2-6f49-e147-551f4b4c3a13
+    rank: normal
+  P580:
+  - mainsnak:
+      snaktype: value
+      property: P580
+      hash: d0a5a3621a71600cf986349352e0a6c9d33974f0
+      datavalue:
+        value:
+          time: "+2013-01-01T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 11
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q73408$9eea8186-4774-2e4a-409e-04a0ce87a947
+    rank: normal
+  P155:
+  - mainsnak:
+      snaktype: value
+      property: P155
+      hash: 5c0817dad3f4319408f8bde783b301d3c8587cb8
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 21596813
+          id: Q21596813
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q73408$938cadfd-4746-ba30-15ec-215beb8029a2
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: f76afe647923d13c7a9b844b9f4997abf21a31d7
+      datavalue:
+        value: Zambian 5 kwacha.JPG
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q73408$4f0a057b-46c9-d53a-e25d-0f2def31cab4
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 415759369e6f357f314e4f3ce81031eddf7b78ce
+      datavalue:
+        value: '500554'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q73408$AEE43B60-BCF3-4A65-B0A7-CC97CF60486A
+    rank: normal
+sitelinks:
+  amwiki:
+    site: amwiki
+    title: ክዋቻ
+    badges: []
+  arwiki:
+    site: arwiki
+    title: كواشا زامبي
+    badges: []
+  arzwiki:
+    site: arzwiki
+    title: كواتشا زامبى
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Замбійскі квача
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Замбійская квача
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: জাম্বিয়ান কৱাচা
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Kwacha zambià
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Zambijská kwacha
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Zambianske kwacha
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Sambischer Kwacha
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Κουάτσα της Ζάμπιας
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Zambian kwacha
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Zambia kvaĉo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Kwacha zambiano
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Sambia kvatša
+    badges: []
+  fawiki:
+    site: fawiki
+    title: کواچای زامبیا
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Sambian kwacha
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Kwacha zambien
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Kwacha zambiano
+    badges: []
+  hewiki:
+    site: hewiki
+    title: קוואצ'ה זמבי
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: जाम्बियाई क्वाचा
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Zambijska kvača
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Zambiai kwacha
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Kwacha Zambia
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Kwacha zambiano
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ザンビア・クワチャ
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 잠비아 콰차
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Zambijos kvača
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: झांबियन क्वाचा
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Zambiaanse kwacha
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Zambisk kwacha
+    badges: []
+  nywiki:
+    site: nywiki
+    title: Kwacha ya Zambia
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Kwacha zambijska
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Kwacha zambiano
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Замбийская квача
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Замбијска квача
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Zambisk kwacha
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Квачаи Замбия
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Kwacha ng Zambia
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Zambiya kwachası
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Замбійська квача
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Kwacha Sámbíà
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Zambia kwacha
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 贊比亞瓜查
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 尚比亞克瓦查
+    badges: []

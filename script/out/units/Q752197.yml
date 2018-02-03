@@ -1,0 +1,220 @@
+---
+pageid: 707766
+ns: 0
+title: Q752197
+lastrevid: 611765611
+modified: '2017-12-21T12:00:37Z'
+type: item
+id: Q752197
+labels:
+  en:
+    language: en
+    value: kilojoule per mole
+aliases:
+  en:
+  - language: en
+    value: kJ/mol
+  - language: en
+    value: kJ mol^(-1)
+  - language: en
+    value: kJ mol⁻¹
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 4c44f99c7e0df9250b66f1b54a89bb8081acd5e8
+      datavalue:
+        value: kJ/mol
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q752197$c93f568e-4840-5e67-c40d-29210b36c837
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: de271c93f9391c06fcc8a9ce79f31164dcfc4e75
+      datavalue:
+        value: кДж/моль
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q752197$d0b8aafa-43b3-6204-0604-ae4647bba44c
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: a93afca8d746ec233e34b1a05ae2fed420645557
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 45721316
+          id: Q45721316
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q752197$4a020748-4410-861b-7e4b-c76350d0630e
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 50afdc16346d8687f53963f614e8d645419488a0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 208469
+          id: Q208469
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q752197$6C617781-F71E-4569-86AA-358254940E9B
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: dd7b5ef856604d59a77fb00f322209cd42e75e33
+      datavalue:
+        value: "/m/0jdpc"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q752197$E0027CEA-7BE9-40B1-BC5E-1CBD3494D961
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 0d5b22a7e87040cd3fa53f0a65c50d01a0294133
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 207721
+          id: Q207721
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q752197$fa6ab922-43fe-3c61-e073-ab3857029ac0
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 4b0219192ef4c97bf899eaf31048fc77ffb049b1
+      datavalue:
+        value:
+          amount: "+1000"
+          unit: http://www.wikidata.org/entity/Q13035094
+          upperBound: "+1000"
+          lowerBound: "+1000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q752197$71e570cc-43ef-c68c-20ae-0c9563d63f05
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Kilojoule per mol
+    badges: []
+  anwiki:
+    site: anwiki
+    title: Kilojoule por mol
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Quiloxuliu por mol
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Quilojoule per mol
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Kilojoule pro Mol
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Kilojulio por mol
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Kilodżul na mol
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Quilojoule por mol
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Kilodžul po molu
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Kilojoule per mole
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Килоџул по молу
+    badges: []

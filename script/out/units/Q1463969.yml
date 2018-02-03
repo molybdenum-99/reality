@@ -1,0 +1,112 @@
+---
+pageid: 1402066
+ns: 0
+title: Q1463969
+lastrevid: 617000508
+modified: '2018-01-06T03:21:45Z'
+type: item
+id: Q1463969
+labels:
+  en:
+    language: en
+    value: watt per meter kelvin
+aliases:
+  en:
+  - language: en
+    value: W/mK
+  - language: en
+    value: W/(mK)
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 50afdc16346d8687f53963f614e8d645419488a0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 208469
+          id: Q208469
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1463969$3C433E8C-B833-4500-840A-8EC4F74AFE14
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: ebaf291cb79837d579e27327d6ebba2656abac34
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 487005
+          id: Q487005
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1463969$79A8D8D2-9F1F-4D27-9C94-F3F20883FA18
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 1d6c32fdfc63ff2174cfc34e73813f35c4d1c998
+      datavalue:
+        value: Вт/(м·K)
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q1463969$ce507ba5-4bbc-3bc7-7b4f-d79b48f6c9ba
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 2ba09150816cb7fdf5b9e14f1fb7f714b3747b63
+      datavalue:
+        value: watt_per_metre_kelvin
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1463969$E7E3A015-9AC9-41B7-B5A2-6EE846A9CE4A
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Watt per meter-kelvin
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Vatiu por metru kelvin
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Watt par mètre-kelvin
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Watt per méter-kelvin
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Watt por metro por kelvin
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Vat na meterkelvin
+    badges: []

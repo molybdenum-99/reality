@@ -1,0 +1,326 @@
+---
+pageid: 48320055
+ns: 0
+title: Q47273538
+lastrevid: 625316035
+modified: '2018-01-31T23:06:28Z'
+type: item
+id: Q47273538
+labels:
+  en:
+    language: en
+    value: Cardano
+aliases:
+  en:
+  - language: en
+    value: ADA
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 16ab8cfff2957341998c927ff03e50befb65a864
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 13479982
+          id: Q13479982
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q47273538$e66be04d-4b66-74d0-6df0-804e32a243e3
+    rank: normal
+  P856:
+  - mainsnak:
+      snaktype: value
+      property: P856
+      hash: 69da651f5953c6977f4fc3bd97a8ede98155eea5
+      datavalue:
+        value: https://www.cardanohub.org/en/home/
+        type: string
+      datatype: url
+    type: statement
+    id: Q47273538$992d085c-4f7f-45d5-2825-03ac9aab3ea4
+    rank: normal
+  P1813:
+  - mainsnak:
+      snaktype: value
+      property: P1813
+      hash: c73d1a67b620d01357ee814c834cdeec7cf274fe
+      datavalue:
+        value:
+          text: ADA
+          language: en
+        type: monolingualtext
+      datatype: monolingualtext
+    type: statement
+    id: Q47273538$4d2b0c2a-4bdb-ae5d-def1-a9d1998bc2d7
+    rank: normal
+  P571:
+  - mainsnak:
+      snaktype: value
+      property: P571
+      hash: 37d1a81c559a89a6b67d0eeef34cde2d7c16af9a
+      datavalue:
+        value:
+          time: "+2017-09-29T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 11
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q47273538$dfc2cce4-40c9-ad46-0069-48c32c9b80f5
+    rank: normal
+  P1324:
+  - mainsnak:
+      snaktype: value
+      property: P1324
+      hash: 3af260a2fa823b5c863189f5b6fe8e8d819978a7
+      datavalue:
+        value: https://github.com/input-output-hk/cardano-sl
+        type: string
+      datatype: url
+    type: statement
+    id: Q47273538$05766e29-4dcb-8f99-6f0c-dd8448b15276
+    rank: normal
+  P348:
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 8f9b44ecd1e4fa09d46bd0f2bf96c20fd131f1d3
+      datavalue:
+        value: 1.0.3
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: ded9028217852921da842386d45edb9baed4b199
+        datavalue:
+          value:
+            time: "+2017-12-11T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q47273538$98B0E5B9-192F-48F3-A5D6-1B87A53366A5
+    rank: preferred
+    references:
+    - hash: a7b69f19258fb466865451288d273b7f5e648ef0
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 29083536a4e38b24c2e0547a6f85fe1d08d5fddf
+          datavalue:
+            value:
+              time: "+2018-01-30T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 32678aa25f7502f3a1840ffcb59b6f762919fe19
+          datavalue:
+            value: https://api.github.com/repos/input-output-hk/cardano-sl/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: a3516b63e661534cabb311da30ebaa9c9ed5e4c1
+      datavalue:
+        value: '0.3'
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: c8b013a19a6f94a3c7e45eab5af6848ce61b0143
+        datavalue:
+          value:
+            time: "+2017-04-23T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q47273538$17AF6D74-5804-45E7-A0DD-5B8B1ACE0B95
+    rank: normal
+    references:
+    - hash: a7b69f19258fb466865451288d273b7f5e648ef0
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 29083536a4e38b24c2e0547a6f85fe1d08d5fddf
+          datavalue:
+            value:
+              time: "+2018-01-30T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 32678aa25f7502f3a1840ffcb59b6f762919fe19
+          datavalue:
+            value: https://api.github.com/repos/input-output-hk/cardano-sl/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 1a5aa866eb0d532a32a22bde3bb457614adedf13
+      datavalue:
+        value: '0.2'
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: d9b8b1e014ded07246ff2dbd26f8245d5c5fc4c6
+        datavalue:
+          value:
+            time: "+2017-03-07T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q47273538$532E21CF-EB84-4C60-8CC1-8D0A46864DDB
+    rank: normal
+    references:
+    - hash: a7b69f19258fb466865451288d273b7f5e648ef0
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 29083536a4e38b24c2e0547a6f85fe1d08d5fddf
+          datavalue:
+            value:
+              time: "+2018-01-30T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 32678aa25f7502f3a1840ffcb59b6f762919fe19
+          datavalue:
+            value: https://api.github.com/repos/input-output-hk/cardano-sl/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 638bf89b2b89ad92e1c34f34af2ef205eac0cf7d
+      datavalue:
+        value: '0.1'
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 5034268929a5eab8d865e183039c9a4a36bcb019
+        datavalue:
+          value:
+            time: "+2017-01-15T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q47273538$D66C8383-81DD-4A86-BCD1-5B3CE5241548
+    rank: normal
+    references:
+    - hash: a7b69f19258fb466865451288d273b7f5e648ef0
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 29083536a4e38b24c2e0547a6f85fe1d08d5fddf
+          datavalue:
+            value:
+              time: "+2018-01-30T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 32678aa25f7502f3a1840ffcb59b6f762919fe19
+          datavalue:
+            value: https://api.github.com/repos/input-output-hk/cardano-sl/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Cardano (Kryptowährung)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Cardano (cryptocurrency)
+    badges: []
+  jawiki:
+    site: jawiki
+    title: カルダノ (ブロックチェーン)
+    badges: []

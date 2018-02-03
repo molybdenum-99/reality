@@ -1,0 +1,357 @@
+---
+pageid: 203497
+ns: 0
+title: Q207312
+lastrevid: 617888494
+modified: '2018-01-08T22:59:20Z'
+type: item
+id: Q207312
+labels:
+  en:
+    language: en
+    value: Nicaraguan córdoba
+aliases:
+  en:
+  - language: en
+    value: Mariana Montserrat
+  - language: en
+    value: Nicaraguan cordoba
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q207312$720921AE-40E5-4764-812E-1D3B96A1F916
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: ad831f39d5da8edb5ffe48c54dcb7b1ca876106f
+      datavalue:
+        value: Money of Nicaragua
+        type: string
+      datatype: string
+    type: statement
+    id: q207312$6BF9AB16-BC65-464B-A5A4-C05FC98A2D21
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: e5d064616d5b6b81a991465530296ceff30b6f6e
+      datavalue:
+        value: NIO
+        type: string
+      datatype: external-id
+    type: statement
+    id: q207312$2db9e30d-4918-c819-2b53-69192eabde13
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: b7fc4e679db833e009cad86b9fd513db92b87295
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 4504274
+          id: Q4504274
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q207312$40132959-27AC-4251-B32F-67E784687746
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 8700d97fb705bbd6dd37eb2bd0e45ba46682c9f8
+      datavalue:
+        value: "/m/02fvtk"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q207312$D240A090-CED2-46A4-9172-0D95B93301A5
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 9acc6d90ef91ebf1f0daf638762ac30ab98d8c64
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 811
+          id: Q811
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q207312$d07f773a-47d1-4cda-b77c-ff6918f19188
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: c7df81f942c29755dd43b96fc60ccd04a91274ff
+      datavalue:
+        value: 500 Cordobas.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    qualifiers:
+      P2096:
+      - snaktype: value
+        property: P2096
+        hash: 50e6b63a3630c2d191ad138804e20e2887b0c5d6
+        datavalue:
+          value:
+            text: Bitllet de 500 córdobas del 2005
+            language: ca
+          type: monolingualtext
+        datatype: monolingualtext
+    qualifiers-order:
+    - P2096
+    id: Q207312$93b53cab-4d1a-f9c9-9c51-70807a9ad2bb
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 438dd11c368baa160663bf50ba29df1a1bf1d9ee
+      datavalue:
+        value: '500222'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q207312$EF531C27-35ED-4BD5-ADE4-FD2400CC23D8
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Córdoba (munteenheid)
+    badges: []
+  arwiki:
+    site: arwiki
+    title: كوردبا نيكاراغوا
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Никарагуанска кордоба
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: নিকারাগুয়ান করডোবা
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Córdoba (moneda)
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Nikaragujská córdoba
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Córdoba Oro
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Nicaraguan córdoba
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Nikaragva kordovo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Córdoba (moneda de Nicaragua)
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Córdoba (dirua)
+    badges: []
+  fawiki:
+    site: fawiki
+    title: کوردوبا نیکاراگوئه
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Nicaraguan córdoba
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Cordoba (monnaie)
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Córdoba (moeda)
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Nikaragvanska kordoba
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Nicaraguai córdoba
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Córdoba Nikaragua
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Córdoba nicaraguense
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ニカラグア・コルドバ
+    badges: []
+  kawiki:
+    site: kawiki
+    title: ნიკარაგუის კორდობა
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 니카라과 코르도바
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Никарагуаса кордоба
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Nikaragvos kordoba
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: निकाराग्वन कोर्डोबा
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Nicaraguaanse córdoba
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Nicaraguansk córdoba
+    badges: []
+  oswiki:
+    site: oswiki
+    title: Кордобæ
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਨਿਕਾਰਾਗੁਆਈ ਕੋਰਦੋਬਾ
+    badges: []
+  pihwiki:
+    site: pihwiki
+    title: Cordoba
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Córdoba (waluta)
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Córdoba (moeda)
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Córdoba (monedă)
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Никарагуанская кордоба
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Никарагванска кордоба
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Córdoba (valuta)
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Кордобаи Никарагуа
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Córdoba ng Nicaragua
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Kordoba
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Нікарагуанська кордоба
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Córdoba Nikarágúà
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Nicaragua córdoba
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 尼加拉瓜科多巴
+    badges: []

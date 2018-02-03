@@ -1,0 +1,102 @@
+---
+pageid: 23065881
+ns: 0
+title: Q21014455
+lastrevid: 625529419
+modified: '2018-02-01T15:36:03Z'
+type: item
+id: Q21014455
+labels:
+  en:
+    language: en
+    value: metre per minute
+aliases:
+  en:
+  - language: en
+    value: m/minute
+  - language: en
+    value: mpm
+  - language: en
+    value: metre/minute
+  - language: en
+    value: meters per minute
+  - language: en
+    value: meter/minute
+  - language: en
+    value: metres per minute
+  - language: en
+    value: meter per minute
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: b4f9c836c43d6700bbb61b79f9c7e714c1b52c93
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 15222637
+          id: Q15222637
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q21014455$45a23d11-4f67-3b80-d4ce-d4e27fa7be53
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 68362d093f343c799590215a6e784718e864cc48
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3711325
+          id: Q3711325
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q21014455$17a3d834-424d-204b-6c5d-06d81ea0eaa2
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: '0804186dda2afb488ecd3ea456f86820c86b2766'
+      datavalue:
+        value: м/мин
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q21014455$8466dee6-4cf4-cad2-cb40-0d4cb693a8d2
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 31cbfb654d818e7ce97adf16400a62b79f1952d3
+      datavalue:
+        value:
+          amount: "+0.166666667"
+          unit: http://www.wikidata.org/entity/Q182429
+          upperBound: "+0.166666668"
+          lowerBound: "+0.166666666"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q21014455$b9deb27a-4351-87ce-16be-0ca1d0c403a4
+    rank: normal
+sitelinks: {}

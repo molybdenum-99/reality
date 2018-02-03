@@ -1,0 +1,158 @@
+---
+pageid: 3597992
+ns: 0
+title: Q3773454
+lastrevid: 611957027
+modified: '2017-12-21T18:50:35Z'
+type: item
+id: Q3773454
+labels:
+  en:
+    language: en
+    value: megaparsec
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1c41b2ea8a3f6d3fab77c103d826ae5ead7a9c01
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1978718
+          id: Q1978718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3773454$e6bc7b66-42dc-4cb2-0892-65e47cdc2b32
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: a7205cdde12902ddb338b0182894bfa55765d201
+      datavalue:
+        value: Mpc
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q3773454$2c240b3c-4331-4c9e-b819-14931d2d42fa
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: b833ac7d004ec41fb7f22e6c89085eca8ce1da01
+      datavalue:
+        value: Мпк
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q3773454$9ebe5996-4ae2-aa65-054d-83f73f97c130
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 4354e3cc033f2c5371e447e5ab1cca8b89ffa3e0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 36253
+          id: Q36253
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3773454$7da80a2f-45cc-7705-9bab-c638a6e3fe12
+    rank: normal
+  P2043:
+  - mainsnak:
+      snaktype: value
+      property: P2043
+      hash: a3d370c7632046e814f019a5c30a9ba02308f717
+      datavalue:
+        value:
+          amount: "+1000000"
+          unit: http://www.wikidata.org/entity/Q12129
+          upperBound: "+1000000"
+          lowerBound: "+1000000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q3773454$aa5ad5fa-47c4-983c-f3f9-14df34f1ab4c
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: eedc8225f26031bc2783a5110419646a1293ead4
+      datavalue:
+        value: megaparsec
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3773454$825638A6-B9C2-44AF-90B5-4255C0F87AC5
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 6fe21324df510e4bacfdd9f3ae914f4a0fa43126
+      datavalue:
+        value:
+          amount: "+30856775810000000000000"
+          unit: http://www.wikidata.org/entity/Q11573
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q3773454$df0c43cb-492b-aca9-38d9-445a54f99a78
+    rank: normal
+sitelinks:
+  astwiki:
+    site: astwiki
+    title: Megapársec
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Megaparsec
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Megaparsek
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Megaparsec
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Megaparsec
+    badges: []

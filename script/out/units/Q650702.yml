@@ -1,0 +1,308 @@
+---
+pageid: 612417
+ns: 0
+title: Q650702
+lastrevid: 616708734
+modified: '2018-01-05T02:35:32Z'
+type: item
+id: Q650702
+labels:
+  en:
+    language: en
+    value: florin
+aliases: {}
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 571d7f23cb45d9cc82609d0187d8d92f08035306
+      datavalue:
+        value: Fiorino
+        type: string
+      datatype: string
+    type: statement
+    id: q650702$4DECC56E-F29D-4B47-B275-9907AF036A4B
+    rank: normal
+  P508:
+  - mainsnak:
+      snaktype: value
+      property: P508
+      hash: 5026edb33b53cee343cfe2f47bb5ff1a19f32a03
+      datavalue:
+        value: '27264'
+        type: string
+      datatype: external-id
+    type: statement
+    id: q650702$6A7DC70D-905D-4573-8772-FEBFA72C0C0D
+    rank: normal
+    references:
+    - hash: b7232a03e568ea326dacdccb6322adb7894300d5
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 1d66ba6e1b3396f65d9e70e5331cca2044f83e33
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 460907
+              id: Q460907
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 11e7615c45182e9d6e5729b37465c7e6d896b3a3
+      datavalue:
+        value: "/m/0ffv49"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q650702$32FC1535-0D29-47E0-9B24-4681B02F21DC
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P935:
+  - mainsnak:
+      snaktype: value
+      property: P935
+      hash: d3eaf5012569fd6b6374d02a93d65a837655cb27
+      datavalue:
+        value: Fiorino
+        type: string
+      datatype: string
+    type: statement
+    id: Q650702$C28F9517-B37C-4156-BA9B-F25F28325002
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q650702$948BFD21-8957-4962-AB1D-3965269787F6
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: c5ca712349335c750418de922c798f9c6fe64328
+      datavalue:
+        value: Fiorino 1347.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q650702$B81FEB99-CC25-49F4-938C-A0AD3EB5D734
+    rank: normal
+  P1807:
+  - mainsnak:
+      snaktype: value
+      property: P1807
+      hash: 3b7e766809d62923d3553c5df390a24f960719e0
+      datavalue:
+        value: '5722'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q650702$F08E16CC-3A3A-4C19-B4EF-7C6946580B8C
+    rank: normal
+  P3222:
+  - mainsnak:
+      snaktype: value
+      property: P3222
+      hash: a6562706a18f0fb9f1f077d0a72ce41e677f1ef6
+      datavalue:
+        value: florin-(brittiskt-silvermynt)
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q650702$5BF26E80-BBB6-4F6C-BAD0-F46776B9C998
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 4efd78df9be7ed7040f562455c2a4832ed6ff6a4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 148540
+          id: Q148540
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q650702$1cec234f-4ba3-3015-7439-ff5d1a3cafde
+    rank: normal
+sitelinks:
+  anwiki:
+    site: anwiki
+    title: Florín de Florencia
+    badges: []
+  arwiki:
+    site: arwiki
+    title: فلورين (عملة إيطالية)
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Флярын (манэта)
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Фларын (манета)
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Флорин
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Florí
+    badges: []
+  commonswiki:
+    site: commonswiki
+    title: Fiorino
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Florin (Goldmünze)
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Φλωρίνι
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Florin (Italian coin)
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Itala florino
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Florín
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Florin
+    badges: []
+  fawiki:
+    site: fawiki
+    title: فلورین
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Floriini
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Fiorino
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Florín florentino
+    badges: []
+  hewiki:
+    site: hewiki
+    title: פלורין איטלקי
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Florin (koin Italia)
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Fiorino
+    badges: []
+  jawiki:
+    site: jawiki
+    title: フローリン金貨
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 플로린
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Florinas (Florencija)
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Gouden florijn
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Floren
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Florim florentino
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Florin florentin
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Флорин
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Fiurinu
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Фиорин (фирентински)
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Florin
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Florin
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Флорин
+    badges: []

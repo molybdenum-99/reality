@@ -1,0 +1,73 @@
+---
+pageid: 4211097
+ns: 0
+title: Q4409055
+lastrevid: 491645369
+modified: '2017-05-28T21:04:55Z'
+type: item
+id: Q4409055
+labels:
+  en:
+    language: en
+    value: Geneva genevoise
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4409055$FB593067-74B8-4DC0-897C-147485CE6AED
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: c1a6a993a931ff2c49c7aac2408d43518810fc50
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11917
+          id: Q11917
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4409055$C396E7BA-3BB1-4067-AE77-175A7A12E33C
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: جنيفواز جنيف
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Geneva genevoise
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Женевуаз
+    badges: []

@@ -1,0 +1,378 @@
+---
+pageid: 517325
+ns: 0
+title: Q549024
+lastrevid: 622985531
+modified: '2018-01-24T14:08:18Z'
+type: item
+id: Q549024
+labels:
+  en:
+    language: en
+    value: Anisian
+aliases: {}
+claims:
+  P156:
+  - mainsnak:
+      snaktype: value
+      property: P156
+      hash: 28702c5548a2e003fe779a491b4f3e4b9a776ddd
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 726791
+          id: Q726791
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q549024$702d5263-4d95-c019-5ef2-25468050b81c
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P155:
+  - mainsnak:
+      snaktype: value
+      property: P155
+      hash: c3d874d06ab2ad2c78f79c43ff2e0ffe207d356c
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 914322
+          id: Q914322
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q549024$89c82a95-442a-289d-12ed-3fb044854017
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 41a50e82de0a91e9962e3f6e1f5bdd5f60d9007e
+      datavalue:
+        value: "/m/07nml5"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q549024$85A8AF91-8874-4D67-BBC3-B5D5032001D7
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 717e7569a81e105f70151d302be08111ac3d13bd
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 217524
+          id: Q217524
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q549024$9b11f895-4af5-9f07-6a9e-cf232b3f9f8e
+    rank: normal
+    references:
+    - hash: 29a3fecc4498409168107bc567db1dc0d3d231a7
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 7254f0541ed09356ccba69b6a5c0c4b4440457b1
+          datavalue:
+            value:
+              time: "+2014-10-16T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P813
+      - P143
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 1b6cc379ce05809c177f6811bf95d3b78065f8ba
+      datavalue:
+        value: Anisian
+        type: string
+      datatype: string
+    type: statement
+    id: Q549024$08ED508F-0A05-41BF-8B95-2E472C9CACF5
+    rank: normal
+  P625:
+  - mainsnak:
+      snaktype: value
+      property: P625
+      hash: 0e165a2343e16a2110e344c61f972e436f4ca159
+      datavalue:
+        value:
+          latitude: 45.07416667
+          longitude: 28.80222222
+          altitude: 
+          precision: 0.012720573412792
+          globe: http://www.wikidata.org/entity/Q2
+        type: globecoordinate
+      datatype: globe-coordinate
+    type: statement
+    id: Q549024$89DB0B67-FB01-401B-B89B-89B8D16B22F5
+    rank: normal
+    references:
+    - hash: 9cdd4f1d064faebc44a10fbd408afa604f3b89f6
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 16eef556b717b1b9c8e2599faef3af2af8537632
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 199700
+              id: Q199700
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P910:
+  - mainsnak:
+      snaktype: value
+      property: P910
+      hash: 89de763832fb79e384450bd7593ae2a956e086b0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 21605751
+          id: Q21605751
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q549024$C36304DA-D2D6-4354-B16B-FD0CEA9EABC7
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1774498cb861c7f76e71afc94661ed9a03d8461a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1123245
+          id: Q1123245
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q549024$488d53b9-4171-ad73-5108-abe2ee483e55
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: b230ba6f73ec78c2fd8b28c19fab3a1a3e51124e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 568683
+          id: Q568683
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q549024$b9f4e6f3-4b2f-b42a-99b5-d94d98827708
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 6ccc4108ac82964ea940ecc2db2c6531b49e0367
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 929395
+          id: Q929395
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q549024$a4bf405f-4f0f-af21-c29d-68249679b082
+    rank: normal
+  P3827:
+  - mainsnak:
+      snaktype: value
+      property: P3827
+      hash: bab0564886e59558fd8cea38950e7cb0216a870e
+      datavalue:
+        value: anisian-age
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q549024$3AEEE77F-587C-4D29-94AE-EDF7AA2A1D0F
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Anisium
+    badges: []
+  arwiki:
+    site: arwiki
+    title: الأنيسي
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Anisianu
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Anisià
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Anisium
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Anisian
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Anisiense
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Anisiar
+    badges: []
+  fawiki:
+    site: fawiki
+    title: آنیسین
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Anisien
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Anisusi
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Anisico
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Анизий ярусы
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Anisium
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Anisien
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Anisium
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Anizyk
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Anisiano
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Анизийский ярус
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Anizik
+    badges: []

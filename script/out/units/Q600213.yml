@@ -1,0 +1,163 @@
+---
+pageid: 564887
+ns: 0
+title: Q600213
+lastrevid: 618616250
+modified: '2018-01-10T22:36:08Z'
+type: item
+id: Q600213
+labels:
+  en:
+    language: en
+    value: Mozambican escudo
+aliases: {}
+claims:
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 1c565b5b4d6dce6cc09e954dec12c66679e08387
+      datavalue:
+        value: MZE
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q600213$303c0a56-4d20-174a-939a-a9d86bffd3fa
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 165004ccf9c16444fcb43505535fc84e9d491f3f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 806190
+          id: Q806190
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q600213$293B8EEF-7CCC-4BB8-BF05-DD4C717B7F0E
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 70b7dbf9a7c31ac3b37400cd2e766e163de26556
+      datavalue:
+        value: "/m/0947q9"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q600213$E5A0AFA7-C595-437B-BCD5-7EC2CA02CB2C
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q600213$ee070f73-4746-881f-1d02-2d238f2c8c41
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 36e005228eb01cc1a337a9fd10ab389f7828c86d
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1029
+          id: Q1029
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q600213$afd3529c-4c22-13ea-a7cb-e678ca40a282
+    rank: normal
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Escut moçambiquès
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Mosambikanischer Escudo
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Mozambican escudo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Escudo mozambiqueño
+    badges: []
+  fawiki:
+    site: fawiki
+    title: اسکودوی موزامبیک
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Escudo mozambickie
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Escudo de Moçambique
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Мозамбикский эскудо
+    badges: []

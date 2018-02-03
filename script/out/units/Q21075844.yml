@@ -1,0 +1,76 @@
+---
+pageid: 23122881
+ns: 0
+title: Q21075844
+lastrevid: 611892968
+modified: '2017-12-21T16:34:08Z'
+type: item
+id: Q21075844
+labels:
+  en:
+    language: en
+    value: millilitre per litre
+aliases:
+  en:
+  - language: en
+    value: ml/l
+  - language: en
+    value: milliliter per liter
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q21075844$08ffaf94-4ec1-459b-8b8c-514e69e8080e
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: a63abdaae2de1b2f3c9fc498f3e5617406465bf5
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 12549812
+          id: Q12549812
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q21075844$1125ac8e-469c-c58f-bdc1-b075647a5e8e
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 82a8d7119a88980399220eedc422f0d3a5ba7048
+      datavalue:
+        value: мл/л
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q21075844$5c4d99b8-49f4-cd74-913f-e12e4f55e674
+    rank: normal
+sitelinks: {}

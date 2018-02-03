@@ -1,0 +1,528 @@
+---
+pageid: 155467
+ns: 0
+title: Q154121
+lastrevid: 623757200
+modified: '2018-01-27T08:54:46Z'
+type: item
+id: Q154121
+labels:
+  en:
+    language: en
+    value: micro
+aliases:
+  en:
+  - language: en
+    value: 10^-6
+  - language: en
+    value: µ
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: b2c09aff06d6a44f3bf82f6c9cc86dc28c629779
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 131299
+          id: Q131299
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q154121$CEB6CD1F-BA8D-453F-9F64-6D5A07C8177F
+    rank: normal
+    references:
+    - hash: '011612885ba1d8d75d459891bee210fd0d8c3035'
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: c2213e83c554bae5121243bc2ace76aeffa9ce42
+          datavalue:
+            value: '19'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: cef4c7c76f433be2c042113a43ecdc990b112ef2
+          datavalue:
+            value: 6.5.4
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: '088eeb2363ce05d397dda7dda713bf8e1ac7ba08'
+      datavalue:
+        value: µ
+        type: string
+      datatype: string
+    type: statement
+    id: q154121$91189706-4e15-bf3c-53b2-4597e1fda65a
+    rank: normal
+    references:
+    - hash: '011612885ba1d8d75d459891bee210fd0d8c3035'
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: c2213e83c554bae5121243bc2ace76aeffa9ce42
+          datavalue:
+            value: '19'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: cef4c7c76f433be2c042113a43ecdc990b112ef2
+          datavalue:
+            value: 6.5.4
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: c33cc14aad70df96135a5b773533abd6822e4e51
+      datavalue:
+        value: "/m/016l_m"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q154121$6731CFB6-385C-4B49-819C-DC708B1586E2
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P1181:
+  - mainsnak:
+      snaktype: value
+      property: P1181
+      hash: b0ca782ebfd6bd55226832a2dc7f3f0aa1a8fbfa
+      datavalue:
+        value:
+          amount: "+0.000001"
+          unit: '1'
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q154121$01d512a2-44e1-8396-a3f1-7bc12008157c
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 45943225d560b7443be15d869e2d7020fedf213e
+      datavalue:
+        value: micro
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q154121$9C053494-65E7-43AB-99A9-FA633783F535
+    rank: normal
+  P155:
+  - mainsnak:
+      snaktype: value
+      property: P155
+      hash: 2a5718ffc562094a159c7118967b5eada4ee1d38
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 154357
+          id: Q154357
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q154121$3e4a8ac7-41a1-f7b1-f15e-26a7a5efe8d3
+    rank: normal
+    references:
+    - hash: '011612885ba1d8d75d459891bee210fd0d8c3035'
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: c2213e83c554bae5121243bc2ace76aeffa9ce42
+          datavalue:
+            value: '19'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: cef4c7c76f433be2c042113a43ecdc990b112ef2
+          datavalue:
+            value: 6.5.4
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P156:
+  - mainsnak:
+      snaktype: value
+      property: P156
+      hash: 842edc17285cec3b027e7deabc71555961859fe8
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 154108
+          id: Q154108
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q154121$058a8eb0-417a-7ac6-7752-eebd16d3d7cc
+    rank: normal
+    references:
+    - hash: '011612885ba1d8d75d459891bee210fd0d8c3035'
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: c2213e83c554bae5121243bc2ace76aeffa9ce42
+          datavalue:
+            value: '19'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: cef4c7c76f433be2c042113a43ecdc990b112ef2
+          datavalue:
+            value: 6.5.4
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P2534:
+  - mainsnak:
+      snaktype: value
+      property: P2534
+      hash: c8933f6278925018b3f0d2bd876cfffd30bb843f
+      datavalue:
+        value: 10^{-6}
+        type: string
+      datatype: math
+    type: statement
+    id: Q154121$3584f21d-406d-94b7-3446-a799bb86ef54
+    rank: normal
+    references:
+    - hash: '011612885ba1d8d75d459891bee210fd0d8c3035'
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: c2213e83c554bae5121243bc2ace76aeffa9ce42
+          datavalue:
+            value: '19'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: cef4c7c76f433be2c042113a43ecdc990b112ef2
+          datavalue:
+            value: 6.5.4
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P4746:
+  - mainsnak:
+      snaktype: value
+      property: P4746
+      hash: 10da77d6747827b987696c95090c9bb7d71510cc
+      datavalue:
+        value: '058250'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q154121$5C4542F9-6691-4B13-A058-E1DFF155870A
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: ميكرو (وحدة)
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Мікра-
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Микро-
+    badges: []
+  brwiki:
+    site: brwiki
+    title: Mikro
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Mikro-
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Micro-
+    badges: []
+  ckbwiki:
+    site: ckbwiki
+    title: مایکرۆ-
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Mikro
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Mikro-
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Micro-
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Mikro
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Micro (prefijo)
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Mikro
+    badges: []
+  fawiki:
+    site: fawiki
+    title: میکرو
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Mikro
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Micro (préfixe du Système international d'unités)
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Micro-
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: सूक्ष्म (उपसर्ग)
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Mikro
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Միկրո
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Mikro-
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Micro (prefisso)
+    badges: []
+  jawiki:
+    site: jawiki
+    title: マイクロ
+    badges: []
+  kawiki:
+    site: kawiki
+    title: მიკრო...
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Микро-
+    badges: []
+  kmwiki:
+    site: kmwiki
+    title: មីក្រូ
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 마이크로
+    badges: []
+  kshwiki:
+    site: kshwiki
+    title: Micro
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Mikro-
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: മൈക്രോ-
+    badges: []
+  ndswiki:
+    site: ndswiki
+    title: Mikro
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Micro (SI-prefix)
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Mikro
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Mikro
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Mikro
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Micro
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Микро-
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Micro (prifissu)
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Micro-
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Mikro
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Mikro
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Микро
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Mikro
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Mikro-
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Мікро-
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Micrô
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 微
+    badges: []

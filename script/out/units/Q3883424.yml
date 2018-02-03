@@ -1,0 +1,121 @@
+---
+pageid: 3705152
+ns: 0
+title: Q3883424
+lastrevid: 623024803
+modified: '2018-01-24T16:35:34Z'
+type: item
+id: Q3883424
+labels:
+  en:
+    language: en
+    value: Ionian obol
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 332f6e9421820c9f16b271f639bb0b200aedcf0b
+      datavalue:
+        value: "/m/0b9c2r"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3883424$156EC526-AD72-4529-8D29-4361E619278B
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3883424$D84284AF-2DBC-4743-9385-3F9BF8E1F4C8
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 26df1b30378d353fa1eb002a147e560664c784c5
+      datavalue:
+        value: United States of the Ionian Islands coins
+        type: string
+      datatype: string
+    type: statement
+    id: Q3883424$A1067EF5-EF78-4ABB-B558-405685D2C196
+    rank: normal
+sitelinks:
+  commonswiki:
+    site: commonswiki
+    title: Category:United States of the Ionian Islands coins
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Οβολός Ιονίου
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Ionian obol
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Joonia obool
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Obol ionian
+    badges: []

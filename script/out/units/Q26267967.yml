@@ -1,0 +1,106 @@
+---
+pageid: 28219033
+ns: 0
+title: Q26267967
+lastrevid: 537539448
+modified: '2017-08-14T08:08:55Z'
+type: item
+id: Q26267967
+labels:
+  en:
+    language: en
+    value: Liño
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 0f49769a073adbf1aea6d3645a68f24ad29dbeb6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1371562
+          id: Q1371562
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q26267967$aa9742c6-4143-6199-3494-121d29b03dc4
+    rank: normal
+    references:
+    - hash: 548048888a3c88aaaded611d1aebde0033ee4ee8
+      snaks:
+        P957:
+        - snaktype: value
+          property: P957
+          hash: bb85ac3a20a4f7eb36f84856e2a50f03a0531a2d
+          datavalue:
+            value: '3411021489'
+            type: string
+          datatype: external-id
+      snaks-order:
+      - P957
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: e58f3b9c96d507db20103e68d18c8d0724d107b4
+      datavalue:
+        value:
+          amount: "+4883.2"
+          unit: http://www.wikidata.org/entity/Q25343
+          upperBound: "+4883.2"
+          lowerBound: "+4883.2"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q26267967$8dacf18a-40dc-0ef4-1f45-11c7c17bbfc1
+    rank: normal
+    references:
+    - hash: 548048888a3c88aaaded611d1aebde0033ee4ee8
+      snaks:
+        P957:
+        - snaktype: value
+          property: P957
+          hash: bb85ac3a20a4f7eb36f84856e2a50f03a0531a2d
+          datavalue:
+            value: '3411021489'
+            type: string
+          datatype: external-id
+      snaks-order:
+      - P957
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: a9686ad4a34706f092c7d2c9cb6cc47e2f6f29e9
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 733
+          id: Q733
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q26267967$1E381D52-9A3A-4253-937E-A7EBE0DBBB1B
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: e12439f34cec95ee050daf4e503b6952b0e935f4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11500
+          id: Q11500
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q26267967$C3D79061-A510-40C5-8FA6-5EECF95642A2
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Liño
+    badges: []

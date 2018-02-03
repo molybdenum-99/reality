@@ -1,0 +1,85 @@
+---
+pageid: 3373013
+ns: 0
+title: Q3543447
+lastrevid: 491639941
+modified: '2017-05-28T20:51:19Z'
+type: item
+id: Q3543447
+labels:
+  en:
+    language: en
+    value: Madras fanam
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3543447$f5ff0793-47a5-5224-919f-5df3643754d5
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: 2af39fbd2f4d0a20d6a1ea3cecb6f373911e4a2f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1395460
+          id: Q1395460
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3543447$120b4172-4003-2039-24ba-246dfac77588
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 36c887c7762add5c6f211643f910023a8f8bca40
+      datavalue:
+        value: Madras-Fanam
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3543447$9B9ED011-AE94-4E5D-B0AE-6AED724D3898
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Madras fanam
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Fanam di Madras
+    badges: []
+  tawiki:
+    site: tawiki
+    title: மதராசு பணம்
+    badges: []

@@ -1,0 +1,155 @@
+---
+pageid: 605584
+ns: 0
+title: Q643555
+lastrevid: 618115248
+modified: '2018-01-09T16:25:37Z'
+type: item
+id: Q643555
+labels:
+  en:
+    language: en
+    value: osmotic concentration
+aliases:
+  en:
+  - language: en
+    value: osmolarity
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 688571442eb0ea89a920ff6e896d222105e2584d
+      datavalue:
+        value: "/m/085rv6"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q643555$FB05C4B6-765D-42E8-A5C9-C091533F3E36
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q643555$233652b5-484c-adfe-0615-806be8396e59
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 6c3ab14f2787040c5a372121a16db8132b0efc70
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3686031
+          id: Q3686031
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q643555$44470799-408c-0fd4-1b28-0c7b80ec349a
+    rank: normal
+  P3471:
+  - mainsnak:
+      snaktype: value
+      property: P3471
+      hash: 19e59729f56bda695003cb98a22ccf24300e9ed0
+      datavalue:
+        value: '15146'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q643555$625A09DF-C8FA-4D24-8CDA-A2109FE36FB5
+    rank: normal
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Osmolaritat
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Osmolarita
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Osmotische Konzentration
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Osmotic concentration
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Osmolaridad
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Osmolaarsus
+    badges: []
+  fawiki:
+    site: fawiki
+    title: اسمولاریته
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Concentration osmotique
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Osmolarità
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Osmolariteit
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Osmolaridade
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Осмотическая концентрация
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Osmolarita
+    badges: []

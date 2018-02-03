@@ -1,0 +1,83 @@
+---
+pageid: 31619431
+ns: 0
+title: Q30005038
+lastrevid: 544013432
+modified: '2017-08-22T17:11:13Z'
+type: item
+id: Q30005038
+labels:
+  en:
+    language: en
+    value: zebi-
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: fe4251e8ce417e4fb8898fa6a97b88a531d71ce2
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 6583973
+          id: Q6583973
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q30005038$4379aee7-4886-f1c9-bb7f-58a7b7f7f472
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 706e1db94dead5006d422d983ea50f8280cd8a7f
+      datavalue:
+        value: Zi
+        type: string
+      datatype: string
+    type: statement
+    id: Q30005038$1a62e59e-49fa-77a4-8c48-f12e0ce57b50
+    rank: preferred
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 76fcd8e84b782dc65e558b433d3f9fa26575f694
+      datavalue:
+        value: Зи
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P407:
+      - snaktype: value
+        property: P407
+        hash: d291ddb7cd77c94a7bd709a8395934147e0864fc
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 7737
+            id: Q7737
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P407
+    id: Q30005038$def1e272-4cbe-1ecf-3282-d24aabab0b9b
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 5514ae2e16c9b97b5992b4947c935bcb004e32de
+      datavalue:
+        value: zebi
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q30005038$01f92c2f-4842-f65a-0de0-a4c699ea94a4
+    rank: normal
+sitelinks:
+  svwiki:
+    site: svwiki
+    title: Zebi
+    badges: []

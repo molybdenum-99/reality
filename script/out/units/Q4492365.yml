@@ -1,0 +1,89 @@
+---
+pageid: 4288289
+ns: 0
+title: Q4492365
+lastrevid: 491646075
+modified: '2017-05-28T21:07:01Z'
+type: item
+id: Q4492365
+labels:
+  en:
+    language: en
+    value: Korçë frange
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 96eac5c76e583165de302303fdc13e64d806d1e1
+      datavalue:
+        value: "/m/02z11jj"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q4492365$463F6337-5335-4F36-B7D3-8B2A6ED93ABB
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4492365$B50360DF-A7EA-4EE8-B4CF-809366A2F5C6
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Korçë frange
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Franco de Korçë
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Franc de Koritza
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Франк Корчи
+    badges: []

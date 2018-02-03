@@ -1,0 +1,345 @@
+---
+pageid: 50428
+ns: 0
+title: Q48440
+lastrevid: 616148270
+modified: '2018-01-03T15:06:05Z'
+type: item
+id: Q48440
+labels:
+  en:
+    language: en
+    value: solar radius
+aliases:
+  en:
+  - language: en
+    value: R☉
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: f780370db71483fe290e7040310e2a48e2282201
+      datavalue:
+        value: "/m/02lwfn"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q48440$A03BCF3E-53C4-4ED4-9C7B-D33229834ACA
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1c41b2ea8a3f6d3fab77c103d826ae5ead7a9c01
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1978718
+          id: Q1978718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q48440$F534448E-5C62-43D5-86E7-AA43BE1C392B
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 2df582d0c5cc76d9f9e4c5a3abffc54330d1bc09
+      datavalue:
+        value:
+          amount: "+695700000"
+          unit: http://www.wikidata.org/entity/Q11573
+          upperBound: "+695700000"
+          lowerBound: "+695700000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q48440$028863cc-47bf-5ff1-f343-ff34c5a481e0
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: bab47b26e1600b91ca5ed2bef966db59f3817525
+      datavalue:
+        value: solar_radius
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q48440$2426FF25-E3F8-4A14-B949-9F54D3DF2B59
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: ae3378b396911f70df089572c73c1c2e5e62e8eb
+      datavalue:
+        value: R☉
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P407:
+      - snaktype: value
+        property: P407
+        hash: d291ddb7cd77c94a7bd709a8395934147e0864fc
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 7737
+            id: Q7737
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P407
+    id: Q48440$3b999671-4243-0998-28b0-9b594b04c7a9
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: fbc75634e0ac443c5eaf2a133a6f286027be3fbd
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 126017
+          id: Q126017
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q48440$193208c5-4877-a0c7-ef11-3b7d5572c8b0
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Sonradius
+    badges: []
+  arwiki:
+    site: arwiki
+    title: نصف قطر شمسي
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Radiu solar
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Сонечны радыюс
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Сонечны радыус
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Слънчев радиус
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Radi solar
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Poloměr Slunce
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Solradius
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Sonnenradius
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Solar radius
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Suna radiuso
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Radio solar
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Eguzki erradio
+    badges: []
+  fawiki:
+    site: fawiki
+    title: شعاع خورشیدی
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Auringon säde
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Rayon solaire
+    badges: []
+  hewiki:
+    site: hewiki
+    title: רדיוס שמש
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: सौर अर्धव्यास
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Nap-sugár
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Radius matahari
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Raggio solare
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 太陽半径
+    badges: []
+  kawiki:
+    site: kawiki
+    title: მზის რადიუსი
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 태양반경
+    badges: []
+  lbwiki:
+    site: lbwiki
+    title: Sonneradius
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Сончев полупречник
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: सौर त्रिज्या
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Jejari suria
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Zonneradius
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Solradius
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਸੌਰ ਵਿਆਸ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Promień Słońca
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Raio solar
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Rază solară
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Солнечный радиус
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Raggiu sulari
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Solar radius
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Polomer Slnka
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Sončev polmer
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Сунчев радијус
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Solradie
+    badges: []
+  swwiki:
+    site: swwiki
+    title: Nusukipenyo cha Jua
+    badges: []
+  tawiki:
+    site: tawiki
+    title: சூரிய ஆரம்
+    badges: []
+  tewiki:
+    site: tewiki
+    title: సౌర వ్యాసార్థం
+    badges: []
+  thwiki:
+    site: thwiki
+    title: รัศมีดวงอาทิตย์
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Güneş yarıçapı
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Сонячний радіус
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Bán kính Mặt Trời
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 太阳半径
+    badges: []

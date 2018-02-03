@@ -1,0 +1,122 @@
+---
+pageid: 1111344
+ns: 0
+title: Q1165264
+lastrevid: 619164486
+modified: '2018-01-12T07:17:52Z'
+type: item
+id: Q1165264
+labels:
+  en:
+    language: en
+    value: West Irian rupiah
+aliases:
+  en:
+  - language: en
+    value: West New Guinea rupiah
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 0fd5fce9cfd75d98d8e21e761460d1bc49930057
+      datavalue:
+        value: "/m/09_g02"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1165264$2781C57F-F36A-47DB-A8F3-B52806582C6C
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1165264$12A3DF39-C733-41BC-B130-9B5AF306FA3B
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 5f062030d01c9793ff079b414e7a6dc647ce03ca
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 252
+          id: Q252
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1165264$93bea542-4b5d-3cf0-f2d0-3632b24fd10f
+    rank: normal
+  P1001:
+  - mainsnak:
+      snaktype: value
+      property: P1001
+      hash: ab1ecc6424d6a2f9b872bb56c42a6b7726287525
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3845
+          id: Q3845
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1165264$5f79b57b-47d0-f05b-3e78-6024fccf4170
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: West Irian rupiah
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Rupiah Irian Barat
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Rupia della Nuova Guinea Occidentale
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Западноирианская рупия
+    badges: []

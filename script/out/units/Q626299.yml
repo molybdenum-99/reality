@@ -1,0 +1,448 @@
+---
+pageid: 589022
+ns: 0
+title: Q626299
+lastrevid: 624296106
+modified: '2018-01-28T21:51:02Z'
+type: item
+id: Q626299
+labels:
+  en:
+    language: en
+    value: pound per square inch
+aliases:
+  en:
+  - language: en
+    value: psi
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6166ea9a07e43efe7af58b089be082880e6b8c61
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10751953
+          id: Q10751953
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q626299$a34ebaa1-4223-81f7-d311-63503cf47e60
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 6ba38c069a1ad09b022faeaa770e8dac91c858c4
+      datavalue:
+        value: "/m/0661nyk"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q626299$E1CE00EE-0426-4CC6-8E69-D0ED81FC8866
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 2a3d56e07200b2f4f2a4bd27fa73be497d8a1dbe
+      datavalue:
+        value: Psidial.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    qualifiers:
+      P2096:
+      - snaktype: value
+        property: P2096
+        hash: e1228e517810ec6b887b73ebe3493717f5ce2ba4
+        datavalue:
+          value:
+            text: 'Manòmetre aneroide de doble escala: en kPa (kilopascals) i en psi
+              (lliures per polzada quadrada)'
+            language: ca
+          type: monolingualtext
+        datatype: monolingualtext
+      - snaktype: value
+        property: P2096
+        hash: 162be82dca7985f957189f6d1c4b383064568bc3
+        datavalue:
+          value:
+            text: 'Анероїдний манометр з подвійною шкалою: у кПа (кілопаскалі) і psi
+              (фунти на квадратний дюйм)'
+            language: uk
+          type: monolingualtext
+        datatype: monolingualtext
+    qualifiers-order:
+    - P2096
+    id: Q626299$B7D099EF-0A45-4E5B-A633-F87F64068F54
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 6f9a462903c9b81819c894c597da368e08e59c32
+      datavalue:
+        value: PoundForcePerSquareInch
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q626299$99EDAC0E-7C3D-4F92-BA04-613E249BB787
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: a876e7a41293d4f8e5ebf4ae8bf3c9ee615576b8
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 39552
+          id: Q39552
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q626299$b624af4f-4d93-56c7-a520-b1ea2489a06d
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: a500e7fcc688b096e232d5461db2c97a9d51c7a7
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 14290846
+          id: Q14290846
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q626299$3aa24283-41b7-83cd-149c-ac17a411b39b
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 584bb5394de98d9a764165dda7a14e218de3f782
+      datavalue:
+        value: psi
+        type: string
+      datatype: string
+    type: statement
+    id: Q626299$92698dcd-48f9-6a8c-61a2-112495ba401a
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 659a4e86218cbce9ae738025f41eb5db0662978c
+      datavalue:
+        value:
+          amount: "+6894.757"
+          unit: http://www.wikidata.org/entity/Q44395
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q626299$1f939ca1-453d-71aa-d224-c1fbd7649db8
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: fcd00668f32853b0c6120d5b8b2ab61eddfee8f0
+      datavalue:
+        value:
+          amount: "+6894.757"
+          unit: http://www.wikidata.org/entity/Q44395
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q626299$0abd71a6-426a-76f0-a9c1-b191087e350e
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 590adb4d527265f2e505ee0c8647bc4d497ffe5a
+      datavalue:
+        value:
+          amount: "+0.06894757"
+          unit: http://www.wikidata.org/entity/Q103510
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q626299$60f8fc3a-4977-7745-25de-ae48b97d793d
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 787cb767207c2cc142d7cdda0ea645186c8420aa
+      datavalue:
+        value:
+          amount: "+0.06804596"
+          unit: http://www.wikidata.org/entity/Q177974
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q626299$fd85f52c-4724-dff4-c7a4-2b9fa20559ec
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: a38599e8b1f97367366b060712fc9c7961519588
+      datavalue:
+        value:
+          amount: "+2.036021"
+          unit: http://www.wikidata.org/entity/Q1050958
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q626299$7e777c4c-46a5-0c10-1369-a7199e12ff33
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 0f82767bf5252d889fc2f3c24014a8bc70034c60
+      datavalue:
+        value:
+          amount: "+27.67990"
+          unit: http://www.wikidata.org/entity/Q39467725
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q626299$04bc4bd1-4e1c-6c5f-c5fa-5e2c41ca82b3
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 3707d76a630559e4fc70bde3f5f87b8db54d3cc9
+      datavalue:
+        value:
+          amount: "+703.0696"
+          unit: http://www.wikidata.org/entity/Q13479685
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q626299$f73e39a7-4b55-fbbe-769e-79391edfd9bc
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 5ff5ae389ad7e4cdfa105d8cd7a49ed4bffd9532
+      datavalue:
+        value:
+          amount: "+51.71492"
+          unit: http://www.wikidata.org/entity/Q6859652
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q626299$0149e86a-43a3-fb2f-d569-305066b596cb
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 2661bcd1b5e0ea4075be2f3deb09b70d9b3c5aee
+      datavalue:
+        value:
+          amount: "+51.71492"
+          unit: http://www.wikidata.org/entity/Q185648
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q626299$b068cf7b-484e-60a1-dda2-67d81eb7dad7
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 1b6735bd96d65298e35ec9fce2ba706963ba6772
+      datavalue:
+        value:
+          amount: "+68.94757"
+          unit: http://www.wikidata.org/entity/Q12827327
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q626299$b4051ab0-4a1b-fdc4-f0a2-e0fb81de1b2c
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 1578deb9c760bfd9ab3f319c94fd8ef8cff55035
+      datavalue:
+        value:
+          amount: "+703.0696"
+          unit: http://www.wikidata.org/entity/Q39467934
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q626299$313a602a-4a27-af30-9788-6b0b5bafb16d
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 746bc321016c046d2d0b0b11cdd02e599828ed31
+      datavalue:
+        value:
+          amount: "+144"
+          unit: http://www.wikidata.org/entity/Q39468084
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q626299$a0c17f0d-4ecd-3bfd-248b-481ed5c1facc
+    rank: normal
+  P4746:
+  - mainsnak:
+      snaktype: value
+      property: P4746
+      hash: c3e0ab63e886f3e746236f3529469a6a2fe247a9
+      datavalue:
+        value: '017065'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q626299$98D50B7A-9A52-48FC-B56C-D7786BD16B90
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: رطل لكل بوصة مربعة
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Psi (адзінка вымярэньня)
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Lliura per polzada quadrada
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Psi (jednotka)
+    badges: []
+  dawiki:
+    site: dawiki
+    title: PSI (trykenhed)
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Pound-force per square inch
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Pounds per square inch
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Libra por pulgada cuadrada
+    badges: []
+  euwiki:
+    site: euwiki
+    title: PSI
+    badges: []
+  fawiki:
+    site: fawiki
+    title: پوند بر اینچ مربع
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Psi (mittayksikkö)
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Livre-force par pouce carré
+    badges: []
+  hewiki:
+    site: hewiki
+    title: PSI
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Psi (tlak)
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Psi (unità di misura)
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 重量ポンド毎平方インチ
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 제곱 인치 당 파운드
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Фунта на квадратен инч
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Pound-force per square inch
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: PSI
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Psi (trykkenhet)
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Psi (jednostka)
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Psi (unidade de medida)
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Фунт на квадратный дюйм
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Psi (tryckenhet)
+    badges: []
+  thwiki:
+    site: thwiki
+    title: ปอนด์ต่อตารางนิ้ว
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Фунт на квадратний дюйм
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 磅力每平方英寸
+    badges: []

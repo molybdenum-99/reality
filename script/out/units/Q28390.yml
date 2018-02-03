@@ -1,0 +1,631 @@
+---
+pageid: 31761
+ns: 0
+title: Q28390
+lastrevid: 621105448
+modified: '2018-01-16T17:25:05Z'
+type: item
+id: Q28390
+labels:
+  en:
+    language: en
+    value: degree
+aliases:
+  en:
+  - language: en
+    value: degree of arc
+  - language: en
+    value: arcdegree
+  - language: en
+    value: "°"
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 3f93e771eb8e65db603cf66a9dde0bf1dfe84751
+      datavalue:
+        value: Degree (angle)
+        type: string
+      datatype: string
+    type: statement
+    id: q28390$E1EFC4BF-F79B-405B-AB30-925CE90864DC
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 114407d8f5f64b19f01153752bedcf6679128ec0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 13587321
+          id: Q13587321
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q28390$cf1858a9-4fad-01d5-683f-e1cda623c5af
+    rank: normal
+  P913:
+  - mainsnak:
+      snaktype: value
+      property: P913
+      hash: b3b2f1e35d466d97afe81d42ae2384d46fddd648
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1053461
+          id: Q1053461
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q28390$9a80ebdc-4d39-0de9-8f1a-1d0a586e87a3
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 4e6ce42153d9ab8fdc707ae37814274f3617d31d
+      datavalue:
+        value: "/m/04gc58"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q28390$65424CDF-2CB3-4CBD-A631-E2A0413ECC44
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 608b8a735f2e8b2aa63e4dc2e5977c3e3961be36
+      datavalue:
+        value: "°"
+        type: string
+      datatype: string
+    type: statement
+    id: Q28390$17b024b2-40c1-39d8-6efb-d8c15a665ffa
+    rank: normal
+    references:
+    - hash: fe6b5dd7a873279b7847286a2e1e29865e66e930
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 26fc09289522fb4d0720942564c921c35a0d4db9
+          datavalue:
+            value: '21'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: d91796d6666672ef9ffefbcaff859ec386db1751
+          datavalue:
+            value: 6.5.6
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+    - hash: 8a748a0f9cbdb804ed8334f7d57aa01066185af9
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: 536f2ac10e52b5e01d0405a661bd25cc08b99660
+          datavalue:
+            value: 3-5.b
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 130b9cd1f448c635bd816894ab351d0b9a92aac7
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11352
+          id: Q11352
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q28390$94769fc2-48ac-64c3-d143-eeb3e5bc17ca
+    rank: normal
+    references:
+    - hash: fe6b5dd7a873279b7847286a2e1e29865e66e930
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 26fc09289522fb4d0720942564c921c35a0d4db9
+          datavalue:
+            value: '21'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: d91796d6666672ef9ffefbcaff859ec386db1751
+          datavalue:
+            value: 6.5.6
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P2812:
+  - mainsnak:
+      snaktype: value
+      property: P2812
+      hash: 74d59a9ab04a0cf9fe7efaca1ec516c8f1cb8122
+      datavalue:
+        value: Degree
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q28390$E05AE209-8CD0-4343-B261-0631345BD5D6
+    rank: normal
+    references:
+    - hash: c456dc5cd2117249948c288206ff3f8b1bf574f0
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e17507043402fe54ae6c4d65cc51f46cec987de9
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 8449
+              id: Q8449
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 93927ac2260ab9db80088235869cf034fdada0fd
+      datavalue:
+        value:
+          amount: "+0.01745329251994329576923690768488612713"
+          unit: http://www.wikidata.org/entity/Q33680
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P2534:
+      - snaktype: value
+        property: P2534
+        hash: 81254a91a14804615155b4441f29a410d0b6f3f6
+        datavalue:
+          value: "^\\circ = \\frac{\\pi}{180} \\cdot \\text{rad}"
+          type: string
+        datatype: math
+    qualifiers-order:
+    - P2534
+    id: Q28390$99e71e86-4a52-ef71-18af-185a44649adb
+    rank: normal
+    references:
+    - hash: fe6b5dd7a873279b7847286a2e1e29865e66e930
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 26fc09289522fb4d0720942564c921c35a0d4db9
+          datavalue:
+            value: '21'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: d91796d6666672ef9ffefbcaff859ec386db1751
+          datavalue:
+            value: 6.5.6
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: '095b22e5c47a47f7d5e84e00899837038be11bd4'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 26711932
+          id: Q26711932
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P958:
+      - snaktype: value
+        property: P958
+        hash: 536f2ac10e52b5e01d0405a661bd25cc08b99660
+        datavalue:
+          value: 3-5.b
+          type: string
+        datatype: string
+    qualifiers-order:
+    - P958
+    id: Q28390$af3b6d2b-4138-0af3-99f8-7366a73f92d2
+    rank: normal
+  P4732:
+  - mainsnak:
+      snaktype: value
+      property: P4732
+      hash: 76d4e3c386ebe226b6ba64f8f40bb3daac96cfd5
+      datavalue:
+        value: D01560
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q28390$459C5FF3-93B2-4920-B2B6-AEB5F3678ECA
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Graad (meetkunde)
+    badges: []
+  arwiki:
+    site: arwiki
+    title: درجة (زاوية)
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Grau sexaxesimal
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Вуглавы градус
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Градус (ъгъл)
+    badges: []
+  bhwiki:
+    site: bhwiki
+    title: डिग्री (कोण)
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: ডিগ্রী (কোণ)
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Stepen (ugao)
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Grau sexagesimal
+    badges: []
+  ckbwiki:
+    site: ckbwiki
+    title: پلە (گۆشە)
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Stupeň (úhel)
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Grad (vinkelmål)
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Grad (Winkel)
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Μοίρα (γεωμετρία)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Degree (angle)
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Grado
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Grado sexagesimal
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Kraad (geomeetria)
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Gradu sexagesimal
+    badges: []
+  fawiki:
+    site: fawiki
+    title: درجه (زاویه)
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Aste
+    badges: []
+  frrwiki:
+    site: frrwiki
+    title: Winkelgraad
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Degré (angle)
+    badges: []
+  ganwiki:
+    site: ganwiki
+    title: 度 (角度)
+    badges: []
+  gawiki:
+    site: gawiki
+    title: Céim (matamaitic)
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Grao sesaxesimal
+    badges: []
+  hewiki:
+    site: hewiki
+    title: מעלה (זווית)
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Stupanj (kut)
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Fok (szög)
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Աստիճան (երկրաչափություն)
+    badges: []
+  iawiki:
+    site: iawiki
+    title: Grado (angulo)
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Derajat (satuan sudut)
+    badges: []
+  ilowiki:
+    site: ilowiki
+    title: Grado (anggulo)
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Gráða (horn)
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Grado d'arco
+    badges: []
+  jamwiki:
+    site: jamwiki
+    title: Digrii
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 度 (角度)
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 도 (각도)
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Gradus anguli
+    badges: []
+  lbwiki:
+    site: lbwiki
+    title: Grad (Wénkel)
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Grāds (leņķis)
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Степен (агол)
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Darjah (sudut)
+    badges: []
+  ndswiki:
+    site: ndswiki
+    title: Grad (Winkel)
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Booggraad
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Vinkeleininga grad
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Grad (vinkel)
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਡਿਗਰੀ (ਕੋਣ)
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Stopień (kąt)
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Grau (geometria)
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Grad sexagesimal
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Градус (геометрия)
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Degree (angle)
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Stepen (ugao)
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Degree (angle)
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Stupeň (uhol)
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Kotna stopinja
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Лучни степен
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Grad (vinkelenhet)
+    badges: []
+  swwiki:
+    site: swwiki
+    title: Nyuzi
+    badges: []
+  tawiki:
+    site: tawiki
+    title: பாகை (அலகு)
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Дараҷа (зовия)
+    badges: []
+  thwiki:
+    site: thwiki
+    title: องศา (มุม)
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Derece (birim)
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Градус (геометрія)
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Độ (góc)
+    badges: []
+  warwiki:
+    site: warwiki
+    title: Grado sexagesimal
+    badges: []
+  yiwiki:
+    site: yiwiki
+    title: גראד
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 角度
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 度 (角)
+    badges: []

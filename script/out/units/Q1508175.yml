@@ -1,0 +1,182 @@
+---
+pageid: 1445500
+ns: 0
+title: Q1508175
+lastrevid: 618609388
+modified: '2018-01-10T21:53:55Z'
+type: item
+id: Q1508175
+labels:
+  en:
+    language: en
+    value: Ghanaian pound
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1508175$ee782248-4023-864b-300a-1f3e6371a9d7
+    rank: normal
+    references:
+    - hash: b6a6242288a3e177468837bb7dd85d15da4a1ec4
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 5098f54fb73f56e383c593f296e7b3a7d34549c8
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 11918
+              id: Q11918
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 48dad11e4d75aa74b8b0904f85a3d307400ea278
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 339180
+          id: Q339180
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1508175$feed8d07-4604-4c09-334c-97fb2c045c6d
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: ce5f872bebd689e61c98351e31bd8a57b4f96ef3
+      datavalue:
+        value: "/m/0963d7"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1508175$581CC4D4-C84B-475A-82D7-87364DD3AE13
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 99d3977c7f1cef8fba49c1ab6fa99c2fa20a7f04
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 117
+          id: Q117
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1508175$c1b92fd1-4631-c79f-df31-889f9f489c9c
+    rank: normal
+  P571:
+  - mainsnak:
+      snaktype: value
+      property: P571
+      hash: 5ced67d860c6f60321be7625d4f959c5ce1999ae
+      datavalue:
+        value:
+          time: "+1958-00-00T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 9
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q1508175$72ae06a3-49ee-4642-7d9b-102b9499f754
+    rank: normal
+  P576:
+  - mainsnak:
+      snaktype: value
+      property: P576
+      hash: de62dc5b34ae7d95eec542e10d1b6e82bb2411d2
+      datavalue:
+        value:
+          time: "+1965-00-00T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 9
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q1508175$a56eacf3-43ea-cb73-6390-ecf88e4b9f8b
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Ghanaisches Pfund
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Λίρα της Γκάνας
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Ghanaian pound
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Libra ghanesa
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Ghanan punta
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ガーナ・ポンド
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Ганский фунт
+    badges: []

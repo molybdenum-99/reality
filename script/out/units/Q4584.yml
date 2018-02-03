@@ -1,0 +1,336 @@
+---
+pageid: 5527
+ns: 0
+title: Q4584
+lastrevid: 617888386
+modified: '2018-01-08T22:58:53Z'
+type: item
+id: Q4584
+labels:
+  en:
+    language: en
+    value: Malagasy ariary
+aliases:
+  en:
+  - language: en
+    value: Madagascan ariary
+  - language: en
+    value: ariary
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 5a902717e0925cefc4b8144545d110c15e89019f
+      datavalue:
+        value: Money of Madagascar
+        type: string
+      datatype: string
+    type: statement
+    id: q4584$CC7F4AE1-5777-4B1E-8250-6EB0C7E41F5C
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q4584$F34D14AB-9503-4210-B0B4-10E539C52C6C
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: bfd012d2c2bc4aa12ee2b57ced20a7a12d66a8bc
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3433330
+          id: Q3433330
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q4584$01F5FB58-CC13-471C-BB24-A26990ADB9DE
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 23ca4ccb38889a1780954e3cd15b0ecb1057146c
+      datavalue:
+        value: "/m/04hx_7"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q4584$EB4CE27E-E8A4-491A-8418-712E66A39371
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 6f07d1f55465fa906d8a46135f0ef6a6d484f1ab
+      datavalue:
+        value: MGA
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q4584$cd89f75f-44d4-ea26-57f3-f95c18616948
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: d1d4f2b9970e0dac6bd5b2183864608596eabcf0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1019
+          id: Q1019
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4584$cbc4932d-477d-dec6-7471-b3ee4fa522b0
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: b4cb3f2653b73e94c188b835faaf21cd0c062799
+      datavalue:
+        value: Madagascar-500francs 100ariary-banknote029.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q4584$77F24BD8-03C5-441C-8ACA-A446F84645CE
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: ba3b2d5ecc3cb486bf6fd69525369fc4b685370a
+      datavalue:
+        value: '500205'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q4584$F95F7EF1-7030-4214-80B5-E65CE466F63C
+    rank: normal
+sitelinks:
+  amwiki:
+    site: amwiki
+    title: አሪያሪ
+    badges: []
+  arwiki:
+    site: arwiki
+    title: أرياري مدغشقري
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Malaqasi ariarisi
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Малагасійскі арыяры
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Малагасійскі арыяры
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: মালাগাসি আরিয়ারি
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Ariary
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Malgašský ariary
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Ariary
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Ariary
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Αριάρι
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Malagasy ariary
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Malagasa ariaro
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Ariary malgache
+    badges: []
+  fawiki:
+    site: fawiki
+    title: آریاری
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Madagaskarin ariary
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Ariary
+    badges: []
+  hewiki:
+    site: hewiki
+    title: אריארי
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: मालागासी एरियरी
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Malgaški arijari
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Madagaszkári ariary
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Ariary malgascio
+    badges: []
+  jawiki:
+    site: jawiki
+    title: マダガスカル・アリアリ
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 마다가스카르 아리아리
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Madagaskaro ariaris
+    badges: []
+  mgwiki:
+    site: mgwiki
+    title: Ariary
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: मालागासी एरियरी
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Malagassische ariary
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Ariary
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Ariary
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Ariary malgaxe
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Малагасийский ариари
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Malagasy ariary
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Аријари
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Ariary
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Ariary ng Madagascar
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Ariary
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Малагасійський аріарі
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Ariary
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Madagascar ariary
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 馬達加斯加阿里亞里
+    badges: []

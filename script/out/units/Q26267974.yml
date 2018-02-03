@@ -1,0 +1,108 @@
+---
+pageid: 28219039
+ns: 0
+title: Q26267974
+lastrevid: 537539677
+modified: '2017-08-14T08:09:24Z'
+type: item
+id: Q26267974
+labels:
+  en:
+    language: en
+    value: Yuku
+aliases:
+  en:
+  - language: en
+    value: Yucu
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1c41b2ea8a3f6d3fab77c103d826ae5ead7a9c01
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1978718
+          id: Q1978718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q26267974$07f66b91-4566-87ec-9018-98fe98370d2d
+    rank: normal
+    references:
+    - hash: 860836ba303307164f0cdc78ca95520aa74c907d
+      snaks:
+        P212:
+        - snaktype: value
+          property: P212
+          hash: ac32252a4526158568f021bc68463c7b06420efe
+          datavalue:
+            value: '9783990030028'
+            type: string
+          datatype: external-id
+      snaks-order:
+      - P212
+    - hash: 866b17478315ab619c2cd8ecd8333545f20b53b7
+      snaks:
+        P212:
+        - snaktype: value
+          property: P212
+          hash: 5e1b7107f36dc0424528eed971edf8e92ab50b99
+          datavalue:
+            value: '9783343005000'
+            type: string
+          datatype: external-id
+      snaks-order:
+      - P212
+  P2596:
+  - mainsnak:
+      snaktype: value
+      property: P2596
+      hash: 53f0d4ab8e5ccf5df6fd81494ba0ce553f43a57e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 28573
+          id: Q28573
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q26267974$671AB16F-0E04-4F8E-AD61-AC276360ED10
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 0bb41f5af456e41f8eaf02b1f3b51ed2e9cd8e93
+      datavalue:
+        value:
+          amount: "+0.13"
+          unit: http://www.wikidata.org/entity/Q11573
+          upperBound: "+0.14"
+          lowerBound: "+0.12"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q26267974$646f29c1-4c63-9a13-9077-7a200e08b0bc
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 4354e3cc033f2c5371e447e5ab1cca8b89ffa3e0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 36253
+          id: Q36253
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q26267974$2215B8A1-9BBD-48E0-A050-D231971709CF
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Yuku
+    badges: []

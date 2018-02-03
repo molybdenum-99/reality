@@ -1,0 +1,73 @@
+---
+pageid: 4911888
+ns: 0
+title: Q5139324
+lastrevid: 584844897
+modified: '2017-10-27T07:57:28Z'
+type: item
+id: Q5139324
+labels:
+  en:
+    language: en
+    value: Cochinchina Piastre
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q5139324$149E4406-BA45-433A-8D75-EE4EAA336476
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 7e1f70ddf671e90c879fe2bc73e779adbaed0281
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 505503
+          id: Q505503
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q5139324$CADBB9DF-86A5-46B8-BD74-453800B31F1F
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Cochinchina piastre
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Cochin-Chinese piastre
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Кохинхинский пиастр
+    badges: []

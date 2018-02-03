@@ -1,0 +1,317 @@
+---
+pageid: 207702
+ns: 0
+title: Q212120
+lastrevid: 622519117
+modified: '2018-01-22T09:07:42Z'
+type: item
+id: Q212120
+labels:
+  en:
+    language: en
+    value: ampere-hour
+aliases:
+  en:
+  - language: en
+    value: amp hour
+  - language: en
+    value: ampere hour
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 149d7e4dc307336dad8a7236e4f65e6865f75428
+      datavalue:
+        value: Ah
+        type: string
+      datatype: string
+    type: statement
+    id: q212120$546363c9-451d-b3a9-4350-08311cccdccb
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 464fcf311f4bb4fe3de67dc5401e639ef6bc0102
+      datavalue:
+        value: "/m/0bshjk"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q212120$5442A35F-B86B-4F19-8520-68F26DC4FDF2
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: f5618048d5b2c92980d3f7a036673bf7434a34fb
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1111
+          id: Q1111
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q212120$e0bb682f-4b17-ea57-ea49-abc030a0f07d
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 9a52c6db0581532a7b4be57dec5957d4db87c992
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 16604158
+          id: Q16604158
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q212120$42608076-4938-0ea9-b171-4ffdc8e4a501
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 8fbfb2fc929f0d0392d532f2db6d7c90a464d9a6
+      datavalue:
+        value:
+          amount: "+3600"
+          unit: http://www.wikidata.org/entity/Q25406
+          upperBound: "+3600"
+          lowerBound: "+3600"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q212120$08b7cd7c-4858-3351-61e2-1b16f15fe380
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 0314d3ab89c46098c3f5004a6fb96db9674600b5
+      datavalue:
+        value: Ampere-hour
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q212120$23B6C216-A9A4-4FD6-9D11-FA78C20DA619
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 3f6384e4be1705254fc94aab4f24aa75c9c09690
+      datavalue:
+        value: AmpereHour
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q212120$f2bc80c6-4420-7182-fba4-c995a7991076
+    rank: normal
+  P4746:
+  - mainsnak:
+      snaktype: value
+      property: P4746
+      hash: cf6e9f68fe7ac09a941f7c65657e1b6f5bc8d25e
+      datavalue:
+        value: '132753'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q212120$233482F8-461F-4600-9971-2B223C1DEA91
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: أمبير-ساعة
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Ампэр-гадзіна
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Ампер-гадзіна
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Ампер-час
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Ampere-hora
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Ampérhodina
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Amperestunde
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Αμπερώριο
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Ampere hour
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Amperio-hora
+    badges: []
+  fawiki:
+    site: fawiki
+    title: آمپر ساعت
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Ampeeritunti
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Ampère-heure
+    badges: []
+  hewiki:
+    site: hewiki
+    title: אמפר-שעה
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: ऐम्पियर घंटा
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Amperóra
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Ամպեր-ժամ
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Amperstund
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Ampere-ora
+    badges: []
+  jawiki:
+    site: jawiki
+    title: アンペア時
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Ампер-сағат
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 암페어시
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Ampervalandė
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Ampère-uur
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Amperetime
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Amperetime
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Amperogodzina
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Ampère-hora
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Amper oră
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Ампер-час
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Ampérhodina
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Amperetimme
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Amper-saat
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Ампер-година
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Ampe giờ
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 安培小時
+    badges: []

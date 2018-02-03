@@ -1,0 +1,354 @@
+---
+pageid: 171672
+ns: 0
+title: Q171503
+lastrevid: 617985613
+modified: '2018-01-09T09:56:06Z'
+type: item
+id: Q171503
+labels:
+  en:
+    language: en
+    value: Eritrean nakfa
+aliases:
+  en:
+  - language: en
+    value: Nakfa
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q171503$C1598F4B-F00F-4AD5-A187-618F422F5063
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: b375713eff30f204a9f0a64d7b4842852b62a99b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 806163
+          id: Q806163
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q171503$E7FDEAD8-AC4E-4DEA-91C2-42EAACFE938E
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: ab495da64b5725dd5bbfa2e10e6b17a07473524b
+      datavalue:
+        value: "/m/05jpt9"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q171503$A9E0620B-D6A9-4205-B47C-475CBDAE2E5B
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 572e192bdb84615cd1865111155b9f5cd056e2dd
+      datavalue:
+        value: ERN
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q171503$ce4dace2-4692-d8fb-f16c-aa6b82db817f
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: f506974cc37b8ea122942edb3680fb489aff2167
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 986
+          id: Q986
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q171503$41d0b5c5-494f-18ec-0ef7-338ad1762614
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 2982208a5987867e0bfa5c34c662f14c8fc91fe2
+      datavalue:
+        value: Eritrean nakfa
+        type: string
+      datatype: string
+    type: statement
+    id: Q171503$e8d29c9e-46ac-1973-a759-1ed1d2da6331
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 1f962cfa34644d4858943607d8faae7c8cebae58
+      datavalue:
+        value: Eritrean-Nakfa
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q171503$1BAE4E4B-50FE-4D73-A0C1-EF6AC9ACFF14
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: a5d3ffa38449ce68043d05e171d648a16369bbb8
+      datavalue:
+        value: '500161'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q171503$A5137639-D888-4B83-87DC-C8853C78DA38
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: ناكفا
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Eritreya nakfası
+    badges: []
+  bat_smgwiki:
+    site: bat_smgwiki
+    title: Nakfa
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Эрытрэйская накфа
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Эрытрэйская накфа
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: ইরিত্রিয়ান নাকফা
+    badges: []
+  brwiki:
+    site: brwiki
+    title: Nakfa
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Nakfa
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Eritrejská nakfa
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Nakfa
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Eritreischer Nakfa
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Νάκφα
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Eritrean nakfa
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Eritrea nakfo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Nakfa
+    badges: []
+  fawiki:
+    site: fawiki
+    title: ناکفای اریتره
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Eritrean nakfa
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Nakfa érythréen
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Nakfa
+    badges: []
+  hewiki:
+    site: hewiki
+    title: נאקפה
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Eritrejska nakfa
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Eritreai nakfa
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Nakfa Eritrea
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Nacfa eritreo
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ナクファ
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 에리트레아 낙파
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Nakfa
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: इरिट्रियन नाक्फा
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Eritrese nakfa
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Nakfa
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Eritreisk nakfa
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Nakfa (waluta)
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Nakfa
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Эритрейская накфа
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Eritrejska nakfa
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Еритрејска накфа
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Nakfa
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Eritre nakfası
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Еритрейська накфа
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Nakfa
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Eritrea nakfa
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 厄立特里亚纳克法
+    badges: []

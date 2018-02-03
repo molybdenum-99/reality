@@ -1,0 +1,549 @@
+---
+pageid: 209778
+ns: 0
+title: Q214393
+lastrevid: 617888366
+modified: '2018-01-08T22:58:47Z'
+type: item
+id: Q214393
+labels:
+  en:
+    language: en
+    value: CFP Franc
+aliases: {}
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: c3d2db066cf140318bf5abe946830829e8f089f8
+      datavalue:
+        value: Money of French overseas territories
+        type: string
+      datatype: string
+    type: statement
+    id: q214393$9140C546-5EC1-4EC3-B9F9-5BFFC10F0DE2
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 81e284d5028c5d45842457dc52ce55a8030c1234
+      datavalue:
+        value: XPF
+        type: string
+      datatype: external-id
+    type: statement
+    id: q214393$2de26909-4229-701d-a223-79e43f70ee42
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: c665360b5ad40a6e5395344ea2252d3d6d5b5ab0
+      datavalue:
+        value: 20 F Pacifique - Nouvelle Caledonie.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: q214393$58761AD9-9EB6-4D21-87B7-DAD46462EE93
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 824852d70ef201c3902bffa8c49096dc49efa65c
+      datavalue:
+        value: 10000 Francs Pacifique.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: q214393$038AF09B-6495-44FE-8B5E-9EDA692D51C4
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 11b4ca08a3da7a2e5b530be46b39725c8ae53e85
+      datavalue:
+        value: 1000-francs-cfp.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: q214393$F9E65EE7-A255-4156-8671-DBCE4808F371
+    rank: normal
+  P242:
+  - mainsnak:
+      snaktype: value
+      property: P242
+      hash: 9d27609e0e255060bb0577b1612145dabd5bbd79
+      datavalue:
+        value: France doutre-mer fr.png
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: q214393$1DCC3727-37F3-4DFD-96C0-39E0193026F3
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 357d4896ab7398e41ca3092953faacb882b6a828
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3151944
+          id: Q3151944
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q214393$6A559F98-B9E6-43D7-A2D1-AC549ED78541
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q214393$EE009C2F-ED6C-4DE0-A005-61886F9C33E7
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 9e093e499dae9d396e2c3bfbc1bd25416859caff
+      datavalue:
+        value: "/m/01qyjx"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q214393$76E4D07E-FACF-4AE9-80E7-82FA2E9F2FA1
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2284:
+  - mainsnak:
+      snaktype: value
+      property: P2284
+      hash: eafd251f3f821bdb7e0a35e73cd9af048b99b83c
+      datavalue:
+        value:
+          amount: "+2.4"
+          unit: http://www.wikidata.org/entity/Q184172
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P580:
+      - snaktype: value
+        property: P580
+        hash: 44d44fc3efa8eec85a402f357b8fc36deacfe271
+        datavalue:
+          value:
+            time: "+1945-12-26T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      P582:
+      - snaktype: value
+        property: P582
+        hash: d9275ab5d60f945915bbe4f6b133804e42b26a32
+        datavalue:
+          value:
+            time: "+1948-12-16T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P580
+    - P582
+    id: Q214393$bbd306a9-49f7-8076-640a-d61a43d7044c
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2284
+      hash: 9235e58765b0e60f76caa142718ffc074daed3db
+      datavalue:
+        value:
+          amount: "+5.5"
+          unit: http://www.wikidata.org/entity/Q184172
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P580:
+      - snaktype: value
+        property: P580
+        hash: 1a1611e0a4f5e99527090a200555830b4f1ad2ad
+        datavalue:
+          value:
+            time: "+1948-12-17T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      P582:
+      - snaktype: value
+        property: P582
+        hash: 207732f9903a52d54c9f14f9b6ed15c94e269a88
+        datavalue:
+          value:
+            time: "+1958-12-31T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P580
+    - P582
+    id: Q214393$f2debdc9-4792-575f-1f04-6ea3071d15b6
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2284
+      hash: 2dbd5b3340fc53395f82717709b5aa1749347e78
+      datavalue:
+        value:
+          amount: "+0.055"
+          unit: http://www.wikidata.org/entity/Q184172
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P580:
+      - snaktype: value
+        property: P580
+        hash: 0bcab90d023c7406e8309ce90b721f386afacef7
+        datavalue:
+          value:
+            time: "+1959-01-01T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      P582:
+      - snaktype: value
+        property: P582
+        hash: 1f5d86d2939740f20dbb43cb8accdbe683a625b1
+        datavalue:
+          value:
+            time: "+1998-12-31T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P580
+    - P582
+    id: Q214393$c11046a2-40a8-99ed-230d-64299236fce0
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2284
+      hash: ae12ee2ef462b59cc550e09876159dc2e6324183
+      datavalue:
+        value:
+          amount: "+0.00838"
+          unit: http://www.wikidata.org/entity/Q4916
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P580:
+      - snaktype: value
+        property: P580
+        hash: 95b5f8757e8297bbca8f42b215a79ac44f5bac0a
+        datavalue:
+          value:
+            time: "+1999-01-01T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      P582:
+      - snaktype: novalue
+        property: P582
+        hash: f148a727ee614bf2862cfc5c4730f50936c281de
+        datatype: time
+    qualifiers-order:
+    - P580
+    - P582
+    id: Q214393$1ca98825-4dbd-b4f6-bdef-78d39ab721b7
+    rank: preferred
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: c05db5d169c2560b9799d567a803d20a392f53e4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 142
+          id: Q142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q214393$1326c81f-4632-f63e-d55f-bd7dc812c0dd
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: ee59135710cb6df5a07e4b63df9df261e2f33732
+      datavalue:
+        value: F
+        type: string
+      datatype: string
+    type: statement
+    id: Q214393$0d8b5c9e-4dca-6f35-a00d-fd9da45c2f2a
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: be2d197644428addef14beedcfd745791c01afaf
+      datavalue:
+        value: CFPFranc
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q214393$6e2133cf-453e-a08a-fca2-6bce231c0f3a
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: cb609d0010b8dc6d8bc9fea617379bcc55fdb328
+      datavalue:
+        value: '500166'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q214393$42D91367-4B50-4622-BE96-DA6D82E71889
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: فرنك س ف ب
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Francu CFP
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Французскі ціхаакіянскі франк
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Franc CFP
+    badges: []
+  cswiki:
+    site: cswiki
+    title: CFP frank
+    badges: []
+  dawiki:
+    site: dawiki
+    title: CFP-franc
+    badges: []
+  dewiki:
+    site: dewiki
+    title: CFP-Franc
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Φράγκο CFP
+    badges: []
+  enwiki:
+    site: enwiki
+    title: CFP franc
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Pacifika franko
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Franco CFP
+    badges: []
+  euwiki:
+    site: euwiki
+    title: CFP libera
+    badges: []
+  fawiki:
+    site: fawiki
+    title: فرانک اقیانوسیه
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: CFP-frangi
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Franc Pacifique
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Franco CFP
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: सीएफपी फ्रेंक
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: CFP franak
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Csendes-óceáni valutaközösségi frank
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Franc CFP
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Franco CFP
+    badges: []
+  jawiki:
+    site: jawiki
+    title: CFPフラン
+    badges: []
+  kowiki:
+    site: kowiki
+    title: CFP 프랑
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: CFP frankas
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: CFP-frank
+    badges: []
+  nowiki:
+    site: nowiki
+    title: CFP-franc
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Frank CFP
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Franco CFP
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Franc CFP
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Тихоокеанский франк
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: CFP Franc
+    badges: []
+  skwiki:
+    site: skwiki
+    title: CFP frank
+    badges: []
+  svwiki:
+    site: svwiki
+    title: CFP-franc
+    badges: []
+  trwiki:
+    site: trwiki
+    title: CFP frangı
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Французький тихоокеанський франк
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Franki CFP
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: CFP franc
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 太平洋法郎
+    badges: []

@@ -1,0 +1,372 @@
+---
+pageid: 164485
+ns: 0
+title: Q163712
+lastrevid: 618755284
+modified: '2018-01-11T09:53:47Z'
+type: item
+id: Q163712
+labels:
+  en:
+    language: en
+    value: Malaysian ringgit
+aliases:
+  en:
+  - language: en
+    value: RM
+  - language: en
+    value: Ringgit Malaysia
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: b73c72c5096d13be9cb2debe688001093cb84af6
+      datavalue:
+        value: Money of Malaysia
+        type: string
+      datatype: string
+    type: statement
+    id: q163712$7DEF207D-DCDB-4307-877B-FBA4F8CA3F35
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q163712$1B4FF244-E36C-4D7E-A947-F5217516610C
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 1dc870a3fc237999ca3a1ead4a2095c837f8a7d4
+      datavalue:
+        value: MYR
+        type: string
+      datatype: external-id
+    type: statement
+    id: q163712$e7a191a7-4b4c-c100-d896-3c27678f9321
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: b86637bb8523ec298f0230d2760e2d5188e1c76c
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 806646
+          id: Q806646
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q163712$9FD9D6E8-176F-4C88-878D-C8BC76A1217C
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 8193c9592bdfa670059a71f93bb2a42691790f17
+      datavalue:
+        value: "/m/01_c9q"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q163712$44A082B4-6D10-4F00-A5EC-9685B673D69A
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 975d028a40c8e1efe41fe87c14ed0f872688608e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 833
+          id: Q833
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q163712$f3166107-4f86-bebb-671f-e0ed118d0024
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 73e0579c9ee1856904ca5f50b4c28a5456351b21
+      datavalue:
+        value: Malaysian-Ringgit
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q163712$7136A580-4E65-4DA1-A2DE-C7B329745A56
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 0c975611c9ec2df7b2173d5e02f68c12ada9a93d
+      datavalue:
+        value: '500207'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q163712$646C7009-9B8D-47C2-AA18-81C3F6F16B93
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Ringgit
+    badges: []
+  arwiki:
+    site: arwiki
+    title: رينغيت ماليزي
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Рынгіт
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: মালয়েশিয়ান রিংগ্রিট
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Malezijski ringit
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Ringgit
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Malajsijský ringgit
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Ringgit
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Malaysian ringgit
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Malajzia ringito
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Ringgit
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Ringgit
+    badges: []
+  fawiki:
+    site: fawiki
+    title: رینگیت
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Malesian ringgit
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Ringgit
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: मलेशियाई रिंग्गित
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Maláj ringgit
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Ringgit
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Ringgit malese
+    badges: []
+  jawiki:
+    site: jawiki
+    title: リンギット
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 말레이시아 링깃
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Малайзияса ринггит
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Malaizijos ringitas
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: റിങ്കിറ്റ്
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: मलेशियन रिंगिट
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Ringgit Malaysia
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Maleisische ringgit
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Ringgit
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਮਲੇਸ਼ੀਆਈ ਰਿਙਿਤ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Ringgit
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Ringgit malaio
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Ringgit
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Малайзийский ринггит
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Малезијски рингит
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Ringgit
+    badges: []
+  tawiki:
+    site: tawiki
+    title: மலேசிய ரிங்கிட்
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Рингити Малазия
+    badges: []
+  thwiki:
+    site: thwiki
+    title: ริงกิต
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Ringgit ng Malaysia
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Ringgit
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Малайзійський рингіт
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Ringgit
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: მალაიზიური რინგიტი
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Ringgit
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Má-lâi-se-a ringgit
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 馬來西亞令吉
+    badges: []

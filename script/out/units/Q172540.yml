@@ -1,0 +1,486 @@
+---
+pageid: 172636
+ns: 0
+title: Q172540
+lastrevid: 617888059
+modified: '2018-01-08T22:57:46Z'
+type: item
+id: Q172540
+labels:
+  en:
+    language: en
+    value: Bulgarian lev
+aliases:
+  en:
+  - language: en
+    value: Lev
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q172540$DD423E39-1360-4D39-BD73-421CEC054414
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 175b053a6caf46f220df503299c5f313731eeaad
+      datavalue:
+        value: Money of Bulgaria
+        type: string
+      datatype: string
+    type: statement
+    id: q172540$C3F16511-8907-428E-82B7-D33039B1659C
+    rank: normal
+    references:
+    - hash: c456dc5cd2117249948c288206ff3f8b1bf574f0
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e17507043402fe54ae6c4d65cc51f46cec987de9
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 8449
+              id: Q8449
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 0e76b39bb422d334f57ba58554c508edeffa8458
+      datavalue:
+        value: BGN
+        type: string
+      datatype: external-id
+    type: statement
+    id: q172540$be4b814c-4a20-b1cf-c220-98c5e6f1f6a8
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 423220d9646ca0f0fc16fa1c11f99e0fbbd8b353
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 74687
+          id: Q74687
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q172540$146D03D8-4ACB-42C6-8B54-A9F29E153A6D
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 9ac9411445a4489d011f680b11c0963503225fa5
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 219
+          id: Q219
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q172540$08908433-D5D0-438E-A4B1-9B0946561F1E
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 2abb566d2c5bd3f1466a8b510f743c221e89f950
+      datavalue:
+        value: "/m/01nmfw"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q172540$B20E3A34-BCA8-445E-AD77-5B8FB0CCC418
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 966a372a6f0f3a02d87de566fd48fea8f5c6eae5
+      datavalue:
+        value: лв
+        type: string
+      datatype: string
+    type: statement
+    id: Q172540$d636d713-4a4c-0677-c554-87632e5dc123
+    rank: normal
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 74116aa216538c78dff7f26c2ee5f4526d44a448
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1167626
+          id: Q1167626
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q172540$d564b78f-4f6a-9474-5b99-c4b4fb9cc05f
+    rank: normal
+    references:
+    - hash: 2c63d446d2ac4564862b97bbef227755a75af177
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: bc2cbe4847e45705d74d6bc855c9e26383eaf863
+          datavalue:
+            value: http://www.istorie-pe-scurt.ro/istoria-leului-de-unde-vine-denumirea-de-leu/
+            type: string
+          datatype: url
+      snaks-order:
+      - P854
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 0da37a62a8b4dbda2e72956b04118f4d12b9bc44
+      datavalue:
+        value: BulgarianLev
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q172540$d85b024e-4eda-86a0-7186-bde9a3b48fcf
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 46a6e4e9ca63e62e8e4dedb79011fef38047e0ae
+      datavalue:
+        value: Bulharské leva,bankovka 5 leva.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q172540$F35FC877-FF94-44F5-B242-32CA5B67FB12
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 80cb464942b6f54804d6fdb8193b10ca98f5d34c
+      datavalue:
+        value: '500136'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q172540$E24D616F-9AF9-493A-B67B-F8284251173D
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: ليف بلغاري
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Bolqar levi
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Баўгарскі леў
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Леў (валюта)
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Български лев
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: বুলগেরিয়ান লেভ
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Bugarski lev
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Lev
+    badges: []
+  commonswiki:
+    site: commonswiki
+    title: Category:Banknotes of Bulgaria
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Bulharský lev
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Bulgarske leva
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Lew (Währung)
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Λεβ
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Bulgarian lev
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Bulgara levo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Lev (moneda)
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Leev
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Bulgariar lev
+    badges: []
+  fawiki:
+    site: fawiki
+    title: لو بلغارستان
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Bulgarian leva
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Lev bulgare
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Lev búlgaro
+    badges: []
+  hewiki:
+    site: hewiki
+    title: לב (מטבע)
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: लेव
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Bugarski lev
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Bolgár leva
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Բուլղարական լև
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Lev Bulgaria
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Búlgarskt lef
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Lev bulgaro
+    badges: []
+  jawiki:
+    site: jawiki
+    title: レフ
+    badges: []
+  jvwiki:
+    site: jvwiki
+    title: Lev Bulgaria
+    badges: []
+  kawiki:
+    site: kawiki
+    title: ბულგარული ლევი
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 불가리아 레프
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Болгарияса лев
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Bulgarijos levas
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Бугарски лев
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: बल्गेरियन लेव्ह
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Lev Bulgaria
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Bulgaarse lev
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Bulgarsk lev
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Lev
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਬੁਲਗਾਰੀਆਈ ਲੇਵ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Lew (jednostka monetarna)
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Lev búlgaro
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Leva
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Болгарский лев
+    badges: []
+  sahwiki:
+    site: sahwiki
+    title: Болгария лэва
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Bugarski lev
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Bulharský lev
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Бугарски лев
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Lev (valuta)
+    badges: []
+  tawiki:
+    site: tawiki
+    title: பல்கேரிய லெவ்
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Леви Булғористон
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Lev
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Болгарський лев
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Lev
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: ბულგარული ლევი
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Lev Bùlgáríà
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Bulgaria lev
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 保加利亞列弗
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 保加利亞列弗
+    badges: []

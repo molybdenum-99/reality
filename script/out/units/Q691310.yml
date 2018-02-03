@@ -1,0 +1,126 @@
+---
+pageid: 651278
+ns: 0
+title: Q691310
+lastrevid: 594593935
+modified: '2017-11-15T16:01:53Z'
+type: item
+id: Q691310
+labels:
+  en:
+    language: en
+    value: Mesh
+aliases: {}
+claims:
+  P111:
+  - mainsnak:
+      snaktype: somevalue
+      property: P111
+      hash: 2ff8fea96a7563eb253b3822e1d7c89663654aba
+      datatype: wikibase-item
+    type: statement
+    id: Q691310$2974e954-40f9-7824-0889-83d615112fd2
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: dc8dc9dd6c9c4fa2d5310ab6c77abd52ce503f0f
+      datavalue:
+        value: "/m/0cv216"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q691310$D0479E98-3358-427C-A517-5270412F2F51
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q691310$80f3ce09-46ab-6eaa-5f65-2a3418019149
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: مقياس الشبكة
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Mesh (Einheit)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Mesh (scale)
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Mesh (mesure)
+    badges: []
+  hewiki:
+    site: hewiki
+    title: מש (מידת צפיפות)
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Mesh (unità di misura)
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 메시 (단위)
+    badges: []
+  lbwiki:
+    site: lbwiki
+    title: Mesh
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Mesh (analiza sitowa)
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Меш
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 筛目
+    badges: []

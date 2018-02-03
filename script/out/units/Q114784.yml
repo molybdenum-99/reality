@@ -1,0 +1,118 @@
+---
+pageid: 117361
+ns: 0
+title: Q114784
+lastrevid: 491620706
+modified: '2017-05-28T20:06:13Z'
+type: item
+id: Q114784
+labels:
+  en:
+    language: en
+    value: French Guianan franc
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: e5754f456c6d0f69cc645418913f5072aa460ac3
+      datavalue:
+        value: "/m/02vm62x"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q114784$EDA6D61D-C06D-4EA9-85AF-1D98785DBD76
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q114784$06CD1F5D-D24E-4863-888F-7ADB78B5F600
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 07b10d6d7669a91b7be0ac77e6809d97becb33c8
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1403377
+          id: Q1403377
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q114784$e7160dc7-45c6-127c-e3c8-c642c0f61a2d
+    rank: normal
+  P1001:
+  - mainsnak:
+      snaktype: value
+      property: P1001
+      hash: bad92e5af821ff8ba529bf1ab9c151a7bf6aef84
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3769
+          id: Q3769
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q114784$1d1b231a-4357-2491-bb8b-0221688c5e90
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: French Guianan franc
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Franco francoguayanés
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Franco della Guyana francese
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Гвианский франк
+    badges: []

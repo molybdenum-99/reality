@@ -1,0 +1,117 @@
+---
+pageid: 7221115
+ns: 0
+title: Q7315478
+lastrevid: 479019867
+modified: '2017-04-26T04:23:59Z'
+type: item
+id: Q7315478
+labels:
+  en:
+    language: en
+    value: Kibi-
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: fe4251e8ce417e4fb8898fa6a97b88a531d71ce2
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 6583973
+          id: Q6583973
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q7315478$869d0e32-40a9-3fe5-2de5-68c58c86e87b
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: e8ca8f24439c8cf529cce60ad30a04ed129c1cfe
+      datavalue:
+        value: Ki
+        type: string
+      datatype: string
+    type: statement
+    id: Q7315478$ace4b367-4f6b-1dd3-5401-15004b758ae4
+    rank: normal
+    references:
+    - hash: 5fe1039858667ad40e3911367de1d0a0cac48c8e
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 0e73b9396411d565bdd95a9c668d5a209a8197d0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 193858
+              id: Q193858
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 704690b72e2b527a650554f901f5cf0aee8fd416
+      datavalue:
+        value: Ки
+        type: string
+      datatype: string
+    type: statement
+    id: Q7315478$013cea87-4e36-455b-4a02-0e18c7c7a8f9
+    rank: normal
+    references:
+    - hash: 5fe1039858667ad40e3911367de1d0a0cac48c8e
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 0e73b9396411d565bdd95a9c668d5a209a8197d0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 193858
+              id: Q193858
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P3222:
+  - mainsnak:
+      snaktype: value
+      property: P3222
+      hash: 753b1cbf197563cf5e50a0868120eeb1be1696a7
+      datavalue:
+        value: kibi-
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q7315478$FB937708-F40B-4F37-9BCE-4B80F031306A
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 14efe63bc9611a1ca9dab2c62b21eae32aa3ff19
+      datavalue:
+        value: kibi
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q7315478$CD24F05C-75DA-4011-B180-3607C9A46EAA
+    rank: normal
+sitelinks:
+  bgwiki:
+    site: bgwiki
+    title: Киби-
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Kibi
+    badges: []

@@ -1,0 +1,131 @@
+---
+pageid: 997993
+ns: 0
+title: Q1048969
+lastrevid: 619165918
+modified: '2018-01-12T07:23:02Z'
+type: item
+id: Q1048969
+labels:
+  en:
+    language: en
+    value: Cologne mark
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: d7cc4bdb1b11721434614c164d506e78ac71ca38
+      datavalue:
+        value: "/m/08fc8y"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1048969$B0630BD3-9EAD-49FE-8A23-D784E48C5953
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 954edbd3fef27ce6396c0878a95c608ca4ed84af
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3647172
+          id: Q3647172
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1048969$7c758a72-4ecb-5f00-5ac3-7ad21b8227d7
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: cb16e706a2973b431342bd35b62ca191ef612509
+      datavalue:
+        value:
+          amount: "+0.233856"
+          unit: http://www.wikidata.org/entity/Q11570
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1048969$09066e42-403f-a793-63ff-966f59fb33db
+    rank: normal
+sitelinks:
+  cswiki:
+    site: cswiki
+    title: Kolínská marka
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Cologne mark
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Kölni mark
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Kölni márka
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Marco di Colonia
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Kelno markė
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Mark Cologne
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Mark kølnsk
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Marka kolońska
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Кёльнская марка
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Кельнська марка
+    badges: []

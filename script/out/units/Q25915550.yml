@@ -1,0 +1,237 @@
+---
+pageid: 27868542
+ns: 0
+title: Q25915550
+lastrevid: 537539663
+modified: '2017-08-14T08:09:21Z'
+type: item
+id: Q25915550
+labels:
+  en:
+    language: en
+    value: pechys ephtymetrikos
+aliases:
+  en:
+  - language: en
+    value: pechys
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1c41b2ea8a3f6d3fab77c103d826ae5ead7a9c01
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1978718
+          id: Q1978718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q25915550$827d0b1b-4ea0-4799-fec6-3913c40e8742
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 8d75fa5d12c9f32ffc85f2a1a5e77c5160f66ae1
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 607056
+          id: Q607056
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q25915550$eb14dd65-4050-1097-7c0e-721c356dfe0b
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 861d0c9fe54d00227f43e393ae6875bb4cea6ef1
+      datavalue:
+        value:
+          amount: "+24"
+          unit: http://www.wikidata.org/entity/Q25906460
+          upperBound: "+24"
+          lowerBound: "+24"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q25915550$8571a951-40c8-2d32-1560-3bfdfeed8d38
+    rank: normal
+    references:
+    - hash: d17a3150534a4571fc89d2d0e15af38ee394b067
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 4b566941aa961aabf1295e4f2035f3aec8e534a5
+          datavalue:
+            value: http://www.hellenicaworld.com/Greece/Technology/en/Measurements.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: e44064de70fa6bf638492bc0fc1df9da1b2795af
+          datavalue:
+            value:
+              time: "+2016-07-16T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: 4c775b9826b30bebeeea71f9d67e01fe02f18755
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1230524
+          id: Q1230524
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q25915550$10c045e5-4c65-0d8b-d185-51298e3e9201
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: fc58587c275212a11ae8ab962b855824565a5725
+      datavalue:
+        value:
+          amount: "+0.4436"
+          unit: http://www.wikidata.org/entity/Q11573
+          upperBound: "+0.4436"
+          lowerBound: "+0.4436"
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P3005:
+      - snaktype: value
+        property: P3005
+        hash: 0205a66ade25db0cae84246204787030599ac2ea
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 122443
+            id: Q122443
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P3005
+    id: Q25915550$21c55eb6-47e9-cfcc-6e5a-390aa249a69f
+    rank: normal
+    references:
+    - hash: 01257cc4bb0581d62f1e093e0d43569c4bf0c11a
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: d86f121e9d5a78f78240e05ebfbb23fc9504c83d
+          datavalue:
+            value: http://www.livius.org/w/weights/weights3.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 36f59655119361d5285c63aaaf44f139df5dc324
+          datavalue:
+            value:
+              time: "+2016-07-26T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 2ea19077d87302049e09b0731f9494b57a86c008
+      datavalue:
+        value:
+          amount: "+0.4808"
+          unit: http://www.wikidata.org/entity/Q11573
+          upperBound: "+0.4808"
+          lowerBound: "+0.4808"
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P3005:
+      - snaktype: value
+        property: P3005
+        hash: 64dd46f3829a55bb1ae3582181a2e4cfa7a8aa89
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 38888
+            id: Q38888
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P3005
+    id: Q25915550$d5ffcc3c-40df-43a3-e8a9-62a116fe3d8a
+    rank: normal
+    references:
+    - hash: 01257cc4bb0581d62f1e093e0d43569c4bf0c11a
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: d86f121e9d5a78f78240e05ebfbb23fc9504c83d
+          datavalue:
+            value: http://www.livius.org/w/weights/weights3.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 36f59655119361d5285c63aaaf44f139df5dc324
+          datavalue:
+            value:
+              time: "+2016-07-26T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 4354e3cc033f2c5371e447e5ab1cca8b89ffa3e0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 36253
+          id: Q36253
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q25915550$BE0E1583-924A-4BFD-AA18-0649CE6AA1C8
+    rank: normal
+sitelinks: {}

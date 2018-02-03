@@ -1,0 +1,415 @@
+---
+pageid: 791761
+ns: 0
+title: Q839449
+lastrevid: 616366157
+modified: '2018-01-04T02:26:46Z'
+type: item
+id: Q839449
+labels:
+  en:
+    language: en
+    value: Delisle scale
+aliases:
+  en:
+  - language: en
+    value: Delisle
+  - language: en
+    value: "°De"
+claims:
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 7a04a4292c768a5e9704f8941a877241d50777d9
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 431485
+          id: Q431485
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q839449$7A6D15B5-D0ED-4447-BF45-2AB6CD7B06BD
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 5774bada555a6041b0c7885263cb032464e4f5b0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2394680
+          id: Q2394680
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q839449$e91111b4-4711-210f-809d-1bae357c55bc
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: c7b2b721cc1c15affd7b2498288c711bd805c5e4
+      datavalue:
+        value: "°D"
+        type: string
+      datatype: string
+    type: statement
+    id: Q839449$aea453f2-4768-d430-652d-ad8c44998be1
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 2ed7fb1eaac802a974e8af87602d7985aa6866a3
+      datavalue:
+        value: "/m/033x4l"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q839449$F71028A6-86C1-4534-8189-85532D030C26
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2370:
+  - mainsnak:
+      snaktype: somevalue
+      property: P2370
+      hash: 0f7ca06cd53ddbefbd474a4474e543045f1f7995
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P2916:
+      - snaktype: value
+        property: P2916
+        hash: 537f41c31e6cd3bbd450cf1bea27019242d5d407
+        datavalue:
+          value:
+            text: see sandbox string
+            language: en
+          type: monolingualtext
+        datatype: monolingualtext
+    qualifiers-order:
+    - P2916
+    id: Q839449$af90d5e1-42b0-e4ad-dd52-be535312a006
+    rank: normal
+  P370:
+  - mainsnak:
+      snaktype: value
+      property: P370
+      hash: 0dccb04096b7ade1296d7853a3abadba5f5232e6
+      datavalue:
+        value: "($1+100)/1.5"
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P1013:
+      - snaktype: value
+        property: P1013
+        hash: ef448b60a4bb3249160d268aea09ca8edb6b41ed
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 25267
+            id: Q25267
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P1013
+    id: Q839449$38de0121-44d6-6ad5-6b94-5248e93ed1bf
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P370
+      hash: a2d044930e1ffa3600d99764a9a6e1f7b7180245
+      datavalue:
+        value: "($1+100)*1.2+32"
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P1013:
+      - snaktype: value
+        property: P1013
+        hash: c4c7b2dcab0269156f78dea45183a361256fd9f7
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 42289
+            id: Q42289
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P1013
+    id: Q839449$bb3c1e3f-4088-a200-a5d9-0cf48d094311
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P370
+      hash: 9aca6066b4ad473a0eaff08cb7113c15fee5416b
+      datavalue:
+        value: "($1+100)/1.5+273.15"
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P1013:
+      - snaktype: value
+        property: P1013
+        hash: 979c2ceb82efc0d1e0fbdcff2b56e5ad97c3dba5
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 11579
+            id: Q11579
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P1013
+    id: Q839449$3229b59a-4825-a50d-cd74-3a1cf849cfd7
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P370
+      hash: 7c4a813761908fbbf7e2b4be542bb3e6f02bdaf5
+      datavalue:
+        value: "($1 + 100)* 1.2000 + 491.67"
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P1013:
+      - snaktype: value
+        property: P1013
+        hash: e65d49c8987511661b14d566a5e3226fc2576e1f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 207488
+            id: Q207488
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P1013
+    id: Q839449$9bd98556-471e-b5df-aa17-8483427b6e04
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P370
+      hash: e90b37cb5f2f7a2cc75b3ad84d6944fa74399cc2
+      datavalue:
+        value: "($1 + 100)* 0.22"
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P1013:
+      - snaktype: value
+        property: P1013
+        hash: 669116087baa4d66845be8481fb7a28408caaa4d
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 1133606
+            id: Q1133606
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P1013
+    id: Q839449$53544568-4db2-5ce6-8ac3-208fb943f209
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P370
+      hash: b4b4167dca7fa04b9aae1ee17936781f9b5ce11d
+      datavalue:
+        value: "($1 + 100)* 0.53333"
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P1013:
+      - snaktype: value
+        property: P1013
+        hash: 9d859a65740eeecd6eae7d027bebf5783bfe491a
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 223061
+            id: Q223061
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P1013
+    id: Q839449$4c2adf62-49c1-e35b-826c-3a3a55a36850
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P370
+      hash: b3525831d16197ee930adccf3f018890680b8abd
+      datavalue:
+        value: "($1 + 100)* 0.35000 + 7.50"
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P1013:
+      - snaktype: value
+        property: P1013
+        hash: 2a632e21cfb95e583e34a6d2b363c847851dc6f9
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 488013
+            id: Q488013
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P1013
+    id: Q839449$7c7f12cb-4b3a-65ae-f96f-ef457a097ed8
+    rank: normal
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Escala Delisle
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Delisle-Skala
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Delisle scale
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Escala Delisle
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Delisle gradu
+    badges: []
+  fawiki:
+    site: fawiki
+    title: مقیاس دلیزل
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Delisle-asteikko
+    badges: []
+  fowiki:
+    site: fowiki
+    title: Delislestigin
+    badges: []
+  frrwiki:
+    site: frrwiki
+    title: Delisle-Skala
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Échelle Delisle
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Delisleova ljestvica
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Delisle-skála
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Skala Delisle
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Scala Delisle
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ドリール度
+    badges: []
+  liwiki:
+    site: liwiki
+    title: Delisle (einheid)
+    badges: []
+  ndswiki:
+    site: ndswiki
+    title: Delisle-Skala
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Delisle (eenheid)
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Skala Delisle’a
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Grau Delisle
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Градус Делиля
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Delisleova ljestvica
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Delisle scale
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Делилова скала
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Delisleskalan
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Шкала Деліля
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Thang Delisle
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 德利尔温标
+    badges: []

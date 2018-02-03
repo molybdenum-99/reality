@@ -1,0 +1,117 @@
+---
+pageid: 1358873
+ns: 0
+title: Q1420185
+lastrevid: 623111602
+modified: '2018-01-24T21:41:51Z'
+type: item
+id: Q1420185
+labels:
+  en:
+    language: en
+    value: Poltina
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1420185$6BA2A730-1A2D-4326-9D6C-2D1BFB0EB72F
+    rank: normal
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 42346dfe9209b7359c1f5db829a368b38d407797
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 19180675
+          id: Q19180675
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P805:
+      - snaktype: value
+        property: P805
+        hash: a0b782a54bd4fb4f72eb3c7e5f92fe15c1052c6f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 24820944
+            id: Q24820944
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P805
+    id: Q1420185$c6626440-4dc7-f9f8-da0e-28d0686aa78f
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 88389772f86dcd7d415ddd029f601412e5cc894a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 602358
+          id: Q602358
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P805:
+      - snaktype: value
+        property: P805
+        hash: 9af2ce368e3343b7c5d9b437ff32bedd81b3a555
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 24488333
+            id: Q24488333
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P805
+    id: Q1420185$e32b95ae-4fca-0ff1-ff28-e7f18e798750
+    rank: normal
+  P3934:
+  - mainsnak:
+      snaktype: value
+      property: P3934
+      hash: 54e623e38869ec9341cb33bb8c65991b7fac6ee2
+      datavalue:
+        value:
+          amount: "+50"
+          unit: http://www.wikidata.org/entity/Q1415602
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1420185$9e1217c2-413f-a4df-45c4-57410038cc61
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Poltina
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Połtina
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Пятьдесят копеек
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Полтина
+    badges: []

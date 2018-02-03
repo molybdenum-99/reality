@@ -1,0 +1,306 @@
+---
+pageid: 244159
+ns: 0
+title: Q251545
+lastrevid: 624796931
+modified: '2018-01-30T15:13:27Z'
+type: item
+id: Q251545
+labels:
+  en:
+    language: en
+    value: jugerum
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 0f49769a073adbf1aea6d3645a68f24ad29dbeb6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1371562
+          id: Q1371562
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q251545$4aa0c6d0-44db-ad71-2bad-5fed8453965b
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 52afd5559217923531f59bd55edf87f344e02b43
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1161819
+          id: Q1161819
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q251545$8ee2cf5f-47a4-928e-8145-c3c64e8f6656
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 4262fea8dfab91875a9c94d804495db524796ef1
+      datavalue:
+        value:
+          amount: "+28800"
+          unit: http://www.wikidata.org/entity/Q25909396
+          upperBound: "+28800"
+          lowerBound: "+28800"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q251545$617a9af0-48cc-0134-24d0-8f82cc868dce
+    rank: normal
+    references:
+    - hash: 4eae6ea2fd6125aef50d985886e472930a3a16e1
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 2dec9667d599ba3e42a0e590a79ca231e658949b
+          datavalue:
+            value: http://homepage.usask.ca/~jrp638/CourseNotes/weightsmeasures.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: e44064de70fa6bf638492bc0fc1df9da1b2795af
+          datavalue:
+            value:
+              time: "+2016-07-16T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 3c4c5b14c66e8f7ebb85cb7afc75ab8e908d2130
+      datavalue:
+        value:
+          amount: "+2"
+          unit: http://www.wikidata.org/entity/Q25915415
+          upperBound: "+2"
+          lowerBound: "+2"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q251545$0e1e8424-472c-ccf5-1342-1c6915ab69a9
+    rank: normal
+    references:
+    - hash: 61342d089c7f10b34847e82b1cf2f66b5389d0ce
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: d86f121e9d5a78f78240e05ebfbb23fc9504c83d
+          datavalue:
+            value: http://www.livius.org/w/weights/weights3.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: a31b98af17fbec602005e55f91baed9ae5725776
+          datavalue:
+            value:
+              time: "+2016-08-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: e906f102b537994b7b873b4d2b67b5cfa2e4ca06
+      datavalue:
+        value:
+          amount: "+0.2518"
+          unit: http://www.wikidata.org/entity/Q35852
+          upperBound: "+0.2518"
+          lowerBound: "+0.2518"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q251545$6562cd2e-4af8-8f7e-3bef-a0f13e91d3cf
+    rank: normal
+    references:
+    - hash: 61342d089c7f10b34847e82b1cf2f66b5389d0ce
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: d86f121e9d5a78f78240e05ebfbb23fc9504c83d
+          datavalue:
+            value: http://www.livius.org/w/weights/weights3.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: a31b98af17fbec602005e55f91baed9ae5725776
+          datavalue:
+            value:
+              time: "+2016-08-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 5a67930b156820bae81fb8bb4b52d21af655a807
+      datavalue:
+        value:
+          amount: "+2518"
+          unit: http://www.wikidata.org/entity/Q25343
+          upperBound: "+2518"
+          lowerBound: "+2518"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q251545$5ba9606f-4195-14e0-0dc1-dcdb8b389095
+    rank: normal
+    references:
+    - hash: 61342d089c7f10b34847e82b1cf2f66b5389d0ce
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: d86f121e9d5a78f78240e05ebfbb23fc9504c83d
+          datavalue:
+            value: http://www.livius.org/w/weights/weights3.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: a31b98af17fbec602005e55f91baed9ae5725776
+          datavalue:
+            value:
+              time: "+2016-08-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: e12439f34cec95ee050daf4e503b6952b0e935f4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11500
+          id: Q11500
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q251545$C5DB02E3-3674-4791-B2C2-42CC9B95B001
+    rank: normal
+  P4746:
+  - mainsnak:
+      snaktype: value
+      property: P4746
+      hash: 1f36c7bae9b573f564bce681fceadd78653dc15f
+      datavalue:
+        value: '020612'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q251545$216A305F-BEAC-45C6-9A83-7DC3D780DF3F
+    rank: normal
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Jugera
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Jugerum
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Jugerum
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Yugada
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Golde lur
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Auranala
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Jugère
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Hold (mértékegység)
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Iugero
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Iugerum
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Iugerum
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Jugerum
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Iugăr
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Югер
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Югер
+    badges: []

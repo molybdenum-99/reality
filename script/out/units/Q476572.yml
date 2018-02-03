@@ -1,0 +1,291 @@
+---
+pageid: 449221
+ns: 0
+title: Q476572
+lastrevid: 616325147
+modified: '2018-01-04T00:17:16Z'
+type: item
+id: Q476572
+labels:
+  en:
+    language: en
+    value: hartree
+aliases:
+  en:
+  - language: en
+    value: Hartree energy
+claims:
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 89fbab776fc1a27935e14f3fc2eba83500eeb317
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 451770
+          id: Q451770
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q476572$AF4FB917-17B7-4E07-B0E9-6520C3ABA223
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1f64db08b05b0ff1f134e2100d6effbae258367f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 173227
+          id: Q173227
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q476572$137634D3-F3CC-4805-B9FF-B00AF05B85AE
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 06df6efe68f6e25b0d602229267e4d3e9ccc3d64
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2916980
+          id: Q2916980
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q476572$ca295c05-4a0e-447c-96b2-a84cc80e12ba
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 336e0ebe33e9391591bb38c4ce17bca1ccbf611b
+      datavalue:
+        value: "/m/017mjn"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q476572$6512541C-E4F5-4DD9-97FA-768F0F81B4FA
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P1645:
+  - mainsnak:
+      snaktype: value
+      property: P1645
+      hash: 30889551ce46953f405900b24e39f13a6b1822db
+      datavalue:
+        value: hr
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q476572$263be6e7-4754-b2da-ca60-ccf363caddd9
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: b92987d139794408a65b1c1086bf05cda1e4ea91
+      datavalue:
+        value:
+          amount: "+0.0000000000000000043597443400"
+          unit: http://www.wikidata.org/entity/Q25269
+          upperBound: "+0.0000000000000000043597443419"
+          lowerBound: "+0.0000000000000000043597443381"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q476572$1733a9e2-4187-86ab-a6b7-2e407780fc8b
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 89d6e71dee8f2fb2345ed8fdb6346d2963cc5141
+      datavalue:
+        value: Ha
+        type: string
+      datatype: string
+    type: statement
+    id: Q476572$444049ec-42a6-3865-5cc8-0504894304db
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 7ad0f8fc8c23eb3ede324fc816121895c19109c6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11379
+          id: Q11379
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q476572$bb792413-4e6c-dbb1-09c3-cfaa7f02bad1
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 9b74fa99d921f1de2e7282c8891436de5371086e
+      datavalue:
+        value: Hartree
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q476572$0ec1943c-49c2-074f-9fff-2d36810920a6
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 37fd00be98fe68c6b1b1e18acaa380d867aab4ce
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 757568
+          id: Q757568
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q476572$c6a05da3-4aec-de72-acb4-59989f9c7c9c
+    rank: normal
+  P2581:
+  - mainsnak:
+      snaktype: value
+      property: P2581
+      hash: 10c1929377231e70c91938b8115a9c066451d49b
+      datavalue:
+        value: '00989534n'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q476572$57D85F79-6AF3-4DC1-88CF-57EB0F589DFE
+    rank: normal
+    references:
+    - hash: bd0ee81488cd8c23d4b655e417aac78dca370283
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: a0b4f55dbedbadaf83e7d2461b47b7aeaba86359
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 4837690
+              id: Q4837690
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: هارتري
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Энергія Хартры
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Energia de Hartree
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Hartree-Energie
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Hartree
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Hartree
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Hartree
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Energia di Hartree
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ハートリー
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Hartree (eenheid)
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Energia Hartree’go
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Hartree
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Энергия Хартри
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Enirgia di Hartree
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Hartreejeva energija
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Hartree
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Гартрі
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Năng lượng Hartree
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 哈特里能量
+    badges: []

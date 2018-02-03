@@ -1,0 +1,350 @@
+---
+pageid: 190241
+ns: 0
+title: Q192027
+lastrevid: 617654654
+modified: '2018-01-08T08:56:23Z'
+type: item
+id: Q192027
+labels:
+  en:
+    language: en
+    value: baud
+aliases: {}
+claims:
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 3f341b8abaa0f4fafc28c9a937cb7e747600978f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 550192
+          id: Q550192
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q192027$dc5f7866-4bd4-8175-3910-08135cea1064
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 0c7adb5ce82cdfce07ce3fa6604599ca26687e66
+      datavalue:
+        value: "/m/0b49y"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q192027$871D5F36-CDD9-4ADF-B3E2-5E44E467C7C3
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1688184d930a605cf5818c9f3950a6e8f6dac92b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 21162604
+          id: Q21162604
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q192027$87569dcf-4cf3-fc79-d524-9b439830f8d1
+    rank: normal
+  P1482:
+  - mainsnak:
+      snaktype: value
+      property: P1482
+      hash: ddb3c06cdfa90cac554135b434af92d164005b85
+      datavalue:
+        value: https://stackoverflow.com/tags/baud-rate
+        type: string
+      datatype: url
+    type: statement
+    id: Q192027$0ED78567-930B-4651-A3CC-96F678BA01BA
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 3f1ed8dfe29fb73e8043d63e5bedd423d013a5fe
+      datavalue:
+        value: Bd
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q192027$5f331dc9-4dc8-e7a3-56b7-8c5c8f63d527
+    rank: normal
+  P2144:
+  - mainsnak:
+      snaktype: value
+      property: P2144
+      hash: f1a32a659eedac5acde3be54c5ba0af8ca13b521
+      datavalue:
+        value:
+          amount: "+1"
+          unit: http://www.wikidata.org/entity/Q39369
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q192027$4e563b9e-4e77-68f4-1084-4d98ebdb4f72
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 939eca17a8c8ef82428dff47f7a90d49402fd719
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11652
+          id: Q11652
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q192027$55a1017b-45c6-6b86-f100-ab9473e5999a
+    rank: normal
+  P460:
+  - mainsnak:
+      snaktype: value
+      property: P460
+      hash: d9fcd2fbf429bd56419525822d046e818edd32eb
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 549389
+          id: Q549389
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q192027$77716EA7-5D10-4351-8880-24DF7CEF6FF6
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: '079a1e47f36d5e5d8efcd4762d598ae713a02499'
+      datavalue:
+        value: baud
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q192027$FC3C1108-F0DB-4C84-9E55-CF292678D0D8
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: البود
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Бод
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Baud
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Baud
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Baud
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Baud
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Baud
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Baŭdo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Baudio
+    badges: []
+  fawiki:
+    site: fawiki
+    title: باد (یکا)
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Baudinopeus
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Baud (mesure)
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Baud
+    badges: []
+  hewiki:
+    site: hewiki
+    title: באוד
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Baud
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Baud
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Baud
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Baud
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ボー
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Бод (компьютер)
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 보 (통신 단위)
+    badges: []
+  kywiki:
+    site: kywiki
+    title: Бод
+    badges: []
+  lbwiki:
+    site: lbwiki
+    title: Baud
+    badges: []
+  lmowiki:
+    site: lmowiki
+    title: Baud
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: ബൗഡ്
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Baud (telecommunicatie)
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Baud
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Baud (unitat)
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Bod
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Baud
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Бод
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Baud
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Baud
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Бод (техника)
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Baud
+    badges: []
+  tawiki:
+    site: tawiki
+    title: போட்டலகு
+    badges: []
+  thwiki:
+    site: thwiki
+    title: บอด (หน่วยวัด)
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Baud
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Бод
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Bod (birlik)
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 鮑率
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 波特率
+    badges: []

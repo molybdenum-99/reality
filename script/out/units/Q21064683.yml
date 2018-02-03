@@ -1,0 +1,81 @@
+---
+pageid: 23111697
+ns: 0
+title: Q21064683
+lastrevid: 607739427
+modified: '2017-12-12T19:22:13Z'
+type: item
+id: Q21064683
+labels:
+  en:
+    language: en
+    value: Titcoin
+aliases: {}
+claims:
+  P856:
+  - mainsnak:
+      snaktype: value
+      property: P856
+      hash: b4d1fde208de039c33fc0adee448af126ced083f
+      datavalue:
+        value: http://www.titcoins.biz/
+        type: string
+      datatype: url
+    type: statement
+    id: Q21064683$B67F091B-F8F3-4C11-AAA3-6D587DC5559E
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 16ab8cfff2957341998c927ff03e50befb65a864
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 13479982
+          id: Q13479982
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q21064683$be77d2b0-4c7e-a5c7-6bdf-a5cab1a38a12
+    rank: normal
+  P2283:
+  - mainsnak:
+      snaktype: value
+      property: P2283
+      hash: 84efc95c1e17d3aafae2432b08212113435982b6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 7249984
+          id: Q7249984
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q21064683$b50356dc-4874-8294-3cab-1a8b3c80c37a
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Titcoin
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Titcoin
+    badges: []

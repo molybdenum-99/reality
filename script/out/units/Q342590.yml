@@ -1,0 +1,121 @@
+---
+pageid: 328182
+ns: 0
+title: Q342590
+lastrevid: 560481854
+modified: '2017-09-17T06:58:59Z'
+type: item
+id: Q342590
+labels:
+  en:
+    language: en
+    value: acre-foot
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 17e94221531a46939716218e0fc569663da23a2c
+      datavalue:
+        value: "/m/03n146"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q342590$4BB68AF0-62FB-45CD-A239-D4F4ABFD4B07
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6e3da81891b6fba54d9ac8088595a4b05e5a5f95
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1302471
+          id: Q1302471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q342590$D443726B-2092-409C-B13B-E8A9FEBF425B
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 8068e0b90087594e6650bd301af3f3d123fcf191
+      datavalue:
+        value: acre_foot
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q342590$673492BB-7B51-42F0-926C-9ED877EF8853
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 48ae7757bbde31738508dfae24aecb53ebef08da
+      datavalue:
+        value: AcreFoot
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q342590$97afdebc-4219-24a1-2c54-50571b30ed7c
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Acre-foot
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Acre-foot
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Acre-pie
+    badges: []
+  jawiki:
+    site: jawiki
+    title: エーカー・フィート
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Acre-pé
+    badges: []
+  tawiki:
+    site: tawiki
+    title: ஏக்கர் அடி
+    badges: []

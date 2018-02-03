@@ -1,0 +1,506 @@
+---
+pageid: 177439
+ns: 0
+title: Q177974
+lastrevid: 622529506
+modified: '2018-01-22T09:52:01Z'
+type: item
+id: Q177974
+labels:
+  en:
+    language: en
+    value: atmosphere
+aliases:
+  en:
+  - language: en
+    value: standard atmosphere
+  - language: en
+    value: atm
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6166ea9a07e43efe7af58b089be082880e6b8c61
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10751953
+          id: Q10751953
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q177974$12ADF2E4-86FC-40AE-913F-95448914D873
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 72a0aeb13c4a6836794fb0809ecfc29839f1d9b5
+      datavalue:
+        value: atm
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: q177974$d56c7982-48bc-08af-a872-2db42a3bddbc
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 87083f2f12c18d40b66350382bf94ee630a452d7
+      datavalue:
+        value: атм
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q177974$2cdc0acf-4a8e-c68a-acdb-ce5c97c53b96
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 1d8aca7c473224ac868e8baaa3a3241a560b5b7b
+      datavalue:
+        value: "/m/02sbhv"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q177974$DEC0C331-1C33-44A4-8064-78C94903B196
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 62c309f8296338bd9647a7e758857137f3370310
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2657718
+          id: Q2657718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P478:
+      - snaktype: value
+        property: P478
+        hash: ebae015dda839a12e8926ee3601e5a040bc3775d
+        datavalue:
+          value: '7'
+          type: string
+        datatype: string
+      P304:
+      - snaktype: value
+        property: P304
+        hash: 8221a8d95ce7c5a3dae8197dcc1fb297bbf3bc54
+        datavalue:
+          value: '518'
+          type: string
+        datatype: string
+    qualifiers-order:
+    - P478
+    - P304
+    id: Q177974$EE79F271-1118-446D-945D-D184611C3840
+    rank: normal
+    references:
+    - hash: 8bc722e6797143f2ba971ee5fedaeb0a331268e6
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 4b9ead388e47f64ea2ecb2b82c5d4f516003a8d5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 1975217
+              id: Q1975217
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 83026c84816f3be53927a16b2b308c59bdbb77cf
+      datavalue:
+        value:
+          amount: "+101325"
+          unit: http://www.wikidata.org/entity/Q44395
+          upperBound: "+101325"
+          lowerBound: "+101325"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q177974$dd839eca-4469-bd3e-31d2-a76a7e1ae9b5
+    rank: normal
+  P1889:
+  - mainsnak:
+      snaktype: value
+      property: P1889
+      hash: 3a8188f34508ae64adda830a0378c1312d11dd6e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 909066
+          id: Q909066
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q177974$e37db30a-458d-afea-55e3-0df5af0c82ed
+    rank: normal
+  P1645:
+  - mainsnak:
+      snaktype: value
+      property: P1645
+      hash: 4df82f90e59d5d1b664d8f5517c4fb96fe9bdefc
+      datavalue:
+        value: stdatm
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q177974$9447913d-45d7-ac5e-85fa-8b04bcf37b3c
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: a876e7a41293d4f8e5ebf4ae8bf3c9ee615576b8
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 39552
+          id: Q39552
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q177974$81b8313f-49c4-e71d-a94a-06080e021454
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 8449cb9376a2954431d47d1812913e0588c60560
+      datavalue:
+        value: AtmosphereStandard
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q177974$9c8dd7ae-4985-4b52-ac58-777cfe15aaeb
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 4cd61fec2696abb5498dc319719d891abc1fd95a
+      datavalue:
+        value: atmosphere-standard
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q177974$dff4605e-4bc9-63e3-482b-63b5f9b0bc9c
+    rank: normal
+  P4732:
+  - mainsnak:
+      snaktype: value
+      property: P4732
+      hash: fa663dcc8a567bd30bd343c019ad4f8406eb8aab
+      datavalue:
+        value: A00490
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q177974$FCD1F875-FC9E-4207-B99A-5AB0D831A90C
+    rank: normal
+  P4746:
+  - mainsnak:
+      snaktype: value
+      property: P4746
+      hash: 4c5e39dfa90422234feb7a66b46d80bad73ffb86
+      datavalue:
+        value: '131876'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q177974$6D0C64FA-D8DA-46D6-89D0-DA424F34A906
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Atmosfeer (eenheid)
+    badges: []
+  arwiki:
+    site: arwiki
+    title: جو (وحدة)
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Атмасфэра (адзінка вымярэньня)
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Атмасфера (адзінка вымярэння)
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Атмосфера (единица)
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Standardna atmosfera
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Atmosfera (unitat)
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Atmosféra (jednotka)
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Atmosfære (enhed)
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Physikalische Atmosphäre
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Ατμόσφαιρα (μονάδα)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Atmosphere (unit)
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Atmósfera (unidad)
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Atmosfäär (ühik)
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Atmosfera (unitatea)
+    badges: []
+  fawiki:
+    site: fawiki
+    title: اتمسفر (یکا)
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Normaali-ilmakehä
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Atmosphère (unité)
+    badges: []
+  gdwiki:
+    site: gdwiki
+    title: Brùthadh àbhaisteach
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Atmosfera (unidade)
+    badges: []
+  hewiki:
+    site: hewiki
+    title: אטמוספירה (מידה)
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Standardna atmosfera
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Atmoszféra (mértékegység)
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Մթնոլորտ (չափման միավոր)
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Atmosfer (satuan)
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Loftþyngd
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Atmosfera (unità di misura)
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 標準気圧
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Атмосфера (өлшеу бірлігі)
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 기압
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Atmosfera (matavimo vienetas)
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Atmosfēra (mērvienība)
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Атмосфера (единица)
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: അറ്റ്മോസ്ഫിയർ (യൂണിറ്റ്)
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Atmosfeer (eenheid)
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Standardatmosfære
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Standardatmosfære
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Atmosfera fizyczna
+    badges: []
+  pmswiki:
+    site: pmswiki
+    title: Atmosfera (unità dë mzura)
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Atmosfera padrão
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Atmosferă fizică
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Атмосфера (единица измерения)
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Atmosphere (unit)
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Atmosféra (jednotka)
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Atmosfera (enota)
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Atmosfär (tryckenhet)
+    badges: []
+  tawiki:
+    site: tawiki
+    title: வளிமண்டலம் (அலகு)
+    badges: []
+  thwiki:
+    site: thwiki
+    title: บรรยากาศ (หน่วยวัด)
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Atmosfer (birim)
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Атмосфера (одиниця)
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Átmốtphe
+    badges: []
+  vlswiki:
+    site: vlswiki
+    title: Atmosfeer (êenheid)
+    badges: []
+  warwiki:
+    site: warwiki
+    title: Atmospera (yunit)
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 標準大氣壓
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 标准大气压
+    badges: []

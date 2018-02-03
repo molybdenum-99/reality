@@ -1,0 +1,496 @@
+---
+pageid: 134431
+ns: 0
+title: Q132643
+lastrevid: 617888426
+modified: '2018-01-08T22:59:04Z'
+type: item
+id: Q132643
+labels:
+  en:
+    language: en
+    value: Norwegian krone
+aliases:
+  en:
+  - language: en
+    value: kr
+  - language: en
+    value: krone
+  - language: en
+    value: NOK
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q132643$C4AB1CFE-AB8E-4845-9859-E059F0AEC5EA
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 8f972898c3b733d7cab0819bb83b766f0adb0b58
+      datavalue:
+        value: NOK
+        type: string
+      datatype: external-id
+    type: statement
+    id: q132643$915dc3f8-4f2e-d6f1-0bab-ec94784e290c
+    rank: normal
+    references:
+    - hash: 11086102eb24f933898e3ce7a4497416072bc38a
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 662109c9bddd7795083f27d4032bb428f5a73c3c
+          datavalue:
+            value: https://www.currency-iso.org/dam/downloads/lists/list_one.xml
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 0510f7083ea04abc75db92023489333d9afdaef7
+          datavalue:
+            value:
+              time: "+2017-08-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 63af81047c8ed2c5cf3741a5d29fe6e30d280b38
+      datavalue:
+        value: Money of Norway
+        type: string
+      datatype: string
+    type: statement
+    id: q132643$06e2522b-4d76-fd5c-17ef-3624c20747d8
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 58b97551cd4001344ef933ed8ae46fdb5f75f429
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 970769
+          id: Q970769
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q132643$EFB8DDFE-8365-4124-9D16-D43992ECFDF5
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: fd085232450eb3dfd6b31981f3ad2c1363f96ba3
+      datavalue:
+        value: "/m/0h5dw"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q132643$C530D53E-9765-49EA-8249-2402334C10A3
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 6b641ae447361ea7b9069dd798128243a1cdca37
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 20
+          id: Q20
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q132643$28e54766-4630-36d5-f553-08bcb7a3cc32
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: e7fea24b2a017bf066a83463127b9df9ec028ba1
+      datavalue:
+        value: kr
+        type: string
+      datatype: string
+    type: statement
+    id: Q132643$3c53f812-4e09-d953-143b-2e3867caeb36
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 91a3b2d21aa15b6c9cfcbdb4605e1ee807fe3e62
+      datavalue:
+        value: Norwegian_krone
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q132643$22929D2E-7280-4850-8E14-471B73918A1E
+    rank: normal
+  P2284:
+  - mainsnak:
+      snaktype: value
+      property: P2284
+      hash: ba97aef0c6e2ac2e80e8488171bff3d52fb1e4ea
+      datavalue:
+        value:
+          amount: "+0.13"
+          unit: http://www.wikidata.org/entity/Q4917
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q132643$6ad53637-42e1-460b-5ae5-bd76c819f543
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 9ac6649f8f13517b123bc2cac9abc4b560f66933
+      datavalue:
+        value: '500133'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q132643$B1E3EB6F-0453-485F-ABD3-065930B9A6FA
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Noorse kroon
+    badges: []
+  arwiki:
+    site: arwiki
+    title: كرونة نروجية
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Norveç kronu
+    badges: []
+  bat_smgwiki:
+    site: bat_smgwiki
+    title: Nuorvegėjės kruona
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Нарвежская крона
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Норвежка крона
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: নরৱেজিয়ান ক্রোনে
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Norveška kruna
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Corona noruega
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Norská koruna
+    badges: []
+  cvwiki:
+    site: cvwiki
+    title: Норвеги крони
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Norske kroner
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Norwegische Krone
+    badges: []
+  diqwiki:
+    site: diqwiki
+    title: Kronê Norweci
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Κορόνα Νορβηγίας
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Norwegian krone
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Norvega krono
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Corona noruega
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Norra kroon
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Norvegiar koroa
+    badges: []
+  fawiki:
+    site: fawiki
+    title: کرون نروژ
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Norjan kruunu
+    badges: []
+  fowiki:
+    site: fowiki
+    title: Norska krónan
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Couronne norvégienne
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Coroa norueguesa
+    badges: []
+  hewiki:
+    site: hewiki
+    title: כתר נורווגי
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Norveška kruna
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Norvég korona
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Նորվեգական կրոն
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Krona Norwegia
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Norsk króna
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Corona norvegese
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ノルウェー・クローネ
+    badges: []
+  kawiki:
+    site: kawiki
+    title: ნორვეგიული კრონი
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 노르웨이 크로네
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Норвегияса крона
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Norvegijos krona
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Norvēģijas krona
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Норвешка круна
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: नॉर्वेजियन क्रोन
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Noorse kroon
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Norsk krone
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Norsk krone
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਨਾਰਵੇਈ ਕਰੋਨਾ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Korona norweska
+    badges: []
+  pswiki:
+    site: pswiki
+    title: نارویجن کرون
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Coroa norueguesa
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Coroană norvegiană
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Норвежская крона
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Norse croun
+    badges: []
+  sewiki:
+    site: sewiki
+    title: Norgga ruvdno
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Norveška kruna
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Nórska koruna
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Norveška krona
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Норвешка круна
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Norsk krona
+    badges: []
+  tawiki:
+    site: tawiki
+    title: நார்வே குரோனா
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Крони Норвегия
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Krone ng Norway
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Norveç kronu
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Норвезька крона
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Krone Na Uy
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: ნორვეგიული კრონი
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Krone Nọ́rwèy
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Lo̍k-ui krone
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 挪威克朗
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 挪威克朗
+    badges: []

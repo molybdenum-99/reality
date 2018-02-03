@@ -1,0 +1,352 @@
+---
+pageid: 1509479
+ns: 0
+title: Q1573593
+lastrevid: 623109344
+modified: '2018-01-24T21:36:51Z'
+type: item
+id: Q1573593
+labels:
+  en:
+    language: en
+    value: scruple
+aliases:
+  en:
+  - language: en
+    value: Scrupulum
+claims:
+  P487:
+  - mainsnak:
+      snaktype: value
+      property: P487
+      hash: a9b65b32cd410e8278997f4c29dc993aed64718f
+      datavalue:
+        value: "℈"
+        type: string
+      datatype: string
+    type: statement
+    id: Q1573593$1daad153-47fa-7f14-0869-86f7d3d64e4f
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 2c485cc753f7fa27e31a6679baa1bcdd2ccbfa4a
+      datavalue:
+        value: "/m/02r3j1f"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1573593$3C6D09BE-681D-46DC-B6F6-C0BA1EEA3ACC
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 954edbd3fef27ce6396c0878a95c608ca4ed84af
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3647172
+          id: Q3647172
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1573593$886b2796-4b93-21db-5311-97e09aa55333
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 5cf5f23f17299c5881500c244e29678078032aaa
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 620565
+          id: Q620565
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1573593$0a8793b5-481a-f5cc-2b7b-7466b506953c
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 2b8b8057cb4029acdd61112e5a77ff87c571c45b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 435964
+          id: Q435964
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1573593$1F07C726-F4F2-4C43-B2F0-C257475B4033
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 24d05c24a136967b5c5d0238dd282d769000ff64
+      datavalue:
+        value:
+          amount: "+20"
+          unit: http://www.wikidata.org/entity/Q693944
+          upperBound: "+20"
+          lowerBound: "+20"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1573593$1d82bbdc-4fe5-be47-4270-f9eb66f3db93
+    rank: normal
+    references:
+    - hash: b0e81db0b778a7f31c424b21af1d844b2f86814f
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e3c05bc8381be6155cd73ad1943b40babeabf503
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 23074366
+              id: Q23074366
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+    - hash: 2cd11ef096b536b8be47e5c43b6264733b8b235a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 037df92fb8af53db11237540215752cd653723b5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 23074364
+              id: Q23074364
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: da20f24ca5eaf2b882ee1cb323ce1756097dfc0d
+      datavalue:
+        value:
+          amount: "+0.001244"
+          unit: http://www.wikidata.org/entity/Q11570
+          upperBound: "+0.001244"
+          lowerBound: "+0.001244"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1573593$53ecb6e4-4729-7996-7bc9-8a969fd5f9c5
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 42346dfe9209b7359c1f5db829a368b38d407797
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 19180675
+          id: Q19180675
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P805:
+      - snaktype: value
+        property: P805
+        hash: c30ac3875dbb400607689cc85affa8424c72f29e
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 24748608
+            id: Q24748608
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P805
+    id: Q1573593$A96BB2C5-DE2E-4C52-B6BF-97D2C75071A7
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 88389772f86dcd7d415ddd029f601412e5cc894a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 602358
+          id: Q602358
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P805:
+      - snaktype: value
+        property: P805
+        hash: 6b690b307e44a91564cf95f38b82ea79cea6d328
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 24487212
+            id: Q24487212
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P805
+    id: Q1573593$C9B65B97-64F7-44AD-8D67-B2B6BC10DC7F
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 16653c4848e0552e9604edc668341bd5f95825a4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11423
+          id: Q11423
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1573593$B2F27130-3EA2-431B-B9F4-48C300A21C68
+    rank: normal
+  P2581:
+  - mainsnak:
+      snaktype: value
+      property: P2581
+      hash: efa810aefeea762ead972c6286bf8b11fb1eee2b
+      datavalue:
+        value: '00243728n'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1573593$E2431EFD-0DD6-43C2-A8FB-097E742199A2
+    rank: normal
+    references:
+    - hash: bd0ee81488cd8c23d4b655e417aac78dca370283
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: a0b4f55dbedbadaf83e7d2461b47b7aeaba86359
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 4837690
+              id: Q4837690
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Скрупул
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Скрупул
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Scrupel
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Scrupulum
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Skruupul
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Scrupulum
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Scrupolo
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Scripulum
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Skrupulas
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Scrupel
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Skruppel (mål)
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Scripulum
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Скрупул
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Скрупул
+    badges: []

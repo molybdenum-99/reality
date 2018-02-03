@@ -1,0 +1,74 @@
+---
+pageid: 29573237
+ns: 0
+title: Q27864215
+lastrevid: 560949208
+modified: '2017-09-17T19:26:53Z'
+type: item
+id: Q27864215
+labels:
+  en:
+    language: en
+    value: microwatt-hour
+aliases:
+  en:
+  - language: en
+    value: µWh
+  - language: en
+    value: microwatt hour
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 06df6efe68f6e25b0d602229267e4d3e9ccc3d64
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2916980
+          id: Q2916980
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q27864215$a50c6e96-4b5d-6af4-dee0-21acbd39edc1
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: a9ff9903319f3324b14c8148b45af7c0a239d2af
+      datavalue:
+        value: µWh
+        type: string
+      datatype: string
+    type: statement
+    id: Q27864215$650911e1-4507-f557-4b85-14a511adec04
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 8c34f44f7a6775c089e6c7c0fbfcb6bbaae09a59
+      datavalue:
+        value: мкВт-ч
+        type: string
+      datatype: string
+    type: statement
+    id: Q27864215$e319ee48-4a71-c047-0c22-8ab857d05652
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 735b8b77053081196ecd38d5b3369f41378c6a27
+      datavalue:
+        value:
+          amount: "+0.000001"
+          unit: http://www.wikidata.org/entity/Q12874593
+          upperBound: "+0.000001"
+          lowerBound: "+0.000001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q27864215$5bfe2894-400e-986c-06a7-afb1e5e2c371
+    rank: normal
+sitelinks: {}

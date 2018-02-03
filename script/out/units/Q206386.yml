@@ -1,0 +1,362 @@
+---
+pageid: 202653
+ns: 0
+title: Q206386
+lastrevid: 618790809
+modified: '2018-01-11T11:14:18Z'
+type: item
+id: Q206386
+labels:
+  en:
+    language: en
+    value: Qatari riyal
+aliases: {}
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 631a9888dcda3c6abbd72a9d785abb2552b1a6f6
+      datavalue:
+        value: Money of Qatar
+        type: string
+      datatype: string
+    type: statement
+    id: q206386$1E0D7D6B-FAB7-480D-A9F0-9B88EF30315D
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q206386$0E14EF3B-278E-4CCC-BBED-C07968F75619
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: f181f5bb4386d4dc01ed30d7fbac092e61b3c052
+      datavalue:
+        value: QAR
+        type: string
+      datatype: external-id
+    type: statement
+    id: q206386$dd19ef1f-4881-ead2-2fd0-0653399e0139
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: f3f5ec61df3e43073a537f4219e65c954efdb085
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3365778
+          id: Q3365778
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q206386$8B5B4030-75D9-4F6D-91D6-47FE839965E2
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: b404f40081129a0782264e1cc083a1cc297a732e
+      datavalue:
+        value: "/m/05lf7w"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q206386$F92AF5FF-DB46-4DB6-A6A2-B45B036505E7
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 8ba99c078ab46e426c8a6170c2a536bb5fd188c4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 846
+          id: Q846
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q206386$38e11cbc-4171-701b-fdab-aa0c09461cf0
+    rank: normal
+  P2284:
+  - mainsnak:
+      snaktype: value
+      property: P2284
+      hash: 96aff454fed3bb837c5913295c53cbac89bb4041
+      datavalue:
+        value:
+          amount: "+0"
+          unit: http://www.wikidata.org/entity/Q4917
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: f742be92339cdcc54bf77fbdde9a24b9045f361a
+        datavalue:
+          value:
+            time: "+2016-11-22T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q206386$C610602E-0231-4635-9554-98814BBF21F5
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 51dc56499f261e49edbcf42dc3986cdd5ac814a9
+      datavalue:
+        value: '500232'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q206386$DA7E8F4F-1B82-45E7-A5A8-60E144B561A2
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: ريال قطري
+    badges: []
+  arzwiki:
+    site: arzwiki
+    title: ريال قطري
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Qətər rialı
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Катарскі рыял
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Катарскі рыял
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Катарски риал
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: কাতারি রিয়াল
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Riyal de Qatar
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Katar-Riyal
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Ριγιάλ του Κατάρ
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Qatari riyal
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Katara rialo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Riyal catarí
+    badges: []
+  fawiki:
+    site: fawiki
+    title: ریال قطر
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Qatarin rial
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Riyal qatarien
+    badges: []
+  hewiki:
+    site: hewiki
+    title: ריאל קטרי
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Katarski rijal
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Katari riál
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Riyal Qatar
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Riyal del Qatar
+    badges: []
+  jawiki:
+    site: jawiki
+    title: カタール・リヤル
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 카타르 리얄
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Катарса риал
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Kataro rialas
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: कतारी रियाल
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Qatarese rial
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Qatarsk riyal
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Qatarsk riyal
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਕਤਰੀ ਰਿਆਲ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Rial katarski
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Rial catarense
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Катарский риал
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Катарски ријал
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Qatarisk rial
+    badges: []
+  tawiki:
+    site: tawiki
+    title: கத்தாரி ரியால்
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Рияли Қатар
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Katar riyali
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Катарський ріал
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Riyal Qatar
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: კატარული რიალი
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Riyal Katari
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Qatar riyal
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 卡達里亞爾
+    badges: []

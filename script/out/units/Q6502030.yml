@@ -1,0 +1,314 @@
+---
+pageid: 6320921
+ns: 0
+title: Q6502030
+lastrevid: 578368565
+modified: '2017-10-15T21:51:34Z'
+type: item
+id: Q6502030
+labels:
+  en:
+    language: en
+    value: cubit
+aliases: {}
+claims:
+  P460:
+  - mainsnak:
+      snaktype: value
+      property: P460
+      hash: 71c65252935468f94ff721b144f0ea64a78a58c1
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 214377
+          id: Q214377
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q6502030$80d0d716-4a3a-923d-60d8-3caacdbb92cb
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 7af7ed6bb59bd06b0bec8537454adafdf0301268
+      datavalue:
+        value: Cubit arms
+        type: string
+      datatype: string
+    type: statement
+    id: q6502030$00550939-6E13-450E-9159-7E04C631E199
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: fe6138cb7cd3513363ab7bc8f7233fc91311b74c
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2534228
+          id: Q2534228
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q6502030$23a493c9-4367-c8c5-7bb2-bb4b1f071b9a
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 4c91abe086bb2f5f12ed665addf012f8efe4d587
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 28608087
+          id: Q28608087
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q6502030$742a222f-4835-690a-f708-f3a935119b65
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: f085b0c4c3db3510ae2e3f19c22f34ba4ced3b75
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 16782623
+          id: Q16782623
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q6502030$a6b4cccf-4a6a-2531-4dfd-4e654fa252f4
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1c41b2ea8a3f6d3fab77c103d826ae5ead7a9c01
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1978718
+          id: Q1978718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q6502030$186cb504-49ab-7be8-fd0e-102697a68005
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: b69dae9bc6ac96cebb10c19ea2ead56651748a38
+      datavalue:
+        value: "/m/018xnw"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q6502030$0E849535-A039-4ACC-B8F2-6E9FAD0A68B5
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: fe3962f9af4d912c5db5951ba4cdfe2e6039b5db
+      datavalue:
+        value: Ell.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    qualifiers:
+      P2096:
+      - snaktype: value
+        property: P2096
+        hash: a810eaef3b6d57f20bfa16a4f3dc0139db531985
+        datavalue:
+          value:
+            text: La mesura d'un colze, generalment presa des del dit mig fins al
+              colze d'un adult
+            language: ca
+          type: monolingualtext
+        datatype: monolingualtext
+    qualifiers-order:
+    - P2096
+    id: Q6502030$b9891a92-47f3-a8e9-46d9-be3c34dbb859
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 9a00453138e732b06b078fa32e4f410299df414b
+      datavalue:
+        value:
+          amount: "+0.5"
+          unit: http://www.wikidata.org/entity/Q11573
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q6502030$fcb113b1-43fb-2196-9f2b-dfe1815bd133
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: ذراع (وحدة قياس)
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Coldu (unidá)
+    badges: []
+  azbwiki:
+    site: azbwiki
+    title: آرشین
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Colze (unitat)
+    badges: []
+  cowiki:
+    site: cowiki
+    title: Cubitu
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Cubit
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Cubit (Einheit)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Cubit
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Codo (unidad de longitud)
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Besabete
+    badges: []
+  fawiki:
+    site: fawiki
+    title: ارش (یکا)
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Coudée
+    badges: []
+  hewiki:
+    site: hewiki
+    title: אמה (יחידת מידה)
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Cubito
+    badges: []
+  jawiki:
+    site: jawiki
+    title: キュビット
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 큐빗
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Cubit
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Cubit
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Amma (jednostka)
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Côvado
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Cubit
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Kubit (dolžinska mera)
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Kubit
+    badges: []
+  tawiki:
+    site: tawiki
+    title: முழம்
+    badges: []
+  thwiki:
+    site: thwiki
+    title: ศอก (หน่วยความยาวไทย)
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Cubit
+    badges: []
+  urwiki:
+    site: urwiki
+    title: ذراع
+    badges: []
+  warwiki:
+    site: warwiki
+    title: Kubito
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 肘 (單位)
+    badges: []

@@ -1,0 +1,179 @@
+---
+pageid: 252337
+ns: 0
+title: Q260103
+lastrevid: 607412614
+modified: '2017-12-12T02:55:39Z'
+type: item
+id: Q260103
+labels:
+  en:
+    language: en
+    value: guide number
+aliases:
+  en:
+  - language: en
+    value: Guide number, GN
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q260103$AA3346C3-6DAC-418B-9E54-E69F5C24FF86
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 17cc5048b1f705502fde941f307591adeac4374e
+      datavalue:
+        value: "/m/05s1pz"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q260103$F1732A94-CC14-49CA-95CE-439F890CD4CC
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P1417:
+  - mainsnak:
+      snaktype: value
+      property: P1417
+      hash: 6de7836fd48bb648bb81211a73953e331aa64ec6
+      datavalue:
+        value: technology/guide-number
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q260103$659DC45B-7C27-44A7-BBC7-4291D6C7F715
+    rank: normal
+  P1269:
+  - mainsnak:
+      snaktype: value
+      property: P1269
+      hash: 90fe02d2d66977d7ab7354bc2e13221d8f606480
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11633
+          id: Q11633
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q260103$6b063ed5-4a62-6e76-a7dc-63eda8202e24
+    rank: normal
+sitelinks:
+  barwiki:
+    site: barwiki
+    title: Leitzoi
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Směrné číslo
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Ledetal
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Leitzahl
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Guide number
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Número guía
+    badges: []
+  fawiki:
+    site: fawiki
+    title: عدد راهنمای فلاش
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Ohjeluku
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Numero guida
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ガイドナンバー (カメラ)
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Richtgetal
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Ledetall
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Liczba przewodnia
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Número guia
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Ведущее число фотовспышки
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Vodilno število
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Ledtal
+    badges: []
+  thwiki:
+    site: thwiki
+    title: Guide Number
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 闪光指数
+    badges: []

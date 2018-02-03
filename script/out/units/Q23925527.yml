@@ -1,0 +1,66 @@
+---
+pageid: 25922133
+ns: 0
+title: Q23925527
+lastrevid: 618388285
+modified: '2018-01-10T05:43:06Z'
+type: item
+id: Q23925527
+labels:
+  en:
+    language: en
+    value: gallon
+aliases:
+  en:
+  - language: en
+    value: beer gallon
+  - language: en
+    value: ale gallon
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6e3da81891b6fba54d9ac8088595a4b05e5a5f95
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1302471
+          id: Q1302471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q23925527$476c072d-4f89-c0e6-8694-911dc4d57af7
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: b69cec127ed573f4811352620dc08288f17ecc06
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 178413
+          id: Q178413
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q23925527$28e328f1-4636-c97a-e021-e33849bac07f
+    rank: normal
+  P1417:
+  - mainsnak:
+      snaktype: value
+      property: P1417
+      hash: adeea459016796f55f1789996dafa85b88aeb8f2
+      datavalue:
+        value: science/ale-gallon
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q23925527$77545BC5-7AF0-44A7-BD21-F8B9BCC03851
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Beer gallon
+    badges: []

@@ -1,0 +1,160 @@
+---
+pageid: 16544528
+ns: 0
+title: Q14877141
+lastrevid: 609967105
+modified: '2017-12-16T19:09:23Z'
+type: item
+id: Q14877141
+labels:
+  en:
+    language: en
+    value: Attic talent
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 954edbd3fef27ce6396c0878a95c608ca4ed84af
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3647172
+          id: Q3647172
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q14877141$2838F41A-2764-45F5-B6B7-9FED5DCB1504
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 8d75fa5d12c9f32ffc85f2a1a5e77c5160f66ae1
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 607056
+          id: Q607056
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q14877141$d920e56e-43eb-5c6a-7d96-7cdfec159df3
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: e52d81cd6336703ea51be0d47c6d37bfe11d032a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 190139
+          id: Q190139
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q14877141$5918540c-4ec8-b419-1999-c9f6c42c5872
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 19e2247484e07d1ed35f03ed7d7d283fb44e050f
+      datavalue:
+        value:
+          amount: "+26"
+          unit: http://www.wikidata.org/entity/Q11570
+          upperBound: "+26"
+          lowerBound: "+26"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q14877141$2a32cc96-4c14-5ed9-f37a-df3bc4ab06bb
+    rank: normal
+    references:
+    - hash: 4209fb14bbc231955fa6b25996d0cbd596d5e5de
+      snaks:
+        P4656:
+        - snaktype: value
+          property: P4656
+          hash: 8b29d89af7274ac6bb70f8cc00d79cfb00017d85
+          datavalue:
+            value: https://de.wikipedia.org/w/index.php?title=Attisches_Talent&oldid=140744518
+            type: string
+          datatype: url
+        P143:
+        - snaktype: value
+          property: P143
+          hash: d38375ffe6fe142663ff55cd783aa4df4301d83d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 48183
+              id: Q48183
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P4656
+      - P143
+    - hash: 3f6a70ee85ddcca226f41320963d4aab7daf07f0
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 60fa9c2f422e447ed39424276483e5edfed8b811
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P4656:
+        - snaktype: value
+          property: P4656
+          hash: e26d8446517ad92e47311f25f02a6e605bfbad79
+          datavalue:
+            value: https://en.wikipedia.org/w/index.php?title=Attic_talent&oldid=649691196
+            type: string
+          datatype: url
+      snaks-order:
+      - P248
+      - P4656
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 16653c4848e0552e9604edc668341bd5f95825a4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11423
+          id: Q11423
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q14877141$A7F66096-32F3-45D9-94F5-913AF2019176
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Attisches Talent
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Attic talent
+    badges: []
+  fawiki:
+    site: fawiki
+    title: تالان آتیک
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Talento attico
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Atiški talent
+    badges: []

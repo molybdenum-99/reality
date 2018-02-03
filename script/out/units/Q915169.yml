@@ -1,0 +1,230 @@
+---
+pageid: 865624
+ns: 0
+title: Q915169
+lastrevid: 616721644
+modified: '2018-01-05T03:59:16Z'
+type: item
+id: Q915169
+labels:
+  en:
+    language: en
+    value: Planck force
+aliases: {}
+claims:
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 62604b308db3d2feaa7df599c59ff422986481fa
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 9021
+          id: Q9021
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q915169$C807D90E-DE25-4F72-B031-22DB574D0AF8
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 0e1fd9089b676e63594a318e368ea7d966f0dd31
+      datavalue:
+        value: "/m/06v5p7"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q915169$A6EAE074-7E9A-4C0F-8594-CE6A93C2251C
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 61eec523f66a8023b47d574209355cb769d8989b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 15976022
+          id: Q15976022
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q915169$84b920e0-4e23-fe25-2030-ece18161f48c
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: ecd3253a95cbf76778ab1daa3b7c7d86ed87e1d5
+      datavalue:
+        value:
+          amount: "+121027000000000000000000000000000000000000000"
+          unit: http://www.wikidata.org/entity/Q12438
+          upperBound: "+121028000000000000000000000000000000000000000"
+          lowerBound: "+121026000000000000000000000000000000000000000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q915169$68169a63-499b-3eb6-d2d3-e3a84ce57199
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 7e97f1f22f433730c97ecd6081555f5322d57fef
+      datavalue:
+        value: PlanckForce
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q915169$46b0d783-4d6a-eb11-32a0-9bd10e809734
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 0a80cc8c1d4f843037b3a5a211ee962e6f01b686
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 468999
+          id: Q468999
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q915169$00545159-4eeb-9358-5f28-1f8c350b60b1
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 886dda2a8ff0711f405bbf864a1821cc2e6ae501
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11402
+          id: Q11402
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q915169$7972b90f-4303-59dc-f529-5465bcb6a732
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: قوة بلانك
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Планкаўская сіла
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Planckova sila
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Força de Planck
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Planckova síla
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Planck force
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Forto de Planck
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Fuerza de Planck
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Planckin voima
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Force de Planck
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Planck-erő
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Forza di Planck
+    badges: []
+  jawiki:
+    site: jawiki
+    title: プランク力
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 플랑크 힘
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Siła Plancka
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Força de Planck
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Планковская сила
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Forza di Planck
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Planckova sila
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Planckkraft
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Planck kuvveti
+    badges: []

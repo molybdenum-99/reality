@@ -1,0 +1,109 @@
+---
+pageid: 1010715
+ns: 0
+title: Q1062008
+lastrevid: 491630587
+modified: '2017-05-28T20:31:37Z'
+type: item
+id: Q1062008
+labels:
+  en:
+    language: en
+    value: Angel
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: aacc45cf0bd25bed5a16dcab9022edccc09b6438
+      datavalue:
+        value: "/m/0465z_"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1062008$7941EC52-ACA4-460C-AA69-C9B360C139B6
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P935:
+  - mainsnak:
+      snaktype: value
+      property: P935
+      hash: 4112eb3759fb1e5a581a0ccc9307e363645c7680
+      datavalue:
+        value: Angel (coin)
+        type: string
+      datatype: string
+    type: statement
+    id: Q1062008$33CEDE98-7DCF-42E0-B5FC-461AF14AB827
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1062008$9607C71B-6891-41C1-9EBF-8744A47B9E84
+    rank: normal
+sitelinks:
+  commonswiki:
+    site: commonswiki
+    title: Angel (coin)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Angel (coin)
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Ángel (moneda)
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Angelo (moneta)
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Энджел (монета)
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Енджел (монета)
+    badges: []

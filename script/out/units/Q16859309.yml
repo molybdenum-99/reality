@@ -1,0 +1,117 @@
+---
+pageid: 18461024
+ns: 0
+title: Q16859309
+lastrevid: 618464373
+modified: '2018-01-10T11:42:44Z'
+type: item
+id: Q16859309
+labels:
+  en:
+    language: en
+    value: pound-foot
+aliases:
+  en:
+  - language: en
+    value: lb·ft
+  - language: en
+    value: lb ft
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: c049c9fb842847a132cf66df13fa2b183dec0b34
+      datavalue:
+        value: lb·ft
+        type: string
+      datatype: string
+    type: statement
+    id: Q16859309$728e53f5-472a-8c0f-3292-f91a0edf3d90
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 41593a55906d4b2d27f146cd7cd5cb83308d75e0
+      datavalue:
+        value: lb ft
+        type: string
+      datatype: string
+    type: statement
+    id: Q16859309$f070e360-41e8-6b9e-44a6-dbc25eac4b36
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: ba33d03930e9cfacac24c9d66d8442f40f314f11
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 21813488
+          id: Q21813488
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q16859309$6a12eb97-4b33-acb8-cf6b-6948c4740fe4
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 0564da1f544146333d926d8d02ee24138188b894
+      datavalue:
+        value:
+          amount: "+1.355818"
+          unit: http://www.wikidata.org/entity/Q215571
+          upperBound: "+1.355819"
+          lowerBound: "+1.355817"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q16859309$43016177-4065-2ead-e33d-e2f250c730fc
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: e7e311cf1bc6ff6e1e2c3b777c78e6e1f6a9d55b
+      datavalue:
+        value: "/m/080dtn5"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q16859309$9334d94d-4ad8-2c95-794e-604408fa6c4e
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: c395b8d76378a581ec723064b058b04209f6784a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 48103
+          id: Q48103
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q16859309$04904bf2-45e1-7902-e741-9591649b079f
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: رطل قدم (عزم)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Pound-foot (torque)
+    badges: []
+  fawiki:
+    site: fawiki
+    title: پوند-پا (گشتاور)
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ポンド・フィート
+    badges: []

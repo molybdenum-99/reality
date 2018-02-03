@@ -1,0 +1,160 @@
+---
+pageid: 2789850
+ns: 0
+title: Q2915374
+lastrevid: 590476231
+modified: '2017-11-08T01:30:50Z'
+type: item
+id: Q2915374
+labels:
+  en:
+    language: en
+    value: baker's dozen
+aliases:
+  en:
+  - language: en
+    value: thirteen
+  - language: en
+    value: long dozen
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 80278690942054f594641695125a957fc23b77f7
+      datavalue:
+        value: "/m/01dkw7"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2915374$4EE94854-37A9-453F-BD9D-E19500BF9A70
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: cf3c224e8db64deac776621d6d4093930b9e77f2
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2360980
+          id: Q2360980
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2915374$8ac2a3b4-4a3a-9816-1698-44faeafde8ed
+    rank: normal
+  P1181:
+  - mainsnak:
+      snaktype: value
+      property: P1181
+      hash: b5319f1ba815c01f4dd6f96dbe0bc7465e7c6efd
+      datavalue:
+        value:
+          amount: "+13"
+          unit: '1'
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q2915374$17fa8aae-476b-5baf-ceb1-862d6bb1c120
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 9563380ec78f8c940ef04233384f4866600255a2
+      datavalue:
+        value: Baker's dozen
+        type: string
+      datatype: string
+    type: statement
+    id: Q2915374$d3d2f588-47f4-bb89-e4b1-2bc817d69b44
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: da77c7fe3fe240ce541ca2d45b4d460370598495
+      datavalue:
+        value: Bakers-Dozen-2
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2915374$315697E5-790E-40C1-9904-B1E28B28C9CD
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  eswiki:
+    site: eswiki
+    title: Docena del panadero
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Douzaine de boulanger
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Ducia do panadeiro
+    badges: []
+  hewiki:
+    site: hewiki
+    title: תריסר של אופים
+    badges: []
+  jawiki:
+    site: jawiki
+    title: パン屋の1ダース
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Bakkersdozijn
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Baker's dozen
+    badges: []

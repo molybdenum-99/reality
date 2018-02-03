@@ -1,0 +1,196 @@
+---
+pageid: 1262166
+ns: 0
+title: Q1322380
+lastrevid: 587849351
+modified: '2017-11-02T14:12:47Z'
+type: item
+id: Q1322380
+labels:
+  en:
+    language: en
+    value: terasecond
+aliases:
+  en:
+  - language: en
+    value: 1 E12 s
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 98a1e85b80bda7ff493c25a6b805599da715c077
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1790144
+          id: Q1790144
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1322380$944fbe0f-48f1-1146-364f-3daaae97b37a
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 57dddfd1923a526acee3f62bbf9d26d38629bc28
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 9747038
+          id: Q9747038
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1322380$F4924D9C-E694-4CE2-B635-B5B9CE8B9CC2
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 24daf45dfd9dc372c2abae8583b09891e9954880
+      datavalue:
+        value: Ts
+        type: string
+      datatype: string
+    type: statement
+    id: Q1322380$f4d7a78e-4260-b33a-3b61-58c56faed8fe
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 6e21fb497cc5f83bc8620cf112fbe148f0e370b2
+      datavalue:
+        value: Тс
+        type: string
+      datatype: string
+    type: statement
+    id: Q1322380$0c4ca873-43d0-7abe-4b7f-edb9dda7a972
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: ed84ba2d907abd0e1747a0268d8084c65a29a508
+      datavalue:
+        value: "/m/0pnfy"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1322380$B3656643-0B1E-4B91-9EDF-8AAEA96F1377
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 12f4a643bfdaeb194dc7587878b71054d36d31b2
+      datavalue:
+        value: terasecond-time
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1322380$C517A7DF-0841-4772-9896-42E351DE7A00
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: f3bf8b746825b0210e61149314e4a39df1417ee6
+      datavalue:
+        value:
+          amount: "+1000000000000"
+          unit: http://www.wikidata.org/entity/Q11574
+          upperBound: "+1000000000000"
+          lowerBound: "+1000000000000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1322380$746cc374-4d3d-3997-432c-f4c0bcfad2c1
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: f24e032a9edffb089eb58a8af5d2b30d49357f73
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11471
+          id: Q11471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1322380$01EB873E-0838-43DD-A677-E2ECD905554A
+    rank: normal
+sitelinks:
+  astwiki:
+    site: astwiki
+    title: Terasegundu
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Terasecond and longer
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Anexo:1 E12 s
+    badges: []
+  frwiki:
+    site: frwiki
+    title: 1 E12 s
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 1 E12 s
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 1 E12 s
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Terasekund
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Terasecond and longer
+    badges: []
+  slwiki:
+    site: slwiki
+    title: 1 E12 s
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Terasekund
+    badges: []

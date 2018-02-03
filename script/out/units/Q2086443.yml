@@ -1,0 +1,124 @@
+---
+pageid: 2013373
+ns: 0
+title: Q2086443
+lastrevid: 618699735
+modified: '2018-01-11T05:58:11Z'
+type: item
+id: Q2086443
+labels:
+  en:
+    language: en
+    value: Moroccan franc
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: b6260e66e24ac6d94849b684283e80210ce3815d
+      datavalue:
+        value: "/m/093r0x"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2086443$E96EF536-4902-4DDC-B5F9-30D31D900D29
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2086443$9cf90acf-4444-d768-217b-bf2a11f6fec2
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: b5ac9a222116ffd51f518e7e255ec6eaec1f55e3
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1028
+          id: Q1028
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2086443$6abeafd3-44ca-8fd8-96d4-36ecb7b947de
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: فرنك مغربي
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Moroccan franc
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Franco marroquí
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Franc marocain
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Марокканский франк
+    badges: []

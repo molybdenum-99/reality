@@ -1,0 +1,124 @@
+---
+pageid: 2562593
+ns: 0
+title: Q2659078
+lastrevid: 612276967
+modified: '2017-12-22T10:19:46Z'
+type: item
+id: Q2659078
+labels:
+  en:
+    language: en
+    value: terawatt-hour
+aliases:
+  en:
+  - language: en
+    value: terawatt hour
+  - language: en
+    value: TWh
+  - language: en
+    value: terawatthour
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 06df6efe68f6e25b0d602229267e4d3e9ccc3d64
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2916980
+          id: Q2916980
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2659078$60c557f4-4f10-0ec0-7b5f-0a165934c6df
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 6d1ee18905d8c5b88d5a40df9d89a4ca720c452c
+      datavalue:
+        value: TWh
+        type: string
+      datatype: string
+    type: statement
+    id: q2659078$93c78fed-42e5-fe48-2614-893643b2af19
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 6fc2026052ff6cb73e45c82fb430ad64c53bca3f
+      datavalue:
+        value:
+          amount: "+1000000000000"
+          unit: http://www.wikidata.org/entity/Q12874593
+          upperBound: "+1000000000000"
+          lowerBound: "+1000000000000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q2659078$c6994041-4989-45fb-ddd3-15eaa3938131
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 4ab84bf19c4eddb51e65dd81985a8b1699f8c008
+      datavalue:
+        value: terawatt_hour
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2659078$e19c427c-48e3-8bb2-c5ed-403c191acb20
+    rank: normal
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 77276e3ab519efcec0a0ebbe9a9c93d5d1f5ccca
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 23823681
+          id: Q23823681
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2659078$3267fe30-410f-f910-9891-fd481d3ff3c0
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: e4a5f9581e209abc694c7972aa2190af05de1b8e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 25235
+          id: Q25235
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2659078$b224db2c-47ca-6ebc-41aa-be9414843ab0
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 45d85429b750df1e2578ab19295a28dcfe6a128d
+      datavalue:
+        value:
+          amount: "+3600000000000000"
+          unit: http://www.wikidata.org/entity/Q25269
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q2659078$68cbc753-4e9e-1ac9-8dac-a82b2d450777
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Terawattstunde
+    badges: []

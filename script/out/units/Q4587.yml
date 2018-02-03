@@ -1,0 +1,342 @@
+---
+pageid: 5530
+ns: 0
+title: Q4587
+lastrevid: 617888348
+modified: '2018-01-08T22:58:42Z'
+type: item
+id: Q4587
+labels:
+  en:
+    language: en
+    value: Sierra Leonean leone
+aliases:
+  en:
+  - language: en
+    value: SLL
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 21060f3af86ba364574f7c72859909b5ee3dc789
+      datavalue:
+        value: Money of Sierra Leone
+        type: string
+      datatype: string
+    type: statement
+    id: q4587$88958749-35CB-44D4-A6F8-51409B18EBD2
+    rank: normal
+    references:
+    - hash: 9a24f7c0208b05d6be97077d855671d1dfdbc0dd
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: d38375ffe6fe142663ff55cd783aa4df4301d83d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 48183
+              id: Q48183
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q4587$ED35B663-C889-4EFA-AAE4-5C904AF008BD
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 5d6c778d04516c27d6f32b88a15e9d0ae6bf33fe
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 806691
+          id: Q806691
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q4587$9F11F791-08CF-4C07-81A0-D11A93DDD9C6
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 2c8023bcb2e046a08dfd8594df7030ae1b3e2d5a
+      datavalue:
+        value: "/m/02vqvn"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q4587$6C32654B-7E6C-4530-84FB-6EC63FC374C2
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 44e5056ed4600f5da9052098062fe48e8fc1c212
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1044
+          id: Q1044
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4587$5e186c44-4fc0-9a2f-bb12-0acfb598f99b
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 003e620c20ccb14c54adef5babe3b123ce858a49
+      datavalue:
+        value: SLL
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q4587$77f184da-4ee0-6435-ed74-40e414994f11
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: ffff70cc3b9365d65b6be5f73f4b367eff0847c2
+      datavalue:
+        value: '500243'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q4587$37E14B46-1D19-4229-B426-4AA29AB6F409
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: ليون سيراليوني
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Syerra-Leone leonesi
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Леонэ
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Леонэ Сьера-Леонэ
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Леоне на Сиера Леоне
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: সিয়েরা লিওনিয়ান লিওনে
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Leone
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Sierra-leonischer Leone
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Λεόνε της Σιέρα Λεόνε
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Sierra Leonean leone
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Sieraleona leono
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Leone
+    badges: []
+  fawiki:
+    site: fawiki
+    title: لئون سیرالئون
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Sierra Leonen leone
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Leone (monnaie)
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Leone
+    badges: []
+  hewiki:
+    site: hewiki
+    title: ליאון (מטבע)
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Sijeraleonski leone
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Sierra Leone-i leone
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Leone
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Leone sierraleonese
+    badges: []
+  jawiki:
+    site: jawiki
+    title: レオン (通貨)
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 시에라리온 리온
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Leonė
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: सियेरा लिओनन लिओन
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Leone
+    badges: []
+  mznwiki:
+    site: mznwiki
+    title: لئون
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Sierra Leoonse leone
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Sierraleonsk leone
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Leone
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Leone (moeda)
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Leone (monedă)
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Леоне (денежная единица)
+    badges: []
+  sahwiki:
+    site: sahwiki
+    title: Леоне
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Сијералеонски леоне
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Leone
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Леони Сиерра Лион
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Sierra Leone leonesi
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Леоне (грошова одиниця)
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Léònè
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Sierra Leone leone
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 塞拉利昂利昂
+    badges: []

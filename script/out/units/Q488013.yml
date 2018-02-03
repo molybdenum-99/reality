@@ -1,0 +1,430 @@
+---
+pageid: 459342
+ns: 0
+title: Q488013
+lastrevid: 556855614
+modified: '2017-09-12T05:02:40Z'
+type: item
+id: Q488013
+labels:
+  en:
+    language: en
+    value: Rømer scale
+aliases:
+  en:
+  - language: en
+    value: Rømer
+  - language: en
+    value: "°Rø"
+claims:
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 85c9d686eea0a9b7cda9360f13e0387ef7ff6561
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 160187
+          id: Q160187
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q488013$172294B5-04CA-4E3E-B8A9-3ECB8C85D01E
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 5774bada555a6041b0c7885263cb032464e4f5b0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2394680
+          id: Q2394680
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q488013$2dbc3212-427c-55ca-b78b-b81dc24226fb
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: '019aa94180287d11a58cc12f2914d24580bc3315'
+      datavalue:
+        value: "°Rø"
+        type: string
+      datatype: string
+    type: statement
+    id: Q488013$fc0cc8c1-427f-91da-6351-a81eb186380f
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 8860ef13bdabc74dd4407fd2f3da4ef374f37598
+      datavalue:
+        value: "°R"
+        type: string
+      datatype: string
+    type: statement
+    id: Q488013$76de69db-44fc-fa51-2b87-a27489c768be
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: '074369d16d8f69c92aaa525586192be37555c34e'
+      datavalue:
+        value: "/m/033vjx"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q488013$85910CBE-6291-464C-B79D-EB0447106427
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2370:
+  - mainsnak:
+      snaktype: somevalue
+      property: P2370
+      hash: 0f7ca06cd53ddbefbd474a4474e543045f1f7995
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P2916:
+      - snaktype: value
+        property: P2916
+        hash: 537f41c31e6cd3bbd450cf1bea27019242d5d407
+        datavalue:
+          value:
+            text: see sandbox string
+            language: en
+          type: monolingualtext
+        datatype: monolingualtext
+    qualifiers-order:
+    - P2916
+    id: Q488013$53d08f1b-42d7-9cef-dadc-dcf4f005e17a
+    rank: normal
+  P370:
+  - mainsnak:
+      snaktype: value
+      property: P370
+      hash: 6097d653c8c2c9c42069a296c0a1c7c273b2ad76
+      datavalue:
+        value: "($1-7.5)/0.525"
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P1013:
+      - snaktype: value
+        property: P1013
+        hash: ef448b60a4bb3249160d268aea09ca8edb6b41ed
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 25267
+            id: Q25267
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P1013
+    id: Q488013$1947608b-44de-d026-5ff1-85009e6a9541
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P370
+      hash: f2d1ac79f54c739a7c010f9b1a33599f8ef611f7
+      datavalue:
+        value: "($1 - 7.5)* 3.4286 + 32.00"
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P1013:
+      - snaktype: value
+        property: P1013
+        hash: c4c7b2dcab0269156f78dea45183a361256fd9f7
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 42289
+            id: Q42289
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P1013
+    id: Q488013$ecb01180-4ed2-fc38-be93-bc643fe29b4a
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P370
+      hash: d6e0c73386c069ca57aab1c337c2271fcc24d169
+      datavalue:
+        value: "($1-7.5)/0.525 + 273.15"
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P1013:
+      - snaktype: value
+        property: P1013
+        hash: 979c2ceb82efc0d1e0fbdcff2b56e5ad97c3dba5
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 11579
+            id: Q11579
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P1013
+    id: Q488013$c9329bb9-4690-7c8c-3ecf-4b705b9e3825
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P370
+      hash: 6f40d03a70763abeab13e69c55367e5a1c709847
+      datavalue:
+        value: "($1 - 7.5)* 3.4286 + 491.67"
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P1013:
+      - snaktype: value
+        property: P1013
+        hash: e65d49c8987511661b14d566a5e3226fc2576e1f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 207488
+            id: Q207488
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P1013
+    id: Q488013$60f40899-4a0a-0dd1-3e0a-95e512d9542e
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P370
+      hash: 04f1352b4b2cace8fc3ae5660fb397de720395b8
+      datavalue:
+        value: "($1 - 7.5)* 0.62857"
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P1013:
+      - snaktype: value
+        property: P1013
+        hash: 669116087baa4d66845be8481fb7a28408caaa4d
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 1133606
+            id: Q1133606
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P1013
+    id: Q488013$f7feb15a-4b5f-fe5f-0731-fde0a37b432e
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P370
+      hash: 0ac7b4fbeb75ca3965c892064746160193ba0e3c
+      datavalue:
+        value: "($1 - 7.5)* 1.5238"
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P1013:
+      - snaktype: value
+        property: P1013
+        hash: 9d859a65740eeecd6eae7d027bebf5783bfe491a
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 223061
+            id: Q223061
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P1013
+    id: Q488013$b12feab2-4f0b-fca0-c822-98b3c7a9f568
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P370
+      hash: 7d37d0796eec3ad73d20ba9cfcd05903880cdf47
+      datavalue:
+        value: "($1 - 7.5)* 2.8571-100"
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P1013:
+      - snaktype: value
+        property: P1013
+        hash: 47854f15900db105be7b6e2a3d091ec3313d9ded
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 839449
+            id: Q839449
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P1013
+    id: Q488013$50f611c7-4ac8-9c68-829d-cce58759cebb
+    rank: normal
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Grau Rømer
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Rømer (temperaturskala)
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Rømer-Skala
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Rømer scale
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Grado Rømer
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Romer gradu
+    badges: []
+  fawiki:
+    site: fawiki
+    title: مقیاس رومر
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Rømer-asteikko
+    badges: []
+  fowiki:
+    site: fowiki
+    title: Rømerstigin
+    badges: []
+  frrwiki:
+    site: frrwiki
+    title: Rømer-Skala
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Échelle Rømer
+    badges: []
+  hewiki:
+    site: hewiki
+    title: מעלות רמר
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Rømerova ljestvica
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Skala Rømer
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Grado Rømer
+    badges: []
+  jawiki:
+    site: jawiki
+    title: レーマー度
+    badges: []
+  liwiki:
+    site: liwiki
+    title: Rømersjaol
+    badges: []
+  ndswiki:
+    site: ndswiki
+    title: Rømer-Skala
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Rømer
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Rømerskalaen
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Skala Rømera
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Rømer
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Градус Рёмера
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Gradu Rømer
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Rømerova skala
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Stupeň Rømera
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Ремерова скала
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Rømerskalan
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 羅氏溫標
+    badges: []

@@ -1,0 +1,454 @@
+---
+pageid: 199204
+ns: 0
+title: Q202642
+lastrevid: 622524481
+modified: '2018-01-22T09:30:16Z'
+type: item
+id: Q202642
+labels:
+  en:
+    language: en
+    value: Planck time
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 98a1e85b80bda7ff493c25a6b805599da715c077
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1790144
+          id: Q1790144
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q202642$D3DB036E-9F5A-435B-BE4D-FEEF924444CC
+    rank: normal
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 62604b308db3d2feaa7df599c59ff422986481fa
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 9021
+          id: Q9021
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q202642$c7fbe918-4d29-88d6-7253-0ada96176c09
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 586b42c72f64162edc40df9a0fbd71ba5148e1c9
+      datavalue:
+        value: "/m/017k5b"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q202642$94AA3875-94D1-4119-A69F-2682BF92E802
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 66a619342a27ca018a52a767c50b3aea4799a465
+      datavalue:
+        value:
+          amount: "+0.0000000000000000000000000000000000000000000539116"
+          unit: http://www.wikidata.org/entity/Q11574
+          upperBound: "+0.0000000000000000000000000000000000000000000539129"
+          lowerBound: "+0.0000000000000000000000000000000000000000000539103"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q202642$46485a24-42cb-0263-4dd3-9256d2b6135e
+    rank: normal
+  P1645:
+  - mainsnak:
+      snaktype: value
+      property: P1645
+      hash: 9955909ee4c19428fc445c1474627cabe0856fd8
+      datavalue:
+        value: plkt
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q202642$8b6269f9-4f54-1bf4-a486-17873b67dc16
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 25e33f4346af75e80812a72157f7bec246485e29
+      datavalue:
+        value: PlanckTime
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q202642$B5C50BEA-BACE-4022-B0C0-5FA1AE767EF7
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 0a80cc8c1d4f843037b3a5a211ee962e6f01b686
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 468999
+          id: Q468999
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q202642$27fd4802-4f99-4bf7-0cfc-3c85c0f2f93b
+    rank: normal
+  P2534:
+  - mainsnak:
+      snaktype: value
+      property: P2534
+      hash: e5f8d66b3ad835782c6a884e8c0a6c1f7b122765
+      datavalue:
+        value: t_\mathrm{P} \equiv \sqrt{\frac{\hbar G}{c^5}}
+        type: string
+      datatype: math
+    type: statement
+    id: Q202642$8FAFA93C-C4B1-4231-B611-DFA0D499FD29
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: f96781c1a9dda4e9ad3b041c05d9b4626d09cda6
+      datavalue:
+        value: Planck-Time-1
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q202642$ECAD61B3-473E-4A52-A9A3-A47136152BE6
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: f24e032a9edffb089eb58a8af5d2b30d49357f73
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11471
+          id: Q11471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q202642$DFC54D4C-A451-416E-B28A-D8AB3CAE44A8
+    rank: normal
+  P2581:
+  - mainsnak:
+      snaktype: value
+      property: P2581
+      hash: ab61a3dcdfbf35d732ea3ed591b4b0db5f34e9a2
+      datavalue:
+        value: '00984328n'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q202642$5DD89AD4-4EB6-4635-8495-553027511EB0
+    rank: normal
+    references:
+    - hash: bd0ee81488cd8c23d4b655e417aac78dca370283
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: a0b4f55dbedbadaf83e7d2461b47b7aeaba86359
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 4837690
+              id: Q4837690
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P1417:
+  - mainsnak:
+      snaktype: value
+      property: P1417
+      hash: 67098c168fd2f391ddf1a5edb5eaf33661de1095
+      datavalue:
+        value: science/Planck-time
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q202642$18AA6BA3-18FE-45EB-893D-EB45533828DA
+    rank: normal
+  P4746:
+  - mainsnak:
+      snaktype: value
+      property: P4746
+      hash: '065319f09736ed16b8a5cef8f457cc13a346d423'
+      datavalue:
+        value: '136926'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q202642$0026E126-646E-49B4-A567-EAC99B664472
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: زمن بلانك
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Plank zamanı
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Планкаўскі час
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Време на Планк
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: প্লাংকের সময়
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Planckovo vrijeme
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Temps de Planck
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Planckův čas
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Planck-tid
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Planck-Zeit
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Planck time
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Tempo de Planck
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Tiempo de Planck
+    badges: []
+  fawiki:
+    site: fawiki
+    title: زمان پلانک
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Planckin aika
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Temps de Planck
+    badges: []
+  hewiki:
+    site: hewiki
+    title: זמן פלאנק
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Planckovo vrijeme
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Planck-idő
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Պլանկի ժամանակ
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Waktu Planck
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Tempo di Planck
+    badges: []
+  jawiki:
+    site: jawiki
+    title: プランク時間
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 플랑크 시간
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Tempus planckianum
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Планково време
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Masa Planck
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Plancktijd
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Plancktid
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Planck-tid
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Czas Plancka
+    badges: []
+  pnbwiki:
+    site: pnbwiki
+    title: پلانک ویلہ
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Tempo de Planck
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Timp zero
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Планковское время
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Tempu di Planck
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Planck time
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Planckovo vrijeme
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Planck time
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Planckov čas
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Planckov čas
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Plancktid
+    badges: []
+  tawiki:
+    site: tawiki
+    title: பிளாங்க் நேரம்
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Planck zamanı
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Час Планка
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Thời gian Planck
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 普朗克時間
+    badges: []

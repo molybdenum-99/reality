@@ -1,0 +1,189 @@
+---
+pageid: 2465830
+ns: 0
+title: Q2555236
+lastrevid: 619142053
+modified: '2018-01-12T06:08:03Z'
+type: item
+id: Q2555236
+labels:
+  en:
+    language: en
+    value: Republika Srpska dinar
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 8d467a87e63d097738b37003f8f983d164ed4795
+      datavalue:
+        value: "/m/0bddm4"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2555236$B056359B-BFC3-4892-B73D-43B9D04EC426
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2555236$CB2F54D5-1441-4CAE-A8C3-DF3A54C0A411
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: be9f81f2ff6cbf0707d0ecbaaef6dfa07f833144
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 191830
+          id: Q191830
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2555236$6f0bb8d7-4471-3c18-baee-943c7e62ddda
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 2cb889294c3a1d7c934a328a3373e35d2eb3d030
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11196
+          id: Q11196
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2555236$3bf71099-4f5e-c1e6-8364-a4ef55daf02a
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: '08f05d6c88bb86db8b930fc9c7636f903db5d313'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11196
+          id: Q11196
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2555236$69a8dc2f-4e08-7c29-e087-2e2f128c7a7a
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  bawiki:
+    site: bawiki
+    title: Серб Республикаһының динары
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Дынар Рэспублікі Сэрбскай
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Дынар Рэспублікі Сербскай
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Dinar Republike Srpske
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Republika-Srpska-Dinar
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Republika Srpska dinar
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Dinar serbobosnio
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Dinar Republike Srpske
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Սերբական Հանրապետության դինար
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Dinaro della Repubblica Serba
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Динар Республики Сербской
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Dinar Republike Srpske
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Динар Републике Српске
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 塞族共和國第納爾
+    badges: []

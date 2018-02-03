@@ -1,0 +1,348 @@
+---
+pageid: 198540
+ns: 0
+title: Q201933
+lastrevid: 619911187
+modified: '2018-01-13T20:02:56Z'
+type: item
+id: Q201933
+labels:
+  en:
+    language: en
+    value: dyne
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 61eec523f66a8023b47d574209355cb769d8989b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 15976022
+          id: Q15976022
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q201933$9a7ae9a4-42cd-931d-57df-7dcd2ac92069
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 05d5ef82ef00b37155af6a9f4a888a859b5c74de
+      datavalue:
+        value: dyn
+        type: string
+      datatype: string
+    type: statement
+    id: Q201933$e65a4da5-41f4-904a-a435-9c3d5e03d486
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 337ace7185e75fe909717d79166204ff906a7a95
+      datavalue:
+        value: داين
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: aa3f8171d71338a019a3e43c848eb59374b15b71
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8196
+            id: Q8196
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q201933$AF230575-E4C5-4997-A88F-2B91F250C6A3
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 0cf81615b73f8b94fd6909d541faf89b7823d204
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 26240
+          id: Q26240
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q201933$84ada6ac-49b0-6bcc-33ad-fe9dcde154ec
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: dc8065d0d1eb5f85f79b34a6955df988771aade2
+      datavalue:
+        value: "/m/02c_m"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q201933$6DBBFE27-DDE5-4E89-B628-6C6615A306E9
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 66091d6ea79a10460b79a471c9ed008b2e041c54
+      datavalue:
+        value:
+          amount: "+0.00001"
+          unit: http://www.wikidata.org/entity/Q12438
+          upperBound: "+0.00001"
+          lowerBound: "+0.00001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q201933$006bd1d1-4dc2-7132-1280-1d39788b66d9
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 397a7a2d4ecc99b380be1c953bc62fc464696cd6
+      datavalue:
+        value: Dyne
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q201933$E5284C5E-9B5E-4554-BABC-C5E737821D61
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: b8cda231931ebb7c1c19e3cdc1e8d4571e34a1be
+      datavalue:
+        value: dyne
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q201933$C93DD60D-3EC9-4597-969F-5E3B452D264C
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 886dda2a8ff0711f405bbf864a1821cc2e6ae501
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11402
+          id: Q11402
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q201933$8C5C9F9C-5187-4DC5-AB05-7EE7A52792E3
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: داين
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Dina
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Дзіна (адзінка вымярэньня)
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Дзіна (адзінка вымярэння)
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Дина
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Din
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Dina (sistema CGS)
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Dyn (Einheit)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Dyne
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Dino
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Dina (unidad de medida)
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Düün (ühik)
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Dina
+    badges: []
+  fawiki:
+    site: fawiki
+    title: دین (یکا)
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Dyne
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Dyne
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Dina
+    badges: []
+  hewiki:
+    site: hewiki
+    title: דיין (מידה)
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Dyne
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Dyne
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ダイン
+    badges: []
+  kawiki:
+    site: kawiki
+    title: დინი (ერთეული)
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 다인
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Dins (mērvienība)
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Дин
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Dyne
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Dyn
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Dyn
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Dyna
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Dina
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Dină
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Дина (единица измерения)
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Dyne
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Dyne
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Дин
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Dina
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Dyn (enhet)
+    badges: []
+  thwiki:
+    site: thwiki
+    title: ดายน์
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Dyn
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Дина
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Dina
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 达因
+    badges: []

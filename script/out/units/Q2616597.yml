@@ -1,0 +1,146 @@
+---
+pageid: 2523590
+ns: 0
+title: Q2616597
+lastrevid: 618610283
+modified: '2018-01-10T21:59:52Z'
+type: item
+id: Q2616597
+labels:
+  en:
+    language: en
+    value: Southern Rhodesian pound
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2616597$5b3086ac-430e-f39c-f197-b99dccb66ce0
+    rank: normal
+    references:
+    - hash: b6a6242288a3e177468837bb7dd85d15da4a1ec4
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 5098f54fb73f56e383c593f296e7b3a7d34549c8
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 11918
+              id: Q11918
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 48dad11e4d75aa74b8b0904f85a3d307400ea278
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 339180
+          id: Q339180
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2616597$5c759fdb-4a19-8af9-212d-d6420d6db41d
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: f3b28f275dead27dce7d734190d2b3bb4c43ddfe
+      datavalue:
+        value: "/m/09tn4c"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2616597$BD14E998-B2BD-418E-B842-4BCD34A43FB0
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 7309db5aadb82061f190b04417d57f41496e3606
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 750583
+          id: Q750583
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2616597$62b1fc38-4a35-1b84-6b85-b7b8b3ff023f
+    rank: normal
+sitelinks:
+  elwiki:
+    site: elwiki
+    title: Λίρα της Νότιας Ροδεσίας
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Southern Rhodesian pound
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Libra de Rodesia del Sur
+    badges: []
+  fawiki:
+    site: fawiki
+    title: پوند رودزیای جنوبی
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Etelä-Rhodesian punta
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 南ローデシア・ポンド
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Южнородезийский фунт
+    badges: []

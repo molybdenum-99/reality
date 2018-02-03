@@ -1,0 +1,74 @@
+---
+pageid: 3390788
+ns: 0
+title: Q3561856
+lastrevid: 623727984
+modified: '2018-01-27T02:52:23Z'
+type: item
+id: Q3561856
+labels:
+  en:
+    language: en
+    value: homer
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6e3da81891b6fba54d9ac8088595a4b05e5a5f95
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1302471
+          id: Q1302471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3561856$FC421B5B-0AF8-4D51-9800-83D6ED3A6D84
+    rank: normal
+  P1705:
+  - mainsnak:
+      snaktype: value
+      property: P1705
+      hash: 5235a83e6c9b28fc6a89724efa7cbcf5b5606066
+      datavalue:
+        value:
+          text: חמר‎
+          language: he
+        type: monolingualtext
+      datatype: monolingualtext
+    type: statement
+    id: Q3561856$b8ac5f43-4a47-02ed-b884-ae9071afc958
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: f1e038d8b709fd0e7bc6b60bf1591e5cc61c7a54
+      datavalue:
+        value:
+          amount: "+10"
+          unit: http://www.wikidata.org/entity/Q3565837
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q3561856$4334f351-42e7-2180-ab76-30266d700b80
+    rank: normal
+sitelinks:
+  elwiki:
+    site: elwiki
+    title: Χομόρ
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Homer (unit)
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Homer (maat)
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Eininga homer
+    badges: []

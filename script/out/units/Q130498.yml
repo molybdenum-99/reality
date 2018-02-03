@@ -1,0 +1,487 @@
+---
+pageid: 132430
+ns: 0
+title: Q130498
+lastrevid: 617888009
+modified: '2018-01-08T22:57:34Z'
+type: item
+id: Q130498
+labels:
+  en:
+    language: en
+    value: Armenian dram
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q130498$D9CA5486-5271-4255-95F8-6A2A6BCFA6A6
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 6443fe1b91b05e473e8f8d15d1b048e4131b347e
+      datavalue:
+        value: Money of Armenia
+        type: string
+      datatype: string
+    type: statement
+    id: q130498$10699C79-8F91-4A57-9392-9DFADF0471FA
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: e1fe4e1cea7dd6196f9fa24b2e54cfcca0fe2dfa
+      datavalue:
+        value: AMD
+        type: string
+      datatype: external-id
+    type: statement
+    id: q130498$df938a83-45cb-f08e-ff57-093b6e74478c
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 0610b2cddbb99b3feb151866edfaecbd832a5518
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 190223
+          id: Q190223
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q130498$D0A3BBC5-5793-4861-B252-39E6A27B0058
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: '08296040dbe1f253c86274fe0a83714f24a6cb36'
+      datavalue:
+        value: "/m/033xr3"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q130498$94B9893A-880D-4C13-A86F-26F226B8ACE6
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: c93ee586af039d16c1d1baf61c379a66060c5274
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 399
+          id: Q399
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q130498$204afedc-49e5-cbeb-9d32-a6cd3a812063
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: e5fec9130f05876ecd0dfe7fc7b4234e57a2776b
+      datavalue:
+        value: "֏"
+        type: string
+      datatype: string
+    type: statement
+    id: Q130498$c4a8b225-4e00-7102-587c-0c5f632a1b73
+    rank: normal
+  P2959:
+  - mainsnak:
+      snaktype: value
+      property: P2959
+      hash: 7e95e980e60f3dfd1cfde13beb1b76b9773781b5
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 23653943
+          id: Q23653943
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q130498$9B06AD60-6DE7-41BC-AFA9-1FA8057CA85B
+    rank: normal
+    references:
+    - hash: 8bc722e6797143f2ba971ee5fedaeb0a331268e6
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 4b9ead388e47f64ea2ecb2b82c5d4f516003a8d5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 1975217
+              id: Q1975217
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 7bece7ca4ed20318a06a3c1fac6e5402a705f6b3
+      datavalue:
+        value: ArmenianDram
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q130498$9229a8a9-43c0-48be-204f-1c83fae3ecf6
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 8a835bd7069476324cea2915d25d2ae305d774b7
+      datavalue:
+        value: '500115'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q130498$48AE15FD-3692-42BF-A289-B24E824A7E4F
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Armeense dram
+    badges: []
+  arwiki:
+    site: arwiki
+    title: درام أرميني
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Ermənistan dramı
+    badges: []
+  bat_smgwiki:
+    site: bat_smgwiki
+    title: Armienėjės drams
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Армянскі драм
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Армянскі драм
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Арменски драм
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: আর্মেনিয়ান ড্রাম
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Ermenski dram
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Dram
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Arménský dram
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Armenske dram
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Armenischer Dram
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Ντραμ
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Armenian dram
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Armena dramo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Dram armenio
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Armeenia dramm
+    badges: []
+  fawiki:
+    site: fawiki
+    title: درام (واحد پول)
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Armenian dram
+    badges: []
+  frpwiki:
+    site: frpwiki
+    title: Dram (monéya)
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Dram (monnaie)
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Dram armenio
+    badges: []
+  hewiki:
+    site: hewiki
+    title: דראם ארמני
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Armenski dram
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Örmény dram
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Հայկական դրամ
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Dram Armenia
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Armenskt dram
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Dram armeno
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ドラム (通貨)
+    badges: []
+  kawiki:
+    site: kawiki
+    title: სომხური დრამი
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 아르메니아 드람
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Арменияса драм
+    badges: []
+  kywiki:
+    site: kywiki
+    title: Армениялык драм
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Armėnijos dramas
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Armēnijas drams
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Ерменски драм
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: आर्मेनियन द्राम
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Armeense dram
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Armensk dram
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Armensk dram
+    badges: []
+  oswiki:
+    site: oswiki
+    title: Драм
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਅਰਮੀਨੀਆਈ ਦਰਾਮ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Dram
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Dram arménio
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Dram
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Армянский драм
+    badges:
+    - Q17437798
+  sahwiki:
+    site: sahwiki
+    title: Эрмээн драма
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Armenie dram
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Armenski dram
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Armenian dram
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Arménsky dram
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Armenski dram
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Јерменски драм
+    badges: []
+  suwiki:
+    site: suwiki
+    title: Dram Arménia
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Dram
+    badges: []
+  tawiki:
+    site: tawiki
+    title: ஆர்மேனிய டிராம்
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Драми Арманистон
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Dram ng Armenya
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Ermeni dramı
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Вірменський драм
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Dram
+    badges: []
+  vepwiki:
+    site: vepwiki
+    title: Armenijan dram
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: სომეხური დრამი
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Dram Arméníà
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Armenia dram
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 亞美尼亞德拉姆
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 亚美尼亚德拉姆
+    badges: []

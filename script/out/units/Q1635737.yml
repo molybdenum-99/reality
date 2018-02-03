@@ -1,0 +1,113 @@
+---
+pageid: 1570069
+ns: 0
+title: Q1635737
+lastrevid: 373858012
+modified: '2016-09-06T12:57:20Z'
+type: item
+id: Q1635737
+labels:
+  en:
+    language: en
+    value: Mel scale
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 75599856c02610de293a8f1bb4409f7a0f5b8cdd
+      datavalue:
+        value: "/m/0hf5m"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1635737$EE88D043-8966-405E-8B7E-592D1BE1DA23
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1635737$E861BD39-DD57-4FF3-B49C-86B976009B3C
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Mel
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Mel scale
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Escala Mel
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Échelle des mels
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Scala mel
+    badges: []
+  jawiki:
+    site: jawiki
+    title: メル尺度
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Mel (skala)
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Мел (высота звука)
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Mel ölçeği
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 梅尔刻度
+    badges: []

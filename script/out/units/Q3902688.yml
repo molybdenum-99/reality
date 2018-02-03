@@ -1,0 +1,137 @@
+---
+pageid: 3723683
+ns: 0
+title: Q3902688
+lastrevid: 564658996
+modified: '2017-09-24T01:20:01Z'
+type: item
+id: Q3902688
+labels:
+  en:
+    language: en
+    value: picolitre
+aliases:
+  en:
+  - language: en
+    value: pl
+  - language: en
+    value: picoliter
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6e3da81891b6fba54d9ac8088595a4b05e5a5f95
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1302471
+          id: Q1302471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3902688$6cb7e9d6-45a6-5677-63ae-a983673fb1d3
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 15bc4a3bca6c9c323b34a66036d20f552d34235e
+      datavalue:
+        value: pl
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q3902688$57f91fe0-40d4-0f22-fdd9-3a8f5fa3c401
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 4d87c2e0a2f4c97b32e9446f046532dd0f49a713
+      datavalue:
+        value: пл
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q3902688$eebd46d2-41be-0e08-3f1e-56c0d7dd46d3
+    rank: normal
+  P2234:
+  - mainsnak:
+      snaktype: value
+      property: P2234
+      hash: 252ac4f4faf244db410c16191b414389b8951c8c
+      datavalue:
+        value:
+          amount: "+0.000001"
+          unit: http://www.wikidata.org/entity/Q2282891
+          upperBound: "+0.000001"
+          lowerBound: "+0.000001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q3902688$22dda7f8-4b99-fb4b-f3fa-645d11a60e74
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2234
+      hash: b90771ce62b1644611d8c469ab6788fcbb606f23
+      datavalue:
+        value:
+          amount: "+1000"
+          unit: http://www.wikidata.org/entity/Q3312063
+          upperBound: "+1000"
+          lowerBound: "+1000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q3902688$54e5c2bd-4421-6e13-f2dc-6bb2ca1ecef4
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 41fb07ec859611ddaeba39947a3d51e87c8050cd
+      datavalue:
+        value: picolitre
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3902688$B8E8D2D8-3C8A-4980-BEB9-B6DB51F10325
+    rank: normal
+sitelinks:
+  eswiki:
+    site: eswiki
+    title: Picolitro
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Picolitro
+    badges: []

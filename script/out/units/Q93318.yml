@@ -1,0 +1,633 @@
+---
+pageid: 95506
+ns: 0
+title: Q93318
+lastrevid: 624895901
+modified: '2018-01-30T20:18:02Z'
+type: item
+id: Q93318
+labels:
+  en:
+    language: en
+    value: nautical mile
+aliases:
+  en:
+  - language: en
+    value: M
+  - language: en
+    value: NM
+  - language: en
+    value: nmi
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1c41b2ea8a3f6d3fab77c103d826ae5ead7a9c01
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1978718
+          id: Q1978718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q93318$89dbe14d-4b16-dace-ce68-cfc1f77a51c6
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 7423f25322049cca260db0ea0dafce028ce41b86
+      datavalue:
+        value: NM
+        type: string
+      datatype: string
+    type: statement
+    id: Q93318$97d558f4-4adf-74e2-1a25-bda70f6d9c37
+    rank: normal
+    references:
+    - hash: 313f93fe7f29318759afaf57acf073a54c4f91d6
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a96795290ef07c20e59d8a4eea00d89c4edc789d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 125761
+              id: Q125761
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: f18eba6bcff20a05d827652c58af00e90e8815cc
+      datavalue:
+        value: nmi
+        type: string
+      datatype: string
+    type: statement
+    id: Q93318$335717ff-41f8-cd3a-c436-6a641c3ffb22
+    rank: normal
+    references:
+    - hash: f3380ad7bd845c2f91b2dac8003a45e1b5df45ba
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4e891d8f587c96636b7884d5c85570807f63c6d1
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 131566
+              id: Q131566
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+    - hash: cc13920a070a084cf21cfca127bf32bf541fd968
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 19f5d8ce868a71447b663451f437438f6d17c795
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 2928358
+              id: Q2928358
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: f25f8648b7c44644fa823966fafd4e97fc6a3491
+      datavalue:
+        value: M
+        type: string
+      datatype: string
+    type: statement
+    id: Q93318$bdb47730-4bba-a7a0-8c46-e608d9fdeac9
+    rank: normal
+    references:
+    - hash: 945b9edf2f74a0e47a9057d82097467424a5060c
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 9bec30ec0a78cf321a98bf590b73f1339273ebc7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 229478
+              id: Q229478
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: ed1ad33487ad875269bf344e630155a79e56a06f
+      datavalue:
+        value: mn
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P407:
+      - snaktype: value
+        property: P407
+        hash: d3341820d45f6bb2097e8460656f7cd8fea3cf2a
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 5146
+            id: Q5146
+          type: wikibase-entityid
+        datatype: wikibase-item
+      - snaktype: value
+        property: P407
+        hash: d23405ce65d732957813e18277b36b3a723be311
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 750553
+            id: Q750553
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P407
+    id: Q93318$1736d64d-4297-dc85-2a8e-59af6ee7e9ee
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 99700ca9cedb8306ae3366d3a373a1781c986d73
+      datavalue:
+        value: mpk
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P407:
+      - snaktype: value
+        property: P407
+        hash: 260791b214ddb5397afad59244388fe200d02dbb
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 1412
+            id: Q1412
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P407
+    id: Q93318$edf4ca47-4427-fa36-d296-4a388fa66296
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: f87bc3d0dcdda81a30d9d701478c94bc91547fe4
+      datavalue:
+        value: ميل بحري
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: aa3f8171d71338a019a3e43c848eb59374b15b71
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8196
+            id: Q8196
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q93318$0A72A1F8-8AE4-499A-BB72-DDFA097C3BB5
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: e36dee49c7a28ab4d258aebf1d3e13dfa2bb872d
+      datavalue:
+        value: "/m/05bl8"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q93318$58EE0FAD-0F11-4C0E-82B5-FEE3919D6228
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P1296:
+  - mainsnak:
+      snaktype: value
+      property: P1296
+      hash: 3e8e278168a4dce7c8771e0ce67305a2248298a1
+      datavalue:
+        value: '0194349'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q93318$CB8DF081-DB5A-46DD-857A-84F724FD3AEC
+    rank: normal
+    references:
+    - hash: b3fd5e254143d8b52cd96cff43af9af5e3a82358
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: f13c99a16441677ec69fcea23f221d866f1fc98f
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 199693
+              id: Q199693
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P2043:
+  - mainsnak:
+      snaktype: value
+      property: P2043
+      hash: 2327786221b00dcf00db6835d649fa61f0e94e8a
+      datavalue:
+        value:
+          amount: "+1852"
+          unit: http://www.wikidata.org/entity/Q11573
+          upperBound: "+1852"
+          lowerBound: "+1852"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q93318$557f0e7d-4ac5-ecf4-19ae-5441727f3029
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 4354e3cc033f2c5371e447e5ab1cca8b89ffa3e0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 36253
+          id: Q36253
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q93318$8cc3b474-4e35-dc67-38ca-95c7a029f896
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 37e5d80b1c02f1bd27832453369779c983d8a6f8
+      datavalue:
+        value:
+          amount: "+1852"
+          unit: http://www.wikidata.org/entity/Q11573
+          upperBound: "+1852"
+          lowerBound: "+1852"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q93318$0c03640d-49da-b9b6-ad64-483ccc64e223
+    rank: normal
+  P1417:
+  - mainsnak:
+      snaktype: value
+      property: P1417
+      hash: 8f4b4f1160ec90db2ddd312733362e18a93f871e
+      datavalue:
+        value: science/nautical-mile
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q93318$67A3EFD4-17CA-4CD4-9D3A-A07F870625C8
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Seemyl
+    badges: []
+  arwiki:
+    site: arwiki
+    title: ميل بحري
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Milla náutica
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Dəniz mili
+    badges: []
+  barwiki:
+    site: barwiki
+    title: Seemein
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Марская міля
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Марская міля
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Морска миля
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: নটিক্যাল মাইল
+    badges: []
+  bowiki:
+    site: bowiki
+    title: མཚོ་ལེ།
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Nautička milja
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Milla marina
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Námořní míle
+    badges: []
+  dawiki:
+    site: dawiki
+    title: International sømil
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Seemeile
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Nautical mile
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Marmejlo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Milla náutica
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Meremiil
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Itsas milia
+    badges: []
+  fawiki:
+    site: fawiki
+    title: مایل دریایی
+    badges: []
+  fiu_vrowiki:
+    site: fiu_vrowiki
+    title: Meremiil
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Meripeninkulma
+    badges: []
+  fowiki:
+    site: fowiki
+    title: Sjómíl
+    badges: []
+  frrwiki:
+    site: frrwiki
+    title: Siamiil
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Mille marin
+    badges: []
+  fywiki:
+    site: fywiki
+    title: Seemyl
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Milla náutica
+    badges: []
+  hakwiki:
+    site: hakwiki
+    title: Hói-lî
+    badges: []
+  hewiki:
+    site: hewiki
+    title: מיל ימי
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: समुद्री मील
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Nautička milja
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Tengeri mérföld
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Mil laut
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Sjómíla
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Miglio nautico
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 海里
+    badges: []
+  kawiki:
+    site: kawiki
+    title: საზღვაო მილი
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Теңіз милясы
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 해리 (단위)
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Jūrmylė
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Jūras jūdze
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Наутичка милја
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: നോട്ടിക്കൽ മൈൽ
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Zeemijl
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Nautisk mil
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Nautisk mil
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Mila marina
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Mila morska
+    badges: []
+  pnbwiki:
+    site: pnbwiki
+    title: سمندری میل
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Milha náutica
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Milă marină
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Морская миля
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Nautical mile
+    badges: []
+  sdwiki:
+    site: sdwiki
+    title: ناٽيڪل ميل
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Nautička milja
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Námorná míľa
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Morska milja
+    badges: []
+  sowiki:
+    site: sowiki
+    title: Mayl-badeed
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Наутичка миља
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Nautisk mil
+    badges: []
+  tawiki:
+    site: tawiki
+    title: கடல் மைல்
+    badges: []
+  thwiki:
+    site: thwiki
+    title: ไมล์ทะเล
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Deniz mili
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Морська миля
+    badges: []
+  urwiki:
+    site: urwiki
+    title: بحری میل
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Dengiz milyasi
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Hải lý
+    badges: []
+  warwiki:
+    site: warwiki
+    title: Milya nautica
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 海哩
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 海里
+    badges: []

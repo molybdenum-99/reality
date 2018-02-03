@@ -1,0 +1,112 @@
+---
+pageid: 452201
+ns: 0
+title: Q480022
+lastrevid: 550227017
+modified: '2017-09-01T22:17:02Z'
+type: item
+id: Q480022
+labels:
+  en:
+    language: en
+    value: German East African rupie
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 4258bcbdb9278cc518b77276b29c22d52c61af44
+      datavalue:
+        value: "/m/095h7y"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q480022$BB276024-2D0A-4FB8-8AD0-51B4B61E61BC
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q480022$4bacebc9-49ea-99f1-3dcc-709103049eb2
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: ccfd5e524de02ec7b974fa0ba7c6f44f2b79a6bd
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 153963
+          id: Q153963
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q480022$76f0bbfb-4b65-d60e-5dc1-ba2035b39bc5
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Deutsch-Ostafrikanische Rupie
+    badges: []
+  enwiki:
+    site: enwiki
+    title: German East African rupie
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Rupie del África Oriental Alemana
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Njemačka istočnoafrička rupija
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Германская восточноафриканская рупия
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Німецька Східно-Африканська рупія
+    badges: []

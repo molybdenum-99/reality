@@ -1,0 +1,218 @@
+---
+pageid: 1263011
+ns: 0
+title: Q1323237
+lastrevid: 617090917
+modified: '2018-01-06T12:22:08Z'
+type: item
+id: Q1323237
+labels:
+  en:
+    language: en
+    value: Planck impedance
+aliases: {}
+claims:
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 62604b308db3d2feaa7df599c59ff422986481fa
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 9021
+          id: Q9021
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q1323237$8401C631-6D46-4116-8FBB-A98E8305B67D
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: c40e4e0b5d7a1b62adf0e95593a99b950f01b69d
+      datavalue:
+        value: "/m/0b3n6f"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1323237$0907B368-5718-4F67-A62A-0DDB15D52A13
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 20c06622d01aa76ece4402efae48ef11d9219ede
+      datavalue:
+        value:
+          amount: "+29.9792458"
+          unit: http://www.wikidata.org/entity/Q47083
+          upperBound: "+29.9792458"
+          lowerBound: "+29.9792458"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1323237$19dd977c-46cd-ce58-74fa-e672a37d6013
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1323237$19e85751-4ada-19ad-6682-42649de2c685
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 3dae6f8d417691c313997d65b9d658d3bfb31638
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 179043
+          id: Q179043
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1323237$575491db-493b-5a0c-2829-a13ae9091dcf
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 0a80cc8c1d4f843037b3a5a211ee962e6f01b686
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 468999
+          id: Q468999
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1323237$c513d645-4b36-b137-0f58-a4ce2bd804c4
+    rank: normal
+  P2581:
+  - mainsnak:
+      snaktype: value
+      property: P2581
+      hash: 34cff1709d485c3595c578b09dcbc1b5b165e834
+      datavalue:
+        value: 02731752n
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1323237$E9756151-8EAA-4784-9A8E-B2B2CF6692C4
+    rank: normal
+    references:
+    - hash: bd0ee81488cd8c23d4b655e417aac78dca370283
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: a0b4f55dbedbadaf83e7d2461b47b7aeaba86359
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 4837690
+              id: Q4837690
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: مقاومة بلانك
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Планкаўскае супраціўленне
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Impedància de Planck
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Planck impedance
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Elektra impedanco de Planck
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Resistencia eléctrica de Planck
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Planckin impedanssi
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 플랑크 임피던스
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Opór Plancka
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Resistência elétrica de Planck
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Планковский импеданс
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Planckova impedanca
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Planckimpedans
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Planck empedansı
+    badges: []

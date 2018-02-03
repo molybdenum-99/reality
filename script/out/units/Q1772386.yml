@@ -1,0 +1,188 @@
+---
+pageid: 1704449
+ns: 0
+title: Q1772386
+lastrevid: 564660257
+modified: '2017-09-24T01:23:32Z'
+type: item
+id: Q1772386
+labels:
+  en:
+    language: en
+    value: decigram
+aliases:
+  en:
+  - language: en
+    value: dg
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 954edbd3fef27ce6396c0878a95c608ca4ed84af
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3647172
+          id: Q3647172
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1772386$65ee3e6a-4918-9711-6e73-17250f46b8ed
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: b71699316b0331401b1576ebc5eccfd37f6fc6e1
+      datavalue:
+        value: dg
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q1772386$a1e95c7e-49ea-37cc-7f6a-25a88c742e88
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 05d4e2a45f57aadc7d0aa3c343b2d97eff17fa9f
+      datavalue:
+        value: дг
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q1772386$64510bdf-41dc-c108-ccda-4df93dbef117
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: b36a3781535033a8e139f6d8150ee887cbf6c69a
+      datavalue:
+        value: دغ
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: aa3f8171d71338a019a3e43c848eb59374b15b71
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8196
+            id: Q8196
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q1772386$f4b07f0a-43e6-b7fb-2868-4d95ef70fffb
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 97ac3563c5bcd1e39d3265e59e75b1441db6e4f6
+      datavalue:
+        value:
+          amount: "+0.0001"
+          unit: http://www.wikidata.org/entity/Q11570
+          upperBound: "+0.0001"
+          lowerBound: "+0.0001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1772386$a1e18b0a-4839-d689-45dc-e78dfa379bba
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 959fa39b4dd3cd92b48a4a735a53df02dd01beed
+      datavalue:
+        value: decigram
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1772386$D2E06276-F83C-48D3-8F25-0D7A058BAC30
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 16653c4848e0552e9604edc668341bd5f95825a4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11423
+          id: Q11423
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1772386$2A3E5703-F7D7-4E2D-B9B6-DC3A0192F2B2
+    rank: normal
+sitelinks:
+  astwiki:
+    site: astwiki
+    title: Decigramu
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Dezigramm
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Decigramo
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Decigrammo
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Decigram
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Desigram
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Desigram
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Decigrama
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Decigram
+    badges: []

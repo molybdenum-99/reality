@@ -1,0 +1,496 @@
+---
+pageid: 113450
+ns: 0
+title: Q110823
+lastrevid: 620854632
+modified: '2018-01-16T02:27:04Z'
+type: item
+id: Q110823
+labels:
+  en:
+    language: en
+    value: yocto
+aliases:
+  en:
+  - language: en
+    value: y
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: b2c09aff06d6a44f3bf82f6c9cc86dc28c629779
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 131299
+          id: Q131299
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q110823$EFB9EE7F-6F71-4A8C-967C-E8AFAE0C77D2
+    rank: normal
+    references:
+    - hash: '011612885ba1d8d75d459891bee210fd0d8c3035'
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: c2213e83c554bae5121243bc2ace76aeffa9ce42
+          datavalue:
+            value: '19'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: cef4c7c76f433be2c042113a43ecdc990b112ef2
+          datavalue:
+            value: 6.5.4
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 138e2ccfe41a7f56a774b6401cf70c82280ccbec
+      datavalue:
+        value: y
+        type: string
+      datatype: string
+    type: statement
+    id: q110823$ee68142b-4d1a-9efa-05f7-5b9947b9142c
+    rank: normal
+    references:
+    - hash: '011612885ba1d8d75d459891bee210fd0d8c3035'
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: c2213e83c554bae5121243bc2ace76aeffa9ce42
+          datavalue:
+            value: '19'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: cef4c7c76f433be2c042113a43ecdc990b112ef2
+          datavalue:
+            value: 6.5.4
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 722cd875bf33b1cb5880e090d6bf95468589b583
+      datavalue:
+        value: "/m/01cz11"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q110823$80EC8955-9BFF-4948-AEAA-4257C60176F0
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P1181:
+  - mainsnak:
+      snaktype: value
+      property: P1181
+      hash: cd4fd7db5eeda95931b43cae81294908756e42cf
+      datavalue:
+        value:
+          amount: "+0.000000000000000000000001"
+          unit: '1'
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q110823$1a4122cf-4962-520d-f8e6-ed662a4d7c66
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 2e2ce23e2d7492feebd622686630fcd22220789d
+      datavalue:
+        value: yocto
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q110823$B7142844-FDFE-4D7F-A94F-D03D265CE0A9
+    rank: normal
+  P155:
+  - mainsnak:
+      snaktype: novalue
+      property: P155
+      hash: 2c0614dca66b9f846a3cb129bd6ca15adeba8a7a
+      datatype: wikibase-item
+    type: statement
+    id: Q110823$31b13f9e-4280-3464-2d8c-5551b793253d
+    rank: normal
+    references:
+    - hash: '011612885ba1d8d75d459891bee210fd0d8c3035'
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: c2213e83c554bae5121243bc2ace76aeffa9ce42
+          datavalue:
+            value: '19'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: cef4c7c76f433be2c042113a43ecdc990b112ef2
+          datavalue:
+            value: 6.5.4
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P156:
+  - mainsnak:
+      snaktype: value
+      property: P156
+      hash: 9e3aa8dbfee2478c599e04066affa083efe62bee
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 110807
+          id: Q110807
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q110823$36c5f436-4125-40ed-83ab-22c91572748c
+    rank: normal
+    references:
+    - hash: '011612885ba1d8d75d459891bee210fd0d8c3035'
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: c2213e83c554bae5121243bc2ace76aeffa9ce42
+          datavalue:
+            value: '19'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: cef4c7c76f433be2c042113a43ecdc990b112ef2
+          datavalue:
+            value: 6.5.4
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P2534:
+  - mainsnak:
+      snaktype: value
+      property: P2534
+      hash: ddffde6f542063f14d16a8985487bfa42a008e32
+      datavalue:
+        value: 10^{-24}
+        type: string
+      datatype: math
+    type: statement
+    id: Q110823$e678926d-4588-dc1c-1b43-c8db9affafa7
+    rank: normal
+    references:
+    - hash: '011612885ba1d8d75d459891bee210fd0d8c3035'
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: c2213e83c554bae5121243bc2ace76aeffa9ce42
+          datavalue:
+            value: '19'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: cef4c7c76f433be2c042113a43ecdc990b112ef2
+          datavalue:
+            value: 6.5.4
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P4732:
+  - mainsnak:
+      snaktype: value
+      property: P4732
+      hash: 26ae94ede528d67a35b01199d62c621db9e5c092
+      datavalue:
+        value: Y06731
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q110823$5FD54B19-0E26-47C4-8C97-5A1B4459578A
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: يوكتو
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Йокто-
+    badges: []
+  brwiki:
+    site: brwiki
+    title: Yokto
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Yocto-
+    badges: []
+  ckbwiki:
+    site: ckbwiki
+    title: یۆکتۆ-
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Yokto
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Yokto
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Yocto-
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Jokto
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Yocto
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Jokto
+    badges: []
+  fawiki:
+    site: fawiki
+    title: یوکتو
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Jokto
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Yocto
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Yocto-
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: यॉक्टो-
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Յոկտո
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Yocto-
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Yocto
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ヨクト
+    badges: []
+  kawiki:
+    site: kawiki
+    title: იოქტო...
+    badges: []
+  kmwiki:
+    site: kmwiki
+    title: យ៉ុកតូ
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 욕토
+    badges: []
+  kshwiki:
+    site: kshwiki
+    title: Yocto
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Jokto-
+    badges: []
+  ndswiki:
+    site: ndswiki
+    title: Yokto
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Yocto
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Yokto
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Yokto
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Jokto
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Yocto
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Yocto
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Иокто-
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Yocto
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Jokto
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Јокто
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Yokto
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Yokto-
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Йокто-
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Yóctô
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 攸
+    badges: []

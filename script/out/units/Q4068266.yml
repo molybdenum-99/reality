@@ -1,0 +1,341 @@
+---
+pageid: 3876968
+ns: 0
+title: Q4068266
+lastrevid: 623762331
+modified: '2018-01-27T09:24:31Z'
+type: item
+id: Q4068266
+labels:
+  en:
+    language: en
+    value: apothecaries' drachm
+aliases:
+  en:
+  - language: en
+    value: drachm
+  - language: en
+    value: dram
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 954edbd3fef27ce6396c0878a95c608ca4ed84af
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3647172
+          id: Q3647172
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P642:
+      - snaktype: value
+        property: P642
+        hash: aa2918805f3123419e57460a3e435878fbbf21e2
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 620565
+            id: Q620565
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P642
+    id: Q4068266$52387d46-49be-d120-7f2d-4f8ac778b102
+    rank: normal
+  P460:
+  - mainsnak:
+      snaktype: value
+      property: P460
+      hash: 744c5931e7b6effc5a6786a0b454c9e122efa7b3
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1255620
+          id: Q1255620
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4068266$9ad8fd5e-45bf-5742-5f15-38eaa3d90b50
+    rank: normal
+  P487:
+  - mainsnak:
+      snaktype: value
+      property: P487
+      hash: fb3798de1382af5a7d4ae05ba8b049f7a7628913
+      datavalue:
+        value: ʒ
+        type: string
+      datatype: string
+    type: statement
+    id: Q4068266$0c35354c-48d0-4c31-204c-30bf42948721
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P487
+      hash: 4b0e52e40b1853db2a8cad415e45aef5a54ed4e2
+      datavalue:
+        value: Ʒ
+        type: string
+      datatype: string
+    type: statement
+    id: Q4068266$270e962b-4b70-2feb-71cf-fe92ce5004ae
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 299e8154282cfb822b099895976c4d0671ea11f3
+      datavalue:
+        value: ʒ
+        type: string
+      datatype: string
+    type: statement
+    id: Q4068266$a6b7a8a7-4c4a-d1cd-6eb4-f83563aa215b
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: d171a052952e71896b0a4f139582303f60acc08e
+      datavalue:
+        value: Ʒ
+        type: string
+      datatype: string
+    type: statement
+    id: Q4068266$1d0a9d45-4b3f-ad3a-7121-3e94650b7b21
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: e00f4043985d7e78a27d0c970ca31e60e8763a58
+      datavalue:
+        value:
+          amount: "+0.003732"
+          unit: http://www.wikidata.org/entity/Q11570
+          upperBound: "+0.003732"
+          lowerBound: "+0.003732"
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P17:
+      - snaktype: value
+        property: P17
+        hash: e64bc21e5649b2265a5047822c9b3f580989c9eb
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 34266
+            id: Q34266
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P17
+    id: Q4068266$2dc7d212-420b-2209-7cb4-d4dc3d97841a
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 2ad793be2469d7c1a364bf9e978313f67aa4aa41
+      datavalue:
+        value:
+          amount: "+0.125"
+          unit: http://www.wikidata.org/entity/Q48013
+          upperBound: "+0.125"
+          lowerBound: "+0.125"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q4068266$659364a2-464a-aeb7-cf14-c467efb338de
+    rank: normal
+    references:
+    - hash: 2cd11ef096b536b8be47e5c43b6264733b8b235a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 037df92fb8af53db11237540215752cd653723b5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 23074364
+              id: Q23074364
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+    - hash: b0e81db0b778a7f31c424b21af1d844b2f86814f
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e3c05bc8381be6155cd73ad1943b40babeabf503
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 23074366
+              id: Q23074366
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: ac9048fc559b07034c291061bcb3971be54b5d19
+      datavalue:
+        value:
+          amount: "+3"
+          unit: http://www.wikidata.org/entity/Q1573593
+          upperBound: "+3"
+          lowerBound: "+3"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q4068266$2b4de0ec-41de-cedc-983a-e5854b1e554a
+    rank: normal
+    references:
+    - hash: b0e81db0b778a7f31c424b21af1d844b2f86814f
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e3c05bc8381be6155cd73ad1943b40babeabf503
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 23074366
+              id: Q23074366
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+    - hash: 2cd11ef096b536b8be47e5c43b6264733b8b235a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 037df92fb8af53db11237540215752cd653723b5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 23074364
+              id: Q23074364
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: b9019f3c672d0075a5fb78ca07728b8e2f9079c7
+      datavalue:
+        value:
+          amount: "+60"
+          unit: http://www.wikidata.org/entity/Q693944
+          upperBound: "+60"
+          lowerBound: "+60"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q4068266$3f8065fa-458a-915a-85b0-dcfa465a6d14
+    rank: normal
+    references:
+    - hash: b0e81db0b778a7f31c424b21af1d844b2f86814f
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e3c05bc8381be6155cd73ad1943b40babeabf503
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 23074366
+              id: Q23074366
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+    - hash: 2cd11ef096b536b8be47e5c43b6264733b8b235a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 037df92fb8af53db11237540215752cd653723b5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 23074364
+              id: Q23074364
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 5cf5f23f17299c5881500c244e29678078032aaa
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 620565
+          id: Q620565
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4068266$bfca90da-4ed9-8552-3121-5cca61d90660
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 16653c4848e0552e9604edc668341bd5f95825a4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11423
+          id: Q11423
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4068266$FA026B98-91EC-48C7-A14F-C5D2B8367429
+    rank: normal
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Dracma medicinal
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Dracma medicinal
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Аптекарская драхма
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Drahmiy
+    badges: []

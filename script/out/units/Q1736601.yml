@@ -1,0 +1,256 @@
+---
+pageid: 1669592
+ns: 0
+title: Q1736601
+lastrevid: 622989630
+modified: '2018-01-24T14:20:37Z'
+type: item
+id: Q1736601
+labels:
+  en:
+    language: en
+    value: Katian
+aliases: {}
+claims:
+  P155:
+  - mainsnak:
+      snaktype: value
+      property: P155
+      hash: c4a273147934b1759a2488c3f977cf91a7022962
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1807140
+          id: Q1807140
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q1736601$54FD1E5F-EF1B-475A-ADB7-DD20DF43347D
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P156:
+  - mainsnak:
+      snaktype: value
+      property: P156
+      hash: '0896ab22a43659430a510c608faad49c6f56a398'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 583151
+          id: Q583151
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q1736601$244FC6B4-5560-4ECE-8466-EA06AECD0D7F
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P625:
+  - mainsnak:
+      snaktype: value
+      property: P625
+      hash: 1b62c0a25580fcd1af459bf6628ff54fd160d938
+      datavalue:
+        value:
+          latitude: 34.43048333
+          longitude: -96.07455
+          altitude: 
+          precision: 2.77777777778e-06
+          globe: http://www.wikidata.org/entity/Q2
+        type: globecoordinate
+      datatype: globe-coordinate
+    type: statement
+    id: Q1736601$EEEF1BF9-4E46-493A-82C7-C5F8F60C5747
+    rank: normal
+    references:
+    - hash: d4bd87b862b12d99d26e86472d44f26858dee639
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: f30cbd35620c4ea6d0633aaf0210a8916130469b
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 8447
+              id: Q8447
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 227fbc4a97d483c6a60486c88a30f6c20a3da5d9
+      datavalue:
+        value: "/m/0nhh83h"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1736601$D26292BE-8E44-412D-88DC-6EDE61088684
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1774498cb861c7f76e71afc94661ed9a03d8461a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1123245
+          id: Q1123245
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1736601$668bb754-4124-799b-2002-be35f250a318
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: b230ba6f73ec78c2fd8b28c19fab3a1a3e51124e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 568683
+          id: Q568683
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1736601$ffe35657-4625-a12e-3a08-18e1031628d9
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 67fe9691569e1784c40df1bb4a618a343af026d3
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 13389115
+          id: Q13389115
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1736601$42871908-4838-9dc4-8d9d-abbb87215aaf
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: be4c6eafa2984964f04be85667263f5642ba1a72
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 30
+          id: Q30
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1736601$BD4CF918-E145-49B2-A255-C77788AA392F
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: الكاتي
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Катий (етаж)
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Katium
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Katian
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Katiense
+    badges: []
+  fawiki:
+    site: fawiki
+    title: کاتین
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Katien
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Katiano
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Katien
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Kat (geologia)
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Tầng Katy
+    badges: []

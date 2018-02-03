@@ -1,0 +1,132 @@
+---
+pageid: 1126873
+ns: 0
+title: Q1181471
+lastrevid: 616076052
+modified: '2018-01-03T09:33:49Z'
+type: item
+id: Q1181471
+labels:
+  en:
+    language: en
+    value: Deben
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 687900435a34246d7b71a8eee64f89535a6c300b
+      datavalue:
+        value: "/m/03hnjzg"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1181471$6A045E28-7E45-44DE-BF33-FAFB760EAFEA
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1181471$90e13083-444f-d20d-4229-c600a9f2e480
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 92de14bff85aab26281693f2837808ea3a945b74
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 25288
+          id: Q25288
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1181471$728128ef-4e05-aa54-c04b-700f14411ae4
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 895fffee92e845dbb3f495654138cc64be354e27
+      datavalue:
+        value: Deben (unit)
+        type: string
+      datatype: string
+    type: statement
+    id: Q1181471$B7045C12-A7A7-4BE9-8E77-74780A94813C
+    rank: normal
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Deben
+    badges: []
+  commonswiki:
+    site: commonswiki
+    title: Category:Deben (unit)
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Deben (Maß)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Deben (unit)
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Deben (unidad)
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Deben
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Дебен (единица измерения)
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Дебен
+    badges: []

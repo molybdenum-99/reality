@@ -1,0 +1,406 @@
+---
+pageid: 82279
+ns: 0
+title: Q79726
+lastrevid: 614181410
+modified: '2017-12-26T19:07:10Z'
+type: item
+id: Q79726
+labels:
+  en:
+    language: en
+    value: kilobyte
+aliases:
+  en:
+  - language: en
+    value: kB
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 39bd007025c225f0ec29f5e4a592aa986bc8925a
+      datavalue:
+        value: kB
+        type: string
+      datatype: string
+    type: statement
+    id: Q79726$d9f7cff7-4018-db0f-4b4f-bf6649ee69f2
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 76e957df8d27d768d58fc85228b0d6c8fa631cca
+      datavalue:
+        value: КБ
+        type: string
+      datatype: string
+    type: statement
+    id: Q79726$dabecfbc-4ae4-4ef3-c10c-ffe668a153dd
+    rank: normal
+    references:
+    - hash: c7dbc558220a8c259fce19d4fb1feebce54f280a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: d16d9dea1829f852f3c150a6a6373d3fa7d3dd86
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 4130714
+              id: Q4130714
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 689472178062fb35354a939bb5ca75015b0a13eb
+      datavalue:
+        value: Кбайт
+        type: string
+      datatype: string
+    type: statement
+    id: Q79726$0016cc6b-4cb2-8ecb-4789-124db37cbd2d
+    rank: normal
+    references:
+    - hash: c7dbc558220a8c259fce19d4fb1feebce54f280a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: d16d9dea1829f852f3c150a6a6373d3fa7d3dd86
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 4130714
+              id: Q4130714
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 14970a7439b703d476233775e813a2d75ca20f21
+      datavalue:
+        value: "/m/048w6"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q79726$8DF5A889-C81A-41CF-A614-FB0F5AE66FA8
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 2d6ead580ca479cd38b25f8d8c677f1c03ad7473
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3550873
+          id: Q3550873
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q79726$115a1ae5-4a0b-bbf7-9c94-3653cea0996e
+    rank: normal
+  P1014:
+  - mainsnak:
+      snaktype: value
+      property: P1014
+      hash: a257bd09d3e0d58b4f73b791d989d49efae46ba0
+      datavalue:
+        value: '300265870'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q79726$71ACE01B-0067-481B-A708-23A45CA088ED
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: a0b13ed86af524307cd93c1a525d00791532d937
+      datavalue:
+        value:
+          amount: "+1024"
+          unit: http://www.wikidata.org/entity/Q8799
+          upperBound: "+1024"
+          lowerBound: "+1024"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q79726$fa041770-4520-a172-80bf-3df89a0c7b26
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 563ad7288bd07f72c539e6d55527352faf2b4b45
+      datavalue:
+        value: kilobyte
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q79726$8DBB29DC-B8FF-49C1-999B-9AA1950DAEB9
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Kilogreep
+    badges: []
+  arwiki:
+    site: arwiki
+    title: كيلوبايت
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Kilobayt
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Кілябайт
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Кілабайт
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: কিলোবাইট
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Kilobajt
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Kilobyte
+    badges: []
+  ckbwiki:
+    site: ckbwiki
+    title: کیلۆبایت
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Kilobyte
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Kilobyte
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Κιλομπάιτ
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Kilobyte
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Kilobajto
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Kilobyte
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Kilobyte
+    badges: []
+  fawiki:
+    site: fawiki
+    title: کیلوبایت
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Kilobajt
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Կիլոբայթ
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Kilobita
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Kilobyte
+    badges: []
+  jawiki:
+    site: jawiki
+    title: キロバイト
+    badges: []
+  kawiki:
+    site: kawiki
+    title: კილობაიტი
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Килобайт
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 킬로바이트
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Kilobaits
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Килобајт
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: കിലോബൈറ്റ്
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: किलोबाईट
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Kilobait
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Kilobyte
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Kilobyte
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Kilobyte
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Kilobajt
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Kilobyte
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Килобайт
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Kilobyte
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Kilobyte
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Kilobajt
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Kilobyte
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Kilobajt
+    badges: []
+  sqwiki:
+    site: sqwiki
+    title: Kilobyte
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Килобајт
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Kilobyte
+    badges: []
+  tawiki:
+    site: tawiki
+    title: கிலோபைட்டு
+    badges: []
+  tewiki:
+    site: tewiki
+    title: కిలోబైట్
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Килобайт
+    badges: []
+  thwiki:
+    site: thwiki
+    title: กิโลไบต์
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Kilobayt
+    badges: []
+  ttwiki:
+    site: ttwiki
+    title: Килобайт
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Кілобайт
+    badges: []
+  urwiki:
+    site: urwiki
+    title: الف لکمہ
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Kilobyte
+    badges: []
+  warwiki:
+    site: warwiki
+    title: Kilobyte
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 千字節
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 千字节
+    badges: []

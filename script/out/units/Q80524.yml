@@ -1,0 +1,634 @@
+---
+pageid: 83023
+ns: 0
+title: Q80524
+lastrevid: 618824089
+modified: '2018-01-11T12:48:43Z'
+type: item
+id: Q80524
+labels:
+  en:
+    language: en
+    value: Indian rupee
+aliases:
+  en:
+  - language: en
+    value: Rupaya
+  - language: en
+    value: INR
+claims:
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: a86ca1baa137509786b1009e22633d7671361a9c
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 944085
+          id: Q944085
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q80524$265791b1-46ab-01a1-8ca0-64c8a0d68dfa
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q80524$D4F5E2D4-1D09-4988-BD5D-0654CF8CE154
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 18fb076bdc1c07e578546d1670ba193b768531ac
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 668
+          id: Q668
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q80524$17FDA035-1A76-4A99-8850-43ED60B28485
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 8057e4d63e19a3e162051d2bef01cc11edd5c758
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 917
+          id: Q917
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q80524$5ac9f4d9-404e-36d4-22c8-5462601bda2a
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 149ea4071d6a57ea9979e1cc1ed1d5c607b722e9
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 837
+          id: Q837
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q80524$3ac8022c-404b-d4d5-2e62-14316aad6fd8
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 2df4b93473ffd0a3bbdb02f28386b993f8bfc9a8
+      datavalue:
+        value: Money of India
+        type: string
+      datatype: string
+    type: statement
+    id: q80524$75BABE77-DF59-40F3-8D5C-92CE97FEE6DE
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 05d59846af2a6ae702419e871a69f7bfc0ea02dc
+      datavalue:
+        value: INR
+        type: string
+      datatype: external-id
+    type: statement
+    id: q80524$18881473-4cff-80e0-9ce5-0d5ea509d2c9
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: acc18bcd57377c7cdd4a4cf872e29803ce62c658
+      datavalue:
+        value: "₹"
+        type: string
+      datatype: string
+    type: statement
+    id: q80524$9d0cd7ec-4ecd-cb96-5f25-91382040249a
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: '0940de1e0523b3acca64a2facafedb90c9e6e463'
+      datavalue:
+        value: "/m/02gsvk"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q80524$B9ED3037-709D-4F6C-8C7E-3036ED1E9C3C
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2284:
+  - mainsnak:
+      snaktype: value
+      property: P2284
+      hash: da8380dcf6b561179000b2779d5d9412df29f2bb
+      datavalue:
+        value:
+          amount: "+0.014638"
+          unit: http://www.wikidata.org/entity/Q4917
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: f742be92339cdcc54bf77fbdde9a24b9045f361a
+        datavalue:
+          value:
+            time: "+2016-11-22T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q80524$E7F7DB3C-5C23-4BA2-9FE5-B5AE76268676
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: 7a01cd7a81ef0593e1cc09e854fc075ca12c72b0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 178843
+          id: Q178843
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q80524$bd972d6c-48e5-1d48-f39f-eb07c688dbec
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: a31fce8a16197d2c59c75f1073e5d57f7acf6b62
+      datavalue:
+        value: Indian-Rupee-INR
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q80524$c01d63d3-4907-6584-a901-fb06596174c7
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 4a1099220817e29caf5506eb57e2096fe76ca221
+      datavalue:
+        value: Indian-Rupees
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q80524$F853CDD7-AFF1-4549-8F13-71A437D3D4E4
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: e863b0c1ae57bd176af729ef32a90765ae800bdd
+      datavalue:
+        value: Indian_rupee
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q80524$2426ED6C-4E26-45CB-9917-1C1BA70004D4
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 73e4c1e591e2457b623883cf60390ced456cc04c
+      datavalue:
+        value: Collection of coins.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    qualifiers:
+      P2096:
+      - snaktype: value
+        property: P2096
+        hash: 07cb8682b62572a2256b763e78e448038b2dab85
+        datavalue:
+          value:
+            text: Monedes de 10 rupies
+            language: ca
+          type: monolingualtext
+        datatype: monolingualtext
+    qualifiers-order:
+    - P2096
+    id: Q80524$46a460e9-49ba-91be-9481-707c21215ca4
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 177bc830001bb1ee201552cdee92d10d071c29e5
+      datavalue:
+        value: '500127'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q80524$36C5C03C-1FFC-41E0-B303-7DC4EEF8DBD0
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Indiese roepee
+    badges: []
+  arwiki:
+    site: arwiki
+    title: روبية هندية
+    badges: []
+  arzwiki:
+    site: arzwiki
+    title: روبيه هندى
+    badges: []
+  aswiki:
+    site: aswiki
+    title: ভাৰতীয় টকা
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Hindistan rupisi
+    badges: []
+  barwiki:
+    site: barwiki
+    title: Indische Rupie
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Індыйская рупія
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Індыйская рупія
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Индийска рупия
+    badges: []
+  bhwiki:
+    site: bhwiki
+    title: भारतीय रुपिया
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: ভারতীয় টাকা
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: ভারতীয় রুপি
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Rupia índia
+    badges: []
+  commonswiki:
+    site: commonswiki
+    title: Category:Rupee (India)
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Indická rupie
+    badges: []
+  cuwiki:
+    site: cuwiki
+    title: Їндїиска роупиꙗ
+    badges: []
+  cvwiki:
+    site: cvwiki
+    title: Инди рупийĕ
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Indiske rupier
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Indische Rupie
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Ρουπία Ινδίας
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Indian rupee
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Barata rupio
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Rupia india
+    badges: []
+  etwiki:
+    site: etwiki
+    title: India ruupia
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Errupia indiar
+    badges: []
+  fawiki:
+    site: fawiki
+    title: روپیه هند
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Intian rupia
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Roupie indienne
+    badges: []
+  guwiki:
+    site: guwiki
+    title: ભારતીય રૂપિયો
+    badges: []
+  hewiki:
+    site: hewiki
+    title: רופי הודי
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: भारतीय रुपया
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Indijska rupija
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Indiai rúpia
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Rupee India
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Rupia indiana
+    badges: []
+  jawiki:
+    site: jawiki
+    title: インド・ルピー
+    badges: []
+  kawiki:
+    site: kawiki
+    title: ინდური რუპია
+    badges: []
+  knwiki:
+    site: knwiki
+    title: ಭಾರತದ ರೂಪಾಯಿ
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 인도 루피
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Индияса рупия
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Indijos rupija
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Indijas rūpija
+    badges: []
+  maiwiki:
+    site: maiwiki
+    title: भारतीय रुपया
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Индиска рупија
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: ഇന്ത്യൻ രൂപ
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: भारतीय रुपया
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Rupee India
+    badges: []
+  mywiki:
+    site: mywiki
+    title: အိန္ဒိယရူပီးငွေ
+    badges: []
+  ndswiki:
+    site: ndswiki
+    title: Rupie
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Indiase roepie
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Indisk rupi
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Indisk rupi
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Ropia d'Índia
+    badges: []
+  orwiki:
+    site: orwiki
+    title: ଭାରତୀୟ ମୁଦ୍ରା
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਭਾਰਤੀ ਰੁਪਈਆ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Rupia indyjska
+    badges: []
+  pnbwiki:
+    site: pnbwiki
+    title: بھارتی روپیا
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Rupia indiana
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Rupie indiană
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Индийская рупия
+    badges: []
+  sawiki:
+    site: sawiki
+    title: रूप्यकम्
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Indijska rupija
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Indian rupee
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Indická rupia
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Индијска рупија
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Indisk rupie
+    badges: []
+  tawiki:
+    site: tawiki
+    title: இந்திய ரூபாய்
+    badges: []
+  tcywiki:
+    site: tcywiki
+    title: ರೂಪಾಯಿ
+    badges: []
+  tewiki:
+    site: tewiki
+    title: రూపాయి
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Рупии Ҳиндустон
+    badges: []
+  thwiki:
+    site: thwiki
+    title: รูปีอินเดีย
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Rupee ng India
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Hindistan rupisi
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Індійська рупія
+    badges: []
+  urwiki:
+    site: urwiki
+    title: بھارتی روپیہ
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Rupee Ấn Độ
+    badges: []
+  wuuwiki:
+    site: wuuwiki
+    title: 印度卢比
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: ინდური რუპია
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Rupee Índíà
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Ìn-tō͘ rupee
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 印度盧比
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 印度盧比
+    badges: []

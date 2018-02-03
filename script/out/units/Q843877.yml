@@ -1,0 +1,312 @@
+---
+pageid: 796019
+ns: 0
+title: Q843877
+lastrevid: 580241167
+modified: '2017-10-18T08:13:51Z'
+type: item
+id: Q843877
+labels:
+  en:
+    language: en
+    value: solar luminosity
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 8061e3f27fda5e70c666e2952ea184cd457c331d
+      datavalue:
+        value: "/m/01dyjx"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q843877$BA5BB585-10EA-435A-BA84-464BE8F827FE
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P642:
+      - snaktype: value
+        property: P642
+        hash: 86723a98c6cc45ba6808e7d49cf68be1f8c8be7b
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 105902
+            id: Q105902
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P642
+    id: Q843877$8130e774-44f6-27c9-2435-17b88b06671a
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: '086ecd748c1f31e9013f92f724f5e875c827aced'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 105902
+          id: Q105902
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q843877$6fe34ba4-4774-d24f-18c0-5c5cde576cca
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 9d247f62909b9d0fb87886a4a244fd86b09b4bcb
+      datavalue:
+        value:
+          amount: "+382800000000000000000000000"
+          unit: http://www.wikidata.org/entity/Q25236
+          upperBound: "+384100000000000000000000000"
+          lowerBound: "+381500000000000000000000000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q843877$165c11f8-4e38-1a39-fb77-7e58763005cb
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 11d0ff5b101ae237cbedc527e9a645b33aa3c6d7
+      datavalue:
+        value: solar_luminosity
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q843877$C77D6910-BF92-44DB-823C-DE4D2E3B48A8
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: eb419760a2dd393118bc6f697f7e3444d6b6c83b
+      datavalue:
+        value: L☉
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P407:
+      - snaktype: value
+        property: P407
+        hash: d291ddb7cd77c94a7bd709a8395934147e0864fc
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 7737
+            id: Q7737
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P407
+    id: Q843877$9d6b3612-4719-78c7-b2ea-d01b2827d474
+    rank: normal
+  P2534:
+  - mainsnak:
+      snaktype: value
+      property: P2534
+      hash: 010d1d7479e7081ac0d9f8921958ee776d186577
+      datavalue:
+        value: L_\odot = 4\pi A^2 S_\odot
+        type: string
+      datatype: math
+    type: statement
+    id: Q843877$2ED5697B-1FAC-4BCB-8C04-4551C9E95D30
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Sonligsterkte
+    badges: []
+  arwiki:
+    site: arwiki
+    title: ضياء شمسي
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Сонечная сьвяцільнасьць
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Слънчева светимост
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Lluminositat solar
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Sluneční zářivost
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Solar luminosity
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Suna lumeco
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Luminosidad solar
+    badges: []
+  fawiki:
+    site: fawiki
+    title: تابندگی خورشید
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Auringon luminositeetti
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Luminosité solaire
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: सौर ज्योति
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Luminositas matahari
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Luminosità solare
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 太陽光度
+    badges: []
+  kawiki:
+    site: kawiki
+    title: მზის სიკაშკაშე
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 태양 광도
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Saulės šviesis
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Сончева сјајност
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: सौर तेजस्विता
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Solluminositet
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Jasność Słońca
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Luminozitate solară
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Солнечная светимость
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Luminusitati sulari
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Svietivosť Slnka
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Solluminositet
+    badges: []
+  thwiki:
+    site: thwiki
+    title: ความสว่างดวงอาทิตย์
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Güneşsel aydınlatma gücü
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Độ sáng của Mặt Trời
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 太陽光度
+    badges: []

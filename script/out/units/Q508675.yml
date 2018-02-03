@@ -1,0 +1,376 @@
+---
+pageid: 478318
+ns: 0
+title: Q508675
+lastrevid: 622981921
+modified: '2018-01-24T13:58:01Z'
+type: item
+id: Q508675
+labels:
+  en:
+    language: en
+    value: Bartonian
+aliases: {}
+claims:
+  P155:
+  - mainsnak:
+      snaktype: value
+      property: P155
+      hash: 38df2d55db360d0f30280f9ee2c273d599402b95
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 514893
+          id: Q514893
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q508675$EB58E181-E073-4B69-B20A-00F17CA1521F
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 701ca65615c13ca9d62792b40cec09b277b083f7
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3635466
+          id: Q3635466
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q508675$92929901-EC9F-41E9-B6C3-222C6B5D57B0
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 12bc0279d639c12ceb283ab22383aca0c9d970bf
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3635464
+          id: Q3635464
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q508675$a61df749-45ff-4d9f-5158-5d8b34c0c812
+    rank: normal
+  P156:
+  - mainsnak:
+      snaktype: value
+      property: P156
+      hash: 55d085549a9b511a4adcc83ae670439f6bf2c538
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 508438
+          id: Q508438
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q508675$6799551D-D687-4828-A6E9-5EBAF3539770
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: c9ebfb0431dbc7a8f8434901620b376e20d7e4ee
+      datavalue:
+        value: "/m/07p2v4"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q508675$0E277CF7-B7BE-4AB4-B326-6295E0FBAB93
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P910:
+  - mainsnak:
+      snaktype: value
+      property: P910
+      hash: c3f29a9969556acbe466ad32f343f690fa93818c
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 24067978
+          id: Q24067978
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q508675$74DD328A-0FD4-407E-8ABC-2DD62A577EF3
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P1417:
+  - mainsnak:
+      snaktype: value
+      property: P1417
+      hash: 1586a4b0939291ecbeffb3ded5826b716c47fb3a
+      datavalue:
+        value: science/Bartonian-Stage
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q508675$5691dcf0-4907-c497-0d23-85f76eb636da
+    rank: normal
+    references:
+    - hash: 2bf16b88dfdbda7224a7f4432a58cb0374e22325
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 141df4a779f378b05eb7678c8315b1338c238d94
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 5375741
+              id: Q5375741
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1774498cb861c7f76e71afc94661ed9a03d8461a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1123245
+          id: Q1123245
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q508675$b6ff8ff1-4a5c-94e1-33e6-48ac623205aa
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: b230ba6f73ec78c2fd8b28c19fab3a1a3e51124e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 568683
+          id: Q568683
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q508675$3d4f4648-47d1-71b0-ca73-c5de425aab73
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 5faf239df829aad676303059053c014f3c2c07fe
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 76274
+          id: Q76274
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q508675$b0aa41fa-4b19-b6dd-f7a3-e12a2b73742b
+    rank: normal
+  P3827:
+  - mainsnak:
+      snaktype: value
+      property: P3827
+      hash: 3446e853b4da56f34794d4cf66993ac887c11439
+      datavalue:
+        value: bartonian-age
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q508675$90BE7540-EE83-4A77-912D-9A79E8490DF6
+    rank: normal
+  P2581:
+  - mainsnak:
+      snaktype: value
+      property: P2581
+      hash: 3c1ec79eef1f4631e853e7c3b11f04ca59c2c15b
+      datavalue:
+        value: '01926856n'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q508675$1F4C84C8-6385-43CE-BD19-4E4D71901913
+    rank: normal
+    references:
+    - hash: bd0ee81488cd8c23d4b655e417aac78dca370283
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: a0b4f55dbedbadaf83e7d2461b47b7aeaba86359
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 4837690
+              id: Q4837690
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Bartonium
+    badges: []
+  arwiki:
+    site: arwiki
+    title: البارتوني
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Bartonianu
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Bartonià
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Bartonium
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Bartonian
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Bartoniense
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Bartoniar
+    badges: []
+  fawiki:
+    site: fawiki
+    title: بارتونین
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Bartonien
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Bartoniano
+    badges: []
+  jawiki:
+    site: jawiki
+    title: バートニアン
+    badges: []
+  ndswiki:
+    site: ndswiki
+    title: Bartonium
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Bartonien
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Bartonium
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Barton (geologia)
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Bartoniano
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Бартонский ярус
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Barton
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Tầng Barton
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 巴尔顿期
+    badges: []

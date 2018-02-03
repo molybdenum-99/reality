@@ -1,0 +1,179 @@
+---
+pageid: 3538471
+ns: 0
+title: Q3712659
+lastrevid: 582867069
+modified: '2017-10-23T01:50:17Z'
+type: item
+id: Q3712659
+labels:
+  en:
+    language: en
+    value: Texas Dollar
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: e7c261b16393e6a736cada62f9fbc90a0eff9e00
+      datavalue:
+        value: "/m/09yfyw"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3712659$73D4DBF4-8A56-4F7B-BD97-F87B569771B2
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3712659$dee211be-4a5f-4cbb-c61a-ee5c9cf318b4
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 87ccab330de87f02bf6c3031c8223324a05c2adf
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 170588
+          id: Q170588
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3712659$5DE9F293-D92A-4A8D-9CF7-FEF58A905859
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P489:
+  - mainsnak:
+      snaktype: value
+      property: P489
+      hash: c73b46a6924a772243bf2263fd6f1349b1ad027d
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11110
+          id: Q11110
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3712659$117e040d-4185-4d94-d95f-88616e7139bd
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 9500906f4cc95edbf7e1cd808c8674a8acc3970f
+      datavalue:
+        value: "$"
+        type: string
+      datatype: string
+    type: statement
+    id: Q3712659$492ab2bc-4e92-8fbf-8e28-304b3b846ce4
+    rank: normal
+  P580:
+  - mainsnak:
+      snaktype: value
+      property: P580
+      hash: 665008434e486a9f16ddf1afbe41ba2ad4ea13f1
+      datavalue:
+        value:
+          time: "+1839-01-00T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 10
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q3712659$6976b2ac-4f73-7999-b326-0c5a60d1d68d
+    rank: normal
+  P582:
+  - mainsnak:
+      snaktype: value
+      property: P582
+      hash: b006da2115401ece8f2ca3d9c82f393ac1713520
+      datavalue:
+        value:
+          time: "+1850-00-00T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 9
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q3712659$95168a4f-4951-088e-d1d9-6a7f4907674e
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Texas dollar
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Dollaro del Texas
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Dólar da República do Texas
+    badges: []

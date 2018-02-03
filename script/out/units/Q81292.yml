@@ -1,0 +1,741 @@
+---
+pageid: 83758
+ns: 0
+title: Q81292
+lastrevid: 623071842
+modified: '2018-01-24T19:42:40Z'
+type: item
+id: Q81292
+labels:
+  en:
+    language: en
+    value: acre
+aliases:
+  en:
+  - language: en
+    value: acres
+  - language: en
+    value: ac
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 324250d8f8c18afbf60bf15d3983a0f72c1ad0d7
+      datavalue:
+        value: ac
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q81292$4e3cf388-4e03-2a7e-26e8-11556641e322
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: f5a365a681bce2703a57e371b1779980b72b563e
+      datavalue:
+        value: Acre
+        type: string
+      datatype: string
+    type: statement
+    id: q81292$40829B8C-F10A-45DB-A16A-B9C868ABF478
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 28727cb6beeac21eda9951246fa78628d5d04936
+      datavalue:
+        value: "/m/0t8t"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q81292$E310512C-469D-41B8-AF10-D5325BDFD3BC
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 0f49769a073adbf1aea6d3645a68f24ad29dbeb6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1371562
+          id: Q1371562
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q81292$3b065644-4e41-f40d-f210-7562642f667b
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: f085b0c4c3db3510ae2e3f19c22f34ba4ced3b75
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 16782623
+          id: Q16782623
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q81292$5bf4f163-433b-8202-1dab-84ed66c775f6
+    rank: normal
+  P1014:
+  - mainsnak:
+      snaktype: value
+      property: P1014
+      hash: 59e25e4439b0b5323d7c6b9d7e42876b5e06039a
+      datavalue:
+        value: '300379231'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q81292$8B2B9356-1313-4239-ACBF-484FD6BB23FF
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 5d3d2a58ff0f20d78097f6e33a9e8ac441a78e2d
+      datavalue:
+        value:
+          amount: "+4046.8564224"
+          unit: http://www.wikidata.org/entity/Q25343
+          upperBound: "+4046.8564224"
+          lowerBound: "+4046.8564224"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q81292$5f87f6ce-4e23-4a6c-d8f2-25c71c290396
+    rank: normal
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: eda63bed5c3d7a3460033092338ab321a2374c7f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2041543
+          id: Q2041543
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P805:
+      - snaktype: value
+        property: P805
+        hash: 28f090a9c65d1362f543caba400498366b6eedc0
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 23849424
+            id: Q23849424
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P805
+    id: Q81292$22872C2C-6CD7-41D7-8F01-86B895D4486B
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 18e6d3e5a4b2e8891df3becff7db1570f149a24e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 20078554
+          id: Q20078554
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P805:
+      - snaktype: value
+        property: P805
+        hash: 0b664de7b33c49136288152e02f014bab7ad1cea
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 29650388
+            id: Q29650388
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P805
+    id: Q81292$188526F3-0C56-49B8-832E-8A6D7FAD88DC
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 88389772f86dcd7d415ddd029f601412e5cc894a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 602358
+          id: Q602358
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P805:
+      - snaktype: value
+        property: P805
+        hash: 5c28f55b547f216d9ff296f40379e394c63e9b3b
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 24329208
+            id: Q24329208
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P805
+    id: Q81292$524F34EB-63BB-4FD6-A938-7E0132F0FCBD
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 2fefd9d6498250915ff974509d2093afe001fa2d
+      datavalue:
+        value: Acre
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q81292$F700D0A0-A19E-45EE-BEBC-5820251FDF85
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 8b8e315df86122c7665ea464234efe0cc4e65ec0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 641227
+          id: Q641227
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q81292$e233cc51-49e2-33b9-e572-259bfbc46d54
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 4c5ca1cdc773f22a8b318b3dd4b79237e4a99c66
+      datavalue:
+        value: Acres
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q81292$0AD03F4B-6A98-4C0E-B690-7E2284C18589
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P2888:
+  - mainsnak:
+      snaktype: value
+      property: P2888
+      hash: 435c41c3746efdc834e0aa2d1af787eec37c7c08
+      datavalue:
+        value: http://qudt.org/vocab/unit/AC
+        type: string
+      datatype: url
+    type: statement
+    id: Q81292$954fe805-455a-623c-e6c6-f6cada1131c3
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: e12439f34cec95ee050daf4e503b6952b0e935f4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11500
+          id: Q11500
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q81292$5079D3CE-1E8E-40AA-99D7-94DB0B775176
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 1ec57238930f73d02ca63cee96e75420373e21a4
+      datavalue:
+        value:
+          amount: "+0.4046856"
+          unit: http://www.wikidata.org/entity/Q35852
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q81292$141fd207-4f3a-6e1c-404a-aea43c534498
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 125fdc0124dd0f8949cf35d23b0d4d31cdfd582a
+      datavalue:
+        value:
+          amount: "+4046.856"
+          unit: http://www.wikidata.org/entity/Q25343
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q81292$d5e25d49-4425-2058-6805-5ea1cc29f1fe
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 15594649222c109bc12c55e57e03a79a80ac2271
+      datavalue:
+        value:
+          amount: "+43560.00"
+          unit: http://www.wikidata.org/entity/Q857027
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q81292$2ec18324-439f-7e86-29e2-a3e3103617ef
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: fd22faffddeeaee35324dc1c09773346cdb619c2
+      datavalue:
+        value:
+          amount: "+0.004046856"
+          unit: http://www.wikidata.org/entity/Q712226
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q81292$854ff4ac-44ac-6363-f1a2-a6e748ed578e
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 2720deee22e0ac49b62b50350807bf38f6a769b8
+      datavalue:
+        value:
+          amount: "+0.001562500"
+          unit: http://www.wikidata.org/entity/Q232291
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q81292$8c377d37-4671-cce5-4716-d147b709f319
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 7e0c1b35940d4276b5b71916c48ef86350c3e8b9
+      datavalue:
+        value:
+          amount: "+4840"
+          unit: http://www.wikidata.org/entity/Q1550511
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q81292$1023b0ac-49f0-5f16-5d9f-950bd4b3ba7c
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 6269846e224e855648127b5cb52a47a0c5c2ab0e
+      datavalue:
+        value:
+          amount: "+6272640"
+          unit: http://www.wikidata.org/entity/Q1063786
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q81292$696d74f7-4ef7-6c60-be0f-6493f746d27f
+    rank: normal
+  P2581:
+  - mainsnak:
+      snaktype: value
+      property: P2581
+      hash: 3d5561409090f7363589566048f602eefbdcec5a
+      datavalue:
+        value: 00001014n
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q81292$17D60DA1-12BF-4D40-817C-3F2AC53DDD62
+    rank: normal
+    references:
+    - hash: bd0ee81488cd8c23d4b655e417aac78dca370283
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: a0b4f55dbedbadaf83e7d2461b47b7aeaba86359
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 4837690
+              id: Q4837690
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Akker
+    badges: []
+  arwiki:
+    site: arwiki
+    title: أكر
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Acre (unidá de superficie)
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Акр
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Акр
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Акър
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: একর
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: একর
+    badges: []
+  brwiki:
+    site: brwiki
+    title: Erv (gorread)
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Acre
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Acre (unitat de superfície)
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Akr
+    badges: []
+  cywiki:
+    site: cywiki
+    title: Erw
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Acre (flademål)
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Acre
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Έικρ
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Acre
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Akreo (mezurunuo)
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Acre (unidad de superficie)
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Aaker
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Akre (neurria)
+    badges: []
+  fawiki:
+    site: fawiki
+    title: جریب
+    badges: []
+  fiu_vrowiki:
+    site: fiu_vrowiki
+    title: Aakri
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Eekkeri
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Acre (unité)
+    badges: []
+  fywiki:
+    site: fywiki
+    title: Acre (oerflaktemjitte)
+    badges: []
+  gdwiki:
+    site: gdwiki
+    title: Acair (talamh)
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Acre (unidade de superficie)
+    badges: []
+  hewiki:
+    site: hewiki
+    title: אקר
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: एकड़
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Acre (jedinica)
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Ակր
+    badges: []
+  iawiki:
+    site: iawiki
+    title: Acre
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Acre (satuan luas)
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Ekra (mælieining)
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Acro
+    badges: []
+  jawiki:
+    site: jawiki
+    title: エーカー
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Акр
+    badges: []
+  knwiki:
+    site: knwiki
+    title: ಎಕರೆ
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 에이커
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Ager (mensura)
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Akras
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Akrs
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Акр
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: ഏക്കർ
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: एकर
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Ekar
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Acre (oppervlaktemaat)
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Acre
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Acre (måleenhet)
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Acre
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Akr
+    badges: []
+  pnbwiki:
+    site: pnbwiki
+    title: ایکڑ
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Acre (unidade)
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Acru
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Акр
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Acre
+    badges: []
+  sdwiki:
+    site: sdwiki
+    title: ايڪڙ
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Aker
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Acre
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Aker (jednotka)
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Aker
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Engelska tunnland
+    badges: []
+  tawiki:
+    site: tawiki
+    title: ஏக்கர்
+    badges: []
+  tewiki:
+    site: tewiki
+    title: ఎకరం
+    badges: []
+  thwiki:
+    site: thwiki
+    title: เอเคอร์
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Akre (sukat)
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Акр
+    badges: []
+  urwiki:
+    site: urwiki
+    title: ایکڑ
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Akr
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Mẫu Anh
+    badges: []
+  warwiki:
+    site: warwiki
+    title: Acre
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 英畝
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 英亩
+    badges: []

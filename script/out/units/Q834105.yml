@@ -1,0 +1,178 @@
+---
+pageid: 786771
+ns: 0
+title: Q834105
+lastrevid: 617105508
+modified: '2018-01-06T13:17:59Z'
+type: item
+id: Q834105
+labels:
+  en:
+    language: en
+    value: gram per litre
+aliases:
+  en:
+  - language: en
+    value: g/l
+  - language: en
+    value: gram per liter
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 13b06b936ebada99db03b0dbb131044cb73cff36
+      datavalue:
+        value: "/m/070_5p"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q834105$321A69BA-0952-47B4-A422-3F68817D9745
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 50afdc16346d8687f53963f614e8d645419488a0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 208469
+          id: Q208469
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q834105$4ade224a-4a1e-962a-a44d-6b1b4ba27c34
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 6c3ab14f2787040c5a372121a16db8132b0efc70
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3686031
+          id: Q3686031
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q834105$3e312ca6-4712-8ea2-d174-975f015bab42
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 254c45396879cff6e87567db52857f181aec72ac
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 29539
+          id: Q29539
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q834105$2e07d25a-40b5-5665-c084-e87c023e2a9a
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: b52268eeed93b38a045067bdea727f112add626c
+      datavalue:
+        value:
+          amount: "+1"
+          unit: http://www.wikidata.org/entity/Q844211
+          upperBound: "+1"
+          lowerBound: "+1"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q834105$d443f5e8-422d-24ee-5154-7a357ef81d62
+    rank: normal
+  P460:
+  - mainsnak:
+      snaktype: value
+      property: P460
+      hash: eae9a6fd27d7901b5afbfa44a3a7d8de0cbe6e3b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 844211
+          id: Q844211
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q834105$1da24fc6-46be-0b8a-26e4-ec51d30fc983
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 0a40c41319bb1ac5a97d4fa7de45d16d7bef8192
+      datavalue:
+        value: gram_per_litre
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q834105$F7D564A0-AFDE-4A67-9268-225904C795D5
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Gram per liter
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Gram per litre
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Gramo por litro
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Gram per liter
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Миллиграмм-процент
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Міліграм-відсоток
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 毫克/公合
+    badges: []

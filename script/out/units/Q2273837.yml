@@ -1,0 +1,123 @@
+---
+pageid: 2196346
+ns: 0
+title: Q2273837
+lastrevid: 546379710
+modified: '2017-08-26T03:00:56Z'
+type: item
+id: Q2273837
+labels:
+  en:
+    language: en
+    value: Italian East African lira
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: b8e44122e301acc35e55f51d63390666f077da8e
+      datavalue:
+        value: "/m/0b2zxs"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2273837$838F9BFB-ADD6-4A1B-967C-35CD46A24926
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2273837$BDC5C2F2-B476-44E3-A715-6E009F3897B2
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 8bfdfe092a8950e9fbcbf0cadd9d71173ab5643a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 172579
+          id: Q172579
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2273837$66bc345d-4b62-9d7f-e35c-fd294cd45d5d
+    rank: normal
+  P1001:
+  - mainsnak:
+      snaktype: value
+      property: P1001
+      hash: 406ac80447ee10f2bdaccfa91a597d9dbd2cb1f8
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 328478
+          id: Q328478
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2273837$a99e60e5-42a6-3ece-62b2-123a15b53a55
+    rank: normal
+sitelinks:
+  elwiki:
+    site: elwiki
+    title: Λίρα Ιταλικής Ανατολικής Αφρικής
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Italian East African lira
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Lira de África Oriental Italiana
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Lira dell'Africa Orientale Italiana
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Лира Итальянской Восточной Африки
+    badges: []

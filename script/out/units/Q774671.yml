@@ -1,0 +1,131 @@
+---
+pageid: 727808
+ns: 0
+title: Q774671
+lastrevid: 616949336
+modified: '2018-01-05T22:44:20Z'
+type: item
+id: Q774671
+labels:
+  en:
+    language: en
+    value: growing-degree day
+aliases:
+  en:
+  - language: en
+    value: GDD
+  - language: en
+    value: growing degree units
+  - language: en
+    value: GDUs
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: e97d5b56e2fd2d589544038e5fb5f20f9be25f1d
+      datavalue:
+        value: "/m/04c7kn"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q774671$67DADF04-1A1F-4E7D-906B-FD9B0008B649
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 211b792235e2143729b80dc1ce654b29b41b6dfb
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 16387823
+          id: Q16387823
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q774671$CC9D8F2F-1406-4214-BDF3-493E89183617
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q774671$f04a6958-42c1-2c6c-066b-8da44a9bde97
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Wachstumsgradtag
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Growing degree-day
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Suma térmica
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Degré jour de croissance
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Ակտիվ ջերմաստիճան
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Somma termica
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Temperatuursom
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Suma temperatur efektywnych
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Сумма активных температур
+    badges: []

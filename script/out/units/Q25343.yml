@@ -1,0 +1,938 @@
+---
+pageid: 28749
+ns: 0
+title: Q25343
+lastrevid: 622529086
+modified: '2018-01-22T09:49:55Z'
+type: item
+id: Q25343
+labels:
+  en:
+    language: en
+    value: square metre
+aliases:
+  en:
+  - language: en
+    value: "㎡"
+  - language: en
+    value: square meter
+  - language: en
+    value: m²
+  - language: en
+    value: m2
+  - language: en
+    value: m^2
+  - language: en
+    value: sq m
+  - language: en
+    value: square meters
+  - language: en
+    value: square metres
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 50afdc16346d8687f53963f614e8d645419488a0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 208469
+          id: Q208469
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q25343$AE6A3047-8B9D-4E32-904D-C5F91515CB64
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 0f49769a073adbf1aea6d3645a68f24ad29dbeb6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1371562
+          id: Q1371562
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q25343$b92fe2ff-406a-584d-f36d-7fbc7b6994e8
+    rank: normal
+  P487:
+  - mainsnak:
+      snaktype: value
+      property: P487
+      hash: 4c941e385734cdbe02da1a1260579d35d9efc0b3
+      datavalue:
+        value: "㎡"
+        type: string
+      datatype: string
+    type: statement
+    id: q25343$b6961cb2-4231-2ef0-d2f5-c0f2bf3c8c32
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 7da3e328185b08222094a8ea183bde2452cb965f
+      datavalue:
+        value: "/m/0bshsw"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q25343$71F75652-CEB8-4F79-B900-BB70FEB4C878
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P1296:
+  - mainsnak:
+      snaktype: value
+      property: P1296
+      hash: 52c97d19db1ce3e29beda54a72204c2e0711d93a
+      datavalue:
+        value: '0123354'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q25343$C42CD077-E694-4D4F-8403-31C0040DE25B
+    rank: normal
+    references:
+    - hash: b3fd5e254143d8b52cd96cff43af9af5e3a82358
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: f13c99a16441677ec69fcea23f221d866f1fc98f
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 199693
+              id: Q199693
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P460:
+  - mainsnak:
+      snaktype: value
+      property: P460
+      hash: cdcce8ad34964cbc16f3391f8d1e159a715b3b1e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 6997234
+          id: Q6997234
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q25343$955CF78D-FF5E-43D1-B1C1-4B58F4F87AEE
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: ef624ed67c52bed046630b9eb4ad9de80e867c05
+      datavalue:
+        value: m²
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q25343$8522893b-43df-232d-7c63-8e3747daa2cc
+    rank: normal
+    references:
+    - hash: 7229197c07829d4bf1c12dbb26dbf6703ba70d58
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: 9866c903a772ba28f16c8a43947bd7ecadf28346
+          datavalue:
+            value: 3-3.a
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 0ea283500a17f13d2d8082a44d9fe6c389380127
+      datavalue:
+        value: м²
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q25343$78bc67af-4886-6fa4-f5ff-8c483a9d440e
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 2baa396bc350e8db6491e97d4768ee301587c229
+      datavalue:
+        value: م²
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: aa3f8171d71338a019a3e43c848eb59374b15b71
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8196
+            id: Q8196
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q25343$19B4A2E7-15C1-4FF1-9336-B8B767518281
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 34023bfb86d083254bc23901a3ee9c1f24d2bb56
+      datavalue:
+        value: מ"ר
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 5ab9edfe720165e8c92da8c7b47bbac87f665de5
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 33513
+            id: Q33513
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q25343$e775ad37-4fd5-ffcd-cd64-576ec4a7805e
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: c72063e5676e2517fb00db34d92b6816122599b2
+      datavalue:
+        value: Mètre carré.png
+        type: string
+      datatype: commonsMedia
+    type: statement
+    qualifiers:
+      P2096:
+      - snaktype: value
+        property: P2096
+        hash: db3341653dac9ebc6761adeb8b5d5b694ca84d7a
+        datavalue:
+          value:
+            text: Un carré d’un mètre de côté, soit un mètre carré.
+            language: fr
+          type: monolingualtext
+        datatype: monolingualtext
+    qualifiers-order:
+    - P2096
+    id: Q25343$2209f6ac-4641-b9a1-a233-131c6b640664
+    rank: preferred
+    references:
+    - hash: d4bd87b862b12d99d26e86472d44f26858dee639
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: f30cbd35620c4ea6d0633aaf0210a8916130469b
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 8447
+              id: Q8447
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 891a50ae7705be2b2aebb0e020f268335e944869
+      datavalue:
+        value:
+          amount: "+1"
+          unit: http://www.wikidata.org/entity/Q25343
+          upperBound: "+1"
+          lowerBound: "+1"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q25343$2ea13138-4a11-4705-fa48-16b0dffa6039
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 17565c0ecc463a533e60084af50e7c4d9fe5cc07
+      datavalue:
+        value: SquareMeter
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q25343$04A5115C-412D-4244-A834-8CFFC9E50451
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 38e13f3e627ca63d6c6d66b7234f08ebdbb7329c
+      datavalue:
+        value: square_metre
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q25343$67ECD825-D639-4FE8-A6A4-EEE6D8AA764A
+    rank: normal
+  P2959:
+  - mainsnak:
+      snaktype: value
+      property: P2959
+      hash: d1ce03d6a2584341a0cf3035df66d3cc2ac9e3cf
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 25930092
+          id: Q25930092
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q25343$D3423352-09B9-4B8B-B8E0-5D842E016959
+    rank: normal
+    references:
+    - hash: c2f39ff33f55ea09d8384af9942405fbfadac0b6
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 8e2eb310e9e3fabb887a8a12729526cf45148212
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 20651139
+              id: Q20651139
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: '095b22e5c47a47f7d5e84e00899837038be11bd4'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 26711932
+          id: Q26711932
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P958:
+      - snaktype: value
+        property: P958
+        hash: 9866c903a772ba28f16c8a43947bd7ecadf28346
+        datavalue:
+          value: 3-3.a
+          type: string
+        datatype: string
+    qualifiers-order:
+    - P958
+    id: Q25343$0d8ac9c5-46e7-b7ee-9724-fa412f55e530
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: e12439f34cec95ee050daf4e503b6952b0e935f4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11500
+          id: Q11500
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q25343$158e6841-4898-76b7-781f-69d5aac2adb1
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 1f9a65b0e7fd7bd525a9b10c0aa4853c61105cc0
+      datavalue:
+        value:
+          amount: "+0.0001"
+          unit: http://www.wikidata.org/entity/Q35852
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q25343$d041c14b-42c5-a736-30c0-3cbc0ba6ab15
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 2eaa7bc64a658a11e0868784079bfdeb5424a9bb
+      datavalue:
+        value:
+          amount: "+0.0002471054"
+          unit: http://www.wikidata.org/entity/Q81292
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q25343$46995207-4910-556f-19bb-d480a05c93ef
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 516083cb4f9087b73bb31564cbfd4dc14391e606
+      datavalue:
+        value:
+          amount: "+10.76391"
+          unit: http://www.wikidata.org/entity/Q857027
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q25343$1bc0390f-40dd-deb9-f8a1-7a5b8465f43a
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: e96ca22fd083247ca7e59bf3529825e8fd11f4e4
+      datavalue:
+        value:
+          amount: "+0.000001"
+          unit: http://www.wikidata.org/entity/Q712226
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q25343$3084d81e-4d2b-6ca4-2042-7360e4d31cc9
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: cd3f04ec0bc3ec078396c49900981d217d597edf
+      datavalue:
+        value:
+          amount: "+0.0000003861022"
+          unit: http://www.wikidata.org/entity/Q232291
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q25343$a5a1ac14-40e0-c506-f828-e9161716c37f
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: c32b51177dcbd03f66a984f464f8af546c8c4395
+      datavalue:
+        value:
+          amount: "+10000"
+          unit: http://www.wikidata.org/entity/Q2489298
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q25343$019e84c2-4724-b583-0d37-e6656abf99c7
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: fd5f94e099a7104c1e184c6aa911a8eb9a73da0c
+      datavalue:
+        value:
+          amount: "+1000000"
+          unit: http://www.wikidata.org/entity/Q2737347
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q25343$ec1b8620-4466-480f-87ae-32c892ae6141
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: c41eae1805b6b1e55f99fac2fd8f09b906df2068
+      datavalue:
+        value:
+          amount: "+1000000000000"
+          unit: http://www.wikidata.org/entity/Q39462246
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q25343$b622e2de-4580-6c1f-d5a0-4493c85842b6
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 6ba102ff208921c3e92ee07d1fe7b091fcabb5cd
+      datavalue:
+        value:
+          amount: "+1.195990"
+          unit: http://www.wikidata.org/entity/Q1550511
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q25343$cfba935c-43f6-df49-8f29-fad9f607b2e1
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 343cde1edaf230ebf23ff2906c0da238f6a0d155
+      datavalue:
+        value:
+          amount: "+1550"
+          unit: http://www.wikidata.org/entity/Q1063786
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q25343$b7b92b74-4c77-c074-8f41-49f16a82eb57
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 7de5b882f1f376db675d0df9045ee0e142251342
+      datavalue:
+        value:
+          amount: "+1550031000000000"
+          unit: http://www.wikidata.org/entity/Q39462789
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q25343$4e77fd95-41d8-4f4e-02c3-4cbb15637004
+    rank: normal
+  P4746:
+  - mainsnak:
+      snaktype: value
+      property: P4746
+      hash: 759b595f76998804ce7341d7582f1353f9b8f06c
+      datavalue:
+        value: '033566'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q25343$612F5203-92FE-4F20-B143-DC01E7079AD7
+    rank: normal
+sitelinks:
+  abwiki:
+    site: abwiki
+    title: Аквадраттә метр
+    badges: []
+  afwiki:
+    site: afwiki
+    title: Vierkante meter
+    badges: []
+  alswiki:
+    site: alswiki
+    title: Quadratmeter
+    badges: []
+  arwiki:
+    site: arwiki
+    title: متر مربع
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Metru cuadráu
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Kvadrat metr
+    badges: []
+  barwiki:
+    site: barwiki
+    title: Quadratmeta
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Квадратны мэтар
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Квадратны метр
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Квадратен метър
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: বর্গমিটার
+    badges: []
+  brwiki:
+    site: brwiki
+    title: Metr karrez
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Kvadratni metar
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Metre quadrat
+    badges: []
+  ckbwiki:
+    site: ckbwiki
+    title: مەتری چوارگۆشە
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Metr čtvereční
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Kvadratmeter
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Quadratmeter
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Τετραγωνικό μέτρο
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Square metre
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Kvadrata metro
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Metro cuadrado
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Ruutmeeter
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Metro koadro
+    badges: []
+  extwiki:
+    site: extwiki
+    title: Metru quairau
+    badges: []
+  fawiki:
+    site: fawiki
+    title: متر مربع
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Neliömetri
+    badges: []
+  frrwiki:
+    site: frrwiki
+    title: Kwadraatmeeter
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Mètre carré
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Metro cadrado
+    badges: []
+  hakwiki:
+    site: hakwiki
+    title: Phiàng-fông kûng-tshak
+    badges: []
+  hewiki:
+    site: hewiki
+    title: מטר רבוע
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Četvorni metar
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Négyzetméter
+    badges: []
+  iawiki:
+    site: iawiki
+    title: Metro quadrate
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Meter persegi
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Fermetri
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Metro quadrato
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 平方メートル
+    badges: []
+  kawiki:
+    site: kawiki
+    title: კვადრატული მეტრი
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Шаршы метр
+    badges: []
+  kmwiki:
+    site: kmwiki
+    title: ម៉ែត្រការ៉េ
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 제곱미터
+    badges: []
+  kshwiki:
+    site: kshwiki
+    title: Kwadraatmeter
+    badges: []
+  kuwiki:
+    site: kuwiki
+    title: Metre çargoşe
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Metrum quadratum
+    badges: []
+  lbwiki:
+    site: lbwiki
+    title: Quadratmeter
+    badges: []
+  liwiki:
+    site: liwiki
+    title: Veerkante maeter
+    badges: []
+  lmowiki:
+    site: lmowiki
+    title: Meter quadrad
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Kvadratinis metras
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Kvadrātmetrs
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Квадратен метар
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: ചതുരശ്ര മീറ്റർ
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: चौरस मीटर
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Meter persegi
+    badges: []
+  ndswiki:
+    site: ndswiki
+    title: Quadratmeter
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Vierkante meter
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Kvadratmeter
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Kvadratmeter
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Mètre carrat
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Metr kwadratowy
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Metro quadrado
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Metru pătrat
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Квадратный метр
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Metru quatratu
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Kvadratni metar
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Square metre
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Štvorcový meter
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Kvadratni meter
+    badges: []
+  sowiki:
+    site: sowiki
+    title: Mitir labajibbaaran
+    badges: []
+  sqwiki:
+    site: sqwiki
+    title: Metri katror
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Квадратни метар
+    badges: []
+  suwiki:
+    site: suwiki
+    title: Méter pasagi
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Kvadratmeter
+    badges: []
+  swwiki:
+    site: swwiki
+    title: Mita ya mraba
+    badges: []
+  tawiki:
+    site: tawiki
+    title: சதுர மீட்டர்
+    badges: []
+  thwiki:
+    site: thwiki
+    title: ตารางเมตร
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Metrekare
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Квадратний метр
+    badges: []
+  urwiki:
+    site: urwiki
+    title: مربع میٹر
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Kvadrat metr
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Mét vuông
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Ìlọ́poméjì mítà
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Pêng-hong kong-chhioh
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 平方米
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 平方米
+    badges: []

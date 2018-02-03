@@ -1,0 +1,338 @@
+---
+pageid: 263492
+ns: 0
+title: Q272290
+lastrevid: 618744619
+modified: '2018-01-11T09:22:08Z'
+type: item
+id: Q272290
+labels:
+  en:
+    language: en
+    value: Omani rial
+aliases: {}
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: '02191d132ec83c7952bbcfa2517b87d4a16e3e29'
+      datavalue:
+        value: Banknotes of Oman
+        type: string
+      datatype: string
+    type: statement
+    id: q272290$690B4051-8E7F-46CB-85F6-4CC6D6225BBC
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q272290$F384CDDA-189F-4D7B-88EE-D03B3785119D
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 42b3744f03c4b3cd81cf67974a038e86f6fa9d8d
+      datavalue:
+        value: OMR
+        type: string
+      datatype: external-id
+    type: statement
+    id: q272290$859e88f7-4c33-24b5-21c2-b4073d394c36
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 60778dff7f4849d9c90f35b1692f58d784e36ea0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3488501
+          id: Q3488501
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q272290$6F0E7217-5572-4B0D-B212-44131BF4274D
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 1187582b9dd62b501b10bd96c019499349320e1c
+      datavalue:
+        value: "/m/04_66x"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q272290$2ECC1DF6-38A8-457F-8867-A6B485586369
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: a3b7b963c889f1b29fe3b43a5581d3bd6d29dbd0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 842
+          id: Q842
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q272290$7d69bf36-4906-299d-77c2-3a1cea00ba33
+    rank: normal
+  P2284:
+  - mainsnak:
+      snaktype: value
+      property: P2284
+      hash: df52f5f5224afb4fbcc3d8c2b524755f9ce57b87
+      datavalue:
+        value:
+          amount: "+2"
+          unit: http://www.wikidata.org/entity/Q4917
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: f742be92339cdcc54bf77fbdde9a24b9045f361a
+        datavalue:
+          value:
+            time: "+2016-11-22T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q272290$26268C23-BFF3-4F12-B8ED-23AF11004C4C
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 27fb25cf9ddcac627d82be613c1fb397eb995046
+      datavalue:
+        value: '500224'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q272290$3EBCAD88-1071-4C7E-975C-87EBBEEF50D3
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: ريال عماني
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Омански риял
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: ওমানি রিয়াল
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Rial omanita
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Ománský rial
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Omanischer Rial
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Ριάλ του Ομάν
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Omani rial
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Omana rialo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Rial omaní
+    badges: []
+  fawiki:
+    site: fawiki
+    title: ریال عمان
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Omanin rial
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Rial omanais
+    badges: []
+  hewiki:
+    site: hewiki
+    title: ריאל עומאני
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Omanski rijal
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Ománi riál
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Riyal dell'Oman
+    badges: []
+  jawiki:
+    site: jawiki
+    title: オマーン・リアル
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 오만 리알
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Оманса риал
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Omano rialas
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: ओमानी रियाल
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Omaanse rial
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Omansk rial
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਓਮਾਨੀ ਰਿਆਲ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Rial omański
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Rial omanense
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Оманский риал
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Омански ријал
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Omansk rial
+    badges: []
+  tawiki:
+    site: tawiki
+    title: ஓமானி ரியால்
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Риали Оман
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Umman riyali
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Оманський ріал
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: ომანური რიალი
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Rial Omani
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Oman rial
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 阿曼里亞爾
+    badges: []

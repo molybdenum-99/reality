@@ -1,0 +1,491 @@
+---
+pageid: 173169
+ns: 0
+title: Q173117
+lastrevid: 618691877
+modified: '2018-01-11T05:19:48Z'
+type: item
+id: Q173117
+labels:
+  en:
+    language: en
+    value: Brazilian real
+aliases:
+  en:
+  - language: en
+    value: BRL
+  - language: en
+    value: R$
+  - language: en
+    value: Real
+  - language: en
+    value: Reais
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q173117$9A532D95-0C22-4FD2-839D-322C39FBB018
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 5b46a594fa1575e078f87e9e863515a440686883
+      datavalue:
+        value: Money of Brazil
+        type: string
+      datatype: string
+    type: statement
+    id: q173117$4C3BE919-4D0A-4B2F-AE11-5E447754C51D
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: ccc5e9c737edf716967127adf4e2d61a6f312015
+      datavalue:
+        value: BRL
+        type: string
+      datatype: external-id
+    type: statement
+    id: q173117$c7e310f2-4465-66c5-9abe-4203f0482929
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 9f32a74f4fe92143f0b39cde0a67aa9d18def14d
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 806186
+          id: Q806186
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q173117$267DF844-8070-4D4E-9AB4-5943F7993B03
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: dde0f8a0d9b7b58a6e32388c5541af73faa832b2
+      datavalue:
+        value: "/m/03385m"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q173117$1F2A2B64-E2F8-4529-9E0A-713FB6EF03D7
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: bc31c52dda233da07d6e9bbd5b8d75602009726d
+      datavalue:
+        value: 100 reais 2012 verso.png
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q173117$460C02FC-BA02-4DF5-968B-5A0363A2BD31
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 90114304161d20f1934075ea47b8a33a76e95138
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 155
+          id: Q155
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q173117$5a9e31da-472d-2604-a38b-8f44525d282f
+    rank: normal
+  P910:
+  - mainsnak:
+      snaktype: value
+      property: P910
+      hash: beda409129309213ede5b393981d313235a6b22c
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 14486176
+          id: Q14486176
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q173117$AD9D1CCF-D3A8-47C9-A9C4-49C70120F09A
+    rank: normal
+    references:
+    - hash: 9424852ca7d9d48269148c57acbefacca1899882
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: b7f8bea3bb10c237323eb448dc4798948923bd5c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 11921
+              id: Q11921
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 940362598e8b26c4baa387d7cb2df4f0e4beb959
+      datavalue:
+        value: R$
+        type: string
+      datatype: string
+    type: statement
+    id: Q173117$9e646f4e-4531-1c81-9c4a-6ba3fd094d7a
+    rank: normal
+  P155:
+  - mainsnak:
+      snaktype: value
+      property: P155
+      hash: f91d970737f2adc9970c11227f82ff47dcc44fb8
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 831578
+          id: Q831578
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q173117$0ad15975-44e2-1bca-558f-91a0a5856b7c
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 61ef766aa890e4ce28540607cc2939c44fe7c276
+      datavalue:
+        value: BrazilianReal
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q173117$43c895c1-4257-2ee2-0656-f9dbf390ce19
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 041d824c62e862295be6dadafe1a466c16356739
+      datavalue:
+        value: '500134'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q173117$C0F972E3-C910-4452-BF7D-A1E030C82CC1
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Real
+    badges: []
+  arwiki:
+    site: arwiki
+    title: ريال برازيلي
+    badges: []
+  arzwiki:
+    site: arzwiki
+    title: ريال برازيلي
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Braziliya realı
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Бразільскі рэал
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Бразилски реал
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: ব্রাজিলিয়ান রিয়েল
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Brazilski real
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Real brasiler
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Brazilský real
+    badges: []
+  cuwiki:
+    site: cuwiki
+    title: Браꙁїлїискъ рєалъ
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Brasiliansk real
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Brasilianischer Real
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Ρεάλ Βραζιλίας
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Brazilian real
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Brazila realo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Real brasileño
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Erreal brasildar
+    badges: []
+  fawiki:
+    site: fawiki
+    title: رئال برزیل
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Brasilian real
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Réal brésilien
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Real brasileiro
+    badges: []
+  gnwiki:
+    site: gnwiki
+    title: Real (viru)
+    badges: []
+  hewiki:
+    site: hewiki
+    title: ריאל ברזילאי
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: ब्राज़ीली रियाल
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Brazilski real
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Brazil real
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Բրազիլական ռեալ
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Real Brasil
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Real brasiliano
+    badges: []
+  jawiki:
+    site: jawiki
+    title: レアル
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 브라질 헤알
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Бразилияса реал
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Brazilijos realas
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Бразилски реал
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: ब्राझिलियन रेआल
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Real Brazil
+    badges: []
+  mwlwiki:
+    site: mwlwiki
+    title: Rial (moneda)
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Braziliaanse real
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Real
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Brasiliansk real
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਬ੍ਰਾਜ਼ੀਲੀ ਰਿਆਲ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Real brazylijski
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Real (moeda)
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Real (monedă)
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Бразильский реал
+    badges:
+    - Q17437798
+  scowiki:
+    site: scowiki
+    title: Brazilian real
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Brazilski real
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Бразилски реал
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Real
+    badges: []
+  tawiki:
+    site: tawiki
+    title: பிரேசிலிய ரெயால்
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Реали Бразилия
+    badges: []
+  thwiki:
+    site: thwiki
+    title: เรอัลบราซิล
+    badges: []
+  tkwiki:
+    site: tkwiki
+    title: Real
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Brezilya reali
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Бразильський реал
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Real Brasil
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Real Brasil
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Pa-se real
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 巴西雷亞爾
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 巴西雷亚尔
+    badges: []

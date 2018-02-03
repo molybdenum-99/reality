@@ -1,0 +1,409 @@
+---
+pageid: 189300
+ns: 0
+title: Q190951
+lastrevid: 617888330
+modified: '2018-01-08T22:58:38Z'
+type: item
+id: Q190951
+labels:
+  en:
+    language: en
+    value: Singapore dollar
+aliases:
+  en:
+  - language: en
+    value: SGD
+  - language: en
+    value: S$
+  - language: en
+    value: "$"
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q190951$3D288FE3-BBDE-4C3A-8DB8-DDE839480B32
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 141f428fa9046cc73ccc5676fca5200e48685331
+      datavalue:
+        value: SGD
+        type: string
+      datatype: external-id
+    type: statement
+    id: q190951$eaebe1c8-430f-d3ee-dc1a-9d056f807052
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: b0f054801b89f78cf6d2fa767b9bee57a1a858be
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2661296
+          id: Q2661296
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q190951$D7AB4040-5675-48B3-A2A4-9425B975B325
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 9625c70e020ddcd24801641503a03d945ee36205
+      datavalue:
+        value: "/m/02f32g"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q190951$7111998F-6B8C-4638-9C00-7684CF1E7728
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 59571a290b13aa49bfed67e811ebfd5966758ac1
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 334
+          id: Q334
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q190951$5a49a2b5-4f2c-af7e-b46d-c93bcea96524
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 3dc7f988065bab4543010d69921f207818df9535
+      datavalue:
+        value: Coins of Singapore
+        type: string
+      datatype: string
+    type: statement
+    id: Q190951$765b5e75-43b5-94a0-59db-914549a1539d
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: b110c44e4f4661a802f70ce6a60597b9ca819116
+      datavalue:
+        value: Singapore_dollar
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q190951$AC131CBF-8FE4-45D7-A4F3-F794AB17C754
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: 58aefd5472e9725c741c446715f38df346769277
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 14083
+          id: Q14083
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q190951$a2bc97e3-4550-d34b-6b81-445d0f82bc7a
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 606a908593ec9000f01db60b52e4ac8260235e49
+      datavalue:
+        value: '500244'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q190951$AB84FBEC-7CBB-4B37-82FB-2F2029973F0F
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Singapoer-dollar
+    badges: []
+  arwiki:
+    site: arwiki
+    title: دولار سنغافوري
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Dólar de Singapur
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Сынгапурскі даляр
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Сінгапурскі долар
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Сингапурски долар
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: সিঙ্গাপুরি ডলার
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Dòlar de Singapur
+    badges: []
+  commonswiki:
+    site: commonswiki
+    title: Category:Coins of Singapore
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Singapurský dolar
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Singaporeanske dollar
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Singapur-Dollar
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Singapore dollar
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Singapura dolaro
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Dólar de Singapur
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Dolar singapurtar
+    badges: []
+  fawiki:
+    site: fawiki
+    title: دلار سنگاپور
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Singaporen dollari
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Dollar de Singapour
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Dólar de Singapur
+    badges: []
+  hewiki:
+    site: hewiki
+    title: דולר סינגפורי
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Singapurski dolar
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Szingapúri dollár
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Սինգապուրյան դոլար
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Dolar Singapura
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Dollaro di Singapore
+    badges: []
+  jawiki:
+    site: jawiki
+    title: シンガポールドル
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 싱가포르 달러
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Сингапурса доллар
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Singapūro doleris
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: സിംഗപ്പൂർ ഡോളർ
+    badges: []
+  mnwiki:
+    site: mnwiki
+    title: Сингапур доллар
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: सिंगापूर डॉलर
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Dolar Singapura
+    badges: []
+  mywiki:
+    site: mywiki
+    title: စင်ကာပူဒေါ်လာ
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Singaporese dollar
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Singaporsk dollar
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਸਿੰਘਾਪੁਰੀ ਡਾਲਰ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Dolar singapurski
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Dólar de Singapura
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Сингапурский доллар
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Singapore dollar
+    badges: []
+  siwiki:
+    site: siwiki
+    title: සිංගප්පූරු ඩොලරය
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Сингапурски долар
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Singaporiansk dollar
+    badges: []
+  tawiki:
+    site: tawiki
+    title: சிங்கப்பூர் வெள்ளி
+    badges: []
+  thwiki:
+    site: thwiki
+    title: ดอลลาร์สิงคโปร์
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Singapur doları
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Сінгапурський долар
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Đô la Singapore
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: სინგაპურული დოლარი
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Dọ́là Singapore
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Sin-ka-pho dollar
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 星加坡元
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 新加坡元
+    badges: []

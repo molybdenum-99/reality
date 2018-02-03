@@ -1,0 +1,99 @@
+---
+pageid: 6100571
+ns: 0
+title: Q6294539
+lastrevid: 395118796
+modified: '2016-10-25T13:30:59Z'
+type: item
+id: Q6294539
+labels:
+  en:
+    language: en
+    value: Joug
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q6294539$3498fa6f-45bf-2111-41fd-52b0f623c01d
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 16653c4848e0552e9604edc668341bd5f95825a4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11423
+          id: Q11423
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q6294539$ec57ef35-424d-9f91-775f-bd997a47afb6
+    rank: normal
+  P973:
+  - mainsnak:
+      snaktype: value
+      property: P973
+      hash: 650fef671437d3bb77002e604c8aa8f75b0a2164
+      datavalue:
+        value: http://www.scan.org.uk/measures/capacity.asp
+        type: string
+      datatype: url
+    type: statement
+    qualifiers:
+      P407:
+      - snaktype: value
+        property: P407
+        hash: daf1c4fcb58181b02dff9cc89deb084004ddae4b
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 1860
+            id: Q1860
+          type: wikibase-entityid
+        datatype: wikibase-item
+      P813:
+      - snaktype: value
+        property: P813
+        hash: 0cb7b39620aa75087f587a1d26bb106263211230
+        datavalue:
+          value:
+            time: "+2016-10-25T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      P958:
+      - snaktype: value
+        property: P958
+        hash: c6558056ae69ac744ff26601500ceb71782f4eb8
+        datavalue:
+          value: LIQUID CAPACITY
+          type: string
+        datatype: string
+    qualifiers-order:
+    - P407
+    - P813
+    - P958
+    id: Q6294539$ef72a79a-4dca-ff2b-69c8-58a14a6bf459
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Joug
+    badges: []

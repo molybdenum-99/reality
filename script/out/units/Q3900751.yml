@@ -1,0 +1,136 @@
+---
+pageid: 3721845
+ns: 0
+title: Q3900751
+lastrevid: 619472490
+modified: '2018-01-12T22:53:43Z'
+type: item
+id: Q3900751
+labels:
+  en:
+    language: en
+    value: Salvadoran peso
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 62b92ff7d900ebf6441612661ea967a57d2eb600
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1643989
+          id: Q1643989
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q3900751$4CCDD1F3-148F-40E1-A31E-950F2E7C480E
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3900751$5a29178e-4da2-3acb-c402-a30dd92e89aa
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 3e2e3de95bf069f64c11e9c0c20052d75ac63fd5
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 244696
+          id: Q244696
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3900751$1de5b73e-4df2-6ddf-0f29-0896ed21b2af
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 042bc602c1b8bd8693fb72f46094c3ba4c3fd33e
+      datavalue:
+        value: "/m/09z8df"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3900751$D1F806F5-C4F9-4751-B9E6-2E35A2CF0D2B
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: e900864d398a822a37621155dd155103f83d35ba
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 792
+          id: Q792
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3900751$e2e756c4-432e-ebfb-c719-fbb3f861bd26
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Salvadoran peso
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Peso salvadoreño
+    badges: []
+  fawiki:
+    site: fawiki
+    title: پزو السالوادور
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Peso salvadoregno
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Сальвадорское песо
+    badges: []

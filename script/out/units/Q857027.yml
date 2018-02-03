@@ -1,0 +1,397 @@
+---
+pageid: 808749
+ns: 0
+title: Q857027
+lastrevid: 560716772
+modified: '2017-09-17T14:03:15Z'
+type: item
+id: Q857027
+labels:
+  en:
+    language: en
+    value: square foot
+aliases:
+  en:
+  - language: en
+    value: sqft
+  - language: en
+    value: ft2
+  - language: en
+    value: square feet
+  - language: en
+    value: sq ft
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 9fdc70a9e41f8cf60b77fca71cac38c6600945e7
+      datavalue:
+        value: "/m/033sw1"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q857027$5B161A90-D094-415E-9DC5-D940A3DCDB48
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 0f49769a073adbf1aea6d3645a68f24ad29dbeb6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1371562
+          id: Q1371562
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q857027$72214767-4f7a-6dd4-6d3a-e923dd164397
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: c5b2046553133537175285407a763e50cd22f4f4
+      datavalue:
+        value:
+          amount: "+0.09290304"
+          unit: http://www.wikidata.org/entity/Q25343
+          upperBound: "+0.09290304"
+          lowerBound: "+0.09290304"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q857027$3c6a8a12-4739-804f-ca22-af7f8892cb04
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: bb44099515e6f418a3836206af1b3fbedc4a2ac0
+      datavalue:
+        value:
+          amount: "+144"
+          unit: http://www.wikidata.org/entity/Q1063786
+          upperBound: "+144"
+          lowerBound: "+144"
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P2559:
+      - snaktype: value
+        property: P2559
+        hash: 4cd1ba2a5a68e9daa968aeea8319d499b8dfd692
+        datavalue:
+          value:
+            text: 1 square foot = 12×12 square inch
+            language: en
+          type: monolingualtext
+        datatype: monolingualtext
+    qualifiers-order:
+    - P2559
+    id: Q857027$9d334bc7-4b6b-0b65-2f5e-3d39eb19daf0
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: ff74898b89489d503fbde98005d2f42c2eed4689
+      datavalue:
+        value:
+          amount: "+0.000009290304"
+          unit: http://www.wikidata.org/entity/Q35852
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q857027$41e7356c-4d5c-15ab-7e60-55402e9c9777
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 1d6fae1eb6041c08f4f61416129abe0002a232e4
+      datavalue:
+        value:
+          amount: "+0.09290304"
+          unit: http://www.wikidata.org/entity/Q25343
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q857027$83ff0de8-44f7-dc69-410f-00106bf86527
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 53eb8f92f3ce6fe79350975fe02cfb4db4bf6bb8
+      datavalue:
+        value:
+          amount: "+0.00002295684"
+          unit: http://www.wikidata.org/entity/Q81292
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q857027$f740beb8-4a52-22e5-bbc9-62a1803c57d5
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: d8a8cbe7bb07652149beb19194a908dc9c4d37a6
+      datavalue:
+        value:
+          amount: "+0.00000009290304"
+          unit: http://www.wikidata.org/entity/Q712226
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q857027$6ae3fc3d-42c6-2e6c-c775-ef2aa39927b3
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 5cc55702c413e5a7f3f9868bfdf42b4633180489
+      datavalue:
+        value:
+          amount: "+0.00000003587006"
+          unit: http://www.wikidata.org/entity/Q232291
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q857027$2478c0c5-42ae-b0af-77a4-ab622f17b5be
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: cfe3ee0a9423ea4ace6a5c9489cb4eccf42c4a82
+      datavalue:
+        value:
+          amount: "+929.0304"
+          unit: http://www.wikidata.org/entity/Q2489298
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q857027$f94c70fe-4814-47eb-77e4-90787a48c4d9
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: edcf2d051501ab34774abac95ff0ea8f36ea09de
+      datavalue:
+        value:
+          amount: "+92903.04"
+          unit: http://www.wikidata.org/entity/Q2737347
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q857027$95ea4d08-41d3-21e3-470c-432386644c4d
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: a67385057e681ec45c6d3ea65fe1e09fb4558ff7
+      datavalue:
+        value:
+          amount: "+92903040000"
+          unit: http://www.wikidata.org/entity/Q39462246
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q857027$a2498a2f-472d-7d61-a328-d15acfbb6d3d
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 17502ef2e7ba0008084a5f6c64e1aa87f7a79628
+      datavalue:
+        value:
+          amount: "+0.1111111"
+          unit: http://www.wikidata.org/entity/Q1550511
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q857027$33f2bf31-4eab-c6be-7fb3-18e96dce1188
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: f87e95aaf03319edc72d8afe4670324126b599f8
+      datavalue:
+        value:
+          amount: "+144"
+          unit: http://www.wikidata.org/entity/Q1063786
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q857027$06a5cc69-447f-4b96-c50a-5e071e48731d
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: dc175c5f54223bd3f7a6ea48b54d402829971b3c
+      datavalue:
+        value:
+          amount: "+144000000000000"
+          unit: http://www.wikidata.org/entity/Q39462789
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q857027$281ee4b5-4c91-45a9-b4c9-64d2ea5164d4
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 83c0536afca78f1bc85888c3559b92e472d9f33a
+      datavalue:
+        value: Square-Feet
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q857027$502A844A-8F0F-403A-8D87-BF79B1480DF2
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: e12439f34cec95ee050daf4e503b6952b0e935f4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11500
+          id: Q11500
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q857027$3F55265A-CE42-4A59-BCB8-CBEB0F2246A7
+    rank: normal
+sitelinks:
+  astwiki:
+    site: astwiki
+    title: Pie cuadráu
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Квадратен фут
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Quadratfuß
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Square foot
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Pie cuadrado
+    badges: []
+  fawiki:
+    site: fawiki
+    title: فوت مربع
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Pied carré
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Pé cadrado
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Négyzetláb
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Piede quadro
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 平方フィート
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Квадратна стапка
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Kvadratfot
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Pé quadrado
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Квадратный фут
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Square foot
+    badges: []
+  tawiki:
+    site: tawiki
+    title: சதுர அடி
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Квадратний фут
+    badges: []
+  urwiki:
+    site: urwiki
+    title: مربع فٹ
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Foot vuông
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 平方英尺
+    badges: []

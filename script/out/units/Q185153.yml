@@ -1,0 +1,359 @@
+---
+pageid: 184034
+ns: 0
+title: Q185153
+lastrevid: 616351683
+modified: '2018-01-04T01:37:47Z'
+type: item
+id: Q185153
+labels:
+  en:
+    language: en
+    value: erg
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 06df6efe68f6e25b0d602229267e4d3e9ccc3d64
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2916980
+          id: Q2916980
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q185153$249346f3-49eb-dcf5-a37f-c271f64187af
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 0cf81615b73f8b94fd6909d541faf89b7823d204
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 26240
+          id: Q26240
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q185153$d386a63f-406d-a09c-16f6-2f5ad88225cf
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: a0ec66267dc74499ed69623da6d8e4480bdc3daa
+      datavalue:
+        value: erg
+        type: string
+      datatype: string
+    type: statement
+    id: Q185153$469d7fde-4635-51c1-8c37-5919c8804bc3
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: d53dc3f1341527544dadaa572da76009a8f08c96
+      datavalue:
+        value: "/m/02phk"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q185153$1084F258-AE11-45FC-A660-13DB43DF494C
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 69058b6b716af08631e67a44ba4b000202f8ddf1
+      datavalue:
+        value: Erg
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q185153$A646BD3C-F21B-4290-80A8-03CA7FF77AFD
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 744b9b834d87daa95bb91dfe237724ed5cb542be
+      datavalue:
+        value:
+          amount: "+0.0000001"
+          unit: http://www.wikidata.org/entity/Q25269
+          upperBound: "+0.0000001"
+          lowerBound: "+0.0000001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q185153$d7eaaeed-4ce7-9d63-b660-9f7049906b5c
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: c1c4431e33d8ab390df126f04663d55364b81116
+      datavalue:
+        value: erg
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q185153$08266A2C-F776-41A5-BC73-3A7997E72812
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 7ad0f8fc8c23eb3ede324fc816121895c19109c6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11379
+          id: Q11379
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q185153$EDDB082A-B276-4CC8-8096-673BD4A48A44
+    rank: normal
+  P4223:
+  - mainsnak:
+      snaktype: value
+      property: P4223
+      hash: fd03a90acbb0753f238892d6f6a599acaa9e4348
+      datavalue:
+        value: erg
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q185153$0BE90A37-6AAB-410E-8019-B02EFF60300F
+    rank: normal
+    references:
+    - hash: d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 5a343e7e758a4282a01316d3e959b6e653b767fc
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 11920
+              id: Q11920
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: إرج
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Эрг
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Эрг
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Ерг
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Erg (unitat cgs)
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Erg
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Erg (måleenhed)
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Erg (Einheit)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Erg
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Ergo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Ergio
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Erg
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Erg
+    badges: []
+  fawiki:
+    site: fawiki
+    title: ارگ (یکا)
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Ergi
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Erg (unité)
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Erguio
+    badges: []
+  hewiki:
+    site: hewiki
+    title: ארג
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Erg
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Erg
+    badges: []
+  jawiki:
+    site: jawiki
+    title: エルグ
+    badges: []
+  kawiki:
+    site: kawiki
+    title: ერგი
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: ЭРГ (Өлшеу техникасы)
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 에르그
+    badges: []
+  lbwiki:
+    site: lbwiki
+    title: Erg (Eenheet)
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Ерг
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Erg
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Erg (eenheid)
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Erg
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Erg
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Erg (jednostka)
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Erg
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Erg (unitate)
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Эрг
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Erg
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Erg
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Ерг (јединица)
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Erg
+    badges: []
+  thwiki:
+    site: thwiki
+    title: เออร์ก
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Erg
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Ерг
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Erg (birlik)
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Erg
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 爾格
+    badges: []

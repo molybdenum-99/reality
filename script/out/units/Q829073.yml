@@ -1,0 +1,477 @@
+---
+pageid: 781823
+ns: 0
+title: Q829073
+lastrevid: 584850734
+modified: '2017-10-27T08:10:29Z'
+type: item
+id: Q829073
+labels:
+  en:
+    language: en
+    value: arcsecond
+aliases:
+  en:
+  - language: en
+    value: arcsec
+  - language: en
+    value: arc-sec
+  - language: en
+    value: "″"
+  - language: en
+    value: second
+  - language: en
+    value: second of arc
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 114407d8f5f64b19f01153752bedcf6679128ec0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 13587321
+          id: Q13587321
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q829073$421511E3-D45D-4D9B-84A0-EC589773013F
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 51d448b6d652a150e2935601ed6b5d14d1469e43
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 22066399
+          id: Q22066399
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q829073$04643145-4b44-01c2-cf63-8b5321fc284a
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 7a2e33176bc41be0a124e070021b73935e56da01
+      datavalue:
+        value: "″"
+        type: string
+      datatype: string
+    type: statement
+    id: q829073$14d488fe-4422-eb5a-7f00-caf52e3cbd01
+    rank: normal
+    references:
+    - hash: fe6b5dd7a873279b7847286a2e1e29865e66e930
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 26fc09289522fb4d0720942564c921c35a0d4db9
+          datavalue:
+            value: '21'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: d91796d6666672ef9ffefbcaff859ec386db1751
+          datavalue:
+            value: 6.5.6
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+    - hash: db79bd229793fd5dcbbfc4c7454713f252c9a4f0
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: 141e749fbb2121db47a7797459b020c25204897b
+          datavalue:
+            value: 3-5.d
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: a998b2bd08fd336dead1c11605dc55d06bc17bfe
+      datavalue:
+        value: "\""
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 120f05a3c89af48217bb82f861634d9efc5486cd
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8815
+            id: Q8815
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q829073$8946bd49-41a5-433f-eedb-6b7e65b19338
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: d0feb6f4d24ea3bcd137fc71595c04cd7cba024d
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 12097402
+          id: Q12097402
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q829073$0e106bc4-4fdc-1bbf-f1ee-ffcd71914568
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 130b9cd1f448c635bd816894ab351d0b9a92aac7
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11352
+          id: Q11352
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q829073$5aea16c5-4ada-df2b-99be-0f5abc4becc8
+    rank: normal
+    references:
+    - hash: fe6b5dd7a873279b7847286a2e1e29865e66e930
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 26fc09289522fb4d0720942564c921c35a0d4db9
+          datavalue:
+            value: '21'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: d91796d6666672ef9ffefbcaff859ec386db1751
+          datavalue:
+            value: 6.5.6
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 87efda93e830b7024df0a8ab96352e4c1874b049
+      datavalue:
+        value: ArcSecond
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q829073$244dea72-40f0-048b-f509-adcae90f7f1b
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: b0430f7d3485774cb91f531252582e4df3992f78
+      datavalue:
+        value:
+          amount: "+0.01666666666666666666"
+          unit: http://www.wikidata.org/entity/Q209426
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P2534:
+      - snaktype: value
+        property: P2534
+        hash: da07081022bebeed7895ef34e77c841947131eb6
+        datavalue:
+          value: "^{\\prime\\prime} = \\frac{1}{60} \\cdot ^\\prime"
+          type: string
+        datatype: math
+    qualifiers-order:
+    - P2534
+    id: Q829073$5ce12ea5-4db3-c2bf-5762-544848a67dfd
+    rank: normal
+    references:
+    - hash: fe6b5dd7a873279b7847286a2e1e29865e66e930
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 26fc09289522fb4d0720942564c921c35a0d4db9
+          datavalue:
+            value: '21'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: d91796d6666672ef9ffefbcaff859ec386db1751
+          datavalue:
+            value: 6.5.6
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 7c9affd6f04a7339697ac7958eafbbb7a00cc481
+      datavalue:
+        value:
+          amount: "+0.0002777777777777777777"
+          unit: http://www.wikidata.org/entity/Q28390
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P2534:
+      - snaktype: value
+        property: P2534
+        hash: 3db70a5666090f295cee86b6874fcfd405b94c37
+        datavalue:
+          value: "^{\\prime\\prime} = \\frac{1}{3600} \\cdot ^\\circ"
+          type: string
+        datatype: math
+    qualifiers-order:
+    - P2534
+    id: Q829073$553d3497-4df8-2f4d-3f90-69fee5d3796f
+    rank: normal
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: '095b22e5c47a47f7d5e84e00899837038be11bd4'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 26711932
+          id: Q26711932
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P958:
+      - snaktype: value
+        property: P958
+        hash: 141e749fbb2121db47a7797459b020c25204897b
+        datavalue:
+          value: 3-5.d
+          type: string
+        datatype: string
+    qualifiers-order:
+    - P958
+    id: Q829073$93938a0e-473e-846a-aff0-dcdc0657a6cf
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: fd18e222e746ffaea184fac35a564a0cf3fd715d
+      datavalue:
+        value: second-plane_angle
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q829073$1A14F0DC-F4FE-4C41-BF8A-A9943B62FB06
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 3aac22964d2fe1db6b53bffa4d5000aa3288c1db
+      datavalue:
+        value:
+          amount: "+0.0000048481368110954"
+          unit: http://www.wikidata.org/entity/Q33680
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q829073$eb408b4e-46b2-4250-176e-5deaaeb6c394
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Boogsekonde
+    badges: []
+  arwiki:
+    site: arwiki
+    title: ثانية قوسية
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Segundu sexaxesimal
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Арксекунда
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Vteřina
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Buesekund
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Winkelsekunde
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Arcsecond
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Arksekundo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Segundo sexagesimal
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Kaaresekund
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Segundo sexagesimal
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Kulmasekunti
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Secondo (geometria)
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 秒 (角度)
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 초 (각도)
+    badges: []
+  lbwiki:
+    site: lbwiki
+    title: Bousekonn
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Boogseconde
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Buesekund
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Sekunda kątowa
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Segundo de arco
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Secundă de arc
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Arcsecond
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Uhlová sekunda
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Kotna sekunda
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Bågsekund
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Açısal saniye
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Кутова секунда
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 角秒
+    badges: []

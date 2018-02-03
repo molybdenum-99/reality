@@ -1,0 +1,229 @@
+---
+pageid: 15082974
+ns: 0
+title: Q13400897
+lastrevid: 606352922
+modified: '2017-12-09T14:20:21Z'
+type: item
+id: Q13400897
+labels:
+  en:
+    language: en
+    value: Standard gravity
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 62acd565620d9152b293446e89ff6eef514970ac
+      datavalue:
+        value: "/m/02p6l39"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q13400897$A6804B43-BDA2-4523-9089-3462056BE3E4
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q13400897$c3e21e6a-4607-75cd-991d-2fdb564c2d82
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 96c0ff85bf52b10f8212a977c5bee363f9f0841c
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 30006
+          id: Q30006
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q13400897$76234699-47d9-2f45-8c4b-eb50f754f2fc
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: e416cd65380482309d6a43281afb2558579e67c3
+      datavalue:
+        value: g
+        type: string
+      datatype: string
+    type: statement
+    id: Q13400897$86348235-4ec7-ab2b-f618-693bfaa5a96f
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: bed72c4cf113ba437a991f5391ee62c5d2ee1986
+      datavalue:
+        value:
+          amount: "+9.80665"
+          unit: http://www.wikidata.org/entity/Q1051665
+          upperBound: "+9.80665"
+          lowerBound: "+9.80665"
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P580:
+      - snaktype: value
+        property: P580
+        hash: 963e83f6767b00a7ddcfd1c6df9a7332812adc01
+        datavalue:
+          value:
+            time: "+1901-00-00T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 9
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P580
+    id: Q13400897$f7c13474-4c96-5c95-489c-ed2861dccb4b
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 5fe0a705b4131f0e288a32fcc63aab602f4c7164
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11376
+          id: Q11376
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q13400897$acdfa272-4153-b19f-61d8-c0876661a04b
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 9c9779209edf30434464319c577c5e30d5e4fae7
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1213508
+          id: Q1213508
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q13400897$611db0d0-44f3-37c7-7b96-37c0c7b6c4c2
+    rank: normal
+  P1889:
+  - mainsnak:
+      snaktype: value
+      property: P1889
+      hash: 282eaf0b018e122e50c5cfc8b49c95dc196e5fca
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 673166
+          id: Q673166
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q13400897$ad361aea-4b41-3bcc-895a-2e2c684aec52
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: جاذبية معيارية
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Τυπική βαρύτητα
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Standard gravity
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Gravedad estándar
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Accélération normale de la pesanteur terrestre
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 標準重力
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 표준중력
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Laisvojo kritimo pagreitis
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Przyspieszenie ziemskie
+    badges: []
+  tawiki:
+    site: tawiki
+    title: திட்ட புவியீர்ப்பு முடுக்கம்
+    badges: []
+  urwiki:
+    site: urwiki
+    title: معیاری کشش ثقل
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 標準重力
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 標準重力
+    badges: []

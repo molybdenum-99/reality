@@ -1,0 +1,122 @@
+---
+pageid: 2979103
+ns: 0
+title: Q3117809
+lastrevid: 622458394
+modified: '2018-01-21T23:26:07Z'
+type: item
+id: Q3117809
+labels:
+  en:
+    language: en
+    value: microampere
+aliases:
+  en:
+  - language: en
+    value: µA
+  - language: en
+    value: "㎂"
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 82c27aa214ce6cced8962584cda077fe069c979f
+      datavalue:
+        value: µA
+        type: string
+      datatype: string
+    type: statement
+    id: q3117809$6281dac8-4621-79bf-fe72-736213e4a2eb
+    rank: normal
+  P487:
+  - mainsnak:
+      snaktype: value
+      property: P487
+      hash: b208359fb3fd67fbc990a6ff9b3a1f36f0b6cdd3
+      datavalue:
+        value: "㎂"
+        type: string
+      datatype: string
+    type: statement
+    id: q3117809$aa3a6ee2-46b1-0271-d617-dba68aa854cc
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 2ae3b6a3725751cab9352945af36282b89b663fd
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 29996
+          id: Q29996
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3117809$f3f1d10e-44f2-797f-466e-a52ea3ef6993
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3117809$33cd3063-4625-5d44-60ea-5f11b2092dd4
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: f7df263fbd6d2890dde7f84218df529a93d251ba
+      datavalue:
+        value:
+          amount: "+0.000001"
+          unit: http://www.wikidata.org/entity/Q25272
+          upperBound: "+0.000001"
+          lowerBound: "+0.000001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q3117809$a5205b94-4ad5-5d72-6b85-1cb3be6b05de
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: de7a5a7faa12a890fb84909b5093240b70d91025
+      datavalue:
+        value: microampere
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3117809$B60F2E1D-BD6D-47B4-9353-FF0F3A7E9B9E
+    rank: normal
+  P4746:
+  - mainsnak:
+      snaktype: value
+      property: P4746
+      hash: 96f97102bc6836c3ad48f491c0c0ec3799da670d
+      datavalue:
+        value: '133000'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3117809$623CE368-A7D3-41F8-BFD2-4CA6B69A9DED
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: ΜA
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Microampère
+    badges: []

@@ -1,0 +1,281 @@
+---
+pageid: 680424
+ns: 0
+title: Q723733
+lastrevid: 587849097
+modified: '2017-11-02T14:12:06Z'
+type: item
+id: Q723733
+labels:
+  en:
+    language: en
+    value: millisecond
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 98a1e85b80bda7ff493c25a6b805599da715c077
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1790144
+          id: Q1790144
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q723733$DDE79D43-A055-448D-834C-6D45494A25C6
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 57dddfd1923a526acee3f62bbf9d26d38629bc28
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 9747038
+          id: Q9747038
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q723733$6052360B-0D3D-4B34-9FBB-063D501146ED
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 5c27e7841b9af643407fd7c6483b76d770a5743f
+      datavalue:
+        value: ms
+        type: string
+      datatype: string
+    type: statement
+    id: q723733$7f08df5f-41ef-0179-bf3b-46e284e20780
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: bec44aa96bc5bc62a9489152a439841eac26ac7c
+      datavalue:
+        value: мс
+        type: string
+      datatype: string
+    type: statement
+    id: Q723733$c2c84ea1-4742-dbef-10b5-202df8e0add6
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: f2c9b452ab96c3f439c25e872bcbc489ca847bed
+      datavalue:
+        value: "/m/08_v4"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q723733$8BB14091-3976-44A0-A878-56E030EF276F
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 19849d5aeb207757c0d323db9fccd8e540b20b11
+      datavalue:
+        value:
+          amount: "+0.001"
+          unit: http://www.wikidata.org/entity/Q11574
+          upperBound: "+0.001"
+          lowerBound: "+0.001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q723733$559b1b33-405e-df18-5a3c-c3ddf307eec9
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: ee9cbeb3d9031836d7c2ff2216129a9862880b70
+      datavalue:
+        value: MilliSecond
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q723733$62038BF4-4C0D-49C2-93FE-566B014758B3
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 5c136fec626a6d7db50f29088a455a6b635a8685
+      datavalue:
+        value: millisecond-time
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q723733$B2717B7F-5EAB-46DF-BF3C-24CBEB76F21E
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: f24e032a9edffb089eb58a8af5d2b30d49357f73
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11471
+          id: Q11471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q723733$305425F4-8539-4F0E-B124-ACEB8760B939
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: ملي ثانية
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Milisegundu
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Милисекунда
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Mil·lisegon
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Millisekund
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Millisekunde
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Millisecond
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Milisegundo
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Milisegundo
+    badges: []
+  fawiki:
+    site: fawiki
+    title: میلی‌ثانیه
+    badges: []
+  frwiki:
+    site: frwiki
+    title: 1 E-3 s
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Milisegundo
+    badges: []
+  hakwiki:
+    site: hakwiki
+    title: Hò-miéu
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Milliszekundum
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Millisecondo
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ミリ秒
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 1 E-3 s
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Милисекунда
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Milliseconde
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Millisekund
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Millisekund
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Milisekunda
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Milissegundo
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Millisecond
+    badges: []
+  sqwiki:
+    site: sqwiki
+    title: Millisekonda
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Millisekund
+    badges: []
+  thwiki:
+    site: thwiki
+    title: มิลลิวินาที
+    badges: []
+  warwiki:
+    site: warwiki
+    title: Milisegundo
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 毫秒
+    badges: []

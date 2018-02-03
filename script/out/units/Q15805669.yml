@@ -1,0 +1,93 @@
+---
+pageid: 17434616
+ns: 0
+title: Q15805669
+lastrevid: 357783806
+modified: '2016-07-16T21:13:06Z'
+type: item
+id: Q15805669
+labels:
+  en:
+    language: en
+    value: dichas
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1c41b2ea8a3f6d3fab77c103d826ae5ead7a9c01
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1978718
+          id: Q1978718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q15805669$020BA010-4C22-4264-A83C-C859AB7575AA
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 8d75fa5d12c9f32ffc85f2a1a5e77c5160f66ae1
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 607056
+          id: Q607056
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q15805669$0A427F65-E8F0-44DC-A9BD-AE30BB10FC17
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 434425c4b05b69b509bdcd0a7afa9b077c9fa755
+      datavalue:
+        value:
+          amount: "+8"
+          unit: http://www.wikidata.org/entity/Q25906460
+          upperBound: "+8"
+          lowerBound: "+8"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q15805669$9BC73A95-8E1C-4FF9-B349-8E77D5A2F808
+    rank: normal
+    references:
+    - hash: d17a3150534a4571fc89d2d0e15af38ee394b067
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 4b566941aa961aabf1295e4f2035f3aec8e534a5
+          datavalue:
+            value: http://www.hellenicaworld.com/Greece/Technology/en/Measurements.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: e44064de70fa6bf638492bc0fc1df9da1b2795af
+          datavalue:
+            value:
+              time: "+2016-07-16T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Dichas
+    badges: []

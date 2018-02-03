@@ -1,0 +1,57 @@
+---
+pageid: 3176776
+ns: 0
+title: Q3332098
+lastrevid: 600682174
+modified: '2017-11-29T17:08:33Z'
+type: item
+id: Q3332098
+labels:
+  en:
+    language: en
+    value: inverse metre
+aliases:
+  en:
+  - language: en
+    value: inverse meter
+  - language: en
+    value: reciprocal metre
+  - language: en
+    value: reciprocal meter
+  - language: en
+    value: cycles per metre
+  - language: en
+    value: m^-1
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 50afdc16346d8687f53963f614e8d645419488a0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 208469
+          id: Q208469
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3332098$9F554F79-6CC8-403B-844C-119EB01EB598
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 2c926df084d5d9ed9ed65f902061101f41264e60
+      datavalue:
+        value: reciprocal_metre
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3332098$0BA7F1AD-E948-464B-A5F0-002136F852C1
+    rank: normal
+sitelinks:
+  frwiki:
+    site: frwiki
+    title: Mètre à la puissance moins un
+    badges: []

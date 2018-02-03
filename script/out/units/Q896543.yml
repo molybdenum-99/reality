@@ -1,0 +1,145 @@
+---
+pageid: 847446
+ns: 0
+title: Q896543
+lastrevid: 525872729
+modified: '2017-07-26T05:36:30Z'
+type: item
+id: Q896543
+labels:
+  en:
+    language: en
+    value: gigayears ago
+aliases:
+  en:
+  - language: en
+    value: gya
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 26919fab167d87d6a42eb362bc8f6da64f119ab6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 186081
+          id: Q186081
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q896543$E8097909-752E-496B-BB2C-1B923143A5BB
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q896543$cccab6c2-440e-d6a3-aea7-bd9a82c05760
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 72fafa2f335875e8105d29e601c621bec5b9f91f
+      datavalue:
+        value: Gya
+        type: string
+      datatype: string
+    type: statement
+    id: Q896543$5b8aa37c-4413-c227-160b-8fdf78853680
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 7f8a59894aaa1c83d59a9307a6c4d04d94c60bc9
+      datavalue:
+        value: "/m/0685z2"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q896543$C59EF23C-5A90-45F1-ACDA-12869E19B225
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: f24e032a9edffb089eb58a8af5d2b30d49357f73
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11471
+          id: Q11471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q896543$3d52aa49-4142-6685-2a67-0ccf784907f2
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 29c35d6911631aa7d668e8e1166f3e102c92c14d
+      datavalue:
+        value:
+          amount: "+1000000000"
+          unit: http://www.wikidata.org/entity/Q1092296
+          upperBound: "+1000000000"
+          lowerBound: "+1000000000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q896543$e2898388-4426-4f85-81d8-b65d7f8da923
+    rank: normal
+sitelinks:
+  huwiki:
+    site: huwiki
+    title: Gya
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Gya
+    badges: []
+  jvwiki:
+    site: jvwiki
+    title: Gya
+    badges: []

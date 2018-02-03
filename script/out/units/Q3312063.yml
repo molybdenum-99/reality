@@ -1,0 +1,197 @@
+---
+pageid: 3158291
+ns: 0
+title: Q3312063
+lastrevid: 564656323
+modified: '2017-09-24T01:12:38Z'
+type: item
+id: Q3312063
+labels:
+  en:
+    language: en
+    value: femtolitre
+aliases:
+  en:
+  - language: en
+    value: fl
+  - language: en
+    value: femtoliter
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6e3da81891b6fba54d9ac8088595a4b05e5a5f95
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1302471
+          id: Q1302471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3312063$58475ce9-450a-aecc-6274-e215ff093650
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 490734a3efcdc44483974ed4e00ba1211575c0f8
+      datavalue:
+        value: fl
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q3312063$5d705962-4e56-eff5-6ccf-18a0221f7a69
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 3bf5eff57d24422bd2096d94a47e99d773dfe6aa
+      datavalue:
+        value: фл
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q3312063$fd03a994-49b3-d091-6f00-eb61c8375263
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 3fbaffdc70504ad549a2ed3c7a0d54a2f6841ac0
+      datavalue:
+        value: "/m/04_1hyw"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3312063$648D8DC4-5CD8-4889-BD00-65BAF905DD82
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2234:
+  - mainsnak:
+      snaktype: value
+      property: P2234
+      hash: aa7b9382db7671733ecfe444e51c407bc313fae9
+      datavalue:
+        value:
+          amount: "+0.000000001"
+          unit: http://www.wikidata.org/entity/Q2282891
+          upperBound: "+0.000000001"
+          lowerBound: "+0.000000001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q3312063$31d66e17-4534-77b5-ca5f-62140b39149c
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: c5a4f69d11540c105e001656791dd2f8e494420f
+      datavalue:
+        value:
+          amount: "+0.000000000000001"
+          unit: http://www.wikidata.org/entity/Q11582
+          upperBound: "+0.000000000000001"
+          lowerBound: "+0.000000000000001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q3312063$75ff6f73-43ea-f89f-62c7-c57f28f1d0ac
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: f7ed5690fedbe827838bc92079ca66e17d548289
+      datavalue:
+        value: femtolitre
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3312063$990BF5B9-A253-4D7D-ACE2-D4F579B8FFB8
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Femtoliter
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Femtolitre
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Femtolitro
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Femtolitra
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Fentolitro
+    badges: []
+  thwiki:
+    site: thwiki
+    title: เฟมโตลิตร
+    badges: []

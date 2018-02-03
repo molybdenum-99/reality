@@ -1,0 +1,62 @@
+---
+pageid: 5090625
+ns: 0
+title: Q5322798
+lastrevid: 420051525
+modified: '2016-12-25T00:46:09Z'
+type: item
+id: Q5322798
+labels:
+  en:
+    language: en
+    value: ECache
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 961c0bec009aaf510d21250115a51ea0e2daab95
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10836209
+          id: Q10836209
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q5322798$ABBB394E-7FB4-44D8-8D64-1159B4BDD130
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P3381:
+  - mainsnak:
+      snaktype: value
+      property: P3381
+      hash: 17fef3345e154c98b6d54e7451fde6ad2fb56f66
+      datavalue:
+        value: ECache
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q5322798$4DCAB974-1F09-45B8-9D6C-C926BACEB6AC
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: ECache
+    badges: []

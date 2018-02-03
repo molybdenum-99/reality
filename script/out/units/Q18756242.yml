@@ -1,0 +1,119 @@
+---
+pageid: 20284968
+ns: 0
+title: Q18756242
+lastrevid: 623814091
+modified: '2018-01-27T14:50:39Z'
+type: item
+id: Q18756242
+labels:
+  en:
+    language: en
+    value: NEM
+aliases:
+  en:
+  - language: en
+    value: New Economy Movement
+claims:
+  P856:
+  - mainsnak:
+      snaktype: value
+      property: P856
+      hash: 0be85209b424571a8ad3f09100fd1e1567aa288c
+      datavalue:
+        value: http://nem.io/
+        type: string
+      datatype: url
+    type: statement
+    id: Q18756242$60AE6B87-67F8-47BE-940B-F724DDE29627
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 16ab8cfff2957341998c927ff03e50befb65a864
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 13479982
+          id: Q13479982
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q18756242$d9cd053a-4d64-8ee3-3ea6-dbf4a6789a76
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 961c0bec009aaf510d21250115a51ea0e2daab95
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10836209
+          id: Q10836209
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q18756242$168ef7d0-4656-379c-370e-6a2992272dc9
+    rank: normal
+  P154:
+  - mainsnak:
+      snaktype: value
+      property: P154
+      hash: 8a1415f46cb0a0b78e97419e405cae600fcf31fc
+      datavalue:
+        value: Nem logotype overunder lightbg WEB.png
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q18756242$b85bbf75-4821-c523-6eca-e11d9324a0e3
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: NEM (Kryptowährung)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: NEM (cryptocurrency)
+    badges: []
+  itwiki:
+    site: itwiki
+    title: NEM (criptovaluta)
+    badges: []
+  jawiki:
+    site: jawiki
+    title: NEM (暗号通貨)
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: NEM (криптовалюта)
+    badges: []
+  ruwikinews:
+    site: ruwikinews
+    title: Категория:NEM (криптовалюта)
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: NEM (криптовалюта)
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 新经币
+    badges: []

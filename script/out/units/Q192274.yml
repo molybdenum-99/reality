@@ -1,0 +1,411 @@
+---
+pageid: 190463
+ns: 0
+title: Q192274
+lastrevid: 599462138
+modified: '2017-11-27T15:39:34Z'
+type: item
+id: Q192274
+labels:
+  en:
+    language: en
+    value: picometre
+aliases:
+  en:
+  - language: en
+    value: picometer
+  - language: en
+    value: pm
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: c5b5482d1429b6fdf691927ec85c4f4e60a85034
+      datavalue:
+        value: pm
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: q192274$c9d297a0-463b-0153-3fde-66ee0b332dc4
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: b2fd57aac6d35b5b238084baced3a9c31babe9f1
+      datavalue:
+        value: пм
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q192274$2cc141cc-419f-0aaa-1831-cdfdb75d70a1
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1c41b2ea8a3f6d3fab77c103d826ae5ead7a9c01
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1978718
+          id: Q1978718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q192274$2abef583-4c7d-90b7-2f79-9968a08c3bb8
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: e5bdd3e48f3adadbf7c5b60371fc7b910de5c146
+      datavalue:
+        value: "/m/025sx5b"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q192274$868A5FEB-2AF5-4100-986B-3DE1C5BCFCC6
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 4354e3cc033f2c5371e447e5ab1cca8b89ffa3e0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 36253
+          id: Q36253
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q192274$79eb01d5-4ab6-304d-7290-65611a2fcb0b
+    rank: normal
+  P2043:
+  - mainsnak:
+      snaktype: value
+      property: P2043
+      hash: 5b2b50e29b02b286719b1aace9619961bd288159
+      datavalue:
+        value:
+          amount: "+1000"
+          unit: http://www.wikidata.org/entity/Q208788
+          upperBound: "+1000"
+          lowerBound: "+1000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q192274$8e84aac4-4cfb-85b5-71f8-bc3fcc2afd85
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2043
+      hash: 41ab773c820ca7dc2ad719e9e70a4d59c2fd59ae
+      datavalue:
+        value:
+          amount: "+0.001"
+          unit: http://www.wikidata.org/entity/Q178674
+          upperBound: "+0.001"
+          lowerBound: "+0.001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q192274$8d8aea85-41b6-ce8e-a726-5ed8a4fbca73
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 1df85f649d0a576bfed8db4bbea3ab31832016c2
+      datavalue:
+        value:
+          amount: "+0.000000000001"
+          unit: http://www.wikidata.org/entity/Q11573
+          upperBound: "+0.000000000001"
+          lowerBound: "+0.000000000001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q192274$7dff2e8b-4135-8547-6c17-377f46217fa0
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 264dc185f884b99232d99facd43a1efdeddbe38a
+      datavalue:
+        value: picometre
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q192274$c9066ca3-4933-b510-5797-39e624c58315
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Pikometer
+    badges: []
+  anwiki:
+    site: anwiki
+    title: Picometro
+    badges: []
+  arwiki:
+    site: arwiki
+    title: بيكومتر
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Picómetru
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: পিকোমিটার
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Pikometar
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Picòmetre
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Pikometer
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Πικόμετρο
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Picometre
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Pikometro
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Picómetro
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Pikomeeter
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Pikometro
+    badges: []
+  extwiki:
+    site: extwiki
+    title: Picómetru
+    badges: []
+  fawiki:
+    site: fawiki
+    title: پیکومتر
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Picomètre
+    badges: []
+  furwiki:
+    site: furwiki
+    title: Picometri
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Picómetro
+    badges: []
+  hakwiki:
+    site: hakwiki
+    title: Phì-mí
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Պիկոմետր
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Pikometer
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Picometro
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ピコメートル
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 피코미터
+    badges: []
+  lowiki:
+    site: lowiki
+    title: ປິໂກແມັດ
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Пикометар
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: പൈക്കോമീറ്റർ
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Pikometer
+    badges: []
+  mywiki:
+    site: mywiki
+    title: ပီကိုမီတာ
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Picometer
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Pikometer
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Picometer
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Pikometr
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Picômetro
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Picometru
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Пикометр
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Picometre
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Pikometar
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Picometer
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Pikometer
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Pikometer
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Пикометар
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Pikometer
+    badges: []
+  swwiki:
+    site: swwiki
+    title: Pikomita
+    badges: []
+  tawiki:
+    site: tawiki
+    title: பிக்கோமீட்டர்
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Pikometre
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Пікометр
+    badges: []
+  urwiki:
+    site: urwiki
+    title: پیکومیٹر
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Picômét
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 皮米
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 皮米
+    badges: []

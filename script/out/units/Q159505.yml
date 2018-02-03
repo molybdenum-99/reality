@@ -1,0 +1,499 @@
+---
+pageid: 160432
+ns: 0
+title: Q159505
+lastrevid: 623074625
+modified: '2018-01-24T19:51:57Z'
+type: item
+id: Q159505
+labels:
+  en:
+    language: en
+    value: groschen
+aliases: {}
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 99c65e703223a67598d6face3e362194184f5ecf
+      datavalue:
+        value: Groschen
+        type: string
+      datatype: string
+    type: statement
+    id: q159505$B7691DB0-5A12-45B2-AE05-12A2DB33FC17
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 393bf30c016fc0e7486fedcc6a9c2c840c8f15d6
+      datavalue:
+        value: "/m/03wr9l"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q159505$B27FB8B2-0E12-4431-A8A1-40A26085A55C
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P902:
+  - mainsnak:
+      snaktype: value
+      property: P902
+      hash: bf3c2c26a42bdf19bd8c086a75fe5358f639c2a6
+      datavalue:
+        value: '13681'
+        type: string
+      datatype: external-id
+    type: statement
+    qualifiers:
+      P1476:
+      - snaktype: value
+        property: P1476
+        hash: d40ae1b84599b07932676fdd4db563b6f9f31b8c
+        datavalue:
+          value:
+            text: Groschen
+            language: de
+          type: monolingualtext
+        datatype: monolingualtext
+      - snaktype: value
+        property: P1476
+        hash: 35a2327f259c58237bd2eff417da664de978be15
+        datavalue:
+          value:
+            text: Gros (monnaie)
+            language: fr
+          type: monolingualtext
+        datatype: monolingualtext
+      - snaktype: value
+        property: P1476
+        hash: b141b15aa9fc31044a3ed998c1b325e21b081bb5
+        datavalue:
+          value:
+            text: Grosso
+            language: it
+          type: monolingualtext
+        datatype: monolingualtext
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 812a77c17391a2311a3b7ab4e0fd11bdbdc8c720
+        datavalue:
+          value:
+            time: "+2005-02-11T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      P50:
+      - snaktype: value
+        property: P50
+        hash: 0fdb3a5a630ba1fa2da96b71ce97d624eeaa21ab
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 23662295
+            id: Q23662295
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P1476
+    - P577
+    - P50
+    id: Q159505$4A2EAA37-AAE5-4938-8BD8-00282A0C487D
+    rank: normal
+    references:
+    - hash: 9a24f7c0208b05d6be97077d855671d1dfdbc0dd
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: d38375ffe6fe142663ff55cd783aa4df4301d83d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 48183
+              id: Q48183
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P910:
+  - mainsnak:
+      snaktype: value
+      property: P910
+      hash: 2f28c825a5b997a1d04cd09eed5befd2973d0111
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 7709695
+          id: Q7709695
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q159505$C96A4354-B9FD-42CD-B8E6-C66C46577DB2
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P1014:
+  - mainsnak:
+      snaktype: value
+      property: P1014
+      hash: d72961513a027ed47dccafd20b3b4bad61fb0fd4
+      datavalue:
+        value: '300191473'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q159505$FC13178E-E603-4485-B9F8-D70795D5F767
+    rank: normal
+  P935:
+  - mainsnak:
+      snaktype: value
+      property: P935
+      hash: 2cd796ece76a92cfb0a13b159240c69ba15e5520
+      datavalue:
+        value: Groschen
+        type: string
+      datatype: string
+    type: statement
+    id: Q159505$A1CE1736-607B-4FA0-9DEE-24A8A602C48F
+    rank: normal
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: d22351276a6d7c9950532026fde8e8faf60bad8a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 19538713
+          id: Q19538713
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P805:
+      - snaktype: value
+        property: P805
+        hash: 9e151f11a00944c1c777247d908526f19f1234e8
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 23903887
+            id: Q23903887
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P805
+    id: Q159505$65147E94-1F0D-4F31-81E7-FC2369894354
+    rank: normal
+  P3365:
+  - mainsnak:
+      snaktype: value
+      property: P3365
+      hash: f84085b3f5b77687608eabb292b6a685997ca243
+      datavalue:
+        value: grosso
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q159505$20ED3906-C59E-4FC8-971F-94789CFB74D6
+    rank: normal
+    references:
+    - hash: d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 5a343e7e758a4282a01316d3e959b6e653b767fc
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 11920
+              id: Q11920
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: a5926d471d60aed41656f8d9aed361f254cd2e44
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 41207
+          id: Q41207
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q159505$9bad0391-43b0-820f-7035-ff1f1376cc03
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q159505$4e2906d3-4b3b-4e08-bf71-17d211ec1574
+    rank: normal
+  P227:
+  - mainsnak:
+      snaktype: value
+      property: P227
+      hash: 9a0765dada30c6168e80d181ae9a78fbb1e78570
+      datavalue:
+        value: 4410303-7
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q159505$8018B742-3246-42F0-836B-B69F4F8D8378
+    rank: normal
+    references:
+    - hash: 9a24f7c0208b05d6be97077d855671d1dfdbc0dd
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: d38375ffe6fe142663ff55cd783aa4df4301d83d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 48183
+              id: Q48183
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P2924:
+  - mainsnak:
+      snaktype: value
+      property: P2924
+      hash: 9e3d0fe6f60c4e091f5b2183f5592e9aaf15d26c
+      datavalue:
+        value: '1932224'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q159505$f5a6a093-435b-f656-fe4b-55c877a9544f
+    rank: normal
+  P3219:
+  - mainsnak:
+      snaktype: value
+      property: P3219
+      hash: 4960747e9192dfe5389c36e6b3d72ef40f4c6717
+      datavalue:
+        value: gros-monnaie
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q159505$0654CC30-9B71-45B3-8A87-4432B719FBF1
+    rank: normal
+sitelinks:
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Грош
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Грош
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Грош
+    badges: []
+  commonswiki:
+    site: commonswiki
+    title: Groschen
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Groš
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Groschen
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Groschen
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Groŝo
+    badges: []
+  eowikiquote:
+    site: eowikiquote
+    title: Groŝo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Groschen
+    badges: []
+  fawiki:
+    site: fawiki
+    title: گروش
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Gros (monnaie)
+    badges: []
+  hewiki:
+    site: hewiki
+    title: גרוש (מטבע אירופי)
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Groš
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Գրոշ
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Grosso (moneta)
+    badges: []
+  jawiki:
+    site: jawiki
+    title: グロシュ
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Grossus
+    badges: []
+  lbwiki:
+    site: lbwiki
+    title: Groschen
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Grašis
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Грош
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Groot (munt)
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Grosz
+    badges: []
+  plwikiquote:
+    site: plwikiquote
+    title: Grosz
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Grosh
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Грош
+    badges:
+    - Q17437796
+  shwiki:
+    site: shwiki
+    title: Groš
+    badges: []
+  skwikiquote:
+    site: skwikiquote
+    title: Groš
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Groš
+    badges: []
+  sqwiki:
+    site: sqwiki
+    title: Groshi
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Грош
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Groschen
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Грош
+    badges: []

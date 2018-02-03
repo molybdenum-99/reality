@@ -1,0 +1,116 @@
+---
+pageid: 5226992
+ns: 0
+title: Q5465726
+lastrevid: 486700324
+modified: '2017-05-16T10:18:02Z'
+type: item
+id: Q5465726
+labels:
+  en:
+    language: en
+    value: Foot-lambert
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 316e5bb8296497fe355287f35b7156a1850a3c36
+      datavalue:
+        value: "/m/065nnm"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q5465726$5D10BCFD-B916-4236-BDD9-8EC18F39D8F8
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q5465726$107f030d-4018-1eec-a532-dcf59fb62218
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 40a647159957ec1f4e3b32fab685a509bb9f74a8
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 355386
+          id: Q355386
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q5465726$d15a54c8-48a6-5d80-b4b8-14927897bffb
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: ca5132e13a461a848b261f0296b172ab89c349e5
+      datavalue:
+        value: footlambert
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q5465726$B8AFACC0-FBBD-4016-B931-6BF8412E261E
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Footlambert
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Foot-lambert
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Foot-lambert
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Čevelj-lambert
+    badges: []

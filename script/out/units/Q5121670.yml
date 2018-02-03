@@ -1,0 +1,73 @@
+---
+pageid: 4894832
+ns: 0
+title: Q5121670
+lastrevid: 558446835
+modified: '2017-09-14T04:56:00Z'
+type: item
+id: Q5121670
+labels:
+  en:
+    language: en
+    value: circular mil
+aliases:
+  en:
+  - language: en
+    value: Circular mil
+  - language: en
+    value: circular thou
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 0f49769a073adbf1aea6d3645a68f24ad29dbeb6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1371562
+          id: Q1371562
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q5121670$4de4dc23-4909-dde9-ac1d-44d74ab4c055
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: cdcfa21d3bb0b8e3ed66d498ff0978c4793f0a23
+      datavalue:
+        value: circular_mil
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q5121670$71B2D91F-E70D-42FA-AC11-44B86AF78A4C
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: ccda987dbb2c9d1ad20e28b1a2f252dc31f3daa5
+      datavalue:
+        value:
+          amount: "+0.0000000005067075"
+          unit: http://www.wikidata.org/entity/Q25343
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q5121670$c1e057f2-48c9-3055-238b-bbe1b4d43a73
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Circular mil
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Circular mil
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 圓密耳
+    badges: []

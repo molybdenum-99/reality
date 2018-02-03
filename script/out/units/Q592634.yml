@@ -1,0 +1,310 @@
+---
+pageid: 557686
+ns: 0
+title: Q592634
+lastrevid: 617547206
+modified: '2018-01-07T22:30:05Z'
+type: item
+id: Q592634
+labels:
+  en:
+    language: en
+    value: Planck mass
+aliases: {}
+claims:
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 62604b308db3d2feaa7df599c59ff422986481fa
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 9021
+          id: Q9021
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q592634$17A9F3F8-891D-4B77-BB4E-9E4587AFE057
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 9cf72c9f586055ce5bacce23c505075a277ae47f
+      datavalue:
+        value: "/m/0170tx"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q592634$C777583C-AB1B-409B-9A3C-3D04CC9E4307
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 9c327b52fb6fe334a90ba66cc367d40382bf1340
+      datavalue:
+        value:
+          amount: "+0.00000002176470"
+          unit: http://www.wikidata.org/entity/Q11570
+          upperBound: "+0.00000002176521"
+          lowerBound: "+0.00000002176419"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q592634$018c4b54-437d-4c49-541e-da2c00a2d62c
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q592634$a4a8316e-4aca-560f-5951-9b627d658eaa
+    rank: normal
+  P1645:
+  - mainsnak:
+      snaktype: value
+      property: P1645
+      hash: 43e80931ba436cfef3623692df12cea14e9893c3
+      datavalue:
+        value: plkm
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q592634$b0454a52-41c2-4f3c-6d84-ebdc6e7afe8f
+    rank: normal
+  P227:
+  - mainsnak:
+      snaktype: value
+      property: P227
+      hash: 6260f6a95793dbf19892efe06d6339634ca4b49a
+      datavalue:
+        value: 4584230-9
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q592634$9e532217-406c-e94a-36d6-b373f330c070
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 47f881d7fe12b0807a8c7e5ac0934608aa77667b
+      datavalue:
+        value: PlanckMass
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q592634$04BE8927-3670-4588-A8C0-0B409C5BE413
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 0a80cc8c1d4f843037b3a5a211ee962e6f01b686
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 468999
+          id: Q468999
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q592634$4b8922c8-4230-86a0-c9cf-afa8f16464fd
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 16653c4848e0552e9604edc668341bd5f95825a4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11423
+          id: Q11423
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q592634$7faacd3b-4791-404d-292d-1490c5047c36
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: كتلة بلانك
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Планкаўская маса
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Planckova masa
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Massa de Planck
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Planckova hmotnost
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Planck mass
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Maso de Planck
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Masa de Planck
+    badges: []
+  fawiki:
+    site: fawiki
+    title: جرم پلانک
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Planckin massa
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Masse de Planck
+    badges: []
+  hewiki:
+    site: hewiki
+    title: מסת פלאנק
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Planckova masa
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Planck-tömeg
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Պլանկի զանգված
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Massa Planck
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Massa di Planck
+    badges: []
+  jawiki:
+    site: jawiki
+    title: プランク質量
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 플랑크 질량
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Massa planckiana
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Planckmassa
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Masa Plancka
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Massa de Planck
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Планковская масса
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Massa di Planck
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Planckova masa
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Planck mass
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Planckova hmotnosť
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Planckova masa
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Planckmassa
+    badges: []
+  thwiki:
+    site: thwiki
+    title: มวลของพลังค์
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Planck kütlesi
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Планківська маса
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Khối lượng Planck
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 普朗克質量
+    badges: []

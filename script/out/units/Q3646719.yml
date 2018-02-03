@@ -1,0 +1,273 @@
+---
+pageid: 3473831
+ns: 0
+title: Q3646719
+lastrevid: 610721352
+modified: '2017-12-18T19:33:06Z'
+type: item
+id: Q3646719
+labels:
+  en:
+    language: en
+    value: congius
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 7540ca4195f26ce9ac142296182a9c33689852de
+      datavalue:
+        value: "/m/0dx99p"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3646719$6CFA6932-B1B4-405C-99C4-47AA07627AE8
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: c454c0c3de246c32f34b9be05dc25a1c41e32e6f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 25906214
+          id: Q25906214
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3646719$ee2348b1-45ee-a8bc-20c2-3a6c829f661a
+    rank: normal
+    references:
+    - hash: 77558b2586162aee5b4404eb03a24e761dda99fa
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: afd0bc01045c9e952bd83a2da36c2745f89ac643
+          datavalue:
+            value: http://www.livius.org/w/weights/weights2.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 319eca416990be95d0bc1936656ae864506b85ef
+          datavalue:
+            value:
+              time: "+2016-07-17T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: f37c73dec48ba9a6299af3cc096435154a20ce68
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 6008757
+          id: Q6008757
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3646719$54b33588-4324-0b51-1e1e-69bb58d3f19a
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 52afd5559217923531f59bd55edf87f344e02b43
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1161819
+          id: Q1161819
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3646719$0620ab31-4bcd-0240-1fda-70ba25186c35
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 7fc5d2eb34d0795d30cb1455a90330f06c817d0e
+      datavalue:
+        value:
+          amount: "+6"
+          unit: http://www.wikidata.org/entity/Q14333713
+          upperBound: "+6"
+          lowerBound: "+6"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q3646719$fb73b09d-4d40-120f-f1b1-c59a76312677
+    rank: normal
+    references:
+    - hash: 77558b2586162aee5b4404eb03a24e761dda99fa
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: afd0bc01045c9e952bd83a2da36c2745f89ac643
+          datavalue:
+            value: http://www.livius.org/w/weights/weights2.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 319eca416990be95d0bc1936656ae864506b85ef
+          datavalue:
+            value:
+              time: "+2016-07-17T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 2b0e9cf3dc1f358c83f1f0dd1bf0c9b15b70014e
+      datavalue:
+        value:
+          amount: "+0.00323"
+          unit: http://www.wikidata.org/entity/Q25517
+          upperBound: "+0.00323"
+          lowerBound: "+0.00323"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q3646719$ce661615-4c0e-7e56-4edf-c3071115352e
+    rank: normal
+    references:
+    - hash: 77558b2586162aee5b4404eb03a24e761dda99fa
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: afd0bc01045c9e952bd83a2da36c2745f89ac643
+          datavalue:
+            value: http://www.livius.org/w/weights/weights2.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 319eca416990be95d0bc1936656ae864506b85ef
+          datavalue:
+            value:
+              time: "+2016-07-17T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: ece6f6e6968e83ab4ea375829a8c5694d93dff51
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 39297
+          id: Q39297
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3646719$200D57C0-3831-41BF-A468-F52B7707F556
+    rank: normal
+  P1417:
+  - mainsnak:
+      snaktype: value
+      property: P1417
+      hash: 667435c6d8a57b7ff09347d7a3c0c8680a7d9953
+      datavalue:
+        value: topic/congius
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3646719$8C81367E-2EDE-4BFB-B781-A81B5B2455D8
+    rank: normal
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Congius
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Congius
+    badges: []
+  kawiki:
+    site: kawiki
+    title: კონგიუსი
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Congius
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Kongijus
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Côngio
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Конгій
+    badges: []

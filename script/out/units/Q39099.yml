@@ -1,0 +1,792 @@
+---
+pageid: 41555
+ns: 0
+title: Q39099
+lastrevid: 618719016
+modified: '2018-01-11T07:36:05Z'
+type: item
+id: Q39099
+labels:
+  en:
+    language: en
+    value: renminbi
+aliases:
+  en:
+  - language: en
+    value: CNY
+  - language: en
+    value: "¥"
+  - language: en
+    value: yuan
+  - language: en
+    value: Chinese Yuan
+  - language: en
+    value: RMB
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q39099$B73172B5-A24D-4F22-8004-767934F812DC
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6033a050cba7eb514a509d66a024999948c3013a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1378945
+          id: Q1378945
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q39099$ed6a4ca1-4d2f-2780-99f2-8cc208b3a546
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: df680fe23e4f3a56837e5911b5d0c0a02623bae4
+      datavalue:
+        value: Money of China
+        type: string
+      datatype: string
+    type: statement
+    id: q39099$F4C23351-99E4-417C-B4C9-FD843C1C7BCB
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: a2c580629f95e86173c9877016cff659aff7fc01
+      datavalue:
+        value: CNY
+        type: string
+      datatype: external-id
+    type: statement
+    id: q39099$74351067-47d5-b698-59f4-de3b7f5ff95d
+    rank: normal
+  P489:
+  - mainsnak:
+      snaktype: value
+      property: P489
+      hash: 7adbdb88ef1495118075d6005c3e280781c25ac8
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 249321
+          id: Q249321
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q39099$f84fe3de-4748-1ac6-e824-bc3270c2349a
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 36399f0a0784b7dbbbf3d8965b6a3035f214ed59
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 249203
+          id: Q249203
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q39099$EF401621-2B6C-47D5-8E20-9139024D4DD6
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: c7c433d1aea22889699d14d38dfe05ee071b6d03
+      datavalue:
+        value: "/m/0hn4_"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q39099$97E931B8-CD02-4F50-B061-13BA532A71E9
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P227:
+  - mainsnak:
+      snaktype: value
+      property: P227
+      hash: 92755774226c86762895bddf0656b8a896887e11
+      datavalue:
+        value: '1044255552'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q39099$58B113CE-B787-4BB1-9CFC-B60728DCF2BE
+    rank: normal
+    references:
+    - hash: 9a24f7c0208b05d6be97077d855671d1dfdbc0dd
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: d38375ffe6fe142663ff55cd783aa4df4301d83d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 48183
+              id: Q48183
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 30e172796b0726589e92b001c327f5d55fa0782e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 148
+          id: Q148
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q39099$f501496b-4c2d-a673-2ce7-42f0f9750afe
+    rank: normal
+  P910:
+  - mainsnak:
+      snaktype: value
+      property: P910
+      hash: 7fc0bd0ef9a6fe14fa1c115e64a0ae26324cace7
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 9513427
+          id: Q9513427
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q39099$41552278-CCCD-476D-93DA-35EEED51B027
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P2284:
+  - mainsnak:
+      snaktype: value
+      property: P2284
+      hash: 45269b136cebb5d161c059e3032e259b612ec27d
+      datavalue:
+        value:
+          amount: "+0.144029958"
+          unit: http://www.wikidata.org/entity/Q4917
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: 50e3b9c4ecacaca2ba92107b638691cbfbc9121b
+        datavalue:
+          value:
+            time: "+2016-12-31T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q39099$f01eb3fc-4044-de59-ae29-c6d13da1997b
+    rank: preferred
+    references:
+    - hash: 685cf5972d5a8ae6f5a97414dff4941885559420
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 6be86e691dd554a9ca8ba98470c9b6997a5fa338
+          datavalue:
+            value: https://www.federalreserve.gov/releases/h10/hist/dat00_ch.htm
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 54d22a06461d333cd5e8cf86d5b35955834271b6
+          datavalue:
+            value:
+              time: "+2017-01-15T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P1476:
+        - snaktype: value
+          property: P1476
+          hash: 124e3e84144dda94700d4f1ee25251d80e45db14
+          datavalue:
+            value:
+              text: Historical Rates for the Chinese Yuan Renminbi
+              language: en
+            type: monolingualtext
+          datatype: monolingualtext
+        P123:
+        - snaktype: value
+          property: P123
+          hash: d832479cb5391051a8aa1eda921c98733e3e1576
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 53536
+              id: Q53536
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P854
+      - P813
+      - P1476
+      - P123
+  - mainsnak:
+      snaktype: value
+      property: P2284
+      hash: 3a7d584cbf7b9f29f463bb7a5a6f81a3da5434df
+      datavalue:
+        value:
+          amount: "+0.154373398"
+          unit: http://www.wikidata.org/entity/Q4917
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: dec5f9078af35f77b6f7ea179623d4552bbb6ce1
+        datavalue:
+          value:
+            time: "+2015-12-31T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q39099$9d121d92-4766-ecab-ccdb-f4cadeeb94dd
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2284
+      hash: d739d9be28b7740d2bc79b6b62028c1da79ec2e8
+      datavalue:
+        value:
+          amount: "+0.161170744"
+          unit: http://www.wikidata.org/entity/Q4917
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: 5c1fde399c6884fe5743adc4a924cd6a02671412
+        datavalue:
+          value:
+            time: "+2014-12-31T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q39099$39f8751d-4287-1c46-9274-d881eedd39a6
+    rank: normal
+  P508:
+  - mainsnak:
+      snaktype: value
+      property: P508
+      hash: 63090206db79578eeb7ab08eaa4db087bdf2dbd1
+      datavalue:
+        value: '52446'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q39099$433f4b56-4576-1501-a244-a41c70d35cc4
+    rank: normal
+  P1417:
+  - mainsnak:
+      snaktype: value
+      property: P1417
+      hash: becece9c672285fbfa238531ba1225a0fbeb21e8
+      datavalue:
+        value: topic/yuan-Chinese-currency
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q39099$95C1894F-FB21-485F-8DC8-71D63F026CE9
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 73a13fb15b7a874221689a4e2568880f83860e64
+      datavalue:
+        value: '500145'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q39099$6F8BFCD1-BF51-4B14-8A0F-B39CB9685BF2
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Renminbi
+    badges: []
+  alswiki:
+    site: alswiki
+    title: Renminbi
+    badges: []
+  anwiki:
+    site: anwiki
+    title: Renminbi
+    badges: []
+  arwiki:
+    site: arwiki
+    title: رنمينبي
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Renminbi
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Renminbi
+    badges: []
+  barwiki:
+    site: barwiki
+    title: Renminbi
+    badges: []
+  bawiki:
+    site: bawiki
+    title: Ҡытай юане
+    badges: []
+  bclwiki:
+    site: bclwiki
+    title: Renminbi
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Кітайскі юань
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Кітайскі юань
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Китайски юан
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: চাইনিজ রেনমিনবি
+    badges: []
+  brwiki:
+    site: brwiki
+    title: Renminbi
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Renminbi
+    badges: []
+  cdowiki:
+    site: cdowiki
+    title: Ìng-mìng-bê
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Čínský jüan
+    badges: []
+  cywiki:
+    site: cywiki
+    title: Renminbi
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Renminbi
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Renminbi
+    badges: []
+  dvwiki:
+    site: dvwiki
+    title: ރެންމިބީ
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Κινεζικό γουάν
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Renminbi
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Renminbio
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Renminbi
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Renminbi
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Renminbi
+    badges: []
+  fawiki:
+    site: fawiki
+    title: رنمینبی
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Renminbi
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Yuan
+    badges: []
+  fywiki:
+    site: fywiki
+    title: Renminby
+    badges: []
+  ganwiki:
+    site: ganwiki
+    title: 人民幣
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Renminbi
+    badges: []
+  hewiki:
+    site: hewiki
+    title: רנמינבי
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: रॅन्मिन्बी
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Renminbi
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Renminbi
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Renminbi
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Renminbi
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Renminbi cinese
+    badges: []
+  jamwiki:
+    site: jamwiki
+    title: Renminbi
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 人民元
+    badges: []
+  jvwiki:
+    site: jvwiki
+    title: Renminbi
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Женминби
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 런민비
+    badges: []
+  kshwiki:
+    site: kshwiki
+    title: Rénmínbì
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Китайса юань
+    badges: []
+  lmowiki:
+    site: lmowiki
+    title: Yuan
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Juanis
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Juaņa
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Кинески јуан
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: रेन्मिन्बी
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Renminbi
+    badges: []
+  mwlwiki:
+    site: mwlwiki
+    title: Yuan
+    badges: []
+  ndswiki:
+    site: ndswiki
+    title: Renminbi
+    badges: []
+  newwiki:
+    site: newwiki
+    title: रेन्मिन्बि
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Chinese renminbi
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Kinesisk renminbi
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Renminbi
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Renminbi
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਰੇਨਮਿਨਬੀ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Renminbi
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Renminbi
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Yuan renminbi
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Китайский юань
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Renminbi
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Renminbi
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Renminbi
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Čínsky jüan
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Renminbi
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Женминби
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Renminbi
+    badges: []
+  tawiki:
+    site: tawiki
+    title: ரென்மின்பி
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Женминбии Чин
+    badges: []
+  thwiki:
+    site: thwiki
+    title: เหรินหมินปี้
+    badges: []
+  tkwiki:
+    site: tkwiki
+    title: Renminbi Yuan
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Renminbi
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Renminbi
+    badges: []
+  ttwiki:
+    site: ttwiki
+    title: Юань
+    badges: []
+  ugwiki:
+    site: ugwiki
+    title: خەلق پۇلى يۈەنى
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Юань Женьміньбі
+    badges: []
+  urwiki:
+    site: urwiki
+    title: رینمنبی
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Xitoy yuani
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Nhân dân tệ
+    badges: []
+  warwiki:
+    site: warwiki
+    title: Renminbi
+    badges: []
+  wuuwiki:
+    site: wuuwiki
+    title: 人民币
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: ჩინური იუანი
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Renminbi
+    badges: []
+  zawiki:
+    site: zawiki
+    title: Yinzminzbi
+    badges: []
+  zh_classicalwiki:
+    site: zh_classicalwiki
+    title: 人民幣
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Jîn-bîn-pè
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 人民幣
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 人民币
+    badges: []

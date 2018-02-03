@@ -1,0 +1,62 @@
+---
+pageid: 712570
+ns: 0
+title: Q757634
+lastrevid: 371981155
+modified: '2016-09-01T13:15:56Z'
+type: item
+id: Q757634
+labels:
+  en:
+    language: en
+    value: Atomo
+aliases: {}
+claims:
+  P902:
+  - mainsnak:
+      snaktype: value
+      property: P902
+      hash: 75544cebb134c1ab7c2b3cb1e566847b7509a1ea
+      datavalue:
+        value: '27607'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q757634$E8280804-8776-4EC6-8B22-729F5D63DFE0
+    rank: normal
+    references:
+    - hash: 9a24f7c0208b05d6be97077d855671d1dfdbc0dd
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: d38375ffe6fe142663ff55cd783aa4df4301d83d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 48183
+              id: Q48183
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1c41b2ea8a3f6d3fab77c103d826ae5ead7a9c01
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1978718
+          id: Q1978718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q757634$52071B86-31E9-4BB2-88C3-01FB8DDA3E42
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Atomo (Einheit)
+    badges: []

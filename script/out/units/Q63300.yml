@@ -1,0 +1,121 @@
+---
+pageid: 66033
+ns: 0
+title: Q63300
+lastrevid: 618695986
+modified: '2018-01-11T05:38:52Z'
+type: item
+id: Q63300
+labels:
+  en:
+    language: en
+    value: Guadeloupe franc
+aliases:
+  en:
+  - language: en
+    value: franc
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 22142020d9d7d57d8b6752c59655527cea0f4b4d
+      datavalue:
+        value: "/m/02vm6f7"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q63300$6B313850-E08C-48E4-A209-FB19C2C10B20
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q63300$F7EDCA2C-2B38-4810-AA94-CDF5C6884266
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 07b10d6d7669a91b7be0ac77e6809d97becb33c8
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1403377
+          id: Q1403377
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q63300$2c0b90d2-4a99-0bf6-62a5-70e3240f961b
+    rank: normal
+  P1001:
+  - mainsnak:
+      snaktype: value
+      property: P1001
+      hash: c1b988bf3048265a56db8f7d1783f19f0db31571
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 17012
+          id: Q17012
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q63300$cae8d49c-48d3-4471-8d63-6d6990bf1901
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Guadeloupe franc
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Franco guadalupense
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Franco della Guadalupa
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Гваделупский франк
+    badges: []

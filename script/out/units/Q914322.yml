@@ -1,0 +1,390 @@
+---
+pageid: 864786
+ns: 0
+title: Q914322
+lastrevid: 622985687
+modified: '2018-01-24T14:08:45Z'
+type: item
+id: Q914322
+labels:
+  en:
+    language: en
+    value: Olenekian
+aliases: {}
+claims:
+  P155:
+  - mainsnak:
+      snaktype: value
+      property: P155
+      hash: 724a7c0b310e8bf5f626744da73ac4e7e52b5c0d
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 855153
+          id: Q855153
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q914322$70c0b884-4cc3-eb6d-7d30-b52b5f11eaa9
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P156:
+  - mainsnak:
+      snaktype: value
+      property: P156
+      hash: 61d7ed75bb4dc304fa1134b6f166a30ed3b51661
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 549024
+          id: Q549024
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q914322$11b30c80-4e83-2819-4f62-5adeb292d8ae
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 4e5fa4daf20ef90798d804f98d159b40bc3684c0
+      datavalue:
+        value: "/m/08lngb"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q914322$FC3442DB-3EF5-460C-95D7-8E9A5215F9CD
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: e6517456f685d2778b34c45bc73be0cb3032a7ff
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 26799
+          id: Q26799
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q914322$27987604-4616-86d8-0024-d31536003297
+    rank: normal
+    references:
+    - hash: 29a3fecc4498409168107bc567db1dc0d3d231a7
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 7254f0541ed09356ccba69b6a5c0c4b4440457b1
+          datavalue:
+            value:
+              time: "+2014-10-16T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P813
+      - P143
+  P625:
+  - mainsnak:
+      snaktype: value
+      property: P625
+      hash: fae313358603743daad009720adeb6b6cc0b99f5
+      datavalue:
+        value:
+          latitude: 31.96527778
+          longitude: 78.02472222
+          altitude: 
+          precision: 0.010588732012268
+          globe: http://www.wikidata.org/entity/Q2
+        type: globecoordinate
+      datatype: globe-coordinate
+    type: statement
+    id: Q914322$648946E3-0EDF-4EDB-B243-27CEDAABA9E7
+    rank: normal
+    references:
+    - hash: 9cdd4f1d064faebc44a10fbd408afa604f3b89f6
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 16eef556b717b1b9c8e2599faef3af2af8537632
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 199700
+              id: Q199700
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P910:
+  - mainsnak:
+      snaktype: value
+      property: P910
+      hash: 94687015b93b8db664c6401304427e9599beaa75
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 21586916
+          id: Q21586916
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q914322$7A97D641-709A-4DEB-8247-56C4E680DA16
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1774498cb861c7f76e71afc94661ed9a03d8461a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1123245
+          id: Q1123245
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q914322$4b3d0976-442a-aa28-5663-7ab4dd854d31
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: b230ba6f73ec78c2fd8b28c19fab3a1a3e51124e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 568683
+          id: Q568683
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q914322$392a47e3-4265-b210-bab7-1e6b7df4b583
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 687cb7d18aef1c60a0bd414f9e1b59b7931ca17e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1075885
+          id: Q1075885
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q914322$220e8a2d-4b43-840a-76b4-80b511fc48f5
+    rank: normal
+  P1417:
+  - mainsnak:
+      snaktype: value
+      property: P1417
+      hash: ec628c0831e2b47aaf28b2b9287b78425dd6e6f4
+      datavalue:
+        value: science/Olenekian-Stage
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q914322$BE5F689D-093D-4C98-9C3D-A26C45004500
+    rank: normal
+  P2581:
+  - mainsnak:
+      snaktype: value
+      property: P2581
+      hash: a289fb90e4cda23766bf52670d1ade802e350908
+      datavalue:
+        value: '02383800n'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q914322$AE537082-C4EA-4141-BB6F-081ECA84B9BE
+    rank: normal
+    references:
+    - hash: bd0ee81488cd8c23d4b655e417aac78dca370283
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: a0b4f55dbedbadaf83e7d2461b47b7aeaba86359
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 4837690
+              id: Q4837690
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Olenekium
+    badges: []
+  arwiki:
+    site: arwiki
+    title: الأولنكي
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Olenekianu
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Olenekià
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Olenekium
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Olenekian
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Olenekiense
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Olenekiar
+    badges: []
+  fawiki:
+    site: fawiki
+    title: اولنکین
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Olénékien
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Olenyoki
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Olenekiano
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Olenekium
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Olenekien
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Olenekium
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Olenek
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Olenekiano
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Оленёкский ярус
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Olenekij
+    badges: []

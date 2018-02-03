@@ -1,0 +1,164 @@
+---
+pageid: 1478788
+ns: 0
+title: Q1542162
+lastrevid: 520470559
+modified: '2017-07-15T22:57:21Z'
+type: item
+id: Q1542162
+labels:
+  en:
+    language: en
+    value: Tarì
+aliases:
+  en:
+  - language: en
+    value: Tari
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 638468a4b9c6ce0ea1e9bf10cd24d56b71d07400
+      datavalue:
+        value: Tarì
+        type: string
+      datatype: string
+    type: statement
+    id: q1542162$25C6CFA0-917C-41B2-844D-A7BD67B30075
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1542162$A94EF53F-D1BD-4769-BEC4-72D4A71DC32D
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: bd4b1f73ce4ead5a22e85f676e8d15cb8bffdfe0
+      datavalue:
+        value: "/m/05mzkb_"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1542162$22C722AB-E6A4-4D7D-90E3-9D5A5939D0E6
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P227:
+  - mainsnak:
+      snaktype: value
+      property: P227
+      hash: d77093d7d581d808a087d84c5474b2c709220537
+      datavalue:
+        value: 7856651-4
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1542162$5F171FC7-A03D-4F88-8EC7-52776AC8A3C6
+    rank: normal
+    references:
+    - hash: 9a24f7c0208b05d6be97077d855671d1dfdbc0dd
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: d38375ffe6fe142663ff55cd783aa4df4301d83d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 48183
+              id: Q48183
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P935:
+  - mainsnak:
+      snaktype: value
+      property: P935
+      hash: bbf87121e42535d5892f8378f39a5bfdb5f28d8a
+      datavalue:
+        value: Tarì
+        type: string
+      datatype: string
+    type: statement
+    id: Q1542162$61A3E8C9-83F6-4691-BB69-93075CDDDAB7
+    rank: normal
+sitelinks:
+  commonswiki:
+    site: commonswiki
+    title: Tarì
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Tari (Münze)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Tarì
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Tari (monnaie)
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Tarì
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Taris (moneta)
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Tari (wang)
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Tari
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Тари (денежная единица)
+    badges: []

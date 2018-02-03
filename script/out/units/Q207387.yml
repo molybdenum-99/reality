@@ -1,0 +1,381 @@
+---
+pageid: 203565
+ns: 0
+title: Q207387
+lastrevid: 621692761
+modified: '2018-01-19T13:44:24Z'
+type: item
+id: Q207387
+labels:
+  en:
+    language: en
+    value: Planck length
+aliases: {}
+claims:
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 62604b308db3d2feaa7df599c59ff422986481fa
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 9021
+          id: Q9021
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q207387$7DCACF3E-9E1A-400A-8CF6-15F676A4A262
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1c41b2ea8a3f6d3fab77c103d826ae5ead7a9c01
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1978718
+          id: Q1978718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q207387$42cd5a75-4af3-a602-182f-6aafc56a4b3d
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 87f8a356f7927b78245a7bee28d0d0278ba04e5a
+      datavalue:
+        value: "/m/0381xc"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q207387$0F559886-422C-4F79-9D6D-F74B8BA87894
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: bc1a592fd4c6365f9b326de08eb7fe90ea5c256f
+      datavalue:
+        value:
+          amount: "+0.00000000000000000000000000000000001616229"
+          unit: http://www.wikidata.org/entity/Q11573
+          upperBound: "+0.00000000000000000000000000000000001616267"
+          lowerBound: "+0.00000000000000000000000000000000001616191"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q207387$57f67560-48a9-5361-d6a7-a66d9044d173
+    rank: normal
+  P1645:
+  - mainsnak:
+      snaktype: value
+      property: P1645
+      hash: bb42a9ff660e8e7fabed758e39448d913849080c
+      datavalue:
+        value: plkl
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q207387$daff9209-4cc9-d3fb-4eac-e54d88558a15
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 8582dd144e7f491a4c6807a3e0ce3f0f4b371512
+      datavalue:
+        value: PlanckLength
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q207387$63C5D379-C6D4-4EF1-A1AA-C8E9D25263D1
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 0a80cc8c1d4f843037b3a5a211ee962e6f01b686
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 468999
+          id: Q468999
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q207387$60f9b4d8-4649-df02-691c-ba9cb24f060a
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: 6f2f2876a1a0c8d2d5046056c29ed121f8cddb0e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 13377206
+          id: Q13377206
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q207387$08c2bd16-4a01-e152-0d0a-3cae146c54f4
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 4354e3cc033f2c5371e447e5ab1cca8b89ffa3e0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 36253
+          id: Q36253
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q207387$81A80880-BA78-4C8F-B6CD-5250F2483F7B
+    rank: normal
+  P1417:
+  - mainsnak:
+      snaktype: value
+      property: P1417
+      hash: 03fc0cc53f9b823f9aefa49ff38980197bbef47a
+      datavalue:
+        value: science/Planck-length
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q207387$2EEFF2DD-A30B-4CAB-BE55-8D3FA9337E5E
+    rank: normal
+  P4746:
+  - mainsnak:
+      snaktype: value
+      property: P4746
+      hash: 94b48213a6ce750342193edf0c4f0788830b4528
+      datavalue:
+        value: '136925'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q207387$0B310512-2EFE-4366-8F69-8C99483397CE
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: طول بلانك
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Планкаўская даўжыня
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Дължина на Планк
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: প্ল্যাংকের দৈর্ঘ্য
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Planckova dužina
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Longitud de Planck
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Planckova délka
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Planck-længde
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Planck length
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Longo de Planck
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Longitud de Planck
+    badges: []
+  fawiki:
+    site: fawiki
+    title: طول پلانک
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Planckin pituus
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Longueur de Planck
+    badges: []
+  gawiki:
+    site: gawiki
+    title: Fad Planck
+    badges: []
+  hewiki:
+    site: hewiki
+    title: אורך פלאנק
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Planckova duljina
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Planck-hossz
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Պլանկի երկարություն
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Panjang Planck
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Lunghezza di Planck
+    badges: []
+  jawiki:
+    site: jawiki
+    title: プランク長
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 플랑크 길이
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Longitudo planckiana
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Planko ilgis
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Планкова должина
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Panjang Planck
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Plancklengte
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Długość Plancka
+    badges: []
+  pnbwiki:
+    site: pnbwiki
+    title: پلانک لمبائی
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Comprimento de Planck
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Планковская длина
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Lunchizza di Planck
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Planckova duljina
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Planck length
+    badges: []
+  siwiki:
+    site: siwiki
+    title: ප්ලාන්ක් දූරකය
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Planckova dĺžka
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Planckova dolžina
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Планкова дужина
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Plancklängd
+    badges: []
+  tawiki:
+    site: tawiki
+    title: பிளாங்க் நீளம்
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Planck uzunluğu
+    badges: []
+  ttwiki:
+    site: ttwiki
+    title: Plank ozınlığı
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Довжина Планка
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Độ dài Planck
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 普朗克長度
+    badges: []

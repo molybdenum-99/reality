@@ -1,0 +1,124 @@
+---
+pageid: 466622
+ns: 0
+title: Q495983
+lastrevid: 537539524
+modified: '2017-08-14T08:09:04Z'
+type: item
+id: Q495983
+labels:
+  en:
+    language: en
+    value: aroura
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 0f49769a073adbf1aea6d3645a68f24ad29dbeb6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1371562
+          id: Q1371562
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q495983$8BB1642B-1F2F-48FC-8419-88D43A8EF28F
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 49b5b15716fde13e55082909868fd8f4738dc498
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 435967
+          id: Q435967
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q495983$499a32a3-420a-d993-be5a-e1d07e1c5f1d
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: eb7ea94eeb7173da11765d8011258a0526f8cd7f
+      datavalue:
+        value:
+          amount: "+2756.25"
+          unit: http://www.wikidata.org/entity/Q25343
+          upperBound: "+2756.25"
+          lowerBound: "+2756.25"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q495983$218b3c6a-4e95-a06b-8775-b265c052f20b
+    rank: normal
+    references:
+    - hash: 5862e48b08ed870324cfb3d50ef9693896c6295c
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: d86f121e9d5a78f78240e05ebfbb23fc9504c83d
+          datavalue:
+            value: http://www.livius.org/w/weights/weights3.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 6fa51283fb429e93fce72b16d916cb058d3a6e20
+          datavalue:
+            value:
+              time: "+2016-07-19T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: e12439f34cec95ee050daf4e503b6952b0e935f4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11500
+          id: Q11500
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q495983$972302FA-7C4A-4146-8EC9-9E054E9D03E3
+    rank: normal
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Aroura
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Arure
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Aroure
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Арура (египетская)
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Арура (єгипетська)
+    badges: []

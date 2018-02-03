@@ -1,0 +1,122 @@
+---
+pageid: 241301
+ns: 0
+title: Q248526
+lastrevid: 619166421
+modified: '2018-01-12T07:24:31Z'
+type: item
+id: Q248526
+labels:
+  en:
+    language: en
+    value: Zürich thaler
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 9d8edc4577b73dd1f1afa59d473708e77a1e0f14
+      datavalue:
+        value: "/m/02r4z8z"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q248526$92980BFC-A2E7-46F1-BEA4-D36BFB260D20
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q248526$a4ca9240-484e-6403-5b45-73ef6798e416
+    rank: normal
+  P131:
+  - mainsnak:
+      snaktype: value
+      property: P131
+      hash: eb452456c0e3e4fe69b8e71049f0b7e3f833f71b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11943
+          id: Q11943
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q248526$e60ae3b6-4f71-3839-18ca-7bd83d8e06de
+    rank: normal
+  P576:
+  - mainsnak:
+      snaktype: value
+      property: P576
+      hash: cde631b5d9e38dea31920d8a8a49acd8f8f1d9df
+      datavalue:
+        value:
+          time: "+1798-00-00T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 9
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q248526$dc0b0e0f-410c-a0d3-00e0-999fb15a1da7
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Zürcher Taler
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Zürich thaler
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Tallero di Zurigo
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Thaler Zürich
+    badges: []

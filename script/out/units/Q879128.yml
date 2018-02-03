@@ -1,0 +1,85 @@
+---
+pageid: 830204
+ns: 0
+title: Q879128
+lastrevid: 303122058
+modified: '2016-02-12T09:50:24Z'
+type: item
+id: Q879128
+labels:
+  en:
+    language: en
+    value: Bit time
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 44e767423fe79afe3de5392d783f5ba5da2ee64a
+      datavalue:
+        value: "/m/0341h3"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q879128$EC8B8A71-646D-43DD-AA22-4E71C2BF3B48
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 98a1e85b80bda7ff493c25a6b805599da715c077
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1790144
+          id: Q1790144
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q879128$d7cc8e3d-4226-aa76-1179-e07487220f9e
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Bitzeit
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Bit time
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Bit time
+    badges: []

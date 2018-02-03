@@ -1,0 +1,199 @@
+---
+pageid: 3723704
+ns: 0
+title: Q3902709
+lastrevid: 557924171
+modified: '2017-09-13T08:23:54Z'
+type: item
+id: Q3902709
+labels:
+  en:
+    language: en
+    value: picosecond
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 98a1e85b80bda7ff493c25a6b805599da715c077
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1790144
+          id: Q1790144
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q3902709$45B3EB1B-EF38-4947-8D60-D5411A81B7B3
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: f84b9cccc70de3ab8ef56b141b02cde00918b6d2
+      datavalue:
+        value: ps
+        type: string
+      datatype: string
+    type: statement
+    id: q3902709$c487b1a4-44ab-afcb-70fb-3f72c528cd24
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 981f8e7a467b13262766b05e36aeb0a2c3388c7e
+      datavalue:
+        value: пс
+        type: string
+      datatype: string
+    type: statement
+    id: Q3902709$79eee296-4dd3-b344-46a9-9d6a0c7e583d
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 79670fa155cc17ce96d1373d04040a3a5ad7ebb4
+      datavalue:
+        value: "/m/0kbm8"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3902709$85C0E16E-C19C-47CA-A248-E0A748EE474E
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 4c4451346d1854363e25938bbf475d6e422c24b7
+      datavalue:
+        value: picosecond-time
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3902709$1724CE71-976A-4D38-B419-45514B66AC9C
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 6ad7264e7bd93a6a9ad707d9158d2f55fef2bd85
+      datavalue:
+        value:
+          amount: "+0.000000000001"
+          unit: http://www.wikidata.org/entity/Q11574
+          upperBound: "+0.000000000001"
+          lowerBound: "+0.000000000001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q3902709$34008c7c-4539-151a-442b-12489db12d15
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: f24e032a9edffb089eb58a8af5d2b30d49357f73
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11471
+          id: Q11471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3902709$96374A8A-BA94-4FA8-8C02-28F3276ED9E1
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Pikosekonde
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Picosegundu
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Pikosekunde
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Picosecond
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Picosegundo
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Pikosegundo
+    badges: []
+  fawiki:
+    site: fawiki
+    title: پیکوثانیه
+    badges: []
+  hakwiki:
+    site: hakwiki
+    title: Pî-miéu
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Picosecondo
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Picoseconde
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Picosekund
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Pikosekunda
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Picosegundo
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Picosecond
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Pikosekund
+    badges: []

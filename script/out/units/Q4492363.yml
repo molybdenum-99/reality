@@ -1,0 +1,139 @@
+---
+pageid: 4288287
+ns: 0
+title: Q4492363
+lastrevid: 491646046
+modified: '2017-05-28T21:06:55Z'
+type: item
+id: Q4492363
+labels:
+  en:
+    language: en
+    value: Vlorë frank
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4492363$4e6e50c7-4b36-fda3-9cb2-cda251694f0b
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 4a6f1c9b7d31dc3559dc1dac85a3a60d2b70fc18
+      datavalue:
+        value: "/m/02z11n9"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q4492363$1F5B199D-2589-4193-9A0C-650F87A5B06A
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: e7fb1f4a734d5a9b077d7634fa690de97913c47f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 222
+          id: Q222
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4492363$49B46124-12E9-4EC1-87A1-3E08F27EC842
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 6d26778036205ac62a6e4c0e0d0a273ba6930d40
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 159610
+          id: Q159610
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4492363$FBF7EF2E-B54B-4705-B48A-59ABBECFC1CF
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Vlorë frank
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Franco de Vlorë
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Franc de Vlorë
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Վլյորայի ֆրանկ
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Франк Влёры
+    badges: []

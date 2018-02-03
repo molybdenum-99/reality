@@ -1,0 +1,330 @@
+---
+pageid: 677008
+ns: 0
+title: Q720055
+lastrevid: 619460100
+modified: '2018-01-12T22:29:44Z'
+type: item
+id: Q720055
+labels:
+  en:
+    language: en
+    value: Planck temperature
+aliases: {}
+claims:
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 62604b308db3d2feaa7df599c59ff422986481fa
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 9021
+          id: Q9021
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q720055$821AC8D6-6814-456B-9D58-F3D8F7AAC158
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 86088ddea8643e9598531ffe5f651ee445027b8c
+      datavalue:
+        value: "/m/0170t1"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q720055$046BCC5E-4FB5-40CF-9F08-F708BF4E669C
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 9a5dffd51aee5931336b9b95d065e73788243522
+      datavalue:
+        value:
+          amount: "+141680800000000000000000000000000"
+          unit: http://www.wikidata.org/entity/Q11579
+          upperBound: "+141684100000000000000000000000000"
+          lowerBound: "+141677500000000000000000000000000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q720055$fc14360c-42b8-a365-dace-36178339300e
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q720055$39c8ee53-48da-f767-3f34-930f0a80404d
+    rank: normal
+  P1645:
+  - mainsnak:
+      snaktype: value
+      property: P1645
+      hash: 1aed6595a260b929d42b6c64914057a53aaf4b66
+      datavalue:
+        value: plktmp
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q720055$bd473e25-4727-e929-5db5-b69210d4d963
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 0a80cc8c1d4f843037b3a5a211ee962e6f01b686
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 468999
+          id: Q468999
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q720055$43455dec-470e-96de-38c7-b15f2fe3a529
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 77fe6e8fb025cd6bb2d6954fb9ef465749164fbc
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11466
+          id: Q11466
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q720055$00714f89-431d-e051-fae1-b49109faf475
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 678b93a985e1a3da34d3bb1a7ab280b765803a77
+      datavalue:
+        value: Planck-Temperature
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q720055$B5C93CA0-DE37-4FAB-99CC-F00B7A3E64BD
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 19467cbc01642c325c71a6e275bf4833c51f7bff
+      datavalue:
+        value: PlanckTemperature
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q720055$d597dc4e-4cfc-b12c-db29-440bfcd985b7
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: حرارة بلانك
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Планкаўская тэмпература
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: প্লাংকের তাপমাত্রা
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Planckova temperatura
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Temperatura de Planck
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Planckova teplota
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Planck temperature
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Temperaturo de Planck
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Temperatura de Planck
+    badges: []
+  fawiki:
+    site: fawiki
+    title: دمای پلانک
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Planckin lämpötila
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Température de Planck
+    badges: []
+  hewiki:
+    site: hewiki
+    title: טמפרטורת פלאנק
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Planckova temperatura
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Planck-hőmérséklet
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Պլանկի ջերմաստիճան
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Temperatura di Planck
+    badges: []
+  jawiki:
+    site: jawiki
+    title: プランク温度
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 플랑크 온도
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Temperatura Planckiana
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Планкова температура
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Plancktemperatuur
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Temperatura Plancka
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Temperatura de Planck
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Планковская температура
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Timpiratura di Planck
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Planckova temperatura
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Planckova teplota
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Planckova temperatura
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Plancktemperatur
+    badges: []
+  thwiki:
+    site: thwiki
+    title: อุณหภูมิของพลังค์
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Planck sıcaklığı
+    badges: []
+  ttwiki:
+    site: ttwiki
+    title: Plank temperaturası
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Температура Планка
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Nhiệt độ Planck
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 普朗克溫度
+    badges: []

@@ -1,0 +1,204 @@
+---
+pageid: 2069783
+ns: 0
+title: Q2143992
+lastrevid: 623680998
+modified: '2018-01-26T21:04:26Z'
+type: item
+id: Q2143992
+labels:
+  en:
+    language: en
+    value: kilohertz
+aliases:
+  en:
+  - language: en
+    value: kHz
+  - language: en
+    value: "㎑"
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 25d41b146c781be351215c10754a7f2fc44b0eab
+      datavalue:
+        value: kHz
+        type: string
+      datatype: string
+    type: statement
+    id: q2143992$cd17f823-4f4e-b83c-ef7a-19dfcee91fe3
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: f78a5fd3155426436b489d651b759a3a96653eeb
+      datavalue:
+        value: кГц
+        type: string
+      datatype: string
+    type: statement
+    id: Q2143992$dada4ee5-47a6-c263-58f8-c626bd871932
+    rank: normal
+  P487:
+  - mainsnak:
+      snaktype: value
+      property: P487
+      hash: 46b7f53d8eece268dbe54ef3cbee0645d5b9bd08
+      datavalue:
+        value: "㎑"
+        type: string
+      datatype: string
+    type: statement
+    id: q2143992$516650ad-4695-7cbb-cca4-75fcac3daa17
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 939eca17a8c8ef82428dff47f7a90d49402fd719
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11652
+          id: Q11652
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2143992$68126842-45ac-b3e9-02c1-0032ababa48f
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2143992$069ede59-464b-86ed-d7c4-a1c9229b202f
+    rank: normal
+  P2144:
+  - mainsnak:
+      snaktype: value
+      property: P2144
+      hash: adfa5377f738eaafdd9514da13f26d7773927684
+      datavalue:
+        value:
+          amount: "+1000"
+          unit: http://www.wikidata.org/entity/Q39369
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q2143992$4398cea2-4053-cfe3-6abc-542467859f5f
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2144
+      hash: cfe453c22ebfe854a83429f48c815d728350e554
+      datavalue:
+        value:
+          amount: "+0.001"
+          unit: http://www.wikidata.org/entity/Q732707
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q2143992$ae820f21-4f08-84b5-f530-4fe437606a40
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: c8be52e6a27fc9ba5d78ab79bc32d26d678c91bf
+      datavalue:
+        value:
+          amount: "+1000"
+          unit: http://www.wikidata.org/entity/Q39369
+          upperBound: "+1000"
+          lowerBound: "+1000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q2143992$24aa56a8-430f-fbdb-9ac5-e4bf17c6ced9
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 951106586a81369f752295d8fd57e6e3fed802c6
+      datavalue:
+        value: kilohertz
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2143992$746607F0-22EA-417D-9DE7-E1B03C9C8E6C
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 67005eddc4bb37340bbb0588e9d7e931bdc11d6d
+      datavalue:
+        value: Kilohertz
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2143992$A19212D8-CB5F-40E5-A21B-7071DD2E3F99
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 60f22b6ba82bd5536fa6da59c43a9dbb5f593f08
+      datavalue:
+        value: KiloHertz
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2143992$e5ab63aa-4f9c-3535-b4bc-d28ea13b078f
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Kilohertz
+    badges: []
+  hakwiki:
+    site: hakwiki
+    title: Tshiên-Het
+    badges: []
+  jawiki:
+    site: jawiki
+    title: キロヘルツ
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Kilohertz
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 千赫
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 千赫
+    badges: []

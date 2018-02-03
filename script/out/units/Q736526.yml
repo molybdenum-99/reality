@@ -1,0 +1,109 @@
+---
+pageid: 692666
+ns: 0
+title: Q736526
+lastrevid: 583397810
+modified: '2017-10-24T03:47:28Z'
+type: item
+id: Q736526
+labels:
+  en:
+    language: en
+    value: Shilling
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 4fb9093da5848ef20eec303246d497a9d99bdd4c
+      datavalue:
+        value: "/m/03y95tl"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q736526$81692152-9343-450D-A9BD-EA1B362484C4
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q736526$1AA2CF4D-4C7D-4A19-883B-85DF99441D62
+    rank: normal
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Xíling anglès
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Shilling (British coin)
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Chelín inglés
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Britse shilling
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Britisk shilling
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Szyling brytyjski
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Șiling (monedă britanică)
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Британский шиллинг
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Şilin
+    badges: []

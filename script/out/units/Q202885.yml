@@ -1,0 +1,339 @@
+---
+pageid: 199414
+ns: 0
+title: Q202885
+lastrevid: 617888112
+modified: '2018-01-08T22:57:56Z'
+type: item
+id: Q202885
+labels:
+  en:
+    language: en
+    value: Gambian dalasi
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q202885$20DDE0CA-1679-4029-8BD3-E83ADB0E8C2D
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 75d8aaa10543c65615af71d8f954d0fc3a723d7f
+      datavalue:
+        value: Money of Gambia
+        type: string
+      datatype: string
+    type: statement
+    id: q202885$A93D4B3C-A7FA-4FB9-8313-06EEC87959AC
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 7c707f48949bda20d92c95e3a3a08f4a919f2342
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 495091
+          id: Q495091
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q202885$7FE005E5-3A41-4FAA-821C-2A33B0A83A07
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 6a0e2ab7ee99fd1398a2b29b5c4282fc4a1ea33a
+      datavalue:
+        value: "/m/04wctd"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q202885$68CDE88A-56C0-4F0C-A982-4BD8356B68D4
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: af6baa37acf19e72d383ce201dd0514fa8be2eee
+      datavalue:
+        value: GMD
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q202885$30323c3d-4cb8-4c38-a1f9-839979227893
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: f6f0cf9e493d87bfc76ab5b86cf86082f4b7b9ba
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1005
+          id: Q1005
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q202885$80d376c7-4565-9430-8e41-16f2f75c4441
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: '08865199db65aafaac87d7cffb1eb7588fc98538'
+      datavalue:
+        value: Gambia-billet-monedes.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q202885$d9468404-4f68-caa8-3c35-ac9ee10986e0
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: a01258f2ab70d29f994637a3acaf249acf1229b4
+      datavalue:
+        value: '500167'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q202885$17287D36-562D-44B7-BE7E-250070C47821
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Dalasi
+    badges: []
+  arwiki:
+    site: arwiki
+    title: دالاسي غامبي
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Даласі
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Гамбійскі даласі
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Гамбийско даласи
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: গাম্বিয়ান ডালাসি
+    badges: []
+  brwiki:
+    site: brwiki
+    title: Dalasi
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Dalasi
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Gambijský dalasi
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Dalasi
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Νταλάζι
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Gambian dalasi
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Gambia dalasio
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Dalasi
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Dalasi
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Dalasi
+    badges: []
+  fawiki:
+    site: fawiki
+    title: دالاسی گامبیا
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Dalasi
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Dalasi
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: डालासी
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Gambijski dalasi
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Gambiai dalasi
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Dalasi gambese
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ダラシ
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 감비아 달라시
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Dalasis
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Dalasi
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: गांबियन डालासी
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Dalasi Gambia
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Gambiaanse dalasi
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Gambisk dalasi
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Dalasi
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Dalasi
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Гамбийский даласи
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Гамбијски даласи
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Dalasi
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Даласм Гамбия
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Dalasi ng Gambia
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Dalasi
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Даласі
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Dalasi
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Gambia dalasi
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 甘比亞達拉西
+    badges: []

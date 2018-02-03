@@ -1,0 +1,327 @@
+---
+pageid: 27063337
+ns: 0
+title: Q25104171
+lastrevid: 625316129
+modified: '2018-01-31T23:07:48Z'
+type: item
+id: Q25104171
+labels:
+  en:
+    language: en
+    value: Decred
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 16ab8cfff2957341998c927ff03e50befb65a864
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 13479982
+          id: Q13479982
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q25104171$b4ce15ae-492f-afd7-18de-ea1264c61b43
+    rank: normal
+  P571:
+  - mainsnak:
+      snaktype: value
+      property: P571
+      hash: 2d14dda4ec33f4e2e5c55de46b0b1bd518978506
+      datavalue:
+        value:
+          time: "+2016-02-01T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 11
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q25104171$772cfd5d-41cb-629d-4fed-ddbcba6a140a
+    rank: normal
+  P1813:
+  - mainsnak:
+      snaktype: value
+      property: P1813
+      hash: 4c144419cde587970d4663057811da8ed86d0c6b
+      datavalue:
+        value:
+          text: DCR
+          language: en
+        type: monolingualtext
+      datatype: monolingualtext
+    type: statement
+    id: Q25104171$a610bdcc-486f-729a-d3b2-d36249483623
+    rank: normal
+  P856:
+  - mainsnak:
+      snaktype: value
+      property: P856
+      hash: 8e0e5857f69cd0a86f4f250b8160a99bd4d2a736
+      datavalue:
+        value: https://www.decred.org/
+        type: string
+      datatype: url
+    type: statement
+    id: Q25104171$ee88bc11-48b0-ac18-c912-673f4d327b8e
+    rank: normal
+  P1324:
+  - mainsnak:
+      snaktype: value
+      property: P1324
+      hash: 52df41e166c99e79bb17e97da5aadfb134bf2098
+      datavalue:
+        value: https://github.com/decred/dcrd
+        type: string
+      datatype: url
+    type: statement
+    id: Q25104171$67afc2ca-41ac-f2ff-554a-8a728871da31
+    rank: normal
+  P973:
+  - mainsnak:
+      snaktype: value
+      property: P973
+      hash: 1debf339bad9128f0a61e6eba603a397fe3ae98f
+      datavalue:
+        value: https://coinmarketcap.com/currencies/decred/
+        type: string
+      datatype: url
+    type: statement
+    id: Q25104171$374a5743-45cb-cc55-f87b-d108becedb46
+    rank: normal
+  P348:
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: b5abac9f9cc071191ea483a7a1fc7b8775a4d627
+      datavalue:
+        value: 1.1.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 0d3cca495ae0bc0ea50ada7f0bf6dd8ec3bf2013
+        datavalue:
+          value:
+            time: "+2017-09-22T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q25104171$3F5A8AEA-CDCE-48F6-B4D7-9BF4BFC79164
+    rank: preferred
+    references:
+    - hash: 36a27f84490b046b0d93502098ba5f2058609bba
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 29083536a4e38b24c2e0547a6f85fe1d08d5fddf
+          datavalue:
+            value:
+              time: "+2018-01-30T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 192ee4b54d32b327b19bae8529f6db8fdaee2367
+          datavalue:
+            value: https://api.github.com/repos/decred/dcrd/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 382feb470b6eb3447c8197fd8e66897e03a89637
+      datavalue:
+        value: 0.0.4
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 5d8a7374efc7004c0c8b9c2721fbebee7b9292f7
+        datavalue:
+          value:
+            time: "+2016-02-24T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q25104171$BFCD1D27-000A-44B9-B446-57F5B67E78DA
+    rank: normal
+    references:
+    - hash: 36a27f84490b046b0d93502098ba5f2058609bba
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 29083536a4e38b24c2e0547a6f85fe1d08d5fddf
+          datavalue:
+            value:
+              time: "+2018-01-30T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 192ee4b54d32b327b19bae8529f6db8fdaee2367
+          datavalue:
+            value: https://api.github.com/repos/decred/dcrd/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: e1ef9bc53fd02af87d379cb67801e3dd9273718a
+      datavalue:
+        value: 0.0.2
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 01a6d9ec0364eff06d630ca91d92c77caaeb01a1
+        datavalue:
+          value:
+            time: "+2016-02-08T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q25104171$52CD5D96-5BE5-42B0-82C4-125A18B6EC07
+    rank: normal
+    references:
+    - hash: 36a27f84490b046b0d93502098ba5f2058609bba
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 29083536a4e38b24c2e0547a6f85fe1d08d5fddf
+          datavalue:
+            value:
+              time: "+2018-01-30T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 192ee4b54d32b327b19bae8529f6db8fdaee2367
+          datavalue:
+            value: https://api.github.com/repos/decred/dcrd/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: '0452980550384474d285ab7890b4d68e69f49e0d'
+      datavalue:
+        value: 0.0.1
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: b83d6e405344fc97381af758a30a2245489b6261
+        datavalue:
+          value:
+            time: "+2016-02-07T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q25104171$0A6145EA-7D4F-4971-A07C-FB02596DCF18
+    rank: normal
+    references:
+    - hash: 36a27f84490b046b0d93502098ba5f2058609bba
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 29083536a4e38b24c2e0547a6f85fe1d08d5fddf
+          datavalue:
+            value:
+              time: "+2018-01-30T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 192ee4b54d32b327b19bae8529f6db8fdaee2367
+          datavalue:
+            value: https://api.github.com/repos/decred/dcrd/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Decred
+    badges: []

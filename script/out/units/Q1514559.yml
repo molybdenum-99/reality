@@ -1,0 +1,177 @@
+---
+pageid: 1451760
+ns: 0
+title: Q1514559
+lastrevid: 620855363
+modified: '2018-01-16T02:29:17Z'
+type: item
+id: Q1514559
+labels:
+  en:
+    language: en
+    value: degree day
+aliases: {}
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: ac433d99d5b1025fbca905258a3ea57835ec4907
+      datavalue:
+        value: Degree days maps
+        type: string
+      datatype: string
+    type: statement
+    id: q1514559$6FE40FAF-2566-42DB-A784-A9CD818F2BDD
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 59abee9c18e17ce0514e061a9f2f96a85acbd8b7
+      datavalue:
+        value: "/m/0871s_"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1514559$C1073B92-8870-438B-9625-BFF28484DB68
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1514559$3b620530-4328-9b39-11a8-20722a990659
+    rank: normal
+  P1417:
+  - mainsnak:
+      snaktype: value
+      property: P1417
+      hash: 01b5c4a1cdf1da5089a080259a256a995d2fbff4
+      datavalue:
+        value: topic/degree-day
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1514559$D1353FFD-0777-4D52-AC15-96885E7708C0
+    rank: normal
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Grau dia
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Graddag
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Gradtagzahl
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Degree day
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Grados día de calefacción
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Kraadpäev
+    badges: []
+  fawiki:
+    site: fawiki
+    title: روز درجه
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Lämmitystarveluku
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Degré jour unifié
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Grado giorno
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Gradus dies
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Graaddag
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Graddag
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Градусо-день
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Graddagar
+    badges: []
+  vecwiki:
+    site: vecwiki
+    title: Grado xorno
+    badges: []

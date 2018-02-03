@@ -1,0 +1,188 @@
+---
+pageid: 16455920
+ns: 0
+title: Q14787261
+lastrevid: 621705941
+modified: '2018-01-19T14:45:57Z'
+type: item
+id: Q14787261
+labels:
+  en:
+    language: en
+    value: megawatt hour
+aliases:
+  en:
+  - language: en
+    value: MWh
+  - language: en
+    value: megawatt-hour
+  - language: en
+    value: megawatthour
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 06df6efe68f6e25b0d602229267e4d3e9ccc3d64
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2916980
+          id: Q2916980
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q14787261$8cfe09f6-4297-a7bd-1cc6-eeed766908dd
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: c0acac72fe97c36b9ea45fd99ccdb42222214e47
+      datavalue:
+        value: MWh
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: q14787261$a2ad046b-4389-91f5-63f8-8d606f3681d1
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 6319d330573c638a58b77448a09e7140564d87d9
+      datavalue:
+        value: МВт-ч
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q14787261$1b03bd47-46c0-0219-eff2-cb63de5aa911
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 1bdb05fb6d0e373bf1e9a41bc4c5337b92685b39
+      datavalue:
+        value:
+          amount: "+3600000000"
+          unit: http://www.wikidata.org/entity/Q25269
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q14787261$316e60d8-4f1a-17ec-bc38-ba02d9eae209
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 011b86553a4ed20e01be7ee2f1e76c83703c7058
+      datavalue:
+        value:
+          amount: "+1000000"
+          unit: http://www.wikidata.org/entity/Q12874593
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q14787261$cd7da058-42e5-25ed-2696-a2e31a271392
+    rank: normal
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 92a621a52be46deb3e445396dea92eb40b982690
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 6982035
+          id: Q6982035
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q14787261$750d96e6-4d0e-0852-86a4-e78fb34e7e7a
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: e4a5f9581e209abc694c7972aa2190af05de1b8e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 25235
+          id: Q25235
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q14787261$dcef31c0-4f44-b94b-f30d-9d2aea118255
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 7ad0f8fc8c23eb3ede324fc816121895c19109c6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11379
+          id: Q11379
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q14787261$7CB872D2-F765-44FD-B815-09CCA1542F80
+    rank: normal
+  P4746:
+  - mainsnak:
+      snaktype: value
+      property: P4746
+      hash: 7453abf0fcfbe3edf9f04a53c64afbc8865d5390
+      datavalue:
+        value: '015822'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q14787261$0E26EFE9-0A61-4FDA-B6F5-DFEF5EEB1078
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Megawattuur
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Megawattstunde
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Megawattuur
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Megavatna ura
+    badges: []

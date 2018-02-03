@@ -1,0 +1,83 @@
+---
+pageid: 34968542
+ns: 0
+title: Q33521887
+lastrevid: 624920221
+modified: '2018-01-30T22:25:22Z'
+type: item
+id: Q33521887
+labels:
+  en:
+    language: en
+    value: Ubiq
+aliases:
+  en:
+  - language: en
+    value: UBQ
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 108498abe70a9492000b3bd172031bd75d3ae4e9
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 7397
+          id: Q7397
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q33521887$980C5043-2F32-49A1-B950-AE63FD264D9E
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 16ab8cfff2957341998c927ff03e50befb65a864
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 13479982
+          id: Q13479982
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q33521887$fd469913-4c93-f4f8-dc64-05659f5d907c
+    rank: normal
+  P856:
+  - mainsnak:
+      snaktype: value
+      property: P856
+      hash: 6166981e22b4075ff07e4cde26cc986c0ebaa189
+      datavalue:
+        value: https://ubiqsmart.com/
+        type: string
+      datatype: url
+    type: statement
+    id: Q33521887$18219A71-9CFC-4426-A267-49D16641AE65
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Ubiq
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: UBIQ
+    badges: []

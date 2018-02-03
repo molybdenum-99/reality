@@ -1,0 +1,59 @@
+---
+pageid: 40983871
+ns: 0
+title: Q39632159
+lastrevid: 558136042
+modified: '2017-09-13T14:22:35Z'
+type: item
+id: Q39632159
+labels:
+  en:
+    language: en
+    value: kilogram force per square centimeter
+aliases:
+  en:
+  - language: en
+    value: kgf/cm3
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6166ea9a07e43efe7af58b089be082880e6b8c61
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10751953
+          id: Q10751953
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q39632159$7d92974d-48b3-b505-7e97-cb50ca3e90d9
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: d61680f8e9905fdb72dec257acdce50fab9a5e87
+      datavalue:
+        value: kgf/cm²
+        type: string
+      datatype: string
+    type: statement
+    id: Q39632159$c4de0da1-434d-a24c-8c65-37d523d7dd5b
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 2d734a78a23d03e8222be742878c90fca45cf6b9
+      datavalue:
+        value:
+          amount: "+98066.5"
+          unit: http://www.wikidata.org/entity/Q44395
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q39632159$e211b189-4e3c-2c5d-e42a-0b794db917d9
+    rank: normal
+sitelinks: {}

@@ -1,0 +1,122 @@
+---
+pageid: 1080801
+ns: 0
+title: Q1133947
+lastrevid: 619164875
+modified: '2018-01-12T07:19:22Z'
+type: item
+id: Q1133947
+labels:
+  en:
+    language: en
+    value: Basel thaler
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1133947$8e1dfac1-4b1c-dfaa-16f9-01b6265e9c18
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: a965374cb4e857c085816f137061ad44d499d852
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 162528
+          id: Q162528
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1133947$0858541c-44eb-1474-4176-3befe3d27382
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: ea1cb8ae5c2d94c231029205f1c40cf7659f6475
+      datavalue:
+        value: "/m/02r0vk9"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1133947$EE162355-4C8C-41CB-AAA2-0AAD664667BB
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P131:
+  - mainsnak:
+      snaktype: value
+      property: P131
+      hash: 75ea0dd0303e2cbe02fc46a09538292577a47b98
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 78
+          id: Q78
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1133947$dd47728b-4c52-5afb-d6a4-2e0f0dec9a2b
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: ثالر بازل
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Basel thaler
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Tallero di Basilea
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Thaler Basel
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Базельский талер
+    badges: []

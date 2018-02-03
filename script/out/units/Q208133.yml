@@ -1,0 +1,339 @@
+---
+pageid: 204184
+ns: 0
+title: Q208133
+lastrevid: 619540311
+modified: '2018-01-13T02:52:15Z'
+type: item
+id: Q208133
+labels:
+  en:
+    language: en
+    value: Slovenian tolar
+aliases:
+  en:
+  - language: en
+    value: Tolar
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 4bede57b906919c503f43ca0b586b29db64d3acb
+      datavalue:
+        value: Coins of Slovenia
+        type: string
+      datatype: string
+    type: statement
+    id: q208133$C22F3B01-4154-4934-B374-684D462E1300
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: c8c4e396321d0d938e5ab3b54db49b78f36bfc68
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 26662
+          id: Q26662
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q208133$15129F44-377F-4726-9FC4-84FEDAA4E982
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 1e0234bdb0edac46e15497ac4fdbed55ba441ae6
+      datavalue:
+        value: "/m/0h2cm"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q208133$EDFC9DBF-AC88-482B-A01C-01F5302E1704
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q208133$2b89ec4d-4c7d-c53d-69cf-1e85304ecd89
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: a99971c2903d326a1c6ba7bf1d5590280684988a
+      datavalue:
+        value: SIT
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q208133$ce697b4f-4db7-b05d-db6f-1f3b6f8a91ff
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: db933f2eba35c858c60bb4a25364dc343aa5b44c
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 215
+          id: Q215
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q208133$9c137792-4f7d-636c-e506-8cfe1e197dc9
+    rank: normal
+  P1366:
+  - mainsnak:
+      snaktype: value
+      property: P1366
+      hash: 2c75bfaf4e3db000df3888eef763865c5c85478b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 4916
+          id: Q4916
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: 3706976f9a17e727f5d258aa81f0ddafc68cbf49
+        datavalue:
+          value:
+            time: "+2007-01-01T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q208133$010e8877-4f89-7eda-8519-5bfc5e199f32
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: cf812cf78ec2bcbe046dbd9ef17c65d24a42800f
+      datavalue:
+        value: '500246'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q208133$A250FA89-CAD1-46E6-9CBC-5FBFF8E55259
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: تولار سلوفيني
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Словенски толар
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Slovenski tolar
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Tolar
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Slovinský tolar
+    badges: []
+  cywiki:
+    site: cywiki
+    title: Tolar
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Tolar
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Slovenian tolar
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Tolaro
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Tólar esloveno
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Tolar
+    badges: []
+  fawiki:
+    site: fawiki
+    title: تولار اسلوونی
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Slovenian tolar
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Tolar
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Tólar esloveno
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Slovenski tolar
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Szlovén tolár
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Slóvenskur dalur
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Tallero sloveno
+    badges: []
+  jawiki:
+    site: jawiki
+    title: トラール
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 슬로베니아 톨라르
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Tolaras
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Словенечки толар
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Tolar
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Slovensk tolar
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Tolar
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Tolar
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Tolar sloven
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Словенский толар
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Slovenski tolar
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Slovinský toliar
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Slovenski tolar
+    badges:
+    - Q17437796
+  srwiki:
+    site: srwiki
+    title: Словеначки толар
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Tolar
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Словенський толар
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Slovenia tolar
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 斯洛維尼亞托拉爾
+    badges: []

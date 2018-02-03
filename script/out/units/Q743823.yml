@@ -1,0 +1,138 @@
+---
+pageid: 699754
+ns: 0
+title: Q743823
+lastrevid: 618612157
+modified: '2018-01-10T22:13:34Z'
+type: item
+id: Q743823
+labels:
+  en:
+    language: en
+    value: British West African pound
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q743823$a669c2db-4a8d-c70e-35ce-7cbbde99ec5f
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 48dad11e4d75aa74b8b0904f85a3d307400ea278
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 339180
+          id: Q339180
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q743823$0fb41743-4b96-28f3-30d5-183207f1c3c9
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 04ebf468e7b701d46f4aec8b5fdec7cd832f1758
+      datavalue:
+        value: "/m/07vb5m"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q743823$2696E32F-B0B8-4694-A1E3-8C9C11052988
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P1001:
+  - mainsnak:
+      snaktype: value
+      property: P1001
+      hash: 297c051b1f2d06e959245dbab682c1d17e5aacf6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 918150
+          id: Q918150
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q743823$156fe000-419d-526e-94ed-b8c3237d2089
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Westafrikanisches Pfund
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Λίρα της Βρετανικής Δυτικής Αφρικής
+    badges: []
+  enwiki:
+    site: enwiki
+    title: British West African pound
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Libra del África Occidental Británica
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Brittiläisen Länsi-Afrikan punta
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Արևմտաաֆրիկյան ֆունտ
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 西アフリカ・ポンド
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Западноафриканский фунт
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Західноафриканський фунт
+    badges: []

@@ -1,0 +1,163 @@
+---
+pageid: 2329681
+ns: 0
+title: Q2411666
+lastrevid: 618423254
+modified: '2018-01-10T09:15:48Z'
+type: item
+id: Q2411666
+labels:
+  en:
+    language: en
+    value: Newfoundland dollar
+aliases:
+  en:
+  - language: en
+    value: NFD
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2411666$cc41a29f-4f03-0e49-eba2-3a5d29f08436
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 859f19d9184b0c426bb32bf1e08bb817390d3cbd
+      datavalue:
+        value: "/m/0blf09"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2411666$982CB39E-C7A9-49A8-A092-C1313A199D89
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P580:
+  - mainsnak:
+      snaktype: value
+      property: P580
+      hash: ff6c7aaaff81adced419511c5d33715af2110b91
+      datavalue:
+        value:
+          time: "+1865-01-01T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 9
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q2411666$1e2762a4-4e48-888c-d0c5-e3b7438cab8a
+    rank: normal
+  P582:
+  - mainsnak:
+      snaktype: value
+      property: P582
+      hash: 72a0aaad9fd14d348108aa052d3add28160339b1
+      datavalue:
+        value:
+          time: "+1949-01-01T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 9
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q2411666$581f2c93-4c14-6a92-1535-d9cc203523cf
+    rank: normal
+  P1366:
+  - mainsnak:
+      snaktype: value
+      property: P1366
+      hash: f35f0cb2df097e55eafd8d1bf907d70e6b1e362e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1104069
+          id: Q1104069
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2411666$55b7b552-430d-265f-08bf-2f3cf672a652
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Newfoundland dollar
+    badges: []
+  fawiki:
+    site: fawiki
+    title: دلار نیوفاندلند
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Newfoundlandin dollari
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Dollar de Terre-Neuve
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Dollaro di Terranova
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Niufaundlando doleris
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Dolar nowofundlandzki
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Ньюфаундлендский доллар
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Đô la Newfoundland
+    badges: []

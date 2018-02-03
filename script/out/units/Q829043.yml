@@ -1,0 +1,284 @@
+---
+pageid: 781793
+ns: 0
+title: Q829043
+lastrevid: 617888444
+modified: '2018-01-08T22:59:08Z'
+type: item
+id: Q829043
+labels:
+  en:
+    language: en
+    value: Salvadorian colón
+aliases:
+  en:
+  - language: en
+    value: Salvadorian colon
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 66181042494eda3872db5e0beecc86df878d5e17
+      datavalue:
+        value: Money of El Salvador
+        type: string
+      datatype: string
+    type: statement
+    id: q829043$938130F4-3292-45D2-B557-9E2BE2C9624C
+    rank: normal
+    references:
+    - hash: c456dc5cd2117249948c288206ff3f8b1bf574f0
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e17507043402fe54ae6c4d65cc51f46cec987de9
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 8449
+              id: Q8449
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 3cec3ae442352e81070f2082720d5ce3b0218823
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1801435
+          id: Q1801435
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q829043$CA68EFF6-5742-4169-B0D8-00F80A39D3CE
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: c1d0c8f7059c8d3192896f1f5bbda394735896ed
+      datavalue:
+        value: "/m/04wcnp"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q829043$FD7610C2-C30B-4ABC-ABF7-4C59EDB04DF0
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q829043$64753051-4047-dbd9-ce76-372fc8ff26c0
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 804a18109a2d8b7597bccd3bc609894c33c171f1
+      datavalue:
+        value: SVC
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q829043$7d897300-48c8-f881-3417-f040c9d4f330
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 93aab6e304b96af01177c4a225c953ee3fd843db
+      datavalue:
+        value: Un Colón.JPG
+        type: string
+      datatype: commonsMedia
+    type: statement
+    qualifiers:
+      P2096:
+      - snaktype: value
+        property: P2096
+        hash: a695e33f12c44239685abf5439ef2620fa10a52b
+        datavalue:
+          value:
+            text: Bitllet d'1 colon del 1982
+            language: ca
+          type: monolingualtext
+        datatype: monolingualtext
+    qualifiers-order:
+    - P2096
+    id: Q829043$0b56a999-44cd-dc94-7838-db6b91f6a726
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 06b791006b886bcc472ef2695335721ca7525c41
+      datavalue:
+        value: '500160'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q829043$4848C564-7945-4780-865D-B14202BE859D
+    rank: normal
+sitelinks:
+  bewiki:
+    site: bewiki
+    title: Сальвадорскі калон
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Салвадорски колон
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: সালভাদরিয়ান কোলন
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Colon salvadorenc
+    badges: []
+  dewiki:
+    site: dewiki
+    title: El-Salvador-Colón
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Salvadoran colón
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Salvadora kolumbo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Colón (moneda de El Salvador)
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Colón salvadortar
+    badges: []
+  fawiki:
+    site: fawiki
+    title: کولون السالوادور
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Colon salvadorien
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Salvadori colón
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Colón salvadoregno
+    badges: []
+  jawiki:
+    site: jawiki
+    title: サルバドール・コロン
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 엘살바도르 콜론
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Елсалвадорски колон
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Salvadoraanse colon
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Salvadoriansk colón
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Colón
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Colón do Salvador
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Сальвадорский колон
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Салвадорски колон
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Salvadoransk colón
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Колони Салвадор
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 薩爾瓦多科朗
+    badges: []

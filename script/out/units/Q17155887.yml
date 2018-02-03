@@ -1,0 +1,1253 @@
+---
+pageid: 18748898
+ns: 0
+title: Q17155887
+lastrevid: 624920745
+modified: '2018-01-30T22:30:37Z'
+type: item
+id: Q17155887
+labels:
+  en:
+    language: en
+    value: Dash
+aliases:
+  en:
+  - language: en
+    value: Dash (cryptocurrency)
+  - language: en
+    value: Darkcoin
+claims:
+  P856:
+  - mainsnak:
+      snaktype: value
+      property: P856
+      hash: a90a48374b4c886f2573723a96428d8fb37a15e5
+      datavalue:
+        value: https://www.darkcoin.io
+        type: string
+      datatype: url
+    type: statement
+    id: Q17155887$80E14CC9-479E-412F-BD50-62DEF40A5F0A
+    rank: deprecated
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  - mainsnak:
+      snaktype: value
+      property: P856
+      hash: a147f93df3765cc58a39b552f980ff55b77fb653
+      datavalue:
+        value: https://www.dash.org
+        type: string
+      datatype: url
+    type: statement
+    id: Q17155887$9a0d6163-44af-f8dc-fe66-3697bb096e40
+    rank: preferred
+    references:
+    - hash: 106dd006af9e312d93e1e0be2e26c09306faf9b2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 5b9b9638cd969f40639cdef1f0197637c9de738f
+          datavalue:
+            value:
+              time: "+2017-01-08T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 2eba9782b4f6bd371826e17f7b4e137778bf14c7
+          datavalue:
+            value: https://api.github.com/repos/dashpay/dash
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 16ab8cfff2957341998c927ff03e50befb65a864
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 13479982
+          id: Q13479982
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q17155887$81e7a15e-4c3f-2118-a885-dd2940fb7a05
+    rank: preferred
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 961c0bec009aaf510d21250115a51ea0e2daab95
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10836209
+          id: Q10836209
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q17155887$4a2f6da3-481a-aeba-3d2b-b9072d062e16
+    rank: normal
+  P577:
+  - mainsnak:
+      snaktype: value
+      property: P577
+      hash: 66f1e6176b17d6e844d62b08dd0971f85ec44d95
+      datavalue:
+        value:
+          time: "+2014-01-18T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 11
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q17155887$aa9938c7-4f41-300b-39e5-099dab12c011
+    rank: normal
+  P571:
+  - mainsnak:
+      snaktype: value
+      property: P571
+      hash: 95fb0a325e9930599f936937dfb509a2174d1a97
+      datavalue:
+        value:
+          time: "+2012-00-00T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 9
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q17155887$491af3be-478d-b6b1-3213-daef87852dae
+    rank: normal
+  P275:
+  - mainsnak:
+      snaktype: value
+      property: P275
+      hash: '0447296e0e56d461ed7491de8ee2da7367b75861'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 334661
+          id: Q334661
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q17155887$2d642169-4a02-17dd-dc8e-da72fdf87637
+    rank: normal
+    references:
+    - hash: 4debe7e5b6f170bbffb3a6aed14fc01fa0a18043
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a71b33d4bb0c0d821f39c694bb397d65a6575f1c
+          datavalue:
+            value: https://github.com/dashpay/dash
+            type: string
+          datatype: url
+      snaks-order:
+      - P854
+  P348:
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 6a5951a70a9689975beb0504b3a5a47cc5eae2f4
+      datavalue:
+        value: 12.0.58
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: 56bc190435e84905d07b1bb550b4ebafbf65a24e
+        datavalue:
+          value:
+            time: "+2016-06-09T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      P548:
+      - snaktype: value
+        property: P548
+        hash: e006ea8d2fa441433e0fa85bc4132b806e0fabee
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 2804309
+            id: Q2804309
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P585
+    - P548
+    id: Q17155887$2ded18d0-49f3-4f16-91c7-90df48c4e102
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 67e3f54cac54a907750d3a944ad09144bbe9fbf9
+      datavalue:
+        value: 0.12.0.58
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 36dc396846a48a1293cf7c7bcaeeb40ac5badf81
+        datavalue:
+          value:
+            time: "+2016-06-09T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q17155887$F5260290-DBA2-41BF-A803-40EF59442D47
+    rank: normal
+    references:
+    - hash: 30cf9a8d99922cfadf2d17e78df910d943d5d1c3
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 5b9b9638cd969f40639cdef1f0197637c9de738f
+          datavalue:
+            value:
+              time: "+2017-01-08T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 1bc9d24db2932754b728659b26db510451ed6d06
+          datavalue:
+            value: https://api.github.com/repos/dashpay/dash/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: df458443c3a97fb87384cfbf0d14fb285cb6f7e2
+      datavalue:
+        value: 0.12.0.57
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 28892b7734ef4b433248cd478cae54225d8e68dc
+        datavalue:
+          value:
+            time: "+2016-06-03T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q17155887$43175699-97D1-4BB2-8062-86049C97AC35
+    rank: normal
+    references:
+    - hash: 30cf9a8d99922cfadf2d17e78df910d943d5d1c3
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 5b9b9638cd969f40639cdef1f0197637c9de738f
+          datavalue:
+            value:
+              time: "+2017-01-08T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 1bc9d24db2932754b728659b26db510451ed6d06
+          datavalue:
+            value: https://api.github.com/repos/dashpay/dash/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 03cd50ad516d0545f0d7ac15666f34a319b4b24d
+      datavalue:
+        value: 0.9.13.15
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 73345f9f4cf091d6ecf189e194586e98108c84ea
+        datavalue:
+          value:
+            time: "+2014-09-23T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q17155887$5115FEEB-11FC-4401-9D8F-AA27279F62E3
+    rank: normal
+    references:
+    - hash: 30cf9a8d99922cfadf2d17e78df910d943d5d1c3
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 5b9b9638cd969f40639cdef1f0197637c9de738f
+          datavalue:
+            value:
+              time: "+2017-01-08T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 1bc9d24db2932754b728659b26db510451ed6d06
+          datavalue:
+            value: https://api.github.com/repos/dashpay/dash/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 13c65ed84eab65c1e2bcd1ba961597bf947542d2
+      datavalue:
+        value: 0.12.1.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 69d2eac928f9076e7023f617b07e6e22e05ea7a9
+        datavalue:
+          value:
+            time: "+2017-02-06T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q17155887$950C2DE5-6977-4F0C-98CF-4910BB5315E8
+    rank: normal
+    references:
+    - hash: 40e7246fa9d3f50cd68d91080ffa292c5df28330
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: d82bd9b1a800ad6ffbba071b5e3cb1f0530afb77
+          datavalue:
+            value:
+              time: "+2017-02-17T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 1bc9d24db2932754b728659b26db510451ed6d06
+          datavalue:
+            value: https://api.github.com/repos/dashpay/dash/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 8dbbe03a9ef06750fa52ba6c176df47b2eab90bd
+      datavalue:
+        value: 0.12.1.1
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 0a948e67ede7c93911d6f432312c5453ce592a2b
+        datavalue:
+          value:
+            time: "+2017-02-19T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q17155887$C9201469-BB9D-4B1C-BBDE-867BC5BF4D63
+    rank: normal
+    references:
+    - hash: 36c5125ca71e84956287724cc5c5d987ad7dd6c5
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 12c76fd39642e2357f1401a775626efaad3a5ea8
+          datavalue:
+            value:
+              time: "+2017-02-21T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 1bc9d24db2932754b728659b26db510451ed6d06
+          datavalue:
+            value: https://api.github.com/repos/dashpay/dash/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: fcfb68f7c109d480afd28a7bdebed420295d7136
+      datavalue:
+        value: 0.12.1.2
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 1b9624198888d1704a7ccacfdd98961beaf6e070
+        datavalue:
+          value:
+            time: "+2017-02-24T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q17155887$EB75469A-5ED9-48B2-A10E-CC27A2AEC6B5
+    rank: normal
+    references:
+    - hash: 60b104d6dff5570334c56e0d14ab7e56a15b5cea
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 1bc9d24db2932754b728659b26db510451ed6d06
+          datavalue:
+            value: https://api.github.com/repos/dashpay/dash/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: e1135d930fd3f12f0bcbe6805cc02a148a9eb452
+          datavalue:
+            value:
+              time: "+2017-02-24T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: bcd9b67c1efb47624b3249e81cc0d27b7bceead3
+      datavalue:
+        value: 0.12.1.3
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: b129d31dc49e73b4464fe9b4121b0d0ed481b4eb
+        datavalue:
+          value:
+            time: "+2017-03-02T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q17155887$BF3F9A23-02A5-4FA1-9FEF-22CD102E47D5
+    rank: normal
+    references:
+    - hash: 6265460c2bd3109a0d88ab9891571e833f74e1ea
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 9b14e30f0820281eff012d4a84aef24d706a2e0b
+          datavalue:
+            value:
+              time: "+2017-03-02T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 1bc9d24db2932754b728659b26db510451ed6d06
+          datavalue:
+            value: https://api.github.com/repos/dashpay/dash/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: df5eedbd3a0f7e864a5d1b60a7c3f889cec5724f
+      datavalue:
+        value: 0.12.1.4
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: d9d4f9e072f4870114137786613a236d52159c29
+        datavalue:
+          value:
+            time: "+2017-03-22T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q17155887$6469AC46-B714-4F2E-B447-72BB179FC0B1
+    rank: normal
+    references:
+    - hash: 132072d6484c534ddb8e5130ef1902e2ad87190b
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 3bbcd85a6232d6c5c3bb74b29e2ed11c17b4920e
+          datavalue:
+            value:
+              time: "+2017-03-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 1bc9d24db2932754b728659b26db510451ed6d06
+          datavalue:
+            value: https://api.github.com/repos/dashpay/dash/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 9305caf1fa2eb90acfbb36a015d2291daac7cc30
+      datavalue:
+        value: 0.12.1.5
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: fae794b7dfb3752db0b16572ba4175ef69e55bf8
+        datavalue:
+          value:
+            time: "+2017-04-11T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q17155887$67149D86-2A72-4E68-9CF2-E4A51E6366C1
+    rank: normal
+    references:
+    - hash: 46ea03da6bd348264feaf21d3a7fa2852b45ffe6
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 1bc9d24db2932754b728659b26db510451ed6d06
+          datavalue:
+            value: https://api.github.com/repos/dashpay/dash/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: f8a78eb40fc1b88b66ad6ae2019395e49b26f6e5
+          datavalue:
+            value:
+              time: "+2017-04-11T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: d302d0f88e3995144153c3d6533c598e7b785bda
+      datavalue:
+        value: 0.12.2.1
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 14df4a1c5799268d285e2b265cc7f236ccfc6a97
+        datavalue:
+          value:
+            time: "+2017-11-11T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q17155887$496AE7E9-BD13-4E51-A868-D97255B4FD7E
+    rank: normal
+    references:
+    - hash: ab21667bed11ff957d4fb35ab1b9332c258d0b19
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 1bc9d24db2932754b728659b26db510451ed6d06
+          datavalue:
+            value: https://api.github.com/repos/dashpay/dash/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 6475f4725ad6b042e29d6067dc12fb5647f9bdf6
+          datavalue:
+            value:
+              time: "+2017-11-18T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: f21f95bafab61f0843671b26111396202e7d948f
+      datavalue:
+        value: 0.12.2.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: c90e7cd24f66635f7941cec9222f71e064ddeeed
+        datavalue:
+          value:
+            time: "+2017-11-07T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q17155887$6A7E9141-53F0-4716-8C1C-3D201EA4A1BD
+    rank: normal
+    references:
+    - hash: ab21667bed11ff957d4fb35ab1b9332c258d0b19
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 1bc9d24db2932754b728659b26db510451ed6d06
+          datavalue:
+            value: https://api.github.com/repos/dashpay/dash/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 6475f4725ad6b042e29d6067dc12fb5647f9bdf6
+          datavalue:
+            value:
+              time: "+2017-11-18T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 64db310b41bff35a9ca2ba79c7fdc14c07866d7e
+      datavalue:
+        value: 0.12.2.2
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 66c49388cbb454ced3e0db8886d7932e2e0f6b96
+        datavalue:
+          value:
+            time: "+2017-12-19T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q17155887$AA72866C-3E8D-4894-9397-AE5E8024BA21
+    rank: normal
+    references:
+    - hash: 5fb70e48e16408dc7cb5c41d19f78e80575bd73f
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 1bc9d24db2932754b728659b26db510451ed6d06
+          datavalue:
+            value: https://api.github.com/repos/dashpay/dash/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: dc1f918e54a08c6b0f30f6ee08737a23effc0ba7
+          datavalue:
+            value:
+              time: "+2017-12-19T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 0d16bae9352af7282be98ec672b6c3f7303782ec
+      datavalue:
+        value: 0.12.2.3
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 2834603790c6837e3caf88688f0a1c2e00e4384a
+        datavalue:
+          value:
+            time: "+2018-01-11T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q17155887$6FC4A00A-A403-451D-8FCE-C44A2225BD44
+    rank: preferred
+    references:
+    - hash: 670095ab61ca352c467eb1b2a1708ce008d116db
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 1bc9d24db2932754b728659b26db510451ed6d06
+          datavalue:
+            value: https://api.github.com/repos/dashpay/dash/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 96d62a54d66a75a25dd4f894ab3f2563b3e9422f
+          datavalue:
+            value:
+              time: "+2018-01-12T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  P306:
+  - mainsnak:
+      snaktype: value
+      property: P306
+      hash: 372b598ec10a56c64b0db84314aeca97e8818e67
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1406
+          id: Q1406
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q17155887$b3c92c45-461f-31a8-e905-d964de072c5b
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P306
+      hash: 9c855953ce5b4275715170211ccecd34101d2dbd
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3251801
+          id: Q3251801
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q17155887$a1692177-413b-a41d-2bb6-26ba6df8dda1
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P306
+      hash: 8668f1e0b2ccb2025b9ad6a8225ecfb85d575bdc
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 43627
+          id: Q43627
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q17155887$5d497104-4376-903b-73c1-54cf9f74514f
+    rank: normal
+  P144:
+  - mainsnak:
+      snaktype: value
+      property: P144
+      hash: 9fd625a0773c329d3adf2cf285402bfa1a62f041
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 18198917
+          id: Q18198917
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q17155887$0f4f924c-43e1-8245-f632-2a80a78d0d01
+    rank: preferred
+  - mainsnak:
+      snaktype: value
+      property: P144
+      hash: 1c5163defa682b2fa9d678773949a856907d3bdd
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 131723
+          id: Q131723
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q17155887$61b2d69b-4275-5250-9c28-b43f51a05a72
+    rank: normal
+  P154:
+  - mainsnak:
+      snaktype: value
+      property: P154
+      hash: 0cd0199fc19a842e01551fc4bcfae7101f75285f
+      datavalue:
+        value: Darkcoin official logo.png
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q17155887$e21652e3-4fee-93d3-b2b3-62f7abe57040
+    rank: normal
+  P170:
+  - mainsnak:
+      snaktype: value
+      property: P170
+      hash: ebc4e6f0176598b258a50a63256fa9547ba6a832
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 20754725
+          id: Q20754725
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q17155887$b5413e26-4183-07c3-4ced-2c083607ac8a
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: e92c292f3d3117e2278098ded98fa7dcf0ec5c06
+      datavalue:
+        value: Dash (cryptocurrency)
+        type: string
+      datatype: string
+    type: statement
+    id: Q17155887$EF38E9A7-370C-48F0-BC04-CEF866FFC3D0
+    rank: normal
+  P1889:
+  - mainsnak:
+      snaktype: value
+      property: P1889
+      hash: 821b800543cc485bbd59cb300447f0a258523a79
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 21857460
+          id: Q21857460
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q17155887$e7d4c50e-4bfc-2170-32e4-3f2bf47a79cc
+    rank: normal
+  P1324:
+  - mainsnak:
+      snaktype: value
+      property: P1324
+      hash: 266416edd40b1a65078d29c4e3438c767b7b36fc
+      datavalue:
+        value: https://github.com/dashpay/dash
+        type: string
+      datatype: url
+    type: statement
+    qualifiers:
+      P2700:
+      - snaktype: value
+        property: P2700
+        hash: c9653c60db2ac354cb25a08c14c306afd1238d7c
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 186055
+            id: Q186055
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P2700
+    id: Q17155887$4b32ba9e-4e92-ad29-9ea5-fbc7b8428b09
+    rank: normal
+    references:
+    - hash: da34d8c7326d071545c49ba4593f14fe2d4aef4b
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 2354fdc43b4368725cb018ac4578ede3e98a8712
+          datavalue:
+            value:
+              time: "+2016-10-05T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P813
+  P2992:
+  - mainsnak:
+      snaktype: value
+      property: P2992
+      hash: 0f97d5f3ff950230d3fb34faaaa518604b8542c5
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 965769
+          id: Q965769
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P973:
+      - snaktype: value
+        property: P973
+        hash: f282b942e8e4ef6749492e7f140c01e351fd348f
+        datavalue:
+          value: https://github.com/dashpay/dash/blob/master/.travis.yml
+          type: string
+        datatype: url
+      P1065:
+      - snaktype: value
+        property: P1065
+        hash: 72be332b50bb4dc61044073596391ccf7880580a
+        datavalue:
+          value: https://travis-ci.org/dashpay/dash
+          type: string
+        datatype: url
+    qualifiers-order:
+    - P973
+    - P1065
+    id: Q17155887$D420FE07-F42A-4FA3-BF3D-59F108BA1C44
+    rank: normal
+    references:
+    - hash: da34d8c7326d071545c49ba4593f14fe2d4aef4b
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 2354fdc43b4368725cb018ac4578ede3e98a8712
+          datavalue:
+            value:
+              time: "+2016-10-05T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P813
+  P1814:
+  - mainsnak:
+      snaktype: value
+      property: P1814
+      hash: be4f7ceada3c44c8e99339bfe74b6803aadacaa5
+      datavalue:
+        value: ダッシュ
+        type: string
+      datatype: string
+    type: statement
+    id: Q17155887$712B79C0-01E5-4236-9501-F9BEBAA5B4BE
+    rank: normal
+  P2283:
+  - mainsnak:
+      snaktype: value
+      property: P2283
+      hash: 84efc95c1e17d3aafae2432b08212113435982b6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 7249984
+          id: Q7249984
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q17155887$fe1e3f88-4ec3-9f43-830d-e36a534975be
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: داش (عملة مشفرة)
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Даш (криптовалута)
+    badges: []
+  commonswiki:
+    site: commonswiki
+    title: Category:Dash (cryptocurrency)
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Dash (kryptoměna)
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Dash
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Dash (Kryptowährung)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Dash (cryptocurrency)
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Dash (criptomoneda)
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Dash (crypto-monnaie)
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Dash (criptovaluta)
+    badges: []
+  jawiki:
+    site: jawiki
+    title: Dash (暗号通貨)
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Dash (криптовалюта)
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Dash
+    badges: []

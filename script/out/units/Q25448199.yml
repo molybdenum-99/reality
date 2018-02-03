@@ -1,0 +1,53 @@
+---
+pageid: 27401001
+ns: 0
+title: Q25448199
+lastrevid: 560943776
+modified: '2017-09-17T19:10:07Z'
+type: item
+id: Q25448199
+labels:
+  en:
+    language: en
+    value: light-nanosecond
+aliases:
+  en:
+  - language: en
+    value: light nanosecond
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1c41b2ea8a3f6d3fab77c103d826ae5ead7a9c01
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1978718
+          id: Q1978718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q25448199$466B895C-9916-4810-BBD8-0AD3AC05A7E1
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 3b4ecc3897a1b6d95c7509a44232a0caf9f8eb53
+      datavalue:
+        value:
+          amount: "+0.000000001"
+          unit: http://www.wikidata.org/entity/Q909315
+          upperBound: "+0.000000002"
+          lowerBound: "+0.000000000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q25448199$793CFBE5-4555-4CF6-B32A-F01CC21F1481
+    rank: normal
+sitelinks:
+  ptwiki:
+    site: ptwiki
+    title: Nanossegundo-luz
+    badges: []

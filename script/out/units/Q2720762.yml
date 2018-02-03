@@ -1,0 +1,246 @@
+---
+pageid: 2614661
+ns: 0
+title: Q2720762
+lastrevid: 619836873
+modified: '2018-01-13T17:15:23Z'
+type: item
+id: Q2720762
+labels:
+  en:
+    language: en
+    value: Old Israeli shekel
+aliases: {}
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 042de9821cc700e0caed181475ba63a063c460e7
+      datavalue:
+        value: Old Israeli shekel
+        type: string
+      datatype: string
+    type: statement
+    id: q2720762$E1C53B11-1123-4D8F-B27C-74E39084EDDD
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 4c67eb954823b192bd0a6159d5d7dc876da001bf
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 244411
+          id: Q244411
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q2720762$5741CDAF-25D7-4AE9-9DBF-CB089D6F2066
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2720762$48ac4f2b-4557-8c39-b24d-145c13591b40
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: a205121e274cdc6052a413016582a02fb97372bc
+      datavalue:
+        value: "/m/090krt"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2720762$D3BD832C-8425-4200-B490-C0D4E8C31F50
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P1366:
+  - mainsnak:
+      snaktype: value
+      property: P1366
+      hash: c3a6bf4901f1aa68b94236f0aa60ec5f3b0b6232
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 131309
+          id: Q131309
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: fdf9823c2c78f35be683dbabbdc70ae7ae1ea797
+        datavalue:
+          value:
+            time: "+1986-00-00T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 9
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q2720762$f41f56d7-4b7a-5ce4-62b3-8369d427cfd7
+    rank: normal
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 8c731990d8fcef1f12777d900e18c92ee837ac50
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1404428
+          id: Q1404428
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2720762$8111d6fb-4d46-e8e7-5d0a-ed92482d52e7
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: cfa17a0e1af2fd20826d7649de8b95ee2f8a6268
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 801
+          id: Q801
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2720762$316ef888-4eb8-6cbb-66cf-bfa6410dfcad
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: شيكل قديم
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Xéquel
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Izraelský šekel
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Old Israeli shekel
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Séquel antiguo
+    badges: []
+  fawiki:
+    site: fawiki
+    title: شکل قدیمی اسرائیل
+    badges: []
+  hewiki:
+    site: hewiki
+    title: שקל ישן
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Vecchio shekel israeliano
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Szekel
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Shekel israelense
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Shekel vechi
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Ізраїльський шекель
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 舊謝克爾
+    badges: []

@@ -1,0 +1,225 @@
+---
+pageid: 791136
+ns: 0
+title: Q838801
+lastrevid: 617101412
+modified: '2018-01-06T13:00:57Z'
+type: item
+id: Q838801
+labels:
+  en:
+    language: en
+    value: nanosecond
+aliases: {}
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: d6f329598c65404f80742983e1b91f129a4c1813
+      datavalue:
+        value: ns
+        type: string
+      datatype: string
+    type: statement
+    id: q838801$a464ff82-448f-8fd2-09bb-e502a02e4e0c
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 98a1e85b80bda7ff493c25a6b805599da715c077
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1790144
+          id: Q1790144
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q838801$4cc74f34-4226-72e4-5cac-82dfddff4df3
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: f99a8ef972d2b8ce268c6a9bfc1ee479e779980c
+      datavalue:
+        value: "/m/08_86"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q838801$4C277173-39E1-4102-8753-44BD090A8D9B
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: f6dc10cf60eae24ef59fc6c62d4fa4abf20909e5
+      datavalue:
+        value:
+          amount: "+0.000000001"
+          unit: http://www.wikidata.org/entity/Q11574
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q838801$0acfa663-48d7-01e4-0f26-22566ee3abe0
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 792ee6483349139adad6f30a43088af1d1bcfe2d
+      datavalue:
+        value: nanosecond-time
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q838801$E770CA81-C69D-4D07-AC2C-48CCE9984707
+    rank: normal
+  P1889:
+  - mainsnak:
+      snaktype: value
+      property: P1889
+      hash: f4519acf3f3696e6f3efa8b71dc6727fdfdcc740
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 27863866
+          id: Q27863866
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q838801$09561233-4968-b55e-077e-47084a654cba
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: f24e032a9edffb089eb58a8af5d2b30d49357f73
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11471
+          id: Q11471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q838801$EF582CA0-FF18-486E-AA88-B8DA849105FE
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: نانوثانية
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Nanosegundu
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Наносекунда
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Nanosecond
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Nanosegundo
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Nanosegundo
+    badges: []
+  extwiki:
+    site: extwiki
+    title: Nanosegundu
+    badges: []
+  fawiki:
+    site: fawiki
+    title: نانوثانیه
+    badges: []
+  hakwiki:
+    site: hakwiki
+    title: Nai-miéu
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Nanoszekundum
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Nanósekúnda
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Nanosecondo
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ナノ秒
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 1 E-9 s
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Nanoseconde
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Nanosekund
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Nanosekund
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Nanosekunda
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Nanosecond
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Nanosekund
+    badges: []
+  warwiki:
+    site: warwiki
+    title: Nanosegundo
+    badges: []

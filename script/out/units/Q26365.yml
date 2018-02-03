@@ -1,0 +1,546 @@
+---
+pageid: 29786
+ns: 0
+title: Q26365
+lastrevid: 617888057
+modified: '2018-01-08T22:57:45Z'
+type: item
+id: Q26365
+labels:
+  en:
+    language: en
+    value: Eastern Caribbean dollar
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q26365$A5E8699F-660D-48C2-ABEF-A95FD25A7150
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 62b92ff7d900ebf6441612661ea967a57d2eb600
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1643989
+          id: Q1643989
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q26365$26A75BB5-F5B6-475E-AE8B-2CB1247E4C1B
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 54a285b5c5830f874dbf486091653d28ccffab2a
+      datavalue:
+        value: Money of the East Caribbean States
+        type: string
+      datatype: string
+    type: statement
+    id: q26365$E91FB253-F956-4734-9E35-CB0339775272
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: aa898982ae84aacc328ef4aca5a41cc1b0e09efa
+      datavalue:
+        value: XCD
+        type: string
+      datatype: external-id
+    type: statement
+    id: q26365$4b1bb449-4856-2a08-40e6-8facc51b0268
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 9aa66b4931e390f345e35b6b9c87822f3130d1a5
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1210260
+          id: Q1210260
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q26365$92BBF4B0-9BAF-4EA5-A070-53FCCFDC98AF
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: d4ca6c49e5ea207ddadabf2dcce3d9a627b59739
+      datavalue:
+        value: "/m/02r4k"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q26365$568C707D-3B47-4F7F-BAB4-FC68AC04CE0D
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: '093ae2f5582f4845df71f4bb16cd7b16032cac93'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 781
+          id: Q781
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q26365$5d53a4d2-4cb9-332b-890f-25f3ec4a189e
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 43099edc6ea4ac71bdeeba97974640a70e089f18
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 784
+          id: Q784
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q26365$e51733c1-4630-d8cf-ab09-89dc700ceefc
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 86cb435cbdc1fea3aa149bd146fb26ccc6ca4f71
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 769
+          id: Q769
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q26365$020835d0-4146-aec2-0b30-bdeadec816bb
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 5f22332853469d3508db26aa4947426955f09917
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 763
+          id: Q763
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q26365$8cb335cf-4f3a-886a-5a1a-7fe38322418a
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 4a48c0183b608bf0b16d322c9fefbb7e4f32b5d9
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 760
+          id: Q760
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q26365$e4d50da1-410c-cb3c-aa6b-78356e99787d
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 835befb8218da3806a9df2eb037d93e441e513da
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 757
+          id: Q757
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q26365$5c2f3cb4-405e-a5d5-ea5a-f0562beda2d0
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: ce452f61ece373edc662f1c90cfb98e1edf66be9
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 25228
+          id: Q25228
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q26365$d9287486-48d5-6a8f-3096-208c3698e0ab
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: a44880420787fb348836dc51d3babc5227c4ef7e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 145
+          id: Q145
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q26365$749c7808-4d38-d622-cbdd-c5715fa80db5
+    rank: normal
+  P2284:
+  - mainsnak:
+      snaktype: value
+      property: P2284
+      hash: 2e16ea4d6ad8f6ec048890c0a6872fbaa6bffd51
+      datavalue:
+        value:
+          amount: "+0.37037037"
+          unit: http://www.wikidata.org/entity/Q4917
+          upperBound: "+0.37037037"
+          lowerBound: "+0.37037037"
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P580:
+      - snaktype: value
+        property: P580
+        hash: 5d2e9fce4313dbba2dda39f013c35ac9e1cd97ef
+        datavalue:
+          value:
+            time: "+1976-00-00T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 9
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P580
+    id: Q26365$c7797f17-44cf-9925-8e1a-163b031cf136
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: 58aefd5472e9725c741c446715f38df346769277
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 14083
+          id: Q14083
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q26365$f3276c02-4d49-176b-6acd-3f72607a79a8
+    rank: normal
+  P1365:
+  - mainsnak:
+      snaktype: value
+      property: P1365
+      hash: a6aa7bb23077a272b8721fc7c11d797cbd6a3ce0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 942092
+          id: Q942092
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q26365$dfbb6a38-41f9-60e9-53c0-74a65abbeafc
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: fc811d7408db8b6101187283e478dfc9db77c974
+      datavalue:
+        value: '500113'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q26365$85918FFE-234A-46DF-94E8-04E467C1A74E
+    rank: normal
+sitelinks:
+  alswiki:
+    site: alswiki
+    title: Ostkaribischer Dollar
+    badges: []
+  arwiki:
+    site: arwiki
+    title: دولار شرق الكاريبي
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Dólar del Caribe Oriental
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Усходнекарыбскі даляр
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: ইস্ট ক্যারিবিয়ান ডলার
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Dòlar del Carib Oriental
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Východokaribský dolar
+    badges: []
+  cywiki:
+    site: cywiki
+    title: Doler Dwyrain y Caribî
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Ostkaribischer Dollar
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Δολάριο Ανατολικής Καραϊβικής
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Eastern Caribbean dollar
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Orientkaribia dolaro
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Dólar del Caribe Oriental
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Ekialdeko Karibeko dolar
+    badges: []
+  fawiki:
+    site: fawiki
+    title: دلار کارائیب شرقی
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Itä-Karibian dollari
+    badges: []
+  frrwiki:
+    site: frrwiki
+    title: Uastkariibisk Dooler
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Dollar des Caraïbes orientales
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Dólar Caribe-Leste
+    badges: []
+  hewiki:
+    site: hewiki
+    title: דולר מזרח קריבי
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: पूर्वी कैरेबियाई डॉलर
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Istočnokaripski dolar
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Kelet-karibi dollár
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Արևելակարիբյան դոլար
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Dolar Karibia Timur
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Austurkarabískur dalur
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Dollaro dei Caraibi Orientali
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 東カリブ・ドル
+    badges: []
+  kawiki:
+    site: kawiki
+    title: აღმოსავლეთ კარიბის დოლარი
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 동카리브 달러
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Rytų Karibų doleris
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Austrumkarību dolārs
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: पूर्व कॅरिबियन डॉलर
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Oost-Caribische dollar
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Østkaribisk dollar
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਪੂਰਬੀ ਕੈਰੀਬੀਆਈ ਡਾਲਰ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Dolar wschodniokaraibski
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Dólar do Caribe Oriental
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Восточнокарибский доллар
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Istočnokaripski dolar
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: East Caribbean dollar
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Vzhodnokaribski dolar
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Источнокарипски долар
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Östkaribisk dollar
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Doğu Karayip doları
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Східнокарибський долар
+    badges: []
+  urwiki:
+    site: urwiki
+    title: مشرقی کیریبین ڈالر
+    badges: []
+  vepwiki:
+    site: vepwiki
+    title: Päivnouzmaine kariban dollar
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Đô la Đông Caribe
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: ბჟაეიოლ კარიბიშ დოლარი
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Dọ́là Ìlàòrùn Kàríbẹ́ánì
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Tang Caribe dollar
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 東加勒比元
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 東加勒比元
+    badges: []

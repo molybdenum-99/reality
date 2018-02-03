@@ -1,0 +1,93 @@
+---
+pageid: 292998
+ns: 0
+title: Q304122
+lastrevid: 491625629
+modified: '2017-05-28T20:19:55Z'
+type: item
+id: Q304122
+labels:
+  en:
+    language: en
+    value: Saxon thaler
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 423009d3e42a3e555a95a583e2c3933c6058c32b
+      datavalue:
+        value: "/m/0bqhrh"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q304122$83C2BD22-58E0-4818-88E7-EF2672FE8CC0
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q304122$8a3454b1-4cc4-7e1c-33cf-a7a755fe6e3c
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Saxon thaler
+    badges: []
+  fawiki:
+    site: fawiki
+    title: ساکسون تالر
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Սաքսոնական թալեր
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Tallero della Sassonia
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Thaler Saxony
+    badges: []

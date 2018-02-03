@@ -1,0 +1,860 @@
+---
+pageid: 189448
+ns: 0
+title: Q191118
+lastrevid: 624040710
+modified: '2018-01-28T00:04:55Z'
+type: item
+id: Q191118
+labels:
+  en:
+    language: en
+    value: tonne
+aliases:
+  en:
+  - language: en
+    value: Cubic meter
+claims:
+  P460:
+  - mainsnak:
+      snaktype: value
+      property: P460
+      hash: 4762daac5cd2c4ef6db66200f4fde902f1f00586
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11776930
+          id: Q11776930
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q191118$d61788f4-444e-4cda-4ac3-0ccc0b8fc6a6
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 954edbd3fef27ce6396c0878a95c608ca4ed84af
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3647172
+          id: Q3647172
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q191118$55DE5808-CA5C-4750-A1A4-E45A2E142502
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: fd0ef4c057833296c013ea47bc2e0b0046687871
+      datavalue:
+        value: t
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: q191118$3b973aac-4145-c407-8eca-5e07f869be92
+    rank: normal
+    references:
+    - hash: fe6b5dd7a873279b7847286a2e1e29865e66e930
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 26fc09289522fb4d0720942564c921c35a0d4db9
+          datavalue:
+            value: '21'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: d91796d6666672ef9ffefbcaff859ec386db1751
+          datavalue:
+            value: 6.5.6
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: b8dc31a569de690b2eb0550d6816a7b2f62874c4
+      datavalue:
+        value: т
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q191118$4d4bc522-41d4-859a-24b1-ef29014ff185
+    rank: normal
+  P1296:
+  - mainsnak:
+      snaktype: value
+      property: P1296
+      hash: 9c34a1575b2ec624e9bdd4ccb65b54c4d0c1bb36
+      datavalue:
+        value: '0214235'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q191118$CB5E80B2-CF29-4F84-8858-462C3FA626DC
+    rank: normal
+    references:
+    - hash: b3fd5e254143d8b52cd96cff43af9af5e3a82358
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: f13c99a16441677ec69fcea23f221d866f1fc98f
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 199693
+              id: Q199693
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: df5f76604e233ebf72dcd591d417d0fca246ca43
+      datavalue:
+        value:
+          amount: "+1000"
+          unit: http://www.wikidata.org/entity/Q11570
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q191118$988481c6-4820-6118-d428-89d56ecc912e
+    rank: normal
+    references:
+    - hash: fe6b5dd7a873279b7847286a2e1e29865e66e930
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 26fc09289522fb4d0720942564c921c35a0d4db9
+          datavalue:
+            value: '21'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: d91796d6666672ef9ffefbcaff859ec386db1751
+          datavalue:
+            value: 6.5.6
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 9cc2ebef8791e65fbd8c6eb4ea762c9d517b8326
+      datavalue:
+        value: MetricTon
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q191118$E4A907F8-4082-4BEC-9278-ED4E2A108D29
+    rank: normal
+  P1014:
+  - mainsnak:
+      snaktype: value
+      property: P1014
+      hash: 95e94c6470388177ec040a23a0b5e6ec8922ff50
+      datavalue:
+        value: '300379237'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q191118$D08FB426-7632-4D7B-A191-DE5402D77E86
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 16653c4848e0552e9604edc668341bd5f95825a4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11423
+          id: Q11423
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q191118$6fa3ef67-4438-77ca-04e5-256332a73adf
+    rank: normal
+    references:
+    - hash: fe6b5dd7a873279b7847286a2e1e29865e66e930
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 26fc09289522fb4d0720942564c921c35a0d4db9
+          datavalue:
+            value: '21'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: d91796d6666672ef9ffefbcaff859ec386db1751
+          datavalue:
+            value: 6.5.6
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 2cd85bfa5bb51c67fe6297a9a2b3e9ec6b5f1a37
+      datavalue:
+        value: tonne
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q191118$33B89798-5799-4AB8-AAA4-127F6E976264
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 0042f550cef69413cb1645dd870f71365051a8ed
+      datavalue:
+        value:
+          amount: "+1000"
+          unit: http://www.wikidata.org/entity/Q11570
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q191118$14db2cd8-4034-25e2-d10e-216408b052bc
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: c04bf4cffab00306970a2b81b9d87aae623680d9
+      datavalue:
+        value:
+          amount: "+2204.623"
+          unit: http://www.wikidata.org/entity/Q100995
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q191118$49ff1519-4686-8acb-8139-48bac953378a
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 7c453231e3d5de42e3e130da6458de92b4919f3b
+      datavalue:
+        value:
+          amount: "+35273.96"
+          unit: http://www.wikidata.org/entity/Q48013
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q191118$aeaf6830-47b4-d513-8a8f-e50b806e1937
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 6c195ffe62abf74cf4bcb2d122a17300e2243b95
+      datavalue:
+        value:
+          amount: "+157.473"
+          unit: http://www.wikidata.org/entity/Q1131660
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q191118$b4172066-4ed1-2204-bd29-0a267122dd26
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 3b71f2de21d10111090e43721f6c713128cba213
+      datavalue:
+        value:
+          amount: "+1000000"
+          unit: http://www.wikidata.org/entity/Q41803
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q191118$600d3ba7-44a5-e1ad-cc07-2a1e84a3b95f
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 627815e4561df6ec5f5b3e550646e9ca9b982a0c
+      datavalue:
+        value:
+          amount: "+5000000"
+          unit: http://www.wikidata.org/entity/Q261247
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q191118$bdb80fb9-4f57-467d-3fb4-215953a23857
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 30deb9fc5f0fa4e5af0f5b6fbf4796b2c4d54af3
+      datavalue:
+        value:
+          amount: "+1000000000"
+          unit: http://www.wikidata.org/entity/Q3241121
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q191118$44b1e563-408e-f3e6-7050-2250fc75ce85
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: '083a68c09e40c5ac512ed2aab9e04ae8c94e10a5'
+      datavalue:
+        value:
+          amount: "+1000000000000"
+          unit: http://www.wikidata.org/entity/Q1645498
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q191118$6ea868bb-46e1-a55e-1760-a5fd387bb350
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: bf42f956e37c6b861c56c4e9396743370e11a3ab
+      datavalue:
+        value:
+          amount: "+0.9842065"
+          unit: http://www.wikidata.org/entity/Q667419
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q191118$3f5cd2b9-4d55-a544-5795-78857bdc1afd
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 784f79cbae3b0fe3a09194ac003579a124a3b0f3
+      datavalue:
+        value:
+          amount: "+1.102311"
+          unit: http://www.wikidata.org/entity/Q469356
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q191118$247505de-419a-5d9e-b067-83de6633f3d9
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: e77cf68509e73d06ec9f165ffebc6f4f53be349c
+      datavalue:
+        value:
+          amount: "+22.04623"
+          unit: http://www.wikidata.org/entity/Q39617526
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q191118$9396049e-42ea-7c9d-e24f-d650e1aac793
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 843c339cbf705a80eb6d0308610621e429a04876
+      datavalue:
+        value:
+          amount: "+19.68413"
+          unit: http://www.wikidata.org/entity/Q39617688
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q191118$2299d51b-4270-e20f-1234-992dd785108a
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 8d3413c0889c750d4bfa1762ed164e5eefb57fbc
+      datavalue:
+        value:
+          amount: "+2679.229"
+          unit: http://www.wikidata.org/entity/Q39617818
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q191118$2e53b379-49c8-d487-be4f-fb3eb6889ae6
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 57c1c6587d819e0396cf6327c27d064648f13fc3
+      datavalue:
+        value:
+          amount: "+32150.75"
+          unit: http://www.wikidata.org/entity/Q1323615
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q191118$a8980148-41d3-ec7c-3687-b3f9e2de48f2
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 9d187293d3ce81cabc8ce4cfb3e1b0ab6d8469e8
+      datavalue:
+        value:
+          amount: "+643014.9"
+          unit: http://www.wikidata.org/entity/Q1361854
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q191118$a5749e07-4710-b488-8c17-98e752eb3882
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: d277e30dbe988b6c184e5bb4d5b0b5de316774ff
+      datavalue:
+        value:
+          amount: "+15432360"
+          unit: http://www.wikidata.org/entity/Q693944
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q191118$ba5fadef-4b69-7201-7374-7c80d410a7aa
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: 262ed57ca290d358e837e8af19dd6b483facb2f0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 42531917
+          id: Q42531917
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P642:
+      - snaktype: value
+        property: P642
+        hash: 3d810318b67d00bd60f30adde853677d9d9f84f2
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 11570
+            id: Q11570
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P642
+    id: Q191118$ca4a03f5-42f7-9f09-5642-a23fbde4dd0e
+    rank: normal
+  P1417:
+  - mainsnak:
+      snaktype: value
+      property: P1417
+      hash: 9d2ea655e278d6ed5579c848856eeccc77d236c4
+      datavalue:
+        value: science/metric-ton
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q191118$CFBE42A0-74BC-41B9-B27D-2EB8AE79BAFD
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Ton
+    badges: []
+  arwiki:
+    site: arwiki
+    title: طن
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Tonelada
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Ton
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Тона
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Тона
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Тон
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: টন
+    badges: []
+  brwiki:
+    site: brwiki
+    title: Tonenn (mas)
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Tona
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Tona (unitat)
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Tuna (jednotka)
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Ton
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Tonne (Einheit)
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Τόνος (μονάδα μέτρησης)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Tonne
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Tuno
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Tonelada
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Tonn
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Tona
+    badges: []
+  fawiki:
+    site: fawiki
+    title: تن (یکا)
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Tonni
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Tonne
+    badges: []
+  ganwiki:
+    site: ganwiki
+    title: 噸
+    badges: []
+  gdwiki:
+    site: gdwiki
+    title: Tunna
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Tonelada
+    badges: []
+  gnwiki:
+    site: gnwiki
+    title: Toneláda
+    badges: []
+  gvwiki:
+    site: gvwiki
+    title: Thunney
+    badges: []
+  hakwiki:
+    site: hakwiki
+    title: Kûng-tún
+    badges: []
+  hewiki:
+    site: hewiki
+    title: טון (מסה)
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: टन
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Tona
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Tonna
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Տոննա
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Ton
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Tonn
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Tonnellata
+    badges: []
+  jamwiki:
+    site: jamwiki
+    title: Ton
+    badges: []
+  jawiki:
+    site: jawiki
+    title: トン
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Тонна
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 톤
+    badges: []
+  krcwiki:
+    site: krcwiki
+    title: Тонна
+    badges: []
+  kuwiki:
+    site: kuwiki
+    title: Ton
+    badges: []
+  kywiki:
+    site: kywiki
+    title: Тонна
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Tonna
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Tona
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Tonna
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Тона
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: ടൺ
+    badges: []
+  mnwiki:
+    site: mnwiki
+    title: Тонн
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: टन
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Tan metrik
+    badges: []
+  newiki:
+    site: newiki
+    title: टन
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Ton (massa)
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Tonn
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Tonn
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Tona
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Tona
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Tonelada
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Tonă
+    badges: []
+  ruewiki:
+    site: ruewiki
+    title: Тона
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Тонна
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Tunnillata
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Tonne
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Tona
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Tona
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Tona
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Тона
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Ton (metriskt)
+    badges: []
+  swwiki:
+    site: swwiki
+    title: Tani
+    badges: []
+  tawiki:
+    site: tawiki
+    title: டன்
+    badges: []
+  thwiki:
+    site: thwiki
+    title: ตัน
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Ton (birim)
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Тонна
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Tấn
+    badges: []
+  warwiki:
+    site: warwiki
+    title: Tonelada
+    badges: []
+  yiwiki:
+    site: yiwiki
+    title: טאן
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 公噸
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 公噸
+    badges: []

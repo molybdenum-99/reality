@@ -1,0 +1,873 @@
+---
+pageid: 43354
+ns: 0
+title: Q41044
+lastrevid: 618819456
+modified: '2018-01-11T12:37:17Z'
+type: item
+id: Q41044
+labels:
+  en:
+    language: en
+    value: Russian ruble
+aliases:
+  en:
+  - language: en
+    value: RUB
+claims:
+  P580:
+  - mainsnak:
+      snaktype: value
+      property: P580
+      hash: abbcd12b0bfae4813ac6fa779412a3666b66cfe7
+      datavalue:
+        value:
+          time: "+1992-01-01T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 9
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q41044$c23e7687-4953-185a-7bc9-95b0d4021ad1
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 3cccf4ee935b091ff31417f890e36673b484bad9
+      datavalue:
+        value: Money of Russia
+        type: string
+      datatype: string
+    type: statement
+    id: q41044$49AC0C7F-118B-4877-B64C-961DB2640134
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 4c13bdddabb41fdff5184400edc2471c8a727020
+      datavalue:
+        value: RUB
+        type: string
+      datatype: external-id
+    type: statement
+    qualifiers:
+      P580:
+      - snaktype: value
+        property: P580
+        hash: 4cc7e0ac8dc3736a5532569328b04b1e8868527b
+        datavalue:
+          value:
+            time: "+1998-01-01T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 9
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P580
+    id: q41044$4ec0683e-438f-5c5a-6d25-9fe7c480302d
+    rank: preferred
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: ee5795da18c245720a48761e615e50a7123f901d
+      datavalue:
+        value: RUR
+        type: string
+      datatype: external-id
+    type: statement
+    qualifiers:
+      P582:
+      - snaktype: value
+        property: P582
+        hash: a10ccc5bca13ba5cd317ca152b4246243c7e4762
+        datavalue:
+          value:
+            time: "+1998-01-01T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 9
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P582
+    id: Q41044$5cedb9f3-422f-f543-e02d-d8efe69bff05
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: d5305e280972b05eefd2d34a60cf2f3fa9d09653
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 806651
+          id: Q806651
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q41044$182F03C5-FA25-4E3D-96B0-D4D64CFEE781
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 6c31bba45f192859b788b99b1b686652f4bf71ad
+      datavalue:
+        value: "/m/01hy_q"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q41044$A45C61A5-241F-48AA-A58D-2C306A70F17A
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: 0e41c26a3dd95b2f64b50107c6af54f179283461
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 15788
+          id: Q15788
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q41044$c1cea68d-46c7-0126-17a4-7176be4d95cf
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 6966512688b05e8e1022653636a82b50e176ab1b
+      datavalue:
+        value: Banknote 1000 rubles 2004 front.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q41044$FEBEFC08-6C93-4B48-89F5-636A4F7C41EE
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: ac1f45bb079af3d2bfabb7898318fbaed674e81e
+      datavalue:
+        value: "₽"
+        type: string
+      datatype: string
+    type: statement
+    id: Q41044$1acce416-49f4-e4d5-5d7b-ef1b5f50ec74
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: fb988491b011ea6958684d92fa55e9f06fbb6289
+      datavalue:
+        value: p.
+        type: string
+      datatype: string
+    type: statement
+    id: Q41044$8cb8faa4-4b12-fab8-3bce-4b7ef498be14
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 8824c4b7993ae2cb9fe8db63474d65c29826900e
+      datavalue:
+        value: руб.
+        type: string
+      datatype: string
+    type: statement
+    id: Q41044$7139788d-479b-d7f2-1779-67679eb75914
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q41044$bcfbd332-48ac-52b0-38cd-9a2be9f91944
+    rank: normal
+  P227:
+  - mainsnak:
+      snaktype: value
+      property: P227
+      hash: c628db991483fbb88e7cd586f9ad088813ba1e9b
+      datavalue:
+        value: 4178574-5
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q41044$B0F79281-1C20-49CC-8896-145414242D5B
+    rank: normal
+    references:
+    - hash: 9a24f7c0208b05d6be97077d855671d1dfdbc0dd
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: d38375ffe6fe142663ff55cd783aa4df4301d83d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 48183
+              id: Q48183
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 4f09cb257b93cfd07b9283d0e0855f03e240f152
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 159
+          id: Q159
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q41044$ea174c3d-40f6-1764-9d2e-56f382e67b64
+    rank: normal
+  P487:
+  - mainsnak:
+      snaktype: value
+      property: P487
+      hash: 61c40408ea378fd6d197210dbbf454b61eea059d
+      datavalue:
+        value: "₽"
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P805:
+      - snaktype: value
+        property: P805
+        hash: 9e4df574b6ade82cad75543d0b280b84a7e836df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 15975411
+            id: Q15975411
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P805
+    id: Q41044$0f4cc0d8-422d-b000-6178-4db21620240b
+    rank: normal
+  P155:
+  - mainsnak:
+      snaktype: value
+      property: P155
+      hash: 91221d13e15a0ff6511bd0b01fbe81cd94cf9a48
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 615640
+          id: Q615640
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q41044$1769f564-4099-f6f2-4aeb-aaf58b29620f
+    rank: normal
+  P2284:
+  - mainsnak:
+      snaktype: value
+      property: P2284
+      hash: 252e41fb764faac9ec53a2b04f9f9b2214b18229
+      datavalue:
+        value:
+          amount: "+0.012709"
+          unit: http://www.wikidata.org/entity/Q4917
+          upperBound: "+0.012710"
+          lowerBound: "+0.012708"
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: 574bb4b62ac966807ba308a72cb58f98fc29a083
+        datavalue:
+          value:
+            time: "+2016-02-13T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q41044$2073c189-4396-34ae-a68e-df8797cf3270
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2284
+      hash: 1cc6dfe24c72707218182fb0ec6e22c6e90357de
+      datavalue:
+        value:
+          amount: "+0.0112903656"
+          unit: http://www.wikidata.org/entity/Q4916
+          upperBound: "+0.0112903657"
+          lowerBound: "+0.0112903655"
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: 574bb4b62ac966807ba308a72cb58f98fc29a083
+        datavalue:
+          value:
+            time: "+2016-02-13T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q41044$5851c9c9-46ea-2315-4114-2d1166d12034
+    rank: normal
+  P856:
+  - mainsnak:
+      snaktype: value
+      property: P856
+      hash: ffa656fce34a2f2e399f727d8fc203f738497580
+      datavalue:
+        value: http://www.goznak.ru/
+        type: string
+      datatype: url
+    type: statement
+    id: Q41044$493ACDDB-6FD8-49F7-8527-81DE393A9610
+    rank: normal
+  P1282:
+  - mainsnak:
+      snaktype: value
+      property: P1282
+      hash: e5b6057d128ef880a60d9d7e3fd96f44aeb31b10
+      datavalue:
+        value: Key:currency:RUB
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P3176:
+      - snaktype: value
+        property: P3176
+        hash: e6749612a3f364f1d03435ed31080559f02b43a9
+        datavalue:
+          value:
+            entity-type: property
+            numeric-id: 38
+            id: P38
+          type: wikibase-entityid
+        datatype: wikibase-property
+    qualifiers-order:
+    - P3176
+    id: Q41044$e44b7914-4066-26eb-cd96-532dc3fe8aaf
+    rank: normal
+  P1365:
+  - mainsnak:
+      snaktype: value
+      property: P1365
+      hash: 0426c05664c4d719e0911728876e4dee00af6878
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 615640
+          id: Q615640
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q41044$dd569b22-4716-79b4-66c2-1038af13998f
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: e8e3a9449f367aec1ac6a4a7440d03138b8e88c0
+      datavalue:
+        value: Russian-Ruble-1
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q41044$CA146D7D-2796-4E5D-9E11-93593081C18B
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 74e1d8e32c335865d848c34b654a92fe5c2d6e31
+      datavalue:
+        value: Russian_ruble
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q41044$FDCEC655-C491-4194-80DD-651CF32D727A
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: bb6881cc31f32890d7203c143af5f8fe4737af2f
+      datavalue:
+        value: '500235'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q41044$69AC0F1D-87E2-459D-833C-E1F6FEED9959
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Russiese roebel
+    badges: []
+  arwiki:
+    site: arwiki
+    title: روبل روسي
+    badges: []
+  arzwiki:
+    site: arzwiki
+    title: روبل روسى
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Rublu rusu
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Rusiya rublu
+    badges: []
+  barwiki:
+    site: barwiki
+    title: Russischer Rubel
+    badges: []
+  bat_smgwiki:
+    site: bat_smgwiki
+    title: Rosėjės roblis
+    badges: []
+  bawiki:
+    site: bawiki
+    title: Рәсәй һумы
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Расейскі рубель
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Расійскі рубель
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Руска рубла
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: রুশ রুবল
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: রাশিয়ান রুবল
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Ruska rublja
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Ruble rus
+    badges: []
+  commonswiki:
+    site: commonswiki
+    title: Category:Russian ruble
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Ruský rubl
+    badges: []
+  cuwiki:
+    site: cuwiki
+    title: Рѡсїискъ рѫбл҄ь
+    badges: []
+  cywiki:
+    site: cywiki
+    title: Rŵbl Rwsiaidd
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Russiske rubler
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Russischer Rubel
+    badges: []
+  dvwiki:
+    site: dvwiki
+    title: ރަޝިޔަން ރޫބެލް
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Russian ruble
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Rusia rublo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Rublo ruso
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Venemaa rubla
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Errusiar errublo
+    badges: []
+  fawiki:
+    site: fawiki
+    title: روبل روسیه
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Venäjän rupla
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Rouble russe
+    badges: []
+  fywiki:
+    site: fywiki
+    title: Russyske roebel
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Rublo ruso
+    badges: []
+  hewiki:
+    site: hewiki
+    title: רובל רוסי
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: रूसी रूबल
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Ruski rubalj
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Orosz rubel
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Ռուսական ռուբլի
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Rubel Rusia
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Rússnesk rúbla
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Rublo russo
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ロシア・ルーブル
+    badges: []
+  kawiki:
+    site: kawiki
+    title: რუსული რუბლი
+    badges: []
+  kbdwiki:
+    site: kbdwiki
+    title: Урысей рубл
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 러시아 루블
+    badges: []
+  krcwiki:
+    site: krcwiki
+    title: Эресей сом
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Рочмуса шайт
+    badges: []
+  kywiki:
+    site: kywiki
+    title: Орус рублу
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Rubelus Russicus
+    badges: []
+  lrcwiki:
+    site: lrcwiki
+    title: روبل
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Rusijos rublis
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Krievijas rublis
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Руска рубља
+    badges: []
+  mnwiki:
+    site: mnwiki
+    title: Оросын рубль
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: रशियन रूबल
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Rubel Rusia
+    badges: []
+  myvwiki:
+    site: myvwiki
+    title: Россиянь целковой
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Russische roebel
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Russisk rubel
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Russisk rubel
+    badges: []
+  oswiki:
+    site: oswiki
+    title: Уæрæсейы сом
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਰੂਸੀ ਰੂਬਲ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Rubel rosyjski
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Rublă rusă
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Российский рубль
+    badges: []
+  ruwikinews:
+    site: ruwikinews
+    title: Категория:Российский рубль
+    badges: []
+  sahwiki:
+    site: sahwiki
+    title: Солкуобай
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Roushie ruble
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Ruska rublja
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Ruský rubeľ
+    badges: []
+  sqwiki:
+    site: sqwiki
+    title: Rubla ruse
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Руска рубља
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Rysk rubel
+    badges: []
+  szlwiki:
+    site: szlwiki
+    title: Ruski rubel
+    badges: []
+  tawiki:
+    site: tawiki
+    title: உருசிய ரூபிள்
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Рубли Русия
+    badges: []
+  thwiki:
+    site: thwiki
+    title: รูเบิลรัสเซีย
+    badges: []
+  tkwiki:
+    site: tkwiki
+    title: Rus rublesi
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Rublong Ruso
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Rus rublesi
+    badges: []
+  ttwiki:
+    site: ttwiki
+    title: Русия сумы
+    badges: []
+  udmwiki:
+    site: udmwiki
+    title: Манет
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Російський рубль
+    badges: []
+  ukwikiquote:
+    site: ukwikiquote
+    title: Російський рубль
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Rossiya rubli
+    badges: []
+  vepwiki:
+    site: vepwiki
+    title: Venäman rubl'
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Rúp Nga
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: რუსული რუბლი
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Ruble Rọ́síà
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Lō͘-se-a ruble
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 俄羅斯盧布
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 俄罗斯卢布
+    badges: []

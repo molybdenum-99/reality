@@ -1,0 +1,65 @@
+---
+pageid: 4202722
+ns: 0
+title: Q4400173
+lastrevid: 618457411
+modified: '2018-01-10T11:17:46Z'
+type: item
+id: Q4400173
+labels:
+  en:
+    language: en
+    value: Cocos (Keeling) Islands rupee
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4400173$6C0F9251-4936-48E3-9E22-FD4496B68F5C
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 3d240a84932b10708628ff199e7a01b910d9a4e7
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 36004
+          id: Q36004
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4400173$DB3E2FEB-211A-46A2-BFF0-5720E37F8935
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  ruwiki:
+    site: ruwiki
+    title: Рупия Кокосовых островов
+    badges: []

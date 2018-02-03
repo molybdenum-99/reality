@@ -1,0 +1,105 @@
+---
+pageid: 1210385
+ns: 0
+title: Q1269724
+lastrevid: 561856795
+modified: '2017-09-19T06:38:37Z'
+type: item
+id: Q1269724
+labels:
+  en:
+    language: en
+    value: fourth-month period
+aliases:
+  en:
+  - language: en
+    value: period of fourth months
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 98a1e85b80bda7ff493c25a6b805599da715c077
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1790144
+          id: Q1790144
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1269724$4F15B295-36FB-4B10-8B55-970A0444A6A5
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 8bacf4067147035e7a197299eaed89bc50501e32
+      datavalue:
+        value:
+          amount: "+4"
+          unit: http://www.wikidata.org/entity/Q5151
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P2922:
+      - snaktype: somevalue
+        property: P2922
+        hash: acaef7eda0d6ab64f8f359eff6df68e3747ec698
+        datatype: wikibase-item
+    qualifiers-order:
+    - P2922
+    id: Q1269724$c43f651c-4c3e-7a69-11c6-84e7c1fc1ff0
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: e18564ae4d21ab0548f475a1aa84da1dda2067ab
+      datavalue:
+        value:
+          amount: "+10368000"
+          unit: http://www.wikidata.org/entity/Q11574
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1269724$f803f9dc-483b-fa15-fbbb-94dcac3a46ae
+    rank: normal
+sitelinks:
+  dawiki:
+    site: dawiki
+    title: Tertial
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Tertial
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Quadrimestre
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Caturwulan
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Quadrimestre
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Tertaal
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Tertial
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Quadrimestre
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Tertial
+    badges: []

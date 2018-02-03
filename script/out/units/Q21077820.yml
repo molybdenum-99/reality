@@ -1,0 +1,92 @@
+---
+pageid: 23124807
+ns: 0
+title: Q21077820
+lastrevid: 611893597
+modified: '2017-12-21T16:35:07Z'
+type: item
+id: Q21077820
+labels:
+  en:
+    language: en
+    value: milligram per cubic meter
+aliases:
+  en:
+  - language: en
+    value: mg/m3
+  - language: en
+    value: mg/m³
+  - language: en
+    value: mg/m^3
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q21077820$bb62618f-4cd8-0684-bed8-27ace718f954
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: d57bf793702ca81c7034abb7760d6d01652e92fc
+      datavalue:
+        value: mg/m3
+        type: string
+      datatype: string
+    type: statement
+    id: Q21077820$1bb5ccd0-4c94-1bae-762c-31539795eb06
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: a63abdaae2de1b2f3c9fc498f3e5617406465bf5
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 12549812
+          id: Q12549812
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q21077820$7447b8f0-4cf8-21f4-1c3b-8b705cfe140d
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: e55126890a64ce205b29f797a35a63bf74006084
+      datavalue:
+        value:
+          amount: "+0.000001"
+          unit: http://www.wikidata.org/entity/Q844211
+          upperBound: "+0.000001"
+          lowerBound: "+0.000001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q21077820$174742db-411a-cdfc-bb48-1313fb6b403d
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 68011a798bbd6450c187209177c1adf0861a0f55
+      datavalue:
+        value: milligram_per_cubic_metre
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q21077820$F76192C8-2EE0-460F-ABE6-1FEC01EEA52C
+    rank: normal
+sitelinks: {}

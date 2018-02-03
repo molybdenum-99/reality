@@ -1,0 +1,172 @@
+---
+pageid: 3689131
+ns: 0
+title: Q3867091
+lastrevid: 619470042
+modified: '2018-01-12T22:48:48Z'
+type: item
+id: Q3867091
+labels:
+  en:
+    language: en
+    value: Korean mun
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 61b8b84854c6c174b62cac68b9d7f45a4e688a7d
+      datavalue:
+        value: "/m/0bc6w_"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3867091$4CBF819B-1810-4495-B21B-0FBB6D3877FC
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3867091$82987f63-4d18-9705-9958-dba39e13e489
+    rank: normal
+  P2001:
+  - mainsnak:
+      snaktype: value
+      property: P2001
+      hash: a5f077d9e4cf2d724d73986f36abfbbb52e16252
+      datavalue:
+        value: mun
+        type: string
+      datatype: string
+    type: statement
+    id: Q3867091$368E8D21-F94A-4897-B6ED-7C2926C7A3DE
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P1942:
+  - mainsnak:
+      snaktype: value
+      property: P1942
+      hash: 3b52e0e0d4de035bcffd84c3155b6947489312f2
+      datavalue:
+        value: mun
+        type: string
+      datatype: string
+    type: statement
+    id: Q3867091$15E64341-B7FE-423B-A1EA-623CA86C5A37
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 5cca003cb9989d5104d640b8e508f9568e4ae260
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 28179
+          id: Q28179
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3867091$6a64c2e2-4ebb-a694-9392-98e33bb251b7
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: من كوري
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Korean mun
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Mun coréen
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Mun coreano
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 문 (화폐)
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Koreaanse mun
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Корейский мун
+    badges: []

@@ -1,0 +1,162 @@
+---
+pageid: 2271551
+ns: 0
+title: Q2351198
+lastrevid: 531814380
+modified: '2017-08-04T11:36:49Z'
+type: item
+id: Q2351198
+labels:
+  en:
+    language: en
+    value: Tibetan tangka
+aliases:
+  en:
+  - language: en
+    value: tangka
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 9daeb3db0217bb99bbdf3f55c91b7d8996bdae15
+      datavalue:
+        value: Tibetan tangka
+        type: string
+      datatype: string
+    type: statement
+    id: q2351198$D02BCF7B-F675-4878-899C-AB567FEB3908
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 5730111bf0dacb03d1fbb7f8198208345257c2b6
+      datavalue:
+        value: "/m/0bnwy_"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2351198$10A1ED0E-B2BA-4F1E-ABF8-AA7D7AC10F77
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P910:
+  - mainsnak:
+      snaktype: value
+      property: P910
+      hash: ac32ed655ac268a014859f2b134421bf6fbcb698
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10832801
+          id: Q10832801
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2351198$C30A6EAA-7D0D-421A-B476-4F175BA832AA
+    rank: normal
+    references:
+    - hash: 0ee3b3ba1c958f4c3dcba7ed8091fe4b57311348
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: cb49f6fa327b245e4a5aaf48c44b3f503bcd4265
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 30239
+              id: Q30239
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2351198$3A332D7E-E8ED-4A73-9E81-132AF84548BA
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 3862f85939f258af1ba4ad27c464dd6bcd88f4b6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2444884
+          id: Q2444884
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2351198$a66a661c-4aa1-7e2d-ac26-1cd055a47ef5
+    rank: normal
+sitelinks:
+  commonswiki:
+    site: commonswiki
+    title: Category:Tibetan tangka
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Tamka
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Tibetan tangka
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Thangka (geldeenheid)
+    badges: []
+  pnbwiki:
+    site: pnbwiki
+    title: تبتی ٹکا
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Тибетская тангка
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 藏币
+    badges: []

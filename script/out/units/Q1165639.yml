@@ -1,0 +1,92 @@
+---
+pageid: 1111712
+ns: 0
+title: Q1165639
+lastrevid: 431743539
+modified: '2017-01-17T10:36:02Z'
+type: item
+id: Q1165639
+labels:
+  en:
+    language: en
+    value: Daraf
+aliases:
+  en:
+  - language: en
+    value: Reciprocal farad
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1165639$2bac9806-4873-c50e-75bd-23789f9372cd
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: adc8aa7e60a677ad8bb8e0c94f8d6002d63337b4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 20180462
+          id: Q20180462
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1165639$a7f0d482-48aa-6165-3f58-b49a0a12c8be
+    rank: normal
+  P2534:
+  - mainsnak:
+      snaktype: value
+      property: P2534
+      hash: 929107bfeb890f5c1db2c92ffbdcbb197e1346f8
+      datavalue:
+        value: 1~\text{F}^{-1} = \frac{1~\text{V}}{1~\text{C}}=\frac{1~\Omega}{1~\text{s}}
+        type: string
+      datatype: math
+    type: statement
+    id: Q1165639$3655CDA6-8E7C-48EB-8890-37A71100C082
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Daraf
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Daraf
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 毎ファラド
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Daraf
+    badges: []

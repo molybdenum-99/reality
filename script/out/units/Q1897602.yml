@@ -1,0 +1,110 @@
+---
+pageid: 1827701
+ns: 0
+title: Q1897602
+lastrevid: 536497451
+modified: '2017-08-12T18:31:35Z'
+type: item
+id: Q1897602
+labels:
+  en:
+    language: en
+    value: dolia
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 954edbd3fef27ce6396c0878a95c608ca4ed84af
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3647172
+          id: Q3647172
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1897602$39d9285e-4eb6-8aad-2821-4aacc4697bc3
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 2b8b8057cb4029acdd61112e5a77ff87c571c45b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 435964
+          id: Q435964
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1897602$EE9B99D2-13D6-4F1C-92EB-1AFBF9BC90EE
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 3d245efa0a3487fca6ef7c6baba241859edca33f
+      datavalue:
+        value:
+          amount: "+0.00004443494"
+          unit: http://www.wikidata.org/entity/Q11570
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1897602$1801cdd7-4aef-4f85-fa96-cddf612691e9
+    rank: normal
+    references:
+    - hash: 5816982a3b6ddec70766e0a8faf38d8bd84b2ed2
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 93844cfbc3317e8ab44a020f43d59a540f099ca9
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 200060
+              id: Q200060
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 16653c4848e0552e9604edc668341bd5f95825a4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11423
+          id: Q11423
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1897602$E6DEF1F7-2D38-413E-A627-7FC470263FCB
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Dolja
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Dool
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Dola (jednostka)
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Доля (единица измерения)
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Доля (одиниця маси)
+    badges: []

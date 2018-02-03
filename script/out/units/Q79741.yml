@@ -1,0 +1,383 @@
+---
+pageid: 82292
+ns: 0
+title: Q79741
+lastrevid: 619495427
+modified: '2018-01-12T23:59:23Z'
+type: item
+id: Q79741
+labels:
+  en:
+    language: en
+    value: terabyte
+aliases:
+  en:
+  - language: en
+    value: TByte
+  - language: en
+    value: TB
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 5a27191267a60f6770a8d06c0747c62d86336060
+      datavalue:
+        value: TB
+        type: string
+      datatype: string
+    type: statement
+    id: Q79741$4c001f8f-4f92-7a23-7e43-eefdf85ade14
+    rank: normal
+    references:
+    - hash: f2ab10533e58b034437e5793f7db10e8e3d18f03
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a117c6bbef0b948c1df3be462eaeb2bcebb16ebc
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 6108055
+              id: Q6108055
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 17d9e2740c9d39dcde93854fb7635f5be633ebe7
+      datavalue:
+        value: Тбайт
+        type: string
+      datatype: string
+    type: statement
+    id: Q79741$0497adff-4f93-46e9-159f-7f546a371ea5
+    rank: normal
+    references:
+    - hash: c7dbc558220a8c259fce19d4fb1feebce54f280a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: d16d9dea1829f852f3c150a6a6373d3fa7d3dd86
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 4130714
+              id: Q4130714
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: a5aab50a4c58531602ac8c89909d36e166655ccf
+      datavalue:
+        value: ТБ
+        type: string
+      datatype: string
+    type: statement
+    id: Q79741$62f126ff-48cd-cfe7-948b-ca10abb90935
+    rank: normal
+    references:
+    - hash: c7dbc558220a8c259fce19d4fb1feebce54f280a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: d16d9dea1829f852f3c150a6a6373d3fa7d3dd86
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 4130714
+              id: Q4130714
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 1475ef4b43fcee12ffb895026d97236b69508d2d
+      datavalue:
+        value: "/m/07jy7"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q79741$A8FF3FDC-984C-4911-9AFC-7C797449B7C4
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 2d6ead580ca479cd38b25f8d8c677f1c03ad7473
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3550873
+          id: Q3550873
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q79741$321a56ff-4b84-3221-83cf-8d2b9cc523a9
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: bbe43b68aa9484455f44841bb5fc864a0d482fa6
+      datavalue:
+        value: terabyte
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q79741$A919602B-1DB8-4A9F-8F51-89F058CF00BF
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: f4dae2b0d369da088f36d26517f691f95573b9c4
+      datavalue:
+        value:
+          amount: "+1000000000000"
+          unit: http://www.wikidata.org/entity/Q8799
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q79741$6b284ccc-491e-9c36-2717-d3eae0728595
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 79975b6ab0a940bb1b1da8b4700d29e4a36d3927
+      datavalue:
+        value:
+          amount: "+1099511627776"
+          unit: http://www.wikidata.org/entity/Q8799
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q79741$029c64ef-48a6-ab5e-0b32-117afb3cba5c
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Teragreep
+    badges: []
+  arwiki:
+    site: arwiki
+    title: تيرابايت
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Terabayt
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Тэрабайт
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: টেরাবাইট
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Terabyte
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Terabyte
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Terabyte
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Terabyte
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Terabyte
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Terabyte
+    badges: []
+  fawiki:
+    site: fawiki
+    title: ترابایت
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Տերաբայթ
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Terabita
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Terabyte
+    badges: []
+  jawiki:
+    site: jawiki
+    title: テラバイト
+    badges: []
+  kawiki:
+    site: kawiki
+    title: ტერაბაიტი
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 테라바이트
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Terabaits
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Терабајт
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: ടെറാബൈറ്റ്
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: टेराबाईट
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Terabait
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Terabyte
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Terabyte
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Terabyte
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Terabajt
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Terabyte
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Терабайт
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Terabyte
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Terabyte
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Terabyte
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Terabajt
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Терабајт
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Terabyte
+    badges: []
+  tawiki:
+    site: tawiki
+    title: டெராபைட்டு
+    badges: []
+  tewiki:
+    site: tewiki
+    title: టెరాబైట్
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Терабайт
+    badges: []
+  thwiki:
+    site: thwiki
+    title: เทระไบต์
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Terabayt
+    badges: []
+  ttwiki:
+    site: ttwiki
+    title: Терабайт
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Терабайт
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Terabyte
+    badges: []
+  yiwiki:
+    site: yiwiki
+    title: טעראבייט
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 太字節
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 太字节
+    badges: []

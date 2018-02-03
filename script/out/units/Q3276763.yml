@@ -1,0 +1,229 @@
+---
+pageid: 3125777
+ns: 0
+title: Q3276763
+lastrevid: 615509484
+modified: '2018-01-01T10:37:55Z'
+type: item
+id: Q3276763
+labels:
+  en:
+    language: en
+    value: gigahertz
+aliases:
+  en:
+  - language: en
+    value: GHz
+  - language: en
+    value: "㎓"
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: ed0a8bdd39913010de733cfb54125e9233973854
+      datavalue:
+        value: GHz
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: q3276763$7c8ce185-45a4-426f-6a4b-9cf7ef8832d2
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: af26f7a5a521bbced47c3b80057245e7250dbe5a
+      datavalue:
+        value: ГГц
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q3276763$88d70abe-4587-c62d-539e-2e2cc8a3d87b
+    rank: normal
+  P487:
+  - mainsnak:
+      snaktype: value
+      property: P487
+      hash: 531fa6f2d5f9b964a869de9a487843ba1a992794
+      datavalue:
+        value: "㎓"
+        type: string
+      datatype: string
+    type: statement
+    id: q3276763$8870cd8f-4fb6-9530-2ee9-62c075514662
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 939eca17a8c8ef82428dff47f7a90d49402fd719
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11652
+          id: Q11652
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3276763$7853f1d8-4805-a0d2-6463-27545ca50094
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3276763$48b9c71e-4b7f-1a36-ec9e-86f36cc2218e
+    rank: normal
+  P2144:
+  - mainsnak:
+      snaktype: value
+      property: P2144
+      hash: dcbd27a02c5a384576a38975df0e0342325f23ac
+      datavalue:
+        value:
+          amount: "+1000"
+          unit: http://www.wikidata.org/entity/Q732707
+          upperBound: "+1000"
+          lowerBound: "+1000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q3276763$fc43b42a-4a39-828c-9be5-15c0c25aa830
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: dae06cd66e0a07de0523182d625c0578ab4f93a3
+      datavalue:
+        value:
+          amount: "+1000000000"
+          unit: http://www.wikidata.org/entity/Q39369
+          upperBound: "+1000000000"
+          lowerBound: "+1000000000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q3276763$a4162b85-4f7f-8817-9525-9b5322391464
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 42442127f9762b49385703e29e837df02d764808
+      datavalue:
+        value: gigahertz
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3276763$89B3D579-985A-4C26-8650-34894A2E134C
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 3cba217d6f98e899a64dba6c48e38dc1d0fbd713
+      datavalue:
+        value: GIGAHERTZ
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3276763$A2BA9420-06B0-4B98-9429-FF411A50E97F
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: f64d793f2b64ca6f9d702ecd8ef0a6b5def46190
+      datavalue:
+        value: GigaHertz
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3276763$49685abd-4234-f52e-ceb7-e8bef5babe3d
+    rank: normal
+sitelinks:
+  dawiki:
+    site: dawiki
+    title: Gigahertz
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Gigahertz
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Gigaherco
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Gigahercio
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ギガヘルツ
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Gigahertz
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Gigahertz
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 秭赫
+    badges: []

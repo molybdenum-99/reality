@@ -1,0 +1,2871 @@
+---
+pageid: 20105934
+ns: 0
+title: Q18572818
+lastrevid: 623480959
+modified: '2018-01-25T23:09:44Z'
+type: item
+id: Q18572818
+labels:
+  en:
+    language: en
+    value: Gridcoin
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 80151d72feae178bc698c542c7d25a7496a146c5
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 341
+          id: Q341
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q18572818$67A781FB-3DCD-4B2D-843B-89131635E2B5
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 16ab8cfff2957341998c927ff03e50befb65a864
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 13479982
+          id: Q13479982
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q18572818$979e8691-4d46-5dbd-3eb9-af5b6ffdc1de
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P856:
+  - mainsnak:
+      snaktype: value
+      property: P856
+      hash: 396b4c05cb4483b532cbfa3806ba26280d28f3de
+      datavalue:
+        value: http://gridcoin.us/
+        type: string
+      datatype: url
+    type: statement
+    id: Q18572818$0f7edd58-48f4-cf12-d6d3-794ce3a71862
+    rank: normal
+  P1324:
+  - mainsnak:
+      snaktype: value
+      property: P1324
+      hash: fe2ecc18c7929133c3df51ce0fcb7e16e0b40da6
+      datavalue:
+        value: https://github.com/gridcoin/Gridcoin-Research
+        type: string
+      datatype: url
+    type: statement
+    qualifiers:
+      P2700:
+      - snaktype: value
+        property: P2700
+        hash: c9653c60db2ac354cb25a08c14c306afd1238d7c
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 186055
+            id: Q186055
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P2700
+    id: Q18572818$d4521328-4aea-4c25-6d3d-529833ab076b
+    rank: normal
+    references:
+    - hash: f4e1d7be15f514871e54da8d5d4ce3063cb98cf0
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 89a2a040193b3a1563275e56f1558648111fa1b1
+          datavalue:
+            value:
+              time: "+2016-10-06T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P813
+  P2002:
+  - mainsnak:
+      snaktype: value
+      property: P2002
+      hash: ef4d9b6dde1a086bec4f147c6f53db29afee2a0e
+      datavalue:
+        value: GridcoinNetwork
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q18572818$a88e9dca-4ef2-bb85-91c7-7bb1bfaa72d9
+    rank: normal
+  P2013:
+  - mainsnak:
+      snaktype: value
+      property: P2013
+      hash: ac9cb9716898d2f0de544c54f122f7c45c548615
+      datavalue:
+        value: gridcoins
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q18572818$56b6ea53-4942-b7e2-d84d-6a760eaaabd0
+    rank: normal
+  P348:
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 074c0977308183035bf723f7e3626e4e2e76683e
+      datavalue:
+        value: 3.5.8.4
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 3c433e5209fe83ad920e190a0da35dbe0515dfdd
+        datavalue:
+          value:
+            time: "+2016-12-31T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$DE61118E-F9B5-450E-BC85-D87D3419CD89
+    rank: normal
+    references:
+    - hash: 7612dd1ac2bb52c60ac88327c4a3c1a7d4e8c828
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: e7e251f9bc945bb957d7ee51124097dec9f6b922
+          datavalue:
+            value:
+              time: "+2017-01-16T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 912291826ef705a9a51643e55134e94fd9332331
+      datavalue:
+        value: 3.5.8.3
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 661c8bc13c5d476e1db00cc27a746b2ac5ec221b
+        datavalue:
+          value:
+            time: "+2016-11-21T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$9758B1CE-B65A-488A-B2AA-20CAA412730D
+    rank: normal
+    references:
+    - hash: 7612dd1ac2bb52c60ac88327c4a3c1a7d4e8c828
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: e7e251f9bc945bb957d7ee51124097dec9f6b922
+          datavalue:
+            value:
+              time: "+2017-01-16T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 5e98766e9fbb7749aadd96dce55fbfc7e535223a
+      datavalue:
+        value: 3.5.8.2
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 62d611ba293948e192a1ba0ba3ebcc11f06b038c
+        datavalue:
+          value:
+            time: "+2016-11-02T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$DC2DB467-197C-430B-9C61-62748BCA5A5F
+    rank: normal
+    references:
+    - hash: 7612dd1ac2bb52c60ac88327c4a3c1a7d4e8c828
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: e7e251f9bc945bb957d7ee51124097dec9f6b922
+          datavalue:
+            value:
+              time: "+2017-01-16T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: e31a8aa07bad632f3d264297d239fad9bda55e8b
+      datavalue:
+        value: 3.5.8.1
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: dafffa5d85649e471fe33ce53f271095ea5d91d8
+        datavalue:
+          value:
+            time: "+2016-10-15T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$D57E5E82-A8C3-4ABE-B5E7-A499B8208E27
+    rank: normal
+    references:
+    - hash: 7612dd1ac2bb52c60ac88327c4a3c1a7d4e8c828
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: e7e251f9bc945bb957d7ee51124097dec9f6b922
+          datavalue:
+            value:
+              time: "+2017-01-16T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 675a429402c1fcf648d06731ebd01ce58d35d92d
+      datavalue:
+        value: 3.5.8.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: cb3a86fcaa076455ac52f598101e77c5aae29d20
+        datavalue:
+          value:
+            time: "+2016-10-02T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$BDB4E409-6341-4931-8ED0-6CE5A837623E
+    rank: normal
+    references:
+    - hash: 7612dd1ac2bb52c60ac88327c4a3c1a7d4e8c828
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: e7e251f9bc945bb957d7ee51124097dec9f6b922
+          datavalue:
+            value:
+              time: "+2017-01-16T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 0412d2f3a218a319ab5d012da948dec9b3851c80
+      datavalue:
+        value: 3.5.7.9
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 382e9bbb130db9aa152df7d56708323132c51108
+        datavalue:
+          value:
+            time: "+2016-09-28T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$830FCB54-B35D-4440-AE41-C633A25A95E7
+    rank: normal
+    references:
+    - hash: 7612dd1ac2bb52c60ac88327c4a3c1a7d4e8c828
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: e7e251f9bc945bb957d7ee51124097dec9f6b922
+          datavalue:
+            value:
+              time: "+2017-01-16T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 2919413af9b2419de844c84d4ba7ba44d5d496a6
+      datavalue:
+        value: 3.5.7.8
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: ef50bcaee5a21a493a73e1f139b689bd6cee77ca
+        datavalue:
+          value:
+            time: "+2016-09-26T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$5563B30F-25A4-4477-9422-07BBD92D724B
+    rank: normal
+    references:
+    - hash: 7612dd1ac2bb52c60ac88327c4a3c1a7d4e8c828
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: e7e251f9bc945bb957d7ee51124097dec9f6b922
+          datavalue:
+            value:
+              time: "+2017-01-16T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 827c180a48a6b37f6aae9e8c32f3d4c5662e4fbb
+      datavalue:
+        value: 3.5.7.7
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: d01ea9e2e12591fdaa03ce937d3ec977c44bac47
+        datavalue:
+          value:
+            time: "+2016-09-18T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$20280D42-8833-4FC0-8420-F9C2EC3C8A6B
+    rank: normal
+    references:
+    - hash: 7612dd1ac2bb52c60ac88327c4a3c1a7d4e8c828
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: e7e251f9bc945bb957d7ee51124097dec9f6b922
+          datavalue:
+            value:
+              time: "+2017-01-16T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 6c5c4fa58608c5f54867f4074eed31402d252b6e
+      datavalue:
+        value: 3.5.7.6
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: fd36e3f1d489f13dc7f85a53f151b48371c2cf2e
+        datavalue:
+          value:
+            time: "+2016-08-28T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$1B6E3035-A1D3-4D6B-BF50-3CD331C76E82
+    rank: normal
+    references:
+    - hash: 7612dd1ac2bb52c60ac88327c4a3c1a7d4e8c828
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: e7e251f9bc945bb957d7ee51124097dec9f6b922
+          datavalue:
+            value:
+              time: "+2017-01-16T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 24f1a9309f5c146f7c4c979e2bd406d477df55f4
+      datavalue:
+        value: 3.5.7.5
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 2945d47bc6859c1412397cd2a8c1c7de4c3c3d7e
+        datavalue:
+          value:
+            time: "+2016-08-27T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$C1EB3FC6-CF3F-42BB-9FAB-D555427DCE5E
+    rank: normal
+    references:
+    - hash: 7612dd1ac2bb52c60ac88327c4a3c1a7d4e8c828
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: e7e251f9bc945bb957d7ee51124097dec9f6b922
+          datavalue:
+            value:
+              time: "+2017-01-16T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 45c22d491dd21467f1d3af1904f715aea2c69968
+      datavalue:
+        value: 3.5.7.4
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 64492fb54b0f9668e4bf76e5c96ba59152e32411
+        datavalue:
+          value:
+            time: "+2016-08-14T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$401E980B-9DCA-47CC-9ED2-A23617D6D5B4
+    rank: normal
+    references:
+    - hash: 7612dd1ac2bb52c60ac88327c4a3c1a7d4e8c828
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: e7e251f9bc945bb957d7ee51124097dec9f6b922
+          datavalue:
+            value:
+              time: "+2017-01-16T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 76969d029c700253499461e4b08f616d1bf81474
+      datavalue:
+        value: 3.5.7.3
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 3fc4822ae3c324f1bd83e0c8a00feda064db9ca8
+        datavalue:
+          value:
+            time: "+2016-08-12T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$904FB851-E1E1-4A99-B06D-F5BCA48F52F5
+    rank: normal
+    references:
+    - hash: 7612dd1ac2bb52c60ac88327c4a3c1a7d4e8c828
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: e7e251f9bc945bb957d7ee51124097dec9f6b922
+          datavalue:
+            value:
+              time: "+2017-01-16T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: ed341ddbafd70708bc6f26adf09e88d81819f660
+      datavalue:
+        value: 3.5.7.2
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: c627a58666e7df37a45a17baa50f70b8a92cf4c5
+        datavalue:
+          value:
+            time: "+2016-08-05T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$727E4369-C856-466F-8475-712A4721EB6B
+    rank: normal
+    references:
+    - hash: 7612dd1ac2bb52c60ac88327c4a3c1a7d4e8c828
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: e7e251f9bc945bb957d7ee51124097dec9f6b922
+          datavalue:
+            value:
+              time: "+2017-01-16T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: a85b5d28267a7040f4d943179fbf18e3c9bf461f
+      datavalue:
+        value: 3.5.7.1
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 1dd5b9e5fcc251cb3eddb25409d884d26d2b1201
+        datavalue:
+          value:
+            time: "+2016-07-23T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$123ED688-DE31-42F8-9D84-32183A366C55
+    rank: normal
+    references:
+    - hash: 7612dd1ac2bb52c60ac88327c4a3c1a7d4e8c828
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: e7e251f9bc945bb957d7ee51124097dec9f6b922
+          datavalue:
+            value:
+              time: "+2017-01-16T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 1d057388da07d28cc6996a15894843f9b2c4a35a
+      datavalue:
+        value: 3.5.7.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: fad056a64f04ad69c4083ba0a3b1c6012289b505
+        datavalue:
+          value:
+            time: "+2016-07-22T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      - snaktype: value
+        property: P577
+        hash: 7aa5326934c5f57042826b096373a363255d6eb7
+        datavalue:
+          value:
+            time: "+2016-07-21T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$E59C853C-8BEB-434A-9A72-E223575C1682
+    rank: normal
+    references:
+    - hash: 7612dd1ac2bb52c60ac88327c4a3c1a7d4e8c828
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: e7e251f9bc945bb957d7ee51124097dec9f6b922
+          datavalue:
+            value:
+              time: "+2017-01-16T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: f4bd4f42e024b58d9763e5eb3ec1c8196d7b9b7a
+      datavalue:
+        value: 3.5.6.8
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 179e689f8cd696af1a5df86763a6d9d57f55f78d
+        datavalue:
+          value:
+            time: "+2016-07-10T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$7EF94CC1-9B30-42C4-BF83-119A53DA2FBB
+    rank: normal
+    references:
+    - hash: 7612dd1ac2bb52c60ac88327c4a3c1a7d4e8c828
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: e7e251f9bc945bb957d7ee51124097dec9f6b922
+          datavalue:
+            value:
+              time: "+2017-01-16T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 86d1017039162a88a361b0a74df046c82ef03fbe
+      datavalue:
+        value: 3.5.6.7
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 93cfb3d2502fab190ddc3d4879292d08bb96585b
+        datavalue:
+          value:
+            time: "+2016-06-14T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$DCEACCC3-1DF8-4184-A93B-B9BBBE97FCFA
+    rank: normal
+    references:
+    - hash: 7612dd1ac2bb52c60ac88327c4a3c1a7d4e8c828
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: e7e251f9bc945bb957d7ee51124097dec9f6b922
+          datavalue:
+            value:
+              time: "+2017-01-16T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: c44d634007ef1e41072c6aeaef17d747b10fb6c5
+      datavalue:
+        value: 3.5.6.5
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 5161c35811399aa38387ef1f116f5592f0126a47
+        datavalue:
+          value:
+            time: "+2016-06-05T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$C1531870-813A-46C1-B461-C7D7D5FEC491
+    rank: normal
+    references:
+    - hash: 7612dd1ac2bb52c60ac88327c4a3c1a7d4e8c828
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: e7e251f9bc945bb957d7ee51124097dec9f6b922
+          datavalue:
+            value:
+              time: "+2017-01-16T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 12f1fcc62e3430a50b1de7b0d2814940a88a027d
+      datavalue:
+        value: 3.5.6.4
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 45fc533a49d0fdfe9e9d90deccb850076cdcbbca
+        datavalue:
+          value:
+            time: "+2016-05-15T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$4F464F3D-772D-4F30-8F33-E6A99D97942E
+    rank: normal
+    references:
+    - hash: 7612dd1ac2bb52c60ac88327c4a3c1a7d4e8c828
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: e7e251f9bc945bb957d7ee51124097dec9f6b922
+          datavalue:
+            value:
+              time: "+2017-01-16T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 1db6928238ac7032d983ef166822441a17e9a5db
+      datavalue:
+        value: 3.5.8.6
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 628f996cbe85c41df2d2acb64bfd76ebc3d090e8
+        datavalue:
+          value:
+            time: "+2017-02-13T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$9E156613-EC17-4AB7-BA52-185D670CE4A6
+    rank: normal
+    references:
+    - hash: 356afcabcb1f52e0debc20e6d2f4ec119b5bca9d
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: d82bd9b1a800ad6ffbba071b5e3cb1f0530afb77
+          datavalue:
+            value:
+              time: "+2017-02-17T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: '058712d89ed5b5ff5334685fd290c62940ce9c4a'
+      datavalue:
+        value: 3.5.8.7
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 76f4c674174a45e03efbee1b980c0905b4c5efe9
+        datavalue:
+          value:
+            time: "+2017-03-26T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$5E21989E-9374-400B-B705-2B992981D48C
+    rank: normal
+    references:
+    - hash: f9862904a67ab4c1ed68b55c226edd57cb8c9ca6
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 5be3d02eb4f50e53129cfaf8354bed89a2af8a93
+          datavalue:
+            value:
+              time: "+2017-03-27T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 2b1b2186d8a77c4c36a6e6e35f3e66b2d47f372b
+      datavalue:
+        value: 3.5.8.8
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: e5596cf235c7613d5870c50e73f74eb3f5533b21
+        datavalue:
+          value:
+            time: "+2017-04-02T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$00D5B493-2489-458D-A0D3-A4793D525F4B
+    rank: normal
+    references:
+    - hash: a50e6994196a9048b4c3d74fd43459ab1919f52d
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 38acefb546a1c19e7f81d2e294504ee82855fafa
+          datavalue:
+            value:
+              time: "+2017-04-02T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 892efc5c9e8d051facffd333f7b7af581d3817b0
+      datavalue:
+        value: 3.5.8.9
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: bfa3c4f05dfc60d0a736db0322513b0f93dd214a
+        datavalue:
+          value:
+            time: "+2017-05-14T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$BA5EDE57-9009-4724-8979-FFB71FF4C797
+    rank: normal
+    references:
+    - hash: 781542eee5f0130120c36c0d3f5303a947f5d4a4
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 134a262c6c016bd290e54c869bcffda17c4a8607
+          datavalue:
+            value:
+              time: "+2017-05-15T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 71f4b177c06e30aba7f892b13830ebe942f5146a
+      datavalue:
+        value: 3.5.9.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 6cbf1ede75d6c740b3850a00b1c8cbfdbbd61177
+        datavalue:
+          value:
+            time: "+2017-06-05T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$4E991AEF-268F-4F24-A0D2-3AC802AC26C6
+    rank: normal
+    references:
+    - hash: 794f0b561d3ad62520c504bb3907a2e419385092
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 91ee9fe21dd3617f5162721ce0e249f43b5c8030
+          datavalue:
+            value:
+              time: "+2017-06-05T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: a3ac9e2257af445598db3f95b127f119bdcb4e18
+      datavalue:
+        value: 3.5.9.1
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: f202b47e9e04a8c6b1c41291737bfc89c301ffb4
+        datavalue:
+          value:
+            time: "+2017-07-03T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$C33A098F-D807-4801-8400-DFF823AF1108
+    rank: normal
+    references:
+    - hash: 1f871721ed04d4bf6318a638c34bb4ffdff9cfe8
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 5a78e13b59da33c72ffc2bde5f10c09d11537476
+          datavalue:
+            value:
+              time: "+2017-07-03T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 1ea8dc5eb577f1a1bacfc4d89dc50a8e4da0e334
+      datavalue:
+        value: 3.5.9.2
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 56421dbb90879feca1b2106049afdd50094f1b90
+        datavalue:
+          value:
+            time: "+2017-07-04T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$DC2498AA-70F7-41AD-A382-A316B4029DFA
+    rank: normal
+    references:
+    - hash: 738958509728932f5175c52e0e398278b8b848a6
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 6175f9e93090008355614f0d89133f8fe30a04c3
+          datavalue:
+            value:
+              time: "+2017-07-04T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 5c80ace117058197099f7e3cb32e41f850dac0d5
+      datavalue:
+        value: 3.5.9.4
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 33ee9a9b42490a0685f59f045fc197a3338ecb24
+        datavalue:
+          value:
+            time: "+2017-07-16T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$8716CBEC-592D-4BAB-81D4-D08AF2C572EE
+    rank: normal
+    references:
+    - hash: 65b0daab3a6bebf5ab1a7ad31f776e2d9a68cc21
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 7813b59acafe4fe799197385a67de377d0e8f10b
+          datavalue:
+            value:
+              time: "+2017-07-16T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 5ffc915c778620aaebbf6534acb7927034c3c1e6
+      datavalue:
+        value: 3.5.9.3
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: ccc53e40dddd97b471bc0cd727ed3eef89160437
+        datavalue:
+          value:
+            time: "+2017-07-15T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$EEA40285-F6A2-40C9-AED0-C220DEF97FE1
+    rank: normal
+    references:
+    - hash: 65b0daab3a6bebf5ab1a7ad31f776e2d9a68cc21
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 7813b59acafe4fe799197385a67de377d0e8f10b
+          datavalue:
+            value:
+              time: "+2017-07-16T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 2423f3bab2f9a883a661b80a534b0b0c8b287320
+      datavalue:
+        value: 3.5.9.5
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 9001df1b0e8553597f7fa29daba03b30cde91b34
+        datavalue:
+          value:
+            time: "+2017-07-22T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$7C20C759-6B38-458D-8827-82B10BB1ED4E
+    rank: normal
+    references:
+    - hash: 4e1d39180d5833dc0990306c0396086c32e53fe2
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 78b159f3395b1c59716d897c02f5271e4a8638d6
+          datavalue:
+            value:
+              time: "+2017-07-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 04d39bfe2280890e00258cd30665c2f2dffd97a8
+      datavalue:
+        value: 3.5.9.6
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: eed6d94e132f479dfedd1aabf54a99881933e267
+        datavalue:
+          value:
+            time: "+2017-07-24T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$0B46C3C7-05DE-44D6-BB04-28DB350FE02C
+    rank: normal
+    references:
+    - hash: 8c947f65d776023a915e529433022a2615af8926
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 3bd94aa188f309738396a23ab30f3fa72416eb7b
+          datavalue:
+            value:
+              time: "+2017-07-24T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 0c19b0451a6023cf9544928d7c71c0c4601caa49
+      datavalue:
+        value: 3.5.9.7
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: e069ad01f9b0eadc1042acfd6ec0e0c8a8d0c361
+        datavalue:
+          value:
+            time: "+2017-07-25T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$4CB2D533-7B26-4A54-A8C2-2697B97D7C18
+    rank: normal
+    references:
+    - hash: e78425c043ec34a1c4ea00da5656ffa1ba1a4cfc
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: ec8cd8c171c2ed36f557b85742f8e42e1663ff74
+          datavalue:
+            value:
+              time: "+2017-07-25T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: d092679a3e9fe90c5cb3e27020fe48fa7dcef792
+      datavalue:
+        value: 3.5.9.8
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 651d8f7326bf7248b06b6464397881630a2b26de
+        datavalue:
+          value:
+            time: "+2017-07-29T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$034BD5EA-CB10-493E-BE4B-555FF57EBB60
+    rank: normal
+    references:
+    - hash: cdbb2f3d052516c09c53a532b9e5b66e74edb0b7
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: ebe627788f6d501b7c05fc8227271500f8e2d918
+          datavalue:
+            value:
+              time: "+2017-07-29T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 4f1445fdc1121f29a66190ba64917a95971de798
+      datavalue:
+        value: 3.5.9.9
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 65c7d30108f3d272a170b769cf85cbd6b3dd243f
+        datavalue:
+          value:
+            time: "+2017-08-05T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$216007A7-ED00-45AA-9C30-7275D86433E5
+    rank: normal
+    references:
+    - hash: 7c39159a4354c2a13a9a84552785f45d2b7e2c01
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 5d785d3512a99e544f065eeb01097e62afdf5bb9
+          datavalue:
+            value:
+              time: "+2017-08-05T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 4af711a442906594262c58545ed8f4f48fbd5089
+      datavalue:
+        value: 3.6.0.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: da37ce3a5b7d4283aebc9992a41683414ffd5677
+        datavalue:
+          value:
+            time: "+2017-08-14T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$F03099D1-F3AB-4922-A70B-3BCDEF608A47
+    rank: normal
+    references:
+    - hash: 2700f97e670d5fec6097fd1e150c3fcbbd7eff9f
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 617ba7282dee9e8be0425ebe2dc854d43836dc4d
+          datavalue:
+            value:
+              time: "+2017-08-14T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: fb4d9391a1dbd4f98b6f040053f49152664b1aef
+      datavalue:
+        value: 3.6.0.1
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: e4088ef3314d2dfffb97343aa794e66329b7971f
+        datavalue:
+          value:
+            time: "+2017-08-22T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$8A346B5F-C57F-4102-902E-0D2846D591DC
+    rank: normal
+    references:
+    - hash: 1384734973d0127c1afa7e921a6f129115c285d1
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: ae679278fac1015c6ec3258b161cd544ec2bfad5
+          datavalue:
+            value:
+              time: "+2017-08-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: e472f6e6a056de4418c17e71e551284f20ef1d5c
+      datavalue:
+        value: 3.6.0.2
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: c9b607ab2fab0259684896ef9bd4a13c6c7648cb
+        datavalue:
+          value:
+            time: "+2017-08-26T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$CCEC0644-1E71-462C-BCC9-91D0C8332F57
+    rank: normal
+    references:
+    - hash: e9824155be3bf98e91fd7cb4f9461ffdc7a17dff
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 29749b5a8ce9155fd530a5e4e19c752efd1b4114
+          datavalue:
+            value:
+              time: "+2017-08-26T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 46e953e222ec43aa9d47cdb53352392ccb5684b7
+      datavalue:
+        value: 3.6.1.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 29ecd2ac872248e599ee863ce1691666565bb0ae
+        datavalue:
+          value:
+            time: "+2017-09-13T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$D646F2C4-EE91-4759-AA64-31173433B862
+    rank: normal
+    references:
+    - hash: d1b143f3e2a4ca9068a1ac8b89c8c3fd9deeea9a
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 55a2f608be26bec5fc282545615f67bb3082612c
+          datavalue:
+            value:
+              time: "+2017-09-13T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 182cdbe6b3f852dde01eea49b47559ce01e8c405
+      datavalue:
+        value: 3.6.2.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 4eec4ef45378ca17a9a5dbe2d675735f924ba740
+        datavalue:
+          value:
+            time: "+2017-09-28T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$447801CC-2B4A-454B-A1F9-EE58D0310221
+    rank: normal
+    references:
+    - hash: 3e51236f0c7b696005cc107bf5b906bb4ce5eff7
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 20c4902f7442533726aeb59292cc42eb79af6fcd
+          datavalue:
+            value:
+              time: "+2017-09-29T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 261494c7fabe1ba16ed99f02f25015b5ae10ce36
+      datavalue:
+        value: 3.6.3.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: ad6f9a26a332e8f4d90a06383567bf0326caf79e
+        datavalue:
+          value:
+            time: "+2017-10-09T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$E3CBE246-862A-4313-B705-48AA8579FDDB
+    rank: normal
+    references:
+    - hash: ae85525706d7016907d41fa2ed2eb0a573d57df5
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: e5f60ab0b03700bb883efce38f8022d023bc49fb
+          datavalue:
+            value:
+              time: "+2017-10-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: aae8d086097292aacb1c88cc68a5f4c84a0e30f5
+      datavalue:
+        value: 3.7.0.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: '094b0508265f34016c6c3a20ca324cf2508004dc'
+        datavalue:
+          value:
+            time: "+2018-01-08T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$271E3775-2F24-443E-988F-18CC7FB5E2B8
+    rank: normal
+    references:
+    - hash: 9b05c3a8c7ca8ec46a197719bed25f8311d6e5dc
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: b9da3ffd6f9b6021651425116bc05089fa66c190
+          datavalue:
+            value:
+              time: "+2018-01-08T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: cd80fc0595bd4743caf69f3483d25c1f408d87b2
+      datavalue:
+        value: 3.7.1.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: a5628af632778022303a3a0e5eda347bb3bad608
+        datavalue:
+          value:
+            time: "+2018-01-10T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$6AF7F9AC-9006-40CD-936D-6E28353FA62E
+    rank: normal
+    references:
+    - hash: 96fed45739ebd4ca05314f82023ad248b227429c
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: bf2c96006874d561d09f50c3c4dfdfaa83b1fd61
+          datavalue:
+            value:
+              time: "+2018-01-10T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 65f2cd74f2862117946c86482a3a76f36e4b120f
+      datavalue:
+        value: 3.7.3.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 92ecb7ed638a3cff78e50532f846be51920d99ba
+        datavalue:
+          value:
+            time: "+2018-01-13T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$98BC5E46-4DD7-496F-B5E6-00688B611364
+    rank: normal
+    references:
+    - hash: 5d3c6c12e89157d3be2ed680ca354825e924d560
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: b2e6753d118307a8b870a6b7c864cb87b87c4acc
+          datavalue:
+            value:
+              time: "+2018-01-13T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 1a1fcb785ed2300d974fdfe29da85bdb3ed3c208
+      datavalue:
+        value: 3.7.2.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 92ecb7ed638a3cff78e50532f846be51920d99ba
+        datavalue:
+          value:
+            time: "+2018-01-13T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$ECD5947A-62D2-4DE8-B761-716F9597D8AF
+    rank: normal
+    references:
+    - hash: 5d3c6c12e89157d3be2ed680ca354825e924d560
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: b2e6753d118307a8b870a6b7c864cb87b87c4acc
+          datavalue:
+            value:
+              time: "+2018-01-13T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 2485e266e2b2be95ad1c7c736bf693c895e2e248
+      datavalue:
+        value: 3.7.4.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 5b879cc41f62ecdcdf68d36963f021d5c1a056d3
+        datavalue:
+          value:
+            time: "+2018-01-20T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$0DD4C77E-CE59-4C21-B1A7-EE8573FC1C3F
+    rank: normal
+    references:
+    - hash: d6a5e579e5a39d068bc23b2fdc7043f657ab919d
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: ad0348de895c0e156ed9c560131861aeadc65cf0
+          datavalue:
+            value:
+              time: "+2018-01-20T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 1aa355d06bcc3473a49c4d1b062ebfc784a9dd9f
+      datavalue:
+        value: 3.7.5.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 7a120e170f28ac4a12331184a27081a6571280bb
+        datavalue:
+          value:
+            time: "+2018-01-24T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q18572818$62488649-3415-4C6B-BFC1-B516EF6CF80E
+    rank: preferred
+    references:
+    - hash: 1aafee2edeabe7f741b5e298d2bcd7c844bf6680
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 9bd648b23a49d798484b1ef173e36aacf73aff72
+          datavalue:
+            value:
+              time: "+2018-01-24T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 191935f16d546a1fcb5ff1a1ac73d9372646d001
+          datavalue:
+            value: https://api.github.com/repos/gridcoin/Gridcoin-Research/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  P275:
+  - mainsnak:
+      snaktype: value
+      property: P275
+      hash: '0447296e0e56d461ed7491de8ee2da7367b75861'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 334661
+          id: Q334661
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q18572818$35989fd4-4952-669d-496a-49257b88f68e
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P400:
+  - mainsnak:
+      snaktype: value
+      property: P400
+      hash: 0b7430c76aa932002363740d965c9f0a5cd61191
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1406
+          id: Q1406
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q18572818$7a8b349a-48f7-aadf-2ac3-07761f7b9df0
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  - mainsnak:
+      snaktype: value
+      property: P400
+      hash: 925050644793bc0311cf1d5fb597838d2bb0e330
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 388
+          id: Q388
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q18572818$1fd84e05-4ef8-d221-da7c-6fd9696143d9
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  - mainsnak:
+      snaktype: value
+      property: P400
+      hash: fd458c3f1c6ad0c620d2551f6e682dcf6ba6cb47
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 14116
+          id: Q14116
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q18572818$d3f9c173-4574-dc21-38f8-c129ff862c86
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P277:
+  - mainsnak:
+      snaktype: value
+      property: P277
+      hash: 758444e877886704f4f61e0541b202183ff24691
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2407
+          id: Q2407
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q18572818$d85d3ce3-43c2-b6a9-8a06-036824ad2764
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P2283:
+  - mainsnak:
+      snaktype: value
+      property: P2283
+      hash: 44f05fe9dd11fd000be7fb09e5bf3a760fbf7ff7
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 17083510
+          id: Q17083510
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q18572818$c38b3a66-4b8f-c0cb-1a9c-cfd66905d465
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 50e4cbaaa24a6809dcba872e3f53645062cee06d
+      datavalue:
+        value: Grc universe logo.png
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q18572818$22FD40FC-0DA8-433F-9200-0B2FA5ACABC8
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Gridcoin
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Gridcoin
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Gridcoin
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Gridcoin
+    badges: []

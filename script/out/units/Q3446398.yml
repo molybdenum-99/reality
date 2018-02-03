@@ -1,0 +1,192 @@
+---
+pageid: 3283133
+ns: 0
+title: Q3446398
+lastrevid: 596694521
+modified: '2017-11-21T02:20:13Z'
+type: item
+id: Q3446398
+labels:
+  en:
+    language: en
+    value: tankard
+aliases: {}
+claims:
+  P487:
+  - mainsnak:
+      snaktype: value
+      property: P487
+      hash: 7b42dba66f1503fe27b5d844eb2b73a98e34cc9c
+      datavalue:
+        value: "\U0001F37A"
+        type: string
+      datatype: string
+    type: statement
+    id: Q3446398$6eee3082-48e3-3db6-039b-6bf076f10669
+    rank: normal
+  P1014:
+  - mainsnak:
+      snaktype: value
+      property: P1014
+      hash: 872dd599f661b9f989ad57982d2b08bace9dab6b
+      datavalue:
+        value: '300043256'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3446398$cfc55b66-40f7-3877-9445-0abf34b95246
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: d117f1ba3e6d73b3cbebe3e6de8ad18a1dd090ba
+      datavalue:
+        value: "/m/0c4mv2"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3446398$1134990C-C634-482E-A24C-F07DC057D138
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: 7b15a7ef8e13960f024464df3a7b95cbd66c6794
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2453629
+          id: Q2453629
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3446398$a2dd30e1-419a-ed0b-e552-e4291279ce77
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6e3da81891b6fba54d9ac8088595a4b05e5a5f95
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1302471
+          id: Q1302471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3446398$1e190ee1-4309-5159-2c6e-8a730471d16e
+    rank: normal
+  P3827:
+  - mainsnak:
+      snaktype: value
+      property: P3827
+      hash: 1f00523461b52bdac955d1a8f932cb798e948cfe
+      datavalue:
+        value: tankards
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3446398$AD38D416-30BA-4D8A-9E54-1D752F2FF911
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 80c770b5d475aa5ab15f77bd78b60ec500667fb8
+      datavalue:
+        value: Tankards
+        type: string
+      datatype: string
+    type: statement
+    id: Q3446398$34242C5B-19C3-49AC-8DB6-CCC58CA76B7B
+    rank: normal
+  P1417:
+  - mainsnak:
+      snaktype: value
+      property: P1417
+      hash: a3bb41e85fcc271b9d9abc5c7a9305a1f73636d7
+      datavalue:
+        value: topic/tankard
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3446398$BDEA068C-423B-4392-BD91-0BE2E6C5A42B
+    rank: normal
+  P1256:
+  - mainsnak:
+      snaktype: value
+      property: P1256
+      hash: 4581a711ceab29f2c8b06e2efa4a0d40d4f52ddf
+      datavalue:
+        value: 41C324
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3446398$3CE68182-7CC7-4A3A-A06C-6936125A6ACA
+    rank: normal
+sitelinks:
+  commonswiki:
+    site: commonswiki
+    title: Category:Tankards
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Seidel (Einheit)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Tankard
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Meszely
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ビアマグ
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 탱커드
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Seidel
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Seidel
+    badges: []

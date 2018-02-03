@@ -1,0 +1,158 @@
+---
+pageid: 34202499
+ns: 0
+title: Q32740845
+lastrevid: 516577373
+modified: '2017-07-09T02:56:39Z'
+type: item
+id: Q32740845
+labels:
+  en:
+    language: en
+    value: damping coefficient
+aliases:
+  en:
+  - language: en
+    value: δ
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 50afdc16346d8687f53963f614e8d645419488a0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 208469
+          id: Q208469
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q32740845$f0f50e22-4ca3-ff7c-9e02-30766e2ce68a
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: fe7f9d65ea228b6f134881177745147e3c990465
+      datavalue:
+        value: δ
+        type: string
+      datatype: string
+    type: statement
+    id: Q32740845$d0d20677-4830-6a4c-afb2-e2b98eb2770c
+    rank: normal
+    references:
+    - hash: 4e46658a075b6b9686496b726a94d1d1ec664be4
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: 200d2e4fee950680d36600b55fc29eeecda98b1a
+          datavalue:
+            value: 3-23
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  P2534:
+  - mainsnak:
+      snaktype: value
+      property: P2534
+      hash: ca8dde504d85b00bc530ce0b6a4f5d85cf68ae6a
+      datavalue:
+        value: "\\delta = \\frac{1}{\\tau}"
+        type: string
+      datatype: math
+    type: statement
+    id: Q32740845$c4cf8169-41da-9828-ac1f-dc1f05866dc6
+    rank: normal
+    references:
+    - hash: 4e46658a075b6b9686496b726a94d1d1ec664be4
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: 200d2e4fee950680d36600b55fc29eeecda98b1a
+          datavalue:
+            value: 3-23
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  P144:
+  - mainsnak:
+      snaktype: value
+      property: P144
+      hash: d382a9cce8bc39bdf2ed76583e79d3d3b77dc695
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1335249
+          id: Q1335249
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P2534:
+      - snaktype: value
+        property: P2534
+        hash: ca8dde504d85b00bc530ce0b6a4f5d85cf68ae6a
+        datavalue:
+          value: "\\delta = \\frac{1}{\\tau}"
+          type: string
+        datatype: math
+    qualifiers-order:
+    - P2534
+    id: Q32740845$077152cc-47f9-009a-57dc-c7a502f332b6
+    rank: normal
+    references:
+    - hash: 4e46658a075b6b9686496b726a94d1d1ec664be4
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: 200d2e4fee950680d36600b55fc29eeecda98b1a
+          datavalue:
+            value: 3-23
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+sitelinks: {}

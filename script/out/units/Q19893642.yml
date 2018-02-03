@@ -1,0 +1,233 @@
+---
+pageid: 21537168
+ns: 0
+title: Q19893642
+lastrevid: 504538108
+modified: '2017-06-22T04:30:35Z'
+type: item
+id: Q19893642
+labels:
+  en:
+    language: en
+    value: NeuCoin
+aliases: {}
+claims:
+  P856:
+  - mainsnak:
+      snaktype: value
+      property: P856
+      hash: 462d6c544b5a2fa7eb20a38427fb1e7961cc269f
+      datavalue:
+        value: http://www.neucoin.org/en/
+        type: string
+      datatype: url
+    type: statement
+    qualifiers:
+      P813:
+      - snaktype: value
+        property: P813
+        hash: 38e01b2a56ba96d9d3a64884871e98d50c92385a
+        datavalue:
+          value:
+            time: "+2015-10-30T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      P407:
+      - snaktype: value
+        property: P407
+        hash: daf1c4fcb58181b02dff9cc89deb084004ddae4b
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 1860
+            id: Q1860
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P813
+    - P407
+    id: Q19893642$a5a18838-43ec-92bd-5825-d5bd7f5cd55d
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P856
+      hash: 46de277b01a88340399ee4a8e3f7356f0463ab15
+      datavalue:
+        value: http://www.neucoin.org
+        type: string
+      datatype: url
+    type: statement
+    id: Q19893642$14CD637C-8DE4-4A6C-8705-5B7EDC98396D
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 16ab8cfff2957341998c927ff03e50befb65a864
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 13479982
+          id: Q13479982
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q19893642$76f8ba89-467c-f9d9-7e68-932a9b8deaeb
+    rank: normal
+  P275:
+  - mainsnak:
+      snaktype: value
+      property: P275
+      hash: '0447296e0e56d461ed7491de8ee2da7367b75861'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 334661
+          id: Q334661
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q19893642$8486a8dc-4429-9695-3fcf-c7c53119d223
+    rank: normal
+  P277:
+  - mainsnak:
+      snaktype: value
+      property: P277
+      hash: 758444e877886704f4f61e0541b202183ff24691
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2407
+          id: Q2407
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q19893642$f0b3ea70-40ab-897d-68c9-77e70b6cfaa0
+    rank: normal
+  P348:
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 5f3d150718335d2a7ce44d9ee52e3560c61d549d
+      datavalue:
+        value: '1.0'
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: ca41fcd46640267048ea5aa3002466c0364a1911
+        datavalue:
+          value:
+            time: "+2015-09-23T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q19893642$ff8b646d-4813-e9f1-b3cc-36ac17c82b53
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 2825f170915f5f173d13e01340b7ee5150d098ac
+      datavalue:
+        value: 1.1.1
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 1dcabb258f400cea45aa39602e632a1ef7334c71
+        datavalue:
+          value:
+            time: "+2015-10-22T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q19893642$b6cf5c49-4b5d-72ba-dc49-8c12b94568e3
+    rank: preferred
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 5e24ead404d5b89e75e946f168765404cf1f2bf7
+      datavalue:
+        value: Neucoin-wallet-windows.png
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q19893642$215bd89b-4714-69be-5db2-b0df5e3cdbec
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 8b914056cd1c1b4e8f7f53943faf24d3d8a5d04a
+      datavalue:
+        value: Neucoin
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q19893642$C12DB7FF-1BD1-4141-A824-295EE2593CFF
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: NeuCoin
+    badges: []
+  frwiki:
+    site: frwiki
+    title: NeuCoin
+    badges: []

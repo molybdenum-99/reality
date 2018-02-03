@@ -1,0 +1,139 @@
+---
+pageid: 2268582
+ns: 0
+title: Q2348127
+lastrevid: 618615535
+modified: '2018-01-10T22:31:37Z'
+type: item
+id: Q2348127
+labels:
+  en:
+    language: en
+    value: Portuguese Indian escudo
+aliases: {}
+claims:
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 165004ccf9c16444fcb43505535fc84e9d491f3f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 806190
+          id: Q806190
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q2348127$FDF08FDC-6BD8-47C9-BF2C-D9D04F10342E
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 9fe55db9192231b2b8fa2a67444ce1f241754558
+      datavalue:
+        value: "/m/07qlyx"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2348127$EAF5B512-6A46-47B2-86DB-81D2C4F446F2
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2348127$2A3760D2-10C7-4D64-9D78-32D107995C43
+    rank: normal
+  P1001:
+  - mainsnak:
+      snaktype: value
+      property: P1001
+      hash: d6a46d7de041432678deb08b506fd70c85f62c1c
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 323904
+          id: Q323904
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2348127$27d1af39-42a5-a801-3d28-25131567d0ee
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Portuguese Indian escudo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Escudo indoportugués
+    badges: []
+  fawiki:
+    site: fawiki
+    title: اسکودوی هند پرتغال
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Escudo da Índia Portuguesa
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Эскудо Португальской Индии
+    badges: []

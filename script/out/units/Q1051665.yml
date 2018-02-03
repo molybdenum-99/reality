@@ -1,0 +1,336 @@
+---
+pageid: 1000647
+ns: 0
+title: Q1051665
+lastrevid: 589882232
+modified: '2017-11-06T20:27:29Z'
+type: item
+id: Q1051665
+labels:
+  en:
+    language: en
+    value: metre per second squared
+aliases:
+  en:
+  - language: en
+    value: m/s2
+  - language: en
+    value: meter per second squared
+  - language: en
+    value: m/s²
+  - language: en
+    value: meters per second squared
+  - language: en
+    value: m s^(-2)
+  - language: en
+    value: m s⁻²
+  - language: en
+    value: metre / second squared
+  - language: en
+    value: meter per square second
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 50afdc16346d8687f53963f614e8d645419488a0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 208469
+          id: Q208469
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q1051665$58B68614-255A-43C6-A4FC-7B5C57F1D5AD
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: d502f26f12c7aac0e3b72aa81644ff1477ed0cfa
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 39699875
+          id: Q39699875
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1051665$72b9ba59-400c-bcad-6807-a3b7f66860b8
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1051665$4b5c5634-4388-df6b-3a4b-97291a116c2f
+    rank: normal
+  P487:
+  - mainsnak:
+      snaktype: value
+      property: P487
+      hash: 01366d51af1532f44d09c0314af0a9e71f121111
+      datavalue:
+        value: "㎨"
+        type: string
+      datatype: string
+    type: statement
+    id: q1051665$666e3c32-42da-1eeb-d286-7f9e20b2d054
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 5fe0a705b4131f0e288a32fcc63aab602f4c7164
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11376
+          id: Q11376
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1051665$dcb802fb-49ba-01a2-39f3-d10ac3577d8e
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 393bcb8381c87cc577c16298fde7650c97bfe0db
+      datavalue:
+        value: "/m/037jgl"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1051665$7C823F1F-B5F0-46DB-8617-C6D5FB2AC39E
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 01b70b90b9df7593988504ef27a08da01ca1d7a9
+      datavalue:
+        value:
+          amount: "+1"
+          unit: http://www.wikidata.org/entity/Q1051665
+          upperBound: "+1"
+          lowerBound: "+1"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1051665$74b4e332-47fd-b2fe-c8f1-7bff228533a5
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: a69a62e20e80931a05a167b222f29748ee378219
+      datavalue:
+        value: m/s²
+        type: string
+      datatype: string
+    type: statement
+    id: Q1051665$be1470f4-4eae-2538-b1fc-7d817560dc41
+    rank: normal
+    references:
+    - hash: 7a96cdcd5b7982fa30b68dfb484e034bfb165414
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: 280bcc037ab473e374cba9d85797b9701a31d12b
+          datavalue:
+            value: 3-9.a
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: '095b22e5c47a47f7d5e84e00899837038be11bd4'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 26711932
+          id: Q26711932
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P958:
+      - snaktype: value
+        property: P958
+        hash: 280bcc037ab473e374cba9d85797b9701a31d12b
+        datavalue:
+          value: 3-9.a
+          type: string
+        datatype: string
+    qualifiers-order:
+    - P958
+    id: Q1051665$e9fbed6f-4c15-1cc6-bc9e-cf802beeb941
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: متر في الثانية المربعة
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: М/с²
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Метр у секунду ў квадраце
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Metar u sekundi na kvadrat
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Metre per segon al quadrat
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Metre per second squared
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Metro por segundo al cuadrado
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Meeter sekundi ruudu kohta
+    badges: []
+  fawiki:
+    site: fawiki
+    title: متر بر مجذور ثانیه
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Mètre par seconde carrée
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Metro por segundo ao cadrado
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Metar u sekundi na kvadrat
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Meter per detik kuadrat
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Metro al secondo quadrato
+    badges: []
+  jawiki:
+    site: jawiki
+    title: メートル毎秒毎秒
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 미터 매 초 제곱
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Метар во секунда на квадрат
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Metro por segundo ao quadrado
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Метр в секунду в квадрате
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Metru ô secunnu quatratu
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Metar u sekundi na kvadrat
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Metre per second squared
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Meter na kvadratno sekundo
+    badges: []
+  sowiki:
+    site: sowiki
+    title: Metre per second squared
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Meter per kvadratsekund
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Метр на секунду в квадраті
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Bí ta̍k bió pêng-hong
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 米每二次方秒
+    badges: []

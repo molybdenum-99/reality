@@ -1,0 +1,195 @@
+---
+pageid: 23111817
+ns: 0
+title: Q21064807
+lastrevid: 624291471
+modified: '2018-01-28T21:33:09Z'
+type: item
+id: Q21064807
+labels:
+  en:
+    language: en
+    value: kilopascal
+aliases:
+  en:
+  - language: en
+    value: kPa
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6166ea9a07e43efe7af58b089be082880e6b8c61
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10751953
+          id: Q10751953
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q21064807$559df9fb-4a7f-404e-9b78-33fd7909a0bb
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 187d958aa1ff74c4827b4aa9e96b8938af088c46
+      datavalue:
+        value: kPa
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q21064807$9d0e27e5-4147-38d5-c451-65cc1bff2382
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 03fc71c8fe7d83ed235e7f59c9130b2a1c0987d7
+      datavalue:
+        value: кПа
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q21064807$3fbef5a6-4f47-07f2-d070-ecb91203e79c
+    rank: normal
+  P487:
+  - mainsnak:
+      snaktype: value
+      property: P487
+      hash: 537af9c29a03ff57a6271b684b4a56ecb21ffc49
+      datavalue:
+        value: "㎪"
+        type: string
+      datatype: string
+    type: statement
+    id: Q21064807$13e8b9da-4e0b-0946-5b9b-4787c1d15c70
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 5e737fd631e134443571672163344c39652df77e
+      datavalue:
+        value:
+          amount: "+1000"
+          unit: http://www.wikidata.org/entity/Q44395
+          upperBound: "+1000"
+          lowerBound: "+1000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q21064807$d50a07bf-48c0-e133-0ea1-642d7bfc877a
+    rank: normal
+  P1417:
+  - mainsnak:
+      snaktype: value
+      property: P1417
+      hash: 18a266be8ad8dd5004d412b8d55268cd696436d1
+      datavalue:
+        value: science/kilopascal
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q21064807$6FD8FDD4-6B79-4B6A-B22D-838EF0A35EA0
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: f0a4a211408c2f14b625c1f663f8bcb0b10c92b2
+      datavalue:
+        value: KiloPascal
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q21064807$5f06ab29-4f37-72e2-d100-98a94430a900
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: f62b1e0a506e71d2550e3ce69e62cd4376c48f96
+      datavalue:
+        value: kilopascal
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q21064807$A45AD57E-D5CF-47BC-A3C4-1EE2EBCF8029
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 797a3e59131a2f7f13890262992de0283e87b120
+      datavalue:
+        value: Kilopascal
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q21064807$12B9FFF2-16E2-4C6A-B183-286C050EEE1B
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: a876e7a41293d4f8e5ebf4ae8bf3c9ee615576b8
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 39552
+          id: Q39552
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q21064807$30D30A74-6DC0-4BD5-A4F8-BACA5366697F
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Kilopascal
+    badges: []

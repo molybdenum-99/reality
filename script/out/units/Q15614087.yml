@@ -1,0 +1,114 @@
+---
+pageid: 17252949
+ns: 0
+title: Q15614087
+lastrevid: 624920633
+modified: '2018-01-30T22:29:37Z'
+type: item
+id: Q15614087
+labels:
+  en:
+    language: en
+    value: Coinye
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 16ab8cfff2957341998c927ff03e50befb65a864
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 13479982
+          id: Q13479982
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q15614087$18c57c5e-4edd-ae08-b9c6-c68afc5e1a05
+    rank: normal
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: cb1dbbeeef2a73b2e592b7cfba73b2adcc916bef
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 15935
+          id: Q15935
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q15614087$b24dc102-471e-5737-fce0-18143963dd41
+    rank: normal
+    references:
+    - hash: 67eb494e3b6c0db74ea623884a191adfe8dcb5bb
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 7f31748bf41c4f409dcd1fa0e638cb35c4e5096f
+          datavalue:
+            value: http://www.escapistmagazine.com/news/view/130992-Bitcoin-Rival-Coinye-West-To-Launch-This-Month
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 909dd94fddc0a82f6fc029698479b7bdbf53c304
+          datavalue:
+            value:
+              time: "+2017-12-12T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  P2283:
+  - mainsnak:
+      snaktype: value
+      property: P2283
+      hash: 84efc95c1e17d3aafae2432b08212113435982b6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 7249984
+          id: Q7249984
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q15614087$d7b2bae6-49e4-de92-161b-22d6c59067f8
+    rank: normal
+  P571:
+  - mainsnak:
+      snaktype: value
+      property: P571
+      hash: 9d8432a46be992ef8667e6c05a68645a802517a0
+      datavalue:
+        value:
+          time: "+2014-01-07T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 11
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q15614087$c2278273-46fe-df95-cbf6-0829512eb557
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Coinye
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Coinye West
+    badges: []

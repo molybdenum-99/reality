@@ -1,0 +1,80 @@
+---
+pageid: 2779411
+ns: 0
+title: Q2903517
+lastrevid: 319026500
+modified: '2016-04-06T00:26:58Z'
+type: item
+id: Q2903517
+labels:
+  en:
+    language: en
+    value: 50,000 Colombian peso note
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: aa6f51e653d9c2de94a277c4c85d145b87948ee5
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1368
+          id: Q1368
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2903517$106df738-4252-a6df-a190-f395c032993b
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: dd241161bdfe3db75f9134e26a56aed3a8e40088
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 244819
+          id: Q244819
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2903517$fa916769-4a9f-e11f-a184-30e983b2c781
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 03c7f4c368b0a034bc98c80a3d7dd0d8bcc77fd9
+      datavalue:
+        value: COP50000 frente.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q2903517$6bdfbdb7-45b0-7dd7-5ca3-68ca12dd74a1
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 6ad71f01aeddc8a2064ee2dedc14ebdf251b6062
+      datavalue:
+        value: COP50000 reverso.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q2903517$6c0630b2-42e3-b406-7f40-59cd1a319dd3
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: 50,000 Colombian peso note
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Billetes de 50 000 pesos colombianos
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Billet de 50 000 pesos colombiens
+    badges:
+    - Q17437798

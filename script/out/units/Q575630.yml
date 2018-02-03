@@ -1,0 +1,70 @@
+---
+pageid: 541382
+ns: 0
+title: Q575630
+lastrevid: 506404299
+modified: '2017-06-25T02:22:35Z'
+type: item
+id: Q575630
+labels:
+  en:
+    language: en
+    value: Later Stone Age
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 29868492e2648404bc6f7b62789b68129bc135ef
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 15401633
+          id: Q15401633
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q575630$44acda36-450b-b0bc-d51e-ab19542c94ce
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: b75b40d4bb654c6ab2a469793ca7472777cd47ac
+      datavalue:
+        value: Late Stone Age
+        type: string
+      datatype: string
+    type: statement
+    id: Q575630$802E1F85-FE7A-47DB-B91B-9A68F7D5E663
+    rank: normal
+    references:
+    - hash: 9a24f7c0208b05d6be97077d855671d1dfdbc0dd
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: d38375ffe6fe142663ff55cd783aa4df4301d83d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 48183
+              id: Q48183
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Later Stone Age
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Later Stone Age
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Later Stone Age
+    badges: []

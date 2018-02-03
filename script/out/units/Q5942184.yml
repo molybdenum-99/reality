@@ -1,0 +1,86 @@
+---
+pageid: 5715475
+ns: 0
+title: Q5942184
+lastrevid: 582545320
+modified: '2017-10-22T04:39:02Z'
+type: item
+id: Q5942184
+labels:
+  en:
+    language: en
+    value: long hundred
+aliases:
+  en:
+  - language: en
+    value: hundred
+  - language: en
+    value: great hundred
+  - language: en
+    value: twelfty
+  - language: en
+    value: small gross
+claims:
+  P1181:
+  - mainsnak:
+      snaktype: value
+      property: P1181
+      hash: b24e7b14c43ed4a62d5776363fb6a3a4b64cef8b
+      datavalue:
+        value:
+          amount: "+120"
+          unit: '1'
+          upperBound: "+120"
+          lowerBound: "+120"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q5942184$55ef2893-4fbe-3814-7f3e-91f23bdba06e
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: cf3c224e8db64deac776621d6d4093930b9e77f2
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2360980
+          id: Q2360980
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q5942184$68e20003-4911-b2ec-56de-ab312495d03d
+    rank: normal
+  P460:
+  - mainsnak:
+      snaktype: value
+      property: P460
+      hash: c61c1e64eea1e730f6a7a72d3a7f473686d19be5
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 717056
+          id: Q717056
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q5942184$6D06FD76-CA86-4B05-9F67-7A72BB2EEDEC
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Long hundred
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Storhundre
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Storhundre
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Stor-hundra
+    badges: []

@@ -1,0 +1,103 @@
+---
+pageid: 2850624
+ns: 0
+title: Q2981070
+lastrevid: 407857292
+modified: '2016-11-15T15:25:54Z'
+type: item
+id: Q2981070
+labels:
+  en:
+    language: en
+    value: millicandela
+aliases:
+  en:
+  - language: en
+    value: mcd
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: cafe22133964b7fa6f35055b024954a7d8861f3c
+      datavalue:
+        value: mcd
+        type: string
+      datatype: string
+    type: statement
+    id: Q2981070$a9015904-4cb0-74e8-e8db-cec104bba8cc
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 8fccc7787463a12b38ca537b809053f0a7bd48ff
+      datavalue:
+        value: мкд
+        type: string
+      datatype: string
+    type: statement
+    id: Q2981070$7d15dd30-43e0-8dad-84b3-c43e46a0582a
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2981070$92eef597-459f-e3a9-434c-bb635442ad73
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: e27f49dfa43dd941aca532fe0ef052553c87e092
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 104831
+          id: Q104831
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2981070$58007673-4d56-3891-4513-e4f1c3188bc0
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 71364508e914b5cd8dd9e866a077ebdc113f6f93
+      datavalue:
+        value: millicandela
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2981070$368B6AE1-6E19-4685-9832-1037E84ECF0D
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: b95a26a6ef11cd58751c17b3eeee446ba1d119a2
+      datavalue:
+        value:
+          amount: "+0.001"
+          unit: http://www.wikidata.org/entity/Q83216
+          upperBound: "+0.002"
+          lowerBound: "+0.000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q2981070$837f3b27-438e-e0f8-8a39-38622c23988d
+    rank: normal
+sitelinks:
+  nlwiki:
+    site: nlwiki
+    title: Millicandela
+    badges: []

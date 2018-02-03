@@ -1,0 +1,120 @@
+---
+pageid: 2038568
+ns: 0
+title: Q2112169
+lastrevid: 619180267
+modified: '2018-01-12T08:03:17Z'
+type: item
+id: Q2112169
+labels:
+  en:
+    language: en
+    value: Netherlands New Guinean gulden
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 3185856cbccb713cc35dc245ef021276495bfbf4
+      datavalue:
+        value: "/m/09_fx4"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2112169$F08FC321-1DCB-46DC-AEA4-EC940F45DE9D
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2112169$927684fa-491c-bc6b-28bc-454807467679
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: a46f34e48f0281fd32909c1e3052306688454143
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 941881
+          id: Q941881
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2112169$3EFA9FE3-FEDB-45C3-BE29-A60ED51E44F5
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Netherlands New Guinean gulden
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Gulden Papua Barat
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Nederlands-Nieuw-Guineese gulden
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Гульден Нидерландской Новой Гвинеи
+    badges: []

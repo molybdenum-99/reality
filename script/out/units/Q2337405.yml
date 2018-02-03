@@ -1,0 +1,125 @@
+---
+pageid: 2258112
+ns: 0
+title: Q2337405
+lastrevid: 616350658
+modified: '2018-01-04T01:33:11Z'
+type: item
+id: Q2337405
+labels:
+  en:
+    language: en
+    value: Barrel of oil equivalent
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: f3c06a48b4119f0c24225f2afceb2e7c58be5fd9
+      datavalue:
+        value: "/m/02qdq0"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2337405$F4CB2030-A3E9-4B39-982D-EBB0E9330262
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 06df6efe68f6e25b0d602229267e4d3e9ccc3d64
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2916980
+          id: Q2916980
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2337405$3c715a63-4a4c-ea7c-53c4-46a4967becd4
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: مكافئ برميل النفط
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Equivalent de barril de petroli
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Barel ropného ekvivalentu
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Barrel of oil equivalent
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Barril equivalente de petróleo
+    badges: []
+  fawiki:
+    site: fawiki
+    title: معادل بشکه نفت
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Barile equivalente di petrolio
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 石油換算バレル
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 석유환산배럴
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: BOE (eenheid)
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Baryłka przeliczeniowa ropy
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Baril Echivalent Petrol
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Эквивалент барреля нефти
+    badges: []

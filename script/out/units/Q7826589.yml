@@ -1,0 +1,93 @@
+---
+pageid: 7759659
+ns: 0
+title: Q7826589
+lastrevid: 619010080
+modified: '2018-01-11T22:44:23Z'
+type: item
+id: Q7826589
+labels:
+  en:
+    language: en
+    value: Toronto dollar
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 5dc2d2d757b6740d8a37279eb982a9cf25a0fd16
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1570153
+          id: Q1570153
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q7826589$3985be1b-42df-2ebc-2234-aeed564e089b
+    rank: normal
+  P276:
+  - mainsnak:
+      snaktype: value
+      property: P276
+      hash: a9423547666f2fc86747be43c0fa20c6c0b7398e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 172
+          id: Q172
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q7826589$1520ab62-479c-83fb-5de1-f5a0da4379ae
+    rank: normal
+  P571:
+  - mainsnak:
+      snaktype: value
+      property: P571
+      hash: 17691b7a3ea4973ce93aa808d6ded0a68cac3e0e
+      datavalue:
+        value:
+          time: "+1998-12-01T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 10
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q7826589$32e1a90e-472b-37d5-0c9e-08c40dd42634
+    rank: normal
+  P576:
+  - mainsnak:
+      snaktype: value
+      property: P576
+      hash: 7e57a2ad522e9b68b2da484a736baa049b05ca80
+      datavalue:
+        value:
+          time: "+2013-00-00T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 9
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q7826589$f1912e5f-4886-d74b-c993-c98bf99ef6f1
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Toronto dollar
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Toronto Dollar
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Торонтський долар
+    badges: []

@@ -1,0 +1,252 @@
+---
+pageid: 505454
+ns: 0
+title: Q536785
+lastrevid: 616086694
+modified: '2018-01-03T10:17:31Z'
+type: item
+id: Q536785
+labels:
+  en:
+    language: en
+    value: Planck density
+aliases: {}
+claims:
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 62604b308db3d2feaa7df599c59ff422986481fa
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 9021
+          id: Q9021
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q536785$1336ADF5-05E0-4EDD-B6A1-E67629F572BF
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: '03623068cc3c530548152ef75117b4da96f3e513'
+      datavalue:
+        value: "/m/038fpb"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q536785$71B268FE-DAD8-43F7-9667-200F9A7851A5
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1f64db08b05b0ff1f134e2100d6effbae258367f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 173227
+          id: Q173227
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q536785$e7afe597-4052-78a7-c6b5-34f584b3cff5
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 5c1e31495c3ee00418bae011defe6d61827b8990
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10387685
+          id: Q10387685
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q536785$955f1021-49fa-1d11-5023-a07a48952678
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 5139a3091a7ac59f82a371250b9e54055f9957d2
+      datavalue:
+        value: ρ_P
+        type: string
+      datatype: string
+    type: statement
+    id: Q536785$bb1bba31-4945-7d95-1218-918fe80e6ebd
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: c737f1f64ae38e25454ad7ed881d41934a73a74f
+      datavalue:
+        value: PlanckDensity
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q536785$D4946B4B-747C-4CFB-BFB3-B398BDFEC214
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 3cfb5cc05a46e9649140594bbb486da92baf93a9
+      datavalue:
+        value:
+          amount: "+5155000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+          unit: http://www.wikidata.org/entity/Q844211
+          upperBound: "+5155010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+          lowerBound: "+5154990000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q536785$b5b59b85-4a82-e79b-d670-f8658042a883
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 0a80cc8c1d4f843037b3a5a211ee962e6f01b686
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 468999
+          id: Q468999
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q536785$8387bcce-4c84-e249-a098-2a5373e715c0
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 254c45396879cff6e87567db52857f181aec72ac
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 29539
+          id: Q29539
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q536785$9c834dea-4ad6-c6ce-e220-37eb86e25bba
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: كثافة بلانك
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Планкаўская шчыльнасць
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Densitat de Planck
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Planck density
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Denseco de Planck
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Densidad de Planck
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Planckin tiheys
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Densité de Planck
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Planck-sűrűség
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Densità di Planck
+    badges: []
+  jawiki:
+    site: jawiki
+    title: プランク密度
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 플랑크 밀도
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Планкова густина
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Gęstość Plancka
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Densidade de Planck
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Планковская плотность
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Densitati di Planck
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Planckdensitet
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Planck yoğunluğu
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 普朗克密度
+    badges: []

@@ -1,0 +1,310 @@
+---
+pageid: 365459
+ns: 0
+title: Q384102
+lastrevid: 616568343
+modified: '2018-01-04T16:22:33Z'
+type: item
+id: Q384102
+labels:
+  en:
+    language: en
+    value: obol
+aliases:
+  en:
+  - language: en
+    value: obolus
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: da9827d4f66bd8bc9bd76cf59a7e67ee397cdf51
+      datavalue:
+        value: Obol
+        type: string
+      datatype: string
+    type: statement
+    id: q384102$FB1DD27D-C387-4A85-81F2-1D8E28C4F6F8
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 6cacdb6c4c726c232d8d671324387c0eb5cad3a3
+      datavalue:
+        value: "/m/01vt2g"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q384102$41E0F8B5-7238-4FF3-8C10-85EB1F42A6CB
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P910:
+  - mainsnak:
+      snaktype: value
+      property: P910
+      hash: dce540cd0ccb1070ba42e375f3e259c5036cbb53
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 7888416
+          id: Q7888416
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q384102$308FB6B7-B7D3-4943-98EA-C253EF24A687
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q384102$B785D04E-F846-4671-A51D-9D4264B99E84
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 954edbd3fef27ce6396c0878a95c608ca4ed84af
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3647172
+          id: Q3647172
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q384102$eec641a7-447c-9cc1-f986-ef0e07b8c8c5
+    rank: normal
+  P2950:
+  - mainsnak:
+      snaktype: value
+      property: P2950
+      hash: 84026ac2b087a2f83d20d3c3359999b3ae5f0a29
+      datavalue:
+        value: obol
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q384102$F04144A5-2603-4C95-A815-EEF4C8906EF1
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 517ad13c205808cd1cacd4ddff0efc064d24c1c2
+      datavalue:
+        value:
+          amount: "+0.00072"
+          unit: http://www.wikidata.org/entity/Q11570
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q384102$e8aceeec-4c52-b49a-4378-70a2f044dadb
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 16653c4848e0552e9604edc668341bd5f95825a4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11423
+          id: Q11423
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q384102$2C609DA0-96C5-4584-847E-2213DF0730C1
+    rank: normal
+sitelinks:
+  anwiki:
+    site: anwiki
+    title: Obolo
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Абол
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Абол
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Обол
+    badges: []
+  brwiki:
+    site: brwiki
+    title: Obolenn
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Òbol
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Obolos
+    badges: []
+  cywiki:
+    site: cywiki
+    title: Obol
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Obolus
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Οβολός
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Obol (coin)
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Obolo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Óbolo
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Obool
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Obolo
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Obole (monnaie)
+    badges: []
+  hewiki:
+    site: hewiki
+    title: אובול
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Obolus
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Obolos
+    badges: []
+  iowiki:
+    site: iowiki
+    title: Obolo
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Obolo
+    badges: []
+  jawiki:
+    site: jawiki
+    title: オボルス
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Obolus
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Obolas
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Obool
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Obol
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Óbolo
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Obol (monedă)
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Обол
+    badges: []
+  sahwiki:
+    site: sahwiki
+    title: Обол
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Obol
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Obolos
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Обол
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 奧波勒斯
+    badges: []

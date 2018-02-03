@@ -1,0 +1,73 @@
+---
+pageid: 4223091
+ns: 0
+title: Q4421813
+lastrevid: 491645639
+modified: '2017-05-28T21:05:43Z'
+type: item
+id: Q4421813
+labels:
+  en:
+    language: en
+    value: Korçë Skënder
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4421813$D09B6431-F7B3-46F9-9614-CBE10CC90436
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: df52aca1f7b8d3e58673b1ad215e4b528f23c122
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 116341
+          id: Q116341
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4421813$C1D7CE1F-AA4D-4BAE-A78A-C1F135AD615F
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Korçë Skënder
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Skënder
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Скендер
+    badges: []

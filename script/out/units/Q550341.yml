@@ -1,0 +1,541 @@
+---
+pageid: 518593
+ns: 0
+title: Q550341
+lastrevid: 623490226
+modified: '2018-01-25T23:55:52Z'
+type: item
+id: Q550341
+labels:
+  en:
+    language: en
+    value: volt-ampere
+aliases:
+  en:
+  - language: en
+    value: VA
+  - language: en
+    value: V·A
+  - language: en
+    value: volt ampere
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: a9636b2c1b7cef2c082faa0f6b5451468c53c451
+      datavalue:
+        value: VA
+        type: string
+      datatype: string
+    type: statement
+    id: q550341$a12415f3-4969-753b-a477-c2ff12fa8a6f
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 1d891b944d81dd50450abab2f1067f3cc1e3d489
+      datavalue:
+        value: В·А
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P407:
+      - snaktype: value
+        property: P407
+        hash: d291ddb7cd77c94a7bd709a8395934147e0864fc
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 7737
+            id: Q7737
+          type: wikibase-entityid
+        datatype: wikibase-item
+      P642:
+      - snaktype: value
+        property: P642
+        hash: b77d2cfa9a5e74ba2b2d83348052a79d9015a240
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 4130714
+            id: Q4130714
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P407
+    - P642
+    id: Q550341$644ae88c-4beb-c813-5f48-dd2e4ad46dd1
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 70faa1ac8df4b24bd4ec16df3faedd2230d9e75f
+      datavalue:
+        value: V·A
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P642:
+      - snaktype: value
+        property: P642
+        hash: b77d2cfa9a5e74ba2b2d83348052a79d9015a240
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 4130714
+            id: Q4130714
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P642
+    id: Q550341$de009be4-4608-1058-c31d-6af48cdf2ede
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 116ccff192c7c9c7ac8717e13172125bb454be6b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10387689
+          id: Q10387689
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q550341$6df8e620-4c3e-cfce-0d3b-1b44ac447466
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: b56a1a57130334d68fbaf06b4f92300229c8e4b1
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1930258
+          id: Q1930258
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q550341$66ed4c00-4382-3c13-0aa9-56be7848f9b9
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: de92872df6c8158e914cb95dae09cde85f23ec14
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 27137
+          id: Q27137
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q550341$8915bf1a-45ee-c5af-e54c-850a2561ba48
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 70fe98d3aacf10a278f6bdea817bffddedcd824d
+      datavalue:
+        value: "/m/07j7xf"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q550341$3355157B-7949-450B-A1A3-D53E1CEBA48A
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 62c309f8296338bd9647a7e758857137f3370310
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2657718
+          id: Q2657718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P478:
+      - snaktype: value
+        property: P478
+        hash: 03343c91350ecd674598899a3b02046ceb1891f4
+        datavalue:
+          value: '11'
+          type: string
+        datatype: string
+      P304:
+      - snaktype: value
+        property: P304
+        hash: d24c96c7ec620911850d16abb506117b333c8bb7
+        datavalue:
+          value: '492'
+          type: string
+        datatype: string
+    qualifiers-order:
+    - P478
+    - P304
+    id: Q550341$0215D39A-6CA2-4706-9614-72560C85DC1C
+    rank: normal
+    references:
+    - hash: 8bc722e6797143f2ba971ee5fedaeb0a331268e6
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 4b9ead388e47f64ea2ecb2b82c5d4f516003a8d5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 1975217
+              id: Q1975217
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: eda63bed5c3d7a3460033092338ab321a2374c7f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2041543
+          id: Q2041543
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P805:
+      - snaktype: value
+        property: P805
+        hash: 2a0b0ae4e4868b547835f9ab2c815cc4784580ba
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 23867396
+            id: Q23867396
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P805
+    id: Q550341$C8893CE0-1B1C-4579-9AFC-05C246F95DDC
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: a28096bfdc9d0869f0738e1c0f5b90602552fc6c
+      datavalue:
+        value:
+          amount: "+1"
+          unit: http://www.wikidata.org/entity/Q25236
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q550341$60c2f66e-4765-5fc3-efcb-4cc32c30a029
+    rank: normal
+    references:
+    - hash: 9a24f7c0208b05d6be97077d855671d1dfdbc0dd
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: d38375ffe6fe142663ff55cd783aa4df4301d83d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 48183
+              id: Q48183
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 4caa12ef2aa645fe2c7d88bde14b78fa80818542
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 680
+          id: Q680
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q550341$6c41da41-41c7-a69c-df4f-9e35e47ff1d5
+    rank: normal
+    references:
+    - hash: 9a24f7c0208b05d6be97077d855671d1dfdbc0dd
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: d38375ffe6fe142663ff55cd783aa4df4301d83d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 48183
+              id: Q48183
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 9c8bcc3ac087d6cce675f1c0d14b2bf66e48d6a4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 675
+          id: Q675
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q550341$f8326efa-4ed7-6c41-ba37-231866e0e953
+    rank: normal
+    references:
+    - hash: 9a24f7c0208b05d6be97077d855671d1dfdbc0dd
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: d38375ffe6fe142663ff55cd783aa4df4301d83d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 48183
+              id: Q48183
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 195dffd52ab355dbadff7a13a70f9be7b0271bdd
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 25250
+          id: Q25250
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q550341$a628af58-4e6e-607c-70b9-7af985573b01
+    rank: preferred
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 9991e01515417150e7975b337c4170d70b507a94
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 25272
+          id: Q25272
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q550341$10aa73f6-42bf-2b0a-4abc-94d9a21868ec
+    rank: preferred
+  P3365:
+  - mainsnak:
+      snaktype: value
+      property: P3365
+      hash: 59256dbcdb3555ed174fac4f7bb0cb89303891b8
+      datavalue:
+        value: voltampere
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q550341$51CA3185-E980-4596-B89A-49809EC74D19
+    rank: normal
+    references:
+    - hash: d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 5a343e7e758a4282a01316d3e959b6e653b767fc
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 11920
+              id: Q11920
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P1296:
+  - mainsnak:
+      snaktype: value
+      property: P1296
+      hash: 227627eb4ffe67802e5544a25a0cc359ba36b261
+      datavalue:
+        value: '0068778'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q550341$0CA799FD-5652-429A-89C7-E9F40F05572E
+    rank: normal
+  P4746:
+  - mainsnak:
+      snaktype: value
+      property: P4746
+      hash: df215c2177b6bca080699c3572ff97e0a1f343bc
+      datavalue:
+        value: '019240'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q550341$A2C32287-29CD-4615-828B-66EAD8D92FBC
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: فولت أمبير
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Волт-ампер
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Voltampere
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Voltampér
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Voltampere
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Volt-ampere
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Voltampero
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Voltiamperio
+    badges: []
+  fawiki:
+    site: fawiki
+    title: ولت-آمپر
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Volttiampeeri
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Voltampère
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Voltampere
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Վոլտ-Ամպեր
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Voltampere
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ボルトアンペア
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Волт-ампер
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Voltampère
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Voltampere
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Woltamper
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Voltampere
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Volt-amper
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Вольт-ампер
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Voltampere
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Вольт-ампер
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Volt-amper
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Volt-Ampere
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 伏安
+    badges: []

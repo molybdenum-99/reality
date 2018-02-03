@@ -1,0 +1,139 @@
+---
+pageid: 1729572
+ns: 0
+title: Q1798227
+lastrevid: 524273818
+modified: '2017-07-20T22:36:32Z'
+type: item
+id: Q1798227
+labels:
+  en:
+    language: en
+    value: decimal degrees
+aliases:
+  en:
+  - language: en
+    value: DD
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 114407d8f5f64b19f01153752bedcf6679128ec0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 13587321
+          id: Q13587321
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1798227$88894b84-4171-45cc-f496-d003e29ef774
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 130b9cd1f448c635bd816894ab351d0b9a92aac7
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11352
+          id: Q11352
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1798227$7a734ba6-4310-1352-5b92-e1efb5ea93bf
+    rank: normal
+  P913:
+  - mainsnak:
+      snaktype: value
+      property: P913
+      hash: b3b2f1e35d466d97afe81d42ae2384d46fddd648
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1053461
+          id: Q1053461
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1798227$182a9534-484b-ad48-d261-ba5d177fc25b
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 608b8a735f2e8b2aa63e4dc2e5977c3e3961be36
+      datavalue:
+        value: "°"
+        type: string
+      datatype: string
+    type: statement
+    id: Q1798227$2c1fcb4e-4c19-a4ad-a6ae-63dab386194c
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 93927ac2260ab9db80088235869cf034fdada0fd
+      datavalue:
+        value:
+          amount: "+0.01745329251994329576923690768488612713"
+          unit: http://www.wikidata.org/entity/Q33680
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P2534:
+      - snaktype: value
+        property: P2534
+        hash: 81254a91a14804615155b4441f29a410d0b6f3f6
+        datavalue:
+          value: "^\\circ = \\frac{\\pi}{180} \\cdot \\text{rad}"
+          type: string
+        datatype: math
+    qualifiers-order:
+    - P2534
+    id: Q1798227$c801742a-4db5-a0ae-1411-3de00e8ef9b2
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: 6b503e15ba9d0819bf72b569d0fc8c5dc14de30b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 28390
+          id: Q28390
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1798227$f0ffcd19-4bd3-231e-64a2-91d98cbb06b9
+    rank: normal
+sitelinks:
+  elwiki:
+    site: elwiki
+    title: Μοίρες ως δεκαδικός αριθμός
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Decimal degrees
+    badges: []
+  ilowiki:
+    site: ilowiki
+    title: Gradgrado desimal
+    badges: []
+  lowiki:
+    site: lowiki
+    title: ອົງສາຖານສິບ
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Desimalgrader
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Graus decimais
+    badges: []

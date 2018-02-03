@@ -1,0 +1,429 @@
+---
+pageid: 196665
+ns: 0
+title: Q199462
+lastrevid: 617887955
+modified: '2018-01-08T22:57:20Z'
+type: item
+id: Q199462
+labels:
+  en:
+    language: en
+    value: Egyptian pound
+aliases:
+  en:
+  - language: en
+    value: LE
+  - language: en
+    value: L.E.
+  - language: en
+    value: E£
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q199462$C93C66D3-DBFF-4FCB-9A41-BF0564A544E2
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: d683b9e9fdfc3f0b660e194905ad4fc98ef6e8d0
+      datavalue:
+        value: EGP
+        type: string
+      datatype: external-id
+    type: statement
+    id: q199462$9014bd2a-45ea-ebf8-b464-ee052452f0fb
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 225f9008934104014b1a10f608d97ccb5817dceb
+      datavalue:
+        value: EGP 50 Pounds Dec 2001 (Back).jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: q199462$5efac765-402c-9fde-054a-5a6587d6ee60
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 3bbee9d426f33d4536246ee0690d7651d6b50a25
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 920699
+          id: Q920699
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q199462$86B54A06-8FE7-4325-9984-86D6E6E1C68C
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 772b4eb5b6d82d01b35548fef7d97c94acb1e2e0
+      datavalue:
+        value: Egypt pound
+        type: string
+      datatype: string
+    type: statement
+    id: q199462$F2680D90-1850-4AC9-97C4-D2B49219D98D
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 546b3ad4bb102017c864b28c7a7a042ab1d24f89
+      datavalue:
+        value: "/m/04phzg"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q199462$C4B52CE4-45E0-462B-BC08-C498DCB55EE4
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 7bf9c4cd680d9122b1c90fdd14203a8c5c3f8fdc
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 79
+          id: Q79
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q199462$d60e0900-4a4a-f1d1-c51b-6fa7d63cefdd
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: a5deda76ddd740ba283d06c5a3f23fb7a79c89bd
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 339180
+          id: Q339180
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q199462$908093d0-494a-8dc5-134c-3e359aefe696
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 6fb603a1550ca9d6e868f8ff2b3e8a90eb70bdaf
+      datavalue:
+        value: Egyptian-Pound
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q199462$13BBDAA6-C043-413F-9C51-7E501E3B220C
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: d008dcbeebcb31da52d6a901f25bdfe667006fcf
+      datavalue:
+        value: '500159'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q199462$03C4D8A4-E886-4684-A64D-6335C06A3162
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: جنيه مصري
+    badges: []
+  arzwiki:
+    site: arzwiki
+    title: جنيه مصرى
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Эгіпецкі фунт
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Егіпецкі фунт
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Египетска лира
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: মিশরি পাউন্ড
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Egipatska funta
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Lliura egípcia
+    badges: []
+  ckbwiki:
+    site: ckbwiki
+    title: جونیەی میسری
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Egyptská libra
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Ägyptisches Pfund
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Λίρα Αιγύπτου
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Egyptian pound
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Egipta pundo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Libra egipcia
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Egiptuse nael
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Egiptoar libera
+    badges: []
+  fawiki:
+    site: fawiki
+    title: پوند مصر
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Egyptin punta
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Livre égyptienne
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Libra exipcia
+    badges: []
+  hewiki:
+    site: hewiki
+    title: לירה מצרית
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: मिस्री पाउंड
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Egipatska funta
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Egyiptomi font
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Pound Mesir
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Sterlina egiziana
+    badges: []
+  jawiki:
+    site: jawiki
+    title: エジプト・ポンド
+    badges: []
+  kawiki:
+    site: kawiki
+    title: ეგვიპტური გირვანქა
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 이집트 파운드
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Египетса фунт
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Egipto svaras
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Египетска фунта
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: इजिप्शियन पाऊंड
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Paun Mesir
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Egyptisch pond
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Egyptisk pund
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Egyptisk pund
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਮਿਸਰੀ ਪਾਊਂਡ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Funt egipski
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Libra egípcia
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Liră egipteană
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Египетский фунт
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Egipatska funta
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Egyptiskt pund
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Фунти Миср
+    badges: []
+  thwiki:
+    site: thwiki
+    title: ปอนด์อียิปต์
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Mısır lirası
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Єгипетський фунт
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Ponun Ẹ́gíptì
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Ai-ki̍p pound
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 埃及鎊
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 埃及鎊
+    badges: []

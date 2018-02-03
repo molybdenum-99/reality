@@ -1,0 +1,124 @@
+---
+pageid: 28110503
+ns: 0
+title: Q26158194
+lastrevid: 612219742
+modified: '2017-12-22T06:55:55Z'
+type: item
+id: Q26158194
+labels:
+  en:
+    language: en
+    value: millipascal-second
+aliases:
+  en:
+  - language: en
+    value: mPa·s
+claims:
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 98f7a0de6c2fc4a2ce6defe857c38118009c6a48
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 15152757
+          id: Q15152757
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q26158194$d5670359-4050-c50f-c64e-08b813bfd717
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q26158194$d3d13eb6-4768-02a7-744b-c4f0722d031f
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 1f4b2a93c2ef31f37959eabd760cb302af78a2dc
+      datavalue:
+        value: mPa s
+        type: string
+      datatype: string
+    type: statement
+    id: Q26158194$4afa0bf2-4e73-c264-cd93-4f5781769869
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 162f5beaf8aaad9a58f395af991cf54109dc1f33
+      datavalue:
+        value: mPa·s
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q26158194$2a0090ff-4418-aeac-d548-9a8f06c8235e
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 5a6b281b8538abc18f24d64f2c18236fda534b20
+      datavalue:
+        value: мПа·с
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q26158194$7a7487fa-47fa-c60e-c92f-e78ed3b2c028
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: a35a65d42287eb50261708c973c78811fd3c5da2
+      datavalue:
+        value:
+          amount: "+0.001"
+          unit: http://www.wikidata.org/entity/Q21016931
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q26158194$b9445899-4ec3-f7c9-370f-8e7e1b04dfaa
+    rank: normal
+sitelinks: {}

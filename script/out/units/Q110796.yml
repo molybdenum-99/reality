@@ -1,0 +1,494 @@
+---
+pageid: 113423
+ns: 0
+title: Q110796
+lastrevid: 621431586
+modified: '2018-01-18T04:16:49Z'
+type: item
+id: Q110796
+labels:
+  en:
+    language: en
+    value: zetta
+aliases:
+  en:
+  - language: en
+    value: Z
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: b2c09aff06d6a44f3bf82f6c9cc86dc28c629779
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 131299
+          id: Q131299
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q110796$E74E3850-9165-46B3-992C-7B31F001924F
+    rank: normal
+    references:
+    - hash: '011612885ba1d8d75d459891bee210fd0d8c3035'
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: c2213e83c554bae5121243bc2ace76aeffa9ce42
+          datavalue:
+            value: '19'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: cef4c7c76f433be2c042113a43ecdc990b112ef2
+          datavalue:
+            value: 6.5.4
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: c9c4b1baf0c22ada25f01db04a44615e168e1bec
+      datavalue:
+        value: Z
+        type: string
+      datatype: string
+    type: statement
+    id: q110796$96dc158a-4016-68f9-a1f9-87dd663a2690
+    rank: normal
+    references:
+    - hash: '011612885ba1d8d75d459891bee210fd0d8c3035'
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: c2213e83c554bae5121243bc2ace76aeffa9ce42
+          datavalue:
+            value: '19'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: cef4c7c76f433be2c042113a43ecdc990b112ef2
+          datavalue:
+            value: 6.5.4
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 4098e983276057000e1d1817dee25b1b153def60
+      datavalue:
+        value: "/m/01cz03"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q110796$B11B899B-073D-4A20-89FE-1B2188D4FA8D
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P1181:
+  - mainsnak:
+      snaktype: value
+      property: P1181
+      hash: 539b38f5f569bd47b1fa1c7a9aa93a28bfeeb7b9
+      datavalue:
+        value:
+          amount: "+1000000000000000000000"
+          unit: '1'
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q110796$fc124b1e-4c03-5ce0-5d23-b0974481e603
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: ac52d19947f63984c0d67a1e070eef1705828e90
+      datavalue:
+        value: zetta
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q110796$C0FE0C6A-5A03-4BE4-AE98-1465EEF75D83
+    rank: normal
+  P2534:
+  - mainsnak:
+      snaktype: value
+      property: P2534
+      hash: e045d962c055261f160f00e82ab6683fdea704ad
+      datavalue:
+        value: 10^{21}
+        type: string
+      datatype: math
+    type: statement
+    id: Q110796$ede20835-4fb5-f669-2048-d51062c0cb45
+    rank: normal
+    references:
+    - hash: '011612885ba1d8d75d459891bee210fd0d8c3035'
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: c2213e83c554bae5121243bc2ace76aeffa9ce42
+          datavalue:
+            value: '19'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: cef4c7c76f433be2c042113a43ecdc990b112ef2
+          datavalue:
+            value: 6.5.4
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P156:
+  - mainsnak:
+      snaktype: value
+      property: P156
+      hash: 21ffba732a79e9cb9086ce805511363ca22ec037
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 108474
+          id: Q108474
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q110796$950842c6-4ac9-01b5-fe53-0f5f967e94c6
+    rank: normal
+    references:
+    - hash: '011612885ba1d8d75d459891bee210fd0d8c3035'
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: c2213e83c554bae5121243bc2ace76aeffa9ce42
+          datavalue:
+            value: '19'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: cef4c7c76f433be2c042113a43ecdc990b112ef2
+          datavalue:
+            value: 6.5.4
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P155:
+  - mainsnak:
+      snaktype: value
+      property: P155
+      hash: ed0d5c54609b92a9024decde7d40388dcf19c0f2
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 152411
+          id: Q152411
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q110796$1002028f-4e5c-d8cc-1d5e-c523eb0eb492
+    rank: normal
+    references:
+    - hash: '011612885ba1d8d75d459891bee210fd0d8c3035'
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: c2213e83c554bae5121243bc2ace76aeffa9ce42
+          datavalue:
+            value: '19'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: cef4c7c76f433be2c042113a43ecdc990b112ef2
+          datavalue:
+            value: 6.5.4
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P4732:
+  - mainsnak:
+      snaktype: value
+      property: P4732
+      hash: 992b3bd4e8a6b80aefa2474a227f790cedbccdf5
+      datavalue:
+        value: Z06746
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q110796$23B83040-AFAF-40A1-AADC-F74FA3617162
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: زيتا (سابقة)
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Zetta
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Сета-
+    badges: []
+  brwiki:
+    site: brwiki
+    title: Zeta
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Zetta-
+    badges: []
+  ckbwiki:
+    site: ckbwiki
+    title: زیتا-
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Zetta
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Zetta-
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Zeta
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Zetta
+    badges: []
+  fawiki:
+    site: fawiki
+    title: زتا (پیشوند)
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Tsetta
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Zetta
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Zetta-
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: अं-
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Զետտա
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Zetta-
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Zetta
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ゼタ
+    badges: []
+  kawiki:
+    site: kawiki
+    title: ზეტა...
+    badges: []
+  kmwiki:
+    site: kmwiki
+    title: ហ្សិតតា
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 제타
+    badges: []
+  kshwiki:
+    site: kshwiki
+    title: Zetta
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Zeta-
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: സീറ്റ-
+    badges: []
+  ndswiki:
+    site: ndswiki
+    title: Zetta
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Zetta
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Zetta
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Zetta
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Zetta
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Zetta
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Зетта-
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Zetta
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Zeta
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Зета (префикс)
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Zetta
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Зета-
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Zêta
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 泽它
+    badges: []

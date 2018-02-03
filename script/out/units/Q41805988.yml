@@ -1,0 +1,118 @@
+---
+pageid: 43116965
+ns: 0
+title: Q41805988
+lastrevid: 618175830
+modified: '2018-01-09T18:33:01Z'
+type: item
+id: Q41805988
+labels:
+  en:
+    language: en
+    value: Bytecoin (cryptocurrency)
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 108498abe70a9492000b3bd172031bd75d3ae4e9
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 7397
+          id: Q7397
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q41805988$42D546CB-7CD7-4EC5-B99B-EDF38E08DD2F
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 16ab8cfff2957341998c927ff03e50befb65a864
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 13479982
+          id: Q13479982
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q41805988$1ab28005-4368-58f0-4c57-5d1402edc0d9
+    rank: normal
+  P571:
+  - mainsnak:
+      snaktype: value
+      property: P571
+      hash: ca635bedca3b685fe6720b20020952060b2aa685
+      datavalue:
+        value:
+          time: "+2012-07-04T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 11
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q41805988$A24A67C7-A068-445D-828C-9FE2D1043F3F
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P856:
+  - mainsnak:
+      snaktype: value
+      property: P856
+      hash: c9dd4cef2ef5ca5f8d7f01b5a1f78e739224b304
+      datavalue:
+        value: https://bytecoin.org//
+        type: string
+      datatype: url
+    type: statement
+    id: Q41805988$9E11E9B5-5B22-4C33-8DEB-DE299D95425B
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Bytecoin (cryptocurrency)
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Bytecoin
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Bytecoin
+    badges: []

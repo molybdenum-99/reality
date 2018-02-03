@@ -1,0 +1,319 @@
+---
+pageid: 204118
+ns: 0
+title: Q208039
+lastrevid: 617888228
+modified: '2018-01-08T22:58:18Z'
+type: item
+id: Q208039
+labels:
+  en:
+    language: en
+    value: Lesotho loti
+aliases: {}
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 2e1f609678f766eaa44f99caa4cd31f0a6bdb6cc
+      datavalue:
+        value: Money of Lesotho
+        type: string
+      datatype: string
+    type: statement
+    id: q208039$5E309A66-C2BA-46E6-ACD9-FB7BC4C050B1
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q208039$2C81040B-B274-4BA0-88FC-3D6CA508AFB2
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 9d4a24de664ceabc9e8d3a0d264b6cbdf040649c
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2608033
+          id: Q2608033
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q208039$92DC5DA5-AA9F-43E9-9578-4B403873E0DF
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 90cffcd5f9133e460c49a338e399e3e9ad9c01aa
+      datavalue:
+        value: "/m/04xm1m"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q208039$3F673216-7C41-4067-9AC4-5212564AE6AB
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 25a0b0cc18dd32abac37bedcded0311efcb1b0bb
+      datavalue:
+        value: LSL
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q208039$6c88fe5f-4d94-9f8d-cc00-787c43dd2355
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 96445fdfef92e9dfcfe06ea01b2135ebd92efa15
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1013
+          id: Q1013
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q208039$a2d233fe-452a-daa3-23cd-a8a324becd03
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: d00a3ede842b6921322fffc62f8d673847385e46
+      datavalue:
+        value: '500198'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q208039$568EC985-D18E-4222-B9D9-B9DE84167C1F
+    rank: normal
+sitelinks:
+  amwiki:
+    site: amwiki
+    title: ሎቲ
+    badges: []
+  arwiki:
+    site: arwiki
+    title: لوتي ليسوتو
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Лоці
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Лоці
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: লেসোথো লোটি
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Loti
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Lesothský loti
+    badges: []
+  cywiki:
+    site: cywiki
+    title: Maloti
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Loti
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Lesothischer Loti
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Λότι
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Lesotho loti
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Lesota lotio
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Loti
+    badges: []
+  fawiki:
+    site: fawiki
+    title: لوتی لسوتو
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Lesothon loti
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Loti
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Loti
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: लेसोथो लोती
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Lesotski loti
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Lesothói loti
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Loti lesothiano
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ロチ
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 레소토 로티
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Loti
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Лесотски лоти
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: लेसोथो लोटी
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Lesothaanse loti
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Lesothisk loti
+    badges: []
+  nsowiki:
+    site: nsowiki
+    title: Loti
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Loti
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Loti
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Лоти Лесото
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Лесотски лоти
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Loti
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Лоти Лесото
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Loti
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Лоті
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Loti
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Lesotho loti
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 賴索托洛蒂
+    badges: []

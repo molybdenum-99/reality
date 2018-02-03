@@ -1,0 +1,101 @@
+---
+pageid: 23018293
+ns: 0
+title: Q20966435
+lastrevid: 564665715
+modified: '2017-09-24T01:37:54Z'
+type: item
+id: Q20966435
+labels:
+  en:
+    language: en
+    value: amperes per volt meter
+aliases:
+  en:
+  - language: en
+    value: A/Vm
+  - language: en
+    value: Siemens per meter
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q20966435$11970a9e-4c8b-6545-98df-c5aeaed2c09e
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: b3b3b71bc3e5d187eda607cbeadaed9aa811028b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 4593291
+          id: Q4593291
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q20966435$e055a45a-4839-49e9-2deb-7486c56d3149
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: c435435cc7e6ee67c6bd24361c59b4801f7144f9
+      datavalue:
+        value: A/Vm
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q20966435$b0248566-4240-7232-a302-f050e99216bb
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 7535765207a9c9af3bb379b5a8b9dfe51bd0a4a8
+      datavalue:
+        value: А / (В·м)
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q20966435$f8de2507-4c4e-f8e1-adb1-636a79d10e2e
+    rank: normal
+sitelinks: {}

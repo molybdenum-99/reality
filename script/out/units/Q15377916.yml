@@ -1,0 +1,572 @@
+---
+pageid: 17025668
+ns: 0
+title: Q15377916
+lastrevid: 623442151
+modified: '2018-01-25T20:34:58Z'
+type: item
+id: Q15377916
+labels:
+  en:
+    language: en
+    value: Dogecoin
+aliases:
+  en:
+  - language: en
+    value: DOGE
+claims:
+  P144:
+  - mainsnak:
+      snaktype: value
+      property: P144
+      hash: 6d9a98d454d8d179e466209d1462a6632e77cb68
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 4043030
+          id: Q4043030
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q15377916$8bfbe340-44dd-2a4c-3080-e62794a2f2bb
+    rank: normal
+  P856:
+  - mainsnak:
+      snaktype: value
+      property: P856
+      hash: 0ecbe08c621f6a9660b6e6fb8882427b33f7aa88
+      datavalue:
+        value: http://dogecoin.com/
+        type: string
+      datatype: url
+    type: statement
+    id: Q15377916$bd5b9a28-4338-27e7-33c0-fc53c8a22faa
+    rank: normal
+  P489:
+  - mainsnak:
+      snaktype: value
+      property: P489
+      hash: 8f6e0c531b4cd95d4ecbc04a1fa26768e2a5ff0e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 9993
+          id: Q9993
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q15377916$61daa382-43ce-9dcb-5430-65308390bc14
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 16ab8cfff2957341998c927ff03e50befb65a864
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 13479982
+          id: Q13479982
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q15377916$8c440bdb-4621-8f05-af3e-c05e267a9fdd
+    rank: normal
+  P275:
+  - mainsnak:
+      snaktype: value
+      property: P275
+      hash: '0447296e0e56d461ed7491de8ee2da7367b75861'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 334661
+          id: Q334661
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q15377916$393AD18F-3DFF-4001-86EF-703D57151DDA
+    rank: normal
+  P941:
+  - mainsnak:
+      snaktype: value
+      property: P941
+      hash: '09f497ec7e0e720f093d42c213210535297e69f2'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 15613810
+          id: Q15613810
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q15377916$82ba5502-4c2f-ac4e-dd8c-bae38c6302f8
+    rank: normal
+  P571:
+  - mainsnak:
+      snaktype: value
+      property: P571
+      hash: bb60c42119a7a7df9c48119a1499004c03bf7157
+      datavalue:
+        value:
+          time: "+2013-12-08T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 11
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q15377916$a95f1df0-4788-00f8-5268-da8447baa912
+    rank: normal
+  P3381:
+  - mainsnak:
+      snaktype: value
+      property: P3381
+      hash: 0c20d9c2e964197d59b10977ce9baf8e0bb8275a
+      datavalue:
+        value: Dogecoin
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q15377916$34B5F5B5-E1F3-4531-B2A0-8B3B94AB955A
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: b9d98dabc64b63e1a97152b123f6cc88ce22c4d9
+      datavalue:
+        value: Dogecoin
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q15377916$AB57ED55-6E07-4A05-8188-20BE2CEF4089
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P1282:
+  - mainsnak:
+      snaktype: value
+      property: P1282
+      hash: 6a53e00ed6642dad562209c1f79e05c54b1f60c8
+      datavalue:
+        value: Key:payment:dogecoin
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P3176:
+      - snaktype: value
+        property: P3176
+        hash: b595db45d5e92f4c0d6ff5def368d1e60ffb5487
+        datavalue:
+          value:
+            entity-type: property
+            numeric-id: 2851
+            id: P2851
+          type: wikibase-entityid
+        datatype: wikibase-property
+    qualifiers-order:
+    - P3176
+    id: Q15377916$8166ecfd-4f89-5f8d-cff8-5d146d9fe95d
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P1282
+      hash: c474398dc74e1af4463745d15742eb3efabaf310
+      datavalue:
+        value: Key:currency:DOGE
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P3176:
+      - snaktype: value
+        property: P3176
+        hash: e6749612a3f364f1d03435ed31080559f02b43a9
+        datavalue:
+          value:
+            entity-type: property
+            numeric-id: 38
+            id: P38
+          type: wikibase-entityid
+        datatype: wikibase-property
+    qualifiers-order:
+    - P3176
+    id: Q15377916$a6c38ce5-4ea5-075a-c496-a43827c8ba5e
+    rank: normal
+  P277:
+  - mainsnak:
+      snaktype: value
+      property: P277
+      hash: 758444e877886704f4f61e0541b202183ff24691
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2407
+          id: Q2407
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q15377916$6b1b7944-4f4f-a287-4562-6e5d8567d373
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P306:
+  - mainsnak:
+      snaktype: value
+      property: P306
+      hash: 372b598ec10a56c64b0db84314aeca97e8818e67
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1406
+          id: Q1406
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q15377916$d403ce8a-4e93-421f-2891-bfc6a34c32f6
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  - mainsnak:
+      snaktype: value
+      property: P306
+      hash: 01b345a882853b4326b5d884c140d3fffb0ac0ae
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 388
+          id: Q388
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q15377916$e6513377-40f4-9816-6cd0-3e0d4224d4f9
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  - mainsnak:
+      snaktype: value
+      property: P306
+      hash: 6f8d90e64f36074872798095d66b8bdfe139bca0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 14116
+          id: Q14116
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q15377916$516c0b92-428e-ae6a-57b1-f9bb144c52db
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  - mainsnak:
+      snaktype: value
+      property: P306
+      hash: bf929c01841273791d5a0db09741ca20964fa68a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 48493
+          id: Q48493
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q15377916$6cc4a88f-4201-5df1-f6f0-825acf24e54d
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  - mainsnak:
+      snaktype: value
+      property: P306
+      hash: a1fca1d5cb8ae50b39d8d6e44f10f4af5cf4c455
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 94
+          id: Q94
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q15377916$4e6d71f3-40ef-3b76-39f3-a981ee8ada07
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  - mainsnak:
+      snaktype: value
+      property: P306
+      hash: 7aaede1bd22ac76188ffff53552013c6f3247211
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 171819
+          id: Q171819
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q15377916$0385d438-4763-db17-7191-4ad4abc8130b
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: fd1e3a80098b9479c55108fb7fdbda03b1495cd2
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 15613810
+          id: Q15613810
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q15377916$c4c282e7-4fcf-4879-d821-8557b373b1e1
+    rank: normal
+  P2283:
+  - mainsnak:
+      snaktype: value
+      property: P2283
+      hash: 84efc95c1e17d3aafae2432b08212113435982b6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 7249984
+          id: Q7249984
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q15377916$c5f336a8-4225-88e8-c86d-66561422df80
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: دجكوين
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Dogecoin
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Dogecoin
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Dogecoin
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Dogecoin
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Dogecoin
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Dogecoin
+    badges: []
+  fawiki:
+    site: fawiki
+    title: دوژکوین
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Dogecoin
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Dogecoin
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Dogecoin
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Dogecoin
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ドージコイン
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 도지코인
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Dogecoin
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Dogecoin
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Dogecoin
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Dogecoin
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Dogecoin
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Dogecoin
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Dogecoin
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Dogecoin
+    badges: []
+  thwiki:
+    site: thwiki
+    title: โดชคอยน์
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Dogecoin
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Dogecoin
+    badges: []
+  urwiki:
+    site: urwiki
+    title: ڈوجی کوائن
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Dogecoin
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Dogecoin
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 多吉币
+    badges: []

@@ -1,0 +1,137 @@
+---
+pageid: 1553464
+ns: 0
+title: Q1618872
+lastrevid: 619461202
+modified: '2018-01-12T22:32:13Z'
+type: item
+id: Q1618872
+labels:
+  en:
+    language: en
+    value: Nicaraguan peso
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 90d116e616854e7089e0a0d212f09eb5b524403c
+      datavalue:
+        value: "/m/094cjm"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1618872$5C9DBA7C-775F-4ED6-8853-3FB9ECA91E26
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1618872$1329104B-3A60-49AC-97F7-CC270292C9D2
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 3e2e3de95bf069f64c11e9c0c20052d75ac63fd5
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 244696
+          id: Q244696
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1618872$07d157ca-429a-7ec5-a5f0-1da047b5e965
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 9acc6d90ef91ebf1f0daf638762ac30ab98d8c64
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 811
+          id: Q811
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1618872$77d18ef8-430c-5ac5-2740-b7f04ba37c68
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: b7fc4e679db833e009cad86b9fd513db92b87295
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 4504274
+          id: Q4504274
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1618872$6e1c424a-4050-eb2c-601d-1b3382a8432c
+    rank: normal
+sitelinks:
+  elwiki:
+    site: elwiki
+    title: Πέσο Νικαράγουας
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Nicaraguan peso
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Peso nicaragüense
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Peso nicaraguense
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Никарагуанское песо
+    badges: []

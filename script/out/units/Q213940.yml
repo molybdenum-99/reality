@@ -1,0 +1,365 @@
+---
+pageid: 209352
+ns: 0
+title: Q213940
+lastrevid: 617888086
+modified: '2018-01-08T22:57:52Z'
+type: item
+id: Q213940
+labels:
+  en:
+    language: en
+    value: Luxembourg franc
+aliases:
+  en:
+  - language: en
+    value: Luxembourgish franc
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q213940$7c2c462b-4a5e-d73a-d13c-27befb55d949
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 0f1cc8b4c8bc146cf17ee8b3bc1a1141ee632977
+      datavalue:
+        value: Money of Luxembourg
+        type: string
+      datatype: string
+    type: statement
+    id: q213940$B13E6496-4334-4D71-A3DC-E053765DB86A
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: bfd81435bc2f3254008e13648023a9899fc0acb7
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 190234
+          id: Q190234
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q213940$F083FDA6-87B6-4B02-8BB4-62CE89F690D1
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 35f787727b7582b8069e2a1f1bc7fd79fd36a05c
+      datavalue:
+        value: "/m/05d5dr"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q213940$4E45EDC9-752C-4A32-ADBB-568C896B4B73
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: a925a2e1efb41054f2a6fc2da161c826558ad3c1
+      datavalue:
+        value: LUF
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q213940$30b61b87-4ecb-dee8-0fe9-e470a2dfcf30
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 291b10e8046c4951933718cade0398bbd5c9866d
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 32
+          id: Q32
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q213940$98de9b52-4c2b-075f-5a48-2f56e2c2c6b4
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: e15314f0e23bbc32e503d6b64f86da401a6628e2
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1403377
+          id: Q1403377
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q213940$5c5d9157-44d4-d4c0-6cda-9d878675bbec
+    rank: normal
+  P1366:
+  - mainsnak:
+      snaktype: value
+      property: P1366
+      hash: 2c75bfaf4e3db000df3888eef763865c5c85478b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 4916
+          id: Q4916
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: 2e2c1dd772d2e79466748ae4847164f99c871a2e
+        datavalue:
+          value:
+            time: "+2002-01-01T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q213940$1a944a3b-4af4-ddfc-7a17-dd50309c9cfe
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: b069596427f2e947ef3ce6727f2f365fa5acdcfe
+      datavalue:
+        value: 1 franc Luxembourg Jean I (1989)-revers.png
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q213940$1028d2f8-45ed-5b5f-bb5c-20e6a22466df
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 2d00d01e693dba40a7a796df97cdda4f1b682fe6
+      datavalue:
+        value: '500464'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q213940$3EA9739F-6AC5-4E64-9992-888F940E118C
+    rank: normal
+sitelinks:
+  bgwiki:
+    site: bgwiki
+    title: Люксембургски франк
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Luksemburški franak
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Franc luxemburguès
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Lucemburský frank
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Luxembourgske franc
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Luxemburgischer Franc
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Luxembourgish franc
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Luksemburga franko
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Franco luxemburgués
+    badges: []
+  fawiki:
+    site: fawiki
+    title: فرانک لوگزامبورگ
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Luxemburgin frangi
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Franc luxembourgeois
+    badges: []
+  hewiki:
+    site: hewiki
+    title: פרנק לוקסמבורגי
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Luksemburški franak
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Franc Luksemburg
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Lúxemborgarfranki
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Franco lussemburghese
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ルクセンブルク・フラン
+    badges: []
+  kawiki:
+    site: kawiki
+    title: ლუქსემბურგის ფრანკი
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 룩셈부르크 프랑
+    badges: []
+  lbwiki:
+    site: lbwiki
+    title: Lëtzebuerger Frang
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Liuksemburgo frankas
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Луксембуршки франк
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Luxemburgse frank
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Luxembourgsk franc
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Luxembourgsk franc
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Frank luksemburski
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Franco luxemburguês
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Franc luxemburghez
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Люксембургский франк
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Luxembourg franc
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Luxemburský frank
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Luxemburg franc
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Lüksemburg frangı
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Люксембурзький франк
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Luxembourg franc
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 盧森堡法郎
+    badges: []

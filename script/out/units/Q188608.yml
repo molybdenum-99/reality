@@ -1,0 +1,480 @@
+---
+pageid: 187247
+ns: 0
+title: Q188608
+lastrevid: 618744527
+modified: '2018-01-11T09:21:48Z'
+type: item
+id: Q188608
+labels:
+  en:
+    language: en
+    value: Iranian rial
+aliases: {}
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: e2b86d4b8e779c0cef06b3f2c8e1b5aa8f0c18fd
+      datavalue:
+        value: Money of Iran
+        type: string
+      datatype: string
+    type: statement
+    id: q188608$17DCDD01-366F-4964-B350-0FD73602061F
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q188608$CED2B162-5A4D-402A-AB92-63C8ADCF0F64
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: a65d90829014b4b435ef3c2bc2b71ccf758d1696
+      datavalue:
+        value: IRR
+        type: string
+      datatype: external-id
+    type: statement
+    id: q188608$92077fa2-40a1-625d-20a0-b3040ad45c5a
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 9ec28e61bedc4afef28073457a4706d4297c51ec
+      datavalue:
+        value: 500 IRR 1981 Type 2 Back.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: q188608$E0DF3706-63CA-4505-8A46-25C28F6470E3
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 78c46202727b13280f55d373a69f00e30a00e7fe
+      datavalue:
+        value: 500 IRR 1981 Type 2 Front.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: q188608$2FB55F71-8EC2-4759-9378-6CF7971A322F
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 03d5f45fdf68fbfd8bbcbeb4c098dc020c6a333c
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1261157
+          id: Q1261157
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q188608$65DA9592-2AAC-4AED-B254-D8ED5C22CDD8
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 24091c59b49ca78b408a2145f77c46213b035286
+      datavalue:
+        value: "/m/034n11"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q188608$A96499BE-087F-4589-9031-7465BD38CC9C
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: f04a6c4dcfe72579de0b7e32985a08f0ad868b7d
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 794
+          id: Q794
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q188608$e4c3dde2-4006-cc08-8725-b0e885966929
+    rank: normal
+  P2284:
+  - mainsnak:
+      snaktype: value
+      property: P2284
+      hash: 07c060b556866ab41fb083f5c84d9541e7422615
+      datavalue:
+        value:
+          amount: "+0.000031"
+          unit: http://www.wikidata.org/entity/Q4917
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: f742be92339cdcc54bf77fbdde9a24b9045f361a
+        datavalue:
+          value:
+            time: "+2016-11-22T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q188608$4272A492-0F78-4012-9B8A-951502F6F934
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 38a0982cfca629bf2f5edf863714c49d5b116d9a
+      datavalue:
+        value: Iranian-Rial
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q188608$DA756342-93DD-496C-99E8-E27D3F901A69
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P1365:
+  - mainsnak:
+      snaktype: value
+      property: P1365
+      hash: 85ffb044c405469ab72cf85aee98d153ea766634
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2399673
+          id: Q2399673
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q188608$efc3a373-418d-1c31-276b-13dd9d96ce17
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 272922d1f47267bfe8384dabad032283c241ed48
+      datavalue:
+        value: '500182'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q188608$67866241-C572-447B-94A4-6FA843FE06D2
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: ريال إيراني
+    badges: []
+  azwiki:
+    site: azwiki
+    title: İran rialı
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Іранскі рыял
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Ирански риал
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: ইরানিয়ান রিয়াল
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Iranski rial
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Rial iranià
+    badges: []
+  ckbwiki:
+    site: ckbwiki
+    title: ڕیاڵی ئێرانی
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Íránský riál
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Rial
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Iranischer Rial
+    badges: []
+  diqwiki:
+    site: diqwiki
+    title: Riyalê İrani
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Iranian rial
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Irana rialo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Rial iraní
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Irandar rial
+    badges: []
+  fawiki:
+    site: fawiki
+    title: ریال ایران
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Iranin rial
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Rial iranien
+    badges: []
+  hewiki:
+    site: hewiki
+    title: ריאל איראני
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Iranski rijal
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Iráni riál
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Rial Iran
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Íranskt ríal
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Riyal iraniano
+    badges: []
+  jawiki:
+    site: jawiki
+    title: イラン・リヤル
+    badges: []
+  kawiki:
+    site: kawiki
+    title: რიალი
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 이란 리알
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Иранса риал
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Irano rialas
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Irānas riāls
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Ирански ријал
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: इराणी रियाल
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Rial Iran
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Iraanse rial
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Iransk rial
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਇਰਾਨੀ ਰਿਆਲ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Rial irański
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Rial iraniano
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Rial iranian
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Иранский риал
+    badges: []
+  sahwiki:
+    site: sahwiki
+    title: Ираан риала
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Iranski rijal
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Iranian rial
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Iránsky rial
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Ирански ријал
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Iransk rial
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Риоли Эрон
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Rial ng Iran
+    badges: []
+  trwiki:
+    site: trwiki
+    title: İran riyali
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Іранський ріал
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Rial Iran
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: ირანული რიალი
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Rial Ìránì
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Iran rial
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 伊朗里亞爾
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 伊朗里亞爾
+    badges: []

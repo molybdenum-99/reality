@@ -1,0 +1,252 @@
+---
+pageid: 1725297
+ns: 0
+title: Q1793863
+lastrevid: 537540050
+modified: '2017-08-14T08:10:15Z'
+type: item
+id: Q1793863
+labels:
+  en:
+    language: en
+    value: sthène
+aliases:
+  en:
+  - language: en
+    value: sn
+  - language: en
+    value: sthene
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 61eec523f66a8023b47d574209355cb769d8989b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 15976022
+          id: Q15976022
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1793863$938DA6AD-6F26-4731-956F-D4C004C0AADE
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: f16f3cba0ac98ec8148f38c3a5bd014085b6c15a
+      datavalue:
+        value: "/m/04g1q1"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1793863$4474EF2A-6333-4CD5-96F8-2815FBE2A31B
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: b2b8919467c10ee396030c7f219cc3bdd3cff2b8
+      datavalue:
+        value: sn
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q1793863$430c56a9-4851-a4b7-f53d-3b867b0c3788
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: a941f060d84ecb691d59457afbb6bcffb00827ab
+      datavalue:
+        value: сн
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q1793863$a8b119fb-4fa4-e1ef-b38b-65e2c481d175
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 78272c0eb44d993602ca6af92f17aa68ff84028f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 939202
+          id: Q939202
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1793863$91a9031c-4261-c275-96c1-c26d824fcd6f
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: c4e489b9c8371ccbd49fb27b255225f3070bd192
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1932187
+          id: Q1932187
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1793863$c1efb2ab-464a-11cf-1155-89d51c6ae245
+    rank: normal
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 62c309f8296338bd9647a7e758857137f3370310
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2657718
+          id: Q2657718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1793863$A003D519-8F69-4CB1-A313-90ADFB23A524
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 0f657ce13e6bac0d507b4c507cdf8ecabda41b9e
+      datavalue:
+        value:
+          amount: "+1000"
+          unit: http://www.wikidata.org/entity/Q12438
+          upperBound: "+1000"
+          lowerBound: "+1000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1793863$874d15d7-4a04-6f07-e98b-e7058cf5b79d
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 886dda2a8ff0711f405bbf864a1821cc2e6ae501
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11402
+          id: Q11402
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1793863$0DBFE7D7-5673-4D21-9225-52EDAC14ED2F
+    rank: normal
+sitelinks:
+  cswiki:
+    site: cswiki
+    title: Stén
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Sthen
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Sthène
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Sthène
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Սթեն (չափման միավոր)
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Sthène
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ステーヌ
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Sten
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Стен
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Sthène
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Стен (одиниця)
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 斯坦 (單位)
+    badges: []

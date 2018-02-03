@@ -1,0 +1,126 @@
+---
+pageid: 2197907
+ns: 0
+title: Q2275454
+lastrevid: 491636618
+modified: '2017-05-28T20:43:43Z'
+type: item
+id: Q2275454
+labels:
+  en:
+    language: en
+    value: Aksumite currency
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: f9d8e553376379fc809bb4c73f0ce1a065f3e77f
+      datavalue:
+        value: "/m/09cbsd"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2275454$D11D21EB-8540-4A37-A918-B922D0B7BFA3
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2275454$4ae6a201-485e-232d-8f2a-1f1f95d2ed9d
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 2f64abf1207cecb515c067cb1dd52c556c077597
+      datavalue:
+        value: Axumite coins
+        type: string
+      datatype: string
+    type: statement
+    id: Q2275454$67AD5525-2F14-4C1F-94A8-116E337C0635
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Aksumite currency
+    badges:
+    - Q17437798
+  frwiki:
+    site: frwiki
+    title: Monnaie axoumite
+    badges: []
+  hewiki:
+    site: hewiki
+    title: מטבע אקסומי
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: अकसूमी मुद्रा
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Monetazione axumita
+    badges: []
+  kawiki:
+    site: kawiki
+    title: აქსუმის ფული
+    badges: []

@@ -1,0 +1,266 @@
+---
+pageid: 794228
+ns: 0
+title: Q842015
+lastrevid: 621763019
+modified: '2018-01-19T21:08:39Z'
+type: item
+id: Q842015
+labels:
+  en:
+    language: en
+    value: microsecond
+aliases:
+  en:
+  - language: en
+    value: 1 E-6 s
+  - language: en
+    value: μs
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 98a1e85b80bda7ff493c25a6b805599da715c077
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1790144
+          id: Q1790144
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q842015$87C57471-6E36-46EE-8AE4-AFFEE999324D
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 57dddfd1923a526acee3f62bbf9d26d38629bc28
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 9747038
+          id: Q9747038
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q842015$6866923E-B1A5-4722-862F-4A2D12CDC974
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 55be604bbdea29292eba02e422723300aeb43e36
+      datavalue:
+        value: µs
+        type: string
+      datatype: string
+    type: statement
+    id: q842015$1aa8bf22-498c-1afe-2a3f-1cce1661b9b0
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 62c14403f0b38cf2a3dc37a600850f6ddabc04e3
+      datavalue:
+        value: мкс
+        type: string
+      datatype: string
+    type: statement
+    id: Q842015$558fe76a-4370-ba53-ab57-65d4df46e79d
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 562c645b0412cdd055c112cffe882f50be1567bf
+      datavalue:
+        value: "/m/08_wc"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q842015$B0D91AEB-829B-46D3-B2BB-033B01FEEEAF
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: b34aa69592ee3ebcf471e016734596e6a702ec0f
+      datavalue:
+        value:
+          amount: "+0.000001"
+          unit: http://www.wikidata.org/entity/Q11574
+          upperBound: "+0.000001"
+          lowerBound: "+0.000001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q842015$39aff315-4324-aaf2-ff0b-b3a13ad8e2f7
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: d35a8372d062127220542ace7a56aa7f35c78262
+      datavalue:
+        value: MicroSecond
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q842015$f7098a14-4d70-0e77-e81c-93d8cf667056
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 825054634873cf74e351844b7b1b9e682348c64b
+      datavalue:
+        value: microsecond-time
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q842015$1b67207b-44cf-82ce-07ad-3b5945fe4c39
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: f24e032a9edffb089eb58a8af5d2b30d49357f73
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11471
+          id: Q11471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q842015$762B8148-CCF3-431C-9956-4961ACC7D191
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: ميكرو ثانية
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Microsegundu
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Mikrosekunde
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Microsecond
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Microsegundo
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Mikrosegundo
+    badges: []
+  fawiki:
+    site: fawiki
+    title: میکروثانیه
+    badges: []
+  frwiki:
+    site: frwiki
+    title: 1 E-6 s
+    badges: []
+  hakwiki:
+    site: hakwiki
+    title: Mì-miéu
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Mikroszekundum
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Míkrósekúnda
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Microsecondo
+    badges: []
+  jawiki:
+    site: jawiki
+    title: マイクロ秒
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 1 E-6 s
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Microseconde
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Mikrosekund
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Mikrosekund
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Mikrosekunda
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Microsecond
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Mikrosekunda
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Mikrosekund
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Мікросекунда
+    badges: []
+  warwiki:
+    site: warwiki
+    title: Mikrosegundo
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 微秒
+    badges: []

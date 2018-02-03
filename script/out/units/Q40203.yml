@@ -1,0 +1,852 @@
+---
+pageid: 42561
+ns: 0
+title: Q40203
+lastrevid: 621291430
+modified: '2018-01-17T13:08:21Z'
+type: item
+id: Q40203
+labels:
+  en:
+    language: en
+    value: Paleolithic
+aliases:
+  en:
+  - language: en
+    value: Palaeolithic
+  - language: en
+    value: Palaeolithic Age
+  - language: en
+    value: Palaeolithic Era
+  - language: en
+    value: Palaeolithic Period
+  - language: en
+    value: Paleolithic Age
+  - language: en
+    value: Paleolithic Period
+  - language: en
+    value: Paleolithic Era
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 29868492e2648404bc6f7b62789b68129bc135ef
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 15401633
+          id: Q15401633
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P156:
+      - snaktype: value
+        property: P156
+        hash: 6bc747996c3c50541bd1aa64c9d70eec8968f94a
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 44155
+            id: Q44155
+          type: wikibase-entityid
+        datatype: wikibase-item
+      P155:
+      - snaktype: value
+        property: P155
+        hash: d337fe59214f2284879f7902031b3f5ceca3f143
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 76259
+            id: Q76259
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P156
+    - P155
+    id: Q40203$774dcdc4-4dab-3dc8-8365-4a65ae5e058c
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: e32ed794160e47fda30e509bbc7d55680aa953b6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11759
+          id: Q11759
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q40203$37d07bec-45ba-2f0c-5920-723f0cf754eb
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: bcc5d33513a2af40dcd51880d450abd002991a77
+      datavalue:
+        value: Paleolithic
+        type: string
+      datatype: string
+    type: statement
+    id: q40203$72100CA4-C1B7-4A6B-B7B8-FB9587A5D037
+    rank: normal
+  P580:
+  - mainsnak:
+      snaktype: value
+      property: P580
+      hash: b6a1e4c0a3baf6b16c5e5fa667edf6262b49556c
+      datavalue:
+        value:
+          time: "-2600000-01-01T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 4
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    qualifiers:
+      P31:
+      - snaktype: value
+        property: P31
+        hash: d5ac6d02e7a8948b72184d9e39cf10acbc5e61ed
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 26961029
+            id: Q26961029
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P31
+    id: q40203$f6d37294-4811-979c-366a-9fae2e69bda0
+    rank: normal
+  P910:
+  - mainsnak:
+      snaktype: value
+      property: P910
+      hash: dff67bb39e723c108baebbc178396ac81a89b775
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8711509
+          id: Q8711509
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q40203$5B8D4593-1B01-4B06-A636-82F09D0E15FE
+    rank: normal
+  P349:
+  - mainsnak:
+      snaktype: value
+      property: P349
+      hash: 0c43f97952e9cd8b1ab01ec3ca5c48eb812bc4ff
+      datavalue:
+        value: '01116882'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q40203$9138D8A1-64C4-4723-A6A7-9CCB6E633CDB
+    rank: normal
+  P227:
+  - mainsnak:
+      snaktype: value
+      property: P227
+      hash: 9b00b34b63947c13f4286247bb1915c7b2a9db91
+      datavalue:
+        value: 4140148-7
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q40203$38FE4D40-CEA7-42F2-8E69-89841F32B560
+    rank: normal
+    references:
+    - hash: 9a24f7c0208b05d6be97077d855671d1dfdbc0dd
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: d38375ffe6fe142663ff55cd783aa4df4301d83d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 48183
+              id: Q48183
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 981a01c27b258f127f091137c03b66a23541e6e8
+      datavalue:
+        value: "/m/05qc6"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q40203$BA8151C0-1FF9-4B3E-A445-A45A422106FF
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P61:
+  - mainsnak:
+      snaktype: value
+      property: P61
+      hash: 1fd9c8c7ba9e704a43cf42906679b924e72a91f5
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 312503
+          id: Q312503
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: 872609de5f408028f908c0dec55c135a3bed792c
+        datavalue:
+          value:
+            time: "+1865-01-01T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 9
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q40203$18c47232-4bc2-758e-0080-1626971afe4c
+    rank: normal
+  P156:
+  - mainsnak:
+      snaktype: value
+      property: P156
+      hash: 6bc747996c3c50541bd1aa64c9d70eec8968f94a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 44155
+          id: Q44155
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q40203$33B1A6DD-E351-471D-892C-4E2115EF0540
+    rank: normal
+  P1051:
+  - mainsnak:
+      snaktype: value
+      property: P1051
+      hash: 4368756a8e3f77c07e338ba2698ebb07fdbf521a
+      datavalue:
+        value: '5045'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q40203$5BC1FF50-1602-4016-96E1-DDB11CEAC73E
+    rank: normal
+  P1014:
+  - mainsnak:
+      snaktype: value
+      property: P1014
+      hash: 6aec8038abed38e650047069cba790080fbc8976
+      datavalue:
+        value: '300019258'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q40203$8244B284-3D5E-4222-9D7C-8B9F1FDD22C2
+    rank: normal
+  P527:
+  - mainsnak:
+      snaktype: value
+      property: P527
+      hash: df36a74218a9000c60fb3ece16b5302d427e19dc
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 7463501
+          id: Q7463501
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q40203$daac8b06-4533-836c-d331-aea75ad93a0c
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P527
+      hash: 8a7172620ac6e0e7924c54ca589a9e4e85a8cef2
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 626270
+          id: Q626270
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q40203$ffa5ab13-4115-3566-06ae-042832eed40f
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P527
+      hash: bdf06bc5d4c924aecf1cc4775a783d93693cfe6c
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 479505
+          id: Q479505
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q40203$0c1d333d-4a57-b8aa-7401-e052e839db9b
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 9e352cf5e47ba34c78f2db992581c4d56aec6e87
+      datavalue:
+        value: Paleolithic-Age
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q40203$36D14058-26D3-4BBC-ABAD-A5B243D58CE7
+    rank: normal
+  P3569:
+  - mainsnak:
+      snaktype: value
+      property: P3569
+      hash: c584ef3f6df06a7f0024cb6f37b0b93aedb28782
+      datavalue:
+        value: archeologie-en-prehistorie/paleolithicum
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q40203$9CDCEAA4-1121-465E-9140-A5D536A39AD5
+    rank: normal
+  P3827:
+  - mainsnak:
+      snaktype: value
+      property: P3827
+      hash: ef1d59b1a3329bad90322843ac8808c17d776c1c
+      datavalue:
+        value: paleolithic-period
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q40203$71E1D5BD-3937-4E43-85A0-C0C75A1375CD
+    rank: normal
+  P3916:
+  - mainsnak:
+      snaktype: value
+      property: P3916
+      hash: 3bf2ed48e561a9f5c8efc0617998226036e2d991
+      datavalue:
+        value: concept14909
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q40203$3DC2CE42-A4DD-4E24-9185-7446760C46DE
+    rank: normal
+  P1424:
+  - mainsnak:
+      snaktype: value
+      property: P1424
+      hash: 48018a980e555f684125e9ec47fe926110c4bd0f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10858338
+          id: Q10858338
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q40203$2D67C42C-2482-48DB-A3BD-AB01290FB20D
+    rank: normal
+  P1417:
+  - mainsnak:
+      snaktype: value
+      property: P1417
+      hash: bff0d45ddc42d52183dd271ae232bcdc24290d9d
+      datavalue:
+        value: event/Paleolithic-Period
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q40203$C1E194E7-9B31-4EFD-AB4C-CFB5C3222B54
+    rank: normal
+  P4212:
+  - mainsnak:
+      snaktype: value
+      property: P4212
+      hash: 6e6a0170f85323e1d646e085193eaa2b00ad0e44
+      datavalue:
+        value: pcrtFS9v4PxyYL
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q40203$41E35F25-7596-4127-AAA7-6E5F2660D55B
+    rank: normal
+  P155:
+  - mainsnak:
+      snaktype: novalue
+      property: P155
+      hash: 2c0614dca66b9f846a3cb129bd6ca15adeba8a7a
+      datatype: wikibase-item
+    type: statement
+    id: Q40203$ef2b8572-4658-d7a9-ee8e-16054e68ab98
+    rank: normal
+  P4306:
+  - mainsnak:
+      snaktype: value
+      property: P4306
+      hash: 795cc71ac73a9683a3c1326aeb1bba387a903a7d
+      datavalue:
+        value: '1199'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q40203$86E822B0-9431-4543-851A-57342BF02A97
+    rank: normal
+  P2581:
+  - mainsnak:
+      snaktype: value
+      property: P2581
+      hash: 48ef15720b8ed14c194d1a4d31a787c8cc8d3c86
+      datavalue:
+        value: 00060235n
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q40203$8BBFCAF2-798F-4084-812D-17DA0E1D4C9F
+    rank: normal
+    references:
+    - hash: bd0ee81488cd8c23d4b655e417aac78dca370283
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: a0b4f55dbedbadaf83e7d2461b47b7aeaba86359
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 4837690
+              id: Q4837690
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P3219:
+  - mainsnak:
+      snaktype: value
+      property: P3219
+      hash: a42c91f46938ffcea512d918ea872f390d7f2634
+      datavalue:
+        value: paleolithique
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q40203$B22EE85E-394B-4C0E-B7F0-6DE92C1D4438
+    rank: normal
+sitelinks:
+  alswiki:
+    site: alswiki
+    title: Altsteinzeit
+    badges: []
+  arwiki:
+    site: arwiki
+    title: عصر حجري قديم
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Paleolíticu
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Paleolit
+    badges: []
+  barwiki:
+    site: barwiki
+    title: Oidstoazeit
+    badges: []
+  bawiki:
+    site: bawiki
+    title: Палеолит
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Палеаліт
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Палеаліт
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Палеолит
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: পুরা প্রস্তর যুগ
+    badges: []
+  brwiki:
+    site: brwiki
+    title: Henoadvezh ar maen
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Paleolit
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Paleolític
+    badges: []
+  cowiki:
+    site: cowiki
+    title: Paleuliticu
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Paleolit
+    badges: []
+  cvwiki:
+    site: cvwiki
+    title: Палеолит
+    badges: []
+  cywiki:
+    site: cywiki
+    title: Hen Oes y Cerrig
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Ældste stenalder
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Altsteinzeit
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Παλαιολιθική περίοδος
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Paleolithic
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Paleolitiko
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Paleolítico
+    badges:
+    - Q17437796
+  etwiki:
+    site: etwiki
+    title: Paleoliitikum
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Paleolito
+    badges: []
+  fawiki:
+    site: fawiki
+    title: پارینه‌سنگی
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Paleoliittinen kausi
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Paléolithique
+    badges: []
+  fywiki:
+    site: fywiki
+    title: Paleolitikum
+    badges: []
+  gawiki:
+    site: gawiki
+    title: An tSean-Chlochaois
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Paleolítico
+    badges: []
+  hewiki:
+    site: hewiki
+    title: התקופה הפלאוליתית
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: पुरापाषाण काल
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Starije kameno doba
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Őskőkorszak
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Հին քարի դար
+    badges: []
+  iawiki:
+    site: iawiki
+    title: Paleolithic
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Paleolitikum
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Fornsteinöld
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Paleolitico
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 旧石器時代
+    badges: []
+  jawikiversity:
+    site: jawikiversity
+    title: 旧石器時代
+    badges: []
+  jvwiki:
+    site: jvwiki
+    title: Palaeolitikum
+    badges: []
+  kawiki:
+    site: kawiki
+    title: პალეოლითი
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Палеолит
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 구석기 시대
+    badges: []
+  kywiki:
+    site: kywiki
+    title: Палеолит доору
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Palaeolithicum
+    badges: []
+  lbwiki:
+    site: lbwiki
+    title: Alsteenzäit
+    badges: []
+  liwiki:
+    site: liwiki
+    title: Paleolithicum
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Paleolitas
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Paleolīts
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Старо камено време
+    badges: []
+  mnwiki:
+    site: mnwiki
+    title: Палеолит
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Zaman Paleolitik
+    badges: []
+  mywiki:
+    site: mywiki
+    title: ကျောက်ခေတ်ဟောင်း
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Paleolithicum
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Eldre steinalder
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Paleolitikum
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Paleolitic
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Paleolit
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Paleolítico
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Paleolitic
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Палеолит
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Paleoliticu
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Paleolit
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Palaeolithic
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Paleolit
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Paleolitik
+    badges: []
+  sqwiki:
+    site: sqwiki
+    title: Paleoliti
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Палеолит
+    badges: []
+  suwiki:
+    site: suwiki
+    title: Paleolitikum
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Paleolitikum
+    badges:
+    - Q17437798
+  tawiki:
+    site: tawiki
+    title: பழைய கற்காலம்
+    badges: []
+  tewiki:
+    site: tewiki
+    title: ప్రాచీన శిలా యుగం
+    badges: []
+  thwiki:
+    site: thwiki
+    title: ยุคหินเก่า
+    badges: []
+  tkwiki:
+    site: tkwiki
+    title: Paleolit döwri
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Paleolitiko
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Eski Taş Çağı
+    badges: []
+  ttwiki:
+    site: ttwiki
+    title: Палеолит
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Палеоліт
+    badges: []
+  urwiki:
+    site: urwiki
+    title: Paleolithic
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Paleolit
+    badges: []
+  vecwiki:
+    site: vecwiki
+    title: Paleolitego
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Thời đại đồ đá cũ
+    badges: []
+  vlswiki:
+    site: vlswiki
+    title: Paleolithicum
+    badges: []
+  warwiki:
+    site: warwiki
+    title: Paleolitiko
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Kū-chio̍h-khì sî-tāi
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 舊石器時代
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 旧石器时代
+    badges: []

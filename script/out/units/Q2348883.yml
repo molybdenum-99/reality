@@ -1,0 +1,118 @@
+---
+pageid: 2269313
+ns: 0
+title: Q2348883
+lastrevid: 582721251
+modified: '2017-10-22T18:02:08Z'
+type: item
+id: Q2348883
+labels:
+  en:
+    language: en
+    value: French Equatorial African franc
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 9596b304bfa52d976002832928b38820290fe8ce
+      datavalue:
+        value: "/m/03d1ct6"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2348883$E9B2A7EC-A5D7-4D12-AAB8-B1375CD48AA8
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2348883$5c049742-4854-47df-4970-7f4afa0190b9
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 07b10d6d7669a91b7be0ac77e6809d97becb33c8
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1403377
+          id: Q1403377
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2348883$9a85ca28-4bd4-1cc4-2c90-3c01627e1eaa
+    rank: normal
+  P1001:
+  - mainsnak:
+      snaktype: value
+      property: P1001
+      hash: d95c8fef7fd6aedb2fe57d28589d3d91ce99193a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 271894
+          id: Q271894
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2348883$79e80f0a-4014-d328-b3ca-3a500a37dd7d
+    rank: normal
+sitelinks:
+  elwiki:
+    site: elwiki
+    title: Φράγκο Γαλλικής Ισημερινής Αφρικής
+    badges: []
+  enwiki:
+    site: enwiki
+    title: French Equatorial African franc
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Franco del África Ecuatorial Francesa
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Франк Французской Экваториальной Африки
+    badges: []

@@ -1,0 +1,364 @@
+---
+pageid: 198159
+ns: 0
+title: Q201505
+lastrevid: 619456294
+modified: '2018-01-12T22:21:45Z'
+type: item
+id: Q201505
+labels:
+  en:
+    language: en
+    value: Cuban peso
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q201505$99F19C5E-895C-49D1-A108-DB778861D512
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 62b92ff7d900ebf6441612661ea967a57d2eb600
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1643989
+          id: Q1643989
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q201505$0B85BF21-76D8-4125-B1E4-6ED8E31131D8
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: bb390af86f5f382ef3dc6bf885c869ca6a985c55
+      datavalue:
+        value: Money of Cuba
+        type: string
+      datatype: string
+    type: statement
+    id: q201505$E0A08F0D-8DCF-4A85-909E-AA50F814B067
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 5cb7c9498452c3b2a156e52bfed161b33203693b
+      datavalue:
+        value: CUP
+        type: string
+      datatype: external-id
+    type: statement
+    id: q201505$d1ed84dc-4595-e8ae-f1a3-471db30cbc6c
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: e1231137203f1fde72e1315b6f5d4aa3edd95637
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2607787
+          id: Q2607787
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q201505$B2EAF010-02F5-4DFD-85AC-E457624CC88A
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 70aa72476ec4ac77a7054d7a5df163731a8af74d
+      datavalue:
+        value: "/m/049p2z"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q201505$BA6484DB-8D6A-4891-81FD-E6921A3B4B5E
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 5c3f319755ec630716951dbcaeda22863679adeb
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 241
+          id: Q241
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q201505$df0e85be-49d2-bd19-c14c-8685114a388c
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: 755b245a521b5ebf099df1cfc41fa78e2ad1a96f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 244696
+          id: Q244696
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q201505$2844ac19-4fd2-01b6-ccad-aaf3814f85e9
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 9626988fe09026eecb0eb0c2d1e2c130bffe1b65
+      datavalue:
+        value: '500153'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q201505$3B7CB826-72AA-4AA5-935A-9A558473E01A
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: بيزو كوبي
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Кубинско песо
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: কিউবান পেসো
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Peso cubà
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Kubánské peso
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Cubanske pesos
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Kubanischer Peso
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Cuban peso
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Kuba peso
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Peso cubano
+    badges: []
+  fawiki:
+    site: fawiki
+    title: پزوی کوبا
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Kuuban peso
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Peso cubain
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: क्यूबन पेसो
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Kubanski pezo
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Kubai peso
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Peso Kuba
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Peso cubano
+    badges: []
+  jawiki:
+    site: jawiki
+    title: キューバ・ペソ
+    badges: []
+  kawiki:
+    site: kawiki
+    title: კუბური პესო
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 쿠바 페소
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Кубаса песо
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Kubos pesas
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: क्युबन पेसो
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Cubaanse peso
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Cubansk peso
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Cubansk peso
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਕਿਊਬਾਈ ਪੇਸੋ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Peso kubańskie
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Peso cubano
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Peso cubanez
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Кубинское песо
+    badges: []
+  sahwiki:
+    site: sahwiki
+    title: Песо (Куба)
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Kubanski pezo
+    badges: []
+  siwiki:
+    site: siwiki
+    title: කියුබාන් පේසෝ
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Кубански пезос
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Kubansk peso
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Песои Куба
+    badges: []
+  thwiki:
+    site: thwiki
+    title: เปโซคิวบา
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Küba pesosu
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Кубинський песо
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Peso Cuba
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Peso Kúbà
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Cuba peso
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 古巴比索
+    badges: []

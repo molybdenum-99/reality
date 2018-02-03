@@ -1,0 +1,354 @@
+---
+pageid: 208465
+ns: 0
+title: Q212967
+lastrevid: 624331768
+modified: '2018-01-29T02:23:44Z'
+type: item
+id: Q212967
+labels:
+  en:
+    language: en
+    value: Mauritian rupee
+aliases: {}
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: c83e80bc9ab0b0146e13607937bad703149bb7b1
+      datavalue:
+        value: Money of Mauritius
+        type: string
+      datatype: string
+    type: statement
+    id: q212967$D7F689C2-540C-45FE-8E40-58BA16EA0366
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 34b14cd93778deb38aa6e455ce1df99430dd2c0f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1027
+          id: Q1027
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q212967$852244a9-4213-181c-e583-b3fa9be4261c
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 8b8729d40b7a10fd6af6040a9a5e71249a5646a6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2743652
+          id: Q2743652
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q212967$1B7F225D-44E1-4316-BFE2-0CD712A65ABF
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q212967$D003CC77-791F-4ED4-B45F-F90B6418A406
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 80f40a746206576a1a5fd4ef0fc79589808e78d1
+      datavalue:
+        value: "/m/02scxb"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q212967$28C51FAA-A30A-4803-87F0-8E9CFC184F53
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: e506815965c038c4bd7b2838777991f01a87e734
+      datavalue:
+        value: MUR
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q212967$eddf0aa8-4e3f-0213-4dc4-d3d8428699d7
+    rank: normal
+  P2284:
+  - mainsnak:
+      snaktype: value
+      property: P2284
+      hash: c5912e08943bacbe8603ea1c8b643f3e67c54e74
+      datavalue:
+        value:
+          amount: "+0.027816"
+          unit: http://www.wikidata.org/entity/Q4917
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: f742be92339cdcc54bf77fbdde9a24b9045f361a
+        datavalue:
+          value:
+            time: "+2016-11-22T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q212967$69B78AC0-5442-4BF3-8D0A-D368EAD2D98E
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: f8225ca19b28c7d3ba150f586f7bc9df8b950989
+      datavalue:
+        value: '500211'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q212967$4C353F35-C122-42B7-B8DC-2F4F22C66FA9
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Mauritiaanse roepee
+    badges: []
+  arwiki:
+    site: arwiki
+    title: روبي موريشي
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Маўрыцыйская рупія
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Маўрыкійская рупія
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: মৌরিটিয়ান রূপি
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Rupia de Maurici
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Mauricijská rupie
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Mauritiske rupee
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Mauritius-Rupie
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Ρουπία του Μαυρίκιου
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Mauritian rupee
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Maŭricia rupio
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Rupia de Mauricio
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Errupia mauriziar
+    badges: []
+  fawiki:
+    site: fawiki
+    title: روپیه موریس
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Mauritiuksen rupia
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Roupie mauricienne
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Rupia de Mauricio
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: मॉरिशियाई रुपया
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Mauricijska rupija
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Mauritiusi rúpia
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Rupee Mauritus
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Rupia mauriziana
+    badges: []
+  jawiki:
+    site: jawiki
+    title: モーリシャス・ルピー
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 모리셔스 루피
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Mauricijaus rupija
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: मॉरिशियन रुपया
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Mauritiaanse roepie
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Mauritisk rupi
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Mauritisk rupi
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Rupia maurytyjska
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Rupia mauriciana
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Маврикийская рупия
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Маурицијска рупија
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Mauritisk rupie
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Rupee ng Mauritia
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Mauritius rupisi
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Маврикійська рупія
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Rupee Mọ́rísì
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Mauritius rupee
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 毛厘士勞啤
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 模里西斯盧比
+    badges: []

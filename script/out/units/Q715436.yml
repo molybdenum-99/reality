@@ -1,0 +1,136 @@
+---
+pageid: 672781
+ns: 0
+title: Q715436
+lastrevid: 619158988
+modified: '2018-01-12T06:57:09Z'
+type: item
+id: Q715436
+labels:
+  en:
+    language: en
+    value: Taiwanese yen
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 1ebc2fa04e443a46f220183f3883f142bcd3f7d1
+      datavalue:
+        value: "/m/05fqyk"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q715436$5D339CED-FA81-41A1-AE59-B5DE6425B886
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q715436$24451637-79CC-45DB-B139-8886FCE61C95
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: daadcc2aeac5fdd32f4bed248d1e7032309f36f2
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 137816
+          id: Q137816
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q715436$99166103-6407-493D-AA18-216DC34AD1B4
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: الين التايواني
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Taiwanese yen
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Taiwani jeen
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Yen taïwanais
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Taivano jena
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Тайваньская иена
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Tâi-oân Gîn-hâng-koàn
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 臺灣銀行券
+    badges: []

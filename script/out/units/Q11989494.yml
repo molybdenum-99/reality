@@ -1,0 +1,102 @@
+---
+pageid: 13193767
+ns: 0
+title: Q11989494
+lastrevid: 537526141
+modified: '2017-08-14T07:35:30Z'
+type: item
+id: Q11989494
+labels:
+  en:
+    language: en
+    value: milliampere-hour
+aliases:
+  en:
+  - language: en
+    value: milliampere hour
+  - language: en
+    value: mAh
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 9a52c6db0581532a7b4be57dec5957d4db87c992
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 16604158
+          id: Q16604158
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q11989494$3767459b-4866-0506-6bf0-f2e3f608925a
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 037bacd4407e1113b0fbd11a88b2a7d759678b4b
+      datavalue:
+        value: mAh
+        type: string
+      datatype: string
+    type: statement
+    id: Q11989494$365facf6-467a-dd19-bbc9-100097d91517
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: d4e3168cf9bc1aa85a042e38df7bc85755d7bf7b
+      datavalue:
+        value:
+          amount: "+3.6"
+          unit: http://www.wikidata.org/entity/Q25406
+          upperBound: "+3.6"
+          lowerBound: "+3.6"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q11989494$903b59cd-4cbc-3eec-c977-2c7135fbe014
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: b3179cd64c68d117055b1ddc7ce62603b05ad9fb
+      datavalue:
+        value:
+          amount: "+0.001"
+          unit: http://www.wikidata.org/entity/Q212120
+          upperBound: "+0.001"
+          lowerBound: "+0.001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q11989494$b0e18ba4-4932-adf9-0e4b-0645dca77cec
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: f5618048d5b2c92980d3f7a036673bf7434a34fb
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1111
+          id: Q1111
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q11989494$6f7dd674-4b45-3d54-5227-7c0ac776bd75
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Milliamperestunde
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Milliamperetime
+    badges: []

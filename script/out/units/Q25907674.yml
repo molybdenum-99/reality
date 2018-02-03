@@ -1,0 +1,81 @@
+---
+pageid: 27860669
+ns: 0
+title: Q25907674
+lastrevid: 373820997
+modified: '2016-09-06T08:09:10Z'
+type: item
+id: Q25907674
+labels:
+  en:
+    language: en
+    value: digitus
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1c41b2ea8a3f6d3fab77c103d826ae5ead7a9c01
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1978718
+          id: Q1978718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q25907674$5c844766-499e-321e-29d7-08c41e8de500
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 52afd5559217923531f59bd55edf87f344e02b43
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1161819
+          id: Q1161819
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q25907674$35e4f599-446c-ff63-eb87-00349fbf5157
+    rank: normal
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 11cd557827e2934391602a4b87be82f697dda62f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1186818
+          id: Q1186818
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q25907674$9444dc9d-44ff-91e1-dfa6-f97eaa79384c
+    rank: normal
+    references:
+    - hash: 34db390a9d114e72e168f271e782125131d1e1a5
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 27c2820b61e68a2aa9ed8a1c93779c2ffcd53841
+          datavalue:
+            value: http://denstoredanske.dk/Sprog,_religion_og_filosofi/Sprog/Fremmedord/di-dk/digitus
+            type: string
+          datatype: url
+      snaks-order:
+      - P854
+sitelinks:
+  plwiki:
+    site: plwiki
+    title: Digitus (miara)
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Digitus
+    badges: []

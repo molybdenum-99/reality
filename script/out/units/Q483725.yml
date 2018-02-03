@@ -1,0 +1,507 @@
+---
+pageid: 455301
+ns: 0
+title: Q483725
+lastrevid: 617888178
+modified: '2018-01-08T22:58:09Z'
+type: item
+id: Q483725
+labels:
+  en:
+    language: en
+    value: Azerbaijani manat
+aliases: {}
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 786ae6282106f0f30f8a1da06758d2f59a86f05e
+      datavalue:
+        value: Money of Azerbaijan
+        type: string
+      datatype: string
+    type: statement
+    id: q483725$B15D418C-C757-4C43-AC10-D879C300FC66
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q483725$B9C73F6F-AC14-4F17-9727-B0125A93AC15
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: c52536efab49d7c384d84ce80bda5c47a94e8a1d
+      datavalue:
+        value: AZN
+        type: string
+      datatype: external-id
+    type: statement
+    id: q483725$b4d145ea-4291-0346-f093-b5ae858a142f
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: cfab76549397eb03b94f704b5a65da61b89a8ae7
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 190230
+          id: Q190230
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q483725$3FBA23F6-C932-424A-86A4-71079693289A
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 1456bee5107cbc9df00e7c8d44135b2bf180dda1
+      datavalue:
+        value: "/m/04bq4y"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q483725$2325EC15-EF03-4287-9FB0-633DE07E6834
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 6fc1db35b341b76b9e9ce06ce416c483b043cf67
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 227
+          id: Q227
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q483725$5a192187-43e4-0bdf-69dc-23ab0e4f5ee1
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 1dab2c722905838371ff97cf036bb7520fe09940
+      datavalue:
+        value: 5 manat obv.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q483725$f13b2c6e-4090-f024-b3c3-8d13499b99a2
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 4128dab6053a07ae1ba1aa1e3a1d545f3b56ac45
+      datavalue:
+        value: Azerbaijani-Manat
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q483725$E207639F-4684-4B0F-92B0-D3DD4A61A913
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: e83910f97faf9e430a0ddd88de224bfc4d9698f6
+      datavalue:
+        value: AzerbaijanianManat
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q483725$f92a8302-4bfb-685a-4236-4bb424ed0cfd
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 5d4d2b5c0cb486edc9054aa8741830bdf08ea2e7
+      datavalue:
+        value: '500118'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q483725$CE70A43F-1C78-4A6A-90CC-488D36093AE0
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Azerbeidjanse manat
+    badges: []
+  arwiki:
+    site: arwiki
+    title: مانات أذربيجاني
+    badges: []
+  arzwiki:
+    site: arzwiki
+    title: مانات اذرى
+    badges: []
+  azbwiki:
+    site: azbwiki
+    title: آذربایجان ماناتی
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Azərbaycan manatı
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Азэрбайджанскі манат
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Азербайджанскі манат
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Азербайджански манат
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: আজারবাইজানি মানাত
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Azerbejdžanski manat
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Manat azerbaidjanès
+    badges: []
+  crhwiki:
+    site: crhwiki
+    title: Azerbaycan manatı
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Ázerbájdžánský manat
+    badges: []
+  cvwiki:
+    site: cvwiki
+    title: Азербайджан маначĕ
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Aserbajdsjanske manat
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Aserbaidschan-Manat
+    badges: []
+  diqwiki:
+    site: diqwiki
+    title: Manatê Azerbaycani
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Μανάτ του Αζερμπαϊτζάν
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Azerbaijani manat
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Azerbajĝana manato
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Manat azerbaiyano
+    badges: []
+  fawiki:
+    site: fawiki
+    title: منات جمهوری آذربایجان
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Azerbaidžanin manat
+    badges: []
+  frpwiki:
+    site: frpwiki
+    title: Manat azèri
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Manat azerbaïdjanais
+    badges: []
+  hewiki:
+    site: hewiki
+    title: מאנאט אזרבייג'ני
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Azerbajdžanski manat
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Azeri manat
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Ադրբեջանական մանաթ
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Manat Azerbaijan
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Aserskt manat
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Manat azero
+    badges: []
+  jawiki:
+    site: jawiki
+    title: アゼルバイジャン・マナト
+    badges: []
+  kawiki:
+    site: kawiki
+    title: აზერბაიჯანული მანათი
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 아제르바이잔 마나트
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Азербайджанса манат
+    badges: []
+  kywiki:
+    site: kywiki
+    title: Азербайжанлык манат
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Azerbaidžano manatas
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Azerbaidžānas manats
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Азербејџански манат
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: अझरबैजानी मनात
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Manat Azerbaijan
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Azerbeidzjaanse manat
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Aserbajdsjansk manat
+    badges: []
+  novwiki:
+    site: novwiki
+    title: Aserbaijan Manat
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Aserbajdsjansk manat
+    badges: []
+  oswiki:
+    site: oswiki
+    title: Азербайджаны манат
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਅਜ਼ਰਬਾਈਜਾਨੀ ਮਨਾਤ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Manat azerbejdżański
+    badges: []
+  pswiki:
+    site: pswiki
+    title: آزربايجاني منات
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Manat azeri
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Manat azer
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Азербайджанский манат
+    badges: []
+  sahwiki:
+    site: sahwiki
+    title: Азербайдьаан маната
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Azerbaijani manat
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Azerbejdžanski manat
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Azerbaijani manat
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Azerbajdžanský manat
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Азербејџански манат
+    badges: []
+  suwiki:
+    site: suwiki
+    title: Manat Azerbaijan
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Azerbajdzjansk manat
+    badges: []
+  tawiki:
+    site: tawiki
+    title: அசர்பைஜானிய மனாட்
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Манати Озарбойҷон
+    badges: []
+  tkwiki:
+    site: tkwiki
+    title: Azerbaýjan manaty
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Manat ng Aserbayan
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Azerbaycan manatı
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Азербайджанський манат
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Ozarbayjon manati
+    badges: []
+  vepwiki:
+    site: vepwiki
+    title: Azerbaidžanan manat
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Manat Azerbaijan
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: აზერბაიჯანული მანათი
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Manat Azerbaijani
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Azerbaijan manat
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 阿塞拜疆馬納特
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 阿塞拜疆马纳特
+    badges: []

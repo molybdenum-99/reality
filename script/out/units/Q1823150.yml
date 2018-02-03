@@ -1,0 +1,118 @@
+---
+pageid: 1753913
+ns: 0
+title: Q1823150
+lastrevid: 591826927
+modified: '2017-11-10T22:33:34Z'
+type: item
+id: Q1823150
+labels:
+  en:
+    language: en
+    value: microwatt
+aliases:
+  en:
+  - language: en
+    value: µW
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 116ccff192c7c9c7ac8717e13172125bb454be6b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10387689
+          id: Q10387689
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1823150$8fc50099-434c-f30b-f9f6-6bbe9af0655d
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: f8b3472a9d58b8eaf9c30bed78c7836562be5789
+      datavalue:
+        value: µW
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: q1823150$d6a5f209-4790-178d-5f92-5cb56ed3e5ba
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: a983fbce9c51dfa5ac7c2ef3ca978edc53e24345
+      datavalue:
+        value: мкВт
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q1823150$d697a126-4dd5-b84b-ef20-b2736133e702
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 70c3bc36a80afa09a31c370ab7010bc6896060f6
+      datavalue:
+        value: microwatt
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1823150$4786805E-2CAE-4614-AAB3-0F57F268F654
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: f8c16e77af55c573e16c8526be4e12338f1f061f
+      datavalue:
+        value:
+          amount: "+0.000001"
+          unit: http://www.wikidata.org/entity/Q25236
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1823150$e8aee22f-404d-0fdc-5ffc-b33a4f264af1
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Mikrowatt
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Microwatt
+    badges: []

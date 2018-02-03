@@ -1,0 +1,114 @@
+---
+pageid: 3795230
+ns: 0
+title: Q3980493
+lastrevid: 625515360
+modified: '2018-02-01T14:35:43Z'
+type: item
+id: Q3980493
+labels:
+  en:
+    language: en
+    value: Hanoverian thaler
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: a4cf66a6630e1b8eb965912d1c95a74cd3438bf0
+      datavalue:
+        value: "/m/0bqhzf"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3980493$D8B4B8DB-CD15-4D35-B8C6-D1BC962B3C6B
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P642:
+      - snaktype: value
+        property: P642
+        hash: 64ce4a51a2ef2d2164b2f63974f8bb0e68b1177c
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 164079
+            id: Q164079
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P642
+    id: Q3980493$96fd6fb8-42a0-54cc-8c96-4f9218fcb0d8
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 1408082c37eec4418793c1d0ebcfb418c1d62ee9
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 164079
+          id: Q164079
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3980493$65dfa28b-40fd-3cf0-e4ed-5fb56607ec14
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Hanoverian thaler
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Tallero dell'Hannover
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Thaler Hanover
+    badges: []

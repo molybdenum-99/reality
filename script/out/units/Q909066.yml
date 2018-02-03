@@ -1,0 +1,258 @@
+---
+pageid: 859747
+ns: 0
+title: Q909066
+lastrevid: 607855042
+modified: '2017-12-13T05:55:50Z'
+type: item
+id: Q909066
+labels:
+  en:
+    language: en
+    value: technical atmosphere
+aliases:
+  en:
+  - language: en
+    value: at
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 6129bd45f79dd60dd93cd06e51de47844017438a
+      datavalue:
+        value: "/m/04tyry"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q909066$026815FF-9FE0-4379-84D0-551E69C83E00
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6166ea9a07e43efe7af58b089be082880e6b8c61
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10751953
+          id: Q10751953
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q909066$fedaffa7-4235-5ad9-44cd-07dd1f666221
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 017bd285fbbe361dba194f4fe43b6664dd3b8f53
+      datavalue:
+        value: at
+        type: string
+      datatype: string
+    type: statement
+    id: Q909066$5b41afb1-45e2-d92e-5565-e1d5cd312254
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 9c9779209edf30434464319c577c5e30d5e4fae7
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1213508
+          id: Q1213508
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q909066$0edd62ac-4615-d251-b20a-5314259a225c
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: d3dfb26f075e5476b00a1608004f9fe7423fc4b3
+      datavalue:
+        value:
+          amount: "+9806.65"
+          unit: http://www.wikidata.org/entity/Q44395
+          upperBound: "+9806.65"
+          lowerBound: "+9806.65"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q909066$2c6aabc0-45ef-20bf-df40-d1d58a901694
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 85ecfa6cc36a5c9402d26fb7ccdc22e1a8a943b7
+      datavalue:
+        value: AtmosphereTechnical
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q909066$abff41bd-4401-6388-004e-cc640fd8a393
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 110cbc84c5d15fa932cca410ab6cb54006412c97
+      datavalue:
+        value: atmosphere-technical
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q909066$f9da8c97-4bc7-2e66-8d98-b2f6d2a612a3
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: a876e7a41293d4f8e5ebf4ae8bf3c9ee615576b8
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 39552
+          id: Q39552
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q909066$59B488F9-C277-486F-929D-7719D9E730D8
+    rank: normal
+  P2581:
+  - mainsnak:
+      snaktype: value
+      property: P2581
+      hash: 1cc9597598f3f6d8f886d07fc0572c25018f7de1
+      datavalue:
+        value: '00537599n'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q909066$C1240735-9F09-41CF-B735-A9D185D1327A
+    rank: normal
+    references:
+    - hash: bd0ee81488cd8c23d4b655e417aac78dca370283
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: a0b4f55dbedbadaf83e7d2461b47b7aeaba86359
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 4837690
+              id: Q4837690
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: ضغط جوي تقني
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Tehnička atmosfera
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Technische Atmosphäre
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Technical atmosphere
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Atmósfera técnica
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Tehniline atmosfäär
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Atmosphère technique
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Tehnička atmosfera
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Technikai atmoszféra
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Atmosfera tecnica
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 工学気圧
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 공학 기압
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Техничка атмосфера
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Teknisk atmosfære
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Atmosfera techniczna
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Atmosfera técnica
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Atmosferă tehnică
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Átmốtphe kỹ thuật
+    badges: []

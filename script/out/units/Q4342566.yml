@@ -1,0 +1,63 @@
+---
+pageid: 4149858
+ns: 0
+title: Q4342566
+lastrevid: 558879906
+modified: '2017-09-14T18:55:23Z'
+type: item
+id: Q4342566
+labels:
+  en:
+    language: en
+    value: Palestine pound
+aliases: {}
+claims:
+  P1438:
+  - mainsnak:
+      snaktype: value
+      property: P1438
+      hash: f39f55c1fa7fae571b4bae78022befa6473e571b
+      datavalue:
+        value: '11758'
+        type: string
+      datatype: string
+    type: statement
+    id: Q4342566$FFC21F07-CDA5-46DA-A045-8D97810DDC85
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4342566$EBCCA5B7-9254-4451-A67C-DC2EB763C93A
+    rank: normal
+sitelinks:
+  ruwiki:
+    site: ruwiki
+    title: Палестинский фунт подмандатной территории Палестина
+    badges:
+    - Q17437798

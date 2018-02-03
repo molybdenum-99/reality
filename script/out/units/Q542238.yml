@@ -1,0 +1,93 @@
+---
+pageid: 510732
+ns: 0
+title: Q542238
+lastrevid: 491626968
+modified: '2017-05-28T20:24:01Z'
+type: item
+id: Q542238
+labels:
+  en:
+    language: en
+    value: Angolan real
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: c315dd7dc8e324f8f6f59125a0596d0c0ef366d8
+      datavalue:
+        value: "/m/09v2xd"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q542238$4DA6C55F-6B34-40E5-8A4B-358B3E2F83BA
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q542238$0ADEAAC2-458A-41C2-BD44-0210E4C54DAB
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Angolanischer Real
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Ρεάλ Ανγκόλας
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Angolan real
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Real angoleño
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Ангольский реал
+    badges: []

@@ -1,0 +1,182 @@
+---
+pageid: 786968
+ns: 0
+title: Q834305
+lastrevid: 621712025
+modified: '2018-01-19T15:21:58Z'
+type: item
+id: Q834305
+labels:
+  en:
+    language: en
+    value: Bolivian sol
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 3ffcae84d76d74ccfb91a43d5b8f819668b0c967
+      datavalue:
+        value: "/m/09xv00"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q834305$6A5DDAC6-FF63-4645-BADD-027D05CF3674
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P17:
+      - snaktype: value
+        property: P17
+        hash: 7a3a9afc3ff3a180dd8ec86254ad7f58fd2475fe
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 750
+            id: Q750
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P17
+    id: Q834305$94c84d51-4f5a-b6c9-3a71-690ff56c9461
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 7a3a9afc3ff3a180dd8ec86254ad7f58fd2475fe
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 750
+          id: Q750
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q834305$65c93b38-42f5-c2e1-772e-00d00f5420c3
+    rank: normal
+  P1365:
+  - mainsnak:
+      snaktype: value
+      property: P1365
+      hash: 917c75d1d3de2bcafd59ec3800d663c43bdcf068
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3931074
+          id: Q3931074
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: 89881e12bec58ebfd78fffa91ba84d1d37408670
+        datavalue:
+          value:
+            time: "+1827-00-00T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 9
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q834305$101cd1f2-42c4-145f-72fb-1b78f61605f1
+    rank: normal
+  P1366:
+  - mainsnak:
+      snaktype: value
+      property: P1366
+      hash: 924b17df63d458f50aa97e8700207433ff9ca28b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 24249808
+          id: Q24249808
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: fe6735f27eb71700a96c24688737e1537303c886
+        datavalue:
+          value:
+            time: "+1864-00-00T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 9
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q834305$96485de9-4490-3060-a72b-9d2db69aeeb9
+    rank: normal
+sitelinks:
+  elwiki:
+    site: elwiki
+    title: Σολ Βολιβίας
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Bolivian sol
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Bolíviai sol
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Суэльдо
+    badges: []

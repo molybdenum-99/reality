@@ -1,0 +1,334 @@
+---
+pageid: 612547
+ns: 0
+title: Q650845
+lastrevid: 622988434
+modified: '2018-01-24T14:16:58Z'
+type: item
+id: Q650845
+labels:
+  en:
+    language: en
+    value: Givetian
+aliases: {}
+claims:
+  P155:
+  - mainsnak:
+      snaktype: value
+      property: P155
+      hash: 3cce37209e570c0b0eb9a85e69012f272c8e42d1
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 730523
+          id: Q730523
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q650845$38A42D1D-0CD6-4E6F-9F1F-85A5C5EEAA41
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P156:
+  - mainsnak:
+      snaktype: value
+      property: P156
+      hash: dcdf082f9db454aae0902e6772e322e860a648ce
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 264200
+          id: Q264200
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q650845$E7ED8B93-6FB0-4404-AD24-9F5AED95AB78
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 520dd13438977f656d12a99d748202e3a5dab310
+      datavalue:
+        value: "/m/06b_wb"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q650845$7DCDD08D-2449-4BA7-82D5-A6F2D0B61198
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 6dec77d38dab4ab3f195141c004ff235c49b9b0a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 241940
+          id: Q241940
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q650845$c36c69f0-4918-59db-7e55-d1def2d0b792
+    rank: normal
+    references:
+    - hash: 63415f71a121c033dd075ccbeb03b3445f6180ac
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: ba6467859404b851590089347bdb02ffc207b65c
+          datavalue:
+            value:
+              time: "+2014-10-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P813
+      - P143
+  P625:
+  - mainsnak:
+      snaktype: value
+      property: P625
+      hash: e92dcea43a5cb068abfe8d78e765d71ff6c9d4a1
+      datavalue:
+        value:
+          latitude: 31.2375
+          longitude: -4.35416667
+          altitude: 
+          precision: 0.010506303950785
+          globe: http://www.wikidata.org/entity/Q2
+        type: globecoordinate
+      datatype: globe-coordinate
+    type: statement
+    id: Q650845$53AE7A73-B710-4173-B3AD-1686000914D4
+    rank: normal
+    references:
+    - hash: 9cdd4f1d064faebc44a10fbd408afa604f3b89f6
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 16eef556b717b1b9c8e2599faef3af2af8537632
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 199700
+              id: Q199700
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P910:
+  - mainsnak:
+      snaktype: value
+      property: P910
+      hash: bca8ce5c65c98abdfd8460ba7e377657cec9114d
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 24068695
+          id: Q24068695
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q650845$AC3A53D5-13E5-43C2-9261-49C49F9AFE59
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1774498cb861c7f76e71afc94661ed9a03d8461a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1123245
+          id: Q1123245
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q650845$47292820-44a4-4d06-a5d6-f2cdd56a4c42
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: b230ba6f73ec78c2fd8b28c19fab3a1a3e51124e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 568683
+          id: Q568683
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q650845$f6f7a964-4706-139c-5c80-fa1cfc6622ad
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: a5baf34b9718154cf44a7f7450289f164e133819
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 731313
+          id: Q731313
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q650845$84386376-4be3-3704-0752-f4bdf2df25bc
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Givetium
+    badges: []
+  arwiki:
+    site: arwiki
+    title: الغيفتي
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Givetià
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Givetium
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Givetian
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Givetiense
+    badges: []
+  fawiki:
+    site: fawiki
+    title: ژیوتین
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Givétien
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Giveti
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Givetiano
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Givetien
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Żywet
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Givetiano
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Живетский ярус
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Tầng Givet
+    badges: []

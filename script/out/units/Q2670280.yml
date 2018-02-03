@@ -1,0 +1,149 @@
+---
+pageid: 2572608
+ns: 0
+title: Q2670280
+lastrevid: 491638981
+modified: '2017-05-28T20:49:07Z'
+type: item
+id: Q2670280
+labels:
+  en:
+    language: en
+    value: Ōban
+aliases: {}
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 811d4d755913119148d509958e828758668da671
+      datavalue:
+        value: Oban (coin)
+        type: string
+      datatype: string
+    type: statement
+    id: Q2670280$c410b99d-4d6f-5d42-40e2-f75f3753d2a8
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 209f73833f7b9e59328d40966710b67c10aefb0a
+      datavalue:
+        value: "/m/07k5hfv"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2670280$097E72CC-220B-4D50-A885-699E749F3763
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2670280$AC3328A9-2782-4E79-B42E-C40033237A0E
+    rank: normal
+  P1814:
+  - mainsnak:
+      snaktype: value
+      property: P1814
+      hash: 675561d65ece0c44f737ed97e39055e17d4dd6d4
+      datavalue:
+        value: おおばん
+        type: string
+      datatype: string
+    type: statement
+    id: Q2670280$149ACCC7-97BE-410C-9AF8-712853284467
+    rank: normal
+    references:
+    - hash: 0ee3b3ba1c958f4c3dcba7ed8091fe4b57311348
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: cb49f6fa327b245e4a5aaf48c44b3f503bcd4265
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 30239
+              id: Q30239
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Ōban
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Ōban
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Ōban (unité monétaire)
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 大判
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Obanas
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Oban (moneta)
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Обан (монета)
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Ōban
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 大判
+    badges: []

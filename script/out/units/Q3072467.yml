@@ -1,0 +1,121 @@
+---
+pageid: 2936610
+ns: 0
+title: Q3072467
+lastrevid: 618615989
+modified: '2018-01-10T22:34:49Z'
+type: item
+id: Q3072467
+labels:
+  en:
+    language: en
+    value: Milanese scudo
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: c6e31e8040b8a424b1461d8ad0c9f3e7fcbfa16a
+      datavalue:
+        value: "/m/0b9cm8"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3072467$4CA966D3-0BAE-4BAC-A03A-7FDEA39D3B64
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3072467$ff0d6176-444b-f888-777d-58ec8ddc6053
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 4f7bc4dcf659688a0fca4158b26d0352444bf523
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 153529
+          id: Q153529
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P582:
+      - snaktype: value
+        property: P582
+        hash: 62572e2cc67c59f50643a8d406f6455596a8e985
+        datavalue:
+          value:
+            time: "+1796-00-00T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 9
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P582
+    id: Q3072467$c5401074-405a-9e4d-2734-4be8edf78ee9
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Milanese scudo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Escudo milanés
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Scudo milanese
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Миланский скудо
+    badges: []

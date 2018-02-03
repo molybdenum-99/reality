@@ -1,0 +1,105 @@
+---
+pageid: 28202159
+ns: 0
+title: Q26250779
+lastrevid: 560933808
+modified: '2017-09-17T18:52:16Z'
+type: item
+id: Q26250779
+labels:
+  en:
+    language: en
+    value: square arshin
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 0f49769a073adbf1aea6d3645a68f24ad29dbeb6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1371562
+          id: Q1371562
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q26250779$16b88ef9-4bec-5737-1d1c-957e3dceabd2
+    rank: normal
+  P144:
+  - mainsnak:
+      snaktype: value
+      property: P144
+      hash: 0e47a057e9daf94cef57866c7d3ea86e6a7ddd4a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1172583
+          id: Q1172583
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q26250779$b04c391a-4b90-c76e-4d03-e2237a1c96ee
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 4346e1a8118c67b776fd7814260dbaf61836d845
+      datavalue:
+        value:
+          amount: "+0.5058"
+          unit: http://www.wikidata.org/entity/Q25343
+          upperBound: "+0.5059"
+          lowerBound: "+0.5057"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q26250779$9c2a582f-4418-83eb-7af5-fe30bdf7bd89
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: e3472a2a193d46bfdd0c47b8b4a9643fe7cb0807
+      datavalue:
+        value:
+          amount: "+784"
+          unit: http://www.wikidata.org/entity/Q1063786
+          upperBound: "+784"
+          lowerBound: "+784"
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P2559:
+      - snaktype: value
+        property: P2559
+        hash: 06440cbcabcb9eb2f669420145ad6623d61873a1
+        datavalue:
+          value:
+            text: 1 square arshin = 28×28 inch
+            language: en
+          type: monolingualtext
+        datatype: monolingualtext
+    qualifiers-order:
+    - P2559
+    id: Q26250779$ef2a3301-4dde-3f6a-4b97-d855e2d8c43d
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: e12439f34cec95ee050daf4e503b6952b0e935f4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11500
+          id: Q11500
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q26250779$FE7226E3-192B-4DDB-8EC2-191853BF1F35
+    rank: normal
+sitelinks: {}

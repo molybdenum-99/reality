@@ -1,0 +1,398 @@
+---
+pageid: 191190
+ns: 0
+title: Q193094
+lastrevid: 617888157
+modified: '2018-01-08T22:58:06Z'
+type: item
+id: Q193094
+labels:
+  en:
+    language: en
+    value: Iraqi dinar
+aliases: {}
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: '0496f9b5b14d727c5e513c271a4a41a8b1114fc9'
+      datavalue:
+        value: Money of Iraq
+        type: string
+      datatype: string
+    type: statement
+    id: q193094$1ED938E3-BD6C-4410-BADC-5FD6AC822231
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q193094$BC2BB033-4C81-42F8-8FB1-4F8CBF671BEC
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: ce57c2f9aa42ae05ec814e0d2e7c108fc3d781ba
+      datavalue:
+        value: IQD
+        type: string
+      datatype: external-id
+    type: statement
+    id: q193094$7be1f66a-4b52-4e2f-1b6c-a7999b104e81
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: '0851fc00562dc883cd026377cde5481aaef07e15'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1778674
+          id: Q1778674
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q193094$C082DE60-DA8A-4593-81E3-A848BEFFC206
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: b984379aa46b8029c9758bd5a3dfd1dfccbed3f7
+      datavalue:
+        value: "/m/01kpb3"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q193094$5FF38212-EA2D-460E-8FC7-B48DA5FDED1E
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 8f3fa18321ad37dc612da635717040a8a8c05871
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 796
+          id: Q796
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q193094$45d6fbdc-485d-c78d-dcbd-46409bccafe2
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: 2128c744228317b4a4f8fd92bd6ba4740248f9db
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 191830
+          id: Q191830
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q193094$acb4fe9a-4b70-29d9-ca43-e64b0eb94eb5
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 48d171651e71a20f613d893618fd4ff164c98104
+      datavalue:
+        value: Iraqi-Dinar
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q193094$2A8B06EC-8519-4E03-A042-5C07FA2FFC15
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: aa7768be5b95c4f7a858dfcc4646e986f091ee4c
+      datavalue:
+        value: '500183'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q193094$06FE8DA7-70AE-48EA-8D75-CF21A590AFE3
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: دينار عراقي
+    badges: []
+  arzwiki:
+    site: arzwiki
+    title: دينار عراقى
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Ірацкі дынар
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Іракскі дынар
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Иракски динар
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: ইরাকি দিনার
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Irački dinar
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Dinar iraquià
+    badges: []
+  ckbwiki:
+    site: ckbwiki
+    title: دیناری عێراقی
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Irakiske dinarer
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Irakischer Dinar
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Iraqi dinar
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Iraka dinaro
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Dinar iraquí
+    badges: []
+  fawiki:
+    site: fawiki
+    title: دینار عراق
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Irakin dinaari
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Dinar irakien
+    badges: []
+  hewiki:
+    site: hewiki
+    title: דינר עיראקי
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: इराकी दीनार
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Irački dinar
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Iraki dinár
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Dinaro iracheno
+    badges: []
+  jawiki:
+    site: jawiki
+    title: イラク・ディナール
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 이라크 디나르
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Иракса динар
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Irako dinaras
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Ирачки динар
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: इराकी दिनार
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Dinar Iraq
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Iraakse dinar
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Irakisk dinar
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਇਰਾਕੀ ਦਿਨਾਰ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Dinar iracki
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Dinar iraquiano
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Иракский динар
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Irački dinar
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Iraqi dinar
+    badges: []
+  sowiki:
+    site: sowiki
+    title: Ciraaqi Diinaar
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Ирачки динар
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Irakisk dinar
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Динори Ироқ
+    badges: []
+  thwiki:
+    site: thwiki
+    title: ดินาร์อิรัก
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Dinar ng Iraq
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Irak dinarı
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Іракський динар
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: ერაყული დინარი
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Dinar Iraki
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Iraq dinar
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 伊拉克第納爾
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 伊拉克第納爾
+    badges: []

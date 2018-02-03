@@ -1,0 +1,96 @@
+---
+pageid: 6969542
+ns: 0
+title: Q7076694
+lastrevid: 625063538
+modified: '2018-01-31T11:59:21Z'
+type: item
+id: Q7076694
+labels:
+  en:
+    language: en
+    value: Octaeteris
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 98a1e85b80bda7ff493c25a6b805599da715c077
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1790144
+          id: Q1790144
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P642:
+      - snaktype: value
+        property: P642
+        hash: 68931411760faf46b43c4f0697e78966c2a458ee
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 333
+            id: Q333
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P642
+    id: Q7076694$b89507f4-4572-13d0-e36a-b5eef00a9738
+    rank: normal
+    references:
+    - hash: 51e9b2ce443d9376663dc87b117e7926a15fef99
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 035f8e4b6d8120dfcd781290953e04e396a0deaa
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 19025604
+              id: Q19025604
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P1417:
+  - mainsnak:
+      snaktype: value
+      property: P1417
+      hash: 6a352e88e3ba280bbd45b5d6b1ac52ac18dbbf69
+      datavalue:
+        value: science/octaeteris
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q7076694$6E528145-70E2-433B-A3BD-02E861D7F0CE
+    rank: normal
+sitelinks:
+  elwiki:
+    site: elwiki
+    title: Οκταετηρίδα
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Octaeteris
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Octaeteris
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Octaeteride
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Октетерис
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Oktaeteris
+    badges: []

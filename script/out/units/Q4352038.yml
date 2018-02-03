@@ -1,0 +1,73 @@
+---
+pageid: 4158884
+ns: 0
+title: Q4352038
+lastrevid: 515776929
+modified: '2017-07-08T03:45:03Z'
+type: item
+id: Q4352038
+labels:
+  en:
+    language: en
+    value: French Camerounian franc
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4352038$106B5A6E-9579-4233-8D74-E20F115FBBCB
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: dc81b7b9b876af62943b6bebf5327af805c22fff
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1028848
+          id: Q1028848
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4352038$E89DD488-82EE-4536-8D5C-15012D3C8214
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: French Camerounian franc
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Franco francocamerunés
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Франк Французского Камеруна
+    badges: []

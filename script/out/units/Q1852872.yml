@@ -1,0 +1,132 @@
+---
+pageid: 1783380
+ns: 0
+title: Q1852872
+lastrevid: 618700822
+modified: '2018-01-11T06:04:15Z'
+type: item
+id: Q1852872
+labels:
+  en:
+    language: en
+    value: New Hebrides franc
+aliases: {}
+claims:
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 357d4896ab7398e41ca3092953faacb882b6a828
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3151944
+          id: Q3151944
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q1852872$3E1F550B-CEA3-4D98-B382-599465372EDB
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 5cecdd1b9621bab5aac8815bbde23f27ab1b7b70
+      datavalue:
+        value: "/m/064b6x"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1852872$1C3847D8-9195-4165-89B7-7A974CC44D35
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1852872$9811fa1d-45b8-8fcc-f4ad-0d1f79dc6f60
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Neue-Hebriden-Franc
+    badges: []
+  enwiki:
+    site: enwiki
+    title: New Hebrides franc
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Franco neohebridense
+    badges: []
+  fawiki:
+    site: fawiki
+    title: فرانک نیوهبریدز
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Franc des Nouvelles-Hébrides
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Franco delle Nuove Ebridi
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Новогебридский франк
+    badges: []

@@ -1,0 +1,235 @@
+---
+pageid: 297139
+ns: 0
+title: Q308765
+lastrevid: 617194033
+modified: '2018-01-06T19:54:25Z'
+type: item
+id: Q308765
+labels:
+  en:
+    language: en
+    value: Ukrainian karbovanets
+aliases: {}
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 1b883ca68f1c52c75893b0ee196baaf4aede0364
+      datavalue:
+        value: Money of Ukraine
+        type: string
+      datatype: string
+    type: statement
+    id: q308765$f6014486-4e33-c684-f846-c5de1a937623
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: f0f7eb4be87dac5d90be9991237390742e531696
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1070388
+          id: Q1070388
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q308765$A1A87614-C886-4D15-9D62-2FCDFEDF8CA7
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: f31b4af83de58d4a25e86ada9323e464fe6f468b
+      datavalue:
+        value: "/m/04l6w_"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q308765$770D4EEE-C3B9-4EDA-9B99-7DB3DD93C7DC
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q308765$a1f427fa-49f4-ab47-9c25-b36c0c5a6ce0
+    rank: normal
+  P910:
+  - mainsnak:
+      snaktype: value
+      property: P910
+      hash: cf2b125032e028be03d5a95f602edac97437108f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 9576114
+          id: Q9576114
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q308765$C796734B-37CF-40E4-8C93-8D45BCFE6080
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 6122d414d6dcdda8faa7794a0ff57f287e608f6d
+      datavalue:
+        value: UAK
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q308765$8B708A56-E989-4E69-A851-A9E67673632A
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 1523fc75bfaa73118193faa502bfd082bb513325
+      datavalue:
+        value: '500466'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q308765$5B1A93AF-6B60-401A-BCB3-1738C35B82CD
+    rank: normal
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Karbóvanets
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Karbowanez
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Ukrainian karbovanets
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Karbóvanets ucraniano
+    badges: []
+  fawiki:
+    site: fawiki
+    title: کاربووانتس اوکراین
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Karbovanets
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Karbovanets Ukraina
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Karbovanec' ucraino
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Ukrainos karbovanecas
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Karbowaniec
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Karbovaneț ucrainean
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Карбованец
+    badges: []
+  ruwikiquote:
+    site: ruwikiquote
+    title: Карбованец
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Karbovanec
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Карбованець
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 烏克蘭庫邦
+    badges: []

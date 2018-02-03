@@ -1,0 +1,138 @@
+---
+pageid: 2219760
+ns: 0
+title: Q2297932
+lastrevid: 546379202
+modified: '2017-08-26T02:59:39Z'
+type: item
+id: Q2297932
+labels:
+  en:
+    language: en
+    value: Italian Somaliland lira
+aliases:
+  en:
+  - language: en
+    value: Somali lira
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: cbe4155b98d57c9792802d48e6ab80558430b83b
+      datavalue:
+        value: "/m/0bblpx"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2297932$F8387470-E012-4450-A566-4D94F9C4AF31
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2297932$4E6034FD-918E-4A25-B1B3-F6F582A6B600
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 8207494be42b2fcb523f2b13ef387b9063413d64
+      datavalue:
+        value: Lire 5 anno 1927.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q2297932$752B9B9A-58FC-4F01-8EA4-51A79A6BEB8A
+    rank: normal
+  P1001:
+  - mainsnak:
+      snaktype: value
+      property: P1001
+      hash: a47b28918e174abd12f2b5eea1520cf56eb3ed1b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 319984
+          id: Q319984
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2297932$a28a05f0-4e6c-bc3b-4685-72fb9514d10e
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 8bfdfe092a8950e9fbcbf0cadd9d71173ab5643a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 172579
+          id: Q172579
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2297932$5256ed52-4c2d-d0cf-0ecf-b3fdc6d3237e
+    rank: normal
+sitelinks:
+  elwiki:
+    site: elwiki
+    title: Λίρα Ιταλικής Σομαλιλάνδης
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Italian Somaliland lira
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Lira de Somalia italiana
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Lira somala
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Сомалийская лира
+    badges: []

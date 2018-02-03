@@ -1,0 +1,100 @@
+---
+pageid: 16628430
+ns: 0
+title: Q14961002
+lastrevid: 617889664
+modified: '2018-01-08T23:06:20Z'
+type: item
+id: Q14961002
+labels:
+  en:
+    language: en
+    value: New Turkish lira
+aliases: {}
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 7efedebf585945fca785ef6d79e3824f60ffbbe2
+      datavalue:
+        value: Money of Turkey
+        type: string
+      datatype: string
+    type: statement
+    id: Q14961002$f14ca5a6-4e4f-e32e-83d1-417298f07af8
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P642:
+      - snaktype: value
+        property: P642
+        hash: 9cf5a2f7d4d8de4f5757ca62e83af941ab291bda
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 43
+            id: Q43
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P642
+    id: Q14961002$c4fd23a2-4c07-57aa-7441-1453db994f45
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 42e3eda60c1820301fe5e402e31b35e23279d686
+      datavalue:
+        value: '500264'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q14961002$0CF97034-8B94-4B7C-A633-482AE933D642
+    rank: normal
+sitelinks:
+  cywiki:
+    site: cywiki
+    title: Lira Twrcaidd Newydd
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Revaluation of the Turkish Lira
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Uusi Turkin liira
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 新トルコリラ
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Jaunā Turcijas lira
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Nieuwe Turkse lira
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Turkish new lira
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 土耳其里拉币制改革
+    badges: []

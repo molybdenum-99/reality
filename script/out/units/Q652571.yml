@@ -1,0 +1,374 @@
+---
+pageid: 614180
+ns: 0
+title: Q652571
+lastrevid: 622460307
+modified: '2018-01-21T23:38:51Z'
+type: item
+id: Q652571
+labels:
+  en:
+    language: en
+    value: Bohr radius
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1f64db08b05b0ff1f134e2100d6effbae258367f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 173227
+          id: Q173227
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q652571$7A4177B9-FB96-44A3-88B3-891264BF41F9
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q652571$f57b53bd-40c7-9f4e-e67e-ca14de757cf1
+    rank: normal
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 82ea3a24586f7c1ef22376bd537edc1e7e5b3a48
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 7085
+          id: Q7085
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q652571$3532408E-AAA3-466F-9837-DF928078D2B6
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 8f2f5dee1161ce2612d4b9cfe500fb93fd49eed7
+      datavalue:
+        value: "/m/017k78"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q652571$4040D78F-BD1B-4075-821E-0C3A9E136CA0
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P1296:
+  - mainsnak:
+      snaktype: value
+      property: P1296
+      hash: 699d5166e1395bb1ba65970c113fff23c36b802d
+      datavalue:
+        value: '0010773'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q652571$82B36BDD-341F-42FF-9653-5952DB5AD528
+    rank: normal
+  P1181:
+  - mainsnak:
+      snaktype: value
+      property: P1181
+      hash: ca9be4e575dbcd0681b3386fd211604d988223c5
+      datavalue:
+        value:
+          amount: "+0.052917721067"
+          unit: http://www.wikidata.org/entity/Q178674
+          upperBound: "+0.052917721079"
+          lowerBound: "+0.052917721055"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q652571$d639e5ad-404d-fe00-f462-b388f9cde1d8
+    rank: normal
+    references:
+    - hash: b81d43d7dc1cb04ce4046c7112c6e04a767ba627
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 3b929b503f20e75ea6c05b82fc566f6f8e7df641
+          datavalue:
+            value: http://physics.nist.gov/cgi-bin/cuu/Value?bohrrada0
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 1a1f5a1485b713541db7338008b2b36cbcbfbe16
+          datavalue:
+            value:
+              time: "+2015-11-06T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 641684c83b0133214966930e42703a708b96b3b6
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 735279
+              id: Q735279
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P854
+      - P813
+      - P248
+  P1645:
+  - mainsnak:
+      snaktype: value
+      property: P1645
+      hash: ac229de099007492c2c438682f01164ca65b5bb0
+      datavalue:
+        value: bohrrada0
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q652571$14651600-4ee7-da90-8731-c61cbc396abd
+    rank: normal
+    references:
+    - hash: 22efa3ba11bb7f37d3f73cd590d6fc2be3ec811a
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 3b929b503f20e75ea6c05b82fc566f6f8e7df641
+          datavalue:
+            value: http://physics.nist.gov/cgi-bin/cuu/Value?bohrrada0
+            type: string
+          datatype: url
+      snaks-order:
+      - P854
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 37fd00be98fe68c6b1b1e18acaa380d867aab4ce
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 757568
+          id: Q757568
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q652571$119313a2-4abd-b5df-abb0-89ad8c4ad3c9
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: d0b96305e653fb60851c80191e7bae9a04777815
+      datavalue:
+        value: a_0
+        type: string
+      datatype: string
+    type: statement
+    id: Q652571$709a74ac-4423-403e-d5aa-6741dbcb4a1a
+    rank: normal
+  P4732:
+  - mainsnak:
+      snaktype: value
+      property: P4732
+      hash: cb9509a91e24cb1a8c4e67bb016cd509cd25cbe9
+      datavalue:
+        value: B00693
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q652571$B70885D6-9684-4896-AE5F-3F36DFF42DD2
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: نصف قطر بور
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Radiu de Bohr
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Бораўскі радыус
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Bohrov radijus
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Radi de Bohr
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Bohrův poloměr
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Bohr radius
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Bohrscher Radius
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Bohr radius
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Radiuso de Bohr
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Radio de Bohr
+    badges: []
+  fawiki:
+    site: fawiki
+    title: شعاع بور
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Bohrin säde
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Rayon de Bohr
+    badges: []
+  hewiki:
+    site: hewiki
+    title: רדיוס בוהר
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: बोर त्रिज्या
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Bohrov radijus
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Bohr-sugár
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Raggio di Bohr
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ボーア半径
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 보어 반지름
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Bohrstraal
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Bohrradius
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Promień atomu Bohra
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Raio de Bohr
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Боровский радиус
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Raggiu di Bohr
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Bohrov polomer
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Bohrov polmer
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Borov radijus
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Bohr yarıçapı
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Радіус Бора
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Bor radiusi
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Bán kính Bohr
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 玻尔半径
+    badges: []

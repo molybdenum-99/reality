@@ -1,0 +1,385 @@
+---
+pageid: 204507
+ns: 0
+title: Q208526
+lastrevid: 618035900
+modified: '2018-01-09T12:53:15Z'
+type: item
+id: Q208526
+labels:
+  en:
+    language: en
+    value: New Taiwan dollar
+aliases:
+  en:
+  - language: en
+    value: SRD
+  - language: en
+    value: NT$
+  - language: en
+    value: "$"
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q208526$B9F44609-CCD3-4CDE-B114-5264B0EA1A92
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 34bf172525c737262737f83945a03c3f3f5dca54
+      datavalue:
+        value: Money of Taiwan
+        type: string
+      datatype: string
+    type: statement
+    id: q208526$B28044B0-70DB-4558-8452-A90DD1EEFDAD
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: fcc9b37e707c85ace506c7ef46dfffe5d3663f1d
+      datavalue:
+        value: TWD
+        type: string
+      datatype: external-id
+    type: statement
+    id: q208526$b7c3d171-4885-3ea4-76b6-98038f49d968
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 7c7b8542d7b0553475c6d96735098c9ff39ca0e1
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 198642
+          id: Q198642
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q208526$26F6AF34-2007-4708-950C-974586202393
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 4016c2bfe539a595ea8f8d7c8773c7d59b87102a
+      datavalue:
+        value: "/m/01t0lt"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q208526$D6D97BFD-992D-4725-AF97-277D4B4C94A2
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 7553f3ae5a55dd330b2cd67429b85d6aa148c45d
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 865
+          id: Q865
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q208526$e38bfc5b-41ae-edc9-dfaa-27b6c4537385
+    rank: normal
+  P910:
+  - mainsnak:
+      snaktype: value
+      property: P910
+      hash: '091bf18b2bbb069e80f1238983821cf5e0a45dc4'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10137453
+          id: Q10137453
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q208526$8D0D75AB-57AB-4D7F-8599-32E626036802
+    rank: normal
+    references:
+    - hash: 0ee3b3ba1c958f4c3dcba7ed8091fe4b57311348
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: cb49f6fa327b245e4a5aaf48c44b3f503bcd4265
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 30239
+              id: Q30239
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 137af4bce1502866c0a6b65f6bd4a9b2d6b1fce4
+      datavalue:
+        value: '500257'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q208526$7FAEEA65-A5D6-47BC-AD96-355572AEDCC1
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: دولار تايواني جديد
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Nou dòlar de Taiwan
+    badges: []
+  cdowiki:
+    site: cdowiki
+    title: Sĭng-dài-bê
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Tchajwanský dolar
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Neuer Taiwan-Dollar
+    badges: []
+  enwiki:
+    site: enwiki
+    title: New Taiwan dollar
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Nova tajvana dolaro
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Nuevo dólar taiwanés
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Uus Taiwani dollar
+    badges: []
+  fawiki:
+    site: fawiki
+    title: دلار جدید تایوان
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Uusi Taiwanin dollari
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Nouveau dollar de Taïwan
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Novotajvanski dolar
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Tajvani új dollár
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Dolar Baru Taiwan
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Nýr Tævandalur
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Dollaro taiwanese
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ニュー台湾ドル
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 신 타이완 달러
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Naujasis Taivano doleris
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Jaunais Taivānas dolārs
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: नवा तैवान डॉलर
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Dolar Baru Taiwan
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Taiwanese dollar
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Taiwansk dollar
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਨਵਾਂ ਤਾਇਵਾਨੀ ਡਾਲਰ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Dolar tajwański
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Novo dólar taiwanês
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Новый тайваньский доллар
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: New Taiwan dollar
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Нови тајвански долар
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Taiwanesisk dollar
+    badges: []
+  thwiki:
+    site: thwiki
+    title: ดอลลาร์ไต้หวันใหม่
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Yeni Tayvan doları
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Новий тайванський долар
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Tân Đài tệ
+    badges: []
+  wuuwiki:
+    site: wuuwiki
+    title: 新台币
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: ახალი ტაივანური დოლარი
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Dọ́là Titun Taiwan
+    badges: []
+  zawiki:
+    site: zawiki
+    title: Sinhdaizbi
+    badges: []
+  zh_classicalwiki:
+    site: zh_classicalwiki
+    title: 新臺幣
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Sin-tâi-phiò
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 新台幣
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 新臺幣
+    badges: []

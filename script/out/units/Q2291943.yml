@@ -1,0 +1,97 @@
+---
+pageid: 2213915
+ns: 0
+title: Q2291943
+lastrevid: 524149540
+modified: '2017-07-20T12:03:12Z'
+type: item
+id: Q2291943
+labels:
+  en:
+    language: en
+    value: seah
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 4a7473d2e1d1452a0f5032912653cda8f59121fc
+      datavalue:
+        value: "/m/02psxwx"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2291943$9065E131-ACB7-4CA1-8F95-62E6DEC2D8A0
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6e3da81891b6fba54d9ac8088595a4b05e5a5f95
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1302471
+          id: Q1302471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2291943$8FCEB9A1-88B1-44C1-A135-5BE5379119CE
+    rank: normal
+sitelinks:
+  elwiki:
+    site: elwiki
+    title: Σεά
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Seah (unit)
+    badges: []
+  hewiki:
+    site: hewiki
+    title: סאה (מידת נפח)
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Sea (maat)
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Sea
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Sea
+    badges: []

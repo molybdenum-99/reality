@@ -1,0 +1,357 @@
+---
+pageid: 1028336
+ns: 0
+title: Q1080207
+lastrevid: 622985310
+modified: '2018-01-24T14:07:40Z'
+type: item
+id: Q1080207
+labels:
+  en:
+    language: en
+    value: Norian
+aliases: {}
+claims:
+  P155:
+  - mainsnak:
+      snaktype: value
+      property: P155
+      hash: 119c8133444533b047f8dcce8811e61099865683
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 911899
+          id: Q911899
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q1080207$9eb9c0d5-4130-af79-2618-dcf467b55ead
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P156:
+  - mainsnak:
+      snaktype: value
+      property: P156
+      hash: 9a88358652e5d0a2f9e0d5ab77e8cb214dd7c1ce
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 530828
+          id: Q530828
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q1080207$5e417a85-4656-0f3a-9e08-c7259552e5ea
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 92ef7b6cc6da6c1a6d7bc20b2374a7ae5e5f96c4
+      datavalue:
+        value: "/m/07bzhd"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1080207$F729D986-013C-4B29-9DCD-ADCC0FB481B3
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 90bd06ad885c794517190829319f1955796f1e9b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 685267
+          id: Q685267
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1080207$08fbd3c0-470f-2459-6aab-1b810ef92d3d
+    rank: normal
+    references:
+    - hash: 29a3fecc4498409168107bc567db1dc0d3d231a7
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 7254f0541ed09356ccba69b6a5c0c4b4440457b1
+          datavalue:
+            value:
+              time: "+2014-10-16T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P813
+      - P143
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 160f689beed77abf65b75e2a63c0200bc3ce47fb
+      datavalue:
+        value: Norian
+        type: string
+      datatype: string
+    type: statement
+    id: Q1080207$DD1433D5-CAC5-4B59-A06F-CADDD6E14122
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P910:
+  - mainsnak:
+      snaktype: value
+      property: P910
+      hash: 2f76ebfaec095f26c93266afad02ea4a4f83fcde
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 21607947
+          id: Q21607947
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1080207$96197331-3E0F-497B-BC25-7373A11324A5
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1774498cb861c7f76e71afc94661ed9a03d8461a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1123245
+          id: Q1123245
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1080207$3c725911-442b-87fd-1f07-26c479cea7a2
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: b230ba6f73ec78c2fd8b28c19fab3a1a3e51124e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 568683
+          id: Q568683
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1080207$c63a0d07-4973-e710-b477-daf9131a5463
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 0e222baaaa6348e1129b5c12906e74e9a0c45081
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 917293
+          id: Q917293
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1080207$83d02aeb-4b04-1b13-a311-d31df5459f9e
+    rank: normal
+  P3827:
+  - mainsnak:
+      snaktype: value
+      property: P3827
+      hash: df3c9be14ec472421923d7b3130090e572dd5529
+      datavalue:
+        value: norian-age
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1080207$4C587AD4-0416-4914-A83E-2724D397E457
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Norium
+    badges: []
+  arwiki:
+    site: arwiki
+    title: النوري (جيولوجيا)
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Norianu
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Norià
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Norium
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Norian
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Noriense
+    badges: []
+  fawiki:
+    site: fawiki
+    title: نورین (زمین‌شناسی)
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Norien
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Nori (korszak)
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Norico (geologia)
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Norium (aevum)
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Norien
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Norium
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Noryk
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Noriano
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Норийский ярус
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Norik (geologija)
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Норійський ярус
+    badges: []

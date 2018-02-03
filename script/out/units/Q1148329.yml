@@ -1,0 +1,190 @@
+---
+pageid: 1094844
+ns: 0
+title: Q1148329
+lastrevid: 614589108
+modified: '2017-12-27T16:09:31Z'
+type: item
+id: Q1148329
+labels:
+  en:
+    language: en
+    value: SUCRE
+aliases:
+  en:
+  - language: en
+    value: Sistema Único de Compensación Regional
+  - language: en
+    value: Sistema Unico de Compensacion Regional
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 78665c7b888e53e228f3b0ffd8ed974d52966fa3
+      datavalue:
+        value: "/m/05b22yk"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1148329$6F4AE7E1-926E-4B3E-81E7-9A4D6B7DC8A2
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1148329$cf673949-42d7-f756-9e44-18ba209b5ea0
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 2f0f355dfa6b6ed2bc1daf117d4886775b13b58d
+      datavalue:
+        value: XSU
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1148329$b88ccfbe-49c7-1f1e-47fd-7a8ac85c9106
+    rank: normal
+    references:
+    - hash: 4eb4851ade6fd9b593d97ff9c217fae407dca190
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 199c5f7d85a384828e4237cd06923b8f1822a420
+          datavalue:
+            value: http://www.currency-iso.org/dam/isocy/downloads/dl_currency_iso_amendment_148.pdf
+            type: string
+          datatype: url
+      snaks-order:
+      - P854
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: b9c4238be8841aac9c84bcac3af717723437dca1
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 717
+          id: Q717
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1148329$74783276-B73A-4803-A1BE-C2D544E6909B
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 8c8ab4481cc56c6223521060070525eb900f0046
+      datavalue:
+        value: '500543'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1148329$6AC43DA1-050E-4FFB-B1D2-E319DC11583F
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: SUCRE
+    badges: []
+  enwiki:
+    site: enwiki
+    title: SUCRE
+    badges: []
+  eswiki:
+    site: eswiki
+    title: SUCRE (moneda del ALBA)
+    badges: []
+  euwiki:
+    site: euwiki
+    title: SUCRE
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Sucre (rahayksikkö)
+    badges: []
+  frwiki:
+    site: frwiki
+    title: SUCRE
+    badges: []
+  huwiki:
+    site: huwiki
+    title: SUCRE
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 域内統一決済システム
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 수크레 (통화)
+    badges: []
+  plwiki:
+    site: plwiki
+    title: SUCRE
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: SUCRE
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Сукре (коллективная валюта)
+    badges: []
+  trwiki:
+    site: trwiki
+    title: SUCRE
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Сукре (грошова одиниця)
+    badges: []
+  yowiki:
+    site: yowiki
+    title: SUCRE
+    badges: []

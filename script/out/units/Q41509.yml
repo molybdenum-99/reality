@@ -1,0 +1,703 @@
+---
+pageid: 43790
+ns: 0
+title: Q41509
+lastrevid: 624254825
+modified: '2018-01-28T17:54:23Z'
+type: item
+id: Q41509
+labels:
+  en:
+    language: en
+    value: mole
+aliases:
+  en:
+  - language: en
+    value: mol
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: fc41ce065cc950a2a594a255daee29c6c9cf6207
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 223662
+          id: Q223662
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q41509$A6366D99-F210-4925-BE25-30A3057CBBFA
+    rank: normal
+    references:
+    - hash: 1750d614542bfc4a7d9bd8583e155ed40f07fe8c
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 0d9ed4832057836a4e63e6029b774a8f2cc2e0b2
+          datavalue:
+            value: '17'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: 0053053d5bfe3b2535ba1ac9af1b770c477d100f
+          datavalue:
+            value: 6.5.2
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 9a994fe86b6c66b51d5530d13818099934014320
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 104946
+          id: Q104946
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q41509$E7105707-F3AF-4063-B3FB-3D3AF762A80A
+    rank: normal
+    references:
+    - hash: 1750d614542bfc4a7d9bd8583e155ed40f07fe8c
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 0d9ed4832057836a4e63e6029b774a8f2cc2e0b2
+          datavalue:
+            value: '17'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: 0053053d5bfe3b2535ba1ac9af1b770c477d100f
+          datavalue:
+            value: 6.5.2
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P508:
+  - mainsnak:
+      snaktype: value
+      property: P508
+      hash: 2afa302682be30b01de3c9731a290f31856b723c
+      datavalue:
+        value: '21890'
+        type: string
+      datatype: external-id
+    type: statement
+    id: q41509$B8F70083-AFD8-4BB9-A44E-3EB4D425364E
+    rank: normal
+    references:
+    - hash: b7232a03e568ea326dacdccb6322adb7894300d5
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 1d66ba6e1b3396f65d9e70e5331cca2044f83e33
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 460907
+              id: Q460907
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 103ab78f7645c6e131d6c5ac82ce12d89e5633ab
+      datavalue:
+        value: mol
+        type: string
+      datatype: string
+    type: statement
+    id: q41509$3f5564ea-444f-b8cb-502f-3b0da98c6c1b
+    rank: normal
+    references:
+    - hash: 1750d614542bfc4a7d9bd8583e155ed40f07fe8c
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 0d9ed4832057836a4e63e6029b774a8f2cc2e0b2
+          datavalue:
+            value: '17'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: 0053053d5bfe3b2535ba1ac9af1b770c477d100f
+          datavalue:
+            value: 6.5.2
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 3fcc01c7d724752087c771961deef046eb3b2575
+      datavalue:
+        value: "/m/09b4v"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q41509$65D56BAC-5FB2-4173-A386-4A5BD7F97D61
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 4507fd15ef8821b46aebb08f8ee4bb651bf7082d
+      datavalue:
+        value:
+          amount: "+1"
+          unit: http://www.wikidata.org/entity/Q41509
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q41509$bdca385a-47f8-3d66-8fcb-a63de2e74135
+    rank: normal
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 62c309f8296338bd9647a7e758857137f3370310
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2657718
+          id: Q2657718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q41509$AF8F04B3-C8B7-49FB-B885-E1EC8CCDF288
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 88389772f86dcd7d415ddd029f601412e5cc894a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 602358
+          id: Q602358
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P805:
+      - snaktype: value
+        property: P805
+        hash: 128ee802431c1d6366378cdecc3cf6125d177d17
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 21864903
+            id: Q21864903
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P805
+    id: Q41509$923C0440-F150-4673-8E8B-7D5B3A1C73B5
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 88389772f86dcd7d415ddd029f601412e5cc894a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 602358
+          id: Q602358
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P805:
+      - snaktype: value
+        property: P805
+        hash: edbc76468d3e7d1c3bd923abad73a4545ff70805
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 21864912
+            id: Q21864912
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P805
+    id: Q41509$7F951959-C9C0-4D94-8B65-25BAE60409D3
+    rank: deprecated
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: c5fec1c5685b60370c460d89db2fdaba6bf325d4
+      datavalue:
+        value: Mole
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q41509$403ea85b-48af-8c89-f39e-8478ac67f2be
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 4ef20dedffd9508240476aac483792c685a467b4
+      datavalue:
+        value: mole
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q41509$7D8044D0-E5DC-40E6-98D2-AC765BB6654B
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: مول
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Mol
+    badges: []
+  aswiki:
+    site: aswiki
+    title: ম'ল
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Mol
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Моль
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Моль
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Мол
+    badges: []
+  bowiki:
+    site: bowiki
+    title: མོལ།
+    badges: []
+  brwiki:
+    site: brwiki
+    title: Mol
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Mol (jedinica)
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Mol
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Mol
+    badges: []
+  cvwiki:
+    site: cvwiki
+    title: Моль
+    badges: []
+  cywiki:
+    site: cywiki
+    title: Môl (uned)
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Mol (enhed)
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Mol
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Γραμμομόριο
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Mole (unit)
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Molaro (kemio)
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Mol
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Mool
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Mol
+    badges: []
+  fawiki:
+    site: fawiki
+    title: مول
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Mooli
+    badges: []
+  frrwiki:
+    site: frrwiki
+    title: Mol
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Mole (unité)
+    badges: []
+  gawiki:
+    site: gawiki
+    title: Mól
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Mol
+    badges: []
+  hewiki:
+    site: hewiki
+    title: מול
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: मोल (इकाई)
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Mol (mjerna jedinica)
+    badges: []
+  htwiki:
+    site: htwiki
+    title: Mòl
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Mól
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Մոլ
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Mol
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Mól
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Mole
+    badges: []
+  jawiki:
+    site: jawiki
+    title: モル
+    badges: []
+  kawiki:
+    site: kawiki
+    title: მოლი
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Моль
+    badges: []
+  knwiki:
+    site: knwiki
+    title: ಮೋಲ್
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 몰 (단위)
+    badges: []
+  kuwiki:
+    site: kuwiki
+    title: Mol
+    badges: []
+  kywiki:
+    site: kywiki
+    title: Моль
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Moles (unitas)
+    badges: []
+  lbwiki:
+    site: lbwiki
+    title: Mol
+    badges: []
+  lijwiki:
+    site: lijwiki
+    title: Mole
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Molis (vienetas)
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Mols
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Мол (единица)
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: മോൾ (യൂണിറ്റ്)
+    badges: []
+  mnwiki:
+    site: mnwiki
+    title: Моль
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: मोल (एकक)
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Mol
+    badges: []
+  ndswiki:
+    site: ndswiki
+    title: Mol (Eenheit)
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Mol (eenheid)
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Mol
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Mol (enhet)
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Mòl (unitat)
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਮੋਲ (ਇਕਾਈ)
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Mol
+    badges: []
+  pmswiki:
+    site: pmswiki
+    title: Mòle
+    badges: []
+  pnbwiki:
+    site: pnbwiki
+    title: مول
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Mol
+    badges:
+    - Q17437796
+  rowiki:
+    site: rowiki
+    title: Mol
+    badges: []
+  ruewiki:
+    site: ruewiki
+    title: Мол
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Моль
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Mole (unit)
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Mol (jedinica)
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Mole (unit)
+    badges: []
+  siwiki:
+    site: siwiki
+    title: මවුලය
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Mol (jednotka SI)
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Mol (enota)
+    badges: []
+  sowiki:
+    site: sowiki
+    title: Mole
+    badges: []
+  sqwiki:
+    site: sqwiki
+    title: Dy të shtunat e Suzanës
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Мол (јединица)
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Mol
+    badges: []
+  tawiki:
+    site: tawiki
+    title: மோல்
+    badges: []
+  thwiki:
+    site: thwiki
+    title: โมล
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Mole (yunit)
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Mol (birim)
+    badges: []
+  ttwiki:
+    site: ttwiki
+    title: Моль
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Моль (одиниця)
+    badges: []
+  urwiki:
+    site: urwiki
+    title: مول (اکائی)
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Mol
+    badges: []
+  warwiki:
+    site: warwiki
+    title: Mol
+    badges: []
+  zh_classicalwiki:
+    site: zh_classicalwiki
+    title: 摩爾
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Mol
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 摩爾
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 摩尔 (单位)
+    badges: []

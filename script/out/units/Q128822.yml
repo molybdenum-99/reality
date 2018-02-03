@@ -1,0 +1,558 @@
+---
+pageid: 130813
+ns: 0
+title: Q128822
+lastrevid: 625529876
+modified: '2018-02-01T15:37:13Z'
+type: item
+id: Q128822
+labels:
+  en:
+    language: en
+    value: knot
+aliases:
+  en:
+  - language: en
+    value: kt
+  - language: en
+    value: kn
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 5a39be02465e0b2719d4672e31e14420175f3d4a
+      datavalue:
+        value: kn
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q128822$f326bb7a-4d4e-f9ae-7405-f0ec29da46d3
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 165f6180e9cffdcbe6860f68a4009e9411168ad3
+      datavalue:
+        value: уз
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q128822$2d0d23e1-442b-8a1e-bd9b-4c200cc55231
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: b4f9c836c43d6700bbb61b79f9c7e714c1b52c93
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 15222637
+          id: Q15222637
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q128822$5e811e78-4606-cee8-0802-12d0fcb5e969
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: b8dd2613493bb0eea87fe9b1728396f990f58f87
+      datavalue:
+        value: "/m/0201lh"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q128822$9E500FC1-9302-4A12-AA9F-5D6FE2CF7814
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 68362d093f343c799590215a6e784718e864cc48
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3711325
+          id: Q3711325
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q128822$dc7a4c9c-4cfb-72b3-740d-8b24c165ddad
+    rank: normal
+  P2052:
+  - mainsnak:
+      snaktype: value
+      property: P2052
+      hash: 6919fa966f58beca74cee682349bf08385476d46
+      datavalue:
+        value:
+          amount: "+1.852"
+          unit: http://www.wikidata.org/entity/Q180154
+          upperBound: "+1.852"
+          lowerBound: "+1.852"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q128822$ad0d08f5-406e-c393-3d0e-45d27d08fca5
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2052
+      hash: 2f3f09c5abcb40e65512e4bf97d16670f4fffaac
+      datavalue:
+        value:
+          amount: "+0.51444"
+          unit: http://www.wikidata.org/entity/Q182429
+          upperBound: "+0.51445"
+          lowerBound: "+0.51443"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q128822$921c9d9f-45c8-0415-987a-e18b15ac95f5
+    rank: normal
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 62c309f8296338bd9647a7e758857137f3370310
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2657718
+          id: Q2657718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P478:
+      - snaktype: value
+        property: P478
+        hash: 7ec55205f2db1067ff9cc258d63c9c187f3bc517
+        datavalue:
+          value: '6'
+          type: string
+        datatype: string
+      P304:
+      - snaktype: value
+        property: P304
+        hash: 60cd23f9574d3a9489f2bbfbe243a75a9c2ad2b9
+        datavalue:
+          value: '217'
+          type: string
+        datatype: string
+    qualifiers-order:
+    - P478
+    - P304
+    id: Q128822$54D0B1DB-4B12-4160-9819-1DC68C525F87
+    rank: normal
+    references:
+    - hash: 8bc722e6797143f2ba971ee5fedaeb0a331268e6
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 4b9ead388e47f64ea2ecb2b82c5d4f516003a8d5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 1975217
+              id: Q1975217
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: eda63bed5c3d7a3460033092338ab321a2374c7f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2041543
+          id: Q2041543
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P805:
+      - snaktype: value
+        property: P805
+        hash: 8668aaf177bd6a7083ca027f1c498a44df5163a5
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 23866591
+            id: Q23866591
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P805
+    id: Q128822$0A58819C-4DEA-49E4-A605-865AC6F13526
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: ce602d64c022a98783bb3d9d2e40731776a8be34
+      datavalue:
+        value:
+          amount: "+0.514444"
+          unit: http://www.wikidata.org/entity/Q182429
+          upperBound: "+0.514444"
+          lowerBound: "+0.514444"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q128822$96275b84-4226-7f90-455c-bbd7fc442281
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 1b833b85d11f09d88e970c58e8eddada9d801075
+      datavalue:
+        value: Knot
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q128822$ef4b38c9-4e43-84ca-67ca-93b23d0a746a
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Knoop (snelheid)
+    badges: []
+  arwiki:
+    site: arwiki
+    title: عقدة (وحدة)
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Nuedu (unidá)
+    badges: []
+  aswiki:
+    site: aswiki
+    title: নট
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Düyün (ölçü vahidi)
+    badges: []
+  barwiki:
+    site: barwiki
+    title: Knupf (Oaheid)
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Вузел (адзінка вымярэньня)
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Вузел (адзінка вымярэння)
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Възел (скорост)
+    badges: []
+  bowiki:
+    site: bowiki
+    title: ཚིགས།
+    badges: []
+  brwiki:
+    site: brwiki
+    title: Skoulm (unanenn)
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Nus (unitat)
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Uzel (jednotka)
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Knob (fart)
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Knoten (Einheit)
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Κόμβος
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Knot (unit)
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Knoto
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Nudo (unidad)
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Sõlm (kiirusühik)
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Korapilo (abiadura unitatea)
+    badges: []
+  fawiki:
+    site: fawiki
+    title: گره (یکای سرعت)
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Solmu (nopeusyksikkö)
+    badges: []
+  frrwiki:
+    site: frrwiki
+    title: Knoot
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Nœud (unité)
+    badges: []
+  gawiki:
+    site: gawiki
+    title: Muirmhíle
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Nó (náutica)
+    badges: []
+  hewiki:
+    site: hewiki
+    title: קשר (יחידת מידה)
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: नॉट (इकाई)
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Čvor
+    badges: []
+  huwiki:
+    site: huwiki
+    title: A sebesség mértékegységei
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Հանգույց (չափման միավոր)
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Knot (kecepatan)
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Hnútur
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Nodo (unità di misura)
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ノット
+    badges: []
+  kawiki:
+    site: kawiki
+    title: კვანძი (ნავიგაცია)
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Түйін (өлшем бірлігі)
+    badges: []
+  kmwiki:
+    site: kmwiki
+    title: ណុត
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 노트 (단위)
+    badges: []
+  lbwiki:
+    site: lbwiki
+    title: Knuet (Nautik)
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Mazgas (matas)
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Mezgls (ātruma mērvienība)
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Јазол (единица)
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: नॉट (एकक)
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Knoop (snelheid)
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Knop
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Knop (mål)
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Nos (unitat)
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Węzeł (jednostka prędkości)
+    badges: []
+  pmswiki:
+    site: pmswiki
+    title: Neu
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Nó (unidade)
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Nod (unitate)
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Узел (единица измерения)
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Knot (unit)
+    badges: []
+  sdwiki:
+    site: sdwiki
+    title: ناٽ
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Čvor (mjerna jedinica)
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Knot (speed)
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Námorný uzol
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Vozel (enota)
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Чвор (брзина)
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Knop (enhet)
+    badges: []
+  thwiki:
+    site: thwiki
+    title: นอต
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Knot
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Вузол (одиниця швидкості)
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Nút (đơn vị)
+    badges: []
+  warwiki:
+    site: warwiki
+    title: Nudo
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 節 (單位)
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 節 (單位)
+    badges: []

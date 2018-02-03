@@ -1,0 +1,59 @@
+---
+pageid: 23545125
+ns: 0
+title: Q21500224
+lastrevid: 561742427
+modified: '2017-09-19T02:59:04Z'
+type: item
+id: Q21500224
+labels:
+  en:
+    language: en
+    value: milliarcsecond
+aliases:
+  en:
+  - language: en
+    value: mas
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 114407d8f5f64b19f01153752bedcf6679128ec0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 13587321
+          id: Q13587321
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q21500224$20d61dcb-489d-0b31-7565-0415c28996cb
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: afc5e5962fa3e3c989f6c9604ac7da46ec0f913b
+      datavalue:
+        value: mas
+        type: string
+      datatype: string
+    type: statement
+    id: Q21500224$e52e0db1-4524-e386-616e-c3d7ae675b50
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 9505d45af35dee6b68a31580e1dc7ce345e3e89d
+      datavalue:
+        value:
+          amount: "+0.0000000048481368110954"
+          unit: http://www.wikidata.org/entity/Q33680
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q21500224$3b970748-4204-d8f4-8dcd-7ceac7c84ec9
+    rank: normal
+sitelinks: {}

@@ -1,0 +1,472 @@
+---
+pageid: 173753
+ns: 0
+title: Q173751
+lastrevid: 619477237
+modified: '2018-01-12T23:02:49Z'
+type: item
+id: Q173751
+labels:
+  en:
+    language: en
+    value: Kazakhstani tenge
+aliases: {}
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: a3441f95eca1deb0e0dd8a409dafade4511c36a3
+      datavalue:
+        value: Money of Kazakhstan
+        type: string
+      datatype: string
+    type: statement
+    id: q173751$D1478D13-B901-41A2-A166-1C4B02BF21DE
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q173751$EF89935F-7C00-43A1-BA19-49B206995188
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 07a6491d1185ce3a50e8fe047b26fbe6776793fc
+      datavalue:
+        value: KZT
+        type: string
+      datatype: external-id
+    type: statement
+    id: q173751$1a40a613-486e-81ae-6e17-31fec0e3c2f5
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 59bae97468490f29a9eb1f0b36f866e75c575243
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 232
+          id: Q232
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q173751$1CA6F275-B91E-471F-BA3C-C32A35F14CFC
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: b27970fe0afabbe9da3a5b0b7a01643849503327
+      datavalue:
+        value: KazakhstanP20-200Tenge-1999-donatedoy f.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: q173751$CEF4A0D7-2124-4C9A-BB62-54B318268886
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 7b88d502d5995e51c6d350999ff7db9fb591ba1d
+      datavalue:
+        value: 5000 Tugriks - Recto.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: q173751$FC97EDF7-B8ED-4644-8A95-51AF4C6C8D63
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: b4c8e9ce33911907412832565410be724f3ee6b3
+      datavalue:
+        value: Kazah tenge.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: q173751$1AE701A7-24B8-4FD3-A9FE-1799B98FF06B
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 715dbbb0332e5d0e7b6896a41ae3620053d7e8f9
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2472280
+          id: Q2472280
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q173751$B04157CB-027E-4493-8816-B65CC30ED183
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 0cf36b269a5b525849bc273d7910ae215ceb19a1
+      datavalue:
+        value: "/m/01km4c"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q173751$7D86CD62-B2DE-40A0-A2B8-922B80B3D09E
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2284:
+  - mainsnak:
+      snaktype: value
+      property: P2284
+      hash: 9212a5fbca52b03c5e89224b2f7ed75ad33e2e05
+      datavalue:
+        value:
+          amount: "+0.002984"
+          unit: http://www.wikidata.org/entity/Q4917
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: f742be92339cdcc54bf77fbdde9a24b9045f361a
+        datavalue:
+          value:
+            time: "+2016-11-22T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q173751$D83501CB-032C-4FE7-A13B-40DD190E82F0
+    rank: normal
+  P2924:
+  - mainsnak:
+      snaktype: value
+      property: P2924
+      hash: 302df3b02a8aa9c1e7b283862d01b9f54a208bb7
+      datavalue:
+        value: '4187077'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q173751$b9d70dc2-4892-ae2c-8d57-5b52743a130e
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: dcfa71bee41b38d6ed28d9947689c82162924a35
+      datavalue:
+        value: '500188'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q173751$BE01E97C-B56F-47FD-AAF2-8E11DD126256
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: تينغ كازاخستاني
+    badges: []
+  azbwiki:
+    site: azbwiki
+    title: قازاقیستان تنگه‌سی
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Qazaxıstan tengəsi
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Казахстанскі тэнгэ
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Казахстанско тенге
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: কাজাখস্তানি টেঙ্গে
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Kazahstanski tenge
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Tenge
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Tenge
+    badges: []
+  cvwiki:
+    site: cvwiki
+    title: Тенке
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Tenge
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Τένγκε
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Kazakhstani tenge
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Kazaĥa tengo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Tenge kazajo
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Tenge
+    badges: []
+  fawiki:
+    site: fawiki
+    title: تنگه قزاقستان
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Kazakstanin tenge
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Tenge kazakh
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: कज़ाख़िस्तान तेंगे
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Kazahstanski tenge
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Kazah tenge
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Tenge Kazakhstan
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Kasakstönsk tenga
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Tenge kazako
+    badges: []
+  jawiki:
+    site: jawiki
+    title: テンゲ
+    badges: []
+  kawiki:
+    site: kawiki
+    title: ყაზახური ტენგე
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Қазақстан теңгесі
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 카자흐스탄 텡게
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Казахстанса тенге
+    badges: []
+  kywiki:
+    site: kywiki
+    title: Казак теңгеси
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Kazachstano tengė
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Tenge
+    badges: []
+  mnwiki:
+    site: mnwiki
+    title: Хасагийн тенге
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: कझाकस्तानी टेंगे
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Tenge
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Kazachse tenge
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Kasakhstansk tenge
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਕਜ਼ਾਖ਼ਸਤਾਨੀ ਤੇਂਗੇ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Tenge
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Tenge
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Tenge
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Казахстанский тенге
+    badges: []
+  ruwikinews:
+    site: ruwikinews
+    title: Категория:Казахстанский тенге
+    badges: []
+  sahwiki:
+    site: sahwiki
+    title: Казахстан теҥгета
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Kazachstanský tenge
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Казахстански тенге
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Tenge
+    badges: []
+  tawiki:
+    site: tawiki
+    title: கசக்ஸ்தானிய டெங்கே
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Тенгеи Қазоқистон
+    badges: []
+  tkwiki:
+    site: tkwiki
+    title: Tenge
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Tenge
+    badges: []
+  ttwiki:
+    site: ttwiki
+    title: Казакъстан тәңкәсе
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Казахстанський теньге
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Tenge Kazakhstan
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: ყაზახური ტენგე
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Tenge
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Kazakhstan tenge
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 哈薩克堅戈
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 哈萨克斯坦坚戈
+    badges: []

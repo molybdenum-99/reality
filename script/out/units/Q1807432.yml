@@ -1,0 +1,78 @@
+---
+pageid: 1738613
+ns: 0
+title: Q1807432
+lastrevid: 498691769
+modified: '2017-06-10T07:36:54Z'
+type: item
+id: Q1807432
+labels:
+  en:
+    language: en
+    value: linear meter
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1c41b2ea8a3f6d3fab77c103d826ae5ead7a9c01
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1978718
+          id: Q1978718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1807432$FBA7C325-4A75-4DC7-B7E5-42AC0FD204EF
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 92e4506b6d33463e642ddfa46263ed71307d6722
+      datavalue:
+        value: Linear-Meter
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1807432$5C0ADED9-4DEC-4029-804E-3E0929132B36
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  cswiki:
+    site: cswiki
+    title: Běžný metr
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Laufender Meter
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Laudimeeter
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Løpemeter
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Metr bieżący
+    badges: []

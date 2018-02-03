@@ -1,0 +1,292 @@
+---
+pageid: 806332
+ns: 0
+title: Q854546
+lastrevid: 590932794
+modified: '2017-11-08T21:30:55Z'
+type: item
+id: Q854546
+labels:
+  en:
+    language: en
+    value: gigametre
+aliases:
+  en:
+  - language: en
+    value: gigameter
+  - language: en
+    value: Gm
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: b7c1aa3c39f4fd44523292044ec138b1aca58f5e
+      datavalue:
+        value: Gm
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: q854546$fe2a77ec-4424-895d-fd85-816288ef13ea
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: b307adf7433b9a48ebb70cce9d4fe313973e0c60
+      datavalue:
+        value: Гм
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q854546$7902cd55-499d-2fdd-2947-33ad8db15645
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1c41b2ea8a3f6d3fab77c103d826ae5ead7a9c01
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1978718
+          id: Q1978718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q854546$bb291681-40a8-7a88-77ee-329ce0dec7f1
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 632e155744a6bb85ce58b77cad7252916858a8b9
+      datavalue:
+        value: "/m/09gqhrt"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q854546$934A956A-92D7-4E91-AE97-0CB149A27A83
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 618186360e575898cb09f5e7626661a2db20b0c1
+      datavalue:
+        value:
+          amount: "+1000000000"
+          unit: http://www.wikidata.org/entity/Q11573
+          upperBound: "+1000000000"
+          lowerBound: "+1000000000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q854546$f9600cd7-4e79-f77d-700a-e0f6597761f4
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 94605a45e35623b8210324a7d7814faeb66e6fd1
+      datavalue:
+        value: gigametre
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q854546$FE3E2DA3-DCEA-49B2-A250-221985826CBF
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 4354e3cc033f2c5371e447e5ab1cca8b89ffa3e0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 36253
+          id: Q36253
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q854546$AC97E51A-49EF-4F53-9428-ED42061E57F6
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: جيجامتر
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Xigámetru
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: গিগামিটার
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Gigàmetre
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Gigameter
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Gigametre
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Gigámetro
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Gigametro
+    badges: []
+  fawiki:
+    site: fawiki
+    title: گیگامتر
+    badges: []
+  hakwiki:
+    site: hakwiki
+    title: Kîn-mí
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: गिगामीटर
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Gigameter
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Gigametro
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ギガメートル
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 기가미터
+    badges: []
+  lowiki:
+    site: lowiki
+    title: ກິກາແມັດ
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Гигаметар
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: ജിഗാമീറ്റർ
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: गिगामीटर
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Gigameter
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Gigameter
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Gigameter
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Gigametr
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Gigametro
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Gigametru
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Gigameter
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Gigametro
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Gigametre
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Gigamét
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 京米
+    badges: []

@@ -1,0 +1,173 @@
+---
+pageid: 852276
+ns: 0
+title: Q901492
+lastrevid: 509935558
+modified: '2017-06-29T20:37:01Z'
+type: item
+id: Q901492
+labels:
+  en:
+    language: en
+    value: Phot
+aliases:
+  en:
+  - language: en
+    value: ph
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q901492$c8168991-42c6-5b88-65db-5d2372b762d4
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 8d18a7da270910a1df613cb2b7c6a603f8325d10
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 194411
+          id: Q194411
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q901492$58dce33c-4362-6607-2c04-99fa83a78b9f
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: e8d7c52373a08ab6e2e4e1ede91b932bef49d95d
+      datavalue:
+        value: "/m/03c8w1"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q901492$C7FE63EB-F158-4ED4-A193-F3F1B92C7954
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 00ffd8341d9372c14c26d546438dda1ea9b6426d
+      datavalue:
+        value: Phot
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q901492$EA537A0F-61C8-4729-8158-5760C1E6A8E3
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: b70784fa2cd34f8a8087708295436078dfbcd94f
+      datavalue:
+        value:
+          amount: "+10000"
+          unit: http://www.wikidata.org/entity/Q179836
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q901492$424f136d-4697-8d77-4f1e-1c609e9f33b0
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Phot
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Phot
+    badges: []
+  fawiki:
+    site: fawiki
+    title: فوت (یکا)
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Phot
+    badges: []
+  jawiki:
+    site: jawiki
+    title: フォト (単位)
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Phot
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Phot
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Fot (jednostka)
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Phot
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Фот (единица измерения)
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Fot
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Phot
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Фот
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 輻透
+    badges: []

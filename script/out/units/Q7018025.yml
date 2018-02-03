@@ -1,0 +1,106 @@
+---
+pageid: 6899203
+ns: 0
+title: Q7018025
+lastrevid: 585123525
+modified: '2017-10-28T00:05:48Z'
+type: item
+id: Q7018025
+labels:
+  en:
+    language: en
+    value: Newfoundland pound
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q7018025$4f6f6d4b-4594-46ab-9580-7a2c3a0f8bbe
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 48dad11e4d75aa74b8b0904f85a3d307400ea278
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 339180
+          id: Q339180
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q7018025$35dc0ba3-4edb-9333-95c2-0b7310f5a175
+    rank: normal
+  P1001:
+  - mainsnak:
+      snaktype: value
+      property: P1001
+      hash: ac62125f34d513dfb84e235f189d0a58b6478367
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2984260
+          id: Q2984260
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q7018025$8e5e1004-4312-1482-59e0-d370f00abb8b
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 638db98dd44defddf704cc5fb2d24fff45c78dfe
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2984260
+          id: Q2984260
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q7018025$38d2fcdb-4833-a769-f522-0b89d39066cf
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Newfoundland pound
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Niufaundlando svaras
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Funt nowofundlandzki
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Ньюфаундлендский фунт
+    badges: []

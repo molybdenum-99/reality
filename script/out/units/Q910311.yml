@@ -1,0 +1,158 @@
+---
+pageid: 860967
+ns: 0
+title: Q910311
+lastrevid: 619095404
+modified: '2018-01-12T03:33:47Z'
+type: item
+id: Q910311
+labels:
+  en:
+    language: en
+    value: lumen second
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 50afdc16346d8687f53963f614e8d645419488a0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 208469
+          id: Q208469
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q910311$DFB043FE-E02D-4C18-A412-62DEB5052C68
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 88bc58f8b416e1482f746d808834b67c2d2ac4d4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 900164
+          id: Q900164
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q910311$F978AB57-8054-4362-AC8E-A4593C73AAAB
+    rank: normal
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 19280254485dfcb353896197b1b6355dbe5a3971
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 299565
+          id: Q299565
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q910311$9b30ddc8-4699-26de-a962-e1fdb914c2a3
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: cdefe4c268955404894af6b8f9df7e28c99d2c26
+      datavalue:
+        value: lm·s
+        type: string
+      datatype: string
+    type: statement
+    id: Q910311$41a5fa04-458e-45ae-d87a-8d7e60c5a694
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 6069e591077c568745eced3981a1311ccd4f20a0
+      datavalue:
+        value: лм·с
+        type: string
+      datatype: string
+    type: statement
+    id: Q910311$14da1e41-45bd-eefc-97bd-bdf161cec5c4
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 859fb6aabe9888939fffa0a1ef54d0090ee5c7ec
+      datavalue:
+        value: "/m/066ytj"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q910311$A80868CD-D20B-43DD-A8A0-8452AFCD6B65
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Talbot (fotometria)
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Lumensekunde
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Lumen second
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Talbot (fotometría)
+    badges: []
+  fawiki:
+    site: fawiki
+    title: لومن ثانیه
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Лумен-секунда
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Люмен-секунда
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Talbot (fotometrija)
+    badges: []

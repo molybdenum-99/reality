@@ -1,0 +1,870 @@
+---
+pageid: 3020
+ns: 0
+title: Q2111
+lastrevid: 620787377
+modified: '2018-01-15T22:20:27Z'
+type: item
+id: Q2111
+labels:
+  en:
+    language: en
+    value: speed of light
+aliases:
+  en:
+  - language: en
+    value: c
+claims:
+  P1645:
+  - mainsnak:
+      snaktype: value
+      property: P1645
+      hash: b0a6059a8c07b0d0a7212240ee0927a587f73679
+      datavalue:
+        value: c
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2111$a183a55e-43cf-5bd8-12e2-c5a0a2792a56
+    rank: normal
+    references:
+    - hash: 8ff9b31a173b1435cf8666d9ddce7c24de125ffb
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: b2f673b179f9a177a510018a5d891a7574b0a74d
+          datavalue:
+            value: http://physics.nist.gov/cgi-bin/cuu/Value?c
+            type: string
+          datatype: url
+      snaks-order:
+      - P854
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1f64db08b05b0ff1f134e2100d6effbae258367f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 173227
+          id: Q173227
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q2111$5C55740A-848A-45A8-885C-6AEC05FCA849
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: b4f9c836c43d6700bbb61b79f9c7e714c1b52c93
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 15222637
+          id: Q15222637
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2111$d1ac8627-4550-049f-fba4-8bd2fe6e5da9
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 3357c9310c2a5998c630697e7aa83b34859bbdd2
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 4493384
+          id: Q4493384
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2111$3a9e6caa-4c98-60fd-544d-ce00d6c29b47
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 5ed97d4972e1aa405bf2010cd5985ef467df4eaa
+      datavalue:
+        value: Speed of light
+        type: string
+      datatype: string
+    type: statement
+    id: q2111$A9E527EC-FEFB-4B66-91B1-8EE79356BC14
+    rank: normal
+  P416:
+  - mainsnak:
+      snaktype: value
+      property: P416
+      hash: 07f1130f1167146997fa0c7d9054b9afcce290a1
+      datavalue:
+        value: c
+        type: string
+      datatype: string
+    type: statement
+    id: q2111$57452ba3-440b-a977-e212-662173dd4aa6
+    rank: normal
+  P227:
+  - mainsnak:
+      snaktype: value
+      property: P227
+      hash: 29520cd593f94a568f00b5b06fe1954b95e5b02b
+      datavalue:
+        value: 4167583-6
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2111$B65E47BD-68C1-43F7-BB0B-E4C66B86EB7B
+    rank: normal
+    references:
+    - hash: 9a24f7c0208b05d6be97077d855671d1dfdbc0dd
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: d38375ffe6fe142663ff55cd783aa4df4301d83d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 48183
+              id: Q48183
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 76cbf13f8b2a896d9c4b58b2d5cb86b36abb6336
+      datavalue:
+        value: "/m/073n8"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2111$06FEBAC9-3C5F-4E37-8C86-563FD85B3DA2
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P1051:
+  - mainsnak:
+      snaktype: value
+      property: P1051
+      hash: ede99aa7a802ee84dc77c504ab09e9b047d1b016
+      datavalue:
+        value: '3168'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2111$421416E3-2AA5-49F2-870A-251073AA1591
+    rank: normal
+  P61:
+  - mainsnak:
+      snaktype: value
+      property: P61
+      hash: 5387e546b528eca4ab641ff0c9e24e812f95b152
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 160187
+          id: Q160187
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P575:
+      - snaktype: value
+        property: P575
+        hash: f8423c4f3ca9815a2704044f2235a71a4f491b38
+        datavalue:
+          value:
+            time: "+1675-00-00T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 9
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      P805:
+      - snaktype: value
+        property: P805
+        hash: 8062c24c41e35f5b225193399c22e01a48509fec
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 2898393
+            id: Q2898393
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P575
+    - P805
+    id: Q2111$d90c5acb-4656-1236-6d78-d58ef7a19013
+    rank: normal
+    references:
+    - hash: 51e9b2ce443d9376663dc87b117e7926a15fef99
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 035f8e4b6d8120dfcd781290953e04e396a0deaa
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 19025604
+              id: Q19025604
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P1181:
+  - mainsnak:
+      snaktype: value
+      property: P1181
+      hash: 83ae8ccc6b77d2ad386bfa26bd4490193b991b40
+      datavalue:
+        value:
+          amount: "+299792458"
+          unit: http://www.wikidata.org/entity/Q182429
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q2111$85708f28-4f3b-e5ff-23fc-85b3d28f5728
+    rank: normal
+    references:
+    - hash: effa23a3e1ee835176336c11857b5ae4659c8d1a
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: b2f673b179f9a177a510018a5d891a7574b0a74d
+          datavalue:
+            value: http://physics.nist.gov/cgi-bin/cuu/Value?c
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 76c42aa47876fc8827a1a20d1112295ab7e03952
+          datavalue:
+            value:
+              time: "+2015-11-02T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 641684c83b0133214966930e42703a708b96b3b6
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 735279
+              id: Q735279
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P854
+      - P813
+      - P248
+  P1552:
+  - mainsnak:
+      snaktype: value
+      property: P1552
+      hash: ff38479e4cf62f166bb3082837cb4dc7593b74f4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 19110
+          id: Q19110
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P2534:
+      - snaktype: value
+        property: P2534
+        hash: 9c12f323d2228e1700122d59e0673a447df1c34a
+        datavalue:
+          value: LT^{-1}
+          type: string
+        datatype: math
+    qualifiers-order:
+    - P2534
+    id: Q2111$5f0f8519-4b59-a462-9f41-204ea3371092
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 4c6724141e2e7fc4882941e4fd7c13bc26631027
+      datavalue:
+        value: Speed-of-Light
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2111$4CECF477-2033-4E8D-8C1D-02727214467C
+    rank: normal
+  P3569:
+  - mainsnak:
+      snaktype: value
+      property: P3569
+      hash: 3357e777b0a61a27b4809843cb408e396d6ff30c
+      datavalue:
+        value: natuurkunde-scheikunde-en-sterrenkunde/lichtsnelheid
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2111$4896FA47-CAE4-4279-AD88-6F4BE65009E4
+    rank: normal
+  P3827:
+  - mainsnak:
+      snaktype: value
+      property: P3827
+      hash: 7130434e6bb6c20593231eca52c34b8111e40949
+      datavalue:
+        value: speed-of-light
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2111$FA9B8DEA-C3E7-42EB-8A09-ED37FECA7375
+    rank: normal
+  P972:
+  - mainsnak:
+      snaktype: value
+      property: P972
+      hash: 37a243f05a3ffbf6bae1b263efbcd5b3fc88bb8d
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 5460604
+          id: Q5460604
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2111$431FAF24-D3B3-41C8-8AB4-56A96B095277
+    rank: normal
+  P4020:
+  - mainsnak:
+      snaktype: value
+      property: P4020
+      hash: 508c71da75a48e5a256aafa45531699277518a30
+      datavalue:
+        value: LT^{-1}05
+        type: string
+      datatype: math
+    type: statement
+    id: Q2111$b841477c-49ba-b8f4-90bc-c8e3985359ff
+    rank: normal
+  P2581:
+  - mainsnak:
+      snaktype: value
+      property: P2581
+      hash: 4058021e28160edfe77b5617f04170c16efb9434
+      datavalue:
+        value: 00014374n
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2111$4EBDAFC0-B04A-4EC0-8F7D-998E7D00F81A
+    rank: normal
+    references:
+    - hash: bd0ee81488cd8c23d4b655e417aac78dca370283
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: a0b4f55dbedbadaf83e7d2461b47b7aeaba86359
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 4837690
+              id: Q4837690
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Ligsnelheid
+    badges: []
+  alswiki:
+    site: alswiki
+    title: Lichtgeschwindigkeit
+    badges: []
+  amwiki:
+    site: amwiki
+    title: የብርሃን ፍጥነት
+    badges: []
+  anwiki:
+    site: anwiki
+    title: Velocidat d'a luz
+    badges: []
+  arwiki:
+    site: arwiki
+    title: سرعة الضوء
+    badges: []
+  arzwiki:
+    site: arzwiki
+    title: سرعة النور
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Velocidá de la lluz
+    badges: []
+  aswiki:
+    site: aswiki
+    title: পোহৰৰ বেগ
+    badges: []
+  azwiki:
+    site: azwiki
+    title: İşıq sürəti
+    badges: []
+  bawiki:
+    site: bawiki
+    title: Яҡтылыҡ тиҙлеге
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Хуткасьць сьвятла
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Скорасць святла
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Скорост на светлината
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: আলোর গতিবেগ
+    badges: []
+  brwiki:
+    site: brwiki
+    title: Tizh ar gouloù
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Brzina svjetlosti
+    badges: []
+  bxrwiki:
+    site: bxrwiki
+    title: Гэрэлэй хурдан
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Velocitat de la llum
+    badges: []
+  cdowiki:
+    site: cdowiki
+    title: Guŏng-sók
+    badges: []
+  ckbwiki:
+    site: ckbwiki
+    title: خێرایی ڕووناکی
+    badges: []
+  commonswiki:
+    site: commonswiki
+    title: Category:Speed of light
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Rychlost světla
+    badges: []
+  cywiki:
+    site: cywiki
+    title: Cyflymder golau
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Lysets hastighed
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Lichtgeschwindigkeit
+    badges:
+    - Q17437796
+  elwiki:
+    site: elwiki
+    title: Ταχύτητα του φωτός
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Speed of light
+    badges:
+    - Q17437796
+  enwikiquote:
+    site: enwikiquote
+    title: Speed of light
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Lumrapido
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Velocidad de la luz
+    badges:
+    - Q17437796
+  etwiki:
+    site: etwiki
+    title: Valguse kiirus
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Argiaren abiadura
+    badges: []
+  extwiki:
+    site: extwiki
+    title: Velociá de la lus
+    badges: []
+  fawiki:
+    site: fawiki
+    title: سرعت نور
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Valonnopeus
+    badges: []
+  frrwiki:
+    site: frrwiki
+    title: Faard faan't laacht
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Vitesse de la lumière
+    badges: []
+  furwiki:
+    site: furwiki
+    title: Velocitât de lûs
+    badges: []
+  gawiki:
+    site: gawiki
+    title: Luas an tsolais
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Velocidade da luz
+    badges: []
+  hewiki:
+    site: hewiki
+    title: מהירות האור
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: प्रकाश का वेग
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Brzina svjetlosti
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Fénysebesség
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Լույսի արագություն
+    badges: []
+  iawiki:
+    site: iawiki
+    title: Rapiditate de lumine
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Laju cahaya
+    badges:
+    - Q17437796
+  iswiki:
+    site: iswiki
+    title: Ljóshraði
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Velocità della luce
+    badges: []
+  itwikiquote:
+    site: itwikiquote
+    title: Velocità della luce
+    badges: []
+  jamwiki:
+    site: jamwiki
+    title: Spiid a lait
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 光速
+    badges: []
+  jbowiki:
+    site: jbowiki
+    title: nilsutra lo gusni
+    badges: []
+  kawiki:
+    site: kawiki
+    title: სინათლის სიჩქარე
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Жарық жылдамдығы
+    badges: []
+  kmwiki:
+    site: kmwiki
+    title: ល្បឿនពន្លឺ
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 빛의 속력
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Celeritas lucis
+    badges: []
+  lbwiki:
+    site: lbwiki
+    title: Liichtvitess
+    badges: []
+  lezwiki:
+    site: lezwiki
+    title: Экуьнин зарбвал
+    badges: []
+  lmowiki:
+    site: lmowiki
+    title: Velocità de la lus
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Šviesos greitis
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Gaismas ātrums
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Брзина на светлината
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: പ്രകാശവേഗം
+    badges: []
+  mnwiki:
+    site: mnwiki
+    title: Гэрлийн хурд
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: प्रकाशाचा वेग
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Kelajuan cahaya
+    badges: []
+  mywiki:
+    site: mywiki
+    title: အလင်းအလျင်
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Lichtsnelheid
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Ljosfarten
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Lysets hastighet
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Velocitat de la lutz
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਰੌਸ਼ਨੀ ਦੀ ਗਤੀ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Prędkość światła
+    badges: []
+  pnbwiki:
+    site: pnbwiki
+    title: روشنی دی رفتار
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Velocidade da luz
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Viteza luminii
+    badges: []
+  ruewiki:
+    site: ruewiki
+    title: Швыдкость світла
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Скорость света
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Speed o licht
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Brzina svjetlosti
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Speed of light
+    badges: []
+  siwiki:
+    site: siwiki
+    title: ආලෝකයේ වේගය
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Rýchlosť svetla vo vákuu
+    badges:
+    - Q17437796
+  slwiki:
+    site: slwiki
+    title: Hitrost svetlobe
+    badges: []
+  sowiki:
+    site: sowiki
+    title: Xawaaraha Ileyska
+    badges: []
+  sqwiki:
+    site: sqwiki
+    title: Shpejtësia e dritës
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Брзина светлости
+    badges: []
+  stqwiki:
+    site: stqwiki
+    title: Luchtgauegaid
+    badges: []
+  suwiki:
+    site: suwiki
+    title: Laju cahaya
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Ljusets hastighet
+    badges: []
+  swwiki:
+    site: swwiki
+    title: Kasi ya nuru
+    badges: []
+  tawiki:
+    site: tawiki
+    title: ஒளியின் வேகம்
+    badges: []
+  tewiki:
+    site: tewiki
+    title: కాంతి వేగం
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Суръати рӯшноӣ
+    badges: []
+  thwiki:
+    site: thwiki
+    title: อัตราเร็วของแสง
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Bilis ng liwanag
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Işık hızı
+    badges: []
+  ttwiki:
+    site: ttwiki
+    title: Яктылык тизлеге
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Швидкість світла
+    badges: []
+  urwiki:
+    site: urwiki
+    title: روشنی کی رفتار
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Yorugʻlik tezligi
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Tốc độ ánh sáng
+    badges:
+    - Q17437796
+  warwiki:
+    site: warwiki
+    title: Kalaksi han lamrag
+    badges: []
+  yiwiki:
+    site: yiwiki
+    title: גיך פון ליכט
+    badges: []
+  zh_classicalwiki:
+    site: zh_classicalwiki
+    title: 光速
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Kng-sok
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 光速
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 光速
+    badges: []

@@ -1,0 +1,76 @@
+---
+pageid: 44158284
+ns: 0
+title: Q42907547
+lastrevid: 592720343
+modified: '2017-11-12T16:24:07Z'
+type: item
+id: Q42907547
+labels:
+  en:
+    language: en
+    value: Nxt
+aliases:
+  en:
+  - language: en
+    value: Nxtcoin
+claims:
+  P856:
+  - mainsnak:
+      snaktype: value
+      property: P856
+      hash: e03d9c21e9241b1797590b348bf5263e8e783832
+      datavalue:
+        value: https://nxtplatform.org
+        type: string
+      datatype: url
+    type: statement
+    id: Q42907547$7ae3a7c7-4c3c-cc6d-2ed0-391d6fde0a0a
+    rank: normal
+    references:
+    - hash: d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 5a343e7e758a4282a01316d3e959b6e653b767fc
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 11920
+              id: Q11920
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 16ab8cfff2957341998c927ff03e50befb65a864
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 13479982
+          id: Q13479982
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q42907547$b381aebd-4943-46e8-76c8-6627f64faeb5
+    rank: normal
+  P2283:
+  - mainsnak:
+      snaktype: value
+      property: P2283
+      hash: 44f05fe9dd11fd000be7fb09e5bf3a760fbf7ff7
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 17083510
+          id: Q17083510
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q42907547$62d4fd5f-4c5d-5145-17a4-ec24d53c542b
+    rank: normal
+sitelinks: {}

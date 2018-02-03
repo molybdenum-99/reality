@@ -1,0 +1,363 @@
+---
+pageid: 182564
+ns: 0
+title: Q183530
+lastrevid: 617888050
+modified: '2018-01-08T22:57:43Z'
+type: item
+id: Q183530
+labels:
+  en:
+    language: en
+    value: Ghana cedi
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q183530$FADC1329-A851-4EB7-9B37-CC5BC774FFEB
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 68b3e144acef86283167606572d4abd04756494a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 669484
+          id: Q669484
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q183530$A6CF9C93-06FB-499A-8DD6-DA242B0AC64E
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 20fbe7b132c091bf5e9cb878638613934272a41d
+      datavalue:
+        value: Money of Ghana
+        type: string
+      datatype: string
+    type: statement
+    id: q183530$32C038E9-CA78-46F8-8288-1B84F51FEF8A
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 88a83dce09b3c33e7ae658d7753e08c96c588995
+      datavalue:
+        value: "/m/01s733"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q183530$726830D9-F531-4A22-B3F2-504BFFAF8A37
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 1633aa810c499516bdda4b9d3bd0d7eb137fa384
+      datavalue:
+        value: GHS
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q183530$46329faa-4b8f-2800-5b94-ca3b16e3d966
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 99d3977c7f1cef8fba49c1ab6fa99c2fa20a7f04
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 117
+          id: Q117
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q183530$a5fcee18-40d5-ac62-82dc-c96c6a686191
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 8731ff6aebf0a502dbf10e230241d7deed31ce70
+      datavalue:
+        value: Cedi
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q183530$5f561707-486b-4d7d-ee8a-98044a517408
+    rank: normal
+  P487:
+  - mainsnak:
+      snaktype: value
+      property: P487
+      hash: 57e85a945fb8466ac490aac3b7f3fe7006d73394
+      datavalue:
+        value: "₵"
+        type: string
+      datatype: string
+    type: statement
+    id: Q183530$fdbd6204-4aac-2364-581e-647ec3245c60
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: dc9291494317249bd50a3bacbe30ee14e5d4d887
+      datavalue:
+        value: '500457'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q183530$90F781B3-8B0F-4A98-ADFB-0425BC568220
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: سيدي غاني
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Ганскі сэдзі
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Седзі
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Ганайско седи
+    badges: []
+  brwiki:
+    site: brwiki
+    title: Cedi
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Cedi
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Ghanský cedi
+    badges: []
+  cywiki:
+    site: cywiki
+    title: Cedi
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Cedi
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Cedi
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Σέντι της Γκάνας
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Ghanaian cedi
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Ganaa cedio
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Cedi
+    badges: []
+  fawiki:
+    site: fawiki
+    title: سدی غنا
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Cedi
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Cedi
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Cedi
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: घानियन सेडी
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Ganski cedi
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Ghánai cedi
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Cedi ghanese
+    badges: []
+  jawiki:
+    site: jawiki
+    title: セディ
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 가나 세디
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Sedis
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: घाना सेडी
+    badges: []
+  mznwiki:
+    site: mznwiki
+    title: سدی
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Ghanese cedi
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Cedi
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Ghanesisk cedi
+    badges: []
+  pdcwiki:
+    site: pdcwiki
+    title: Cedi
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Cedi
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Cedi
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Ганский седи
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Ganski cedi
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Cedi
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Гански седи
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Ghana Cedi
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Седи Гана
+    badges: []
+  tkwiki:
+    site: tkwiki
+    title: Sedi
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Cedi ng Ghana
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Cedi
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Ганський седі
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Cedi
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Ghana cedi
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 迦納塞地
+    badges: []

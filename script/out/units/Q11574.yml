@@ -1,0 +1,1337 @@
+---
+pageid: 13094
+ns: 0
+title: Q11574
+lastrevid: 625069694
+modified: '2018-01-31T12:13:14Z'
+type: item
+id: Q11574
+labels:
+  en:
+    language: en
+    value: second
+aliases:
+  en:
+  - language: en
+    value: sec
+  - language: en
+    value: s
+  - language: en
+    value: seconds
+claims:
+  P1245:
+  - mainsnak:
+      snaktype: value
+      property: P1245
+      hash: c679ff4ed2405d54064fcba7705ff1093e9768fd
+      datavalue:
+        value: '5947'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q11574$5d9611bb-46a6-c70c-8b1e-e038919baa14
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: fc41ce065cc950a2a594a255daee29c6c9cf6207
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 223662
+          id: Q223662
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q11574$F75E1990-494C-47EA-BFF6-CBEBBC4ED442
+    rank: normal
+    references:
+    - hash: 1750d614542bfc4a7d9bd8583e155ed40f07fe8c
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 0d9ed4832057836a4e63e6029b774a8f2cc2e0b2
+          datavalue:
+            value: '17'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: 0053053d5bfe3b2535ba1ac9af1b770c477d100f
+          datavalue:
+            value: 6.5.2
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 98a1e85b80bda7ff493c25a6b805599da715c077
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1790144
+          id: Q1790144
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q11574$DF712C13-72CC-442E-B5D5-67B7BCAB7A99
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: b51d0e8c69d616ca8029e349f2120e118d96cc32
+      datavalue:
+        value: Second
+        type: string
+      datatype: string
+    type: statement
+    id: q11574$0F4A089C-E13E-4FDE-939A-73AA21261D70
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 4965ef719927e068866d99c206275570255c6f26
+      datavalue:
+        value: s
+        type: string
+      datatype: string
+    type: statement
+    id: q11574$3d02bf22-40fe-bd72-2ffe-bdfe0c70d451
+    rank: normal
+    references:
+    - hash: 1750d614542bfc4a7d9bd8583e155ed40f07fe8c
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 0d9ed4832057836a4e63e6029b774a8f2cc2e0b2
+          datavalue:
+            value: '17'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: 0053053d5bfe3b2535ba1ac9af1b770c477d100f
+          datavalue:
+            value: 6.5.2
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+    - hash: 819cd4ed59f1656a7ed3e683aff04ee8460cbcb2
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: 9c6972b5d1f74d298a8994a9ffea18829fd5c48a
+          datavalue:
+            value: 3-7.a
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+    - hash: 79c81703192c81c79d8f71fcfc9dfe5545a0f836
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: 2d77cdaa6979bae8bc7e7c8027cc73031c0bac33
+          datavalue:
+            value: 3-12.a
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+    - hash: 544d97ea535729425dddd443e083c93228a885bd
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: ce3b79a7bb83bec85b1058d64f1f40987d4b5a9b
+          datavalue:
+            value: 3-13.a
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 58517ae91f6f1a3bede038c55f4de98a3d9fcd66
+      datavalue:
+        value: с
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P407:
+      - snaktype: value
+        property: P407
+        hash: d291ddb7cd77c94a7bd709a8395934147e0864fc
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 7737
+            id: Q7737
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P407
+    id: Q11574$cd503c04-4b99-a3f1-143e-f75ef6f63bb2
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: fdf0ce4f67ed7f32b6ad8186c005f5350007fec1
+      datavalue:
+        value: ث
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P407:
+      - snaktype: value
+        property: P407
+        hash: 1b1356fe89ad919c93fbcf2b7754a7a6ae114093
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 13955
+            id: Q13955
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P407
+    id: Q11574$0de38b9b-40cd-f3e4-f9d0-d0c06ece88b7
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 295b460c179f19b12d48ccf89002c822f9012404
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 7727
+          id: Q7727
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q11574$44cccb6b-41a5-ae82-9fd7-64d526981d98
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 0cf81615b73f8b94fd6909d541faf89b7823d204
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 26240
+          id: Q26240
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q11574$a5ea021b-4cb0-30d4-3c7b-f2d7c81049d7
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: cad9c8aaaca54775fbdf2a905eed8502eab3de09
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 512417
+          id: Q512417
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q11574$c9fe8ed1-4f66-0e90-b584-94d7051a0866
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 829b29211712802dce1840987476d46ad9266dd3
+      datavalue:
+        value: "/m/06nxt"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q11574$2A316BBF-8387-426A-82E4-05042FC528CA
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: f24e032a9edffb089eb58a8af5d2b30d49357f73
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11471
+          id: Q11471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q11574$b319fa45-49c8-d7c2-4b9d-cf3f819af007
+    rank: normal
+    references:
+    - hash: 1750d614542bfc4a7d9bd8583e155ed40f07fe8c
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 0d9ed4832057836a4e63e6029b774a8f2cc2e0b2
+          datavalue:
+            value: '17'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: 0053053d5bfe3b2535ba1ac9af1b770c477d100f
+          datavalue:
+            value: 6.5.2
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: d7426a315d7d0075c309bf8db5455ba5e415e2f2
+      datavalue:
+        value:
+          amount: "+1"
+          unit: http://www.wikidata.org/entity/Q11574
+          upperBound: "+1"
+          lowerBound: "+1"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q11574$6cf4c64f-4e04-641b-9f18-dff2a01d37f5
+    rank: normal
+  P935:
+  - mainsnak:
+      snaktype: value
+      property: P935
+      hash: 26f974d47e484af00c72aff20b753fdba84ed25e
+      datavalue:
+        value: Second
+        type: string
+      datatype: string
+    type: statement
+    id: Q11574$B9778B09-2999-4D28-BFF3-E2BCA03A2A30
+    rank: normal
+  P2803:
+  - mainsnak:
+      snaktype: value
+      property: P2803
+      hash: 15069c319ab39efa4a929dcd75d62a08a0a1d42f
+      datavalue:
+        value:
+          amount: "+14"
+          unit: '1'
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q11574$8300d078-4ea4-8e75-6fb1-5e75f7d8497c
+    rank: normal
+    references:
+    - hash: b4147714250705a404dbab5498df6bf642f8d11c
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 73865457b9769a749e50619f4e961401d4eb3b06
+          datavalue:
+            value: https://www.wikidata.org/wiki/Special:ListDatatypes#Time
+            type: string
+          datatype: url
+      snaks-order:
+      - P854
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: 5bbe97789237ce4f617c76b2ebdfca50a4ab24a2
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 186081
+          id: Q186081
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q11574$A84A0303-9BA6-4349-BA85-57B8DDAF2B8E
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: eba35e3316fc8eec9b59d63bea86e82eb9cf8eff
+      datavalue:
+        value: SecondTime
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q11574$729EDF84-26C8-426A-9121-0558A41322E0
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: a166354ae7650e499a07d1df3f3b940c36e7fd72
+      datavalue:
+        value: Clock-pendulum.gif
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q11574$8ca1f96a-479f-9c2e-7d6b-7372659f480c
+    rank: normal
+  P527:
+  - mainsnak:
+      snaktype: value
+      property: P527
+      hash: 881da2c986e305513092093074dce975bf2f10f2
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2642727
+          id: Q2642727
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P1114:
+      - snaktype: value
+        property: P1114
+        hash: 4c8fb0a95262b56b603519eb6bf41741e77f816f
+        datavalue:
+          value:
+            amount: "+9192631770"
+            unit: '1'
+          type: quantity
+        datatype: quantity
+      P642:
+      - snaktype: value
+        property: P642
+        hash: b12a6b6ffeb875ae8693ee994503416cd037969d
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 2327948
+            id: Q2327948
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P1114
+    - P642
+    id: Q11574$8f62f667-43cd-6a46-8394-7f2f8c0764cd
+    rank: normal
+  P972:
+  - mainsnak:
+      snaktype: value
+      property: P972
+      hash: 37a243f05a3ffbf6bae1b263efbcd5b3fc88bb8d
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 5460604
+          id: Q5460604
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q11574$799D4903-60C7-4613-B2E3-960ECD2E162E
+    rank: normal
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: '095b22e5c47a47f7d5e84e00899837038be11bd4'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 26711932
+          id: Q26711932
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P958:
+      - snaktype: value
+        property: P958
+        hash: 9c6972b5d1f74d298a8994a9ffea18829fd5c48a
+        datavalue:
+          value: 3-7.a
+          type: string
+        datatype: string
+    qualifiers-order:
+    - P958
+    id: Q11574$6442ea96-47c1-3174-5540-36fdda629673
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: e92598a7a30c08cde073eccf81ae1f9e3feb05fc
+      datavalue:
+        value: second-time
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q11574$F18915B6-E662-4043-A007-4CF8836C21BB
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 485083dfc47d0046a7f8f355e8b4ea32b1356854
+      datavalue:
+        value:
+          amount: "+0.00000000003170979198377"
+          unit: http://www.wikidata.org/entity/Q36507
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q11574$d805a046-4961-85bd-ab02-644137f64d26
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 442b3c42e78db96f40ab4cfde3c7fdf88c509d69
+      datavalue:
+        value:
+          amount: "+0.0000000003170979198377"
+          unit: http://www.wikidata.org/entity/Q578
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q11574$f71320b5-499e-6d03-83ab-53d77b553a0a
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 80237119fd2bfc81294dea489d9e2b11b6cbc315
+      datavalue:
+        value:
+          amount: "+0.000000003170979198377"
+          unit: http://www.wikidata.org/entity/Q39911
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q11574$960fcafd-4567-c190-724a-62e1cb129542
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 446cb20723fcd2336ec4c60630d515423eccc00a
+      datavalue:
+        value:
+          amount: "+0.00000003168808781403"
+          unit: http://www.wikidata.org/entity/Q217208
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q11574$4dbd169a-42d9-204d-468a-b32d575468ea
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: da3bd809aaf9d5d647d7da313c2c18de24ea736b
+      datavalue:
+        value:
+          amount: "+0.00000003168873850681"
+          unit: http://www.wikidata.org/entity/Q39628023
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q11574$9cba2b64-4fd2-f4a9-32b7-5e58a438cf0b
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: cef284684ca5b0e3075f09a99272ddfcc7cf66bd
+      datavalue:
+        value:
+          amount: "+0.00000003168876462184"
+          unit: http://www.wikidata.org/entity/Q189607
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q11574$cf539bc3-4915-dc14-3d97-e9f9aadd644e
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: fda5e1f3996813447c1e278fae9914c4057828ca
+      datavalue:
+        value:
+          amount: "+0.00000003170979198377"
+          unit: http://www.wikidata.org/entity/Q577
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q11574$1629d2c2-4403-5b28-e0cb-13acea15fd0f
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 298ef25d98601ac9a82ca5578ffa7946cd706d47
+      datavalue:
+        value:
+          amount: "+0.0000003802537330419"
+          unit: http://www.wikidata.org/entity/Q5151
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q11574$6476f1d8-42ae-f71c-12b5-aec47edc81e9
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 408724a2e76ded8ac001d91687099652e0894680
+      datavalue:
+        value:
+          amount: "+0.0000008267195767196"
+          unit: http://www.wikidata.org/entity/Q2993680
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q11574$e6487b67-4f3f-0079-4741-1fad28de2477
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: ef26c165e964347eff96205d2fceced854617066
+      datavalue:
+        value:
+          amount: "+0.000001653439153439"
+          unit: http://www.wikidata.org/entity/Q23387
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q11574$83e681d8-457e-f80d-93bf-0a062bd29f94
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: c2396d3655d2a2c37230cfd1d1ad58778aa4a685
+      datavalue:
+        value:
+          amount: "+0.00001157407407407"
+          unit: http://www.wikidata.org/entity/Q573
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q11574$674cb07d-43af-7827-b569-343aec753f6d
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 7add83461e07ad19d96d221ba619d9a8a79b1e92
+      datavalue:
+        value:
+          amount: "+0.0002777777777778"
+          unit: http://www.wikidata.org/entity/Q25235
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q11574$33349aab-4e57-3359-2df7-66119f65d5d0
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 9eb4d6f20618e228686269169fb4b38a305adc2f
+      datavalue:
+        value:
+          amount: "+0.01666666666667"
+          unit: http://www.wikidata.org/entity/Q7727
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q11574$f5fed72f-4315-c76f-2aeb-2c5cf3e713f5
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: cdd9ae7ab5e812c2998938db1a2e62959b8f4938
+      datavalue:
+        value:
+          amount: "+1000"
+          unit: http://www.wikidata.org/entity/Q723733
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q11574$2a2c762f-4f40-77e4-574b-27c98c0746f7
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 4858eb93a57da234d40e6c7f3b3ca6107958da5e
+      datavalue:
+        value:
+          amount: "+1000000"
+          unit: http://www.wikidata.org/entity/Q842015
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q11574$103dbdd3-4633-d146-81c8-7ac84ab24bc2
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 0bb6bc124cc93e4fd57a1e78b361b547db17a96a
+      datavalue:
+        value:
+          amount: "+1000000000"
+          unit: http://www.wikidata.org/entity/Q838801
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q11574$5fe55853-4133-d4e4-4634-cfe5eb517340
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Sekonde
+    badges: []
+  alswiki:
+    site: alswiki
+    title: Sekunde
+    badges: []
+  amwiki:
+    site: amwiki
+    title: ሴኮንድ
+    badges: []
+  anwiki:
+    site: anwiki
+    title: Segundo
+    badges: []
+  arcwiki:
+    site: arcwiki
+    title: ܪܦܦܐ
+    badges: []
+  arwiki:
+    site: arwiki
+    title: ثانية
+    badges: []
+  arzwiki:
+    site: arzwiki
+    title: ثانيه
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Segundu
+    badges: []
+  aswiki:
+    site: aswiki
+    title: ছেকেণ্ড
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Saniyə
+    badges: []
+  barwiki:
+    site: barwiki
+    title: Sekund
+    badges: []
+  bat_smgwiki:
+    site: bat_smgwiki
+    title: Sekondė
+    badges: []
+  bawiki:
+    site: bawiki
+    title: Секунд
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Сэкунда
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Секунда
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Секунда
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: সেকেন্ড
+    badges: []
+  bowiki:
+    site: bowiki
+    title: སྐར་ཆ།
+    badges: []
+  brwiki:
+    site: brwiki
+    title: Eilenn (amzer)
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Sekunda
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Segon
+    badges: []
+  ckbwiki:
+    site: ckbwiki
+    title: چرکە
+    badges: []
+  commonswiki:
+    site: commonswiki
+    title: Second
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Sekunda
+    badges: []
+  cywiki:
+    site: cywiki
+    title: Eiliad
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Sekund
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Sekunde
+    badges: []
+  dewikiquote:
+    site: dewikiquote
+    title: Sekunde
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Δευτερόλεπτο
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Second
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Sekundo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Segundo
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Sekund
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Segundo
+    badges: []
+  fawiki:
+    site: fawiki
+    title: ثانیه
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Sekunti
+    badges: []
+  frrwiki:
+    site: frrwiki
+    title: Sekund
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Seconde (temps)
+    badges: []
+  furwiki:
+    site: furwiki
+    title: Secont
+    badges: []
+  fywiki:
+    site: fywiki
+    title: Sekonde
+    badges: []
+  ganwiki:
+    site: ganwiki
+    title: 秒
+    badges: []
+  gawiki:
+    site: gawiki
+    title: Soicind
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Segundo
+    badges: []
+  gnwiki:
+    site: gnwiki
+    title: Aravo'ive
+    badges: []
+  guwiki:
+    site: guwiki
+    title: સેકન્ડ
+    badges: []
+  hakwiki:
+    site: hakwiki
+    title: Miéu
+    badges: []
+  hewiki:
+    site: hewiki
+    title: שנייה
+    badges: []
+  hifwiki:
+    site: hifwiki
+    title: Second
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: सेकेंड
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Sekunda
+    badges: []
+  htwiki:
+    site: htwiki
+    title: Segonn
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Másodperc
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Վայրկյան
+    badges: []
+  iawiki:
+    site: iawiki
+    title: Secunda
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Detik
+    badges: []
+  ilowiki:
+    site: ilowiki
+    title: Segundo
+    badges: []
+  iowiki:
+    site: iowiki
+    title: Sekundo
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Sekúnda
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Secondo
+    badges: []
+  itwikiquote:
+    site: itwikiquote
+    title: Secondo
+    badges: []
+  jamwiki:
+    site: jamwiki
+    title: Sekan
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 秒
+    badges:
+    - Q17437798
+  jbowiki:
+    site: jbowiki
+    title: snidu
+    badges: []
+  kawiki:
+    site: kawiki
+    title: წამი
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Секунд
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 초 (시간)
+    badges: []
+  krcwiki:
+    site: krcwiki
+    title: Секунд
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Secundum
+    badges: []
+  lbwiki:
+    site: lbwiki
+    title: Sekonn
+    badges: []
+  liwiki:
+    site: liwiki
+    title: Secónd
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Sekundė
+    badges: []
+  ltwikiquote:
+    site: ltwikiquote
+    title: Sekundė
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Sekunde
+    badges: []
+  maiwiki:
+    site: maiwiki
+    title: सेकेण्ड
+    badges: []
+  mgwiki:
+    site: mgwiki
+    title: Segondra
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Секунда
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: സെക്കന്റ്
+    badges: []
+  mnwiki:
+    site: mnwiki
+    title: Секунд
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: सेकंद
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Saat
+    badges: []
+  mywiki:
+    site: mywiki
+    title: စက္ကန့်
+    badges: []
+  ndswiki:
+    site: ndswiki
+    title: Sekunn
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Seconde
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Sekund
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Sekund
+    badges: []
+  nsowiki:
+    site: nsowiki
+    title: Motsotswana
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Segonda
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਸਕਿੰਟ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Sekunda
+    badges: []
+  plwikiquote:
+    site: plwikiquote
+    title: Sekunda
+    badges: []
+  pmswiki:
+    site: pmswiki
+    title: Second
+    badges: []
+  pnbwiki:
+    site: pnbwiki
+    title: سکنٹ
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Segundo
+    badges: []
+  quwiki:
+    site: quwiki
+    title: Sikundu
+    badges: []
+  roa_tarawiki:
+    site: roa_tarawiki
+    title: Seconne
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Secundă
+    badges: []
+  ruewiki:
+    site: ruewiki
+    title: Секунда
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Секунда
+    badges: []
+  sahwiki:
+    site: sahwiki
+    title: Сөкүүндэ
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Seicont
+    badges: []
+  sdwiki:
+    site: sdwiki
+    title: سيڪنڊ
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Sekund
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Second
+    badges: []
+  siwiki:
+    site: siwiki
+    title: තත්පරය
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Sekunda
+    badges: []
+  skwikiquote:
+    site: skwikiquote
+    title: Sekunda
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Sekunda
+    badges: []
+  sowiki:
+    site: sowiki
+    title: Ilbiriqsi
+    badges: []
+  sqwiki:
+    site: sqwiki
+    title: Sekonda
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Секунд
+    badges: []
+  suwiki:
+    site: suwiki
+    title: Detik
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Sekund
+    badges: []
+  swwiki:
+    site: swwiki
+    title: Sekunde
+    badges: []
+  szlwiki:
+    site: szlwiki
+    title: Sekůnda
+    badges: []
+  tawiki:
+    site: tawiki
+    title: நொடி (கால அளவு)
+    badges: []
+  tewiki:
+    site: tewiki
+    title: సెకను
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Сония
+    badges: []
+  thwiki:
+    site: thwiki
+    title: วินาที
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Saniye
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Секунда
+    badges: []
+  urwiki:
+    site: urwiki
+    title: ثانیہ
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Soniya
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Giây
+    badges: []
+  warwiki:
+    site: warwiki
+    title: Segundo
+    badges: []
+  wawiki:
+    site: wawiki
+    title: Sigonde
+    badges: []
+  wowiki:
+    site: wowiki
+    title: Saa
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: მერქა
+    badges: []
+  yiwiki:
+    site: yiwiki
+    title: סעקונדע
+    badges: []
+  zawiki:
+    site: zawiki
+    title: Miux
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Bió
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 秒 (時間)
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 秒
+    badges: []

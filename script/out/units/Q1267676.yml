@@ -1,0 +1,276 @@
+---
+pageid: 1208364
+ns: 0
+title: Q1267676
+lastrevid: 622989840
+modified: '2018-01-24T14:21:41Z'
+type: item
+id: Q1267676
+labels:
+  en:
+    language: en
+    value: Tremadocian
+aliases: {}
+claims:
+  P155:
+  - mainsnak:
+      snaktype: value
+      property: P155
+      hash: a8711d85e22ab48a4c43ce19e5a2fda115d9da48
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 5025305
+          id: Q5025305
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q1267676$4BA8060E-4EB0-4AFD-B283-6D97ECB3A6D3
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P156:
+  - mainsnak:
+      snaktype: value
+      property: P156
+      hash: a944445bf5879588653aa41f036378035b5b2c92
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10528257
+          id: Q10528257
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q1267676$82FE6EC0-EE9D-4736-83AB-AC9627382ED6
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 65071228089fa98078d47f23d00c37293d75a982
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2035368
+          id: Q2035368
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q1267676$0EB457AE-6B77-43F7-B857-3F64570B7477
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 4ab690f0ed30d5fea4616ee992ed34b60e827162
+      datavalue:
+        value: "/m/06_4ht"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1267676$B12373E3-C56A-49FF-B188-A2211F59E59B
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P625:
+  - mainsnak:
+      snaktype: value
+      property: P625
+      hash: 0a5331741ffb92bd21507bea7f42f5039fee0c74
+      datavalue:
+        value:
+          latitude: 49.6829
+          longitude: -57.9653
+          altitude: 
+          precision: 0.01388394385826
+          globe: http://www.wikidata.org/entity/Q2
+        type: globecoordinate
+      datatype: globe-coordinate
+    type: statement
+    id: Q1267676$8B1202D6-C77E-4372-9264-D98A1440A420
+    rank: normal
+    references:
+    - hash: 9cdd4f1d064faebc44a10fbd408afa604f3b89f6
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 16eef556b717b1b9c8e2599faef3af2af8537632
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 199700
+              id: Q199700
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1774498cb861c7f76e71afc94661ed9a03d8461a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1123245
+          id: Q1123245
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1267676$30c6f7f4-42c1-8592-fdfd-bf20b4c04df1
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: b230ba6f73ec78c2fd8b28c19fab3a1a3e51124e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 568683
+          id: Q568683
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1267676$51da0bb4-4828-a25f-a6d1-9a751129eda6
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: e07a64701217296aef22f20a77d7d24693d105a8
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10739169
+          id: Q10739169
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1267676$6e72f814-4a20-af00-0ccc-c3e358bf450e
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: التريمادوشي
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Тремадокий
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Tremadocium
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Tremadocian
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Tremadociense
+    badges: []
+  fawiki:
+    site: fawiki
+    title: ترمادوسین
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Trémadocien
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Tremadociano
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Tremadocien
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Tremadocium
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Tremadok
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Tremadociano
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Тремадокский ярус
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Tremadok
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Тремадокський ярус
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Tầng Tremadoc
+    badges: []

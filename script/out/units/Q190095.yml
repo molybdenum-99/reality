@@ -1,0 +1,649 @@
+---
+pageid: 188544
+ns: 0
+title: Q190095
+lastrevid: 582985734
+modified: '2017-10-23T09:21:54Z'
+type: item
+id: Q190095
+labels:
+  en:
+    language: en
+    value: gray
+aliases:
+  en:
+  - language: en
+    value: Gy
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 50afdc16346d8687f53963f614e8d645419488a0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 208469
+          id: Q208469
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q190095$D8EC6FED-0225-47E1-87A7-DAFE3C562D83
+    rank: normal
+    references:
+    - hash: 3896afd7baf0e1629db1a1af56241836f65fb2c3
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 0a2fe880cf33d2b0639c9ba25541b40e4bac3e9d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 19606873
+              id: Q19606873
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+    - hash: 02d4e4618994d58a7d4fde87c8b6db143858a372
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: c2213e83c554bae5121243bc2ace76aeffa9ce42
+          datavalue:
+            value: '19'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: a8acdbdb9ade23dbae3d6835a293e04c6df76a0f
+          datavalue:
+            value: 6.5.3
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: d29225820072e20c06044e50af3f0d4e05601a73
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 215313
+          id: Q215313
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q190095$3B1AB296-09C5-4D76-93FC-F55359746263
+    rank: normal
+    references:
+    - hash: 02d4e4618994d58a7d4fde87c8b6db143858a372
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: c2213e83c554bae5121243bc2ace76aeffa9ce42
+          datavalue:
+            value: '19'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: a8acdbdb9ade23dbae3d6835a293e04c6df76a0f
+          datavalue:
+            value: 6.5.3
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 2d49b388dc48bb2a285db8b1c5fc7799da4d8f02
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 551288
+          id: Q551288
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q190095$76FF7BCE-EEED-4D59-96C5-567EF23032BB
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: dff2ffe19dfad4fbdd8dcae615f707da8eef7c35
+      datavalue:
+        value: Gy
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: q190095$e545bca2-47ee-a5af-256d-60af6db444cc
+    rank: normal
+    references:
+    - hash: 02d4e4618994d58a7d4fde87c8b6db143858a372
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: c2213e83c554bae5121243bc2ace76aeffa9ce42
+          datavalue:
+            value: '19'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: a8acdbdb9ade23dbae3d6835a293e04c6df76a0f
+          datavalue:
+            value: 6.5.3
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 5fbc32e3a10c1ded0a6d2c86677f623beec6abc5
+      datavalue:
+        value: Гр
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q190095$77ee936e-466f-a910-01b7-5f4945471728
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 65466c16c77d13b3ca483da1e163b669e07245cd
+      datavalue:
+        value: "/m/01q5dt"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q190095$43AC86E4-58CB-48AB-A667-A2C02D7CFFB4
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 02f17d178df5fd4df72e6dbb4ac07f20e19831cc
+      datavalue:
+        value: Gray
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q190095$8d33b1e8-420b-41b1-4955-f0321c3f3608
+    rank: normal
+  P2534:
+  - mainsnak:
+      snaktype: value
+      property: P2534
+      hash: c46de2dd3202a45a6b58ce51960f54a9523377cf
+      datavalue:
+        value: 1 \ \mathrm{Gy} = 1\ \frac{\mathrm{J}}{\mathrm{kg}}= 1\ \frac{\mathrm{m}^2}{\mathrm{s}^{2}}
+        type: string
+      datatype: math
+    type: statement
+    id: Q190095$2670C5D4-BBDC-4E23-AAB4-E6B1FD0D2845
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 5236a2185509d4b578dc1009714e0eff82b7c286
+      datavalue:
+        value: gray
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q190095$505A19D4-8C61-4444-9A39-F0E13A6A1D6E
+    rank: normal
+  P144:
+  - mainsnak:
+      snaktype: value
+      property: P144
+      hash: 5c59ec8ef07c5ab2bc69471b543f2f37a85d10c9
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 25269
+          id: Q25269
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P2534:
+      - snaktype: value
+        property: P2534
+        hash: 066013d88d1cd667d1c846bbec4879be8d481850
+        datavalue:
+          value: "\\text{Gy} = \\frac{\\text{J}}{\\text{kg}}"
+          type: string
+        datatype: math
+    qualifiers-order:
+    - P2534
+    id: Q190095$121c2501-474b-d69c-067b-89e3fe165c4a
+    rank: normal
+    references:
+    - hash: 02d4e4618994d58a7d4fde87c8b6db143858a372
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: c2213e83c554bae5121243bc2ace76aeffa9ce42
+          datavalue:
+            value: '19'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: a8acdbdb9ade23dbae3d6835a293e04c6df76a0f
+          datavalue:
+            value: 6.5.3
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  - mainsnak:
+      snaktype: value
+      property: P144
+      hash: f267d8e1f3186e477ff76a1baa9aba6dbe1f03a8
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11570
+          id: Q11570
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P2534:
+      - snaktype: value
+        property: P2534
+        hash: 066013d88d1cd667d1c846bbec4879be8d481850
+        datavalue:
+          value: "\\text{Gy} = \\frac{\\text{J}}{\\text{kg}}"
+          type: string
+        datatype: math
+    qualifiers-order:
+    - P2534
+    id: Q190095$eb73abb9-40e9-8048-7252-7b5786f32d1f
+    rank: normal
+    references:
+    - hash: 02d4e4618994d58a7d4fde87c8b6db143858a372
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: c2213e83c554bae5121243bc2ace76aeffa9ce42
+          datavalue:
+            value: '19'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: a8acdbdb9ade23dbae3d6835a293e04c6df76a0f
+          datavalue:
+            value: 6.5.3
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: جراي (وحدة)
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Грэй (адзінка вымярэньня)
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Грэй (адзінка вымярэння)
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Грей (единица)
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Grej
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Gray (unitat)
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Gray
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Gray
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Gray
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Γκρέυ (μονάδα)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Gray (unit)
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Grajo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Gray (unidad)
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Grei
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Gray (unitatea)
+    badges: []
+  fawiki:
+    site: fawiki
+    title: گری (یکا)
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Gray
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Gray (unité)
+    badges: []
+  gawiki:
+    site: gawiki
+    title: Grae
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Gray (unidade)
+    badges: []
+  hewiki:
+    site: hewiki
+    title: גריי
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: ग्रे (इकाई)
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Grej
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Gray (mértékegység)
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Գրեյ (չափման միավոր)
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Grei
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Gray (unità di misura)
+    badges: []
+  jawiki:
+    site: jawiki
+    title: グレイ (単位)
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 그레이 (단위)
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Grėjus
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Grejs (mērvienība)
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Греј (единица)
+    badges: []
+  mnwiki:
+    site: mnwiki
+    title: Грей (нэгж)
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Gray (eenheid)
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Gray
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Gray (enhet)
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Gray (unitat)
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Grej
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Gray (unidade)
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Грей (единица измерения)
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Gray (unitati di misura)
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Grej
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Gray (jednotka)
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Grej
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Греј (јединица)
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Gray
+    badges: []
+  tawiki:
+    site: tawiki
+    title: கிரே (அலகு)
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Грей
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Gray (đơn vị)
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 格雷 (單位)
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 戈瑞
+    badges: []

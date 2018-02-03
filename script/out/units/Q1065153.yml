@@ -1,0 +1,200 @@
+---
+pageid: 1013786
+ns: 0
+title: Q1065153
+lastrevid: 588130729
+modified: '2017-11-03T06:44:09Z'
+type: item
+id: Q1065153
+labels:
+  en:
+    language: en
+    value: milliradian
+aliases:
+  en:
+  - language: en
+    value: mil
+  - language: en
+    value: mils
+  - language: en
+    value: mrad
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 5c425b6e212b0bfdaf5639cf5d4494c6d6d96ed5
+      datavalue:
+        value: "/m/05rs31"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1065153$B6F95C2B-DEA2-45E4-BEB2-C29F7F064C2F
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: fdde39638b6073d8dcf70e939257524d6cc532a7
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1618549
+          id: Q1618549
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1065153$9935c2cd-45e8-1710-f3b8-99316addd129
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 114407d8f5f64b19f01153752bedcf6679128ec0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 13587321
+          id: Q13587321
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1065153$6550747c-4892-1222-2fdb-ee99924b878f
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: fcb60f6b69d2c92af81fdcfec49faad6893b2806
+      datavalue:
+        value: milliradian
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1065153$472B4727-6591-435A-87F4-12D2F3E5A432
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: e2f6e38b67a8d93e1c4994e735f9c6c99903a3e2
+      datavalue:
+        value:
+          amount: "+0.001"
+          unit: http://www.wikidata.org/entity/Q33680
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1065153$e1b1bd65-436f-f453-b918-f1a8cf1809e4
+    rank: normal
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Mil angular
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Miliradián
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Terrænstreg
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Strich (Winkeleinheit)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Milliradian
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Mil angular
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Piiru
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Mil angulaire
+    badges: []
+  hewiki:
+    site: hewiki
+    title: אלפית
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Millesimo di radiante
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ミル (角度)
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 밀리라디안
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Mil (hoekmaat)
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Milliradian
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Tysiączna
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Mil angular
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Тысячная (угол)
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Streck (vinkelenhet)
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Тисячна (кут)
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 毫弧度
+    badges: []

@@ -1,0 +1,299 @@
+---
+pageid: 292608
+ns: 0
+title: Q303713
+lastrevid: 621493944
+modified: '2018-01-18T12:41:46Z'
+type: item
+id: Q303713
+labels:
+  en:
+    language: en
+    value: Austro-Hungarian krone
+aliases:
+  en:
+  - language: en
+    value: Austrian crown
+  - language: en
+    value: Austro-Hungarian Krone
+  - language: en
+    value: Austro-Hungarian coroană
+  - language: en
+    value: Austro-Hungarian corona
+  - language: en
+    value: Austro-Hungarian korona
+  - language: en
+    value: Austro-Hungarian koruna
+  - language: en
+    value: Austro-Hungarian krona
+  - language: en
+    value: Austro-Hungarian krune
+  - language: en
+    value: Austro-Hungarian coroana
+  - language: en
+    value: Austrian korona
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: ba4a12356c53d6326d50406657cb1b9ba8484dc7
+      datavalue:
+        value: Coins of Austria-Hungary
+        type: string
+      datatype: string
+    type: statement
+    id: q303713$4B575D17-D741-4668-9BE0-5C7C1540FA00
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: daec865fc857d6d918c91feb9453c25524d83088
+      datavalue:
+        value: Banknotes of Austria-Hungary
+        type: string
+      datatype: string
+    type: statement
+    id: Q303713$7f083d8a-42f7-7804-d13a-257b78ad73b2
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: dbf667cd80f77d691f85af1043e764d3a6ffcbd7
+      datavalue:
+        value: "/m/03_257"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q303713$3320119E-634B-4C70-A661-56FAF2551D64
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q303713$43978cdc-4449-ef12-b0be-dd9cafe88f33
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: f1104d128fcb224d67a8747320cea52c55bac51f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 28513
+          id: Q28513
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P582:
+      - snaktype: value
+        property: P582
+        hash: bd9f6c3b695fc9ad25ce36d605e288226b2afa96
+        datavalue:
+          value:
+            time: "+1918-11-11T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      P580:
+      - snaktype: value
+        property: P580
+        hash: d7364ac44812e772662a9c998d2bb9a20ff91862
+        datavalue:
+          value:
+            time: "+1892-00-00T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 9
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P582
+    - P580
+    id: Q303713$b08f7613-4f92-ed35-e9f7-2c7d9202c8cb
+    rank: normal
+  P1365:
+  - mainsnak:
+      snaktype: value
+      property: P1365
+      hash: 93840c3fbf566a677890e21fb5e162ff8b2b1a7c
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 306306
+          id: Q306306
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q303713$87336c17-4e03-8305-be30-21114dd65c4d
+    rank: normal
+  P1366:
+  - mainsnak:
+      snaktype: value
+      property: P1366
+      hash: c0219cd709e077bb4fbd5da9ea9d7d3588e02aa2
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2329625
+          id: Q2329625
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q303713$3f22e277-47e0-d0b7-6767-d565be713cbf
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: كرونة نمساوية-مجرية
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Rakousko-uherská koruna
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Østrig-ungarske krone
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Österreichische Krone
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Austro-Hungarian krone
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Corona austrohúngara
+    badges: []
+  fawiki:
+    site: fawiki
+    title: کرون اتریش-مجارستان
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Couronne austro-hongroise
+    badges: []
+  hewiki:
+    site: hewiki
+    title: כתר אוסטרי
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Austro-ugarska kruna
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Osztrák–magyar korona
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Krone Austria-Hongaria
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Corona austro-ungarica
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 오스트리아-헝가리 크로네
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Oostenrijkse kroon
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Østerriksk-ungarsk krone
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Korona austro-węgierska
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Coroa austro-húngara
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Coroană austro-ungară
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Австро-венгерская крона
+    badges:
+    - Q17437798
+  skwiki:
+    site: skwiki
+    title: Koruna (Rakúsko-Uhorsko)
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Аустроугарска круна
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Avusturya-Macaristan kronu
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Австро-угорська крона
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 奧匈克朗
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 奧匈帝國克朗
+    badges: []

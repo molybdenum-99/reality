@@ -1,0 +1,330 @@
+---
+pageid: 199411
+ns: 0
+title: Q202882
+lastrevid: 624486285
+modified: '2018-01-29T13:48:10Z'
+type: item
+id: Q202882
+labels:
+  en:
+    language: en
+    value: Kenyan shilling
+aliases:
+  en:
+  - language: en
+    value: Shilling
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: c88c2c77ede2d428a5143b7b13b4497587d3e3dc
+      datavalue:
+        value: Money of Kenya
+        type: string
+      datatype: string
+    type: statement
+    id: q202882$F7BA5652-3747-4F0D-A1E3-77FFF08C6428
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q202882$95F2BD61-2936-4A55-B8E6-DEA8BC7DE199
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 1ab99e1af8d6f6e204c14bbbb2064f0c3f7a606a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2510227
+          id: Q2510227
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q202882$A447A403-DFFE-4694-B63E-212A4BC8888C
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 95bb20002989d9ab9e91f9636328a971b44f092f
+      datavalue:
+        value: "/m/05yxpb"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q202882$4F85E66D-EECB-4B26-865F-84EC1A5D9AE0
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: e536bef640cb52029833808c58ba5dbabd6402ae
+      datavalue:
+        value: KES
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q202882$11cb2d37-467c-3c48-ec39-6167bae4278c
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 949e449a88e90b49a372790988fcc4d7c4f10a06
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 114
+          id: Q114
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q202882$eba1242d-471c-63d6-4dcd-71836d54d87a
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 5684e73bee069a8e318308ff5165aeb6a3dcc112
+      datavalue:
+        value: '500189'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q202882$4A0A44D9-85A0-4948-8B2F-54D358893173
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: شيلينغ كيني
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Keniya şillinqi
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Кенійскі шылінг
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Кенійскі шылінг
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Кенийски шилинг
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: কেনিয়ান শিলিং
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Xíling kenyà
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Kenia-Schilling
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Σελίνι της Κένυας
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Kenyan shilling
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Kenja ŝilingo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Chelín keniano
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Keenia šilling
+    badges: []
+  fawiki:
+    site: fawiki
+    title: شیلینگ کنیا
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Kenian šillinki
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Shilling kényan
+    badges: []
+  hewiki:
+    site: hewiki
+    title: שילינג קנייתי
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: कीनियन शिलिंग
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Kenijski šiling
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Kenyai shilling
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Shilling Kenya
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Keníaskildingur
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Scellino keniota
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ケニア・シリング
+    badges: []
+  kawiki:
+    site: kawiki
+    title: კენიური შილინგი
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 케냐 실링
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Kenijos šilingas
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: केनियन शिलिंग
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Keniaanse shilling
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Kenyansk shilling
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Szyling kenijski
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Xelim queniano
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Кенийский шиллинг
+    badges: []
+  sowiki:
+    site: sowiki
+    title: Shilin Kiinyaati
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Кенијски шилинг
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Kenyansk shilling
+    badges: []
+  swwiki:
+    site: swwiki
+    title: Shilingi ya Kenya
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Шиллинги Кения
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Kenya şilini
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Кенійський шилінг
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Shilling Kẹ́nyà
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Kenya shilling
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 肯亞先令
+    badges: []

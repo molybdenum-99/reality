@@ -1,0 +1,132 @@
+---
+pageid: 1020713
+ns: 0
+title: Q1072248
+lastrevid: 619174623
+modified: '2018-01-12T07:48:19Z'
+type: item
+id: Q1072248
+labels:
+  en:
+    language: en
+    value: Rwanda and Burundi franc
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: a13e53a4829c79658ca986c4e5af9df51fa54316
+      datavalue:
+        value: "/m/02q8362"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1072248$C26CA5DD-66FB-46F7-8459-AF77A0B0E692
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1072248$569165EA-5200-4DDA-A03F-664FDE9AF374
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 7b813d784a09769cdbb06966e6f18d102cc36b2f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 590743
+          id: Q590743
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1072248$74AC3F53-8DBA-458F-8251-3B745C118CB6
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Ruanda-Burundi-Franc
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Φράγκο της Ρουάντα και του Μπουρούντι
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Ruanda-Urundi franc
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Franco de Ruanda-Urundi
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Franc du Ruanda-Urundi
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 르완다 부룬디 프랑
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Франк Руанды и Бурунди
+    badges: []

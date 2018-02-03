@@ -1,0 +1,365 @@
+---
+pageid: 191883
+ns: 0
+title: Q193933
+lastrevid: 620753495
+modified: '2018-01-15T20:46:51Z'
+type: item
+id: Q193933
+labels:
+  en:
+    language: en
+    value: dioptre
+aliases:
+  en:
+  - language: en
+    value: diopter
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 57118dba7764c026f396744f66d9febeca67a104
+      datavalue:
+        value: dpt
+        type: string
+      datatype: string
+    type: statement
+    id: Q193933$e4539dea-437b-cf2e-59d1-cbe0ae40a882
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 31d624890af3208ff76f7ad16ebf6f0a59fe351e
+      datavalue:
+        value: дптр
+        type: string
+      datatype: string
+    type: statement
+    id: Q193933$724f6fba-419e-1577-3e81-3b0d74187fb0
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: ead7eda593429ae39f2a2f307b7e02df5cb9c18a
+      datavalue:
+        value: "/m/0nn_7"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q193933$96E638A8-BC2C-4895-B4BC-3B47BBF62876
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: ab4816218f09774f585f9562a34630337b1d4f93
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 559265
+          id: Q559265
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q193933$ca75e204-46ed-3ce8-5f94-a8b5d6815e76
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q193933$7f28b817-4c73-e5cd-c6ab-2cdaf26f3b58
+    rank: normal
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 62c309f8296338bd9647a7e758857137f3370310
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2657718
+          id: Q2657718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q193933$B46305BB-AA6B-4692-9F0C-D28844054C9F
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 1d7457d1cb075fdd3325991821de2e4cccd97bf8
+      datavalue:
+        value: Diopter
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q193933$C3FAAC29-286A-4113-B3B6-62D981844E1C
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 5b9a1b11a11a9b60e853b92b93cc34455d113ff5
+      datavalue:
+        value: Dioptre-1
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q193933$4D14F3DC-1643-4A34-9124-9667D5C8AEB1
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: ديبوتر (وحدة قياس)
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Диоптър
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Diòptria
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Dioptrie
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Dioptri
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Dioptrie
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Dioptre
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Dioptrio
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Dioptría
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Dioptria
+    badges: []
+  fawiki:
+    site: fawiki
+    title: دیوپتر
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Dioptria
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Dioptrie
+    badges: []
+  gawiki:
+    site: gawiki
+    title: Diaptar
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Dioptría
+    badges: []
+  hewiki:
+    site: hewiki
+    title: דיופטר
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: डायोप्टर
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Dioptrija
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Dioptria
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Դիօպտրիա
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Dioptri
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Diottria
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ディオプトリ
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Диоптр
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 디옵터
+    badges: []
+  kywiki:
+    site: kywiki
+    title: Диоптрия
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Dioptrija
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Dioptrija
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: ഡയോപ്റ്റർ
+    badges: []
+  mnwiki:
+    site: mnwiki
+    title: Диоптр
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Diopter
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Dioptrie
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Dioptri
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Dioptri
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਡਾਇਪਟਰ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Dioptria
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Dioptria
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Dioptrie
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Диоптрия
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Dioptrija
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Диоптрија
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Dioptri
+    badges: []
+  tawiki:
+    site: tawiki
+    title: டையாப்ட்டர்
+    badges: []
+  tewiki:
+    site: tewiki
+    title: డయాప్టర్
+    badges: []
+  thwiki:
+    site: thwiki
+    title: ไดออปเตอร์
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Diyoptri
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Діоптрія
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Dioptriya
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 屈光度
+    badges: []

@@ -1,0 +1,743 @@
+---
+pageid: 103580
+ns: 0
+title: Q100995
+lastrevid: 623342745
+modified: '2018-01-25T15:19:28Z'
+type: item
+id: Q100995
+labels:
+  en:
+    language: en
+    value: pound
+aliases:
+  en:
+  - language: en
+    value: lb
+  - language: en
+    value: avoirdupois pound
+  - language: en
+    value: pound-mass
+  - language: en
+    value: pound mass
+  - language: en
+    value: pound (mass)
+  - language: en
+    value: lbs
+  - language: en
+    value: pounds
+  - language: en
+    value: lbm
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 954edbd3fef27ce6396c0878a95c608ca4ed84af
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3647172
+          id: Q3647172
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q100995$dbfabb08-43a2-4618-20f1-4f74c0f7cb3b
+    rank: normal
+  P487:
+  - mainsnak:
+      snaktype: value
+      property: P487
+      hash: 44f47f1a5e003e3e0c0133dd115ba89853a94ef0
+      datavalue:
+        value: "℔"
+        type: string
+      datatype: string
+    type: statement
+    id: q100995$5e942ec1-4c48-174c-060a-c5d698117bf9
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: a936c34d1dd472ad51517481cfe980e9e22a7252
+      datavalue:
+        value: "/m/05t56"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q100995$AC9B78A7-6E99-4AFD-990D-80BC88A17729
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: d250b1da3f669c5767ea9ee5c36b6da75fcc95b2
+      datavalue:
+        value:
+          amount: "+0.45359237"
+          unit: http://www.wikidata.org/entity/Q11570
+          upperBound: "+0.45359237"
+          lowerBound: "+0.45359237"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q100995$803040d7-4380-6559-d4e0-59b8b7a039d8
+    rank: normal
+    references:
+    - hash: ad40f74097c2b74eddcce8e987c4a9b56956fd18
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 95366d27f7f558272e20773a6a1edf55c6e2b4da
+          datavalue:
+            value: http://www.ngs.noaa.gov/PUBS_LIB/FedRegister/FRdoc59-5442.pdf
+            type: string
+          datatype: url
+      snaks-order:
+      - P854
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 1401006830a6a87b778cfa095e5c802698b62027
+      datavalue:
+        value: lb
+        type: string
+      datatype: string
+    type: statement
+    id: Q100995$447f8028-4efb-9469-fb2e-cbeaa07dc22f
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 16653c4848e0552e9604edc668341bd5f95825a4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11423
+          id: Q11423
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q100995$bbbf21fd-43ff-e573-bb3f-933d7ad746e8
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 8b8e315df86122c7665ea464234efe0cc4e65ec0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 641227
+          id: Q641227
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q100995$1677bbaa-4f68-3a2c-d260-2bc926b879de
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 7c9c545423ae752f3be2a2af1341a702efeea7fd
+      datavalue:
+        value:
+          amount: "+0.4535923"
+          unit: http://www.wikidata.org/entity/Q11570
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q100995$1a4f54e1-4b23-86fb-6b9d-f595f35e7799
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 5e4aff1cef1d9d9d4d211843c28f5f885ce4ce86
+      datavalue:
+        value:
+          amount: "+16"
+          unit: http://www.wikidata.org/entity/Q48013
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q100995$2beceb06-4e41-77b9-75ee-e8e1bdad9c7a
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 152bdb71a8406573532886edf00699416979dc27
+      datavalue:
+        value:
+          amount: "+0.07142857"
+          unit: http://www.wikidata.org/entity/Q1131660
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q100995$ed83ea4b-4617-d347-db7c-fa3f3a3eaec0
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: be97c184c54bb12d13a6bf4dff1071b508279e45
+      datavalue:
+        value:
+          amount: "+0.0004535923"
+          unit: http://www.wikidata.org/entity/Q191118
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q100995$988a9a1d-44c1-8af7-571e-aeaa5fff8609
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: ec83ab2194b1602bd3cead8f53301db7271244d3
+      datavalue:
+        value:
+          amount: "+453.5923"
+          unit: http://www.wikidata.org/entity/Q41803
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q100995$d63cb9c2-4eb6-bb0e-a8ab-a556ebbadbf6
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: aea6b2760160600fc9fe13179cc2c866774de074
+      datavalue:
+        value:
+          amount: "+2267.962"
+          unit: http://www.wikidata.org/entity/Q261247
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q100995$df5aa5b9-4808-c9ba-780f-dc50bd3336b4
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 23ac1045281d7c0efe6586a85485fe28b9274295
+      datavalue:
+        value:
+          amount: "+453592.3"
+          unit: http://www.wikidata.org/entity/Q3241121
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q100995$4b5e5aa8-48dc-2b58-926a-81181037c638
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 25db5cdf5d68e308fefea6700f097cccc5d1be07
+      datavalue:
+        value:
+          amount: "+453592300"
+          unit: http://www.wikidata.org/entity/Q1645498
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q100995$52721bfa-452a-8310-83a7-58e3b26c4f46
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 59915886ed0ab90a9dd78c349c52b55848d11960
+      datavalue:
+        value:
+          amount: "+0.0004464286"
+          unit: http://www.wikidata.org/entity/Q667419
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q100995$d5a3c93a-480c-d62a-7157-0f2c19aeb6c1
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: aa1239ef91108106e80b24f1796f538d6d71e9a3
+      datavalue:
+        value:
+          amount: "+0.0005"
+          unit: http://www.wikidata.org/entity/Q469356
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q100995$ee46fc11-4ea2-4519-e743-4e01c7c46d05
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 107345be7473eb59004ada6b3fd419b1fe5b69d2
+      datavalue:
+        value:
+          amount: "+0.01"
+          unit: http://www.wikidata.org/entity/Q39617526
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q100995$31ab4801-4981-c1ce-b464-aeb489d31beb
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: d1161305adefc0daa00643bb594cfb6fac9b263b
+      datavalue:
+        value:
+          amount: "+0.008928571"
+          unit: http://www.wikidata.org/entity/Q39617688
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q100995$ea6dd24a-4c70-4c2a-6c66-ab2b64d01f0d
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: a7bd802f9775c1d156802445120e11d625c9c8e7
+      datavalue:
+        value:
+          amount: "+1.215278"
+          unit: http://www.wikidata.org/entity/Q39617818
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q100995$a5f24350-43cf-70fd-21d2-36fba6a7b52a
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 67103f365ffa79836809aa5d39957a1218a3b2ee
+      datavalue:
+        value:
+          amount: "+14.58333"
+          unit: http://www.wikidata.org/entity/Q1323615
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q100995$e2625ede-4888-9868-afcc-efaf7508c231
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 5aa05bcb86e812f68445ae010005188023f47085
+      datavalue:
+        value:
+          amount: "+291.6666"
+          unit: http://www.wikidata.org/entity/Q1361854
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q100995$870b477d-4c61-95bb-715b-7b9dba727716
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: be6a379775ff622c0270771f43469401c11fecc2
+      datavalue:
+        value:
+          amount: "+7000"
+          unit: http://www.wikidata.org/entity/Q693944
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q100995$1c11a817-4a6c-b1dc-fc74-b5a09d088b4c
+    rank: normal
+  P2581:
+  - mainsnak:
+      snaktype: value
+      property: P2581
+      hash: 483bdd18667ccad09eef950d8a15e60377387802
+      datavalue:
+        value: 00050327n
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q100995$6A167E96-EF4E-487B-84C8-A01495FFD958
+    rank: normal
+    references:
+    - hash: bd0ee81488cd8c23d4b655e417aac78dca370283
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: a0b4f55dbedbadaf83e7d2461b47b7aeaba86359
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 4837690
+              id: Q4837690
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 5b0ef3d5413cd39d887fbe70d2d3b3f4a94ea9d8
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1138524
+          id: Q1138524
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P805:
+      - snaktype: value
+        property: P805
+        hash: 7dbd2325c79c1fbf8387005cc43fef0accf6e60a
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 20872946
+            id: Q20872946
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P805
+    id: Q100995$1CD0418B-2C51-4FB2-B918-8662C00BED09
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Pond (eenheid)
+    badges: []
+  arwiki:
+    site: arwiki
+    title: رطل
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Llibra (unidá de masa)
+    badges: []
+  barwiki:
+    site: barwiki
+    title: Pfund
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Фунт
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: পাউন্ড (ভর)
+    badges: []
+  brwiki:
+    site: brwiki
+    title: Lur (unanenn dolz)
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Funta
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Lliura (unitat de massa)
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Libra (jednotka hmotnosti)
+    badges: []
+  cvwiki:
+    site: cvwiki
+    title: Кĕренке
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Pund (masseenhed)
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Pfund
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Pound (mass)
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Funto
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Libra (unidad de masa)
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Nael (massiühik)
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Libra (masa unitatea)
+    badges: []
+  fawiki:
+    site: fawiki
+    title: پوند (یکای جرم)
+    badges: []
+  fiu_vrowiki:
+    site: fiu_vrowiki
+    title: Nagõl (mõõt)
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Pauna
+    badges: []
+  fowiki:
+    site: fowiki
+    title: Pund (vekteind)
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Livre (unité de masse)
+    badges: []
+  fywiki:
+    site: fywiki
+    title: Pûn (massa)
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Libra (masa)
+    badges: []
+  hewiki:
+    site: hewiki
+    title: ליברה
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: पाउण्ड (इकाई)
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Funta
+    badges: []
+  htwiki:
+    site: htwiki
+    title: Liv (mezi)
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Font (mértékegység)
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Ֆունտ
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Pon (satuan)
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Pund (mælieining)
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Libbra
+    badges: []
+  jamwiki:
+    site: jamwiki
+    title: Pong
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ポンド (質量)
+    badges: []
+  kawiki:
+    site: kawiki
+    title: გირვანქა (ერთეული)
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Фунт (өлшем бірлік)
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 파운드 (단위)
+    badges: []
+  kshwiki:
+    site: kshwiki
+    title: Pongk
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Libra (pondus)
+    badges: []
+  lbwiki:
+    site: lbwiki
+    title: Pond
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Svaras
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Mārciņa (mērvienība)
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Фунта (единица)
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Paun (jisim)
+    badges: []
+  ndswiki:
+    site: ndswiki
+    title: Pund
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Pond (massa)
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Pund
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Pund (masseenhet)
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Liura (pes)
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Funt (masa)
+    badges: []
+  pmswiki:
+    site: pmswiki
+    title: Lira
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Libra (massa)
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Livră
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Фунт (единица измерения)
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Pund
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Funta (masa)
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Pound (mass)
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Libra (hmotnosť)
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Funt (mera)
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Фунта (маса)
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Pund (viktenhet)
+    badges: []
+  swwiki:
+    site: swwiki
+    title: Ratili
+    badges: []
+  tawiki:
+    site: tawiki
+    title: பவுண்டு
+    badges: []
+  tewiki:
+    site: tewiki
+    title: పౌండ్ (పరిమాణం)
+    badges: []
+  thwiki:
+    site: thwiki
+    title: ปอนด์ (หน่วยมวล)
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Libre (kütle birimi)
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Фунт (одиниця маси)
+    badges: []
+  urwiki:
+    site: urwiki
+    title: رطل
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Funt
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Pound (khối lượng)
+    badges: []
+  warwiki:
+    site: warwiki
+    title: Libra
+    badges: []
+  yiwiki:
+    site: yiwiki
+    title: פונט
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 磅
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 磅
+    badges: []

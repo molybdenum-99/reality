@@ -1,0 +1,194 @@
+---
+pageid: 1140329
+ns: 0
+title: Q1196846
+lastrevid: 616010141
+modified: '2018-01-03T04:31:50Z'
+type: item
+id: Q1196846
+labels:
+  en:
+    language: en
+    value: Planck current
+aliases: {}
+claims:
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 62604b308db3d2feaa7df599c59ff422986481fa
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 9021
+          id: Q9021
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q1196846$4DD38959-ED8F-4FAC-B779-2A886B0FCFBD
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: a940403ccaab769d3bc2473a59fa579229055577
+      datavalue:
+        value: "/m/03fhl0"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1196846$9A1AEC3F-A017-43E2-ADBA-6F2EE9EDB939
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1196846$e8604698-4395-2afb-47f0-4f75251b7a31
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 18c2de4e51e69ef06147f415d9ae7bb5c5d66923
+      datavalue:
+        value: PlanckCurrent
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1196846$EA652933-689E-4016-9EB0-FDA245DD918E
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 0a80cc8c1d4f843037b3a5a211ee962e6f01b686
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 468999
+          id: Q468999
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1196846$fbad50f0-4aec-e4f5-3697-1a7cdb6190bb
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 4177037860382598ca58d2f6824319f4e022cad0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11651
+          id: Q11651
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1196846$6c02d5af-4bac-fa0b-597e-ce70b8c343ee
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: تيار بلانك
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Планкаўскі ток
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Corrent de Planck
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Planck current
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Elektra kurento de Planck
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Intensidad eléctrica de Planck
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Planckin sähkövirta
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Corrente di Planck
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 플랑크 전류
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Natężenie Plancka
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Corrente elétrica de Planck
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Планковский ток
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Currenti di Planck
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Planckov tok
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Planckström
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Planck akımı
+    badges: []

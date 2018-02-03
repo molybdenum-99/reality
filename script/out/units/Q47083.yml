@@ -1,0 +1,871 @@
+---
+pageid: 49204
+ns: 0
+title: Q47083
+lastrevid: 623062593
+modified: '2018-01-24T19:10:57Z'
+type: item
+id: Q47083
+labels:
+  en:
+    language: en
+    value: ohm
+aliases:
+  en:
+  - language: en
+    value: Ω
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 50afdc16346d8687f53963f614e8d645419488a0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 208469
+          id: Q208469
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q47083$2e424cc0-4100-2556-f694-4d0ffa4838f1
+    rank: normal
+    references:
+    - hash: 04236527a1d6139c066bc969a1e83e439efc00ba
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 587564898ba1c818316ca0a7af2bb0867f80d4bb
+          datavalue:
+            value: '18'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: a8acdbdb9ade23dbae3d6835a293e04c6df76a0f
+          datavalue:
+            value: 6.5.3
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: b20dee8be401108a03539fe4b248450485fa745c
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 25358
+          id: Q25358
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q47083$20329283-ECA2-475C-9980-00CEF839E3C5
+    rank: normal
+    references:
+    - hash: 04236527a1d6139c066bc969a1e83e439efc00ba
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 587564898ba1c818316ca0a7af2bb0867f80d4bb
+          datavalue:
+            value: '18'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: a8acdbdb9ade23dbae3d6835a293e04c6df76a0f
+          datavalue:
+            value: 6.5.3
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 3dae6f8d417691c313997d65b9d658d3bfb31638
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 179043
+          id: Q179043
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q47083$b84394e8-409e-d828-59d1-4508c8b4bf38
+    rank: normal
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 2adaad164d83ca62c914c66a0f4f4138403d919b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1585
+          id: Q1585
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q47083$24E0E1C6-BDE7-4444-8827-939FF349948D
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: c0431deef3d1c0d216462774b8bebd9ce442296c
+      datavalue:
+        value: Ω
+        type: string
+      datatype: string
+    type: statement
+    id: q47083$d7170e25-4203-7e0b-5fc0-3525ebcb1f4b
+    rank: normal
+    references:
+    - hash: 04236527a1d6139c066bc969a1e83e439efc00ba
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 587564898ba1c818316ca0a7af2bb0867f80d4bb
+          datavalue:
+            value: '18'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: a8acdbdb9ade23dbae3d6835a293e04c6df76a0f
+          datavalue:
+            value: 6.5.3
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: cf3c7190112b75d436db410a07700179494e567d
+      datavalue:
+        value: Ом
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q47083$f0c8c31d-4c4d-23e4-f5be-6856f281dadf
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 7563b85fe839f3ac47c1ffac158db841c6fb8693
+      datavalue:
+        value: "/m/0c3sjp"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q47083$1BD20F4D-F1A3-4761-B00C-CD0316462499
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 42346dfe9209b7359c1f5db829a368b38d407797
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 19180675
+          id: Q19180675
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P805:
+      - snaktype: value
+        property: P805
+        hash: 5d8905c37a198c738012d87174b8c12ce8ae7165
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 21504927
+            id: Q21504927
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P805
+    id: Q47083$4A39A2CB-9B26-46FC-A78D-7A4AE99331A5
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 88389772f86dcd7d415ddd029f601412e5cc894a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 602358
+          id: Q602358
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P805:
+      - snaktype: value
+        property: P805
+        hash: bcdf3e1b32eba87b0e2986392861e67d03eff997
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 21504926
+            id: Q21504926
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P805
+    id: Q47083$4D270786-A4C9-4330-9333-38CC869639DD
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 47bbe7424519a4f94ca0dfbc6744ee0b56dd12c6
+      datavalue:
+        value: Ohm
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q47083$ED0989A2-B4BC-4C9E-A540-C827CE0F2B30
+    rank: normal
+  P487:
+  - mainsnak:
+      snaktype: value
+      property: P487
+      hash: 9ef7d559ffd399713f0b167b0072e02799b9d066
+      datavalue:
+        value: Ω
+        type: string
+      datatype: string
+    type: statement
+    id: Q47083$2d7cfde6-40f4-1980-0cf2-ae814e90b177
+    rank: normal
+  P1417:
+  - mainsnak:
+      snaktype: value
+      property: P1417
+      hash: 9bcf48776493f8301b6876561a3abb382eb967a9
+      datavalue:
+        value: science/ohm
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q47083$D354A0C4-1EF2-4F17-9920-3C57B216B319
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 75f6be9fbfdca0436900bd21c1525ca821a854b5
+      datavalue:
+        value: ohm
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q47083$58f22577-4e17-c06d-401c-0e8f9115180e
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 5f052504798ee82395ea3c1f8ff0d9a66c1e32c5
+      datavalue:
+        value: 3 Resistors.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q47083$272F9960-165C-47B9-8636-B182CCA79879
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 854f53d5d7f78541b04da8f9c3eca479d29a778e
+      datavalue:
+        value: Omas
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q47083$DF59917F-EFB0-4934-B1FA-072D7790DD16
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P144:
+  - mainsnak:
+      snaktype: value
+      property: P144
+      hash: 02e1843fb8720b15fa9c5f85645897fb49533393
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 25250
+          id: Q25250
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P2534:
+      - snaktype: value
+        property: P2534
+        hash: 5420e9c2d58e4d94752c2849b89ff0f196a7a4cf
+        datavalue:
+          value: "\\Omega = \\frac{\\text{V}}{\\text{A}}"
+          type: string
+        datatype: math
+    qualifiers-order:
+    - P2534
+    id: Q47083$60032f14-4266-823f-ca2f-941206a5d206
+    rank: normal
+    references:
+    - hash: 04236527a1d6139c066bc969a1e83e439efc00ba
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 587564898ba1c818316ca0a7af2bb0867f80d4bb
+          datavalue:
+            value: '18'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: a8acdbdb9ade23dbae3d6835a293e04c6df76a0f
+          datavalue:
+            value: 6.5.3
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  - mainsnak:
+      snaktype: value
+      property: P144
+      hash: f7aa1ef3f99e796dcd966bc4c2ee92469d335179
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 25272
+          id: Q25272
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P2534:
+      - snaktype: value
+        property: P2534
+        hash: 5420e9c2d58e4d94752c2849b89ff0f196a7a4cf
+        datavalue:
+          value: "\\Omega = \\frac{\\text{V}}{\\text{A}}"
+          type: string
+        datatype: math
+    qualifiers-order:
+    - P2534
+    id: Q47083$22353094-4381-7b63-3a28-d1552bc212d5
+    rank: normal
+    references:
+    - hash: 04236527a1d6139c066bc969a1e83e439efc00ba
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 587564898ba1c818316ca0a7af2bb0867f80d4bb
+          datavalue:
+            value: '18'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: a8acdbdb9ade23dbae3d6835a293e04c6df76a0f
+          datavalue:
+            value: 6.5.3
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P3569:
+  - mainsnak:
+      snaktype: value
+      property: P3569
+      hash: ea8e3416c1c5ffee748d522b416752bff2094aaf
+      datavalue:
+        value: techologie-en-techniek/ohm
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q47083$A8DE0B8E-FF24-4AD5-9C67-7F790DC7E40C
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Ohm
+    badges: []
+  arwiki:
+    site: arwiki
+    title: أوم
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Ohmiu
+    badges: []
+  aswiki:
+    site: aswiki
+    title: ওম
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Om (ölçü vahidi)
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Ом
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Ом (адзінка вымярэння)
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Ом (физика)
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: ওহম
+    badges: []
+  bowiki:
+    site: bowiki
+    title: ཨོ་མུ།
+    badges: []
+  brwiki:
+    site: brwiki
+    title: Ohm
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Om
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Ohm
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Ohm
+    badges: []
+  cywiki:
+    site: cywiki
+    title: Ohm
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Ohm
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Ohm
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Ωμ (μονάδα μέτρησης)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Ohm
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Omo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Ohmio
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Oom
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Ohm
+    badges: []
+  fawiki:
+    site: fawiki
+    title: اهم
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Ohmi
+    badges: []
+  frrwiki:
+    site: frrwiki
+    title: Ohm (ianhaid)
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Ohm (unité)
+    badges: []
+  fywiki:
+    site: fywiki
+    title: Ohm (ienheid)
+    badges: []
+  ganwiki:
+    site: ganwiki
+    title: 歐
+    badges: []
+  gawiki:
+    site: gawiki
+    title: Óm
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Ohm
+    badges: []
+  gvwiki:
+    site: gvwiki
+    title: Ohm
+    badges: []
+  hewiki:
+    site: hewiki
+    title: אוהם
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: ओम (प्रतिरोध की इकाई)
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Om
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Ohm (mértékegység)
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Օհմ (չափման միավոր)
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Ohm
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Ohm
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Ohm
+    badges: []
+  jamwiki:
+    site: jamwiki
+    title: Uom
+    badges: []
+  jawiki:
+    site: jawiki
+    title: オーム
+    badges: []
+  kawiki:
+    site: kawiki
+    title: ომი (ფიზიკა)
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 옴 (단위)
+    badges: []
+  liwiki:
+    site: liwiki
+    title: Ohm (einheid)
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Omas
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Oms
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Ом
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: ഓം (യൂണിറ്റ്)
+    badges: []
+  mnwiki:
+    site: mnwiki
+    title: Ом
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: ओह्म
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Ohm
+    badges: []
+  mywiki:
+    site: mywiki
+    title: အုမ်း
+    badges: []
+  ndswiki:
+    site: ndswiki
+    title: Ohm (Eenheit)
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Ohm (eenheid)
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Ohm
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Ohm
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Ohm
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਓਹਮ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Om (jednostka)
+    badges: []
+  pmswiki:
+    site: pmswiki
+    title: Ohm
+    badges: []
+  pnbwiki:
+    site: pnbwiki
+    title: اوہم
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Ohm
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Ohm
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Ом
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Ohm
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Ohm
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Om (jedinica)
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Ohm
+    badges: []
+  siwiki:
+    site: siwiki
+    title: ඕම්
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Ohm (jednotka)
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Om
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Ом (јединица)
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Ohm
+    badges: []
+  tawiki:
+    site: tawiki
+    title: ஓம் (மின்னியல்)
+    badges: []
+  thwiki:
+    site: thwiki
+    title: โอห์ม
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Ohm
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Ом
+    badges: []
+  urwiki:
+    site: urwiki
+    title: اوھم
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Om
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Ohm
+    badges: []
+  warwiki:
+    site: warwiki
+    title: Ohm
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 歐姆
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 歐姆
+    badges: []

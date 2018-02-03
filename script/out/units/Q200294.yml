@@ -1,0 +1,369 @@
+---
+pageid: 197132
+ns: 0
+title: Q200294
+lastrevid: 621307960
+modified: '2018-01-17T14:40:59Z'
+type: item
+id: Q200294
+labels:
+  en:
+    language: en
+    value: United Arab Emirates dirham
+aliases: {}
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 61e18919b35268e6271e0f29c68233b67b50f761
+      datavalue:
+        value: Money of the United Arab Emirates
+        type: string
+      datatype: string
+    type: statement
+    id: q200294$85C700FF-30DE-4213-88C0-D69B267C6F7F
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q200294$111615EF-6EEC-451B-A5D6-7E385C6ECFBB
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: bb932a11e39add3bfb13e7644df1ea392cdc3b20
+      datavalue:
+        value: AED
+        type: string
+      datatype: external-id
+    type: statement
+    id: q200294$cfe9f5f2-438e-aa8a-da95-fbb66a6dd31f
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: eb1137b5017ae6084f08be3a380d270531561eb0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2982584
+          id: Q2982584
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q200294$0BDEEB94-42B2-4BD8-BC78-6AA0CCB4F932
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 0e9568f5cfc9eacb0b7beb9e52d8c3fcae77b334
+      datavalue:
+        value: "/m/02zl8q"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q200294$443E7643-81CC-4638-BC68-5F7CDF637C3D
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 7de83bc3075bd3c57ead8c4d42073df5e85412a6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 878
+          id: Q878
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q200294$eef893f2-46f5-5cb3-e3dd-bb95a5fd442a
+    rank: normal
+  P1417:
+  - mainsnak:
+      snaktype: value
+      property: P1417
+      hash: a0046ebf746e4825845b9da4f6e6071143d39960
+      datavalue:
+        value: topic/automated-external-defibrillator
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q200294$48EF942B-91A8-42CD-90CF-277280057007
+    rank: normal
+  P2284:
+  - mainsnak:
+      snaktype: value
+      property: P2284
+      hash: 864fde5501f81b466eff0e1d0c53da9bf7b7a98e
+      datavalue:
+        value:
+          amount: "+3.6725"
+          unit: http://www.wikidata.org/entity/Q4917
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q200294$C6508B47-CBAD-4CE5-AD12-2421872ABB8F
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 3b4a29152e2fafca47d353393f9b907ae1aeb9e5
+      datavalue:
+        value: '500268'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q200294$801B95F2-5B53-40B7-B02F-8783F528F840
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: درهم إماراتي
+    badges: []
+  arzwiki:
+    site: arzwiki
+    title: درهم اماراتى
+    badges: []
+  azwiki:
+    site: azwiki
+    title: BƏƏ dirhəmi
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Дырхам ААЭ
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: ইউএই দিরহাম
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Dírham dels Emirats Àrabs Units
+    badges: []
+  dewiki:
+    site: dewiki
+    title: VAE-Dirham
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Ντιρχάμ Ηνωμένων Αραβικών Εμιράτων
+    badges: []
+  enwiki:
+    site: enwiki
+    title: United Arab Emirates dirham
+    badges: []
+  eowiki:
+    site: eowiki
+    title: UAE-dirhamo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Dírham de los Emiratos Árabes Unidos
+    badges: []
+  fawiki:
+    site: fawiki
+    title: درهم امارات
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Yhdistyneiden arabiemiirikuntien dirhami
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Dirham des Émirats arabes unis
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Dirham dos Emiratos Árabes Unidos
+    badges: []
+  hewiki:
+    site: hewiki
+    title: דירהם איחוד האמירויות הערביות
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: यूएई दिरहम
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Dirham UAE
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Emirátusi dirham
+    badges: []
+  hywiki:
+    site: hywiki
+    title: ԱՄԷ դիրհամ
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Dirham Uni Emirat Arab
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Dirham degli Emirati Arabi Uniti
+    badges: []
+  jawiki:
+    site: jawiki
+    title: UAEディルハム
+    badges: []
+  kawiki:
+    site: kawiki
+    title: არაბთა გაერთიანებული საამიროების დირჰამი
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 아랍에미리트 디르함
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: ӦАЭ-лӧн дирхам
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Jungtinių Arabų Emyratų dirhamas
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: യുണൈറ്റഡ് അറബ് എമിരേറ്റ്സ് ദിർഹം
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: संयुक्त अरब अमिराती दिरहम
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: VAE-dirham
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Emiratarabisk dirham
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਸੰਯੁਕਤ ਅਰਬ ਇਮਰਾਤੀ ਦਿਰਹਾਮ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Dirham
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Dirrã dos Emirados Árabes Unidos
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Dirham EAU
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Дирхам ОАЭ
+    badges: []
+  srwiki:
+    site: srwiki
+    title: УАЕ дирхам
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Emiratisk dirham
+    badges: []
+  tawiki:
+    site: tawiki
+    title: ஐக்கிய அரபு அமீரக திர்கம்
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Дирҳами Аморати Араб
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Birleşik Arap Emirlikleri dirhemi
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Дирхам ОАЕ
+    badges: []
+  vepwiki:
+    site: vepwiki
+    title: Araban Ühtenzoittud Emiratoiden dirham
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: არაბეფიშ გოართოიანაფილი საამიროეფიშ დირჰამი
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Dirham àwọn Ẹ́mírétì Árábù Aṣọ̀kan
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: A-la-pek Liân-ha̍p Thâu-lâng-kok dirham
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 阿联酋迪拉姆
+    badges: []

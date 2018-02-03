@@ -1,0 +1,47 @@
+---
+pageid: 24698243
+ns: 0
+title: Q22673229
+lastrevid: 561850137
+modified: '2017-09-19T06:20:42Z'
+type: item
+id: Q22673229
+labels:
+  en:
+    language: en
+    value: foot per minute
+aliases:
+  en:
+  - language: en
+    value: fpm
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: b4f9c836c43d6700bbb61b79f9c7e714c1b52c93
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 15222637
+          id: Q15222637
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q22673229$b76ee9c0-445a-eaca-2337-a343ddebaabf
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 9628cbb053fe738b135a122f005085e8c32e4449
+      datavalue:
+        value:
+          amount: "+0.00508"
+          unit: http://www.wikidata.org/entity/Q182429
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q22673229$cdc33c3f-4273-7006-001d-05b23670c2e0
+    rank: normal
+sitelinks: {}

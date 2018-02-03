@@ -1,0 +1,97 @@
+---
+pageid: 2360634
+ns: 0
+title: Q2444002
+lastrevid: 215511633
+modified: '2015-05-14T14:33:50Z'
+type: item
+id: Q2444002
+labels:
+  en:
+    language: en
+    value: Synodic day
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: d6383c720519f2ba9ab597cfa41fce4aba5c1e3b
+      datavalue:
+        value: "/m/02trzn"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2444002$D7EE17C7-6147-4347-B61E-9CDD86CE7498
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 98a1e85b80bda7ff493c25a6b805599da715c077
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1790144
+          id: Q1790144
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2444002$6A476CCF-142E-458C-A108-8AD911960F49
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Sinodiese dag
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Synodic day
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: संयुति दिवस
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Synodische dag
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Synodický deň
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 朔望日
+    badges: []

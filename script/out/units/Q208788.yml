@@ -1,0 +1,425 @@
+---
+pageid: 204734
+ns: 0
+title: Q208788
+lastrevid: 564654567
+modified: '2017-09-24T01:08:15Z'
+type: item
+id: Q208788
+labels:
+  en:
+    language: en
+    value: femtometre
+aliases:
+  en:
+  - language: en
+    value: fermi
+  - language: en
+    value: fm
+claims:
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 604b2805581c5a0226fba7934a9690fa6d9527ce
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8753
+          id: Q8753
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q208788$27B0BC51-438F-4EAE-B795-EE3D8C8F8E4B
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 4a4f30cfe841adce1b8d71d07dc54505adab08ac
+      datavalue:
+        value: Metre
+        type: string
+      datatype: string
+    type: statement
+    id: q208788$7ADCE24A-40C5-4623-B1DA-F1BFE5E2FF1F
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: b69ea55c98b4ab1077d338c4a1d285df51431ddb
+      datavalue:
+        value: fm
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: q208788$04a5e80a-41be-bad5-0f86-96ba7441a200
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: '08234df0785bd6bd0495017c7ca95b854a9ed979'
+      datavalue:
+        value: фм
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q208788$c2f4c08f-40d1-4b92-6855-2750e1143968
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 8464fa9350301e7fa48cfa56d317a70f934cf226
+      datavalue:
+        value: "/m/027skv3"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q208788$5FC3548C-50F7-43E3-80C8-0F377D5F455F
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1c41b2ea8a3f6d3fab77c103d826ae5ead7a9c01
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1978718
+          id: Q1978718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q208788$586b22f8-45d5-c847-5eb9-5c49dd1cebdc
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 4354e3cc033f2c5371e447e5ab1cca8b89ffa3e0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 36253
+          id: Q36253
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q208788$5e570b9d-4a3f-b29a-7a7a-7ea5310d599e
+    rank: normal
+  P2043:
+  - mainsnak:
+      snaktype: value
+      property: P2043
+      hash: 5339f14b9a1baa67f556c8a0a5ef3ec6eca19aca
+      datavalue:
+        value:
+          amount: "+1000"
+          unit: http://www.wikidata.org/entity/Q6003257
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q208788$af4ada63-4586-41e6-904f-c20f599a5c9e
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2043
+      hash: aa56f69fc93b95eb39383a633d84a78d8c202a67
+      datavalue:
+        value:
+          amount: "+0.001"
+          unit: http://www.wikidata.org/entity/Q192274
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q208788$15e0653b-4c12-b017-7038-f94d52757ca9
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 760b548ca6f74dfa3fcc8825e2e4f7e4263a1b0f
+      datavalue:
+        value:
+          amount: "+0.000000000000001"
+          unit: http://www.wikidata.org/entity/Q11573
+          upperBound: "+0.000000000000001"
+          lowerBound: "+0.000000000000001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q208788$73d39ba0-42c3-6a11-461c-d4f7da8786de
+    rank: normal
+  P1417:
+  - mainsnak:
+      snaktype: value
+      property: P1417
+      hash: c8458e855bf4c4edb09a95b9f7627a304d719945
+      datavalue:
+        value: science/femtometre
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q208788$4A7185F6-6C24-473A-B866-BC1CCB07D824
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: e14eb2909e9b323f1d32269b0ce0e56f65370972
+      datavalue:
+        value: Fermi
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q208788$1071cba4-4555-803a-2915-6c371c5b141b
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 7adb4ed82a3d82c72a2e99318218db627dccfd58
+      datavalue:
+        value: femtometre
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q208788$519A0FB0-0FBA-4D29-B131-D318A54AA1BC
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: c41b7ba83ab5e99f75411c5b7c08d477c0bcebc2
+      datavalue:
+        value: fermi
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q208788$3B96B206-3C51-484C-A9C5-8CF79EA1B613
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Femtometer
+    badges: []
+  arwiki:
+    site: arwiki
+    title: فمتومتر
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Femtómetru
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Ферми (измерителна единица)
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Femtometar
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Femtòmetre
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Femtometer
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Femtometre
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Femtómetro
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Femtomeeter
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Femtometro
+    badges: []
+  fawiki:
+    site: fawiki
+    title: فمتومتر
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Femtomètre
+    badges: []
+  hakwiki:
+    site: hakwiki
+    title: Pî-mí
+    badges: []
+  hewiki:
+    site: hewiki
+    title: פרמי (יחידת מידה)
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Fermi
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Femtometer
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Fermí
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Femtometro
+    badges: []
+  jawiki:
+    site: jawiki
+    title: フェムトメートル
+    badges: []
+  jvwiki:
+    site: jvwiki
+    title: Femtomèter
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 펨토미터
+    badges: []
+  lowiki:
+    site: lowiki
+    title: ເຟັມໂຕແມັດ
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Femtometras
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Femtometer
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Femtometer
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Femtometer
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Femtometr
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Femtômetro
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Femtometru
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Ферми (единица измерения)
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Fermi
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Ферми (јединица)
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Femtometer
+    badges: []
+  swwiki:
+    site: swwiki
+    title: Femtomita
+    badges: []
+  tawiki:
+    site: tawiki
+    title: பெர்மி (அலகு)
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Femtometre
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Фемтометр
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Femtômét
+    badges: []
+  warwiki:
+    site: warwiki
+    title: Femtometro
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 飛米
+    badges: []

@@ -1,0 +1,98 @@
+---
+pageid: 7971143
+ns: 0
+title: Q8024928
+lastrevid: 619112352
+modified: '2018-01-12T04:33:59Z'
+type: item
+id: Q8024928
+labels:
+  en:
+    language: en
+    value: wine gallon
+aliases:
+  en:
+  - language: en
+    value: Queen Anne's gallon
+  - language: en
+    value: gallon
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6e3da81891b6fba54d9ac8088595a4b05e5a5f95
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1302471
+          id: Q1302471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q8024928$000e73ff-4dc7-7df2-f467-a1764ea916a0
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: b69cec127ed573f4811352620dc08288f17ecc06
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 178413
+          id: Q178413
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q8024928$0dd71115-43f1-d494-9fd2-c42aeb764d2d
+    rank: normal
+  P2581:
+  - mainsnak:
+      snaktype: value
+      property: P2581
+      hash: 8d716d570d0ad50855d62cebc63d68f11ab33387
+      datavalue:
+        value: '02135919n'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q8024928$7A3EFD75-9C1C-4342-AC74-48D1B3E34824
+    rank: normal
+    references:
+    - hash: bd0ee81488cd8c23d4b655e417aac78dca370283
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: a0b4f55dbedbadaf83e7d2461b47b7aeaba86359
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 4837690
+              id: Q4837690
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P1417:
+  - mainsnak:
+      snaktype: value
+      property: P1417
+      hash: 53009074e0be5414d94b5ca7556f661ec1f5db94
+      datavalue:
+        value: technology/wine-gallon
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q8024928$58606CC2-36DB-4765-BE7F-3C1444B9DD05
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Wine gallon
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Vyno galonas
+    badges: []

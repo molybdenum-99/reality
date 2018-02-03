@@ -1,0 +1,409 @@
+---
+pageid: 184404
+ns: 0
+title: Q185567
+lastrevid: 622983783
+modified: '2018-01-24T14:03:15Z'
+type: item
+id: Q185567
+labels:
+  en:
+    language: en
+    value: Cenomanian
+aliases: {}
+claims:
+  P156:
+  - mainsnak:
+      snaktype: value
+      property: P156
+      hash: 96570097bb912fb2657de8afbff4da42d8c9e866
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 691429
+          id: Q691429
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q185567$38C5DDA1-6C2E-4C99-92F8-011B518BBCBC
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  - mainsnak:
+      snaktype: value
+      property: P156
+      hash: e4b5cea946085737b04c6b8515ffd5dc07a80f35
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 5058878
+          id: Q5058878
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q185567$35220995-A11E-48C3-9F67-26B6137E18AC
+    rank: normal
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: b5fd0e1b356c2f94ed2f265cdd4ff824545fe433
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1476
+          id: Q1476
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q185567$78A7172F-F584-4A79-BE7A-707739C80673
+    rank: normal
+  P155:
+  - mainsnak:
+      snaktype: value
+      property: P155
+      hash: 657e1202de1774a03aaedbe0646ab4b50772123f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 301728
+          id: Q301728
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q185567$8d123543-4266-c750-5f6d-01a7a0d154d1
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P625:
+  - mainsnak:
+      snaktype: value
+      property: P625
+      hash: 19e4b69a9ff71270b29fb20ffce3934714a9ee39
+      datavalue:
+        value:
+          latitude: 44.3925
+          longitude: 5.51194444
+          altitude: 
+          precision: 0.00027777777777778
+          globe: http://www.wikidata.org/entity/Q2
+        type: globecoordinate
+      datatype: globe-coordinate
+    type: statement
+    id: Q185567$F58635B2-3EF4-43D8-B5CD-DF2DFBD2FAAD
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 14f1dd2edbc7094da4da9971c390af98dcf93db5
+      datavalue:
+        value: "/m/08ldrv"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q185567$E9FC5801-1398-479A-A5EC-5C6F46F2E81F
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 548609ab6ac5ff5f955554cc262c11fefff99e19
+      datavalue:
+        value: Cenomanian
+        type: string
+      datatype: string
+    type: statement
+    id: Q185567$019EB098-CF32-4C35-883D-D3FF25733013
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P910:
+  - mainsnak:
+      snaktype: value
+      property: P910
+      hash: 34c3d91e41d884532ae47274abc31d0da0c83095
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 20979613
+          id: Q20979613
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q185567$8BB8B465-6DE5-43C0-B153-6AEF966AE93C
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1774498cb861c7f76e71afc94661ed9a03d8461a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1123245
+          id: Q1123245
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q185567$7aa7ed5f-4d17-b7e6-68e7-3c9067691b79
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: b230ba6f73ec78c2fd8b28c19fab3a1a3e51124e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 568683
+          id: Q568683
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q185567$857ae9f3-4bf0-cd0b-c8a0-581fc296d65b
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 60e1b0eff9c6f0f54b8e5154e8721ccbdf4cae6b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 338199
+          id: Q338199
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q185567$d6036b29-42c5-0a54-5113-2312f0275b7b
+    rank: normal
+  P3827:
+  - mainsnak:
+      snaktype: value
+      property: P3827
+      hash: 5fcdf981732e04c2c5fffb0240adbbd597edc0a5
+      datavalue:
+        value: cenomanian-age
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q185567$ABDCF6A0-3A76-44DC-86A6-2E8551363F84
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Senomanium
+    badges: []
+  arwiki:
+    site: arwiki
+    title: السينوماني
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Cenomanianu
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Cenomanià
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Cenoman
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Cenomanium
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Cenomanian
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Cenomaniano
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Cenomaniense
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Cenomaniar
+    badges: []
+  fawiki:
+    site: fawiki
+    title: سنومانین
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Cenomanum-vaihe
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Cénomanien
+    badges: []
+  hewiki:
+    site: hewiki
+    title: קנומן
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Cenomani
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Cenomaniano
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 세노마눔절
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Cenomanium
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Senomania
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Cenomanien
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Cenomanium
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Cenomanium
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Cenoman
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Cenomaniano
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Сеноманский ярус
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Cenoman
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Сеноманський ярус
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 森諾曼期
+    badges: []

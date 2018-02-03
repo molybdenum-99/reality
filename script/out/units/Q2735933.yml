@@ -1,0 +1,155 @@
+---
+pageid: 2628065
+ns: 0
+title: Q2735933
+lastrevid: 612215261
+modified: '2017-12-22T06:44:06Z'
+type: item
+id: Q2735933
+labels:
+  en:
+    language: en
+    value: anomalistic year
+aliases: {}
+claims:
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: 9a62a8d15587d04f648403568e7d13e860cd4c38
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 37640
+          id: Q37640
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2735933$b5b8d6d3-4204-94c0-bd42-980ec1c25bb1
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: e361bf4f6e2097b64def274fa770e889b02f0d33
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 577
+          id: Q577
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2735933$3556d7a0-4c85-4c02-e8e8-247270e1c436
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 98a1e85b80bda7ff493c25a6b805599da715c077
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1790144
+          id: Q1790144
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2735933$07ed4165-458b-ee91-d104-2149262e2dee
+    rank: normal
+  P1051:
+  - mainsnak:
+      snaktype: value
+      property: P1051
+      hash: 7e35f945bd0b39e1eb8f45fba0b82e4775572546
+      datavalue:
+        value: '371'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2735933$A5663B84-1298-4230-9900-10534A89F401
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 31f4f75f345e9da122f0ad61d843c5c97eb6fb49
+      datavalue:
+        value:
+          amount: "+31558432.6"
+          unit: http://www.wikidata.org/entity/Q11574
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: c34a8cfb745b0cda47dffa6967839b8f92bcb653
+        datavalue:
+          value:
+            time: "+2017-00-00T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 9
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q2735933$7744b346-4f34-7429-763c-0cfefb9257ad
+    rank: normal
+    references:
+    - hash: b3fcdf7077c33a0b0993422331b50e5630f3723c
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 44f361e4688e4c0bc986ab0daa770b5772167067
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 28553900
+              id: Q28553900
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: af974f4cf68e9740f71f558c529b0234c3c2c68b
+          datavalue:
+            value: C2
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+  P1417:
+  - mainsnak:
+      snaktype: value
+      property: P1417
+      hash: bec1dc60c6a6e2bada2bff6fde33d866f2e9a4d4
+      datavalue:
+        value: science/anomalistic-year
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2735933$023A9B6D-FDDC-4A2C-834A-B22301C207F5
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Anomalistisches Jahr
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Anomalistická obežná doba
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Anomalistično leto
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 近点年
+    badges: []

@@ -1,0 +1,390 @@
+---
+pageid: 473393
+ns: 0
+title: Q503349
+lastrevid: 622982187
+modified: '2018-01-24T13:58:47Z'
+type: item
+id: Q503349
+labels:
+  en:
+    language: en
+    value: Selandian
+aliases: {}
+claims:
+  P155:
+  - mainsnak:
+      snaktype: value
+      property: P155
+      hash: '0129b621a2b3a18dff7ecace4cc945cd84a2e5d3'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 502179
+          id: Q502179
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q503349$CC820891-4E6C-4F83-9A01-D9529277047E
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P156:
+  - mainsnak:
+      snaktype: value
+      property: P156
+      hash: a83a6786576fdea03a2f464ff243bffaaf8145c6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 508587
+          id: Q508587
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q503349$be736f10-4805-1990-b7af-08d645b69ac4
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P625:
+  - mainsnak:
+      snaktype: value
+      property: P625
+      hash: 946a0bd9099fd9fb49e74dff74662824d2d2a3e7
+      datavalue:
+        value:
+          latitude: 43.30055556
+          longitude: -2.25944444
+          altitude: 
+          precision: 0.00027777777777778
+          globe: http://www.wikidata.org/entity/Q2
+        type: globecoordinate
+      datatype: globe-coordinate
+    type: statement
+    id: Q503349$4079B14E-CF5D-4BF5-BCF7-E9554D3C9EED
+    rank: normal
+    references:
+    - hash: d4bd87b862b12d99d26e86472d44f26858dee639
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: f30cbd35620c4ea6d0633aaf0210a8916130469b
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 8447
+              id: Q8447
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: '073215298abec2afd52a2a771cde26604d063355'
+      datavalue:
+        value: "/m/08k0kd"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q503349$E19D7AC1-FCD5-4031-9836-075AE4A9DFB4
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 992c8019d72241204a724a09e1f931df611493a6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 25535
+          id: Q25535
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q503349$0c93fdea-40cc-df96-6ff1-1930c33e5699
+    rank: normal
+    references:
+    - hash: 3621a02d41822bc2cc9a5ef848b42d66fb3b9257
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P813:
+        - snaktype: value
+          property: P813
+          hash: a0828a0e8b873d830b82d139957ff97469e4d449
+          datavalue:
+            value:
+              time: "+2014-10-15T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P143
+      - P813
+  P910:
+  - mainsnak:
+      snaktype: value
+      property: P910
+      hash: 133ac5200ed9008fce192b604d82dfe8c50408c2
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 24068668
+          id: Q24068668
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q503349$96A508C2-EB90-4D5A-9816-61C9CE7078A0
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1774498cb861c7f76e71afc94661ed9a03d8461a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1123245
+          id: Q1123245
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q503349$8f17fd88-46d6-d0a9-b57a-66eafced1b8e
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: b230ba6f73ec78c2fd8b28c19fab3a1a3e51124e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 568683
+          id: Q568683
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q503349$8fef1ec6-4c02-bfd2-7f5b-d93070885d3a
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: ecb60521585a47ff80de1a2f9e50eab8d8b7ee18
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 76252
+          id: Q76252
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q503349$7639ba5b-4db2-34f4-1338-b510e0d1ee67
+    rank: normal
+  P1417:
+  - mainsnak:
+      snaktype: value
+      property: P1417
+      hash: bc15676720e648cbb47c527acbe9d12767fbacdc
+      datavalue:
+        value: science/Selandian-Stage
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q503349$245c1eb6-459c-be86-7758-e8ed3c2b1634
+    rank: normal
+    references:
+    - hash: 2bf16b88dfdbda7224a7f4432a58cb0374e22325
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 141df4a779f378b05eb7678c8315b1338c238d94
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 5375741
+              id: Q5375741
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Selandium
+    badges: []
+  arwiki:
+    site: arwiki
+    title: السيلاندي
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Зеландскі ярус
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Selandià
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Selandien
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Seelandium
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Selandian
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Selandiense
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Selandiar
+    badges: []
+  fawiki:
+    site: fawiki
+    title: سلاندین
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Sélandien
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Selandiano
+    badges: []
+  jawiki:
+    site: jawiki
+    title: セランディアン
+    badges: []
+  ndswiki:
+    site: ndswiki
+    title: Seelandium
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Selandien
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Selandium
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Zeland
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Selandiano
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Зеландский ярус
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Seland
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Tầng Seland
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 塞兰特期
+    badges: []

@@ -1,0 +1,183 @@
+---
+pageid: 1268548
+ns: 0
+title: Q1328829
+lastrevid: 618464119
+modified: '2018-01-10T11:41:45Z'
+type: item
+id: Q1328829
+labels:
+  en:
+    language: en
+    value: Canadian pound
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: bbac09d8f01e7e0a8b23f7f1335041b4645b3775
+      datavalue:
+        value: "/m/0byvw4"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1328829$BA5F45B5-A68C-4D61-AA7A-9F26BB55FA44
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P156:
+  - mainsnak:
+      snaktype: value
+      property: P156
+      hash: 74eda54b6dd6f82b86d3b8076f24aa3b51c7c7c3
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 16080864
+          id: Q16080864
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1328829$8654BE44-21E1-4D33-B6C8-6E2C3C368369
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1328829$4b558e47-4c97-4c32-a700-0bc1b2adf351
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 48dad11e4d75aa74b8b0904f85a3d307400ea278
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 339180
+          id: Q339180
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1328829$2b092d21-433a-6156-00dd-c3614c751ff2
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: d7c3d408bc1f997799e67ca02fc91be5589b81ba
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 795427
+          id: Q795427
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1328829$660e72f9-4afb-c8d5-f2de-53647fe6791d
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 92e370bb51823bc98b9a47fabbba30a4142fab89
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1134180
+          id: Q1134180
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1328829$875fddd1-4e76-edf1-6b7d-fff1997ec0e2
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Kanadisches Pfund
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Canadian pound
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Pound Kanada
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Канадский фунт
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Bảng Canada
+    badges: []

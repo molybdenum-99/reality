@@ -1,0 +1,482 @@
+---
+pageid: 5553
+ns: 0
+title: Q4608
+lastrevid: 617968329
+modified: '2018-01-09T08:57:31Z'
+type: item
+id: Q4608
+labels:
+  en:
+    language: en
+    value: Georgian lari
+aliases:
+  en:
+  - language: en
+    value: Georgian kupon lari
+  - language: en
+    value: Lari
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q4608$E68CA7C5-26BD-4F5B-8B2E-A0C96F75B571
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 7cb9ca9c68e7dfab24c14e7ebe97520c290fcc9f
+      datavalue:
+        value: GEL
+        type: string
+      datatype: external-id
+    type: statement
+    id: q4608$f9d7fee5-4330-c4de-8f2f-dd93dc80250a
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: a05a92ea32c0ab371760908f46466f92a8a2b305
+      datavalue:
+        value: 100lari.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: q4608$37C61D35-95B2-46C9-9597-D4DA292FF441
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 145bebe388f3ac6b97830000dee2c80ed9f0f910
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 230
+          id: Q230
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q4608$B56B702E-A1E4-404B-BD72-8EBBCC64563B
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: c40b8b70d9d184a7188670b4efca11551b3788e3
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2667495
+          id: Q2667495
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q4608$857ADC8C-5618-40AA-8A9C-22E728376C4F
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 1bbb2668414e62703d277467cfb312b59ce3cb8b
+      datavalue:
+        value: "/m/03nh77"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q4608$C259C7E2-556A-4107-9864-224DFBB74DD9
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P487:
+  - mainsnak:
+      snaktype: value
+      property: P487
+      hash: 772e2273e334f0dfa4676754ff8f1411b7c29d0a
+      datavalue:
+        value: "₾"
+        type: string
+      datatype: string
+    type: statement
+    id: Q4608$9d880643-42e2-d9e7-d7f2-31eec3ad7012
+    rank: normal
+  P1448:
+  - mainsnak:
+      snaktype: value
+      property: P1448
+      hash: 6fb21006ce417e45d2af589f5fa834a1afd68e77
+      datavalue:
+        value:
+          text: ლარი
+          language: ka
+        type: monolingualtext
+      datatype: monolingualtext
+    type: statement
+    id: Q4608$c86a4cb8-47e3-4105-70de-45474d8f8081
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: a12803554632385cdbfd16c0d49754fbb32b3bc9
+      datavalue:
+        value: Money of Georgia
+        type: string
+      datatype: string
+    type: statement
+    id: Q4608$6de35f73-442f-c349-64f5-408a3029af5c
+    rank: normal
+  P856:
+  - mainsnak:
+      snaktype: value
+      property: P856
+      hash: 1844ba0892c2696294995418b6c0717c284ea88c
+      datavalue:
+        value: http://www.nbg.gov.ge
+        type: string
+      datatype: url
+    type: statement
+    id: Q4608$1698836F-C4FC-486E-A6EE-68A24BF84F49
+    rank: normal
+    references:
+    - hash: ed8bd3f9343e9a35e58b67284f26a67859f1808d
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: '07596fc82d3ed4d248b85e5543852cc31e37dc8c'
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 199913
+              id: Q199913
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: fc5c1fe8588ac845f9c9462557cc7ce0acdd8c05
+      datavalue:
+        value: '500168'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q4608$5E65D98F-E6E6-41A1-B12D-2A54CDB659A9
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: لاري جورجي
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Gürcüstan larisi
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Грузінскі лары
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Лары
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Грузинско лари
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: জর্জিয়ান লরি
+    badges: []
+  brwiki:
+    site: brwiki
+    title: Lari (Jorjia)
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Gruzijski lari
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Lari (moneda)
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Gruzínské lari
+    badges: []
+  cvwiki:
+    site: cvwiki
+    title: Лари
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Georgiske lari
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Georgischer Lari
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Λάρι Γεωργίας
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Georgian lari
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Lario
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Lari georgiano
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Lari
+    badges: []
+  fawiki:
+    site: fawiki
+    title: لاری گرجستان
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Georgian lari
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Lari (monnaie)
+    badges: []
+  hewiki:
+    site: hewiki
+    title: לארי גאורגי
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: लारी
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Gruzijski lari
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Grúz lari
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Վրացական լարի
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Lari Georgia
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Georgískt larí
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Lari georgiano
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ラリ
+    badges: []
+  kawiki:
+    site: kawiki
+    title: ლარი
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Лари
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 조지아 라리
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Грузияса лари
+    badges: []
+  kywiki:
+    site: kywiki
+    title: Лари
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Laris
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Gruzijas lars
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Грузиски лари
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: जॉर्जियन लारी
+    badges: []
+  ndswiki:
+    site: ndswiki
+    title: Lari (Geldsoort)
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Georgische lari
+    badges: []
+  novwiki:
+    site: novwiki
+    title: Lari
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Georgisk lari
+    badges: []
+  oswiki:
+    site: oswiki
+    title: Лари
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਜਾਰਜੀਆਈ ਲਾਰੀ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Lari (waluta)
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Lari (moeda)
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Lari
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Грузинский лари
+    badges: []
+  sahwiki:
+    site: sahwiki
+    title: Грузия ларита
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Gruzijski lari
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Gruzínske lari
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Грузијски лари
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Georgiska lari
+    badges: []
+  tawiki:
+    site: tawiki
+    title: ஜார்ஜிய லாரி
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Лари Гурҷистон
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Gürcistan larisi
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Грузинський ларі
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Lari (pul birligi)
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: ქორთული ლარი
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Lari
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Gruzia lari
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 格魯吉亞拉里
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 格鲁吉亚拉里
+    badges: []

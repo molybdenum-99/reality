@@ -1,0 +1,3017 @@
+---
+pageid: 1247418
+ns: 0
+title: Q1307473
+lastrevid: 623482255
+modified: '2018-01-25T23:16:10Z'
+type: item
+id: Q1307473
+labels:
+  en:
+    language: en
+    value: Ripple
+aliases:
+  en:
+  - language: en
+    value: Ripple Transaction Protocol
+  - language: en
+    value: Ripple protocol
+  - language: en
+    value: Ripple monetary system
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 80151d72feae178bc698c542c7d25a7496a146c5
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 341
+          id: Q341
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1307473$2DDD34DD-E1CF-4641-BD04-DAAA1DC76A56
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 16ab8cfff2957341998c927ff03e50befb65a864
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 13479982
+          id: Q13479982
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1307473$3eef1c79-4db3-bf96-d9c5-36e660676f05
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 961c0bec009aaf510d21250115a51ea0e2daab95
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10836209
+          id: Q10836209
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1307473$83811c82-4bd5-9c2f-358e-a04ea473a572
+    rank: normal
+  P154:
+  - mainsnak:
+      snaktype: value
+      property: P154
+      hash: 7fd05e1851a7293bed5f7af2f4b598d2f79ee9c1
+      datavalue:
+        value: Ripple-Logo.png
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q1307473$8FC32B29-AEA7-40EE-A1AF-9D2A9BF23676
+    rank: normal
+  P1324:
+  - mainsnak:
+      snaktype: value
+      property: P1324
+      hash: b6e0863d4330fbf2464e0f39b563dd3b0f7a0101
+      datavalue:
+        value: https://github.com/ripple/rippled
+        type: string
+      datatype: url
+    type: statement
+    qualifiers:
+      P2700:
+      - snaktype: value
+        property: P2700
+        hash: c9653c60db2ac354cb25a08c14c306afd1238d7c
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 186055
+            id: Q186055
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P2700
+    id: Q1307473$78ab7886-4956-72fa-37e7-64c01e588b36
+    rank: normal
+    references:
+    - hash: da34d8c7326d071545c49ba4593f14fe2d4aef4b
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 2354fdc43b4368725cb018ac4578ede3e98a8712
+          datavalue:
+            value:
+              time: "+2016-10-05T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P813
+  P2992:
+  - mainsnak:
+      snaktype: value
+      property: P2992
+      hash: 0f97d5f3ff950230d3fb34faaaa518604b8542c5
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 965769
+          id: Q965769
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P973:
+      - snaktype: value
+        property: P973
+        hash: 763761560bd07acf56c86502b6ba1cbc6b606b62
+        datavalue:
+          value: https://github.com/ripple/rippled/blob/master/.travis.yml
+          type: string
+        datatype: url
+      P1065:
+      - snaktype: value
+        property: P1065
+        hash: a53a15d7a625a2e6c98232e149e83969fa5c7e43
+        datavalue:
+          value: https://travis-ci.org/ripple/rippled
+          type: string
+        datatype: url
+    qualifiers-order:
+    - P973
+    - P1065
+    id: Q1307473$E735C7B6-6ABB-43BF-8F23-700F013C50B2
+    rank: normal
+    references:
+    - hash: da34d8c7326d071545c49ba4593f14fe2d4aef4b
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 2354fdc43b4368725cb018ac4578ede3e98a8712
+          datavalue:
+            value:
+              time: "+2016-10-05T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P813
+  P856:
+  - mainsnak:
+      snaktype: value
+      property: P856
+      hash: ac5d4bf542e4235548bd9e81b617c44283369d42
+      datavalue:
+        value: https://ripple.com
+        type: string
+      datatype: url
+    type: statement
+    id: Q1307473$C5B71175-9B0F-4E63-8FA7-7E5D292D8EC8
+    rank: normal
+    references:
+    - hash: c1f61a57315a354034989ed45d51f9047dcba76b
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 4c95cdc74ff60d8cd2962e128e4dd5cc51ef1264
+          datavalue:
+            value:
+              time: "+2017-01-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: d493d909e07aa37f05a3a4632dad3b7b96e02926
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  P571:
+  - mainsnak:
+      snaktype: value
+      property: P571
+      hash: 95fb0a325e9930599f936937dfb509a2174d1a97
+      datavalue:
+        value:
+          time: "+2012-00-00T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 9
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q1307473$890464ca-4203-d7b2-7b69-763fd55a026f
+    rank: normal
+  P275:
+  - mainsnak:
+      snaktype: value
+      property: P275
+      hash: 8bd48cc6b3f0dc88959e4e1bf18fe65a7563a812
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 386474
+          id: Q386474
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1307473$0AF86F91-E710-4FB5-8555-34135B1106E7
+    rank: normal
+    references:
+    - hash: d4bd87b862b12d99d26e86472d44f26858dee639
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: f30cbd35620c4ea6d0633aaf0210a8916130469b
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 8447
+              id: Q8447
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+    - hash: a29a646602abf65105ed0f39a44231c962ece9ee
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: c6f1777471211df31724ac60175786f3872c83e9
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 177837
+              id: Q177837
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P348:
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: a0c3d5243eb5b1b9725c73dba865f19be44801f8
+      datavalue:
+        value: 0.33.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: f0baae4e3c8dd398f22da8c29cd65c515e222a9f
+        datavalue:
+          value:
+            time: "+2016-09-29T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      - snaktype: value
+        property: P577
+        hash: a9eef9b3722d5e969e30b4d5d44dd1f75d6dea3b
+        datavalue:
+          value:
+            time: "+2017-01-26T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$13280D7B-32B5-4169-9379-27672D97B897
+    rank: normal
+    references:
+    - hash: 89ba6262f4b2257db66112f538e8e1a5c02266be
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 4c95cdc74ff60d8cd2962e128e4dd5cc51ef1264
+          datavalue:
+            value:
+              time: "+2017-01-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 67bc2ffa118028c9cbb20d712295c1dafabeaf30
+      datavalue:
+        value: 0.32.1
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 5ff8621903b50a23e17f5ecb0a4da19a9ee7d137
+        datavalue:
+          value:
+            time: "+2016-08-19T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      - snaktype: value
+        property: P577
+        hash: 54fec2c34750addb629aeb3cd5cc2e6dc5a0a6eb
+        datavalue:
+          value:
+            time: "+2016-07-30T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$F6E67D18-C591-47E2-9CC0-5F6DF0933AF1
+    rank: normal
+    references:
+    - hash: 89ba6262f4b2257db66112f538e8e1a5c02266be
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 4c95cdc74ff60d8cd2962e128e4dd5cc51ef1264
+          datavalue:
+            value:
+              time: "+2017-01-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 12f09e3ae1417cdde75c430084b72a3f4c62d0ae
+      datavalue:
+        value: 0.32.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 7e7282e9b966915df1c5482507beb2fd99b4822d
+        datavalue:
+          value:
+            time: "+2016-06-27T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$9607F885-B6B0-4984-A3AA-0A33B17D5E27
+    rank: normal
+    references:
+    - hash: 89ba6262f4b2257db66112f538e8e1a5c02266be
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 4c95cdc74ff60d8cd2962e128e4dd5cc51ef1264
+          datavalue:
+            value:
+              time: "+2017-01-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 3649451b6dfb063c28ccbdc6189b327c9ca4ca18
+      datavalue:
+        value: 0.31.2
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 1ad1d208bc8f6dc4941c49c2f5fca57a0a6c7d08
+        datavalue:
+          value:
+            time: "+2016-06-10T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$28C133F7-7813-4466-89BE-0AC0080F4397
+    rank: normal
+    references:
+    - hash: 89ba6262f4b2257db66112f538e8e1a5c02266be
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 4c95cdc74ff60d8cd2962e128e4dd5cc51ef1264
+          datavalue:
+            value:
+              time: "+2017-01-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: e8dc55c3c8915d8b80dfe34f2683c4f38a99cb71
+      datavalue:
+        value: '0.12'
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 532ae5a69c30118fdbde858086815c95115999f6
+        datavalue:
+          value:
+            time: "+2016-05-23T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$DECBEBAC-4D8A-41D7-85BF-10C93A1B3B90
+    rank: normal
+    references:
+    - hash: 89ba6262f4b2257db66112f538e8e1a5c02266be
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 4c95cdc74ff60d8cd2962e128e4dd5cc51ef1264
+          datavalue:
+            value:
+              time: "+2017-01-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 19fc66aee22b2f88e29890ad50ae5c328bf24bac
+      datavalue:
+        value: '0.14'
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 532ae5a69c30118fdbde858086815c95115999f6
+        datavalue:
+          value:
+            time: "+2016-05-23T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$D7FBDA0B-9A0E-4861-AD67-86B2FB8B9CE9
+    rank: normal
+    references:
+    - hash: 89ba6262f4b2257db66112f538e8e1a5c02266be
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 4c95cdc74ff60d8cd2962e128e4dd5cc51ef1264
+          datavalue:
+            value:
+              time: "+2017-01-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: dbd3a80852580f6cf2ae316a5a8f1c979063f878
+      datavalue:
+        value: '0.16'
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 532ae5a69c30118fdbde858086815c95115999f6
+        datavalue:
+          value:
+            time: "+2016-05-23T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$D7F56C4B-13E9-4D1A-B877-128B27A9B66E
+    rank: normal
+    references:
+    - hash: 89ba6262f4b2257db66112f538e8e1a5c02266be
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 4c95cdc74ff60d8cd2962e128e4dd5cc51ef1264
+          datavalue:
+            value:
+              time: "+2017-01-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: f198b2071583dc5b662a60b685e0fbcb83ac5311
+      datavalue:
+        value: '0.19'
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 532ae5a69c30118fdbde858086815c95115999f6
+        datavalue:
+          value:
+            time: "+2016-05-23T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$AB6DBC0C-10B4-4A77-9314-DEC60521D53E
+    rank: normal
+    references:
+    - hash: 89ba6262f4b2257db66112f538e8e1a5c02266be
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 4c95cdc74ff60d8cd2962e128e4dd5cc51ef1264
+          datavalue:
+            value:
+              time: "+2017-01-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 137f8b8ad4f24d108c5299be77a5b1b4c22a7aeb
+      datavalue:
+        value: 0.20.1
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 532ae5a69c30118fdbde858086815c95115999f6
+        datavalue:
+          value:
+            time: "+2016-05-23T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$66D1FFD8-A22C-4962-BDDE-C70DC5F4D0B6
+    rank: normal
+    references:
+    - hash: 89ba6262f4b2257db66112f538e8e1a5c02266be
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 4c95cdc74ff60d8cd2962e128e4dd5cc51ef1264
+          datavalue:
+            value:
+              time: "+2017-01-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 43a28aebf1cccc4b6586f538f7f097faa193e40d
+      datavalue:
+        value: 0.21.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 532ae5a69c30118fdbde858086815c95115999f6
+        datavalue:
+          value:
+            time: "+2016-05-23T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$E602D8B3-656D-4B6A-BBBD-5A5FBD511489
+    rank: normal
+    references:
+    - hash: 89ba6262f4b2257db66112f538e8e1a5c02266be
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 4c95cdc74ff60d8cd2962e128e4dd5cc51ef1264
+          datavalue:
+            value:
+              time: "+2017-01-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: a3e2b42861cb296fdd4f86e4c341eff067fc14a0
+      datavalue:
+        value: 0.22.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 532ae5a69c30118fdbde858086815c95115999f6
+        datavalue:
+          value:
+            time: "+2016-05-23T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$5472A419-82A2-4546-8C1A-29AF73A82AFC
+    rank: normal
+    references:
+    - hash: 89ba6262f4b2257db66112f538e8e1a5c02266be
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 4c95cdc74ff60d8cd2962e128e4dd5cc51ef1264
+          datavalue:
+            value:
+              time: "+2017-01-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 2174593b871fea2773b1832c69bafa5a259019a0
+      datavalue:
+        value: 0.23.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 532ae5a69c30118fdbde858086815c95115999f6
+        datavalue:
+          value:
+            time: "+2016-05-23T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$BC2C87B7-16BC-427B-BEDE-165999A83B7B
+    rank: normal
+    references:
+    - hash: 89ba6262f4b2257db66112f538e8e1a5c02266be
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 4c95cdc74ff60d8cd2962e128e4dd5cc51ef1264
+          datavalue:
+            value:
+              time: "+2017-01-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: ee9519c9551f6f73c5f9c5c5e6b928e4d7d27088
+      datavalue:
+        value: 0.24.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 532ae5a69c30118fdbde858086815c95115999f6
+        datavalue:
+          value:
+            time: "+2016-05-23T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$835C6E5F-6C83-4A44-B5B2-5047046816B6
+    rank: normal
+    references:
+    - hash: 89ba6262f4b2257db66112f538e8e1a5c02266be
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 4c95cdc74ff60d8cd2962e128e4dd5cc51ef1264
+          datavalue:
+            value:
+              time: "+2017-01-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: da4652dfad3047ac36456423d50acb1ba895ff95
+      datavalue:
+        value: 0.25.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 532ae5a69c30118fdbde858086815c95115999f6
+        datavalue:
+          value:
+            time: "+2016-05-23T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$909692DC-23AF-48C2-8465-1CCFC57DF42F
+    rank: normal
+    references:
+    - hash: 89ba6262f4b2257db66112f538e8e1a5c02266be
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 4c95cdc74ff60d8cd2962e128e4dd5cc51ef1264
+          datavalue:
+            value:
+              time: "+2017-01-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 6122bf945eab92d5e4fb80af51c9ebaffbe4c069
+      datavalue:
+        value: 0.25.1
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 532ae5a69c30118fdbde858086815c95115999f6
+        datavalue:
+          value:
+            time: "+2016-05-23T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$59E1CC50-0D65-44E1-AB93-FCFC57AFC1BA
+    rank: normal
+    references:
+    - hash: 89ba6262f4b2257db66112f538e8e1a5c02266be
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 4c95cdc74ff60d8cd2962e128e4dd5cc51ef1264
+          datavalue:
+            value:
+              time: "+2017-01-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 6df8d10a80fb50cf0bd70c6cab42a53ff60783a6
+      datavalue:
+        value: 0.25.2
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 532ae5a69c30118fdbde858086815c95115999f6
+        datavalue:
+          value:
+            time: "+2016-05-23T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$08370EB9-F0E5-4D86-B57D-13211FB1A76A
+    rank: normal
+    references:
+    - hash: 89ba6262f4b2257db66112f538e8e1a5c02266be
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 4c95cdc74ff60d8cd2962e128e4dd5cc51ef1264
+          datavalue:
+            value:
+              time: "+2017-01-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 26caebaca35fc039631775408eab3db7a18f090c
+      datavalue:
+        value: 0.26.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 532ae5a69c30118fdbde858086815c95115999f6
+        datavalue:
+          value:
+            time: "+2016-05-23T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$680142E4-6400-4A8C-A2DB-AD96BADEB47C
+    rank: normal
+    references:
+    - hash: 89ba6262f4b2257db66112f538e8e1a5c02266be
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 4c95cdc74ff60d8cd2962e128e4dd5cc51ef1264
+          datavalue:
+            value:
+              time: "+2017-01-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 5388a0e38223dea19314ba887e86758e903666cd
+      datavalue:
+        value: 0.26.1
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 532ae5a69c30118fdbde858086815c95115999f6
+        datavalue:
+          value:
+            time: "+2016-05-23T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$A4FBB0B0-9A1D-443F-96CC-F982038AA330
+    rank: normal
+    references:
+    - hash: 89ba6262f4b2257db66112f538e8e1a5c02266be
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 4c95cdc74ff60d8cd2962e128e4dd5cc51ef1264
+          datavalue:
+            value:
+              time: "+2017-01-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: b57af5825f545ba5b755d67f7088261efe18313b
+      datavalue:
+        value: 0.26.2
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 532ae5a69c30118fdbde858086815c95115999f6
+        datavalue:
+          value:
+            time: "+2016-05-23T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$8004CD63-4036-4CB8-A2DC-AAEA7250D41D
+    rank: normal
+    references:
+    - hash: 89ba6262f4b2257db66112f538e8e1a5c02266be
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 4c95cdc74ff60d8cd2962e128e4dd5cc51ef1264
+          datavalue:
+            value:
+              time: "+2017-01-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 5d6e5e8bf5db51090baa709f529f99ffaa6d90e7
+      datavalue:
+        value: 0.26.3
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 532ae5a69c30118fdbde858086815c95115999f6
+        datavalue:
+          value:
+            time: "+2016-05-23T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$132ADA04-98C9-4066-97A8-096E85E818DE
+    rank: normal
+    references:
+    - hash: 89ba6262f4b2257db66112f538e8e1a5c02266be
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 4c95cdc74ff60d8cd2962e128e4dd5cc51ef1264
+          datavalue:
+            value:
+              time: "+2017-01-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 39baf9f3de81690b6f5a2a22c687d35cd2e40664
+      datavalue:
+        value: 0.26.4
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 532ae5a69c30118fdbde858086815c95115999f6
+        datavalue:
+          value:
+            time: "+2016-05-23T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$8B81B48F-847A-445D-9A05-B5BD3ACC1045
+    rank: normal
+    references:
+    - hash: 89ba6262f4b2257db66112f538e8e1a5c02266be
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 4c95cdc74ff60d8cd2962e128e4dd5cc51ef1264
+          datavalue:
+            value:
+              time: "+2017-01-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 214f16e4c5478135e27bbdb2b4ba0b660e72a9df
+      datavalue:
+        value: 0.27.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 532ae5a69c30118fdbde858086815c95115999f6
+        datavalue:
+          value:
+            time: "+2016-05-23T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$D22A1660-2BE1-42C3-8A1A-C4AF9809DF9D
+    rank: normal
+    references:
+    - hash: 89ba6262f4b2257db66112f538e8e1a5c02266be
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 4c95cdc74ff60d8cd2962e128e4dd5cc51ef1264
+          datavalue:
+            value:
+              time: "+2017-01-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: cbc900efd76df9e6158499a741e964c1309a3591
+      datavalue:
+        value: 0.27.1
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 532ae5a69c30118fdbde858086815c95115999f6
+        datavalue:
+          value:
+            time: "+2016-05-23T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$9382E920-6A4F-4C2A-882F-6DD624CB8C63
+    rank: normal
+    references:
+    - hash: 89ba6262f4b2257db66112f538e8e1a5c02266be
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 4c95cdc74ff60d8cd2962e128e4dd5cc51ef1264
+          datavalue:
+            value:
+              time: "+2017-01-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 311cf5d8907cd2603b87ae20c75e7b4d2f9bd8b4
+      datavalue:
+        value: 0.27.2
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 532ae5a69c30118fdbde858086815c95115999f6
+        datavalue:
+          value:
+            time: "+2016-05-23T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$3151405C-FD07-4500-B501-D5D33B5E776C
+    rank: normal
+    references:
+    - hash: 89ba6262f4b2257db66112f538e8e1a5c02266be
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 4c95cdc74ff60d8cd2962e128e4dd5cc51ef1264
+          datavalue:
+            value:
+              time: "+2017-01-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: dc2bc009d5ba946830a026a711b889f43b110bd4
+      datavalue:
+        value: 0.27.3
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 532ae5a69c30118fdbde858086815c95115999f6
+        datavalue:
+          value:
+            time: "+2016-05-23T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$134E39A3-66AF-4681-8063-5BF2D295D914
+    rank: normal
+    references:
+    - hash: 89ba6262f4b2257db66112f538e8e1a5c02266be
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 4c95cdc74ff60d8cd2962e128e4dd5cc51ef1264
+          datavalue:
+            value:
+              time: "+2017-01-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: dc9ffd304f89471b7c97fea29bd6a9ede038776a
+      datavalue:
+        value: 0.27.4
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 761e553f79a3a6fa708be6cf192b611cbd3f0360
+        datavalue:
+          value:
+            time: "+2016-05-02T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$4A1CDE91-3CD1-4144-BB18-2E27F2AC6543
+    rank: normal
+    references:
+    - hash: 89ba6262f4b2257db66112f538e8e1a5c02266be
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 4c95cdc74ff60d8cd2962e128e4dd5cc51ef1264
+          datavalue:
+            value:
+              time: "+2017-01-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: ee9f082d1bf7c7a9a55a3ff0a3d5db1d833cbc86
+      datavalue:
+        value: 0.28.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 761e553f79a3a6fa708be6cf192b611cbd3f0360
+        datavalue:
+          value:
+            time: "+2016-05-02T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$E218896C-B6CF-4BB7-8E72-BBC1DAC1315A
+    rank: normal
+    references:
+    - hash: 89ba6262f4b2257db66112f538e8e1a5c02266be
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 4c95cdc74ff60d8cd2962e128e4dd5cc51ef1264
+          datavalue:
+            value:
+              time: "+2017-01-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: f4215e2efa9158f5c2683c3222c2c4535eb5f438
+      datavalue:
+        value: 0.28.1
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 761e553f79a3a6fa708be6cf192b611cbd3f0360
+        datavalue:
+          value:
+            time: "+2016-05-02T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$BC764538-36DE-4954-A2F7-EF29EADCC2E7
+    rank: normal
+    references:
+    - hash: 89ba6262f4b2257db66112f538e8e1a5c02266be
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 4c95cdc74ff60d8cd2962e128e4dd5cc51ef1264
+          datavalue:
+            value:
+              time: "+2017-01-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 7d8d65bb335c56a70c94d508d1ada814a55eefbf
+      datavalue:
+        value: 0.28.2
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 761e553f79a3a6fa708be6cf192b611cbd3f0360
+        datavalue:
+          value:
+            time: "+2016-05-02T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$7BDFA970-278B-4B46-9B85-EEF372488954
+    rank: normal
+    references:
+    - hash: 89ba6262f4b2257db66112f538e8e1a5c02266be
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 4c95cdc74ff60d8cd2962e128e4dd5cc51ef1264
+          datavalue:
+            value:
+              time: "+2017-01-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 28ec8654e05af148281192a76d1107bace45311f
+      datavalue:
+        value: 0.29.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 761e553f79a3a6fa708be6cf192b611cbd3f0360
+        datavalue:
+          value:
+            time: "+2016-05-02T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$CC7EF139-FE8F-48C9-8E72-C0EDB8CF6B94
+    rank: normal
+    references:
+    - hash: 89ba6262f4b2257db66112f538e8e1a5c02266be
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 4c95cdc74ff60d8cd2962e128e4dd5cc51ef1264
+          datavalue:
+            value:
+              time: "+2017-01-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: a75effaf0b15f46f58937a3012b95ad8e8d6075d
+      datavalue:
+        value: 0.30.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 761e553f79a3a6fa708be6cf192b611cbd3f0360
+        datavalue:
+          value:
+            time: "+2016-05-02T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$EFD1514F-82E6-4C6F-B668-A6E4827ADA5E
+    rank: normal
+    references:
+    - hash: 89ba6262f4b2257db66112f538e8e1a5c02266be
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 4c95cdc74ff60d8cd2962e128e4dd5cc51ef1264
+          datavalue:
+            value:
+              time: "+2017-01-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 89bb0d3660d54d7e322af7ad6ada48b621075250
+      datavalue:
+        value: 0.30.1
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 761e553f79a3a6fa708be6cf192b611cbd3f0360
+        datavalue:
+          value:
+            time: "+2016-05-02T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$DE7B91C2-6E41-410A-8DC9-C51B880F63BF
+    rank: normal
+    references:
+    - hash: 89ba6262f4b2257db66112f538e8e1a5c02266be
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 4c95cdc74ff60d8cd2962e128e4dd5cc51ef1264
+          datavalue:
+            value:
+              time: "+2017-01-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 595ac2df0f35fdcc81639802ce8da452e599def2
+      datavalue:
+        value: 0.31.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 761e553f79a3a6fa708be6cf192b611cbd3f0360
+        datavalue:
+          value:
+            time: "+2016-05-02T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$7A4803CE-5885-44D8-BBEB-F749ECDB692C
+    rank: normal
+    references:
+    - hash: 89ba6262f4b2257db66112f538e8e1a5c02266be
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 4c95cdc74ff60d8cd2962e128e4dd5cc51ef1264
+          datavalue:
+            value:
+              time: "+2017-01-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 173a3cff2a90fd9cb01468308d997455248baff6
+      datavalue:
+        value: 0.40.1
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: a9eef9b3722d5e969e30b4d5d44dd1f75d6dea3b
+        datavalue:
+          value:
+            time: "+2017-01-26T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$E2C7DAE3-3DAD-44F1-B117-7C10A5FF8321
+    rank: normal
+    references:
+    - hash: c9c0e87216d4f3284220b6203d79e8a1b06b24a4
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: caef52bf1cbb5436f6d475ea4ea95a4839810e9a
+          datavalue:
+            value:
+              time: "+2017-01-26T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 762409aa6dabe3eb580f92fb25c40925fb94db8a
+      datavalue:
+        value: 0.40.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: a9eef9b3722d5e969e30b4d5d44dd1f75d6dea3b
+        datavalue:
+          value:
+            time: "+2017-01-26T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$1B78F992-4E5F-4FDF-B93E-DE345BC1B920
+    rank: normal
+    references:
+    - hash: c9c0e87216d4f3284220b6203d79e8a1b06b24a4
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: caef52bf1cbb5436f6d475ea4ea95a4839810e9a
+          datavalue:
+            value:
+              time: "+2017-01-26T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 56d2530acacf54d891d932862072733984c1f046
+      datavalue:
+        value: 0.50.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 551594209d94808b2c0fe6e7d69df985fd53dbdb
+        datavalue:
+          value:
+            time: "+2017-01-27T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$717812C2-DAF7-4633-B908-170F076A9B69
+    rank: normal
+    references:
+    - hash: 8f16d197da74057636892fd8c47a51a33dd77cf8
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 7e194b38b8c401c06de65670e4c2748af02e4364
+          datavalue:
+            value:
+              time: "+2017-01-30T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: ee5b9c04f6e9bee45ece685d924f72c8d9bc7e06
+      datavalue:
+        value: 0.60.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: b123bd05711de661f2ed8d8fbe694c71a51c0b4e
+        datavalue:
+          value:
+            time: "+2017-03-17T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$70072FE8-5D87-4B7E-A52B-34BACC6B1AE8
+    rank: normal
+    references:
+    - hash: 2373a0c8948f3784b48d219ddf585090c0664bfc
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: f44d0419e4922e25191aa220a56d262a4eeded35
+          datavalue:
+            value:
+              time: "+2017-03-18T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: c95cf68e3b23c97a901258cc0aadc05f5af78c7d
+      datavalue:
+        value: 0.60.1
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: fae794b7dfb3752db0b16572ba4175ef69e55bf8
+        datavalue:
+          value:
+            time: "+2017-04-11T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$7E2DC445-5E81-4C79-8B51-8EDE324EFBA8
+    rank: normal
+    references:
+    - hash: 1bd5a4b5dbae3c970594aac3ee3b6ce95dfb88bf
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: da5f294d45d37a57c15fddbd15b577d178d1c1d9
+          datavalue:
+            value:
+              time: "+2017-04-12T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 2105b3062c41a9303012d07793354f922d54fa23
+      datavalue:
+        value: 0.80.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 47464d2c605fd82e7057907b197833097578780a
+        datavalue:
+          value:
+            time: "+2017-10-20T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$A5E89E40-4BAC-4E1F-853F-ABB8B9B08992
+    rank: normal
+    references:
+    - hash: 19542708d59c1b35ffac029d53979d9e6280bf81
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: ac4a2b450a91415e3eab756f039880c6b6bb4f77
+          datavalue:
+            value:
+              time: "+2017-10-21T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: b343fbed1d98ed7e2679cba23537a699a61728dd
+      datavalue:
+        value: 0.70.2
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 47464d2c605fd82e7057907b197833097578780a
+        datavalue:
+          value:
+            time: "+2017-10-20T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$1B59D256-43BF-4FCD-B8D0-F64016F70EE1
+    rank: normal
+    references:
+    - hash: 19542708d59c1b35ffac029d53979d9e6280bf81
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: ac4a2b450a91415e3eab756f039880c6b6bb4f77
+          datavalue:
+            value:
+              time: "+2017-10-21T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 7f4c0436616a023611f0886b8e011f42379ed2fd
+      datavalue:
+        value: 0.70.1
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 47464d2c605fd82e7057907b197833097578780a
+        datavalue:
+          value:
+            time: "+2017-10-20T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$F0014F00-02C0-4BAE-853A-8F3FC0316AE6
+    rank: normal
+    references:
+    - hash: 19542708d59c1b35ffac029d53979d9e6280bf81
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: ac4a2b450a91415e3eab756f039880c6b6bb4f77
+          datavalue:
+            value:
+              time: "+2017-10-21T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 95b3bc019c6cec73aba649acd4f95780b5c4fd32
+      datavalue:
+        value: 0.70.0
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 47464d2c605fd82e7057907b197833097578780a
+        datavalue:
+          value:
+            time: "+2017-10-20T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$B4990B21-0F22-4AB3-8366-D4D6AEE3459D
+    rank: normal
+    references:
+    - hash: 19542708d59c1b35ffac029d53979d9e6280bf81
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: ac4a2b450a91415e3eab756f039880c6b6bb4f77
+          datavalue:
+            value:
+              time: "+2017-10-21T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: 639a8cfbf537bd26ac4a2c62dd477e7016e51113
+      datavalue:
+        value: 0.60.3
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 47464d2c605fd82e7057907b197833097578780a
+        datavalue:
+          value:
+            time: "+2017-10-20T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$B92037CE-8F2C-4887-99DD-428F6753B5F1
+    rank: normal
+    references:
+    - hash: 19542708d59c1b35ffac029d53979d9e6280bf81
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: ac4a2b450a91415e3eab756f039880c6b6bb4f77
+          datavalue:
+            value:
+              time: "+2017-10-21T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: bbb93e41044a6c4959b48709224b97dfddc093a8
+      datavalue:
+        value: 0.60.2
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 47464d2c605fd82e7057907b197833097578780a
+        datavalue:
+          value:
+            time: "+2017-10-20T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$D4B69F26-07C9-485E-AC07-2E7C32D46C5C
+    rank: normal
+    references:
+    - hash: 19542708d59c1b35ffac029d53979d9e6280bf81
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: ac4a2b450a91415e3eab756f039880c6b6bb4f77
+          datavalue:
+            value:
+              time: "+2017-10-21T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: cb902f57ce840e761c86a3b42b6d316eedc70b3b
+      datavalue:
+        value: 0.80.1
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: e4cbae83f97455c49e29f9d4a225402e7256eb5b
+        datavalue:
+          value:
+            time: "+2017-12-01T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$437683DD-4032-49FB-9B66-6AE520E3D318
+    rank: normal
+    references:
+    - hash: 13fa7c5eb54caac1ae0e236d9ea751c6d6de0310
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 86ceba2515e64c38ed3b3dbbd29840b1899837d7
+          datavalue:
+            value:
+              time: "+2017-12-02T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P348
+      hash: effd77512dae8682c6dc04537dedd9d6f08c821f
+      datavalue:
+        value: 0.80.2
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: 6c31a3269930a661002a8e51fb4539deb5756d26
+        datavalue:
+          value:
+            time: "+2017-12-15T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q1307473$A8F00F41-D79C-4FF9-87F9-101801CD6811
+    rank: preferred
+    references:
+    - hash: f588f017a8261e30448fc8a42daacf6206f644b4
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: a5105e0159b7a1fdf92893f3c686e5f07dd31dae
+          datavalue:
+            value: https://api.github.com/repos/ripple/rippled/releases
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 167a179af8a937a796cc24c4fed3cdcdbfae3b2f
+          datavalue:
+            value:
+              time: "+2017-12-15T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  P178:
+  - mainsnak:
+      snaktype: value
+      property: P178
+      hash: 14c8e1d2587e61f365006454b83ec75499f005b9
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 16904931
+          id: Q16904931
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1307473$B61D5F8C-DD64-4406-8985-0C61DAD90159
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: d229663e0957e998a73da5da9ac3eaa37bd155a3
+      datavalue:
+        value: Ripple (payment protocol)
+        type: string
+      datatype: string
+    type: statement
+    id: Q1307473$3C333F15-1AC2-4023-82C5-51AF98DB29B8
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: الريبل (برتوكول الدفع)
+    badges: []
+  commonswiki:
+    site: commonswiki
+    title: Category:Ripple (payment protocol)
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Ripple
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Ripple (Geldsystem)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Ripple (payment protocol)
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Ripple
+    badges: []
+  fawiki:
+    site: fawiki
+    title: ریپل
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Ripple (protocole de paiement)
+    badges: []
+  hewiki:
+    site: hewiki
+    title: ריפל
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Ripple
+    badges: []
+  jawiki:
+    site: jawiki
+    title: Ripple (支払いシステム)
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 리플 (암호화폐)
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Ripple
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Protocolo de Pagamento Ripple
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Ripple
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Ripple (payment protocol)
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Ripple (ödeme protokolü)
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Ripple
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 瑞波幣
+    badges: []

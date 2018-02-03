@@ -1,0 +1,616 @@
+---
+pageid: 28930
+ns: 0
+title: Q25517
+lastrevid: 622521223
+modified: '2018-01-22T09:16:09Z'
+type: item
+id: Q25517
+labels:
+  en:
+    language: en
+    value: cubic metre
+aliases:
+  en:
+  - language: en
+    value: cubic meter
+  - language: en
+    value: m³
+  - language: en
+    value: m3
+  - language: en
+    value: m^3
+claims:
+  P460:
+  - mainsnak:
+      snaktype: value
+      property: P460
+      hash: 1fa51932e6f214ab6bbabde32a9ea792ace5e8ec
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3972226
+          id: Q3972226
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q25517$e4a8b607-4751-4bd2-7229-29927653d924
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P460
+      hash: 77fc241885b0432d64ebe1c2e3258a818faeb2e8
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 6997269
+          id: Q6997269
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q25517$0646CC87-1011-4582-A4E5-CE00E6F5120A
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 50afdc16346d8687f53963f614e8d645419488a0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 208469
+          id: Q208469
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q25517$47898E7C-A07D-4226-9C1A-0470F3557208
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6e3da81891b6fba54d9ac8088595a4b05e5a5f95
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1302471
+          id: Q1302471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q25517$b6ceb99c-4fd2-5ada-95e1-f0a0ec955664
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: bd6903c5d0387404687f017e4f2705ffdf214569
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3174802
+          id: Q3174802
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q25517$93b5529c-4b3a-d851-510c-ab09a69674b7
+    rank: normal
+  P1296:
+  - mainsnak:
+      snaktype: value
+      property: P1296
+      hash: a4dc5f31eb649ba47ea1cbc2ed272f206b0cb0dc
+      datavalue:
+        value: '0240747'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q25517$5408ABF3-A9E7-4FD2-A363-3AF6C7692A61
+    rank: normal
+    references:
+    - hash: b3fd5e254143d8b52cd96cff43af9af5e3a82358
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: f13c99a16441677ec69fcea23f221d866f1fc98f
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 199693
+              id: Q199693
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P487:
+  - mainsnak:
+      snaktype: value
+      property: P487
+      hash: 5fe70d1e115687a65b0fabd638df81e067212daf
+      datavalue:
+        value: "㎥"
+        type: string
+      datatype: string
+    type: statement
+    id: Q25517$199ef1d4-47f4-3fbb-a72b-825a1afa9724
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: e54981101d4cbf2cc4f291974181500ca508d705
+      datavalue:
+        value:
+          amount: "+1"
+          unit: http://www.wikidata.org/entity/Q25517
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q25517$8ffa12e8-4660-8091-4968-b35584225085
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 9cdf99439f39d1a34aaa02cac49237e24c1a43a2
+      datavalue:
+        value: m³
+        type: string
+      datatype: string
+    type: statement
+    id: Q25517$6a1d3296-4e2c-0004-83fd-00d31a0ad495
+    rank: normal
+    references:
+    - hash: 9d6a9508b2f1ba00ae6e459c054c90c52540b1d7
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: 3c2d8b7c5ca21995744776bf68cbfb6453934164
+          datavalue:
+            value: 3-4.a
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 5a4f81169d9cfe9eb6949a2c5acb5460b254fbbb
+      datavalue:
+        value: م3
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: aa3f8171d71338a019a3e43c848eb59374b15b71
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8196
+            id: Q8196
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q25517$B43E6E37-D8DD-4C53-93E8-7F5D76984E86
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: cc92360214671f729e46008c195994ed791c9220
+      datavalue:
+        value: מ"ק
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 5ab9edfe720165e8c92da8c7b47bbac87f665de5
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 33513
+            id: Q33513
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q25517$2fc9d089-4028-78a6-c459-3df7c179138e
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 1fa3830a48a240de0dc5afc3566da80db4198178
+      datavalue:
+        value: CubicMeter
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q25517$94A3F5C7-B6B2-47ED-A99B-0FFCE5A02674
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: d6db24389076e1289a1d76ebabb0b5a2a39a522f
+      datavalue:
+        value: cubic_metre
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q25517$FC9919E9-9246-41A1-ADE3-39E500CE483C
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: ece6f6e6968e83ab4ea375829a8c5694d93dff51
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 39297
+          id: Q39297
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q25517$0e2e3d02-46f9-be5e-7fc2-bb9b4e0cf52b
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 6f9bbe3b2e443b102fb2fcb3e12bdb86c1e2b10c
+      datavalue:
+        value: Metre-cube-beton-p1040192.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    qualifiers:
+      P2096:
+      - snaktype: value
+        property: P2096
+        hash: b3cee6fd326d316ddec68db176b520c10533227c
+        datavalue:
+          value:
+            text: Un metre cúbic de formigó (que representa la producció mundial anual
+              per habitant)
+            language: ca
+          type: monolingualtext
+        datatype: monolingualtext
+    qualifiers-order:
+    - P2096
+    id: Q25517$a41e513f-42ff-7b06-6f9d-3e0e99a0db5c
+    rank: normal
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: '095b22e5c47a47f7d5e84e00899837038be11bd4'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 26711932
+          id: Q26711932
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P958:
+      - snaktype: value
+        property: P958
+        hash: 3c2d8b7c5ca21995744776bf68cbfb6453934164
+        datavalue:
+          value: 3-4.a
+          type: string
+        datatype: string
+    qualifiers-order:
+    - P958
+    id: Q25517$3c463791-43ee-82a7-42ea-2cf77bf1bc8d
+    rank: normal
+  P4746:
+  - mainsnak:
+      snaktype: value
+      property: P4746
+      hash: 9441ea64372279db7056b4c13c3bb08d44d9e283
+      datavalue:
+        value: '033567'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q25517$0CD59006-754C-4886-A442-CECD0179F520
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Kubieke meter
+    badges: []
+  arwiki:
+    site: arwiki
+    title: متر مكعب
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Metru cúbicu
+    badges: []
+  azbwiki:
+    site: azbwiki
+    title: کؤب متیر
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Kub metr
+    badges: []
+  barwiki:
+    site: barwiki
+    title: Kubikmeta
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Кубічны мэтар
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Кубічны метр
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Кубичен метър
+    badges: []
+  brwiki:
+    site: brwiki
+    title: Metr kub
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Kubni metar
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Metre cúbic
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Metr krychlový
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Kubikmeter
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Κυβικό μέτρο
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Cubic metre
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Kubmetro
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Metro cúbico
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Kuupmeeter
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Metro kubiko
+    badges: []
+  fawiki:
+    site: fawiki
+    title: متر مکعب
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Kuutiometri
+    badges: []
+  frrwiki:
+    site: frrwiki
+    title: Kubikmeeter
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Mètre cube
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Metro cúbico
+    badges: []
+  hakwiki:
+    site: hakwiki
+    title: Li̍p-fông kûng-tshak
+    badges: []
+  hewiki:
+    site: hewiki
+    title: מטר מעוקב
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: घन मीटर
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Kubični metar
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Köbméter
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Meter kubik
+    badges: []
+  iowiki:
+    site: iowiki
+    title: Metrokubo
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Rúmmetri
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Metro cubo
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 立方メートル
+    badges: []
+  kawiki:
+    site: kawiki
+    title: კუბური მეტრი
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 세제곱미터
+    badges: []
+  kuwiki:
+    site: kuwiki
+    title: Metre kûb
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Metrum cubicum
+    badges: []
+  lbwiki:
+    site: lbwiki
+    title: Kubikmeter
+    badges: []
+  lmowiki:
+    site: lmowiki
+    title: Meter cubo
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Kubikmetrs
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Кубен метар
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: घन मीटर
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Kubieke meter
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Kubikkmeter
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Kubikkmeter
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Metr sześcienny
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Metro cúbico
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Metru cub
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Кубический метр
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Metru cubbu
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Cubic metre
+    badges: []
+  scwiki:
+    site: scwiki
+    title: Metru cùbicu
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Metar kubni
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Cubic metre
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Kubický meter
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Kubični meter
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Кубни метар
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Kubikmeter
+    badges: []
+  swwiki:
+    site: swwiki
+    title: Mita ya ujazo
+    badges: []
+  thwiki:
+    site: thwiki
+    title: ลูกบาศก์เมตร
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Metreküp
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Кубічний метр
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Kubik metr
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Mét khối
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: კუბური მეტრა
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 立方米
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 立方米
+    badges: []

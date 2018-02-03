@@ -1,0 +1,191 @@
+---
+pageid: 15115238
+ns: 0
+title: Q13437153
+lastrevid: 621563753
+modified: '2018-01-18T20:31:48Z'
+type: item
+id: Q13437153
+labels:
+  en:
+    language: en
+    value: Belga
+aliases: {}
+claims:
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: c2859f311753176d6bdfa7da54ceeeac7acb52c8
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 31
+          id: Q31
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q13437153$AB70FFF7-7ABD-4F1D-B90C-D16FBA665B4B
+    rank: normal
+    references:
+    - hash: 732ec1c90a6f0694c7db9a71bf09fe7f2b674172
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 9123b0de1cc9c3954366ba797d598e4e1ea4146f
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 10000
+              id: Q10000
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q13437153$1544942b-4676-2ee8-93fd-f4783c4b700f
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 573a0331ec35e6e50f8e2eeb3a198c905ce4b810
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 685918
+          id: Q685918
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q13437153$26d37616-4818-8fce-6475-8f62ac2a01c8
+    rank: normal
+  P580:
+  - mainsnak:
+      snaktype: value
+      property: P580
+      hash: 953c7803e3bcd3bce7b27515b6303782df3bdbe0
+      datavalue:
+        value:
+          time: "+1926-00-00T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 9
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q13437153$c6a99eb2-4828-dc86-d7c2-e12c8ebf4296
+    rank: normal
+  P582:
+  - mainsnak:
+      snaktype: value
+      property: P582
+      hash: 8c1f820d4859856868cfb17733b93efc084409af
+      datavalue:
+        value:
+          time: "+1946-00-00T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 9
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q13437153$192ec37e-4dc4-02ee-d386-7b67d54be8b1
+    rank: normal
+  P1181:
+  - mainsnak:
+      snaktype: value
+      property: P1181
+      hash: b04fb540f8432baee54fa77dcb51b48c9601b3ee
+      datavalue:
+        value:
+          amount: "+5"
+          unit: http://www.wikidata.org/entity/Q232415
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q13437153$949222b3-418c-689f-a021-6a8bb65b60cd
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 21509e24a9e78ed37e35880f912e618ee80140c4
+      datavalue:
+        value: Coin BE 20F Albert I belga rev NL 59.png
+        type: string
+      datatype: commonsMedia
+    type: statement
+    qualifiers:
+      P2096:
+      - snaktype: value
+        property: P2096
+        hash: fa8afc7f4913d6c574d08c8f66f9aebc6ad356dd
+        datavalue:
+          value:
+            text: Moneda de quatre belga (vier Belga) del 1931
+            language: ca
+          type: monolingualtext
+        datatype: monolingualtext
+      - snaktype: value
+        property: P2096
+        hash: 4c8d8b09902c03a425e96743cd9e7bf27b239fbc
+        datavalue:
+          value:
+            text: Vier belga (20 frank) uit 1931
+            language: nl
+          type: monolingualtext
+        datatype: monolingualtext
+    qualifiers-order:
+    - P2096
+    id: Q13437153$3dd6809d-4858-0fdf-84bc-328180326aa0
+    rank: normal
+  P155:
+  - mainsnak:
+      snaktype: value
+      property: P155
+      hash: 10b55e8c09bb16cdf81daf6608e150e074a1f792
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 232415
+          id: Q232415
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q13437153$d6961412-40c5-2195-230e-f4992c7c489d
+    rank: normal
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Belga (moneda)
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Belga (monnaie)
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Belga (munteenheid)
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Бельга
+    badges: []

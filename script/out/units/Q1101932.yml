@@ -1,0 +1,312 @@
+---
+pageid: 1049274
+ns: 0
+title: Q1101932
+lastrevid: 537521220
+modified: '2017-08-14T07:23:15Z'
+type: item
+id: Q1101932
+labels:
+  en:
+    language: en
+    value: medimnos
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 5cebe0e16525e81b3e1616fe4971f74d9462a48b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 186218
+          id: Q186218
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1101932$AAEE559D-BBBD-44E6-8E88-F3CC5A7796B5
+    rank: normal
+    references:
+    - hash: 7bed4348e9ce6cbb9b35e78782403748cc60bc8c
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 2dec9667d599ba3e42a0e590a79ca231e658949b
+          datavalue:
+            value: http://homepage.usask.ca/~jrp638/CourseNotes/weightsmeasures.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 44699fe3d9f23905b4c77a211b111fe8b0b332d0
+          datavalue:
+            value:
+              time: "+2016-07-15T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 8d75fa5d12c9f32ffc85f2a1a5e77c5160f66ae1
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 607056
+          id: Q607056
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1101932$138bf614-4e4a-1c0b-a46a-64efb11d4780
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 1adbb83c091572a6f34896965627cde809f6f29e
+      datavalue:
+        value:
+          amount: "+48"
+          unit: http://www.wikidata.org/entity/Q15794456
+          upperBound: "+48"
+          lowerBound: "+48"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1101932$11a70958-4eaf-1f3c-8b7a-3c4fa4256e68
+    rank: normal
+    references:
+    - hash: 7bed4348e9ce6cbb9b35e78782403748cc60bc8c
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 2dec9667d599ba3e42a0e590a79ca231e658949b
+          datavalue:
+            value: http://homepage.usask.ca/~jrp638/CourseNotes/weightsmeasures.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 44699fe3d9f23905b4c77a211b111fe8b0b332d0
+          datavalue:
+            value:
+              time: "+2016-07-15T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 6dc240ad4a304af6fbd49f6fd3db1ebbbd868586
+      datavalue:
+        value:
+          amount: "+6"
+          unit: http://www.wikidata.org/entity/Q25927192
+          upperBound: "+6"
+          lowerBound: "+6"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1101932$d36a4500-4e1e-30a1-09a7-4acfb0441a15
+    rank: normal
+    references:
+    - hash: 77558b2586162aee5b4404eb03a24e761dda99fa
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: afd0bc01045c9e952bd83a2da36c2745f89ac643
+          datavalue:
+            value: http://www.livius.org/w/weights/weights2.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 319eca416990be95d0bc1936656ae864506b85ef
+          datavalue:
+            value:
+              time: "+2016-07-17T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: ef735006e54198d8621c55d9d04440780c764dcf
+      datavalue:
+        value:
+          amount: "+6"
+          unit: http://www.wikidata.org/entity/Q669909
+          upperBound: "+6"
+          lowerBound: "+6"
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P1480:
+      - snaktype: value
+        property: P1480
+        hash: cb40f2027a88b8d23735681aaccba1069a574f54
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 5727902
+            id: Q5727902
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P1480
+    id: Q1101932$fa15db48-4c12-aa80-b35a-a5224dd8e59c
+    rank: normal
+    references:
+    - hash: 24492bab961ea544da867d6ca2b554992a48d6d9
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 0eb020f09b3394b5893710aac7757a07fe99effe
+          datavalue:
+            value: http://www.livius.org/w/weights/weights4.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: a31b98af17fbec602005e55f91baed9ae5725776
+          datavalue:
+            value:
+              time: "+2016-08-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 9d74cb542e0b2467eb4abcd4559df7e20bf803c8
+      datavalue:
+        value:
+          amount: "+0.052176"
+          unit: http://www.wikidata.org/entity/Q25517
+          upperBound: "+0.052176"
+          lowerBound: "+0.052176"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1101932$2aa3f728-48d5-d615-a694-882431ad43ee
+    rank: normal
+    references:
+    - hash: fc49a2cc410a35c047b35b0ec7e8f3b4110c3d40
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: afd0bc01045c9e952bd83a2da36c2745f89ac643
+          datavalue:
+            value: http://www.livius.org/w/weights/weights2.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: a31b98af17fbec602005e55f91baed9ae5725776
+          datavalue:
+            value:
+              time: "+2016-08-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: ece6f6e6968e83ab4ea375829a8c5694d93dff51
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 39297
+          id: Q39297
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1101932$89d12df1-4812-b26f-e811-df34bf22299c
+    rank: normal
+sitelinks:
+  brwiki:
+    site: brwiki
+    title: Medimnenn
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Medimno
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Μέδιμνος
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Medimnos
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Medimno
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Médimne
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Medimno
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Medymnos
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Medimno
+    badges: []

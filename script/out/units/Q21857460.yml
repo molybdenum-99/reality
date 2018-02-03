@@ -1,0 +1,102 @@
+---
+pageid: 23894272
+ns: 0
+title: Q21857460
+lastrevid: 550064831
+modified: '2017-09-01T15:23:07Z'
+type: item
+id: Q21857460
+labels:
+  en:
+    language: en
+    value: Dashcoin
+aliases:
+  en:
+  - language: en
+    value: DASH
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 16ab8cfff2957341998c927ff03e50befb65a864
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 13479982
+          id: Q13479982
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q21857460$1c3184aa-484c-4295-7e8f-8dc35e9b2f9a
+    rank: normal
+  P1889:
+  - mainsnak:
+      snaktype: value
+      property: P1889
+      hash: d173b7496e5d7804beb45622c1cd607e16417f79
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 17155887
+          id: Q17155887
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q21857460$3792fa7c-4989-7937-499b-23f3f8aa5eef
+    rank: normal
+  P856:
+  - mainsnak:
+      snaktype: value
+      property: P856
+      hash: 5367b6551f65f0827cf17f0f472f1ccfe0f59386
+      datavalue:
+        value: http://dashcoin.net/
+        type: string
+      datatype: url
+    type: statement
+    id: Q21857460$bd914fb8-4c53-dd90-ca21-1d220838e014
+    rank: normal
+  P1813:
+  - mainsnak:
+      snaktype: value
+      property: P1813
+      hash: 8fe5df8f2ab49017ee76a6c6dbcf3ddd4ceed623
+      datavalue:
+        value:
+          text: DSH
+          language: en
+        type: monolingualtext
+      datatype: monolingualtext
+    type: statement
+    id: Q21857460$7dc36951-4896-513b-2f27-031bc493aa04
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 5801fec84d7344f1553c030106299c9bcf7c1dd2
+      datavalue:
+        value: Dashcoin
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q21857460$D27186A5-82A5-4AEE-9B3B-7D03B360FAC8
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks: {}

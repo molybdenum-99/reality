@@ -1,0 +1,131 @@
+---
+pageid: 2249797
+ns: 0
+title: Q2328868
+lastrevid: 618423401
+modified: '2018-01-10T09:16:18Z'
+type: item
+id: Q2328868
+labels:
+  en:
+    language: en
+    value: Hawaiian dollar
+aliases:
+  en:
+  - language: en
+    value: dala
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 070506f4a6fb6065940b98210b3f4a463a722513
+      datavalue:
+        value: "/m/0b7pwv"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2328868$199DD58A-B2FF-479D-939F-7A84C7F075A1
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2328868$b288e5e0-4c0f-7b79-8966-a31be98df0f8
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: e3089ace07c8b1992c745005e691bbbe0500f742
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 156418
+          id: Q156418
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2328868$1e7a4976-4855-7302-1379-ce3daa07c874
+    rank: normal
+sitelinks:
+  elwiki:
+    site: elwiki
+    title: Δολάριο Χαβάης
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Hawaiian dollar
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Dólar hawaiano
+    badges: []
+  fawiki:
+    site: fawiki
+    title: دلار هاوایی
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Dollar hawaïen
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Dólar hawaiano
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Dollaro hawaiano
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Dolar hawaiian
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Гавайский доллар
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 夏威夷元
+    badges: []

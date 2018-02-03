@@ -1,0 +1,370 @@
+---
+pageid: 683258
+ns: 0
+title: Q726791
+lastrevid: 622985473
+modified: '2018-01-24T14:08:09Z'
+type: item
+id: Q726791
+labels:
+  en:
+    language: en
+    value: Ladinian
+aliases: {}
+claims:
+  P155:
+  - mainsnak:
+      snaktype: value
+      property: P155
+      hash: 1583ec830fec56e1bfcc278b99eef77716e20550
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 549024
+          id: Q549024
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q726791$18f307f3-46f0-c4df-8915-b68e34096f7e
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P156:
+  - mainsnak:
+      snaktype: value
+      property: P156
+      hash: 7c63b45279cde3f0a5f45a885ec1692e227b9f61
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 911899
+          id: Q911899
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q726791$707f2975-4836-0a48-4f79-6eb84320b117
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P625:
+  - mainsnak:
+      snaktype: value
+      property: P625
+      hash: ef0335ecc03e31cc2de13df424e4700ec3f45bbc
+      datavalue:
+        value:
+          latitude: 45.81930556
+          longitude: 10.47097222
+          altitude: 
+          precision: 2.777777777778e-05
+          globe: http://www.wikidata.org/entity/Q2
+        type: globecoordinate
+      datatype: globe-coordinate
+    type: statement
+    id: Q726791$D5B33EA5-B76E-42D9-A91A-4336569EDB84
+    rank: normal
+    references:
+    - hash: d4bd87b862b12d99d26e86472d44f26858dee639
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: f30cbd35620c4ea6d0633aaf0210a8916130469b
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 8447
+              id: Q8447
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 9a02cf52d970e94fa46dacf9ee1717f1561e3605
+      datavalue:
+        value: "/m/08lns8"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q726791$6F865584-8CF7-406F-8928-56571A1CF2CE
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 33aa2824a8191a30a7626d09c45bd2448d93b1c7
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1799968
+          id: Q1799968
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q726791$3b1fdb9d-44a1-e605-ca62-b6b24d936278
+    rank: normal
+    references:
+    - hash: 29a3fecc4498409168107bc567db1dc0d3d231a7
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 7254f0541ed09356ccba69b6a5c0c4b4440457b1
+          datavalue:
+            value:
+              time: "+2014-10-16T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P813
+      - P143
+  P910:
+  - mainsnak:
+      snaktype: value
+      property: P910
+      hash: b5c6ef5b0032589bee399f3d2cbd12369e4a1f7e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 21607953
+          id: Q21607953
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q726791$C90E05F2-59D9-4944-89C3-D266631CB3BC
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1774498cb861c7f76e71afc94661ed9a03d8461a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1123245
+          id: Q1123245
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q726791$bc5aa7ca-43e3-1e31-7836-77928777cc91
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: b230ba6f73ec78c2fd8b28c19fab3a1a3e51124e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 568683
+          id: Q568683
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q726791$c78f01e7-4b5a-5cd5-21d2-8defa673b8f9
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 6ccc4108ac82964ea940ecc2db2c6531b49e0367
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 929395
+          id: Q929395
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q726791$16ebf261-491a-7ef7-fcca-b6565df5a181
+    rank: normal
+  P3827:
+  - mainsnak:
+      snaktype: value
+      property: P3827
+      hash: 7d808654ffed27884aded788de0df2857bbfa395
+      datavalue:
+        value: ladinian-age
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q726791$341C0621-BA75-46A0-912D-915E9758F2F9
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Ladinium
+    badges: []
+  arwiki:
+    site: arwiki
+    title: اللاديني
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Ladinianu
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Ladinià
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Ladin (geologie)
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Ladinium
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Ladinian
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Ladiniense
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Ladiniar
+    badges: []
+  fawiki:
+    site: fawiki
+    title: لادینین
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Ladinien
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Ladin (korszak)
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Ladinico
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Ladinium
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Ladinien
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Ladinium
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Ladyn
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Ladiniano
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Ладинский ярус
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Ladinik
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Ладинський ярус
+    badges: []

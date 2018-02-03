@@ -1,0 +1,528 @@
+---
+pageid: 126201
+ns: 0
+title: Q124003
+lastrevid: 617522299
+modified: '2018-01-07T20:27:06Z'
+type: item
+id: Q124003
+labels:
+  en:
+    language: en
+    value: speed of sound
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: f74b02ae3622601977b59e57a2ed6ce42f3d6f19
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 764285
+          id: Q764285
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q124003$53a5ed65-4bed-ee5f-4a13-a6389af7347c
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: d2e138201c0e57a49c267fb0f628689d3d6371c2
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 4292136
+          id: Q4292136
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q124003$bfde2b04-4407-84d6-d241-67f86b04ed88
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: b4f9c836c43d6700bbb61b79f9c7e714c1b52c93
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 15222637
+          id: Q15222637
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P805:
+      - snaktype: value
+        property: P805
+        hash: a25ed39f0fa018065e46b7641e194e1f055ff9fb
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 160669
+            id: Q160669
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P805
+    id: Q124003$867627dd-410c-cf7d-d561-d44031bf09a3
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 1791fbf2990ed2e28e35936dbcb6457d21b42eaa
+      datavalue:
+        value: "/m/012ydb"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q124003$111A735D-7860-4EC1-AA27-A16944223523
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: a8d801c67b6068bad1a9ac40ef5e57dbf25b37c2
+      datavalue:
+        value: Speed of Sound
+        type: string
+      datatype: string
+    type: statement
+    id: Q124003$F13CF2E1-3E3B-4CEA-B814-F7873AAD196D
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: ffd0877f63fb06e9c86c3ff5e54105bf8a4b481a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3711325
+          id: Q3711325
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q124003$89ee9a48-412b-f1f0-629e-972d2df0c25d
+    rank: normal
+  P1687:
+  - mainsnak:
+      snaktype: value
+      property: P1687
+      hash: ada7d65d6904b58c230faabf954e2eec5ebd6e34
+      datavalue:
+        value:
+          entity-type: property
+          numeric-id: 2075
+          id: P2075
+        type: wikibase-entityid
+      datatype: wikibase-property
+    type: statement
+    id: Q124003$230dcb25-421c-c44c-a8b9-fadd60f2b727
+    rank: normal
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 62c309f8296338bd9647a7e758857137f3370310
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2657718
+          id: Q2657718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q124003$9D7F187E-8E99-41C1-BD41-1502A1CCD805
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: df58634f69c5f162ed941d8c6b8e2ace31354b75
+      datavalue:
+        value: Speed-of-Sound
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q124003$20B19B01-4973-40EA-A43F-35763BB79351
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P227:
+  - mainsnak:
+      snaktype: value
+      property: P227
+      hash: c4ce49bf1f579b4ad07dae7d878f5b314ac58193
+      datavalue:
+        value: 4179365-1
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q124003$3D33D319-84B2-472B-A7F7-18CC2F619796
+    rank: normal
+    references:
+    - hash: 9a24f7c0208b05d6be97077d855671d1dfdbc0dd
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: d38375ffe6fe142663ff55cd783aa4df4301d83d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 48183
+              id: Q48183
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P3827:
+  - mainsnak:
+      snaktype: value
+      property: P3827
+      hash: a3405bfeb243cd3ec033b1ee8f7f994506d6783d
+      datavalue:
+        value: subsonic-speed
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q124003$3517D8DD-AA70-4DB3-BF38-6B193129E19D
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Spoed van klank
+    badges: []
+  arwiki:
+    site: arwiki
+    title: سرعة الصوت
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Velocidá del soníu
+    badges: []
+  barwiki:
+    site: barwiki
+    title: Schoigschwindigkeit
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Скорасць гуку
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Скорост на звука
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Brzina zvuka
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Velocitat del so
+    badges: []
+  commonswiki:
+    site: commonswiki
+    title: Category:Speed of Sound
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Rychlost zvuku
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Schallgeschwindigkeit
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Ταχύτητα του ήχου
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Speed of sound
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Rapido de sono
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Velocidad del sonido
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Heli kiirus
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Soinuaren abiadura
+    badges: []
+  fawiki:
+    site: fawiki
+    title: سرعت صوت
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Äänen nopeus
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Vitesse du son
+    badges: []
+  gawiki:
+    site: gawiki
+    title: Luas forleata fuaime
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Velocidade do son
+    badges: []
+  guwiki:
+    site: guwiki
+    title: અવાજની ઝડપ
+    badges: []
+  hewiki:
+    site: hewiki
+    title: מהירות הקול
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: ध्वनि का वेग
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Brzina zvuka
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Hangsebesség
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Ձայնի արագություն
+    badges: []
+  iawiki:
+    site: iawiki
+    title: Velocitate de sono
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Kecepatan suara
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Hljóðhraði
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Velocità del suono
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 音速
+    badges: []
+  jbowiki:
+    site: jbowiki
+    title: snanilsutra
+    badges: []
+  jvwiki:
+    site: jvwiki
+    title: Kacepetan swara
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Дыбыс жылдамдығы
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 음속
+    badges: []
+  kuwiki:
+    site: kuwiki
+    title: Leza dengê
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Celeritas soni
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Garso greitis
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Skaņas ātrums
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Брзина на звукот
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: ശബ്ദവേഗത
+    badges: []
+  mnwiki:
+    site: mnwiki
+    title: Дууны хурд
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: आवाजाचा वेग
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Kelajuan bunyi
+    badges: []
+  mywiki:
+    site: mywiki
+    title: အသံ၏အမြန်နှုန်း
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Geluidssnelheid
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Lydfart
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Lydens hastighet
+    badges: []
+  omwiki:
+    site: omwiki
+    title: Speed of Sound
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Prędkość dźwięku
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Velocidade do som
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Viteza sunetului
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Скорость звука
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Speed o soond
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Brzina zvuka
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Speed of sound
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Rýchlosť zvuku
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Hitrost zvoka
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Брзина звука
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Ljudhastighet
+    badges: []
+  tawiki:
+    site: tawiki
+    title: ஒலியின் விரைவு
+    badges: []
+  thwiki:
+    site: thwiki
+    title: อัตราเร็วของเสียง
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Ses hızı
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Швидкість звуку
+    badges: []
+  urwiki:
+    site: urwiki
+    title: آواز کی رفتار
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Vận tốc âm thanh
+    badges: []
+  warwiki:
+    site: warwiki
+    title: Kalaksi hit tingog
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Im-sok
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 音速
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 音速
+    badges: []

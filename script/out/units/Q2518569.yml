@@ -1,0 +1,131 @@
+---
+pageid: 2430880
+ns: 0
+title: Q2518569
+lastrevid: 402382386
+modified: '2016-11-06T20:22:53Z'
+type: item
+id: Q2518569
+labels:
+  en:
+    language: en
+    value: nanosievert
+aliases:
+  en:
+  - language: en
+    value: nSv
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: c3c90edb6b61573ad31cdeb6478c77bdcc56d736
+      datavalue:
+        value: nSv
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q2518569$4027ff27-49c6-903e-efd9-004e535264db
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 2e79f6a5147592fab3330d9775d4460a7be2d180
+      datavalue:
+        value: нЗв
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q2518569$2fc56dca-475f-6b54-368a-48d30babd983
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2518569$80fa04b7-4341-9a30-6ef6-1c1fadd910fa
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: ee3e6895736e3410b945ea7953234610b2febf25
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 256106
+          id: Q256106
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2518569$26ff84fb-417d-a88e-8f1b-66ed4d4dafc6
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: b539a6bd01a92e8b2f25f31d2e680348c7bb466f
+      datavalue:
+        value:
+          amount: "+0.000000001"
+          unit: http://www.wikidata.org/entity/Q103246
+          upperBound: "+0.000000001"
+          lowerBound: "+0.000000001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q2518569$084ea815-4def-d74b-06a2-dd635e661db9
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 8493e141b0f5b13b0bef6b37969f7d83752a6603
+      datavalue:
+        value: nanosievert
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2518569$CA985D6F-1A67-44DC-A8DD-422D21FC8867
+    rank: normal
+sitelinks:
+  nlwiki:
+    site: nlwiki
+    title: Nanosievert
+    badges: []

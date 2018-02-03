@@ -1,0 +1,103 @@
+---
+pageid: 3656155
+ns: 0
+title: Q3833310
+lastrevid: 618468677
+modified: '2018-01-10T11:57:27Z'
+type: item
+id: Q3833310
+labels:
+  en:
+    language: en
+    value: Tuscan pound
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 615f91b4aa9cf50e2a8b18a75c435862e14eccc9
+      datavalue:
+        value: "/m/09tks_"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3833310$263CD816-B505-41A1-AF4F-4B80427372BA
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3833310$44d14778-4d17-5695-2258-e88948c198ae
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: f36e70c7d188788e2321071032ec186bd018d93f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 7995739
+          id: Q7995739
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3833310$6009637b-4cdb-a4b4-5f0b-bcd7d020d000
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Tuscan pound
+    badges: []
+  fawiki:
+    site: fawiki
+    title: پوند توسکانی
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Lira toscana
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Тосканская лира
+    badges: []

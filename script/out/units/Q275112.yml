@@ -1,0 +1,346 @@
+---
+pageid: 266078
+ns: 0
+title: Q275112
+lastrevid: 617887960
+modified: '2018-01-08T22:57:21Z'
+type: item
+id: Q275112
+labels:
+  en:
+    language: en
+    value: Belize dollar
+aliases:
+  en:
+  - language: en
+    value: BZD
+  - language: en
+    value: BZ$
+  - language: en
+    value: "$"
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 9c8b3f379e7a0e8d7b978c26b26398c69c9f6f33
+      datavalue:
+        value: Money of Belize
+        type: string
+      datatype: string
+    type: statement
+    id: q275112$D2021050-57A8-4F8E-927C-B1B48E92D87C
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q275112$174730D7-C9C0-4752-A53E-8A621DD34EA9
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: ffbd047a5fe607be86d8da3423c1a2479e62368e
+      datavalue:
+        value: BZD
+        type: string
+      datatype: external-id
+    type: statement
+    id: q275112$8b5feec5-4e06-e852-7cf7-fcf231a3884f
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 0df0466693dc1d4a18a90e93f65be46abe5897cc
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 643949
+          id: Q643949
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q275112$DE5FCB75-7F03-4A25-AF0C-B5BD22C4ADCB
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 27c66ebd1610825a981edb0bf945f0ee98d3534f
+      datavalue:
+        value: "/m/02bwg4"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q275112$4992CBFF-2420-4404-98CB-6DA141BAD3CF
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 3f5bb3577efca82e3ead71efe1c05e0457e44309
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 242
+          id: Q242
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q275112$57308b5c-46a2-4e26-4400-d9ca9e7f83d8
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: a08ada87654d67dcf7e00fcee0876bc53f90bcff
+      datavalue:
+        value: BelizeDollar
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q275112$4ac50d5b-4acf-9aaa-b161-49640e180463
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 0df8e2c7d9598376648cab0a171740a0ec9fe6c8
+      datavalue:
+        value: '500124'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q275112$AA15844E-041A-4986-BF0C-103F7B77512B
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: دولار بليزي
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Dólar belizianu
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Beliz dolları
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Белізскі долар
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Белизийски долар
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: বেলিজ ডলার
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Dòlar de Belize
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Belizský dolar
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Belize-Dollar
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Δολάριο Μπελίζ
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Belize dollar
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Beliza dolaro
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Dólar beliceño
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Dolar belizetar
+    badges: []
+  fawiki:
+    site: fawiki
+    title: دلار بلیز
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Belizen dollari
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Dollar bélizien
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Dólar de Belize
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Belizejski dolar
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Belize-i dollár
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Dolar Belize
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Dollaro del Belize
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ベリーズ・ドル
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 벨리즈 달러
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Belizo doleris
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Белизиски долар
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: बेलीझ डॉलर
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Belizaanse dollar
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Belizisk dollar
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਬੇਲੀਜ਼ੀ ਡਾਲਰ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Dolar belizeński
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Dólar de Belize
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Белизский доллар
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Belize dollar
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Белизејски долар
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Belizisk dollar
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Доллари Белиз
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Belize doları
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Белізький долар
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Đô la Belize
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Dọ́là Bẹ̀lísè
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Belize dollar
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 貝里斯元
+    badges: []

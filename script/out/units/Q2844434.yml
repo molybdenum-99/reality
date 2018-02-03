@@ -1,0 +1,262 @@
+---
+pageid: 2724191
+ns: 0
+title: Q2844434
+lastrevid: 537539271
+modified: '2017-08-14T08:08:32Z'
+type: item
+id: Q2844434
+labels:
+  en:
+    language: en
+    value: amphora
+aliases:
+  en:
+  - language: en
+    value: amphora quadrantal
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: c454c0c3de246c32f34b9be05dc25a1c41e32e6f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 25906214
+          id: Q25906214
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2844434$847B4E4F-6CD8-4E31-A77F-DD1EAA53F694
+    rank: normal
+    references:
+    - hash: 7bed4348e9ce6cbb9b35e78782403748cc60bc8c
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 2dec9667d599ba3e42a0e590a79ca231e658949b
+          datavalue:
+            value: http://homepage.usask.ca/~jrp638/CourseNotes/weightsmeasures.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 44699fe3d9f23905b4c77a211b111fe8b0b332d0
+          datavalue:
+            value:
+              time: "+2016-07-15T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: f37c73dec48ba9a6299af3cc096435154a20ce68
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 6008757
+          id: Q6008757
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2844434$bb48d838-4249-2345-3c9e-c8c20a8ea89a
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 8d75fa5d12c9f32ffc85f2a1a5e77c5160f66ae1
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 607056
+          id: Q607056
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2844434$d801c46f-4526-e5ca-f2c9-dc44ad67b153
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 52afd5559217923531f59bd55edf87f344e02b43
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1161819
+          id: Q1161819
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2844434$32a44894-42f9-d059-1d9d-cf85dcfbf157
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 74d491463dd07f13b12d409e86b3a83f03100bef
+      datavalue:
+        value:
+          amount: "+48"
+          unit: http://www.wikidata.org/entity/Q14333713
+          upperBound: "+48"
+          lowerBound: "+48"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q2844434$5dc3a3ed-43d5-1648-9e8e-be031e5d62d5
+    rank: normal
+    references:
+    - hash: 1abbd84c2a2fb8b938a959a6f6d4ca5958f8105a
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 2dec9667d599ba3e42a0e590a79ca231e658949b
+          datavalue:
+            value: http://homepage.usask.ca/~jrp638/CourseNotes/weightsmeasures.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 3ebb11b1a4ce7a98b7cbb359a6e944bd00f283b0
+          datavalue:
+            value:
+              time: "+2016-07-12T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 1b6072c97a22340396b0918e821745332cefd4dd
+      datavalue:
+        value:
+          amount: "+8"
+          unit: http://www.wikidata.org/entity/Q3646719
+          upperBound: "+8"
+          lowerBound: "+8"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q2844434$025ab871-4530-f668-5d33-a0ea7af59d51
+    rank: normal
+    references:
+    - hash: 77558b2586162aee5b4404eb03a24e761dda99fa
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: afd0bc01045c9e952bd83a2da36c2745f89ac643
+          datavalue:
+            value: http://www.livius.org/w/weights/weights2.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 319eca416990be95d0bc1936656ae864506b85ef
+          datavalue:
+            value:
+              time: "+2016-07-17T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: cde64d62e2ffeb9377356308e2e98b4569b9a391
+      datavalue:
+        value:
+          amount: "+0.02586"
+          unit: http://www.wikidata.org/entity/Q25517
+          upperBound: "+0.02586"
+          lowerBound: "+0.02586"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q2844434$68109c4b-4cb1-02ed-3d0e-4938058ccf09
+    rank: normal
+    references:
+    - hash: 77558b2586162aee5b4404eb03a24e761dda99fa
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: afd0bc01045c9e952bd83a2da36c2745f89ac643
+          datavalue:
+            value: http://www.livius.org/w/weights/weights2.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 319eca416990be95d0bc1936656ae864506b85ef
+          datavalue:
+            value:
+              time: "+2016-07-17T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: ece6f6e6968e83ab4ea375829a8c5694d93dff51
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 39297
+          id: Q39297
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2844434$ECD6BBBB-158D-4E7C-BE66-150780A0E470
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Amphora
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Amphora (unit)
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Amphore (unité)
+    badges: []

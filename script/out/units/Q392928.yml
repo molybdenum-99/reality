@@ -1,0 +1,480 @@
+---
+pageid: 373771
+ns: 0
+title: Q392928
+lastrevid: 618741233
+modified: '2018-01-11T09:06:53Z'
+type: item
+id: Q392928
+labels:
+  en:
+    language: en
+    value: geological period
+aliases:
+  en:
+  - language: en
+    value: period
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: f909484e50c06520e964c1d471989efbb48fccda
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 6156156
+          id: Q6156156
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q392928$2c863dd8-4a97-cf77-9a55-541e18e9dc64
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 695d64928c730d2302ddaa22b8c2e83110ead063
+      datavalue:
+        value: Geology by period
+        type: string
+      datatype: string
+    type: statement
+    id: q392928$4C014DAE-2951-4F3E-BE3A-316985D82125
+    rank: normal
+    references:
+    - hash: c456dc5cd2117249948c288206ff3f8b1bf574f0
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e17507043402fe54ae6c4d65cc51f46cec987de9
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 8449
+              id: Q8449
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P242:
+  - mainsnak:
+      snaktype: value
+      property: P242
+      hash: 4a5eb6d7e4e14924f0f7fed9891c149600e4e530
+      datavalue:
+        value: Geological time spiral.png
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: q392928$D2B62AF6-124A-4858-9224-86F0A18D03AE
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: d0a8f6371985d14382d6002aad6c673b98b04376
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 630830
+          id: Q630830
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q392928$2f6fc488-48dc-314b-f9db-ce8d2663dea1
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 986e3e92eed0218b606d079989531cf877452306
+      datavalue:
+        value: "/m/08z6b_"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q392928$4F8E47A2-8700-47D2-AE6C-FC44BC802919
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P1709:
+  - mainsnak:
+      snaktype: value
+      property: P1709
+      hash: 8efc401c71439ee5809d6aceef7e8fe99376b2b8
+      datavalue:
+        value: http://dbpedia.org/ontology/GeologicalPeriod
+        type: string
+      datatype: url
+    type: statement
+    qualifiers:
+      P973:
+      - snaktype: value
+        property: P973
+        hash: 5753554d104697e7117b77b9fbb6220e19cdd094
+        datavalue:
+          value: http://mappings.dbpedia.org/index.php/OntologyClass:GeologicalPeriod
+          type: string
+        datatype: url
+      P813:
+      - snaktype: value
+        property: P813
+        hash: 757fdbc5d1aa0fc1ca2f1cbc5d467a4e8b531468
+        datavalue:
+          value:
+            time: "+2015-06-16T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P973
+    - P813
+    id: Q392928$BF255495-6826-4665-AFDE-433D6809ED06
+    rank: normal
+    references:
+    - hash: 8f08ac3e0839bdbc4c6eb8d671e772deb12ba423
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 250b03083f7971a02473af3e43115ef521b1440d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 465
+              id: Q465
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P910:
+  - mainsnak:
+      snaktype: value
+      property: P910
+      hash: 7c0701077b2e94faf1b6f506a945d25fc5d39067
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 9072887
+          id: Q9072887
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q392928$B3A03A7E-444C-45C7-A1BE-B04008BB03B7
+    rank: normal
+  P527:
+  - mainsnak:
+      snaktype: value
+      property: P527
+      hash: dc118548e90e1c449396e0121fcb6cae3e6e758c
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 754897
+          id: Q754897
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q392928$b5aa9fef-4c9b-8267-ac90-0f5d4e866f1d
+    rank: normal
+  P1889:
+  - mainsnak:
+      snaktype: value
+      property: P1889
+      hash: fbe369f738374bbfb847057766b2c446bb2cbb86
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 403523
+          id: Q403523
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q392928$b56daa7b-4c65-9a64-f70d-d5b156553d82
+    rank: normal
+  P973:
+  - mainsnak:
+      snaktype: value
+      property: P973
+      hash: a2827367c54296ad75170d018ba3207827651b9a
+      datavalue:
+        value: http://bloody-byte.net/rdf/cidoc-crm/core_5.0.1#E4_Period
+        type: string
+      datatype: url
+    type: statement
+    id: Q392928$decad868-4a24-0813-aa89-637dfdc3e646
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: 6a7c6ab698abeac06126563024b9588719607ed8
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 26907166
+          id: Q26907166
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q392928$c97d248a-418b-7661-36cb-57b99b9da0d7
+    rank: normal
+  P3827:
+  - mainsnak:
+      snaktype: value
+      property: P3827
+      hash: f9f5c63f50fcf2553eb2553bbab87bc149f76bb9
+      datavalue:
+        value: geologic-periods
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q392928$CABE8384-E6A8-4651-B10A-79B82BB4A4C4
+    rank: normal
+  P1424:
+  - mainsnak:
+      snaktype: value
+      property: P1424
+      hash: 69a4d9df288003dc44cf8341b14cad6d1636dc06
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10305208
+          id: Q10305208
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q392928$D4E26486-159F-4CAC-98D9-819D0CCC70D9
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Periode (geologie)
+    badges: []
+  arwiki:
+    site: arwiki
+    title: عصر (جيولوجيا)
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Dövr (geologiya)
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Геалагічны перыяд
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Период (геология)
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Sistema (geologia)
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Geochronologická perioda
+    badges: []
+  cywiki:
+    site: cywiki
+    title: Cyfnod (daeareg)
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Periode (geologi)
+    badges: []
+  dewiki:
+    site: dewiki
+    title: System (Geologie)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Period (geology)
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Período geológico
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Ajastu (geoloogia)
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Periodo (geologia)
+    badges: []
+  fawiki:
+    site: fawiki
+    title: دوره (زمین‌شناسی)
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Kausi (geologia)
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Période (géologie)
+    badges: []
+  gawiki:
+    site: gawiki
+    title: Tréimhse gheolaíoch
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Período xeolóxico
+    badges: []
+  hewiki:
+    site: hewiki
+    title: יחידת זמן גאולוגית
+    badges: []
+  htwiki:
+    site: htwiki
+    title: Peryòd (jewoloji)
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Időszak (földtörténet)
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Periode (geologi)
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Periodo (geocronologia)
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 紀
+    badges: []
+  kawiki:
+    site: kawiki
+    title: პერიოდი (გეოლოგია)
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Геологиялық бөлім
+    badges: []
+  kywiki:
+    site: kywiki
+    title: Геологиялык мезгил
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Ģeoloģiskais periods
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Zaman (geologi)
+    badges: []
+  ndswiki:
+    site: ndswiki
+    title: System (Geologie)
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Periode (tijdperk)
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Periode i geologi
+    badges: []
+  novwiki:
+    site: novwiki
+    title: Periode (geologia)
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Periode (geologi)
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Periòde (geologia)
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Okres (geologia)
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Período geológico
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Геологический период
+    badges: []
+  sahwiki:
+    site: sahwiki
+    title: Период (геология)
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Geološki period
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Period (geology)
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Period (geologi)
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Асри ҷеолоҷӣ
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Період (геологія)
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Sistema (stratigrafik shkala)
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Kỷ (địa chất)
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 紀 (地質學)
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 纪 (地质学)
+    badges: []

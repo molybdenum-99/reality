@@ -1,0 +1,1167 @@
+---
+pageid: 26781
+ns: 0
+title: Q23387
+lastrevid: 614034416
+modified: '2017-12-26T11:23:14Z'
+type: item
+id: Q23387
+labels:
+  en:
+    language: en
+    value: week
+aliases:
+  en:
+  - language: en
+    value: Shukan
+  - language: en
+    value: weeks
+  - language: en
+    value: weekly
+  - language: en
+    value: week duration
+claims:
+  P1296:
+  - mainsnak:
+      snaktype: value
+      property: P1296
+      hash: 2dba7ce988cf131fa1075f481a20dae93f8c0476
+      datavalue:
+        value: '0142251'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q23387$8f71ed2f-40fc-19cf-34d7-ada9bac450af
+    rank: normal
+  P227:
+  - mainsnak:
+      snaktype: value
+      property: P227
+      hash: d66be16e00836e6bb8a090ea45e4e8fb68e17f3a
+      datavalue:
+        value: 4480313-8
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q23387$1de6ac09-44ef-f458-a8e2-05f93997626c
+    rank: normal
+  P1245:
+  - mainsnak:
+      snaktype: value
+      property: P1245
+      hash: 9a0762e323ece4a1eb711c7845d263ee77260f20
+      datavalue:
+        value: '6145'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q23387$929fbf7e-42bd-e71d-e5aa-a2c8021c6445
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 98a1e85b80bda7ff493c25a6b805599da715c077
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1790144
+          id: Q1790144
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q23387$2AA668FD-6107-4CF3-B00F-777795018AC2
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 2a0018a0be651f02230d12a0c767a671dc2a7bb5
+      datavalue:
+        value: Weeks
+        type: string
+      datatype: string
+    type: statement
+    id: q23387$6C704EFA-D200-4044-8275-F2F937984EC8
+    rank: normal
+  P910:
+  - mainsnak:
+      snaktype: value
+      property: P910
+      hash: da9b90d950c8e2cb65b11c76e43b8fad4d152eb0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 5915079
+          id: Q5915079
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q23387$829D5C10-1112-4E85-A163-353A82B1B026
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 91e0a3606cb59233382831ed89dbd249ab12f08c
+      datavalue:
+        value: "/m/083sl"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q23387$81BD51BD-6004-47AD-BE17-F07C45C8B0DB
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P935:
+  - mainsnak:
+      snaktype: value
+      property: P935
+      hash: da001a04116107d1aab88ac5d21590b82746e5b3
+      datavalue:
+        value: Week
+        type: string
+      datatype: string
+    type: statement
+    id: Q23387$0CB699F7-C401-4EFA-A01B-20BC26B5F5D5
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 9cd2a500cf8bd87973b38864ffd1647af62380e5
+      datavalue:
+        value:
+          amount: "+604800"
+          unit: http://www.wikidata.org/entity/Q11574
+          upperBound: "+604800"
+          lowerBound: "+604800"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q23387$98f70cb0-4156-efc5-a36b-e08a8ce31a91
+    rank: normal
+  P2047:
+  - mainsnak:
+      snaktype: value
+      property: P2047
+      hash: a49d4ac7044b49f55032f2f85927d7d491937ecf
+      datavalue:
+        value:
+          amount: "+7"
+          unit: http://www.wikidata.org/entity/Q573
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q23387$b5bca4d9-45d3-eb90-b186-2c620ef3eaa0
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 04d7cd2fc664d1bd155bc87af7ec811deff6348e
+      datavalue:
+        value:
+          amount: "+7"
+          unit: http://www.wikidata.org/entity/Q573
+          upperBound: "+7"
+          lowerBound: "+7"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q23387$8f06356f-4770-376d-bf96-65b3d99f184c
+    rank: normal
+  P443:
+  - mainsnak:
+      snaktype: value
+      property: P443
+      hash: d3837d24c57fd30395a96ffa306e7a9042f67754
+      datavalue:
+        value: Oc-Setmana.ogg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    qualifiers:
+      P407:
+      - snaktype: value
+        property: P407
+        hash: 2eee9065f44db661bea3d6b0d82d3380594ace5a
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 14185
+            id: Q14185
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P407
+    id: Q23387$46dd6020-42ab-9ab0-221e-fec30b32e9f3
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: f24e032a9edffb089eb58a8af5d2b30d49357f73
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11471
+          id: Q11471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q23387$2ffd9deb-4779-19b2-13dd-e185eb0a3990
+    rank: normal
+  P3365:
+  - mainsnak:
+      snaktype: value
+      property: P3365
+      hash: 9abdb91276b6272348dece21967c65103827353d
+      datavalue:
+        value: settimana
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q23387$83c79db3-49e1-bc4d-9a7b-2aca87fb821e
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 3ccf21ca2beaa5b4ec15378b826cc53871e5d2c5
+      datavalue:
+        value: Weeks
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q23387$2339CDDC-A7E1-4BAB-B56C-4AFD9D6316DB
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: 14437fdefd96048bb37a7d3ef98d81dd6656713f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 29441572
+          id: Q29441572
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P642:
+      - snaktype: value
+        property: P642
+        hash: 6a413e6956a1044ae39d6c7084c1900bb07090a8
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 573
+            id: Q573
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P642
+    id: Q23387$c2eb49fd-452b-a58f-04d3-56384768b8fd
+    rank: normal
+  P1014:
+  - mainsnak:
+      snaktype: value
+      property: P1014
+      hash: 0e1906b646cfcdd44a217e351df0cc77953b85f8
+      datavalue:
+        value: '300379243'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q23387$4A4A30E5-4DED-452B-A75F-CD3BAA8AC457
+    rank: normal
+  P2919:
+  - mainsnak:
+      snaktype: value
+      property: P2919
+      hash: 4a7d8c0b4010851dcd04714d659f6243e4774d9f
+      datavalue:
+        value: Csc-setmana-spreadthesign.ogv
+        type: string
+      datatype: commonsMedia
+    type: statement
+    qualifiers:
+      P407:
+      - snaktype: value
+        property: P407
+        hash: f481906a5a9e25e64deba91d6a0eda40ae047542
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 35768
+            id: Q35768
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P407
+    id: Q23387$c8e1d936-4853-2703-b99c-3ff580fa4492
+    rank: normal
+  P2670:
+  - mainsnak:
+      snaktype: value
+      property: P2670
+      hash: 82e3958ce4269a091843a7cf117b75ae356bdd0d
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 573
+          id: Q573
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q23387$4CD2A6EF-14D2-421D-8D45-BB55D6C93435
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2670
+      hash: d3f46ac94639918fcbca222b2214836a04f1a782
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 41825
+          id: Q41825
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P1114:
+      - snaktype: value
+        property: P1114
+        hash: 2cb49d725777f8dcf4fa8abf71bdd864ac2e9a3b
+        datavalue:
+          value:
+            amount: "+7"
+            unit: '1'
+          type: quantity
+        datatype: quantity
+    qualifiers-order:
+    - P1114
+    id: Q23387$061A32D5-8505-4664-A2B8-BAC49D52ED70
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2670
+      hash: 906798d44cd01faa8c4a776640e4cba0d686e35a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 30302890
+          id: Q30302890
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q23387$55C04701-BEEB-4F62-9E14-406508FAEA69
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2670
+      hash: f8bbe9e752cb528083d1ddb4d345ef2ae915c4f5
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 211391
+          id: Q211391
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q23387$2D46C744-67AC-4401-B5F4-92300E091BE2
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Week
+    badges: []
+  alswiki:
+    site: alswiki
+    title: Woche
+    badges: []
+  amwiki:
+    site: amwiki
+    title: ሳምንት
+    badges: []
+  anwiki:
+    site: anwiki
+    title: Semana
+    badges: []
+  arcwiki:
+    site: arcwiki
+    title: ܫܒܘܥܐ
+    badges: []
+  arwiki:
+    site: arwiki
+    title: أسبوع
+    badges: []
+  arzwiki:
+    site: arzwiki
+    title: اسبوع
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Selmana
+    badges: []
+  aswiki:
+    site: aswiki
+    title: সপ্তাহ
+    badges: []
+  avwiki:
+    site: avwiki
+    title: Анкь
+    badges: []
+  azbwiki:
+    site: azbwiki
+    title: هفته
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Həftə
+    badges: []
+  bat_smgwiki:
+    site: bat_smgwiki
+    title: Nedielė
+    badges: []
+  bawiki:
+    site: bawiki
+    title: Аҙна
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Тыдзень
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Тыдзень
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Седмица
+    badges: []
+  bhwiki:
+    site: bhwiki
+    title: सप्ताह
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: সপ্তাহ
+    badges: []
+  bowiki:
+    site: bowiki
+    title: གཟའ་འཁོར།
+    badges: []
+  brwiki:
+    site: brwiki
+    title: Sizhun
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Sedmica
+    badges: []
+  bxrwiki:
+    site: bxrwiki
+    title: Долоон хоног
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Setmana
+    badges: []
+  cawikiquote:
+    site: cawikiquote
+    title: Setmana
+    badges: []
+  cdowiki:
+    site: cdowiki
+    title: Lā̤-bái (sì-găng dăng-ôi)
+    badges: []
+  cewiki:
+    site: cewiki
+    title: КӀира
+    badges: []
+  ckbwiki:
+    site: ckbwiki
+    title: ھەفتە
+    badges: []
+  commonswiki:
+    site: commonswiki
+    title: Week
+    badges: []
+  cowiki:
+    site: cowiki
+    title: Sittimana
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Týden
+    badges: []
+  cswikiquote:
+    site: cswikiquote
+    title: Týden
+    badges: []
+  cuwiki:
+    site: cuwiki
+    title: Сєдмица
+    badges: []
+  cvwiki:
+    site: cvwiki
+    title: Эрне
+    badges: []
+  cywiki:
+    site: cywiki
+    title: Wythnos
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Uge
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Woche
+    badges: []
+  dewikiquote:
+    site: dewikiquote
+    title: Woche
+    badges: []
+  diqwiki:
+    site: diqwiki
+    title: Hefte
+    badges: []
+  dsbwiki:
+    site: dsbwiki
+    title: Tyźeń
+    badges: []
+  dtywiki:
+    site: dtywiki
+    title: हप्ता
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Εβδομάδα
+    badges:
+    - Q17437796
+  emlwiki:
+    site: emlwiki
+    title: Stmâna
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Week
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Semajno
+    badges: []
+  eowikiquote:
+    site: eowikiquote
+    title: Semajno
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Semana
+    badges: []
+  eswikiquote:
+    site: eswikiquote
+    title: Semana
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Nädal
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Aste
+    badges: []
+  extwiki:
+    site: extwiki
+    title: Semana
+    badges: []
+  fawiki:
+    site: fawiki
+    title: هفته
+    badges: []
+  fiu_vrowiki:
+    site: fiu_vrowiki
+    title: Nätäl
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Viikko
+    badges: []
+  fowiki:
+    site: fowiki
+    title: Vika
+    badges: []
+  frpwiki:
+    site: frpwiki
+    title: Semana
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Semaine
+    badges: []
+  furwiki:
+    site: furwiki
+    title: Setemane
+    badges: []
+  fywiki:
+    site: fywiki
+    title: Wike
+    badges: []
+  ganwiki:
+    site: ganwiki
+    title: 禮拜
+    badges: []
+  gawiki:
+    site: gawiki
+    title: Seachtain
+    badges: []
+  glkwiki:
+    site: glkwiki
+    title: هفته
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Semana
+    badges: []
+  gnwiki:
+    site: gnwiki
+    title: Arapokõindy
+    badges: []
+  gotwiki:
+    site: gotwiki
+    title: "\U00010345\U00010339\U0001033A\U00010349"
+    badges: []
+  guwiki:
+    site: guwiki
+    title: અઠવાડિયું
+    badges: []
+  hakwiki:
+    site: hakwiki
+    title: Lî-pai (sṳ̀-kiên tân-vi)
+    badges: []
+  hawwiki:
+    site: hawwiki
+    title: Pule
+    badges: []
+  hewiki:
+    site: hewiki
+    title: שבוע
+    badges: []
+  hifwiki:
+    site: hifwiki
+    title: Hafta
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: सप्ताह
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Tjedan
+    badges: []
+  hsbwiki:
+    site: hsbwiki
+    title: Tydźeń
+    badges: []
+  htwiki:
+    site: htwiki
+    title: Semèn
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Hét (naptár)
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Շաբաթ (յոթնօրյակ)
+    badges: []
+  iawiki:
+    site: iawiki
+    title: Septimana
+    badges:
+    - Q17437796
+  idwiki:
+    site: idwiki
+    title: Pekan
+    badges: []
+  ilowiki:
+    site: ilowiki
+    title: Lawas
+    badges: []
+  iowiki:
+    site: iowiki
+    title: Semano
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Vika
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Settimana
+    badges: []
+  itwikiquote:
+    site: itwikiquote
+    title: Settimana
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 週
+    badges: []
+  jvwiki:
+    site: jvwiki
+    title: Saptawara
+    badges: []
+  kawiki:
+    site: kawiki
+    title: კვირა (დრო)
+    badges: []
+  kbdwiki:
+    site: kbdwiki
+    title: Махуэ Гъэпс
+    badges: []
+  kgwiki:
+    site: kgwiki
+    title: Mposo
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Апта
+    badges: []
+  knwiki:
+    site: knwiki
+    title: ವಾರ
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 주 (시간)
+    badges: []
+  krcwiki:
+    site: krcwiki
+    title: Ыйыкъ
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Вежон
+    badges: []
+  kwwiki:
+    site: kwwiki
+    title: Seythen
+    badges: []
+  ladwiki:
+    site: ladwiki
+    title: Semana
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Hebdomas
+    badges: []
+  lbewiki:
+    site: lbewiki
+    title: Нюжмар (арулва гьант)
+    badges: []
+  lezwiki:
+    site: lezwiki
+    title: НикӀи
+    badges: []
+  lmowiki:
+    site: lmowiki
+    title: Setemàna
+    badges: []
+  lnwiki:
+    site: lnwiki
+    title: Mpɔ́sɔ
+    badges: []
+  lowiki:
+    site: lowiki
+    title: ສັບປະດາ
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Savaitė
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Nedēļa
+    badges: []
+  maiwiki:
+    site: maiwiki
+    title: हप्ता
+    badges: []
+  mgwiki:
+    site: mgwiki
+    title: Herinandro
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Седмица
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: ആഴ്ച
+    badges: []
+  mnwiki:
+    site: mnwiki
+    title: Долоо хоног
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: आठवडा
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Minggu
+    badges: []
+  myvwiki:
+    site: myvwiki
+    title: Тарго
+    badges: []
+  mznwiki:
+    site: mznwiki
+    title: هفته
+    badges: []
+  nahwiki:
+    site: nahwiki
+    title: Chicōntōnalli
+    badges: []
+  nds_nlwiki:
+    site: nds_nlwiki
+    title: Wekke
+    badges: []
+  ndswiki:
+    site: ndswiki
+    title: Week
+    badges: []
+  newiki:
+    site: newiki
+    title: हप्ता
+    badges: []
+  newwiki:
+    site: newwiki
+    title: बाः
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Week
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Veke
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Ukedager
+    badges: []
+  nrmwiki:
+    site: nrmwiki
+    title: Semanne
+    badges: []
+  nsowiki:
+    site: nsowiki
+    title: Beke
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Setmana
+    badges: []
+  olowiki:
+    site: olowiki
+    title: Nedäli
+    badges: []
+  orwiki:
+    site: orwiki
+    title: ସପ୍ତାହ
+    badges: []
+  oswiki:
+    site: oswiki
+    title: Къуыри
+    badges: []
+  pdcwiki:
+    site: pdcwiki
+    title: Woch
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Tydzień
+    badges: []
+  plwikiquote:
+    site: plwikiquote
+    title: Tydzień
+    badges: []
+  pmswiki:
+    site: pmswiki
+    title: Sman-a
+    badges: []
+  pnbwiki:
+    site: pnbwiki
+    title: ستوارا
+    badges: []
+  pswiki:
+    site: pswiki
+    title: اوونۍ
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Semana
+    badges: []
+  ptwikiquote:
+    site: ptwikiquote
+    title: Semana
+    badges: []
+  quwiki:
+    site: quwiki
+    title: Simana
+    badges: []
+  roa_rupwiki:
+    site: roa_rupwiki
+    title: Siptâmânâ
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Săptămână
+    badges: []
+  ruewiki:
+    site: ruewiki
+    title: Тыждень
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Неделя
+    badges: []
+  ruwikiquote:
+    site: ruwikiquote
+    title: Неделя
+    badges: []
+  rwwiki:
+    site: rwwiki
+    title: Icyumweru
+    badges: []
+  sahwiki:
+    site: sahwiki
+    title: Нэдиэлэ
+    badges: []
+  sawiki:
+    site: sawiki
+    title: सप्ताहः
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Week
+    badges: []
+  scwiki:
+    site: scwiki
+    title: Chida
+    badges: []
+  sdwiki:
+    site: sdwiki
+    title: هفتو
+    badges: []
+  sewiki:
+    site: sewiki
+    title: Vahkku
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Sedmica
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Week
+    badges: []
+  siwiki:
+    site: siwiki
+    title: සුමානය
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Týždeň
+    badges: []
+  skwikiquote:
+    site: skwikiquote
+    title: Týždeň
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Teden
+    badges: []
+  snwiki:
+    site: snwiki
+    title: Vhiki
+    badges: []
+  sowiki:
+    site: sowiki
+    title: Todobaad
+    badges: []
+  sqwiki:
+    site: sqwiki
+    title: Java (kalendar)
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Седмица
+    badges: []
+  stqwiki:
+    site: stqwiki
+    title: Wiek
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Vecka
+    badges: []
+  swwiki:
+    site: swwiki
+    title: Juma
+    badges: []
+  szlwiki:
+    site: szlwiki
+    title: Tydźyń
+    badges: []
+  tawiki:
+    site: tawiki
+    title: கிழமை
+    badges: []
+  tewiki:
+    site: tewiki
+    title: వారము
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Ҳафта
+    badges: []
+  thwiki:
+    site: thwiki
+    title: สัปดาห์
+    badges: []
+  tkwiki:
+    site: tkwiki
+    title: Hepde
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Linggo (panahon)
+    badges: []
+  tpiwiki:
+    site: tpiwiki
+    title: Wik
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Hafta
+    badges: []
+  ttwiki:
+    site: ttwiki
+    title: Атна
+    badges: []
+  tyvwiki:
+    site: tyvwiki
+    title: Чедилик
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Тиждень
+    badges: []
+  urwiki:
+    site: urwiki
+    title: ہفتہ (وقت کی اکائی)
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Hafta
+    badges: []
+  vepwiki:
+    site: vepwiki
+    title: Nedal'
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Tuần
+    badges: []
+  warwiki:
+    site: warwiki
+    title: Semana
+    badges: []
+  wawiki:
+    site: wawiki
+    title: Samwinne
+    badges: []
+  wowiki:
+    site: wowiki
+    title: Ayubés
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: მარა
+    badges: []
+  yiwiki:
+    site: yiwiki
+    title: וואָך
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Ọ̀sẹ̀
+    badges: []
+  zh_classicalwiki:
+    site: zh_classicalwiki
+    title: 星期
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Lé-pài (sî-kan)
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 星期
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 星期
+    badges: []

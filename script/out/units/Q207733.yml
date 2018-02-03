@@ -1,0 +1,637 @@
+---
+pageid: 203870
+ns: 0
+title: Q207733
+lastrevid: 623858512
+modified: '2018-01-27T16:25:07Z'
+type: item
+id: Q207733
+labels:
+  en:
+    language: en
+    value: verst
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1c41b2ea8a3f6d3fab77c103d826ae5ead7a9c01
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1978718
+          id: Q1978718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q207733$40e6eb43-4b6c-e969-9ac5-bd430e6a0058
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 80fc9f979a351165e0d27649e3909e4a3152e4aa
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 21684377
+          id: Q21684377
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q207733$e5b03c8f-4997-ff15-f49d-d833cc5856cf
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 33530b110bc9cdcdc4c11a8bc46a1e4c62743ead
+      datavalue:
+        value: "/m/03rbwq"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q207733$F290EE81-CFDE-4E60-8C36-019A00997CEA
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 9a2a80da2d61cb69c12668cbc2de0c6ad71258ac
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 4420945
+          id: Q4420945
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q207733$67f2dff3-4c90-2878-6add-6418afb65fbd
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 2b8b8057cb4029acdd61112e5a77ff87c571c45b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 435964
+          id: Q435964
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q207733$881E4EE0-AF92-4A34-BFE1-497559DA45C6
+    rank: preferred
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 7841e2b789d59ac7577bc931012e0cd51d42ee35
+      datavalue:
+        value:
+          amount: "+1066.781"
+          unit: http://www.wikidata.org/entity/Q11573
+          upperBound: "+1066.782"
+          lowerBound: "+1066.780"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q207733$f4399f46-4d74-4309-7f17-f85388a0b911
+    rank: normal
+    references:
+    - hash: 9653b690c707b9169cf39e85690f1c30168c49ff
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 3d63bf2de40e1d71d7e14effe02966e923b21a11
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 24360062
+              id: Q24360062
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P1296:
+  - mainsnak:
+      snaktype: value
+      property: P1296
+      hash: 9438b85626817383cddd53a2d4de57f63eca2572
+      datavalue:
+        value: '0150463'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q207733$21cfbba1-44b2-b615-a16b-88ba1da54fa5
+    rank: normal
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: eda63bed5c3d7a3460033092338ab321a2374c7f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2041543
+          id: Q2041543
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P805:
+      - snaktype: value
+        property: P805
+        hash: 8a26ebd6c0e73bbb985d548632de6b527b8ef402
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 23875690
+            id: Q23875690
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P805
+    id: Q207733$ECBA77DF-284B-4C6D-B532-E191F86F839C
+    rank: normal
+    references:
+    - hash: f4ccf4f51862ca628ecbeabd98a147b7a62bcdcd
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 9ad08d266f175b365116e5384f324d25f9c4ccf0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 23875690
+              id: Q23875690
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+    - hash: 3ad9c39f3b3e55b26821576c0393effc8ec27221
+      snaks:
+        P3452:
+        - snaktype: value
+          property: P3452
+          hash: de3863e41beae97c4bed89261ca36b7df8f969d4
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 23875690
+              id: Q23875690
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P3452
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 42346dfe9209b7359c1f5db829a368b38d407797
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 19180675
+          id: Q19180675
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q207733$1156F593-C166-460F-80AC-E6553FA3B91F
+    rank: normal
+    references:
+    - hash: 6ae8a020b4461b663dee79078256b52fe41dcbe3
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 2ebb0f051f2e1847fb2fb23a75462788aba6ad32
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 24777258
+              id: Q24777258
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 88389772f86dcd7d415ddd029f601412e5cc894a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 602358
+          id: Q602358
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q207733$78CA705D-47DB-47A2-9E76-73D81420FF86
+    rank: normal
+    references:
+    - hash: 9653b690c707b9169cf39e85690f1c30168c49ff
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 3d63bf2de40e1d71d7e14effe02966e923b21a11
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 24360062
+              id: Q24360062
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P1814:
+  - mainsnak:
+      snaktype: value
+      property: P1814
+      hash: '096b8cba78cd8b93ae9121870d2536522c7af17e'
+      datavalue:
+        value: ヴェルスタ
+        type: string
+      datatype: string
+    type: statement
+    id: Q207733$C9731DF9-205B-4081-9787-6C5F6A348565
+    rank: normal
+    references:
+    - hash: a29a646602abf65105ed0f39a44231c962ece9ee
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: c6f1777471211df31724ac60175786f3872c83e9
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 177837
+              id: Q177837
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: a721b4ed8d5956660c8a60d1307e8ec49e2459ad
+      datavalue:
+        value:
+          amount: "+500"
+          unit: http://www.wikidata.org/entity/Q2018709
+          upperBound: "+500"
+          lowerBound: "+500"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q207733$5a1e3d97-4edf-7e23-1219-a891a6135cec
+    rank: normal
+    references:
+    - hash: 9653b690c707b9169cf39e85690f1c30168c49ff
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 3d63bf2de40e1d71d7e14effe02966e923b21a11
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 24360062
+              id: Q24360062
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 9b694babca2d2f37586c3f8ad765775ae36c131d
+      datavalue:
+        value:
+          amount: "+1500"
+          unit: http://www.wikidata.org/entity/Q1172583
+          upperBound: "+1500"
+          lowerBound: "+1500"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q207733$83f6fde3-4a6e-79f3-9195-08d03fc4c283
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 98b8914ffaffa2b8814d7af98a86301681905d23
+      datavalue:
+        value:
+          amount: "+0.5"
+          unit: http://www.wikidata.org/entity/Q12122300
+          upperBound: "+0.5"
+          lowerBound: "+0.5"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q207733$ab159d53-44d1-5404-e509-6680977e0ffc
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: d0dc30af59ba1f0ad9371eefeb952edcb8ab3652
+      datavalue:
+        value:
+          amount: "+3500"
+          unit: http://www.wikidata.org/entity/Q3710
+          upperBound: "+3500"
+          lowerBound: "+3500"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q207733$6e50eeb2-42a2-2062-5309-a93ce51b981a
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 39d1a8ec9250bbc9af64a58a92b3977c2e0030c4
+      datavalue:
+        value:
+          amount: "+42000"
+          unit: http://www.wikidata.org/entity/Q218593
+          upperBound: "+42000"
+          lowerBound: "+42000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q207733$9e7d302b-4e22-726e-a5cb-0ad81acfcd2a
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 7ddbd6c4fc41d4f3889c6eff6e9b53eb77e55ee8
+      datavalue:
+        value:
+          amount: "+6000"
+          unit: http://www.wikidata.org/entity/Q4514998
+          upperBound: "+6000"
+          lowerBound: "+6000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q207733$ea822210-465e-73ea-8ed7-a6cd5ee49432
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 98baab10db6f6ef869972e66efb634db79e4dd64
+      datavalue:
+        value:
+          amount: "+24000"
+          unit: http://www.wikidata.org/entity/Q2121867
+          upperBound: "+24000"
+          lowerBound: "+24000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q207733$6d79c730-436a-17fc-29c5-7a18f1443faf
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 4354e3cc033f2c5371e447e5ab1cca8b89ffa3e0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 36253
+          id: Q36253
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q207733$5B1C8021-C788-43B7-8D86-D8604020DE85
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: فرستا (وحدة قياس)
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Verst
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Вярста
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Вярста
+    badges: []
+  brwiki:
+    site: brwiki
+    title: Verst
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Versta
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Versta
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Verst
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Werst
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Βέρστι
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Verst
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Versto
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Versta
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Verst
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Versta
+    badges: []
+  fawiki:
+    site: fawiki
+    title: ورست
+    badges: []
+  fiu_vrowiki:
+    site: fiu_vrowiki
+    title: Verst
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Virsta
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Verste
+    badges: []
+  fywiki:
+    site: fywiki
+    title: Werst
+    badges: []
+  hewiki:
+    site: hewiki
+    title: ורסטה
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Verszta
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Röst
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Versta
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ベルスタ
+    badges: []
+  kawiki:
+    site: kawiki
+    title: ვერსი
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 베르스타
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Varstas
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Versts
+    badges: []
+  mhrwiki:
+    site: mhrwiki
+    title: Уштыш
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Врста (должина)
+    badges: []
+  ndswiki:
+    site: ndswiki
+    title: Werst
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Werst
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Verst
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Verst
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Wiorsta
+    badges: []
+  pmswiki:
+    site: pmswiki
+    title: Versta
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Verstă
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Верста
+    badges: []
+  sahwiki:
+    site: sahwiki
+    title: Биэрэстэ
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Vrsta (dolžinska mera)
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Врста (јединица)
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Verst
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Verst
+    badges: []
+  tyvwiki:
+    site: tyvwiki
+    title: Барыстаа
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Верста
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Versta
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 俄里
+    badges: []

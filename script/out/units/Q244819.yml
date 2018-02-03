@@ -1,0 +1,436 @@
+---
+pageid: 237827
+ns: 0
+title: Q244819
+lastrevid: 619463505
+modified: '2018-01-12T22:36:56Z'
+type: item
+id: Q244819
+labels:
+  en:
+    language: en
+    value: Colombian peso
+aliases:
+  en:
+  - language: en
+    value: COL$
+  - language: en
+    value: peso
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: a7e00fa90349c5a6da3c5277e03ef723ee08254f
+      datavalue:
+        value: Money of Colombia
+        type: string
+      datatype: string
+    type: statement
+    id: q244819$3BD89A20-90B9-49B6-A3D3-3CADB4786FBD
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 62b92ff7d900ebf6441612661ea967a57d2eb600
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1643989
+          id: Q1643989
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q244819$08CD4996-3844-4FE7-A880-9CD28AF39226
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q244819$31E13CD0-53AD-485F-BC84-588DB1887344
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 7d09477610bebdb697f67329133e2ef89070935e
+      datavalue:
+        value: COP
+        type: string
+      datatype: external-id
+    type: statement
+    id: q244819$024669ea-4b7a-d622-255e-646e924ff51a
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 68de9c427b542147c5de07aad9ee0766bf3f44cc
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 686329
+          id: Q686329
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q244819$9608F4DF-17DF-4656-AB0E-E956A1F40273
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 5d48a92b00d41fc59b6a8cdfc4da14389009d44e
+      datavalue:
+        value: "/m/034sw6"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q244819$D1009BBC-D2A9-4207-86BB-36AFACC9E783
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: a8320512b697f7ca13d984a9e107863e3fdba021
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 739
+          id: Q739
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q244819$55aecac3-400c-6d8f-2c66-3b3258538cf4
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 03c7f4c368b0a034bc98c80a3d7dd0d8bcc77fd9
+      datavalue:
+        value: COP50000 frente.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q244819$624D85E8-4113-407B-AD0B-141CB929DFCE
+    rank: normal
+  P2284:
+  - mainsnak:
+      snaktype: value
+      property: P2284
+      hash: e9bb86500226840da01d57fc007b68746e39756a
+      datavalue:
+        value:
+          amount: "+0.000319"
+          unit: http://www.wikidata.org/entity/Q4917
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: f742be92339cdcc54bf77fbdde9a24b9045f361a
+        datavalue:
+          value:
+            time: "+2016-11-22T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q244819$A13C5CB2-79DC-4C24-A768-083155D6C62A
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: 755b245a521b5ebf099df1cfc41fa78e2ad1a96f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 244696
+          id: Q244696
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q244819$e17f14f6-4156-9545-d785-443350877367
+    rank: normal
+  P2581:
+  - mainsnak:
+      snaktype: value
+      property: P2581
+      hash: ff19066065fe7ff2f9911fd93945c40de77c026f
+      datavalue:
+        value: 00020700n
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q244819$109E343E-F241-4021-BA7A-7F227562C24E
+    rank: normal
+    references:
+    - hash: bd0ee81488cd8c23d4b655e417aac78dca370283
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: a0b4f55dbedbadaf83e7d2461b47b7aeaba86359
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 4837690
+              id: Q4837690
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 9b02661d4392bf5f10659a9c30c7e6c87402539e
+      datavalue:
+        value: '500146'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q244819$348C3672-493E-4BB4-9E58-BC652F060E19
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: بيزو كولومبي
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Калумбійскае песа
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Колумбийско песо
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: কলম্বিয়ান পেসো
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Peso colombià
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Kolumbijské peso
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Colombiansk peso
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Kolumbianischer Peso
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Πέσο Κολομβίας
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Colombian peso
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Kolombia peso
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Peso (moneda de Colombia)
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Colombia peeso
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Peso kolonbiar
+    badges: []
+  fawiki:
+    site: fawiki
+    title: پزوی کلمبیا
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Kolumbian peso
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Peso colombien
+    badges: []
+  hewiki:
+    site: hewiki
+    title: פסו קולומביאני
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Kolumbijski pezo
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Kolumbiai peso
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Peso Kolombia
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Kólumbískur pesi
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Peso colombiano
+    badges: []
+  jawiki:
+    site: jawiki
+    title: コロンビア・ペソ
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 콜롬비아 페소
+    badges: []
+  liwiki:
+    site: liwiki
+    title: Colombiaanse peso
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Kolumbijos pesas
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: कोलंबियन पेसो
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Colombiaanse peso
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Colombiansk peso
+    badges: []
+  papwiki:
+    site: papwiki
+    title: Peso colombiano
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਕੋਲੰਬੀਆਈ ਪੇਸੋ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Peso kolumbijskie
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Peso colombiano
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Колумбийское песо
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Колумбијски пезос
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Colombiansk peso
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Песои Коломбия
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Kolombiya pesosu
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Колумбійський песо
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: კოლუმბიური პესო
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Peso Kòlómbìà
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Colombia peso
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 哥伦比亚比索
+    badges: []

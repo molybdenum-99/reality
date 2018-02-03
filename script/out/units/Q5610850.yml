@@ -1,0 +1,69 @@
+---
+pageid: 5371694
+ns: 0
+title: Q5610850
+lastrevid: 537539582
+modified: '2017-08-14T08:09:11Z'
+type: item
+id: Q5610850
+labels:
+  en:
+    language: en
+    value: Ground
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 0f49769a073adbf1aea6d3645a68f24ad29dbeb6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1371562
+          id: Q1371562
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q5610850$F9F30122-B0A4-4A7B-93DF-C5A9C739A32B
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 80775a45c5468bba18afb646539c43a6ca0e1d83
+      datavalue:
+        value:
+          amount: "+203"
+          unit: http://www.wikidata.org/entity/Q25343
+          upperBound: "+204"
+          lowerBound: "+202"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q5610850$896ee51d-4c31-e16f-077e-5d7f43c14544
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: e12439f34cec95ee050daf4e503b6952b0e935f4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11500
+          id: Q11500
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q5610850$32AB167E-7FFA-44A3-95F7-DA6072C19B73
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Graund
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Ground (unit)
+    badges: []

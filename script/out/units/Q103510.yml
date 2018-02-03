@@ -1,0 +1,568 @@
+---
+pageid: 106146
+ns: 0
+title: Q103510
+lastrevid: 624292451
+modified: '2018-01-28T21:37:54Z'
+type: item
+id: Q103510
+labels:
+  en:
+    language: en
+    value: bar
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6166ea9a07e43efe7af58b089be082880e6b8c61
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10751953
+          id: Q10751953
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q103510$6EC84E37-0208-4993-A00F-37A0BDD2E090
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 4970bbc0f8041f85ddb0c0cada16d3ca0f3a1137
+      datavalue:
+        value: "/m/01_m3f"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q103510$5E3EA7DE-46C3-400A-8F5D-CE0CD85A8580
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: d824b68979168dac6b7f333daec42c7c648f5e53
+      datavalue:
+        value:
+          amount: "+100000"
+          unit: http://www.wikidata.org/entity/Q44395
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q103510$246a0057-42d3-df80-6d53-8542cd25960a
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 489d148898843b8e4bd0c8ce0540ef4291567059
+      datavalue:
+        value: Bar
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q103510$50ee7422-49d6-e472-e409-f6985be92cb6
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: a876e7a41293d4f8e5ebf4ae8bf3c9ee615576b8
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 39552
+          id: Q39552
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q103510$48e4fbfa-4521-9d17-a99f-88f5ea11db54
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 2eed377a6c09b5689889087e1547e65589d2ad61
+      datavalue:
+        value: bar
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q103510$3790fd4c-49e6-657b-90fc-744117c39898
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 54ce83331cd6ce4fc142ce737d95b8ca79e110be
+      datavalue:
+        value: бар
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q103510$b58617a8-4d6e-96ef-a686-7a051e466c3a
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: f4468fc222537c3656d04a431d9e7cb1c898096f
+      datavalue:
+        value: bar
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q103510$4a206a16-43b9-4f3e-7094-b92a09d2cf8a
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 160a9fa768fd125ac85e656f7eb3d66dad714089
+      datavalue:
+        value:
+          amount: "+100000"
+          unit: http://www.wikidata.org/entity/Q44395
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q103510$1c90647c-4f62-d478-4e4a-29c1cc3dbba7
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 1b7ab47a4943e5812dce6e84d93913edb5a0c8a0
+      datavalue:
+        value:
+          amount: "+14.50377"
+          unit: http://www.wikidata.org/entity/Q626299
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q103510$9c45e057-41d9-62af-da0e-fda17589818a
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: d3eef2c2699e840f525414f4525b251d15800ffb
+      datavalue:
+        value:
+          amount: "+0.9869233"
+          unit: http://www.wikidata.org/entity/Q177974
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q103510$2b163e74-4d4d-8428-4e9e-e475c1791761
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: b827d3bd6e3500f856a00c80ff62df980da3590f
+      datavalue:
+        value:
+          amount: "+29.52998"
+          unit: http://www.wikidata.org/entity/Q1050958
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q103510$ed8ae76c-4d21-13e2-d70c-0d02d2bf519e
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: e35f2a6996f96621158b91a952635d8c19b3aa68
+      datavalue:
+        value:
+          amount: "+401.4631"
+          unit: http://www.wikidata.org/entity/Q39467725
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q103510$93ff2287-43fb-d54d-9e28-eb3195d87dee
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 66b31d2f062e8f3008e5b68310bbab58a03edc8e
+      datavalue:
+        value:
+          amount: "+10197.16"
+          unit: http://www.wikidata.org/entity/Q13479685
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q103510$be88e8ee-400b-903c-4758-2a99e8e946fb
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: ddeaf1076d02f0c95ac8597efca98d2c3af7a517
+      datavalue:
+        value:
+          amount: "+750.0616"
+          unit: http://www.wikidata.org/entity/Q6859652
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q103510$14257c00-40da-9325-4db3-718d9bb9e72e
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: be8ac27679e14868aa255b7ecfbad180ea10c05c
+      datavalue:
+        value:
+          amount: "+2088.543"
+          unit: http://www.wikidata.org/entity/Q39468084
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q103510$dba4a08e-4944-fa83-51b1-ce7c8112fd98
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 550870f0b345b4eed50bada219c92341545bdbef
+      datavalue:
+        value:
+          amount: "+10197.16"
+          unit: http://www.wikidata.org/entity/Q39467934
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q103510$9898620c-4450-99a8-12f0-5ce16f521f69
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 4f509d3f346a67d626fff030fcbb0133cdff5267
+      datavalue:
+        value:
+          amount: "+1000"
+          unit: http://www.wikidata.org/entity/Q12827327
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q103510$d36ee6d6-4bbc-8bf0-9b0c-a9905f16190f
+    rank: normal
+  P4732:
+  - mainsnak:
+      snaktype: value
+      property: P4732
+      hash: 3571b999fb65fb08247f2d00638f39ac533b1709
+      datavalue:
+        value: B00596
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q103510$41ACA303-BF81-4726-8ADC-EE0A3046DDC5
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Bar
+    badges: []
+  arwiki:
+    site: arwiki
+    title: بار
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Бар (адзінка вымярэньня)
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Бар (адзінка вымярэння)
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Бар (единица)
+    badges: []
+  bowiki:
+    site: bowiki
+    title: པཱར།
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Bar (jedinica)
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Bar (unitat de pressió)
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Bar (jednotka)
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Bar (Einheit)
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Μπαρ (μονάδα μέτρησης)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Bar (unit)
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Baro (unuo)
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Bar (unidad de presión)
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Baar (ühik)
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Bar
+    badges: []
+  fawiki:
+    site: fawiki
+    title: بار (یکا)
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Baari
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Bar (unité)
+    badges: []
+  gawiki:
+    site: gawiki
+    title: Bar
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Bar (unidade)
+    badges: []
+  hewiki:
+    site: hewiki
+    title: בר (מידה)
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Bar (jedinica)
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Bar (mértékegység)
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Բար (չափման միավոր)
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Bar (satuan)
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Bar (þrýstingur)
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Bar (unità di misura)
+    badges: []
+  jawiki:
+    site: jawiki
+    title: バール (単位)
+    badges: []
+  kawiki:
+    site: kawiki
+    title: ბარი (ერთეული)
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 바 (단위)
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Baras (slėgis)
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Bārs (mērvienība)
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Бар (единица)
+    badges: []
+  mnwiki:
+    site: mnwiki
+    title: Бар (нэгж)
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Bar (unit)
+    badges: []
+  ndswiki:
+    site: ndswiki
+    title: Bar (Eenheit)
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Bar (druk)
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Eininga bar
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Bar (enhet)
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Bar (jednostka)
+    badges: []
+  pmswiki:
+    site: pmswiki
+    title: Bar (unità dë mzura)
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Bar (unidade)
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Bar
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Бар (единица измерения)
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Bar (unitati di misura)
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Bar (jedinica)
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Bar (unit)
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Bar (tlak)
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Bar (enota)
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Бар (јединица)
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Bar (måttenhet)
+    badges: []
+  tawiki:
+    site: tawiki
+    title: பார் (அளவை)
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Бар (воҳиди ченак)
+    badges: []
+  thwiki:
+    site: thwiki
+    title: บาร์ (หน่วยวัด)
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Bar (birim)
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Бар (одиниця)
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Bar
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Bar (đơn vị)
+    badges: []
+  warwiki:
+    site: warwiki
+    title: Bar (yunit)
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 巴
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 巴
+    badges: []

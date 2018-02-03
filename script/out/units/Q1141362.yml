@@ -1,0 +1,207 @@
+---
+pageid: 1088050
+ns: 0
+title: Q1141362
+lastrevid: 617055015
+modified: '2018-01-06T09:26:49Z'
+type: item
+id: Q1141362
+labels:
+  en:
+    language: en
+    value: man-hour
+aliases:
+  en:
+  - language: en
+    value: person-hour
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 43578286324b510cf9fa043ef960d78abdb9111d
+      datavalue:
+        value: "/m/05qrzm"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1141362$0255175D-7C72-4C23-853B-14809D265EE5
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1141362$cc249e6a-4251-fa4b-2978-c75af488485c
+    rank: normal
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 62c309f8296338bd9647a7e758857137f3370310
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2657718
+          id: Q2657718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P478:
+      - snaktype: value
+        property: P478
+        hash: ebae015dda839a12e8926ee3601e5a040bc3775d
+        datavalue:
+          value: '7'
+          type: string
+        datatype: string
+      P304:
+      - snaktype: value
+        property: P304
+        hash: 702fc9dd6f9e01d2f648bfcceae3430ea6587467
+        datavalue:
+          value: '308'
+          type: string
+        datatype: string
+    qualifiers-order:
+    - P478
+    - P304
+    id: Q1141362$532C74B7-86B3-4922-9198-5DA72F8A13BE
+    rank: normal
+    references:
+    - hash: 8bc722e6797143f2ba971ee5fedaeb0a331268e6
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 4b9ead388e47f64ea2ecb2b82c5d4f516003a8d5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 1975217
+              id: Q1975217
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Hora-persona
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Člověkohodina
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Personenstunde
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Man-hour
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Hora-persona
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Henkilötyövuosi
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Մարդ-ժամ
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Ársverk
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 工数
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Årsverk
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Årsverk
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Roboczogodzina
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Homem-hora
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Oră-om
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Человеко-час
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Osobohodina
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Človek-ura
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Manår
+    badges: []
+  thwiki:
+    site: thwiki
+    title: ชั่วโมงแรงงาน
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 人時
+    badges: []

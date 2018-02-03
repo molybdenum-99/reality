@@ -1,0 +1,234 @@
+---
+pageid: 1001362
+ns: 0
+title: Q1052397
+lastrevid: 616918690
+modified: '2018-01-05T20:18:40Z'
+type: item
+id: Q1052397
+labels:
+  en:
+    language: en
+    value: rad
+aliases:
+  en:
+  - language: en
+    value: Radiation Absorbed Dose
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 314bd8ecea6d12d1e0377cf5748f9e60fb1e5644
+      datavalue:
+        value: rad
+        type: string
+      datatype: string
+    type: statement
+    id: Q1052397$fb07b279-4b11-6ff5-3245-e29b08806f6a
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 4b39e12730f8ffda6a87179edf7d96b67698f478
+      datavalue:
+        value: рад
+        type: string
+      datatype: string
+    type: statement
+    id: Q1052397$ca378c5e-47ae-db2e-e038-afd8a948d013
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1052397$0694e182-4bec-4953-863c-4be9eb3c84de
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: d29225820072e20c06044e50af3f0d4e05601a73
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 215313
+          id: Q215313
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1052397$bbbece1e-4d87-bb6f-1e74-66e8af85e636
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 88dea21966adc9d5b3891c692c52c5f41a25a6a4
+      datavalue:
+        value: "/m/04ww9w"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1052397$837A8329-A169-42FE-9E53-A64E52EA6EDF
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 8717ec5cfd3e6c0ea1c2591c788e5a8ca95e4a8a
+      datavalue:
+        value:
+          amount: "+0.01"
+          unit: http://www.wikidata.org/entity/Q190095
+          upperBound: "+0.01"
+          lowerBound: "+0.01"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1052397$392f9091-412b-6913-ed57-213325c46861
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: d88c1bda38386533924cce9a21cd90b807f02a4e
+      datavalue:
+        value: Rad
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1052397$66a90f12-4ceb-aea3-2c7b-dac052ebd4ae
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: راد (وحدة)
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Рад (адзінка вымярэньня)
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Рад (адзінка вымярэння)
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Rad (antiga unitat)
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Rad (jednotka)
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Rad (Einheit)
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Ραντ (μονάδα)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Rad (unit)
+    badges: []
+  fawiki:
+    site: fawiki
+    title: راد (یکا)
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Rad (ancienne unité)
+    badges: []
+  gawiki:
+    site: gawiki
+    title: Rad
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Rad (jedinica)
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Rad (unità di misura)
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ラド
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 라드 (단위)
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Rad (straling)
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Eininga rad
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Rad (jednostka)
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Рад (единица измерения)
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Rad (unitati di misura)
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Rad (jedinica)
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Рад
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Rad (đơn vị)
+    badges: []

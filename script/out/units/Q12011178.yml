@@ -1,0 +1,108 @@
+---
+pageid: 13229659
+ns: 0
+title: Q12011178
+lastrevid: 557921714
+modified: '2017-09-13T08:20:19Z'
+type: item
+id: Q12011178
+labels:
+  en:
+    language: en
+    value: zettasecond
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 98a1e85b80bda7ff493c25a6b805599da715c077
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1790144
+          id: Q1790144
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q12011178$d1696383-422e-39fe-4460-3ab2fcf567fb
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: b3cba2cc440b42a5968b849d4a00560476200175
+      datavalue:
+        value: Zs
+        type: string
+      datatype: string
+    type: statement
+    id: Q12011178$83050d9e-43d9-f164-d24f-e07e3754ca0c
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 89b9c34b1803a36d7f6e8142e06a24180a6bdd01
+      datavalue:
+        value: Зс
+        type: string
+      datatype: string
+    type: statement
+    id: Q12011178$42206a16-414d-6348-8bb5-d2a0f36bc9d9
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: fd4f9adc08b912d0ec051f675c785c3cc5502709
+      datavalue:
+        value:
+          amount: "+1000000000000000000000"
+          unit: http://www.wikidata.org/entity/Q11574
+          upperBound: "+1000000000000000000000"
+          lowerBound: "+1000000000000000000000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q12011178$f58cf3cc-4cd3-edd8-7b44-d0a773abaee1
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 78d3b7457f7d51d130042a7c0386bc173383fe1d
+      datavalue:
+        value: zettasecond-time
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q12011178$206B9F02-2F6E-42A8-8E7B-1EE6FC31841C
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: f24e032a9edffb089eb58a8af5d2b30d49357f73
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11471
+          id: Q11471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q12011178$1C94E105-D9BB-419A-B13E-5D1A51F89D59
+    rank: normal
+sitelinks:
+  astwiki:
+    site: astwiki
+    title: Zetasegundu
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Zettasekund
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Zettasekund
+    badges: []

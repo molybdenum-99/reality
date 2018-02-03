@@ -1,0 +1,832 @@
+---
+pageid: 105027
+ns: 0
+title: Q102416
+lastrevid: 621690566
+modified: '2018-01-19T13:37:00Z'
+type: item
+id: Q102416
+labels:
+  en:
+    language: en
+    value: Cenozoic
+aliases:
+  en:
+  - language: en
+    value: Cenozoic era
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 57fa8814566f0ec3cdd7ca23ea361ebf35d5dad5
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 630830
+          id: Q630830
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q102416$5e4349f7-41ed-aca0-0a86-6da223bdf2ab
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 38500bedc1d9480d3a3f6824e0963c7409394a87
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2464485
+          id: Q2464485
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q102416$b9863db6-4cee-fd5e-d03a-36f134706930
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 30425c450d0aebbd0d9dbdd44377c3b3ce0a05d7
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 101313
+          id: Q101313
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q102416$c0d3000e-4b2a-86ca-9696-3d361d69c3dc
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P155:
+  - mainsnak:
+      snaktype: value
+      property: P155
+      hash: 7c59dded006783cb22f6ad274e89ae9fb17b495b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 83222
+          id: Q83222
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q102416$5690172E-CC7B-4CC2-A5E6-053AEB28E3AC
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 175f6c45e0606aabfd601ad83ab55d5763604045
+      datavalue:
+        value: Cenozoic
+        type: string
+      datatype: string
+    type: statement
+    id: q102416$47769999-E5B8-4AEB-818C-DB5C5B466D2A
+    rank: normal
+  P508:
+  - mainsnak:
+      snaktype: value
+      property: P508
+      hash: bc9ebf74a4256a0d2f96f02e5cd66c71ca8d40fa
+      datavalue:
+        value: '32659'
+        type: string
+      datatype: external-id
+    type: statement
+    id: q102416$D60CD3B0-EFCD-43E9-B907-9A5BBCBD5D8D
+    rank: normal
+    references:
+    - hash: b7232a03e568ea326dacdccb6322adb7894300d5
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 1d66ba6e1b3396f65d9e70e5331cca2044f83e33
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 460907
+              id: Q460907
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 8da2a6413b457648b247ade46b37b691bb9ca6cf
+      datavalue:
+        value: Mesohippus.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: q102416$15395725-24FC-4CDF-B8AC-184793C8548B
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 2e5c902778c545d0144dc4c9efe93b9b4c633127
+      datavalue:
+        value: Tylacosmilus DB.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: q102416$6909F925-BA05-4442-9591-F047EC4B83AD
+    rank: normal
+  P580:
+  - mainsnak:
+      snaktype: value
+      property: P580
+      hash: 86b82ef71707d77bf46a9c9cd9ffccb79b2748de
+      datavalue:
+        value:
+          time: "-66000000-01-01T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 3
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    qualifiers:
+      P31:
+      - snaktype: value
+        property: P31
+        hash: d5ac6d02e7a8948b72184d9e39cf10acbc5e61ed
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 26961029
+            id: Q26961029
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P31
+    id: q102416$3809b0a2-411c-5431-c59e-8d6d64b654df
+    rank: normal
+  P349:
+  - mainsnak:
+      snaktype: value
+      property: P349
+      hash: 55ab7759ab9bd31f7d769cc18cdba70763089f8d
+      datavalue:
+        value: '00571137'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q102416$00D812FD-11F9-4F56-B628-98AE1504C649
+    rank: normal
+  P910:
+  - mainsnak:
+      snaktype: value
+      property: P910
+      hash: 64120410731e83a7e6e28a1e1809a422f7950f98
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 7144527
+          id: Q7144527
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q102416$61CF54C3-70CF-494F-B7DA-0687267F85FA
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: fb90c06ca259edeab263816945e377a102141c1a
+      datavalue:
+        value: "/m/01rk5"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q102416$A02BA23C-912B-4B5E-8C2B-F1159DC281EC
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P227:
+  - mainsnak:
+      snaktype: value
+      property: P227
+      hash: 1923a9470a6d8dd9933799a74aa3609ee9fb09b5
+      datavalue:
+        value: 4075273-2
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q102416$5AF06DE9-E621-4CAD-AF2A-60F9B7594062
+    rank: normal
+    references:
+    - hash: 9a24f7c0208b05d6be97077d855671d1dfdbc0dd
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: d38375ffe6fe142663ff55cd783aa4df4301d83d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 48183
+              id: Q48183
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P1014:
+  - mainsnak:
+      snaktype: value
+      property: P1014
+      hash: 24ba7a49079419978dc84257ca82318d7746ecde
+      datavalue:
+        value: '300391256'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q102416$41183D45-8247-4200-ABA3-8987ED5AFF51
+    rank: normal
+  P1296:
+  - mainsnak:
+      snaktype: value
+      property: P1296
+      hash: '0923f3e6154ebd2baffd86c5d33c159878c64fdd'
+      datavalue:
+        value: '0016861'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q102416$14FE2C0F-B7AC-4186-BFF2-366690730A62
+    rank: normal
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 62c309f8296338bd9647a7e758857137f3370310
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2657718
+          id: Q2657718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P478:
+      - snaktype: value
+        property: P478
+        hash: ab49dc08d24a45b6e4ca6b5613d63a1756aa3d7f
+        datavalue:
+          value: '5'
+          type: string
+        datatype: string
+      P304:
+      - snaktype: value
+        property: P304
+        hash: c7f28d84d191575f6a968241974588eb23536380
+        datavalue:
+          value: '223'
+          type: string
+        datatype: string
+    qualifiers-order:
+    - P478
+    - P304
+    id: Q102416$04BF8DD8-7B3A-4B21-BFF9-8888F4ED6760
+    rank: normal
+    references:
+    - hash: 8bc722e6797143f2ba971ee5fedaeb0a331268e6
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 4b9ead388e47f64ea2ecb2b82c5d4f516003a8d5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 1975217
+              id: Q1975217
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P527:
+  - mainsnak:
+      snaktype: value
+      property: P527
+      hash: 1916f880e497b2578907c1e6b273abcc4fbd5357
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 55810
+          id: Q55810
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q102416$02a511e0-421f-7a8b-d48f-cea40994d9bc
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P527
+      hash: 4211d706f8a33bb8179121ed5ccfc2e408c82aa7
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 103924
+          id: Q103924
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q102416$85905ae7-4c8a-47d1-d9e1-02097b086499
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P527
+      hash: 4452c2bb0fcfe3a34c34b0446b5e57b48104a7d9
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 26185
+          id: Q26185
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q102416$134e2403-4251-9f71-2165-d5ac724a2f81
+    rank: normal
+  P1807:
+  - mainsnak:
+      snaktype: value
+      property: P1807
+      hash: 99ef387d7ec42801ec8bbd30172db6e843c8191f
+      datavalue:
+        value: '3536'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q102416$81FA0D5E-6A9C-4ACA-B7AC-FA6BFCE6CEDE
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 73f20da80933b8e67cf895d145929ef1dcc5dd20
+      datavalue:
+        value: Cenozoic
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q102416$4F31F4E1-D762-477F-B169-93C7CC86A33D
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P3827:
+  - mainsnak:
+      snaktype: value
+      property: P3827
+      hash: 946543e93814c670ee377cecb03009229489fa33
+      datavalue:
+        value: cenozoic-era
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q102416$5B763207-3DAC-4F8A-8393-6B1CDE3A09D7
+    rank: normal
+  P2924:
+  - mainsnak:
+      snaktype: value
+      property: P2924
+      hash: 13070d78a32a38f7c2fcf4eec3f73a62c728c6d6
+      datavalue:
+        value: '2034126'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q102416$08db05ce-4653-7979-fb39-5f0cae2f5d96
+    rank: normal
+  P1417:
+  - mainsnak:
+      snaktype: value
+      property: P1417
+      hash: f3b9453b8b42ffa78f3bca6d8491871c8572c51b
+      datavalue:
+        value: science/Cenozoic-Era
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q102416$D838A9C0-49B9-4C6B-B8B9-9C3214F793ED
+    rank: normal
+  P2581:
+  - mainsnak:
+      snaktype: value
+      property: P2581
+      hash: 2a21534114d79dd9a730731da6d7667d6c5776fa
+      datavalue:
+        value: '00001948n'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q102416$78206F42-A182-44C4-A788-2C023DDD24BD
+    rank: normal
+    references:
+    - hash: bd0ee81488cd8c23d4b655e417aac78dca370283
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: a0b4f55dbedbadaf83e7d2461b47b7aeaba86359
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 4837690
+              id: Q4837690
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P4746:
+  - mainsnak:
+      snaktype: value
+      property: P4746
+      hash: 3ea772cdeaf0c0d0385e2ac82f3d70242e524432
+      datavalue:
+        value: '008301'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q102416$21A134C4-A543-4718-A7DF-2EF4FE764909
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Kainosoïkum
+    badges: []
+  alswiki:
+    site: alswiki
+    title: Känozoikum
+    badges: []
+  arwiki:
+    site: arwiki
+    title: حقبة معاصرة
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Cenozoicu
+    badges: []
+  bawiki:
+    site: bawiki
+    title: Кайнозой
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Кайназой
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Кайназой
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Неозой
+    badges: []
+  brwiki:
+    site: brwiki
+    title: Kenozoeg
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Kenozoik
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Cenozoic
+    badges: []
+  cawikibooks:
+    site: cawikibooks
+    title: Cenozoic
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Kenozoikum
+    badges: []
+  cywiki:
+    site: cywiki
+    title: Cainosöig
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Kænozoikum
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Känozoikum
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Καινοζωικός αιώνας
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Cenozoic
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Kenozoiko
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Era Cenozoica
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Kainosoikum
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Zenozoiko
+    badges: []
+  fawiki:
+    site: fawiki
+    title: نوزیستی
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Kenotsooinen maailmankausi
+    badges: []
+  frrwiki:
+    site: frrwiki
+    title: Kenozoikum
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Cénozoïque
+    badges: []
+  gawiki:
+    site: gawiki
+    title: Ré Chaenasóch
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Era cenozoica
+    badges: []
+  hewiki:
+    site: hewiki
+    title: קנוזואיקון
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: नूतनजीव महाकल्प
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Kenozoik
+    badges: []
+  htwiki:
+    site: htwiki
+    title: Epò senozoyik
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Kainozoikum
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Կայնոզոյի դարաշրջան
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Senozoikum
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Nýlífsöld
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Cenozoico
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 新生代
+    badges: []
+  kawiki:
+    site: kawiki
+    title: კაინოზოური ჯგუფი
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Кайнозой
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 신생대
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Kaenozoicum
+    badges: []
+  lbwiki:
+    site: lbwiki
+    title: Äerdneizäit
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Kainozojus
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Kainozojs
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Senozoik
+    badges: []
+  ndswiki:
+    site: ndswiki
+    title: Känozoikum
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Cenozoïcum
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Kenozoikum
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Kenozoikum
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Cenozoïc
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Kenozoik
+    badges: []
+  pmswiki:
+    site: pmswiki
+    title: Cenosòich
+    badges: []
+  pnbwiki:
+    site: pnbwiki
+    title: سینوزویک
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Cenozoico
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Neozoic
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Кайнозой
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Cenozoic
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Kenozoik
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Cainozoic
+    badges: []
+  siwiki:
+    site: siwiki
+    title: සීනොසොයික්
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Kenozoikum
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Kenozoik
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Кенозоик
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Kenozoikum
+    badges: []
+  thwiki:
+    site: thwiki
+    title: มหายุคซีโนโซอิก
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Cenozoic
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Senozoik
+    badges: []
+  ttwiki:
+    site: ttwiki
+    title: Кайнозой
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Кайнозойська ера
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Đại Tân sinh
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Sin-seng-tāi
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 新生代
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 新生代
+    badges: []

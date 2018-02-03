@@ -1,0 +1,129 @@
+---
+pageid: 2431381
+ns: 0
+title: Q2519099
+lastrevid: 491638152
+modified: '2017-05-28T20:47:07Z'
+type: item
+id: Q2519099
+labels:
+  en:
+    language: en
+    value: Liechtenstein krone
+aliases: {}
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 68f227556e058a3482e782fc4413feb1f741cb93
+      datavalue:
+        value: Coins of Liechtenstein, Krone (1892-1918)
+        type: string
+      datatype: string
+    type: statement
+    id: q2519099$619D66D8-824F-41C6-9038-81336F047354
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 38635d6bd71bc1320aae654d27e79f24dce029e2
+      datavalue:
+        value: "/m/0b7xpr"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2519099$5293D6C0-4990-4998-81CF-796308AE8379
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2519099$6B46EC45-C3EF-4CC8-9894-0BD3F85D6FC6
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Liechtenstein krone
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Corona liechtensteiniana
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Corona del Liechtenstein
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Krone Liechtenstein
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Лихтенштейнская крона
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Ліхтенштейнська крона
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 列支敦士登克朗
+    badges: []

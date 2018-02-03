@@ -1,0 +1,591 @@
+---
+pageid: 110071
+ns: 0
+title: Q107428
+lastrevid: 621690612
+modified: '2018-01-19T13:37:07Z'
+type: item
+id: Q107428
+labels:
+  en:
+    language: en
+    value: kilo
+aliases:
+  en:
+  - language: en
+    value: k
+  - language: en
+    value: kilo-
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: b2c09aff06d6a44f3bf82f6c9cc86dc28c629779
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 131299
+          id: Q131299
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q107428$9620C8D9-C25F-41C1-A3B0-65555A354A05
+    rank: normal
+    references:
+    - hash: '011612885ba1d8d75d459891bee210fd0d8c3035'
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: c2213e83c554bae5121243bc2ace76aeffa9ce42
+          datavalue:
+            value: '19'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: cef4c7c76f433be2c042113a43ecdc990b112ef2
+          datavalue:
+            value: 6.5.4
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 9d179842d546286d2eb15c2bb2c0aed9713321e2
+      datavalue:
+        value: k
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: q107428$a802c269-49f8-b477-fcd6-3b02ae0c0815
+    rank: normal
+    references:
+    - hash: '011612885ba1d8d75d459891bee210fd0d8c3035'
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: c2213e83c554bae5121243bc2ace76aeffa9ce42
+          datavalue:
+            value: '19'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: cef4c7c76f433be2c042113a43ecdc990b112ef2
+          datavalue:
+            value: 6.5.4
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: bab097ff4e7e59501db7d956ff90b5a4e8a4ed9f
+      datavalue:
+        value: к
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P407:
+      - snaktype: value
+        property: P407
+        hash: d291ddb7cd77c94a7bd709a8395934147e0864fc
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 7737
+            id: Q7737
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P407
+    id: Q107428$a9771c9d-4a9f-995c-5053-32e6af466fc5
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 3c55726cd7930b78c50d1bb3978c19b4fb8f746e
+      datavalue:
+        value: "/m/04973"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q107428$040B4138-909C-43D5-8F18-363D3EBCF6C4
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P1181:
+  - mainsnak:
+      snaktype: value
+      property: P1181
+      hash: 137949e63b14bbd301302045e34beafd7dad32c4
+      datavalue:
+        value:
+          amount: "+1000"
+          unit: '1'
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q107428$0f14bddb-4a56-dfbb-2d06-a2071f85a552
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 4f55ce6cc68f1d43785eb6c66c6a134ffbdcc3b5
+      datavalue:
+        value: kilo
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q107428$163DEE2E-4C2D-45E5-883D-E043D634A207
+    rank: normal
+  P155:
+  - mainsnak:
+      snaktype: value
+      property: P155
+      hash: 1501b8227b79dbc995ad94ec6856fe62a6fe37db
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 152512
+          id: Q152512
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q107428$f47cafb3-49dc-7ba8-fa92-a7123d7ba90e
+    rank: normal
+    references:
+    - hash: '011612885ba1d8d75d459891bee210fd0d8c3035'
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: c2213e83c554bae5121243bc2ace76aeffa9ce42
+          datavalue:
+            value: '19'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: cef4c7c76f433be2c042113a43ecdc990b112ef2
+          datavalue:
+            value: 6.5.4
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P156:
+  - mainsnak:
+      snaktype: value
+      property: P156
+      hash: 58ab3fc5919b7dc8408b3cdeff55189ca1af3e72
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 107205
+          id: Q107205
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q107428$a449716b-4606-bbbf-af46-c668c493e0d6
+    rank: normal
+    references:
+    - hash: '011612885ba1d8d75d459891bee210fd0d8c3035'
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: c2213e83c554bae5121243bc2ace76aeffa9ce42
+          datavalue:
+            value: '19'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: cef4c7c76f433be2c042113a43ecdc990b112ef2
+          datavalue:
+            value: 6.5.4
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P2534:
+  - mainsnak:
+      snaktype: value
+      property: P2534
+      hash: 7b5df76f1b0408e521a0dde0d95b5d39c7e3d2ed
+      datavalue:
+        value: 10^{3}
+        type: string
+      datatype: math
+    type: statement
+    id: Q107428$a04ad46c-4a23-ff1c-2f35-0481e3dbf367
+    rank: normal
+    references:
+    - hash: '011612885ba1d8d75d459891bee210fd0d8c3035'
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: c2213e83c554bae5121243bc2ace76aeffa9ce42
+          datavalue:
+            value: '19'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: cef4c7c76f433be2c042113a43ecdc990b112ef2
+          datavalue:
+            value: 6.5.4
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P4746:
+  - mainsnak:
+      snaktype: value
+      property: P4746
+      hash: 0223e14e04c4f4adcd114daba673b791fb8cd9ba
+      datavalue:
+        value: '058107'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q107428$90E25790-518E-4299-804C-B70D74F6427C
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Kilo
+    badges: []
+  arwiki:
+    site: arwiki
+    title: كيلو (سابقة)
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Kilo
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Кило-
+    badges: []
+  brwiki:
+    site: brwiki
+    title: Kilo
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Kilo-
+    badges: []
+  ckbwiki:
+    site: ckbwiki
+    title: کیلۆ-
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Kilo
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Kilo-
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Kilo (Präfix)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Kilo-
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Kilo (prefijo)
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Kilo-
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Kilo
+    badges: []
+  fawiki:
+    site: fawiki
+    title: کیلو
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Kilo
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Kilo
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Quilo-
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: सहस्र-
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Կիլո
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Kilo-
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Chilo (prefisso)
+    badges: []
+  jawiki:
+    site: jawiki
+    title: キロ
+    badges: []
+  kawiki:
+    site: kawiki
+    title: კილო...
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Кило-
+    badges: []
+  kmwiki:
+    site: kmwiki
+    title: គីឡូ
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 킬로
+    badges: []
+  kshwiki:
+    site: kshwiki
+    title: Kilo
+    badges: []
+  kuwiki:
+    site: kuwiki
+    title: Kîlo
+    badges: []
+  kywiki:
+    site: kywiki
+    title: Кило...
+    badges: []
+  lnwiki:
+    site: lnwiki
+    title: Kilo
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Kilo-
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: കിലോ-
+    badges: []
+  ndswiki:
+    site: ndswiki
+    title: Kilo
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Kilo (SI-prefix)
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Kilo
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Kilo
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Kilo
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Quilo
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Кило-
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Chilu (prifissu)
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Kilo-
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Kilo
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Kilo
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Кило
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Kilo
+    badges: []
+  tewiki:
+    site: tewiki
+    title: కిలో-
+    badges: []
+  thwiki:
+    site: thwiki
+    title: กิโล
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Kilo-
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Кіло-
+    badges: []
+  urwiki:
+    site: urwiki
+    title: کلو
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Kilô
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 千 (前綴)
+    badges: []

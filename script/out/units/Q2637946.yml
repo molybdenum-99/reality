@@ -1,0 +1,203 @@
+---
+pageid: 2543235
+ns: 0
+title: Q2637946
+lastrevid: 564656082
+modified: '2017-09-24T01:12:01Z'
+type: item
+id: Q2637946
+labels:
+  en:
+    language: en
+    value: decalitre
+aliases:
+  en:
+  - language: en
+    value: dal
+  - language: en
+    value: decaliter
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6e3da81891b6fba54d9ac8088595a4b05e5a5f95
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1302471
+          id: Q1302471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2637946$a040973a-4f1e-b6ae-f622-f3013999750f
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: c72b63d91cc04e336fa5564fe95becd47f90e934
+      datavalue:
+        value: dal
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q2637946$d177bfe7-45b7-f5e8-d77d-5dbfceb82767
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 1e796caffd9769e768afb694db4f4a0f2225f22b
+      datavalue:
+        value: дал
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q2637946$32367703-4031-91ea-af66-69f888d10cf5
+    rank: normal
+  P2234:
+  - mainsnak:
+      snaktype: value
+      property: P2234
+      hash: fc8ca441adebd7ba18a1192c1525360dc572d942
+      datavalue:
+        value:
+          amount: "+10"
+          unit: http://www.wikidata.org/entity/Q11582
+          upperBound: "+10"
+          lowerBound: "+10"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q2637946$a31de3c9-4d13-b94b-b003-323b71b782f9
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2234
+      hash: 2b7d8858eac94f0c42f8be02c934d1d932454c06
+      datavalue:
+        value:
+          amount: "+0.1"
+          unit: http://www.wikidata.org/entity/Q2029519
+          upperBound: "+0.1"
+          lowerBound: "+0.1"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q2637946$62148f3a-4005-b10e-fbb1-dcba487c0be4
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2234
+      hash: b80f810142c86a47108880e95e2726b75e5506f9
+      datavalue:
+        value:
+          amount: "+0.01"
+          unit: http://www.wikidata.org/entity/Q25517
+          upperBound: "+0.01"
+          lowerBound: "+0.01"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q2637946$be674ef7-487b-79e4-774c-d2c47586de72
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2234
+      hash: 5aa02b1faa4c15811d9bfe557226f3816a058b86
+      datavalue:
+        value:
+          amount: "+10"
+          unit: http://www.wikidata.org/entity/Q2175964
+          upperBound: "+10"
+          lowerBound: "+10"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q2637946$744b0389-4130-3b17-09d6-8f530581f70e
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 87537a955692b7460c113e369864b6e5b2411452
+      datavalue:
+        value: decalitre
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2637946$EBA63C4E-BF2A-4E65-898B-9112498BFE06
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Dekaliter
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Decalitro
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Dekalitro
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Decalitro
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Декалитр
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Dekaliter
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Decalitro
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Декалитр
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Декалітр
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 公斗
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 公斗
+    badges: []

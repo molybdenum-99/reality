@@ -1,0 +1,910 @@
+---
+pageid: 38516
+ns: 0
+title: Q35852
+lastrevid: 622523960
+modified: '2018-01-22T09:27:47Z'
+type: item
+id: Q35852
+labels:
+  en:
+    language: en
+    value: hectare
+aliases:
+  en:
+  - language: en
+    value: ha
+  - language: en
+    value: "㏊"
+  - language: en
+    value: square hectometre
+  - language: en
+    value: hm2
+  - language: en
+    value: square hectometer
+  - language: en
+    value: hm²
+  - language: en
+    value: hm^2
+  - language: en
+    value: hectares
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 0f49769a073adbf1aea6d3645a68f24ad29dbeb6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1371562
+          id: Q1371562
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q35852$C605284D-6CCD-4BF6-898A-73BC2D996B2E
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 4df8a8afb15b454d9eff3f23750afca4b114d168
+      datavalue:
+        value: ha
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: q35852$98e8423c-46e4-fce0-ddf2-b40e445666f4
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 56f32de7b1b358e31d8f8085d80de4028b00ffd8
+      datavalue:
+        value: га
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q35852$abb4d17a-4f84-56f5-5171-9d35761c5861
+    rank: normal
+  P487:
+  - mainsnak:
+      snaktype: value
+      property: P487
+      hash: 9fdb7f4b64104817da88f666e020dafecab73c40
+      datavalue:
+        value: "㏊"
+        type: string
+      datatype: string
+    type: statement
+    id: q35852$12a5a3c1-4fcb-1d6d-2737-ec8dba9bf4b2
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 1d86170f2039824df6f1782e1df47540d0a3e3a1
+      datavalue:
+        value: "/m/09ppg"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q35852$B41CA2C5-DE6C-4C7C-8594-C852E6B89347
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P1296:
+  - mainsnak:
+      snaktype: value
+      property: P1296
+      hash: 83421efa12083b4b87edf84e2397cdd9894809a4
+      datavalue:
+        value: '0113394'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q35852$9594B260-5200-49C0-8995-004839DF6A25
+    rank: normal
+    references:
+    - hash: b3fd5e254143d8b52cd96cff43af9af5e3a82358
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: f13c99a16441677ec69fcea23f221d866f1fc98f
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 199693
+              id: Q199693
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  - mainsnak:
+      snaktype: value
+      property: P1296
+      hash: 92754ebbe5385ec90444dab738d59b20f1426910
+      datavalue:
+        value: '0113618'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q35852$115F97BF-300C-42D3-B46D-4154CE2428AC
+    rank: normal
+  P1014:
+  - mainsnak:
+      snaktype: value
+      property: P1014
+      hash: 8c8953a90181c899e34285049406ff058ffa0148
+      datavalue:
+        value: '300379233'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q35852$5BC7B2E0-F792-4D9E-BD2A-B2AF0F4E09CA
+    rank: normal
+  P935:
+  - mainsnak:
+      snaktype: value
+      property: P935
+      hash: 44be5fd53abf36957dc01531fade162598bb1edd
+      datavalue:
+        value: Hectare
+        type: string
+      datatype: string
+    type: statement
+    id: Q35852$85BBE9B5-CD41-4D86-9BC3-6843C404DBBB
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: d696b6fbaf88f5d7d6a968836ea7154ecb9aea7a
+      datavalue:
+        value:
+          amount: "+10000"
+          unit: http://www.wikidata.org/entity/Q25343
+          upperBound: "+10000"
+          lowerBound: "+10000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q35852$77561c1f-4670-8556-059e-ce0d5aac28b5
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 69319e63ce4e23095350202a7231c4b7848b1d46
+      datavalue:
+        value: Hectare
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q35852$64FA974F-F740-4322-8479-96F08B485468
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: abecd6554a6fb77e1f341bfae1dbcaaefa6f20c0
+      datavalue:
+        value: hectare
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q35852$328AF07B-350F-42C8-9AEE-2CEFB41D6E7B
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 1f960306c33f912a08f8c09ed158a7f86f2e9e83
+      datavalue:
+        value: square_hectometre
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q35852$F52BFD97-AD06-4949-91DA-CA308BEFBD33
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: aebce59b01c9059d8e8304153d2cee07b40af918
+      datavalue:
+        value: 100m100m.svg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    qualifiers:
+      P2096:
+      - snaktype: value
+        property: P2096
+        hash: 2d8f9634fc929cb55abe9a00c5094877ba542515
+        datavalue:
+          value:
+            text: Representació gràfica de la superfície d'una hectàrea
+            language: ca
+          type: monolingualtext
+        datatype: monolingualtext
+    qualifiers-order:
+    - P2096
+    id: Q35852$1a9ab6bd-4b2f-0af2-9ad4-b3d339e92521
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: e12439f34cec95ee050daf4e503b6952b0e935f4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11500
+          id: Q11500
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q35852$08a836a0-4463-a894-bd24-02b3a1acb8c3
+    rank: normal
+  P2888:
+  - mainsnak:
+      snaktype: value
+      property: P2888
+      hash: 91280c89f89741210f622f01d7d075243278dcd8
+      datavalue:
+        value: http://qudt.org/vocab/unit/HA
+        type: string
+      datatype: url
+    type: statement
+    id: Q35852$1de801ab-4110-2178-294e-7b7b6cddd211
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2888
+      hash: 9fc9e5f23f75fe5c4559433dbb25d8b2e2c8937a
+      datavalue:
+        value: http://dbpedia.org/resource/Hectare
+        type: string
+      datatype: url
+    type: statement
+    id: Q35852$15a2d27e-48ff-88b6-a943-71db0273386d
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 55376b8da51d4637b0af6a20188f95dae301bd3c
+      datavalue:
+        value:
+          amount: "+10000"
+          unit: http://www.wikidata.org/entity/Q25343
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q35852$ad84f419-4635-d15c-dab2-51f28201a5d1
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: c65025b64c91def4f131272d664e2d9cb923710b
+      datavalue:
+        value:
+          amount: "+2.471054"
+          unit: http://www.wikidata.org/entity/Q81292
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q35852$7f2710f8-44d4-e0c9-9cd1-0997c28a4306
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 9b6cabaf6ecb4b33a713d43896d19e30461a4a26
+      datavalue:
+        value:
+          amount: "+107639.1"
+          unit: http://www.wikidata.org/entity/Q857027
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q35852$daf00555-4e23-1c44-2721-f58fcca921d1
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: bc619e7350d15e0ae7c7447ed96e31c8b2027b62
+      datavalue:
+        value:
+          amount: "+0.01"
+          unit: http://www.wikidata.org/entity/Q712226
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q35852$91907faa-4f7a-cf17-3203-8b7ed058c3f0
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 0fa7c5a314ef64b961c60d2fafc4430b026cf88d
+      datavalue:
+        value:
+          amount: "+0.003861022"
+          unit: http://www.wikidata.org/entity/Q232291
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q35852$75067dff-4776-8174-b286-d0067619e5ac
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 5089142a7a26f667c4e880e1352e4bfa587d814b
+      datavalue:
+        value:
+          amount: "+100000000"
+          unit: http://www.wikidata.org/entity/Q2489298
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q35852$cbbc2be3-444f-664a-e52d-aadcb268396d
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: dc6beb4e7c94125ea5ec857bac58e4ce3c131d53
+      datavalue:
+        value:
+          amount: "+10000000000"
+          unit: http://www.wikidata.org/entity/Q2737347
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q35852$1082a697-4f95-1a13-851a-f87e9218381b
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: c5310d9b99b348bf8c9f261ce57a63dc3c0ea5d6
+      datavalue:
+        value:
+          amount: "+11959.90"
+          unit: http://www.wikidata.org/entity/Q1550511
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q35852$b58cd1ae-49c7-521f-b095-87d74a13813d
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: bca0ab9ab71eda6b2b2d3173505fd657061d3382
+      datavalue:
+        value:
+          amount: "+15500031"
+          unit: http://www.wikidata.org/entity/Q1063786
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q35852$c9cb0dc3-49b7-624d-3cb4-f77ebcc709bd
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 9634122ca1c49692801ed57660a3e099ec4b57c8
+      datavalue:
+        value:
+          amount: "+15500310000000000000"
+          unit: http://www.wikidata.org/entity/Q39462789
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q35852$0196f665-4cac-2c6a-896a-0859ac5c5df3
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: fc56e8acdd5d5d8f0086a8f042481e8253b2885d
+      datavalue:
+        value:
+          amount: "+10000000000000000"
+          unit: http://www.wikidata.org/entity/Q39462246
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q35852$f71d3087-4cc8-7dd3-2bf5-a090d6c7413d
+    rank: normal
+  P1417:
+  - mainsnak:
+      snaktype: value
+      property: P1417
+      hash: bbcedc527aef1ee49749f15df0d3b4e323ac32ab
+      datavalue:
+        value: science/hectare
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q35852$6310B33D-2BB5-442F-A692-48FB9B49AF25
+    rank: normal
+  P4746:
+  - mainsnak:
+      snaktype: value
+      property: P4746
+      hash: a371d7527ce03ab6cf4babe6e3e0617022b9b198
+      datavalue:
+        value: '138597'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q35852$9BD1D73F-D64E-4A49-9520-341F93688F82
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Hektaar
+    badges: []
+  alswiki:
+    site: alswiki
+    title: Hektar
+    badges: []
+  amwiki:
+    site: amwiki
+    title: ሄክታር
+    badges: []
+  anwiki:
+    site: anwiki
+    title: Hectaria
+    badges: []
+  arwiki:
+    site: arwiki
+    title: هكتار
+    badges: []
+  arzwiki:
+    site: arzwiki
+    title: هكتار
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Hectárea
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Hektar
+    badges: []
+  barwiki:
+    site: barwiki
+    title: Hektar
+    badges: []
+  bat_smgwiki:
+    site: bat_smgwiki
+    title: Hektars
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Гектар
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Гектар
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Хектар
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: হেক্টর
+    badges: []
+  bowiki:
+    site: bowiki
+    title: ཧེག་ཐ།
+    badges: []
+  brwiki:
+    site: brwiki
+    title: Hektar
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Hektar
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Hectàrea
+    badges: []
+  commonswiki:
+    site: commonswiki
+    title: Hectare
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Hektar
+    badges: []
+  cywiki:
+    site: cywiki
+    title: Hectr
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Hektar
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Hektar
+    badges: []
+  dsbwiki:
+    site: dsbwiki
+    title: Hektar
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Εκτάριο
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Hectare
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Hektaro
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Hectárea
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Hektar
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Hektarea
+    badges: []
+  fawiki:
+    site: fawiki
+    title: هکتار
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Hehtaari
+    badges: []
+  fowiki:
+    site: fowiki
+    title: Hektari
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Hectare
+    badges: []
+  furwiki:
+    site: furwiki
+    title: Etar
+    badges: []
+  fywiki:
+    site: fywiki
+    title: Hektare
+    badges: []
+  gawiki:
+    site: gawiki
+    title: Heicteár
+    badges: []
+  gdwiki:
+    site: gdwiki
+    title: Heactair
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Hectárea
+    badges: []
+  guwiki:
+    site: guwiki
+    title: હેક્ટર
+    badges: []
+  hakwiki:
+    site: hakwiki
+    title: Kûng-khín
+    badges: []
+  hewiki:
+    site: hewiki
+    title: הקטאר
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: हेक्टर (क्षेत्रफल)
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Hektar
+    badges: []
+  hsbwiki:
+    site: hsbwiki
+    title: Hektar
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Hektár
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Հեկտար
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Hektare
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Hektari
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Ettaro
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ヘクタール
+    badges: []
+  kawiki:
+    site: kawiki
+    title: ჰექტარი
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Гектар
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 헥타르
+    badges: []
+  kywiki:
+    site: kywiki
+    title: Гектар
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Hectarium
+    badges: []
+  liwiki:
+    site: liwiki
+    title: Hektaar
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Hektaras
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Hektārs
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Хектар
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: ഹെക്ടേർ
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: हेक्टर
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Hektar
+    badges: []
+  nds_nlwiki:
+    site: nds_nlwiki
+    title: Bunder
+    badges: []
+  ndswiki:
+    site: ndswiki
+    title: Hektar
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Hectare
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Hektar
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Hektar
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Ectara
+    badges: []
+  oswiki:
+    site: oswiki
+    title: Гектар
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Hektar
+    badges: []
+  pnbwiki:
+    site: pnbwiki
+    title: ہیکٹر
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Hectare
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Hectar
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Гектар
+    badges: []
+  sahwiki:
+    site: sahwiki
+    title: Гектаар
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Hektar
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Hectare
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Hektár
+    badges: []
+  skwikiquote:
+    site: skwikiquote
+    title: Hektár
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Hektar
+    badges: []
+  sowiki:
+    site: sowiki
+    title: Hektar
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Хектар
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Hektar
+    badges: []
+  swwiki:
+    site: swwiki
+    title: Hektari
+    badges: []
+  tawiki:
+    site: tawiki
+    title: எக்டேர்
+    badges: []
+  tewiki:
+    site: tewiki
+    title: హెక్టారు
+    badges: []
+  thwiki:
+    site: thwiki
+    title: เฮกตาร์
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Ektarya
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Hektar
+    badges: []
+  tyvwiki:
+    site: tyvwiki
+    title: Га
+    badges: []
+  ugwiki:
+    site: ugwiki
+    title: گېكتار
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Гектар
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Gektar
+    badges: []
+  vecwiki:
+    site: vecwiki
+    title: Ètaro
+    badges: []
+  vepwiki:
+    site: vepwiki
+    title: Gektar
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Hecta
+    badges: []
+  vlswiki:
+    site: vlswiki
+    title: Hectoare
+    badges: []
+  warwiki:
+    site: warwiki
+    title: Hektarya
+    badges: []
+  zeawiki:
+    site: zeawiki
+    title: Hectare
+    badges: []
+  zh_classicalwiki:
+    site: zh_classicalwiki
+    title: 公頃
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 公頃
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 公顷
+    badges: []

@@ -1,0 +1,183 @@
+---
+pageid: 592915
+ns: 0
+title: Q630369
+lastrevid: 542477220
+modified: '2017-08-20T21:41:52Z'
+type: item
+id: Q630369
+labels:
+  en:
+    language: en
+    value: volt-ampere reactive
+aliases:
+  en:
+  - language: en
+    value: var
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: db8aaa90612d2d08b71b14b5f84435d0b5d11197
+      datavalue:
+        value: var
+        type: string
+      datatype: string
+    type: statement
+    id: Q630369$560d579e-4f8d-0fcf-b196-593ac65371df
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 1913a66a91d185695df6d0093862c344160a2b45
+      datavalue:
+        value: "/m/0bhw2"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q630369$E3AF4833-9BF2-43C5-96DF-22AE8C28595A
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 70fde2dc1e4d720b29d8cf3aa53d815b64b8fe17
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2144613
+          id: Q2144613
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q630369$a9147775-464a-6b28-dac4-cc8fa39d0ae1
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 116ccff192c7c9c7ac8717e13172125bb454be6b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10387689
+          id: Q10387689
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q630369$275ca42f-4816-3921-8b78-a36bffcea39c
+    rank: normal
+sitelinks:
+  bgwiki:
+    site: bgwiki
+    title: Волт-ампер реактивен
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Voltampér reaktanční
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Var (Einheit)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Volt-ampere reactive
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Var (mezurunuo)
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Voltiamperio reactivo
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Varr
+    badges: []
+  fawiki:
+    site: fawiki
+    title: ولت‌آمپر راکتیو
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Vari (mittayksikkö)
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Voltampère réactif
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: प्रतिघाती वोल्ट-ऐम्पियर
+    badges: []
+  huwiki:
+    site: huwiki
+    title: VAr (mértékegység)
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Voltampere reattivo
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Volt-ampere reaktiv
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Volt-ampère reaktiv
+    badges: []
+  plwiki:
+    site: plwiki
+    title: War (elektryczność)
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Volt-ampere reativo
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Volt-amper reactiv
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Voltampere reaktiv
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Var
+    badges: []

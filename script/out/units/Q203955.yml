@@ -1,0 +1,319 @@
+---
+pageid: 200382
+ns: 0
+title: Q203955
+lastrevid: 617888220
+modified: '2018-01-08T22:58:16Z'
+type: item
+id: Q203955
+labels:
+  en:
+    language: en
+    value: Haitian gourde
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q203955$875894A5-690A-4122-850B-A75FE1D41F30
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: bc5280b809b337c5dceae14476c93f10bd29b109
+      datavalue:
+        value: Money of Haiti
+        type: string
+      datatype: string
+    type: statement
+    id: q203955$05784457-7A8A-4956-83B8-3A96F1E16794
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: ee40412d9e3952b2c89117777ba3880559eb94a8
+      datavalue:
+        value: HTG
+        type: string
+      datatype: external-id
+    type: statement
+    id: q203955$59521801-47f8-4f49-56ce-3020d7b6bb14
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 8af39cfc91e7f8dd7a823453678410c75015b2d8
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2883379
+          id: Q2883379
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q203955$EC7B04A3-A4CD-4448-A510-49F7E1B22322
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 382a7944207300f9b05243b8e88c71b0cbcae676
+      datavalue:
+        value: "/m/04xrp0"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q203955$6ACA751B-BB4A-4154-BA54-6937D9FFA1D0
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 9a301da4c51d6905de54be4f7781876dbe6048f7
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 790
+          id: Q790
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q203955$28cf25d6-4bb7-13a3-da08-da81ceabf8b7
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: c2fbed84b6d94e21fdda120cd76b379a115fecff
+      datavalue:
+        value: '500175'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q203955$4ABB9D16-7E1C-4B55-8CFB-0F3EED99DE3C
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: جوردة هايتية
+    badges: []
+  barwiki:
+    site: barwiki
+    title: Gourde
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: হাইতিয়ান গৌর্দে
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Gourde
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Haitský gourde
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Gourde
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Gourde
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Γκουρντ
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Haitian gourde
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Haitia gurdo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Gourde (moneda de Haití)
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Gourde
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Haitin gourde
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Gourde (monnaie)
+    badges: []
+  gawiki:
+    site: gawiki
+    title: Gourde
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: हैतियन गौरदे
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Haićanski gourd
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Haiti gourde
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Gourde haitiano
+    badges: []
+  jawiki:
+    site: jawiki
+    title: グールド (通貨)
+    badges: []
+  kawiki:
+    site: kawiki
+    title: გურდი
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 아이티 구르드
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Gurdas
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: हैती गॉर्दे
+    badges: []
+  mznwiki:
+    site: mznwiki
+    title: گورد
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Haïtiaanse gourde
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Haitisk gourde
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Haitisk gourde
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਹੈਤੀਆਈ ਗੂਰਦ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Gourde
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Gourde
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Гаитянский гурд
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Хаићански гурд
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Gourde
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Гуорди Ҳаити
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Gourde
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Гаїтянський гурд
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Gurd
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Gourde
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Haiti gourde
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 海地古德
+    badges: []

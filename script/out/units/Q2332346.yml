@@ -1,0 +1,267 @@
+---
+pageid: 2253183
+ns: 0
+title: Q2332346
+lastrevid: 623233028
+modified: '2018-01-25T09:55:20Z'
+type: item
+id: Q2332346
+labels:
+  en:
+    language: en
+    value: millilitre
+aliases:
+  en:
+  - language: en
+    value: ml
+  - language: en
+    value: milliliter
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6e3da81891b6fba54d9ac8088595a4b05e5a5f95
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1302471
+          id: Q1302471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2332346$e800b096-4e7e-7424-ddc5-a30babe51c2d
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: f99d57ce80677347c6bc68291e884884e22f71b2
+      datavalue:
+        value: ml
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q2332346$ece3f4b4-47a5-b0a6-c23a-498d483d246d
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 47c6e11b7d1eb72392b45ad79dcfba4184184595
+      datavalue:
+        value: мл
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q2332346$7424e812-4c3a-2f0a-2822-978db7a0d071
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 6bc29b5c2e6ebb5e14ba4e584323973bd9f2888f
+      datavalue:
+        value: מ"ל
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 5ab9edfe720165e8c92da8c7b47bbac87f665de5
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 33513
+            id: Q33513
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q2332346$61154b25-4151-180b-2bd0-0cd766670ae8
+    rank: normal
+  P2234:
+  - mainsnak:
+      snaktype: value
+      property: P2234
+      hash: a38b07d7fb2a8ca7c4f19084da98aa398eb8d686
+      datavalue:
+        value:
+          amount: "+0.1"
+          unit: http://www.wikidata.org/entity/Q1815100
+          upperBound: "+0.1"
+          lowerBound: "+0.1"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q2332346$6a22875c-49b4-7b37-cf8e-2c29134c5dee
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2234
+      hash: 6d1b3c16412ab057b6a130fff8874c838277971b
+      datavalue:
+        value:
+          amount: "+1000"
+          unit: http://www.wikidata.org/entity/Q2282891
+          upperBound: "+1000"
+          lowerBound: "+1000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q2332346$f03e4337-4771-3414-f3ec-e8d7a4f15c62
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2234
+      hash: 5cb058219c9cb4c9e45837c11627d36f81b5efed
+      datavalue:
+        value:
+          amount: "+0.001"
+          unit: http://www.wikidata.org/entity/Q2175964
+          upperBound: "+0.001"
+          lowerBound: "+0.001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q2332346$d1494737-486c-547c-a3ce-ca67c38f610c
+    rank: normal
+  P460:
+  - mainsnak:
+      snaktype: value
+      property: P460
+      hash: dad565792951a32045903f94c57d8d991fa71d58
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1022113
+          id: Q1022113
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2332346$e020be16-4c2f-e723-7b5f-63b1de2ca6a5
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 20557dbddff4226d25dbf64782f8da7e2f60608c
+      datavalue:
+        value:
+          amount: "+0.000001"
+          unit: http://www.wikidata.org/entity/Q25517
+          upperBound: "+0.000001"
+          lowerBound: "+0.000001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q2332346$76d98d4e-4ac9-f869-991c-c4e7e683d4fc
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: b02731504dbc6a660f1baa46422aeb8e66f12def
+      datavalue:
+        value: millilitre
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2332346$8212296E-43E6-41FA-9843-A572695E04C9
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: ece6f6e6968e83ab4ea375829a8c5694d93dff51
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 39297
+          id: Q39297
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2332346$B06B4706-7F5C-4EDB-BEB0-07E5FFF17380
+    rank: normal
+sitelinks:
+  astwiki:
+    site: astwiki
+    title: Milillitru
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Milliliter
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Mililitro
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Mililitro
+    badges: []
+  hakwiki:
+    site: hakwiki
+    title: Hò-sṳ̂n
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Millilitro
+    badges: []
+  kuwiki:
+    site: kuwiki
+    title: Milîlîtir
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Milliliter
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Milliliter
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Mililitro
+    badges: []
+  thwiki:
+    site: thwiki
+    title: มิลลิลิตร
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 毫升
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 毫升
+    badges: []

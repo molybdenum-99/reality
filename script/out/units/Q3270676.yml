@@ -1,0 +1,189 @@
+---
+pageid: 3120262
+ns: 0
+title: Q3270676
+lastrevid: 595634271
+modified: '2017-11-18T16:44:58Z'
+type: item
+id: Q3270676
+labels:
+  en:
+    language: en
+    value: zeptometre
+aliases:
+  en:
+  - language: en
+    value: zeptometer
+  - language: en
+    value: zm
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1c41b2ea8a3f6d3fab77c103d826ae5ead7a9c01
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1978718
+          id: Q1978718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3270676$698c028e-4a16-e3e5-e39b-b72bb834702c
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: cb709d3c03f1100c5579c1e796774a07b7261493
+      datavalue:
+        value: zm
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q3270676$74cc983c-45b3-861a-ceb9-fa20631bf11f
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 6358ddc26d4365f6a182de804aa0a1e46f108499
+      datavalue:
+        value: зм
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q3270676$d357db14-4d4b-0d0d-641d-f60d63209b71
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 4354e3cc033f2c5371e447e5ab1cca8b89ffa3e0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 36253
+          id: Q36253
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3270676$e9c585e4-4204-b3c6-6bf5-92bb4c0d63f4
+    rank: normal
+  P2043:
+  - mainsnak:
+      snaktype: value
+      property: P2043
+      hash: edc201ef53bfc560bac995d8db6ad3bed9c8d17b
+      datavalue:
+        value:
+          amount: "+0.001"
+          unit: http://www.wikidata.org/entity/Q6003257
+          upperBound: "+0.001"
+          lowerBound: "+0.001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q3270676$a4fe9de2-4d08-c26f-1f0e-61827a67dd15
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 7d222d4a885d7f3a3a4c0368b395753892665c40
+      datavalue:
+        value:
+          amount: "+0.000000000000000000001"
+          unit: http://www.wikidata.org/entity/Q11573
+          upperBound: "+0.000000000000000000001"
+          lowerBound: "+0.000000000000000000001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q3270676$dd079aff-4845-17c3-b1ca-3c282e15d2c5
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 56abafb7d9747c5ab4bc1bf26a1192129f892526
+      datavalue:
+        value: zeptometre
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3270676$8EFB4B12-0D37-4D14-A582-1A507392EAAC
+    rank: normal
+sitelinks:
+  astwiki:
+    site: astwiki
+    title: Zeptómetru
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Zeptometer
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Zeptómetro
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Zeptometro
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ゼプトメートル
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 젭토미터
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Zeptometer
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Zeptometer
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Zeptômetro
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Zeptometer
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Zeptometre
+    badges: []

@@ -1,0 +1,94 @@
+---
+pageid: 982961
+ns: 0
+title: Q1033697
+lastrevid: 606606728
+modified: '2017-12-10T08:07:41Z'
+type: item
+id: Q1033697
+labels:
+  en:
+    language: en
+    value: Kantar
+aliases:
+  en:
+  - language: en
+    value: Kantaro
+  - language: en
+    value: Kintaro
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 954edbd3fef27ce6396c0878a95c608ca4ed84af
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3647172
+          id: Q3647172
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1033697$A8F5B691-731A-4364-8B92-D0D65834FB9B
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 16653c4848e0552e9604edc668341bd5f95825a4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11423
+          id: Q11423
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1033697$2A52BBA4-2D5D-4780-B3F4-EB65DFF529B6
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: bb8e22f0a843d745c50554be28b0e5dc1067d004
+      datavalue:
+        value: Kantaro
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1033697$4E89EF62-F0CC-4CD1-A67A-80B12935C527
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Cantaro (Gewichtseinheit)
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Cantaro (unità di misura)
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Кантар
+    badges: []
+  ttwiki:
+    site: ttwiki
+    title: Кыйнтар
+    badges: []

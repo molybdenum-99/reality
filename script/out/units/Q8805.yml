@@ -1,0 +1,650 @@
+---
+pageid: 10132
+ns: 0
+title: Q8805
+lastrevid: 608648933
+modified: '2017-12-14T15:50:16Z'
+type: item
+id: Q8805
+labels:
+  en:
+    language: en
+    value: bit
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 2d6ead580ca479cd38b25f8d8c677f1c03ad7473
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3550873
+          id: Q3550873
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q8805$9fb7ce3c-4264-dca6-c9b6-67ee4a114297
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: 173bb1b6f305be07994ffa607cba922ce6024021
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3550873
+          id: Q3550873
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q8805$ec65642b-4b53-e864-b73f-6af6da70f9a3
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: bceaebfe5b1a116fc387ef551930b8fac2e3d860
+      datavalue:
+        value: bit
+        type: string
+      datatype: string
+    type: statement
+    id: Q8805$37e49934-491e-c72a-a340-24d79a821771
+    rank: normal
+    references:
+    - hash: 53458ce2aaeed3a291b36b6fb4c17289d0879e59
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: d22e054be5f81d9105177384c2c440fbe8d584c9
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 16000432
+              id: Q16000432
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 43f3bfd3ae59b97f0b08e09a2420baf9e3e357a3
+      datavalue:
+        value: b
+        type: string
+      datatype: string
+    type: statement
+    id: Q8805$0cd62736-4e98-ce7a-9fd9-4c70241aeb65
+    rank: normal
+    references:
+    - hash: 5c8a0d18cdd7f064592526b6c7a52b5fdbacdeae
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: dcf02062782fc11118a4c09a65c60dc618a8ada7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 3788482
+              id: Q3788482
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 5ae695b44e14345901a1c1db4a2b3c09e0a2cd78
+      datavalue:
+        value: "/m/0159t"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q8805$98A8BD48-33D9-424A-94B3-4412588100B7
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 6e9d31211fd688f1d2b5c8aa1d42ae447128e4a3
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 16203461
+          id: Q16203461
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q8805$be49433d-43dc-ff0d-4b66-d25f0ac2d3a0
+    rank: normal
+    references:
+    - hash: 53458ce2aaeed3a291b36b6fb4c17289d0879e59
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: d22e054be5f81d9105177384c2c440fbe8d584c9
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 16000432
+              id: Q16000432
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: b7db48e5c83dd03a49d44f465f7b048338e1ca75
+      datavalue:
+        value: Bit
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q8805$FE2AB55C-C7F3-4623-9D1A-E2C4AFF97D2E
+    rank: normal
+  P1417:
+  - mainsnak:
+      snaktype: value
+      property: P1417
+      hash: 2b9cb7e1e7008384cb54ade5e805d7b79259574d
+      datavalue:
+        value: technology/drill-bit
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q8805$F2C36D64-1207-48EE-9BEA-43689786288E
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 3b3e09e80bafd18365c385de243f9b22ffb16a35
+      datavalue:
+        value: Bit-5
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q8805$736E8F6B-D452-45BE-B8FF-3F4FBC1FDB46
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P3569:
+  - mainsnak:
+      snaktype: value
+      property: P3569
+      hash: 7629fc11af5f2350800e4151fa473293726118ad
+      datavalue:
+        value: techologie-en-techniek/bit
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q8805$058721E9-F2BE-4DCE-860F-C3519DB223C6
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 7cad6fad8ab1acc18d5f8fff70d86ec25fb9261d
+      datavalue:
+        value: bit
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q8805$127ED32D-0F55-4FA2-AB82-92D21C1C54CD
+    rank: normal
+  P2581:
+  - mainsnak:
+      snaktype: value
+      property: P2581
+      hash: 214b165b4afd8ea16e1546465c67bda32c762d34
+      datavalue:
+        value: 00010731n
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q8805$9328599C-2C7A-408C-B1B3-C7C6BCDC6431
+    rank: normal
+    references:
+    - hash: bd0ee81488cd8c23d4b655e417aac78dca370283
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: a0b4f55dbedbadaf83e7d2461b47b7aeaba86359
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 4837690
+              id: Q4837690
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  angwiki:
+    site: angwiki
+    title: Twāling
+    badges: []
+  anwiki:
+    site: anwiki
+    title: Bit
+    badges: []
+  arwiki:
+    site: arwiki
+    title: بت
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Bit
+    badges: []
+  azbwiki:
+    site: azbwiki
+    title: بیت
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Bit
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Біт
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Біт
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Бит (информатика)
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: বিট
+    badges: []
+  brwiki:
+    site: brwiki
+    title: Bit
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Bit
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Bit
+    badges: []
+  ckbwiki:
+    site: ckbwiki
+    title: بیت
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Bit
+    badges: []
+  cywiki:
+    site: cywiki
+    title: Bit
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Bit
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Bit
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Δυαδικό ψηφίο
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Bit
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Bito
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Bit
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Bitt
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Bit
+    badges: []
+  fawiki:
+    site: fawiki
+    title: بیت (رایانه)
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Bitti
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Bit
+    badges: []
+  furwiki:
+    site: furwiki
+    title: Bit
+    badges: []
+  fywiki:
+    site: fywiki
+    title: Bit
+    badges: []
+  gawiki:
+    site: gawiki
+    title: Giotán
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Bit
+    badges: []
+  hewiki:
+    site: hewiki
+    title: סיבית
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: द्वयंक
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Bit
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Bit
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Բիթ
+    badges: []
+  iawiki:
+    site: iawiki
+    title: Bit
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Bit
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Biti (tölvufræði)
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Bit
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ビット
+    badges: []
+  kaawiki:
+    site: kaawiki
+    title: Bit
+    badges: []
+  kawiki:
+    site: kawiki
+    title: ბიტი
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Бит (өлшем бірлігі)
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 비트
+    badges: []
+  kywiki:
+    site: kywiki
+    title: Бит (маалымат)
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Bit
+    badges: []
+  lbwiki:
+    site: lbwiki
+    title: Bit
+    badges: []
+  lmowiki:
+    site: lmowiki
+    title: Bit
+    badges: []
+  lowiki:
+    site: lowiki
+    title: ບິຕ
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Bitas
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Bits
+    badges: []
+  mhrwiki:
+    site: mhrwiki
+    title: Бит
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Бит
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: ബിറ്റ്
+    badges: []
+  mnwiki:
+    site: mnwiki
+    title: Бит
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: बाईट
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Bit
+    badges: []
+  mtwiki:
+    site: mtwiki
+    title: Bit
+    badges: []
+  mwlwiki:
+    site: mwlwiki
+    title: Bit
+    badges: []
+  mywiki:
+    site: mywiki
+    title: Bit
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Bit (eenheid)
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Bit
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Bit
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Bit
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Bit
+    badges: []
+  pnbwiki:
+    site: pnbwiki
+    title: بٹ
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Bit
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Bit
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Бит
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Bit
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Bit
+    badges: []
+  sdwiki:
+    site: sdwiki
+    title: ٻٽ
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Bit (informatika)
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Bit
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Bit
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Bit
+    badges: []
+  sqwiki:
+    site: sqwiki
+    title: Bit
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Бит (рачунарство)
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Bit
+    badges: []
+  tawiki:
+    site: tawiki
+    title: இருமம்
+    badges: []
+  tewiki:
+    site: tewiki
+    title: బిట్
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Бит
+    badges: []
+  thwiki:
+    site: thwiki
+    title: บิต
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Bit (bilişim)
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Біт
+    badges: []
+  urwiki:
+    site: urwiki
+    title: بٹ (کمپیوٹر)
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Bit
+    badges: []
+  warwiki:
+    site: warwiki
+    title: Bit
+    badges: []
+  yiwiki:
+    site: yiwiki
+    title: ביט
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Bit
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 位元
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 位元
+    badges: []

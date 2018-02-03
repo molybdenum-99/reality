@@ -1,0 +1,97 @@
+---
+pageid: 954821
+ns: 0
+title: Q1005349
+lastrevid: 566962062
+modified: '2017-09-27T09:30:30Z'
+type: item
+id: Q1005349
+labels:
+  en:
+    language: en
+    value: Bunder
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 0f49769a073adbf1aea6d3645a68f24ad29dbeb6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1371562
+          id: Q1371562
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1005349$78d882d6-472c-3844-07ca-870cd8cd3b26
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: fbf705b2786103c1f2068c9f25a58262b3aa4c20
+      datavalue:
+        value: "/m/0dkd8y"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1005349$5B9C5FD5-DEB1-4B93-BA22-7F23262C31EE
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Bunder
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Bunder
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Bonnier (unité)
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Bunder
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Bunder
+    badges: []
+  wawiki:
+    site: wawiki
+    title: Bounî
+    badges: []

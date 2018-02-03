@@ -1,0 +1,421 @@
+---
+pageid: 181871
+ns: 0
+title: Q182803
+lastrevid: 617888385
+modified: '2018-01-08T22:58:52Z'
+type: item
+id: Q182803
+labels:
+  en:
+    language: en
+    value: Zimbabwean dollar
+aliases:
+  en:
+  - language: en
+    value: Z$
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q182803$EBFC957B-064C-474A-8482-61DCCD6B7F3D
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 575a86b15063a50cfd77fd74a1366556fc9b153e
+      datavalue:
+        value: Money of Zimbabwe
+        type: string
+      datatype: string
+    type: statement
+    id: q182803$7755302C-437F-40F9-BFB5-0E04EF8B60AF
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: f22725e4a0f617e9c60cd7b29c18e1ad410c40f5
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1025119
+          id: Q1025119
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q182803$63FBAA60-1DA1-49A2-8AAD-EC67E28B3A78
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: fcfa22e4e11103f207a7997bbeebfe6efe927af6
+      datavalue:
+        value: "/m/01zsmn"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q182803$BFD60A86-1A08-4E1A-8F34-36B6B149D637
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 307b57bbb1cf524392ac82a7af309626a3adad4a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 954
+          id: Q954
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P582:
+      - snaktype: value
+        property: P582
+        hash: 9b917af174adc6bb78ebed9e46b5d18f5ac2c90d
+        datavalue:
+          value:
+            time: "+2009-04-12T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P582
+    id: Q182803$0f6519cf-434b-97ac-3adf-51c9cc935f80
+    rank: normal
+  P155:
+  - mainsnak:
+      snaktype: value
+      property: P155
+      hash: e67c70724642c557380f28058e8898916a64d22a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 392858
+          id: Q392858
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q182803$bcd0e714-431a-38df-15eb-93243d1c9c16
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 3e3eef2a842d4c03c55a2ab360eb81c9e71b14f2
+      datavalue:
+        value: ZWL
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q182803$6b937542-48bf-fb1a-27ac-58fd75a0633b
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: 58aefd5472e9725c741c446715f38df346769277
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 14083
+          id: Q14083
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q182803$3dac4d71-4e50-c66d-dcef-e8c16e3355c9
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: c525243bf5f7e588b58d7065afafc8bde5f40aa5
+      datavalue:
+        value: Zimbabwean-Dollar
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q182803$D1826B7C-93B9-4A6D-9475-154D86620649
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 48fe63e1cfed0443087ccd85d779ac44652f97f6
+      datavalue:
+        value: '500536'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q182803$C1E9A5CA-A772-4ADE-8468-94911BCF0DD7
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Zimbabwiese dollar
+    badges: []
+  arwiki:
+    site: arwiki
+    title: دولار زيمبابوي
+    badges: []
+  arzwiki:
+    site: arzwiki
+    title: دولار زيمبابوى
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Dólar zimbabuanu
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Зымбабвійскі даляр
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Долар Зімбабвэ
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Зимбабвийски долар
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: জিম্বাবুয়ান ডলার
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Zimbabveanski dolar
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Dòlar zimbabuès
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Zimbabwiske dollar
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Simbabwe-Dollar
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Δολάριο Ζιμπάμπουε
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Zimbabwean dollar
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Zimbabva dolaro
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Dólar zimbabuense
+    badges: []
+  fawiki:
+    site: fawiki
+    title: دلار زیمبابوه
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Zimbabwen dollari
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Dollar du Zimbabwe
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Dólar zimbabuense
+    badges: []
+  hewiki:
+    site: hewiki
+    title: דולר זימבבואי
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Zimbabveanski dolar
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Zimbabwei dollár
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Dollaro zimbabwese
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ジンバブエ・ドル
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 짐바브웨 달러
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Zimbabvės doleris
+    badges: []
+  mnwiki:
+    site: mnwiki
+    title: Зимбабве доллар
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: झिंबाब्वे डॉलर
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Dolar Zimbabwe
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Zimbabwaanse dollar
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Zimbabwisk dollar
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Dolar Zimbabwe
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Dólar do Zimbábue
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Dolar din Zimbabwe
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Доллар Зимбабве
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Zimbabwean dollar
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Zimbabwiansky dolár
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Зимбабвеански долар
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Zimbabwisk dollar
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Доллари Зимбабве
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Zimbabve doları
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Зімбабвійський долар
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Đô la Zimbabwe
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Dọ́là Sìmbábúè
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Zimbabwe dollar
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 津巴布韋元
+    badges: []

@@ -1,0 +1,128 @@
+---
+pageid: 2641445
+ns: 0
+title: Q2751502
+lastrevid: 573120876
+modified: '2017-10-06T08:03:25Z'
+type: item
+id: Q2751502
+labels:
+  en:
+    language: en
+    value: Japanese mon
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: c0588813e98690bbd16c0eb4a33e417dea816661
+      datavalue:
+        value: "/m/0b119q"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2751502$B07B7154-7573-4511-8DBA-6E10B78D08E1
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2751502$6f52bc7f-4c31-a594-1f5c-72a2f3e652a9
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 95e3ffe60a77aff0d77edf6d5ff1cb9c64fa0e16
+      datavalue:
+        value: Kaneitsuho.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q2751502$4F2B2B51-DB73-48BE-864D-1F8DC92D71BE
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 55178c20e031f1579d34d802f16f6b9951b631e1
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 17
+          id: Q17
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2751502$7e0089c7-4f20-7424-2dbb-bf20410236ad
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Japanese mon (currency)
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Mon (monnaie)
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Mon giapponese
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Japanse mon (munteenheid)
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Mon japonês
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Mon
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Японский мон
+    badges: []

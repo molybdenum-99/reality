@@ -1,0 +1,256 @@
+---
+pageid: 3075408
+ns: 0
+title: Q3221356
+lastrevid: 564654994
+modified: '2017-09-24T01:09:19Z'
+type: item
+id: Q3221356
+labels:
+  en:
+    language: en
+    value: yoctometre
+aliases:
+  en:
+  - language: en
+    value: yoctometer
+  - language: en
+    value: ym
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1c41b2ea8a3f6d3fab77c103d826ae5ead7a9c01
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1978718
+          id: Q1978718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3221356$e4f52b6e-494a-ecfa-aa13-0b2e989cb66b
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 333607b3a1af58467deeb0ae22247b60b4cc1e08
+      datavalue:
+        value: ym
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q3221356$516ca8f1-44c0-9a99-0ed9-d3a321c6050c
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 9a741fcfa2a838aeaed97d542da6168f79f5a69a
+      datavalue:
+        value: йм
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q3221356$bc511f7b-45ca-0f47-1400-9c345bd8b1c9
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: cf5d735a2347ea8784448153ccc8c3f2e5bc160f
+      datavalue:
+        value: "/m/0ch10x0"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3221356$624E8A96-C775-41B6-B18B-BC4E577450DB
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2043:
+  - mainsnak:
+      snaktype: value
+      property: P2043
+      hash: 48ea2063e4c7638c414bd32f89a49e97253a7a76
+      datavalue:
+        value:
+          amount: "+0.001"
+          unit: http://www.wikidata.org/entity/Q3270676
+          upperBound: "+0.001"
+          lowerBound: "+0.001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q3221356$df50d6ae-4103-22fa-67e1-324dc7aa54e2
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: d2478cb6b4b5a65201e5521c36c3db11e412a130
+      datavalue:
+        value:
+          amount: "+0.000000000000000000000001"
+          unit: http://www.wikidata.org/entity/Q11573
+          upperBound: "+0.000000000000000000000001"
+          lowerBound: "+0.000000000000000000000001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q3221356$3ff8fa14-4e2d-5e7e-49fc-47adbf441434
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 0e924d3f99a4d070966f49aa03f7a86177662d7d
+      datavalue:
+        value: yoctometre
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3221356$C409BAD9-F28E-464F-B1D2-6432C6C740D0
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 4354e3cc033f2c5371e447e5ab1cca8b89ffa3e0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 36253
+          id: Q36253
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3221356$D230F8E3-96AD-4DE8-BF06-A6E3245F8C94
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: يوكتومتر
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Yoctómetru
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Yoctòmetre
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Yoktometr
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Yoktometer
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Yoctometre
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Yoctómetro
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Joktometro
+    badges: []
+  fawiki:
+    site: fawiki
+    title: یوکتومتر
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ヨクトメートル
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 욕토미터
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: योक्टोमीटर
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Yoktometer
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Yoktometer
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Yoctômetro
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Yoktometer
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Yoktometre
+    badges: []

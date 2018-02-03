@@ -1,0 +1,180 @@
+---
+pageid: 1359134
+ns: 0
+title: Q1420451
+lastrevid: 607558004
+modified: '2017-12-12T09:40:05Z'
+type: item
+id: Q1420451
+labels:
+  en:
+    language: en
+    value: acetabulum
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: f37c73dec48ba9a6299af3cc096435154a20ce68
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 6008757
+          id: Q6008757
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1420451$B14C0D67-2928-4928-BCA8-2BD3B92769B2
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: c454c0c3de246c32f34b9be05dc25a1c41e32e6f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 25906214
+          id: Q25906214
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1420451$029ae419-4fe6-acea-1a18-3b957a0ffb9d
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 309203096e7514f6f1e71a98ee94d9683a0eaab9
+      datavalue:
+        value: "/m/0dwf_2"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1420451$6B1FA7ED-E143-4D76-9692-F9CC45303FFE
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: ece6f6e6968e83ab4ea375829a8c5694d93dff51
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 39297
+          id: Q39297
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1420451$89f14ef2-43b3-28df-1c10-2cfb8462d5ea
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 52afd5559217923531f59bd55edf87f344e02b43
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1161819
+          id: Q1161819
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1420451$6570c553-4c88-9c0d-38cf-03808b4773db
+    rank: normal
+  P1889:
+  - mainsnak:
+      snaktype: value
+      property: P1889
+      hash: afb2b244c0e45b15c8a6a4dea79d6498713387aa
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1130461
+          id: Q1130461
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1420451$FFB69DAE-EA41-486C-AB68-9912BFA22937
+    rank: normal
+  P2581:
+  - mainsnak:
+      snaktype: value
+      property: P2581
+      hash: 389870dec178f604fb319bbd3fe8571924f8af85
+      datavalue:
+        value: 03367226n
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1420451$2A618AC1-B467-42F6-960D-D60040C4A066
+    rank: normal
+    references:
+    - hash: bd0ee81488cd8c23d4b655e417aac78dca370283
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: a0b4f55dbedbadaf83e7d2461b47b7aeaba86359
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 4837690
+              id: Q4837690
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Acetabalum
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Acetabulum
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Acetabulum (Volumenmaß)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Acetabulum (unit)
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Acetabulum (maat)
+    badges: []

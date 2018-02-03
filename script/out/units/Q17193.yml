@@ -1,0 +1,474 @@
+---
+pageid: 19967
+ns: 0
+title: Q17193
+lastrevid: 621544398
+modified: '2018-01-18T17:51:12Z'
+type: item
+id: Q17193
+labels:
+  en:
+    language: en
+    value: Philippine piso
+aliases:
+  en:
+  - language: en
+    value: "₱"
+  - language: en
+    value: PHP
+  - language: en
+    value: Philippine peso
+claims:
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 1da1ec0f02413324771c48bbbab5b72ef6dd3184
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 928
+          id: Q928
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q17193$39baab25-49b8-71fd-daf2-5611abff8d3f
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 06cab6609c3ad2b65d1337b987f69ac3e68e2d4e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1853468
+          id: Q1853468
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q17193$b5d49366-435b-028e-56f5-be91aaf66ef8
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 73c4f83818bcd5ab6678f282f26117be6b74918d
+      datavalue:
+        value: Money of the Philippines
+        type: string
+      datatype: string
+    type: statement
+    id: q17193$D473CACD-107B-4322-9637-B9D11C1A7DC7
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 62b92ff7d900ebf6441612661ea967a57d2eb600
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1643989
+          id: Q1643989
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q17193$6B2DD096-A47E-4460-B2D3-AF15EDF8C520
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q17193$A6F4BD5F-9E4E-490A-9A9B-D08E5B4DCE2D
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 1697142f57e81e4dfb64f360c1657f066d027dba
+      datavalue:
+        value: PHP
+        type: string
+      datatype: external-id
+    type: statement
+    id: q17193$52017e30-41ba-c78f-ced5-cc1277ad9e5f
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 6472a4a9011b8c9508e96841242bf8092f5e5f76
+      datavalue:
+        value: "/m/01h5bw"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q17193$58209585-8277-4182-BCF3-4E0A3B683F1F
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2284:
+  - mainsnak:
+      snaktype: value
+      property: P2284
+      hash: 8c0cafe65d1d2cf93f1a57a403f278339c26ab57
+      datavalue:
+        value:
+          amount: "+0.020086"
+          unit: http://www.wikidata.org/entity/Q4917
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: f742be92339cdcc54bf77fbdde9a24b9045f361a
+        datavalue:
+          value:
+            time: "+2016-11-22T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q17193$AECD0CE9-74A3-4234-88D7-38EF0A961A3E
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: e758fd67e8efadc2b8b605de8b1b828105e03c53
+      datavalue:
+        value: Philippine-Peso
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q17193$03ACEA23-D811-4B32-9950-44FB1737D411
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: 755b245a521b5ebf099df1cfc41fa78e2ad1a96f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 244696
+          id: Q244696
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q17193$bb52d069-448c-1808-101c-e35caff4cc17
+    rank: normal
+  P2581:
+  - mainsnak:
+      snaktype: value
+      property: P2581
+      hash: 1734d39f5301bbc73b74691972d4b9dc384a68dd
+      datavalue:
+        value: 00061774n
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q17193$92B3A95E-B138-4C46-A189-E9561B850545
+    rank: normal
+    references:
+    - hash: bd0ee81488cd8c23d4b655e417aac78dca370283
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: a0b4f55dbedbadaf83e7d2461b47b7aeaba86359
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 4837690
+              id: Q4837690
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 5649705afe79e7959ab08ca212c4700954a47ca5
+      datavalue:
+        value: '500230'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q17193$0830CBF8-1313-4AAB-8C25-47998B1A0116
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: بيسو فلبيني
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Filippin pesosu
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Филипинско песо
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: ফিলিপাইনি পেসো
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Peso filipí
+    badges: []
+  cebwiki:
+    site: cebwiki
+    title: Peso Pilipino
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Filipínské peso
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Philippinischer Peso
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Philippine peso
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Filipina peso
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Peso filipino
+    badges: []
+  fawiki:
+    site: fawiki
+    title: پزو فیلیپین
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Filippiinien peso
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Peso philippin
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: फ़िलीपीनी पेसो
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Filipinski pezo
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Fülöp-szigeteki peso
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Peso Filipina
+    badges: []
+  ilowiki:
+    site: ilowiki
+    title: Pisos ti Filipinas
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Peso filippino
+    badges: []
+  jawiki:
+    site: jawiki
+    title: フィリピン・ペソ
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 필리핀 페소
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Филиппинъясса песо
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Filipinų pesas
+    badges: []
+  maiwiki:
+    site: maiwiki
+    title: फिलीपीनी पेसो
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Филипинско пезо
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: फिलिपिन पेसो
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Peso Filipina
+    badges: []
+  newiki:
+    site: newiki
+    title: फिलीपीनी पेसो
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Filipijnse peso
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Filippinsk peso
+    badges: []
+  orwiki:
+    site: orwiki
+    title: ଫିଲିପାଇନ ପେସୋ
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਫ਼ਿਲਪੀਨੀ ਪੀਸੋ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Peso filipińskie
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Peso filipino
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Филиппинское песо
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Filipínske peso
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Филипински пезо
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Filippinsk peso
+    badges: []
+  tawiki:
+    site: tawiki
+    title: பிலிப்பைன் பெசோ
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Песои Филиппин
+    badges: []
+  thwiki:
+    site: thwiki
+    title: เปโซฟิลิปปินส์
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Piso ng Pilipinas
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Filipinler pesosu
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Філіппінський песо
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Peso Philippines
+    badges: []
+  warwiki:
+    site: warwiki
+    title: Piso han Pilipinas
+    badges: []
+  wuuwiki:
+    site: wuuwiki
+    title: 菲律宾比索
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: ფილიპინური პესო
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Peso Filipínì
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Hui-li̍p-pin peso
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 菲律賓披索
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 菲律賓披索
+    badges: []

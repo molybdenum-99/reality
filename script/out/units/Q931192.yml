@@ -1,0 +1,89 @@
+---
+pageid: 881518
+ns: 0
+title: Q931192
+lastrevid: 491630055
+modified: '2017-05-28T20:30:31Z'
+type: item
+id: Q931192
+labels:
+  en:
+    language: en
+    value: Schwyz frank
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: d36a7f6bb2db7e8754d998cbae2517548bdbcb9b
+      datavalue:
+        value: "/m/02r367w"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q931192$4EC08A18-AFE3-4F99-A611-DCCBC105BD54
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q931192$827F539B-B6FC-489E-B1CF-128ECE1FEDB2
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: فرنك شفيتس
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Schwyz frank
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Franco de Schwyz
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Франк Швица
+    badges: []

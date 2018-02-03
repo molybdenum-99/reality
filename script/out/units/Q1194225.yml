@@ -1,0 +1,249 @@
+---
+pageid: 1138145
+ns: 0
+title: Q1194225
+lastrevid: 617434885
+modified: '2018-01-07T14:56:40Z'
+type: item
+id: Q1194225
+labels:
+  en:
+    language: en
+    value: pound-force
+aliases:
+  en:
+  - language: en
+    value: Pound
+  - language: en
+    value: pound force
+  - language: en
+    value: lb, lbf, lbf
+  - language: en
+    value: lbf
+  - language: en
+    value: lb
+  - language: en
+    value: pound weight
+  - language: en
+    value: pound-weight
+  - language: en
+    value: pound (weight)
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: c2c1587b93d2af60950c3f593d087a868c5664d6
+      datavalue:
+        value: lbf
+        type: string
+      datatype: string
+    type: statement
+    id: q1194225$de7b3a53-4f29-a9ff-79c8-16901547ed4c
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 61eec523f66a8023b47d574209355cb769d8989b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 15976022
+          id: Q15976022
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1194225$d6ba840c-48b3-ec07-5eb3-2a5758985f17
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: e55ab9ae0ed69b52baa8ef7228def8a744690e08
+      datavalue:
+        value: "/m/018cjy"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1194225$7CA5AE6A-0290-4739-B0FB-AD02227C2384
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: de8e866ae4f7dffc0d0ea5940613c2c4b6e22f7a
+      datavalue:
+        value:
+          amount: "+4.448222"
+          unit: http://www.wikidata.org/entity/Q12438
+          upperBound: "+4.448223"
+          lowerBound: "+4.448221"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1194225$b1f7d81d-473b-10b3-ec40-3a505aebb58c
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 28559d5e0da479d9467870059f9f28b1c326df97
+      datavalue:
+        value: PoundForce
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1194225$4440192D-29B8-42D6-988A-5DA012796A2B
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 891eed8f9c1aa6d4d80d2226c94dd62caba819cc
+      datavalue:
+        value: pound-force
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1194225$4C4C6276-E8E5-4E78-9C9C-B2D96ECC476E
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: df3591363a95848e262c0e8126c6dd6f50219bb3
+      datavalue:
+        value: Pound-force
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1194225$CD003426-AA81-463D-BFDC-3A5EE94A4ADF
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 886dda2a8ff0711f405bbf864a1821cc2e6ae501
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11402
+          id: Q11402
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1194225$CA7F8DA0-6B7E-483D-90F5-3F395BABDC2B
+    rank: normal
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Lliura (unitat de força)
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Pound-force
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Pound (force)
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Libra (unidad de fuerza)
+    badges: []
+  fawiki:
+    site: fawiki
+    title: پوند-نیرو
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Livre-force
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Libbra forza
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 重量ポンド
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 파운드힘
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Фунта-сила
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Poundforce
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Funt-siła
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Libra (força)
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Pound-force
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Pound (kuvvet)
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 磅力
+    badges: []

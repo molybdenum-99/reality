@@ -1,0 +1,335 @@
+---
+pageid: 200027
+ns: 0
+title: Q203567
+lastrevid: 617985252
+modified: '2018-01-09T09:55:06Z'
+type: item
+id: Q203567
+labels:
+  en:
+    language: en
+    value: Nigerian naira
+aliases: {}
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: fbdb36ceead501d04b362fd0694e504084f63688
+      datavalue:
+        value: Money of Nigeria
+        type: string
+      datatype: string
+    type: statement
+    id: q203567$EDDFCA13-BD92-45D1-A4FE-B27326DF0E03
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q203567$D3312E5C-9B32-409D-B453-2EE110D50A0C
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 952d635826848c811cf89d7e69d485b72099dfe5
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1627120
+          id: Q1627120
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q203567$353692AD-6022-4A15-B12B-EEFAF08D0540
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 2d2412d2f7309af9b68871e4d23fffc8060e7937
+      datavalue:
+        value: "/m/018cg3"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q203567$FC95FC8B-4587-4480-B5A4-919B5AB734A4
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 3bdee7cd968f7ec19a0edc3d3e946cc9ba4ab4df
+      datavalue:
+        value: NGN
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q203567$cc74c86a-48f2-642c-5097-86252d7d0cc4
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 8116beb62ea32777b0b68313efb65d9b2713adc7
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1033
+          id: Q1033
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q203567$d213f3d3-4228-3b61-7061-8c4f32440ee3
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 190a805d86c93f8547379fcff2b303ac92807b2a
+      datavalue:
+        value: "₦"
+        type: string
+      datatype: string
+    type: statement
+    id: Q203567$d97e988f-4b3d-d27c-571f-d66f21598d83
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 246ed342c1bd83e11e7458011395d041262b6604
+      datavalue:
+        value: '500223'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q203567$7A409077-32F2-4D6F-B19E-79194047CCDD
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Nigeriese naira
+    badges: []
+  arwiki:
+    site: arwiki
+    title: نيرة نيجيرية
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Нігерыйская найра
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Найра
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: নাইজেরিয়ান নাইরা
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Naira
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Nigerijská naira
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Naira
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Nigerian naira
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Niĝeria najro
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Naira
+    badges: []
+  fawiki:
+    site: fawiki
+    title: نایرا نیجریه
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Naira
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Naira
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Naira
+    badges: []
+  hewiki:
+    site: hewiki
+    title: נאירה
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Nigerijska naira
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Nigériai naira
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Naira Nigeria
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Naira nigeriana
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ナイラ
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 나이지리아 나이라
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Naira
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: नायजेरियन नाइरा
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Nigeriaanse naira
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Nigeriansk naira
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Naira
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Naira
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Нигерийская найра
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Nigerian naira
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Naira
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Нигеријска наира
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Naira
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Найраи Нигерия
+    badges: []
+  thwiki:
+    site: thwiki
+    title: ไนรา
+    badges: []
+  tkwiki:
+    site: tkwiki
+    title: Naýra
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Naira ng Nigeria
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Nijerya nairası
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Нігерійська найра
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Naira
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Nigeria naira
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 奈及利亞奈拉
+    badges: []

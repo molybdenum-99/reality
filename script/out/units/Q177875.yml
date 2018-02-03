@@ -1,0 +1,409 @@
+---
+pageid: 177363
+ns: 0
+title: Q177875
+lastrevid: 617888222
+modified: '2018-01-08T22:58:17Z'
+type: item
+id: Q177875
+labels:
+  en:
+    language: en
+    value: Macedonian denar
+aliases:
+  en:
+  - language: en
+    value: долар
+claims:
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: c5ddd5904fdd637c45d907b7633471cc4f8b41c1
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 221
+          id: Q221
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q177875$8437e45e-4f8c-749d-4de6-7ce9778cc885
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 8e7d90514e7b932fc6badd5bbd7effd88c37f0d2
+      datavalue:
+        value: Money of the Republic of Macedonia
+        type: string
+      datatype: string
+    type: statement
+    id: q177875$B997DAF2-D351-4EA2-9C55-842D720D989B
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q177875$2DA1E40A-E66B-4C9F-A80E-34200C43A6E5
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 75e5faa05639a6b7574e41cb520af3c042afd0fb
+      datavalue:
+        value: MKD
+        type: string
+      datatype: external-id
+    type: statement
+    id: q177875$cf0ae745-4974-a764-1f9e-b1755dbe9838
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 0d634bc00e41da3b7c442ae6f4f252cce9dbf3c5
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2598067
+          id: Q2598067
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q177875$0982FA04-668C-422F-A5DB-381A688EE82A
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: a16743ae65163c8c2e33683ea33ea2e203f32511
+      datavalue:
+        value: "/m/022dkb"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q177875$3915458E-5676-4863-BF88-F5DBCBAAFBB3
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: 2128c744228317b4a4f8fd92bd6ba4740248f9db
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 191830
+          id: Q191830
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q177875$331f601e-49b1-18f3-57c4-dbbef3222898
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 86302d981e539083ec8b13374fe41f7491667f29
+      datavalue:
+        value: '500204'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q177875$AD3433F3-8821-448B-98E5-B416489DB004
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: دينار مقدوني
+    badges: []
+  bawiki:
+    site: bawiki
+    title: Македония денары
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Македонскі дэнар
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Македонскі дэнар
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Македонски денар
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: মেসিডোনিয়ান দিনার
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Makedonski denar
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Denar
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Makedonský denár
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Makedonske denarer
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Mazedonischer Denar
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Δηνάριο της πρώην Γιουγκοσλαβικής Δημοκρατίας της Μακεδονίας
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Macedonian denar
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Makedona denaro
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Denar macedonio
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Makedoonia denaar
+    badges: []
+  fawiki:
+    site: fawiki
+    title: دینار مقدونیه
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Makedonian denaari
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Denar macédonien
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Dinar macedonio
+    badges: []
+  hewiki:
+    site: hewiki
+    title: דינר מקדוני
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: मैसिडोनियाई दीनार
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Makedonski denar
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Macedón dénár
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Denar Makedonia
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Dinaro macedone
+    badges: []
+  jawiki:
+    site: jawiki
+    title: マケドニア・デナール
+    badges: []
+  kawiki:
+    site: kawiki
+    title: მაკედონური დენარი
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 마케도니아 데나르
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Македонияса динар
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Makedonijos denaras
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Denars
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Македонски денар
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: मॅसिडोनियन देनार
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Macedonische denar
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Makedonsk denar
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Denar
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਮਕਦੂਨੀਆਈ ਦਿਨਾਰ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Denar macedoński
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Dinar macedónio
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Denar macedonean
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Македонский денар
+    badges: []
+  sahwiki:
+    site: sahwiki
+    title: Македония дэнаара
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Macedonie denar
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Makedonski denar
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Macedónsky denár
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Makedonski denar
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Македонски денар
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Makedonisk denar
+    badges: []
+  tawiki:
+    site: tawiki
+    title: மாசிடோனிய தெனார்
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Денари Мақдуния
+    badges: []
+  thwiki:
+    site: thwiki
+    title: เดนาร์มาซิโดเนีย (สกุลเงิน)
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Makedon denarı
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Македонський денар
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: მაკედონიური დენარი
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Denar
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Macedonia denar
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 馬其頓第納爾
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 馬其頓代納爾
+    badges: []

@@ -1,0 +1,93 @@
+---
+pageid: 28219036
+ns: 0
+title: Q26267971
+lastrevid: 537539684
+modified: '2017-08-14T08:09:24Z'
+type: item
+id: Q26267971
+labels:
+  en:
+    language: en
+    value: Hiro
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1c41b2ea8a3f6d3fab77c103d826ae5ead7a9c01
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1978718
+          id: Q1978718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q26267971$f6f342f8-4042-7403-a268-7e43d55ed744
+    rank: normal
+    references:
+    - hash: 548048888a3c88aaaded611d1aebde0033ee4ee8
+      snaks:
+        P957:
+        - snaktype: value
+          property: P957
+          hash: bb85ac3a20a4f7eb36f84856e2a50f03a0531a2d
+          datavalue:
+            value: '3411021489'
+            type: string
+          datatype: external-id
+      snaks-order:
+      - P957
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 451e489a2a9815664dfb100fd0c9f4b5fb6feb48
+      datavalue:
+        value:
+          amount: "+1.818"
+          unit: http://www.wikidata.org/entity/Q11573
+          upperBound: "+1.818"
+          lowerBound: "+1.818"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q26267971$d1d3d0b2-41a6-2709-9aa7-95dcfc6cc5b9
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: bf7fd13d51f1b01e20aefa281a0827d201e5a27d
+      datavalue:
+        value:
+          amount: "+1.515"
+          unit: http://www.wikidata.org/entity/Q11573
+          upperBound: "+1.515"
+          lowerBound: "+1.515"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q26267971$4a589c52-4117-5ceb-3377-993a00786ca0
+    rank: deprecated
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 4354e3cc033f2c5371e447e5ab1cca8b89ffa3e0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 36253
+          id: Q36253
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q26267971$F069AD69-598C-4187-97E8-722AECBF911E
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Hiro (japanisches Längenmaß)
+    badges: []

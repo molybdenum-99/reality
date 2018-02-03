@@ -1,0 +1,291 @@
+---
+pageid: 82309
+ns: 0
+title: Q79758
+lastrevid: 625298661
+modified: '2018-01-31T20:25:45Z'
+type: item
+id: Q79758
+labels:
+  en:
+    language: en
+    value: mebibyte
+aliases:
+  en:
+  - language: en
+    value: MiB
+  - language: en
+    value: MB
+  - language: en
+    value: Megabyte
+  - language: en
+    value: Mebibyte
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 571279efd0b258dd97b08b6a1dceb28e539980d2
+      datavalue:
+        value: MiB
+        type: string
+      datatype: string
+    type: statement
+    id: Q79758$7660b3dc-498f-863c-fe8a-c212408fcbb5
+    rank: normal
+    references:
+    - hash: 5fe1039858667ad40e3911367de1d0a0cac48c8e
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 0e73b9396411d565bdd95a9c668d5a209a8197d0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 193858
+              id: Q193858
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 251e2af1eece57ed35e2b3b2bc5b74f3615fa28c
+      datavalue:
+        value: МиБ
+        type: string
+      datatype: string
+    type: statement
+    id: Q79758$12f94c86-4783-c4a2-61ba-5172d3a91e64
+    rank: normal
+    references:
+    - hash: 5fe1039858667ad40e3911367de1d0a0cac48c8e
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 0e73b9396411d565bdd95a9c668d5a209a8197d0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 193858
+              id: Q193858
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: b15ef2cfb80f76a69cfc19e826b3f3bcc83cd3d0
+      datavalue:
+        value: "/m/0ghb0"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q79758$BBD77742-4017-4067-938F-D03B0F7D42B0
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 2d6ead580ca479cd38b25f8d8c677f1c03ad7473
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3550873
+          id: Q3550873
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q79758$71e49934-4c60-1b8a-e077-e6a0c2ac5d8e
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 14b60b5e7d68c8ca06b7aa05c6ca9bde578db3d5
+      datavalue:
+        value: mebibyte
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q79758$8C044731-2050-4324-A694-96F8BC46D384
+    rank: normal
+  P4746:
+  - mainsnak:
+      snaktype: value
+      property: P4746
+      hash: c951479336696d4fd6090085fa4d25cdb7ed4a39
+      datavalue:
+        value: '027978'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q79758$C47CAC9F-5F6E-4DD2-92DD-04C2453BCC27
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 244b4471c9329f272e301eccc7849531f914edc0
+      datavalue:
+        value:
+          amount: "+1048576"
+          unit: http://www.wikidata.org/entity/Q8799
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q79758$b64ceb0a-4e88-55fa-0f03-a63d4b06dd62
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: مبيبايت
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Мэбібайт
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Mebibyte
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Mebibyte
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Mebibyte
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Μεμπιμπάιτ
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Mebibyte
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Mebibyte
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Mebibyte
+    badges: []
+  fawiki:
+    site: fawiki
+    title: مبی‌بایت
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Mebibita
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Mebibyte
+    badges: []
+  jawiki:
+    site: jawiki
+    title: メビバイト
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 메비바이트
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: മെബിബൈറ്റ്
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: मेबिबाईट
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Mebibait
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Mebibyte
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Mebibyte
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: MebiByte
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Mebibyte
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Мебибайт
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Mebibyte
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Mebibajt
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Мебибајт
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Mebibyte
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Мебібайт
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Mebibyte
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: Mebibyte
+    badges: []

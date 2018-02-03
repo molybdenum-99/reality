@@ -1,0 +1,59 @@
+---
+pageid: 40822195
+ns: 0
+title: Q39467934
+lastrevid: 558138775
+modified: '2017-09-13T14:28:21Z'
+type: item
+id: Q39467934
+labels:
+  en:
+    language: en
+    value: kilogram force per square meter
+aliases:
+  en:
+  - language: en
+    value: kgf/m2
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6166ea9a07e43efe7af58b089be082880e6b8c61
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10751953
+          id: Q10751953
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q39467934$91c6923b-438c-0e20-2e12-752afb02f376
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: f63202b233caae622d20e081bb192601dc42cc33
+      datavalue:
+        value: kg/m2
+        type: string
+      datatype: string
+    type: statement
+    id: Q39467934$dae9aa97-4950-01ec-e6fd-9fe80ece8bd3
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 6201d79fb492830be123e7b7b22a734f635afa06
+      datavalue:
+        value:
+          amount: "+9.80665"
+          unit: http://www.wikidata.org/entity/Q44395
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q39467934$1158a716-4ce1-07fd-1d10-fe776b38d00b
+    rank: normal
+sitelinks: {}

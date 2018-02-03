@@ -1,0 +1,265 @@
+---
+pageid: 239721
+ns: 0
+title: Q246868
+lastrevid: 603591967
+modified: '2017-12-04T20:34:16Z'
+type: item
+id: Q246868
+labels:
+  en:
+    language: en
+    value: lot
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: f3f9d4df031dfe2b81400424101cb427060663b9
+      datavalue:
+        value: "/m/06lkcc"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q246868$D3715885-F8A8-4E7E-8CB3-DD7456B8B305
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 954edbd3fef27ce6396c0878a95c608ca4ed84af
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3647172
+          id: Q3647172
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q246868$36938230-4756-a2f5-c856-4eaf5c276bae
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 2b8b8057cb4029acdd61112e5a77ff87c571c45b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 435964
+          id: Q435964
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q246868$D123C670-1B7A-4B00-A191-6B6B7B014E68
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: e75bc6312af0fddbca96558d1bfc3de0fb040d18
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3617326
+          id: Q3617326
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q246868$c0e90adc-4565-2f08-b6ff-fa22d6597ea4
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 871ac8ec293ba737ff41f948b9a1400069f371ef
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10715339
+          id: Q10715339
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q246868$f38399b9-4615-4306-9b77-baf2cd2c9fe2
+    rank: normal
+  P527:
+  - mainsnak:
+      snaktype: value
+      property: P527
+      hash: '031638afc7fb7b4144fa4eed68fd91a1af9e1503'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11982705
+          id: Q11982705
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P1114:
+      - snaktype: value
+        property: P1114
+        hash: 641d379f55cdd8c112a15e83e6ebd2b5fdedc8ea
+        datavalue:
+          value:
+            amount: "+4"
+            unit: '1'
+          type: quantity
+        datatype: quantity
+    qualifiers-order:
+    - P1114
+    id: Q246868$d20ee813-4f6d-ea14-ec4d-678a8f7f5648
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 721ea5f4c3afe9e5b4ce38ce9e51351e4bc3e9bb
+      datavalue:
+        value:
+          amount: "+4"
+          unit: http://www.wikidata.org/entity/Q11982705
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q246868$af62a8a6-406b-937c-1cff-ff2ae1d01e5d
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 16653c4848e0552e9604edc668341bd5f95825a4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11423
+          id: Q11423
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q246868$2B3CEFD7-719A-4CA1-A47F-5C3072DCAA3A
+    rank: normal
+  P2581:
+  - mainsnak:
+      snaktype: value
+      property: P2581
+      hash: 5d176051ddc7738259723a06798c27fa7f8504ce
+      datavalue:
+        value: '01365846n'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q246868$F435A0D2-141C-4D94-9268-0EDA8C1D3D37
+    rank: normal
+    references:
+    - hash: bd0ee81488cd8c23d4b655e417aac78dca370283
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: a0b4f55dbedbadaf83e7d2461b47b7aeaba86359
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 4837690
+              id: Q4837690
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  bewiki:
+    site: bewiki
+    title: Лот
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Lot (jednotka)
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Lod (vægtenhed)
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Lot (Einheit)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Lot (unit)
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Lot (unidad)
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Lood (kaaluühik)
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Lot (unitatea)
+    badges: []
+  fiu_vrowiki:
+    site: fiu_vrowiki
+    title: Luut
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Luoti (mittayksikkö)
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Lat (mértékegység)
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Lood (gewicht)
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Łut
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Лот (единица измерения)
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Lod (mått)
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Лот (одиниця вимірювання)
+    badges: []

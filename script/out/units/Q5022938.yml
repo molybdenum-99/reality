@@ -1,0 +1,48 @@
+---
+pageid: 4799699
+ns: 0
+title: Q5022938
+lastrevid: 453988208
+modified: '2017-02-22T00:12:46Z'
+type: item
+id: Q5022938
+labels:
+  en:
+    language: en
+    value: Calls per second
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1688184d930a605cf5818c9f3950a6e8f6dac92b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 21162604
+          id: Q21162604
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q5022938$4bb50eab-4244-f18d-6292-89302dbec162
+    rank: normal
+  P2144:
+  - mainsnak:
+      snaktype: value
+      property: P2144
+      hash: f1a32a659eedac5acde3be54c5ba0af8ca13b521
+      datavalue:
+        value:
+          amount: "+1"
+          unit: http://www.wikidata.org/entity/Q39369
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q5022938$78fe7423-49a5-219d-89eb-8e39d86f80d2
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Calls per second
+    badges: []

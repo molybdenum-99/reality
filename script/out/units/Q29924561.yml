@@ -1,0 +1,90 @@
+---
+pageid: 31549118
+ns: 0
+title: Q29924561
+lastrevid: 485810757
+modified: '2017-05-14T07:12:33Z'
+type: item
+id: Q29924561
+labels:
+  en:
+    language: en
+    value: mega-volt-ampere
+aliases:
+  en:
+  - language: en
+    value: MVA
+  - language: en
+    value: mega volt ampere
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 116ccff192c7c9c7ac8717e13172125bb454be6b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10387689
+          id: Q10387689
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q29924561$54b18cd1-4931-a048-2166-e41585d7656b
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 76b49f78b4fac3b6cc13b80cf4e1adbf4938ffce
+      datavalue:
+        value: MVA
+        type: string
+      datatype: string
+    type: statement
+    id: Q29924561$60d74930-41fa-f072-cd99-8845d9960b5f
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: b56a1a57130334d68fbaf06b4f92300229c8e4b1
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1930258
+          id: Q1930258
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q29924561$906d0354-4f8d-b5a2-5081-b948d6657bfa
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: de92872df6c8158e914cb95dae09cde85f23ec14
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 27137
+          id: Q27137
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q29924561$1e88bd0b-4611-9268-019e-79016bd5f412
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 74a79bb17e38f3355a05d0b2a2dedcf2b625f607
+      datavalue:
+        value:
+          amount: "+1000000"
+          unit: http://www.wikidata.org/entity/Q25236
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q29924561$8201948c-4fc4-5bc9-bb57-1a9ee8cb53de
+    rank: normal
+sitelinks: {}

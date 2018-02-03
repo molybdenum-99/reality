@@ -1,0 +1,148 @@
+---
+pageid: 795163
+ns: 0
+title: Q842981
+lastrevid: 516763127
+modified: '2017-07-09T13:11:40Z'
+type: item
+id: Q842981
+labels:
+  en:
+    language: en
+    value: Therm
+aliases: {}
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 9756503d2791f1a2c2aca081cd7797f5b1e4279f
+      datavalue:
+        value: thm
+        type: string
+      datatype: string
+    type: statement
+    id: Q842981$6416ce7b-4b56-f4c5-948c-8f5ece2169ba
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 06df6efe68f6e25b0d602229267e4d3e9ccc3d64
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2916980
+          id: Q2916980
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q842981$56f37003-42c4-9a51-21ac-5500e272040a
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: bb2909b6ffd38044a29a9c368a7430fc9e3c5a1d
+      datavalue:
+        value: "/m/02sfsv"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q842981$5209AD04-3835-4E63-808B-8E3540A83336
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 97ddf12a3ae90aef354d477a26007558a5ca5d70
+      datavalue:
+        value: Therm
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q842981$4BDFA333-B9E2-4BDA-85ED-4AE36571AA8D
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 3f30d13bfaceb920c777e27d2be5e52872a3ce80
+      datavalue:
+        value: therm-US
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q842981$2ABA2077-58E5-4FE6-8594-757E28FC46DC
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 5ea5fb7bb97ab3a51bf38b70a26291da2a4ce459
+      datavalue:
+        value: therm-EC
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q842981$396126E9-4931-46DA-8BA6-E033E5183814
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Therm (Einheit)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Therm
+    badges: []
+  enwikisource:
+    site: enwikisource
+    title: Love Songs
+    badges: []
+  fawiki:
+    site: fawiki
+    title: ترم (یکا)
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Thermie
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 섬 (에너지)
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Терм (единица измерения)
+    badges: []

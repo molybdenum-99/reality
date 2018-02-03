@@ -1,0 +1,125 @@
+---
+pageid: 1296882
+ns: 0
+title: Q1357294
+lastrevid: 491632543
+modified: '2017-05-28T20:35:49Z'
+type: item
+id: Q1357294
+labels:
+  en:
+    language: en
+    value: Parsi
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P155:
+      - snaktype: value
+        property: P155
+        hash: 50c5c3a62f387797b6893bf63e253b7f9b4b5a8a
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 188608
+            id: Q188608
+          type: wikibase-entityid
+        datatype: wikibase-item
+      P580:
+      - snaktype: novalue
+        property: P580
+        hash: bd7fb893afea60e5c191db18aed2a0e10c71738e
+        datatype: time
+    qualifiers-order:
+    - P155
+    - P580
+    id: Q1357294$7d39a1e9-471e-0ca5-918b-628625f7fd3d
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: f04a6c4dcfe72579de0b7e32985a08f0ad868b7d
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 794
+          id: Q794
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1357294$a74d0f52-41bb-819a-2383-3ac4fdeb07a4
+    rank: normal
+  P973:
+  - mainsnak:
+      snaktype: value
+      property: P973
+      hash: d80eaf881bf4b8ff4f7408146ffd0bbb679ebab4
+      datavalue:
+        value: http://www.uskowioniran.com/2011/07/parsi-to-replace-rial-as-national.html
+        type: string
+      datatype: url
+    type: statement
+    qualifiers:
+      P407:
+      - snaktype: value
+        property: P407
+        hash: daf1c4fcb58181b02dff9cc89deb084004ddae4b
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 1860
+            id: Q1860
+          type: wikibase-entityid
+        datatype: wikibase-item
+      P813:
+      - snaktype: value
+        property: P813
+        hash: 33f6c50686710256969cd46fbdc04fe753bf8d9a
+        datavalue:
+          value:
+            time: "+2017-04-09T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      P577:
+      - snaktype: value
+        property: P577
+        hash: f70cf6021dfc4ac6e64f8b99cbfbe04f48bbd19b
+        datavalue:
+          value:
+            time: "+2011-07-19T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P407
+    - P813
+    - P577
+    id: Q1357294$e0158294-43e1-7eb2-3411-c816414c1dd7
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Parsi
+    badges: []

@@ -1,0 +1,918 @@
+---
+pageid: 28637
+ns: 0
+title: Q25236
+lastrevid: 622226716
+modified: '2018-01-21T12:50:13Z'
+type: item
+id: Q25236
+labels:
+  en:
+    language: en
+    value: watt
+aliases:
+  en:
+  - language: en
+    value: W
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 50afdc16346d8687f53963f614e8d645419488a0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 208469
+          id: Q208469
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q25236$C8BB0922-7E98-42B9-8054-F23918E637AD
+    rank: normal
+    references:
+    - hash: 04236527a1d6139c066bc969a1e83e439efc00ba
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 587564898ba1c818316ca0a7af2bb0867f80d4bb
+          datavalue:
+            value: '18'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: a8acdbdb9ade23dbae3d6835a293e04c6df76a0f
+          datavalue:
+            value: 6.5.3
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 116ccff192c7c9c7ac8717e13172125bb454be6b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10387689
+          id: Q10387689
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q25236$deaef826-47cb-86e5-076c-c4ac5d610445
+    rank: normal
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 8b7a3751ded5c99067afd5aa62e0bc8394cbafb7
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 9041
+          id: Q9041
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q25236$A86D329F-1D92-4425-8AD0-666793B5BE24
+    rank: normal
+  P508:
+  - mainsnak:
+      snaktype: value
+      property: P508
+      hash: d51de6f4c9fc3ee05409238e7cbde99ce13f4deb
+      datavalue:
+        value: '38851'
+        type: string
+      datatype: external-id
+    type: statement
+    id: q25236$476C15B0-C9D6-4558-89EB-86DFC14FB858
+    rank: normal
+    references:
+    - hash: b7232a03e568ea326dacdccb6322adb7894300d5
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 1d66ba6e1b3396f65d9e70e5331cca2044f83e33
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 460907
+              id: Q460907
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: e23f4a3b8a2a2d67143a0b9a119a5da1a6fd73f2
+      datavalue:
+        value: W
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P642:
+      - snaktype: value
+        property: P642
+        hash: b77d2cfa9a5e74ba2b2d83348052a79d9015a240
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 4130714
+            id: Q4130714
+          type: wikibase-entityid
+        datatype: wikibase-item
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P642
+    - P282
+    id: q25236$c44871b7-4bdd-08ac-4c06-e61582fabae0
+    rank: normal
+    references:
+    - hash: 04236527a1d6139c066bc969a1e83e439efc00ba
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 587564898ba1c818316ca0a7af2bb0867f80d4bb
+          datavalue:
+            value: '18'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: a8acdbdb9ade23dbae3d6835a293e04c6df76a0f
+          datavalue:
+            value: 6.5.3
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 202fdf9cdb8ecca8bee437b1c5ef1ff91a30de08
+      datavalue:
+        value: Вт
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P407:
+      - snaktype: value
+        property: P407
+        hash: d291ddb7cd77c94a7bd709a8395934147e0864fc
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 7737
+            id: Q7737
+          type: wikibase-entityid
+        datatype: wikibase-item
+      P642:
+      - snaktype: value
+        property: P642
+        hash: b77d2cfa9a5e74ba2b2d83348052a79d9015a240
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 4130714
+            id: Q4130714
+          type: wikibase-entityid
+        datatype: wikibase-item
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P407
+    - P642
+    - P282
+    id: Q25236$94bee481-49e5-9f1b-eb2a-b3d1aa807478
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 54fbe5a6d5c683c12682adf305215c27c0ed5afb
+      datavalue:
+        value: "/m/09hl5"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q25236$4974393F-9BAA-403D-BACD-9ECADA169E59
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: a28096bfdc9d0869f0738e1c0f5b90602552fc6c
+      datavalue:
+        value:
+          amount: "+1"
+          unit: http://www.wikidata.org/entity/Q25236
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q25236$b5cafed9-4be8-f744-9e53-468656575585
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 61dc669d89f7fcb7a52ca1c19a306fc83e98a3c3
+      datavalue:
+        value: Watt
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q25236$6301218A-1A56-47C5-B10E-6A9840198FD3
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 67975d1096e3104e0d615b341d0c2a8dc15923c1
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 25342
+          id: Q25342
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q25236$3e7f371e-43af-c2f4-d01d-f7d072e05eec
+    rank: normal
+    references:
+    - hash: 04236527a1d6139c066bc969a1e83e439efc00ba
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 587564898ba1c818316ca0a7af2bb0867f80d4bb
+          datavalue:
+            value: '18'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: a8acdbdb9ade23dbae3d6835a293e04c6df76a0f
+          datavalue:
+            value: 6.5.3
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P144:
+  - mainsnak:
+      snaktype: value
+      property: P144
+      hash: 5c59ec8ef07c5ab2bc69471b543f2f37a85d10c9
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 25269
+          id: Q25269
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P2534:
+      - snaktype: value
+        property: P2534
+        hash: 488a2f1bbc676145628ccf269156b7be93c51c41
+        datavalue:
+          value: "\\text{W} = \\frac{\\text{J}}{\\text{s}}"
+          type: string
+        datatype: math
+    qualifiers-order:
+    - P2534
+    id: Q25236$1561d526-45a5-c1ac-7b35-36b995b89448
+    rank: normal
+    references:
+    - hash: 04236527a1d6139c066bc969a1e83e439efc00ba
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 587564898ba1c818316ca0a7af2bb0867f80d4bb
+          datavalue:
+            value: '18'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: a8acdbdb9ade23dbae3d6835a293e04c6df76a0f
+          datavalue:
+            value: 6.5.3
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  - mainsnak:
+      snaktype: value
+      property: P144
+      hash: ebf5624ca36a2a70da95989b39899b5a0655869f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11574
+          id: Q11574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P2534:
+      - snaktype: value
+        property: P2534
+        hash: 488a2f1bbc676145628ccf269156b7be93c51c41
+        datavalue:
+          value: "\\text{W} = \\frac{\\text{J}}{\\text{s}}"
+          type: string
+        datatype: math
+    qualifiers-order:
+    - P2534
+    id: Q25236$5e682c94-4523-d144-6817-0680c5d6b6af
+    rank: normal
+    references:
+    - hash: 04236527a1d6139c066bc969a1e83e439efc00ba
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 587564898ba1c818316ca0a7af2bb0867f80d4bb
+          datavalue:
+            value: '18'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: a8acdbdb9ade23dbae3d6835a293e04c6df76a0f
+          datavalue:
+            value: 6.5.3
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 444329621bd5447b05685e8615f1bd8e5305f997
+      datavalue:
+        value: watt
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q25236$54958876-CAF0-4EB1-B583-935F8BD0F8FB
+    rank: normal
+  P3569:
+  - mainsnak:
+      snaktype: value
+      property: P3569
+      hash: bb8c6dedd07a60f1a6f55590179ddd1b63b2a48f
+      datavalue:
+        value: natuurkunde-scheikunde-en-sterrenkunde/watt
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q25236$973C065F-5D48-4842-A534-B941B283203B
+    rank: normal
+sitelinks:
+  anwiki:
+    site: anwiki
+    title: Watt
+    badges: []
+  arwiki:
+    site: arwiki
+    title: واط
+    badges: []
+  arzwiki:
+    site: arzwiki
+    title: وات
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Vatiu
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Vatt
+    badges: []
+  bat_smgwiki:
+    site: bat_smgwiki
+    title: Vats
+    badges: []
+  bawiki:
+    site: bawiki
+    title: Ватт
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Ват
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Ват (адзінка вымярэння)
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Ват
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: ওয়াট (একক)
+    badges: []
+  bowiki:
+    site: bowiki
+    title: ཝ་ཐི།
+    badges: []
+  brwiki:
+    site: brwiki
+    title: Watt
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Vat
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Watt
+    badges: []
+  ckbwiki:
+    site: ckbwiki
+    title: وات
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Watt
+    badges: []
+  cvwiki:
+    site: cvwiki
+    title: Ватт
+    badges: []
+  cywiki:
+    site: cywiki
+    title: Wat
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Watt
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Watt (Einheit)
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Βατ (μονάδα μέτρησης)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Watt
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Vato (mezurunuo)
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Vatio
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Vatt
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Watt
+    badges: []
+  fawiki:
+    site: fawiki
+    title: وات
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Watti
+    badges: []
+  frrwiki:
+    site: frrwiki
+    title: Watt (ianhaid)
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Watt
+    badges: []
+  furwiki:
+    site: furwiki
+    title: Wat
+    badges: []
+  fywiki:
+    site: fywiki
+    title: Watt (ienheid)
+    badges: []
+  ganwiki:
+    site: ganwiki
+    title: 瓦
+    badges: []
+  gawiki:
+    site: gawiki
+    title: Vata
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Watt
+    badges: []
+  hewiki:
+    site: hewiki
+    title: ואט
+    badges: []
+  hifwiki:
+    site: hifwiki
+    title: Watt
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: वॉट
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Vat
+    badges: []
+  htwiki:
+    site: htwiki
+    title: Wat
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Watt (mértékegység)
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Վատտ (չափման միավոր)
+    badges: []
+  iawiki:
+    site: iawiki
+    title: Watt
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Watt
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Vatt
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Watt
+    badges: []
+  jamwiki:
+    site: jamwiki
+    title: Wat
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ワット
+    badges: []
+  kawiki:
+    site: kawiki
+    title: ვატი
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Ватт
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 와트
+    badges: []
+  krcwiki:
+    site: krcwiki
+    title: Ватт
+    badges: []
+  kuwiki:
+    site: kuwiki
+    title: Wat
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Vattium
+    badges: []
+  liwiki:
+    site: liwiki
+    title: Watt
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Vatas
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Vats
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Ват
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: വാട്ട്
+    badges: []
+  mnwiki:
+    site: mnwiki
+    title: Ватт (нэгж)
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: वॅट
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Watt
+    badges: []
+  mywiki:
+    site: mywiki
+    title: ဝပ်
+    badges: []
+  newwiki:
+    site: newwiki
+    title: वाट
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Watt (eenheid)
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Watt
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Watt
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Watt
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਵਾਟ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Wat
+    badges: []
+  pmswiki:
+    site: pmswiki
+    title: Watt
+    badges: []
+  pnbwiki:
+    site: pnbwiki
+    title: واٹ
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Watt
+    badges: []
+  roa_tarawiki:
+    site: roa_tarawiki
+    title: Watt
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Watt
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Ватт
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Watt
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Watt
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Vat
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Watt
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Watt (jednotka)
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Vat
+    badges: []
+  sqwiki:
+    site: sqwiki
+    title: Watt
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Ват
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Watt
+    badges: []
+  swwiki:
+    site: swwiki
+    title: Wati
+    badges: []
+  tawiki:
+    site: tawiki
+    title: வாட்டு (அலகு)
+    badges: []
+  tewiki:
+    site: tewiki
+    title: వాట్
+    badges: []
+  thwiki:
+    site: thwiki
+    title: วัตต์
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Watt
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Watt
+    badges: []
+  ttwiki:
+    site: ttwiki
+    title: Ватт
+    badges: []
+  tyvwiki:
+    site: tyvwiki
+    title: Ватт
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Ват
+    badges: []
+  urwiki:
+    site: urwiki
+    title: واٹ
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Vatt
+    badges: []
+  vecwiki:
+    site: vecwiki
+    title: Watt
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Watt
+    badges: []
+  warwiki:
+    site: warwiki
+    title: Watt
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Óa
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 瓦 (單位)
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 瓦特
+    badges: []

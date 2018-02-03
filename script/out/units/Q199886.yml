@@ -1,0 +1,380 @@
+---
+pageid: 196865
+ns: 0
+title: Q199886
+lastrevid: 622662014
+modified: '2018-01-22T21:11:22Z'
+type: item
+id: Q199886
+labels:
+  en:
+    language: en
+    value: Tajikistani somoni
+aliases:
+  en:
+  - language: en
+    value: TJS
+  - language: en
+    value: Somoni
+  - language: en
+    value: Tajik Somoni
+  - language: en
+    value: currency of Tajikistan
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: c46cc243447989cc04ecb48f612785e79504af31
+      datavalue:
+        value: Money of Tajikistan
+        type: string
+      datatype: string
+    type: statement
+    id: q199886$1B806210-F739-40DD-B892-467A441979CA
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q199886$76461A13-B1C2-4AE6-8805-88A1D418BEC4
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 8da0acc5900a3e2f60ef8c105ea75442646a31a2
+      datavalue:
+        value: TJS
+        type: string
+      datatype: external-id
+    type: statement
+    id: q199886$2345b8d8-4d3a-edad-e6b6-af11c55b2aed
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 57859564dce8ce5d4ec9c48cebbc2a90316e7ca2
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 4314981
+          id: Q4314981
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q199886$53D8D602-BE3F-45DE-9563-F8D173B66480
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 5b13e2be75bb44a4b370f74e760d5d9a434c3665
+      datavalue:
+        value: "/m/0370bp"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q199886$81BDB554-AE25-4F9D-B1B9-D2C8C610FC6E
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 87f16b0da8c7744fd9dceb2af6fb81be3085ecc1
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 863
+          id: Q863
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q199886$518a4b6d-4e60-bd70-1793-e88503f7426c
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 576eeb612b33249f4ef5eddf208da6749a22c507
+      datavalue:
+        value: '500258'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q199886$718E736B-27F0-4492-B6C7-0B9A36C53D92
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Somoni
+    badges: []
+  arwiki:
+    site: arwiki
+    title: ساماني طاجيكي
+    badges: []
+  arzwiki:
+    site: arzwiki
+    title: سومونى طاجيكى
+    badges: []
+  azbwiki:
+    site: azbwiki
+    title: تاجیکیستان سومونی
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Somoni
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Сомані
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Самоні
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Таджикистански сомони
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: তাজিকিস্তানি সোমোনি
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Somoni
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Tádžický somoni
+    badges: []
+  cywiki:
+    site: cywiki
+    title: Somoni
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Somoni
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Somoni
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Σομόνι
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Tajikistani somoni
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Taĝika somonio
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Somoni tayiko
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Tadžikistani somoni
+    badges: []
+  fawiki:
+    site: fawiki
+    title: سامانی (واحد پول)
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Tadžikistanin somoni
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Somoni
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Tadžikistanski somoni
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Tádzsik szomoni
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Somoni
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Somoni tagiko
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ソモニ
+    badges: []
+  kawiki:
+    site: kawiki
+    title: სომონი
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 타지키스탄 소모니
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Таджикистанса сомони
+    badges: []
+  kywiki:
+    site: kywiki
+    title: Сомони
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Somonis
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: ताजिकिस्तानी सोमोनी
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Somoni
+    badges: []
+  mznwiki:
+    site: mznwiki
+    title: سامانی
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Tadzjiekse somoni
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Tadsjikisk somoni
+    badges: []
+  oswiki:
+    site: oswiki
+    title: Сомони
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਤਾਜਿਕਿਸਤਾਨੀ ਸੋਮੋਨੀ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Somoni
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Somoni tadjik
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Сомони
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Tajikistani somoni
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Таџикистански сомони
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Somoni
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Сомонӣ
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Somoni
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Таджицький сомоні
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Somoniy
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: ტაჯიკური სომონი
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Somoni
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Tajikistan somoni
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 塔吉克索莫尼
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 塔吉克斯坦索莫尼
+    badges: []

@@ -1,0 +1,394 @@
+---
+pageid: 5540
+ns: 0
+title: Q4596
+lastrevid: 618823713
+modified: '2018-01-11T12:47:43Z'
+type: item
+id: Q4596
+labels:
+  en:
+    language: en
+    value: Sri Lankan rupee
+aliases:
+  en:
+  - language: en
+    value: Tamil rupee
+  - language: en
+    value: Sri Lankan rupees
+  - language: en
+    value: Sri Lanka Rupee
+  - language: en
+    value: SLRs
+claims:
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 4bea0a45c3613620ef4865ca94ccf3d1e2581660
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 854
+          id: Q854
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4596$1a22c56a-4926-6fd6-21cf-088b9be55cbd
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 9303dc612e2b6c8e915a300313794e832773878f
+      datavalue:
+        value: Money of Sri Lanka
+        type: string
+      datatype: string
+    type: statement
+    id: q4596$012C3038-534F-4362-AE81-36BACD3FD8BF
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q4596$9C882B47-4236-4EE8-B919-9D61F24F2765
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 541e99ea5ee691021e65ffb9b5e05b8f2c043eb0
+      datavalue:
+        value: LKR
+        type: string
+      datatype: external-id
+    type: statement
+    id: q4596$f244016f-4ad9-b8e0-fa8a-dc00452f2ef1
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: a299b9088ffee1680b342f9575f7496a655501a7
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2640939
+          id: Q2640939
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q4596$c1d58ffb-421d-f5c6-6e39-2b991fdeaae3
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 718a22ae5517fb593ac526db35c89b57427c959e
+      datavalue:
+        value: "/m/02gsxw"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q4596$22EAD768-E51F-457B-ABC7-0A45AB95F30C
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2284:
+  - mainsnak:
+      snaktype: value
+      property: P2284
+      hash: 70feaeed93aed1e41fb9176221407f4f067dbca3
+      datavalue:
+        value:
+          amount: "+0.006735"
+          unit: http://www.wikidata.org/entity/Q4917
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: f742be92339cdcc54bf77fbdde9a24b9045f361a
+        datavalue:
+          value:
+            time: "+2016-11-22T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q4596$F2CA3E8A-54A4-43B6-9689-447F0F59B44D
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: 7a01cd7a81ef0593e1cc09e854fc075ca12c72b0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 178843
+          id: Q178843
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4596$74ebd462-41eb-0756-853f-a87c6c01d4d8
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 39ab9cc3e669aad8871c7645ebe6d34e4fe7658e
+      datavalue:
+        value: '500249'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q4596$35064ACA-BBF9-4BCF-AF39-76FB8DF6CA57
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: روبية سريلانكي
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Шриланкийска рупия
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: শ্রীলঙ্কান রুপি
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Rupia de Sri Lanka
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Srilankanske rupee
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Sri-Lanka-Rupie
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Sri Lankan rupee
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Srilanka rupio
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Rupia de Sri Lanka
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Errupia srilankar
+    badges: []
+  fawiki:
+    site: fawiki
+    title: روپیه سری‌لانکا
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Sri Lankan rupia
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Roupie srilankaise
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Rupia de Sri Lanka
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: श्रीलंकाई रुपया
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Šrilanska rupija
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Srí Lanka-i rúpia
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Rupee Sri Lanka
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Rupia singalese
+    badges: []
+  jawiki:
+    site: jawiki
+    title: スリランカ・ルピー
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 스리랑카 루피
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Шри-Ланкаса рупия
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Šri Lankos rupija
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: ശ്രീലങ്കൻ രൂപ
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: श्रीलंकी रुपया
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Sri Lankaanse roepie
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Srilankisk rupi
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਸ੍ਰੀਲੰਕਾਈ ਰੁਪਿਆ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Rupia lankijska
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Rupia do Sri Lanka
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Шри-ланкийская рупия
+    badges: []
+  sahwiki:
+    site: sahwiki
+    title: Сри Ланка рупията
+    badges: []
+  siwiki:
+    site: siwiki
+    title: ශ්‍රී ලංකා රුපියල
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Шриланчанска рупија
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Lankesisk rupee
+    badges: []
+  tawiki:
+    site: tawiki
+    title: இலங்கை ரூபாய்
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Рупии Шри Ланка
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Rupee ng Sri Lanka
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Sri Lanka rupisi
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Рупія Шрі-Ланки
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Rupee Sri Lanka
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: შრი-ლანკური რუპია
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Rupee Sri Lanka
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Sri Lanka rupee
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 斯里蘭卡盧比
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 斯里蘭卡盧比
+    badges: []

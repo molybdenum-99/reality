@@ -1,0 +1,104 @@
+---
+pageid: 27868547
+ns: 0
+title: Q25915555
+lastrevid: 357779303
+modified: '2016-07-16T21:00:35Z'
+type: item
+id: Q25915555
+labels:
+  en:
+    language: en
+    value: pechys histonikos
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1c41b2ea8a3f6d3fab77c103d826ae5ead7a9c01
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1978718
+          id: Q1978718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q25915555$93DAD931-1F4D-4465-92BD-0FB0150004AC
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 8d75fa5d12c9f32ffc85f2a1a5e77c5160f66ae1
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 607056
+          id: Q607056
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q25915555$B5B484FA-A84B-435B-AE83-79959D1686C9
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: d6612d7c4092e6165a07712de41a255743774cb6
+      datavalue:
+        value:
+          amount: "+32"
+          unit: http://www.wikidata.org/entity/Q25906460
+          upperBound: "+32"
+          lowerBound: "+32"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q25915555$AB4DA268-2509-404B-B0BD-4F4FE530E067
+    rank: normal
+    references:
+    - hash: d17a3150534a4571fc89d2d0e15af38ee394b067
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 4b566941aa961aabf1295e4f2035f3aec8e534a5
+          datavalue:
+            value: http://www.hellenicaworld.com/Greece/Technology/en/Measurements.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: e44064de70fa6bf638492bc0fc1df9da1b2795af
+          datavalue:
+            value:
+              time: "+2016-07-16T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: 4c775b9826b30bebeeea71f9d67e01fe02f18755
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1230524
+          id: Q1230524
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q25915555$7EFE8B2D-EAE7-4458-9813-FC19D41FF8B8
+    rank: normal
+sitelinks: {}

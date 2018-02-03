@@ -1,0 +1,380 @@
+---
+pageid: 233828
+ns: 0
+title: Q240512
+lastrevid: 618744474
+modified: '2018-01-11T09:21:38Z'
+type: item
+id: Q240512
+labels:
+  en:
+    language: en
+    value: Yemeni rial
+aliases: {}
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: f2f6a5b29340792f5f7b1d35ad64cc1d3afdcfcb
+      datavalue:
+        value: Money of Yemen
+        type: string
+      datatype: string
+    type: statement
+    id: q240512$0CDEFC38-9626-4251-8912-97E09354AA35
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q240512$D506855F-BFED-425B-BD37-F0C58159FBB4
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 9131bb2b334abb11e2dda5e5147c1fe1941e8aed
+      datavalue:
+        value: YER
+        type: string
+      datatype: external-id
+    type: statement
+    id: q240512$576b6b92-48fa-c72c-6f17-bd0ffde2d4ca
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: d6884dad0717a959560dc0d4b829db180b523b9f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1797039
+          id: Q1797039
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q240512$194C07E9-D0F4-4E39-8653-84D2A40CD91A
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 89627f9ed2dc4cc68698a6f777823d5981d6b130
+      datavalue:
+        value: "/m/05yxwz"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q240512$001D78B5-F26E-4AEA-9E6D-AAF84C3F897A
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 8086bccb01f90608bfc66ed847c49561679fbc5a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 805
+          id: Q805
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q240512$ffd950b5-40ee-ea8c-b734-1819438e0186
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 82b1cfe1457fd5f18c0646dc71283bce15e93364
+      datavalue:
+        value: 10 Yemeni rials - obverse.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q240512$3219C7E5-BF5D-438B-939F-7631A4A383D7
+    rank: normal
+  P856:
+  - mainsnak:
+      snaktype: value
+      property: P856
+      hash: f0b840cc536d81f5a4ae0bcc7c2828a7f2e2a234
+      datavalue:
+        value: http://www.centralbank.gov.ye/
+        type: string
+      datatype: url
+    type: statement
+    id: Q240512$8DD8E4AA-B4A0-4102-88AE-C6232157E518
+    rank: normal
+  P2284:
+  - mainsnak:
+      snaktype: value
+      property: P2284
+      hash: 422fb2baa0365075c4a3ee15c7df976b8cbf16b0
+      datavalue:
+        value:
+          amount: "+0.0037037037037037"
+          unit: http://www.wikidata.org/entity/Q4917
+          upperBound: "+0.0037037037037038"
+          lowerBound: "+0.0037037037037036"
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: f49638d271db8f03dac503c9e8cd63adf05bc492
+        datavalue:
+          value:
+            time: "+2016-04-01T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q240512$0adbefa6-45a4-96b4-85f4-83e0a2dd0408
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: e9a88c294aaafc41ba998975a62ad01474581163
+      datavalue:
+        value: '500275'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q240512$22B43A89-EBA3-4A38-85A3-A95AE3D9340E
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: ريال يمني
+    badges: []
+  arzwiki:
+    site: arzwiki
+    title: ريال يمنى
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Yəmən rialı
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Еменскі рыял
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Йеменски риал
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: ইয়েমেনি রিয়াল
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Jemenski rijal
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Rial iemenita
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Jemen-Rial
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Ριάλ Υεμένης
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Yemeni rial
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Jemena rialo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Rial yemení
+    badges: []
+  fawiki:
+    site: fawiki
+    title: ریال یمن
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Jemenin rial
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Riyal yéménite
+    badges: []
+  hewiki:
+    site: hewiki
+    title: ריאל תימני
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Jemenski rijal
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Jemeni riál
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Rial Yaman
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Riyal yemenita
+    badges: []
+  jawiki:
+    site: jawiki
+    title: イエメン・リアル
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 예멘 리알
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Йеменса риал
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Jemeno rialas
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: येमेनी रियाल
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Jemenitische rial
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Jemenittisk rial
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਯਮਨੀ ਰਿਆਲ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Rial jemeński
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Rial iemenita
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Йеменский риал
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Jemenský rial
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Јеменски ријал
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Jemenitisk rial
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Риали Йемен
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Yemen riyali
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Єменський ріал
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: იემენური რიალი
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Rial Yemeni
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Yemen rial
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 葉門里亞爾
+    badges: []

@@ -1,0 +1,574 @@
+---
+pageid: 1263376
+ns: 0
+title: Q1323615
+lastrevid: 619633621
+modified: '2018-01-13T09:11:48Z'
+type: item
+id: Q1323615
+labels:
+  en:
+    language: en
+    value: troy ounce
+aliases:
+  en:
+  - language: en
+    value: t oz
+  - language: en
+    value: oz t
+claims:
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: eb179a72b250b0aad1efe2b76c46256452f0a1ce
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1974806
+          id: Q1974806
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1323615$0504f8ed-46c5-ecb7-f982-0e8508945466
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 5cf5f23f17299c5881500c244e29678078032aaa
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 620565
+          id: Q620565
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1323615$555202ae-4bbd-ba8f-aa41-4e0ad754b43b
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 954edbd3fef27ce6396c0878a95c608ca4ed84af
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3647172
+          id: Q3647172
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1323615$3c5036ec-4543-e56d-40c9-8b21f09184bb
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 7c08c4495c13be99b7eab7722d2b4f3d5ee19ede
+      datavalue:
+        value:
+          amount: "+0.0311034768"
+          unit: http://www.wikidata.org/entity/Q11570
+          upperBound: "+0.0311034768"
+          lowerBound: "+0.0311034768"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1323615$4df3f89c-4695-984a-6216-236ba33b3cb5
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: d3bda650e632745101a05d9cf6a282ad896ca86a
+      datavalue:
+        value: oz t
+        type: string
+      datatype: string
+    type: statement
+    id: Q1323615$f583d6aa-4ee3-0f96-3e41-b6f8ac139f26
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 44f0a1989b50bd089bd34b5292ab35abba0db069
+      datavalue:
+        value:
+          amount: "+480"
+          unit: http://www.wikidata.org/entity/Q693944
+          upperBound: "+480"
+          lowerBound: "+480"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1323615$7c24dadd-46a9-682e-3301-30f9b284e412
+    rank: normal
+    references:
+    - hash: 2cd11ef096b536b8be47e5c43b6264733b8b235a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 037df92fb8af53db11237540215752cd653723b5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 23074364
+              id: Q23074364
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+    - hash: b0e81db0b778a7f31c424b21af1d844b2f86814f
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e3c05bc8381be6155cd73ad1943b40babeabf503
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 23074366
+              id: Q23074366
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: d5603d1fb10216efcb3696be3c4a5d4c1f28cf2d
+      datavalue:
+        value:
+          amount: "+24"
+          unit: http://www.wikidata.org/entity/Q1573593
+          upperBound: "+24"
+          lowerBound: "+24"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1323615$2aa13f98-474e-b12e-0c90-de099bdbfbb0
+    rank: normal
+    references:
+    - hash: 2cd11ef096b536b8be47e5c43b6264733b8b235a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 037df92fb8af53db11237540215752cd653723b5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 23074364
+              id: Q23074364
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+    - hash: b0e81db0b778a7f31c424b21af1d844b2f86814f
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e3c05bc8381be6155cd73ad1943b40babeabf503
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 23074366
+              id: Q23074366
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 57b2446011f499e93ee20d8619b08555b2e36d4c
+      datavalue:
+        value:
+          amount: "+8"
+          unit: http://www.wikidata.org/entity/Q4068266
+          upperBound: "+8"
+          lowerBound: "+8"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1323615$05bf3b79-4336-b774-ef3e-241b1e79f0ac
+    rank: normal
+    references:
+    - hash: 2cd11ef096b536b8be47e5c43b6264733b8b235a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 037df92fb8af53db11237540215752cd653723b5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 23074364
+              id: Q23074364
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+    - hash: b0e81db0b778a7f31c424b21af1d844b2f86814f
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e3c05bc8381be6155cd73ad1943b40babeabf503
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 23074366
+              id: Q23074366
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: ddd66ff36c2788d3defeb7fdc2bf0c43640def6e
+      datavalue:
+        value:
+          amount: "+0.03110348"
+          unit: http://www.wikidata.org/entity/Q11570
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1323615$40713da3-494d-6ab8-647c-dfc123c0bbc7
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 660ea43b090a9216a70d2b402cb0868599862fb8
+      datavalue:
+        value:
+          amount: "+0.06857143"
+          unit: http://www.wikidata.org/entity/Q100995
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1323615$42f9cf3c-4c29-8b3f-9ea1-86cd2b96ac1c
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: d0fb9b899ee28b4ec9b789bd141b482440073bba
+      datavalue:
+        value:
+          amount: "+1.097143"
+          unit: http://www.wikidata.org/entity/Q48013
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1323615$9f54bf8f-4fc3-9043-7a07-78278c6006af
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 6d3a8478d7d07a6e8a8e6ce9e118056596d865ba
+      datavalue:
+        value:
+          amount: "+0.004897959"
+          unit: http://www.wikidata.org/entity/Q1131660
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1323615$3013090d-4b53-93d2-1d2b-8258ab055d59
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: e581aa9d61454cccd722c3a49a6b3ca602b82a76
+      datavalue:
+        value:
+          amount: "+0.00003110348"
+          unit: http://www.wikidata.org/entity/Q191118
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1323615$0975cc4a-47b3-7968-bbba-e5a870000140
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 80e160acc1144527997f409be01f9f20869ac4f3
+      datavalue:
+        value:
+          amount: "+31.10348"
+          unit: http://www.wikidata.org/entity/Q41803
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1323615$7c4f12e5-492a-74bc-d8d0-9dcad12f8ae6
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 1f7ff58a832b799758536a7062a895bf3ff27ae1
+      datavalue:
+        value:
+          amount: "+155.5174"
+          unit: http://www.wikidata.org/entity/Q261247
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1323615$75a42eb2-4ac4-2ded-c3a1-2e6fe529afc7
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: e22563aea66552fd16c881fad81ccb8b9ae5f2d1
+      datavalue:
+        value:
+          amount: "+31103.48"
+          unit: http://www.wikidata.org/entity/Q3241121
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1323615$8a26c1f1-4548-d611-6d77-6b730108ddac
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 4b372cd94800c52aa66b502504066dbb2f5317e2
+      datavalue:
+        value:
+          amount: "+31103480"
+          unit: http://www.wikidata.org/entity/Q1645498
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1323615$f66ffc75-4396-e077-b65a-c93c0f932a0b
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 68c71dc4ba62dbc6c619ab32ee6749e2fc2696d4
+      datavalue:
+        value:
+          amount: "+0.00003061224"
+          unit: http://www.wikidata.org/entity/Q667419
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1323615$161a9116-49b1-d3ee-2512-fb3fd8c73115
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 06d975700763c8d0fc00b1c504240ae08f0ff654
+      datavalue:
+        value:
+          amount: "+0.00003428571"
+          unit: http://www.wikidata.org/entity/Q469356
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1323615$8d49f4a8-49e1-3058-74e3-b27e001ad082
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: e134e95a11b418ac5211e02c13a433c45b8a3b8d
+      datavalue:
+        value:
+          amount: "+0.0006857143"
+          unit: http://www.wikidata.org/entity/Q39617526
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1323615$5d2298e9-457d-87a8-f441-05bed3fe24d2
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 4366718cdb7cb54a7a67781f33081ff4816d1911
+      datavalue:
+        value:
+          amount: "+0.0006122449"
+          unit: http://www.wikidata.org/entity/Q39617688
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1323615$a4096de9-4e1b-deb7-0ae4-971a6795ec28
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: dd4545a0bc07a43e4cffa2c577c57593824e4a11
+      datavalue:
+        value:
+          amount: "+0.08333333"
+          unit: http://www.wikidata.org/entity/Q39617818
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1323615$ca2107bb-4af6-bcf1-317e-c199503c9cbb
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 4a49974d87320ee7d36006c1a45a7b550459a3ba
+      datavalue:
+        value:
+          amount: "+20"
+          unit: http://www.wikidata.org/entity/Q1361854
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1323615$fb6b0f89-4133-7436-99b7-01cce0464e0c
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 883041f49e9922dd794170aa56783749ac958cd7
+      datavalue:
+        value:
+          amount: "+480"
+          unit: http://www.wikidata.org/entity/Q693944
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1323615$0d98cb35-4e9a-2e6a-29ba-7ca4ad0b84f3
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 16653c4848e0552e9604edc668341bd5f95825a4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11423
+          id: Q11423
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1323615$01414344-3E3E-40FB-9343-9E41A897D017
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: d1fcbb3493119c75be49cf690d82a13313fe661a
+      datavalue:
+        value: Troy ounce
+        type: string
+      datatype: string
+    type: statement
+    id: Q1323615$EEA03ED4-C5CA-46F0-A55A-E0CCCF12C8DF
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: الأوقية الترويسية
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Тройская унцыя
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Тройская унцыя
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Тройунция
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Unça troy
+    badges: []
+  commonswiki:
+    site: commonswiki
+    title: Category:Troy ounce
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Troyská unce
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Feinunze
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Troy ounce
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Onza troy
+    badges: []
+  fawiki:
+    site: fawiki
+    title: اونس تروا
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Once troy
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Oncia troy
+    badges: []
+  jawiki:
+    site: jawiki
+    title: トロイオンス
+    badges: []
+  kawiki:
+    site: kawiki
+    title: ტროას უნცია
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Троя унциясы
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 트로이 온스
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Trojos uncija
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Troy ounce
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Uncie troy
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Тройская унция
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Troyská unca
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Troy ons
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Тройська унція
+    badges: []
+  urwiki:
+    site: urwiki
+    title: ٹرائے اونس
+    badges: []
+  warwiki:
+    site: warwiki
+    title: Onza troya
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 金衡盎司
+    badges: []

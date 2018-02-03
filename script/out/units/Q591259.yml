@@ -1,0 +1,185 @@
+---
+pageid: 556362
+ns: 0
+title: Q591259
+lastrevid: 624944646
+modified: '2018-01-31T01:43:04Z'
+type: item
+id: Q591259
+labels:
+  en:
+    language: en
+    value: lunar month
+aliases:
+  en:
+  - language: en
+    value: moon month
+  - language: en
+    value: Synodic month
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: dd1a2b0a8296ab537d7c78ca30620d5205d45eca
+      datavalue:
+        value: "/m/01jbgv"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q591259$19B47B90-9AFE-4D97-9AED-2AC00231C059
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 98a1e85b80bda7ff493c25a6b805599da715c077
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1790144
+          id: Q1790144
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q591259$BE13F9E8-180B-42D1-8C29-BB090AA08141
+    rank: normal
+  P2047:
+  - mainsnak:
+      snaktype: value
+      property: P2047
+      hash: e6c848e57195b3be9ec12ee6161e43d7f9fb2bbc
+      datavalue:
+        value:
+          amount: "+28"
+          unit: http://www.wikidata.org/entity/Q573
+          upperBound: "+29"
+          lowerBound: "+27"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q591259$74f00b2f-4c85-cf77-e641-ef0137c65cd5
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: 9b9d135153ddac0d4f75324fece9d99249f058e8
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 5151
+          id: Q5151
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q591259$54db9de1-463a-29fb-ff09-6f6b7c813124
+    rank: normal
+  P3827:
+  - mainsnak:
+      snaktype: value
+      property: P3827
+      hash: 14c1b49b4f398e9917260dc6c7613249a0a1798d
+      datavalue:
+        value: anomalistic-month
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q591259$257FCFC8-6E47-4D9A-8F91-1C5A3F3C785E
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Maanmaand
+    badges: []
+  arwiki:
+    site: arwiki
+    title: شهر قمري
+    badges: []
+  bhwiki:
+    site: bhwiki
+    title: चंद्र मास
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Lunation
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Σεληνιακός μήνας
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Lunar month
+    badges: []
+  fowiki:
+    site: fowiki
+    title: Mánamánaður
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Mois lunaire
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: चंद्रमास
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 朔望月
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Lunatio
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Maanmaand
+    badges: []
+  orwiki:
+    site: orwiki
+    title: ଚାନ୍ଦ୍ରମାସ
+    badges: []
+  tewiki:
+    site: tewiki
+    title: చంద్ర మాసము
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Sok-bōng-goe̍h
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 朔望月
+    badges: []

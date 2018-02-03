@@ -1,0 +1,47 @@
+---
+pageid: 43531531
+ns: 0
+title: Q42247535
+lastrevid: 581136675
+modified: '2017-10-19T07:30:47Z'
+type: item
+id: Q42247535
+labels:
+  en:
+    language: en
+    value: test
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 4666785931b241465e4efa553d1c547f39bce935
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 625642
+          id: Q625642
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P580:
+      - snaktype: value
+        property: P580
+        hash: 11732ae823343206a28edd88abf17d759a44b922
+        datavalue:
+          value:
+            time: "+2009-09-09T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P580
+    id: Q42247535$132dc05e-47cf-03cd-2b3d-afef578c62e2
+    rank: normal
+sitelinks: {}

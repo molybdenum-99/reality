@@ -1,0 +1,69 @@
+---
+pageid: 4083097
+ns: 0
+title: Q4272180
+lastrevid: 491643388
+modified: '2017-05-28T21:00:07Z'
+type: item
+id: Q4272180
+labels:
+  en:
+    language: en
+    value: Luxembourgian livre
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4272180$19267479-5A4C-45C1-9BB9-997E2607DB73
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: b7b7a6422016173e6d4fde4e169175d06ef3a53b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 32
+          id: Q32
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4272180$FAA6C72E-6662-4028-B202-3FF06F8D578F
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Luxembourgian livre
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Люксембургский ливр
+    badges: []

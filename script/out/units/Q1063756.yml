@@ -1,0 +1,249 @@
+---
+pageid: 1012416
+ns: 0
+title: Q1063756
+lastrevid: 560454583
+modified: '2017-09-17T05:25:07Z'
+type: item
+id: Q1063756
+labels:
+  en:
+    language: en
+    value: radian per second
+aliases:
+  en:
+  - language: en
+    value: rad/s
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 50afdc16346d8687f53963f614e8d645419488a0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 208469
+          id: Q208469
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q1063756$F08400F2-D647-43CE-A27D-A43AB09D78C3
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: a06e6dfda7f7fd20ed9d60a7ac891aa30ff13556
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1256787
+          id: Q1256787
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q1063756$ff68aced-443b-a0f1-b2c0-95c86db59c82
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 87b5d23e7a51b22af28802180769792eccdcbcf0
+      datavalue:
+        value: "㎮"
+        type: string
+      datatype: string
+    type: statement
+    id: Q1063756$6dfd298e-4b11-3233-4e92-d1aa8de45325
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: ce32e94c19a1380a0278ad08fa08c53258c909f8
+      datavalue:
+        value: rad/s
+        type: string
+      datatype: string
+    type: statement
+    id: Q1063756$c27eb7d3-4695-9370-c00d-cc07a9fc31ad
+    rank: normal
+    references:
+    - hash: eb9dc6185e42dbbce2acc61a24554be4ead9d162
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: 48aa9f260af57c9fe9690969873029139a7e6b8e
+          datavalue:
+            value: 3-10.a
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+    - hash: 644390a8553a3e5f1eb1a519326051f7e6c0c069
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: c191fc0c21d1f24d21af6890c62c86fed314f9ce
+          datavalue:
+            value: 3-16.a
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 86aff38278cc60b5844234f8274c3f838ede5f09
+      datavalue:
+        value: "/m/0c90_b"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1063756$F4309935-C2B5-46C0-ACF3-A3BBE98ACD0D
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 5dd0040ea487eb58caab1b685f4c555fd6305ab7
+      datavalue:
+        value: radian_per_second-time
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1063756$11BD53E1-844D-423A-B3BD-31BE0555F1C3
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: ff15f234fb09b0e8ebaf197c12af977a00d8d097
+      datavalue:
+        value: RadianPerSecond
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1063756$98b6a3cf-45f9-1cdc-7f81-fffdf17d32f3
+    rank: normal
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: '095b22e5c47a47f7d5e84e00899837038be11bd4'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 26711932
+          id: Q26711932
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P958:
+      - snaktype: value
+        property: P958
+        hash: 48aa9f260af57c9fe9690969873029139a7e6b8e
+        datavalue:
+          value: 3-10.a
+          type: string
+        datatype: string
+    qualifiers-order:
+    - P958
+    id: Q1063756$ce23faf0-443a-f8bf-3de5-859eaed8d9c5
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Radian per second
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Radián por segundo
+    badges: []
+  fawiki:
+    site: fawiki
+    title: رادیان بر ثانیه
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Radian per detik
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ラジアン毎秒
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 라디안 매초
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Radialen per seconde
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Radiano por segundo
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 弧度每秒
+    badges: []

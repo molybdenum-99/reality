@@ -1,0 +1,212 @@
+---
+pageid: 1313689
+ns: 0
+title: Q1374438
+lastrevid: 587849361
+modified: '2017-11-02T14:12:50Z'
+type: item
+id: Q1374438
+labels:
+  en:
+    language: en
+    value: kilosecond
+aliases:
+  en:
+  - language: en
+    value: 1 E3 s
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 98a1e85b80bda7ff493c25a6b805599da715c077
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1790144
+          id: Q1790144
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q1374438$753ba770-4021-2eb6-270d-f441fb8255e3
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 57dddfd1923a526acee3f62bbf9d26d38629bc28
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 9747038
+          id: Q9747038
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1374438$44A2FE44-8269-4CA6-B112-C44E157F3931
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: '059098621e430accaf8812d5d0258bea23fcca84'
+      datavalue:
+        value: ks
+        type: string
+      datatype: string
+    type: statement
+    id: q1374438$984d5894-4ad9-0580-ad6f-db81d321b0dd
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 9cb05c60e13b45c2836906a05072b1a015bf8f92
+      datavalue:
+        value: кс
+        type: string
+      datatype: string
+    type: statement
+    id: Q1374438$774261f8-47a4-7dfe-f933-b5d994bbea1a
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: de790d424d9bd7b7d4767ed15cd04311b05a46d2
+      datavalue:
+        value: "/m/08_rq"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1374438$EB16018D-24EB-415A-A570-85DA38EE7CB4
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 69f3c4c0492f589eab9a60c6e30e124fd1cc742b
+      datavalue:
+        value: kilosecond-time
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1374438$318381B2-C8EA-4188-92C0-C1685D1B8B30
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 031b35b157da5f4ee52be2415cbf4c6ab0a9be54
+      datavalue:
+        value:
+          amount: "+1000"
+          unit: http://www.wikidata.org/entity/Q11574
+          upperBound: "+1000"
+          lowerBound: "+1000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1374438$2ab4a6c6-4d8d-0a8b-c561-5894bde54ec4
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: f24e032a9edffb089eb58a8af5d2b30d49357f73
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11471
+          id: Q11471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1374438$AC4BF446-99DF-4EB4-B2CD-96B4CC0472B9
+    rank: normal
+sitelinks:
+  astwiki:
+    site: astwiki
+    title: Quilosegundu
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Kilosekund
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Kilosecond
+    badges: []
+  fawiki:
+    site: fawiki
+    title: کیلوثانیه
+    badges: []
+  frwiki:
+    site: frwiki
+    title: 1 E3 s
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 1 E3 s
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 1 E3 s
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Kiloseconde
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Kilosekund
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Kilosekund
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Kilosecond
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Kilosekund
+    badges: []
+  thwiki:
+    site: thwiki
+    title: กิโลวินาที
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 千秒
+    badges: []

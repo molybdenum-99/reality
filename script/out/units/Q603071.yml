@@ -1,0 +1,245 @@
+---
+pageid: 567690
+ns: 0
+title: Q603071
+lastrevid: 618614236
+modified: '2018-01-10T22:23:39Z'
+type: item
+id: Q603071
+labels:
+  en:
+    language: en
+    value: Chilean escudo
+aliases: {}
+claims:
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 7e74d91f3907fc9aea537bc0d797c33802345038
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2631674
+          id: Q2631674
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q603071$5A0A77A7-4EB9-4014-827C-43CDCC99D9D2
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 52e4c7bd39ee0c7c15af05f2f498467c69e08937
+      datavalue:
+        value: "/m/08pxdz"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q603071$71A597CF-12EB-4EA6-94DC-6055F092447A
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P580:
+      - snaktype: value
+        property: P580
+        hash: 5a456489d99b73fee9112694802da47e9b4e4b17
+        datavalue:
+          value:
+            time: "+1960-00-00T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 9
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      P582:
+      - snaktype: value
+        property: P582
+        hash: 01f4a058fc8df4866e00b6edb94b26b8835964de
+        datavalue:
+          value:
+            time: "+1975-00-00T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 9
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P580
+    - P582
+    id: Q603071$232e67b3-4621-73a9-f49d-7298767f0d23
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 266a298ed5de8fed6a90d634a4c5ee98d086a7f3
+      datavalue:
+        value: CLE
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q603071$32b35eb7-474b-0082-6987-43ac5b2349ba
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: e8ccd0e986dbab687e97e16135182ba3caa49071
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 298
+          id: Q298
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q603071$c3fe6943-4f2b-41ed-39fd-ecd7fdcb9ae6
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: dafac43eeadea78e94e2eea418ca5b454c4b6cb4
+      datavalue:
+        value: E°
+        type: string
+      datatype: string
+    type: statement
+    id: Q603071$98a1007b-43fc-00bb-97d8-18238a950331
+    rank: normal
+  P1366:
+  - mainsnak:
+      snaktype: value
+      property: P1366
+      hash: f2de1e417ce21eb096420d59a451e59ba512d961
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 200050
+          id: Q200050
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q603071$0831fcea-4069-e8df-b494-b8079b479909
+    rank: normal
+  P1365:
+  - mainsnak:
+      snaktype: value
+      property: P1365
+      hash: ec981e668613dd7ad26969a9c51469011a845118
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 200050
+          id: Q200050
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q603071$90c7324b-47a2-ebf4-0180-072dd353f9da
+    rank: normal
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Escut xilè
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Chilenischer Escudo
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Chilean escudo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Escudo (moneda de Chile)
+    badges: []
+  fawiki:
+    site: fawiki
+    title: اسکودوی شیلی
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Escudo cileno
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Chilensk escudo
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Чилийский эскудо
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Čilenski eskudo
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Чилійський ескудо
+    badges: []

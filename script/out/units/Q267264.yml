@@ -1,0 +1,328 @@
+---
+pageid: 258943
+ns: 0
+title: Q267264
+lastrevid: 617888317
+modified: '2018-01-08T22:58:34Z'
+type: item
+id: Q267264
+labels:
+  en:
+    language: en
+    value: Comorian franc
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q267264$E6E6D5C4-FD35-40F8-B21C-EAFB9A99584B
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: acee20fb0f418cab421482ab32e9db880e943df7
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2604274
+          id: Q2604274
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q267264$B80EA5AB-DA20-4DDE-96B7-C3734DB99963
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: d40fbab09ade2e410934ef45da5411a1574422e1
+      datavalue:
+        value: "/m/05yxq3"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q267264$9942997B-859F-43AE-976F-9D6049D515BB
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 58c5d94d157473f7d4e4ba20966557a65647c369
+      datavalue:
+        value: KMF
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q267264$49b12c91-42e7-54ca-3380-1b2453007a91
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: f622b95eb2dc4f61550eb38d366e0b19c0e004c3
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 970
+          id: Q970
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q267264$2920964d-459a-9d0c-ee8a-d413e2b554b6
+    rank: normal
+  P2284:
+  - mainsnak:
+      snaktype: value
+      property: P2284
+      hash: 9768a8a36623993a20c373908034cafcfc3822ce
+      datavalue:
+        value:
+          amount: "+0.002032654"
+          unit: http://www.wikidata.org/entity/Q4916
+          upperBound: "+0.002032654"
+          lowerBound: "+0.002032654"
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P580:
+      - snaktype: value
+        property: P580
+        hash: 95b5f8757e8297bbca8f42b215a79ac44f5bac0a
+        datavalue:
+          value:
+            time: "+1999-01-01T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P580
+    id: Q267264$f5e3ffa9-4f3b-44bb-bd9e-9d8c5052c2b1
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 205c834276967bb77a4190b051612a5640ebfdf5
+      datavalue:
+        value: '500148'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q267264$2F4AE262-EA47-40DB-A4C4-DF04E4D1A920
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: فرنك قمري
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Komor frankı
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Каморскі франк
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Каморскі франк
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Коморски франк
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: কোমোরিয়ান ফ্রাঙ্ক
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Franc de les Comores
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Komorský frank
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Komoren-Franc
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Φράγκο Κομορών
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Comorian franc
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Komora franko
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Franco comorense
+    badges: []
+  fawiki:
+    site: fawiki
+    title: فرانک کمر
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Komorien frangi
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Franc comorien
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Komorski franak
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Comore-i frank
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Franc Komoro
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Franco delle Comore
+    badges: []
+  jawiki:
+    site: jawiki
+    title: コモロ・フラン
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 코모로 프랑
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Komorų frankas
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: कोमोरियन फ्रँक
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Comorese frank
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Komorisk franc
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Frank komoryjski
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Franco comoriano
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Franc comorian
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Франк Комор
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Коморски франак
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Komorisk franc
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Песои Коморос
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Komor frangı
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Коморський франк
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Franki Kòmórò
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Comoros franc
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 葛摩法郎
+    badges: []

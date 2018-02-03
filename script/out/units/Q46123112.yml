@@ -1,0 +1,47 @@
+---
+pageid: 47265135
+ns: 0
+title: Q46123112
+lastrevid: 610992407
+modified: '2017-12-19T18:13:52Z'
+type: item
+id: Q46123112
+labels:
+  en:
+    language: en
+    value: DALY / 100000 population
+aliases:
+  en:
+  - language: en
+    value: DALY/100000 py
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q46123112$19837d77-4316-31d9-5e4b-1a59a6cf1a6b
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 399ceaab4c1a58771b0f929131c488f4c308abd7
+      datavalue:
+        value:
+          amount: "+0.00001"
+          unit: http://www.wikidata.org/entity/Q55627
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q46123112$8f6c0960-40cc-ab7e-6f75-d09b449b36fc
+    rank: normal
+sitelinks: {}

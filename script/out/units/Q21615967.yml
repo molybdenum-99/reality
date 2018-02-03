@@ -1,0 +1,107 @@
+---
+pageid: 23657028
+ns: 0
+title: Q21615967
+lastrevid: 609518926
+modified: '2017-12-15T09:06:44Z'
+type: item
+id: Q21615967
+labels:
+  en:
+    language: en
+    value: cubic meter per mole
+aliases:
+  en:
+  - language: en
+    value: m3/mol
+  - language: en
+    value: cubic metre per mole
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 50afdc16346d8687f53963f614e8d645419488a0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 208469
+          id: Q208469
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q21615967$92232b07-4197-d55b-46aa-94778ba52c0e
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: ac5198eb1dafea198dda8ce3ae9bc94ebb422866
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 487112
+          id: Q487112
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q21615967$a03f76b6-4f79-54a4-8d65-3b792d4e7344
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: bc289250aecc00a03c84290500e186827fe5c9ee
+      datavalue:
+        value: m³/mol
+        type: string
+      datatype: string
+    type: statement
+    id: Q21615967$60badb00-411f-54a9-807e-d20bda5d2693
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 44c63ad1ac2be5086ebfcaeff33bf0a8253dc769
+      datavalue:
+        value:
+          amount: "+1000"
+          unit: http://www.wikidata.org/entity/Q24008536
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q21615967$00e7a524-4d20-1e31-8e72-875c5958355b
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 3343f7301b6def537af8cb532ad939f746b67b31
+      datavalue:
+        value:
+          amount: "+1000000"
+          unit: http://www.wikidata.org/entity/Q24008537
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q21615967$6434d1cc-4486-e05f-5d49-37c3cd1daa4a
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 393c6af56595e2a8d8bb222c34160fbdc2b608d6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 487112
+          id: Q487112
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q21615967$29a7066e-4500-5dab-568f-6cbe2edff1c9
+    rank: normal
+sitelinks:
+  astwiki:
+    site: astwiki
+    title: Metru cúbicu por mol
+    badges: []

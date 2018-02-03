@@ -1,0 +1,220 @@
+---
+pageid: 688959
+ns: 0
+title: Q732707
+lastrevid: 615701646
+modified: '2018-01-02T07:07:34Z'
+type: item
+id: Q732707
+labels:
+  en:
+    language: en
+    value: megahertz
+aliases:
+  en:
+  - language: en
+    value: MHz
+  - language: en
+    value: "㎒"
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 55df5e4599c9794ce5794e2769bc336fde4028ff
+      datavalue:
+        value: MHz
+        type: string
+      datatype: string
+    type: statement
+    id: q732707$d7426aec-4639-2775-2bb7-860cc2bf0ad2
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: c8a1fc8f97f61eb17150401eb4c93e0a851f7e6b
+      datavalue:
+        value: МГц
+        type: string
+      datatype: string
+    type: statement
+    id: Q732707$4c357bba-454e-aad2-5983-3d791cc2c1f0
+    rank: normal
+  P487:
+  - mainsnak:
+      snaktype: value
+      property: P487
+      hash: 59c24ffd6aaf2e0cbcacb94fbd1570c12ce437df
+      datavalue:
+        value: "㎒"
+        type: string
+      datatype: string
+    type: statement
+    id: q732707$4622d500-4f82-55e6-dc6b-9c41d34804d0
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 939eca17a8c8ef82428dff47f7a90d49402fd719
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11652
+          id: Q11652
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q732707$80ca18bd-468f-fbed-c196-b24e39c70fb2
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q732707$756965ab-4b69-4e3f-1a40-898abcc9b3af
+    rank: normal
+  P2144:
+  - mainsnak:
+      snaktype: value
+      property: P2144
+      hash: 904f518ecb3db5a57b7a41ff0b7d02d29c18d366
+      datavalue:
+        value:
+          amount: "+1000"
+          unit: http://www.wikidata.org/entity/Q2143992
+          upperBound: "+1000"
+          lowerBound: "+1000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q732707$31e3b308-4139-7c4e-c6d9-9152cb3bddad
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2144
+      hash: 6541a6d5f2c237f5a16ea7dc7af7dcb72edbfb61
+      datavalue:
+        value:
+          amount: "+0.001"
+          unit: http://www.wikidata.org/entity/Q3276763
+          upperBound: "+0.001"
+          lowerBound: "+0.001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q732707$eb45c297-4c09-e23c-edb0-1ae6dd4bb0ef
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: d36920b67e3b9b85ad6fffa086f16e520fc77d29
+      datavalue:
+        value:
+          amount: "+1000000"
+          unit: http://www.wikidata.org/entity/Q39369
+          upperBound: "+1000000"
+          lowerBound: "+1000000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q732707$f9d19edf-448c-7d58-112a-1a7acd0c6397
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 3f4ff7f9631367e7a18857b3aaf3a75836f5ff9e
+      datavalue:
+        value: Megahertz
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q732707$C9BD790E-D775-4F72-BF43-3244C986D839
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: b13c29828bf245106f8188ab2d442a8dd94c5ffd
+      datavalue:
+        value: MegaHertz
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q732707$222e566a-416f-0177-086b-dd05d0ac2f06
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 567514c1a09bd8338ef549ff4b70bd66cb720032
+      datavalue:
+        value: megahertz
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q732707$8e29c3f4-4d86-e21b-427f-5e512ea79a72
+    rank: normal
+sitelinks:
+  dawiki:
+    site: dawiki
+    title: Megahertz
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Megahertz
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Megaherco
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Megahercio
+    badges: []
+  hakwiki:
+    site: hakwiki
+    title: Seu-Het
+    badges: []
+  jawiki:
+    site: jawiki
+    title: メガヘルツ
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Megahertz
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Megahertz
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 兆赫
+    badges: []

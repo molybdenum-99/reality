@@ -1,0 +1,449 @@
+---
+pageid: 133325
+ns: 0
+title: Q131473
+lastrevid: 617888300
+modified: '2018-01-08T22:58:30Z'
+type: item
+id: Q131473
+labels:
+  en:
+    language: en
+    value: Icelandic króna
+aliases:
+  en:
+  - language: en
+    value: ISK
+  - language: en
+    value: kr
+  - language: en
+    value: Icelandic krona
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 8794f37aaf11dc2f967559b6225a428a670caab3
+      datavalue:
+        value: Money of Iceland
+        type: string
+      datatype: string
+    type: statement
+    id: q131473$387744FA-5D79-4B23-B09B-18BB888C7702
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q131473$795B6AE0-34F6-4882-950F-64AA48EBDDAC
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: c502721a3626b204dacc35cde15c500b47f694aa
+      datavalue:
+        value: ISK
+        type: string
+      datatype: external-id
+    type: statement
+    id: q131473$c5846ecd-41c0-f1cd-0a97-66cf332ff652
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: ef97f145c8379699515cec80428d6e2dbe8a02c5
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1195916
+          id: Q1195916
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q131473$A7D534F1-6769-4AA6-A0BB-97C6BC4ACD15
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: e5fbfc20abbafe6ce866cbe3afbf5330c94c93c4
+      datavalue:
+        value: "/m/012nk9"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q131473$04826B9C-0FAB-4A1A-95C5-C4F6C3E105C6
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 6cc5ac795fa1e8db18e5ac5c615ecc0c229c2a12
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 189
+          id: Q189
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q131473$1c7c3cdd-462a-b6e6-32a9-44080d282720
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 102f47430061fabefce14bf2bc12e2b65d851255
+      datavalue:
+        value: Iceland Coin Carcinus.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q131473$DAB386BA-785B-47AB-B5B5-3F4EA423BBB7
+    rank: normal
+  P2284:
+  - mainsnak:
+      snaktype: value
+      property: P2284
+      hash: 8899c8ec668d26d2d0be1071d425b943649cbe1c
+      datavalue:
+        value:
+          amount: "+0.008821"
+          unit: http://www.wikidata.org/entity/Q4917
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: f742be92339cdcc54bf77fbdde9a24b9045f361a
+        datavalue:
+          value:
+            time: "+2016-11-22T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q131473$05383D14-5280-4451-8FEC-F942B508C2F7
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 86f46dd9fcd5e3608837b84f2cb345607d61f4c2
+      datavalue:
+        value: '500179'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q131473$39FF3160-128E-4818-8FF7-4A59A2F52AB8
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: كرونة آيسلندية
+    badges: []
+  azwiki:
+    site: azwiki
+    title: İslandiya kronu
+    badges: []
+  bat_smgwiki:
+    site: bat_smgwiki
+    title: Islandėjės kruona
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Ісьляндзкая крона
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Ісландская крона
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Исландска крона
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: আইসল্যান্ডিক ক্রোনা
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Islandska kruna
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Corona islandesa
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Islandská koruna
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Islandske krónur
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Isländische Krone
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Κορόνα Ισλανδίας
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Icelandic króna
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Islanda krono
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Corona islandesa
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Islandi kroon
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Islandiar koroa
+    badges: []
+  fawiki:
+    site: fawiki
+    title: کرونای ایسلند
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Islannin kruunu
+    badges: []
+  fowiki:
+    site: fowiki
+    title: Íslendska krónan
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Couronne islandaise
+    badges: []
+  gawiki:
+    site: gawiki
+    title: Króna
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Coroa islandesa
+    badges: []
+  hewiki:
+    site: hewiki
+    title: קרונה איסלנדית
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: आइसलैंडिक क्रोना
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Islandska kruna
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Izlandi korona
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Króna Islandia
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Íslensk króna
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Corona islandese
+    badges: []
+  jawiki:
+    site: jawiki
+    title: アイスランド・クローナ
+    badges: []
+  kawiki:
+    site: kawiki
+    title: ისლანდიური კრონი
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 아이슬란드 크로나
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Исландияса крона
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Islandijos krona
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Исландска круна
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: आइसलॅंडिक क्रोना
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: IJslandse kroon
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Islandsk króna
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Islandsk krone
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਆਈਸਲੈਂਡੀ ਕਰੋਨਾ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Korona islandzka
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Coroa islandesa
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Coroană islandeză
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Исландская крона
+    badges: []
+  sahwiki:
+    site: sahwiki
+    title: Исландия кроната
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Islandska kruna
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Icelandic króna
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Islandská koruna
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Исландска круна
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Isländsk krona
+    badges: []
+  tawiki:
+    site: tawiki
+    title: ஐஸ்லாந்திய குரோனா
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Кронаи Исландия
+    badges: []
+  trwiki:
+    site: trwiki
+    title: İzlanda kronası
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Ісландська крона
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: ისლანდიური კრონი
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Króna Íslándì
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Peng-tó króna
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 冰島克朗
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 冰岛克朗
+    badges: []

@@ -1,0 +1,660 @@
+---
+pageid: 177905
+ns: 0
+title: Q178506
+lastrevid: 615487331
+modified: '2018-01-01T06:29:58Z'
+type: item
+id: Q178506
+labels:
+  en:
+    language: en
+    value: barrel
+aliases:
+  en:
+  - language: en
+    value: bbl
+claims:
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: a500e7fcc688b096e232d5461db2c97a9d51c7a7
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 14290846
+          id: Q14290846
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q178506$1d8aa477-4cd5-f9b0-0a76-dc8f24e5b983
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 1cfc0719cd0e41eb1b8063f76aa380fb0ebc037c
+      datavalue:
+        value: Oil barrels
+        type: string
+      datatype: string
+    type: statement
+    id: q178506$47BE2F9D-94C6-440D-A945-CC5BB6F83FC8
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 7398db91a4a8b4d49e6b14479aef55ab7f0b0e03
+      datavalue:
+        value: "/m/02tgsy"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q178506$EA0BF762-29D6-42FF-AFDD-A3B514F0FF08
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6e3da81891b6fba54d9ac8088595a4b05e5a5f95
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1302471
+          id: Q1302471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q178506$29C689AF-AB55-4496-9971-F2A2C54DE550
+    rank: normal
+    references:
+    - hash: 3bf39867b037e8e494a8389ae8a03bad6825a7fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 5946b91c53409c48f5f1fb0319ed41fc67a764da
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 191168
+              id: Q191168
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+    - hash: 69e22a383ffb45708ec9ce0db688ea5f505c7612
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: ab9ed2eaf3fa92c8d78b0165a217112ea91695c5
+          datavalue:
+            value: 3-4.B.k
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: cab30cea8a2c22401b5467ddeb66fc0e7ab60b24
+      datavalue:
+        value: Barrel
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q178506$38524e13-4dac-a452-8b8f-a8cba5536c78
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 7bbc4ff916fee8b3cffb5369635d389e3dd0badb
+      datavalue:
+        value: bbl
+        type: string
+      datatype: string
+    type: statement
+    id: Q178506$3fe86b21-4092-a9ba-6ebb-33db4a4017b1
+    rank: normal
+    references:
+    - hash: 69e22a383ffb45708ec9ce0db688ea5f505c7612
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: ab9ed2eaf3fa92c8d78b0165a217112ea91695c5
+          datavalue:
+            value: 3-4.B.k
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: da2d9b860e0ef8d3734a66163f0febd159cb76f1
+      datavalue:
+        value: Bbl
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q178506$16796478-4878-4DB8-A1FA-728F9FE590F2
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: ece6f6e6968e83ab4ea375829a8c5694d93dff51
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 39297
+          id: Q39297
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q178506$cdadd150-4fc6-cd90-da7b-1a3d3edee3aa
+    rank: normal
+    references:
+    - hash: 69e22a383ffb45708ec9ce0db688ea5f505c7612
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: ab9ed2eaf3fa92c8d78b0165a217112ea91695c5
+          datavalue:
+            value: 3-4.B.k
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 5c0ec6c9efca4bea137b74935ba6f8751743be79
+      datavalue:
+        value: barrel-US
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q178506$899E6718-5C50-43DC-9D0C-2C26C12711E6
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 32d7d6ffb59395ce3a3ab356fcf064adba26c878
+      datavalue:
+        value:
+          amount: "+0.1589873"
+          unit: http://www.wikidata.org/entity/Q25517
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q178506$95b11c6d-4795-c8aa-6716-a6cc668bb036
+    rank: normal
+    references:
+    - hash: 69e22a383ffb45708ec9ce0db688ea5f505c7612
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: ab9ed2eaf3fa92c8d78b0165a217112ea91695c5
+          datavalue:
+            value: 3-4.B.k
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 1c9733efc801f155ea4d2edbb995aea7a3138f75
+      datavalue:
+        value:
+          amount: "+42"
+          unit: http://www.wikidata.org/entity/Q23925413
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q178506$45411645-4f20-dfc9-0097-51b7a92c4060
+    rank: normal
+    references:
+    - hash: 69e22a383ffb45708ec9ce0db688ea5f505c7612
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: ab9ed2eaf3fa92c8d78b0165a217112ea91695c5
+          datavalue:
+            value: 3-4.B.k
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 6a0347be9622e9e773718b1f5b7468c5d9dddd8c
+      datavalue:
+        value:
+          amount: "+9702"
+          unit: http://www.wikidata.org/entity/Q2140397
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q178506$3f3b3616-453c-823c-d64b-c271590c7c8b
+    rank: normal
+    references:
+    - hash: 69e22a383ffb45708ec9ce0db688ea5f505c7612
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: ab9ed2eaf3fa92c8d78b0165a217112ea91695c5
+          datavalue:
+            value: 3-4.B.k
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: f461826dbdd1b727233657c6ebe73e5638d4bcf7
+      datavalue:
+        value:
+          amount: "+34.9723"
+          unit: http://www.wikidata.org/entity/Q23925410
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q178506$e9d38668-477b-3970-b3e0-d49086fff4b2
+    rank: normal
+    references:
+    - hash: 69e22a383ffb45708ec9ce0db688ea5f505c7612
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: ab9ed2eaf3fa92c8d78b0165a217112ea91695c5
+          datavalue:
+            value: 3-4.B.k
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: '095b22e5c47a47f7d5e84e00899837038be11bd4'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 26711932
+          id: Q26711932
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P958:
+      - snaktype: value
+        property: P958
+        hash: ab9ed2eaf3fa92c8d78b0165a217112ea91695c5
+        datavalue:
+          value: 3-4.B.k
+          type: string
+        datatype: string
+    qualifiers-order:
+    - P958
+    id: Q178506$d7b5b861-45e5-f348-5f00-df0395b71c06
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: برميل (نفط)
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Barel (amerika neft kütləsi vahidi)
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Барэль
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Барел
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Barel
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Barril (unitat)
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Barel
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Tønde (rummål)
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Barrel
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Barrel (unit)
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Barril (unidad)
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Barrel
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Upel (unitatea)
+    badges: []
+  fawiki:
+    site: fawiki
+    title: بشکه (یکا)
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Barreli
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Baril
+    badges: []
+  gawiki:
+    site: gawiki
+    title: Bairille (aonad)
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Barril (unidade)
+    badges: []
+  hewiki:
+    site: hewiki
+    title: חבית (יחידת מידה)
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: बैरल (इकाई)
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Barel
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Hordó (mértékegység)
+    badges: []
+  idwiki:
+    site: idwiki
+    title: BOPD
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Olíutunna
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Barile (unità di misura)
+    badges: []
+  jawiki:
+    site: jawiki
+    title: バレル
+    badges: []
+  kawiki:
+    site: kawiki
+    title: ბარელი
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Баррель
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 배럴
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Barelis
+    badges: []
+  mnwiki:
+    site: mnwiki
+    title: Баррель
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Tong (isi padu)
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Vat (eenheid)
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Eininga fat
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Fat (mål)
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Baryłka
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Barril (unidade)
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Baril de petrol
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Баррель (американский нефтяной)
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Varrili
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Barel
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Barel
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Sod (prostorninska mera)
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Барел
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Fat (mått)
+    badges: []
+  tewiki:
+    site: tewiki
+    title: బారెల్ (ప్రమాణము)
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Баррел (воҳиди ҳаҷм)
+    badges: []
+  thwiki:
+    site: thwiki
+    title: บาร์เรล
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Varil (birim)
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Барель
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Barrel
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 桶 (单位)
+    badges: []

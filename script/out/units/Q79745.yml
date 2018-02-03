@@ -1,0 +1,344 @@
+---
+pageid: 82296
+ns: 0
+title: Q79745
+lastrevid: 616456151
+modified: '2018-01-04T08:15:49Z'
+type: item
+id: Q79745
+labels:
+  en:
+    language: en
+    value: exabyte
+aliases:
+  en:
+  - language: en
+    value: EB
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: ef5234a72a9a1feb444cffd712b60e56e0d6f2bd
+      datavalue:
+        value: "/m/02njz"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q79745$CFA6E350-0175-45E3-9596-2FED5621A7F9
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 2d6ead580ca479cd38b25f8d8c677f1c03ad7473
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3550873
+          id: Q3550873
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q79745$f9fe7c0a-4da0-3591-13a3-b6802859b12d
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 3955023e223128daeb34c2e979a08d20720a027d
+      datavalue:
+        value: ЭБ
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q79745$50f6e65c-4300-253d-b697-61f09028c7f7
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 69d74114d9e1e4780d34a58e46e3b0a437e9a075
+      datavalue:
+        value: EB
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q79745$17df7070-4089-da32-3037-5006c03f46f5
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 2c7b6d409534c841a17ac13ef5b537366d503498
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11028
+          id: Q11028
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q79745$830d6395-4a2a-d512-09dd-11c2401b3fa1
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: eaa8f4018c37b1b0eee0f9dc858c882b0a1730c3
+      datavalue:
+        value: Exabyte
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q79745$61DD8EB4-F79A-4D09-9806-57BE35EAC616
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: dfcd6a8439d2d646ebe9911d7f248442f2bc878a
+      datavalue:
+        value: exabyte
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q79745$AC702BC4-B806-4423-84FC-53964224E1D5
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: f6f78f288382ca6caa8289f847ecedf7dc9a7916
+      datavalue:
+        value:
+          amount: "+1000000000000000000"
+          unit: http://www.wikidata.org/entity/Q8799
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q79745$de9cac61-440c-12a2-9c9a-677142fde945
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Eksagreep
+    badges: []
+  arwiki:
+    site: arwiki
+    title: إكسابايت
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Ekzabayt
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Эксабайт
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Exabyte
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Exabyte
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Exabyte (Einheit)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Exabyte
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Exabyte
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Exabyte
+    badges: []
+  fawiki:
+    site: fawiki
+    title: اگزابایت
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Eksabita
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Exabyte
+    badges: []
+  jawiki:
+    site: jawiki
+    title: エクサバイト
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 엑사바이트
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Ексабајт
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: एक्साबाईट
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Eksabait
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Exabyte
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Exabyte
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Eksabajt
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Exabyte
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Эксабайт
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Exabyte
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Eksabajt
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Exabyte
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Exabajt
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Ексабајт
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Exabyte
+    badges: []
+  tawiki:
+    site: tawiki
+    title: எக்சாபைட்டு
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Эксабайт
+    badges: []
+  thwiki:
+    site: thwiki
+    title: เอกซะไบต์
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Eksabayt
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Ексабайт
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Exabyte
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 艾字節
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 艾字节
+    badges: []

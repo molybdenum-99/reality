@@ -1,0 +1,106 @@
+---
+pageid: 3883224
+ns: 0
+title: Q4074689
+lastrevid: 491641622
+modified: '2017-05-28T20:55:43Z'
+type: item
+id: Q4074689
+labels:
+  en:
+    language: en
+    value: Bahamian pound
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4074689$B8680085-D7EE-480B-A7B4-8CCEAC36C0CF
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 48dad11e4d75aa74b8b0904f85a3d307400ea278
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 339180
+          id: Q339180
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4074689$91696fc5-4893-6218-38bf-9eaa4651d007
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: f61db75ae757516e1c4ad6bfd1e4567cb5ffe5fb
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 778
+          id: Q778
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4074689$b66d465e-4ca3-b094-9e30-a41a3807cb8b
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 7cc32e5bb87857b187289037ac96183ed30d42d1
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 778
+          id: Q778
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4074689$b261a981-4d5a-7b02-f6dc-2d833195bedc
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Bahamian pound
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Libra bahameña
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Багамский фунт
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Багамський фунт
+    badges: []

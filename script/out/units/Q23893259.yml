@@ -1,0 +1,94 @@
+---
+pageid: 25890294
+ns: 0
+title: Q23893259
+lastrevid: 622560792
+modified: '2018-01-22T12:34:59Z'
+type: item
+id: Q23893259
+labels:
+  en:
+    language: en
+    value: cases per person-year
+aliases:
+  en:
+  - language: en
+    value: "#/py"
+  - language: en
+    value: 1/py
+  - language: en
+    value: 1/person-year
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 0160f76a5272614104abfb6b019749914c16f1dc
+      datavalue:
+        value: 1/py
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q23893259$b2ac6e36-4480-608d-f50a-6e7b7014bc7f
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: b9902d1d4f6671c849ad2a723c0845d1ff2f3c5a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 217690
+          id: Q217690
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q23893259$96d87bb6-470c-670b-1744-d339f98a58e2
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q23893259$5fdbee35-47dd-f1e9-7946-68950e795855
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: b9a40718b0b9466e478e5b5abaf7f440e5911246
+      datavalue:
+        value:
+          amount: "+100000"
+          unit: http://www.wikidata.org/entity/Q23893296
+          upperBound: "+100000"
+          lowerBound: "+100000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q23893259$eede7790-472b-ef79-f949-b55363a41fb5
+    rank: normal
+sitelinks: {}

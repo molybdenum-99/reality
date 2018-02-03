@@ -1,0 +1,405 @@
+---
+pageid: 210873
+ns: 0
+title: Q215571
+lastrevid: 611952809
+modified: '2017-12-21T18:40:18Z'
+type: item
+id: Q215571
+labels:
+  en:
+    language: en
+    value: newton metre
+aliases:
+  en:
+  - language: en
+    value: N m
+  - language: en
+    value: N·m
+  - language: en
+    value: newton meter
+  - language: en
+    value: Nm
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 50afdc16346d8687f53963f614e8d645419488a0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 208469
+          id: Q208469
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q215571$8E527140-A263-4D16-A77A-7C1E112F9AA0
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: ba33d03930e9cfacac24c9d66d8442f40f314f11
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 21813488
+          id: Q21813488
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q215571$5afa4005-46fc-764f-54f7-c55649079305
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: e4f33f2f3e49ee3bac0739886cd7dbd833cac6e9
+      datavalue:
+        value: N m
+        type: string
+      datatype: string
+    type: statement
+    id: q215571$4a83a1d8-427f-b884-e9e4-e12e82cbaf28
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: f4fd5da206d2cb4c3fc85e226dd49d37091a42f6
+      datavalue:
+        value: N⋅m
+        type: string
+      datatype: string
+    type: statement
+    id: Q215571$7a98497f-4394-25d7-0c4f-5fa75c22ff95
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: cea2ff564bfa65e800a4d250c321f4a61962df6d
+      datavalue:
+        value: Н·м
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P407:
+      - snaktype: value
+        property: P407
+        hash: d291ddb7cd77c94a7bd709a8395934147e0864fc
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 7737
+            id: Q7737
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P407
+    id: Q215571$2edf32b5-4902-00c4-2b82-e3a2bb71bb49
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 88810e8d140c158c8bc063e221b79d0b90f5909e
+      datavalue:
+        value: Н-м
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P407:
+      - snaktype: value
+        property: P407
+        hash: d291ddb7cd77c94a7bd709a8395934147e0864fc
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 7737
+            id: Q7737
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P407
+    id: Q215571$f33b44e1-4de5-5a60-81d1-50fea12b9f37
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 7e3ff7ecf96805f92853182932306df3cc4edc34
+      datavalue:
+        value: "/m/01flbh"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q215571$5D1A57A0-9569-4EED-BE33-06BE99D7DF76
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 86a659db1497f2efbf12bc06d3ce5296816d1907
+      datavalue:
+        value:
+          amount: "+1"
+          unit: http://www.wikidata.org/entity/Q215571
+          upperBound: "+1"
+          lowerBound: "+1"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q215571$1459055b-4c73-7413-5f8f-70b8dd8fe4d3
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: c395b8d76378a581ec723064b058b04209f6784a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 48103
+          id: Q48103
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q215571$d3b48850-4b9c-e62c-b197-dd7abee314c6
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 3f60715d46f497688bbae451399663297a1ad3d0
+      datavalue:
+        value: NewtonMeter
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q215571$B70BB674-19BE-4D0E-AB58-CC18C6252D16
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 259f1735991b3ac93123b02c52f78fcf72b46f41
+      datavalue:
+        value:
+          amount: "+0.737562"
+          unit: http://www.wikidata.org/entity/Q16859309
+          upperBound: "+0.737563"
+          lowerBound: "+0.737561"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q215571$f24f769b-4768-540d-2c88-b507825adf19
+    rank: normal
+  P144:
+  - mainsnak:
+      snaktype: value
+      property: P144
+      hash: 7f08978849562752fe27c692a1c8622b9d9562fc
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 12438
+          id: Q12438
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q215571$2321d929-45ef-c701-9baf-bf9a10a0055c
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P144
+      hash: 14e4119567cfb01a2298d782b2a6181d8247d688
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11573
+          id: Q11573
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q215571$d15218d7-4111-0cce-24e4-0f3ccb43d6cc
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: b1f014aa6db434d59c798c0513305b32cbd9231d
+      datavalue:
+        value: newton_metre
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q215571$B3435EFD-6977-43DC-A161-9B22787D1F95
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: نيوتن متر
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Нютон-метър
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Newton metr
+    badges: []
+  cywiki:
+    site: cywiki
+    title: Newton-metr
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Newtonmeter
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Newtonmeter
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Newton metre
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Newton metro
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Njuutonmeeter
+    badges: []
+  fawiki:
+    site: fawiki
+    title: نیوتون-متر
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Newtonmetri
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Newton mètre
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Նյուտոն-մետր (չափման միավոր)
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Newton per metro
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ニュートンメートル
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 뉴턴 미터
+    badges: []
+  kuwiki:
+    site: kuwiki
+    title: Mitirê Newton
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Niutonmetras
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Њутнметар
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Newton meter
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Newtonmeter
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Newtonmeter
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Newtonmeter
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Niutonometr
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Newton-metro
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Ньютон-метр
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Newton metru
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Newton metre
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Newton meter
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Newtonmeter
+    badges: []
+  thwiki:
+    site: thwiki
+    title: นิวตันเมตร
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Ньютон-метр
+    badges: []
+  vlswiki:
+    site: vlswiki
+    title: Newtonmeter
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 牛頓米
+    badges: []

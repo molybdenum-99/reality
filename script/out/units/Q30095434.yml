@@ -1,0 +1,54 @@
+---
+pageid: 31707971
+ns: 0
+title: Q30095434
+lastrevid: 494284470
+modified: '2017-06-03T17:23:00Z'
+type: item
+id: Q30095434
+labels:
+  en:
+    language: en
+    value: cord
+aliases:
+  en:
+  - language: en
+    value: eše2
+  - language: en
+    value: aslu
+  - language: en
+    value: "\U000120A0"
+  - language: en
+    value: eshe
+  - language: en
+    value: rope
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1c41b2ea8a3f6d3fab77c103d826ae5ead7a9c01
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1978718
+          id: Q1978718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q30095434$0ef7ea0e-421e-7cf7-b6e0-b1b61e6cdfe7
+    rank: normal
+    references:
+    - hash: 1c756021da20e720334f918dd529731cba115dc9
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 1e5708b2581b6afd9a23c9827eaada26c619ba7c
+          datavalue:
+            value: http://it.stlawu.edu/~dmelvill/mesomath/obmetrology.html
+            type: string
+          datatype: url
+      snaks-order:
+      - P854
+sitelinks: {}

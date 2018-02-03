@@ -1,0 +1,445 @@
+---
+pageid: 82290
+ns: 0
+title: Q79738
+lastrevid: 624675298
+modified: '2018-01-30T09:40:48Z'
+type: item
+id: Q79738
+labels:
+  en:
+    language: en
+    value: Gigabyte
+aliases:
+  en:
+  - language: en
+    value: Gbyte
+  - language: en
+    value: GB
+  - language: en
+    value: G
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: a7c92417a90f0f664e77639a14ffad25115c2c5a
+      datavalue:
+        value: GB
+        type: string
+      datatype: string
+    type: statement
+    id: Q79738$38017341-4628-6dac-bd73-bef9f3bad5f7
+    rank: normal
+    references:
+    - hash: f2ab10533e58b034437e5793f7db10e8e3d18f03
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a117c6bbef0b948c1df3be462eaeb2bcebb16ebc
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 6108055
+              id: Q6108055
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 91ca394a0ace60bb967524d74e398ba483d60ef3
+      datavalue:
+        value: Гбайт
+        type: string
+      datatype: string
+    type: statement
+    id: Q79738$5ed029c6-4979-d3b8-9e8c-892f84649529
+    rank: normal
+    references:
+    - hash: c7dbc558220a8c259fce19d4fb1feebce54f280a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: d16d9dea1829f852f3c150a6a6373d3fa7d3dd86
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 4130714
+              id: Q4130714
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 33f6572b6c1d5b1b6297d55d297e541d2eb9ccf7
+      datavalue:
+        value: ГБ
+        type: string
+      datatype: string
+    type: statement
+    id: Q79738$319ecafb-46b4-cc92-42b3-f4fdc96bf87d
+    rank: normal
+    references:
+    - hash: c7dbc558220a8c259fce19d4fb1feebce54f280a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: d16d9dea1829f852f3c150a6a6373d3fa7d3dd86
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 4130714
+              id: Q4130714
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: ef587f93f61e2d685857704b6f495f38dc4840fb
+      datavalue:
+        value: "/m/039f0"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q79738$1330688F-05F4-42B4-91CB-12D772E9BB97
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 2d6ead580ca479cd38b25f8d8c677f1c03ad7473
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3550873
+          id: Q3550873
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q79738$ecf7d378-4f65-21ff-c6db-f69f455d3b7b
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: df22c72ab11ca6df45dc4956087c9709d9174a15
+      datavalue:
+        value:
+          amount: "+1000000"
+          unit: http://www.wikidata.org/entity/Q79726
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q79738$e11330aa-44f7-c5ef-6e9a-a140d0bec22c
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: db5d27d7ad3603c3bd2348e7eafcfc00197679d1
+      datavalue:
+        value:
+          amount: "+1000"
+          unit: http://www.wikidata.org/entity/Q79735
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q79738$e01f567c-42f6-242c-ec08-597b04672ed3
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: fb251b2db47205d305d432d7e94fa90808030c75
+      datavalue:
+        value:
+          amount: "+1073741824"
+          unit: http://www.wikidata.org/entity/Q8799
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q79738$b1eecc2c-4559-06ef-0cb0-b416cf16fff7
+    rank: normal
+  P1889:
+  - mainsnak:
+      snaktype: value
+      property: P1889
+      hash: 336aaac525017a38e69d5768f91ae0907f495369
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 79765
+          id: Q79765
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q79738$0adb1347-4fd4-b653-ce33-b231c74e0fc3
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 3c4fd1893aac421852f9edc4354510d5852524f6
+      datavalue:
+        value: gigabyte
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q79738$F7C35664-8361-410A-9E66-ABE20EA1FE9F
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Gigagreep
+    badges: []
+  arwiki:
+    site: arwiki
+    title: جيجابايت
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Giqabayt
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Гігабайт
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: গিগাবাইট
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Gigabajt
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Gigabyte
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Gigabyte
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Gigabyte (Einheit)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Gigabyte
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Gigabyte
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Gigabyte
+    badges: []
+  fawiki:
+    site: fawiki
+    title: گیگابایت
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Gigabyte
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: गीगाबाइट
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Gigabyte
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Գիգաբայթ
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Gigabita
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Gigabyte
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ギガバイト
+    badges: []
+  jvwiki:
+    site: jvwiki
+    title: Gigabita
+    badges: []
+  kawiki:
+    site: kawiki
+    title: გიგაბაიტი
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Гигабайт
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 기가바이트
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Gigabaits
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Гигабајт
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: ഗിഗാബൈറ്റ്
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: गिगाबाईट
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Gigabait
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Gigabyte
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Gigabyte
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Gigabyte
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Gigabajt
+    badges: []
+  pnbwiki:
+    site: pnbwiki
+    title: گیگا بائٹ
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Gigabyte
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Гигабайт
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Gigabyte
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Gigabyte
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Gigabyte
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Gigabajt
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Gigabajt
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Гигабајт
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Gigabyte
+    badges: []
+  tawiki:
+    site: tawiki
+    title: கிகாபைட்டு
+    badges: []
+  tewiki:
+    site: tewiki
+    title: గిగాబైట్
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Гигабайт
+    badges: []
+  thwiki:
+    site: thwiki
+    title: จิกะไบต์
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Gigabayt
+    badges: []
+  ttwiki:
+    site: ttwiki
+    title: Гигабайт
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Гігабайт
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Gigabyte
+    badges: []
+  warwiki:
+    site: warwiki
+    title: Gigabyte
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 吉字節
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 吉字节
+    badges: []

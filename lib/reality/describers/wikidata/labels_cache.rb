@@ -32,7 +32,7 @@ module Reality
           cache_facets(
             properties: claims.keys,
             entities: Util.dig(values, *LINKS_PATH).grep_v('id').compact,
-            units: Util.dig(values, *UNITS_PATH).compact.grep_v('1').map(&method(:url2id))
+            units: Util.dig(values, *UNITS_PATH).compact.grep_v('1').grep_v('unit').map(&method(:url2id))
           )
         end
 

@@ -1,0 +1,96 @@
+---
+pageid: 5226989
+ns: 0
+title: Q5465723
+lastrevid: 537538997
+modified: '2017-08-14T08:07:56Z'
+type: item
+id: Q5465723
+labels:
+  en:
+    language: en
+    value: foot-poundal
+aliases:
+  en:
+  - language: en
+    value: ft-pdl
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 06df6efe68f6e25b0d602229267e4d3e9ccc3d64
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2916980
+          id: Q2916980
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q5465723$6368a096-4d50-a6e5-52a4-0eabf18cd0dd
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 54a553c656f80145eddb42bd9a83ffa1676c2a68
+      datavalue:
+        value:
+          amount: "+0.0421401100938048"
+          unit: http://www.wikidata.org/entity/Q25269
+          upperBound: "+0.0421401100938048"
+          lowerBound: "+0.0421401100938048"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q5465723$9f931fd5-4e17-6608-4855-0620047a7a47
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 8bce69c1f17a92230b3e192465f0ff341e996cbc
+      datavalue:
+        value: ft-pdl
+        type: string
+      datatype: string
+    type: statement
+    id: Q5465723$33b0df06-466c-e73d-572a-4768bada977a
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 475f7683f45f6d437bdae2e1e4dee81063317677
+      datavalue:
+        value: "/m/02vxcf8"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q5465723$64550a9a-4c46-52d1-187c-283fa3fdc076
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 7ad0f8fc8c23eb3ede324fc816121895c19109c6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11379
+          id: Q11379
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q5465723$935C4CBC-DD5A-4DCA-A537-EDA0E5CC4C0C
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Foot-poundal
+    badges: []
+  jawiki:
+    site: jawiki
+    title: フィート・パウンダル
+    badges: []

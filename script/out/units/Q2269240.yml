@@ -1,0 +1,290 @@
+---
+pageid: 2191860
+ns: 0
+title: Q2269240
+lastrevid: 621406826
+modified: '2018-01-17T22:11:56Z'
+type: item
+id: Q2269240
+labels:
+  en:
+    language: en
+    value: semester
+aliases:
+  en:
+  - language: en
+    value: academic semester
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: df1dea68b93692d0591389fc19a2ab79b0f7674d
+      datavalue:
+        value: "/m/02nmgv"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2269240$45ADD03D-B728-40F6-9068-9BE5A67FD917
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P227:
+  - mainsnak:
+      snaktype: value
+      property: P227
+      hash: 8a4cc4fcee937139c28b654319a33a834188ac8e
+      datavalue:
+        value: 4180951-8
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2269240$01386623-FD97-4517-B2FB-DFE1B513D9CC
+    rank: normal
+    references:
+    - hash: 9a24f7c0208b05d6be97077d855671d1dfdbc0dd
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: d38375ffe6fe142663ff55cd783aa4df4301d83d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 48183
+              id: Q48183
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 62e88b867373b604a164d6d9e8e16e3ac8e2e899
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 915466
+          id: Q915466
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2269240$7c6f6da6-423e-553a-c406-490e4dd47592
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: 6b38acd993acae70177e99d857b8716218b5b328
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3955006
+          id: Q3955006
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2269240$b9e3ff83-4c77-ebd7-858a-52907c9bc418
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 98a1e85b80bda7ff493c25a6b805599da715c077
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1790144
+          id: Q1790144
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2269240$8f820904-4a98-4bb5-4da2-f51368b30472
+    rank: normal
+  P2047:
+  - mainsnak:
+      snaktype: value
+      property: P2047
+      hash: 6a4944bdadce2c2deacbad0b66f85e312972f609
+      datavalue:
+        value:
+          amount: "+4"
+          unit: http://www.wikidata.org/entity/Q5151
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q2269240$9d859894-4fdb-29b0-2349-7699c0815abf
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: e18564ae4d21ab0548f475a1aa84da1dda2067ab
+      datavalue:
+        value:
+          amount: "+10368000"
+          unit: http://www.wikidata.org/entity/Q11574
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q2269240$644b4eda-42e6-6427-da27-993fe4ad105e
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 03c73ea838a31296ad473f2bc82f6d12e0724196
+      datavalue:
+        value: Semesters
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2269240$8c4fbe02-4ad2-73fd-9b70-63827e14648e
+    rank: normal
+sitelinks:
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Сэмэстар
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Семестр
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Семестър
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: একাডেমিক টার্ম
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Semestr
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Akademisk termin
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Semester
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Academic term
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Semestro
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Periodo académico
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Semester
+    badges: []
+  fawiki:
+    site: fawiki
+    title: نیم سال تحصیلی
+    badges: []
+  htwiki:
+    site: htwiki
+    title: Semès
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Semester
+    badges: []
+  iowiki:
+    site: iowiki
+    title: Akademiala termino
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 学期
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 학기
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Semestras
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Semester
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Semester
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Semestr (oświata)
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Семестр
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Semester
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Termin
+    badges: []
+  thwiki:
+    site: thwiki
+    title: ภาคเรียน
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Sömestir tatili
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Семестр
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 學期
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 學期
+    badges: []

@@ -1,0 +1,104 @@
+---
+pageid: 3908182
+ns: 0
+title: Q4100164
+lastrevid: 618457916
+modified: '2018-01-10T11:19:56Z'
+type: item
+id: Q4100164
+labels:
+  en:
+    language: en
+    value: Bhutanese rupee
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 2cb8a9197781899cc5d5d21592bfd96bb87064f8
+      datavalue:
+        value: "/m/09xtzm"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q4100164$F49E2C28-BCC0-4016-B036-8CEF96203BA0
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4100164$FCA7FFCA-7E0A-4A09-A41B-5441B4993ABF
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 8057e4d63e19a3e162051d2bef01cc11edd5c758
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 917
+          id: Q917
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4100164$0fc50db1-4899-ddb0-cefa-618fde67a984
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Bhutanese rupee
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Rupia butanesa
+    badges: []
+  fawiki:
+    site: fawiki
+    title: روپیه بوتان
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Бутанская рупия
+    badges: []

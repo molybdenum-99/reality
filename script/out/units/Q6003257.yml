@@ -1,0 +1,193 @@
+---
+pageid: 5782893
+ns: 0
+title: Q6003257
+lastrevid: 564654802
+modified: '2017-09-24T01:08:48Z'
+type: item
+id: Q6003257
+labels:
+  en:
+    language: en
+    value: attometre
+aliases:
+  en:
+  - language: en
+    value: attometer
+  - language: en
+    value: am
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1c41b2ea8a3f6d3fab77c103d826ae5ead7a9c01
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1978718
+          id: Q1978718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q6003257$fd2b1c2b-41fb-f4ad-347c-f6f37a28ce70
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 7ff6e289c1a326bd0276b2a3a43f05af468de975
+      datavalue:
+        value: am
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q6003257$24630675-4124-1bd4-e2e0-c69aa57db08e
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: df756dfb6661ea34e05e30708ca5dfa76645ff98
+      datavalue:
+        value: ам
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q6003257$30a0ca2f-4c79-e45b-3801-9541f756f403
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 4354e3cc033f2c5371e447e5ab1cca8b89ffa3e0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 36253
+          id: Q36253
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q6003257$f51a96e1-4855-7d20-cd64-8a419b445f7b
+    rank: normal
+  P2043:
+  - mainsnak:
+      snaktype: value
+      property: P2043
+      hash: 4efe8fd1f9ac28dd6c5ea360faa847d932f44650
+      datavalue:
+        value:
+          amount: "+0.001"
+          unit: http://www.wikidata.org/entity/Q208788
+          upperBound: "+0.001"
+          lowerBound: "+0.001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q6003257$18ec6266-41bd-1b1b-0360-a7aa1fb68201
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 1005af70aaf705e3dcf667e32505e984789b0b8a
+      datavalue:
+        value:
+          amount: "+0.000000000000000001"
+          unit: http://www.wikidata.org/entity/Q11573
+          upperBound: "+0.000000000000000001"
+          lowerBound: "+0.000000000000000001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q6003257$85c5e723-445d-8e41-d58c-b496a30ecdff
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: f74aa4c674c79e6000b4acdfbda0f7d5e0305d91
+      datavalue:
+        value: attometre
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q6003257$12864EEF-89C8-4AFE-AFB8-72E1EFA9C5A0
+    rank: normal
+sitelinks:
+  astwiki:
+    site: astwiki
+    title: Atómetru
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Attòmetre
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Attometer
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Attómetro
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Atometro
+    badges: []
+  hakwiki:
+    site: hakwiki
+    title: Â-mí
+    badges: []
+  jawiki:
+    site: jawiki
+    title: アトメートル
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Attometer
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Attometer
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Atómetro
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Attometer
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Attometre
+    badges: []

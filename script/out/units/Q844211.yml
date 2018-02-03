@@ -1,0 +1,321 @@
+---
+pageid: 796332
+ns: 0
+title: Q844211
+lastrevid: 611683194
+modified: '2017-12-21T08:29:29Z'
+type: item
+id: Q844211
+labels:
+  en:
+    language: en
+    value: kilogram per cubic metre
+aliases:
+  en:
+  - language: en
+    value: kg/m3
+  - language: en
+    value: kg/m³
+  - language: en
+    value: kilogram per cubic meter
+  - language: en
+    value: kg/m^3
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 50afdc16346d8687f53963f614e8d645419488a0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 208469
+          id: Q208469
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q844211$2AA811B3-2859-44CE-80E0-7640B166937C
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 5c1e31495c3ee00418bae011defe6d61827b8990
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10387685
+          id: Q10387685
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q844211$6b548d09-4588-e9b4-e536-3ee0c97fd501
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 86a3880442374499fb7b1d0e273e438b2fc676cf
+      datavalue:
+        value: "/m/0d1kg"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q844211$BBFC15EF-3F4D-436F-ADB2-87532CC50407
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 254c45396879cff6e87567db52857f181aec72ac
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 29539
+          id: Q29539
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q844211$fc36b38c-440c-799f-359b-d18851e2c4ea
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: dad56e4d8f05314cbe111c4a027523258da7449e
+      datavalue:
+        value: kg/m³
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q844211$eb397d0d-4f91-9a0d-558d-bb0daca866bb
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 5685bcbc6888b2f94e9fa12b0a9f8d949db891a5
+      datavalue:
+        value: кг/м³
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q844211$8c35ea15-4799-0fb6-a5a8-22828d6f2930
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: b52268eeed93b38a045067bdea727f112add626c
+      datavalue:
+        value:
+          amount: "+1"
+          unit: http://www.wikidata.org/entity/Q844211
+          upperBound: "+1"
+          lowerBound: "+1"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q844211$0c754ad0-472a-47ab-cd97-b5f8bfbfb17a
+    rank: normal
+  P460:
+  - mainsnak:
+      snaktype: value
+      property: P460
+      hash: dc7d212256b8d15a5653989e52568e8302bb3177
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 834105
+          id: Q834105
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q844211$13EB48DE-E5E0-455E-A036-B6F4EFAB223E
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 869af644c6c3ca8eb38d4d6e5ad12f3ed14508a9
+      datavalue:
+        value: kilogram_per_cubic_metre
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q844211$74AAA7F0-79FA-48F4-A03C-C693DCE65C0D
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: a01c3cfb5a66fdb9e8b92ea8ddb2623465ccdae6
+      datavalue:
+        value: KilogramPerCubicMeter
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q844211$43a383c7-4f31-9463-a809-6f4adef64984
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Kilogram per kubieke meter
+    badges: []
+  anwiki:
+    site: anwiki
+    title: Kilogramo por metro cubico
+    badges: []
+  arwiki:
+    site: arwiki
+    title: كيلوغرام لكل متر مكعب
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Quilogramu por metru cúbicu
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Килограм на кубичен метър
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Kilogram po metru kubnom
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Quilogram per metre cúbic
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Kilogram na metr krychlový
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Kilogram per cubic metre
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Kilogramo en kuba metro
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Kilogramo por metro cúbico
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Kilogramme par mètre cube
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Kilogram po metru kubnom
+    badges: []
+  jawiki:
+    site: jawiki
+    title: キログラム毎立方メートル
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 킬로그램 매 세제곱미터
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Килограм на кубен метар
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Kilogram na metr sześcienny
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Quilograma por metro cúbico
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Kilogram pe metru cub
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Kilogram po metru kubnom
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Kilogram per cubic metre
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Kilogram na meter kubický
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Kilogram na kubični meter
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Килограм по кубном метру
+    badges: []
+  urwiki:
+    site: urwiki
+    title: کلوگرام فی مکعب میٹر
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 千克每立方米
+    badges: []

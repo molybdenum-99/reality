@@ -1,0 +1,158 @@
+---
+pageid: 26223579
+ns: 0
+title: Q24249808
+lastrevid: 491652793
+modified: '2017-05-28T21:25:07Z'
+type: item
+id: Q24249808
+labels:
+  en:
+    language: en
+    value: Bolivian boliviano
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P17:
+      - snaktype: value
+        property: P17
+        hash: 7a3a9afc3ff3a180dd8ec86254ad7f58fd2475fe
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 750
+            id: Q750
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P17
+    id: Q24249808$9645B07B-739D-4861-893F-55F5198DA1EE
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: a20154f7272f838bfb7ee7e8cf92a8b071db876c
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 806180
+          id: Q806180
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q24249808$82369454-8A07-4219-B0EE-1E0B4D4A3280
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 7a3a9afc3ff3a180dd8ec86254ad7f58fd2475fe
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 750
+          id: Q750
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q24249808$4C58B54D-74C5-4753-A740-243DFDB40918
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: d42b0956561809ff38dceafc2f7190a6db3eac0b
+      datavalue:
+        value: BOL-119a-Banco Central de Bolivia-1 Boliviano (1928).jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q24249808$B4FDAED2-3C8C-4B46-906B-4E471C3655EC
+    rank: normal
+  P1365:
+  - mainsnak:
+      snaktype: value
+      property: P1365
+      hash: f0660f3d216299c5e122673d29fc24e2e5743570
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 834305
+          id: Q834305
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: fe6735f27eb71700a96c24688737e1537303c886
+        datavalue:
+          value:
+            time: "+1864-00-00T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 9
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q24249808$6DF8C10D-73A8-43A9-99DC-146665906226
+    rank: normal
+  P1366:
+  - mainsnak:
+      snaktype: value
+      property: P1366
+      hash: 207d74fc9131339a2bbc5b0bc2a39b0b03cf9d38
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2414435
+          id: Q2414435
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: 53a46a3790dcd42563d6d608efb7c1c74e18f00b
+        datavalue:
+          value:
+            time: "+1963-00-00T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 9
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q24249808$11F385BD-CC32-409D-9AFA-02FA2E84CAF5
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Bolivian boliviano (1864–1963)
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Boliviano (moneda de Bolivia de 1900)
+    badges: []

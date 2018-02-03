@@ -1,0 +1,146 @@
+---
+pageid: 4030095
+ns: 0
+title: Q4220561
+lastrevid: 623234227
+modified: '2018-01-25T09:59:05Z'
+type: item
+id: Q4220561
+labels:
+  en:
+    language: en
+    value: kilometer per second
+aliases:
+  en:
+  - language: en
+    value: km/s
+  - language: en
+    value: kilometers per second
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: b4f9c836c43d6700bbb61b79f9c7e714c1b52c93
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 15222637
+          id: Q15222637
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4220561$e9ad7072-45c4-7d9f-6e74-37a4ea124f4e
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 8952f852b78f0820c42ee410292c1ca789fc69ff
+      datavalue:
+        value: km/s
+        type: string
+      datatype: string
+    type: statement
+    id: Q4220561$6244e99d-4255-fc92-a45c-d2c20e078e2d
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 9a0fb06eff676785d44a0c97e937fa33afaf69c9
+      datavalue:
+        value: км/с
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P407:
+      - snaktype: value
+        property: P407
+        hash: d291ddb7cd77c94a7bd709a8395934147e0864fc
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 7737
+            id: Q7737
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P407
+    id: Q4220561$65bbf1b4-42f5-9097-77e7-d709fcda7cd4
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 80d3938016eef3f6cf3c93b469bd7124da8a9d1a
+      datavalue:
+        value: ק"מ/שנייה
+        type: string
+      datatype: string
+    type: statement
+    id: Q4220561$7cc06ec3-4055-c6eb-8990-84ba02ed04b4
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 68362d093f343c799590215a6e784718e864cc48
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3711325
+          id: Q3711325
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4220561$4cf69635-41df-334f-ae2f-c04f6bddfbde
+    rank: normal
+  P2052:
+  - mainsnak:
+      snaktype: value
+      property: P2052
+      hash: 1da70ac6e8196f19ada7b1c7aedc172b33839448
+      datavalue:
+        value:
+          amount: "+1000"
+          unit: http://www.wikidata.org/entity/Q182429
+          upperBound: "+1000"
+          lowerBound: "+1000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q4220561$e9c70eec-431b-f799-476b-3618e1f66a95
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 473c0afdc1e1d4ba8c0aed4079c8fe8333621ac3
+      datavalue:
+        value:
+          amount: "+1000"
+          unit: http://www.wikidata.org/entity/Q182429
+          upperBound: "+1000"
+          lowerBound: "+1000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q4220561$fcaac49f-405e-cad2-6963-de8ef5f633ce
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 32647af8a46bb8ed3d677dd4c741f4cf41710ffb
+      datavalue:
+        value: kilometre_per_second-time
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q4220561$04FE2154-8F64-4CC2-9BD3-3C8E1ADF8823
+    rank: normal
+sitelinks:
+  ruwiki:
+    site: ruwiki
+    title: Километр в секунду
+    badges: []

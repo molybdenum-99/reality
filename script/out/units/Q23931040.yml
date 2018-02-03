@@ -1,0 +1,83 @@
+---
+pageid: 25927501
+ns: 0
+title: Q23931040
+lastrevid: 537539537
+modified: '2017-08-14T08:09:06Z'
+type: item
+id: Q23931040
+labels:
+  en:
+    language: en
+    value: square decametre
+aliases:
+  en:
+  - language: en
+    value: dam2
+  - language: en
+    value: are
+  - language: en
+    value: square dekameter
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 0f49769a073adbf1aea6d3645a68f24ad29dbeb6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1371562
+          id: Q1371562
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q23931040$64cfc7a1-4555-8ea4-8dcc-3566edddfc9e
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: 2449652d616a371527e7d2f71716b1e80a73873d
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 25343
+          id: Q25343
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q23931040$ad9875f8-4571-5d22-d150-e7e2ca86a9ba
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 3e3cfdbacf9166812c53668e64c42fb5d6609622
+      datavalue:
+        value:
+          amount: "+100"
+          unit: http://www.wikidata.org/entity/Q25343
+          upperBound: "+100"
+          lowerBound: "+100"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q23931040$80a8cf5d-449e-307b-9942-25eb21c78782
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: e12439f34cec95ee050daf4e503b6952b0e935f4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11500
+          id: Q11500
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q23931040$0F5E6180-F0B2-4863-BADD-F36BDD7CA5BA
+    rank: normal
+sitelinks: {}

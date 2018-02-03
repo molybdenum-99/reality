@@ -1,0 +1,251 @@
+---
+pageid: 1101789
+ns: 0
+title: Q1155470
+lastrevid: 618649617
+modified: '2018-01-11T01:37:52Z'
+type: item
+id: Q1155470
+labels:
+  en:
+    language: en
+    value: Earth radius
+aliases:
+  en:
+  - language: en
+    value: R⊕
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: c63ebacb9a37c24becf95fb572a96aaf7eed0d3d
+      datavalue:
+        value: "/m/012q8k"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1155470$2B47935C-00B9-4072-865D-28EB0B2DCF90
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: d27c29f1cda3d896356df5ef95bfce60686d2c23
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 173817
+          id: Q173817
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P642:
+      - snaktype: value
+        property: P642
+        hash: 18726cca1081c41a76f33a030f1c2af621f82e07
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 2
+            id: Q2
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P642
+    id: Q1155470$c1583adf-47b0-bd7c-751f-017331a3e670
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1c41b2ea8a3f6d3fab77c103d826ae5ead7a9c01
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1978718
+          id: Q1978718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1155470$117f2230-4f69-b135-2cbd-2e08e643e9e6
+    rank: normal
+  P2043:
+  - mainsnak:
+      snaktype: value
+      property: P2043
+      hash: 6b8a7e84a9e09e3b1fd9da127e8005d2ba328966
+      datavalue:
+        value:
+          amount: "+6371009"
+          unit: http://www.wikidata.org/entity/Q11573
+          upperBound: "+6371010"
+          lowerBound: "+6371008"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1155470$ca5f0bee-46bf-4ad6-c9a6-1dea0e06b2cf
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 4354e3cc033f2c5371e447e5ab1cca8b89ffa3e0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 36253
+          id: Q36253
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1155470$f0c154ad-4c38-0745-612d-dd1e8f9652b3
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: dce25a9da89cab2b490aa80ee4b2d494eef69096
+      datavalue:
+        value:
+          amount: "+6371009"
+          unit: http://www.wikidata.org/entity/Q11573
+          upperBound: "+6371010"
+          lowerBound: "+6371008"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1155470$b47e0d71-46ae-8e5a-2a00-eb214cb9190b
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Aardradius
+    badges: []
+  arwiki:
+    site: arwiki
+    title: نصف قطر أرضي
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Земен радиус
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Radi de la Terra
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Erdradius
+    badges: []
+  emlwiki:
+    site: emlwiki
+    title: Râǵ edla Tèra
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Earth radius
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Tera radiuso
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Radio terrestre
+    badges: []
+  fawiki:
+    site: fawiki
+    title: شعاع زمین
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Rayon de la Terre
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: पृथ्वी त्रिज्या
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Radius Bumi
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Raggio terrestre
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 地球半径
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 지구 반경
+    badges: []
+  lbwiki:
+    site: lbwiki
+    title: Äerdradius
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Promień Ziemi
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Raio terrestre
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Raza Pământului
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Zemljin polmer
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Jordens radie
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Радіус Землі
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Bán kính Trái Đất
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 地球半径
+    badges: []

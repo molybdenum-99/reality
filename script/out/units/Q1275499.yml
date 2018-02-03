@@ -1,0 +1,187 @@
+---
+pageid: 1216042
+ns: 0
+title: Q1275499
+lastrevid: 619837038
+modified: '2018-01-13T17:15:53Z'
+type: item
+id: Q1275499
+labels:
+  en:
+    language: en
+    value: East African shilling
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1275499$ede7f7cf-4855-878e-a9fc-2b1f6acfd80c
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 2343be01daf72230245d6f7389ba67ac5c3a1fad
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 5327653
+          id: Q5327653
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q1275499$BBA1075D-31DC-4893-A44D-D089308D6BB2
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: f273cb28e1db8aaa09ef69d5c4da7118d6f4a075
+      datavalue:
+        value: "/m/06c6b6"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1275499$294AA7FE-39B6-4224-A23F-E0D69A55DF80
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: de27e1088a3e2b405c07ad0aded84868cc085574
+      datavalue:
+        value: East African shilling
+        type: string
+      datatype: string
+    type: statement
+    id: Q1275499$4CA1CCF1-EA77-49A7-A2D8-9E25CBF47506
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: c6c345078bd23c9870d0eea53a7759a36690f445
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 876185
+          id: Q876185
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1275499$1c76398d-44b0-c214-b07f-de8e313619ad
+    rank: normal
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Xíling de l'Àfrica Oriental
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Východoafrický šilink
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Ostafrikanischer Schilling
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Σελίνι Ανατολικής Αφρικής
+    badges: []
+  enwiki:
+    site: enwiki
+    title: East African shilling
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Chelín de África Oriental
+    badges: []
+  fawiki:
+    site: fawiki
+    title: شیلینگ آفریقای شرقی
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Itä-Afrikan šillinki
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Shilling est-africain
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Istočnoafrički šiling
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Восточноафриканский шиллинг
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Östafrikansk shilling
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Східноафриканський шилінг
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 東非先令
+    badges: []

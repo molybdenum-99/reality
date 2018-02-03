@@ -1,0 +1,868 @@
+---
+pageid: 84337
+ns: 0
+title: Q81893
+lastrevid: 625474348
+modified: '2018-02-01T12:00:26Z'
+type: item
+id: Q81893
+labels:
+  en:
+    language: en
+    value: hryvnia
+aliases:
+  en:
+  - language: en
+    value: Hryvnya
+  - language: en
+    value: UAH
+claims:
+  P527:
+  - mainsnak:
+      snaktype: value
+      property: P527
+      hash: b34381c082c61df0d39c19b5bf6beb1aa0fc2b12
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 4077366
+          id: Q4077366
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q81893$5fe86515-4535-85ee-5e77-8cecda8b2e37
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P527
+      hash: 33bdbb547d5ee9020bd207ffc09bd2c96692d126
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 12148448
+          id: Q12148448
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q81893$4596ead2-41da-1bc2-2b1e-81b382a3a7e3
+    rank: normal
+  P2284:
+  - mainsnak:
+      snaktype: value
+      property: P2284
+      hash: 46ef5408805e48eb788c95351c910a8c129e3e1b
+      datavalue:
+        value:
+          amount: "+2.017838"
+          unit: http://www.wikidata.org/entity/Q41044
+          upperBound: "+2.017838"
+          lowerBound: "+2.017838"
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: faf81c521f0bc7095c8e1c7d9f6ec6e5c920ceac
+        datavalue:
+          value:
+            time: "+2018-02-01T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q81893$E474C8E1-D5E5-4E9F-8E5F-D72663BB66B7
+    rank: normal
+    references:
+    - hash: b7bf541ecb266faabb9f7c154fa5394e353d6905
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 964ed2fe84c75859bf72c96f1c0296115b700e08
+          datavalue:
+            value: http://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: e1c25f13cf6d0f81af6dfe3c9788f5a1191dcf05
+          datavalue:
+            value:
+              time: "+2018-02-01T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P98:
+        - snaktype: value
+          property: P98
+          hash: 0f0417985a51672db0470b85aa64cb01c7b631a2
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 1070388
+              id: Q1070388
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P854
+      - P813
+      - P98
+  - mainsnak:
+      snaktype: value
+      property: P2284
+      hash: e206f7cfa8502e5a14794e82036fcd2ec2617118
+      datavalue:
+        value:
+          amount: "+0.035915"
+          unit: http://www.wikidata.org/entity/Q4917
+          upperBound: "+0.035915"
+          lowerBound: "+0.035915"
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: faf81c521f0bc7095c8e1c7d9f6ec6e5c920ceac
+        datavalue:
+          value:
+            time: "+2018-02-01T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q81893$C30CB703-D890-4114-A76C-88781CF9C948
+    rank: normal
+    references:
+    - hash: b7bf541ecb266faabb9f7c154fa5394e353d6905
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 964ed2fe84c75859bf72c96f1c0296115b700e08
+          datavalue:
+            value: http://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: e1c25f13cf6d0f81af6dfe3c9788f5a1191dcf05
+          datavalue:
+            value:
+              time: "+2018-02-01T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P98:
+        - snaktype: value
+          property: P98
+          hash: 0f0417985a51672db0470b85aa64cb01c7b631a2
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 1070388
+              id: Q1070388
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P854
+      - P813
+      - P98
+  - mainsnak:
+      snaktype: value
+      property: P2284
+      hash: 7f9aa428694fd264ccfd95420c6e9ce89ba08075
+      datavalue:
+        value:
+          amount: "+0.028831"
+          unit: http://www.wikidata.org/entity/Q4916
+          upperBound: "+0.028831"
+          lowerBound: "+0.028831"
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: faf81c521f0bc7095c8e1c7d9f6ec6e5c920ceac
+        datavalue:
+          value:
+            time: "+2018-02-01T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q81893$7DDC3505-3796-4CFA-B0E6-2031BF0023E0
+    rank: normal
+    references:
+    - hash: b7bf541ecb266faabb9f7c154fa5394e353d6905
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 964ed2fe84c75859bf72c96f1c0296115b700e08
+          datavalue:
+            value: http://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: e1c25f13cf6d0f81af6dfe3c9788f5a1191dcf05
+          datavalue:
+            value:
+              time: "+2018-02-01T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P98:
+        - snaktype: value
+          property: P98
+          hash: 0f0417985a51672db0470b85aa64cb01c7b631a2
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 1070388
+              id: Q1070388
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P854
+      - P813
+      - P98
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 5d30f9d9a93172183d3d73fcc0c3eeddf82f8ace
+      datavalue:
+        value: UAH
+        type: string
+      datatype: external-id
+    type: statement
+    id: q81893$9663c8ec-4912-933f-b188-c1fb43d709fb
+    rank: normal
+  P489:
+  - mainsnak:
+      snaktype: value
+      property: P489
+      hash: 274f0d1fe911c98a3f369fca9bf9bf4faee68c78
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 4419557
+          id: Q4419557
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q81893$7549fefa-4a4a-6970-48e4-cccce1cb2b1e
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 6a703e76ed5a9b16a23149fb1a66d9424351e712
+      datavalue:
+        value: 5 hryvnia 2005 back.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q81893$F1C8F0DF-7322-4747-A983-AC053AABD1C6
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: dcf4cdb3d37de1bca13429dfa8676fb84c0dced6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 212
+          id: Q212
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q81893$452865f9-4c5a-a56f-af29-eba95adf8934
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 007e22c50d38fdd89b54ac51a8d0492efdf3b8c9
+      datavalue:
+        value: "/m/035qkb"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q81893$6EFBFE82-73CB-4B84-BF64-57A802AF452A
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P935:
+  - mainsnak:
+      snaktype: value
+      property: P935
+      hash: f1760341a7b42abb86e93a196c35db78ef326278
+      datavalue:
+        value: Гривня
+        type: string
+      datatype: string
+    type: statement
+    id: Q81893$AFBE91F5-6433-4A4C-9192-70B2500A5B9E
+    rank: normal
+  P227:
+  - mainsnak:
+      snaktype: value
+      property: P227
+      hash: ccc7ff90012009f8ce015bfa99cbdcdd0ac83729
+      datavalue:
+        value: 4618908-7
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q81893$3D2415F5-68E6-4B38-B43B-12616DB353A3
+    rank: normal
+    references:
+    - hash: 9a24f7c0208b05d6be97077d855671d1dfdbc0dd
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: d38375ffe6fe142663ff55cd783aa4df4301d83d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 48183
+              id: Q48183
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: f0f7eb4be87dac5d90be9991237390742e531696
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1070388
+          id: Q1070388
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q81893$36131FC4-603C-4998-9CC9-0316A447F691
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q81893$2e806c80-4fc0-7bff-f43c-3d138e73a631
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 1b883ca68f1c52c75893b0ee196baaf4aede0364
+      datavalue:
+        value: Money of Ukraine
+        type: string
+      datatype: string
+    type: statement
+    id: q81893$931D92F6-8559-4D29-8C6C-BC10E91DCDE2
+    rank: normal
+  P910:
+  - mainsnak:
+      snaktype: value
+      property: P910
+      hash: e522ac46bf73922e68ecb2e9fc956e4598e6a8f5
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 7709667
+          id: Q7709667
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q81893$8E82CD07-4C3A-42DE-A10E-608A33894043
+    rank: normal
+    references:
+    - hash: 60cce5d0acf0cc060796196012001192a048d885
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 390e3b73e7cd926978cab220968d0e3451cfb814
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 199698
+              id: Q199698
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: a6606f69e1eaef6d57b8661557ca9972984dad6a
+      datavalue:
+        value: Hryvnia
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q81893$648BC7BD-69FD-4E60-9832-1950C5ABD8F3
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P856:
+  - mainsnak:
+      snaktype: value
+      property: P856
+      hash: 4b69a22fbba954e12b041708c7c339d10e083f3f
+      datavalue:
+        value: http://www.bank.gov.ua/
+        type: string
+      datatype: url
+    type: statement
+    id: Q81893$4672534D-3672-4D03-8B4B-27C4A95B2617
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: a44e2e0bb41475e8af2c97ebe141113e1928f000
+      datavalue:
+        value: '500267'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q81893$9A8AE124-9D99-4A50-8DB3-C407C30A26A7
+    rank: normal
+  P1417:
+  - mainsnak:
+      snaktype: value
+      property: P1417
+      hash: 162d8c8afc83e88cbc3273eb2d914a023e59608c
+      datavalue:
+        value: topic/hryvnya
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q81893$EC74479B-9E25-4E1D-AB51-CBFBD4DC1958
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: هريفنا أوكرانية
+    badges: []
+  arzwiki:
+    site: arzwiki
+    title: هريفنيا اوكرانى
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Ukrayna qrivnası
+    badges: []
+  barwiki:
+    site: barwiki
+    title: Hrywnja
+    badges: []
+  bat_smgwiki:
+    site: bat_smgwiki
+    title: Okraėnas hrėvna
+    badges: []
+  bawiki:
+    site: bawiki
+    title: Украина гривнаһы
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Грыўна
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Украінская грыўня
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Украинска гривна
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: ইউক্রেনিয়ান হ্রিবনিয়া
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Ukrajinska hrivnja
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Hrívnia
+    badges: []
+  commonswiki:
+    site: commonswiki
+    title: Гривня
+    badges: []
+  crhwiki:
+    site: crhwiki
+    title: Grivna
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Ukrajinská hřivna
+    badges: []
+  cvwiki:
+    site: cvwiki
+    title: Гривна
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Ukrainske hryvnia
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Hrywnja
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Ukrainian hryvnia
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Ukraina hrivno
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Grivna
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Ukraina grivna
+    badges: []
+  fawiki:
+    site: fawiki
+    title: گریونا
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Ukrainan hryvnia
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Hryvnia
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Hrivna
+    badges: []
+  hewiki:
+    site: hewiki
+    title: הריבניה
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: युक्रेनियाई रिव्निया
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Ukrajinska grivnja
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Ukrán hrivnya
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Գրիվնա
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Hryvnia Ukraina
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Úkraínsk hrinja
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Grivnia ucraina
+    badges: []
+  jawiki:
+    site: jawiki
+    title: フリヴニャ
+    badges: []
+  kawiki:
+    site: kawiki
+    title: გრივნა
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 우크라이나 흐리우냐
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Украинаса гривня
+    badges: []
+  kywiki:
+    site: kywiki
+    title: Украина гривны
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Grivina
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Ukrainas grivna
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Украинска гривна
+    badges: []
+  mnwiki:
+    site: mnwiki
+    title: Гривна
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: युक्रेनियन रिउनिया
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Oekraïense grivna
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Hryvnja
+    badges: []
+  oswiki:
+    site: oswiki
+    title: Украинæйы гривнæ
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਯੂਕਰੇਨੀ ਹਰੀਵਨਾ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Hrywna
+    badges: []
+  plwikiquote:
+    site: plwikiquote
+    title: Hrywna
+    badges: []
+  pnbwiki:
+    site: pnbwiki
+    title: ہریونا
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Grívnia
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Grivnă
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Украинская гривна
+    badges: []
+  ruwikinews:
+    site: ruwikinews
+    title: Категория:Украинская гривна
+    badges: []
+  sahwiki:
+    site: sahwiki
+    title: Украина ҕрывньата
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Ukrajinska hrivnja
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Ukrainian hryvnia
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Ukrajinská hrivna
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Ukrajinska hrivnija
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Украјинска гривна
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Hryvnia
+    badges: []
+  tawiki:
+    site: tawiki
+    title: ஹிருன்யா
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Гривняи Украина
+    badges: []
+  thwiki:
+    site: thwiki
+    title: ฮริฟเนียยูเครน
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Hiribniya ng Ukranya
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Grivna
+    badges: []
+  ttwiki:
+    site: ttwiki
+    title: Гривна
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Гривня
+    badges: []
+  ukwikiquote:
+    site: ukwikiquote
+    title: Гривня
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Grivna
+    badges: []
+  wawiki:
+    site: wawiki
+    title: Grivna
+    badges: []
+  wuuwiki:
+    site: wuuwiki
+    title: 乌克兰元
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: გრივნა
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Hryvnia
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Ukraina hryvnia
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 烏克蘭格里夫納
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 乌克兰格里夫纳
+    badges: []

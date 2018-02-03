@@ -1,0 +1,462 @@
+---
+pageid: 82288
+ns: 0
+title: Q79735
+lastrevid: 617564814
+modified: '2018-01-07T23:52:07Z'
+type: item
+id: Q79735
+labels:
+  en:
+    language: en
+    value: megabyte
+aliases:
+  en:
+  - language: en
+    value: Mbyte
+  - language: en
+    value: MB
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 4c94747e1cb1d70652e4d208ffe0fd9268d82d6d
+      datavalue:
+        value: "/m/0501t"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q79735$A2BA373C-E842-4A7F-AC60-56CBD29B4A39
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 2d6ead580ca479cd38b25f8d8c677f1c03ad7473
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3550873
+          id: Q3550873
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q79735$56ca0d12-475c-02c7-a072-42b2d7c80822
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: e75c97542902bdadef9bc25c0b8ac2a063877b3e
+      datavalue:
+        value: МБ
+        type: string
+      datatype: string
+    type: statement
+    id: Q79735$bacd5a7d-4eeb-cbbe-6bc9-315a218fd3de
+    rank: normal
+    references:
+    - hash: c7dbc558220a8c259fce19d4fb1feebce54f280a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: d16d9dea1829f852f3c150a6a6373d3fa7d3dd86
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 4130714
+              id: Q4130714
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: '091b38ec550084cbd374a9f24a18929cd7cd4c58'
+      datavalue:
+        value: Мбайт
+        type: string
+      datatype: string
+    type: statement
+    id: Q79735$28dbf62d-4c86-3cc9-5fc4-23345e5d97d5
+    rank: normal
+    references:
+    - hash: c7dbc558220a8c259fce19d4fb1feebce54f280a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: d16d9dea1829f852f3c150a6a6373d3fa7d3dd86
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 4130714
+              id: Q4130714
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 74197c743991866ae713837630bb129d839302e8
+      datavalue:
+        value: MB
+        type: string
+      datatype: string
+    type: statement
+    id: Q79735$919e2663-45d8-7266-1aac-048f3d183c06
+    rank: normal
+    references:
+    - hash: 5fe1039858667ad40e3911367de1d0a0cac48c8e
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 0e73b9396411d565bdd95a9c668d5a209a8197d0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 193858
+              id: Q193858
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 360c43da2a80b10f1aeb83c69687b8d93deb92c4
+      datavalue:
+        value: megabyte
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q79735$03B319EE-679F-4E4E-B07D-24B53F1A3855
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: a2f29c079fa332c45f56b28ce6762bfc10618cda
+      datavalue:
+        value:
+          amount: "+1000000"
+          unit: http://www.wikidata.org/entity/Q8799
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q79735$fafc5b3a-468a-dcfa-0556-a2d22adc29ae
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 5d0259f79238f5f8149b2513cbb818a9b7dbabff
+      datavalue:
+        value:
+          amount: "+1000"
+          unit: http://www.wikidata.org/entity/Q79726
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q79735$aa8e07e5-4cab-0ff4-ed93-0c56e48dd6e9
+    rank: normal
+  P1889:
+  - mainsnak:
+      snaktype: value
+      property: P1889
+      hash: d8a79a5ffe27bdb7358608b63aa0716375652812
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 79758
+          id: Q79758
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q79735$b9adacb1-4eb0-8c6d-1abf-0c3d5656ab61
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 071a79a4b2620e4df779bd18a3409b87b64cb926
+      datavalue:
+        value: Megabyte
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q79735$5C150AF5-B548-40BC-B2D1-93D140F8590D
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Megagreep
+    badges: []
+  arwiki:
+    site: arwiki
+    title: ميقابايت
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Meqabayt
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Мэгабайт
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Мегабайт
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: মেগাবাইট
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Megabyte
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Megabyte
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Megabyte
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Megabyte
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Megabajto
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Megabyte
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Megabyte
+    badges: []
+  fawiki:
+    site: fawiki
+    title: مگابایت
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Mégabyte
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Megabajt
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Մեգաբայթ
+    badges: []
+  iawiki:
+    site: iawiki
+    title: Megabyte
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Megabita
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Megabyte
+    badges: []
+  jawiki:
+    site: jawiki
+    title: メガバイト
+    badges: []
+  jvwiki:
+    site: jvwiki
+    title: Mégabita
+    badges: []
+  kawiki:
+    site: kawiki
+    title: მეგაბაიტი
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Мегабайт
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 메가바이트
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Megabaits
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Мегабајт
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: मेगाबाइट
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Megabait
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Megabyte
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Megabyte
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Megabyte
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Megabajt
+    badges: []
+  pnbwiki:
+    site: pnbwiki
+    title: میگا بائیٹ
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Megabyte
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Мегабайт
+    badges: []
+  sahwiki:
+    site: sahwiki
+    title: Мегабайт
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Megabyte
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Megabyte
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Megabajt
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Megabyte
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Megabajt
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Мегабајт
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Megabyte
+    badges: []
+  tawiki:
+    site: tawiki
+    title: மெகாபைட்டு
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Мегабайт
+    badges: []
+  thwiki:
+    site: thwiki
+    title: เมกะไบต์
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Megabayt
+    badges: []
+  ttwiki:
+    site: ttwiki
+    title: Мегабайт
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Мегабайт
+    badges: []
+  urwiki:
+    site: urwiki
+    title: میگابائٹ
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Megabyte
+    badges: []
+  warwiki:
+    site: warwiki
+    title: Megabyte
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 兆字節
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 百万字节
+    badges: []

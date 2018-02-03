@@ -1,0 +1,77 @@
+---
+pageid: 208795
+ns: 0
+title: Q213327
+lastrevid: 509893311
+modified: '2017-06-29T17:58:55Z'
+type: item
+id: Q213327
+labels:
+  en:
+    language: en
+    value: Ticinese franco
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q213327$2F204093-A1BF-411A-BD55-BFFE373D4B24
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 2b5184e1bb4243379894f7032debd351623e9666
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 12724
+          id: Q12724
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q213327$8123d8c5-4b1f-12b0-7ff9-0a3f6ab001db
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Ticinese franco
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Franco de Ticino
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Ticinesisk franco
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Франк Тичино
+    badges: []

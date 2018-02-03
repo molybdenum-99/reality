@@ -1,0 +1,169 @@
+---
+pageid: 686600
+ns: 0
+title: Q730251
+lastrevid: 560925920
+modified: '2017-09-17T18:41:30Z'
+type: item
+id: Q730251
+labels:
+  en:
+    language: en
+    value: foot-pound
+aliases:
+  en:
+  - language: en
+    value: ft·lbf
+  - language: en
+    value: foot pound force
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 8cf7e98fa950515170adfdcf8327908f5dbf7f92
+      datavalue:
+        value: "/m/026b0s"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q730251$30C6605F-B262-4240-BFF8-83D4433E074B
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 06df6efe68f6e25b0d602229267e4d3e9ccc3d64
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2916980
+          id: Q2916980
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q730251$62fb0bbf-4f37-2346-bed2-e16be6644ad5
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 116d4e747f0c10a9e7568a17e486a9bbc97bd286
+      datavalue:
+        value: ft·lbf
+        type: string
+      datatype: string
+    type: statement
+    id: Q730251$e95f93fb-45a5-db33-e8fc-58ab32049675
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: a015d426ef860ce352b38a73910b4c8bd59131b2
+      datavalue:
+        value:
+          amount: "+1.3558179483314004"
+          unit: http://www.wikidata.org/entity/Q25269
+          upperBound: "+1.3558179483314005"
+          lowerBound: "+1.3558179483314003"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q730251$ab3fcca8-48d3-2444-d583-464a3ac49286
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 2e5b94e942b0b4560c2a6d2ad04a181863a5a548
+      datavalue:
+        value: FootPoundForce
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q730251$8e4262cd-4f4a-3e66-dee6-ff2c0cb1e2d1
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 7ad0f8fc8c23eb3ede324fc816121895c19109c6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11379
+          id: Q11379
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q730251$C18FE0F8-E560-42FD-8A9F-888792215BEA
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Foot-pound
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Foot-pound (energy)
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Pie-libra fuerza
+    badges: []
+  fawiki:
+    site: fawiki
+    title: پا-پوند
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Naulajalka
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Pied-livre
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Piede per libbra
+    badges: []
+  jawiki:
+    site: jawiki
+    title: フィート重量ポンド
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Foot-pound force
+    badges: []

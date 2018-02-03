@@ -1,0 +1,136 @@
+---
+pageid: 3869470
+ns: 0
+title: Q4060587
+lastrevid: 497450465
+modified: '2017-06-08T08:56:19Z'
+type: item
+id: Q4060587
+labels:
+  en:
+    language: en
+    value: Franga
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 591bc530ea4c7760cef76af4fc8ae289bb346182
+      datavalue:
+        value: "/m/0g58j6_"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q4060587$193D2495-8068-4C47-B443-429BA1180E08
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4060587$A6A61C1B-233D-4BAA-90E2-2BF222992778
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 45df5b57df87601f84e438d5b02325e30337bf9d
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 222
+          id: Q222
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4060587$1D591E34-1CB2-4952-96DF-F47C2369F4A9
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  azwiki:
+    site: azwiki
+    title: Albaniya frankı
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Franga
+    badges: []
+  fawiki:
+    site: fawiki
+    title: فرانگا
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Franc albanais
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Ալբանական ֆրանկ
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Албанский франк
+    badges: []
+  sqwiki:
+    site: sqwiki
+    title: Frangu Ar
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Arnavut frangı
+    badges: []

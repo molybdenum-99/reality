@@ -1,0 +1,103 @@
+---
+pageid: 2668130
+ns: 0
+title: Q2781048
+lastrevid: 407857201
+modified: '2016-11-15T15:25:31Z'
+type: item
+id: Q2781048
+labels:
+  en:
+    language: en
+    value: kilocandela
+aliases:
+  en:
+  - language: en
+    value: kcd
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 29b4ccce14080b7e622c7cd8c56490120d3e056b
+      datavalue:
+        value: kcd
+        type: string
+      datatype: string
+    type: statement
+    id: Q2781048$70da0cd9-44d4-9abf-392e-95e59e8e8558
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 610dcb5fdc70fb2ff4c662c75fd18e4e9ce64062
+      datavalue:
+        value: ккд
+        type: string
+      datatype: string
+    type: statement
+    id: Q2781048$0a0df9b8-4165-4733-cf08-73b7aa5945e2
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2781048$ea0a4365-440c-4ed6-adb7-1d764b42a747
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: e27f49dfa43dd941aca532fe0ef052553c87e092
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 104831
+          id: Q104831
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2781048$9f99cc1c-439c-8246-d3d6-c3c4cc9a87aa
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 8e202c87970823390f652617ffa998c030041f03
+      datavalue:
+        value: kilocandela
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2781048$A5806368-F2BF-458A-B4BC-60C4F39EAF9E
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 8509a16eb84a72d6b2f920897439393cf5bb7b40
+      datavalue:
+        value:
+          amount: "+1000"
+          unit: http://www.wikidata.org/entity/Q83216
+          upperBound: "+1001"
+          lowerBound: "+999"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q2781048$b57ff03a-446d-4fc3-ab48-5ee179cd7e30
+    rank: normal
+sitelinks:
+  nlwiki:
+    site: nlwiki
+    title: Kilocandela
+    badges: []

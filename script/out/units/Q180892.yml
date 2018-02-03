@@ -1,0 +1,464 @@
+---
+pageid: 180097
+ns: 0
+title: Q180892
+lastrevid: 623571399
+modified: '2018-01-26T12:55:34Z'
+type: item
+id: Q180892
+labels:
+  en:
+    language: en
+    value: solar mass
+aliases:
+  en:
+  - language: en
+    value: M☉
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: aad4e0b00b7452cfe8ee2f9051a8c376dc906290
+      datavalue:
+        value: "/m/0179r5"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q180892$2D7A90E6-4B8F-41CE-8C1B-08E13DBA493D
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 954edbd3fef27ce6396c0878a95c608ca4ed84af
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3647172
+          id: Q3647172
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q180892$9eed75a2-461e-f9e1-3896-9a3edef6b5c7
+    rank: normal
+  P2067:
+  - mainsnak:
+      snaktype: value
+      property: P2067
+      hash: b6674bd1f4ebc721f6c62ee452197d2c63778ee6
+      datavalue:
+        value:
+          amount: "+1988550000"
+          unit: http://www.wikidata.org/entity/Q613726
+          upperBound: "+1988580000"
+          lowerBound: "+1988520000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q180892$b88d13a0-4618-90fa-c240-1f627d8d8938
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: d456cdd4f87d3e2099450d140c63f71bdbc7a5f7
+      datavalue:
+        value:
+          amount: "+1988550000000000000000000000000"
+          unit: http://www.wikidata.org/entity/Q11570
+          upperBound: "+1988800000000000000000000000000"
+          lowerBound: "+1988300000000000000000000000000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q180892$87451f8b-4ddb-1924-d674-b0c7e018d3c0
+    rank: normal
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 381a8e21604aa7394bb45dd6ea82905dfeb13384
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 525
+          id: Q525
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q180892$f33aa7b0-4966-25f6-2331-78a35027ee0a
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: b628d5f08659b1e653f9a0ab435170cd307b09e5
+      datavalue:
+        value: solar_mass
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q180892$B0A05E07-6647-46EC-B13F-EDB74FE64C78
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: d5ecd9daae71c9a35f932318da9aaac299afcfc8
+      datavalue:
+        value: M☉
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P407:
+      - snaktype: value
+        property: P407
+        hash: d291ddb7cd77c94a7bd709a8395934147e0864fc
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 7737
+            id: Q7737
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P407
+    id: Q180892$3af1bfda-463f-f51e-1d6f-8a4a03ce566b
+    rank: normal
+  P2534:
+  - mainsnak:
+      snaktype: value
+      property: P2534
+      hash: a4ba44c1a2296dd9a2179bb1b1f3f59be834bda4
+      datavalue:
+        value: M_\odot = \frac{4 \pi^2 \times (1\,\mathrm{AU})^3}{G \times (1\,\mathrm{yr})^2}
+        type: string
+      datatype: math
+    type: statement
+    id: Q180892$4B24E2CA-8F54-4E4D-8199-11106AE2032F
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 16653c4848e0552e9604edc668341bd5f95825a4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11423
+          id: Q11423
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q180892$0C0A4CB5-65AF-4CAB-81FB-E0B9664CA48A
+    rank: normal
+  P3827:
+  - mainsnak:
+      snaktype: value
+      property: P3827
+      hash: f0cd1b860a8eede6f19de7e43052a70dbddde888
+      datavalue:
+        value: solar-mass
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q180892$D857A026-FB8D-4ECF-AFBC-07430EC0590E
+    rank: normal
+  P4466:
+  - mainsnak:
+      snaktype: value
+      property: P4466
+      hash: 6b2e30d94624de7f16387b69f3cd2da2712fc710
+      datavalue:
+        value: '1506'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q180892$68BBC97D-CAF9-4659-B871-4290C3FFAB87
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Sonmassa
+    badges: []
+  arwiki:
+    site: arwiki
+    title: كتلة شمسية
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Masa solar
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Сонечная маса
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Сонечная маса
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Слънчева маса
+    badges: []
+  brwiki:
+    site: brwiki
+    title: Tolz Heol
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Massa solar
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Sluneční hmotnost
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Sonnenmasse
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Ηλιακή μάζα
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Solar mass
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Suna maso
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Masa solar
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Eguzki masa
+    badges: []
+  fawiki:
+    site: fawiki
+    title: جرم خورشیدی
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Auringon massa
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Masse solaire
+    badges: []
+  hewiki:
+    site: hewiki
+    title: מסת שמש
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: सौर द्रव्यमान
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Naptömeg
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Massa matahari
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Massa solare
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 太陽質量
+    badges: []
+  kawiki:
+    site: kawiki
+    title: მზის მასა
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 태양질량
+    badges: []
+  lbwiki:
+    site: lbwiki
+    title: Sonnemass
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Saulės masė
+    badges: []
+  mgwiki:
+    site: mgwiki
+    title: Lanjamasoandro
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Сончева маса
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: സൗരപിണ്ഡം
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: सौर वस्तुमान
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Jisim suria
+    badges: []
+  ndswiki:
+    site: ndswiki
+    title: Sünnmasse
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Zonsmassa
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Solmasse
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Solmasse
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਸੌਰ ਪੁੰਜ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Masa Słońca
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Massa solar
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Masă solară
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Солнечная масса
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Massa sulari
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Solar mass
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Solar mass
+    badges: []
+  siwiki:
+    site: siwiki
+    title: Solar mass
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Hmotnosť Slnka
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Sončeva masa
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Сунчева маса
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Solmassa
+    badges: []
+  swwiki:
+    site: swwiki
+    title: Masi ya Jua
+    badges: []
+  tawiki:
+    site: tawiki
+    title: சூரியப் பொருண்மை
+    badges: []
+  thwiki:
+    site: thwiki
+    title: มวลดวงอาทิตย์
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Güneş kütlesi
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Маса Сонця
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Khối lượng Mặt Trời
+    badges: []
+  vowiki:
+    site: vowiki
+    title: Solamasat
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 太陽質量
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 太阳质量
+    badges: []

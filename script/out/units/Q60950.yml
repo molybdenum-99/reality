@@ -1,0 +1,223 @@
+---
+pageid: 63703
+ns: 0
+title: Q60950
+lastrevid: 618608985
+modified: '2018-01-10T21:51:13Z'
+type: item
+id: Q60950
+labels:
+  en:
+    language: en
+    value: Libyan pound
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 07311cd66a9a940c8b8b453baa761fc3805b978e
+      datavalue:
+        value: "/m/092lql"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q60950$DA72F0EC-8403-4FE3-81EF-638EBD3AD8A4
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q60950$cc96bb99-4566-6c5d-cee7-ce0518397db6
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 48dad11e4d75aa74b8b0904f85a3d307400ea278
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 339180
+          id: Q339180
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q60950$6af9f0ac-452a-13c7-31a8-d3463ec211bf
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 77d5901c99abecb5b79e14018a8093ecba84b82e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1016
+          id: Q1016
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q60950$8b03ff92-4140-8fab-f16b-e20f60047521
+    rank: normal
+  P571:
+  - mainsnak:
+      snaktype: value
+      property: P571
+      hash: 759daad6dc8e4b16a8aaf318fef9401633a6247d
+      datavalue:
+        value:
+          time: "+1951-00-00T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 9
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q60950$d80ced5c-41ad-1134-8c52-8437e5521b48
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 71d022edbde44d2bba282b44d6d5a71d8755777a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1016
+          id: Q1016
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q60950$0675d735-42f5-005d-e1f2-c6e179a41de1
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P1705:
+  - mainsnak:
+      snaktype: value
+      property: P1705
+      hash: 0a6ed94ea76e04e7f4f5e18043dc6e2710f2773c
+      datavalue:
+        value:
+          text: جُنَيْه
+          language: ar
+        type: monolingualtext
+      datatype: monolingualtext
+    type: statement
+    id: Q60950$aa2c1d26-48c6-e1ac-c75b-c66e8cdf23d2
+    rank: normal
+  P576:
+  - mainsnak:
+      snaktype: value
+      property: P576
+      hash: 8886d34f75363207c33ae091418bfa2fb81ecd31
+      datavalue:
+        value:
+          time: "+1971-00-00T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 9
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q60950$686b8316-4fad-825d-dbbf-3656013ff95a
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: جنيه ليبي
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Lliura líbia
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Libysches Pfund
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Libyan pound
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Libra libia
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Livre libyenne
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Sterlina libica
+    badges: []
+  kawiki:
+    site: kawiki
+    title: ლიბიური ფუნტი
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Funt libijski
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Ливийский фунт
+    badges: []

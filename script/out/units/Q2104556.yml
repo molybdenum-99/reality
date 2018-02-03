@@ -1,0 +1,161 @@
+---
+pageid: 2031054
+ns: 0
+title: Q2104556
+lastrevid: 618472702
+modified: '2018-01-10T12:09:32Z'
+type: item
+id: Q2104556
+labels:
+  en:
+    language: en
+    value: Porron
+aliases: {}
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: d19379b00c777c80575360499069801e726588e7
+      datavalue:
+        value: Porrons
+        type: string
+      datatype: string
+    type: statement
+    id: q2104556$AA4407A9-DD02-4C17-AEE9-30300CE64DE0
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 0cae22a3ef0eb0aaa3f16e6fa9f848382b67e302
+      datavalue:
+        value: "/m/07gch0"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2104556$4264EE42-2FD0-4061-9791-D7DC4BA412D8
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6e3da81891b6fba54d9ac8088595a4b05e5a5f95
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1302471
+          id: Q1302471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2104556$08a673ac-4689-9a6d-5f7b-4e50ab5ea49c
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 239c168452636733be978a6bc1b7aa51474839f0
+      datavalue:
+        value: PorrónCristal08.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q2104556$c0760bec-4a17-a757-6864-00f00f9c0f81
+    rank: normal
+sitelinks:
+  anwiki:
+    site: anwiki
+    title: Porrón
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Porró
+    badges: []
+  cawikiquote:
+    site: cawikiquote
+    title: Porró
+    badges: []
+  commonswiki:
+    site: commonswiki
+    title: Category:Porrons
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Porrón
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Porron
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Bekkruĉo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Porrón
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Porroi
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Porró
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Поррон
+    badges: []
+  thwiki:
+    site: thwiki
+    title: ปูร์โร
+    badges: []

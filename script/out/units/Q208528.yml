@@ -1,0 +1,361 @@
+---
+pageid: 204508
+ns: 0
+title: Q208528
+lastrevid: 560947561
+modified: '2017-09-17T19:21:56Z'
+type: item
+id: Q208528
+labels:
+  en:
+    language: en
+    value: gradian
+aliases:
+  en:
+  - language: en
+    value: gon
+  - language: en
+    value: grad
+  - language: en
+    value: grade
+  - language: en
+    value: Grad
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 4e5438cc78c6218b176b8c0eca810d2ffbcc2e0d
+      datavalue:
+        value: "/m/01cn3_"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q208528$5AB709BD-3795-4620-A83B-122AEADD188B
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 114407d8f5f64b19f01153752bedcf6679128ec0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 13587321
+          id: Q13587321
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q208528$c01504c1-47e1-b00e-c14b-b647d079c7e9
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: e65c9319127291fe247a7e4e9e4b1db2ed3b000f
+      datavalue:
+        value: gon
+        type: string
+      datatype: string
+    type: statement
+    id: Q208528$4908d7a8-40ae-3fbc-71d6-68c4f1bca47e
+    rank: normal
+    references:
+    - hash: 1ea1e751358a57b633b2933fcd69554f907a7af0
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: 897f7fc0de87fcf3af1e7ece2a31584f3d81340d
+          datavalue:
+            value: 3-5.e
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 86b33fce5d86162d4e38d8f8e7d72af9343d9f00
+      datavalue:
+        value: Gon
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q208528$cb7e12bb-4c04-babb-4108-f28a95b4f2ef
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: b9d8fdffa613d7630b5db3a4eb6881a4f62b2e00
+      datavalue:
+        value:
+          amount: "+0.015707963267949"
+          unit: http://www.wikidata.org/entity/Q33680
+          upperBound: "+0.015707963267950"
+          lowerBound: "+0.015707963267948"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q208528$d29dd13e-48a0-facb-0145-5a3d7872e3ed
+    rank: normal
+    references:
+    - hash: f57ec24c28b684934ff252137ec247526a0bab0b
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 509b6be1b4fb8ee3b060241a13be605da341ae53
+          datavalue:
+            value: http://qudt.org/qudt/owl/1.0.0/unit/Instances.html#Gon
+            type: string
+          datatype: url
+      snaks-order:
+      - P854
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: '095b22e5c47a47f7d5e84e00899837038be11bd4'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 26711932
+          id: Q26711932
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P958:
+      - snaktype: value
+        property: P958
+        hash: 897f7fc0de87fcf3af1e7ece2a31584f3d81340d
+        datavalue:
+          value: 3-5.e
+          type: string
+        datatype: string
+    qualifiers-order:
+    - P958
+    id: Q208528$b95406f9-47fe-5194-ef54-096790801e8a
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 130b9cd1f448c635bd816894ab351d0b9a92aac7
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11352
+          id: Q11352
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q208528$b509cebd-488b-3e2e-2a13-05a4e61ef4a6
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Desimale graad
+    badges: []
+  arwiki:
+    site: arwiki
+    title: غراد
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Grau centesimal
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Град (ъгъл)
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Grau centesimal
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Grad
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Nygrad
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Gon
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Βαθμός (γεωμετρία)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Gradian
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Graduso
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Grado centesimal
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Kümnendkraad
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Gradu ehundar
+    badges: []
+  fawiki:
+    site: fawiki
+    title: گراد
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Gooni
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Grade (angle)
+    badges: []
+  hewiki:
+    site: hewiki
+    title: גראד (זווית)
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Gradián
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Nýgráða
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Grado centesimale
+    badges: []
+  jawiki:
+    site: jawiki
+    title: グラード (単位)
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 그레이드
+    badges: []
+  newiki:
+    site: newiki
+    title: ग्रेडियन
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Decimale graad
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Gon
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Gon
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Grad (kąt)
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Grado (ângulo)
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Grad centezimal
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Град, минута, секунда
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Grad (enota)
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Град (математика)
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Gon
+    badges: []
+  tawiki:
+    site: tawiki
+    title: கிரேடியன்
+    badges: []
+  thwiki:
+    site: thwiki
+    title: แกร็ด
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Grad
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Град (міра кута)
+    badges: []
+  yiwiki:
+    site: yiwiki
+    title: גראד (ווינקל)
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 百分度
+    badges: []

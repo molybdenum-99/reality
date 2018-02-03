@@ -1,0 +1,89 @@
+---
+pageid: 30398935
+ns: 0
+title: Q28739766
+lastrevid: 600433329
+modified: '2017-11-29T08:06:17Z'
+type: item
+id: Q28739766
+labels:
+  en:
+    language: en
+    value: сoulomb-meter
+aliases:
+  en:
+  - language: en
+    value: C m
+  - language: en
+    value: C·m
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q28739766$c16c09af-4a8d-f7f6-daf6-f15360f59c0b
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 50afdc16346d8687f53963f614e8d645419488a0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 208469
+          id: Q208469
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q28739766$d30ac097-4995-fc07-8f7d-98acf0d972d2
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: dec3e685bb6bb54ce4c551518afd5a3a0b7d860b
+      datavalue:
+        value: Кл·м
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q28739766$84a44f1a-4f2d-9395-a04a-926eb504031e
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 2d65033993804c653243744db2193c6b3eca016c
+      datavalue:
+        value:
+          amount: "+1"
+          unit: http://www.wikidata.org/entity/Q28739766
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q28739766$47407987-444f-4fbb-0996-a518f96e25d0
+    rank: normal
+sitelinks: {}

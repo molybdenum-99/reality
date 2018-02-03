@@ -1,0 +1,357 @@
+---
+pageid: 5689
+ns: 0
+title: Q4741
+lastrevid: 617888476
+modified: '2018-01-08T22:59:15Z'
+type: item
+id: Q4741
+labels:
+  en:
+    language: en
+    value: Rwandan franc
+aliases:
+  en:
+  - language: en
+    value: Rwanda franc
+  - language: en
+    value: FRw
+  - language: en
+    value: Rwandan frank
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q4741$CF2C5552-E288-4713-B46E-6B2AF4BA4452
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: ecd5bf4083dc78b8b03fa4d0431f3d1dfc78c3ba
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 4314980
+          id: Q4314980
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q4741$8F210F6E-1988-4408-B1BC-4A4BC7CEBEF0
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: b85dae62463fb61039f71098068125b800f39bfa
+      datavalue:
+        value: "/m/05yxkm"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q4741$6AAE44F2-6178-4966-BC88-8D01D0B39B4C
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 0e29bcd5ea2a838b163f99dc44f8621b255c1cb9
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1037
+          id: Q1037
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4741$8f007087-43c0-87a6-80a2-d134d491fc45
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: eae0e516e4ea8b44560c7dcf35941fe7cc41b8c4
+      datavalue:
+        value: RWF
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q4741$ea7ee728-4ef8-025c-aba6-148e5baae725
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 4ed39000829de91552d72d21d31c2eba25a17712
+      datavalue:
+        value: Money of Rwanda
+        type: string
+      datatype: string
+    type: statement
+    id: Q4741$5566C105-8FB5-4AEB-BCF5-20B628FE67BB
+    rank: normal
+    references:
+    - hash: dbc378ca38aa06d2ac2a1b790ffe3a5ee9d0bd17
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 5230a42ffbab53c12928ede0c985a74a1d5be294
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 53464
+              id: Q53464
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: e15314f0e23bbc32e503d6b64f86da401a6628e2
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1403377
+          id: Q1403377
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4741$4020f80d-4e8d-9faa-3cf2-73eac3b4c655
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 530a474452c6f11c24846f68dde3aec886aecaf0
+      datavalue:
+        value: '500236'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q4741$61334E13-0297-4A41-B6DC-C33FB354CFDE
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: فرنك رواندي
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Ruanda frankı
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Руандыйскі франк
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Руандыйскі франк
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Руандийски франк
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: রুয়ান্ডান ফ্রাঙ্ক
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Franc ruandès
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Rwandský frank
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Rwandiske franc
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Ruanda-Franc
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Φράγκο της Ρουάντα
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Rwandan franc
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Ruanda franko
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Franco ruandés
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Rwanda frank
+    badges: []
+  fawiki:
+    site: fawiki
+    title: فرانک رواندا
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Ruandan frangi
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Franc rwandais
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Franco ruandés
+    badges: []
+  hewiki:
+    site: hewiki
+    title: פרנק רואנדי
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Ruandski franak
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Ruandai frank
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Franc Rwanda
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Franco ruandese
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ルワンダ・フラン
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 르완다 프랑
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Ruandos frankas
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: रवांडन फ्रँक
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Rwandese frank
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Rwandisk franc
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Frank rwandyjski
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Franco ruandês
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Франк Руанды
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Руандски франак
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Rwandisk franc
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Франки Рванда
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Ruanda frangı
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Руандійський франк
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Franki Rùwándà
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Rwanda franc
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 卢旺达法郎
+    badges: []

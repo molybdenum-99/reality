@@ -1,0 +1,684 @@
+---
+pageid: 253423
+ns: 0
+title: Q261247
+lastrevid: 610300911
+modified: '2017-12-17T16:32:53Z'
+type: item
+id: Q261247
+labels:
+  en:
+    language: en
+    value: carat
+aliases:
+  en:
+  - language: en
+    value: CD
+  - language: en
+    value: metric carat
+  - language: en
+    value: karat
+  - language: en
+    value: ct
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: b3e468eb08aff7e99bdd475318451f543e7d36a2
+      datavalue:
+        value: "/m/0213d"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q261247$7CFE7F39-8E7C-4240-9904-9693248C322A
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 62c309f8296338bd9647a7e758857137f3370310
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2657718
+          id: Q2657718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P478:
+      - snaktype: value
+        property: P478
+        hash: ab49dc08d24a45b6e4ca6b5613d63a1756aa3d7f
+        datavalue:
+          value: '5'
+          type: string
+        datatype: string
+      P304:
+      - snaktype: value
+        property: P304
+        hash: c559e8e2653e70e1277d0ab2ad4a425ad81615c8
+        datavalue:
+          value: '311'
+          type: string
+        datatype: string
+    qualifiers-order:
+    - P478
+    - P304
+    id: Q261247$1035A02E-8C07-4C6E-8F4A-E26A25C622A2
+    rank: normal
+    references:
+    - hash: 8bc722e6797143f2ba971ee5fedaeb0a331268e6
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 4b9ead388e47f64ea2ecb2b82c5d4f516003a8d5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 1975217
+              id: Q1975217
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 954edbd3fef27ce6396c0878a95c608ca4ed84af
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3647172
+          id: Q3647172
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q261247$922a1645-46fe-e7b7-49de-add82c8cf2f2
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 17d986f82eb84b7f13f0a3a6716f99687a2c2c1b
+      datavalue:
+        value:
+          amount: "+0.0002"
+          unit: http://www.wikidata.org/entity/Q11570
+          upperBound: "+0.0002"
+          lowerBound: "+0.0002"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q261247$62be55b4-43ee-c0c6-cd3b-84a24ad25a7d
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 1ccc52a7989ff1fda5f367ed80b78769c59d46a5
+      datavalue:
+        value: Carat
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q261247$de9df0a7-48ed-d2d0-5528-4522e242f1b5
+    rank: normal
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: a1a7cb7c00c26c8fe6bcd46067a138b718813336
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 68763
+          id: Q68763
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q261247$e1f1940e-45e1-0694-4a12-3d3ca43ec5bd
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: e2dd9b49dbf209ce1d0cda35a2e87732fae31d8d
+      datavalue:
+        value: ct
+        type: string
+      datatype: string
+    type: statement
+    id: Q261247$fd1eed14-4983-3380-5a7b-8ab07ec60e28
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: ac392dc1b66078bf1938beaef72665ca218d8e62
+      datavalue:
+        value: Carat
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q261247$36BB810F-0B42-4BF5-AE0C-DFBA353B98CC
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 730dcce10a6a70c8b7a350f51723e9a466857fb9
+      datavalue:
+        value: carat-mass
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q261247$c779d79e-43a4-a040-6b65-d15b21512247
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 16653c4848e0552e9604edc668341bd5f95825a4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11423
+          id: Q11423
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q261247$47720B7D-8697-49C9-A0DE-3C18145076F7
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: f17826ac18036343e80f3bcb2c5b566314094e14
+      datavalue:
+        value:
+          amount: "+0.0002"
+          unit: http://www.wikidata.org/entity/Q11570
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q261247$d3fb45a5-466c-23b9-62db-acf36eaef424
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: e52998d309df93b4c2eb4970a47011bd9432a2e7
+      datavalue:
+        value:
+          amount: "+0.0004409246"
+          unit: http://www.wikidata.org/entity/Q100995
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q261247$29af6721-4bac-8179-4bdb-15f373c7dfd0
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: a4eefb12dbb0f5b8313b13ce8771ecad00b15ed7
+      datavalue:
+        value:
+          amount: "+0.007054792"
+          unit: http://www.wikidata.org/entity/Q48013
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q261247$e8aa0b19-47ed-3ad3-518a-3e02b861a97f
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 908c6ac277ac187ba04e0e3ddc6cfd4c6c2a6b92
+      datavalue:
+        value:
+          amount: "+0.00003149461"
+          unit: http://www.wikidata.org/entity/Q1131660
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q261247$daf3525f-4168-6f96-f711-ea0b59126b6d
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: b16511664e625aac10280b6e41863484244ae54c
+      datavalue:
+        value:
+          amount: "+0.0000002000000"
+          unit: http://www.wikidata.org/entity/Q191118
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q261247$a886f31f-412a-5add-442c-639086c1a13a
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 99b3ae56fa7d7bae48987d3f5bf72d05de99d5c9
+      datavalue:
+        value:
+          amount: "+0.2"
+          unit: http://www.wikidata.org/entity/Q41803
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q261247$79bb6397-4874-7dcd-72df-2c57430aa9ec
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 4ee076f8537c38b6bd23063e5105a89a71a9cf3c
+      datavalue:
+        value:
+          amount: "+200"
+          unit: http://www.wikidata.org/entity/Q3241121
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q261247$8133dad8-498d-1278-cb52-01229c0b9078
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: '09b372f7d751b10638dcebaeee4b170dc9f63742'
+      datavalue:
+        value:
+          amount: "+200000"
+          unit: http://www.wikidata.org/entity/Q1645498
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q261247$4143a614-4563-4481-4ebd-6fecb8214a68
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 804935362095bb84cf42a66b6fed9251f4e71aae
+      datavalue:
+        value:
+          amount: "+0.0000001968413"
+          unit: http://www.wikidata.org/entity/Q667419
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q261247$44b35b8f-4136-9957-991e-04a32b302992
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 28d148232e3c3e83f05b647a6035117975a7a60b
+      datavalue:
+        value:
+          amount: "+0.0000002204623"
+          unit: http://www.wikidata.org/entity/Q469356
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q261247$e7189451-4849-a0fe-02a9-41c1e71e771d
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: d6e584047200b13d8d4f36606fe0119d783939ec
+      datavalue:
+        value:
+          amount: "+0.000004409245"
+          unit: http://www.wikidata.org/entity/Q39617526
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q261247$3425c917-4882-e9fa-b9fe-f34cb3c0dca5
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: e0f0ea2561e7bb5df296ffef5ccaee645feeeaa9
+      datavalue:
+        value:
+          amount: "+0.000003936826"
+          unit: http://www.wikidata.org/entity/Q39617688
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q261247$61832036-44ee-4a77-5c37-7cc3be035594
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 78e886e87cc5d1f24bc06a023eda7b54ec3c8133
+      datavalue:
+        value:
+          amount: "+0.0005358458"
+          unit: http://www.wikidata.org/entity/Q39617818
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q261247$a78dac9f-40ec-402f-0b6f-d68671cfa6c8
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 14392ff816967e60ff9785a28ebe0595b2f88564
+      datavalue:
+        value:
+          amount: "+0.006430149"
+          unit: http://www.wikidata.org/entity/Q1323615
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q261247$6c75f27c-49c3-f126-e060-0e7452430cfd
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: a1687dfb0be250b8e1db4611e2e183d31095dfe3
+      datavalue:
+        value:
+          amount: "+0.1286030"
+          unit: http://www.wikidata.org/entity/Q1361854
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q261247$0dc320c2-4879-6c59-b565-95c4e24f6ddc
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 7ae35a51951779991e986a27fbc4f2c817f13fc9
+      datavalue:
+        value:
+          amount: "+3.086472"
+          unit: http://www.wikidata.org/entity/Q693944
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q261247$84fcd15c-473a-33e2-23b2-3fd6089945c7
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Karaat
+    badges: []
+  arwiki:
+    site: arwiki
+    title: قيراط (وحدة كتلة)
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Quilate
+    badges: []
+  barwiki:
+    site: barwiki
+    title: Metrisches Karat
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Карат (маса)
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Karat
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Quirat (unitat)
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Karát (hmotnost)
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Karat (masseenhed)
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Metrisches Karat
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Καράτι (μάζα)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Carat (mass)
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Karato
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Quilate
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Karaat
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Kilate
+    badges: []
+  fawiki:
+    site: fawiki
+    title: قیراط
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Karaatti
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Carat (gemmologie)
+    badges: []
+  hewiki:
+    site: hewiki
+    title: קרט (יחידת משקל)
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Karat
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Karát
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Կարատ
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Karat (berlian)
+    badges: []
+  iowiki:
+    site: iowiki
+    title: Karato
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Carato
+    badges: []
+  jawiki:
+    site: jawiki
+    title: カラット
+    badges: []
+  kawiki:
+    site: kawiki
+    title: კარატი
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 캐럿 (질량)
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Carratus
+    badges: []
+  liwiki:
+    site: liwiki
+    title: Karaat
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Karatas
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Karāts
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Карат
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: കാരറ്റ് (പിണ്ഡം)
+    badges: []
+  mnwiki:
+    site: mnwiki
+    title: Карат (масс)
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Karaat (massa)
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Måleininga karat
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Karat (masseenhet)
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Karat
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Quilate
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Карат
+    badges: []
+  sahwiki:
+    site: sahwiki
+    title: Караат
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Carat (mass)
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Karát
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Karat
+    badges: []
+  sqwiki:
+    site: sqwiki
+    title: Karati
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Карат (маса)
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Carat
+    badges: []
+  tewiki:
+    site: tewiki
+    title: క్యారెట్ (ద్రవ్యరాశి)
+    badges: []
+  thwiki:
+    site: thwiki
+    title: กะรัต
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Karat (ağırlık birimi)
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Карат (маса)
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Karat
+    badges: []
+  vecwiki:
+    site: vecwiki
+    title: Carato
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Cara
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: კარატი
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 克拉
+    badges: []

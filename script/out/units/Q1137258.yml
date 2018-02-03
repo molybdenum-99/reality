@@ -1,0 +1,74 @@
+---
+pageid: 1084036
+ns: 0
+title: Q1137258
+lastrevid: 457542534
+modified: '2017-02-27T14:27:00Z'
+type: item
+id: Q1137258
+labels:
+  en:
+    language: en
+    value: Counts per minute
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1137258$657B70E8-7AE2-450D-BEB8-3A570796E852
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: c2491424eadc6bcfa8a78faf1e5220a7b86eaf21
+      datavalue:
+        value: Counts-per-Minute
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1137258$2DE74365-8683-483B-8137-D2C21B531022
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Counts per second
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Counts per minute
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 壊変毎分
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 每分钟计数
+    badges: []

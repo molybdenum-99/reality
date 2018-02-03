@@ -1,0 +1,409 @@
+---
+pageid: 1080469
+ns: 0
+title: Q1133606
+lastrevid: 556852318
+modified: '2017-09-12T04:53:42Z'
+type: item
+id: Q1133606
+labels:
+  en:
+    language: en
+    value: Newton scale
+aliases:
+  en:
+  - language: en
+    value: Newton
+claims:
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 63486dfdc38af277112ef25072a0e0a68a576fa1
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 935
+          id: Q935
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q1133606$387796F8-066B-41FA-A86F-5B27DCD4F4C5
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 5774bada555a6041b0c7885263cb032464e4f5b0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2394680
+          id: Q2394680
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1133606$5581bc96-407d-25c8-c931-d77f66b072ce
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 91f4ee7e556db8b42415b870af0fba13ebc738c4
+      datavalue:
+        value: "°N"
+        type: string
+      datatype: string
+    type: statement
+    id: Q1133606$fcf1800e-415c-3be4-bbc4-f60d6b2949e7
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 7b15990f023afcf20ee318343d3fd4abf00d0024
+      datavalue:
+        value: "/m/037dnk"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1133606$8B590E8B-7C74-4AF1-94F4-A966E2EA64B6
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2370:
+  - mainsnak:
+      snaktype: somevalue
+      property: P2370
+      hash: 0f7ca06cd53ddbefbd474a4474e543045f1f7995
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P2916:
+      - snaktype: value
+        property: P2916
+        hash: 537f41c31e6cd3bbd450cf1bea27019242d5d407
+        datavalue:
+          value:
+            text: see sandbox string
+            language: en
+          type: monolingualtext
+        datatype: monolingualtext
+    qualifiers-order:
+    - P2916
+    id: Q1133606$2e8d66dc-4051-496a-a0bd-bd1ffafe3037
+    rank: normal
+  P370:
+  - mainsnak:
+      snaktype: value
+      property: P370
+      hash: 856aa62c7bf6eb3e69b6ca451a8e03da9d7e9314
+      datavalue:
+        value: "$1/0.33"
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P1013:
+      - snaktype: value
+        property: P1013
+        hash: ef448b60a4bb3249160d268aea09ca8edb6b41ed
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 25267
+            id: Q25267
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P1013
+    id: Q1133606$ed7765be-4d6a-0102-ef20-32ff31ac3f46
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P370
+      hash: 9dcf0ef764e103693a02d28daeb153bc919d02cb
+      datavalue:
+        value: "$1 * 5.4545 + 32.00"
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P1013:
+      - snaktype: value
+        property: P1013
+        hash: c4c7b2dcab0269156f78dea45183a361256fd9f7
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 42289
+            id: Q42289
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P1013
+    id: Q1133606$dbef6356-4265-3b9d-c773-b73bd8da291a
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P370
+      hash: 6b42be5d71c1de8fd5fcefad05c6478d2183b557
+      datavalue:
+        value: "$1/0.33 +273.15"
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P1013:
+      - snaktype: value
+        property: P1013
+        hash: 979c2ceb82efc0d1e0fbdcff2b56e5ad97c3dba5
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 11579
+            id: Q11579
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P1013
+    id: Q1133606$269dd85f-4cb0-c930-0cb2-2d7e7b41a49a
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P370
+      hash: 56ba1f9f6547cfdd4d4c280960a0386ffc3e6776
+      datavalue:
+        value: "$1 * 5.4545 + 491.67"
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P1013:
+      - snaktype: value
+        property: P1013
+        hash: e65d49c8987511661b14d566a5e3226fc2576e1f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 207488
+            id: Q207488
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P1013
+    id: Q1133606$b331db34-4ef7-9560-eb41-e9ec37d31047
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P370
+      hash: 6c39a6911bbb05739940c32ba017f42d84cdf8b5
+      datavalue:
+        value: "$1*2.4242"
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P1013:
+      - snaktype: value
+        property: P1013
+        hash: 9d859a65740eeecd6eae7d027bebf5783bfe491a
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 223061
+            id: Q223061
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P1013
+    id: Q1133606$f66aa526-434f-66c0-4c7e-7098e874ea29
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P370
+      hash: ab2a752409e6d3a74e7cd7e5e7e1b4502301b7d1
+      datavalue:
+        value: "$1 * 1.5909 + 7.50"
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P1013:
+      - snaktype: value
+        property: P1013
+        hash: 2a632e21cfb95e583e34a6d2b363c847851dc6f9
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 488013
+            id: Q488013
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P1013
+    id: Q1133606$e5733d50-45ee-e6b4-4efd-b3fbcbc5527e
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P370
+      hash: 83ba05a9767da08a53d7f35904438be2307e76c3
+      datavalue:
+        value: "$1 *4.5455 - 100"
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P1013:
+      - snaktype: value
+        property: P1013
+        hash: 47854f15900db105be7b6e2a3d091ec3313d9ded
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 839449
+            id: Q839449
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P1013
+    id: Q1133606$d8017d4a-4403-53c2-fc2a-88606a1501c2
+    rank: normal
+sitelinks:
+  bnwiki:
+    site: bnwiki
+    title: নিউটন স্কেল
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Grau Newton
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Newtonova stupnice
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Newton-Skala
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Newton scale
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Grado Newton
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Newton gradu
+    badges: []
+  fawiki:
+    site: fawiki
+    title: مقیاس نیوتن
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Newton-asteikko
+    badges: []
+  fowiki:
+    site: fowiki
+    title: Newtonstigin
+    badges: []
+  frrwiki:
+    site: frrwiki
+    title: Newton-Skala
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Échelle Newton
+    badges: []
+  hewiki:
+    site: hewiki
+    title: מעלות ניוטון
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Newtonova ljestvica
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Skala Newton
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Scala Newton
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ニュートン度
+    badges: []
+  liwiki:
+    site: liwiki
+    title: Newtonsjaol
+    badges: []
+  ndswiki:
+    site: ndswiki
+    title: Newton-Skala
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Newton (schaal)
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Skala Newtona
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Newton (escala)
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Градус Ньютона
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Newtonova skala
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Њутнова скала
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Newtonskalan
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 牛頓溫標
+    badges: []

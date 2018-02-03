@@ -1,0 +1,60 @@
+---
+pageid: 1865136
+ns: 0
+title: Q1935515
+lastrevid: 407846461
+modified: '2016-11-15T14:48:18Z'
+type: item
+id: Q1935515
+labels:
+  en:
+    language: en
+    value: milliampere-second
+aliases:
+  en:
+  - language: en
+    value: milliampere second
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 5242097beb60584b757fc5e32493afb29773f728
+      datavalue:
+        value: mAs
+        type: string
+      datatype: string
+    type: statement
+    id: q1935515$a4152d0d-4273-fa54-8663-8dcbe0116691
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: b155439f51b4678cc0e7283b46020ef814781da6
+      datavalue:
+        value: мА·с
+        type: string
+      datatype: string
+    type: statement
+    id: Q1935515$8f722949-4138-b19e-01ac-18b4ef908486
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 9a52c6db0581532a7b4be57dec5957d4db87c992
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 16604158
+          id: Q16604158
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1935515$87d99ec0-44ec-6f89-b727-0a5c0e9db35d
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Milliamperesekunde
+    badges: []

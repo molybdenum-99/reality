@@ -1,0 +1,153 @@
+---
+pageid: 1446648
+ns: 0
+title: Q1509365
+lastrevid: 618694729
+modified: '2018-01-11T05:32:51Z'
+type: item
+id: Q1509365
+labels:
+  en:
+    language: en
+    value: gold franc
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: b3b40a2f615e96b1386a7dc9a8898a28797a0698
+      datavalue:
+        value: "/m/024l4x"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1509365$E85B6718-B443-4C38-BC35-67FE59C5567B
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 2bd2f09876ce5525943cd702253e2e88c4fb822b
+      datavalue:
+        value: XFO
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1509365$9b44f422-41a2-62be-234a-0092bf29cdb1
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P580:
+      - snaktype: value
+        property: P580
+        hash: 11eb99420e40a99570c9de17a0aba5420f91b7bf
+        datavalue:
+          value:
+            time: "+1920-00-00T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 9
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+      P582:
+      - snaktype: value
+        property: P582
+        hash: 8cf42da636603cf5e981a4fdb48bd8a5fe9892dc
+        datavalue:
+          value:
+            time: "+2003-00-00T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 9
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P580
+    - P582
+    id: Q1509365$0d57f35b-4ec9-02aa-1251-83c8c508b90f
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 4e84f58f859f059709b70b8b47a780064e582263
+      datavalue:
+        value: '500283'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1509365$211EBD12-41C9-49F5-929D-0C95DFE6D9B1
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Goldfranken
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Gold franc
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Franc-or
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Złoty frank
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Золотой франк
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Guldfranc
+    badges: []

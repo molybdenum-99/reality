@@ -1,0 +1,538 @@
+---
+pageid: 133166
+ns: 0
+title: Q131309
+lastrevid: 618036167
+modified: '2018-01-09T12:54:05Z'
+type: item
+id: Q131309
+labels:
+  en:
+    language: en
+    value: Israeli new shekel
+aliases:
+  en:
+  - language: en
+    value: shekel
+  - language: en
+    value: NIS
+  - language: en
+    value: new Israeli shekel
+  - language: en
+    value: Israeli new sheqel
+  - language: en
+    value: new Israeli sheqel
+  - language: en
+    value: ILS
+  - language: en
+    value: "₪"
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: c2661ba98bd3dcb60e8bec19506def7587ca83cc
+      datavalue:
+        value: Israeli new sheqel
+        type: string
+      datatype: string
+    type: statement
+    id: q131309$5037876F-BEF5-4938-A328-AAD3165A448D
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P642:
+      - snaktype: value
+        property: P642
+        hash: 12f1de7e90ed6d73f6b3e79654947e04e25fc6c2
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 801
+            id: Q801
+          type: wikibase-entityid
+        datatype: wikibase-item
+      P1365:
+      - snaktype: value
+        property: P1365
+        hash: 45329b34c730a734d74968bec7902d5176d4c580
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 2720762
+            id: Q2720762
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P642
+    - P1365
+    id: q131309$746CD168-04DF-4D9D-846F-9FE546254A80
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 6294d4a92dfb7a9241c805aa2f32bdc3192e8783
+      datavalue:
+        value: ILS
+        type: string
+      datatype: external-id
+    type: statement
+    id: q131309$60f297b7-470f-4434-3aaf-cad4f2dbe860
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 4c67eb954823b192bd0a6159d5d7dc876da001bf
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 244411
+          id: Q244411
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q131309$A9AA40D2-DB96-4F82-86BA-A6BD706C98B8
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: c91e737e6e165a805dd861c38acd4165abb7dc3a
+      datavalue:
+        value: "/m/01jcw8"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q131309$5CB5F021-2431-4036-9F1E-A339661C9826
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: cfa17a0e1af2fd20826d7649de8b95ee2f8a6268
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 801
+          id: Q801
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q131309$92886a63-4ed5-2047-2e16-9956006f1dd0
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 4889775c27083b782104cca94107f8fde7de5dc5
+      datavalue:
+        value: Money IL WV.JPG
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q131309$a1b833e6-4bd5-21e7-3825-c1a3557c5e24
+    rank: normal
+  P1365:
+  - mainsnak:
+      snaktype: value
+      property: P1365
+      hash: 45329b34c730a734d74968bec7902d5176d4c580
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2720762
+          id: Q2720762
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: fdf9823c2c78f35be683dbabbdc70ae7ae1ea797
+        datavalue:
+          value:
+            time: "+1986-00-00T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 9
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q131309$6224f837-47e6-492d-3b8f-36045a7bc96a
+    rank: normal
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 8c731990d8fcef1f12777d900e18c92ee837ac50
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1404428
+          id: Q1404428
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q131309$86f11ad7-4868-f1f7-f692-fc4e48c1e470
+    rank: normal
+  P2284:
+  - mainsnak:
+      snaktype: value
+      property: P2284
+      hash: 96aff454fed3bb837c5913295c53cbac89bb4041
+      datavalue:
+        value:
+          amount: "+0"
+          unit: http://www.wikidata.org/entity/Q4917
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: f742be92339cdcc54bf77fbdde9a24b9045f361a
+        datavalue:
+          value:
+            time: "+2016-11-22T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q131309$8706FDBC-4163-49D3-A90C-C5EE8AC440DB
+    rank: normal
+  P1417:
+  - mainsnak:
+      snaktype: value
+      property: P1417
+      hash: 355642c46d3e9353f09f58c442403221a22d3265
+      datavalue:
+        value: topic/New-Israeli-Shekel
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q131309$088678B7-694A-434B-B626-873D6617110F
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: a5963d741d2710a981cbfe2e2c806a6b07343ce8
+      datavalue:
+        value: '500184'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q131309$E9034CAC-BB69-4F27-B1C6-89B55D8026BD
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Nuwe sikkel
+    badges: []
+  arwiki:
+    site: arwiki
+    title: شيكل إسرائيلي جديد
+    badges: []
+  arzwiki:
+    site: arzwiki
+    title: شيقل اسرائيلى
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Yeni İsrail şekeli
+    badges: []
+  barwiki:
+    site: barwiki
+    title: Schekel
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Новы ізраільскі шэкель
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Израелски шекел
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: ইসরায়েলি শেকেল
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: ইসরাইলি শেকেল
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Izraelski šekel
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Nou xéquel
+    badges: []
+  commonswiki:
+    site: commonswiki
+    title: Category:Israeli new sheqel
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Nový izraelský šekel
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Ny Shekel
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Schekel
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Israeli new shekel
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Nova israela siklo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Nuevo séquel
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Iisraeli seekel
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Shekel berri
+    badges: []
+  fawiki:
+    site: fawiki
+    title: شکل جدید اسرائیل
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Uusi Israelin sekeli
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Shekel
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Novo shekel
+    badges: []
+  hewiki:
+    site: hewiki
+    title: שקל חדש
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: इजरायली नई शेकेल
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Izraelski novi šekel
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Izraeli új sékel
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Shekel baru Israel
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Nuovo shekel israeliano
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 新シェケル
+    badges: []
+  kabwiki:
+    site: kabwiki
+    title: Cekel amaynut
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 이스라엘 신 셰켈
+    badges: []
+  ladwiki:
+    site: ladwiki
+    title: Shekel
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Izraelio naujasis šekelis
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: इस्रायेली नवा शेकेल
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Sheqel Baru Israel
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Israëlische sjekel
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Ny israelsk shekel
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਇਜ਼ਰਾਇਲੀ ਨਵਾਂ ਸ਼ੇਕਲ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Nowy szekel
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Novo shekel israelense
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Shekel
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Новый израильский шекель
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Israeli new shekel
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Nový izraelský šekel
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Нови израелски шекел
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Shekel
+    badges: []
+  tawiki:
+    site: tawiki
+    title: புது இசுரேலிய சேக்கல்
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Шеқели нави Исроил
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Bagong shekel ng Israel
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Yeni İsrail şekeli
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Ізраїльський новий шекель
+    badges: []
+  urwiki:
+    site: urwiki
+    title: جدید اسرائیلی شیقل
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: ისრაელიშ ახალი შეკელი
+    badges: []
+  yiwiki:
+    site: yiwiki
+    title: ניי שקל
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Sheqel
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Í-sek-lia̍t sin shekel
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 新謝克爾
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 以色列新谢克尔
+    badges: []

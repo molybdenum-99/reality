@@ -1,0 +1,158 @@
+---
+pageid: 853048
+ns: 0
+title: Q902274
+lastrevid: 524790882
+modified: '2017-07-22T23:12:37Z'
+type: item
+id: Q902274
+labels:
+  en:
+    language: en
+    value: Candlepower
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 28515de5d5d7b1b596aaf1e57dcf49d28e4334d1
+      datavalue:
+        value: "/m/02vk7cp"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q902274$21376F83-36FF-4F89-9444-AA69F95F3881
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P111:
+      - snaktype: value
+        property: P111
+        hash: e27f49dfa43dd941aca532fe0ef052553c87e092
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 104831
+            id: Q104831
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P111
+    id: Q902274$397ad5da-483a-2906-50ef-60ece3ddb70c
+    rank: normal
+  P1181:
+  - mainsnak:
+      snaktype: value
+      property: P1181
+      hash: 07cc1e22b3a71bc3a976de101b61f5627080d3e4
+      datavalue:
+        value:
+          amount: "+0.981"
+          unit: http://www.wikidata.org/entity/Q83216
+          upperBound: "+0.982"
+          lowerBound: "+0.980"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q902274$2f52fb60-4504-5a60-2b55-f5638e7577c8
+    rank: normal
+  P460:
+  - mainsnak:
+      snaktype: value
+      property: P460
+      hash: a02e429cfe5163b4a97da3068693387622b68e2f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 21282164
+          id: Q21282164
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q902274$0B98F53C-5854-4FBE-AA00-37719F615074
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 115c31a851878c23d281927a2332d97f92f25174
+      datavalue:
+        value: Candlepower
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q902274$F63CCA0D-7479-4730-856F-7E31ACEB6A8B
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: قدرة شمعة
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Kerzenstärke
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Candlepower
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Bougie (unité)
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 燭
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Świeca (jednostka)
+    badges: []
+  tawiki:
+    site: tawiki
+    title: வத்தித்திறன்
+    badges: []

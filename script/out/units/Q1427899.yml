@@ -1,0 +1,224 @@
+---
+pageid: 1366451
+ns: 0
+title: Q1427899
+lastrevid: 537539805
+modified: '2017-08-14T08:09:41Z'
+type: item
+id: Q1427899
+labels:
+  en:
+    language: en
+    value: rack unit
+aliases:
+  en:
+  - language: en
+    value: RU
+  - language: en
+    value: U
+  - language: en
+    value: rackmount unit
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 3de50c8ce9daf74e0788e30e97df50bc338082c7
+      datavalue:
+        value: "/m/080x1w"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1427899$CC95BA9B-DD6A-4AF4-9D94-04D9FDBAC83A
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1c41b2ea8a3f6d3fab77c103d826ae5ead7a9c01
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1978718
+          id: Q1978718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P642:
+      - snaktype: value
+        property: P642
+        hash: 24c1c4425f333c02397044e5ce4005566360baae
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 431000
+            id: Q431000
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P642
+    id: Q1427899$67E1E4D6-D097-40B8-A069-E21725F04FF7
+    rank: normal
+  P1181:
+  - mainsnak:
+      snaktype: value
+      property: P1181
+      hash: cae7c905c7b41834b86183a9ed6b977a4d9fb2b4
+      datavalue:
+        value:
+          amount: "+1.75"
+          unit: http://www.wikidata.org/entity/Q218593
+          upperBound: "+1.75"
+          lowerBound: "+1.75"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1427899$2d245a20-4862-8145-8e8f-7f024614b789
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: df1bc1e0e626a6adca887c7a92398b7563c089f7
+      datavalue:
+        value:
+          amount: "+0.04445"
+          unit: http://www.wikidata.org/entity/Q11573
+          upperBound: "+0.04445"
+          lowerBound: "+0.04445"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1427899$dfbdd5f1-4111-f676-2f68-127e732f5d48
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 47e37c4771e7eb14a3db0d9a8f11aa669176f0b8
+      datavalue:
+        value: Rackunit.svg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q1427899$bb88a05a-4483-1fe7-8e1c-105e798d1c12
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: a6672608ccfa8bd16984334d764ffe6c69c5320f
+      datavalue:
+        value: Server rack rail dimensions.svg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q1427899$b683185c-4010-2485-f6fc-470cf24616d5
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 4354e3cc033f2c5371e447e5ab1cca8b89ffa3e0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 36253
+          id: Q36253
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1427899$F8D01331-B1C8-4857-A8FC-070D22D1E606
+    rank: normal
+sitelinks:
+  cswiki:
+    site: cswiki
+    title: Rack unit
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Höheneinheit
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Rack unit
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Rakunuo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Unidad rack
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Rack unit
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Rack unit
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Unité de rack
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Rack unit
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: U (eenheid)
+    badges: []
+  plwiki:
+    site: plwiki
+    title: U (jednostka długości)
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Rack unit
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Юнит (единица измерения)
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Höjdenhet
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 机架单位
+    badges: []

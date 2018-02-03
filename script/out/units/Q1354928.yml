@@ -1,0 +1,164 @@
+---
+pageid: 1294528
+ns: 0
+title: Q1354928
+lastrevid: 619160978
+modified: '2018-01-12T07:03:25Z'
+type: item
+id: Q1354928
+labels:
+  en:
+    language: en
+    value: Eritrean tallero
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: de9263cc7ba81c694069c943a77164fa8e7a14ba
+      datavalue:
+        value: "/m/0bdc6k"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1354928$58BF4AFA-DF48-4E38-9138-A6893B084E66
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1354928$03C0F5C0-0BB8-46FD-88C8-39069B1AA079
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 6536674314e8f5aa329c4adf5b2ca738293fd6c8
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1232988
+          id: Q1232988
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1354928$2986ad92-4e0d-056b-cca4-c4090878b8b1
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P571:
+  - mainsnak:
+      snaktype: value
+      property: P571
+      hash: 6c1a3a4da2ecc9ca9eb5803ceaec6171f8d8480a
+      datavalue:
+        value:
+          time: "+1890-00-00T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 9
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q1354928$e849cc09-40e3-544e-c290-4d6d30a41906
+    rank: normal
+  P576:
+  - mainsnak:
+      snaktype: value
+      property: P576
+      hash: 3aa0809b6c9286f86337b68890701eb1db0b1402
+      datavalue:
+        value:
+          time: "+1921-00-00T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 9
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q1354928$4e2a0a23-43c3-94dc-4a09-7c3a4283ac12
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Eritreischer Tallero
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Eritrean tallero
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Tálero eritreo
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Tallero d'Eritrea
+    badges: []
+  jawiki:
+    site: jawiki
+    title: エリトリア・タレーロ
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Эритрейский талер
+    badges: []

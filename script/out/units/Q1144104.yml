@@ -1,0 +1,108 @@
+---
+pageid: 1090742
+ns: 0
+title: Q1144104
+lastrevid: 619167386
+modified: '2018-01-12T07:27:13Z'
+type: item
+id: Q1144104
+labels:
+  en:
+    language: en
+    value: Geneva thaler
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: '04219abc9dac845524c95eeb3efa0f896e274561'
+      datavalue:
+        value: "/m/02r1g8s"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1144104$A3CB1073-ED4F-4BDD-91D4-10D3ECA2AD6E
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1144104$64731902-5583-44D9-8CF8-6D1BF33EABB5
+    rank: normal
+  P131:
+  - mainsnak:
+      snaktype: value
+      property: P131
+      hash: 71b3dcc8bab46e3296fbc1fa89622dc241b6d661
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11917
+          id: Q11917
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1144104$42662a4a-4b66-153b-0762-16fe348d0a9a
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: ثالر جنيف
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Geneva thaler
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Tallero di Ginevra
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Thaler Geneva
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Женевский талер
+    badges: []

@@ -1,0 +1,267 @@
+---
+pageid: 1111868
+ns: 0
+title: Q1165799
+lastrevid: 599460545
+modified: '2017-11-27T15:34:47Z'
+type: item
+id: Q1165799
+labels:
+  en:
+    language: en
+    value: thou
+aliases:
+  en:
+  - language: en
+    value: mil
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1c41b2ea8a3f6d3fab77c103d826ae5ead7a9c01
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1978718
+          id: Q1978718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1165799$11f3d1fc-4a0d-2be8-312f-60e7384f42da
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: c26a0c22f7f25f9ed7d2e748f694798a2c273145
+      datavalue:
+        value: mil
+        type: string
+      datatype: string
+    type: statement
+    id: Q1165799$7cecb373-43a2-c1f8-b77e-a115228650bd
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: add25f98e6dc5d2738e212806d2ca8d84d4dfc4f
+      datavalue:
+        value: "/m/0fhs97"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1165799$CC938151-7388-4873-AC8E-BFD84A52E67C
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2043:
+  - mainsnak:
+      snaktype: value
+      property: P2043
+      hash: dd2bf497457fc37005f95817ef2cb3c9cd8073c9
+      datavalue:
+        value:
+          amount: "+0.001"
+          unit: http://www.wikidata.org/entity/Q218593
+          upperBound: "+0.001"
+          lowerBound: "+0.001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1165799$196fb36e-4d2e-73b2-3e41-3765d978222a
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2043
+      hash: dc5be3e07567a023961401bf64b3839dd9fdffb9
+      datavalue:
+        value:
+          amount: "+25.4"
+          unit: http://www.wikidata.org/entity/Q175821
+          upperBound: "+25.4"
+          lowerBound: "+25.4"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1165799$2cb5f02e-465a-6caf-dc23-e56d584e6764
+    rank: normal
+  P1889:
+  - mainsnak:
+      snaktype: value
+      property: P1889
+      hash: 1109daf8cf8290208506f020d992d45cf55e72e5
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 43016
+          id: Q43016
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1165799$6e8a57dc-406f-f9ba-2bd4-11cc79b75b87
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 1df0a3af64b3fa6c83a93c062fc38d359c999b4f
+      datavalue:
+        value:
+          amount: "+0.0000254"
+          unit: http://www.wikidata.org/entity/Q11573
+          upperBound: "+0.0000254"
+          lowerBound: "+0.0000254"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1165799$c22cb03c-4789-6c89-3f68-1f87090141a0
+    rank: normal
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: '095b22e5c47a47f7d5e84e00899837038be11bd4'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 26711932
+          id: Q26711932
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P958:
+      - snaktype: value
+        property: P958
+        hash: bcf78687fad415ffa22bd4e50d2fce7a1ab57ec3
+        datavalue:
+          value: 3-1.B.a
+          type: string
+        datatype: string
+    qualifiers-order:
+    - P958
+    id: Q1165799$72b01290-4250-1ab6-bc60-e282fb499a5d
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 4354e3cc033f2c5371e447e5ab1cca8b89ffa3e0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 36253
+          id: Q36253
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1165799$B6C1748D-5778-414F-A46C-A8305A024606
+    rank: normal
+sitelinks:
+  astwiki:
+    site: astwiki
+    title: Mil (unidá)
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Міл
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Tou
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Mil (unitat de longitud)
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Thou
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Thousandth of an inch
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Mil (unidad de longitud)
+    badges: []
+  fawiki:
+    site: fawiki
+    title: ثو (یکا)
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Thou
+    badges: []
+  jawiki:
+    site: jawiki
+    title: サウ
+    badges: []
+  kuwiki:
+    site: kuwiki
+    title: Mil
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Mil (lengtemaat)
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Mil (jednostka miary)
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Mil (unidade)
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Мил
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Thou (unit)
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Міл
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Mil
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 密耳
+    badges: []

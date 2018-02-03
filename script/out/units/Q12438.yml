@@ -1,0 +1,903 @@
+---
+pageid: 14025
+ns: 0
+title: Q12438
+lastrevid: 622803190
+modified: '2018-01-23T15:57:27Z'
+type: item
+id: Q12438
+labels:
+  en:
+    language: en
+    value: newton
+aliases:
+  en:
+  - language: en
+    value: N
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 50afdc16346d8687f53963f614e8d645419488a0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 208469
+          id: Q208469
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q12438$136A9AA5-DFDA-4768-8BCE-5544CB8D7B52
+    rank: normal
+    references:
+    - hash: 3896afd7baf0e1629db1a1af56241836f65fb2c3
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 0a2fe880cf33d2b0639c9ba25541b40e4bac3e9d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 19606873
+              id: Q19606873
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+    - hash: 04236527a1d6139c066bc969a1e83e439efc00ba
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 587564898ba1c818316ca0a7af2bb0867f80d4bb
+          datavalue:
+            value: '18'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: a8acdbdb9ade23dbae3d6835a293e04c6df76a0f
+          datavalue:
+            value: 6.5.3
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 61eec523f66a8023b47d574209355cb769d8989b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 15976022
+          id: Q15976022
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q12438$014d259b-41fb-efd6-44ba-d21288933d50
+    rank: normal
+    references:
+    - hash: 3896afd7baf0e1629db1a1af56241836f65fb2c3
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 0a2fe880cf33d2b0639c9ba25541b40e4bac3e9d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 19606873
+              id: Q19606873
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: d8ae7a46908385f755128e9f17e3ed057f34a832
+      datavalue:
+        value: N
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: q12438$c0100863-444c-af60-b4da-ee30043073ec
+    rank: normal
+    references:
+    - hash: 04236527a1d6139c066bc969a1e83e439efc00ba
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 587564898ba1c818316ca0a7af2bb0867f80d4bb
+          datavalue:
+            value: '18'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: a8acdbdb9ade23dbae3d6835a293e04c6df76a0f
+          datavalue:
+            value: 6.5.3
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 7ea2c4f576dc4fd74b110473d56576f591453da4
+      datavalue:
+        value: Н
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q12438$669e8e42-4489-a205-101e-4d77d7915b9d
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 04faffb39ab325609167ed5f0c822b1a85c69ad9
+      datavalue:
+        value: "/m/0jkgw"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q12438$A2A1F77F-AA81-45A3-A1F5-52F2760F4886
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 4d97b5be811849752f97873aa1692e91bdafd2d6
+      datavalue:
+        value:
+          amount: "+1"
+          unit: http://www.wikidata.org/entity/Q12438
+          upperBound: "+1"
+          lowerBound: "+1"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q12438$67237ae3-47b6-2885-6192-380fd857c51c
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: d0d28b1ea9d346adabf74c7ca38ecd21e5b93eba
+      datavalue:
+        value: Newton
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q12438$b4907136-4cbe-57c7-634d-a1650cf73a0d
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 886dda2a8ff0711f405bbf864a1821cc2e6ae501
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11402
+          id: Q11402
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q12438$02fc7935-415f-1448-14ab-57134d653f45
+    rank: normal
+    references:
+    - hash: b67e421be4cbc18b1e9aa7bdca199f78e073e22d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: c2213e83c554bae5121243bc2ace76aeffa9ce42
+          datavalue:
+            value: '19'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: 142866b62acc6afaf223e3db1f37a96bd6672f1b
+          datavalue:
+            value: 7.6.4
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P144:
+  - mainsnak:
+      snaktype: value
+      property: P144
+      hash: f267d8e1f3186e477ff76a1baa9aba6dbe1f03a8
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11570
+          id: Q11570
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P2534:
+      - snaktype: value
+        property: P2534
+        hash: 5abb05212812fd39ea599b1ec3a51960cf909c77
+        datavalue:
+          value: "\\text{N} = \\text{kg} \\cdot \\frac{\\text{m}}{\\text{s}^2}"
+          type: string
+        datatype: math
+    qualifiers-order:
+    - P2534
+    id: Q12438$1f764f49-49e9-0c8b-3ab4-cb189dc6709b
+    rank: normal
+    references:
+    - hash: 04236527a1d6139c066bc969a1e83e439efc00ba
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 587564898ba1c818316ca0a7af2bb0867f80d4bb
+          datavalue:
+            value: '18'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: a8acdbdb9ade23dbae3d6835a293e04c6df76a0f
+          datavalue:
+            value: 6.5.3
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  - mainsnak:
+      snaktype: value
+      property: P144
+      hash: 14e4119567cfb01a2298d782b2a6181d8247d688
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11573
+          id: Q11573
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P2534:
+      - snaktype: value
+        property: P2534
+        hash: 5abb05212812fd39ea599b1ec3a51960cf909c77
+        datavalue:
+          value: "\\text{N} = \\text{kg} \\cdot \\frac{\\text{m}}{\\text{s}^2}"
+          type: string
+        datatype: math
+    qualifiers-order:
+    - P2534
+    id: Q12438$4d29c088-4103-384b-8230-d7ffe9512b8c
+    rank: normal
+    references:
+    - hash: 04236527a1d6139c066bc969a1e83e439efc00ba
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 587564898ba1c818316ca0a7af2bb0867f80d4bb
+          datavalue:
+            value: '18'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: a8acdbdb9ade23dbae3d6835a293e04c6df76a0f
+          datavalue:
+            value: 6.5.3
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  - mainsnak:
+      snaktype: value
+      property: P144
+      hash: ebf5624ca36a2a70da95989b39899b5a0655869f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11574
+          id: Q11574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P2534:
+      - snaktype: value
+        property: P2534
+        hash: 5abb05212812fd39ea599b1ec3a51960cf909c77
+        datavalue:
+          value: "\\text{N} = \\text{kg} \\cdot \\frac{\\text{m}}{\\text{s}^2}"
+          type: string
+        datatype: math
+    qualifiers-order:
+    - P2534
+    id: Q12438$dd998253-46a0-fbb1-38dd-1012ae7d96d3
+    rank: normal
+    references:
+    - hash: 04236527a1d6139c066bc969a1e83e439efc00ba
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 587564898ba1c818316ca0a7af2bb0867f80d4bb
+          datavalue:
+            value: '18'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: a8acdbdb9ade23dbae3d6835a293e04c6df76a0f
+          datavalue:
+            value: 6.5.3
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Newton (eenheid)
+    badges: []
+  anwiki:
+    site: anwiki
+    title: Newton (unidat)
+    badges: []
+  arwiki:
+    site: arwiki
+    title: نيوتن (وحدة)
+    badges: []
+  arzwiki:
+    site: arzwiki
+    title: نيوتن (وحده)
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Newton (unidá)
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Nyuton (ölçü vahidi)
+    badges: []
+  bat_smgwiki:
+    site: bat_smgwiki
+    title: Niotuons
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Ньютан
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Ньютан (адзінка вымярэння)
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Нютон
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: নিউটন (একক)
+    badges: []
+  brwiki:
+    site: brwiki
+    title: Newton (unanenn)
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Njutn (jedinica)
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Newton (unitat)
+    badges: []
+  ckbwiki:
+    site: ckbwiki
+    title: نیوتن (یەکە)
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Newton
+    badges: []
+  cywiki:
+    site: cywiki
+    title: Newton (uned)
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Newton (enhed)
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Newton (Einheit)
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Νιούτον (μονάδα μέτρησης)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Newton (unit)
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Neŭtono (mezurunuo)
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Newton (unidad)
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Njuuton
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Newton (unitatea)
+    badges: []
+  fawiki:
+    site: fawiki
+    title: نیوتون (یکا)
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Newton
+    badges: []
+  frrwiki:
+    site: frrwiki
+    title: Newton (ianhaid)
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Newton (unité)
+    badges: []
+  fywiki:
+    site: fywiki
+    title: Newton (ienheid)
+    badges: []
+  ganwiki:
+    site: ganwiki
+    title: 牛 (單位)
+    badges: []
+  gawiki:
+    site: gawiki
+    title: Niútan
+    badges: []
+  gdwiki:
+    site: gdwiki
+    title: Newton
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Newton (unidade)
+    badges: []
+  hewiki:
+    site: hewiki
+    title: ניוטון (מידה)
+    badges: []
+  hifwiki:
+    site: hifwiki
+    title: Newton
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: न्यूटन (इकाई)
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Njutn
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Newton (mértékegység)
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Նյուտոն (չափման միավոր)
+    badges: []
+  iawiki:
+    site: iawiki
+    title: Newton (unitate)
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Newton
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Njúton
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Newton (unità di misura)
+    badges: []
+  jamwiki:
+    site: jamwiki
+    title: Nyuutan
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ニュートン
+    badges: []
+  jvwiki:
+    site: jvwiki
+    title: Newton
+    badges: []
+  kawiki:
+    site: kawiki
+    title: ნიუტონი
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Ньютон (өлшем бірлік)
+    badges: []
+  kmwiki:
+    site: kmwiki
+    title: ញូតុន
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 뉴턴 (단위)
+    badges: []
+  krcwiki:
+    site: krcwiki
+    title: Ньютон (ёлчем бирим)
+    badges: []
+  kuwiki:
+    site: kuwiki
+    title: Newton (yeke)
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Newtonium
+    badges: []
+  liwiki:
+    site: liwiki
+    title: Newton (einheid)
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Niutonas
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Ņūtons
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Њутн (единица)
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: ന്യൂട്ടൺ (അളവ്)
+    badges: []
+  mnwiki:
+    site: mnwiki
+    title: Ньютон (нэгж)
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: न्यूटन (एकक)
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Newton
+    badges: []
+  mywiki:
+    site: mywiki
+    title: နယူတန် (ယူနစ်)
+    badges: []
+  ndswiki:
+    site: ndswiki
+    title: Newton (Eenheit)
+    badges: []
+  newwiki:
+    site: newwiki
+    title: न्युटन
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Newton (eenheid)
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Newton
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Newton (enhet)
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Newton (unitat)
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Niuton
+    badges: []
+  pmswiki:
+    site: pmswiki
+    title: Newton
+    badges: []
+  pnbwiki:
+    site: pnbwiki
+    title: نیوٹن (ناپ)
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Newton (unidade)
+    badges: []
+  roa_tarawiki:
+    site: roa_tarawiki
+    title: Newton, aunità de mesure
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Newton
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Ньютон (единица измерения)
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Newton (grannizza fìsica)
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Newton (unit)
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Njutn
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Newton (unit)
+    badges: []
+  siwiki:
+    site: siwiki
+    title: නිවුටන් (ඒකකය)
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Newton (jednotka)
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Newton
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Њутн (јединица)
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Newton (enhet)
+    badges: []
+  swwiki:
+    site: swwiki
+    title: Nyutoni
+    badges: []
+  tawiki:
+    site: tawiki
+    title: நியூட்டன் (அலகு)
+    badges: []
+  thwiki:
+    site: thwiki
+    title: นิวตัน
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Newton (birim)
+    badges: []
+  ttwiki:
+    site: ttwiki
+    title: Ньютон (берәмлек)
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Ньютон
+    badges: []
+  urwiki:
+    site: urwiki
+    title: نیوٹن (اکائی)
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Nyuton (oʻlchov birligi)
+    badges: []
+  vecwiki:
+    site: vecwiki
+    title: Newton (unità de mexura)
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Newton (đơn vị)
+    badges: []
+  vlswiki:
+    site: vlswiki
+    title: Newton (êenheid)
+    badges: []
+  warwiki:
+    site: warwiki
+    title: Newton
+    badges: []
+  wuuwiki:
+    site: wuuwiki
+    title: 牛顿 (单位)
+    badges: []
+  zh_classicalwiki:
+    site: zh_classicalwiki
+    title: 牛頓 (單位)
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Newton (tan-ūi)
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 牛頓 (單位)
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 牛頓 (單位)
+    badges: []

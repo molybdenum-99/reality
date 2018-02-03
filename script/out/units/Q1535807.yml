@@ -1,0 +1,82 @@
+---
+pageid: 1472637
+ns: 0
+title: Q1535807
+lastrevid: 491633832
+modified: '2017-05-28T20:38:31Z'
+type: item
+id: Q1535807
+labels:
+  en:
+    language: en
+    value: Prutah
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1535807$500F74C6-318A-4570-99A5-9C1B118E2D0D
+    rank: normal
+  P3710:
+  - mainsnak:
+      snaktype: value
+      property: P3710
+      hash: 9fc9698dcfbe3c64b31df2ccb47b1526bbf2e78f
+      datavalue:
+        value: '581'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1535807$710E5720-AAB9-4B86-9702-3B688A450D3D
+    rank: normal
+    references:
+    - hash: ed8bd3f9343e9a35e58b67284f26a67859f1808d
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: '07596fc82d3ed4d248b85e5543852cc31e37dc8c'
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 199913
+              id: Q199913
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Pruta
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Prutah
+    badges: []
+  hewiki:
+    site: hewiki
+    title: פרוטה (מטבע עתיק)
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Pruta
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Prutá
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Прута
+    badges: []

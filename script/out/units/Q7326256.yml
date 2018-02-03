@@ -1,0 +1,109 @@
+---
+pageid: 7232503
+ns: 0
+title: Q7326256
+lastrevid: 544013921
+modified: '2017-08-22T17:12:00Z'
+type: item
+id: Q7326256
+labels:
+  en:
+    language: en
+    value: tebi-
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: fe4251e8ce417e4fb8898fa6a97b88a531d71ce2
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 6583973
+          id: Q6583973
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q7326256$a5d0b2b8-4753-0de9-8cc8-2af0efb8f7d1
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: cbe8a45546324442af6a9487c2b8d994de5429f1
+      datavalue:
+        value: Ти
+        type: string
+      datatype: string
+    type: statement
+    id: Q7326256$51117349-48a0-0952-0512-b98938e89d8f
+    rank: normal
+    references:
+    - hash: 5fe1039858667ad40e3911367de1d0a0cac48c8e
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 0e73b9396411d565bdd95a9c668d5a209a8197d0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 193858
+              id: Q193858
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 42746a53df782e86e02dff1d3d08061afd65bdab
+      datavalue:
+        value: Ti
+        type: string
+      datatype: string
+    type: statement
+    id: Q7326256$2b8730b0-4bcf-b559-1c5a-e7c790bfb228
+    rank: normal
+    references:
+    - hash: 5fe1039858667ad40e3911367de1d0a0cac48c8e
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 0e73b9396411d565bdd95a9c668d5a209a8197d0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 193858
+              id: Q193858
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 18171cf8302735a66dd6914d7113cf059168c917
+      datavalue:
+        value: tebi
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q7326256$B96D29F2-D378-42F1-9DC8-A05EFF66D701
+    rank: normal
+sitelinks:
+  bgwiki:
+    site: bgwiki
+    title: Теби-
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Tebi
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Tebi
+    badges: []

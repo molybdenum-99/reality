@@ -1,0 +1,111 @@
+---
+pageid: 31950546
+ns: 0
+title: Q30338333
+lastrevid: 560454733
+modified: '2017-09-17T05:25:35Z'
+type: item
+id: Q30338333
+labels:
+  en:
+    language: en
+    value: radian per second squared
+aliases:
+  en:
+  - language: en
+    value: rad/s²
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 50afdc16346d8687f53963f614e8d645419488a0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 208469
+          id: Q208469
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q30338333$2de51d6e-48ff-e625-423a-1a567454de9a
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: d9315b60d42d3e516cbc28011f9be167e9b44378
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 186300
+          id: Q186300
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q30338333$7a0362b6-4471-ab72-567f-d213de4fd4f6
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 11ed41fec393449e3c400671f6acac6a179cccfa
+      datavalue:
+        value: rad/s²
+        type: string
+      datatype: string
+    type: statement
+    id: Q30338333$6bceb470-40cb-7b69-0f17-a30145ea5be5
+    rank: normal
+    references:
+    - hash: '089c33e071fc01a4061629256f43bddd0f3c4155'
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: f65b5cb735832962ac723223811fc69ad0605480
+          datavalue:
+            value: 3-11.a
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: '095b22e5c47a47f7d5e84e00899837038be11bd4'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 26711932
+          id: Q26711932
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P958:
+      - snaktype: value
+        property: P958
+        hash: f65b5cb735832962ac723223811fc69ad0605480
+        datavalue:
+          value: 3-11.a
+          type: string
+        datatype: string
+    qualifiers-order:
+    - P958
+    id: Q30338333$9d79a357-439d-0c5c-cac6-eb9025a23087
+    rank: normal
+sitelinks: {}

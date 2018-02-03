@@ -1,0 +1,108 @@
+---
+pageid: 1904613
+ns: 0
+title: Q1975732
+lastrevid: 491635576
+modified: '2017-05-28T20:41:43Z'
+type: item
+id: Q1975732
+labels:
+  en:
+    language: en
+    value: Ural franc
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: d45910ec80060a57f224cbd496a0687a63e48925
+      datavalue:
+        value: "/m/03cq188"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1975732$090CC6BD-CE9E-4DE6-AB1A-C8F407AC9FBD
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1975732$1A4A52BE-8F2C-402B-B147-77E1CA540E61
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 4f09cb257b93cfd07b9283d0e0855f03e240f152
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 159
+          id: Q159
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1975732$b04bf460-49c5-94f0-3fa7-90bc93dcd9c4
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Ural franc
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Franco de los Urales
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Уральский франк
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Uralfranc
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Уральський франк
+    badges: []

@@ -1,0 +1,153 @@
+---
+pageid: 1861576
+ns: 0
+title: Q1931902
+lastrevid: 552968904
+modified: '2017-09-06T15:59:59Z'
+type: item
+id: Q1931902
+labels:
+  en:
+    language: en
+    value: Middle Stone Age
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 29868492e2648404bc6f7b62789b68129bc135ef
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 15401633
+          id: Q15401633
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1931902$464a850e-419c-10ce-6666-2dc2aea2e25d
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: c10ead855de78ebb17bcd54f02db00894c5c6a74
+      datavalue:
+        value: Middle Stone Age
+        type: string
+      datatype: string
+    type: statement
+    id: q1931902$6292A8CD-B5D2-46BE-871F-D9DE9E7FECED
+    rank: normal
+    references:
+    - hash: 9a24f7c0208b05d6be97077d855671d1dfdbc0dd
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: d38375ffe6fe142663ff55cd783aa4df4301d83d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 48183
+              id: Q48183
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P910:
+  - mainsnak:
+      snaktype: value
+      property: P910
+      hash: faea84c376814e272abd161cb52bcdae503eafc2
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 21405489
+          id: Q21405489
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1931902$3D6013AA-ED64-4317-96D7-04EE284B752B
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 74881977fabac58048918640b76cdd0a3836c9da
+      datavalue:
+        value: "/m/0fhct6"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1931902$FBF38E29-9C69-4F8B-9217-FE1EBBE13FE7
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P1014:
+  - mainsnak:
+      snaktype: value
+      property: P1014
+      hash: 466d9fdb5142a9aa6a4bdfb3728aa574796cdb33
+      datavalue:
+        value: '300015678'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1931902$0C59C2FF-62A1-44E1-950F-AEA072440E06
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: عصر حجري متوسط في أفريقيا
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Middle Stone Age
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Middle Stone Age
+    badges:
+    - Q17437798
+  frwiki:
+    site: frwiki
+    title: Middle Stone Age
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Middle Stone Age
+    badges: []
+  thwiki:
+    site: thwiki
+    title: ยุคหินกลาง (แอฟริกา)
+    badges: []

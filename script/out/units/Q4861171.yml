@@ -1,0 +1,143 @@
+---
+pageid: 4643369
+ns: 0
+title: Q4861171
+lastrevid: 624399717
+modified: '2018-01-29T09:33:57Z'
+type: item
+id: Q4861171
+labels:
+  en:
+    language: en
+    value: barleycorn
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: f085b0c4c3db3510ae2e3f19c22f34ba4ced3b75
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 16782623
+          id: Q16782623
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4861171$3c47de82-40c7-6510-85fb-abd0ec0b1254
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: fe6138cb7cd3513363ab7bc8f7233fc91311b74c
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2534228
+          id: Q2534228
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4861171$f82b0b66-44be-7ba1-8d20-83b57251a753
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1c41b2ea8a3f6d3fab77c103d826ae5ead7a9c01
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1978718
+          id: Q1978718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4861171$74ce65dc-429f-5379-b483-caa318096ce0
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: ac4a1b9359ca0acc397a83bfac8cb129f6d0cea5
+      datavalue:
+        value: H
+        type: string
+      datatype: string
+    type: statement
+    id: Q4861171$c7d405b8-4105-bb68-fcba-9e3c7db9dc56
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 4e37f0613cae686d349fac8eea619001f1d04651
+      datavalue:
+        value:
+          amount: "+0.0085"
+          unit: http://www.wikidata.org/entity/Q11573
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q4861171$afc1706b-47fb-e4e4-b82e-7fe87513b3b5
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 1c867392ce35dec2b2c6ec074de00cc5f5c11543
+      datavalue:
+        value:
+          amount: "+0.846"
+          unit: http://www.wikidata.org/entity/Q174728
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q4861171$1de6c29e-4d27-0789-6c5d-b1d3f55e7cb0
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 248812b9966da01267215100aa5d0d0b12c1a4fc
+      datavalue:
+        value:
+          amount: "+0.333"
+          unit: http://www.wikidata.org/entity/Q218593
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q4861171$9403b895-468c-3358-5ce5-e6266d73d115
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Barley corn
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Barleycorn (unit)
+    badges: []
+  jawiki:
+    site: jawiki
+    title: バーリーコーン
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Barleycorn
+    badges: []

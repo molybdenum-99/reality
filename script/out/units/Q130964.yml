@@ -1,0 +1,645 @@
+---
+pageid: 132849
+ns: 0
+title: Q130964
+lastrevid: 615611955
+modified: '2018-01-01T21:54:33Z'
+type: item
+id: Q130964
+labels:
+  en:
+    language: en
+    value: calorie
+aliases:
+  en:
+  - language: en
+    value: cal
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 06df6efe68f6e25b0d602229267e4d3e9ccc3d64
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2916980
+          id: Q2916980
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q130964$73df6582-4140-b947-c070-d66176fe239b
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 5be8112ce11c9f667f1e71581385e53c9d0f8845
+      datavalue:
+        value: cal
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q130964$78a3f48c-4c10-49d2-c9b1-c4d3bcf3eb34
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 4b0bcfb29737a7c149e3c0451a2d87d198189e68
+      datavalue:
+        value: кал
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q130964$8205448e-46cc-c73a-94d9-820d988924a5
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 80248e65a2763f45ecbf2b90f18c4b8237e98519
+      datavalue:
+        value: "/m/01wv2"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q130964$A354A08F-03E1-4C9B-8BB3-B01FF91698A9
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 62c309f8296338bd9647a7e758857137f3370310
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2657718
+          id: Q2657718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P478:
+      - snaktype: value
+        property: P478
+        hash: ab49dc08d24a45b6e4ca6b5613d63a1756aa3d7f
+        datavalue:
+          value: '5'
+          type: string
+        datatype: string
+      P304:
+      - snaktype: value
+        property: P304
+        hash: e933f5a00b5ec2a0b7558232e7c3cc2fc371b90a
+        datavalue:
+          value: '183'
+          type: string
+        datatype: string
+    qualifiers-order:
+    - P478
+    - P304
+    id: Q130964$BC2B4994-F9CE-454B-B25E-7647EC671EF7
+    rank: normal
+    references:
+    - hash: 8bc722e6797143f2ba971ee5fedaeb0a331268e6
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 4b9ead388e47f64ea2ecb2b82c5d4f516003a8d5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 1975217
+              id: Q1975217
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 7d851dd77ba63fab37ecbc27b783629b1026fd9d
+      datavalue:
+        value:
+          amount: "+4.19"
+          unit: http://www.wikidata.org/entity/Q25269
+          upperBound: "+4.34"
+          lowerBound: "+4.04"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q130964$e5527776-4473-908f-c437-5596a294ce8e
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: '0516279506c3e000e2a5ff1756a1a6552337687a'
+      datavalue:
+        value: CalorieThermochemical
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q130964$DE9D5367-2B8F-4577-98EA-56B7C0487F20
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: f119108a49681020aa8668a1afae9f0cbf684357
+      datavalue:
+        value: Calories
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q130964$86DEDF6A-F609-43B1-9864-566FCC41DBDC
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P508:
+  - mainsnak:
+      snaktype: value
+      property: P508
+      hash: 94879e10915953999b77b3d5bb7874c1bcd52cf3
+      datavalue:
+        value: '53072'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q130964$BBD7FB6A-88C9-41D4-9381-7A3EBE8E19C9
+    rank: normal
+    references:
+    - hash: 7002ae52473b0b693b7c7aced9f9184ce0b29751
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 69c026c251f75d0291b3d466e54c44ef90ce1db7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 16583225
+              id: Q16583225
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 7ad0f8fc8c23eb3ede324fc816121895c19109c6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11379
+          id: Q11379
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q130964$2cb17e2a-4d17-7e8c-a976-c7a7d0216ca2
+    rank: normal
+  P3827:
+  - mainsnak:
+      snaktype: value
+      property: P3827
+      hash: fb2da12d3c65300d3b0c57cb789840846f8204ed
+      datavalue:
+        value: calories
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q130964$5E24DD13-C080-4328-92BA-7A607150A255
+    rank: normal
+  P4223:
+  - mainsnak:
+      snaktype: value
+      property: P4223
+      hash: da44074bc3dbcf332a9b5846e5240b352c51acf3
+      datavalue:
+        value: caloria
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q130964$0F795D87-969D-42DD-80FD-2E9B2B6D765F
+    rank: normal
+    references:
+    - hash: d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 5a343e7e758a4282a01316d3e959b6e653b767fc
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 11920
+              id: Q11920
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P3569:
+  - mainsnak:
+      snaktype: value
+      property: P3569
+      hash: '0829e93300f347a08495c8a8b2e8c22d03b3893b'
+      datavalue:
+        value: levenswetenschappen-en-geneeskunde/calorie
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q130964$9C2DA4DC-6EB3-48D3-9667-82A4599D9C52
+    rank: normal
+  P1417:
+  - mainsnak:
+      snaktype: value
+      property: P1417
+      hash: 8592ab3b70157c1db4878ae521e7bc3ce5bd6d71
+      datavalue:
+        value: science/calorie
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q130964$9214155D-B399-4C52-A20F-3E8553D5ECDC
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: سعرة
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Caloría
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Kalori
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Калёрыя
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Калорыя
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Калория
+    badges: []
+  bowiki:
+    site: bowiki
+    title: ཁཱ།
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Kalorija
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Caloria
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Kalorie
+    badges: []
+  cywiki:
+    site: cywiki
+    title: Calori
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Kalorie
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Kalorie
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Θερμίδα
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Calorie
+    badges: []
+  enwikiquote:
+    site: enwikiquote
+    title: Calories
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Kalorio
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Caloría
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Kalor
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Kaloria
+    badges: []
+  fawiki:
+    site: fawiki
+    title: کالری
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Kalori
+    badges: []
+  frrwiki:
+    site: frrwiki
+    title: Kalorii
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Calorie
+    badges: []
+  gawiki:
+    site: gawiki
+    title: Calra
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Caloría
+    badges: []
+  gvwiki:
+    site: gvwiki
+    title: Caloree
+    badges: []
+  hewiki:
+    site: hewiki
+    title: קלוריה
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: कैलोरी
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Kalorija
+    badges: []
+  htwiki:
+    site: htwiki
+    title: Kalori
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Kalória
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Կալորիա
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Kalori
+    badges: []
+  iowiki:
+    site: iowiki
+    title: Kalorio
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Hitaeining
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Caloria
+    badges: []
+  itwikiquote:
+    site: itwikiquote
+    title: Caloria
+    badges: []
+  jawiki:
+    site: jawiki
+    title: カロリー
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Калория
+    badges: []
+  knwiki:
+    site: knwiki
+    title: ಕೆಲೊರಿ
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 칼로리
+    badges: []
+  kywiki:
+    site: kywiki
+    title: Калория
+    badges: []
+  lbwiki:
+    site: lbwiki
+    title: Kalorie
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Kalorija
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Kalorija
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Калорија
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Kalori
+    badges: []
+  mywiki:
+    site: mywiki
+    title: ကယ်လိုရီ
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Calorie
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Kalori
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Kalori
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਕੈਲੋਰੀ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Kaloria
+    badges: []
+  pmswiki:
+    site: pmswiki
+    title: Calorìa
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Caloria
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Calorie
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Калория
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Caluria
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Calorie
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Kalorija
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Calorie
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Kalorija
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Калорија
+    badges: []
+  suwiki:
+    site: suwiki
+    title: Kalori
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Kalori
+    badges: []
+  tawiki:
+    site: tawiki
+    title: கலோரி
+    badges: []
+  tewiki:
+    site: tewiki
+    title: కెలోరి
+    badges: []
+  thwiki:
+    site: thwiki
+    title: แคลอรี
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Kalori
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Калорія
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Ca-lo
+    badges: []
+  yiwiki:
+    site: yiwiki
+    title: קאלערי
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Khah-lō͘-lí
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 卡路里
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 卡路里
+    badges: []

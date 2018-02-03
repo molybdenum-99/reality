@@ -1,0 +1,148 @@
+---
+pageid: 27880221
+ns: 0
+title: Q25927192
+lastrevid: 537539165
+modified: '2017-08-14T08:08:17Z'
+type: item
+id: Q25927192
+labels:
+  en:
+    language: en
+    value: hekteus
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 5cebe0e16525e81b3e1616fe4971f74d9462a48b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 186218
+          id: Q186218
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q25927192$cdfd09fe-4e43-2433-db79-3c36f7389193
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 8d75fa5d12c9f32ffc85f2a1a5e77c5160f66ae1
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 607056
+          id: Q607056
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q25927192$a6ac7ffc-408b-afb4-d5f7-1ad319f6cce9
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: a0a64f4f61b9b9589fba0b9f4e9288820ef13679
+      datavalue:
+        value:
+          amount: "+8"
+          unit: http://www.wikidata.org/entity/Q15794456
+          upperBound: "+8"
+          lowerBound: "+8"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q25927192$bd70011d-434f-1fd6-560d-f4529a5294ba
+    rank: normal
+    references:
+    - hash: 77558b2586162aee5b4404eb03a24e761dda99fa
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: afd0bc01045c9e952bd83a2da36c2745f89ac643
+          datavalue:
+            value: http://www.livius.org/w/weights/weights2.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 319eca416990be95d0bc1936656ae864506b85ef
+          datavalue:
+            value:
+              time: "+2016-07-17T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 5c5025cf2adee45337475ae3e7122dd0303a1aa4
+      datavalue:
+        value:
+          amount: "+0.008696"
+          unit: http://www.wikidata.org/entity/Q25517
+          upperBound: "+0.008696"
+          lowerBound: "+0.008696"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q25927192$b82744f2-4ada-f711-2ac3-a9f07de1d764
+    rank: normal
+    references:
+    - hash: 77558b2586162aee5b4404eb03a24e761dda99fa
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: afd0bc01045c9e952bd83a2da36c2745f89ac643
+          datavalue:
+            value: http://www.livius.org/w/weights/weights2.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 319eca416990be95d0bc1936656ae864506b85ef
+          datavalue:
+            value:
+              time: "+2016-07-17T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: ece6f6e6968e83ab4ea375829a8c5694d93dff51
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 39297
+          id: Q39297
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q25927192$166C3743-DF7B-47FB-9EB6-668DA8EE9E44
+    rank: normal
+sitelinks: {}

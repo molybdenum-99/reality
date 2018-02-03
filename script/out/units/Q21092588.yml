@@ -1,0 +1,59 @@
+---
+pageid: 23139828
+ns: 0
+title: Q21092588
+lastrevid: 615435973
+modified: '2017-12-31T18:51:28Z'
+type: item
+id: Q21092588
+labels:
+  en:
+    language: en
+    value: Barcella
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6e3da81891b6fba54d9ac8088595a4b05e5a5f95
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1302471
+          id: Q1302471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q21092588$2b48d691-4a39-dcfe-983d-bd1e4a5939e3
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 4da495765208eb10cd46f44ecc6521d7d48dcc66
+      datavalue:
+        value: Objectes de la Sala Secà i Muntanya (26584788723).jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    qualifiers:
+      P2096:
+      - snaktype: value
+        property: P2096
+        hash: 58e892c8639c4c6b0440cd5a8988308187826dbb
+        datavalue:
+          value:
+            text: Barcella i mitja de finals del XIX. [[Museu Valencià d'Etnologia]].
+            language: ca
+          type: monolingualtext
+        datatype: monolingualtext
+    qualifiers-order:
+    - P2096
+    id: Q21092588$e615c812-4391-a3ea-42fd-33b769a20fca
+    rank: normal
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Barcella
+    badges: []

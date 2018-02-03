@@ -1,0 +1,169 @@
+---
+pageid: 1263153
+ns: 0
+title: Q1323382
+lastrevid: 618425297
+modified: '2018-01-10T09:22:22Z'
+type: item
+id: Q1323382
+labels:
+  en:
+    language: en
+    value: New Brunswick dollar
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1323382$42b9a150-461e-2ca4-8171-6f43e17a643f
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: bededd8acef634244a0b0d8ad98f06539357a78a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 14083
+          id: Q14083
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1323382$b4d51977-470a-837f-ab43-a0d167eae40d
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: f8e9928d3e3e3ab9039950aa6a5edb6a8ffbc440
+      datavalue:
+        value: "/m/0bx348"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1323382$13302D5A-3AED-41D9-8EC1-12D581CBC7D3
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P580:
+  - mainsnak:
+      snaktype: value
+      property: P580
+      hash: 187896fc85f3945ebcc3d8f94c505f6c91784695
+      datavalue:
+        value:
+          time: "+1860-01-01T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 9
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q1323382$b3bda190-459a-2299-a3fa-815f8bb7d569
+    rank: normal
+  P582:
+  - mainsnak:
+      snaktype: value
+      property: P582
+      hash: afaeea31452ae7ef4f0a5a425f6cda2c205eb227
+      datavalue:
+        value:
+          time: "+1867-01-01T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 9
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q1323382$22bdd01e-4370-b0f4-c7cd-c1032ed8dda9
+    rank: normal
+  P1365:
+  - mainsnak:
+      snaktype: value
+      property: P1365
+      hash: 2b71fa06f0ffe3cc90d7e6b9379b765ec9cfa1aa
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 17012236
+          id: Q17012236
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1323382$8386380b-43ae-1589-c713-c216a0385d75
+    rank: normal
+  P1366:
+  - mainsnak:
+      snaktype: value
+      property: P1366
+      hash: f35f0cb2df097e55eafd8d1bf907d70e6b1e362e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1104069
+          id: Q1104069
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1323382$ddfeef26-443d-b928-e9ac-54319b7e3264
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: New Brunswick dollar
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Dollar du Nouveau-Brunswick
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Dollaro del Nuovo Brunswick
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Đô la New Brunswick
+    badges: []

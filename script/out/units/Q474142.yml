@@ -1,0 +1,140 @@
+---
+pageid: 446947
+ns: 0
+title: Q474142
+lastrevid: 618693572
+modified: '2018-01-11T05:27:37Z'
+type: item
+id: Q474142
+labels:
+  en:
+    language: en
+    value: Saar mark
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q474142$50f8b102-4b65-da8f-ac05-cdd540ab272f
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 248975f897cc6d82a949455731b4d127811bd41f
+      datavalue:
+        value: Saar Mark of the French Saar Protectorate (1947-1956)
+        type: string
+      datatype: string
+    type: statement
+    id: q474142$7F19D9E4-8845-42D6-9B45-562B98437166
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 4794a7393860785d30ac8b4551176d4a5868474b
+      datavalue:
+        value: "/m/0bm1hz"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q474142$3F2C9F77-AE28-4F5D-9AAE-76E474404C58
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P1366:
+  - mainsnak:
+      snaktype: value
+      property: P1366
+      hash: 7a83c25645af1e87b0049b8e7d96ce0b3770421a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 552826
+          id: Q552826
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q474142$a7c40184-4c66-08dd-688a-e75b05109f9f
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: مارك ساري
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Saar-Mark
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Saar mark
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Marco del Sarre
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Mark sarrois
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Marco della Saar
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Saarmark
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Marcă Saar
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Саарская марка
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Марка Саару
+    badges: []

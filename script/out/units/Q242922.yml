@@ -1,0 +1,360 @@
+---
+pageid: 236139
+ns: 0
+title: Q242922
+lastrevid: 619456471
+modified: '2018-01-12T22:22:13Z'
+type: item
+id: Q242922
+labels:
+  en:
+    language: en
+    value: Dominican peso
+aliases: {}
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: e8d0e3be45da87abce7ae1b901c800ed625eb7d7
+      datavalue:
+        value: Money of the Dominican Republic
+        type: string
+      datatype: string
+    type: statement
+    id: q242922$7E47BD01-0B0C-48F5-8A2E-14F71DFAAEE7
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 62b92ff7d900ebf6441612661ea967a57d2eb600
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1643989
+          id: Q1643989
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q242922$0497B0CB-7835-4B3E-8C36-C4878B1DF23D
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q242922$87F114FA-A3E9-4A7B-918A-6681BD058363
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 3fd93310efc3bbad256988d3219ab4790d3d551d
+      datavalue:
+        value: DOP
+        type: string
+      datatype: external-id
+    type: statement
+    id: q242922$9025716b-4260-e4dd-3613-86d3331b8e86
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 78873aeb021057971f71ddc1a33b9d2a5a447482
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1800406
+          id: Q1800406
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q242922$5E19A72A-1436-49DB-9D0F-45AEE335582A
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 744470cfdfc3a0ad19f37fcee18a079e80641b27
+      datavalue:
+        value: "/m/04lt7_"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q242922$C6244D0D-D374-4471-AA08-778C02A9D1FB
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: a5e999fb8064032c99fc342c03a1de3db83fca17
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 786
+          id: Q786
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q242922$d25ab26a-43ad-2a8f-d995-d052e9bcee51
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: 755b245a521b5ebf099df1cfc41fa78e2ad1a96f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 244696
+          id: Q244696
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q242922$fde82300-4090-27fb-96c1-dc541a377d9f
+    rank: normal
+  P2581:
+  - mainsnak:
+      snaktype: value
+      property: P2581
+      hash: 89189b7a12a537b8b529c6d286681b23385af9fb
+      datavalue:
+        value: '00028187n'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q242922$4A2D1C5A-2A6B-4935-8798-FBB6FECB9712
+    rank: normal
+    references:
+    - hash: bd0ee81488cd8c23d4b655e417aac78dca370283
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: a0b4f55dbedbadaf83e7d2461b47b7aeaba86359
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 4837690
+              id: Q4837690
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 1d7657f004ec80e9a227aa6d4ca71b15ba28dd1c
+      datavalue:
+        value: '500158'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q242922$8D1D0C25-ED65-484A-B769-1AFCDF467109
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: بيزو دومنيكاني
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Dominikan pesosu
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Доминиканско песо
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: ডোমিনিকান পেসো
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Peso dominicà
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Dominikánské peso
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Dominikanischer Peso
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Πέσο Δομινικανής Δημοκρατίας
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Dominican peso
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Dominga peso
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Peso (moneda de República Dominicana)
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Peso dominikar
+    badges: []
+  fawiki:
+    site: fawiki
+    title: پزو دومینیکن
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Dominikaanisen tasavallan peso
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Peso dominicain
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Dominikanski pezo
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Dominikai peso
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Peso Dominika
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Peso dominicano
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ドミニカ・ペソ
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 도미니카 페소
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Dominikos pesas
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: डॉमिनिकन पेसो
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Dominicaanse peso
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Dominikansk peso
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਡੋਮਿਨਿਕਾਈ ਪੇਸੋ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Peso dominikańskie
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Peso dominicano
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Доминиканское песо
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Dominican peso
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Доминикански пезос
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Dominikansk peso
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Dominik pesosu
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Домініканський песо
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Peso Dómíníkì
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Dominica peso
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 多明尼加比索
+    badges: []

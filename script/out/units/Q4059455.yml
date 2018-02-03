@@ -1,0 +1,97 @@
+---
+pageid: 3868359
+ns: 0
+title: Q4059455
+lastrevid: 357912115
+modified: '2016-07-17T14:38:08Z'
+type: item
+id: Q4059455
+labels:
+  en:
+    language: en
+    value: akaina
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1c41b2ea8a3f6d3fab77c103d826ae5ead7a9c01
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1978718
+          id: Q1978718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4059455$004BAC13-ED30-4EEF-A8F6-5F1B76A141BF
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 8d75fa5d12c9f32ffc85f2a1a5e77c5160f66ae1
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 607056
+          id: Q607056
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4059455$7ab2aa0a-4c99-e680-e0ea-d9af428ef5d4
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: d6191a50492c90964b881ed3b4eaf54a628a2846
+      datavalue:
+        value:
+          amount: "+10"
+          unit: http://www.wikidata.org/entity/Q7235735
+          upperBound: "+10"
+          lowerBound: "+10"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q4059455$619a9cab-4b47-be8f-3481-903eaa2a5e1f
+    rank: normal
+    references:
+    - hash: b7a7b012a02e4a10366f7ee59a502305d172fc60
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 4b566941aa961aabf1295e4f2035f3aec8e534a5
+          datavalue:
+            value: http://www.hellenicaworld.com/Greece/Technology/en/Measurements.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 319eca416990be95d0bc1936656ae864506b85ef
+          datavalue:
+            value:
+              time: "+2016-07-17T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+sitelinks:
+  cswiki:
+    site: cswiki
+    title: Akaina
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Акена
+    badges: []

@@ -1,0 +1,100 @@
+---
+pageid: 11684930
+ns: 0
+title: Q10380431
+lastrevid: 537539032
+modified: '2017-08-14T08:08:00Z'
+type: item
+id: Q10380431
+labels:
+  en:
+    language: en
+    value: terajoule
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 06df6efe68f6e25b0d602229267e4d3e9ccc3d64
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2916980
+          id: Q2916980
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q10380431$9c5c96b4-4245-f0fe-0b24-e3c5bfb662dd
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: '090b6967a0fa5eb72f5684cf691ddf26c13994a2'
+      datavalue:
+        value: TJ
+        type: string
+      datatype: string
+    type: statement
+    id: Q10380431$f96a4485-413c-2912-972c-0834e7ef04f3
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: d158d043c014bf9df65cd401a0eed9e1fbb14170
+      datavalue:
+        value: ТДж
+        type: string
+      datatype: string
+    type: statement
+    id: Q10380431$9dea68cb-4ce5-4285-3b21-3abbd90ad5da
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 4033d0a190b1011a768d8d8a0f1ff89588ca5cba
+      datavalue:
+        value:
+          amount: "+1000000000000"
+          unit: http://www.wikidata.org/entity/Q25269
+          upperBound: "+1000000000000"
+          lowerBound: "+1000000000000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q10380431$1dd0ddc7-4bdb-3ec9-248f-e0b8e91e9cb6
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 85ddf9b39e65a4af78f49439ffd1aa31874fb047
+      datavalue:
+        value: terajoule
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q10380431$F7CD7A17-B2A4-4611-B1A8-DBFDB446BC65
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 7ad0f8fc8c23eb3ede324fc816121895c19109c6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11379
+          id: Q11379
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q10380431$D0DF0CE8-39C1-429F-9F97-86E1FE27B899
+    rank: normal
+sitelinks:
+  ptwiki:
+    site: ptwiki
+    title: Terajoule
+    badges: []

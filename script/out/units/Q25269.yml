@@ -1,0 +1,922 @@
+---
+pageid: 28672
+ns: 0
+title: Q25269
+lastrevid: 619911214
+modified: '2018-01-13T20:03:00Z'
+type: item
+id: Q25269
+labels:
+  en:
+    language: en
+    value: joule
+aliases:
+  en:
+  - language: en
+    value: Joule
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 50afdc16346d8687f53963f614e8d645419488a0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 208469
+          id: Q208469
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q25269$FC271E9E-04A6-40B6-8D71-CAF45043986E
+    rank: normal
+    references:
+    - hash: 3896afd7baf0e1629db1a1af56241836f65fb2c3
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 0a2fe880cf33d2b0639c9ba25541b40e4bac3e9d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 19606873
+              id: Q19606873
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+    - hash: 04236527a1d6139c066bc969a1e83e439efc00ba
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 587564898ba1c818316ca0a7af2bb0867f80d4bb
+          datavalue:
+            value: '18'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: a8acdbdb9ade23dbae3d6835a293e04c6df76a0f
+          datavalue:
+            value: 6.5.3
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 06df6efe68f6e25b0d602229267e4d3e9ccc3d64
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2916980
+          id: Q2916980
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q25269$13fdcf13-45c1-18a1-378c-1ebb01a4f18a
+    rank: normal
+    references:
+    - hash: 3896afd7baf0e1629db1a1af56241836f65fb2c3
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 0a2fe880cf33d2b0639c9ba25541b40e4bac3e9d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 19606873
+              id: Q19606873
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 40256a8a7e64a78bc8fd69b6a33da858d1ecd155
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8962
+          id: Q8962
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q25269$776A14CC-B310-40CE-9715-E1F7BA63152D
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 9311e5ff9da5a719fb4d70165d5359c248e61276
+      datavalue:
+        value: J
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: q25269$6e090659-4ca4-6142-e464-7445d662cb19
+    rank: normal
+    references:
+    - hash: 04236527a1d6139c066bc969a1e83e439efc00ba
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 587564898ba1c818316ca0a7af2bb0867f80d4bb
+          datavalue:
+            value: '18'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: a8acdbdb9ade23dbae3d6835a293e04c6df76a0f
+          datavalue:
+            value: 6.5.3
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 8d46b838b02859b56c0a3566c56349bf48faaeaa
+      datavalue:
+        value: Дж
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q25269$bd15c51c-4e52-fa1a-ca60-4a4a8fb60c48
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 159e0dd1766af034a370748dae736f8285edbf4a
+      datavalue:
+        value: "/m/04570"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q25269$A57BEA23-1C50-4318-9917-B482F10034CB
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P460:
+  - mainsnak:
+      snaktype: value
+      property: P460
+      hash: 552b6ebe0d17ccc75a477490c479fe002fb837a0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 7974920
+          id: Q7974920
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q25269$68791571-C583-4C72-A618-F4DEC9376751
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 7ad0f8fc8c23eb3ede324fc816121895c19109c6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11379
+          id: Q11379
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q25269$e1ea53c0-4baa-f4cc-2b01-03c71557f66c
+    rank: normal
+    references:
+    - hash: 04236527a1d6139c066bc969a1e83e439efc00ba
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 587564898ba1c818316ca0a7af2bb0867f80d4bb
+          datavalue:
+            value: '18'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: a8acdbdb9ade23dbae3d6835a293e04c6df76a0f
+          datavalue:
+            value: 6.5.3
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 2a6972c0f4c98b2db7ab5919a11dd6ba4116c8cb
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 42213
+          id: Q42213
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q25269$a8a5ae5a-4b51-a345-3776-459f739434bf
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: d74dcf7771b527a3b036bb47a0c7690179466b7c
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 44432
+          id: Q44432
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q25269$5be13170-4f76-85db-aa2a-bedf2ca2ae1f
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: '092276c04c23a3c9f24cb962039c19edae6ae343'
+      datavalue:
+        value:
+          amount: "+1"
+          unit: http://www.wikidata.org/entity/Q25269
+          upperBound: "+1"
+          lowerBound: "+1"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q25269$2641463f-4f9d-089f-f3bb-eae01cfc8b20
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: dec8c92425ba64e4772598c555748664d834c970
+      datavalue:
+        value: Joule
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q25269$F52494EC-4125-46E0-A59E-C48EE51A00F4
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 9d33287bd1a02027815907e207cb5af01f8b5623
+      datavalue:
+        value: joule
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q25269$642144e2-480a-4b23-fe6f-c25d37f53ebf
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 7de96e18ec23fdef718c373800cd99dc2114aa07
+      datavalue:
+        value: Joule-1
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q25269$954EC8A4-86AB-4F85-A29A-CA41E297B6D4
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P3569:
+  - mainsnak:
+      snaktype: value
+      property: P3569
+      hash: 9eb44e4beac49a9aba7cb750460746b31e81e00b
+      datavalue:
+        value: natuurkunde-scheikunde-en-sterrenkunde/joule
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q25269$194314D8-5084-4888-BDED-3E7C8CBB956C
+    rank: normal
+  P144:
+  - mainsnak:
+      snaktype: value
+      property: P144
+      hash: 7f08978849562752fe27c692a1c8622b9d9562fc
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 12438
+          id: Q12438
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P2534:
+      - snaktype: value
+        property: P2534
+        hash: e993e2f5e9c5acc9bc46a7699b6c2a43ddc95ed2
+        datavalue:
+          value: "\\text{J} = \\text{N} \\cdot \\text{m}"
+          type: string
+        datatype: math
+    qualifiers-order:
+    - P2534
+    id: Q25269$e4b82234-4a4e-2c13-9ea5-b78d6a4b06b9
+    rank: normal
+    references:
+    - hash: 04236527a1d6139c066bc969a1e83e439efc00ba
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 587564898ba1c818316ca0a7af2bb0867f80d4bb
+          datavalue:
+            value: '18'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: a8acdbdb9ade23dbae3d6835a293e04c6df76a0f
+          datavalue:
+            value: 6.5.3
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  - mainsnak:
+      snaktype: value
+      property: P144
+      hash: 14e4119567cfb01a2298d782b2a6181d8247d688
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11573
+          id: Q11573
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P2534:
+      - snaktype: value
+        property: P2534
+        hash: e993e2f5e9c5acc9bc46a7699b6c2a43ddc95ed2
+        datavalue:
+          value: "\\text{J} = \\text{N} \\cdot \\text{m}"
+          type: string
+        datatype: math
+    qualifiers-order:
+    - P2534
+    id: Q25269$14bc7140-47dc-f0ee-357a-cc11820167c1
+    rank: normal
+    references:
+    - hash: 04236527a1d6139c066bc969a1e83e439efc00ba
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 587564898ba1c818316ca0a7af2bb0867f80d4bb
+          datavalue:
+            value: '18'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: a8acdbdb9ade23dbae3d6835a293e04c6df76a0f
+          datavalue:
+            value: 6.5.3
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Joule
+    badges: []
+  anwiki:
+    site: anwiki
+    title: Joule
+    badges: []
+  arwiki:
+    site: arwiki
+    title: جول
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Xuliu (unidá)
+    badges: []
+  aswiki:
+    site: aswiki
+    title: জুল
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Coul
+    badges: []
+  bat_smgwiki:
+    site: bat_smgwiki
+    title: Džaulės
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Джоўль
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Джоўль (адзінка вымярэння)
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Джаул
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: জুল
+    badges: []
+  bowiki:
+    site: bowiki
+    title: ཅོལ།
+    badges: []
+  brwiki:
+    site: brwiki
+    title: Joul
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Džul
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Joule
+    badges: []
+  ckbwiki:
+    site: ckbwiki
+    title: جوول
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Joule
+    badges: []
+  cvwiki:
+    site: cvwiki
+    title: Джоуль
+    badges: []
+  cywiki:
+    site: cywiki
+    title: Joule
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Joule
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Joule
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Τζάουλ (μονάδα μέτρησης)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Joule
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Ĵulo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Julio (unidad)
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Džaul
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Joule (unitatea)
+    badges: []
+  fawiki:
+    site: fawiki
+    title: ژول
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Joule
+    badges: []
+  frrwiki:
+    site: frrwiki
+    title: Joule
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Joule
+    badges: []
+  gawiki:
+    site: gawiki
+    title: Giúl
+    badges: []
+  gdwiki:
+    site: gdwiki
+    title: Joule
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Joule
+    badges: []
+  guwiki:
+    site: guwiki
+    title: જૂલ
+    badges: []
+  hewiki:
+    site: hewiki
+    title: ג'ול
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: जूल (इकाई)
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Džul
+    badges: []
+  htwiki:
+    site: htwiki
+    title: Joul
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Joule
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Ջոուլ (չափման միավոր)
+    badges: []
+  iawiki:
+    site: iawiki
+    title: Joule
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Joule
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Júl
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Joule
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ジュール
+    badges: []
+  kawiki:
+    site: kawiki
+    title: ჯოული
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 줄 (단위)
+    badges: []
+  krcwiki:
+    site: krcwiki
+    title: Джоуль
+    badges: []
+  kuwiki:
+    site: kuwiki
+    title: Jûl
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Joulium
+    badges: []
+  liwiki:
+    site: liwiki
+    title: Joule
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Džaulis
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Džouls
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Џул
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: ജൂൾ
+    badges: []
+  mnwiki:
+    site: mnwiki
+    title: Жоуль (нэгж)
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: ज्यूल
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Joule
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Joule
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Joule
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Joule
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Joule
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਜੂਲ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Dżul
+    badges: []
+  pmswiki:
+    site: pmswiki
+    title: Joule
+    badges: []
+  pnbwiki:
+    site: pnbwiki
+    title: جاؤل
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Joule
+    badges: []
+  roa_tarawiki:
+    site: roa_tarawiki
+    title: Joule
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Joule
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Джоуль
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Joule
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Joule
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Džul
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Joule
+    badges: []
+  siwiki:
+    site: siwiki
+    title: ජූල් (SI ඒකකය)
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Joule
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Džul
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Џул
+    badges: []
+  suwiki:
+    site: suwiki
+    title: Joule
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Joule
+    badges: []
+  swwiki:
+    site: swwiki
+    title: Jouli
+    badges: []
+  tawiki:
+    site: tawiki
+    title: ஜூல்
+    badges: []
+  tewiki:
+    site: tewiki
+    title: జౌల్
+    badges: []
+  thwiki:
+    site: thwiki
+    title: จูล
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Joule
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Джоуль
+    badges: []
+  urwiki:
+    site: urwiki
+    title: جول
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Joul
+    badges: []
+  vecwiki:
+    site: vecwiki
+    title: Joule
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Joule
+    badges: []
+  warwiki:
+    site: warwiki
+    title: Joule
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 焦耳
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 焦耳
+    badges: []

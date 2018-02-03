@@ -1,0 +1,158 @@
+---
+pageid: 1262694
+ns: 0
+title: Q1322918
+lastrevid: 618610682
+modified: '2018-01-10T22:03:10Z'
+type: item
+id: Q1322918
+labels:
+  en:
+    language: en
+    value: Western Samoan pound
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: bb998b236961ae0f6a63874c1b0ddc05b3d430d2
+      datavalue:
+        value: "/m/0b43ff"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1322918$804E9D62-45A0-4805-822C-FC46AF20704F
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1322918$EB69E5FA-87F0-496E-9236-EEB95914BD2A
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 48dad11e4d75aa74b8b0904f85a3d307400ea278
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 339180
+          id: Q339180
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1322918$9abaa44c-4931-5a6e-440c-b5e1eff254bd
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 1ec30e381482eab55e7a8f1a4b3b519a2d7f80cb
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 683
+          id: Q683
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1322918$62cc2735-4df2-97c1-50ba-be8000b64cd4
+    rank: normal
+  P580:
+  - mainsnak:
+      snaktype: value
+      property: P580
+      hash: a20d91968b82c05db2c6d1ce3cf846cb29b7b016
+      datavalue:
+        value:
+          time: "+1914-00-00T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 9
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q1322918$818272bc-4dc9-2ab6-6e35-0f67eacdee36
+    rank: normal
+  P582:
+  - mainsnak:
+      snaktype: value
+      property: P582
+      hash: 9a6c1283e3e5d27604956c85e7107153313ff376
+      datavalue:
+        value:
+          time: "+1967-00-00T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 9
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q1322918$3d426501-414b-77e7-79f5-faa15232b01d
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Samoanisches Pfund
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Western Samoan pound
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Libra samoana
+    badges: []
+  jawiki:
+    site: jawiki
+    title: サモア・ポンド
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Самоанский фунт
+    badges: []

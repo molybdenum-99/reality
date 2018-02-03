@@ -1,0 +1,339 @@
+---
+pageid: 806929
+ns: 0
+title: Q855153
+lastrevid: 622985740
+modified: '2018-01-24T14:08:54Z'
+type: item
+id: Q855153
+labels:
+  en:
+    language: en
+    value: Induan
+aliases: {}
+claims:
+  P155:
+  - mainsnak:
+      snaktype: value
+      property: P155
+      hash: 13b7b962ecd9f8ff8a1007e4c776f3689bc9c9d0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 860048
+          id: Q860048
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q855153$8616edcf-46ce-44fc-098c-e4af2a97fc9c
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P156:
+  - mainsnak:
+      snaktype: value
+      property: P156
+      hash: 71484e78148e84a0a5864f15dc8eeed69b42ed19
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 914322
+          id: Q914322
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q855153$5f01f399-41ca-f977-1ca3-5a80ce30db44
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: ca46a2c71472100572d2e8497e5fde90948d406e
+      datavalue:
+        value: "/m/08lnqk"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q855153$C442EE99-9448-44B6-A57F-A8841E4D7AFC
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: a9921575caf465c4fd78a45930688b94fb8fc64d
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 7348
+          id: Q7348
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q855153$7f61a544-493a-80f1-6238-f9679aab2d93
+    rank: normal
+    references:
+    - hash: 355b56329b78db22be549dec34f2570ca61ca056
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: d1d1b10a05a8f3fc5d26bb4aeb6849617ad81fc7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 5375741
+              id: Q5375741
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P625:
+  - mainsnak:
+      snaktype: value
+      property: P625
+      hash: 9f01f8324ff5dd4795f0e9185acdfaeb429f6c35
+      datavalue:
+        value:
+          latitude: 31.07972222
+          longitude: 119.70583333
+          altitude: 
+          precision: 0.010488825414343
+          globe: http://www.wikidata.org/entity/Q2
+        type: globecoordinate
+      datatype: globe-coordinate
+    type: statement
+    id: Q855153$52D4081D-83E1-47A3-AE9F-EE2491AB7943
+    rank: normal
+    references:
+    - hash: 9cdd4f1d064faebc44a10fbd408afa604f3b89f6
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 16eef556b717b1b9c8e2599faef3af2af8537632
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 199700
+              id: Q199700
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P910:
+  - mainsnak:
+      snaktype: value
+      property: P910
+      hash: 115787ccb15243c638580762c2858983b1d4f7b2
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 21708767
+          id: Q21708767
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q855153$7E8630E5-5E8B-4883-A413-C72DF3924A9B
+    rank: normal
+    references:
+    - hash: 9cdd4f1d064faebc44a10fbd408afa604f3b89f6
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 16eef556b717b1b9c8e2599faef3af2af8537632
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 199700
+              id: Q199700
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1774498cb861c7f76e71afc94661ed9a03d8461a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1123245
+          id: Q1123245
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q855153$3bb599c7-4124-bd2c-1e39-f53de2cb9879
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: b230ba6f73ec78c2fd8b28c19fab3a1a3e51124e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 568683
+          id: Q568683
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q855153$c69ab7be-4b1e-b885-268b-752fb027df68
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 687cb7d18aef1c60a0bd414f9e1b59b7931ca17e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1075885
+          id: Q1075885
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q855153$fd1862c3-4658-dbf5-2128-081e1033be3d
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Indusium
+    badges: []
+  arwiki:
+    site: arwiki
+    title: الإندوان
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Induanu
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Induà
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Indusium (Geologie)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Induan
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Induense
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Induar
+    badges: []
+  fawiki:
+    site: fawiki
+    title: ایندون
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Indus-vaihe
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Indusien
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Indusi
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Induano
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Induium
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Indien
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Indusium
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Ind (geologia)
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Induano
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Индский ярус
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Induan
+    badges: []

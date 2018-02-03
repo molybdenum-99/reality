@@ -1,0 +1,85 @@
+---
+pageid: 3748800
+ns: 0
+title: Q3931074
+lastrevid: 586134979
+modified: '2017-10-29T19:21:23Z'
+type: item
+id: Q3931074
+labels:
+  en:
+    language: en
+    value: Spanish colonial real
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 41bcfd3455dd06241145b06c6aa0aa868867df15
+      datavalue:
+        value: "/m/09v3hm"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3931074$A7784C82-02E0-4C08-BEF5-A64B5D7EFFA6
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3931074$18494d9e-4215-b214-0517-67428e2efd0a
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Spanish colonial real
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Réal espagnol colonial
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Real coloniale spagnolo
+    badges: []

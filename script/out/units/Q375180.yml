@@ -1,0 +1,366 @@
+---
+pageid: 357026
+ns: 0
+title: Q375180
+lastrevid: 622984726
+modified: '2018-01-24T14:05:57Z'
+type: item
+id: Q375180
+labels:
+  en:
+    language: en
+    value: Bajocian
+aliases: {}
+claims:
+  P155:
+  - mainsnak:
+      snaktype: value
+      property: P155
+      hash: 1e7234b7e9811d2e556c45171421dc381c41a36b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 300887
+          id: Q300887
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q375180$D96D6A5C-A562-4DB9-8718-BA77505FD3BE
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P156:
+  - mainsnak:
+      snaktype: value
+      property: P156
+      hash: f7683624033d65f7407761d215f70f623bebc56c
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 791313
+          id: Q791313
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q375180$18042820-0EC9-4174-A3A3-46E61854368A
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 3b770d1589ae45b56044b9cba2d44a0961276c68
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 183910
+          id: Q183910
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q375180$F982E54A-3B32-4FC7-9558-298D9045C489
+    rank: normal
+    references:
+    - hash: 3621a02d41822bc2cc9a5ef848b42d66fb3b9257
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: a0828a0e8b873d830b82d139957ff97469e4d449
+          datavalue:
+            value:
+              time: "+2014-10-15T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P813
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: fcbc857a246b0d612a4e9116ac8b8b502cc13dc2
+      datavalue:
+        value: "/m/07p2k2"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q375180$71C0E481-95C3-42DD-899D-53D5EB68FB3E
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P625:
+  - mainsnak:
+      snaktype: value
+      property: P625
+      hash: 667782931bfc0c3a18aa7e24b12344274a2bdb69
+      datavalue:
+        value:
+          latitude: 40.19916667
+          longitude: -8.90416667
+          altitude: 
+          precision: 0.011761048886641
+          globe: http://www.wikidata.org/entity/Q2
+        type: globecoordinate
+      datatype: globe-coordinate
+    type: statement
+    id: Q375180$867D7D92-7C51-40EB-B282-8EE205B77CEF
+    rank: normal
+    references:
+    - hash: 9cdd4f1d064faebc44a10fbd408afa604f3b89f6
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 16eef556b717b1b9c8e2599faef3af2af8537632
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 199700
+              id: Q199700
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P910:
+  - mainsnak:
+      snaktype: value
+      property: P910
+      hash: b6734d866063bb0400de0bb944aa6cf134e825f6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 21697525
+          id: Q21697525
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q375180$015A9F44-E634-42AD-81DA-253F3E280C11
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1774498cb861c7f76e71afc94661ed9a03d8461a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1123245
+          id: Q1123245
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q375180$86892ca6-4a83-03b3-17ef-0dcc0a4f87d8
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: b230ba6f73ec78c2fd8b28c19fab3a1a3e51124e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 568683
+          id: Q568683
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q375180$54aaf780-4e46-1e62-89b6-b3ea847a1fae
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: e344191fbb35e2720b40dccc30239979c13f01c3
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 500054
+          id: Q500054
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q375180$37fe8b8d-405c-34d8-68a7-2ed79d173581
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Bajosium
+    badges: []
+  arwiki:
+    site: arwiki
+    title: الباجوسي
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Baxocianu
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Bajocià
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Bajocium
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Bajocian
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Bajociense
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Bajociar
+    badges: []
+  fawiki:
+    site: fawiki
+    title: باجوسین
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Bajocien
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Bajoci
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Bajociano
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Bajocium
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Bajocien
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Bajocium
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Bajocium
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Bajos
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Bajociano
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Байосский ярус
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Bajocij
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Bajocian
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Байоський ярус
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Tầng Bajocy
+    badges: []

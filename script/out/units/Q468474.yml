@@ -1,0 +1,350 @@
+---
+pageid: 441838
+ns: 0
+title: Q468474
+lastrevid: 618613397
+modified: '2018-01-10T22:19:38Z'
+type: item
+id: Q468474
+labels:
+  en:
+    language: en
+    value: Portuguese escudo
+aliases:
+  en:
+  - language: en
+    value: PTE
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q468474$6ee5b80d-476d-2329-d2ac-90f9381682c2
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: ce1b7ecfd734e51dded7e51ca0d6cabd29bebda9
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 378372
+          id: Q378372
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q468474$4B1CBC4E-B78C-40D1-92CA-60706EE560A9
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 02e54260e237fdd9063a59211de1f95f918e6713
+      datavalue:
+        value: Money of Portugal
+        type: string
+      datatype: string
+    type: statement
+    id: q468474$EDFF7947-3C2B-47A3-83BA-A5B065C2A244
+    rank: normal
+    references:
+    - hash: c456dc5cd2117249948c288206ff3f8b1bf574f0
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e17507043402fe54ae6c4d65cc51f46cec987de9
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 8449
+              id: Q8449
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: ccb4c8d553c94af76d4c6a1a098b001ca0069109
+      datavalue:
+        value: "/m/01s5w0"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q468474$223E62E9-2064-4663-8B61-D656F03B12C0
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 7d1ab2c0d5419c9b8d2ec8f9a956b0a7d1f48581
+      datavalue:
+        value: PTE
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q468474$1f5a1080-4c93-7717-b8d3-ae27014f987e
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 82ba693075ba653593d9c8b2025508f57192d5f7
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 45
+          id: Q45
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q468474$0cab4ddb-4408-dc58-f754-4043335935a4
+    rank: normal
+  P1366:
+  - mainsnak:
+      snaktype: value
+      property: P1366
+      hash: 2c75bfaf4e3db000df3888eef763865c5c85478b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 4916
+          id: Q4916
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: 2e2c1dd772d2e79466748ae4847164f99c871a2e
+        datavalue:
+          value:
+            time: "+2002-01-01T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q468474$16bcde3f-45ab-4625-d49f-b10ed611b40f
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 0dfc9cfaf58a5f2354ef1f179796b089cfdf1fa0
+      datavalue:
+        value: '500496'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q468474$0D5125D6-3A89-41C4-8349-6A39D0A71F9A
+    rank: normal
+sitelinks:
+  bgwiki:
+    site: bgwiki
+    title: Португалско ескудо
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Portugalski eskudo
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Escut portuguès
+    badges: []
+  commonswiki:
+    site: commonswiki
+    title: Category:Portuguese escudo
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Portugalské escudo
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Portugiesischer Escudo
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Portuguese escudo
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Portugala eskudo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Escudo portugués
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Portugaldar ezkutu
+    badges: []
+  fawiki:
+    site: fawiki
+    title: اسکودوی پرتغال
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Portugalin escudo
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Escudo portugais
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Escudo portugués
+    badges: []
+  hewiki:
+    site: hewiki
+    title: אשקודו (מטבע)
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Portugalski eskudo
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Portúgalskur skúti
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Escudo portoghese
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ポルトガル・エスクード
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 포르투갈 이스쿠두
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Portugalijos eskudas
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Portugese escudo
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Portugisisk escudo
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Escudo portugalskie
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Escudo português
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Escudo portughez
+    badges: []
+  ruewiki:
+    site: ruewiki
+    title: Портуґальске ескудо
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Португальский эскудо
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Portugalské escudo
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Portugalski eskudo
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Португалски ескудо
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Portugisisk escudo
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Portekiz esküdosu
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Португальське ескудо
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Phû-tô-gâ escudo
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 葡萄牙士姑度
+    badges: []

@@ -1,0 +1,334 @@
+---
+pageid: 197472
+ns: 0
+title: Q200753
+lastrevid: 617888054
+modified: '2018-01-08T22:57:44Z'
+type: item
+id: Q200753
+labels:
+  en:
+    language: en
+    value: Mozambican metical
+aliases:
+  en:
+  - language: en
+    value: Metical
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: f4bb5158475b6069df94dd6c0ccf29ac335e2399
+      datavalue:
+        value: Money of Mozambique
+        type: string
+      datatype: string
+    type: statement
+    id: q200753$5B80EE91-170D-49DC-8A0C-BAAA9474DE38
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q200753$B676A55F-B306-4E79-8E7B-4D8CB97969B4
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: d20bd3f7c4b593b2e9e56d073629486131e65e92
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3363703
+          id: Q3363703
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q200753$5E2E7D61-AB02-4473-A361-484DF243C294
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 7b021af4e43f23930e5bfced3688807e97ed7ae7
+      datavalue:
+        value: "/m/05yxqw"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q200753$0D6B6CCA-F81A-4BF0-8CE4-6246C3F0B314
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 3dfb8a18effe404a69dacecc894fba6b8a22f9de
+      datavalue:
+        value: MZN
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q200753$71a5148c-4bcb-acf6-f7d5-2aee8b48ca40
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 36e005228eb01cc1a337a9fd10ab389f7828c86d
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1029
+          id: Q1029
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q200753$648a7c9f-46d4-3ba6-c25e-c83f8f10dce5
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: f0d61bc1ec264e2c4f6418b53425bdb550e23eec
+      datavalue:
+        value: '500217'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q200753$DD46CAA6-6ADB-4664-953E-B3444C1AC85B
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: متكال موزمبيقي
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Mozambik metikalı
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Мецікал
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Мецікал
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: মোজাম্বিকান মেটিকাল
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Metikal
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Metical
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Mosambický metical
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Metical
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Metical
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Μετικάλ
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Mozambican metical
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Mozambika metikalo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Metical mozambiqueño
+    badges: []
+  fawiki:
+    site: fawiki
+    title: متیکال موزامبیکی
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Mosambikin metical
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Metical
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Metical
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Mozambički metikal
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Mozambiki metical
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Metical
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Metical mozambicano
+    badges: []
+  jawiki:
+    site: jawiki
+    title: メティカル
+    badges: []
+  kawiki:
+    site: kawiki
+    title: მოზამბიკური მეტიკალი
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 모잠비크 메티칼
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Metikalis
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Metikals
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: मोझांबिक मेटिकल
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Metical Mozambique
+    badges: []
+  mwlwiki:
+    site: mwlwiki
+    title: Metical
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Mozambikaanse metical
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Mosambikisk metical
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Metical
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Metical
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Мозамбикский метикал
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Мозамбички метикал
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Metical
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Метикали Мозамбик
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Metical ng Mozambique
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Metical
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Мозамбіцький метікал
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Metical
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Mozambique metical
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 莫三比克梅蒂卡爾
+    badges: []

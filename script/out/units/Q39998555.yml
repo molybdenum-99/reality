@@ -1,0 +1,47 @@
+---
+pageid: 41344659
+ns: 0
+title: Q39998555
+lastrevid: 560455556
+modified: '2017-09-17T05:28:29Z'
+type: item
+id: Q39998555
+labels:
+  en:
+    language: en
+    value: degree per second
+aliases:
+  en:
+  - language: en
+    value: degrees per second
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q39998555$a82b8482-469b-a158-85e6-843cb152ab2d
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 69c5e952e3adb19ee21bfa319b984e0bda1606fa
+      datavalue:
+        value:
+          amount: "+0.01745329251994329576923690768488612713"
+          unit: http://www.wikidata.org/entity/Q1063756
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q39998555$c7501af4-4436-c90a-d3b2-e0ada24fdc45
+    rank: normal
+sitelinks: {}

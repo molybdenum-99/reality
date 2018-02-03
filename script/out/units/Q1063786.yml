@@ -1,0 +1,358 @@
+---
+pageid: 1012442
+ns: 0
+title: Q1063786
+lastrevid: 623231461
+modified: '2018-01-25T09:49:19Z'
+type: item
+id: Q1063786
+labels:
+  en:
+    language: en
+    value: square inch
+aliases:
+  en:
+  - language: en
+    value: sq in
+  - language: en
+    value: sqin
+  - language: en
+    value: in2
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 6e84d80637aba49d8e99dab6fdfc04cae8bd703c
+      datavalue:
+        value: "/m/04xv3p"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1063786$283180E1-B00B-47C2-9CD8-8EFF9D65D53D
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 0f49769a073adbf1aea6d3645a68f24ad29dbeb6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1371562
+          id: Q1371562
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1063786$9bfb3935-4f82-e354-7a25-4c79655b8b87
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 9ced208d9784a8362dd334c9fac8bf0222973974
+      datavalue:
+        value:
+          amount: "+0.00064516"
+          unit: http://www.wikidata.org/entity/Q25343
+          upperBound: "+0.00064516"
+          lowerBound: "+0.00064516"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1063786$6d8bf444-4942-fc63-961a-e63275faef20
+    rank: normal
+  P144:
+  - mainsnak:
+      snaktype: value
+      property: P144
+      hash: 73209b993a92d6b392f2e4070d189d3020fbbd23
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 218593
+          id: Q218593
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1063786$c44fadad-46ad-9dc0-3558-944f43be28d1
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: a0ceca107d1e69d4dff5cfdcd4f2eeca53917763
+      datavalue:
+        value: Square-Inch-2
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1063786$174312D3-91F7-4613-A294-2B01E9E509AE
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: e12439f34cec95ee050daf4e503b6952b0e935f4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11500
+          id: Q11500
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1063786$2938D38A-777D-4F1E-BBBA-AF2A3688746D
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 4008052ddf7077572ad5535acddf9151674d1ea7
+      datavalue:
+        value: in²
+        type: string
+      datatype: string
+    type: statement
+    id: Q1063786$9c507fbb-4ce8-a7ec-1ab3-8f6434167741
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 10d2aa1bcf3f4ceba3cdf488ba7b94e832133d27
+      datavalue:
+        value:
+          amount: "+0.00000006451600"
+          unit: http://www.wikidata.org/entity/Q35852
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1063786$753cad29-4c0c-bd34-eceb-bfc7790299b2
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 3346a3f6a983cea6a89cd4ebb50208ce8da550b2
+      datavalue:
+        value:
+          amount: "+0.00064516"
+          unit: http://www.wikidata.org/entity/Q25343
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1063786$d5ecbb7e-463d-96be-19ba-7b02ff7e5b8b
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 84e3f758d43293741f28229d569aff5d526ff421
+      datavalue:
+        value:
+          amount: "+0.0000001594225"
+          unit: http://www.wikidata.org/entity/Q81292
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1063786$bfee81d3-4441-1179-40b7-69dcbdf69277
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 75b5fd75b1cc01e33da7c0fbdea095ce217483b5
+      datavalue:
+        value:
+          amount: "+0.006944444"
+          unit: http://www.wikidata.org/entity/Q857027
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1063786$b8afb8f1-42da-a1b4-8182-2bb3fdd51cf3
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 0df1f968a5554737f2ecf1720c7aa273a3256ed4
+      datavalue:
+        value:
+          amount: "+0.0000000006451600"
+          unit: http://www.wikidata.org/entity/Q712226
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1063786$c9a96990-4790-c51b-f08b-626d6ac47d04
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 286f11d9ba951ef09f6129111ae8e135e14147f4
+      datavalue:
+        value:
+          amount: "+0.0000000002490977"
+          unit: http://www.wikidata.org/entity/Q232291
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1063786$7dcdf2a1-4c76-05a1-7dde-c744f2c8eac7
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 3f23cef88e682c20c28d4bead5692bc9ed6e6f71
+      datavalue:
+        value:
+          amount: "+6.451600"
+          unit: http://www.wikidata.org/entity/Q2489298
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1063786$5bbdc633-4280-bf05-1292-c6960701204f
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: de7bf7e44ff4858565a8d9522be6bc32380aa4f0
+      datavalue:
+        value:
+          amount: "+645.16"
+          unit: http://www.wikidata.org/entity/Q2737347
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1063786$4404a2b4-49ce-b468-22ec-25936868a89c
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 126cbbc710643a515bdf7b29762f64d74a0d987d
+      datavalue:
+        value:
+          amount: "+645160000"
+          unit: http://www.wikidata.org/entity/Q39462246
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1063786$a65b932b-441d-3ac9-0594-c78a3b90b68a
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 9e22330455eea1e89f5951e51ed6b7ba1ed3f170
+      datavalue:
+        value:
+          amount: "+0.0007716049"
+          unit: http://www.wikidata.org/entity/Q1550511
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1063786$fdfc0680-42d8-8b0b-4550-dec63654291a
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: d509eb0e66d36f2f56aae17162389204ecf2de80
+      datavalue:
+        value:
+          amount: "+1000000000000"
+          unit: http://www.wikidata.org/entity/Q39462789
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1063786$bff7bbd5-4fb8-64df-5d5c-f8f0654669bf
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Quadratzoll
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Square inch
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Pulgada cuadrada
+    badges: []
+  fawiki:
+    site: fawiki
+    title: اینچ مربع
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Négyzethüvelyk
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Pollice quadro
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 平方インチ
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 제곱인치
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Квадратен инч
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Polegada quadrada
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Квадратний дюйм
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 平方英寸
+    badges: []

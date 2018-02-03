@@ -1,0 +1,407 @@
+---
+pageid: 196848
+ns: 0
+title: Q199857
+lastrevid: 620526957
+modified: '2018-01-15T08:18:22Z'
+type: item
+id: Q199857
+labels:
+  en:
+    language: en
+    value: Saudi riyal
+aliases:
+  en:
+  - language: en
+    value: riyal
+  - language: en
+    value: SR
+  - language: en
+    value: SAR
+  - language: en
+    value: "﷼"
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q199857$3B90B565-5509-44DA-B975-1BCA00D77E66
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 9bc8840dd95f79e591db12c47e6e4bb16d649922
+      datavalue:
+        value: Banknotes of Saudi Arabia
+        type: string
+      datatype: string
+    type: statement
+    id: q199857$D5C01FEC-C728-498B-9912-BAA1A9310C0E
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: d4712afab001a480564b7bdc034268a5eb72fa0b
+      datavalue:
+        value: SAR
+        type: string
+      datatype: external-id
+    type: statement
+    id: q199857$cd1820e6-465a-e566-460d-6805894cfad3
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: c1805975ee7ff5e33dc5451aea1d81977a5e1e27
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2605574
+          id: Q2605574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q199857$C908C3B1-C2D0-440B-AC6C-96A8544BD093
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: a421acdcfbe325c62c5dc8197a4a4aff18d00cc3
+      datavalue:
+        value: "/m/02d1cm"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q199857$320F8711-900E-48CF-8244-76193AF1BFF3
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: '09818ba1f8f1326b4be90a10380c99a74eca9f1b'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 851
+          id: Q851
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q199857$954ca873-4e23-094a-4a1c-db3347fc679a
+    rank: normal
+  P856:
+  - mainsnak:
+      snaktype: value
+      property: P856
+      hash: 505bbcc6ef0a09eb593358c1feb3cba7130d24b7
+      datavalue:
+        value: http://www.sama.gov.sa/
+        type: string
+      datatype: url
+    type: statement
+    id: Q199857$364DA4C2-C338-4030-B675-3C02CA91E7AB
+    rank: normal
+  P1535:
+  - mainsnak:
+      snaktype: value
+      property: P1535
+      hash: 1be59838119fd81175466090e46cc67852c89dcf
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 851
+          id: Q851
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q199857$e13ea0f4-4855-071f-f045-e4bd06f66afe
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 61217a25af9ba637a571045c59bce348a4edc96b
+      datavalue:
+        value: '500240'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q199857$CD85281D-E0A7-4A8A-915E-1A85A7FD97C9
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: ريال سعودي
+    badges: []
+  arzwiki:
+    site: arzwiki
+    title: ريال سعودى
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Саудитски риал
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: সৌদি রিয়াল
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: সৌদি রিয়াল
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Saudijski rijal
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Riyal saudita
+    badges: []
+  cewiki:
+    site: cewiki
+    title: СаӀудийн риал
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Saudi-Riyal
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Ριάλ Σαουδικής Αραβίας
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Saudi riyal
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Sauda rialo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Riyal saudí
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Saudi Araabia riaal
+    badges: []
+  fawiki:
+    site: fawiki
+    title: ریال سعودی
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Saudi-Arabian rial
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Riyal saoudien
+    badges: []
+  hewiki:
+    site: hewiki
+    title: ריאל סעודי
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Saudijski rijal
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Szaúdi riál
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Riyal Saudi
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Riyal saudita
+    badges: []
+  jawiki:
+    site: jawiki
+    title: サウジアラビア・リヤル
+    badges: []
+  jvwiki:
+    site: jvwiki
+    title: Riyal Saudi
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 사우디아라비아 리얄
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Саудса риал
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Saudo Arabijos rialas
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: സൗദി റിയാൽ
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Riyal Saudi
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Saoedi-Arabische riyal
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Saudiarabisk riyal
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਸਾਊਦੀ ਰਿਆਲ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Rial saudyjski
+    badges: []
+  pnbwiki:
+    site: pnbwiki
+    title: ریال
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Riyal
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Rial saudit
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Саудовский риял
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Saudi riyal
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Saudi riyal
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Саудијски ријал
+    badges: []
+  suwiki:
+    site: suwiki
+    title: Riyal Saudi Arabia
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Saudiarabisk rial
+    badges: []
+  swwiki:
+    site: swwiki
+    title: Riyal
+    badges: []
+  tawiki:
+    site: tawiki
+    title: சவூதி ரியால்
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Риёли Саудӣ
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Suudi Arabistan riyali
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Саудівський ріал
+    badges: []
+  urwiki:
+    site: urwiki
+    title: سعودی ریال
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Riyal Ả Rập Xê Út
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: საუდიშ არაბეთიშ რიალი
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Riyal Sáúdí
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Saudi riyal
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 沙地里亞爾
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 沙特阿拉伯里亚尔
+    badges: []

@@ -1,0 +1,365 @@
+---
+pageid: 5547
+ns: 0
+title: Q4602
+lastrevid: 617888070
+modified: '2018-01-08T22:57:48Z'
+type: item
+id: Q4602
+labels:
+  en:
+    language: en
+    value: Tunisian dinar
+aliases:
+  en:
+  - language: en
+    value: Tunis dinar
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 231daee5fe800ccb87b0b13db32421ff0adee747
+      datavalue:
+        value: Money of Tunisia
+        type: string
+      datatype: string
+    type: statement
+    id: q4602$CA24D8EF-5F37-4FA3-88C8-517629D3F7CA
+    rank: normal
+    references:
+    - hash: 9a24f7c0208b05d6be97077d855671d1dfdbc0dd
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: d38375ffe6fe142663ff55cd783aa4df4301d83d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 48183
+              id: Q48183
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q4602$4D2A8AB8-5D41-4E99-828C-16A605E6D1AC
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 4869105a89ea3964853a37f562bda105ac3586a5
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 600137
+          id: Q600137
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q4602$AA7AFB2C-2E89-4F12-A6BC-1236FC3067AC
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 7c4037af48dd9f4e996cd5c6e4a301a872ae34ba
+      datavalue:
+        value: "/m/04z4ml"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q4602$122F3251-AFA6-4EA6-AC22-E8801A26B76D
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: fd8ce7664f7052354b732be052f41a6666c30563
+      datavalue:
+        value: TND
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q4602$77fae3ed-4394-b0cd-e8a3-8c0e342bd858
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: ea1471d8524246236fa68a75d628353b3c3f63cb
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 948
+          id: Q948
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4602$2bdd1f6f-4be4-a8cd-05bb-37eca6055a7c
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: 2128c744228317b4a4f8fd92bd6ba4740248f9db
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 191830
+          id: Q191830
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4602$3459e12c-49ef-f9dd-34c1-d7dc1f715cb0
+    rank: normal
+  P856:
+  - mainsnak:
+      snaktype: value
+      property: P856
+      hash: a56c5cf2070107815b6503803b2a4deab48c4bc4
+      datavalue:
+        value: http://www.bct.gov.tn/
+        type: string
+      datatype: url
+    type: statement
+    id: Q4602$3B1FBA63-F079-4279-B603-9373BEE82947
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: da39867ebebeb58be28b72c37d542df5c5a15aea
+      datavalue:
+        value: '500263'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q4602$25CDBFAC-1108-4043-8045-0E4FC06E1159
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: دينار تونسي
+    badges: []
+  arzwiki:
+    site: arzwiki
+    title: دينار تونسى
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Туніскі дынар
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Туніскі дынар
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Тунизийски динар
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: তিউনিসিয়ান দিনার
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Dinar tunisià
+    badges: []
+  commonswiki:
+    site: commonswiki
+    title: Category:Tunisian dinar
+    badges: []
+  cywiki:
+    site: cywiki
+    title: Dinar Tiwnisaidd
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Tunesischer Dinar
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Tunisian dinar
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Tunizia dinaro
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Dinar tunecino
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Tuneesia dinaar
+    badges: []
+  fawiki:
+    site: fawiki
+    title: دینار تونس
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Tunisian dinaari
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Dinar tunisien
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Tuniski dinar
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Tunéziai dinár
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Dinar Tunisia
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Dinaro tunisino
+    badges: []
+  jawiki:
+    site: jawiki
+    title: チュニジア・ディナール
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 튀니지 디나르
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Tuniso dinaras
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: ट्युनिसियन दिनार
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Dinar Tunisia
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Tunesische dinar
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Tunisisk dinar
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Dinar tunezyjski
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Dinar tunisiano
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Тунисский динар
+    badges: []
+  sahwiki:
+    site: sahwiki
+    title: Тунис динаара
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Tunizijski dinar
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Туниски динар
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Tunisisk dinar
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Динори Тунисия
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Tunus dinarı
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Туніський динар
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Dinar Tùnísíà
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Tunisia dinar
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 突尼斯第納爾
+    badges: []

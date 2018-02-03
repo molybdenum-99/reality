@@ -1,0 +1,61 @@
+---
+pageid: 40822343
+ns: 0
+title: Q39468084
+lastrevid: 560455987
+modified: '2017-09-17T05:30:06Z'
+type: item
+id: Q39468084
+labels:
+  en:
+    language: en
+    value: pounds per square foot
+aliases:
+  en:
+  - language: en
+    value: psf
+  - language: en
+    value: pound per square foot
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6166ea9a07e43efe7af58b089be082880e6b8c61
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10751953
+          id: Q10751953
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q39468084$81466114-403c-f130-3f69-a94adf6cb1d9
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: f5f6cae27a42955f4fd988c960bfaac6ad8ec9ce
+      datavalue:
+        value: psf
+        type: string
+      datatype: string
+    type: statement
+    id: Q39468084$e34fbc0c-4a4f-1f7e-27c1-7415e11598b4
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 13c669289d1db066299b8fb6219533ec32977415
+      datavalue:
+        value:
+          amount: "+47.88020833333"
+          unit: http://www.wikidata.org/entity/Q44395
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q39468084$1f0cf9fe-4b67-cac7-fced-f7ebb2357933
+    rank: normal
+sitelinks: {}

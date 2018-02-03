@@ -1,0 +1,243 @@
+---
+pageid: 816216
+ns: 0
+title: Q864818
+lastrevid: 461209454
+modified: '2017-03-04T04:27:32Z'
+type: item
+id: Q864818
+labels:
+  en:
+    language: en
+    value: abampere
+aliases:
+  en:
+  - language: en
+    value: biot
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q864818$DDEE81FB-14CD-4835-BF52-F5C25312FBA4
+    rank: normal
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 6cdb9b155bef2e32cfcb5d397567900af123acb5
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 58328
+          id: Q58328
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q864818$4BC65960-B785-4A0D-B314-E2EBF99406F2
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 9c8bcc3ac087d6cce675f1c0d14b2bf66e48d6a4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 675
+          id: Q675
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q864818$2667188C-7E1D-4E6D-B07B-11D4C1D6BBDD
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 42572b3176ecc8d3365706065801634770062fbc
+      datavalue:
+        value: "/m/07k0gj"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q864818$D5998EDE-1D30-4D4A-8CA4-F3D4F55EB1EB
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P1296:
+  - mainsnak:
+      snaktype: value
+      property: P1296
+      hash: 9a766080791c481b8df3bec03dbfaf3942b6a093
+      datavalue:
+        value: '0073554'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q864818$CC55C66C-021D-474B-84B8-B7B44C224B42
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 4a0800e355d3d4065998ee942f7ef78548aa1b3a
+      datavalue:
+        value: Abampere
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q864818$FA89E58B-4054-48CA-98AB-BBC4647DCA1F
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 77397040444ba748a317d4af3fcb0428d8459c94
+      datavalue:
+        value:
+          amount: "+10"
+          unit: http://www.wikidata.org/entity/Q25272
+          upperBound: "+10"
+          lowerBound: "+10"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q864818$8CE194FC-6ABC-4C98-AFC1-D3DA574EEC92
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: c824f5ab5b1ab79c3c9fd61973087f85214e4874
+      datavalue:
+        value: abA
+        type: string
+      datatype: string
+    type: statement
+    id: Q864818$A176A12B-A3AB-4967-BD4C-F6D209AB273C
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 4177037860382598ca58d2f6824319f4e022cad0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11651
+          id: Q11651
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q864818$A3A38B8F-5DD8-4F3C-A855-98AE1412AB97
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 691b0290c6f677c2cd1b1ae6f03cb37dbff4f332
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 27666180
+          id: Q27666180
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q864818$01724E8A-49D1-46D8-925D-D782089C544F
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: f8d34c3ed823d4e35ab79cc10a6d0514f694c6be
+      datavalue:
+        value: abampere
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q864818$FC6FF123-5FBD-43F3-8AC1-56B7E4323C64
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Biot (Einheit)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Abampere
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Abamperio
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Abampère
+    badges: []
+  jawiki:
+    site: jawiki
+    title: アブアンペア
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Abampère
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Biot
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Biot (jednostka miary)
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Abampér
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Abamper
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 絕對安培
+    badges: []

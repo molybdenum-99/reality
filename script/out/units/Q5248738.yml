@@ -1,0 +1,86 @@
+---
+pageid: 5018308
+ns: 0
+title: Q5248738
+lastrevid: 598382565
+modified: '2017-11-25T12:12:20Z'
+type: item
+id: Q5248738
+labels:
+  en:
+    language: en
+    value: Decans
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 98a1e85b80bda7ff493c25a6b805599da715c077
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1790144
+          id: Q1790144
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q5248738$5cea53bd-4207-3d12-ac1f-911e4096bf1e
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: ef492e111d077d5eaa303d3e74864b9eae339a81
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1790144
+          id: Q1790144
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P642:
+      - snaktype: value
+        property: P642
+        hash: 31d5a8266af8318618ce9ed5d833e9076eefaddc
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 254101
+            id: Q254101
+          type: wikibase-entityid
+        datatype: wikibase-item
+      P1114:
+      - snaktype: value
+        property: P1114
+        hash: 4d75eb9c7f90602bc2737a043985b8c346a680c8
+        datavalue:
+          value:
+            amount: "+10"
+            unit: http://www.wikidata.org/entity/Q573
+          type: quantity
+        datatype: quantity
+    qualifiers-order:
+    - P642
+    - P1114
+    id: Q5248738$7f7a1157-4339-f989-0f23-f68704297e1a
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Dekade (Altägypten)
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Δεκανοί
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Decan
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 십분각 (점성술)
+    badges: []

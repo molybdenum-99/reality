@@ -1,0 +1,226 @@
+---
+pageid: 527781
+ns: 0
+title: Q560355
+lastrevid: 624213047
+modified: '2018-01-28T12:49:14Z'
+type: item
+id: Q560355
+labels:
+  en:
+    language: en
+    value: German gold mark
+aliases: {}
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: af86cdd6a0ba128778a4dafb3d8aae9c2fa5280f
+      datavalue:
+        value: Coins of the German Empire (1871-1918)
+        type: string
+      datatype: string
+    type: statement
+    id: q560355$749D5894-B25C-489D-82A5-9C20B856E644
+    rank: normal
+    references:
+    - hash: 9a24f7c0208b05d6be97077d855671d1dfdbc0dd
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: d38375ffe6fe142663ff55cd783aa4df4301d83d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 48183
+              id: Q48183
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: f772241e1f2a7afd9a45805f070bc4b73f42609f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 560183
+          id: Q560183
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q560355$0BB6716D-E80F-4992-BC1E-7A8F1641909D
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 8bf22e52b947e433c5099b055147298b8b7193d4
+      datavalue:
+        value: "/m/04490g"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q560355$0A96C828-10CA-42EF-82A5-3B96E120590F
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q560355$8d232934-463c-3502-9493-b6bf4384ef29
+    rank: normal
+  P487:
+  - mainsnak:
+      snaktype: value
+      property: P487
+      hash: 9ad9e027366c30620fe8ee186979b4d51c8f938e
+      datavalue:
+        value: ℳ
+        type: string
+      datatype: string
+    type: statement
+    id: Q560355$ff58e6a5-4d5e-296c-1998-5a1795724c21
+    rank: normal
+sitelinks:
+  dawiki:
+    site: dawiki
+    title: Tyske møntunion
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Mark (1871)
+    badges:
+    - Q17437798
+  enwiki:
+    site: enwiki
+    title: German gold mark
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Marco de oro alemán
+    badges: []
+  fawiki:
+    site: fawiki
+    title: مارک طلایی آلمان
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Kultamarkka (Saksa)
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Mark-or
+    badges: []
+  hewiki:
+    site: hewiki
+    title: גולדמרק
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Aranymárka
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Goldmark
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 金マルク
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 금 마르크
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Mark (1871)
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Goldmark
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Marco de ouro alemão
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Золотая марка
+    badges:
+    - Q17437798
+  svwiki:
+    site: svwiki
+    title: Goldmark
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Goldmark
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Німецька золота марка
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 黃金馬克
+    badges: []

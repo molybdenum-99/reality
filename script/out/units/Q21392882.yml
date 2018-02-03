@@ -1,0 +1,61 @@
+---
+pageid: 23439047
+ns: 0
+title: Q21392882
+lastrevid: 560449381
+modified: '2017-09-17T05:07:48Z'
+type: item
+id: Q21392882
+labels:
+  en:
+    language: en
+    value: newton per ampere squared
+aliases:
+  en:
+  - language: en
+    value: henry per metre
+  - language: en
+    value: N/A^2
+  - language: en
+    value: H/m
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 50afdc16346d8687f53963f614e8d645419488a0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 208469
+          id: Q208469
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q21392882$9f7cc280-4d00-140c-faa1-d0dbfb739a04
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: c8be6a481d793fdc95ac5ff82600a39afdb24bd2
+      datavalue:
+        value: henry_per_metre
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q21392882$DB9AE269-88BA-4DBB-AAA6-CA8EB5EFF735
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 53e765d9fdb7dd98800b3bd9b1e960cbc825eff5
+      datavalue:
+        value: HenryPerMeter
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q21392882$285c12ec-4af0-941e-234d-3929099e2e5d
+    rank: normal
+sitelinks: {}

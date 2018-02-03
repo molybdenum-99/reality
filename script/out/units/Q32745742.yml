@@ -1,0 +1,96 @@
+---
+pageid: 34207399
+ns: 0
+title: Q32745742
+lastrevid: 516588108
+modified: '2017-07-09T03:24:18Z'
+type: item
+id: Q32745742
+labels:
+  en:
+    language: en
+    value: phase coefficient
+aliases:
+  en:
+  - language: en
+    value: β
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 50afdc16346d8687f53963f614e8d645419488a0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 208469
+          id: Q208469
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q32745742$0d7be723-4307-8dd9-b3ca-d2a5f1165755
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: a421e6bdd9a2482e0989b1b5872a36b0aaea1718
+      datavalue:
+        value: β
+        type: string
+      datatype: string
+    type: statement
+    id: Q32745742$1302b23a-4139-c4b1-6f9a-0fc7ee38f616
+    rank: normal
+    references:
+    - hash: e03f0626c4dcf99bdb16516eed498b367b9dcbba
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: 97fbc29c29c1befce7a01e97bb0b08de0f6d5a0a
+          datavalue:
+            value: 3-25.2
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: '095b22e5c47a47f7d5e84e00899837038be11bd4'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 26711932
+          id: Q26711932
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P958:
+      - snaktype: value
+        property: P958
+        hash: 97fbc29c29c1befce7a01e97bb0b08de0f6d5a0a
+        datavalue:
+          value: 3-25.2
+          type: string
+        datatype: string
+    qualifiers-order:
+    - P958
+    id: Q32745742$bd10693f-4147-d2ab-37f8-8cb58a4247b0
+    rank: normal
+sitelinks: {}

@@ -1,0 +1,113 @@
+---
+pageid: 233609
+ns: 0
+title: Q240292
+lastrevid: 510666339
+modified: '2017-07-01T06:39:35Z'
+type: item
+id: Q240292
+labels:
+  en:
+    language: en
+    value: South Vietnamese đồng
+aliases: {}
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 93a07005115e0bf760de9ddac8665e98984a0a03
+      datavalue:
+        value: Money of South Vietnam
+        type: string
+      datatype: string
+    type: statement
+    id: q240292$7458AA9A-6FC2-49AB-888A-3C2231794B46
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: c49879c3b3600c7d13ba6fc40f75824be0659f6d
+      datavalue:
+        value: "/m/0bvk89"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q240292$1FE99014-58FB-4A26-BB13-E100AAA273A1
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q240292$33fe940a-4747-1f7d-edd0-eb175ed37f48
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: South Vietnamese đồng
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Đồng de Vietnam del Sur
+    badges: []
+  fawiki:
+    site: fawiki
+    title: دونگ ویتنام جنوبی
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Dél-vietnami đồng
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Южновьетнамский донг
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Đồng (tiền Việt Nam Cộng hòa)
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 南越盾
+    badges: []

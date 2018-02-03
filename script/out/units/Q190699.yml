@@ -1,0 +1,367 @@
+---
+pageid: 189074
+ns: 0
+title: Q190699
+lastrevid: 617888247
+modified: '2018-01-08T22:58:21Z'
+type: item
+id: Q190699
+labels:
+  en:
+    language: en
+    value: Libyan dinar
+aliases:
+  en:
+  - language: en
+    value: dinar
+  - language: en
+    value: LYD
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 02c5a31837c7b5e700c384efa7607e5b7c3a05f3
+      datavalue:
+        value: Money of Libya
+        type: string
+      datatype: string
+    type: statement
+    id: q190699$C8F58BC2-CC97-49D2-8D87-EC3474E4D554
+    rank: normal
+    references:
+    - hash: c456dc5cd2117249948c288206ff3f8b1bf574f0
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e17507043402fe54ae6c4d65cc51f46cec987de9
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 8449
+              id: Q8449
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q190699$1A7438AC-C8D6-4028-9910-8D1AA84DF2E4
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: a868e813a4168a41548f55a68f8e0a559f5cb3ed
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 58234
+          id: Q58234
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q190699$D6DF516B-7F6A-4256-9E9A-EEB61D8CE391
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 2d9215e7f3d032b8862b12111567b92df68ccb20
+      datavalue:
+        value: "/m/024xpm"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q190699$8C446AEB-DE44-4A0B-968C-363796202E8E
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 99e4ad8ff9c8dfa47825f9d383b91b74eda37eb2
+      datavalue:
+        value: LYD
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q190699$8af75d9f-4b8f-a458-e0ec-db3e83345fd5
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 77d5901c99abecb5b79e14018a8093ecba84b82e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1016
+          id: Q1016
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q190699$12d99866-40de-8005-e8c5-f956947cec81
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: 2128c744228317b4a4f8fd92bd6ba4740248f9db
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 191830
+          id: Q191830
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q190699$2bff52e7-4fc8-7f7b-8da5-8eea66ee9eb8
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 8172a478512306705313073cc3ca9ab1adf6ca55
+      datavalue:
+        value: '500200'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q190699$3D093DE1-E2A5-475C-BC25-164C3D4C2FBB
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: دينار ليبي
+    badges: []
+  arzwiki:
+    site: arzwiki
+    title: دينار ليبى
+    badges: []
+  bat_smgwiki:
+    site: bat_smgwiki
+    title: Lėbėjės dinars
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Лібійскі дынар
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Лівійскі дынар
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Либийски динар
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: লিবিয়ান দিনার
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Dinar libi
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Libyjský dinár
+    badges: []
+  cywiki:
+    site: cywiki
+    title: Dinar Libia
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Libyske dinarer
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Libyscher Dinar
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Δηνάριο Λιβύης
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Libyan dinar
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Libia dinaro
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Dinar libio
+    badges: []
+  fawiki:
+    site: fawiki
+    title: دینار لیبی
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Libyan dinaari
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Dinar libyen
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: लीबियाई दीनार
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Libijski dinar
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Líbiai dinár
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Dinar Libya
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Dinaro libico
+    badges: []
+  jawiki:
+    site: jawiki
+    title: リビア・ディナール
+    badges: []
+  kawiki:
+    site: kawiki
+    title: ლიბიური დინარი
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 리비아 디나르
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Libijos dinaras
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: लिबियाई दिनार
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Dinar Libya
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Libische dinar
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Libysk dinar
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Libysk dinar
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Dinar libijski
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Dinar líbio
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Ливийский динар
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Либијски динар
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Libysk dinar
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Динори Либия
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Libya dinarı
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Лівійський динар
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Dinar Líbyà
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Libya dinar
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 利比亞第納爾
+    badges: []

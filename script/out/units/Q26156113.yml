@@ -1,0 +1,125 @@
+---
+pageid: 28108492
+ns: 0
+title: Q26156113
+lastrevid: 612214816
+modified: '2017-12-22T06:42:42Z'
+type: item
+id: Q26156113
+labels:
+  en:
+    language: en
+    value: newton per metre
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 50afdc16346d8687f53963f614e8d645419488a0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 208469
+          id: Q208469
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q26156113$77545199-4f5a-679c-b4e0-ad78c8d2234c
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q26156113$cd247cf7-486f-524a-fbfb-73be1cab691a
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: ea3bfd2e068e292a97112ceaa60324dc61ecd799
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 170749
+          id: Q170749
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q26156113$3a338edf-4bf0-6d39-b62a-f17743b1c69b
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: aec26901d5eca82ea190c6a1fa5e698953ed1368
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 569057
+          id: Q569057
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q26156113$c36374ca-447e-a5fa-017e-2d6e1bcc14e4
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 3f4bba78be7925a17cb7c6f55c1a3a6c532975a1
+      datavalue:
+        value: newton_per_metre
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q26156113$9288B44F-4BD1-4A80-BD1B-C1E273FE0720
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: dacaa0f3904c290a7868e37ca83cf7c77874c6db
+      datavalue:
+        value: Н/м
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q26156113$be4c2c43-44eb-4bb6-0233-93f538b8342b
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 96ffbc39043a27920400d9f343ed867311012c91
+      datavalue:
+        value:
+          amount: "+1"
+          unit: http://www.wikidata.org/entity/Q26156113
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q26156113$654770cb-4135-9c6c-4922-41fcbc9a72b9
+    rank: normal
+sitelinks: {}

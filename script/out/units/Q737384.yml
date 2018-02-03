@@ -1,0 +1,255 @@
+---
+pageid: 693498
+ns: 0
+title: Q737384
+lastrevid: 624496833
+modified: '2018-01-29T14:14:32Z'
+type: item
+id: Q737384
+labels:
+  en:
+    language: en
+    value: Somaliland shilling
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q737384$B77B4C59-2E54-4A8D-9393-809C5F52F379
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 771c4bd329d674a296d0bd1ed233513ef0c9d973
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 797484
+          id: Q797484
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q737384$0E3FB257-57FF-482B-A3F8-91A02A01B174
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: c92bdc00bde857dfb06094d3026256f18d41e91d
+      datavalue:
+        value: "/m/04jscp"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q737384$36A8D07A-CC77-404A-8027-820F874AB1C2
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: b097c635bd377e356540f897926044a6acdb3e64
+      datavalue:
+        value: Banknotes of Somaliland
+        type: string
+      datatype: string
+    type: statement
+    id: Q737384$dea9284c-4ec2-af4c-a3e2-ac0da1eb1fd9
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 16a0650727e28be51c248e92921db7d6dc856430
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 34754
+          id: Q34754
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q737384$e3aafbc8-4419-f8b7-6c3a-c0f8df4dc8bc
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: شلن صوماليلاندي
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Самалілэндзкі шылінг
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Самалілендскі шылінг
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Сомалилендски шилинг
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Xíling de Somalilàndia
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Somalilandský šilink
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Somaliland-Schilling
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Σελίνι της Σομαλιλάνδης
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Somaliland shilling
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Chelín somalilandés
+    badges: []
+  fawiki:
+    site: fawiki
+    title: شیلینگ سومالی
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Somalimaan shillinki
+    badges: []
+  frrwiki:
+    site: frrwiki
+    title: Somaalilun-Skalang
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Shilling du Somaliland
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Somalilandski šiling
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Szomáliföldi shilling
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Scellino del Somaliland
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ソマリランド・シリング
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 소말릴란드 실링
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Somalilando šilingas
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Somalilandse shilling
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Szyling Somalilandu
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Xelim somalilandês
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Сомалилендский шиллинг
+    badges: []
+  sowiki:
+    site: sowiki
+    title: Somaliland shilling
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Somalilandski šiling
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Somaliland şilini
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Сомалілендський шилінг
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Shilling Sòmálílàndì
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Somaliland shilling
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 索马里兰先令
+    badges: []

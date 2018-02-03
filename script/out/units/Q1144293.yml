@@ -1,0 +1,93 @@
+---
+pageid: 1090931
+ns: 0
+title: Q1144293
+lastrevid: 491631334
+modified: '2017-05-28T20:33:13Z'
+type: item
+id: Q1144293
+labels:
+  en:
+    language: en
+    value: Solothurn frank
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: b3facaaf1c1c0d3d89498036bfa5952360c2f74f
+      datavalue:
+        value: "/m/02r3mny"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1144293$9CADCDCC-AECE-40D1-8973-F6BD614726E6
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1144293$7353EEC2-8870-4796-BC29-440E76804FFA
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: فرنك سولوتورن
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Solothurn frank
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Franco de Soleura
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Franco di Soletta
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Золотурнский франк
+    badges: []

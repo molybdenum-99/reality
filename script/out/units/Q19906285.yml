@@ -1,0 +1,77 @@
+---
+pageid: 21549534
+ns: 0
+title: Q19906285
+lastrevid: 625070118
+modified: '2018-01-31T12:14:07Z'
+type: item
+id: Q19906285
+labels:
+  en:
+    language: en
+    value: work week
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 98a1e85b80bda7ff493c25a6b805599da715c077
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1790144
+          id: Q1790144
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q19906285$2aa2087b-48c0-2278-8bca-279e906a8413
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: 262658033baa07255c5eb4491cc6181824415b4b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 23387
+          id: Q23387
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q19906285$13295f3f-460b-5ada-d264-bac0def8aa41
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 9640790377b98209bc0f66ac4cc85c79fce8f85d
+      datavalue:
+        value: Work-Week
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q19906285$118DA99E-22CD-43DE-9BD0-845605A4EC79
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  nlwiki:
+    site: nlwiki
+    title: Werkweek (arbeid)
+    badges: []

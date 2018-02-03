@@ -1,0 +1,139 @@
+---
+pageid: 13097142
+ns: 0
+title: Q11929860
+lastrevid: 564667562
+modified: '2017-09-24T01:42:43Z'
+type: item
+id: Q11929860
+labels:
+  en:
+    language: en
+    value: kiloparsec
+aliases:
+  en:
+  - language: en
+    value: kpc
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1c41b2ea8a3f6d3fab77c103d826ae5ead7a9c01
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1978718
+          id: Q1978718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q11929860$dabe3119-47d4-17f3-1d7c-568ec4f30728
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 5ba7c47b797ebae1931b7732e7a98c6c63d1b391
+      datavalue:
+        value: kpc
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q11929860$fb73050f-4294-7f0f-7fc5-0527f9cd9ab4
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 6b816cdcb35a9bd612aa47f884c61d66f81f27c6
+      datavalue:
+        value: кпк
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q11929860$edc80c8d-4340-a1e2-696a-7415bc068e83
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 4354e3cc033f2c5371e447e5ab1cca8b89ffa3e0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 36253
+          id: Q36253
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q11929860$1003e887-4d86-f316-b2fd-5996b3b2fb21
+    rank: normal
+  P2043:
+  - mainsnak:
+      snaktype: value
+      property: P2043
+      hash: dd7e62f6b382fd1076c341999147469a0817f5e6
+      datavalue:
+        value:
+          amount: "+1000"
+          unit: http://www.wikidata.org/entity/Q12129
+          upperBound: "+1000"
+          lowerBound: "+1000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q11929860$face4c3e-4fba-0d71-f1c9-de100d645610
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: ac297fdf2df208a6580db0772536765836bc2b40
+      datavalue:
+        value: kiloparsec
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q11929860$F8E7AA4A-C888-4E09-A6C6-F00618D809BA
+    rank: normal
+sitelinks:
+  astwiki:
+    site: astwiki
+    title: Quilopársec
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Kiloparsec
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Kiloparsec
+    badges: []

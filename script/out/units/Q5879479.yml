@@ -1,0 +1,165 @@
+---
+pageid: 5647888
+ns: 0
+title: Q5879479
+lastrevid: 621705786
+modified: '2018-01-19T14:45:27Z'
+type: item
+id: Q5879479
+labels:
+  en:
+    language: en
+    value: gigawatt
+aliases:
+  en:
+  - language: en
+    value: GW
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 116ccff192c7c9c7ac8717e13172125bb454be6b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10387689
+          id: Q10387689
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q5879479$6a17ca9f-416e-b06e-c307-0fad17c40e58
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: aa3778eddad27d92f68d567d8e8730b3b69a9373
+      datavalue:
+        value: GW
+        type: string
+      datatype: string
+    type: statement
+    id: Q5879479$5f32598a-4512-1320-21b1-aece905e6d10
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 635a5cacc692b049c15d23ce3a7a9373d7d97a78
+      datavalue:
+        value:
+          amount: "+1000000000"
+          unit: http://www.wikidata.org/entity/Q25236
+          upperBound: "+1000000000"
+          lowerBound: "+1000000000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q5879479$ab7947b1-4b86-f06b-71d5-f47d4bef5929
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: d98497158dde7b607b25893182c45c5a1e690b4d
+      datavalue:
+        value: gigawatt
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q5879479$F30379F1-9A1D-41A8-974C-2D1BD34EC546
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: cc8b97fd8520572bf8969b9ca890b4837cc9bac6
+      datavalue:
+        value: Gigawatt
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q5879479$4D3DFC46-AC13-4B3B-BF8E-2F12C12F9843
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 38385c4b2e13ea322fb3694a05435e3ba93bb42b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 108483
+          id: Q108483
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q5879479$6429d98d-4fed-5b2a-27e1-1a2112b7ff37
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: f28c9b9721103347d93d1a6da78c475244747a7b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 25236
+          id: Q25236
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q5879479$88d5fd70-4a8a-e716-04be-1029771b1002
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 67975d1096e3104e0d615b341d0c2a8dc15923c1
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 25342
+          id: Q25342
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q5879479$6cb2fba7-4b1d-3768-d35e-60af810cebaa
+    rank: normal
+  P4746:
+  - mainsnak:
+      snaktype: value
+      property: P4746
+      hash: 5cc3a01abf9697cddab41b55d34e90aac4505205
+      datavalue:
+        value: '132925'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q5879479$315EBEC1-3EEB-4A43-BC15-6E94D295C9F0
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Gigawatt
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Gigavatio
+    badges: []

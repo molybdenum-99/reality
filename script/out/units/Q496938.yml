@@ -1,0 +1,252 @@
+---
+pageid: 467481
+ns: 0
+title: Q496938
+lastrevid: 619076297
+modified: '2018-01-12T02:30:24Z'
+type: item
+id: Q496938
+labels:
+  en:
+    language: en
+    value: Guinean syli
+aliases: {}
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: d9cf92f914804a138ea687faba8eb963dd88b1df
+      datavalue:
+        value: Money of Guinea
+        type: string
+      datatype: string
+    type: statement
+    id: q496938$EE7F19CC-2088-4FCA-869A-550747CD34E6
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 9b426c39285416af2f0797187df49503105ddfe6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2882980
+          id: Q2882980
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q496938$F4603F86-1E82-472E-B7CC-6462029692DF
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 80a01ae9071a34fdeb34af3d26819f6e576eac2c
+      datavalue:
+        value: "/m/090hbx"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q496938$3F3120EA-E4CC-4222-A445-7C4D8DCE600A
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q496938$62AA884C-7332-415D-9A09-C8F5E8A15463
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: '08beeb857e7b6ec767c51b6f695ff1c9b54b8dbc'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1006
+          id: Q1006
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q496938$1b287a6f-4b9f-2e98-357f-6d3b1f6bef4e
+    rank: normal
+  P580:
+  - mainsnak:
+      snaktype: value
+      property: P580
+      hash: 847c4c912d3781dc83eabd7135d6403c473c0daf
+      datavalue:
+        value:
+          time: "+1971-00-00T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 9
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q496938$00f0720d-4b41-c8d5-38b6-c4fb68468de2
+    rank: normal
+  P582:
+  - mainsnak:
+      snaktype: value
+      property: P582
+      hash: b604106d69ce5f4cbe4d2d2b710fccadd69e80ca
+      datavalue:
+        value:
+          time: "+1985-00-00T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 9
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q496938$f6ede071-4e78-9bda-ad57-8e76d0949e66
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: d7b5efc88831aa879a33b5f281dc5c9ad382f449
+      datavalue:
+        value: Guinee-25Sylis.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    qualifiers:
+      P2096:
+      - snaktype: value
+        property: P2096
+        hash: 7c9f364d4ae8207b55393c4fa4ce03e886705442
+        datavalue:
+          value:
+            text: Bitllet de 25 sylis
+            language: ca
+          type: monolingualtext
+        datatype: monolingualtext
+    qualifiers-order:
+    - P2096
+    id: Q496938$8feb4c05-4878-0c7a-096c-fb93a04bedaf
+    rank: normal
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Syli
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Syli
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Guinean syli
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Syli
+    badges: []
+  fawiki:
+    site: fawiki
+    title: سیلی گینه
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ギニア・シリ
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 기니 실리
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Гвинейский сили
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Guinesisk syli
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Гвінейський сілі
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 幾內亞西里
+    badges: []

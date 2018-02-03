@@ -1,0 +1,188 @@
+---
+pageid: 3092180
+ns: 0
+title: Q3239557
+lastrevid: 564660398
+modified: '2017-09-24T01:23:56Z'
+type: item
+id: Q3239557
+labels:
+  en:
+    language: en
+    value: picogram
+aliases:
+  en:
+  - language: en
+    value: pg
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 954edbd3fef27ce6396c0878a95c608ca4ed84af
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3647172
+          id: Q3647172
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3239557$94c589d1-498e-f5f4-4e8d-c7ce1d65361b
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 254adbec694fa5ea2a991946a42371dacb5700a3
+      datavalue:
+        value: pg
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q3239557$b792b930-4691-4a9a-fe2d-d1464b185ce3
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: ec20baa69abf016fc26d68f680d0b3d7f16dd559
+      datavalue:
+        value: пг
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q3239557$b167fa54-475a-75a7-2f54-c8dff14040c3
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 55195110348a51f9b586bf610ee9b3f6202719c7
+      datavalue:
+        value: بغ
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: aa3f8171d71338a019a3e43c848eb59374b15b71
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8196
+            id: Q8196
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q3239557$93027511-4af3-3fc5-a7d0-581e302af061
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 33ec957da8da964a0941e0fbef804070a74604cb
+      datavalue:
+        value:
+          amount: "+0.000000000000001"
+          unit: http://www.wikidata.org/entity/Q11570
+          upperBound: "+0.000000000000001"
+          lowerBound: "+0.000000000000001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q3239557$f763448a-479f-5141-5d11-cbbb185f2b94
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 4d0696674299065657162133dcd0b9e844617b3e
+      datavalue:
+        value: picogram
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3239557$DB1B8725-6BEF-4083-9E70-1F33C57E7BF3
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 16653c4848e0552e9604edc668341bd5f95825a4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11423
+          id: Q11423
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3239557$9AD13B9B-DABD-4A63-8B86-9279C965E6C5
+    rank: normal
+sitelinks:
+  astwiki:
+    site: astwiki
+    title: Picogramu
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Pikogramm
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Picogramo
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Pikogramo
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Picogram
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Pikogram
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Picogram
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Pikogram
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 皮克
+    badges: []

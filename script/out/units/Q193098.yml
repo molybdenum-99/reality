@@ -1,0 +1,431 @@
+---
+pageid: 191193
+ns: 0
+title: Q193098
+lastrevid: 617888066
+modified: '2018-01-08T22:57:47Z'
+type: item
+id: Q193098
+labels:
+  en:
+    language: en
+    value: Kuwaiti dinar
+aliases: {}
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 11f2a1af0d174c4211839517e49af9a6e0e3ddd9
+      datavalue:
+        value: Money of Kuwait
+        type: string
+      datatype: string
+    type: statement
+    id: q193098$D2F658D9-8CBC-4840-B64A-3552F91416EA
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q193098$64B2FA97-6BC7-4C0B-AC73-FAE4D89A9BAC
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 937a1f9af0ed37eb80ed1a227450a885d3f997d9
+      datavalue:
+        value: KWD
+        type: string
+      datatype: external-id
+    type: statement
+    id: q193098$1eb011a9-4779-93ca-0a3c-00ede396037f
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 1520b255d412869134e5789861d8e57e3db3c5b3
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2944396
+          id: Q2944396
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q193098$9D87893E-4E2F-45C8-9324-D56B93574046
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: acbee1fd56a1bd7a31150ce03b6a37d3dacadcc5
+      datavalue:
+        value: "/m/01j2v3"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q193098$9B2EE4A6-E2B6-47EA-9ED2-D38772533B7F
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 3c33066c36135bf88142424f4bed91ad33b16d39
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 817
+          id: Q817
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q193098$022fdf5f-4fc9-aaa1-946f-36a2cac586e0
+    rank: normal
+  P2284:
+  - mainsnak:
+      snaktype: value
+      property: P2284
+      hash: 7a002d899419e4cfb59a9ca0cf714730ec5057fd
+      datavalue:
+        value:
+          amount: "+3.2819"
+          unit: http://www.wikidata.org/entity/Q4917
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: f742be92339cdcc54bf77fbdde9a24b9045f361a
+        datavalue:
+          value:
+            time: "+2016-11-22T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q193098$BF485FF2-77D2-4BCA-BF59-39867921C1AD
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2284
+      hash: 10f96753c3daed50dc02506f46a199d0971f4284
+      datavalue:
+        value:
+          amount: "+3"
+          unit: http://www.wikidata.org/entity/Q4917
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: f742be92339cdcc54bf77fbdde9a24b9045f361a
+        datavalue:
+          value:
+            time: "+2016-11-22T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q193098$C2CC1549-F0DC-4F7F-A4C0-FD64116DED95
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: 2128c744228317b4a4f8fd92bd6ba4740248f9db
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 191830
+          id: Q191830
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q193098$e4c1e8cb-4703-512d-9581-f34fc7d72e47
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 014a505e1a2b9f8a85c1416b0a96a23c749ad104
+      datavalue:
+        value: '500192'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q193098$0B5FC085-2876-4E48-A73F-A141515032EA
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: دينار كويتي
+    badges: []
+  arzwiki:
+    site: arzwiki
+    title: دينار كويتى
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Küveyt dinarı
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Кувэйцкі дынар
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Кувейтски динар
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: কুয়েতি দিনার
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Dinar kuwaitià
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Kuvajtský dinár
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Kuwaitiske dinarer
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Kuwait-Dinar
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Δηνάριο Κουβέιτ
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Kuwaiti dinar
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Kuvajta dinaro
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Dinar kuwaití
+    badges: []
+  fawiki:
+    site: fawiki
+    title: دینار کویت
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Kuwaitin dinaari
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Dinar koweïtien
+    badges: []
+  hewiki:
+    site: hewiki
+    title: דינר כוויתי
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: कुवैती दीनार
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Kuvaiti dinár
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Dinar Kuwait
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Dinaro kuwaitiano
+    badges: []
+  jawiki:
+    site: jawiki
+    title: クウェート・ディナール
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 쿠웨이트 디나르
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Кувейтса динар
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Kuveito dinaras
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: കുവൈറ്റി ദിനാർ
+    badges: []
+  mnwiki:
+    site: mnwiki
+    title: Кувейт динар
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: कुवेती दिनार
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Dinar Kuwait
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Koeweitse dinar
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Kuwaitisk dinar
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਕੁਵੈਤੀ ਦਿਨਾਰ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Dinar kuwejcki
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Dinar kuwaitiano
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Кувейтский динар
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Кувајтски динар
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Kuwaitisk dinar
+    badges: []
+  tawiki:
+    site: tawiki
+    title: குவைத் தினார்
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Динори Кувейт
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Dinar ng Kuwait
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Kuveyt dinarı
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Кувейтський динар
+    badges: []
+  urwiki:
+    site: urwiki
+    title: کویتی دینار
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Dinar Kuwait
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: ქუვეითური დინარი
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Dinar Kuwaiti
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Kuwait dinar
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 科威特第納爾
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 科威特第納爾
+    badges: []

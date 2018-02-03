@@ -1,0 +1,128 @@
+---
+pageid: 574524
+ns: 0
+title: Q610135
+lastrevid: 524618719
+modified: '2017-07-22T16:02:24Z'
+type: item
+id: Q610135
+labels:
+  en:
+    language: en
+    value: grave
+aliases: {}
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: b4a933ce88304e1ebfc52955292afc797ef11164
+      datavalue:
+        value: G
+        type: string
+      datatype: string
+    type: statement
+    id: q610135$bd03ef71-483a-dfa6-6861-46d8d3f1608f
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 954edbd3fef27ce6396c0878a95c608ca4ed84af
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3647172
+          id: Q3647172
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q610135$630B1773-1B9C-461F-9522-AD1F74B98189
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 363190deaff7360670dc480eefd14746ff18f152
+      datavalue:
+        value: "/m/0gs0zq"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q610135$E0FF658B-FEBC-4906-A19D-5D2177FE1862
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 16653c4848e0552e9604edc668341bd5f95825a4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11423
+          id: Q11423
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q610135$B7980F83-3D73-4A8F-829D-83FC20260B41
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Grave (Einheit)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Grave (unit)
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Grave (unidad)
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Grave (unité)
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Eininga grave
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Graw
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Grave (mass)
+    badges: []

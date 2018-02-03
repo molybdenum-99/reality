@@ -1,0 +1,113 @@
+---
+pageid: 45894237
+ns: 0
+title: Q44707302
+lastrevid: 624927441
+modified: '2018-01-30T23:19:45Z'
+type: item
+id: Q44707302
+labels:
+  en:
+    language: en
+    value: Petro Coin
+aliases:
+  en:
+  - language: en
+    value: Petro
+  - language: en
+    value: Petro (cryptocurrency)
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 16ab8cfff2957341998c927ff03e50befb65a864
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 13479982
+          id: Q13479982
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q44707302$f6c1d5c4-4f56-8555-9e94-fbe8061df503
+    rank: normal
+  P571:
+  - mainsnak:
+      snaktype: value
+      property: P571
+      hash: 85dfb7fb17b4a830f8acc34c84fc953d12b2d7fc
+      datavalue:
+        value:
+          time: "+2017-12-03T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 11
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q44707302$355276d2-461d-6d74-8d57-12e8acf73a45
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: b9c4238be8841aac9c84bcac3af717723437dca1
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 717
+          id: Q717
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q44707302$e51aa86d-4762-4875-5c88-7cddf1f88afb
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: c07d6b4716f714ac5509b3b5f408a18ec9c92b8c
+      datavalue:
+        value: Petro Logo.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q44707302$797b2f93-4724-2916-e160-4da1bb30fb7d
+    rank: normal
+  P856:
+  - mainsnak:
+      snaktype: value
+      property: P856
+      hash: 26e5bfd3b765c32768210d859a893cbb428bd768
+      datavalue:
+        value: https://www.petro.gob.ve/
+        type: string
+      datatype: url
+    type: statement
+    id: Q44707302$d3ad93b8-4a18-7815-9275-90a345fefa94
+    rank: normal
+    references:
+    - hash: 65e5ee7100eefa43a33d90db304774cf2a0a90dd
+      snaks:
+        P1065:
+        - snaktype: value
+          property: P1065
+          hash: fc1f6094317f68f84f4898044442d1e743630096
+          datavalue:
+            value: http://web.archive.org/web/20180130223643/http://www.presidencia.gob.ve/Site/Web/Principal/paginas/classMostrarEvento3.php?id_evento=8810
+            type: string
+          datatype: url
+      snaks-order:
+      - P1065
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Petro (cryptocurrency)
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Petro (criptomoneda)
+    badges: []

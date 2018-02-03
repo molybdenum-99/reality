@@ -1,0 +1,93 @@
+---
+pageid: 429304
+ns: 0
+title: Q455052
+lastrevid: 622307928
+modified: '2018-01-21T16:55:33Z'
+type: item
+id: Q455052
+labels:
+  en:
+    language: en
+    value: Friedrich d'or
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 515e4f0121c19526068929a110679c5ff3ecae8f
+      datavalue:
+        value: "/m/05c1zcb"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q455052$B4256901-D04D-4F44-88CF-2E986249A468
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q455052$C1C4D61A-79AE-4B1B-BFAC-B44E70FE032E
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Friedrich d’or
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Friedrich d'or
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Frédéric d'or
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Friedrich d’or
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Фридрихсдор
+    badges: []

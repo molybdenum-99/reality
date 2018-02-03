@@ -1,0 +1,119 @@
+---
+pageid: 4189005
+ns: 0
+title: Q4385486
+lastrevid: 618614361
+modified: '2018-01-10T22:24:15Z'
+type: item
+id: Q4385486
+labels:
+  en:
+    language: en
+    value: Piedmontese scudo
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: c345967010c208f8a34adbd3cee2721f8cb56782
+      datavalue:
+        value: "/m/04cwz9g"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q4385486$C4EFB969-F119-4B87-8F13-DF176661D7D8
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4385486$5A03D07D-4CFE-413F-B255-725C706B7C52
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 392ab84cc5c88c7aae2eeb675c5d3402a01480d6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 165154
+          id: Q165154
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4385486$cb84a3d4-427e-daf5-333d-b71367242229
+    rank: normal
+  P1366:
+  - mainsnak:
+      snaktype: value
+      property: P1366
+      hash: ccdb75fa6a9c5f421c88ff33f333c5a0d0844051
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 427347
+          id: Q427347
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4385486$aac05a04-4f5f-9ac4-8766-ec6df2c14142
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Piedmontese scudo
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Scudo piemontese
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Pjemonto skudas
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Пьемонтский скудо
+    badges: []

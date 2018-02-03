@@ -1,0 +1,116 @@
+---
+pageid: 1413294
+ns: 0
+title: Q1475316
+lastrevid: 618468172
+modified: '2018-01-10T11:55:51Z'
+type: item
+id: Q1475316
+labels:
+  en:
+    language: en
+    value: Gambian pound
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 3bc34553f0d5e7425fbe4a2c2c359ee46c7fa85d
+      datavalue:
+        value: "/m/0963dz"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1475316$C360A627-7CBF-44B5-B4C2-C0D3F7D317FE
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1475316$7AF73554-FD48-46D9-92BA-E7303B600D6A
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: f6f0cf9e493d87bfc76ab5b86cf86082f4b7b9ba
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1005
+          id: Q1005
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1475316$76ff0af9-4246-822f-4ab1-2ed61696355f
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Gambisches Pfund
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Λίρα της Γκάμπια
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Gambian pound
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Libra gambiana
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Gambian punta
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ガンビア・ポンド
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Гамбийский фунт
+    badges: []

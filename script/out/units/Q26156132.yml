@@ -1,0 +1,87 @@
+---
+pageid: 28108512
+ns: 0
+title: Q26156132
+lastrevid: 612214581
+modified: '2017-12-22T06:41:56Z'
+type: item
+id: Q26156132
+labels:
+  en:
+    language: en
+    value: millinewton per metre
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q26156132$aedbc817-4322-ab14-25ed-4ac27d2afd5a
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: ea3bfd2e068e292a97112ceaa60324dc61ecd799
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 170749
+          id: Q170749
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q26156132$f2e745b5-44fc-87dc-10da-3055209d3059
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: ffef333b1e502adb4ef5a3c6bc907aa6831cfa37
+      datavalue:
+        value:
+          amount: "+0.001"
+          unit: http://www.wikidata.org/entity/Q26156113
+          upperBound: "+0.001"
+          lowerBound: "+0.001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q26156132$3e587202-4487-0e33-6728-853ea4a42f4a
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 104f6cd4de6a03aa50d68c94af2414c4850a364e
+      datavalue:
+        value: мН/м
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q26156132$6c0d494c-4411-190d-f703-0dfa98070ccc
+    rank: normal
+sitelinks: {}

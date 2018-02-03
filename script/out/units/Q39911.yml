@@ -1,0 +1,716 @@
+---
+pageid: 42271
+ns: 0
+title: Q39911
+lastrevid: 625429017
+modified: '2018-02-01T10:21:10Z'
+type: item
+id: Q39911
+labels:
+  en:
+    language: en
+    value: decade
+aliases:
+  en:
+  - language: en
+    value: ten years
+claims:
+  P527:
+  - mainsnak:
+      snaktype: value
+      property: P527
+      hash: fbad45a23df0bf71ffca85eaaf5cfd67e889842d
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 577
+          id: Q577
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P1114:
+      - snaktype: value
+        property: P1114
+        hash: fa02efb3e5d84f49bce739f5a40795df00d50d99
+        datavalue:
+          value:
+            amount: "+10"
+            unit: '1'
+          type: quantity
+        datatype: quantity
+    qualifiers-order:
+    - P1114
+    id: q39911$9394a6c4-411b-349b-3e3a-94f68a1fe5d6
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: 5bbe97789237ce4f617c76b2ebdfca50a4ab24a2
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 186081
+          id: Q186081
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q39911$529084AC-0EAD-4237-AED9-97DD07067FDB
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: af9e67c4c2f19507c961940f14c142f2ee5dbc0e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2643280
+          id: Q2643280
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P642:
+      - snaktype: value
+        property: P642
+        hash: 36e573847b111f52628f4f93fe1538b1f1d45987
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 24564698
+            id: Q24564698
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P642
+    id: Q39911$c31ffdc4-439e-ecba-bbbc-de74df7b941e
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: eeb48db241dfa774f6ae51f54be9d4f992ae8a4f
+      datavalue:
+        value: "/m/033g_h"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q39911$83B251C5-C37B-4A6B-BDEF-19FA001A7062
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P1245:
+  - mainsnak:
+      snaktype: value
+      property: P1245
+      hash: aaff675c8921dbc740693290bd9b0f972621ee4a
+      datavalue:
+        value: '8009'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q39911$eb502a11-41ef-eb0d-82d9-7a065a0f0a1b
+    rank: normal
+  P910:
+  - mainsnak:
+      snaktype: value
+      property: P910
+      hash: c3c85d6a4ba9e94d3a6fde4ca57367128b9bf31b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2945249
+          id: Q2945249
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q39911$602C3095-A1B8-4309-9E91-AD5320C68662
+    rank: normal
+    references:
+    - hash: 9a24f7c0208b05d6be97077d855671d1dfdbc0dd
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: d38375ffe6fe142663ff55cd783aa4df4301d83d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 48183
+              id: Q48183
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 9eb962bada851eebd99d23731b4fcb10db5e9114
+      datavalue:
+        value: Decades
+        type: string
+      datatype: string
+    type: statement
+    id: Q39911$9D11ACB5-D137-467B-9E29-7202B0E94E20
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P2803:
+  - mainsnak:
+      snaktype: value
+      property: P2803
+      hash: b46114ddda6b556d6d7b16a5f7e9877bb4ff306a
+      datavalue:
+        value:
+          amount: "+8"
+          unit: '1'
+          upperBound: "+8"
+          lowerBound: "+8"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q39911$9b62cd0b-40ad-500e-5ff1-bc002cd0af7b
+    rank: normal
+    references:
+    - hash: b4147714250705a404dbab5498df6bf642f8d11c
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 73865457b9769a749e50619f4e961401d4eb3b06
+          datavalue:
+            value: https://www.wikidata.org/wiki/Special:ListDatatypes#Time
+            type: string
+          datatype: url
+      snaks-order:
+      - P854
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 98a1e85b80bda7ff493c25a6b805599da715c077
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1790144
+          id: Q1790144
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q39911$0CA2B1C9-A829-46C4-8237-03B3FE104436
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 4c6e1d5c22b758c229f52476432e2a1427b20495
+      datavalue:
+        value: Decade-5
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q39911$CFCDBF88-7B57-4457-A9C7-7A892A8A9D44
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P2047:
+  - mainsnak:
+      snaktype: value
+      property: P2047
+      hash: f7ccfe5a0a894e13c456d435bb9a414ec9c0e442
+      datavalue:
+        value:
+          amount: "+10"
+          unit: http://www.wikidata.org/entity/Q577
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q39911$ae280e23-459f-79d8-7d9f-60f4bad9e918
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 6e2bf725ec447d1ef7fe051d6af0c7c475e3e5d8
+      datavalue:
+        value:
+          amount: "+315360000"
+          unit: http://www.wikidata.org/entity/Q11574
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q39911$ac2b751d-4fea-ca68-7c0b-fcd327d9e64e
+    rank: normal
+  P1889:
+  - mainsnak:
+      snaktype: value
+      property: P1889
+      hash: c8f6c8a5e9059158692f0149f72f6cee17f773cb
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 29442417
+          id: Q29442417
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q39911$c857cf65-4402-66b8-8f58-16ecf0571911
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P1889
+      hash: a2910850d91ec448c895e31855032cf9aa2759cc
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2894303
+          id: Q2894303
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q39911$b0aea33d-4e34-f584-51d4-e303f463b19c
+    rank: normal
+sitelinks:
+  alswiki:
+    site: alswiki
+    title: Jahrzehnt
+    badges: []
+  anwiki:
+    site: anwiki
+    title: Decenio
+    badges: []
+  arwiki:
+    site: arwiki
+    title: عقد (وقت)
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Década
+    badges: []
+  avwiki:
+    site: avwiki
+    title: АнцІсон
+    badges: []
+  barwiki:
+    site: barwiki
+    title: Kategorie:Zuordnung nach Jahrzehnt
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Дзесяцігодзьдзе
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Дзесяцігоддзе
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Десетилетие
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Dècada
+    badges: []
+  cdowiki:
+    site: cdowiki
+    title: Nièng-dâi
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Dekáda
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Årti
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Jahrzehnt
+    badges: []
+  dewikiquote:
+    site: dewikiquote
+    title: Jahrzehnt
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Δεκαετία
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Decade
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Jardekoj
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Década
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Aastakümned
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Hamarkada
+    badges: []
+  fawiki:
+    site: fawiki
+    title: دهه
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Vuosikymmen
+    badges: []
+  fowiki:
+    site: fowiki
+    title: Áratíggju
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Décennie
+    badges: []
+  fywiki:
+    site: fywiki
+    title: Desennium
+    badges: []
+  gawiki:
+    site: gawiki
+    title: Deichniúr
+    badges: []
+  gdwiki:
+    site: gdwiki
+    title: Deichead
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Década
+    badges: []
+  gnwiki:
+    site: gnwiki
+    title: Parehegua
+    badges: []
+  guwiki:
+    site: guwiki
+    title: દાયકો
+    badges: []
+  hewiki:
+    site: hewiki
+    title: עשור
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: दशक
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Desetljeće
+    badges: []
+  hsbwiki:
+    site: hsbwiki
+    title: Lětdźesatk
+    badges: []
+  htwiki:
+    site: htwiki
+    title: Deseni
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Évtized
+    badges: []
+  iawiki:
+    site: iawiki
+    title: Decennio
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Dasawarsa
+    badges: []
+  iowiki:
+    site: iowiki
+    title: Yardeko
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Áratugur
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Decennio
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 十年紀
+    badges: []
+  jbowiki:
+    site: jbowiki
+    title: dekna'a
+    badges: []
+  jvwiki:
+    site: jvwiki
+    title: Dasawarsa
+    badges: []
+  kawiki:
+    site: kawiki
+    title: ათწლეული
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Онжылдық
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 연대 (연도)
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Decennium
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Dešimtmetis
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Desmitgade
+    badges: []
+  map_bmswiki:
+    site: map_bmswiki
+    title: Dasawarsa
+    badges: []
+  miwiki:
+    site: miwiki
+    title: Tekau tau
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Деценија
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: दशक
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Dekad
+    badges: []
+  nahwiki:
+    site: nahwiki
+    title: Mahtlacxihuitl
+    badges: []
+  nds_nlwiki:
+    site: nds_nlwiki
+    title: Decennia
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Decennium
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Tiår
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Tiår
+    badges: []
+  nsowiki:
+    site: nsowiki
+    title: Ngwagasome
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Decenni
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Dekada (czas)
+    badges: []
+  pswiki:
+    site: pswiki
+    title: لسيزه
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Década
+    badges: []
+  quwiki:
+    site: quwiki
+    title: Chunkawata
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Deceniu
+    badges: []
+  ruewiki:
+    site: ruewiki
+    title: Десятьроча
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Десятилетие
+    badges: []
+  sahwiki:
+    site: sahwiki
+    title: Уон сыл
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Decade
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Decenija
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Decade
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Desaťročie
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Desetletje
+    badges: []
+  snwiki:
+    site: snwiki
+    title: Mwaka wechikumi
+    badges: []
+  sqwiki:
+    site: sqwiki
+    title: Dekada
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Деценија
+    badges: []
+  suwiki:
+    site: suwiki
+    title: Daptar dékade
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Decennium
+    badges: []
+  swwiki:
+    site: swwiki
+    title: Mwongo
+    badges: []
+  szlwiki:
+    site: szlwiki
+    title: Dekada
+    badges: []
+  thwiki:
+    site: thwiki
+    title: ทศวรรษ
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Onyıl
+    badges: []
+  ttwiki:
+    site: ttwiki
+    title: Унъеллык
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Десятиліття
+    badges: []
+  urwiki:
+    site: urwiki
+    title: عشرہ
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Oʻn yillik
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Thập niên
+    badges: []
+  warwiki:
+    site: warwiki
+    title: Dekada
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: ვითწანურა
+    badges: []
+  yiwiki:
+    site: yiwiki
+    title: יארצענדלינג
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Cha̍p-nî-kí
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 年代
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 年代
+    badges: []

@@ -1,0 +1,128 @@
+---
+pageid: 463739
+ns: 0
+title: Q492724
+lastrevid: 619151132
+modified: '2018-01-12T06:33:45Z'
+type: item
+id: Q492724
+labels:
+  en:
+    language: en
+    value: Andorran diner
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 2aae5f1c3b2a73a9a5ec111eedc06643dcf65ba7
+      datavalue:
+        value: "/m/03b5p5"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q492724$D71D63EB-7953-4604-B332-2F36EE2B4B81
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q492724$58ACA620-43C3-440D-B661-FF476C0EB38A
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 178775c9285ca74e225a640e2eaa58268fd55fdc
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 228
+          id: Q228
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q492724$9b6f772f-458f-4613-3495-480e34394636
+    rank: normal
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Moneda andorrana
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Andorranischer Diner
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Andorran diner
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Moneda andorrana
+    badges: []
+  fawiki:
+    site: fawiki
+    title: دینر آندورا
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Monnaies andorranes
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Diner andorrano
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Diner
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Андоррский динер
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Андоррський дінер
+    badges: []

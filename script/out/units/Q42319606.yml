@@ -1,0 +1,81 @@
+---
+pageid: 43601755
+ns: 0
+title: Q42319606
+lastrevid: 584113197
+modified: '2017-10-25T20:55:26Z'
+type: item
+id: Q42319606
+labels:
+  en:
+    language: en
+    value: humans per square meter
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 5c1e31495c3ee00418bae011defe6d61827b8990
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10387685
+          id: Q10387685
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q42319606$8030edfd-4396-0af3-d81e-74cb16ca3f2e
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: cb138e8dfe4c4b44a0b6c78ff1c402b11193a71a
+      datavalue:
+        value: чел/м²
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q42319606$bdfb130f-4e71-5db6-2c34-e8caea3bb634
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: d6295eeae532f76ae8d46e9cfa9329e362e43ea9
+      datavalue:
+        value: people/m²
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q42319606$7d281572-4b77-a8a5-e430-e0c31550ebd1
+    rank: normal
+sitelinks: {}

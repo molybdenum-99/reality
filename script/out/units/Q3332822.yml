@@ -1,0 +1,230 @@
+---
+pageid: 3177436
+ns: 0
+title: Q3332822
+lastrevid: 560462313
+modified: '2017-09-17T05:56:17Z'
+type: item
+id: Q3332822
+labels:
+  en:
+    language: en
+    value: megaton
+aliases:
+  en:
+  - language: en
+    value: Mt
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 06df6efe68f6e25b0d602229267e4d3e9ccc3d64
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2916980
+          id: Q2916980
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3332822$72c8fbe2-4cfc-3615-e3f1-49d2df160d14
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: f226dd171fb48e2a2089b68bbecf0f229f5f032e
+      datavalue:
+        value: Mt
+        type: string
+      datatype: string
+    type: statement
+    id: Q3332822$d9413869-4d3b-6489-007a-0eacc119d9db
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: f8112082bc92aae8b0cebdaf0289ddd066dd152d
+      datavalue:
+        value: "/m/0chglj"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3332822$59C9CCF8-C445-4744-934E-C9B0C5512F3D
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 050c16a8281531f2079230037efb547f47b5a5fa
+      datavalue:
+        value:
+          amount: "+4184000000000000"
+          unit: http://www.wikidata.org/entity/Q25269
+          upperBound: "+4184000000000000"
+          lowerBound: "+4184000000000000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q3332822$1a87d535-4f7e-ce3e-38dd-fcdfb310b3cd
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 7a2c6bd69a2a6630577b878a019ea9452633a0da
+      datavalue:
+        value:
+          amount: "+1000"
+          unit: http://www.wikidata.org/entity/Q4992853
+          upperBound: "+1000"
+          lowerBound: "+1000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q3332822$79310480-4c6f-6dcd-d9a9-5af1774b008b
+    rank: normal
+  P1889:
+  - mainsnak:
+      snaktype: value
+      property: P1889
+      hash: a141851421663e905a43d07b97977ab2c32e49d4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 6808938
+          id: Q6808938
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3332822$E767EB4B-668D-44ED-87A8-1670FE4E6A54
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 7ad0f8fc8c23eb3ede324fc816121895c19109c6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11379
+          id: Q11379
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3332822$1006CC46-BF9C-4C5E-9ABB-18ECF090059D
+    rank: normal
+sitelinks:
+  bgwiki:
+    site: bgwiki
+    title: Мегатон
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Megatona
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Megaton
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Megatón
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Megatonni
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Mégatonne
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Megatone
+    badges: []
+  jawiki:
+    site: jawiki
+    title: メガトン
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 메가톤
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Megaton
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Megatonn
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Megatonn
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Megatona
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Megaton
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Megatona
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Megaton
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Megaton
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Мегатонна
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Megaton
+    badges: []
+  warwiki:
+    site: warwiki
+    title: Megatonelada
+    badges: []

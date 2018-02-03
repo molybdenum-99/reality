@@ -1,0 +1,353 @@
+---
+pageid: 16828016
+ns: 0
+title: Q15177466
+lastrevid: 620340077
+modified: '2018-01-14T19:35:03Z'
+type: item
+id: Q15177466
+labels:
+  en:
+    language: en
+    value: Peercoin
+aliases:
+  en:
+  - language: en
+    value: PPC
+  - language: en
+    value: PPCoin
+claims:
+  P856:
+  - mainsnak:
+      snaktype: value
+      property: P856
+      hash: 1c7ffc068981ce496fbac49a455c1e40b30b99f9
+      datavalue:
+        value: http://peercoin.net/
+        type: string
+      datatype: url
+    type: statement
+    id: Q15177466$6fde64c9-49ce-0bf4-e7c8-5286b3110e0b
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P856
+      hash: e2df209242369ba4adc9fd52e45d195fa001f753
+      datavalue:
+        value: http://peercoin.net
+        type: string
+      datatype: url
+    type: statement
+    id: Q15177466$C55463BD-3CDA-4B02-AB7D-CC89DA438F7F
+    rank: normal
+    references:
+    - hash: 51de2e62d5365c2a4e6dd76dd4ddf05b78d70491
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 5b9b9638cd969f40639cdef1f0197637c9de738f
+          datavalue:
+            value:
+              time: "+2017-01-08T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 1b506d34b21323d95b0b13a7d5f55dbbeeb66910
+          datavalue:
+            value: https://api.github.com/repos/super3/Peercoin.net
+            type: string
+          datatype: url
+      snaks-order:
+      - P813
+      - P854
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 16ab8cfff2957341998c927ff03e50befb65a864
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 13479982
+          id: Q13479982
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q15177466$2968a56e-44b2-de9d-7f16-e52c63dcea89
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: ac0d06e0d9536766ff228c419f51bca2ec06fd0a
+      datavalue:
+        value: PPCoin Wallet.png
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q15177466$68C2C654-191C-4552-87DA-CD4A2996E280
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 758dc92940b62afecc0d26ab83340cbb9996d561
+      datavalue:
+        value: PPCoin
+        type: string
+      datatype: string
+    type: statement
+    id: Q15177466$882B450B-1198-410F-9DB2-375D98DA8C2A
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P1324:
+  - mainsnak:
+      snaktype: value
+      property: P1324
+      hash: 1222d998c068ce1b339d52892d9b2d07d0401337
+      datavalue:
+        value: https://github.com/super3/Peercoin.net
+        type: string
+      datatype: url
+    type: statement
+    qualifiers:
+      P2700:
+      - snaktype: value
+        property: P2700
+        hash: c9653c60db2ac354cb25a08c14c306afd1238d7c
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 186055
+            id: Q186055
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P2700
+    id: Q15177466$22225329-4da2-3b51-a7f2-cf5b1b2b4b68
+    rank: normal
+    references:
+    - hash: da34d8c7326d071545c49ba4593f14fe2d4aef4b
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 2354fdc43b4368725cb018ac4578ede3e98a8712
+          datavalue:
+            value:
+              time: "+2016-10-05T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P813
+  P275:
+  - mainsnak:
+      snaktype: value
+      property: P275
+      hash: '0447296e0e56d461ed7491de8ee2da7367b75861'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 334661
+          id: Q334661
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q15177466$CDA17982-85F7-47FB-9565-6C3E039AB600
+    rank: normal
+    references:
+    - hash: c456dc5cd2117249948c288206ff3f8b1bf574f0
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e17507043402fe54ae6c4d65cc51f46cec987de9
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 8449
+              id: Q8449
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P487:
+  - mainsnak:
+      snaktype: value
+      property: P487
+      hash: 9e8779671795facf5018961c9cea9d9743337e06
+      datavalue:
+        value: Ᵽ
+        type: string
+      datatype: string
+    type: statement
+    id: Q15177466$4f6bb819-42cb-2866-3bfa-c0bdcca68f21
+    rank: normal
+  P154:
+  - mainsnak:
+      snaktype: value
+      property: P154
+      hash: 63b3c71a09a92d508faa5bb583fbd5836b119acc
+      datavalue:
+        value: Peercoin Logo.svg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q15177466$832ecfc2-4288-6327-cfe1-17e9a19db1eb
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P2283:
+  - mainsnak:
+      snaktype: value
+      property: P2283
+      hash: 44f05fe9dd11fd000be7fb09e5bf3a760fbf7ff7
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 17083510
+          id: Q17083510
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q15177466$a1a6b830-48a9-d3b4-5456-067dba6e4005
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2283
+      hash: 84efc95c1e17d3aafae2432b08212113435982b6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 7249984
+          id: Q7249984
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q15177466$eedcea7c-4140-ceee-44b0-050847f17abb
+    rank: normal
+  P144:
+  - mainsnak:
+      snaktype: value
+      property: P144
+      hash: 1c5163defa682b2fa9d678773949a856907d3bdd
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 131723
+          id: Q131723
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q15177466$70e38939-4355-6935-12c4-974948f10c6f
+    rank: normal
+  P571:
+  - mainsnak:
+      snaktype: value
+      property: P571
+      hash: e2160559cacc65d891c1e0caa13cd87e7229e3e7
+      datavalue:
+        value:
+          time: "+2012-08-00T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 10
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q15177466$44d34581-4468-d342-a538-9007ff9ef912
+    rank: normal
+    references:
+    - hash: bf0149647684f5518cba3b019944b334f061d0d5
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: ff14803bcb23d3cec47eee8d5f7c63e7f30eee90
+          datavalue:
+            value: https://peercoin.net/assets/paper/peercoin-paper.pdf
+            type: string
+          datatype: url
+      snaks-order:
+      - P854
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Peercoin
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Peercoin
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Peercoin
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Peercoin
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Peercoin
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Peercoin
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Peercoin
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Peercoin
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Peercoin
+    badges: []

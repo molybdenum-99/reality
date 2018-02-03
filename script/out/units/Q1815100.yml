@@ -1,0 +1,200 @@
+---
+pageid: 1746168
+ns: 0
+title: Q1815100
+lastrevid: 564656135
+modified: '2017-09-24T01:12:09Z'
+type: item
+id: Q1815100
+labels:
+  en:
+    language: en
+    value: centiliter
+aliases:
+  en:
+  - language: en
+    value: cL
+  - language: en
+    value: centilitre
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6e3da81891b6fba54d9ac8088595a4b05e5a5f95
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1302471
+          id: Q1302471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1815100$ea4cc877-4818-20c6-05eb-0386a2cdd199
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 38e1a7f66f1be2d23583c8b64bf59858f7a21314
+      datavalue:
+        value: cl
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q1815100$f7a28195-4738-168d-904f-261f75486b70
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: b1344ba80fffdbd09346593c49304585a445ea21
+      datavalue:
+        value: сл
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q1815100$30beeb8e-4186-4736-63ec-8aff8f0fb8af
+    rank: normal
+  P2234:
+  - mainsnak:
+      snaktype: value
+      property: P2234
+      hash: d305c1e580df356efd8df922a75686f13dea8cb6
+      datavalue:
+        value:
+          amount: "+0.01"
+          unit: http://www.wikidata.org/entity/Q11582
+          upperBound: "+0.01"
+          lowerBound: "+0.01"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1815100$16d41a36-4e13-a3f1-8fbf-834fe2f4540e
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2234
+      hash: 89a506a0ebb3f05bc092207dd9a0ed2ace1554c5
+      datavalue:
+        value:
+          amount: "+10"
+          unit: http://www.wikidata.org/entity/Q1022113
+          upperBound: "+10"
+          lowerBound: "+10"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1815100$40a1855b-466a-06ad-24fa-7897fe320c9d
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: '09c70e789d5202296dc35f9fd0bdaa43fd48c6b6'
+      datavalue:
+        value:
+          amount: "+0.00001"
+          unit: http://www.wikidata.org/entity/Q25517
+          upperBound: "+0.00001"
+          lowerBound: "+0.00001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1815100$dfebb200-4561-49cf-766a-b88d64f62327
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 7c88d984d2f63f950c0699c9850d00df330668fd
+      datavalue:
+        value: centilitre
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1815100$40FFD2EA-0B2B-4116-A83B-4CBF872D6099
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: ece6f6e6968e83ab4ea375829a8c5694d93dff51
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 39297
+          id: Q39297
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1815100$0035BD14-5E57-45C6-B1DE-EF0A2DAB0C6C
+    rank: normal
+sitelinks:
+  astwiki:
+    site: astwiki
+    title: Centillitru
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Zentiliter
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Centilitro
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Zentilitro
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Centilitro
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Centiliter
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Centiliter
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Centilitro
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 厘升
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 厘升
+    badges: []

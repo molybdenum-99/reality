@@ -1,0 +1,74 @@
+---
+pageid: 1378242
+ns: 0
+title: Q1439962
+lastrevid: 617158753
+modified: '2018-01-06T17:43:19Z'
+type: item
+id: Q1439962
+labels:
+  en:
+    language: en
+    value: Jornal
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 0f49769a073adbf1aea6d3645a68f24ad29dbeb6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1371562
+          id: Q1371562
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1439962$AEDB290F-3B88-4F05-B5F5-87D3A3D73ADB
+    rank: normal
+  P1296:
+  - mainsnak:
+      snaktype: value
+      property: P1296
+      hash: dc787278e0cde92db4b3833b415bed038ae14e9e
+      datavalue:
+        value: '0189959'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1439962$5FCD515E-3701-49E4-B69A-B3DC2E922724
+    rank: normal
+    references:
+    - hash: b3fd5e254143d8b52cd96cff43af9af5e3a82358
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: f13c99a16441677ec69fcea23f221d866f1fc98f
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 199693
+              id: Q199693
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Jornal
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Jornal
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Peonada (unidad)
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Gizalur
+    badges: []

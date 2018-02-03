@@ -1,0 +1,965 @@
+---
+pageid: 28670
+ns: 0
+title: Q25267
+lastrevid: 623234002
+modified: '2018-01-25T09:58:12Z'
+type: item
+id: Q25267
+labels:
+  en:
+    language: en
+    value: degrees Celsius
+aliases:
+  en:
+  - language: en
+    value: Celsius
+  - language: en
+    value: "°C"
+  - language: en
+    value: centigrade
+  - language: en
+    value: "℃"
+  - language: en
+    value: Degree Celsius
+claims:
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 6674863109f90d3c92b92ae1469e3e0db0b9b79f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 81130
+          id: Q81130
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q25267$87D7E127-4106-4867-958C-AA7CBCD84886
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: b1bea2dd868035ea348d30c81e8397ae6d7f530b
+      datavalue:
+        value: Celsius temperature
+        type: string
+      datatype: string
+    type: statement
+    id: q25267$8388A18D-7110-4DB5-AAE0-C8F6F9FE6F8E
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 7e2b6386a6f75f575e5f282d89286ee8ff540f76
+      datavalue:
+        value: "°C"
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: q25267$e9aee987-4747-0b30-1eea-22dee29441a5
+    rank: normal
+    references:
+    - hash: 04236527a1d6139c066bc969a1e83e439efc00ba
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 587564898ba1c818316ca0a7af2bb0867f80d4bb
+          datavalue:
+            value: '18'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: a8acdbdb9ade23dbae3d6835a293e04c6df76a0f
+          datavalue:
+            value: 6.5.3
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P487:
+  - mainsnak:
+      snaktype: value
+      property: P487
+      hash: 30acbaf3663aced55d1936da51cb7d6af79e6739
+      datavalue:
+        value: "℃"
+        type: string
+      datatype: string
+    type: statement
+    id: q25267$ce5965d6-42e1-a38e-0e11-312405fad37f
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 5774bada555a6041b0c7885263cb032464e4f5b0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2394680
+          id: Q2394680
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q25267$3E878C6F-525D-4910-852A-B366091851AE
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 50afdc16346d8687f53963f614e8d645419488a0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 208469
+          id: Q208469
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q25267$7a4eb036-4ea6-b94b-3f17-bfde2ccddc4c
+    rank: normal
+    references:
+    - hash: 04236527a1d6139c066bc969a1e83e439efc00ba
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 587564898ba1c818316ca0a7af2bb0867f80d4bb
+          datavalue:
+            value: '18'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: a8acdbdb9ade23dbae3d6835a293e04c6df76a0f
+          datavalue:
+            value: 6.5.3
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 35245d3d9fd4b14d101e64ce27a14557c00fb015
+      datavalue:
+        value: "/m/02162"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q25267$51E3039C-2504-4064-A308-C406EEDEAC04
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P1256:
+  - mainsnak:
+      snaktype: value
+      property: P1256
+      hash: bb3b8b48615f68bb606631dae1370683ace1754b
+      datavalue:
+        value: 22E33
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q25267$E8FC5EBA-8949-4344-99B2-3E9698E173DD
+    rank: normal
+  P1296:
+  - mainsnak:
+      snaktype: value
+      property: P1296
+      hash: ad3ca8807c3ab61922b5c3a92dea0252a1ac68e0
+      datavalue:
+        value: '0016842'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q25267$A64F85AA-BFF0-43D4-8C29-982F52B3863C
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 68a42bf41ead65e92fd1ade97366a5e558d4d8a8
+      datavalue:
+        value: DegreeCelsius
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q25267$22231086-0A98-4479-8258-B0012DE99FB7
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 44c4d241a20cbcab2bec965ecc6c8722eca4f827
+      datavalue:
+        value: degree_Celsius
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q25267$EDB3C018-8B99-4A04-BFD9-6C36CCC06FE0
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 859b163d9da96a07c9323468b6a67f143814208e
+      datavalue:
+        value: Celsius
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q25267$39AC7138-D1E3-40FB-B42C-3E4600D33C8F
+    rank: normal
+  P3569:
+  - mainsnak:
+      snaktype: value
+      property: P3569
+      hash: e8b6cfb8a0bb553ca37f8510aa90fa03f81a73c7
+      datavalue:
+        value: natuurkunde-scheikunde-en-sterrenkunde/celsius
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q25267$6E230747-9FCA-4909-A82A-4A5DE84961B7
+    rank: normal
+  P3827:
+  - mainsnak:
+      snaktype: value
+      property: P3827
+      hash: 2f886a24c80a088a46934000299dafe1c2b2c9a7
+      datavalue:
+        value: celsius
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q25267$7D890E8D-7BCB-400D-BD59-E7CBAECA13A8
+    rank: normal
+  P144:
+  - mainsnak:
+      snaktype: value
+      property: P144
+      hash: d30ac4854fbb5111e52398d24092a7cf0a04efab
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11579
+          id: Q11579
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P2534:
+      - snaktype: value
+        property: P2534
+        hash: d23cc98f8447651129a9b5df68996f724017bb3d
+        datavalue:
+          value: "^{\\circ}\\text{C} = \\text{K} - 273.15"
+          type: string
+        datatype: math
+    qualifiers-order:
+    - P2534
+    id: Q25267$4e547946-47aa-31ef-9d08-71b23510f8f9
+    rank: normal
+    references:
+    - hash: 04236527a1d6139c066bc969a1e83e439efc00ba
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 587564898ba1c818316ca0a7af2bb0867f80d4bb
+          datavalue:
+            value: '18'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: a8acdbdb9ade23dbae3d6835a293e04c6df76a0f
+          datavalue:
+            value: 6.5.3
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P2370:
+  - mainsnak:
+      snaktype: somevalue
+      property: P2370
+      hash: 0f7ca06cd53ddbefbd474a4474e543045f1f7995
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P2916:
+      - snaktype: value
+        property: P2916
+        hash: 9820d50e877372ec4e27ad2877f0fcb3e46d9d1a
+        datavalue:
+          value:
+            text: not a factor. see defining formula
+            language: en
+          type: monolingualtext
+        datatype: monolingualtext
+    qualifiers-order:
+    - P2916
+    id: Q25267$2c820d7f-411c-913a-dd05-6ca466d79578
+    rank: normal
+  P370:
+  - mainsnak:
+      snaktype: value
+      property: P370
+      hash: 8e708c11f9391871a4cccbc667cb69c16848ae30
+      datavalue:
+        value: "$1+273.15"
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P1013:
+      - snaktype: value
+        property: P1013
+        hash: 979c2ceb82efc0d1e0fbdcff2b56e5ad97c3dba5
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 11579
+            id: Q11579
+          type: wikibase-entityid
+        datatype: wikibase-item
+      P2916:
+      - snaktype: value
+        property: P2916
+        hash: 3c374554cfca971d8d2656f9d9ca73a8b0b406f6
+        datavalue:
+          value:
+            text: SI conversion formula (to be implemented)
+            language: en
+          type: monolingualtext
+        datatype: monolingualtext
+    qualifiers-order:
+    - P1013
+    - P2916
+    id: Q25267$25da02ef-4a22-3591-9d7a-535c11e36d12
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P370
+      hash: 9bafffa06df57f158cb040b6be6c09f08ea5a72d
+      datavalue:
+        value: "$1*1.8+32"
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P1013:
+      - snaktype: value
+        property: P1013
+        hash: c4c7b2dcab0269156f78dea45183a361256fd9f7
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 42289
+            id: Q42289
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P1013
+    id: Q25267$52466363-4d7d-0f11-e286-148dd49c3824
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P370
+      hash: b2fcf7869f24d2153fff997d4576b05fe0b50cf0
+      datavalue:
+        value: "$1*1.8+491.67"
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P1013:
+      - snaktype: value
+        property: P1013
+        hash: 74c90a9682b95528fb9320a2b0ae565f05443341
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 37732658
+            id: Q37732658
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P1013
+    id: Q25267$aac0dc18-4e26-6ed8-e673-f9ef5e49ebc7
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P370
+      hash: febabe1640e3b4ab3a88feb2e3ad073160881bbb
+      datavalue:
+        value: "$1*0.8"
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P1013:
+      - snaktype: value
+        property: P1013
+        hash: 9d859a65740eeecd6eae7d027bebf5783bfe491a
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 223061
+            id: Q223061
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P1013
+    id: Q25267$208331cb-4492-8e05-8d3b-8db9f05acc65
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P370
+      hash: bd0010837179668c88fb5ed25152bfbc65877a83
+      datavalue:
+        value: "$1*0.525+7.5"
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P1013:
+      - snaktype: value
+        property: P1013
+        hash: 2a632e21cfb95e583e34a6d2b363c847851dc6f9
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 488013
+            id: Q488013
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P1013
+    id: Q25267$f32c631b-4129-a587-4efb-1dac57ab89b9
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P370
+      hash: f05a7cb57a1beca32f49488d17f59e67234f0430
+      datavalue:
+        value: "$1*1.5-100"
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P1013:
+      - snaktype: value
+        property: P1013
+        hash: 47854f15900db105be7b6e2a3d091ec3313d9ded
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 839449
+            id: Q839449
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P1013
+    id: Q25267$933c8b3b-4ec5-a9e0-a0d5-75682ea7e0ea
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P370
+      hash: 0d8da962b3bac8c16c9ce638d36f0c00f5f87ae3
+      datavalue:
+        value: "$1*0.33"
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P1013:
+      - snaktype: value
+        property: P1013
+        hash: 669116087baa4d66845be8481fb7a28408caaa4d
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 1133606
+            id: Q1133606
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P1013
+    id: Q25267$b4d8d3b6-4b85-52c9-aa12-360e0e7729c2
+    rank: normal
+  P4732:
+  - mainsnak:
+      snaktype: value
+      property: P4732
+      hash: d66a62f175cf045f13734ea2d6ea8b6e3afd0d73
+      datavalue:
+        value: D01561
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q25267$532872E0-66F7-4D31-938D-55F5503D494E
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Celsius
+    badges: []
+  anwiki:
+    site: anwiki
+    title: Grau Celsius
+    badges: []
+  arwiki:
+    site: arwiki
+    title: درجة حرارة مئوية
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Grau Celsius
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Selsi şkalası
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Градус Цэльсія
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Градус Цэльсія
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Градус Целзий
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: সেলসিয়াস
+    badges: []
+  bowiki:
+    site: bowiki
+    title: སེ་དྲོད།
+    badges: []
+  brwiki:
+    site: brwiki
+    title: Derez Celsius
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Stepen Celzija
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Grau Celsius
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Stupeň Celsia
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Celsius
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Grad Celsius
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Κλίμακα Κελσίου
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Celsius
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Grado celsia
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Grado Celsius
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Celsiuse skaala
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Celsius gradu
+    badges: []
+  fawiki:
+    site: fawiki
+    title: سلسیوس
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Celsiusaste
+    badges:
+    - Q17559452
+  fowiki:
+    site: fowiki
+    title: Celsiusstigin
+    badges: []
+  frrwiki:
+    site: frrwiki
+    title: Graad Celsius
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Degré Celsius
+    badges: []
+  fywiki:
+    site: fywiki
+    title: Celsius
+    badges: []
+  ganwiki:
+    site: ganwiki
+    title: 攝氏
+    badges: []
+  gawiki:
+    site: gawiki
+    title: Scála teochta Celsius
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Celsius
+    badges: []
+  hewiki:
+    site: hewiki
+    title: מעלות צלזיוס
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: सेल्सियस
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Celzij
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Celsius-skála
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Ցելսիուսի սանդղակ
+    badges: []
+  iawiki:
+    site: iawiki
+    title: Celsius
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Celsius
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Selsíus
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Grado Celsius
+    badges: []
+  jamwiki:
+    site: jamwiki
+    title: Selsios
+    badges: []
+  jawiki:
+    site: jawiki
+    title: セルシウス度
+    badges: []
+  jbowiki:
+    site: jbowiki
+    title: jacke'o
+    badges: []
+  kawiki:
+    site: kawiki
+    title: ცელსიუსი
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 섭씨
+    badges: []
+  kuwiki:
+    site: kuwiki
+    title: Pileya Celsius
+    badges: []
+  lbwiki:
+    site: lbwiki
+    title: Grad Celsius
+    badges: []
+  liwiki:
+    site: liwiki
+    title: Celsiussjaol
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Celsijus
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Celsija grāds
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Целзиусов степен
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: സെൽഷ്യസ്
+    badges: []
+  mnwiki:
+    site: mnwiki
+    title: Цельсийн градус
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: सेल्सियस
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Celsius
+    badges: []
+  mwlwiki:
+    site: mwlwiki
+    title: Grau Celsius
+    badges: []
+  nds_nlwiki:
+    site: nds_nlwiki
+    title: Celsius
+    badges: []
+  ndswiki:
+    site: ndswiki
+    title: Grad Celsius
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Celsius
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Celsius
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Grad celsius
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Gra Celsius
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਸੈਲਸੀਅਸ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Skala Celsjusza
+    badges: []
+  pnbwiki:
+    site: pnbwiki
+    title: سیلسیس
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Grau Celsius
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Celsius
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Градус Цельсия
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Gradu cintigradu
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Celsius
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Celzijus
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Celsius
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Stupeň Celzia
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Celzijeva temperaturna lestvica
+    badges: []
+  sqwiki:
+    site: sqwiki
+    title: Celcius
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Степен целзијуса
+    badges: []
+  suwiki:
+    site: suwiki
+    title: Celsius
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Grad Celsius
+    badges: []
+  swwiki:
+    site: swwiki
+    title: Selsiasi
+    badges: []
+  tawiki:
+    site: tawiki
+    title: செல்சியசு
+    badges: []
+  tewiki:
+    site: tewiki
+    title: సెల్సియస్
+    badges: []
+  thwiki:
+    site: thwiki
+    title: องศาเซลเซียส
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Celsius
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Градус Цельсія
+    badges: []
+  urwiki:
+    site: urwiki
+    title: سیلسیس
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Độ Celsius
+    badges: []
+  vlswiki:
+    site: vlswiki
+    title: Celsius
+    badges: []
+  warwiki:
+    site: warwiki
+    title: Sentigrado
+    badges: []
+  wuuwiki:
+    site: wuuwiki
+    title: 摄氏温标
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Liap-sī
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 攝氏
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 摄氏温标
+    badges: []

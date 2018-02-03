@@ -1,0 +1,311 @@
+---
+pageid: 5538
+ns: 0
+title: Q4594
+lastrevid: 617888262
+modified: '2018-01-08T22:58:24Z'
+type: item
+id: Q4594
+labels:
+  en:
+    language: en
+    value: Djiboutian franc
+aliases:
+  en:
+  - language: en
+    value: DJF
+  - language: en
+    value: Djibouti Franc
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q4594$B4891518-9058-4ACA-A1C5-C29461476482
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 2d3d8aac3dc14990218802ade7b5260f762c3230
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 4504271
+          id: Q4504271
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q4594$9ECA4684-117F-4DAE-8508-794BE763DA24
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: b9a87d00541d9856dc9005a1e86d9df22ab4ff87
+      datavalue:
+        value: "/m/05yxn7"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q4594$5169BD43-53B9-4C25-AA50-3EB6D4B61919
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: b3c3c1caf87c01c922590d716425ab5202a37b03
+      datavalue:
+        value: DJF
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q4594$35bf8313-4fe2-7d5a-bbf9-6b4cf035d4ff
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 6b0b2f8129550aba3a4775ec72058d0bf7e9f81f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 977
+          id: Q977
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4594$9a21b370-4386-b0d1-05eb-9c58a6fee3d5
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: e15314f0e23bbc32e503d6b64f86da401a6628e2
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1403377
+          id: Q1403377
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4594$e1cc296b-4383-a83b-8880-1f932f286642
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: efc810e1c67760ee94acf684549df82a6233d43c
+      datavalue:
+        value: '500157'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q4594$79FF69FD-90A0-4784-9467-550343647442
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Djiboeti frank
+    badges: []
+  arwiki:
+    site: arwiki
+    title: فرنك جيبوتي
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Джыбуційскі франк
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Джыбуційскі франк
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Джибутски франк
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: ডিজিবোটিয়ান ফ্রাঙ্ক
+    badges: []
+  brwiki:
+    site: brwiki
+    title: Lur Djibouti
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Franc de Djibouti
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Djiboutiske franc
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Dschibuti-Franc
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Φράγκο του Τζιμπουτί
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Djiboutian franc
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Ĝibutia franko
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Franco yibutiano
+    badges: []
+  fawiki:
+    site: fawiki
+    title: فرانک جیبوتی
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Djiboutin frangi
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Franc Djibouti
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Džibutski franak
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Dzsibuti frank
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Franco gibutiano
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ジブチ・フラン
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 지부티 프랑
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Džibučio frankas
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: जिबूतीयन फ्रँक
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Djiboutiaanse frank
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Djiboutisk franc
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Frank dżibutyjski
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Franco do Jibuti
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Франк Джибути
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Џибутски франак
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Djiboutisk franc
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Франки Ҷибутӣ
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Cibuti frangı
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Франк Джибуті
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Franki Djìbútì
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Djibouti franc
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 吉布地法郎
+    badges: []

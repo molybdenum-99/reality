@@ -1,0 +1,406 @@
+---
+pageid: 862469
+ns: 0
+title: Q911899
+lastrevid: 622985358
+modified: '2018-01-24T14:07:48Z'
+type: item
+id: Q911899
+labels:
+  en:
+    language: en
+    value: Carnian
+aliases: {}
+claims:
+  P155:
+  - mainsnak:
+      snaktype: value
+      property: P155
+      hash: 943213913af5cf957393e8a85ed707968f8cc699
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 726791
+          id: Q726791
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q911899$9ab9cd46-4a2d-7ef0-8481-dafbd75e538d
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P156:
+  - mainsnak:
+      snaktype: value
+      property: P156
+      hash: 20bb84f90b3720d31fc5c870c81ddff9da7c2264
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1080207
+          id: Q1080207
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q911899$901f1998-4a99-f269-eb26-cdc469c4ebbb
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P625:
+  - mainsnak:
+      snaktype: value
+      property: P625
+      hash: c4e4b5ec30f9b8dc8dc3386105965f11b115437f
+      datavalue:
+        value:
+          latitude: 46.52694444
+          longitude: 11.93027778
+          altitude: 
+          precision: 0.00027777777777778
+          globe: http://www.wikidata.org/entity/Q2
+        type: globecoordinate
+      datatype: globe-coordinate
+    type: statement
+    id: Q911899$0B6D5EFF-567E-4F25-ADE5-54DAAC54970E
+    rank: normal
+    references:
+    - hash: d4bd87b862b12d99d26e86472d44f26858dee639
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: f30cbd35620c4ea6d0633aaf0210a8916130469b
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 8447
+              id: Q8447
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: baa30118ecd4805daf9f3a0f032ac66d0eb59f2c
+      datavalue:
+        value: "/m/08f037"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q911899$652B9AB1-4211-45BF-B73D-AF515DF0A3E8
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 11535bb11842a74d0f05d4bd409abd005222afc3
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 660390
+          id: Q660390
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q911899$1f7bca2d-4996-c138-417b-0770d7fbbc2d
+    rank: normal
+    references:
+    - hash: 29a3fecc4498409168107bc567db1dc0d3d231a7
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 7254f0541ed09356ccba69b6a5c0c4b4440457b1
+          datavalue:
+            value:
+              time: "+2014-10-16T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P813
+      - P143
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: f46e10e38ec6493fa219b1f6b8479cd1be320a4f
+      datavalue:
+        value: Carnian
+        type: string
+      datatype: string
+    type: statement
+    id: Q911899$B9DD4E71-7797-472F-B0B3-47213460FF17
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P1584:
+  - mainsnak:
+      snaktype: value
+      property: P1584
+      hash: 9ff35d678583a8a838086a9d7730e734f6f4f461
+      datavalue:
+        value: '197193'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q911899$DD58AD12-7099-4093-8961-20905E559A3C
+    rank: normal
+  P910:
+  - mainsnak:
+      snaktype: value
+      property: P910
+      hash: 62eb6dc36c00076ae96ba7954f970cb349892fba
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 21607948
+          id: Q21607948
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q911899$C01FE2A3-4701-4F6E-9299-E4B81B41FCD3
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1774498cb861c7f76e71afc94661ed9a03d8461a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1123245
+          id: Q1123245
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q911899$20959e01-4e7d-83e5-a27a-da2b1520b45c
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: b230ba6f73ec78c2fd8b28c19fab3a1a3e51124e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 568683
+          id: Q568683
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q911899$d500fc97-4d59-af51-e0ff-caad29f33705
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 0e222baaaa6348e1129b5c12906e74e9a0c45081
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 917293
+          id: Q917293
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q911899$cb4aeb2e-46a2-fa70-7827-a6fd299b9ecc
+    rank: normal
+  P3827:
+  - mainsnak:
+      snaktype: value
+      property: P3827
+      hash: 1ed0dac89edf7ec4ebe09cff224e65ebbe29e56a
+      datavalue:
+        value: carnian-age
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q911899$F5D28034-1FED-4B2E-88CC-58C61A7BA90B
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Karnium
+    badges: []
+  arwiki:
+    site: arwiki
+    title: الكارني
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Carnianu
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Carnià
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Karn
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Karnium
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Carnian
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Carniense
+    badges: []
+  fawiki:
+    site: fawiki
+    title: کارنین
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Carnien
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Karni
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Carnico
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Karnium
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Carnien
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Carnium
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Karnik
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Carniano
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Карнийский ярус
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Karnik
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Карнійський ярус
+    badges: []

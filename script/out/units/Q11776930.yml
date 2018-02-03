@@ -1,0 +1,224 @@
+---
+pageid: 12913689
+ns: 0
+title: Q11776930
+lastrevid: 585325070
+modified: '2017-10-28T13:51:13Z'
+type: item
+id: Q11776930
+labels:
+  en:
+    language: en
+    value: megagram
+aliases:
+  en:
+  - language: en
+    value: Mg
+  - language: en
+    value: ton
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 954edbd3fef27ce6396c0878a95c608ca4ed84af
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3647172
+          id: Q3647172
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q11776930$784962e9-407f-a337-81d4-2eb2b347e610
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: cb16eac67b5780aa10d080f0c2494ad81a4f85f4
+      datavalue:
+        value: Mg
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: q11776930$ab5f4fd3-4ce0-0ee4-15e5-097ca382e341
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: f8ffa0bac29c2ce4282e8054044b4fc2315891ad
+      datavalue:
+        value: Мг
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q11776930$3b208a3f-4b15-2293-6c58-70200ec5671a
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 2eb9c6e4a4186f739be84c239b35290c942a105c
+      datavalue:
+        value: مغغ
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: aa3f8171d71338a019a3e43c848eb59374b15b71
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8196
+            id: Q8196
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q11776930$1a4e9760-4034-f2b3-d96f-e655fd554fcf
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: c8542a8c8d832b813622f782d5e1d82f088341f1
+      datavalue:
+        value: "/m/07ny7"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q11776930$D35FAC6D-D1FA-41AB-92EB-A4EED8270F36
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P460:
+  - mainsnak:
+      snaktype: value
+      property: P460
+      hash: e286b4683584f3243db9ac8c10af24726fbfcc3f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 191118
+          id: Q191118
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q11776930$826934df-465f-174a-ad33-3ea2312c6263
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 9f045a84d3dd28d2b9dda4409711ff427e9b9dce
+      datavalue:
+        value:
+          amount: "+1000"
+          unit: http://www.wikidata.org/entity/Q11570
+          upperBound: "+1000"
+          lowerBound: "+1000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q11776930$951202db-4b60-bcdd-56eb-bc70ca47da88
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 16653c4848e0552e9604edc668341bd5f95825a4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11423
+          id: Q11423
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q11776930$125F9520-9A8C-4C12-A9C5-2150604E8BBE
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Megagramm
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Megagram
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Megagram
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Megagram
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Megagram
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Megagram
+    badges: []

@@ -1,0 +1,161 @@
+---
+pageid: 904629
+ns: 0
+title: Q954757
+lastrevid: 619627248
+modified: '2018-01-13T08:48:52Z'
+type: item
+id: Q954757
+labels:
+  en:
+    language: en
+    value: Colony-forming unit
+aliases:
+  en:
+  - language: en
+    value: cfu
+  - language: en
+    value: CFU
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 8c4fa89fcf803a2f844a9662164df17a70ad2155
+      datavalue:
+        value: "/m/0bd5wk"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q954757$B57A518E-8C2C-4B30-87AD-F35567FDF662
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q954757$d9dc817a-446c-10a7-bb21-286b8515810b
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: '0618761ac77e9cafb3dc948179898f1a54d62b04'
+      datavalue:
+        value: CFU
+        type: string
+      datatype: string
+    type: statement
+    id: Q954757$16c839b9-41ed-88b3-270e-0afa025d493b
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 704e4d0dc74d651ad88f0c02f74d1976a4ce8bd7
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 7193
+          id: Q7193
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q954757$f7842200-4130-492b-06fe-4983033a696d
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: bb394585116ca12b62c1296e536b8aba906bbafd
+      datavalue:
+        value: ColonyFormingUnit
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q954757$6948AD78-A634-43CB-99EE-0BA0EBD5DEDB
+    rank: normal
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Unitat formadora de colònies
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Koloniebildende Einheit
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Colony-forming unit
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Unidad formadora de colonias
+    badges: []
+  fawiki:
+    site: fawiki
+    title: واحد تشکیل کلنی
+    badges: []
+  jawiki:
+    site: jawiki
+    title: コロニー形成単位
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 집락형성단위
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Kiemgetal
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Jednostka tworząca kolonię
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Unidade de formação de colônias
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 菌落形成單位
+    badges: []

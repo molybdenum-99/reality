@@ -1,0 +1,273 @@
+---
+pageid: 82320
+ns: 0
+title: Q79769
+lastrevid: 625298584
+modified: '2018-01-31T20:25:25Z'
+type: item
+id: Q79769
+labels:
+  en:
+    language: en
+    value: tebibyte
+aliases:
+  en:
+  - language: en
+    value: TiB
+  - language: en
+    value: TB
+  - language: en
+    value: Terabyte
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 43a2eb03587e98e7c798218ae7fba84a173affa7
+      datavalue:
+        value: TiB
+        type: string
+      datatype: string
+    type: statement
+    id: Q79769$0ad95b34-40cb-6caa-ced7-47d6c6e4d6e4
+    rank: normal
+    references:
+    - hash: 5fe1039858667ad40e3911367de1d0a0cac48c8e
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 0e73b9396411d565bdd95a9c668d5a209a8197d0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 193858
+              id: Q193858
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: d604eda453d230dbab61d458db6f4d377f172f8f
+      datavalue:
+        value: ТиБ
+        type: string
+      datatype: string
+    type: statement
+    id: Q79769$124ac7f8-4334-6b2d-7beb-5ee7da9120d8
+    rank: normal
+    references:
+    - hash: 5fe1039858667ad40e3911367de1d0a0cac48c8e
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 0e73b9396411d565bdd95a9c668d5a209a8197d0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 193858
+              id: Q193858
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 5541581e632b9b8ccbec1be1f2506dd997603bf8
+      datavalue:
+        value: "/m/012sc7"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q79769$54F02A91-D9C7-4D3B-86B9-EB208F5C79C3
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 2d6ead580ca479cd38b25f8d8c677f1c03ad7473
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3550873
+          id: Q3550873
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q79769$ed7fed5a-48b8-8d07-83b8-a2bb88f25f01
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: d13fe692ee5c3c9c53edf08fb6d0efaec5661033
+      datavalue:
+        value: tebibyte
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q79769$D047909E-231D-4837-A086-A4CA56581244
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 79975b6ab0a940bb1b1da8b4700d29e4a36d3927
+      datavalue:
+        value:
+          amount: "+1099511627776"
+          unit: http://www.wikidata.org/entity/Q8799
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q79769$df9c1398-43d4-5967-0c9e-8ff4caf46880
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: تيبي بايت
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Тэбібайт
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Tebibyte
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Tebibyte
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Tebibyte
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Tebibyte
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Tebibyte
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Tebibyte
+    badges: []
+  fawiki:
+    site: fawiki
+    title: تبی‌بایت
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Tebibyte
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Tebibita
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Tebibyte
+    badges: []
+  jawiki:
+    site: jawiki
+    title: テビバイト
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 테비바이트
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Тебибајт
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Tebibait
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Tebibyte
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Tebibyte
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Tebibyte
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Тебибайт
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Tebibyte
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Tebibajt
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Тебибајт
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Tebibyte
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Тебібайт
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Tebibyte
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 太比字節
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: Tebibyte
+    badges: []

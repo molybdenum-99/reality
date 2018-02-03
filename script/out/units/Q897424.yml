@@ -1,0 +1,162 @@
+---
+pageid: 848299
+ns: 0
+title: Q897424
+lastrevid: 597322145
+modified: '2017-11-23T01:14:30Z'
+type: item
+id: Q897424
+labels:
+  en:
+    language: en
+    value: Hungarian korona
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 1f81294f965f1f34198d25b18f3335d256734a55
+      datavalue:
+        value: "/m/0fkym9"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q897424$C4F04076-F328-447C-81CD-2095A09512F7
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q897424$2a3426c8-4437-8f4f-6210-e5be73b1e0d1
+    rank: normal
+  P1366:
+  - mainsnak:
+      snaktype: value
+      property: P1366
+      hash: 20d182d8fd21c82b25d2477edce61f5c12bb6531
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 207669
+          id: Q207669
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: 33beb12deb803b8f0b59d0cdb8246ad45dc1d359
+        datavalue:
+          value:
+            time: "+1927-01-01T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q897424$b6d33ccb-4ec8-e50f-7dbb-2b275e994ef2
+    rank: normal
+  P1365:
+  - mainsnak:
+      snaktype: value
+      property: P1365
+      hash: e2cda3ebfb8f6cc0620dccaf749f32a4f40ce1ff
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 303713
+          id: Q303713
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q897424$f5505cfb-43a2-6a02-8673-698eeefcb6ad
+    rank: normal
+sitelinks:
+  dawiki:
+    site: dawiki
+    title: Ungarske korona
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Hungarian korona
+    badges: []
+  fawiki:
+    site: fawiki
+    title: کرون مجارستان
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Magyar korona
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Corona ungherese
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Korona węgierska
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Венгерская крона
+    badges:
+    - Q17437798
+  ukwiki:
+    site: ukwiki
+    title: Угорська крона
+    badges:
+    - Q17437798
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 匈牙利克朗
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 匈牙利克朗
+    badges: []

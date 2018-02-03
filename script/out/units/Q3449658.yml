@@ -1,0 +1,119 @@
+---
+pageid: 3286207
+ns: 0
+title: Q3449658
+lastrevid: 546404218
+modified: '2017-08-26T04:08:12Z'
+type: item
+id: Q3449658
+labels:
+  en:
+    language: en
+    value: Sicilian piastra
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3449658$5c382cfb-4261-7d9a-e04f-a5e0c4ede38e
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 7719e95fa54976b4097c764cc34dcfcfc319e24a
+      datavalue:
+        value: "/m/0bkvhz"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3449658$D80D0010-18CF-442F-AD5E-016B3E3960B0
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: cfae6d1543ce3ed7559690ddb44ff32b97e6ba1a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 17074907
+          id: Q17074907
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3449658$72393733-4670-d31b-f9e1-916d2c183422
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 818c9ca5ba1c15eb960a89af7210698f3b246c13
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 188586
+          id: Q188586
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3449658$1dde2387-416d-270e-d058-dc06afe577eb
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Sicilian piastra
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Piastra siciliana
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Piastra siciliana
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Сицилийский пиастр
+    badges: []

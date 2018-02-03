@@ -1,0 +1,66 @@
+---
+pageid: 26530752
+ns: 0
+title: Q24564698
+lastrevid: 616821283
+modified: '2018-01-05T12:13:54Z'
+type: item
+id: Q24564698
+labels:
+  en:
+    language: en
+    value: years old
+aliases:
+  en:
+  - language: en
+    value: years
+  - language: en
+    value: years of age
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 98a1e85b80bda7ff493c25a6b805599da715c077
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1790144
+          id: Q1790144
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q24564698$25159d20-4085-b411-6a60-7e15fd93d932
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 0eb223916ccaf8695810fec8b51cfd9522305a6a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 185836
+          id: Q185836
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q24564698$3efcdd4a-40f6-1db3-68be-7295ef3bd6d8
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: ed229eb72d02c4c551e2709f91fd5a1f5b917d57
+      datavalue:
+        value:
+          amount: "+1"
+          unit: http://www.wikidata.org/entity/Q577
+          upperBound: "+1"
+          lowerBound: "+1"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q24564698$bd7f61eb-4055-3d32-c987-845a136eee46
+    rank: normal
+sitelinks: {}

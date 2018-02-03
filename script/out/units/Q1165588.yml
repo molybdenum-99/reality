@@ -1,0 +1,310 @@
+---
+pageid: 1111663
+ns: 0
+title: Q1165588
+lastrevid: 618801008
+modified: '2018-01-11T11:41:28Z'
+type: item
+id: Q1165588
+labels:
+  en:
+    language: en
+    value: rod
+aliases:
+  en:
+  - language: en
+    value: perch
+  - language: en
+    value: pole
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: fe6138cb7cd3513363ab7bc8f7233fc91311b74c
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2534228
+          id: Q2534228
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q1165588$D1EE9EF6-A0C4-443E-9547-C9E46080DBD9
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: f085b0c4c3db3510ae2e3f19c22f34ba4ced3b75
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 16782623
+          id: Q16782623
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1165588$4f875488-463d-3604-cd70-9eabb00810d5
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 9d680ce4f2ec84c18047a5da7f300af5fe87a848
+      datavalue:
+        value: "/m/02mr9z"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1165588$A3475118-394E-475C-ABA1-CBFC8606DF9A
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P910:
+  - mainsnak:
+      snaktype: value
+      property: P910
+      hash: ca814adc03f5036ece08fb96cd967e76a13cd538
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 17331396
+          id: Q17331396
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1165588$8FDD4790-2353-444B-BBE7-BF92ADCE21AF
+    rank: normal
+    references:
+    - hash: 9a24f7c0208b05d6be97077d855671d1dfdbc0dd
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: d38375ffe6fe142663ff55cd783aa4df4301d83d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 48183
+              id: Q48183
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P1014:
+  - mainsnak:
+      snaktype: value
+      property: P1014
+      hash: c749d5015095dc72d5502c8edddd693969fe5ce2
+      datavalue:
+        value: '300379234'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1165588$4C6E0CEF-D430-4BC6-8D23-EDE1320965E3
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: e3895e832170821b2050e8b1f1eae261ff55a3ce
+      datavalue:
+        value: Rod
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1165588$6e8cfd04-4bb2-4e86-0c49-51df9d5051f3
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 39224c6994905971d240467976e4d29c0be365f0
+      datavalue:
+        value:
+          amount: "+5.0292"
+          unit: http://www.wikidata.org/entity/Q11573
+          upperBound: "+5.0292"
+          lowerBound: "+5.0292"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1165588$039e0afe-4ca4-9f19-3465-f238687a6f69
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: a500e7fcc688b096e232d5461db2c97a9d51c7a7
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 14290846
+          id: Q14290846
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1165588$cefcadf5-468c-8604-3a48-a165ed9f75a1
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 5e0ab261887ad6ecacac838abec4ab4c38a94b22
+      datavalue:
+        value: Münster, Historisches Rathaus, Preussische halbe Ruthe -- 2017 -- 9783
+          (crop).jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q1165588$2c4d6d3a-44cb-39bf-cdfc-9df4db8635e8
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 66f93737938fab759415a37cac294d03f9fbf516
+      datavalue:
+        value: rod-US
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1165588$66B72852-7236-4727-8F87-339D3B8219B9
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 4354e3cc033f2c5371e447e5ab1cca8b89ffa3e0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 36253
+          id: Q36253
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1165588$3163d35d-4851-a0df-f4b3-f1d70e06b10b
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: قصبة (وحدة قياس)
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Род (адзінка вымярэньня)
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Rod (unitat)
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Rute (Einheit)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Rod (unit)
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Rod (unidad de longitud)
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Pole
+    badges: []
+  fawiki:
+    site: fawiki
+    title: راد (یکای طول)
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Rod
+    badges: []
+  fywiki:
+    site: fywiki
+    title: Roede (mjitte)
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ロッド (単位)
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Roede (lengtemaat)
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Eininga rute
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Stang
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Rod (unidade)
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Rod (unitate)
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Род (единица измерения)
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Rod (unit)
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Stång (längdmått)
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Rod
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Род (одиниця довжини)
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Rod (oʻlchov birligi)
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 桿
+    badges: []

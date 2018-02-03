@@ -1,0 +1,76 @@
+---
+pageid: 2145206
+ns: 0
+title: Q2221356
+lastrevid: 560949170
+modified: '2017-09-17T19:26:42Z'
+type: item
+id: Q2221356
+labels:
+  en:
+    language: en
+    value: milliwatt-hour
+aliases:
+  en:
+  - language: en
+    value: milliwatt hour
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 06df6efe68f6e25b0d602229267e4d3e9ccc3d64
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2916980
+          id: Q2916980
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2221356$45bc629e-4a71-174b-b231-fd765db92139
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: e18548b8f9b53a81fe4e1d25638e2bdd4de70226
+      datavalue:
+        value: mWh
+        type: string
+      datatype: string
+    type: statement
+    id: Q2221356$6e10c3d1-4681-ace5-0508-890125d04511
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: c590c7361f5e708cc55ccd94cc6ea81c0d6bc1e8
+      datavalue:
+        value: мВт-ч
+        type: string
+      datatype: string
+    type: statement
+    id: Q2221356$02456c94-464a-9c11-510d-03a1b60de6a8
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 6d080f67ef944482cdbb69d656ed8db95095985f
+      datavalue:
+        value:
+          amount: "+0.001"
+          unit: http://www.wikidata.org/entity/Q12874593
+          upperBound: "+0.001"
+          lowerBound: "+0.001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q2221356$15ab3b7c-47d3-d501-eee2-abb5877edb61
+    rank: normal
+sitelinks:
+  nlwiki:
+    site: nlwiki
+    title: Milliwattuur
+    badges: []

@@ -1,0 +1,157 @@
+---
+pageid: 3887665
+ns: 0
+title: Q4079241
+lastrevid: 623136551
+modified: '2018-01-24T22:58:30Z'
+type: item
+id: Q4079241
+labels:
+  en:
+    language: en
+    value: bat
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6e3da81891b6fba54d9ac8088595a4b05e5a5f95
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1302471
+          id: Q1302471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4079241$3a37c29f-43ed-9ede-ce0a-52dcdd9d5395
+    rank: normal
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 4da0757976d088f9516e0f33c23e7333378a401f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 4532135
+          id: Q4532135
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P805:
+      - snaktype: value
+        property: P805
+        hash: 86bf7e7a4e17d4d17e15688803c5b4db87ef16ef
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 26722173
+            id: Q26722173
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P805
+    id: Q4079241$55609D01-CD20-4CE0-94DD-C462DCB65AC0
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: f7699521f034186a6ebe2fd8aac2e7d6756b916d
+      datavalue:
+        value:
+          amount: "+0.0389"
+          unit: http://www.wikidata.org/entity/Q25517
+          upperBound: "+0.0390"
+          lowerBound: "+0.0388"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q4079241$7dea92e9-415a-b5e9-1f14-b542d954533e
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: d9f6624cbcb6748bcd0c74d64468eab2646a0c08
+      datavalue:
+        value:
+          amount: "+38.9"
+          unit: http://www.wikidata.org/entity/Q11582
+          upperBound: "+39.0"
+          lowerBound: "+38.8"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q4079241$53ee6249-4b21-7cbe-8367-1844b4c7c2a1
+    rank: normal
+    references:
+    - hash: 288ab581e7d2d02995a26dfa8b091d96e78457fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 6a164248fc96bfa583bbb495cb63ae6401ec203c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 206855
+              id: Q206855
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: ac194a9e4dfb3ac4a77aeae84621f0f90201e195
+      datavalue:
+        value:
+          amount: "+0.1"
+          unit: http://www.wikidata.org/entity/Q25395697
+          upperBound: "+0.1"
+          lowerBound: "+0.1"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q4079241$9af886cf-441a-aec4-0d11-ca61cf1c7e65
+    rank: normal
+    references:
+    - hash: 718fef2f244d2ba16149b81d19a48aed714feb9f
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: b70c5166cafe59778fd3e6dc3cdf1d59a6a1369c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 25395697
+              id: Q25395697
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: ece6f6e6968e83ab4ea375829a8c5694d93dff51
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 39297
+          id: Q39297
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4079241$89972E02-5EE1-4CDE-BB7B-19975B0481E7
+    rank: normal
+sitelinks:
+  ruwiki:
+    site: ruwiki
+    title: Бат (единица объёма)
+    badges: []

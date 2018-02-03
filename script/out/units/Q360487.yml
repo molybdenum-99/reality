@@ -1,0 +1,103 @@
+---
+pageid: 343622
+ns: 0
+title: Q360487
+lastrevid: 623064584
+modified: '2018-01-24T19:18:28Z'
+type: item
+id: Q360487
+labels:
+  en:
+    language: en
+    value: Chaldron
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6e3da81891b6fba54d9ac8088595a4b05e5a5f95
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1302471
+          id: Q1302471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q360487$8B02CA6B-C99E-4DEC-979F-28FE80F015C5
+    rank: normal
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 42346dfe9209b7359c1f5db829a368b38d407797
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 19180675
+          id: Q19180675
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P805:
+      - snaktype: value
+        property: P805
+        hash: d10bed38f0021ccf56225b48d9cbbe29ddcf5640
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 21746399
+            id: Q21746399
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P805
+    id: Q360487$4c34f69b-46d9-b7b8-5f34-52e3c9bbe727
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 88305067fa9e8890e07abd2d475b62a3a74d735d
+      datavalue:
+        value: Chaldron wagons
+        type: string
+      datatype: string
+    type: statement
+    id: Q360487$28C2DD5B-4C67-40A4-99FB-B703DBD76FEF
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Chaldron
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Chaldron
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Chaldron
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Chaldron
+    badges: []

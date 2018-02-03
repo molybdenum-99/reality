@@ -1,0 +1,231 @@
+---
+pageid: 2398537
+ns: 0
+title: Q2483628
+lastrevid: 564657269
+modified: '2017-09-24T01:15:13Z'
+type: item
+id: Q2483628
+labels:
+  en:
+    language: en
+    value: attosecond
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 98a1e85b80bda7ff493c25a6b805599da715c077
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1790144
+          id: Q1790144
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q2483628$D56D573E-6759-47D8-969A-B84EC0DF1AA7
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: b6fb8552c7b01ebeee1d14121d90c01de4b170a6
+      datavalue:
+        value: as
+        type: string
+      datatype: string
+    type: statement
+    id: q2483628$db311567-4188-cb2a-f999-446488182525
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 865b5ef111c22944a7d769db647606f30de32e78
+      datavalue:
+        value: ас
+        type: string
+      datatype: string
+    type: statement
+    id: Q2483628$b6acae28-401a-8127-4855-c174987552fd
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 3413d4a1da82d0e36680adf86421ca3799d5cdcb
+      datavalue:
+        value: "/m/0kbjk"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2483628$C2B7411F-8610-4B8D-A031-B8E542536B12
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: cfa270aa085b84c0a2b55152794b96bf018864d3
+      datavalue:
+        value:
+          amount: "+0.000000000000000001"
+          unit: http://www.wikidata.org/entity/Q11574
+          upperBound: "+0.000000000000000001"
+          lowerBound: "+0.000000000000000001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q2483628$3f407144-4231-456d-76a6-daeea0c716c2
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: c8404e0ffdc51e0b368984869495b535cb864723
+      datavalue:
+        value: attosecond-time
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2483628$90215B1A-E53D-4BA6-9D7E-BC6DF70893C1
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 76c2d2e9d0ad70960a41302d773b1d17d0914146
+      datavalue:
+        value: Attosecond
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2483628$F9627A87-BDC8-44BE-AFDE-74045AFE6D61
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: f24e032a9edffb089eb58a8af5d2b30d49357f73
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11471
+          id: Q11471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2483628$1FFE0E27-F1D6-4A8C-9F7E-72B9EF95F4AC
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: أتوثانية
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Atosegundu
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Attosegon
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Attosekunde
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Attosecond
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Attosegundo
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Attosegundo
+    badges: []
+  fawiki:
+    site: fawiki
+    title: اتوثانیه
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Attosecondo
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Атосекунда
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Attoseconde
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Attosekund
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Attosekunda
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Attosecond
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Attosekund
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 原秒
+    badges: []

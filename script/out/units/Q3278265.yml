@@ -1,0 +1,67 @@
+---
+pageid: 3127082
+ns: 0
+title: Q3278265
+lastrevid: 555156786
+modified: '2017-09-09T22:08:27Z'
+type: item
+id: Q3278265
+labels:
+  en:
+    language: en
+    value: main
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3278265$f4a15f72-4b8f-6822-5f52-3a10ee5e8682
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 3ae25ff0b19c97dc17d1dad780ea5a76df6de56e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 614112
+          id: Q614112
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P642:
+      - snaktype: value
+        property: P642
+        hash: 6567d5afc36a145103373ee43fa31c81a9a41a89
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 11472
+            id: Q11472
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P642
+    id: Q3278265$6b310264-4b5b-4e5f-1c71-1de7d1495679
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Main (Einheit)
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Main (papeterie)
+    badges: []

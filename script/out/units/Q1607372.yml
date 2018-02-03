@@ -1,0 +1,104 @@
+---
+pageid: 1542229
+ns: 0
+title: Q1607372
+lastrevid: 619010818
+modified: '2018-01-11T22:46:57Z'
+type: item
+id: Q1607372
+labels:
+  en:
+    language: en
+    value: Kiautschou dollar
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: fa3005e2d5ffaae0d4723387a6786c5604c1a4e1
+      datavalue:
+        value: "/m/0bbmnd"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1607372$D24AE892-9EF7-4148-A366-5FFBCE31803F
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1607372$1ADF7CBB-1226-4AD5-A299-2208BA491C3D
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 21101bc60944b0b2942f58ce5ea8d2818f155206
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 675321
+          id: Q675321
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1607372$650b1701-4bef-4089-289b-871cad4e8039
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Kiautschou dollar
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Dólar de Kiau Chau
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Dollaro di Kiao-Ciao
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Доллар Цзяо-Чжоу
+    badges: []

@@ -1,0 +1,128 @@
+---
+pageid: 248829
+ns: 0
+title: Q256422
+lastrevid: 515647843
+modified: '2017-07-08T00:40:53Z'
+type: item
+id: Q256422
+labels:
+  en:
+    language: en
+    value: siriometer
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: e66f3f9654b249a585760ce2deda6ba2163f54cb
+      datavalue:
+        value: "/m/086qlz"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q256422$A7BE5559-7B6A-48E8-8322-CFFA24FCCA5B
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q256422$d430569e-4fe7-315c-8878-9ee6058e0f93
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 4354e3cc033f2c5371e447e5ab1cca8b89ffa3e0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 36253
+          id: Q36253
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q256422$d5c433e1-4744-714d-d77d-9f4b237e058d
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 0e4295479edcee9848a5305e3e7450b770ba2719
+      datavalue:
+        value:
+          amount: "+149597870000000000"
+          unit: http://www.wikidata.org/entity/Q11573
+          upperBound: "+149597870000000000"
+          lowerBound: "+149597870000000000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q256422$03866794-4cc2-3c30-5ff9-038c1494795f
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Siriometer
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Siriometer
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Siriómetro
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Сириометр
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Siriometer
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Siriometer
+    badges: []

@@ -1,0 +1,135 @@
+---
+pageid: 19948015
+ns: 0
+title: Q18413919
+lastrevid: 623232866
+modified: '2018-01-25T09:54:51Z'
+type: item
+id: Q18413919
+labels:
+  en:
+    language: en
+    value: centimetre per second
+aliases:
+  en:
+  - language: en
+    value: centimeter per second
+  - language: en
+    value: cm/s
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: b4f9c836c43d6700bbb61b79f9c7e714c1b52c93
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 15222637
+          id: Q15222637
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q18413919$9978e24e-49f3-6cf9-6c75-374f158c49e8
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 7cc0f977c7e5868c93ca6a858b209afb2a44798f
+      datavalue:
+        value: cm/s
+        type: string
+      datatype: string
+    type: statement
+    id: Q18413919$0C226698-134E-4F59-82F6-94704271C939
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 05f4bdbf931c1360c4d43a9a29df75a71c63fbc0
+      datavalue:
+        value: см/c
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q18413919$137eea1b-430b-0e1f-5eb9-ccc4db4df6f4
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 2c2d3f27b59ac12ffdc077eca67e67ee6340aee6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11465
+          id: Q11465
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q18413919$348BA374-C8B2-46CE-8A10-C5FCFBA592C0
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 21624fc4860cd4986423af3be7d35223972908a1
+      datavalue:
+        value:
+          amount: "+0.01"
+          unit: http://www.wikidata.org/entity/Q182429
+          upperBound: "+0.01"
+          lowerBound: "+0.01"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q18413919$379DA1EE-06DA-4E2D-90A2-ED8E1051565C
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: e0bd989e1fa7d56fe27fb6de6665cdf4fb5ad915
+      datavalue:
+        value: centimetre_per_second-time
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q18413919$B7E336B3-0961-486E-A34B-28F1403A0B50
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 9c2102675855da243d1adde3a1f0006cc50d536e
+      datavalue:
+        value: CentimeterPerSecond
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q18413919$cf5c06da-4a3e-3252-9789-5dfe4bd63eee
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Kine
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Centimètre par seconde
+    badges: []

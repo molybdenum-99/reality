@@ -1,0 +1,140 @@
+---
+pageid: 1957060
+ns: 0
+title: Q2029156
+lastrevid: 537539040
+modified: '2017-08-14T08:08:01Z'
+type: item
+id: Q2029156
+labels:
+  en:
+    language: en
+    value: quad
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 7f7d37e4fd95dfd57b5f922921263ed70191321f
+      datavalue:
+        value: "/m/027_qb4"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2029156$1A193CE2-2C67-4AD5-A687-FB632BC05A24
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 06df6efe68f6e25b0d602229267e4d3e9ccc3d64
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2916980
+          id: Q2916980
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2029156$1f160cf7-4c09-21dd-ecb1-c911c8f6a98c
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: ada77ae9fb091e30058a7c604f661315be382f00
+      datavalue:
+        value:
+          amount: "+1055000000000000000"
+          unit: http://www.wikidata.org/entity/Q25269
+          upperBound: "+1056000000000000000"
+          lowerBound: "+1054000000000000000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q2029156$b7522abb-4b3a-38bd-7e22-421e1a235284
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: e282f94fb224ee533e30a6979725c1469978ad8b
+      datavalue:
+        value: Quad
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2029156$5d3d720f-46d7-a580-a4b6-6a59b14c6b9a
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 7ad0f8fc8c23eb3ede324fc816121895c19109c6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11379
+          id: Q11379
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2029156$99A1FD5C-FD3D-4930-BDA8-AD119C3964DF
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Quad (Einheit)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Quad (unit)
+    badges: []
+  fawiki:
+    site: fawiki
+    title: کوآد
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Quad (unità di misura)
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Quad (unidade)
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Quad (đơn vị)
+    badges: []

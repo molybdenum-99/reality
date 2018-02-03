@@ -1,0 +1,241 @@
+---
+pageid: 4771231
+ns: 0
+title: Q4992853
+lastrevid: 597261214
+modified: '2017-11-22T18:35:41Z'
+type: item
+id: Q4992853
+labels:
+  en:
+    language: en
+    value: kiloton
+aliases:
+  en:
+  - language: en
+    value: kt
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 06df6efe68f6e25b0d602229267e4d3e9ccc3d64
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2916980
+          id: Q2916980
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4992853$ef59595d-4d83-650d-3318-208d05692619
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: ac75639b0653d826a1b95d8cde0213b0b7969eba
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 193227
+          id: Q193227
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4992853$6153aa54-45d5-c445-a83c-e7e46a3a175d
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 62b84f711a31b928cf7f5a41ab6064265e3bff89
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 17362920
+          id: Q17362920
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P642:
+      - snaktype: value
+        property: P642
+        hash: bf9567b54e6c419b8f5a87581f823be7b4791210
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 193227
+            id: Q193227
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P642
+    id: Q4992853$9101B01A-A3CF-45B7-8831-79F0DA1E4207
+    rank: normal
+    references:
+    - hash: bd49d3e4f67bc460ce7a06b6ac3027347cf5ee55
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e84b0343e79e2a9aa8abadd7301051e15fba52d6
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 169514
+              id: Q169514
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: afc8255afc2e50aa6e3eebaf0201cda8d5b77a2b
+      datavalue:
+        value: kt
+        type: string
+      datatype: string
+    type: statement
+    id: Q4992853$6838f09f-46a3-383d-a806-7a46e3509df4
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: cd8381833fe79a4a3c82783456ef7831b886a3be
+      datavalue:
+        value:
+          amount: "+4184000000000"
+          unit: http://www.wikidata.org/entity/Q25269
+          upperBound: "+4184000000000"
+          lowerBound: "+4184000000000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q4992853$c1e4f29b-4d75-295f-ad42-7830a54c235b
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 9e03968e4a508d3c27027b22aa86c1a0568d71c5
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 193227
+          id: Q193227
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4992853$3e817fed-44a9-3bec-753b-d2f6e77ec2b8
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 7ad0f8fc8c23eb3ede324fc816121895c19109c6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11379
+          id: Q11379
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4992853$753F0B38-B3D6-4029-90A4-9AECB8A1D61E
+    rank: normal
+sitelinks:
+  bgwiki:
+    site: bgwiki
+    title: Килотон
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Kilotona
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Kiloton
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Kilotonne TNT
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Χιλιότονο
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Kiloton
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Kilotuno
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Kilotón
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: TNT-ekvivalentti
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Kilotonne
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Chilotone
+    badges: []
+  jawiki:
+    site: jawiki
+    title: キロトン
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 킬로톤
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Kiloton
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Kilotonn
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Kilotona
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Quiloton
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Килотонна
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Kilotona
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Kiloton
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Kiloton
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Кілотонна
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Kiloton
+    badges: []

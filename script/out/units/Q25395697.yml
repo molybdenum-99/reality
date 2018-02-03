@@ -1,0 +1,66 @@
+---
+pageid: 27348590
+ns: 0
+title: Q25395697
+lastrevid: 417329235
+modified: '2016-12-17T07:07:39Z'
+type: item
+id: Q25395697
+labels:
+  en:
+    language: en
+    value: khomer
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6e3da81891b6fba54d9ac8088595a4b05e5a5f95
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1302471
+          id: Q1302471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q25395697$cdd34432-4da4-78db-ef11-fbd012cdb72c
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: d9b2125a89495efb2eb0190acc05e10813c739ea
+      datavalue:
+        value:
+          amount: "+10"
+          unit: http://www.wikidata.org/entity/Q4079241
+          upperBound: "+10"
+          lowerBound: "+10"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q25395697$936ee137-45b8-5c02-1bb3-1232f2a2a190
+    rank: normal
+    references:
+    - hash: 6b3073a397edd212ed4864a107f68f205123dd09
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: cf209cdb0071ba0070a136d28ab5ef585b945441
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 25296374
+              id: Q25296374
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+sitelinks:
+  ruwiki:
+    site: ruwiki
+    title: Хомер (мера)
+    badges: []

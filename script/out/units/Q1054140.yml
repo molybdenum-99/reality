@@ -1,0 +1,296 @@
+---
+pageid: 1003074
+ns: 0
+title: Q1054140
+lastrevid: 564652855
+modified: '2017-09-24T01:03:55Z'
+type: item
+id: Q1054140
+labels:
+  en:
+    language: en
+    value: megametre
+aliases:
+  en:
+  - language: en
+    value: megameter
+  - language: en
+    value: Mm
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1c41b2ea8a3f6d3fab77c103d826ae5ead7a9c01
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1978718
+          id: Q1978718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1054140$29e14b83-479c-8039-a070-74257a8f349f
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: af6a1b47964ca6c8a34e550f6eea19533b3e99a2
+      datavalue:
+        value: Mm
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: q1054140$ff40705d-4b7a-0391-890e-a94181a49357
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 69b35ac59088e7385641a91ff26a79eccb7ea684
+      datavalue:
+        value: Мм
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q1054140$3c58329c-477a-c188-7959-af7c70aa1553
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 544b3506436a2681a28ac98e0a418de259aa52e3
+      datavalue:
+        value: "/m/02mvqx"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1054140$608D6554-9E11-4FC7-91A4-B7970600C3FE
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: caa722fdda350c8051d19152bcab85b3c368d1ca
+      datavalue:
+        value:
+          amount: "+1000000"
+          unit: http://www.wikidata.org/entity/Q11573
+          upperBound: "+1000000"
+          lowerBound: "+1000000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1054140$0d2e1c7f-4331-9c83-22e7-7527b9854896
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: d1ffedf1722efb94e9228935ce0ff3c21ea17ca8
+      datavalue:
+        value: megametre
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1054140$73236970-FFF0-4863-B905-7671FAEF3D27
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 4354e3cc033f2c5371e447e5ab1cca8b89ffa3e0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 36253
+          id: Q36253
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1054140$93224be4-499a-633f-bbb9-7c486f14c1b9
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: ميجامتر
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Megámetru
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: মেগামিটার
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Megametar
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Megàmetre
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Megametre
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Megámetro
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Megameeter
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Megametro
+    badges: []
+  fawiki:
+    site: fawiki
+    title: مگامتر
+    badges: []
+  hakwiki:
+    site: hakwiki
+    title: Pak-van-mí
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: मेगामीटर
+    badges: []
+  jawiki:
+    site: jawiki
+    title: メガメートル
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 메가미터
+    badges: []
+  lowiki:
+    site: lowiki
+    title: ເມກາແມັດ
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: മെഗാമീറ്റർ
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: मेगामीटर
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Megameter
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Megameter
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Megameter
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Megametr
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Megametro
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Megametru
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Megametar
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Megameter
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Мегаметар
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Megameter
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Megametre
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Mêgamét
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 兆米
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 百万米
+    badges: []

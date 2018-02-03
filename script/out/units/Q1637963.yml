@@ -1,0 +1,264 @@
+---
+pageid: 1572237
+ns: 0
+title: Q1637963
+lastrevid: 607802837
+modified: '2017-12-13T02:10:05Z'
+type: item
+id: Q1637963
+labels:
+  en:
+    language: en
+    value: minim
+aliases:
+  en:
+  - language: en
+    value: minimum
+  - language: en
+    value: min
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: b818e3e94f6700af4e4dcd20386a452c7c8ac75c
+      datavalue:
+        value: "/m/01pmmt"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1637963$D6D1CC77-0612-4A43-BEEB-45D9DF9F776F
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6e3da81891b6fba54d9ac8088595a4b05e5a5f95
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1302471
+          id: Q1302471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1637963$4D91CDEC-7237-485D-BF6E-3678BFC733E8
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 8b8e315df86122c7665ea464234efe0cc4e65ec0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 641227
+          id: Q641227
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1637963$8efc947b-4a57-949f-429a-0863f3a69df9
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: f4e1396eeea75f1462e41ded71577bdcf34b92c6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1116609
+          id: Q1116609
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1637963$ad78234a-4c91-98c1-6d24-ff161eed9f0f
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 14443eba4f032f82b43c6853a3ad70121f2242f9
+      datavalue:
+        value:
+          amount: "+0.00000005919388388"
+          unit: http://www.wikidata.org/entity/Q25517
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P518:
+      - snaktype: value
+        property: P518
+        hash: 502fc26c5e24a03337b9c0699c215d64b61d7af1
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 641227
+            id: Q641227
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P518
+    id: Q1637963$41123a2a-43c6-6fe2-8acc-4d4defdabdef
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: ae5f3abade1791d62418790dd8d560d32c8ddcb7
+      datavalue:
+        value:
+          amount: "+0.0000000616115199219"
+          unit: http://www.wikidata.org/entity/Q25517
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P518:
+      - snaktype: value
+        property: P518
+        hash: 2af128392884831cff44e37953a497ac576db532
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 1116609
+            id: Q1116609
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P518
+    id: Q1637963$22a04a6d-4907-cdcc-f8fd-d82e01e1d466
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: adba57738abd173a0badc06a239ede4a7a96f111
+      datavalue:
+        value:
+          amount: "+0.00208333"
+          unit: http://www.wikidata.org/entity/Q420266
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1637963$a44aa19c-448c-3c6f-4436-81357d56ef67
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: ae4db0a7e66cc29d52c022905c32249d7dd455aa
+      datavalue:
+        value:
+          amount: "+0.0166666"
+          unit: http://www.wikidata.org/entity/Q1434123
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1637963$41164bbc-4313-0701-e14e-54c5eae9686d
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: ece6f6e6968e83ab4ea375829a8c5694d93dff51
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 39297
+          id: Q39297
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1637963$0DD139C9-DB29-463A-A297-BDDAAF2AD353
+    rank: normal
+  P2581:
+  - mainsnak:
+      snaktype: value
+      property: P2581
+      hash: f2ed2602ee0d0a68490500d366f0f3a468eab724
+      datavalue:
+        value: '02156962n'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1637963$86B8919D-DFE4-4676-819E-611C2244081C
+    rank: normal
+    references:
+    - hash: bd0ee81488cd8c23d4b655e417aac78dca370283
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: a0b4f55dbedbadaf83e7d2461b47b7aeaba86359
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 4837690
+              id: Q4837690
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Minim
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Minim (unit)
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Minim
+    badges: []
+  fawiki:
+    site: fawiki
+    title: مینیم
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Minim
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Minim
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Миним
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Мінім
+    badges: []

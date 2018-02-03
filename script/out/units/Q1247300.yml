@@ -1,0 +1,140 @@
+---
+pageid: 1188385
+ns: 0
+title: Q1247300
+lastrevid: 625083234
+modified: '2018-01-31T12:43:50Z'
+type: item
+id: Q1247300
+labels:
+  en:
+    language: en
+    value: centimetre of water
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6166ea9a07e43efe7af58b089be082880e6b8c61
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10751953
+          id: Q10751953
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1247300$53cd7365-454c-0158-7405-95e24d918deb
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 6a5e41e1f500c078d88c0949c5a3ffe42cc8136d
+      datavalue:
+        value: "/m/03cd9_"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1247300$2CF75A2B-AA00-4960-B1D0-3FD4DAF89D94
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 22619c2dbb62bad5ddcb6b2fd437247e71fda287
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2042279
+          id: Q2042279
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1247300$57a3bcac-4d1a-1883-8049-c6dd829d1b17
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 39c542f0e60ad138cecf4d824dd09fc73bb89062
+      datavalue:
+        value: CentimeterOfWater
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1247300$EA493AEC-EAF2-49B2-B141-39D1C1D54421
+    rank: normal
+  P4746:
+  - mainsnak:
+      snaktype: value
+      property: P4746
+      hash: 0bd6b0c2c5584bc43d6bcc5de7c660e5b48e0157
+      datavalue:
+        value: '120422'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1247300$E5AE8A6D-238A-4267-9BF4-B7D23CA0C155
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Centimetre of water
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Vesisenttimetri
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Centimètre d'eau
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Centimetri di acqua
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Centimeter waterkolom
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Centímetro de água
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Centimeter vattenpelare
+    badges: []

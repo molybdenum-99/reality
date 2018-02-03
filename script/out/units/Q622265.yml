@@ -1,0 +1,409 @@
+---
+pageid: 585397
+ns: 0
+title: Q622265
+lastrevid: 622983996
+modified: '2018-01-24T14:03:50Z'
+type: item
+id: Q622265
+labels:
+  en:
+    language: en
+    value: Aptian
+aliases: {}
+claims:
+  P155:
+  - mainsnak:
+      snaktype: value
+      property: P155
+      hash: d78d8d3f8a9fc09bcddb032b499606fa0eb7fa40
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 732702
+          id: Q732702
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q622265$F06824A2-5E9E-4431-B5F6-3CA7ECF914EE
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P156:
+  - mainsnak:
+      snaktype: value
+      property: P156
+      hash: fbd8ebd3c33def15ce2751c9b01130a6b533e529
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 301728
+          id: Q301728
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q622265$6C6C13EE-915D-4CBE-BA9E-8C56EA12C591
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 1a68a13fbb252fbf5aa7399144135f702fc32a8f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 207632
+          id: Q207632
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q622265$2276C575-F7A5-4C83-A573-7D07CD4D9922
+    rank: normal
+    references:
+    - hash: 3621a02d41822bc2cc9a5ef848b42d66fb3b9257
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: a0828a0e8b873d830b82d139957ff97469e4d449
+          datavalue:
+            value:
+              time: "+2014-10-15T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P813
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 2428adc3826fc083005b17aff77d55d5ed7161a0
+      datavalue:
+        value: "/m/07p1_f"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q622265$AA0F05B8-D452-42C0-96C0-E668682764A5
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 0d1771cfe6ba4930002468cd256fc8b11e9c438f
+      datavalue:
+        value: Aptian
+        type: string
+      datatype: string
+    type: statement
+    id: Q622265$2F46F664-6DC3-46ED-A223-27F5761852F6
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P910:
+  - mainsnak:
+      snaktype: value
+      property: P910
+      hash: 61e726b3147b8d51b574653e102d6d49ea7cc95a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 21757623
+          id: Q21757623
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q622265$04AE600E-C2AD-4D04-9BD1-EF027934FFB3
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P1296:
+  - mainsnak:
+      snaktype: value
+      property: P1296
+      hash: 00306bece4506c48587644483afe875375631e9e
+      datavalue:
+        value: '0004564'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q622265$5CCA5878-A750-4F21-912A-A77C570660DC
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1774498cb861c7f76e71afc94661ed9a03d8461a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1123245
+          id: Q1123245
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q622265$073aea5e-4143-ca2c-8d96-aa05d3cce7f1
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: b230ba6f73ec78c2fd8b28c19fab3a1a3e51124e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 568683
+          id: Q568683
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q622265$3af42937-4f65-67e1-8f68-845c795e6afc
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 1568a2bb42f7a8d54c587afac24af8647ef0e532
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 752187
+          id: Q752187
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q622265$8cc2efb3-4f89-d3d9-e941-e72ccac005ce
+    rank: normal
+  P3827:
+  - mainsnak:
+      snaktype: value
+      property: P3827
+      hash: 6523e586b6c5ae44fe4392dba7dda1ff98837db4
+      datavalue:
+        value: aptian-age
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q622265$E72276EB-BA3C-4237-BADF-2F75FA30F4B4
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Aptium
+    badges: []
+  arwiki:
+    site: arwiki
+    title: الأبتي
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Aptianu
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Aptià
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Apt (geologie)
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Aptium
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Άπτιο
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Aptian
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Aptiano
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Aptiense
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Aptiar
+    badges: []
+  fawiki:
+    site: fawiki
+    title: آپتین
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Apt-vaihe
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Aptien
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Apti
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Aptiano
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Aptium
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Aptia
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Aptien
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Aptium
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Aptium
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Atian
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Apt (geologia)
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Aptiano
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Аптский ярус
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Apt (geologija)
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Аптський ярус
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Tầng Apt
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 阿普第期
+    badges: []

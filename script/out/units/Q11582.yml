@@ -1,0 +1,1112 @@
+---
+pageid: 13106
+ns: 0
+title: Q11582
+lastrevid: 624689489
+modified: '2018-01-30T10:20:24Z'
+type: item
+id: Q11582
+labels:
+  en:
+    language: en
+    value: liter
+aliases:
+  en:
+  - language: en
+    value: L
+  - language: en
+    value: litre
+  - language: en
+    value: l
+claims:
+  P460:
+  - mainsnak:
+      snaktype: value
+      property: P460
+      hash: fc724a87a361081ba9c41c28db06fc41f5a778d7
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2175964
+          id: Q2175964
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q11582$656b4897-423f-5098-59ff-9a68f621a534
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 6e3da81891b6fba54d9ac8088595a4b05e5a5f95
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1302471
+          id: Q1302471
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q11582$87150913-4ce0-5a11-966d-aa078e426e86
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 52af79c09876ea2dc1186b3922f50a16be73f7bc
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3268848
+          id: Q3268848
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q11582$e1e5e16c-405d-a275-dbdd-222afd0dc3c8
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 7d849b2650508cda3eebf61270e89aa2a3272e70
+      datavalue:
+        value: "/m/04lmb"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q11582$D496272F-FB37-47F7-8AD5-9229D231FC66
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 49c85087c3da3afca2479fdf51d8fe9a67417c0e
+      datavalue:
+        value: l
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q11582$7f30e195-4035-2332-0e24-bfbcc24dd659
+    rank: preferred
+    references:
+    - hash: fe6b5dd7a873279b7847286a2e1e29865e66e930
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 26fc09289522fb4d0720942564c921c35a0d4db9
+          datavalue:
+            value: '21'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: d91796d6666672ef9ffefbcaff859ec386db1751
+          datavalue:
+            value: 6.5.6
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+    - hash: bbc27e611f75f3d1458a1765f20eafdc9c460fd0
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: 25437473d4b0a93c6eea064c8488f9611c9ad33d
+          datavalue:
+            value: 3-4.b
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 1bb4e9769e62cbd6f4d6d8b204d53292a08e0009
+      datavalue:
+        value: لتر
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: aa3f8171d71338a019a3e43c848eb59374b15b71
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8196
+            id: Q8196
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q11582$7E7D0292-4F75-4F21-A922-5FDA5021BBCF
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: fb967609b73e5082813cd108acbbcf62160f0f48
+      datavalue:
+        value: லீ.
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 2785172061b91c1ce064807270286f993a5ae28a
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 1164129
+            id: Q1164129
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q11582$585ecbea-450a-4e62-e998-385cd9e9671c
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 3c14397c83a8f45511b20a8e028e3dd7a573b704
+      datavalue:
+        value: л
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q11582$95870cda-43e6-ec4b-c6fe-2a685a5b6586
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 65b870bd4b2ee076895849d97352fc86dd083748
+      datavalue:
+        value: L
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q11582$f3d0d173-477b-3467-6a3b-adff871c7ce3
+    rank: normal
+    references:
+    - hash: fe6b5dd7a873279b7847286a2e1e29865e66e930
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 26fc09289522fb4d0720942564c921c35a0d4db9
+          datavalue:
+            value: '21'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: d91796d6666672ef9ffefbcaff859ec386db1751
+          datavalue:
+            value: 6.5.6
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+    - hash: bbc27e611f75f3d1458a1765f20eafdc9c460fd0
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: 25437473d4b0a93c6eea064c8488f9611c9ad33d
+          datavalue:
+            value: 3-4.b
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: d38d19071ef64366d346218444e748a12a591702
+      datavalue:
+        value: ל'
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 5ab9edfe720165e8c92da8c7b47bbac87f665de5
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 33513
+            id: Q33513
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q11582$91b2a9aa-4a7b-4ce3-9c17-938a899e2dfa
+    rank: normal
+  P1014:
+  - mainsnak:
+      snaktype: value
+      property: P1014
+      hash: 4f8811c27406191061d18f5d0140d163d9013b0d
+      datavalue:
+        value: '300379227'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q11582$F75654FA-3A5F-45CA-8E10-5F8246E91120
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: eb6fa6f10212541d7ddedf25bc06c9736ebc73c5
+      datavalue:
+        value: Litre
+        type: string
+      datatype: string
+    type: statement
+    id: Q11582$2a2850f2-4ff9-a64a-f61c-95c7093728d7
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: b0dd5ac21de72ec41d746089a6696b40bf51a5b5
+      datavalue:
+        value:
+          amount: "+0.001"
+          unit: http://www.wikidata.org/entity/Q25517
+          upperBound: "+0.001"
+          lowerBound: "+0.001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q11582$1ed62db4-4e1b-3a1e-4337-ca591de7ae65
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: d8ed12a6eb8dd5cfb02caa1e0a1ab3e171af2fb1
+      datavalue:
+        value: Liter
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q11582$3C5DBA84-16D7-42FC-ACEB-4502D8644BD3
+    rank: normal
+  P1807:
+  - mainsnak:
+      snaktype: value
+      property: P1807
+      hash: e0869c5f94da7924e3ef221e6899317c30803f08
+      datavalue:
+        value: '8059'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q11582$0CAE8B34-4788-4D11-A257-7229891CFA29
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 538773bcc83e6f468ed6ccef28cd6ac6049df708
+      datavalue:
+        value: CubeLitre.svg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    qualifiers:
+      P2096:
+      - snaktype: value
+        property: P2096
+        hash: e5ab43133289e77ad5afbbb757274bc9a0876e23
+        datavalue:
+          value:
+            text: Exemple de mesures del litre, mitjançant un volum cúbic, segons
+              la definició basada en el decímetre cúbic
+            language: ca
+          type: monolingualtext
+        datatype: monolingualtext
+    qualifiers-order:
+    - P2096
+    id: Q11582$32ddb2da-4d5e-d7d3-e344-690f43d8df6e
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 8280471ce850f4ab6f446e2ec2c3a7e8e92f5a91
+      datavalue:
+        value: Liter
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q11582$AF535EF2-0B33-4FE0-A351-4362CD1C8958
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P972:
+  - mainsnak:
+      snaktype: value
+      property: P972
+      hash: 37a243f05a3ffbf6bae1b263efbcd5b3fc88bb8d
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 5460604
+          id: Q5460604
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q11582$081C7AEB-9B9F-4903-9D48-1A95A174324E
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 01473d86fcc6028ff6e431340bbbd04b301e8703
+      datavalue:
+        value: litre
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q11582$74ED580A-182A-416C-8664-A12B73C91468
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: ece6f6e6968e83ab4ea375829a8c5694d93dff51
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 39297
+          id: Q39297
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q11582$20cea529-49d9-16b3-6a4a-69eeb07d5b2e
+    rank: normal
+    references:
+    - hash: fe6b5dd7a873279b7847286a2e1e29865e66e930
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 26fc09289522fb4d0720942564c921c35a0d4db9
+          datavalue:
+            value: '21'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: d91796d6666672ef9ffefbcaff859ec386db1751
+          datavalue:
+            value: 6.5.6
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: '095b22e5c47a47f7d5e84e00899837038be11bd4'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 26711932
+          id: Q26711932
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P958:
+      - snaktype: value
+        property: P958
+        hash: 25437473d4b0a93c6eea064c8488f9611c9ad33d
+        datavalue:
+          value: 3-4.b
+          type: string
+        datatype: string
+    qualifiers-order:
+    - P958
+    id: Q11582$1e3545f0-4ed7-09b6-2cdc-660298ae5a00
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 3a1ec8e08b03f4b78cef59af2af05a8d1bcea881
+      datavalue:
+        value:
+          amount: "+1"
+          unit: http://www.wikidata.org/entity/Q2175964
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q11582$9fcd5fb1-4946-8157-db0e-4169020f0097
+    rank: normal
+    references:
+    - hash: fe6b5dd7a873279b7847286a2e1e29865e66e930
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: e40cc78cf5559982429d9d7b5a855cacf7be499c
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711930
+              id: Q26711930
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P304:
+        - snaktype: value
+          property: P304
+          hash: 26fc09289522fb4d0720942564c921c35a0d4db9
+          datavalue:
+            value: '21'
+            type: string
+          datatype: string
+        P958:
+        - snaktype: value
+          property: P958
+          hash: d91796d6666672ef9ffefbcaff859ec386db1751
+          datavalue:
+            value: 6.5.6
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P304
+      - P958
+  P2924:
+  - mainsnak:
+      snaktype: value
+      property: P2924
+      hash: 53623401b6c03f38e42721eb5de0524ca30e1215
+      datavalue:
+        value: '2147957'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q11582$ACFBBE48-8943-405E-979F-08BC75B994CF
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Liter
+    badges: []
+  alswiki:
+    site: alswiki
+    title: Liter
+    badges: []
+  anwiki:
+    site: anwiki
+    title: Litro
+    badges: []
+  arwiki:
+    site: arwiki
+    title: لتر
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Llitru
+    badges: []
+  azbwiki:
+    site: azbwiki
+    title: لیتر
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Litr
+    badges: []
+  bat_smgwiki:
+    site: bat_smgwiki
+    title: Lėtros
+    badges: []
+  bawiki:
+    site: bawiki
+    title: Литр
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Літар
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Літр
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Литър
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: লিটার
+    badges: []
+  bowiki:
+    site: bowiki
+    title: སྤྱི་ཧྲན།
+    badges: []
+  brwiki:
+    site: brwiki
+    title: Litr
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Litar
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Litre
+    badges: []
+  ckbwiki:
+    site: ckbwiki
+    title: لیتر
+    badges: []
+  commonswiki:
+    site: commonswiki
+    title: Category:Litre
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Litr
+    badges: []
+  cvwiki:
+    site: cvwiki
+    title: Литр
+    badges: []
+  cywiki:
+    site: cywiki
+    title: Litr
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Liter
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Liter
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Λίτρο
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Litre
+    badges: []
+  enwikibooks:
+    site: enwikibooks
+    title: Cookbook:Liter
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Litro
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Litro
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Liiter
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Litro
+    badges: []
+  fawiki:
+    site: fawiki
+    title: لیتر
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Litra
+    badges: []
+  frrwiki:
+    site: frrwiki
+    title: Liter
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Litre
+    badges: []
+  furwiki:
+    site: furwiki
+    title: Litri
+    badges: []
+  fywiki:
+    site: fywiki
+    title: Liter
+    badges: []
+  ganwiki:
+    site: ganwiki
+    title: 公升
+    badges: []
+  gawiki:
+    site: gawiki
+    title: Lítear
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Litro
+    badges: []
+  hakwiki:
+    site: hakwiki
+    title: Kûng-sṳ̂n
+    badges: []
+  hewiki:
+    site: hewiki
+    title: ליטר
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: लीटर
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Litra
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Liter
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Լիտր
+    badges: []
+  iawiki:
+    site: iawiki
+    title: Litro
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Liter
+    badges: []
+  ilowiki:
+    site: ilowiki
+    title: Litro
+    badges: []
+  iowiki:
+    site: iowiki
+    title: Litro
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Lítri
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Litro
+    badges: []
+  jamwiki:
+    site: jamwiki
+    title: Liita
+    badges: []
+  jawiki:
+    site: jawiki
+    title: リットル
+    badges: []
+  jvwiki:
+    site: jvwiki
+    title: Liter
+    badges: []
+  kawiki:
+    site: kawiki
+    title: ლიტრი
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Литр
+    badges: []
+  knwiki:
+    site: knwiki
+    title: ಲೀಟರ್
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 리터
+    badges: []
+  krcwiki:
+    site: krcwiki
+    title: Литр
+    badges: []
+  kuwiki:
+    site: kuwiki
+    title: Lîtir
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Litrum
+    badges: []
+  lbwiki:
+    site: lbwiki
+    title: Liter
+    badges: []
+  lezwiki:
+    site: lezwiki
+    title: Литр
+    badges: []
+  liwiki:
+    site: liwiki
+    title: Liter
+    badges: []
+  lmowiki:
+    site: lmowiki
+    title: Lìter
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Litras
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Litrs
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Литар
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: ലിറ്റർ
+    badges: []
+  mnwiki:
+    site: mnwiki
+    title: Литр
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: लीटर
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Liter
+    badges: []
+  mywiki:
+    site: mywiki
+    title: လီတာ
+    badges: []
+  newwiki:
+    site: newwiki
+    title: लितर
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Liter
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Liter
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Liter
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Litre
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਲੀਟਰ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Litr
+    badges: []
+  pnbwiki:
+    site: pnbwiki
+    title: لٹر
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Litro
+    badges: []
+  roa_tarawiki:
+    site: roa_tarawiki
+    title: Litre
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Litru
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Литр
+    badges: []
+  sahwiki:
+    site: sahwiki
+    title: Лиитэрэ
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Litru
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Litre
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Litar
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Litre
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Liter
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Liter
+    badges: []
+  sowiki:
+    site: sowiki
+    title: Litir
+    badges: []
+  sqwiki:
+    site: sqwiki
+    title: Litri
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Литар
+    badges: []
+  suwiki:
+    site: suwiki
+    title: Léter
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Liter
+    badges: []
+  swwiki:
+    site: swwiki
+    title: Lita
+    badges: []
+  tawiki:
+    site: tawiki
+    title: லிட்டர்
+    badges: []
+  tewiki:
+    site: tewiki
+    title: లీటరు
+    badges: []
+  thwiki:
+    site: thwiki
+    title: ลิตร
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Litro
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Litre
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Літр
+    badges: []
+  urwiki:
+    site: urwiki
+    title: لٹر
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Litr
+    badges: []
+  vecwiki:
+    site: vecwiki
+    title: Litro
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Lít
+    badges: []
+  warwiki:
+    site: warwiki
+    title: Litro
+    badges: []
+  yiwiki:
+    site: yiwiki
+    title: ליטער
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Li̍p
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 公升
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 公升
+    badges: []

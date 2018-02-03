@@ -1,0 +1,322 @@
+---
+pageid: 800814
+ns: 0
+title: Q848856
+lastrevid: 623208945
+modified: '2018-01-25T07:51:32Z'
+type: item
+id: Q848856
+labels:
+  en:
+    language: en
+    value: decametre
+aliases:
+  en:
+  - language: en
+    value: dam
+claims:
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: d9745103b02e85e935d87cb5354d2f277672a5ba
+      datavalue:
+        value: dam
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: q848856$915e78dc-425f-d12e-669c-9a419488b22f
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 45a68c5898d1393a074e759cb4588ca7acf8b817
+      datavalue:
+        value: дам
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q848856$23a9a689-40ea-ca27-8acb-5cd7d49115d8
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1c41b2ea8a3f6d3fab77c103d826ae5ead7a9c01
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1978718
+          id: Q1978718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q848856$bdf65b9e-4244-72dc-80a6-e68694e6aa88
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 1a75bbff4c2e5f07dc26b7c46c72c24ccac89eb6
+      datavalue:
+        value: "/m/01p6gt"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q848856$1D42B563-C85A-4A6C-88A1-BA2FF8DCAEC9
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2043:
+  - mainsnak:
+      snaktype: value
+      property: P2043
+      hash: 7cea7d422cff0fee425cf0108a36fe2a6faf9cf6
+      datavalue:
+        value:
+          amount: "+10"
+          unit: http://www.wikidata.org/entity/Q11573
+          upperBound: "+10"
+          lowerBound: "+10"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q848856$16fb9cf4-42f2-eb3a-fbe5-1b1c935593fb
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: a1f9b7754a071bf7cea83ec4b89eba8b8034be2c
+      datavalue:
+        value:
+          amount: "+10"
+          unit: http://www.wikidata.org/entity/Q11573
+          upperBound: "+10"
+          lowerBound: "+10"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q848856$88a3c330-4c35-9d1d-4272-731b0baa5cf9
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 24f64e3fbd191bee9f091ef1b156aa4716f8891a
+      datavalue:
+        value: decametre
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q848856$E768D5BA-AA62-4311-A2F9-8A141E9AB671
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 4354e3cc033f2c5371e447e5ab1cca8b89ffa3e0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 36253
+          id: Q36253
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q848856$A3B92035-0C26-4E6E-92AB-418D23C9B475
+    rank: normal
+sitelinks:
+  anwiki:
+    site: anwiki
+    title: Decametro
+    badges: []
+  arwiki:
+    site: arwiki
+    title: ديكامتر
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Decámetru
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: ডেকামিটার
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Decàmetre
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Dekameter
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Dekameter
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Decametre
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Decámetro
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Dekametro
+    badges: []
+  fawiki:
+    site: fawiki
+    title: دکامتر
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Dekameter
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Decametro
+    badges: []
+  jawiki:
+    site: jawiki
+    title: デカメートル
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Декаметр
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 데카미터
+    badges: []
+  liwiki:
+    site: liwiki
+    title: Decameter
+    badges: []
+  lowiki:
+    site: lowiki
+    title: ເດກາແມັດ
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: डेकामीटर
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Decameter
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Dekameter
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Dekameter
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Dekametr
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Decâmetro
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Dekametar
+    badges: []
+  sowiki:
+    site: sowiki
+    title: Decametre
+    badges: []
+  sqwiki:
+    site: sqwiki
+    title: Dekameteri
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Dekameter
+    badges: []
+  tawiki:
+    site: tawiki
+    title: டெக்கா மீட்டர்
+    badges: []
+  thwiki:
+    site: thwiki
+    title: เดคาเมตร
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Dekametre
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Đêcamét
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 十米
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 公丈
+    badges: []

@@ -1,0 +1,280 @@
+---
+pageid: 45901
+ns: 0
+title: Q43712
+lastrevid: 622990609
+modified: '2018-01-24T14:25:01Z'
+type: item
+id: Q43712
+labels:
+  en:
+    language: en
+    value: Drumian
+aliases: {}
+claims:
+  P155:
+  - mainsnak:
+      snaktype: value
+      property: P155
+      hash: 57b91357a8ebb7d9e0e8aa75193e449c755bc30e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 5025311
+          id: Q5025311
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q43712$AA5D2061-13D8-470D-B0E6-5C35D7573C87
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P156:
+  - mainsnak:
+      snaktype: value
+      property: P156
+      hash: 8ee0c16f0e187828b5c74d858fbf8db6075efc35
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 43667
+          id: Q43667
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q43712$C9F90E61-BEAA-43B1-84B4-028E3859CB15
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: e0e58a87b00c157150dc574feb2f97457ba17c71
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 14628892
+          id: Q14628892
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q43712$1f2eaa92-44ec-76e1-cb50-2f64905d5903
+    rank: normal
+  P625:
+  - mainsnak:
+      snaktype: value
+      property: P625
+      hash: 1f0d9f2db5090c499539b3f7f708c4e6511a2f58
+      datavalue:
+        value:
+          latitude: 39.51175
+          longitude: -112.99148333
+          altitude: 
+          precision: 2.77777777778e-06
+          globe: http://www.wikidata.org/entity/Q2
+        type: globecoordinate
+      datatype: globe-coordinate
+    type: statement
+    id: Q43712$0E9363A2-CD8E-447B-9AFC-F2C535D9E730
+    rank: normal
+    references:
+    - hash: d4bd87b862b12d99d26e86472d44f26858dee639
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: f30cbd35620c4ea6d0633aaf0210a8916130469b
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 8447
+              id: Q8447
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 5be11f5775a687e584cd1375af3d532962fa8a94
+      datavalue:
+        value: "/m/0nd4yx5"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q43712$EA51816A-C82D-4D50-8C03-E2CD0953A34F
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1774498cb861c7f76e71afc94661ed9a03d8461a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1123245
+          id: Q1123245
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q43712$2ebab18f-4625-1ee5-63a5-9a7170e0f016
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: b230ba6f73ec78c2fd8b28c19fab3a1a3e51124e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 568683
+          id: Q568683
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q43712$8f48684f-456d-ae2b-97ff-8c161211636c
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: bb9c751b476c4fa8fce9ba7f69f5b0af7e4c359e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1276038
+          id: Q1276038
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q43712$b48ce832-4e56-2a4b-439c-cdebc8d98821
+    rank: normal
+  P2581:
+  - mainsnak:
+      snaktype: value
+      property: P2581
+      hash: 7af1afd5a6902e250cc4acd8800820292b3e3679
+      datavalue:
+        value: 15053729n
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q43712$827C1DF9-EB15-4B86-A0BD-9FA33A3F5EC9
+    rank: normal
+    references:
+    - hash: bd0ee81488cd8c23d4b655e417aac78dca370283
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: a0b4f55dbedbadaf83e7d2461b47b7aeaba86359
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 4837690
+              id: Q4837690
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: الدرومي (الكامبري)
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Друмий
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Drumium
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Drumian
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Drumiense
+    badges: []
+  fawiki:
+    site: fawiki
+    title: درومین
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Drumien
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Drumien
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Drum (geologia)
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Tầng Drum
+    badges: []

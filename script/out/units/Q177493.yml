@@ -1,0 +1,359 @@
+---
+pageid: 177057
+ns: 0
+title: Q177493
+lastrevid: 619541453
+modified: '2018-01-13T02:59:28Z'
+type: item
+id: Q177493
+labels:
+  en:
+    language: en
+    value: gauss
+aliases:
+  en:
+  - language: en
+    value: Gs
+claims:
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 6fef32cb5778b0ebced00d1e8b9c421dc27e6f6e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 6722
+          id: Q6722
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q177493$DA8BC9C7-59C7-4232-A910-87E919747B99
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 295440b8ae95dd1a5e53149a30466a46ea9a96da
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 30204
+          id: Q30204
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q177493$0FDC4465-622C-4A07-B331-0E15753220B1
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: '0397f78c910b4f7c13699afd19ed299a40e99b14'
+      datavalue:
+        value: Gs
+        type: string
+      datatype: string
+    type: statement
+    id: q177493$a8a409fd-4631-ee15-373b-d7ea8c5289a2
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q177493$2e35440d-4157-fb14-d750-9eff4999ccad
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 2163d9599fb3061d8c24560f3b309544199257b3
+      datavalue:
+        value: "/m/038jg"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q177493$27E123A5-8C52-4039-972A-B8CA56061FB0
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: d31b985576ee28aef02b9d72923e24d8586b7239
+      datavalue:
+        value:
+          amount: "+0.0001"
+          unit: http://www.wikidata.org/entity/Q163343
+          upperBound: "+0.0001"
+          lowerBound: "+0.0001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q177493$d352e01a-4588-10ac-6a41-4ced81dfdcfc
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: d1d4147f9a183cab86acc25699cb6b2ed16d2331
+      datavalue:
+        value: Gauss
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q177493$7a4c8de1-46c6-3800-afd5-e9f821ec690e
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 691b0290c6f677c2cd1b1ae6f03cb37dbff4f332
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 27666180
+          id: Q27666180
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q177493$7135bf9b-4ae2-4a27-1500-1d052da36640
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: c942faceb6129ff5a71e8842a84528c8f8bdef9c
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3234036
+          id: Q3234036
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q177493$c69ef730-49c5-04d1-9dd3-51d928de640d
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 0e2cc4d4185e0befa2dc166673a2a2118256a096
+      datavalue:
+        value: gauss
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q177493$A44CD796-8ECA-4AE7-BADF-3A71D5281E87
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: غاوس (وحدة)
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Gauss
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Гаус (адзінка вымярэння)
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Гаус (единица)
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Gauss (unitat)
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Gauss (jednotka)
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Gauss (enhed)
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Gauß (Einheit)
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Γκάους (μονάδα μέτρησης)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Gauss (unit)
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Gaŭso (mezurunuo)
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Gauss (unidad)
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Gauss
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Gauss (unitatea)
+    badges: []
+  fawiki:
+    site: fawiki
+    title: گاوس (یکا)
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Gauss (unité)
+    badges: []
+  hewiki:
+    site: hewiki
+    title: גאוס (יחידת מידה)
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: गॉस (इकाई)
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Gaus
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Gauss (mértékegység)
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Gauss (satuan)
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Gauss (unità di misura)
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ガウス
+    badges: []
+  kawiki:
+    site: kawiki
+    title: გაუსი (ერთეული)
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Гаусс (Өлшем бірлік)
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 가우스 (단위)
+    badges: []
+  lbwiki:
+    site: lbwiki
+    title: Gauß (Moosseenheet)
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Gauss
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Gauss
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Gauss (enhet)
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Gaus
+    badges: []
+  pmswiki:
+    site: pmswiki
+    title: Gauss
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Gauss (unidade)
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Гаусс (единица измерения)
+    badges: []
+  scnwiki:
+    site: scnwiki
+    title: Gauss (unitati di misura)
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Gauss (unit)
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Gavs
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Gauss (enhet)
+    badges: []
+  thwiki:
+    site: thwiki
+    title: เกาส์
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Gauss (birim)
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Гаус (одиниця вимірювання)
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Gauss
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 高斯 (单位)
+    badges: []

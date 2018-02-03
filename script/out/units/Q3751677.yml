@@ -1,0 +1,89 @@
+---
+pageid: 3576756
+ns: 0
+title: Q3751677
+lastrevid: 491640284
+modified: '2017-05-28T20:52:07Z'
+type: item
+id: Q3751677
+labels:
+  en:
+    language: en
+    value: Appenzell frank
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 6d457d05d0eebdd6052fa74156958f0e21954f14
+      datavalue:
+        value: "/m/02r0vbf"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3751677$712E7315-2872-48BA-83CD-10443BC596D5
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3751677$43922F6D-93D5-41A8-B89A-770BE83AFA29
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Appenzell frank
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Franco de Appenzell
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Franco dell'Appenzello
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Франк Аппенцелля
+    badges: []

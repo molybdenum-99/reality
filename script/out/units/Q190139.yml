@@ -1,0 +1,542 @@
+---
+pageid: 188577
+ns: 0
+title: Q190139
+lastrevid: 623107684
+modified: '2018-01-24T21:32:35Z'
+type: item
+id: Q190139
+labels:
+  en:
+    language: en
+    value: talent
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 954edbd3fef27ce6396c0878a95c608ca4ed84af
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 3647172
+          id: Q3647172
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q190139$FD27D823-9C54-49FC-B10C-96041DA01115
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 8114f41fdd6169bdc26beea43752885a2892971e
+      datavalue:
+        value: "/m/0378db"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q190139$F97A60A5-58DE-4D05-93FE-35DF55E74569
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 8d75fa5d12c9f32ffc85f2a1a5e77c5160f66ae1
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 607056
+          id: Q607056
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q190139$a7acede6-4ff0-18ec-d8df-87687c1d6583
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: 8b9ec14434b9d842d719e8570e6b1a018f66400e
+      datavalue:
+        value:
+          amount: "+60"
+          unit: http://www.wikidata.org/entity/Q850029
+          upperBound: "+60"
+          lowerBound: "+60"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q190139$f4dbcd2c-4f1f-4eb2-3488-953666005814
+    rank: normal
+    references:
+    - hash: 1abbd84c2a2fb8b938a959a6f6d4ca5958f8105a
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 2dec9667d599ba3e42a0e590a79ca231e658949b
+          datavalue:
+            value: http://homepage.usask.ca/~jrp638/CourseNotes/weightsmeasures.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 3ebb11b1a4ce7a98b7cbb359a6e944bd00f283b0
+          datavalue:
+            value:
+              time: "+2016-07-12T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: f6d8bf76cdd3ab8768838842a5d7199b32755b74
+      datavalue:
+        value:
+          amount: "+6000"
+          unit: http://www.wikidata.org/entity/Q25835384
+          upperBound: "+6000"
+          lowerBound: "+6000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q190139$2bb6e7c4-44de-05f2-f37d-6307af10132d
+    rank: normal
+    references:
+    - hash: f47bd3a5b7e92279e5d9a7e1b161304f06e49aef
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: b7c34f44018e1033474b4294e5c2e735e594415b
+          datavalue:
+            value: http://www.livius.org/w/weights/weights.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 319eca416990be95d0bc1936656ae864506b85ef
+          datavalue:
+            value:
+              time: "+2016-07-17T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  P460:
+  - mainsnak:
+      snaktype: value
+      property: P460
+      hash: faf726f4d65c23472484429203c006b31a4b5944
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 25839995
+          id: Q25839995
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q190139$8b75ee5f-49b3-0333-bca1-68e08114de19
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: bcaf7416511d5ffb9480304dd748557b77dd3935
+      datavalue:
+        value: Talent-4
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q190139$EA4621E5-2446-42C8-B41C-737DBEA1F2FA
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 16653c4848e0552e9604edc668341bd5f95825a4
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 11423
+          id: Q11423
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q190139$694B27E6-9CE4-45D7-9E61-6871095E303E
+    rank: normal
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 6bc15c6f82feca4f3b173c90209a416f99464cac
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 4086271
+          id: Q4086271
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P805:
+      - snaktype: value
+        property: P805
+        hash: 3c33908fe082ccdb43e0ff65bc370fc2010e8107
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 25298524
+            id: Q25298524
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P805
+    id: Q190139$b051efb6-4b2e-a5b4-c946-f6aba2d12f9f
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 88389772f86dcd7d415ddd029f601412e5cc894a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 602358
+          id: Q602358
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P805:
+      - snaktype: value
+        property: P805
+        hash: cc85c812ec1cc027c72618b16a35cdf38f2f0b70
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 24484749
+            id: Q24484749
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P805
+    id: Q190139$0ec6e6c1-4ea8-d72c-2316-1e6afa52a14b
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 7d6f86cef085693a10b0e0663a0960f58d0e15e2
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 4173137
+          id: Q4173137
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P805:
+      - snaktype: value
+        property: P805
+        hash: 465a398868e9d7bfb534c924775eb0af099f46b5
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 24952858
+            id: Q24952858
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P805
+    id: Q190139$9e2ee8a0-4da4-1dfa-acd1-99ac9a0773f7
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 42346dfe9209b7359c1f5db829a368b38d407797
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 19180675
+          id: Q19180675
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P805:
+      - snaktype: value
+        property: P805
+        hash: 38ecbc7b6de04099cd061d3ba16feeb4dce26b32
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 24754549
+            id: Q24754549
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P805
+    id: Q190139$ecbf2a07-46c0-e13d-fdd5-17ef4c998548
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: ecb04d74140f2ee856c06658b03ec90a21c2edf2
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1970746
+          id: Q1970746
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P805:
+      - snaktype: value
+        property: P805
+        hash: 3833f329f47dc87b552316c9ef76afbcb7089662
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 30198312
+            id: Q30198312
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P805
+    id: Q190139$5e8c8715-4179-06ae-3190-a50121acd44e
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Talent (maateenheid)
+    badges: []
+  arwiki:
+    site: arwiki
+    title: طالنط
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Талант
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Талант
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Talent
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Talent (jednotka)
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Talent (måleenhed)
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Talent (Einheit)
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Τάλαντο
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Talent (measurement)
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Talanto
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Talentu (masa unitatea)
+    badges: []
+  fawiki:
+    site: fawiki
+    title: تالنت
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Talentti
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Talent (unité)
+    badges: []
+  hewiki:
+    site: hewiki
+    title: כיכר (יחידת מידה)
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Talent (mjerna jedinica)
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Talentum (mértékegység)
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Տաղանդ (չափի միավոր)
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Talenta
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Talento (peso)
+    badges: []
+  jawiki:
+    site: jawiki
+    title: タレント (単位)
+    badges: []
+  kawiki:
+    site: kawiki
+    title: ტალანტი
+    badges: []
+  kmwiki:
+    site: kmwiki
+    title: ឋាឡាន់
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 달란트
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Talentum
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Talentas (matas)
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Talent (eenheid)
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Talent
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Talent (vekt)
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Talent (miara)
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Talant
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Талант (единица измерения)
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Talanat
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Talent (weight)
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Talent
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Талент (јединица мере)
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Talent
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Talento
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Talent
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Талант (одиниця вимірювання)
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 塔兰同
+    badges: []

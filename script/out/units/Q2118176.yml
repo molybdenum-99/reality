@@ -1,0 +1,184 @@
+---
+pageid: 2044475
+ns: 0
+title: Q2118176
+lastrevid: 537539868
+modified: '2017-08-14T08:09:50Z'
+type: item
+id: Q2118176
+labels:
+  en:
+    language: en
+    value: milia passum
+aliases: {}
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: d2ac084ecbdd673d2031b53cdff6a15376b2551d
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 21480825
+          id: Q21480825
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2118176$DF1D000F-98DD-4089-8D88-422162137390
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 52afd5559217923531f59bd55edf87f344e02b43
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1161819
+          id: Q1161819
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2118176$6AF4182F-8CE3-4AD2-A605-EDAEF03934AB
+    rank: normal
+  P2442:
+  - mainsnak:
+      snaktype: value
+      property: P2442
+      hash: cd76ef9dc636f185307e19c23d16db1de40194cc
+      datavalue:
+        value:
+          amount: "+1000"
+          unit: http://www.wikidata.org/entity/Q691543
+          upperBound: "+1000"
+          lowerBound: "+1000"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q2118176$BB3DC08C-6B60-4EF4-874A-7C8B2F94BB5C
+    rank: normal
+    references:
+    - hash: 4eae6ea2fd6125aef50d985886e472930a3a16e1
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 2dec9667d599ba3e42a0e590a79ca231e658949b
+          datavalue:
+            value: http://homepage.usask.ca/~jrp638/CourseNotes/weightsmeasures.html
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: e44064de70fa6bf638492bc0fc1df9da1b2795af
+          datavalue:
+            value:
+              time: "+2016-07-16T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 66931d1962f98c3016f854f19120f62ef7b0d920
+      datavalue:
+        value:
+          amount: "+1480"
+          unit: http://www.wikidata.org/entity/Q11573
+          upperBound: "+1480"
+          lowerBound: "+1480"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q2118176$3352cb9b-4e5a-fa5c-e862-b969d05f4b48
+    rank: normal
+    references:
+    - hash: c6f1dc36a0a3757f3b5ba38aff54457e11be46dd
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 38ae74b1fa5b680a609b60bca9b2d7a27dbe6f10
+          datavalue:
+            value: http://www.livius.org/w/weights/weights3.htmlc
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: a31b98af17fbec602005e55f91baed9ae5725776
+          datavalue:
+            value:
+              time: "+2016-08-09T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 4354e3cc033f2c5371e447e5ab1cca8b89ffa3e0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 36253
+          id: Q36253
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2118176$C5CD3301-B678-4C3E-81DF-F5A613118E13
+    rank: normal
+sitelinks:
+  cawiki:
+    site: cawiki
+    title: Milla romana
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Romersk mil
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Milla romana
+    badges: []
+  fywiki:
+    site: fywiki
+    title: Romeinske myl
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Romeinse mijl
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Romersk mil
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Romersk mil
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Mila rzymska
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Римска миља
+    badges: []

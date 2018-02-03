@@ -1,0 +1,462 @@
+---
+pageid: 177370
+ns: 0
+title: Q177882
+lastrevid: 617888499
+modified: '2018-01-08T22:59:22Z'
+type: item
+id: Q177882
+labels:
+  en:
+    language: en
+    value: Thai baht
+aliases: {}
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 413db684831ceb0a3be1e03cd9b29bf5a7d6f8a0
+      datavalue:
+        value: Money of Thailand
+        type: string
+      datatype: string
+    type: statement
+    id: q177882$E9B66EA4-553C-4EFA-8330-558F3FBA4198
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q177882$A7ED034A-0EF7-4306-B46D-AC6A98991C9C
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 82531e5be2cd6a9e8b48e4e144431f40bc764e1d
+      datavalue:
+        value: THB
+        type: string
+      datatype: external-id
+    type: statement
+    id: q177882$684a8bc7-4ed7-ec59-9009-5b18f48e8b9d
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 354a5ca653d86ca79a84e114328a302318e6c349
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 806706
+          id: Q806706
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q177882$EA1E1E60-1E48-47D7-B987-9F2DC55CFD83
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 90d687387377f2132bf0eda1b89e500270ea546c
+      datavalue:
+        value: "/m/0mcb5"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q177882$A8024F6C-81DD-453D-99F2-06C3DB053207
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 87c028980b49a57a32c8d71feefbeaa8852d8239
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 869
+          id: Q869
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q177882$d0901ba6-4be0-a5a2-e55f-702d3c0122a8
+    rank: normal
+  P2284:
+  - mainsnak:
+      snaktype: value
+      property: P2284
+      hash: 538b937c0de03a13ac5fc1ae9988cda2599aab18
+      datavalue:
+        value:
+          amount: "+0.0282"
+          unit: http://www.wikidata.org/entity/Q4917
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: f742be92339cdcc54bf77fbdde9a24b9045f361a
+        datavalue:
+          value:
+            time: "+2016-11-22T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q177882$0E4C8A01-622B-4E60-B3C3-D76B8D9C75DA
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: fde0244ddcbfcee5fb1b3a6342e7b7ecdb8741d1
+      datavalue:
+        value: Thai-Baht
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q177882$417A2EF4-DE07-4197-87CA-D598F455D069
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: a80c69ef6048d4a1c7033bcbb0f6c28cd53cc816
+      datavalue:
+        value: Baht
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q177882$b3a17509-4436-83f0-383e-bc14e7ba41d1
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 57c0c14dc5f529156173104b9a65cdacbb8c2694
+      datavalue:
+        value: '500260'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q177882$87F14F31-3693-4C5F-9605-E93A84412AE1
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: بات تايلاندي
+    badges: []
+  arzwiki:
+    site: arzwiki
+    title: باهت تايلاندى
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Тайскі бат
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Тайландски бат
+    badges: []
+  bnwiki:
+    site: bnwiki
+    title: থাই বাত
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: থাই বাট
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Baht
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Thajský baht
+    badges: []
+  cywiki:
+    site: cywiki
+    title: Baht
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Thailandske baht
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Baht
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Μπατ
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Thai baht
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Tajlanda bahto
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Baht tailandés
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Baat
+    badges: []
+  fawiki:
+    site: fawiki
+    title: بات
+    badges: []
+  fiu_vrowiki:
+    site: fiu_vrowiki
+    title: Baat
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Baht
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Baht
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Baht
+    badges: []
+  hewiki:
+    site: hewiki
+    title: באט
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: थाई बाट
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Tajlandski baht
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Thai bát
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Թաիլանդական բահտ
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Baht
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Baht thailandese
+    badges: []
+  jawiki:
+    site: jawiki
+    title: バーツ
+    badges: []
+  kawiki:
+    site: kawiki
+    title: ბატი (ვალუტა)
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Бат (Тайланд)
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 태국 밧
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Таиландса бат
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Tailando batas
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: थाई बात
+    badges: []
+  mywiki:
+    site: mywiki
+    title: ထိုင်းဘတ်ငွေ
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Thaise baht
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Thailandsk baht
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਥਾਈ ਬਾਤ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Bat (waluta)
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Baht
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Тайский бат
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Thai baht
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Thajský baht
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Тајландски бат
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Baht
+    badges: []
+  tawiki:
+    site: tawiki
+    title: தாய்லாந்தின் பாட்
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Баҳти Тай
+    badges: []
+  thwiki:
+    site: thwiki
+    title: บาท (สกุลเงิน)
+    badges: []
+  tkwiki:
+    site: tkwiki
+    title: Baht
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Baht ng Thailand
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Baht
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Бат (валюта)
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Baht
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: ტაილანდური ბატი
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Baht
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Thài-kok baht
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 泰銖
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 泰銖
+    badges: []

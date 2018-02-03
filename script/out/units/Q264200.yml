@@ -1,0 +1,346 @@
+---
+pageid: 256135
+ns: 0
+title: Q264200
+lastrevid: 622988364
+modified: '2018-01-24T14:16:43Z'
+type: item
+id: Q264200
+labels:
+  en:
+    language: en
+    value: Frasnian
+aliases: {}
+claims:
+  P155:
+  - mainsnak:
+      snaktype: value
+      property: P155
+      hash: f4cc4e3ed39e49f6738c401b7589f6d13c3b9403
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 650845
+          id: Q650845
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q264200$65985FBF-B65D-4F9F-8920-F2BBEC448A74
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P156:
+  - mainsnak:
+      snaktype: value
+      property: P156
+      hash: 914de9f5d8f94784482f4cd989bff8d211d196f9
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 253839
+          id: Q253839
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q264200$41AF584C-722E-43F0-803A-3799C6B2A532
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P625:
+  - mainsnak:
+      snaktype: value
+      property: P625
+      hash: 6ad5648ecfa62bf31b8cc190dcab18ed031a6323
+      datavalue:
+        value:
+          latitude: 43.5032
+          longitude: 3.0868
+          altitude: 
+          precision: 2.77777777778e-06
+          globe: http://www.wikidata.org/entity/Q2
+        type: globecoordinate
+      datatype: globe-coordinate
+    type: statement
+    id: Q264200$B615F0C2-E48B-45F1-B760-80C41B0927F3
+    rank: normal
+    references:
+    - hash: d4bd87b862b12d99d26e86472d44f26858dee639
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: f30cbd35620c4ea6d0633aaf0210a8916130469b
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 8447
+              id: Q8447
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 2793feedc328e3e2c2503369b403d9564618b1d3
+      datavalue:
+        value: "/m/08rnxc"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q264200$F72708E9-E27E-4913-B79E-85FFACF5A865
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: a06b35560ca1f7ed790c97a3a856f12b8b7a757c
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1451367
+          id: Q1451367
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q264200$6a7cdeda-46d0-d056-fdde-948ae0c9d363
+    rank: normal
+    references:
+    - hash: 63415f71a121c033dd075ccbeb03b3445f6180ac
+      snaks:
+        P813:
+        - snaktype: value
+          property: P813
+          hash: ba6467859404b851590089347bdb02ffc207b65c
+          datavalue:
+            value:
+              time: "+2014-10-22T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P813
+      - P143
+  P910:
+  - mainsnak:
+      snaktype: value
+      property: P910
+      hash: 015dbf0b381d37dcb6ba36a659b2f0ecb5abd740
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 21708748
+          id: Q21708748
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q264200$34473EEE-45BA-4FEC-99C7-C387B0C03288
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1774498cb861c7f76e71afc94661ed9a03d8461a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1123245
+          id: Q1123245
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q264200$4ad4af97-4cf7-97e7-99a8-98d60e88d34c
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: b230ba6f73ec78c2fd8b28c19fab3a1a3e51124e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 568683
+          id: Q568683
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q264200$5b210a86-449f-c262-f4a4-eea03f9ef3b3
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: c963dd10c2696a0e95087a2357d7660bde5d810c
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10265844
+          id: Q10265844
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q264200$0d98acfb-4914-5a49-9e4b-f0aba2b45bc2
+    rank: normal
+  P3827:
+  - mainsnak:
+      snaktype: value
+      property: P3827
+      hash: 270dd84fb34e7aff2c739aec557fb98ab441aa64
+      datavalue:
+        value: frasnian-age
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q264200$EEEEC542-7737-4A61-ADCA-236C203EE25D
+    rank: normal
+sitelinks:
+  afwiki:
+    site: afwiki
+    title: Frasnium
+    badges: []
+  arwiki:
+    site: arwiki
+    title: الفراسني
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Frasnià
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Frasnium
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Frasnian
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Frasniense
+    badges: []
+  fawiki:
+    site: fawiki
+    title: فراسنین
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Frasnien
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Frasni
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Frasniano
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Frānas stāvs
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Frasnien
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Fran
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Frasniano
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Tầng Frasne
+    badges: []

@@ -1,0 +1,127 @@
+---
+pageid: 28114764
+ns: 0
+title: Q26162545
+lastrevid: 609603616
+modified: '2017-12-15T14:52:53Z'
+type: item
+id: Q26162545
+labels:
+  en:
+    language: en
+    value: square centimetre per second
+aliases:
+  en:
+  - language: en
+    value: cm²/s
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 8f0d94bcb683d9927309247d5754a6efdaaddc48
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 15106259
+          id: Q15106259
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q26162545$c9a72dac-4523-eb39-1a39-1d149b6a2242
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 50afdc16346d8687f53963f614e8d645419488a0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 208469
+          id: Q208469
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q26162545$8213ddd6-4534-0ede-f731-85aaa3ebcdcf
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 6f56afba5acf843c2fa9100447191fa7afe73ddf
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 15106259
+          id: Q15106259
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q26162545$726d7e6e-4d46-b545-72fe-e15b0be40574
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: d729a07af488f3d24a93af98c3f7dcd846cd9526
+      datavalue:
+        value: cm²/s
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q26162545$a30ac189-414f-d7c8-6b79-3ddef78d835b
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: a1cb1eb6b0e0b3568e539f6bfd6a55b6760e1588
+      datavalue:
+        value: см²/с
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q26162545$348ba688-46eb-3dca-098f-1f6e60df6cdb
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: a7d68a00addfbbf73c6a1e7c112c5fb4db66f72c
+      datavalue:
+        value:
+          amount: "+0.0001"
+          unit: http://www.wikidata.org/entity/Q26162541
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q26162545$cb7ecc2f-439b-eb6c-7b60-0679f9904cae
+    rank: normal
+sitelinks: {}

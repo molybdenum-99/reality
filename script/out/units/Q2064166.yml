@@ -1,0 +1,175 @@
+---
+pageid: 1991478
+ns: 0
+title: Q2064166
+lastrevid: 599514935
+modified: '2017-11-27T17:52:55Z'
+type: item
+id: Q2064166
+labels:
+  en:
+    language: en
+    value: foot-candle
+aliases:
+  en:
+  - language: en
+    value: foot candle
+  - language: en
+    value: fc
+  - language: en
+    value: ft-c
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: f233658a31f7587ebc0992221f0a72287b6e1e6c
+      datavalue:
+        value: "/m/02jsyh"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2064166$15532072-2011-4678-B4B9-5BB4FD2BBEC7
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2064166$8cececd0-4393-121b-9b16-085975fe98f0
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 9d457e4f8da85ef9bdb2fcf0b543592dc2cf20db
+      datavalue:
+        value:
+          amount: "+10.764"
+          unit: http://www.wikidata.org/entity/Q179836
+          upperBound: "+10.765"
+          lowerBound: "+10.763"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q2064166$6c5107e0-408b-05bf-da96-bcb06d98ab1c
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 8d18a7da270910a1df613cb2b7c6a603f8325d10
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 194411
+          id: Q194411
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q2064166$197c81f1-415c-0836-ad34-ef916f01e394
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: de0d7d3aa0d1f3ed4c71b099670a39b82e60f872
+      datavalue:
+        value: fc
+        type: string
+      datatype: string
+    type: statement
+    id: Q2064166$ac609294-487b-fef0-3524-dd8595245985
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 861281eb28b232e3fa955f1945436334cba8dd99
+      datavalue:
+        value: Foot-candle
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2064166$3c610316-4f6b-a5eb-0b8c-7e5b5dafd1c1
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: f044f466b5f4bdec8acf088c35c47466d19f252d
+      datavalue:
+        value: footcandle
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q2064166$B1E8FC9A-EFD7-4D0A-8B49-C5C9725AB528
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: قدم شمعة
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Foot-candle
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Vela (medida)
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Foot-candle
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Vela (medida)
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Foot Candle
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Čevelj-sveča
+    badges: []

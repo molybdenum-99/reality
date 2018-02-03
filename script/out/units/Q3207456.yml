@@ -1,0 +1,135 @@
+---
+pageid: 3062561
+ns: 0
+title: Q3207456
+lastrevid: 591826970
+modified: '2017-11-10T22:33:46Z'
+type: item
+id: Q3207456
+labels:
+  en:
+    language: en
+    value: milliwatt
+aliases:
+  en:
+  - language: en
+    value: mW
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 116ccff192c7c9c7ac8717e13172125bb454be6b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10387689
+          id: Q10387689
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3207456$5acb809a-47ce-358e-68a9-4e7035f9b57b
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 410e54da966c7c67e515879cc375542c302525f9
+      datavalue:
+        value: mW
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: q3207456$5ed89392-4246-be49-4405-accd5425566b
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 3caa46210ceefbebd5f05deb3ff41673b9fee1f8
+      datavalue:
+        value: мВт
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P407:
+      - snaktype: value
+        property: P407
+        hash: d291ddb7cd77c94a7bd709a8395934147e0864fc
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 7737
+            id: Q7737
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P407
+    id: Q3207456$873b527b-4380-00b5-db32-dbadeea35879
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: ef0a7a803c30a5a1c7e51b9105193fdf57da96db
+      datavalue:
+        value:
+          amount: "+0.001"
+          unit: http://www.wikidata.org/entity/Q25236
+          upperBound: "+0.001"
+          lowerBound: "+0.001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q3207456$2b45d42f-448f-f152-456d-0c3b14e6acfa
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 41d9cbf87cc3b4cd3d9cad9fdcb6d187694143b6
+      datavalue:
+        value: milliwatt
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q3207456$A2B36277-970F-4879-A945-D7C40FAB96C1
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 67975d1096e3104e0d615b341d0c2a8dc15923c1
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 25342
+          id: Q25342
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q3207456$e28d27da-4e8c-e5fd-8023-ab0d7a6f5414
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Milliwatt
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Milliwatt
+    badges: []

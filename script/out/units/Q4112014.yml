@@ -1,0 +1,126 @@
+---
+pageid: 3919868
+ns: 0
+title: Q4112014
+lastrevid: 582733007
+modified: '2017-10-22T18:32:05Z'
+type: item
+id: Q4112014
+labels:
+  en:
+    language: en
+    value: virgate
+aliases:
+  en:
+  - language: en
+    value: yardland
+  - language: en
+    value: yard of land
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 1d6434e40f9e27b1b88253ba18d1857da974abd3
+      datavalue:
+        value: "/m/0df2fh"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q4112014$B9FC582F-BE2F-4E5E-9C2D-67D44666A277
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 0f49769a073adbf1aea6d3645a68f24ad29dbeb6
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1371562
+          id: Q1371562
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4112014$923b2dc1-4df3-2c4d-9ffd-c34e16b920f1
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: f085b0c4c3db3510ae2e3f19c22f34ba4ced3b75
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 16782623
+          id: Q16782623
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4112014$9cccca27-44d4-8a05-a2b6-fa4aa1e28da6
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 70f84300b891ce42a345b9fb50c2fc09b1066de7
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 28607529
+          id: Q28607529
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q4112014$44da7e8d-44d2-c74f-e161-247c8ea2869d
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Virgate
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Virgate
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Virgat
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Виргата
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Віргата
+    badges: []

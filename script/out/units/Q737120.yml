@@ -1,0 +1,425 @@
+---
+pageid: 693246
+ns: 0
+title: Q737120
+lastrevid: 623569657
+modified: '2018-01-26T12:48:02Z'
+type: item
+id: Q737120
+labels:
+  en:
+    language: en
+    value: Bohr magneton
+aliases: {}
+claims:
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 82ea3a24586f7c1ef22376bd537edc1e7e5b3a48
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 7085
+          id: Q7085
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q737120$44DDA2FB-A959-4B45-89E3-30AD171BD9E4
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1f64db08b05b0ff1f134e2100d6effbae258367f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 173227
+          id: Q173227
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q737120$D256808D-5027-4693-8EE1-28A66C1FA2BA
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q737120$bd79fda3-4459-9471-946c-583535f965f5
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 990704a6f7b72863de81d2a53397554e511c40d6
+      datavalue:
+        value: "/m/017mv0"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q737120$43A4F271-1B35-40F1-86EF-C26905B2458B
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P61:
+  - mainsnak:
+      snaktype: value
+      property: P61
+      hash: ef2bd6b7f374ba924039f0332976e3d9b15789f1
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 397163
+          id: Q397163
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P577:
+      - snaktype: value
+        property: P577
+        hash: '088d35aa03f71bf573ee00f9c35d4d47cb5e905a'
+        datavalue:
+          value:
+            time: "+1911-01-01T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 9
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P577
+    id: Q737120$c8f631b6-43ee-9244-cf19-e2f16de51bc9
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 576cd2d1891a81ada09367c69b200efa4908b0eb
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 242657
+          id: Q242657
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q737120$0c6481e6-41b8-79df-2e7a-5768ed471989
+    rank: normal
+  P1181:
+  - mainsnak:
+      snaktype: value
+      property: P1181
+      hash: bec210f923c66d8fc0ff55206542a1a56d483a81
+      datavalue:
+        value:
+          amount: "+0.000000000000000000000009274009994"
+          unit: http://www.wikidata.org/entity/Q21088638
+          upperBound: "+0.000000000000000000000009274010051"
+          lowerBound: "+0.000000000000000000000009274009937"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q737120$8f337f20-4872-52df-bb00-70cc731ab034
+    rank: normal
+    references:
+    - hash: 4bea775a03a8395694f5b8019a1f196daf266530
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: bd941b5b395200fafab321ab0b994fe3f9c97bf9
+          datavalue:
+            value: http://physics.nist.gov/cgi-bin/cuu/Value?mub
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 664e29b80b899be9ea9b261a666eb288de22bf43
+          datavalue:
+            value:
+              time: "+2015-11-05T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 641684c83b0133214966930e42703a708b96b3b6
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 735279
+              id: Q735279
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P854
+      - P813
+      - P248
+  P1645:
+  - mainsnak:
+      snaktype: value
+      property: P1645
+      hash: ff61aba0e76c41df3d92b9bb7fc704f171b7a6ef
+      datavalue:
+        value: mub
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q737120$2d1f7ffd-4af8-61d7-a5db-92cd458073b9
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: ea06ef8be61339d0b47353e607452eda02258c9c
+      datavalue:
+        value:
+          amount: "+0.000000000000000000000009274009994"
+          unit: http://www.wikidata.org/entity/Q21088638
+          upperBound: "+0.000000000000000000000009274010051"
+          lowerBound: "+0.000000000000000000000009274009937"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q737120$44896d22-4037-01f1-ce1d-2235a97a9b0c
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 1ccdf83eeb07d59d969e38eac81eba9875141efd
+      datavalue:
+        value: µ_B
+        type: string
+      datatype: string
+    type: statement
+    id: Q737120$94d726e0-47eb-4de8-25f7-8debd43ed3ac
+    rank: normal
+  P1417:
+  - mainsnak:
+      snaktype: value
+      property: P1417
+      hash: 0e6b6e4f7ffc37e20f3fad29c50dbf7b0eb5c9e5
+      datavalue:
+        value: technology/Bohr-magneton
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q737120$6B5991AB-4328-47F0-AC92-6D3431E46370
+    rank: normal
+  P1296:
+  - mainsnak:
+      snaktype: value
+      property: P1296
+      hash: da0fb5523965c8f0407bfa7b8314e358eb219c4d
+      datavalue:
+        value: '0010771'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q737120$5C836FC0-4563-4BD0-A06A-1916F08A8BB2
+    rank: normal
+  P3827:
+  - mainsnak:
+      snaktype: value
+      property: P3827
+      hash: ec3d9f8343c355bd02d88ff6926efbeda8a8247a
+      datavalue:
+        value: bohr-magneton
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q737120$2595FEDB-4E28-440A-BB75-E6EB4A164B32
+    rank: normal
+  P4732:
+  - mainsnak:
+      snaktype: value
+      property: P4732
+      hash: e155feb631861a317006e44d2ea40c02c3078a8d
+      datavalue:
+        value: B00692
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q737120$98BF06CF-817D-49FE-A92B-171CC0DFFC28
+    rank: normal
+  P4746:
+  - mainsnak:
+      snaktype: value
+      property: P4746
+      hash: 29269b74c09c382da8f8c8c99b194b1a124cab27
+      datavalue:
+        value: '136579'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q737120$C4763430-65FB-42CC-9384-A73F8CD600A7
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: مغنطون بور
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Магнетон Бора
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Магнетон на Бор
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Magnetó de Bohr
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Bohrův magneton
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Bohrsches Magneton
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Bohr magneton
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Magnetón de Bohr
+    badges: []
+  fawiki:
+    site: fawiki
+    title: مگنتون بور
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Magnéton de Bohr
+    badges: []
+  gawiki:
+    site: gawiki
+    title: Maighnéadón Bohr
+    badges: []
+  hewiki:
+    site: hewiki
+    title: המגנטון של בוהר
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Բորի մագնետոն
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Magnetone di Bohr
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ボーア磁子
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 보어 마그네톤
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Bohrmagneton
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Bohrmagneton
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Magneton Bohra
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Magnetão de Bohr
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Magneton Bohr-Procopiu
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Магнетон Бора
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Bohrov magnetón
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Bohrov magneton
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Боров магнетон
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Bohrmagnetonen
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Магнетон Бора
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Bor magnetoni
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Bohr magneton
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 玻尔磁子
+    badges: []

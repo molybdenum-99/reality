@@ -1,0 +1,515 @@
+---
+pageid: 43866
+ns: 0
+title: Q41588
+lastrevid: 618823912
+modified: '2018-01-11T12:48:13Z'
+type: item
+id: Q41588
+labels:
+  en:
+    language: en
+    value: Indonesian Rupiah
+aliases:
+  en:
+  - language: en
+    value: Rp
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: d6a4f2ecc640b21bbb2c7b32d1b2583b0313c7f6
+      datavalue:
+        value: Money of Indonesia
+        type: string
+      datatype: string
+    type: statement
+    id: q41588$E3A7BFFE-DDC5-474A-A9D7-C86E2E264EC8
+    rank: normal
+    references:
+    - hash: 9a24f7c0208b05d6be97077d855671d1dfdbc0dd
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: d38375ffe6fe142663ff55cd783aa4df4301d83d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 48183
+              id: Q48183
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q41588$EA3E7851-2442-4966-8A53-B9E89D62D933
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: bfb75b3c6879fcb56961063ae11fa3f2d8d30b6a
+      datavalue:
+        value: IDR
+        type: string
+      datatype: external-id
+    type: statement
+    id: q41588$16ed82a5-4253-fcfa-9a64-e9e44e22841b
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: fe782164a2631dca2aabdfabfd7d1516b544f2ae
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1906161
+          id: Q1906161
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q41588$8CDE6529-1CA9-4998-9B96-E5B543665998
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P910:
+  - mainsnak:
+      snaktype: value
+      property: P910
+      hash: ddaec76ad6cada1378e616fc5939660336172cbe
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8547411
+          id: Q8547411
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q41588$64938191-10CA-478C-8C4D-FA04AC01FD91
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 8ff55824a170084b8dba2ba4202c2905b7d4959c
+      datavalue:
+        value: "/m/0203sy"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q41588$8493F95F-2BD2-4402-B268-3CB83424B3C9
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 5f062030d01c9793ff079b414e7a6dc647ce03ca
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 252
+          id: Q252
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q41588$3083f248-4d2c-459b-9782-89aa79a8d70a
+    rank: normal
+  P2284:
+  - mainsnak:
+      snaktype: value
+      property: P2284
+      hash: 22422657b591ff90f7c3739655acbd1a60667cf3
+      datavalue:
+        value:
+          amount: "+0.000075"
+          unit: http://www.wikidata.org/entity/Q4917
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: f742be92339cdcc54bf77fbdde9a24b9045f361a
+        datavalue:
+          value:
+            time: "+2016-11-22T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q41588$8F06573B-56C0-4948-9A21-84F7558424EC
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: d0e82bb60fdafeb83a404408421698fffe7a7eb0
+      datavalue:
+        value: Indonesian-Rupiah
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q41588$7D8640E1-175A-4620-9B66-8054CDB36FA3
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: ff80a433c7dc9220df33a646759388f0d86dc2e7
+      datavalue:
+        value: Indonesian Rupiah (IDR) banknotes.png
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: Q41588$15a2097c-4a1e-57be-8f2b-018c2b1720a0
+    rank: normal
+  P856:
+  - mainsnak:
+      snaktype: value
+      property: P856
+      hash: ac3e5ccb66ff03224f40eda8aa964a7973c4402c
+      datavalue:
+        value: http://www.bi.go.id/
+        type: string
+      datatype: url
+    type: statement
+    id: Q41588$F4BBC1DE-D377-429D-954A-EC5C759C9CE1
+    rank: normal
+  P279:
+  - mainsnak:
+      snaktype: value
+      property: P279
+      hash: 7a01cd7a81ef0593e1cc09e854fc075ca12c72b0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 178843
+          id: Q178843
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q41588$f3ee0373-42d5-6047-168d-ec06f428dffd
+    rank: normal
+  P1417:
+  - mainsnak:
+      snaktype: value
+      property: P1417
+      hash: 6448c9a3469e395c4f3d31962db285557fb9f97e
+      datavalue:
+        value: topic/rupiah
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q41588$7D9355F5-6055-48BE-BC59-C5B02263D1B7
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: e60422a5c555c877aae7943a75b83d1c396ed87c
+      datavalue:
+        value: '500180'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q41588$AC279A8F-E382-48CE-8D91-79D4631791DD
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: روبية إندونيسية
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Інданэзійская рупія
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Інданезійская рупія
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Индонезийска рупия
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: ইন্দোনেশিয়ান রুপিয়া
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Rupia indonèsia
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Indonéská rupie
+    badges: []
+  cuwiki:
+    site: cuwiki
+    title: Їндонисїиска роупиꙗ
+    badges: []
+  cvwiki:
+    site: cvwiki
+    title: Индонези рупийĕ
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Rupiah
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Indonesische Rupiah
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Indonesian rupiah
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Indonezia rupio
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Rupia indonesia
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Errupia indonesiar
+    badges: []
+  fawiki:
+    site: fawiki
+    title: روپیه اندونزی
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Indonesian rupia
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Roupie indonésienne
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: इंडोनेशियाई रुपिया
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Indonezijska rupija
+    badges: []
+  hsbwiki:
+    site: hsbwiki
+    title: Indoneska rupija
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Indonéz rúpia
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Rupiah
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Rupia indonesiana
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ルピア
+    badges: []
+  jvwiki:
+    site: jvwiki
+    title: Rupiah
+    badges: []
+  kmwiki:
+    site: kmwiki
+    title: រូពីឥណ្ឌូនេស៊ី
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 인도네시아 루피아
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Индонезияса рупия
+    badges: []
+  lowiki:
+    site: lowiki
+    title: Rupiah ອິນໂດເນເຊຍ
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Indonezijos rupija
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: റുപിയ
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: इंडोनेशियन रुपिया
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Rupiah Indonesia
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Indonesische roepia
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Indonesisk rupiah
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਇੰਡੋਨੇਸ਼ੀਆਈ ਰੁਪੀਆ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Rupia indonezyjska
+    badges: []
+  pnbwiki:
+    site: pnbwiki
+    title: انڈونیشیائی روپیا
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Rupia indonésia
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Индонезийская рупия
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Indonesian Rupiah
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Indonezijska rupija
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Индонежанска рупија
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Rupiah
+    badges: []
+  tawiki:
+    site: tawiki
+    title: இந்தோனேசிய ரூபாய்
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Рупиаи Индонезия
+    badges: []
+  thwiki:
+    site: thwiki
+    title: รูเปียห์
+    badges: []
+  tkwiki:
+    site: tkwiki
+    title: Rupiah
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Rupiah ng Indonesia
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Endonezya rupiahı
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Індонезійська рупія
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Rupiah
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: ინდონეზიური რუპია
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Rupiah Indonésíà
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Ìn-nî rupiah
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 印尼盾
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 印尼盾
+    badges: []

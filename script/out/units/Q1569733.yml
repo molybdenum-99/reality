@@ -1,0 +1,242 @@
+---
+pageid: 1505740
+ns: 0
+title: Q1569733
+lastrevid: 564664669
+modified: '2017-09-24T01:35:09Z'
+type: item
+id: Q1569733
+labels:
+  en:
+    language: en
+    value: stokes
+aliases:
+  en:
+  - language: en
+    value: St
+  - language: en
+    value: stoke
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q1569733$8b2c0f14-495f-50a6-bf4f-973aa317eb87
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 6f56afba5acf843c2fa9100447191fa7afe73ddf
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 15106259
+          id: Q15106259
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q1569733$d95d58cb-487c-2975-6e55-b5792c617044
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: cd35371479dcaec0cacfc5dba3f226336f243180
+      datavalue:
+        value: St
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: q1569733$4a91485a-45b2-1a09-7cc0-5905849b3e54
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: bb59f50801816f5e594412122fbd0d77effd7e19
+      datavalue:
+        value: Ст
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q1569733$610eb277-42fc-f169-43fb-fe49a4142ca2
+    rank: normal
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 1a39857202a206d19a6ed976f43227cee229690e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 155907
+          id: Q155907
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q1569733$574bdd08-4722-fed0-9dee-60f4496ede3b
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 0cf81615b73f8b94fd6909d541faf89b7823d204
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 26240
+          id: Q26240
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1569733$bc987000-42a6-d29b-144c-c423e099664b
+    rank: normal
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 62c309f8296338bd9647a7e758857137f3370310
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2657718
+          id: Q2657718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1569733$26CF3679-8016-461A-B58E-EDF175E80F3C
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 004b9556654a94aef572dfb0f3d478d0b776f5c3
+      datavalue:
+        value: Stokes
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1569733$58079207-44aa-9bf9-bd63-76a04232f84a
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 064b8a59a31f2311e69281910862d0a8a4c3fe4f
+      datavalue:
+        value:
+          amount: "+0.0001"
+          unit: http://www.wikidata.org/entity/Q26162541
+          upperBound: "+0.0001"
+          lowerBound: "+0.0001"
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q1569733$eb0fc86e-4950-524e-6561-6ed56cf826bb
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 8d0a0c565190e134416be987999801dcad8245b6
+      datavalue:
+        value: stokes
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1569733$9600BEE7-1212-4722-BE37-D7CE180AFE56
+    rank: normal
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Stokes (Einheit)
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Stokes (unidad)
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Stooks
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Stokes (unité)
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Ստոքս (չափման միավոր)
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Stokes
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ストークス
+    badges: []
+  mnwiki:
+    site: mnwiki
+    title: Стокс
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Stokes (eenheid)
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Stokes (jednostka)
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Stokes
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Стокс (единица измерения)
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Stokes (birim)
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Стокс
+    badges: []

@@ -1,0 +1,167 @@
+---
+pageid: 14717449
+ns: 0
+title: Q13147228
+lastrevid: 609603191
+modified: '2017-12-15T14:51:18Z'
+type: item
+id: Q13147228
+labels:
+  en:
+    language: en
+    value: gram per cubic centimetre
+aliases:
+  en:
+  - language: en
+    value: gram per milliliter
+  - language: en
+    value: gram per cubic centimeter
+  - language: en
+    value: gram per millilitre
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 5c1e31495c3ee00418bae011defe6d61827b8990
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10387685
+          id: Q10387685
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q13147228$4571481E-7060-4485-ABA3-23A66D5BF56A
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 50afdc16346d8687f53963f614e8d645419488a0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 208469
+          id: Q208469
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q13147228$FC840EFC-58CA-4B42-9FC1-EEBCCBCD0259
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 254c45396879cff6e87567db52857f181aec72ac
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 29539
+          id: Q29539
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q13147228$AC9DD170-31C7-4DAB-B8F5-41844E4FA99E
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 4352c38c3fe48c970bab78fcb66287dd5c20654b
+      datavalue:
+        value: g/cm³
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 1346363b216aa5bd0a728b8de9ac249b9ddf210f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8229
+            id: Q8229
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q13147228$0F9A3B57-97F4-4CC1-AADB-FE27AAC627E2
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 15c4d99c4d7d21ee6571a522a9bd511991328b8d
+      datavalue:
+        value: г/см³
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P282:
+      - snaktype: value
+        property: P282
+        hash: 7fe7380d29fa1c4924a93ec8c1c306f9f55ed0df
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8209
+            id: Q8209
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P282
+    id: Q13147228$17611dfe-4971-2cff-f7bf-8da766560b4d
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 8642a3fe2b5bde146ca1ad168c9969d93f45a603
+      datavalue:
+        value:
+          amount: "+1000"
+          unit: http://www.wikidata.org/entity/Q844211
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q13147228$50FF3B72-F60E-4073-88F3-9DE9C12E9181
+    rank: normal
+  P3328:
+  - mainsnak:
+      snaktype: value
+      property: P3328
+      hash: 57ea35040405cadb0bef71b46d4490a520ac9e18
+      datavalue:
+        value: gram_per_cubic_centimetre
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q13147228$FC44025C-F2BC-4C58-BE11-804ABC9BFA38
+    rank: normal
+sitelinks:
+  astwiki:
+    site: astwiki
+    title: Gramu por centímetru cúbicu
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Gramm pro Kubikzentimeter
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Gram per cubic centimetre
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Gramme par centimètre cube
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Gram per sentimeter kubik
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Gram na centimeter kubický
+    badges: []

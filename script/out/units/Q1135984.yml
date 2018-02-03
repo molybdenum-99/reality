@@ -1,0 +1,121 @@
+---
+pageid: 1082793
+ns: 0
+title: Q1135984
+lastrevid: 582727063
+modified: '2017-10-22T18:16:18Z'
+type: item
+id: Q1135984
+labels:
+  en:
+    language: en
+    value: Octave
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 529a44ed7b03d2b1a62cf820f88909f3998e7a1b
+      datavalue:
+        value: "/m/076w8x0"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1135984$4D989F06-F12C-46C6-A9E9-5EA242C5963B
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1135984$B69ED38E-7D15-4AA6-AAD3-0F557ABC4B95
+    rank: normal
+  P2534:
+  - mainsnak:
+      snaktype: value
+      property: P2534
+      hash: d6e743518efc1902f43cf9f152f312d1a991ee5f
+      datavalue:
+        value: "\\mathrm{octaves} = \\log_2\\left(\\frac{f_2}{f_1}\\right)"
+        type: string
+      datatype: math
+    type: statement
+    id: Q1135984$5F6C3E28-AE09-4F9A-98D7-DCCB6ADD5740
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+sitelinks:
+  dewiki:
+    site: dewiki
+    title: Oktave (Hilfsmaßeinheit)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Octave (electronics)
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Oktav (füüsika)
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Oktawa (akustyka)
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: Octave (電子學)
+    badges: []

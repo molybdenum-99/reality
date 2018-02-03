@@ -1,0 +1,370 @@
+---
+pageid: 865918
+ns: 0
+title: Q915466
+lastrevid: 615190179
+modified: '2017-12-30T14:23:26Z'
+type: item
+id: Q915466
+labels:
+  en:
+    language: en
+    value: academic year
+aliases:
+  en:
+  - language: en
+    value: school year
+  - language: en
+    value: academic term
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: df1dea68b93692d0591389fc19a2ab79b0f7674d
+      datavalue:
+        value: "/m/02nmgv"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q915466$868401F8-851C-4156-8C00-BC07B5415DA5
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 98a1e85b80bda7ff493c25a6b805599da715c077
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1790144
+          id: Q1790144
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q915466$1129E6CD-DAC1-42D6-9EB8-A42A890E8EB3
+    rank: normal
+  P1051:
+  - mainsnak:
+      snaktype: value
+      property: P1051
+      hash: ce47e1b5029ad3719494f03ed193eeff44e30a77
+      datavalue:
+        value: '8277'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q915466$3D6003C7-8126-47EA-96C7-2A02703C6B55
+    rank: normal
+  P227:
+  - mainsnak:
+      snaktype: value
+      property: P227
+      hash: 9084ac32a24db30e2b0abf08f88f2fdf5a3e73f8
+      datavalue:
+        value: 4180156-8
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q915466$3734D976-3673-44CC-9336-2A3C7C2955BD
+    rank: normal
+    references:
+    - hash: 9a24f7c0208b05d6be97077d855671d1dfdbc0dd
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: d38375ffe6fe142663ff55cd783aa4df4301d83d
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 48183
+              id: Q48183
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P101:
+  - mainsnak:
+      snaktype: value
+      property: P101
+      hash: bc91ff3beffd58d88e7b547e5ce82408180c729d
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8434
+          id: Q8434
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q915466$3addd941-4f20-0256-8947-476b1dea6774
+    rank: normal
+  P527:
+  - mainsnak:
+      snaktype: value
+      property: P527
+      hash: 3d44f09b1aca2657daf369e8659371efe1446325
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2269240
+          id: Q2269240
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P1114:
+      - snaktype: value
+        property: P1114
+        hash: 27d117b45c5fcc050d06cd9053363a71c1af2cbd
+        datavalue:
+          value:
+            amount: "+2"
+            unit: '1'
+          type: quantity
+        datatype: quantity
+    qualifiers-order:
+    - P1114
+    id: Q915466$7cee639d-493b-925a-ae86-8577bba41201
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P527
+      hash: dc95f20a6aabb994f45c1691003b40152641687c
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 19310187
+          id: Q19310187
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P1114:
+      - snaktype: value
+        property: P1114
+        hash: 641d379f55cdd8c112a15e83e6ebd2b5fdedc8ea
+        datavalue:
+          value:
+            amount: "+4"
+            unit: '1'
+          type: quantity
+        datatype: quantity
+    qualifiers-order:
+    - P1114
+    id: Q915466$68d6dfcd-4daf-fb7c-d66c-b7073ef8f73f
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P527
+      hash: 58eab2e345ab8276ca936c24f12121bc0277b912
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 586598
+          id: Q586598
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P1114:
+      - snaktype: value
+        property: P1114
+        hash: 9d30e079aa293cdb61d960a978d59071c402f841
+        datavalue:
+          value:
+            amount: "+3"
+            unit: '1'
+          type: quantity
+        datatype: quantity
+    qualifiers-order:
+    - P1114
+    id: Q915466$f43fd062-41a1-0116-b4aa-180b0026c77b
+    rank: normal
+  P144:
+  - mainsnak:
+      snaktype: value
+      property: P144
+      hash: 482679a16b096e1aa7fe2a9cdb8a3329c95fa0ed
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 577
+          id: Q577
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q915466$8fdebaaf-4a16-9b4d-c104-48b587595894
+    rank: normal
+  P3827:
+  - mainsnak:
+      snaktype: value
+      property: P3827
+      hash: b7cc168cf80f082425ba1a5229e94da3c4543d41
+      datavalue:
+        value: school-year
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q915466$48C40EA8-47D2-4FCB-A40C-1701E8EC99C7
+    rank: normal
+  P3916:
+  - mainsnak:
+      snaktype: value
+      property: P3916
+      hash: 4174c010bce7d819f2f5ca616d0cfef3ea6b1b6e
+      datavalue:
+        value: concept27
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q915466$DF5126AC-92B7-40AC-A695-D0E6F89063E6
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: cdc9c59258a13cf484576ab0811821cff6b36a1b
+      datavalue:
+        value: Academic-Term
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q915466$f2ae78ec-44d8-a19f-b357-dcd4ac989ca8
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: عام دراسي
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Akademik il
+    badges: []
+  csbwiki:
+    site: csbwiki
+    title: Szkòłowi rok
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Školní rok
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Schuljahr
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Academic year
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Lernojaro
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Año escolar
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Õppeaasta
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Ikasturte
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Kouluvuosi
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Année scolaire
+    badges: []
+  hewiki:
+    site: hewiki
+    title: שנת הלימודים
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: अकादमिक वर्ष
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Ուսումնական տարի
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Skólaár
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Оқу жылы
+    badges: []
+  kywiki:
+    site: kywiki
+    title: Окуу жылы
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Leerjaar
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Rok szkolny
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Ano letivo
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Учебный год
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: School year
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Läsår
+    badges: []
+  tawiki:
+    site: tawiki
+    title: கல்வி ஆண்டு
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Навчальний рік
+    badges: []

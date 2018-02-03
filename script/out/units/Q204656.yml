@@ -1,0 +1,354 @@
+---
+pageid: 201028
+ns: 0
+title: Q204656
+lastrevid: 619025687
+modified: '2018-01-11T23:46:20Z'
+type: item
+id: Q204656
+labels:
+  en:
+    language: en
+    value: Peruvian sol
+aliases:
+  en:
+  - language: en
+    value: Nuevo sol
+  - language: en
+    value: Peruvian nuevo sol
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 62b92ff7d900ebf6441612661ea967a57d2eb600
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1643989
+          id: Q1643989
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q204656$EBCBF613-D3AB-4482-AF0C-137D4853B19D
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q204656$2BA1B7E4-8041-4768-83CE-0181C0E71076
+    rank: normal
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 16f3e91744cdf06c1029aa510a4d7cdb2cd0775c
+      datavalue:
+        value: Money of Peru
+        type: string
+      datatype: string
+    type: statement
+    id: q204656$A0D272E6-DAB4-41AC-8DCA-020200C9F864
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: 81f973a3ba8325c51974202bc66aeb50fca81e26
+      datavalue:
+        value: PEN
+        type: string
+      datatype: external-id
+    type: statement
+    id: q204656$5ab36374-46e0-0781-115e-9abb22051401
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 80fb33533412c73ee44859992d788edf39bc36f3
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 932146
+          id: Q932146
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q204656$AA2E3AA2-AE44-4D21-AF77-A6EE5869BA35
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 378d0364c1276990b6c3f6230258326d051a6c7f
+      datavalue:
+        value: "/m/0b423v"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q204656$D5A70E80-4F02-4B70-AA07-D1F03C48C166
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: ada78d0edd43edfb4df1d66c02407cfd352b6fb1
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 419
+          id: Q419
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q204656$6502ddd2-466b-07b4-f3d9-965e4f9b50a8
+    rank: normal
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 7140e570582b9bf3d70aa46c38bbc1bfacabe6fb
+      datavalue:
+        value: '500229'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q204656$75346A73-63C9-4C41-ADC8-57ECEA237D80
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: سول بيروفي جديد
+    badges: []
+  astwiki:
+    site: astwiki
+    title: Sol (moneda)
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Nuevo sol
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Перуанскі новы соль
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: পেরুভিয়ান নুৱেভ সল
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Sol (moneda)
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Sol (měna)
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Nuevo sol
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Peruanischer Sol
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Σολ Περού
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Peruvian sol
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Perua nova suno
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Sol (moneda del Perú)
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Sol (dirua)
+    badges: []
+  fawiki:
+    site: fawiki
+    title: سل جدید پرو
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Perun nuevo sol
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Sol (monnaie du Pérou)
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Nuevo sol
+    badges: []
+  hewiki:
+    site: hewiki
+    title: סול (מטבע)
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Peruanski novi sol
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Perui sol
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Nuevo Sol
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Nuevo sol peruviano
+    badges: []
+  jawiki:
+    site: jawiki
+    title: ヌエボ・ソル
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 페루 솔
+    badges: []
+  kvwiki:
+    site: kvwiki
+    title: Перуса выль соль
+    badges: []
+  lawiki:
+    site: lawiki
+    title: Nuevo Sol
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Naujasis solis
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: पेरूवियन नुएव्हो सोल
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Peruviaanse sol
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Peruansk nuevo sol
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਪੇਰੂਵੀ ਨਵਾਂ ਸੋਲ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Sol (waluta)
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Novo sol
+    badges: []
+  quwiki:
+    site: quwiki
+    title: Sulis
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Перуанский новый соль
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Перуански нови сол
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Nuevo sol
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Нуево соли Перу
+    badges: []
+  tlwiki:
+    site: tlwiki
+    title: Sol ng Peru
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Nuevo Sol
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Новий соль
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Nuevo sol
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Peru sol
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 秘魯新索爾
+    badges: []

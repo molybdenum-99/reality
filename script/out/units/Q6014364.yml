@@ -1,0 +1,79 @@
+---
+pageid: 5795351
+ns: 0
+title: Q6014364
+lastrevid: 560927117
+modified: '2017-09-17T18:43:01Z'
+type: item
+id: Q6014364
+labels:
+  en:
+    language: en
+    value: inch per second
+aliases:
+  en:
+  - language: en
+    value: in/s
+  - language: en
+    value: in/sec
+  - language: en
+    value: ips
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: b4f9c836c43d6700bbb61b79f9c7e714c1b52c93
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 15222637
+          id: Q15222637
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q6014364$78e43919-466d-f069-93d8-e99770d5cf46
+    rank: normal
+  P2888:
+  - mainsnak:
+      snaktype: value
+      property: P2888
+      hash: 02ae62df087f69f6e7bb79bc5daaa068f75c0bad
+      datavalue:
+        value: http://qudt.org/vocab/unit/IN-PER-SEC
+        type: string
+      datatype: url
+    type: statement
+    id: Q6014364$2a8a4fb1-4717-60f4-9fb3-5f2772106601
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 0e610d86add4d2bcf60d100a83fce411be3c9049
+      datavalue:
+        value: InchPerSecond
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q6014364$009ea0e1-4971-58fe-65b1-a73c346bbdb0
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 460881d5639a51905f455b78a7356c7cdd9e0a8c
+      datavalue:
+        value:
+          amount: "+0.0254"
+          unit: http://www.wikidata.org/entity/Q182429
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q6014364$99899c9f-467d-0ad5-e949-436e01e6bd99
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Inch per second
+    badges: []

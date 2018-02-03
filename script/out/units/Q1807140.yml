@@ -1,0 +1,252 @@
+---
+pageid: 1738323
+ns: 0
+title: Q1807140
+lastrevid: 622989662
+modified: '2018-01-24T14:20:47Z'
+type: item
+id: Q1807140
+labels:
+  en:
+    language: en
+    value: Sandbian
+aliases: {}
+claims:
+  P155:
+  - mainsnak:
+      snaktype: value
+      property: P155
+      hash: 130278b33a1214d7cfcf55efdbb8deaa73b139c5
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1032866
+          id: Q1032866
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q1807140$EA9291CB-1855-43E9-9120-F99C391CFB13
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P156:
+  - mainsnak:
+      snaktype: value
+      property: P156
+      hash: c5f209e99540c8c56016161a8045a003c7c6e051
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1736601
+          id: Q1736601
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q1807140$D3F22292-8A94-4141-BB01-CABE7BC5D7A7
+    rank: normal
+    references:
+    - hash: 1bdb252724cacf02f0ec777f197892c2016b968d
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: f1f52d3144330b9e73f20bf21209c4f2adbeddb7
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 13464113
+              id: Q13464113
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P248
+  P138:
+  - mainsnak:
+      snaktype: value
+      property: P138
+      hash: 2ca8544a31d0588aeaa9d7b127774221a1b00689
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 569800
+          id: Q569800
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q1807140$247204A9-4096-472D-819D-06F2984F68E8
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 4b0f0213e84d529fa16fc58c67792704f6bd3aad
+      datavalue:
+        value: "/m/0nhjwcy"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q1807140$C7DA3DB9-23A9-457E-A9FE-C34F839BD8C5
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P625:
+  - mainsnak:
+      snaktype: value
+      property: P625
+      hash: 37f0600de619dcbda3961a33783340187383e619
+      datavalue:
+        value:
+          latitude: 55.7137
+          longitude: 13.3255
+          altitude: 
+          precision: 0.015946561857568
+          globe: http://www.wikidata.org/entity/Q2
+        type: globecoordinate
+      datatype: globe-coordinate
+    type: statement
+    id: Q1807140$1145253E-46FD-4FB7-9BD3-8D53D8595B68
+    rank: normal
+    references:
+    - hash: 9cdd4f1d064faebc44a10fbd408afa604f3b89f6
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 16eef556b717b1b9c8e2599faef3af2af8537632
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 199700
+              id: Q199700
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 1774498cb861c7f76e71afc94661ed9a03d8461a
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1123245
+          id: Q1123245
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1807140$21ea9273-4404-9aa6-3950-8d58e3fe7c26
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: b230ba6f73ec78c2fd8b28c19fab3a1a3e51124e
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 568683
+          id: Q568683
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1807140$4aed0e1a-4d76-a147-cf99-8de3c1ddd83b
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 67fe9691569e1784c40df1bb4a618a343af026d3
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 13389115
+          id: Q13389115
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q1807140$6935ad15-4b6b-479f-b32d-cdd1f72840fb
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: الساندبي
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Sandbium
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Sandbian
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Sandbiense
+    badges: []
+  fawiki:
+    site: fawiki
+    title: سندبین
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Sandbien
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Sandbiano
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Sandbien
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Sandb
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Tầng Sandby
+    badges: []

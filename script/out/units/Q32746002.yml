@@ -1,0 +1,96 @@
+---
+pageid: 34207660
+ns: 0
+title: Q32746002
+lastrevid: 516588771
+modified: '2017-07-09T03:26:02Z'
+type: item
+id: Q32746002
+labels:
+  en:
+    language: en
+    value: propagation coefficient
+aliases:
+  en:
+  - language: en
+    value: γ
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 50afdc16346d8687f53963f614e8d645419488a0
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 208469
+          id: Q208469
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q32746002$64fb65e3-4940-7803-2968-d98eef910092
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 9f90cbdef3d4d9b1d05256b46f19f901de2e324d
+      datavalue:
+        value: γ
+        type: string
+      datatype: string
+    type: statement
+    id: Q32746002$cbe1a5bb-4d99-2cc8-5b66-e1ad01101183
+    rank: normal
+    references:
+    - hash: 4e436717b16cee52ade0bafbb6ead386c7fadcd0
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: 4524a218c2ef251c401d32b7aacb35c2bdf13ad5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 26711932
+              id: Q26711932
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P958:
+        - snaktype: value
+          property: P958
+          hash: '0281e25d2625b3dcb1eb33775270ae59328fd6eb'
+          datavalue:
+            value: 3-25.3
+            type: string
+          datatype: string
+      snaks-order:
+      - P248
+      - P958
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: '095b22e5c47a47f7d5e84e00899837038be11bd4'
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 26711932
+          id: Q26711932
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P958:
+      - snaktype: value
+        property: P958
+        hash: '0281e25d2625b3dcb1eb33775270ae59328fd6eb'
+        datavalue:
+          value: 3-25.3
+          type: string
+        datatype: string
+    qualifiers-order:
+    - P958
+    id: Q32746002$573bbd4f-4913-93ef-8034-ec3c884161ae
+    rank: normal
+sitelinks: {}

@@ -1,0 +1,149 @@
+---
+pageid: 11670793
+ns: 0
+title: Q10366257
+lastrevid: 595351157
+modified: '2017-11-17T20:32:49Z'
+type: item
+id: Q10366257
+labels:
+  en:
+    language: en
+    value: Brazilian real
+aliases:
+  en:
+  - language: en
+    value: Rs
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 5b46a594fa1575e078f87e9e863515a440686883
+      datavalue:
+        value: Money of Brazil
+        type: string
+      datatype: string
+    type: statement
+    id: q10366257$3CE0A204-AC1D-4D2B-9532-2F3ACF537651
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q10366257$2fe8ba8d-43c7-b9aa-8148-a37dd3d5fff0
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 90114304161d20f1934075ea47b8a33a76e95138
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 155
+          id: Q155
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q10366257$7d709981-45df-275b-e4f2-96cfa5ee89c1
+    rank: normal
+  P898:
+  - mainsnak:
+      snaktype: value
+      property: P898
+      hash: 5339eced7b4cc2ecb06778de2f5818a0c4824381
+      datavalue:
+        value: ʁeˈaw
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P407:
+      - snaktype: value
+        property: P407
+        hash: d23405ce65d732957813e18277b36b3a723be311
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 750553
+            id: Q750553
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P407
+    id: Q10366257$de275263-4b5a-14da-c3a6-7b1076b314c5
+    rank: normal
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 26c199f4bc70b32156dd9436af9da281ffa5583f
+      datavalue:
+        value: Rs
+        type: string
+      datatype: string
+    type: statement
+    id: Q10366257$c8c94341-4e32-70fa-25eb-ac0f12e08b96
+    rank: normal
+  P156:
+  - mainsnak:
+      snaktype: value
+      property: P156
+      hash: 8673705c33989a23c6316d557214526225d581f8
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8351983
+          id: Q8351983
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q10366257$ebd45372-4c63-d8c3-bc9a-ef25bb2ead55
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Brazilian real (old)
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Real Brasil (lama)
+    badges: []
+  jawiki:
+    site: jawiki
+    title: レアル (通貨)
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Réis
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Бразильский реал (старый)
+    badges: []

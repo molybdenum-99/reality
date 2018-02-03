@@ -1,0 +1,203 @@
+---
+pageid: 447292
+ns: 0
+title: Q474533
+lastrevid: 490905115
+modified: '2017-05-26T21:28:14Z'
+type: item
+id: Q474533
+labels:
+  en:
+    language: en
+    value: ampere-turn
+aliases: {}
+claims:
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 6d2836e664c82d399d90fae965d7be00cbaa7252
+      datavalue:
+        value: "/m/015zpc"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q474533$648FABCA-D4A9-44F4-AC8F-19B525C2C4B6
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 62c309f8296338bd9647a7e758857137f3370310
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2657718
+          id: Q2657718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P478:
+      - snaktype: value
+        property: P478
+        hash: 585f4382f4aab7434102d16f63881d1c957b43a4
+        datavalue:
+          value: '1'
+          type: string
+        datatype: string
+      P304:
+      - snaktype: value
+        property: P304
+        hash: 10dc166590ee8dffc3b0b8cb69e640f0b48a21f7
+        datavalue:
+          value: '329'
+          type: string
+        datatype: string
+    qualifiers-order:
+    - P478
+    - P304
+    id: Q474533$252ABAD5-CA52-49A5-A48F-23987F93767C
+    rank: normal
+    references:
+    - hash: 8bc722e6797143f2ba971ee5fedaeb0a331268e6
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 4b9ead388e47f64ea2ecb2b82c5d4f516003a8d5
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 1975217
+              id: Q1975217
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 10410a185117355a13e6ba9772d23e07b09cbd90
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 47574
+          id: Q47574
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q474533$70ABB767-4468-42E5-9ADB-414523D3C022
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 275176af550e4fe32113cf93fc9b41e37a2918e3
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1266982
+          id: Q1266982
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q474533$a06edc00-408f-b37f-fe25-05d6b1aee3c8
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: fb4bb6b86596f03428ab268d17844fd5f304554a
+      datavalue:
+        value: AmpereTurn
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q474533$9c2c9158-49f3-1bd6-409a-c3e80be8a641
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: أمبير-لفة
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Amperewindung
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Ampere-turn
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Amperio-vuelta
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Ամպեր-գալարներ
+    badges: []
+  jawiki:
+    site: jawiki
+    title: アンペア回数
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Ампер-орам
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Amperevinding
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Amperozwój
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Amperspiră
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Ампер-виток
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Amper-zavoj
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Ампер-завој
+    badges: []

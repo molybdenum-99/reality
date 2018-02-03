@@ -1,0 +1,604 @@
+---
+pageid: 132897
+ns: 0
+title: Q131016
+lastrevid: 621928931
+modified: '2018-01-20T15:54:54Z'
+type: item
+id: Q131016
+labels:
+  en:
+    language: en
+    value: Czech koruna
+aliases:
+  en:
+  - language: en
+    value: CZK
+claims:
+  P373:
+  - mainsnak:
+      snaktype: value
+      property: P373
+      hash: 50e8ddc62c0fd4761816ec9a3dcad528a6861cb3
+      datavalue:
+        value: Money of the Czech Republic
+        type: string
+      datatype: string
+    type: statement
+    id: Q131016$03c2c4ab-4cc8-394d-01f3-e5cf8977b018
+    rank: normal
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q131016$45D1C26B-BE9B-4718-80B1-EADA2AE7D75A
+    rank: normal
+  P498:
+  - mainsnak:
+      snaktype: value
+      property: P498
+      hash: f1f5892b2a303b25256ce6a4104c0c787db9dd7e
+      datavalue:
+        value: CZK
+        type: string
+      datatype: external-id
+    type: statement
+    id: q131016$c35e4896-4f5f-37f7-1b31-71d8ad6817e8
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: 535305d6abccf7a97ea501f68a448836f3fffccf
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 213
+          id: Q213
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q131016$DB47A63B-E47C-4FD5-8295-964728688268
+    rank: normal
+  P18:
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 1a3cc3c2e6f67481e3a8adbf9381cdfa4c16aa5c
+      datavalue:
+        value: Coin-1-Kc-reverse.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: q131016$F16DFE7D-206E-4F13-A9BA-D31850BBAE45
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: e16274e8fef577be2f4ea2747810e5b93f42c7f3
+      datavalue:
+        value: Mince 10Kč vzor 2003 rubová strana.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: q131016$36B20BCE-5DA5-45E9-B899-4B3C6FED1047
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P18
+      hash: 89c596af6bd3175aa6512806d25e9bed60e157bf
+      datavalue:
+        value: 500 Tschechische Kronen Vorderseite.jpg
+        type: string
+      datatype: commonsMedia
+    type: statement
+    id: q131016$1FEFBFB8-2CB2-47D8-BFE3-FD01900D0A8F
+    rank: normal
+  P691:
+  - mainsnak:
+      snaktype: value
+      property: P691
+      hash: 50cc697c1eaa1b6585453d8abc8d0f4f720f8084
+      datavalue:
+        value: ph344900
+        type: string
+      datatype: external-id
+    type: statement
+    id: q131016$22245535-C55F-4AA6-ABCB-0DF05EF0109B
+    rank: normal
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 85fcddbe77d39292c0eeebaa6b8039ce68fa7c2b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 251062
+          id: Q251062
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q131016$042706AA-ED7D-4CC4-BB55-E84008F81364
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: c8f63a5194f3b1c2e274d82051a6ed5a8441a995
+      datavalue:
+        value: "/m/04rpc3"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q131016$2645391A-FF61-4FA8-A34C-046A837BDD22
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 586fd5cb8af99774d90e69f4b7d0177a49a1c844
+      datavalue:
+        value: Kč
+        type: string
+      datatype: string
+    type: statement
+    id: Q131016$4f08e682-4c48-6413-b129-5adc630f72c1
+    rank: normal
+  P910:
+  - mainsnak:
+      snaktype: value
+      property: P910
+      hash: e68ea0e4d1d0f47ac6e306149749fd02e7f9130b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 9485598
+          id: Q9485598
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q131016$C6ED0F70-9A60-4445-AB65-38B508595595
+    rank: normal
+    references:
+    - hash: 3bf39867b037e8e494a8389ae8a03bad6825a7fc
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 5946b91c53409c48f5f1fb0319ed41fc67a764da
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 191168
+              id: Q191168
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P2284:
+  - mainsnak:
+      snaktype: value
+      property: P2284
+      hash: ed3b856303a3b23715544222cfc5466cba8f2013
+      datavalue:
+        value:
+          amount: "+0.039243"
+          unit: http://www.wikidata.org/entity/Q4917
+        type: quantity
+      datatype: quantity
+    type: statement
+    qualifiers:
+      P585:
+      - snaktype: value
+        property: P585
+        hash: f742be92339cdcc54bf77fbdde9a24b9045f361a
+        datavalue:
+          value:
+            time: "+2016-11-22T00:00:00Z"
+            timezone: 0
+            before: 0
+            after: 0
+            precision: 11
+            calendarmodel: http://www.wikidata.org/entity/Q1985727
+          type: time
+        datatype: time
+    qualifiers-order:
+    - P585
+    id: Q131016$80D2F266-7D62-4C5F-816A-26FC85335106
+    rank: normal
+  P571:
+  - mainsnak:
+      snaktype: value
+      property: P571
+      hash: ab678b14a0ca9d709e9a939804d70eca64aac43f
+      datavalue:
+        value:
+          time: "+1993-02-08T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 11
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q131016$f7c8ce1c-4fee-ed7a-d7a3-d16a2e2c90c4
+    rank: normal
+    references:
+    - hash: 26b27c425703600aa5bac643bf0f5a30699903a1
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: 643432d00b211181f4e44d263fe82398ec58d8d3
+          datavalue:
+            value: http://ftp.aspi.cz/opispdf/1993/018-1993.pdf
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: e5499c098e8beca595937e2fafb4a7afd1eca7d9
+          datavalue:
+            value:
+              time: "+2016-12-04T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+        P407:
+        - snaktype: value
+          property: P407
+          hash: a2ffd1c88a23721a8fd7eeb8d02b7c7f4e60c0c9
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 9056
+              id: Q9056
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P854
+      - P813
+      - P407
+  P3347:
+  - mainsnak:
+      snaktype: value
+      property: P3347
+      hash: 1cfebd9214c7a069831f461c4a33647903a75a67
+      datavalue:
+        value: '500155'
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q131016$7A8482CC-C4D7-4E2D-B089-BECD508BB684
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: كرونة تشيكية
+    badges: []
+  arzwiki:
+    site: arzwiki
+    title: كورونا تشيكى
+    badges: []
+  azwiki:
+    site: azwiki
+    title: Çex kronu
+    badges: []
+  barwiki:
+    site: barwiki
+    title: Tschechische Krone
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Чэская крона
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Чэшская крона
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Чешка крона
+    badges: []
+  bpywiki:
+    site: bpywiki
+    title: চেক কোরুনা
+    badges: []
+  bswiki:
+    site: bswiki
+    title: Češka kruna
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Corona txeca
+    badges: []
+  crhwiki:
+    site: crhwiki
+    title: Çeh kоrunası
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Koruna česká
+    badges: []
+  cvwiki:
+    site: cvwiki
+    title: Чехи крони
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Tjekkiske koruna
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Tschechische Krone
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Κορόνα Τσεχίας
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Czech koruna
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Ĉeĥa krono
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Corona checa
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Tšehhi kroon
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Txekiar koroa
+    badges: []
+  fawiki:
+    site: fawiki
+    title: کرونای چک
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Tšekin koruna
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Couronne tchèque
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Coroa checa
+    badges: []
+  hewiki:
+    site: hewiki
+    title: קורונה צ'כית
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Češka kruna
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Cseh korona
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Չեխական կրոնա
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Koruna Ceko
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Tékknesk króna
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Corona ceca
+    badges: []
+  jawiki:
+    site: jawiki
+    title: チェコ・コルナ
+    badges: []
+  kawiki:
+    site: kawiki
+    title: ჩეხური კრონა
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 체코 코루나
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Čekijos krona
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Čehijas krona
+    badges: []
+  mkwiki:
+    site: mkwiki
+    title: Чешка круна
+    badges: []
+  mrwiki:
+    site: mrwiki
+    title: चेक कोरुना
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Tsjechische kroon
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Tsjekkisk koruna
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Tsjekkisk koruna
+    badges: []
+  ocwiki:
+    site: ocwiki
+    title: Corona chèca
+    badges: []
+  pawiki:
+    site: pawiki
+    title: ਚੈੱਕ ਕੋਰੂਨਾ
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Korona czeska
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Coroa checa
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Coroană cehă
+    badges: []
+  ruewiki:
+    site: ruewiki
+    title: Чеська коруна
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Чешская крона
+    badges: []
+  sahwiki:
+    site: sahwiki
+    title: Чех кроната
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Češka kruna
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Česká koruna (mena)
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Češka krona
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Чешка круна
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Tjeckisk krona
+    badges: []
+  tawiki:
+    site: tawiki
+    title: செக் கொருனா
+    badges: []
+  tgwiki:
+    site: tgwiki
+    title: Корунаи Чехия
+    badges: []
+  thwiki:
+    site: thwiki
+    title: โครูนาเช็ก
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Çek korunası
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Чеська крона
+    badges: []
+  vepwiki:
+    site: vepwiki
+    title: Čehijan kron
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Koruna Séc
+    badges: []
+  xmfwiki:
+    site: xmfwiki
+    title: ჩეხური კრონა
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Koruna
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Chesko koruna
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 捷克克朗
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 捷克克朗
+    badges: []

@@ -1,0 +1,742 @@
+---
+pageid: 161728
+ns: 0
+title: Q160857
+lastrevid: 623073093
+modified: '2018-01-24T19:47:06Z'
+type: item
+id: Q160857
+labels:
+  en:
+    language: en
+    value: horsepower
+aliases:
+  en:
+  - language: en
+    value: hp
+  - language: en
+    value: horse power
+  - language: en
+    value: metric horsepower
+claims:
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 116ccff192c7c9c7ac8717e13172125bb454be6b
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 10387689
+          id: Q10387689
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q160857$f57fc240-4b0e-0b07-943e-2c898d7a5ec9
+    rank: normal
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: 6e8cf2a7b8c4bb963046629cc7cda6a2901598b4
+      datavalue:
+        value: "/m/03n12"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q160857$E05A37F3-9685-4093-9738-10FF4275B69C
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P558:
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 792e2317f12d265cc545d214d580236d8a85b0bb
+      datavalue:
+        value: PS
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P407:
+      - snaktype: value
+        property: P407
+        hash: 46bfd327b830f66f7061ea92d1be430c135fa91f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 188
+            id: Q188
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P407
+    id: Q160857$1978ffd5-432c-402a-fe61-2ffbd2eb2a7a
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: a0ba2101f130a21518a89c8891a5c15a5bece3f2
+      datavalue:
+        value: hk
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P407:
+      - snaktype: value
+        property: P407
+        hash: e41efcf0acaa18ea8fca63b87e2e0c24618f5664
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 9027
+            id: Q9027
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P407
+    id: Q160857$c26407b8-4005-0331-beba-ff1ba8fba60e
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 5c5699a1bfde20d84ff520ee5d275699cd891380
+      datavalue:
+        value: CV
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P407:
+      - snaktype: value
+        property: P407
+        hash: ffe70325d10cfc55f0dca807ed80ca0b5b97c472
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 1321
+            id: Q1321
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P407
+    id: Q160857$bf462c74-4115-5fb8-a91d-5f8a5066c492
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: a3860db40b7ce182865512b9cbe351a93261923f
+      datavalue:
+        value: л. с.
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P407:
+      - snaktype: value
+        property: P407
+        hash: d291ddb7cd77c94a7bd709a8395934147e0864fc
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 7737
+            id: Q7737
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P407
+    id: Q160857$b8c2de56-45ca-dcdb-20f0-778060f9627e
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 77881e76467915e21531ddfa2d795d1fdb8894f3
+      datavalue:
+        value: к. с.
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P407:
+      - snaktype: value
+        property: P407
+        hash: 7214a198b80d62f95a81f714497742b160dfb30f
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 9091
+            id: Q9091
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P407
+    id: Q160857$91932059-4b2b-dc6a-ca18-0598a65f7333
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: 77881e76467915e21531ddfa2d795d1fdb8894f3
+      datavalue:
+        value: к. с.
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P407:
+      - snaktype: value
+        property: P407
+        hash: 44a3ac8edb091f4814a4db3d0324920996d33892
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 8798
+            id: Q8798
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P407
+    id: Q160857$7df28532-4d85-4751-f8b0-5710f6ea3d92
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P558
+      hash: d4139e19d94f23b0ccd64e36f011f226cc7ad9bb
+      datavalue:
+        value: hp
+        type: string
+      datatype: string
+    type: statement
+    qualifiers:
+      P407:
+      - snaktype: value
+        property: P407
+        hash: daf1c4fcb58181b02dff9cc89deb084004ddae4b
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 1860
+            id: Q1860
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P407
+    id: Q160857$fb333d65-402f-1d47-4fb1-c3ca0b126ec8
+    rank: normal
+  P361:
+  - mainsnak:
+      snaktype: value
+      property: P361
+      hash: 9c9779209edf30434464319c577c5e30d5e4fae7
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 1213508
+          id: Q1213508
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q160857$ef6bd7d2-45cd-9a02-9039-5109f476f5d3
+    rank: normal
+  P1343:
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: 62c309f8296338bd9647a7e758857137f3370310
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2657718
+          id: Q2657718
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q160857$4DBE3E0A-0AC0-4B57-8F48-4EA4B4D41F7C
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P1343
+      hash: eda63bed5c3d7a3460033092338ab321a2374c7f
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 2041543
+          id: Q2041543
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    qualifiers:
+      P805:
+      - snaktype: value
+        property: P805
+        hash: 5a35701165a83f1d1c689d64f896328882ee4d3a
+        datavalue:
+          value:
+            entity-type: item
+            numeric-id: 23858890
+            id: Q23858890
+          type: wikibase-entityid
+        datatype: wikibase-item
+    qualifiers-order:
+    - P805
+    id: Q160857$0230D627-815F-4AAA-9DAA-8B0C80C7CB21
+    rank: normal
+  P1417:
+  - mainsnak:
+      snaktype: value
+      property: P1417
+      hash: c31095fa96d22e945d9e6b52363bf23e35a3a1ab
+      datavalue:
+        value: science/horsepower
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q160857$5950CB57-A804-4CF0-971C-99B79CB1D217
+    rank: normal
+  P2968:
+  - mainsnak:
+      snaktype: value
+      property: P2968
+      hash: 28e2c69e33f6827dd8604610d01832bca2de1ba6
+      datavalue:
+        value: Horsepower
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q160857$83A85CBC-E609-45A8-AF3D-42D06B1B57AC
+    rank: normal
+  P2370:
+  - mainsnak:
+      snaktype: value
+      property: P2370
+      hash: 9abf1086b7c2fb0f4854cdf33fe9c2b67c8a1889
+      datavalue:
+        value:
+          amount: "+735.49875"
+          unit: http://www.wikidata.org/entity/Q25236
+        type: quantity
+      datatype: quantity
+    type: statement
+    id: Q160857$10488b50-40e7-ec99-8b7c-d176fc73e416
+    rank: normal
+    references:
+    - hash: 00acf378ef92da2ee379c4ad347bf9e3c769b5ae
+      snaks:
+        P854:
+        - snaktype: value
+          property: P854
+          hash: d1344e799bd71a9138a5592c03d0f74e4c4448b7
+          datavalue:
+            value: http://www.ptb.de/cms/fileadmin/internet/publikationen/broschueren/Einheiten_deutsch.pdf
+            type: string
+          datatype: url
+        P813:
+        - snaktype: value
+          property: P813
+          hash: 0a154446c415139f575015828e2bfe5b5d39c0a8
+          datavalue:
+            value:
+              time: "+2017-01-03T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P854
+      - P813
+  P3365:
+  - mainsnak:
+      snaktype: value
+      property: P3365
+      hash: 9b391be55af51f404425cb65ac66c7c2cc7ddcb0
+      datavalue:
+        value: cavallo-vapore
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q160857$9d76384f-46f0-4f2a-c64f-522f48c63511
+    rank: normal
+  P3417:
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: e7310ba356eaaa0bc8c2f889a1e666aa52e39569
+      datavalue:
+        value: Horsepower
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q160857$4E3A82F8-0828-46C2-9C37-483808C7B0FF
+    rank: normal
+    references:
+    - hash: d0b5b6346d38f7e212f576fec2c6692ef2b86e6a
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: 34bf155bb9a56ad024ed0ea67b631a59af17fc38
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 51711
+              id: Q51711
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  - mainsnak:
+      snaktype: value
+      property: P3417
+      hash: 9765ee51ba403de5dd558f23f871b871a2e5707e
+      datavalue:
+        value: Horsepower-hp
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q160857$0309FE21-E14B-4208-B788-6CBFFA262424
+    rank: normal
+  P3569:
+  - mainsnak:
+      snaktype: value
+      property: P3569
+      hash: 219e68e5e1aea3c6651ef4789d5eafb579c875d9
+      datavalue:
+        value: natuurkunde-scheikunde-en-sterrenkunde/paardenkracht
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q160857$073ABC1B-6477-49FC-8A25-6A89043E1F37
+    rank: normal
+  P3827:
+  - mainsnak:
+      snaktype: value
+      property: P3827
+      hash: 4a7df3227bb5ffab1067edad371acd317034042e
+      datavalue:
+        value: horsepower
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q160857$721EAEC3-93DB-4A74-AD1F-2D4E82E53EE5
+    rank: normal
+  P111:
+  - mainsnak:
+      snaktype: value
+      property: P111
+      hash: 67975d1096e3104e0d615b341d0c2a8dc15923c1
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 25342
+          id: Q25342
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q160857$30fafdd1-4a36-f52a-e4db-25fa596d5cbe
+    rank: normal
+sitelinks:
+  arwiki:
+    site: arwiki
+    title: حصان (وحدة قدرة)
+    badges: []
+  azwiki:
+    site: azwiki
+    title: At gücü
+    badges: []
+  be_x_oldwiki:
+    site: be_x_oldwiki
+    title: Конская сіла
+    badges: []
+  bewiki:
+    site: bewiki
+    title: Конская сіла
+    badges: []
+  bgwiki:
+    site: bgwiki
+    title: Конска сила
+    badges: []
+  cawiki:
+    site: cawiki
+    title: Cavall de vapor
+    badges: []
+  cswiki:
+    site: cswiki
+    title: Koňská síla
+    badges: []
+  dawiki:
+    site: dawiki
+    title: Hestekraft
+    badges: []
+  dewiki:
+    site: dewiki
+    title: Pferdestärke
+    badges: []
+  elwiki:
+    site: elwiki
+    title: Ίππος (μονάδα ισχύος)
+    badges: []
+  enwiki:
+    site: enwiki
+    title: Horsepower
+    badges: []
+  eowiki:
+    site: eowiki
+    title: Ĉevalpovo
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Caballo de vapor
+    badges: []
+  etwiki:
+    site: etwiki
+    title: Hobujõud
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Zaldi-potentzia
+    badges: []
+  fawiki:
+    site: fawiki
+    title: اسب بخار
+    badges: []
+  fiwiki:
+    site: fiwiki
+    title: Hevosvoima
+    badges: []
+  frrwiki:
+    site: frrwiki
+    title: PS
+    badges: []
+  frwiki:
+    site: frwiki
+    title: Cheval-vapeur
+    badges: []
+  fywiki:
+    site: fywiki
+    title: Hynstekrêft
+    badges: []
+  gawiki:
+    site: gawiki
+    title: Each-chumhacht
+    badges: []
+  glwiki:
+    site: glwiki
+    title: Cabalo de vapor
+    badges: []
+  hewiki:
+    site: hewiki
+    title: כוח סוס
+    badges: []
+  hiwiki:
+    site: hiwiki
+    title: अश्व शक्ति
+    badges: []
+  hrwiki:
+    site: hrwiki
+    title: Konjska snaga
+    badges: []
+  huwiki:
+    site: huwiki
+    title: Lóerő
+    badges: []
+  hywiki:
+    site: hywiki
+    title: Ձիաուժ
+    badges: []
+  idwiki:
+    site: idwiki
+    title: Daya kuda
+    badges: []
+  iswiki:
+    site: iswiki
+    title: Hestafl
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Cavallo vapore
+    badges: []
+  jawiki:
+    site: jawiki
+    title: 馬力
+    badges: []
+  kkwiki:
+    site: kkwiki
+    title: Ат күші
+    badges: []
+  knwiki:
+    site: knwiki
+    title: ಅಶ್ವ ಸಾಮರ್ಥ್ಯ
+    badges: []
+  kowiki:
+    site: kowiki
+    title: 마력
+    badges: []
+  kuwiki:
+    site: kuwiki
+    title: Hespxurtanî
+    badges: []
+  ltwiki:
+    site: ltwiki
+    title: Arklio galia
+    badges: []
+  lvwiki:
+    site: lvwiki
+    title: Zirgspēks
+    badges: []
+  mlwiki:
+    site: mlwiki
+    title: കുതിരശക്തി
+    badges: []
+  mnwiki:
+    site: mnwiki
+    title: Морины хүч
+    badges: []
+  mswiki:
+    site: mswiki
+    title: Kuasa kuda
+    badges: []
+  mywiki:
+    site: mywiki
+    title: မြင်းကောင်ရေအား
+    badges: []
+  nlwiki:
+    site: nlwiki
+    title: Paardenkracht
+    badges: []
+  nnwiki:
+    site: nnwiki
+    title: Hestekraft
+    badges: []
+  nowiki:
+    site: nowiki
+    title: Hestekraft
+    badges: []
+  plwiki:
+    site: plwiki
+    title: Koń mechaniczny
+    badges: []
+  ptwiki:
+    site: ptwiki
+    title: Cavalo-vapor
+    badges: []
+  rowiki:
+    site: rowiki
+    title: Cal putere
+    badges: []
+  ruwiki:
+    site: ruwiki
+    title: Лошадиная сила
+    badges: []
+  scowiki:
+    site: scowiki
+    title: Horsepouer
+    badges: []
+  shwiki:
+    site: shwiki
+    title: Konjska snaga
+    badges: []
+  simplewiki:
+    site: simplewiki
+    title: Horsepower
+    badges: []
+  skwiki:
+    site: skwiki
+    title: Kôň (jednotka)
+    badges: []
+  slwiki:
+    site: slwiki
+    title: Konjska moč
+    badges: []
+  srwiki:
+    site: srwiki
+    title: Коњска снага
+    badges: []
+  svwiki:
+    site: svwiki
+    title: Hästkraft
+    badges: []
+  tawiki:
+    site: tawiki
+    title: குதிரைத் திறன்
+    badges: []
+  tewiki:
+    site: tewiki
+    title: అశ్వ సామర్థ్యం
+    badges: []
+  thwiki:
+    site: thwiki
+    title: แรงม้า
+    badges: []
+  tkwiki:
+    site: tkwiki
+    title: At güý­ji
+    badges: []
+  trwiki:
+    site: trwiki
+    title: Beygir gücü
+    badges: []
+  ukwiki:
+    site: ukwiki
+    title: Кінська сила
+    badges: []
+  urwiki:
+    site: urwiki
+    title: اسپی طاقت
+    badges: []
+  uzwiki:
+    site: uzwiki
+    title: Ot kuchi
+    badges: []
+  viwiki:
+    site: viwiki
+    title: Mã lực
+    badges: []
+  yowiki:
+    site: yowiki
+    title: Horsepower
+    badges: []
+  zh_min_nanwiki:
+    site: zh_min_nanwiki
+    title: Bé-la̍t
+    badges: []
+  zh_yuewiki:
+    site: zh_yuewiki
+    title: 馬力
+    badges: []
+  zhwiki:
+    site: zhwiki
+    title: 馬力
+    badges: []

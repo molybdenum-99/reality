@@ -1,0 +1,206 @@
+---
+pageid: 911178
+ns: 0
+title: Q961408
+lastrevid: 619464607
+modified: '2018-01-12T22:38:32Z'
+type: item
+id: Q961408
+labels:
+  en:
+    language: en
+    value: Argentine peso moneda nacional
+aliases: {}
+claims:
+  P562:
+  - mainsnak:
+      snaktype: value
+      property: P562
+      hash: 809c1c20366b022ce8a445ab34c5215d66826c0c
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 642444
+          id: Q642444
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: q961408$75712898-B779-457B-8565-17B129245E56
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P646:
+  - mainsnak:
+      snaktype: value
+      property: P646
+      hash: a2f0e38aeb9256f0157ee491fd0b12ebe64c9794
+      datavalue:
+        value: "/m/0bn_p4"
+        type: string
+      datatype: external-id
+    type: statement
+    id: Q961408$5D72B015-1777-4107-8815-7196A00DE974
+    rank: normal
+    references:
+    - hash: 2b00cb481cddcac7623114367489b5c194901c4a
+      snaks:
+        P248:
+        - snaktype: value
+          property: P248
+          hash: a94b740202b097dd33355e0e6c00e54b9395e5e0
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 15241312
+              id: Q15241312
+            type: wikibase-entityid
+          datatype: wikibase-item
+        P577:
+        - snaktype: value
+          property: P577
+          hash: fde79ecb015112d2f29229ccc1ec514ed3e71fa2
+          datavalue:
+            value:
+              time: "+2013-10-28T00:00:00Z"
+              timezone: 0
+              before: 0
+              after: 0
+              precision: 11
+              calendarmodel: http://www.wikidata.org/entity/Q1985727
+            type: time
+          datatype: time
+      snaks-order:
+      - P248
+      - P577
+  P582:
+  - mainsnak:
+      snaktype: value
+      property: P582
+      hash: 8f7e7f46cc7e18dca1a9e388f5120935d48e80b5
+      datavalue:
+        value:
+          time: "+1969-12-31T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 11
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q961408$1cd74125-4851-695b-65d3-19ef64a65bf3
+    rank: normal
+  P580:
+  - mainsnak:
+      snaktype: value
+      property: P580
+      hash: f2b9469c50f726f1263b34b75ee0716cf543b950
+      datavalue:
+        value:
+          time: "+1881-01-01T00:00:00Z"
+          timezone: 0
+          before: 0
+          after: 0
+          precision: 9
+          calendarmodel: http://www.wikidata.org/entity/Q1985727
+        type: time
+      datatype: time
+    type: statement
+    id: Q961408$ecbae6a0-407e-75d4-526a-39eb546d3b99
+    rank: normal
+  P17:
+  - mainsnak:
+      snaktype: value
+      property: P17
+      hash: d06759986db6ed52e2f976b2051127431e51a8be
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 414
+          id: Q414
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q961408$7C3AF1F5-2F1C-453B-AD80-F3819E919659
+    rank: normal
+    references:
+    - hash: fa278ebfc458360e5aed63d5058cca83c46134f1
+      snaks:
+        P143:
+        - snaktype: value
+          property: P143
+          hash: e4f6d9441d0600513c4533c672b5ab472dc73694
+          datavalue:
+            value:
+              entity-type: item
+              numeric-id: 328
+              id: Q328
+            type: wikibase-entityid
+          datatype: wikibase-item
+      snaks-order:
+      - P143
+  P31:
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 724bdf3e32380d29eaccfd480beedeb2e3ddd017
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 8142
+          id: Q8142
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q961408$6cdce68f-43f8-2abb-f747-164771a51b01
+    rank: normal
+  - mainsnak:
+      snaktype: value
+      property: P31
+      hash: 3e2e3de95bf069f64c11e9c0c20052d75ac63fd5
+      datavalue:
+        value:
+          entity-type: item
+          numeric-id: 244696
+          id: Q244696
+        type: wikibase-entityid
+      datatype: wikibase-item
+    type: statement
+    id: Q961408$7a36ea06-4f4f-559b-253b-b12e0aa30a08
+    rank: normal
+sitelinks:
+  enwiki:
+    site: enwiki
+    title: Argentine peso moneda nacional
+    badges: []
+  eswiki:
+    site: eswiki
+    title: Peso Moneda Nacional
+    badges: []
+  euwiki:
+    site: euwiki
+    title: Argentinar peso moneda nacional
+    badges:
+    - Q20748093
+  fawiki:
+    site: fawiki
+    title: پزوی مند ناسیونال آرژانتین
+    badges: []
+  itwiki:
+    site: itwiki
+    title: Peso moneda nacional argentino
+    badges: []
