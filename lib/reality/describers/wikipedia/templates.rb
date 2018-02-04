@@ -18,7 +18,7 @@ module Reality
             vals.index('E') || vals.index('W') or fail("Unparseable coord #{vals.inspect}")
           vals = vals.first(num + 1).map { |t| t =~ /[SNEW]/ ? t : t.to_f }
           names = COORD_ATTRS.fetch(vals.count) { fail("Unparseable coord #{vals.inspect}") }
-          Geo::Coord.new(names.zip(vals).to_h)
+          Coord.new(names.zip(vals).to_h)
         end
 
         def date(template)

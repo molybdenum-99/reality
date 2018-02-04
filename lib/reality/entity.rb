@@ -19,8 +19,14 @@ module Reality
     end
 
     def [](variable)
-      @observations.detect { |o| o.variable == variable } ||
+      case variable
+      when String
+        @observations.detect { |o| o.variable == variable }
+      when Regexp
         @observations.select { |o| variable === o.variable }
+      else
+        fail ArgumentError, "Can't fetch #{variable.inspect}"
+      end
     end
 
     memoize def uris

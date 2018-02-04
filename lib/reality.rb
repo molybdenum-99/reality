@@ -6,6 +6,7 @@ require 'fileutils'
 require 'backports/latest'
 require 'memoist'
 
+require 'money'
 require 'geo/coord'
 require 'tz_offset'
 
@@ -24,8 +25,8 @@ module Reality
   end
 
   # basic functionality
-  require_ %w[version config measure tz_offset date]
-  require_ %w[util util/description util/refinements util/parsers util/formatters]
+  require_ %w[version config measure tz_offset date coord currency]
+  require_ %w[setup util util/description util/refinements util/parsers util/formatters]
 
   # engines
   USER_AGENT = "Reality/#{VERSION} (https://github.com/molybdenum-99/reality; zverok.offline@gmail.com)"

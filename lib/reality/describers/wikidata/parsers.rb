@@ -25,7 +25,7 @@ module Reality
             value['language'] == 'en' ? value['text'] : nil
           when 'globecoordinate'
             # TODO: has globe, check Mars
-            Geo::Coord.new(*value.values_at('latitude', 'longitude'))
+            Coord.new(*value.values_at('latitude', 'longitude'))
           when 'time'
             # TODO: has timezone, calendar and other stuff
             begin

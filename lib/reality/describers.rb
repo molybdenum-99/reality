@@ -11,5 +11,20 @@ module Reality
     def wikipedia
       describers['wikipedia']
     end
+
+    def open_street_map
+      describers['openstreetmap']
+    end
+
+    alias openstreetmap open_street_map
+    alias osm open_street_map
+
+    def wikidata
+      describers['wikidata']
+    end
+
+    def commons
+      describers['wikimedia-commons']
+    end
   end
 end

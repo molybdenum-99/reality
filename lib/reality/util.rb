@@ -18,5 +18,13 @@ module Reality
         dig(res, *keys)
       end
     end
+
+    DEFAULT_REQUIRE_EXPLANATION = 'Please install `%s` in order to use this functionality.'.freeze
+
+    def require_optional(gem, explanation = nil)
+      require gem
+    rescue LoadError
+      raise LoadError, explanation || DEFAULT_REQUIRE_EXPLANATION % gem
+    end
   end
 end

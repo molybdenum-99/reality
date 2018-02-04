@@ -46,7 +46,9 @@ module Reality
 
         # what we output.
         # TODO: out counts, for "continue"?.. Though, we CAN'T continue as it has no pagination...
-        query << 'out tags qt 10;'
+        # "asc" is "sort by id", typically it is "best guess" order (e.g. city Chiang Mai has lower
+        # id than restaurant Chiang Mai and so on)
+        query << 'out tags asc 10;'
 
         overpass_query(query).fetch('elements')
           .map { |el|

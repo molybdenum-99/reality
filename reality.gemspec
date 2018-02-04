@@ -42,9 +42,11 @@ Gem::Specification.new do |s|
   s.add_dependency 'tzinfo'
   s.add_dependency 'ruby-sun-times'
   s.add_dependency 'time_boots'
-  #s.add_dependency 'geo_coord'
+  s.add_dependency 'geo_coord', '>= 0.1.0'
   s.add_dependency 'tlaw'
   s.add_dependency 'money'
+  s.add_dependency 'money-open-exchange-rates'
   s.add_dependency 'tz_offset', '>= 0.0.4'
   s.add_dependency 'memoist'
+  s.add_development_dependency 'wheretz'
 end

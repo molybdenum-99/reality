@@ -18,8 +18,6 @@ module Reality
       end
 
       def perform_query(params)
-        label = params.delete('label')
-
         raw, processable = params.partition { |name, value| name.match(/^P\d+$/) }
 
         # TODO: cache names & types
