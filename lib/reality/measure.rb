@@ -27,6 +27,10 @@ module Reality
       classes[unit.to_s]
     end
 
+    def Measure.to_proc
+      method(:new)
+    end
+
     # @param amount - numeric value, e.g. 100.5
     # @param unit - can be any string, e.g. 'km', '$'
     def initialize(amount, unit)

@@ -1,59 +1,55 @@
 require 'tlaw'
 
 module Reality
-  module DataSources
-    class OpenWeatherMap
+  module Describers
+    class OpenWeatherMap < Abstract::Base
       def initialize(key)
         @api = API.new(appid: key, units: :metric)
       end
 
-      MAPPING = {
-        'main.temp' => [:temperature, Measure['°C'].method(:new)]
+      DROP = %[weather.id sys.id sys.type sys.message cod base].freeze
+      RENAME = {'weather.main' => 'weather', 'dt' => 'timestamp'}.freeze
+
+      CONVERT = {
+        'temp' => Measure['°C'],
+        'temp_min' => Measure['°C'],
+        'temp_max' => Measure['°C'],
+
+        'pressure' => Measure['hPa'],
+        'humidity' => Measure['%'],
+
+        'wind_speed' => Measure['m/s'],
+        'wind_deg' => Measure['°'],
       }.freeze
 
-      IDENTITY = :itself.to_proc
+      def perform_query(params)
+        at = params.delete('at')
+        lat, lng = case at
+        when Array
+          at
+        when Geo::Coord
+          at.lat_lng
+        when Entity
+          (at['coordinates'] || at['coordinate location'])&.value&.latlng
+        when /^\d+(?:\.\d+)?[,\| ;]\d+(?:\.\d+)?$/
+          at.split(/[,\| ;]/).map(&:to_f)
+        end
 
-      def find(lat_lng, at: nil)
-        at ? forecast(*lat_lng, at) : current(*lat_lng)
+        @api.current(lat, lng).yield_self { |response|
+          eid = response.delete('id')
+          response.reject { |key, _| DROP.include?(key) }
+            .transform_keys { |key| RENAME.fetch(key, key.sub(/^(main|sys)\./, '').sub('.', '_')) }
+            .map { |key, value|
+              converter = CONVERT.fetch(key, :itself).to_proc
+              obs(eid, key, converter.(value))
+            }
+        }.yield_self(&method(:make_entities))
       end
 
       private
 
-      def current(lat, lng)
-        @api.current(lat, lng).derp { |response|
-          [
-            parse_source(response),
-            *map_values(response).compact.map { |name, val| Observation.new(name, val) }
-          ]
-        }
-      end
-
-      def forecast(lat, lng, timestamp)
-        # TODO: return [] unless (0..5).cover?(TimeMath.day.diff(Time.now, timestamp))
-
-        @api.forecast(lat, lng).derp { |response|
-          [
-            parse_source(response),
-            *response['list'].flat_map { |row|
-              map_values(row).map { |name, value|
-                Observation.new(name, value, time: Time.at(row['dt']))
-              }
-            }
-          ]
-        }
-      end
-
-      def map_values(data)
-        MAPPING.map { |field, (name, conv)|
-          conv ||= IDENTITY
-          data[field].derp { |val| val && [name, conv.call(val)] }
-        }
-      end
-
-      def parse_source(response)
-        response['coord'].derp { |coord|
-          Observation.new(:_source, Link.new(:open_weather_map, "#{coord.lat},#{coord.lng}"))
-        }
+      def prefix
+        'openweathermap'
       end
 
       class API < TLAW::API
@@ -69,8 +65,11 @@ module Reality
             param :lng, :to_f, required: true, desc: 'Longitude'
 
             post_process { |e|
-              e['coord'] = Geo::Coord.new(e['coord.lat'], e['coord.lon']) if e['coord.lat'] && e['coord.lon']
+              e['coord'] = Geo::Coord.new(e.delete('coord.lat'), e.delete('coord.lon')) if e['coord.lat'] && e['coord.lon']
             }
+            post_process 'dt', &Time.method(:at)
+            post_process 'sys.sunrise', &Time.method(:at)
+            post_process 'sys.sunset', &Time.method(:at)
           end
 
           endpoint :forecast, '/forecast?lat={lat}&lon={lng}' do
@@ -87,3 +86,5 @@ module Reality
     end
   end
 end
+
+Reality.describers['openweathermap'] = Reality.describers['open_weather_map'] = Reality::Describers::OpenWeatherMap.new(ENV['OPEN_WEATHER_MAP_APPID'])

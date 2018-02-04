@@ -43,5 +43,6 @@ module Reality
     describers/wikidata
     describers/open_street_map
     describers/wikimedia_commons
+    describers/open_weather_map
   ]
 end
