@@ -78,6 +78,8 @@ module Reality
           when /_magnitude$/
             m = string.match(/^(\d+) E(\d+)$/) or return
             m[1].to_i * 10**m[2].to_i
+          when 'currency_code'
+            Reality::Currency.new(string)
           end
         end
 
