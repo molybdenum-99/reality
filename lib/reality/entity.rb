@@ -21,9 +21,9 @@ module Reality
     def [](variable)
       case variable
       when String
-        @observations.detect { |o| o.variable == variable }
+        @observations.detect { |o| o.variable == variable }&.value
       when Regexp
-        @observations.select { |o| variable === o.variable }
+        @observations.select { |o| variable === o.variable }.map(&:value).yield_self(&Util.method(:oneify))
       else
         fail ArgumentError, "Can't fetch #{variable.inspect}"
       end

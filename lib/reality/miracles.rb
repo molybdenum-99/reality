@@ -9,13 +9,17 @@ module Reality
       end
 
       def respond_to_missing?(name, *)
+        return false if name.to_s.start_with?('to_') # to_a, to_ary, to_h - they are definitely NOT here
         _symbolic_names.key?(name)
       end
 
       private
 
       memoize def _symbolic_names
-        observations.group_by { |o| nameify(o.variable) }.to_h
+        observations.group_by { |o| nameify(o.variable) }
+          .map { |name, group|
+            [name, Util.oneify(group.map(&:value))]
+          }.to_h
       end
 
       def nameify(name)
@@ -32,6 +36,7 @@ module Reality
       end
 
       def respond_to_missing?(name, *)
+        return false if name.to_s.start_with?('to_') # to_a, to_ary, to_h - they are definitely NOT here
         entity.respond_to?(name)
       end
 

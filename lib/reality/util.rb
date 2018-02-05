@@ -2,7 +2,7 @@ module Reality
   module Util
     module_function
 
-    def onefy(val)
+    def oneify(val)
       return val unless val.is_a?(Array)
       val.size <= 1 ? val.first : val
     end
