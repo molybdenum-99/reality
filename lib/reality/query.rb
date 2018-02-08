@@ -16,7 +16,7 @@ module Reality
     end
 
     def load
-      Reality.describers.fetch(source).perform_query(params)
+      Reality.describers.fetch(source).perform_query(params.transform_keys(&:to_s))
     end
   end
 end

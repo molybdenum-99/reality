@@ -30,7 +30,7 @@ module Reality
         when Geo::Coord
           at.lat_lng
         when Entity
-          (at['coordinates'] || at['coordinate location'])&.value&.latlng
+          (at['coordinates'] || at['coordinate location'])&.latlng
         when /^\d+(?:\.\d+)?[,\| ;]\d+(?:\.\d+)?$/
           at.split(/[,\| ;]/).map(&:to_f)
         end

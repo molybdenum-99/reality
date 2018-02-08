@@ -26,5 +26,9 @@ module Reality
     def commons
       describers['wikimedia-commons']
     end
+
+    def open_weather_map
+      describers['open_weather_map']
+    end
   end
 end

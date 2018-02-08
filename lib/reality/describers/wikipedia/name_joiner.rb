@@ -29,7 +29,7 @@ module Reality
             CONVOLUTIONS
               .select { |name_pat, val_pat| name.match(name_pat) }
               .each do |name_pat, val_pat|
-                match = name.match(name_pat).to_h
+                match = name.match(name_pat).named_captures
                 val_name = val_pat % match
                 val_candidates = pairs.select { |name, _| name == val_name }
                 next if val_candidates.empty?

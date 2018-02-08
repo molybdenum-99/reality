@@ -17,7 +17,7 @@ module Reality
       when Geo::Coord
         other
       when Entity
-        (val['coordinates'] || val['coordinates location'])&.value or
+        (val['coordinates'] || val['coordinates location']) or
           fail ArgumentError, "#{val} seem not hold any coordinates information"
       else
         fail ArgumentError, "#{val.class} can't be coerced to coordinates"
