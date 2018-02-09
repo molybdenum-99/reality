@@ -1,3 +1,10 @@
+# Reality chaotich changelog
+
+## 0.1.0.pre - 2018-02-09
+
+Pre-release of completely rewritten version. Still a long way to go before proper release, it will be
+described here properly at its time.
+
 ## 0.0.4 - 2016-04-18
 
 * Economic indicators from Quandl;
