@@ -14,7 +14,7 @@ module Reality
         end
 
         memoize def log
-          Logger.new(STDOUT)
+          Logger.new(STDOUT).tap { |l| l.level = Logger::INFO }
         end
 
         private
