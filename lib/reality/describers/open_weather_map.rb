@@ -23,12 +23,14 @@ module Reality
       }.freeze
 
       def perform_query(params)
+        ENV.key?('OPEN_WEATHER_MAP_APPID') or fail "OPEN_WEATHER_MAP_APPID environment variable is missing"
+
         at = params.delete('at')
         lat, lng = case at
         when Array
           at
         when Geo::Coord
-          at.lat_lng
+          at.latlng
         when Entity
           (at['coordinates'] || at['coordinate location'])&.latlng
         when /^\d+(?:\.\d+)?[,\| ;]\d+(?:\.\d+)?$/
