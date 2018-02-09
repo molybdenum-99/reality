@@ -18,5 +18,11 @@ module Reality
     def load
       Reality.describers.fetch(source).perform_query(params.transform_keys(&:to_s))
     end
+
+    alias all load
+
+    def first
+      load.first
+    end
   end
 end

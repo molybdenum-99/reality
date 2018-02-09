@@ -32,7 +32,7 @@ module Reality
       extend Memoist
 
       def method_missing(name, *arg, &block)
-        entity.method_missing(name, *arg, &block)
+        entity.public_send(name, *arg, &block)
       end
 
       def respond_to_missing?(name, *)

@@ -24,7 +24,7 @@ module Reality
             else
               fail ArgumentError, "Not a link #{c.inspect}"
             end
-            internal.api.query.list(:categorymembers).title('Category:' + category)
+            internal.api.query.list(:categorymembers).title('Category:' + category).limit(50)
               .response['categorymembers']
               .map { |m| m.fetch('title') }
               .flatten

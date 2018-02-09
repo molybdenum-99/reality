@@ -29,6 +29,10 @@ module Reality
       end
     end
 
+    def uri
+      uris.first
+    end
+
     memoize def uris
       observations.map(&:entity_uri).uniq
     end

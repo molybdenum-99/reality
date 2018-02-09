@@ -17,10 +17,10 @@ module Reality
       def perform_query(params)
         # I know about this methods' code quality, right? It is proof-of-concept
 
-        inside = params.delete('inside')
+        inside = params.delete('inside')&.yield_self(&method(:coerce))
         type = params.delete('type')
         radius = (params.delete('radius') || 1000).to_f
-        around = params.delete('around')
+        around = params.delete('around')&.yield_self(&method(:coerce))
 
         query = ''
         filter = ''
@@ -30,7 +30,10 @@ module Reality
           filter << '(area.bounds)'
         end
 
-        if around
+        case around
+        when Geo::Coord
+          filter << "(around:#{radius},#{around.to_s(dms: false)})"
+        when String
           query << "#{around}->.center;"
           filter << "(around.center:#{radius})"
         end
@@ -101,6 +104,29 @@ module Reality
           value
         end
         [key, value]
+      end
+
+      def coerce(object)
+        # FIXME: Very temp & naive, no validations
+        case object
+        when Entity
+          if object.uri.start_with?('osm:')
+            object.uri.sub(/^osm:/, '')
+          else
+            object['coordinates'] || object['coordinate location']
+          end
+        when Link
+          if object.source == 'osm'
+            object.id
+          else
+            entity = object.load
+            entity['coordinates'] || entity['coordinate location']
+          end
+        when String, Geo::Coord
+          object
+        else
+          fail ArgumentError, "Can't coerce to OpenStreetMap object: #{object.inspect}"
+        end
       end
 
       def faraday

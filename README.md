@@ -2,7 +2,6 @@ Reality
 =======
 
 [![Gem Version](https://badge.fury.io/rb/reality.svg)](http://badge.fury.io/rb/reality)
-[![Build Status](https://travis-ci.org/molybdenum-99/reality.svg?branch=master)](https://travis-ci.org/molybdenum-99/reality)
 [![Join the chat at https://gitter.im/molybdenum-99/reality](https://badges.gitter.im/molybdenum-99/reality.svg)](https://gitter.im/molybdenum-99/reality?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 **Reality** is your quick access point to almost any entity existing in
@@ -36,7 +35,7 @@ ar = Entity('Argentina')
 ar.cities.load!
 #  => #<Reality::List[Buenos Aires, "Córdoba, Argentina", "Rosario, Santa Fe", "Mendoza, Argentina", La Plata, San Miguel de Tucumán, Mar del Plata, Salta, "Santa Fe, Argentina", "San Juan, Argentina", "Resistencia, Chaco", Neuquén, Santiago del Estero, Corrientes, Avellaneda, Bahía Blanca, San Salvador de Jujuy, Quilmes, Lanús, Comodoro Rivadavia, "Concordia, Entre Ríos"]>
 ar.cities.map{|city| city.coord.distance_to(ar.capital)}
-# => [#<Reality::Measure(0.0 km)>, #<Reality::Measure(646 km)>, #<Reality::Measure(278 km)>, #<Reality::Measure(985 km)>, #<Reality::Measure(54 km)>, #<Reality::Measure(1,084 km)>, #<Reality::Measure(385 km)>, #<Reality::Measure(1,285 km)>, #<Reality::Measure(394 km)>, #<Reality::Measure(1,005 km)>, #<Reality::Measure(797 km)>, #<Reality::Measure(987 km)>, #<Reality::Measure(942 km)>, #<Reality::Measure(793 km)>, #<Reality::Measure(7 km)>, #<Reality::Measure(574 km)>, #<Reality::Measure(1,338 km)>, #<Reality::Measure(16 km)>, #<Reality::Measure(11 km)>, #<Reality::Measure(1,471 km)>, #<Reality::Measure(358 km)>] 
+# => [#<Reality::Measure(0.0 km)>, #<Reality::Measure(646 km)>, #<Reality::Measure(278 km)>, #<Reality::Measure(985 km)>, #<Reality::Measure(54 km)>, #<Reality::Measure(1,084 km)>, #<Reality::Measure(385 km)>, #<Reality::Measure(1,285 km)>, #<Reality::Measure(394 km)>, #<Reality::Measure(1,005 km)>, #<Reality::Measure(797 km)>, #<Reality::Measure(987 km)>, #<Reality::Measure(942 km)>, #<Reality::Measure(793 km)>, #<Reality::Measure(7 km)>, #<Reality::Measure(574 km)>, #<Reality::Measure(1,338 km)>, #<Reality::Measure(16 km)>, #<Reality::Measure(11 km)>, #<Reality::Measure(1,471 km)>, #<Reality::Measure(358 km)>]
 
 # or this
 matz = Entity('Yukihiro Matsumoto')
@@ -64,7 +63,7 @@ beatles = Entity('Beatles').parts
 # => #<Reality::List[John Lennon?, Sir. Paul McCartney?, Ringo Starr?, George Harrison?, Stuart Sutcliffe?, Pete Best?]>
 beatles.load!
 beatles.select(&:alive?)
-# => #<Reality::List[Paul McCartney, Ringo Starr, Pete Best]> 
+# => #<Reality::List[Paul McCartney, Ringo Starr, Pete Best]>
 beatles.select(&:alive?).map{|beatle| beatle.albums && beatle.albums.last}
 # => [#<Reality::Entity?(New (album))>, #<Reality::Entity?(Old Wave)>, nil]
 
@@ -227,7 +226,7 @@ would be appreciated here!
 
 Note that there could be a problem with SSL sertificates while connecting
 to Wikipedia API. _TODO: explain the problem and point to recipes._
-  
+
 ## Credits
 
 * [Victor Shepelev](https://zverok.github.io) [@zverok](https://github.com/zverok);

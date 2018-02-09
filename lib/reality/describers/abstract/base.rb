@@ -37,7 +37,7 @@ module Reality
         end
 
         def obs(entity_id, name, value, source: nil, time: nil)
-          Observation.new([prefix, entity_id].join(':'), name, value, time: time, source: source)
+          Observation.new([prefix, entity_id].join('://'), name, value, time: time, source: source)
         end
       end
     end
