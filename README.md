@@ -10,7 +10,7 @@ inspectable and computable.
 
 **!!!IMPORTANT!!!** This is **pre-release** of new, completely rewritten version. Previos version
 turned to be a (nice-looking) dead end. It still can be found at [old-prototype](https://github.com/molybdenum-99/reality/tree/old-prototype-branch)
-branch, and installed as a gem version 0.0.4.
+branch, and installed as a gem version 0.0.5.
 
 Current state is very WIP and prerelease is made for people to play at [RubyConf India 2018](http://rubyconfindia.org/)
 (TODO: insert link to slides/video after the talk.)
