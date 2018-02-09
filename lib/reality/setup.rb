@@ -1,4 +1,8 @@
-require 'dotenv/load'
+begin
+  require 'dotenv/load'
+rescue LoadError
+end
+
 require 'money/bank/open_exchange_rates_bank'
 
 if ENV.key?('OPEN_EXCHANGE_RATE_APP_ID')
