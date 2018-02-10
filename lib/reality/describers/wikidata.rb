@@ -27,7 +27,8 @@ module Reality
           next ['rdfs:label', 'monolingualtext', value] if name == 'label'
 
           prop =
-            @api.wbsearchentities.search(name).type(:property).language(:en).limit(1)
+            @api.wbsearchentities.search(name.gsub('_', ' '))
+            .type(:property).language(:en).limit(1)
             .response['search'].first or fail ArgumentError, "Property named #{name.inspect} can not be found"
           ['wdt:' + prop.fetch('id'), prop.fetch('datatype'), value]
         }

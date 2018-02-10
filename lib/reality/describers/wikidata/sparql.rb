@@ -29,7 +29,6 @@ module Reality
         end
 
         def query(predicates)
-          p predicates
           predicates_query = predicates.map { |name, datatype, value|
             '%<predicate>s %<value>s' % {predicate: name, value: recode_value(value, datatype)}
           }.join('; ')
