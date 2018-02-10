@@ -15,17 +15,7 @@ Gem::Specification.new do |s|
   EOF
   s.licenses = ['MIT']
 
-  s.files = `git ls-files`.split($RS).reject do |file|
-    file =~ /^(?:
-    spec\/.*
-    |Gemfile
-    |Rakefile
-    |\.rspec
-    |\.gitignore
-    |\.rubocop.yml
-    |\.travis.yml
-    )$/x
-  end
+  s.files = `git ls-files bin lib LICENSE.txt *.md`.split($RS)
   s.require_paths = ["lib"]
   s.bindir = 'bin'
   s.executables << 'reality'
