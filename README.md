@@ -13,7 +13,8 @@ turned to be a (nice-looking) dead end. It still can be found at [old-prototype]
 branch, and installed as a gem version 0.0.5.
 
 Current state is very WIP and prerelease is made for people to play at [RubyConf India 2018](http://rubyconfindia.org/)
-(TODO: insert link to slides/video after the talk.)
+
+[See the presentation](https://docs.google.com/presentation/d/1I4mznHUBhVVDxWfO2DRzxP4wNhs9Mmtx09SizLqIbaE/edit?usp=sharing).
 
 Stay tuned for large and important updates!
 
