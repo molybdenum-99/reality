@@ -7,10 +7,6 @@ module Reality
         @api = API.new(api_key: key)
       end
 
-      def find(lat_lng, at: nil)
-        at ? forecast(*lat_lng, at) : current(*lat_lng)
-      end
-
       def perform_query(params)
         lat, lng = case params
           when Array
