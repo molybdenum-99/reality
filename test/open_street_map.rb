@@ -11,7 +11,7 @@ title = ARGV.first
 id = if title =~ /^(node|way|rel):(\d+)$/
   title
 else
-  wikidata = Reality::DataSources::Wikidata::Impl::Api.new(user_agent: Reality::USER_AGENT)
+  wikidata = Reality::Describers::Wikidata::Impl::Api.new(user_agent: Reality::USER_AGENT)
   osm_id = wikidata
     .wbgetentities.titles(title).sites(:enwiki)
     .props(:info, :sitelinks, :claims).sitefilter(:enwiki).languages(:en)
