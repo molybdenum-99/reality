@@ -14,7 +14,7 @@ VCR.configure do |config|
   config.configure_rspec_metadata!
 end
 
-Reality.configure(:demo)
+# Reality.configure(:demo)
 
 #require_relative 'helpers/formatters'
 
@@ -30,26 +30,26 @@ Reality.configure(:demo)
   #end
 #end
 
-RSpec::Matchers.define :be_covered_by do |range|
-  match do |actual|
-    range.cover?(actual)
-  end
+# RSpec::Matchers.define :be_covered_by do |range|
+#   match do |actual|
+#     range.cover?(actual)
+#   end
 
-  failure_message do |actual|
-    "expected that #{actual} would be covered by #{range}"
-  end
+#   failure_message do |actual|
+#     "expected that #{actual} would be covered by #{range}"
+#   end
 
-  description do
-    "be covered by #{range}"
-  end
-end
+#   description do
+#     "be covered by #{range}"
+#   end
+# end
 
-RSpec::Matchers.define :observe do |value|
-  match do |observations|
-    observations.map(&:value).include?(value)
-  end
+# RSpec::Matchers.define :observe do |value|
+#   match do |observations|
+#     observations.map(&:value).include?(value)
+#   end
 
-  failure_message do |observations|
-    "expected to include #{value.inspect} but got #{observations.map(&:value).uniq}"
-  end
-end
+#   failure_message do |observations|
+#     "expected to include #{value.inspect} but got #{observations.map(&:value).uniq}"
+#   end
+# end

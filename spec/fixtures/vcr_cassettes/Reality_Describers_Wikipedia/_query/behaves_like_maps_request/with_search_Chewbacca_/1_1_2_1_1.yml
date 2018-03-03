@@ -1,0 +1,80 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://en.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=Chewbacca
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip
+      User-Agent:
+      - Infoboxer/0.3.2 (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 03 Mar 2018 11:37:05 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1394'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1223.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.18.6-dev
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
+        for more info."
+      Content-Encoding:
+      - gzip
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Disposition:
+      - inline; filename=api-result.json
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=68162 t=1520077025790741
+      X-Varnish:
+      - 104008995, 463246506, 1039381902
+      Via:
+      - 1.1 varnish (Varnish/5.1), 1.1 varnish (Varnish/5.1), 1.1 varnish (Varnish/5.1)
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1055 pass, cp3033 pass, cp3030 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=106384710; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=UA:::50.45:30.52:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=03-Mar-2018;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Wed,
+        04 Apr 2018 00:00:00 GMT
+      - WMF-Last-Access=03-Mar-2018;Path=/;HttpOnly;secure;Expires=Wed, 04 Apr 2018
+        00:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 94.179.58.230
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA52Xa2/bNhSG/wqhD1sC2K2ou7VuQJZduq0BisVDga37QElHEmGKdEkqntb2v+9Qil25tVe4gWFJFsnD8/A9l7z1CmbLtlTdVoAFL/e8hVcqabns8emtZ7SqawPWy6k/f+Mt373z3i+8Nz3oYRwITJctl7VyT1ZZJlpujZdHqxTHTa+9/K+3nsQfcS3LrXAL3bawK1hZMrS8ZQ3wCm2t0iDy4wzn8X9xUBCnq2jh7ZSuStVL3E1IA1zDSL7dus15z8yWSVIKZsy3rx+tdc611953BwvPnrpR35Grp/Z17wdZ2LtL5bvvMivcJabTT5vxYfX0ekEkLzeSdVCRr970yn7jluMw3S8IN4SRmpeWK8kEKVumWWlBEy6JbYHcW6bJK6YNqTWTSMjAE/IcpnmvlNpwgAXeIi+xIC3XprdACr5Fe0xWuIwFIXgD6LWD1oGxrNuiy4FPs6UfLIN0TbM8xg/9E4/kPGBSQQ3SwAx0GPpZmu4x0yCIkyPMNIrpHPMNuQj0o0HnrGPhKO65/CG5RRcRjwVDGv4A+LtCEAIa5GisxhfN4IbvWl624yTGO6Lq6VY3fYdQiAHojJtagPuuQPAC3GQxENRr3aN9nHASHl0GwdrPchrmYfoZeHfMbMgLVg0zfLGfIL8s3gPMVu5+xi+L6Ber9GCQXDFhFNlItZOEmcuO4E5116PY5CglLcGSB64R8QOvQJEamO01lw0J0+WAay2VqMga/kFDnUJwmtyiDlkJ5CUbJKDWReeG4xsDosYr05aL4bw6gzAP0jzwTwJ+CS5Y7tiAG5+RXeFfeuBKwygMj4Xpx+Gc7HwZclUoLQlduWe8RNGewI+yEdy0y5sONC/xBwxVpcd43Ao2oB4vYvtpiCMbFKTmYJ4Qst/ODlGOO1JHm3LTv2d4IOYMOpqtaZIHFGV2Et2vClOOIfeYiFinZvCibIWhnIZ7fEmWpEf0InokS7rKkgkR+YlLiYQmMGMCKlCGYAtMTxMj/SjEGt9jNiNaCbhYlZ+QM6xhC0yCGyct9YBW3Ptx7VqrjhydL4JCycnmTEz7GNNJHmFMJ+diuiY3CGpWcJIkTeNgD2yV+v5HckuCObFdq9xhg0Mm2M703BL0gEtjEUo3wcFKYIzLUU/IrSpbTP8EsM6qYcqGUwX5kny6rz0aTC8cCMeTkR2fTmUkByXunrjCzuQwHmTFOvT2MVWeS4f+mgZ5mOX+6VryWLBm5AJMgaskSg6h6tPko1ANnPo+sOsUQrriNZEKoQlxTaY00/Ydk4pXxGyhHCNojY6Mo3EkK1AKj+adVC/hthiRlGrLBZrEAvIcp94roRZkOkiNNhhuj2mo9trEHiSdAvqg0nMpLln7fk7j3I9PQttbO6IWxylN6KHBSdOMHjc4/sj0QO1kH/HLtFWlecNd9zFu12p0sxkWo5fu4F2Ulmo5er+4EFwB5VS0H5R4+ADndyhAkBtsTHAv8LVx9bpvGpcJHqPAjfqZCcwjvDzJLUS9rekKWxD8fKb2XlXcsK7gTc9cn3U9L8FBmuEnOuQ6GhxX4C9vE8eE+D8NHbaEnB0dhyUdJvexWmsMVQxFlX9BnO/jmxGjMLiLAXP8Fku3emC4i1L0FZ4EFpNbAXpjcnLXG15OedLt8E45SJ9CT5fUd2LFouKHOT0d4R/ce64Er9CdexeOTMyzZRYHyYF4FEXpccTHkZ/Nqe91arCmDIJL15AxlAiHKROayQLSasClgstEOmp8H2PY1RjMxb8x0w7DsLlsJdRxq1Dt6IqoFi5RliCgcM0kecFrID+wYcxKeMYaW4Yem3WozmUFf+0H+J9LHrkq9Pf79/8BEHb00mwNAAA=
+    http_version: 
+  recorded_at: Sat, 03 Mar 2018 11:37:06 GMT
+recorded_with: VCR 3.0.3

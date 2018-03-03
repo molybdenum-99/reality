@@ -12,47 +12,15 @@ module Reality
 
         def perform_query(params = {})
           if (c = params['category'])
-            category = case c
-            when Link
-              # FIXME: in future, for other language wikis, we can't do this, they may have _local_
-              # category names.
-              c.source == prefix or fail ArgumentError, "Wrong source #{c.source}"
-              c.id =~ /^category:(.+)$/i or fail ArgumentError, "Wrong Wikipedia page (not a category) #{c.id}"
-              Regexp.last_match[1]
-            when String
-              c.sub(/^category:/i, '')
-            else
-              fail ArgumentError, "Not a link #{c.inspect}"
-            end
-            internal.api.query.list(:categorymembers).title('Category:' + category).limit(50)
-              .response['categorymembers']
-              .map { |m| m.fetch('title') }
-              .flatten
-              .map { |title| Link.new(prefix, title) }
+            category = Coerce.media_wiki_category(c, internal)
+            fetch_list(:categorymembers) { |api| api.title(category) }
           elsif (s = params['search'])
-            internal.api.query.list(:search).search(s)
-              .response['search']
-              .map { |m| m.fetch('title') }
-              .flatten
-              .map { |title| Link.new(prefix, title) }
+            fetch_list(:search) { |api| api.search(s) }
           elsif (p = params['around'])
-            point = case p
-            when Array
-              p.join('|')
-            when Geo::Coord
-              p.strfcoord('%lat|%lng')
-            when Entity
-              (p['coordinates'] || p['coordinate location'])&.value&.strfcoord('%lat|%lng')
-            when /^\d+(?:\.\d+)?[,\| ;]\d+(?:\.\d+)?$/
-              p.split(/[,\| ;]/).join('|')
-            end
+            point = Coerce.geo_coord(p).strfcoord('%lat|%lng')
+            radius = params.fetch('radius', 500).to_i
 
-            radius = (params['radius'] || 500).to_i
-            internal.api.query.list(:geosearch).coord(point).radius(radius)
-              .response['geosearch']
-              .map { |m| m.fetch('title') }
-              .flatten
-              .map { |title| Link.new(prefix, title) }
+            fetch_list(:geosearch) { |api| api.coord(point).radius(radius) }
           end
         end
 
@@ -60,6 +28,13 @@ module Reality
 
         def setup_request(req)
           req
+        end
+
+        def fetch_list(key, &setup)
+          internal.api.query.list(key).yield_self(&setup)
+            .response[key.to_s]
+            .flat_map { |m| m.fetch('title') }
+            .map { |title| Link.new(prefix, title) }
         end
 
         memoize def internal
