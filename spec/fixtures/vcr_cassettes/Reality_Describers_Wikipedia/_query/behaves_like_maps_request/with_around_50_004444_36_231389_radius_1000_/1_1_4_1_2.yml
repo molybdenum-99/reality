@@ -1,0 +1,80 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://en.wikipedia.org/w/api.php?action=query&format=json&gscoord=50.004444%7C36.231389&gsradius=1000&list=geosearch
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip
+      User-Agent:
+      - Infoboxer/0.3.2 (https://github.com/molybdenum-99/infoboxer; zverok.offline@gmail.com)
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 03 Mar 2018 11:43:22 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '472'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1314.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.18.6-dev
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://en.wikipedia.org/wiki/Special:CentralAutoLogin/P3P
+        for more info."
+      Content-Encoding:
+      - gzip
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Disposition:
+      - inline; filename=api-result.json
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=116796 t=1520077402052272
+      X-Varnish:
+      - 796834208, 492045431, 1046984885
+      Via:
+      - 1.1 varnish (Varnish/5.1), 1.1 varnish (Varnish/5.1), 1.1 varnish (Varnish/5.1)
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1065 pass, cp3031 pass, cp3030 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=106384710; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=UA:::50.45:30.52:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=03-Mar-2018;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Wed,
+        04 Apr 2018 00:00:00 GMT
+      - WMF-Last-Access=03-Mar-2018;Path=/;HttpOnly;secure;Expires=Wed, 04 Apr 2018
+        00:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 94.179.58.230
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA42Uy4rbMBiFX0Vo1YIxul+8K5S20Mtm6KbtLJRYjcU4VkaRU9yQd6+GiR17Eg09GAzC9nfO0S8f4crEdbP2211ro4UVhAV87G0YYHWEG+v31oR1A6ufR7gzG+tqWBGpFOeqgN0eVqiA0cX26c3PjQkP7pA+0JoIK45KhNiktOo7WFFREoqpepYuYO326WFU4gLugtuaJzKEp+LCY4Jjjm4A76KJvQX+N/hiO9eBdN30oOgCjicq4yXJYzGRjFJ6hf0QrK39Ftw99iZY8ObMfPsfwS8aLWCqsw6Ixphhiq4cvLfhb7MLycMIB19tDH5pgWvJF8HJufcpP5aolFk8FyLt83X+75072LAfoo2v8hkWz5JzF3yUGF0QrUuWdaEoJ0yQfAcLpphN1sQkkowamVSoLDG1wrFU4vaA+wP46FP+zgeTDswEn/P0xOFYlTRP4phSzjKk1Oo3E53vTJvqrd063c/duzgsYms8xys+4bl8pVoiEBGasiv8DxseTPurR2SlOzMYsI+hH8yIZLrUWgl81nx3mXzZtND5k02l0AKj7K/kkv9dH/3Wr1xrgelq8Mltmj9myNUhZpYYndpQirwc9/vT6R9hXoBRAwUAAA==
+    http_version: 
+  recorded_at: Sat, 03 Mar 2018 11:43:22 GMT
+recorded_with: VCR 3.0.3

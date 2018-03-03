@@ -10,8 +10,8 @@ module Reality
         value
       when Entity
         (value['coordinates'] || value['coordinate location'])&.value
-      when /^\d+(?:\.\d+)?[,\| ;]\d+(?:\.\d+)?$/
-        Geo::Coord.new(*value.split(/[,\| ;]/))
+      when /^\d+(?:\.\d+)?[,\| ;]\s*\d+(?:\.\d+)?$/
+        Geo::Coord.new(*value.split(/[,\| ;]\s*/, 2))
       else
         uncoercible(value, Geo::Coord)
       end

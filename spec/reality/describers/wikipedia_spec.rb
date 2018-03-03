@@ -28,6 +28,10 @@ RSpec.describe Reality::Describers::Wikipedia, :vcr do
     it_behaves_like 'maps request',
       {around: Geo::Coord.new(0, 0), radius: 1000},
       {list: 'geosearch', gscoord: '0.000000|0.000000', gsradius: '1000'}
+
+    it_behaves_like 'maps request',
+      {around: '50.004444, 36.231389', radius: 1000},
+      {list: 'geosearch', gscoord: '50.004444|36.231389', gsradius: '1000'}
   end
 
 end
