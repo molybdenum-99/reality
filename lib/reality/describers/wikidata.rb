@@ -76,7 +76,7 @@ module Reality
 
       def process_basics(entity)
         METADATA_FETCHERS.map { |key, path|
-          ["meta.#{key}", Util.dig(entity, *path)]
+          ["meta.#{key}", Hm(entity).dig(*path)]
         }
       end
 

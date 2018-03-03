@@ -18,8 +18,6 @@ module Reality
       class LabelsCache
         CACHE_PATH = File.expand_path('~/.reality/cache/wikidata')
         FACETS = %i[properties units entities]
-        LINKS_PATH = [:*, 'mainsnak', 'datavalue', 'value', 'id']
-        UNITS_PATH = [:*, 'mainsnak', 'datavalue', 'value', 'unit']
 
         def initialize(api)
           @api = api
@@ -28,11 +26,16 @@ module Reality
 
         def update_from(entity)
           claims = entity.fetch('claims')
-          values = claims.values.flatten(1)
+          values = Hm(claims.values).dig(:*, :*, 'mainsnak', 'datavalue').flatten(1)
           cache_facets(
             properties: claims.keys,
-            entities: Util.dig(values, *LINKS_PATH).grep_v('id').compact,
-            units: Util.dig(values, *UNITS_PATH).compact.grep_v('1').grep_v('unit').map(&method(:url2id))
+            entities: values
+              .select { |v| v['type'] == 'wikibase-entityid' }
+              .map { |v| v.dig('value', 'id') },
+            units: values
+              .select { |v| v['type'] == 'quantity' }
+              .map { |v| v.dig('value', 'unit') }.grep_v('1')
+              .map(&method(:url2id))
           )
         end
 
@@ -78,9 +81,11 @@ module Reality
           return {} if ids.empty?
 
           # wbgetentities have no pagination, so we need to implement it on client
-          ids.each_slice(50).map { |ids|
+          ids.each_slice(50)
+          .map { |ids|
             @api.wbgetentities.ids(*ids).props(:labels).languages(:en).response['entities']
-          }.reduce(:merge)
+          }
+          .reduce(:merge)
           .map { |k,v| [k, v.dig('labels', 'en', 'value')] }.to_h
         end
 

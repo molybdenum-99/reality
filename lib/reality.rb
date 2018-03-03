@@ -5,6 +5,7 @@ require 'fileutils'
 
 require 'backports/latest'
 require 'memoist'
+require 'hm'
 
 require 'money'
 require 'geo/coord'
