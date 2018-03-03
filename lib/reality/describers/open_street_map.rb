@@ -15,52 +15,18 @@ module Reality
       end
 
       def perform_query(params)
-        # I know about this methods' code quality, right? It is proof-of-concept
+        filters, tags = Hm(params).partition('type', 'inside', 'around', 'radius', 'limit')
+        prepared = Hm(filters)
+          .transform_keys(&:to_sym)
+          .transform_values(:inside, :around, &Coerce.method(:osm_id))
+          .transform_values(:radius, &:to_f)
+          .to_h
+          .merge(tags: tags)
 
-        inside = params.delete('inside')&.yield_self(&method(:coerce))
-        type = params.delete('type')
-        radius = (params.delete('radius') || 1000).to_f
-        around = params.delete('around')&.yield_self(&method(:coerce))
-
-        query = ''
-        filter = ''
-
-        if inside
-          query << "#{inside}; map_to_area->.bounds;"
-          filter << '(area.bounds)'
-        end
-
-        case around
-        when Geo::Coord
-          filter << "(around:#{radius},#{around.to_s(dms: false)})"
-        when String
-          query << "#{around}->.center;"
-          filter << "(around.center:#{radius})"
-        end
-
-        filter << params.map { |k, v| '["%s"="%s"]' % [k, v] }.join
-
-        # what exactly we select
-        if type
-          query << "#{type}#{filter};"
-        else
-          query << '(rel%s; way%s; node%s;);' % ([filter] * 3)
-        end
-
-        # what we output.
-        # TODO: out counts, for "continue"?.. Though, we CAN'T continue as it has no pagination...
-        # "asc" is "sort by id", typically it is "best guess" order (e.g. city Chiang Mai has lower
-        # id than restaurant Chiang Mai and so on)
-        query << 'out tags asc 10;'
+        query = OverpassBuilder.new(prepared).to_s
 
         overpass_query(query).fetch('elements')
-          .map { |el|
-            Link.new(
-              'osm',
-              "#{SHORT_TYPE.fetch(el['type'])}(#{el['id']})",
-              title: (el['tags'] || {}).values_at('name:en', 'name', 'int_name').compact.first
-            )
-          }
+          .map(&method(:parse_link))
       end
 
       private
@@ -83,10 +49,19 @@ module Reality
           'meta.coord' => el.values_at('lat', 'lon').compact.yield_self
             .reject(&:empty?).first&.yield_self { |(lat, lng)| Geo::Coord.new(lat, lng) }
         }
-          .merge(el.fetch('tags'))
+          .merge(el.fetch('tags', {}))
           .map { |k, v| post_process(k, v) }
           .reject { |k, _| k.match(/:([a-z]{2,3})([-_][-_a-z]+)?$/) && Regexp.last_match[1] != 'en' }
           .to_h
+      end
+
+      def parse_link(el)
+        # FIXME: In fact, we fetch proper entities from Overpass, not just links
+        Link.new(
+          'osm',
+          "#{SHORT_TYPE.fetch(el['type'])}(#{el['id']})",
+          title: (el['tags'] || {}).values_at('name:en', 'name', 'int_name').compact.first
+        )
       end
 
       def post_process(key, value)
@@ -104,29 +79,6 @@ module Reality
           value
         end
         [key, value]
-      end
-
-      def coerce(object)
-        # FIXME: Very temp & naive, no validations
-        case object
-        when Entity
-          if object.uri.start_with?('osm:')
-            object.uri.sub(/^osm:/, '')
-          else
-            object['coordinates'] || object['coordinate location']
-          end
-        when Link
-          if object.source == 'osm'
-            object.id
-          else
-            entity = object.load
-            entity['coordinates'] || entity['coordinate location']
-          end
-        when String, Geo::Coord
-          object
-        else
-          fail ArgumentError, "Can't coerce to OpenStreetMap object: #{object.inspect}"
-        end
       end
 
       def faraday
@@ -152,5 +104,7 @@ module Reality
     end
   end
 end
+
+require_relative 'open_street_map/overpass_builder'
 
 Reality.describers['openstreetmap'] = Reality.describers['osm'] = Reality::Describers::OpenStreetMap.new

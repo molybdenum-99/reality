@@ -5,6 +5,7 @@ source 'https://rubygems.org'
 
 #gem 'mediawiktory', path: '/home/zverok/gems/mediawiktory'
 #gem 'infoboxer', path: '/home/zverok/gems/infoboxer'
+gem 'hm', path: '/home/zverok/gems/hm'
 
 gemspec
 

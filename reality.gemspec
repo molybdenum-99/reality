@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
   s.required_ruby_version = '>= 2.3.0'
 
   s.add_dependency 'backports', '~> 3.11'
-  s.add_dependency 'hm', '>= 0.0.2'
+  # s.add_dependency 'hm', '>= 0.0.2'
   s.add_dependency 'infoboxer', '>= 0.3.2'
   s.add_dependency 'tzinfo'
   s.add_dependency 'geo_coord', '>= 0.1.0'

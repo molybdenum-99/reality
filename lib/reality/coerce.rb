@@ -34,6 +34,29 @@ module Reality
       end.yield_self { |s| "Category:#{s}" }
     end
 
+    def osm_id(value)
+      # FIXME: Very temp & naive, no validations
+      case value
+      when Entity
+        if object.uri.start_with?('osm:')
+          value.uri.sub(/^osm:/, '')
+        else
+          value['coordinates'] || value['coordinate location']
+        end
+      when Link
+        if value.source == 'osm'
+          value.id
+        else
+          value.load.yield_self { |entity|
+            entity['coordinates'] || entity['coordinate location']
+          }
+        end
+      else
+        geo_coord(value)
+        # uncoercible value, "OpenStreetMap object"
+      end
+    end
+
     private_class_method
 
     def uncoercible(value, target)
