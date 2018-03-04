@@ -33,6 +33,10 @@ module Reality
       uris.first
     end
 
+    def to_yaml
+      {'_uri' => uri}.merge(observations.map { |o| [o.variable.to_s, o.value] }.sort.to_h).to_yaml
+    end
+
     memoize def uris
       observations.map(&:entity_uri).uniq
     end

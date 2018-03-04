@@ -1,5 +1,6 @@
 RSpec.describe Reality::Describers::Wikipedia, :vcr do
   let(:describer) { described_class.new }
+  # FIXME: Ugly...
   before { VCR.use_cassette('wikipedia-meta') { describer.__send__(:internal) } }
 
   describe '#query' do
