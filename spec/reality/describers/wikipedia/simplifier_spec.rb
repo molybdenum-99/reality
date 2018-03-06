@@ -63,4 +63,11 @@ RSpec.describe Reality::Describers::Wikipedia::Simplifier do
     || 4.9% [[Roma in Bulgaria|Roma]]
     || 1.5% others}}
   })) { is_expected.to ret parse(' 84.8% [[Bulgarians]]<br/> 8.8% [[Turks in Bulgaria|Turks]]<br/> 4.9% [[Roma in Bulgaria|Roma]]<br/> 1.5% others') }
+
+  its_call(multiline(%{
+    |
+    |*''Archidiskodon'' <small>Pohling, 1888</small>
+    |*''Parelephas'' <small>Osborn, 1924</small>
+    |*''Mammonteus''
+  })) { is_expected.to ret parse('Archidiskodon<br/>Parelephas<br/>Mammonteus') }
 end

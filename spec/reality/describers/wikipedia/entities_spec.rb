@@ -7,4 +7,5 @@ RSpec.describe Reality::Describers::Wikipedia, 'entities' do
 
   entity('Argentina')
   entity('Chewbacca')
+  entity('Mammoth')
 end
