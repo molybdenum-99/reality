@@ -58,8 +58,8 @@ module Reality
             node.unnamed_variables.first.children.flat_map(&method(:unwrap))
           elsif W(:List) === node
             node.children.map(&:children)
+              .map(&method(:call))
               .yield_self { |items| ajoin(items, BR) }
-              .flat_map(&method(:unwrap))
           elsif W(:Template, name: /^(plain ?list|flatlist)$/i) === node # Infoboxer can't help here
             *before, list = node.unnamed_variables.first.children
             before[0] = Infoboxer::Tree::Text.new(before[0].text.sub(/^\* /, ''))
