@@ -8,6 +8,7 @@ module Reality
       end
 
       def perform_query(params)
+        params = params.fetch('coord')
         lat, lng = case params
           when Array
             params
@@ -51,10 +52,9 @@ module Reality
           end
         end
       end
-    
+
     end
   end
 end
 
-# TODO: Create ENV['DARK_SKY_APPID']
-# Reality.describers['darksky'] = Reality.describers['dark_sky'] = Reality::Describers::DarkSky.new(ENV['DARK_SKY_APPID'])
+Reality.describers['darksky'] = Reality.describers['dark_sky'] = Reality::Describers::DarkSky.new(ENV['DARK_SKY_APPID'])

@@ -45,5 +45,6 @@ module Reality
     describers/open_street_map
     describers/wikimedia_commons
     describers/open_weather_map
+    describers/dark_sky
   ]
 end

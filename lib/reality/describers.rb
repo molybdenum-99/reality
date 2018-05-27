@@ -30,5 +30,9 @@ module Reality
     def open_weather_map
       describers['open_weather_map']
     end
+
+    def dark_sky
+      describers['dark_sky']
+    end
   end
 end

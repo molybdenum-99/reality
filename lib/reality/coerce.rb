@@ -38,7 +38,7 @@ module Reality
       # FIXME: Very temp & naive, no validations
       case value
       when Entity
-        if object.uri.start_with?('osm:')
+        if value.uri.start_with?('osm:')
           value.uri.sub(/^osm:/, '')
         else
           value['coordinates'] || value['coordinate location']
