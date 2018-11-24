@@ -26,7 +26,13 @@ module Reality
 
         def update_from(entity)
           claims = entity.fetch('claims')
-          values = Hm(claims.values).dig(:*, :*, 'mainsnak', 'datavalue').flatten(1)
+          # Compact is necessary because somehow there could be like this
+          # Q408:
+          # {"snaktype"=>"somevalue", "property"=>"P3271", "hash"=>"68baa1538b7ac32b6d03e73fcfafc7bfc1010395", "datatype"=>"quantity"}
+          # {"snaktype"=>"novalue", "property"=>"P1451", "hash"=>"da438cb18474c1329b82cc6a28e93892842523f9", "datatype"=>"monolingualtext"}
+          #
+          # First is "unknown (but existing) value", second is "no value at all"
+          values = Hm(claims.values).dig(:*, :*, 'mainsnak', 'datavalue').flatten(1).compact
           cache_facets(
             properties: claims.keys,
             entities: values

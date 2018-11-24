@@ -5,7 +5,7 @@ module Reality
         module_function
 
         def snak(snak, cache)
-          return nil if snak.dig('mainsnak', 'snaktype') == 'novalue'
+          return nil if %w[novalue somevalue].include?(snak.dig('mainsnak', 'snaktype'))
 
           datavalue = snak.dig('mainsnak', 'datavalue')
           value = datavalue.fetch('value')
@@ -44,8 +44,9 @@ module Reality
           case type
           when 'commonsMedia'
             Link.new('wikimedia-commons', "File:#{value}")
-          when *%w[string url math external-id]
+          when *%w[string url math external-id geo-shape]
             # TODO: external id + property name => link
+            # TODO: geo-shape
             value
           when 'tabular-data'
             Link.new('wikimedia-commons', value)
